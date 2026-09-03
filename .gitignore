@@ -1,0 +1,48 @@
+# ---------------------------------------------------------------
+# Audio y vídeo: NO se versionan en git.
+# GitHub tiene un límite duro de 100 MB por archivo y penaliza los
+# repos grandes. Estos archivos son regenerables a partir de las
+# transcripciones + el TTS, así que viven solo en local.
+# Si algún día quieres versionarlos, mira docs/almacenamiento.md
+# ---------------------------------------------------------------
+*.mp3
+*.wav
+*.m4a
+*.aac
+*.flac
+*.ogg
+*.opus
+*.mp4
+*.mov
+*.mkv
+*.webm
+
+# Carpetas de trabajo pesadas dentro de cada episodio
+episodios/**/tts/
+episodios/**/audio/
+episodios/**/video/
+
+# Listas temporales generadas por los scripts
+concat.txt
+*.concat.txt
+
+# Secretos (claves de API de TTS / traducción)
+.env
+.env.*
+!.env.example
+*.key
+credenciales*.json
+
+# Basura del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
