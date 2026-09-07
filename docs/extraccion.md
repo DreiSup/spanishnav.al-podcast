@@ -193,15 +193,24 @@ y `numero: null` en ambos metadata. Nada queda fuera del repo.
 ```bash
 python3 scripts/normalizar-extraccion.py <en.json> <es.json>
 python3 scripts/normalizar-extraccion.py <en.json> <es.json> --simular
+python3 scripts/normalizar-extraccion.py <en.json> <es.json> --fecha 2019-05-23
 ```
 
 Qué hace:
 
-- Trocea cada intervención en frases y asigna ids correlativos (`0001`, `0002`, …)
+- Pone un id por **bloque de hablante**: `b01-nivi`, `b02-naval`, … Salen de la posición del
+  bloque, así que los mismos datos dan siempre los mismos ids
+- **Trocea el inglés en frases él mismo**, venga el bloque como un string o como una lista de
+  un solo elemento. El **español lo respeta tal cual**: ese troceado es una decisión de
+  doblaje de quien traduce, no del script
 - Aplica la regla de numeración de arriba para decidir carpeta y `numero`
-- Escribe `transcript.en.json` y `metadata.en.json` en `episodios/<año>/<NNN>-<slug>/`
-- Crea `metadata.es.json` en estado `pendiente`
-- Marca `tiene_transcript: true` en `catalogo.json` para ese episodio: si el transcript está
-  en el repo, es que existe. Reescribe el fichero conservando una entrada por línea, así que
-  el diff es de una sola línea. Es idempotente y con `--simular` no lo toca
+- Escribe los cuatro `.json` en `episodios/<año>/<NNN>-<slug>/`
+- Crea `metadata.es.json` en estado `pendiente`, o en `heredado` si el número está entre 1 y
+  34 (ver "Episodios heredados" en CLAUDE.md). `--sin-heredado` desactiva esa marca
+- Actualiza la entrada del episodio en `catalogo.json`: `tiene_transcript: true` y, si venía
+  sin fecha, la que se haya pasado con `--fecha`. Reescribe el fichero conservando una entrada
+  por línea, así que el diff es de una sola línea. Es idempotente y con `--simular` no lo toca
 - Deja un informe con bloques, frases, palabras, ratio es/en, ids y avisos
+
+`--fecha` solo hace falta la primera vez: queda escrita en el catálogo. Si el episodio es uno
+de los 59 sin fecha y no se pasa, el script se para y dice dónde buscarla.

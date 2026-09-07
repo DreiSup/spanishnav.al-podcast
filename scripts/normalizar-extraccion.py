@@ -23,11 +23,12 @@ Lo que hace, y nada más:
   - añade schema, idioma, episodio, numero, fecha ISO y fuente_url desde el catálogo
   - pone un id por bloque de hablante: b01-nivi, b02-naval, …
   - renombra titulo_seccion (singular) a subtitulo
-  - si `frases` es un string, lo trocea en frases; si ya es una lista, la respeta
+  - trocea en frases el inglés siempre; en español respeta el troceado del traductor
   - si el episodio es uno de los 34 producidos a mano en 2019, lo marca como heredado
 
-Y marca `tiene_transcript: true` en catalogo.json para ese episodio: si el transcript
-está en el repo, es que existe. Con --simular no toca el catálogo.
+Y actualiza catalogo.json para ese episodio: `tiene_transcript: true` —si el transcript
+está en el repo, es que existe— y la fecha, si la entrada venía sin ella. Con --simular
+no toca el catálogo.
 
 El texto no se toca nunca.
 """
@@ -81,11 +82,24 @@ def trocear(texto: str) -> list[str]:
     return [p.strip() for p in partes if p.strip()]
 
 
-def frases_de(bloque: dict) -> list[str]:
+def frases_de(bloque: dict, trocear_siempre: bool = False) -> list[str]:
+    """Saca las frases de un bloque.
+
+    En **inglés** el troceo lo hace siempre el script, venga el bloque como un
+    string o como una lista de un solo elemento: es determinista y no puede
+    depender de cómo empaquete el JSON quien lo genere.
+
+    En **español** se respeta el troceado tal cual: partir una frase larga o
+    fundir un "Sí." suelto con la siguiente es una decisión de doblaje de quien
+    traduce, no del script. Ver CLAUDE.md.
+    """
     valor = bloque.get("frases", bloque.get("texto", ""))
-    if isinstance(valor, str):
-        return trocear(valor)
-    return [f if isinstance(f, str) else f.get("texto", "") for f in valor]
+    if not isinstance(valor, str):
+        lista = [f if isinstance(f, str) else f.get("texto", "") for f in valor]
+        if not trocear_siempre:
+            return lista
+        valor = " ".join(lista)
+    return trocear(valor)
 
 
 def localizar(entrada_en: dict, slug_forzado: str | None) -> dict:
@@ -111,7 +125,7 @@ def construir_transcript(origen: dict, idioma: str, ficha: dict) -> tuple[dict, 
         speaker = (bloque.get("speaker") or "").strip()
         if not speaker:
             avisos.append(f"{idioma}: bloque {i} sin speaker")
-        frases = [f.strip() for f in frases_de(bloque) if f.strip()]
+        frases = [f.strip() for f in frases_de(bloque, trocear_siempre=idioma == "en") if f.strip()]
         if not frases:
             avisos.append(f"{idioma}: bloque {i} sin frases")
         contenido.append({
@@ -150,19 +164,34 @@ def bloque_heredado(numero: int | None) -> dict | None:
     }
 
 
-def marcar_en_catalogo(slug: str, simular: bool) -> str:
-    """Pone tiene_transcript: true en la entrada del episodio. Devuelve qué hizo."""
+def marcar_en_catalogo(slug: str, fecha: str, simular: bool) -> str:
+    """Actualiza la entrada del episodio en el catálogo. Devuelve qué hizo.
+
+    Pone tiene_transcript: true y, si la entrada venía sin fecha (59 de 2019 y
+    2020), la rellena: así el --fecha de la línea de comandos se paga una vez
+    por episodio y no en cada regeneración.
+    """
     catalogo = json.loads(CATALOGO.read_text(encoding="utf-8"))
     entradas = [e for e in catalogo["episodios"] if slug_de_url(e["url"]) == slug]
     if not entradas:
         return f"no se pudo marcar: '{slug}' no está en el catálogo"
     entrada = entradas[0]
-    if entrada.get("tiene_transcript") is True:
-        return "tiene_transcript ya estaba en true"
     anterior = entrada.get("tiene_transcript")
+    sin_fecha = not (entrada.get("fecha") or "").strip()
+    if anterior is True and not sin_fecha:
+        return "tiene_transcript ya estaba en true"
+
+    hechos = []
+    if anterior is not True:
+        hechos.append(f"tiene_transcript: {json.dumps(anterior)} -> true")
+    if sin_fecha:
+        hechos.append(f"fecha: vacía -> {fecha}")
+    resumen = "; ".join(hechos)
     if simular:
-        return f"[simulado] tiene_transcript: {json.dumps(anterior)} -> true"
+        return f"[simulado] {resumen}"
     entrada["tiene_transcript"] = True
+    if sin_fecha:
+        entrada["fecha"] = fecha
     # Una entrada por línea, para que los diffs sigan siendo revisables
     lineas = ["{", f'  "fuente": {json.dumps(catalogo["fuente"])},',
               f'  "extraido_el": {json.dumps(catalogo["extraido_el"])},',
@@ -173,7 +202,7 @@ def marcar_en_catalogo(slug: str, simular: bool) -> str:
     lineas += ["  ]", "}"]
     CATALOGO.write_text("\n".join(lineas) + "\n", encoding="utf-8")
     json.loads(CATALOGO.read_text(encoding="utf-8"))  # no dejar el catálogo roto
-    return f"tiene_transcript: {json.dumps(anterior)} -> true"
+    return resumen
 
 
 def escribir(ruta: Path, datos: dict, simular: bool) -> None:
@@ -280,7 +309,7 @@ def main() -> int:
     escribir(destino / "transcript.es.json", tr_es, args.simular)
     escribir(destino / "metadata.en.json", meta_en, args.simular)
     escribir(destino / "metadata.es.json", meta_es, args.simular)
-    print(f"    catalogo.json: {marcar_en_catalogo(slug, args.simular)}")
+    print(f"    catalogo.json: {marcar_en_catalogo(slug, fecha, args.simular)}")
 
     if not args.simular:
         print("\nsiguiente paso: python3 scripts/indice.py")
