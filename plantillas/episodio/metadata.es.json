@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 0,
+  "anio": 0,
+  "slug": "",
+  "titulo_es": "",
+  "estado": "pendiente",
+  "youtube": {
+    "titulo": "",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "notas": ""
+}

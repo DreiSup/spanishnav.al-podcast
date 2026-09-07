@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Regenera INDICE.md recorriendo los metadata.json de cada episodio.
+"""Regenera INDICE.md recorriendo los metadata.es.json de cada episodio.
 
     python3 scripts/indice.py            # reescribe INDICE.md
     python3 scripts/indice.py --check    # solo comprueba que está al día
@@ -26,49 +26,67 @@ ESTADOS = {
 
 def cargar_episodios() -> list[dict]:
     episodios = []
-    for meta_path in sorted(EPISODIOS.glob("*/*/metadata.json")):
+    for meta_path in sorted(EPISODIOS.glob("*/*/metadata.es.json")):
         try:
             meta = json.loads(meta_path.read_text(encoding="utf-8"))
         except json.JSONDecodeError as e:
             print(f"aviso: {meta_path.relative_to(RAIZ)} no es JSON válido ({e})", file=sys.stderr)
             continue
-        meta["_carpeta"] = meta_path.parent.relative_to(RAIZ).as_posix()
-        meta["_anio"] = meta.get("anio") or meta_path.parent.parent.name
+        carpeta = meta_path.parent
+        meta["_carpeta"] = carpeta.relative_to(RAIZ).as_posix()
+        meta["_nombre"] = carpeta.name
+        meta["_anio"] = str(meta.get("anio") or carpeta.parent.name)
+        meta["_tiene_es"] = (carpeta / "transcript.es.json").exists()
         episodios.append(meta)
     return episodios
 
 
-def escapar(texto: str) -> str:
+def escapar(texto) -> str:
     return str(texto or "").replace("|", "\\|").strip()
 
 
 def construir(episodios: list[dict]) -> str:
+    publicados = sum(1 for e in episodios if e.get("estado") == "publicado")
+    pendientes = sum(1 for e in episodios if e.get("estado") == "pendiente")
     lineas = [
         "# Índice de episodios",
         "",
         "<!-- Generado por scripts/indice.py. No editar a mano. -->",
         "",
-        f"Total: **{len(episodios)}** episodios · "
-        f"**{sum(1 for e in episodios if e.get('estado') == 'publicado')}** publicados",
+        f"**{len(episodios)}** episodios · **{publicados}** publicados · "
+        f"**{pendientes}** sin empezar",
         "",
     ]
 
     por_anio: dict[str, list[dict]] = {}
     for ep in episodios:
-        por_anio.setdefault(str(ep["_anio"]), []).append(ep)
+        por_anio.setdefault(ep["_anio"], []).append(ep)
 
     for anio in sorted(por_anio, reverse=True):
-        lineas += [f"## {anio}", "", "| Episodio | Título en español | Estado | YouTube |", "|---|---|---|---|"]
-        for ep in sorted(por_anio[anio], key=lambda e: e.get("slug", "")):
+        lineas += [
+            f"## {anio}",
+            "",
+            "| # | Episodio | Título en español | Estado | Drive | YouTube |",
+            "|---|---|---|---|---|---|",
+        ]
+        for ep in sorted(por_anio[anio], key=lambda e: e["_nombre"]):
+            numero = ep.get("numero") or "—"
+            enlace = f"[{escapar(ep['_nombre'])}]({ep['_carpeta']})"
             titulo_es = escapar(ep.get("titulo_es")) or "—"
-            enlace = f"[{escapar(ep.get('slug'))}]({ep['_carpeta']})"
             estado = ESTADOS.get(ep.get("estado", ""), escapar(ep.get("estado")) or "—")
-            yt = f"[▶]({ep['youtube_url']})" if ep.get("youtube_url") else "—"
-            lineas.append(f"| {enlace} | {titulo_es} | {estado} | {yt} |")
+            carpeta_id = (ep.get("drive") or {}).get("carpeta_id")
+            drive = f"[📁](https://drive.google.com/drive/folders/{carpeta_id})" if carpeta_id else "—"
+            url = (ep.get("youtube") or {}).get("url")
+            yt = f"[▶]({url})" if url else "—"
+            lineas.append(f"| {numero} | {enlace} | {titulo_es} | {estado} | {drive} | {yt} |")
         lineas.append("")
 
     if not episodios:
-        lineas += ["_Todavía no hay episodios. Crea el primero con `./scripts/nuevo-episodio.sh`._", ""]
+        lineas += [
+            "_Todavía no hay episodios descargados. El descargador de nav.al se ejecuta en "
+            "local; ver [CLAUDE.md](CLAUDE.md)._",
+            "",
+        ]
 
     return "\n".join(lineas)
 

@@ -1,36 +1,72 @@
-# Por qué el audio y el vídeo no están en el repo
+# Dónde vive cada cosa
 
-## El problema
+> **GitHub guarda texto y punteros. Google Drive guarda bytes.**
 
-GitHub rechaza archivos de más de 100 MB y avisa a partir de 50 MB. Un episodio
-de podcast de una hora son ~60 MB en mp3 y varios cientos de MB en wav; los
-clips sueltos de TTS, decenas más. Además git guarda **cada versión** de cada
-binario para siempre: regeneras el audio tres veces y el repo pesa el triple,
-incluso después de borrar los archivos.
+## Por qué
 
-## La decisión
+GitHub rechaza archivos de más de 100 MB y avisa a partir de 50. Un episodio de una hora son
+~60 MB en mp3 y varios cientos en wav; los clips sueltos de TTS, decenas más. Y git guarda
+**cada versión** de cada binario para siempre: regeneras el audio tres veces y el repo pesa
+el triple, incluso después de borrar los archivos.
 
-`.gitignore` excluye `*.mp3 *.wav *.mp4 ...` y las carpetas `tts/`, `audio/` y
-`video/` de cada episodio. Se versiona lo que es fuente y no se puede
-regenerar: transcripciones, traducciones, metadatos, notas y thumbnails (que
-pesan poco y son parte del entregable).
+Git LFS tampoco resuelve esto: la cuota gratuita de GitHub es de 1 GB de almacenamiento y
+1 GB/mes de tráfico, que con audio se agota en unos pocos episodios. El repo no tiene
+configuración de LFS y no debe tenerla.
 
-Si mañana pierdes la carpeta local, con el repo puedes reconstruir cualquier
-episodio: la traducción está, el TTS se vuelve a generar y los scripts hacen el
-resto.
+Drive, en cambio, ya está pagado y tiene espacio de sobra.
 
-## Si aun así quieres versionar el audio
+## El reparto
 
-Tres opciones, de menos a más fricción:
+| Va a git | Va a Drive |
+|---|---|
+| `transcript.en.json` / `transcript.es.json` | Clips de TTS (uno por frase) |
+| `metadata.en.json` / `metadata.es.json` | Audio final montado |
+| `.md` generados, `INDICE.md`, `GLOSARIO.md` | Proyectos `.aup3` de Audacity |
+| Scripts y documentación | Vídeos `.mp4` |
 
-1. **Git LFS** — `.gitattributes` ya trae los patrones preparados, comentados.
-   Descoméntalos, quita esos mismos patrones de `.gitignore` y ejecuta
-   `git lfs install`. Ojo: la cuota gratuita de GitHub es de 1 GB de
-   almacenamiento y 1 GB/mes de tráfico; se agota rápido con audio.
-2. **Publicar el final como GitHub Release** — sube el mp3/mp4 de cada episodio
-   como adjunto de una release (hasta 2 GB por archivo). No infla el repo y
-   deja el entregable descargable con una URL estable.
-3. **Almacenamiento externo** — Drive, S3, Backblaze B2. Guarda solo el enlace
-   en `metadata.json`.
+## Cómo se enlazan
 
-Para un repo de trabajo, la opción 2 cubre casi siempre lo que hace falta.
+**Por file ID, guardado en el texto.** `drive.json` tiene el ID de la raíz y de cada año; el
+`metadata.es.json` de cada episodio tiene los suyos. Un ID sobrevive a renombrar la carpeta o
+moverla; una ruta o una URL, no.
+
+```
+https://drive.google.com/drive/folders/<carpeta_id>
+https://drive.google.com/file/d/<file_id>/view
+```
+
+## rclone
+
+En Linux no existe cliente oficial de Google Drive. rclone es un binario de línea de comandos
+—"rsync para la nube"— que habla el API de Drive directamente.
+
+Configuración, una sola vez:
+
+```bash
+sudo apt install rclone
+rclone config     # Google Drive → autorizar en el navegador → llamar al remoto "gdrive"
+rclone lsd gdrive:naval-podcast      # comprobar que ve el árbol
+```
+
+Uso diario:
+
+```bash
+rclone copy ./clips "gdrive:naval-podcast/2019/007-slug/tts" -P      # subir
+rclone copy "gdrive:naval-podcast/2019/007-slug/audio" ./audio -P    # bajar
+rclone ls "gdrive:naval-podcast/2019"                                # listar
+```
+
+`copy` solo transfiere lo que falta o ha cambiado, así que relanzarlo es barato. `-P` muestra
+progreso.
+
+**`sync` no se usa en este flujo.** Espeja el origen en el destino, y eso significa *borrar*
+en destino lo que no esté en origen. Si alguna vez lo necesitas, `--dry-run` primero.
+
+El token de rclone queda en `~/.config/rclone/rclone.conf`, fuera del repo. `rclone.conf`
+está en `.gitignore` por si acaso.
+
+## Lo que esto no es
+
+No hay carpeta mágica que se sincronice sola, ni GitHub ve nada de Drive, ni Drive sabe que
+este repo existe. El vínculo es el ID guardado en el texto; el movimiento de bytes lo lanzas
+tú.

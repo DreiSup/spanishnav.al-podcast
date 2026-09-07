@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "",
+  "fecha": "",
+  "titulo": "",
+  "traducido_de": "transcript.en.json",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "speaker": "",
+      "frases": [
+        { "id": "0001", "texto": "" }
+      ]
+    }
+  ]
+}

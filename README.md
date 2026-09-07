@@ -1,104 +1,47 @@
 # spanishnav.al-podcast
 
-Repositorio de trabajo del proceso de traducción al español de los podcasts de Naval.
+Traducción al español del podcast de Naval. Este repositorio guarda **el texto** del
+proceso: transcripciones originales, traducciones y metadatos de todos los episodios,
+de 2019 al último de 2026.
 
-No es una web ni una publicación: es el sitio donde vive **el proceso** —
-transcripciones, traducciones, metadatos, notas y los scripts que automatizan
-el montaje. El audio y el vídeo se generan en local y **no** se versionan
-(ver [docs/almacenamiento.md](docs/almacenamiento.md)).
+El audio, los clips de TTS y los vídeos **no están aquí**: viven en Google Drive y se
+enlazan desde cada episodio por *file ID*.
 
-Índice de episodios: [INDICE.md](INDICE.md)
+> Si vas a trabajar en este repo —persona o agente— lee **[CLAUDE.md](CLAUDE.md)** primero.
+> Explica la estructura, los esquemas, el vínculo con Drive y cómo operar.
 
-## Estructura
+## Qué hay en cada episodio
 
 ```
-episodios/
-  2024/
-    como-pensar-con-claridad/
-      metadata.json              ← ficha del episodio (versionado)
-      NOTAS.md                   ← decisiones de traducción y montaje (versionado)
-      thumbnail.jpg              ← portada para el vídeo (versionado)
-      transcripciones/
-        original.en.md           ← transcripción original (versionado)
-        traduccion.es.md         ← traducción al español (versionado)
-      tts/                       ← 1 clip por intervención  ✗ NO versionado
-      audio/                     ← episodio final .mp3/.wav ✗ NO versionado
-      video/                     ← .mp4 para YouTube        ✗ NO versionado
-plantillas/episodio/             ← esqueleto que copia nuevo-episodio.sh
-scripts/                         ← automatización
-docs/                            ← decisiones sobre el repo
-GLOSARIO.md                      ← criterios de traducción y términos fijos
+episodios/<año>/<NNN>-<slug>/
+  transcript.en.json     original            ← fuente de verdad
+  transcript.es.json     traducción          ← fuente de verdad
+  metadata.en.json       datos de la fuente
+  metadata.es.json       título es, YouTube, estado y punteros a Drive
+  transcript.*.md        generados, no editar
 ```
 
-Regla de oro: **lo que es texto se versiona, lo que es media no.** El audio y
-el vídeo son regenerables a partir de la traducción y el TTS; las
-transcripciones no lo son, y son lo único que de verdad quieres tener con
-historial, diffs y copia de seguridad.
+Índice de episodios: [INDICE.md](INDICE.md) · Criterios de traducción:
+[GLOSARIO.md](GLOSARIO.md)
 
-## Flujo de trabajo
+## Cómo se enlaza con Google Drive
 
-```bash
-# 1. Crear el episodio
-./scripts/nuevo-episodio.sh 2024 como-pensar-con-claridad "How to Think Clearly"
+GitHub no puede montar una carpeta de Drive. El vínculo son dos piezas:
 
-# 2. Pegar la transcripción original y traducirla
-#    episodios/2024/como-pensar-con-claridad/transcripciones/original.en.md
-#    episodios/2024/como-pensar-con-claridad/transcripciones/traduccion.es.md
+- **`drive.json`** guarda el ID de la carpeta raíz y el de cada año; el `metadata.es.json`
+  de cada episodio guarda los de sus ficheros. Los IDs sobreviven a renombrados.
+- **rclone** mueve los bytes desde local cuando se lo pides. No hay sincronización
+  automática.
 
-# 3. Generar los clips de TTS en tts/ (0001-*.wav, 0002-*.wav, ...)
-#    Un clip por intervención, numerado con ceros a la izquierda.
+Detalles y comandos en [docs/almacenamiento.md](docs/almacenamiento.md).
 
-# 4. Unir los clips en el audio final
-./scripts/unir-audios.sh episodios/2024/como-pensar-con-claridad
+## Estado
 
-# 5. Montar el .mp4 con el thumbnail
-./scripts/render-video.sh episodios/2024/como-pensar-con-claridad
-
-# 6. Actualizar la ficha (estado, youtube_url) y regenerar el índice
-python3 scripts/indice.py
-git add -A && git commit -m "2024/como-pensar-con-claridad: traducción y montaje"
-git push
-```
-
-### Convenciones
-
-- **Slug**: minúsculas, números y guiones. Sin tildes ni espacios.
-- **Intervenciones**: una por línea, con el hablante delante (`NAVAL: ...`).
-  El original y la traducción deben tener el **mismo número de líneas**: así
-  el clip `0007-*.wav` corresponde siempre a la intervención 7.
-- **Estados** de `metadata.json`: `pendiente` → `traduciendo` → `revision` →
-  `tts` → `montaje` → `publicado`.
-
-## Scripts
-
-| Script | Qué hace |
-|---|---|
-| `scripts/nuevo-episodio.sh` | Crea la carpeta de un episodio a partir de la plantilla. |
-| `scripts/importar-local.sh` | Migra tu carpeta local existente al repo. Simula por defecto. |
-| `scripts/unir-audios.sh` | Concatena los clips de `tts/` en un solo mp3, con pausas. |
-| `scripts/render-video.sh` | Une audio + thumbnail en un mp4 listo para YouTube. |
-| `scripts/indice.py` | Regenera `INDICE.md` desde los `metadata.json`. |
-
-Requisitos: `bash`, `python3` y `ffmpeg` (solo para los dos scripts de media).
-
-## Migrar tu carpeta local
-
-```bash
-./scripts/importar-local.sh ~/ruta/a/tu/carpeta            # simulación: no toca nada
-./scripts/importar-local.sh ~/ruta/a/tu/carpeta --aplicar  # copia de verdad
-```
-
-Copia, nunca mueve: tu carpeta original se queda intacta. Revisa el reparto de
-archivos que imprime la simulación antes de aplicarlo, y después rellena los
-`metadata.json` y ejecuta `python3 scripts/indice.py`.
-
-## Secretos
-
-Las claves de API van en `.env` (ignorado por git). Parte de `.env.example`.
+La estructura está montada y los años 2019–2026 creados, en el repo y en Drive. **Todavía no
+se ha descargado ningún episodio.** El descargador de nav.al está por escribir y se ejecuta
+en local: nav.al está bloqueado desde las sesiones web de Claude Code.
 
 ## Derechos
 
-El contenido original es de sus autores; este repositorio guarda el trabajo de
-traducción. Antes de publicar cada episodio, asegúrate de tener permiso o de
-que el uso encaje con las condiciones de la fuente, y acredítala en
-`metadata.json` (`fuente_url`) y en la descripción de YouTube.
+El contenido original es de sus autores. Cada `metadata.en.json` guarda la URL de origen del
+episodio, y la descripción de YouTube acredita la fuente.

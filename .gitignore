@@ -1,9 +1,7 @@
 # ---------------------------------------------------------------
-# Audio y vídeo: NO se versionan en git.
-# GitHub tiene un límite duro de 100 MB por archivo y penaliza los
-# repos grandes. Estos archivos son regenerables a partir de las
-# transcripciones + el TTS, así que viven solo en local.
-# Si algún día quieres versionarlos, mira docs/almacenamiento.md
+# Este repo solo guarda TEXTO. El audio y el vídeo viven en Google
+# Drive y se enlazan desde metadata.es.json por file ID.
+# Ver CLAUDE.md y docs/almacenamiento.md
 # ---------------------------------------------------------------
 *.mp3
 *.wav
@@ -16,22 +14,23 @@
 *.mov
 *.mkv
 *.webm
+*.aup3
 
-# Carpetas de trabajo pesadas dentro de cada episodio
-episodios/**/tts/
-episodios/**/audio/
-episodios/**/video/
+# Directorio de trabajo local: descargas en bruto, clips de TTS,
+# montajes. Nunca se versiona.
+trabajo/
 
 # Listas temporales generadas por los scripts
 concat.txt
 *.concat.txt
 
-# Secretos (claves de API de TTS / traducción)
+# Secretos (claves de API de TTS / traducción, credenciales de Drive)
 .env
 .env.*
 !.env.example
 *.key
 credenciales*.json
+rclone.conf
 
 # Basura del sistema
 .DS_Store

@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio tal y como vienen de la fuente. No se edita a mano: lo reescribe el descargador.",
+  "numero": 0,
+  "anio": 0,
+  "slug": "",
+  "titulo": "",
+  "fecha_publicacion": "",
+  "fuente_url": "",
+  "duracion": "",
+  "participantes": [],
+  "tiene_transcript": false,
+  "descargado_el": ""
+}
