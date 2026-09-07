@@ -22,14 +22,15 @@ Es una decisión del autor, tomada tras probar las dos alternativas automáticas
    copias el texto              marcas los encabezados         y deja JSON crudo            escribe los ficheros del repo
 ```
 
-**El troceo en frases y la numeración de ids nunca los hace una persona ni un modelo.** Los
-hace el normalizador, por tres razones:
+**Los ids de bloque los pone el normalizador, nunca una persona ni un modelo.** Son
+`bNN-<speaker>` (`b01-nivi`, `b02-naval`, …) y salen de la posición del bloque, así que los
+mismos datos dan siempre los mismos ids.
 
-1. **Reproducibilidad.** Los ids son la pieza que mantiene unidos el transcript, la
-   traducción y los clips de TTS. Tienen que salir siempre iguales de los mismos datos.
-2. **Revisabilidad.** Si cambia la regla de segmentación, se re-ejecuta sobre lo ya pegado.
-3. **Menos trabajo manual.** Pegar un episodio son dos minutos; trocearlo a mano en frases
-   numeradas serían veinte, y con errores.
+El **troceado en `frases` dentro de cada bloque es otra cosa**: no genera ficheros, es cómo
+se le entrega el texto al TTS para que respire. En español lo decide quien traduce, porque
+partir una frase larga o fundir un "Sí." suelto con la siguiente es una decisión de doblaje.
+Por eso el número de frases no tiene por qué coincidir entre idiomas, y no coincide: en
+`035-finally-wealthy` son 65 en inglés y 68 en español, con los mismos 4 bloques.
 
 ## Cómo se pega un episodio
 

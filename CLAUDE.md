@@ -74,24 +74,31 @@ crearán al normalizar cada transcript pegado.
   "fuente_url": "…",
   "titulos_seccion": ["…"],
   "contenido": [
-    { "speaker": "Nivi",  "frases": [ {"id": "0001", "texto": "…"} ] },
-    { "speaker": "Naval", "frases": [ {"id": "0002", "texto": "…"} ] }
+    { "id": "b01-nivi",  "speaker": "Nivi",  "frases": ["…", "…"] },
+    { "id": "b02-naval", "speaker": "Naval", "frases": ["…"] }
   ]
 }
 ```
 
-Tres cosas que hay que entender:
+Cuatro cosas que hay que entender:
 
-1. **La frase es la unidad de generación de TTS.** Un clip de audio por frase.
-2. **`speaker` selecciona la voz de referencia** del modelo XTTS.
-3. **El `id` es lo que mantiene todo unido.** El clip se llama desde el id, y el orden de
-   montaje **se lee del JSON**, nunca ordenando nombres de fichero alfabéticamente. Esto no
-   es una preferencia estética: en el material antiguo los clips estaban sueltos y con
-   numeración irregular (`_naval2.wav`, `naval02.wav`, uno sin extensión) y cualquier
-   montaje por orden alfabético salía mal.
+1. **El bloque de hablante es la unidad de generación de TTS.** Un clip de audio por bloque,
+   no por frase. Un episodio de cuatro bloques son cuatro ficheros de audio.
+2. **`frases` es el troceado que lee el TTS dentro de ese bloque**, para que respire y no
+   recite. No genera ficheros: es cómo se le entrega el texto al modelo.
+3. **`speaker` selecciona la voz de referencia** del modelo XTTS.
+4. **El `id` del bloque es lo que mantiene todo unido.** El clip se llama desde el id, y el
+   orden de montaje **se lee del JSON**, nunca ordenando nombres de fichero
+   alfabéticamente. En el material antiguo los clips estaban sueltos y con numeración
+   irregular (`_naval2.wav`, `naval02.wav`, uno sin extensión) y cualquier montaje por
+   orden alfabético salía mal. El formato `bNN-<speaker>` hace además que el orden
+   alfabético coincida con el de montaje, así que aunque alguien ordene por nombre, acierta.
 
-`transcript.es.json` lleva **exactamente los mismos ids** que su `.en`. Eso da alineación
-frase a frase gratis, y permite validar que no falta ni sobra nada.
+**Los ids son de bloque, no de frase.** `transcript.es.json` y su `.en` llevan los mismos
+ids de bloque —los bloques sí se corresponden—, pero **el troceado en `frases` es
+independiente en cada idioma**: la traducción parte las frases largas y funde las muy
+cortas para que el TTS suene mejor, y eso es correcto. Verificado en `035-finally-wealthy`:
+4 bloques en ambos idiomas con los mismos hablantes, 65 frases en inglés y 68 en español.
 
 ### `metadata.en.json`
 
@@ -139,7 +146,7 @@ No hay sincronización automática. Nada se sube solo. rclone mueve bytes cuando
 
 ```
 naval-podcast/<año>/<NNN>-<slug>/
-  tts/         un clip por frase, nombrado por el id de la frase
+  tts/         un clip por bloque de hablante, nombrado por el id del bloque
   audio/       audio final montado
   video/       .mp4 subido a YouTube
   proyecto/    .aup3 de Audacity
@@ -158,7 +165,7 @@ rclone.
 |---|---|---|---|
 | 1 | Copiar el transcript de nav.al **a mano** a `trabajo/manual/<slug>.txt` y convertirlo con `extraer-episodios.py` | **local, manual por decisión** | formato y script listos |
 | 2 | Traducir al español a `transcript.es.json` | web / local | por definir |
-| 3 | Generar un clip de TTS por frase y subirlo a Drive | Colab (GPU) | por definir |
+| 3 | Generar un clip de TTS por bloque de hablante y subirlo a Drive | Colab (GPU) | por definir |
 | 4 | Juntar clips, quitar ruido y alucinaciones | **local, Audacity** | manual por diseño |
 | 5 | Subir el audio limpio a Drive con rclone | local | — |
 | 6 | Montar el `.mp4` con la miniatura | local | script sin probar |
@@ -181,6 +188,9 @@ protocolo completo están en **`docs/extraccion.md`**; léelo antes de tocar nad
 
 La idea que lo gobierna: el troceo en frases y la asignación de ids son deterministas y los
 hace un script, nunca un modelo, para que los mismos datos den siempre los mismos ids.
+
+El troceado en `frases` del español sí lo decide quien traduce, porque es una decisión de
+doblaje: frases largas partidas y frases de una palabra fundidas suenan mejor en TTS.
 
 GitHub y el conector de Google Drive sí funcionan desde las sesiones web.
 
