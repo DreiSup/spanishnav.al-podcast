@@ -38,8 +38,11 @@ Detalles y comandos en [docs/almacenamiento.md](docs/almacenamiento.md).
 ## Estado
 
 La estructura está montada y los años 2019–2026 creados, en el repo y en Drive. **Todavía no
-se ha descargado ningún episodio.** El descargador de nav.al está por escribir y se ejecuta
-en local: nav.al está bloqueado desde las sesiones web de Claude Code.
+se ha extraído ningún episodio.**
+
+nav.al está bloqueado desde las sesiones web de Claude Code, así que la extracción la hace
+Claude web y esta sesión normaliza lo que entrega. El protocolo está en
+[docs/extraccion.md](docs/extraccion.md).
 
 ## Derechos
 

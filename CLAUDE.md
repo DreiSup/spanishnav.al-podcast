@@ -149,7 +149,7 @@ rclone.
 
 | # | Paso | Dónde | Estado |
 |---|---|---|---|
-| 1 | Descargar el transcript original de nav.al | **local** | script por escribir |
+| 1 | Extraer el transcript original de nav.al | **Claude web** | ver `docs/extraccion.md` |
 | 2 | Traducir al español a `transcript.es.json` | web / local | por definir |
 | 3 | Generar un clip de TTS por frase y subirlo a Drive | Colab (GPU) | por definir |
 | 4 | Juntar clips, quitar ruido y alucinaciones | **local, Audacity** | manual por diseño |
@@ -165,10 +165,14 @@ El paso 4 es irreducible: requiere criterio humano.
 devuelve 403 en el CONNECT; `itunes.apple.com` igual. Comprobado con
 `curl -sS "$HTTPS_PROXY/__agentproxy/status"`.
 
-Consecuencia: **la descarga de transcripts se ejecuta en la máquina local**, nunca desde una
-sesión web. Y como desde aquí no se puede ver el HTML de nav.al, el parser no se puede
-escribir a ciegas: primero hay que guardar en local unas páginas de muestra y escribir el
-parser contra ellas como fixtures.
+Consecuencia: **la extracción la hace Claude web**, que sí llega a nav.al, y esta sesión
+normaliza lo que entrega. El protocolo completo —los dos encargos listos para copiar, el
+canal de entrega y las comprobaciones al recibir— está en **`docs/extraccion.md`**. Léelo
+antes de tocar nada relacionado con la descarga.
+
+La idea que lo gobierna: a Claude web se le pide **texto literal por interviniente**, nunca
+el JSON final. El troceo en frases y la asignación de ids son deterministas y los hace un
+script, para que los mismos datos den siempre los mismos ids.
 
 GitHub y el conector de Google Drive sí funcionan desde las sesiones web.
 
@@ -187,8 +191,9 @@ YouTube Studio.
 | `scripts/unir-audios.sh` | **Nunca ejecutado y desactualizado.** Ordena los clips alfabéticamente; debe reescribirse para leer el orden y los ids de `transcript.es.json`. No lo uses todavía |
 | `scripts/render-video.sh` | **Nunca ejecutado.** Opera sobre un directorio de trabajo local, no sobre el repo |
 
-Por escribir: el descargador de nav.al, el generador de los `.md`, el validador de esquemas
-y el creador de carpetas de episodio en Drive.
+Por escribir: `normalizar-extraccion.py` (convierte lo que entrega Claude web en los ficheros
+del repo; ver `docs/extraccion.md`), el generador de los `.md`, el validador de esquemas y el
+creador de carpetas de episodio en Drive.
 
 ## Al trabajar en este repo
 

@@ -5,6 +5,11 @@
     "nombre": "naval-podcast",
     "id": "1QduGyhtxtB0fZTX401yfkFjyjbis0Gn8"
   },
+  "extraccion": {
+    "nombre": "_extraccion",
+    "id": "1mYhx3hrYcs2QtCJTL9dHNvL0yIwR6BPs",
+    "_comentario": "Buzón de entrega: Claude web deja aquí los JSON crudos de nav.al. Ver docs/extraccion.md"
+  },
   "anios": {
     "2019": "19q3E9V2_zpipRmpVoVJmyNnv94TfZ6hh",
     "2020": "1Xur7pDXdFo1BxByrcO9kSiX703Jql-8Q",
