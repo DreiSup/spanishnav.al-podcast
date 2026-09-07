@@ -37,8 +37,13 @@ Detalles y comandos en [docs/almacenamiento.md](docs/almacenamiento.md).
 
 ## Estado
 
-La estructura está montada y los años 2019–2026 creados, en el repo y en Drive. **Todavía no
-se ha extraído ningún episodio.**
+La estructura está montada y los años 2019–2026 creados, en el repo y en Drive. **Hay un
+episodio normalizado** (`2019/035-finally-wealthy`); el resto del catálogo, en
+[catalogo.json](catalogo.json), está por procesar.
+
+Los 34 primeros episodios ya se produjeron con el método manual anterior a este repo: llevan
+el estado `heredado` y su audio **no se re-sintetiza**. La regla está en
+[CLAUDE.md](CLAUDE.md#episodios-heredados).
 
 Los transcripts se copian **a mano** desde nav.al a `trabajo/manual/<slug>.txt`; un script
 los convierte y otro los normaliza a los ficheros del repo. El formato y el protocolo están
