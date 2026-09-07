@@ -1,18 +1,19 @@
 #!/usr/bin/env python3
-"""Descarga los episodios de nav.al y los deja como JSON crudo en trabajo/extraccion/.
+"""Convierte los transcripts de nav.al en JSON crudo en trabajo/extraccion/.
 
-SE EJECUTA EN LOCAL. nav.al está bloqueado desde las sesiones web de Claude Code.
+FLUJO ELEGIDO: los transcripts se cogen A MANO de nav.al y se pegan en
+trabajo/manual/<slug>.txt (formato en docs/extraccion.md). Este script los lee
+y los deja en el formato del protocolo. Es el modo por defecto.
 
-    python3 scripts/descargar-episodios.py                    # todo el catálogo
-    python3 scripts/descargar-episodios.py --solo finally-wealthy
-    python3 scripts/descargar-episodios.py --anio 2019
-    python3 scripts/descargar-episodios.py --sin-red          # reprocesa lo ya descargado
-    python3 scripts/descargar-episodios.py --modo paginas     # si la API no responde
+    python3 scripts/extraer-episodios.py                       # todos los .txt de trabajo/manual/
+    python3 scripts/extraer-episodios.py --solo finally-wealthy
 
-Fuente principal: la API REST de WordPress de nav.al. Devuelve fecha, título y el HTML
-del contenido de todos los posts en dos o tres peticiones, sin rascar página a página.
-Si la API no está disponible, --modo paginas descarga cada URL del catálogo y parsea
-el <article>.
+Modos alternativos, NO usados en el flujo y NUNCA probados contra la web real
+(nav.al está bloqueado desde las sesiones web de Claude Code):
+
+    --modo api        API REST de WordPress de nav.al, en local
+    --modo paginas    descarga cada URL del catálogo y parsea el <article>
+    --sin-red         con api/paginas, reprocesa lo ya descargado en trabajo/
 
 Salida por episodio, en el formato del protocolo (docs/extraccion.md):
 
@@ -43,6 +44,7 @@ RAIZ = Path(__file__).resolve().parent.parent
 TRABAJO = RAIZ / "trabajo"
 DIR_API = TRABAJO / "wp-json"
 DIR_HTML = TRABAJO / "html"
+DIR_MANUAL = TRABAJO / "manual"
 DIR_SALIDA = TRABAJO / "extraccion"
 
 API = "https://nav.al/wp-json/wp/v2/posts"
@@ -261,6 +263,48 @@ def extraer_de_pagina(html_pagina: str) -> tuple[str, str, str, str]:
 
 
 # ----------------------------------------------------------------------------
+# Modo manual: trabajo/manual/<slug>.txt pegado a mano desde nav.al
+# ----------------------------------------------------------------------------
+
+RE_CABECERA = re.compile(r"^(url|fecha|titulo)\s*:\s*(.+?)\s*$", re.I)
+# "Naval: …", "Nivi: …", "Matt Ridley: …" — hasta tres palabras capitalizadas y dos puntos
+RE_TURNO_TXT = re.compile(r"^([A-Z][\w.'-]*(?: [A-Z][\w.'-]*){0,2}):\s+(.*)$", re.S)
+
+
+def parsear_manual(texto: str) -> tuple[dict, list[tuple[str, str, str]]]:
+    """Devuelve (cabecera, parrafos) a partir del .txt pegado a mano.
+
+    Formato:
+      - Cabecera opcional al principio: líneas `url:`, `fecha:`, `titulo:` hasta la
+        primera línea en blanco.
+      - Párrafos separados por líneas en blanco.
+      - `Nombre: texto`           abre un turno de ese hablante
+      - `## Encabezado`           sección
+      - párrafo sin etiqueta      continúa el turno abierto; tras un encabezado, hereda
+    """
+    cabecera: dict = {}
+    lineas = texto.replace("\r\n", "\n").split("\n")
+    i = 0
+    while i < len(lineas) and (m := RE_CABECERA.match(lineas[i])):
+        cabecera[m.group(1).lower()] = m.group(2)
+        i += 1
+    cuerpo = "\n".join(lineas[i:])
+
+    parrafos: list[tuple[str, str, str]] = []
+    for bruto in re.split(r"\n\s*\n", cuerpo):
+        parrafo = limpiar(" ".join(l.strip() for l in bruto.split("\n")))
+        if not parrafo:
+            continue
+        if parrafo.startswith("##"):
+            parrafos.append(("seccion", "", limpiar(parrafo.lstrip("#"))))
+        elif m := RE_TURNO_TXT.match(parrafo):
+            parrafos.append(("turno", m.group(1), limpiar(m.group(2))))
+        else:
+            parrafos.append(("continuacion", "", parrafo))
+    return cabecera, parrafos
+
+
+# ----------------------------------------------------------------------------
 # Principal
 # ----------------------------------------------------------------------------
 
@@ -274,10 +318,12 @@ def slug_de(url: str) -> str:
 
 
 def procesar(slug: str, url: str, html_contenido: str, titulo: str, fecha: str, fecha_gmt: str,
-             fuente: str, notas_extra: list[str]) -> dict:
-    parser = ParserArticulo()
-    parser.feed(html_contenido)
-    bloques, avisos = construir_bloques(parser.parrafos)
+             fuente: str, notas_extra: list[str], parrafos=None) -> dict:
+    if parrafos is None:
+        parser = ParserArticulo()
+        parser.feed(html_contenido)
+        parrafos = parser.parrafos
+    bloques, avisos = construir_bloques(parrafos)
     notas = notas_extra + avisos
     return {
         "url": url,
@@ -299,7 +345,7 @@ def main() -> int:
     ap.add_argument("--solo", action="append", default=[], metavar="SLUG", help="solo este episodio (repetible)")
     ap.add_argument("--anio", type=int, help="solo los de este año")
     ap.add_argument("--sin-red", action="store_true", help="no descarga: reprocesa trabajo/")
-    ap.add_argument("--modo", choices=["api", "paginas"], default="api")
+    ap.add_argument("--modo", choices=["manual", "api", "paginas"], default="manual")
     args = ap.parse_args()
 
     catalogo = json.loads(Path(args.catalogo).read_text(encoding="utf-8"))
@@ -316,7 +362,34 @@ def main() -> int:
     no_encontrados: list[str] = []
     sin_bloques: list[str] = []
 
-    if args.modo == "api":
+    por_slug = {slug_de(e["url"]): e for e in catalogo["episodios"]}
+
+    if args.modo == "manual":
+        DIR_MANUAL.mkdir(parents=True, exist_ok=True)
+        ficheros = sorted(DIR_MANUAL.glob("*.txt"))
+        if args.solo:
+            ficheros = [f for f in ficheros if f.stem in set(args.solo)]
+        if not ficheros:
+            print(f"error: no hay .txt en {DIR_MANUAL.relative_to(RAIZ)}/ — pega ahí el transcript "
+                  f"como <slug>.txt (formato en docs/extraccion.md)", file=sys.stderr)
+            return 1
+        print(f"ficheros manuales: {len(ficheros)}")
+        for fichero in ficheros:
+            slug = fichero.stem
+            entrada = por_slug.get(slug)
+            notas: list[str] = []
+            if entrada is None:
+                notas.append(f"slug '{slug}' no está en catalogo.json")
+            cab, parrafos = parsear_manual(fichero.read_text(encoding="utf-8"))
+            url = cab.get("url") or (entrada["url"] if entrada else f"https://nav.al/{slug}")
+            titulo = cab.get("titulo") or (entrada["titulo"] if entrada else "")
+            fecha = cab.get("fecha") or (entrada["fecha"] if entrada else "")
+            if not fecha:
+                notas.append("sin fecha: ponla en la cabecera del .txt como 'fecha: AAAA-MM-DD'")
+            elif not re.fullmatch(r"\d{4}-\d{2}-\d{2}", fecha):
+                notas.append(f"fecha '{fecha}' no está en AAAA-MM-DD")
+            resultados.append(procesar(slug, url, "", titulo, fecha, "", "manual", notas, parrafos=parrafos))
+    elif args.modo == "api":
         posts = cargar_api_local() if args.sin_red else descargar_api()
         if not posts:
             print("error: no hay posts. Sin --sin-red descarga; con él necesita trabajo/wp-json/", file=sys.stderr)

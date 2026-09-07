@@ -1,126 +1,139 @@
 # Protocolo de extracción de nav.al
 
-## Por qué existe este documento
+## La decisión
 
-**nav.al está bloqueado desde las sesiones web de Claude Code.** La política de egress
-devuelve 403 en el CONNECT (comprobado con `curl -sS "$HTTPS_PROXY/__agentproxy/status"`),
-así que la sesión que escribe el código no puede abrir la web de la que salen los datos.
+**Los transcripts se cogen a mano.** Se abre la página del episodio en nav.al, se copia el
+transcript y se pega en un fichero de texto del directorio de trabajo. Un script lo convierte
+al formato del protocolo y el normalizador hace el resto.
 
-Se probaron dos vías y cada una sirve para una cosa distinta:
+Es una decisión del autor, tomada tras probar las dos alternativas automáticas:
 
-| Vía | Sirve para | No sirve para |
-|---|---|---|
-| **Claude web** (claude.ai) | Reconocimiento: catálogo, estructura de la página, reglas de parseo | El texto de los transcripts: su fetch corta a ~100 KB y no reproduce el cuerpo entero |
-| **Script en local** | Descargar y parsear los 168 episodios de forma determinista | Nada. Es la vía de producción |
-
-La conclusión: **Claude web reconoce, el script descarga, Claude Code normaliza y versiona.**
+| Vía | Qué pasó |
+|---|---|
+| **Claude web** (claude.ai) | Sirvió para el reconocimiento: catálogo, estructura de la página, reglas de parseo. Para el cuerpo del transcript, no: su fetch corta a ~100 KB y no reproduce el texto entero |
+| **Script en local** contra nav.al | Escrito y probado contra fixtures, pero **nunca ejecutado contra la web real** (nav.al está bloqueado desde las sesiones web de Claude Code). Queda como alternativa, no como flujo |
 
 ## El reparto de trabajo
 
 ```
-   claude.ai                 tu máquina                       repo / Claude Code
-   ─────────                 ──────────                       ──────────────────
-   catálogo                  descargar-episodios.py           normalizar-extraccion.py
-   reglas de parseo   ──►    baja la API de WordPress   ──►   trocea en frases
-   estructura                parsea el HTML                   asigna ids, valida, commitea
-                             deja JSON crudo en trabajo/
+   tú, en el navegador          trabajo/manual/<slug>.txt      extraer-episodios.py        normalizar-extraccion.py
+   ────────────────────         ─────────────────────────      ────────────────────        ────────────────────────
+   abres nav.al/<slug>    ──►   pegas el transcript      ──►   lo convierte a bloques ──►  trocea en frases, asigna ids,
+   copias el texto              marcas los encabezados         y deja JSON crudo            escribe los ficheros del repo
 ```
 
-**El troceo en frases y la numeración de ids nunca los hace un modelo.** Los hace un script,
-por tres razones:
+**El troceo en frases y la numeración de ids nunca los hace una persona ni un modelo.** Los
+hace el normalizador, por tres razones:
 
-1. **Reproducibilidad.** Un modelo trocea distinto cada vez; un script no. Los ids son la
-   pieza que mantiene unidos el transcript, la traducción y los clips de TTS.
-2. **Revisabilidad.** Si cambia la regla de segmentación, se re-ejecuta sobre lo ya
-   descargado. No hay que volver a bajar nada.
-3. **Menos superficie de error.** Cuanto menos transforme un modelo, menos ocasiones tiene
-   de parafrasear sin querer.
+1. **Reproducibilidad.** Los ids son la pieza que mantiene unidos el transcript, la
+   traducción y los clips de TTS. Tienen que salir siempre iguales de los mismos datos.
+2. **Revisabilidad.** Si cambia la regla de segmentación, se re-ejecuta sobre lo ya pegado.
+3. **Menos trabajo manual.** Pegar un episodio son dos minutos; trocearlo a mano en frases
+   numeradas serían veinte, y con errores.
 
-## Lo que ya se ha hecho
+## Cómo se pega un episodio
 
-- **Catálogo completo**: `catalogo.json` en la raíz del repo, 168 entradas del archivo de
-  nav.al, extraído por Claude web el 2026-09-07. El JSON crudo original está también en
-  Drive, en `naval-podcast/_extraccion/`.
-- **Regla de parseo del HTML**, confirmada por Claude web contra una página real y
-  codificada en `scripts/descargar-episodios.py`:
-  - `<p>` que empieza por `<strong>Nombre:</strong>` abre un turno de ese hablante
-  - `<p>` cuyo contenido entero es un `<strong>` es un encabezado de sección
-  - `<p>` sin etiqueta continúa el turno abierto; tras un encabezado, el hablante se hereda
-- **Fecha** en `<meta property="article:published_time">` y, mejor, en la API.
+Un fichero por episodio en `trabajo/manual/<slug>.txt`, donde `<slug>` es el de la URL
+(`nav.al/finally-wealthy` → `finally-wealthy.txt`). El script cruza el slug con
+`catalogo.json` y saca de ahí la URL y el título, así que no hace falta escribirlos.
 
-## Descarga: `scripts/descargar-episodios.py`
+```
+fecha: 2019-05-21
 
-Se ejecuta **en local**. Solo biblioteca estándar; no hay que instalar nada.
+Nivi: Primera intervención, tal como está en la página.
+
+Naval: Segunda intervención.
+
+Párrafo sin etiqueta: continúa la intervención de Naval.
+
+## Encabezado de sección, tal como aparece en la página
+
+Párrafo tras el encabezado: hereda el último hablante (Naval).
+
+Nivi: Otra intervención.
+```
+
+Las reglas, que son las mismas que sigue la página:
+
+| En el fichero | Significa |
+|---|---|
+| `Nombre: texto` al principio de un párrafo | Abre un turno de ese hablante |
+| `## texto` | Encabezado de sección. **Hay que ponerle el `##` a mano**: al copiar, la negrita se pierde y sin la marca parecería un párrafo más |
+| Párrafo sin etiqueta | Continúa el turno abierto. Tras un encabezado, hereda el hablante anterior |
+| Línea en blanco | Separa párrafos. Las líneas seguidas dentro de un párrafo se unen |
+| `fecha: AAAA-MM-DD` en la primera línea | Solo si el catálogo no la tiene (59 episodios de 2019 y 2020 vienen sin fecha). Está en la página, bajo el título |
+
+`url:` y `titulo:` también se admiten en la cabecera, pero no hacen falta si el slug está en
+el catálogo.
+
+**Lo que no hay que hacer:** no trocear en frases, no corregir el texto, no traducir, no
+quitar los nombres de los hablantes. Cuanto más literal, mejor.
+
+## Conversión: `scripts/extraer-episodios.py`
 
 ```bash
-python3 scripts/descargar-episodios.py --solo finally-wealthy   # uno, para probar
-python3 scripts/descargar-episodios.py --anio 2019              # un año
-python3 scripts/descargar-episodios.py                          # los 168
-python3 scripts/descargar-episodios.py --sin-red                # reprocesa sin descargar
+python3 scripts/extraer-episodios.py                      # todos los .txt de trabajo/manual/
+python3 scripts/extraer-episodios.py --solo finally-wealthy
 ```
 
-**Fuente principal: la API REST de WordPress** de nav.al
-(`/wp-json/wp/v2/posts?per_page=100&_fields=…`). Devuelve fecha, título y el HTML del
-contenido de todos los posts en dos o tres peticiones. Es más rápida y más estable que
-rascar 168 páginas, y resuelve de paso las 59 fechas que el archivo no mostraba.
-
-**Respaldo**: `--modo paginas` descarga cada URL del catálogo y parsea el `<article>`. Para
-cuando la API no responda.
-
-Salida, por episodio, en `trabajo/extraccion/<slug>.json`:
+Lee `trabajo/manual/*.txt`, aplica las reglas de arriba y deja un JSON por episodio en
+`trabajo/extraccion/<slug>.json` con el formato del protocolo:
 
 ```json
 {
-  "url": "https://nav.al/…",
-  "titulo": "…",
+  "url": "https://nav.al/finally-wealthy",
+  "titulo": "A Calm Mind, a Fit Body, a House Full of Love",
   "fecha": "2019-05-21",
-  "fecha_gmt": "2019-05-21T19:22:57",
   "idioma": "en",
   "bloques": [
     { "tipo": "intervencion", "speaker": "Nivi", "texto": "…" },
+    { "tipo": "intervencion", "speaker": "Naval", "texto": "…" },
     { "tipo": "seccion", "texto": "…" },
     { "tipo": "intervencion", "speaker": "Naval", "texto": "…", "speaker_inferido": true }
   ],
   "completo": true,
   "notas": "bloque 4: hablante inferido (Naval) tras un encabezado",
-  "fuente": "wp-json",
-  "descargado_el": "2026-09-07"
+  "fuente": "manual"
 }
 ```
 
-`trabajo/` está en `.gitignore`. Es el directorio de trabajo; lo que se versiona sale del
-normalizador. Las respuestas crudas de la API quedan en `trabajo/wp-json/` como evidencia y
-como fixtures para depurar el parser sin red.
+Imprime una línea por episodio con bloques, palabras, hablantes y avisos. Los avisos son
+la señal de revisar: un slug que no está en el catálogo, una fecha que falta, un hablante
+que aparece una sola vez (probable errata al pegar).
 
-El parser está probado contra un fixture sintético que reproduce la estructura de
-`finally-wealthy` tal como la describió Claude web (10 bloques: 7 intervenciones y 3
-secciones, hablante heredado tras cada encabezado). **No se ha ejecutado todavía contra la
-web real.** La primera ejecución en local es la prueba de verdad.
+`trabajo/` está en `.gitignore`: es el directorio de trabajo, no el repo.
 
-## Verificación al recibir
+Los modos `--modo api` y `--modo paginas` bajan de nav.al directamente. Existen, están
+probados contra fixtures y no contra la web real, y **no forman parte del flujo**.
 
-Sobre la salida del script, antes de normalizar:
+## Verificación antes de normalizar
 
 1. **El contenido está en inglés.** Buscar palabras funcionales del español (`que`, `de`,
-   `el`, `con`) en los bloques. Fue el fallo del primer intento con Claude web.
-2. **Parsea como JSON**, tiene las claves del esquema y `completo` es `true`.
-3. **Ningún bloque está vacío** ni contiene marcas de recorte: `[...]`, `…continúa`, `etc.`
-4. **La longitud es plausible.** A ritmo de habla, ~130-160 palabras por minuto. Un episodio
-   de 40 minutos por debajo de 3.000 palabras es sospechoso.
-5. **Los `speaker` son consistentes** dentro del episodio y entre episodios: `Naval`,
-   `Nivi`, no `naval` en unos y `NAVAL` en otros.
-6. **Los bloques `seccion` están intercalados**, no agrupados. Si vienen todos juntos, el
-   parser ha perdido su posición.
-7. **`NO ENCONTRADOS` y `SIN BLOQUES` del informe final están vacíos** o explicados: un
-   episodio sin transcript en la página es legítimo; uno que la API no devuelve, no.
+   `el`, `con`) en los bloques.
+2. **Ningún bloque está vacío** ni contiene marcas de recorte: `[...]`, `…continúa`, `etc.`
+3. **La longitud es plausible.** A ritmo de habla, ~130-160 palabras por minuto. Un episodio
+   de 40 minutos por debajo de 3.000 palabras es que se pegó a medias.
+4. **Los `speaker` son consistentes** dentro del episodio y entre episodios: `Naval`,
+   `Nivi`, no `naval` en unos y `NAVAL` en otros. Un nombre que aparece una sola vez es
+   casi seguro una errata.
+5. **Los bloques `seccion` están intercalados**, no agrupados. Si aparecen todos juntos, se
+   olvidó marcar alguno con `##` y el parser los ha tomado por párrafos.
 
-Un episodio que no pase 3 o 6 apunta a un caso del HTML que el parser no contempla. Se
-guarda el HTML, se añade al fixture y se corrige el parser; **no se parchea el JSON a mano**.
+Si algo falla, **se corrige el `.txt` y se relanza el script**. No se toca el JSON a mano.
 
-## Encargo de reconocimiento (Claude web)
+## Reconocimiento con Claude web
 
-Se conserva para cuando salgan episodios nuevos y haya que ampliar el catálogo. Se pega
-en una conversación nueva de claude.ai:
+Claude web sí llega a nav.al y sirve para lo que no requiere reproducir texto largo. Ya
+se usó para:
+
+- **El catálogo completo**: `catalogo.json` en la raíz, 168 entradas del archivo de nav.al
+  (2026-09-07). El crudo está también en Drive, en `naval-podcast/_extraccion/`.
+- **La regla de parseo de la página**, que es la que codifica el script: `<p>` con
+  `<strong>Nombre:</strong>` abre turno; `<p>` todo en negrita es sección; `<p>` sin etiqueta
+  continúa el turno y hereda el hablante tras un encabezado.
+
+Para ampliar el catálogo cuando salgan episodios nuevos, en una conversación nueva de
+claude.ai:
 
 ```
 Localiza en nav.al el índice de episodios del podcast. Necesito el catálogo
@@ -174,8 +187,8 @@ y `numero: null` en ambos metadata. Nada queda fuera del repo.
 
 ## Después de la verificación
 
-`scripts/normalizar-extraccion.py` — **por escribir, contra la primera salida real** —
-convierte `trabajo/extraccion/*.json` en los ficheros del repo:
+`scripts/normalizar-extraccion.py` — **por escribir, contra el primer episodio pegado de
+verdad** — convierte `trabajo/extraccion/*.json` en los ficheros del repo:
 
 - Trocea cada intervención en frases y asigna ids correlativos (`0001`, `0002`, …)
 - Aplica la regla de numeración de arriba para decidir carpeta y `numero`

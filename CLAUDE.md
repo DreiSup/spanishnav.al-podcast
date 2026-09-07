@@ -25,15 +25,15 @@ se cuela, es un error, no una excepción.
 
 ```
 episodios/<año>/<NNN>-<slug>/
-  transcript.en.json     original descargado de nav.al       ← FUENTE DE VERDAD
+  transcript.en.json     original copiado de nav.al          ← FUENTE DE VERDAD
   transcript.es.json     traducción al español               ← FUENTE DE VERDAD
-  metadata.en.json       datos del episodio según la fuente  ← lo escribe el descargador
+  metadata.en.json       datos del episodio según la fuente  ← lo escribe el normalizador
   metadata.es.json       título/descripción es, YouTube,
                          estado y punteros a Drive           ← lo autoramos nosotros
   transcript.en.md       GENERADO — no editar
   transcript.es.md       GENERADO — no editar
 
-catalogo.json            los 168 episodios del archivo de nav.al ← entrada del descargador
+catalogo.json            los 168 episodios del archivo de nav.al ← título, URL y orden de cada uno
 drive.json               IDs de Drive de la raíz y de cada año  ← el vínculo con Drive
 INDICE.md                GENERADO por scripts/indice.py — no editar
 GLOSARIO.md              criterios de traducción y términos fijos
@@ -44,7 +44,7 @@ docs/                    decisiones sobre el repo
 ```
 
 Años presentes: **2019 a 2026**. Las carpetas están creadas y vacías; los episodios se
-crearán al descargarlos.
+crearán al normalizar cada transcript pegado.
 
 ### Nombres
 
@@ -95,8 +95,8 @@ frase a frase gratis, y permite validar que no falta ni sobra nada.
 
 ### `metadata.en.json`
 
-Inmutable y re-descargable. No lo edites a mano: si está mal, se arregla el descargador y se
-vuelve a bajar.
+Sale del catálogo y del `.txt` pegado. No lo edites a mano: si está mal, se corrige el origen
+(`catalogo.json` o la cabecera del `.txt`) y se vuelve a normalizar.
 
 ### `metadata.es.json`
 
@@ -156,7 +156,7 @@ rclone.
 
 | # | Paso | Dónde | Estado |
 |---|---|---|---|
-| 1 | Descargar el transcript original de nav.al | **local**, `descargar-episodios.py` | escrito, sin ejecutar contra la web real |
+| 1 | Copiar el transcript de nav.al **a mano** a `trabajo/manual/<slug>.txt` y convertirlo con `extraer-episodios.py` | **local, manual por decisión** | formato y script listos |
 | 2 | Traducir al español a `transcript.es.json` | web / local | por definir |
 | 3 | Generar un clip de TTS por frase y subirlo a Drive | Colab (GPU) | por definir |
 | 4 | Juntar clips, quitar ruido y alucinaciones | **local, Audacity** | manual por diseño |
@@ -172,11 +172,12 @@ El paso 4 es irreducible: requiere criterio humano.
 devuelve 403 en el CONNECT; `itunes.apple.com` igual. Comprobado con
 `curl -sS "$HTTPS_PROXY/__agentproxy/status"`.
 
-Consecuencia: **la descarga se ejecuta en la máquina local** con
-`scripts/descargar-episodios.py`, que usa la API REST de WordPress de nav.al. Claude web
-sirvió para el reconocimiento (catálogo, reglas de parseo) pero **no para los cuerpos**: su
-fetch corta a 100 KB y no reproduce el texto entero. No insistas por esa vía. El protocolo
-completo está en **`docs/extraccion.md`**; léelo antes de tocar nada de la descarga.
+Consecuencia, y decisión del autor: **los transcripts se copian a mano** desde nav.al a
+`trabajo/manual/<slug>.txt`, y `scripts/extraer-episodios.py` los convierte al formato del
+protocolo. Claude web sirvió para el reconocimiento (catálogo, reglas de parseo) pero **no
+para los cuerpos**: su fetch corta a 100 KB y no reproduce el texto entero. No insistas por
+esa vía ni propongas automatizar la descarga: está decidido. El formato del `.txt` y el
+protocolo completo están en **`docs/extraccion.md`**; léelo antes de tocar nada de esto.
 
 La idea que lo gobierna: el troceo en frases y la asignación de ids son deterministas y los
 hace un script, nunca un modelo, para que los mismos datos den siempre los mismos ids.
@@ -195,7 +196,7 @@ YouTube Studio.
 |---|---|
 | `scripts/nuevo-episodio.sh` | Crea la carpeta de un episodio con los cuatro `.json`. Al día |
 | `scripts/indice.py` | Regenera `INDICE.md`. Al día |
-| `scripts/descargar-episodios.py` | Baja los episodios de nav.al a `trabajo/extraccion/` como JSON crudo. **Se ejecuta en local.** Probado contra fixture sintético; nunca contra la web real |
+| `scripts/extraer-episodios.py` | Convierte los `.txt` pegados a mano en `trabajo/manual/` a JSON crudo en `trabajo/extraccion/`. Modo por defecto `manual`, probado. Los modos `api` y `paginas` bajan de nav.al y **no forman parte del flujo** |
 | `scripts/unir-audios.sh` | **Nunca ejecutado y desactualizado.** Ordena los clips alfabéticamente; debe reescribirse para leer el orden y los ids de `transcript.es.json`. No lo uses todavía |
 | `scripts/render-video.sh` | **Nunca ejecutado.** Opera sobre un directorio de trabajo local, no sobre el repo |
 
