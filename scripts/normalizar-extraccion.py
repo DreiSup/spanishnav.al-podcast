@@ -24,6 +24,7 @@ Lo que hace, y nada más:
   - pone un id por bloque de hablante: b01-nivi, b02-naval, …
   - renombra titulo_seccion (singular) a subtitulo
   - trocea en frases el inglés siempre; en español respeta el troceado del traductor
+  - avisa si el español lleva caracteres que el TTS vocaliza (comillas, guiones, cifras)
   - si el episodio es uno de los 34 producidos a mano en 2019, lo marca como heredado
 
 Y actualiza catalogo.json para ese episodio: `tiene_transcript: true` —si el transcript
@@ -54,6 +55,11 @@ EXTRAS = set(range(1, 5)) | set(range(164, 167))
 HEREDADOS = set(range(1, 35))          # 1-34 tienen audio montado
 HEREDADOS_SIN_VIDEO = {34}             # el 34 es el único sin vídeo
 AUDITADO_EL = "2026-09-06"
+
+# Caracteres que el TTS vocaliza en vez de interpretar: los lee en alto ("comillas",
+# "guion") o los pronuncia mal. En el texto en español no deben aparecer; el inglés es
+# referencia y no pasa por el modelo, así que ahí da igual. Ver GLOSARIO.md.
+VOCALIZA_EL_TTS = re.compile(r'[«»“”„‟–—―…()\[\]{}*/\\|_#<>~^+=%$€&@"]|\d')
 
 
 def numero_de_episodio(orden: int) -> int | None:
@@ -128,6 +134,18 @@ def construir_transcript(origen: dict, idioma: str, ficha: dict) -> tuple[dict, 
         frases = [f.strip() for f in frases_de(bloque, trocear_siempre=idioma == "en") if f.strip()]
         if not frases:
             avisos.append(f"{idioma}: bloque {i} sin frases")
+        if idioma == "es":
+            for j, frase in enumerate(frases, 1):
+                hallados = {m.group(0) for m in VOCALIZA_EL_TTS.finditer(frase)}
+                if not hallados:
+                    continue
+                simbolos = sorted(c for c in hallados if not c.isdigit())
+                partes = [f"{' '.join(simbolos)}"] if simbolos else []
+                if any(c.isdigit() for c in hallados):
+                    partes.append("cifras")
+                avisos.append(
+                    f"es: bloque {i} frase {j} lleva {', '.join(partes)} — "
+                    f"el TTS lo vocaliza; escríbelo como se pronuncia")
         contenido.append({
             "id": f"b{i:02d}-{slugificar(speaker) or 'sin-hablante'}",
             "speaker": speaker,

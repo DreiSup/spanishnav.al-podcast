@@ -13,8 +13,15 @@ la decisión aquí para no volver a dudar en el episodio siguiente.
   dejan en inglés si es como se dicen en español (ver tabla).
 - **Pensado para leerse en voz alta**: si una frase se traba al leerla, está
   mal traducida aunque sea correcta. El texto va a pasar por TTS.
-- **Cifras y unidades**: escribe los números como se pronuncian cuando el TTS
-  los lee mal («veinte por ciento» en vez de «20 %»).
+- **Cifras y unidades**: escribe los números como se pronuncian («veinte por
+  ciento», «setenta y nueve dólares con noventa y cinco»). El TTS lee las cifras
+  y los símbolos en alto o se los inventa.
+- **Sin puntuación que el TTS vocalice**: nada de comillas de ningún tipo, ni
+  guiones largos, ni puntos suspensivos, ni paréntesis. El modelo los pronuncia
+  en vez de interpretarlos. El estilo directo se marca cortando la frase y
+  dejando que la entonación haga el trabajo, no encomillando. Punto, coma y
+  signos de interrogación y exclamación sí: esos los lee como pausas.
+  El normalizador avisa si se cuela alguno.
 
 ## Términos
 
