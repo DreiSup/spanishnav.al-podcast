@@ -56,26 +56,58 @@ Por orden de preferencia:
 
 ---
 
-## Encargo 1 — El catálogo
+## Prompt maestro
 
-Se hace **una sola vez**. De aquí salen la lista de URLs, los años y la numeración.
+Esto se pega **una vez** al empezar la conversación con Claude web. Fija las reglas y los
+dos formatos; después basta con ir mandando URLs.
 
 ```
-Ve a nav.al y localiza el índice de episodios del podcast de Naval.
+Estoy construyendo un repositorio con las transcripciones del podcast de Naval
+(nav.al) para después traducirlas al español. Tu papel es EXTRAER; la traducción
+y el procesado los hace otro sistema.
 
-Necesito el catálogo COMPLETO, desde el primer episodio hasta el último publicado.
-Si el índice está paginado, recórrelo entero.
+Necesito que entiendas por qué importa la literalidad: el texto que me des se
+convierte en la fuente de verdad del proyecto. Si resumes, corriges o traduces,
+nadie podrá detectarlo después, porque el sistema que recibe tu salida no puede
+abrir nav.al.
 
-Devuélveme un único bloque JSON con esta forma exacta:
+REGLAS, en orden de importancia:
+
+1. NO TRADUZCAS. Devuelve el texto en el idioma en que está la página, que es
+   inglés. Ni una palabra en español dentro del contenido.
+2. NO TROCEES en frases. Cada intervención va entera en un solo campo de texto.
+   El troceo lo hace un script después, y tiene que ser reproducible.
+3. NO RESUMAS, no parafrasees, no acortes, no corrijas erratas ni gramática,
+   no reordenes, no omitas nada.
+4. NO INVENTES. Si no consigues abrir una página o no la lees entera, dilo
+   claramente. Nunca la reconstruyas de memoria.
+5. Devuelve SIEMPRE un único bloque de código JSON válido, sin texto explicativo
+   dentro del bloque.
+
+Te voy a pedir dos cosas distintas. Cada una tiene su formato exacto.
+```
+
+## Encargo 1 — El catálogo
+
+Se lanza **una sola vez**. De aquí salen la lista de URLs, los años y la numeración.
+
+```
+ENCARGO: CATÁLOGO
+
+Localiza en nav.al el índice de episodios del podcast. Necesito el catálogo
+COMPLETO, del primer episodio al último publicado. Si está paginado, recórrelo
+entero.
+
+Formato de salida:
 
 {
   "fuente": "<url del índice que has usado>",
-  "extraido_el": "<fecha de hoy AAAA-MM-DD>",
+  "extraido_el": "<hoy, AAAA-MM-DD>",
   "total": <número de episodios>,
   "episodios": [
     {
       "orden": 1,
-      "titulo": "<título literal>",
+      "titulo": "<título literal, en inglés>",
       "fecha": "<AAAA-MM-DD>",
       "url": "<url completa>",
       "tiene_transcript": true
@@ -83,15 +115,11 @@ Devuélveme un único bloque JSON con esta forma exacta:
   ]
 }
 
-Reglas:
 - "orden" es la posición cronológica ascendente: 1 = el más antiguo de todos.
-- Títulos literales: no los traduzcas ni los normalices.
-- Si no puedes determinar la fecha de alguno, pon "" y menciónalo aparte.
-- "tiene_transcript": true solo si has comprobado que la página tiene transcript.
-  Si no lo has comprobado, pon null.
-- Si alguna página no carga, dilo explícitamente. NO inventes entradas.
+- "fecha" SIEMPRE en AAAA-MM-DD. Si no la sabes, pon "" y dímelo aparte.
+- "tiene_transcript": true solo si lo has comprobado. Si no, null.
 
-Al terminar, dime cuántos episodios has encontrado por cada año.
+Fuera del bloque JSON, dime cuántos episodios hay por cada año.
 ```
 
 Se entrega como `catalogo.json`.
@@ -101,59 +129,66 @@ Se entrega como `catalogo.json`.
 Se repite **por cada URL** del catálogo.
 
 ```
-Abre <URL> y extrae el transcript.
+ENCARGO: EPISODIO
+URL: <pega aquí la url>
 
-CRÍTICO: quiero el texto LITERAL, palabra por palabra. No resumas, no parafrasees,
-no acortes, no arregles la gramática y no omitas nada. Si el transcript es largo,
-prefiero varias respuestas encadenadas a una sola respuesta recortada.
+Extrae la transcripción completa de esa página, en inglés y literal.
 
-Devuélveme un único bloque JSON con esta forma:
+Formato de salida:
 
 {
-  "url": "<url>",
-  "titulo": "<título literal de la página>",
+  "url": "<la url que te he dado>",
+  "titulo": "<título literal de la página, en inglés>",
   "fecha": "<AAAA-MM-DD>",
-  "titulos_seccion": ["<encabezados que aparezcan dentro del transcript, en orden>"],
+  "idioma": "en",
   "bloques": [
-    {
-      "speaker": "<nombre tal y como aparece en la página>",
-      "texto": "<texto literal e íntegro de esa intervención>"
-    }
-  ]
+    { "tipo": "seccion", "texto": "<encabezado tal como aparece>" },
+    { "tipo": "intervencion", "speaker": "Naval", "texto": "<intervención entera>" }
+  ],
+  "completo": true,
+  "notas": ""
 }
 
-Reglas:
-- Un objeto en "bloques" por cada intervención, en el orden en que aparecen.
-- "texto" es el bloque entero de esa intervención. NO lo trocees en frases:
-  de eso se encarga un script después.
-- Conserva las comillas, los guiones y los énfasis como texto plano.
-- Si la página no tiene transcript, devuelve "bloques": [] y dilo.
-- Si no consigues abrir la página, dilo. NO la reconstruyas de memoria.
+Sobre "bloques", que es lo importante:
+- Un elemento por cada cosa que aparece en la página, EN EL MISMO ORDEN.
+- Los encabezados de sección van como bloques "seccion" EN SU SITIO, entre las
+  intervenciones que separan. No los saques a una lista aparte: necesito saber
+  dónde cae cada uno.
+- "speaker" es el nombre tal y como aparece en la página, siempre igual escrito.
+- "texto" es la intervención COMPLETA. Sin trocear en frases.
+- Conserva comillas, guiones y énfasis como texto plano.
 
-Al terminar, dime dos números: cuántos bloques has devuelto y cuántas palabras
-tiene el transcript aproximadamente.
+Otros campos:
+- "completo": false si te has dejado algo por cualquier motivo.
+- "notas": cualquier cosa rara que hayas visto. Vacío si no hay nada.
+- Si la página no tiene transcripción: "bloques": [] y dímelo.
+
+Fuera del bloque JSON dime tres datos: cuántos bloques, cuántas palabras
+aproximadamente, y si el texto está completo o cortado.
 ```
 
 Se entrega como `<slug>.json`.
 
 ### Si el episodio no cabe en una respuesta
 
-Que corte por bloque completo, nunca a mitad de uno, y que siga con:
+Que corte **por bloque completo**, nunca a mitad de uno, ponga `"completo": false` y siga
+con:
 
 ```
-Continúa desde el bloque <N>, con el mismo formato. Solo el JSON de los bloques
-que faltan, sin repetir los anteriores.
+Continúa desde el bloque <N>, mismo formato. Solo los bloques que faltan,
+sin repetir los anteriores.
 ```
 
-Al unir las partes, los bloques deben quedar consecutivos y sin solapamiento.
-
----
+Al unir las partes los bloques deben quedar consecutivos y sin solapamiento.
 
 ## Verificación al recibir
 
 Antes de dar por bueno un episodio se comprueba, en este orden:
 
-1. **Parsea como JSON** y tiene las claves del esquema.
+0. **El contenido está en inglés.** La primera comprobación, porque es el fallo que ya
+   ocurrió una vez: se pidió el original y llegó traducido al español. Basta con buscar
+   palabras funcionales del español (`que`, `de`, `el`, `con`) en el texto de los bloques.
+1. **Parsea como JSON**, tiene las claves del esquema y `completo` es `true`.
 2. **El número de bloques coincide** con el que declaró el modelo.
 3. **Ningún bloque está vacío** ni contiene marcas de recorte: `[...]`, `…continúa`,
    `(resumen)`, `etc.`
@@ -162,6 +197,8 @@ Antes de dar por bueno un episodio se comprueba, en este orden:
    brevedad.
 5. **Los `speaker` son consistentes** en todo el episodio y entre episodios. `Naval`,
    `Nivi`, no `naval` en unos y `NAVAL` en otros.
+5. **Los bloques `seccion` están intercalados**, no agrupados al principio ni al final. Si
+   vienen todos juntos, el modelo ha perdido su posición en el texto.
 6. **Prueba de determinismo, por muestreo.** Una de cada diez extracciones se repite en una
    conversación nueva y se comparan. Si el texto difiere más allá de espacios, el modelo está
    reescribiendo y hay que endurecer el encargo.
