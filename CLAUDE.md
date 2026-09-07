@@ -201,7 +201,7 @@ YouTube Studio.
 | `scripts/render-video.sh` | **Nunca ejecutado.** Opera sobre un directorio de trabajo local, no sobre el repo |
 
 Por escribir: `normalizar-extraccion.py` (convierte `trabajo/extraccion/*.json` en los
-ficheros del repo; se escribe contra la primera salida real del descargador), el generador de
+ficheros del repo; se escribe contra el primer transcript pegado de verdad), el generador de
 los `.md`, el validador de esquemas y el creador de carpetas de episodio en Drive.
 
 ## Al trabajar en este repo
