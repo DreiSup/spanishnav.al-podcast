@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 36,
+  "anio": 2019,
+  "slug": "rich-quick",
+  "titulo_es": "No existen los esquemas para hacerse rico rápido",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "No existen los esquemas para hacerse rico rápido",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": ""
+}

@@ -37,8 +37,8 @@ Detalles y comandos en [docs/almacenamiento.md](docs/almacenamiento.md).
 
 ## Estado
 
-La estructura está montada y los años 2019–2026 creados, en el repo y en Drive. **Hay un
-episodio normalizado** (`2019/035-finally-wealthy`); el resto del catálogo, en
+La estructura está montada y los años 2019–2026 creados, en el repo y en Drive. Los
+episodios ya normalizados están en [INDICE.md](INDICE.md); el resto del catálogo, en
 [catalogo.json](catalogo.json), está por procesar.
 
 Los 34 primeros episodios ya se produjeron con el método manual anterior a este repo: llevan

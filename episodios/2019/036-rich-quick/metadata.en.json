@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 36,
+  "anio": 2019,
+  "slug": "rich-quick",
+  "titulo": "There Are No Get Rich Quick Schemes",
+  "subtitulo": "Get rich quick schemes are just someone else getting rich off you",
+  "fecha_publicacion": "2019-05-23",
+  "fuente_url": "https://nav.al/rich-quick",
+  "orden_archivo": 40,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-09-07"
+}
