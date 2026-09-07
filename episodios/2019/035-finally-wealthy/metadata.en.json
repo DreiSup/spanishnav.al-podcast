@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 35,
+  "anio": 2019,
+  "slug": "finally-wealthy",
+  "titulo": "A Calm Mind, a Fit Body, a House Full of Love",
+  "subtitulo": "When you're finally wealthy, you'll realize it wasn't what you were seeking in the first place",
+  "fecha_publicacion": "2019-05-21",
+  "fuente_url": "https://nav.al/finally-wealthy",
+  "orden_archivo": 39,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-09-07"
+}
