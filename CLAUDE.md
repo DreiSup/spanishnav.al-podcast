@@ -207,12 +207,12 @@ YouTube Studio.
 | `scripts/nuevo-episodio.sh` | Crea la carpeta de un episodio con los cuatro `.json`. Al día |
 | `scripts/indice.py` | Regenera `INDICE.md`. Al día |
 | `scripts/extraer-episodios.py` | Convierte los `.txt` pegados a mano en `trabajo/manual/` a JSON crudo en `trabajo/extraccion/`. Modo por defecto `manual`, probado. Los modos `api` y `paginas` bajan de nav.al y **no forman parte del flujo** |
+| `scripts/normalizar-extraccion.py` | Convierte el par de transcripts (en + es) en los cuatro `.json` del episodio, les pone los ids de bloque y marca `tiene_transcript: true` en `catalogo.json`. Estrenado con `035-finally-wealthy` |
 | `scripts/unir-audios.sh` | **Nunca ejecutado y desactualizado.** Ordena los clips alfabéticamente; debe reescribirse para leer el orden y los ids de `transcript.es.json`. No lo uses todavía |
 | `scripts/render-video.sh` | **Nunca ejecutado.** Opera sobre un directorio de trabajo local, no sobre el repo |
 
-Por escribir: `normalizar-extraccion.py` (convierte `trabajo/extraccion/*.json` en los
-ficheros del repo; se escribe contra el primer transcript pegado de verdad), el generador de
-los `.md`, el validador de esquemas y el creador de carpetas de episodio en Drive.
+Por escribir: el generador de los `.md`, el validador de esquemas y el creador de carpetas
+de episodio en Drive.
 
 ## Al trabajar en este repo
 

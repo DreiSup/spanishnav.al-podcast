@@ -25,6 +25,9 @@ Lo que hace, y nada más:
   - renombra titulo_seccion (singular) a subtitulo
   - si `frases` es un string, lo trocea en frases; si ya es una lista, la respeta
 
+Y marca `tiene_transcript: true` en catalogo.json para ese episodio: si el transcript
+está en el repo, es que existe. Con --simular no toca el catálogo.
+
 El texto no se toca nunca.
 """
 from __future__ import annotations
@@ -125,6 +128,32 @@ def construir_transcript(origen: dict, idioma: str, ficha: dict) -> tuple[dict, 
     return transcript, avisos
 
 
+def marcar_en_catalogo(slug: str, simular: bool) -> str:
+    """Pone tiene_transcript: true en la entrada del episodio. Devuelve qué hizo."""
+    catalogo = json.loads(CATALOGO.read_text(encoding="utf-8"))
+    entradas = [e for e in catalogo["episodios"] if slug_de_url(e["url"]) == slug]
+    if not entradas:
+        return f"no se pudo marcar: '{slug}' no está en el catálogo"
+    entrada = entradas[0]
+    if entrada.get("tiene_transcript") is True:
+        return "tiene_transcript ya estaba en true"
+    anterior = entrada.get("tiene_transcript")
+    if simular:
+        return f"[simulado] tiene_transcript: {json.dumps(anterior)} -> true"
+    entrada["tiene_transcript"] = True
+    # Una entrada por línea, para que los diffs sigan siendo revisables
+    lineas = ["{", f'  "fuente": {json.dumps(catalogo["fuente"])},',
+              f'  "extraido_el": {json.dumps(catalogo["extraido_el"])},',
+              f'  "total": {catalogo["total"]},', '  "episodios": [']
+    eps = catalogo["episodios"]
+    for i, e in enumerate(eps):
+        lineas.append("    " + json.dumps(e, ensure_ascii=False) + ("," if i < len(eps) - 1 else ""))
+    lineas += ["  ]", "}"]
+    CATALOGO.write_text("\n".join(lineas) + "\n", encoding="utf-8")
+    json.loads(CATALOGO.read_text(encoding="utf-8"))  # no dejar el catálogo roto
+    return f"tiene_transcript: {json.dumps(anterior)} -> true"
+
+
 def escribir(ruta: Path, datos: dict, simular: bool) -> None:
     if simular:
         print(f"    [simulado] escribiría {ruta.relative_to(RAIZ)}")
@@ -216,6 +245,7 @@ def main() -> int:
     escribir(destino / "transcript.es.json", tr_es, args.simular)
     escribir(destino / "metadata.en.json", meta_en, args.simular)
     escribir(destino / "metadata.es.json", meta_es, args.simular)
+    print(f"    catalogo.json: {marcar_en_catalogo(slug, args.simular)}")
 
     if not args.simular:
         print("\nsiguiente paso: python3 scripts/indice.py")

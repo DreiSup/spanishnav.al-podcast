@@ -188,11 +188,20 @@ y `numero: null` en ambos metadata. Nada queda fuera del repo.
 
 ## Después de la verificación
 
-`scripts/normalizar-extraccion.py` — **por escribir, contra el primer episodio pegado de
-verdad** — convierte `trabajo/extraccion/*.json` en los ficheros del repo:
+`scripts/normalizar-extraccion.py` convierte el par de transcripts en los ficheros del repo:
+
+```bash
+python3 scripts/normalizar-extraccion.py <en.json> <es.json>
+python3 scripts/normalizar-extraccion.py <en.json> <es.json> --simular
+```
+
+Qué hace:
 
 - Trocea cada intervención en frases y asigna ids correlativos (`0001`, `0002`, …)
 - Aplica la regla de numeración de arriba para decidir carpeta y `numero`
 - Escribe `transcript.en.json` y `metadata.en.json` en `episodios/<año>/<NNN>-<slug>/`
 - Crea `metadata.es.json` en estado `pendiente`
-- Deja un informe de lo que ha creado, actualizado y saltado
+- Marca `tiene_transcript: true` en `catalogo.json` para ese episodio: si el transcript está
+  en el repo, es que existe. Reescribe el fichero conservando una entrada por línea, así que
+  el diff es de una sola línea. Es idempotente y con `--simular` no lo toca
+- Deja un informe con bloques, frases, palabras, ratio es/en, ids y avisos
