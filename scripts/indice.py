@@ -20,6 +20,7 @@ ESTADOS = {
     "revision": "🟠 en revisión",
     "tts": "🔵 generando TTS",
     "montaje": "🟣 montaje",
+    "heredado": "🟤 heredado",
     "publicado": "🟢 publicado",
 }
 

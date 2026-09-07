@@ -24,6 +24,7 @@ Lo que hace, y nada más:
   - pone un id por bloque de hablante: b01-nivi, b02-naval, …
   - renombra titulo_seccion (singular) a subtitulo
   - si `frases` es un string, lo trocea en frases; si ya es una lista, la respeta
+  - si el episodio es uno de los 34 producidos a mano en 2019, lo marca como heredado
 
 Y marca `tiene_transcript: true` en catalogo.json para ese episodio: si el transcript
 está en el repo, es que existe. Con --simular no toca el catálogo.
@@ -46,6 +47,12 @@ PLANTILLAS = RAIZ / "plantillas" / "episodio"
 
 # Entradas del archivo de nav.al que no son episodios del feed (ver docs/extraccion.md)
 EXTRAS = set(range(1, 5)) | set(range(164, 167))
+
+# Episodios ya producidos con el método manual de 2019 (auditado en disco el 2026-09-06).
+# Su audio existe y NO se re-sintetiza. Ver "Episodios heredados" en CLAUDE.md.
+HEREDADOS = set(range(1, 35))          # 1-34 tienen audio montado
+HEREDADOS_SIN_VIDEO = {34}             # el 34 es el único sin vídeo
+AUDITADO_EL = "2026-09-06"
 
 
 def numero_de_episodio(orden: int) -> int | None:
@@ -128,6 +135,21 @@ def construir_transcript(origen: dict, idioma: str, ficha: dict) -> tuple[dict, 
     return transcript, avisos
 
 
+def bloque_heredado(numero: int | None) -> dict | None:
+    """Ficha del material producido a mano en 2019, si este episodio es uno de ellos."""
+    if numero is None or numero not in HEREDADOS:
+        return None
+    return {
+        "audio_existente": True,
+        "origen": "produccion-manual-2019",
+        "ruta_local": f"spanishpodcast/2019/{numero:02d}",
+        "corresponde_al_transcript": False,
+        "tiene_master": False,
+        "video_resolucion": "" if numero in HEREDADOS_SIN_VIDEO else "1376x768",
+        "auditado_el": AUDITADO_EL,
+    }
+
+
 def marcar_en_catalogo(slug: str, simular: bool) -> str:
     """Pone tiene_transcript: true en la entrada del episodio. Devuelve qué hizo."""
     catalogo = json.loads(CATALOGO.read_text(encoding="utf-8"))
@@ -168,8 +190,11 @@ def main() -> int:
     ap.add_argument("en", help="JSON del transcript en inglés")
     ap.add_argument("es", help="JSON del transcript en español")
     ap.add_argument("--slug", help="fuerza el episodio en vez de buscarlo por título")
+    ap.add_argument("--fecha", help="fecha AAAA-MM-DD, para los 59 episodios que el catálogo no trae fechados")
     ap.add_argument("--simular", action="store_true", help="no escribe nada")
     ap.add_argument("--forzar", action="store_true", help="sobrescribe una carpeta existente")
+    ap.add_argument("--sin-heredado", action="store_true",
+                    help="no marcar como heredado aunque el número esté entre los 34 producidos")
     args = ap.parse_args()
 
     origen_en = json.loads(Path(args.en).read_text(encoding="utf-8"))
@@ -179,9 +204,11 @@ def main() -> int:
     orden = entrada["orden"]
     numero = numero_de_episodio(orden)
     slug = slug_de_url(entrada["url"])
-    fecha = entrada["fecha"] or (origen_en.get("fecha") or "")
-    if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", fecha):
-        raise SystemExit(f"error: el catálogo no da fecha ISO para '{slug}' (tiene {fecha!r})")
+    fecha = args.fecha or entrada["fecha"]
+    if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", fecha or ""):
+        raise SystemExit(
+            f"error: no hay fecha ISO para '{slug}' (el catálogo trae {entrada['fecha']!r}).\n"
+            f"       Búscala en {entrada['url']} y pásala con --fecha AAAA-MM-DD.")
     anio = fecha[:4]
     nombre = f"{numero:03d}-{slug}" if numero is not None else f"extra-{slug}"
     destino = RAIZ / "episodios" / anio / nombre
@@ -240,6 +267,14 @@ def main() -> int:
     meta_es = json.loads((PLANTILLAS / "metadata.es.json").read_text(encoding="utf-8"))
     meta_es.update(numero=numero, anio=int(anio), slug=slug, titulo_es=tr_es["titulo"], estado="revision")
     meta_es["youtube"]["titulo"] = tr_es["titulo"]
+
+    heredado = None if args.sin_heredado else bloque_heredado(numero)
+    if heredado:
+        meta_es["heredado"] = heredado
+        meta_es["audio_editado_a_mano"] = True
+        meta_es["estado"] = "heredado"
+        print(f"  HEREDADO: audio de {heredado['origen']} en {heredado['ruta_local']}")
+        print("            no se re-sintetiza; el transcript es referencia textual, no su fuente")
 
     escribir(destino / "transcript.en.json", tr_en, args.simular)
     escribir(destino / "transcript.es.json", tr_es, args.simular)

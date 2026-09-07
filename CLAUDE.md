@@ -58,7 +58,8 @@ crearán al normalizar cada transcript pegado.
   están en `docs/extraccion.md`.
 - **Slug**: el de la URL de nav.al, tal cual. Ejemplo: `nav.al/judgment` → `judgment`.
 - **Estados** de `metadata.es.json`: `pendiente` → `traduciendo` → `revision` → `tts` →
-  `montaje` → `publicado`.
+  `montaje` → `publicado`. Y `heredado`, que no es un paso del recorrido sino una entrada
+  lateral justo antes de `publicado`: ver más abajo.
 
 ## Los esquemas JSON
 
@@ -111,6 +112,69 @@ Todo lo que autoramos: `titulo_es`, `estado`, el bloque `youtube` (título, desc
 url) y el bloque `drive` con los file IDs. `audio_editado_a_mano: true` marca los episodios
 que pasaron por Audacity: a partir de ese punto el audio **ya no es regenerable** desde la
 traducción, y el proyecto `.aup3` pasa a ser un artefacto que hay que conservar en Drive.
+
+## Episodios heredados
+
+**34 episodios ya están producidos** con el método manual anterior a este repo: audio montado
+en Audacity, del 1 al 34. Auditado en disco el 2026-09-06:
+
+- 34 con audio, 33 con vídeo — el 34 es el único sin vídeo
+- **Ninguno tiene master en español.** `Naval-Ep1.mp3` y `Naval-Ep2.mp3` son los originales
+  **en inglés**, no masters: no los confundas
+- Los vídeos son 1376x768, no 4K: heredan la resolución de la miniatura
+- Proyectos `.aup3` solo en 4 episodios: 01, 06, 07 y 08. (`CONTEXTO.md` dice 6; prevalece
+  esta auditoría, que es posterior y más específica)
+- El material está **en local**, todavía no en Drive
+
+### Por qué necesitan un estado propio
+
+La máquina de estados no podía describirlos. No son `pendiente` —hay audio y vídeo hechos— ni
+`publicado` —no están ni en YouTube ni en ningún sitio—. De ahí `heredado`.
+
+Pero el problema de fondo es otro: **ese audio se montó desde la traducción antigua**, y el
+`transcript.es.json` del repo viene de la traducción nueva. El audio no se corresponde con su
+texto. Queda huérfano.
+
+### La regla
+
+> **Un episodio `heredado` NO se re-sintetiza.** Su audio se sube tal cual a Drive y a
+> YouTube. Su `transcript.es.json` es **referencia textual, no la fuente del audio publicado**.
+
+En `metadata.es.json` lo marca el bloque `heredado`, que el normalizador rellena solo cuando
+el número está entre 1 y 34:
+
+```json
+"audio_editado_a_mano": true,
+"heredado": {
+  "audio_existente": true,
+  "origen": "produccion-manual-2019",
+  "ruta_local": "spanishpodcast/2019/26",
+  "corresponde_al_transcript": false,
+  "tiene_master": false,
+  "video_resolucion": "1376x768",
+  "auditado_el": "2026-09-06"
+}
+```
+
+`ruta_local` es el **prefijo** de la carpeta local; el nombre completo lleva además el título
+en inglés. Es un puntero temporal: cuando el material suba a Drive, manda `drive`.
+
+`corresponde_al_transcript: false` es el campo importante. Deja la divergencia escrita en el
+dato, no en la memoria de nadie.
+
+### Si se re-traduce un heredado
+
+**Se acepta la divergencia. No se re-produce.**
+
+El paso 4 del flujo —limpiar el audio en Audacity— es el cuello de botella de todo el
+proyecto, y es irreducible. Gastarlo en 34 episodios que ya suenan bien es el peor uso posible
+de ese tiempo. La divergencia entre el texto del repo y el audio publicado no es un problema
+mientras esté marcada, y lo está.
+
+Re-producir uno es una decisión deliberada y por episodio, nunca automática. Cuando se tome:
+pon `estado` en `tts`, pon `heredado` en `null` y el episodio vuelve al flujo normal. El
+registro de que hubo audio antiguo queda en el historial de git, que para eso se versiona el
+metadata.
 
 ## El vínculo con Google Drive
 
