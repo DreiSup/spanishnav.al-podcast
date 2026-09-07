@@ -19,7 +19,7 @@ Drive, en cambio, ya está pagado y tiene espacio de sobra.
 
 | Va a git | Va a Drive |
 |---|---|
-| `transcript.en.json` / `transcript.es.json` | Clips de TTS (uno por frase) |
+| `transcript.en.json` / `transcript.es.json` | Clips de TTS (uno por bloque de hablante) |
 | `metadata.en.json` / `metadata.es.json` | Audio final montado |
 | `.md` generados, `INDICE.md`, `GLOSARIO.md` | Proyectos `.aup3` de Audacity |
 | Scripts y documentación | Vídeos `.mp4` |
