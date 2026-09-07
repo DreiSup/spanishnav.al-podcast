@@ -124,6 +124,54 @@ Fuera del bloque JSON, dime cuántos episodios hay por cada año.
 
 Se entrega como `catalogo.json`.
 
+## Encargo 1b — Las fechas que faltan
+
+El archivo de nav.al no muestra fecha en todas las entradas: el catálogo llegó con 59 en
+blanco, todas de 2019 y 2020. nav.al es WordPress y expone su API REST, que da la fecha
+exacta de cada post en una sola petición y sin scraping:
+
+```
+ENCARGO: FECHAS
+
+Abre esta URL. Devuelve JSON, no una página:
+
+https://nav.al/wp-json/wp/v2/posts?per_page=100&after=2019-01-01T00:00:00&before=2020-12-31T23:59:59&_fields=date,link
+
+Devuélveme la respuesta TAL CUAL, en un bloque JSON, sin filtrar, reordenar ni
+resumir. Si viene cortada o da error, dilo. Si el servidor limita per_page,
+haz dos peticiones (una por año) y dame las dos.
+```
+
+Se entrega como `fechas.json`. El cruce con el catálogo lo hace el script por `link` → slug.
+Las fechas de nav.al son la referencia; las del RSS pueden diferir ±1 día por la zona
+horaria y no se usan.
+
+## Del catálogo a la numeración
+
+El archivo de nav.al lista **168** entradas. El podcast, según Apple Podcasts, tiene
+**161** episodios. La diferencia son 7 entradas que no son episodios del feed:
+
+| Orden en el archivo | Qué es | Trato |
+|---|---|---|
+| 1–4 | Diálogos con Kapil Gupta, enero-febrero 2019, anteriores al primer episodio | `extra-<slug>`, sin número |
+| 164–166 | Partes sueltas de *The AI Industrial Revolution*, ya retiradas del RSS | `extra-<slug>`, sin número |
+
+La decisión es **numerar por el feed**, porque es lo que ve un oyente y porque coincide con
+la numeración de las carpetas locales antiguas (comprobado: *Judgment* era la carpeta 26 y
+en el archivo es el orden 30, desfase exactamente 4).
+
+Regla de correspondencia, `orden` del archivo → `numero` del episodio:
+
+```
+orden 1–4      → extra (sin número)
+orden 5–163    → numero = orden − 4        (1 … 159)
+orden 164–166  → extra (sin número)
+orden 167–168  → numero = orden − 7        (160, 161)
+```
+
+Los extras se guardan en `episodios/<año>/extra-<slug>/` con los mismos cuatro ficheros
+y `numero: null` en ambos metadata. Nada queda fuera del repo.
+
 ## Encargo 2 — Un episodio
 
 Se repite **por cada URL** del catálogo.

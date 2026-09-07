@@ -47,9 +47,15 @@ crearán al descargarlos.
 
 ### Nombres
 
-- **Carpeta de episodio**: `<NNN>-<slug>` — número global de episodio a tres dígitos,
-  guion, slug. Ejemplo: `007-how-to-get-rich`.
-- **Slug**: minúsculas, números y guiones. Sin tildes, espacios ni comillas tipográficas.
+- **Carpeta de episodio**: `<NNN>-<slug>` — número de episodio a tres dígitos, guion, slug.
+  Ejemplo: `026-judgment`.
+- **El número es el del feed del podcast**, no el del archivo de nav.al. El archivo lista
+  168 entradas; el podcast tiene 161 episodios (Apple Podcasts). Los 7 de diferencia son
+  4 diálogos con Kapil Gupta de enero-febrero de 2019 (anteriores al primer episodio) y
+  3 partes sueltas de *The AI Industrial Revolution*. Esos 7 van en
+  `episodios/<año>/extra-<slug>/`, sin número. La regla y la tabla de correspondencia
+  están en `docs/extraccion.md`.
+- **Slug**: el de la URL de nav.al, tal cual. Ejemplo: `nav.al/judgment` → `judgment`.
 - **Estados** de `metadata.es.json`: `pendiente` → `traduciendo` → `revision` → `tts` →
   `montaje` → `publicado`.
 
