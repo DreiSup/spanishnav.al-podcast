@@ -1,0 +1,105 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2019/038-accountability-means-letting-people-criticize-you",
+  "numero": 38,
+  "fecha": "2019-06-21",
+  "titulo": "La responsabilidad significa dejar que la gente te critique",
+  "subtitulo": "Tienes que exponerte y estar dispuesto a fracasar en público",
+  "fuente_url": "https://nav.al/accountability",
+  "titulos_seccion": [
+    "Las partes más interesantes deberían ser aquellas con las que no estás de acuerdo",
+    "Aprovecha el apalancamiento gratuito que hay en la tecnología",
+    "No te niegues a hacer cosas solo porque otros no puedan hacerlas",
+    "Haz realidad tu visión filantrópica dirigiendo un negocio"
+  ],
+  "contenido": [
+    {
+      "id": "b01-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Hemos terminado de comentar el hilo de tuits.",
+        "Vamos a dedicar un rato a preguntas y respuestas y a comentar tuits que no entraron en el hilo titulado Cómo hacerse rico.",
+        "Mi primera pregunta: ¿cuáles son los fallos más comunes o las cosas que la gente suele hacer mal cuando intenta aplicar estos consejos?"
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Mucha gente no entiende qué es el conocimiento específico ni cómo obtenerlo.",
+        "La gente no entiende lo que implica la responsabilidad.",
+        "Creen que responsabilidad significa responder con éxito.",
+        "No, significa que tienes que exponerte y fracasar en público.",
+        "Tienes que estar dispuesto a dejar que la gente te critique.",
+        "Una de las razones por las que últimamente estoy menos activo en Twitter es que cada tuit convoca a un ejército de quisquillosos y de odiadores.",
+        "Acaba siendo agotador.",
+        "Tienes que aprender a ignorarlos, o no sobrevivirás en Twitter.",
+        "Mucha gente intenta resolver esto preguntándose si debería dejar su trabajo de nueve a cinco o no.",
+        "Esa puede ser una decisión difícil.",
+        "No hace falta que llegues a ese extremo.",
+        "Puedes empezar a aplicar responsabilidad, apalancamiento y conocimiento específico dentro de la carrera que ya tienes.",
+        "No necesitas por fuerza desviarte y hacer algo completamente distinto."
+      ]
+    },
+    {
+      "id": "b03-naval",
+      "speaker": "Naval",
+      "frases": [
+        "La gente usará mis consejos como una forma de estar de acuerdo o en desacuerdo con sus propios sesgos.",
+        "Dirán que están de acuerdo con esa parte y que en esa otra estoy completamente equivocado.",
+        "Los tuits más interesantes deberían ser aquellos con los que no estás de acuerdo, porque está claro que he demostrado que sé unas cuantas cosas.",
+        "Si no estás de acuerdo, quizá ahí tengas un área donde puedes mejorar tu forma de pensar.",
+        "Yo mejoro mi forma de pensar todo el tiempo.",
+        "En este hilo de tuits dejé por escrito los principios mínimos viables.",
+        "Compartí solo una pequeña parte de lo que he aprendido sobre cómo ganar dinero, porque el noventa por ciento de eso es dudoso.",
+        "Dejé por escrito la roca madre, aquello de lo que estoy seguro.",
+        "Todavía no he visto ningún tuit que contradiga con éxito nada de este hilo y que me haga decir que en eso me equivoqué."
+      ]
+    },
+    {
+      "id": "b04-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Alguna gente dirá que esto solo se aplica a los emprendedores de tecnología.",
+        "No estoy de acuerdo.",
+        "El ejemplo del sector inmobiliario era bueno en ese sentido.",
+        "La tecnología impulsa el apalancamiento, así que voy a empujarte en una dirección tecnológica para que consigas ese apalancamiento gratuito.",
+        "Está claro que este mensaje se transmite a través de internet, así que va a tener un sesgo a favor de internet."
+      ]
+    },
+    {
+      "id": "b05-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Alguna gente cree que es injusto hacer algo con las oportunidades que tiene porque otros no tienen esas mismas oportunidades.",
+        "Con una actitud derrotista así, ¿para qué levantarse siquiera de la cama por la mañana?",
+        "El noventa por ciento de las personas están muertas.",
+        "Mucha gente vive con un dólar o menos al día.",
+        "¿Tú vives así?",
+        "No lo haces.",
+        "Juegas la mano que te han repartido lo mejor que puedes.",
+        "Después puedes coger las ganancias, el bote de esa mano, y hacer con ellas lo que quieras para arreglar el mundo.",
+        "Pero si te niegas a hacer cosas solo porque otros no pueden hacerlas, estás viviendo en la negación.",
+        "Es una excusa para no hacer nada."
+      ]
+    },
+    {
+      "id": "b06-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Otros creen que la creación de riqueza está en contradicción fundamental con un planeta sano desde el punto de vista ambiental.",
+        "Lo ven como un enorme juego de suma cero.",
+        "Eso también es una narrativa falsa.",
+        "Elon Musk no está jugando a un juego de suma cero con el medio ambiente, y hay muchos emprendedores como él.",
+        "Hay una palabra que a los ecologistas les encanta: sostenibilidad.",
+        "Si no sirven para otra cosa, los negocios con ánimo de lucro son sostenibles financieramente.",
+        "Puedes crear una B Corporation, que tiene una misión doble.",
+        "Muchos esfuerzos sin ánimo de lucro estarían mejor como empresas con ánimo de lucro.",
+        "No tendrían que mendigar subvenciones.",
+        "Serían sostenibles financieramente.",
+        "Algunos grandes fundadores hacen realidad su visión filantrópica dirigiendo un negocio."
+      ]
+    }
+  ]
+}

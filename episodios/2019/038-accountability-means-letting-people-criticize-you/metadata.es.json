@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 38,
+  "anio": 2019,
+  "slug": "accountability",
+  "titulo_es": "La responsabilidad significa dejar que la gente te critique",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "La responsabilidad significa dejar que la gente te critique",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Cambio sobre el f5 recibido, aprobado: b05 f01 «es injusto hacer nada con las oportunidades» -> «hacer algo». En afirmativa y sin un elemento negativo que lo licencie, «nada» no es español estándar, y el inglés dice anything. Una sola palabra tocada. Solapamiento con 052-rich: 15 de las 51 frases y 3 de los 4 titulos_seccion son idénticos. Misma decisión pendiente que 035 a 037 y 044 a 045: producir la recopilación o los sueltos, no ambos. accountability va como «responsabilidad» a secas y no como «asumir la responsabilidad», que es lo que fija GLOSARIO.md. Aquí es load-bearing porque está en el título del episodio. Se mantiene porque es lo que hacen todos los episodios ya subidos, pero conviene relajar esa nota del glosario igual que la de leverage. Antes de sintetizar, escuchar: «odiadores» como calco de haters, y «la roca madre» como traducción literal de bedrock, donde «los cimientos» sería más idiomático. Ninguna de las dos es un error, pero las dos se notan al leerlas en voz alta. Comprobar en el TTS: Twitter, Elon Musk y B Corporation. Artefacto del f0 inglés, no tocado: saltos de párrafo dentro de los bloques, que el troceo del script colapsa."
+}
