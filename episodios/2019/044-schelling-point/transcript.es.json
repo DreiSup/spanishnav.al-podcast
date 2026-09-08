@@ -1,0 +1,67 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2019/044-schelling-point",
+  "numero": 44,
+  "fecha": "2019-07-12",
+  "titulo": "El punto de Schelling: cooperar sin comunicarse",
+  "subtitulo": "Quienes no pueden comunicarse pueden cooperar anticipando lo que hará la otra persona",
+  "fuente_url": "https://nav.al/schelling-point",
+  "titulos_seccion": [
+    "Usa las normas sociales para cooperar cuando no puedes comunicarte",
+    "Puedes encontrar puntos de Schelling en los negocios, el arte y la política"
+  ],
+  "contenido": [
+    {
+      "id": "b01-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Hablemos de los puntos de Schelling."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "El punto de Schelling es un concepto de la teoría de juegos que hizo famoso Thomas Schelling en su libro The Strategy of Conflict, que recomiendo.",
+        "Va sobre juegos de varios jugadores donde cada uno responde según lo que cree que va a responder el otro.",
+        "Schelling ideó una formalización matemática para responder a esto: cómo consigues que se coordinen personas que no pueden comunicarse entre sí."
+      ]
+    },
+    {
+      "id": "b03-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Supón que quiero quedar contigo, pero no te digo dónde ni cuándo.",
+        "Tú también quieres quedar conmigo, pero no podemos comunicarnos.",
+        "Suena a problema imposible de resolver, no podemos hacerlo.",
+        "Pero no del todo.",
+        "Puedes usar las normas sociales para converger en un punto de Schelling.",
+        "Yo sé que tú eres racional y tienes estudios.",
+        "Y tú sabes que yo soy racional y tengo estudios.",
+        "Los dos vamos a ponernos a pensar.",
+        "¿Cuándo quedaremos?",
+        "Si tenemos que elegir una fecha arbitraria, probablemente elegiremos fin de año.",
+        "¿A qué hora quedaremos?",
+        "A medianoche o a las doce y un minuto.",
+        "¿Dónde quedaremos?",
+        "Si somos estadounidenses, el gran punto de encuentro será probablemente Nueva York, la ciudad más importante.",
+        "¿En qué parte de Nueva York quedaremos?",
+        "Probablemente bajo el reloj de Grand Central Station.",
+        "Quizá acabes en el Empire State Building, pero no es lo más probable."
+      ]
+    },
+    {
+      "id": "b04-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Hay muchos juegos, ya sea en los negocios o en el arte o en la política, donde puedes encontrar un punto de Schelling.",
+        "Así puedes cooperar con la otra persona incluso cuando no se pueden comunicar.",
+        "Aquí va un ejemplo sencillo.",
+        "Supón que dos empresas compiten con fuerza y forman un oligopolio.",
+        "Digamos que el precio fluctúa entre ocho y doce dólares para el servicio que sea.",
+        "No te sorprendas si convergen en diez dólares sin haber hablado nunca entre ellas."
+      ]
+    }
+  ]
+}

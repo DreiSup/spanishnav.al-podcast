@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 44,
+  "anio": 2019,
+  "slug": "schelling-point",
+  "titulo_es": "El punto de Schelling: cooperar sin comunicarse",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "El punto de Schelling: cooperar sin comunicarse",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Cambios sobre el f5 recibido, aprobados: b04 f02 «no podéis comunicaros» -> «no se pueden comunicar» (era la única forma de vosotros del episodio y convivía con «puedes» en la misma frase); b03 f10 «Nochevieja» -> «fin de año» (neutro). Solapamiento con 052-rich: 14 de las 27 frases y 1 de los 2 titulos_seccion son idénticos. Misma decisión pendiente que 035 y 036: producir la recopilación o los sueltos, no ambos. Antes de sintetizar: el título del libro The Strategy of Conflict queda en inglés y sin comillas (b02 f01); el TTS lo leerá con fonética española, decidir si se escribe fonéticamente. Comprobar también Schelling, Grand Central Station y Empire State Building. Artefacto del f0 inglés, no tocado: «12:01 a.m.» y «Where will we meet?» venían pegados en una sola frase; el troceo del script las separa correctamente (16 -> 17 frases)."
+}

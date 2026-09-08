@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 44,
+  "anio": 2019,
+  "slug": "schelling-point",
+  "titulo": "Schelling Point: Cooperating Without Communicating",
+  "subtitulo": "People who can’t communicate can cooperate by anticipating the other person’s actions",
+  "fecha_publicacion": "2019-07-12",
+  "fuente_url": "https://nav.al/schelling-point",
+  "orden_archivo": 48,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-09-08"
+}
