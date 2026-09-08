@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 51,
+  "anio": 2019,
+  "slug": "angel-1",
+  "titulo": "How to Angel Invest, Part 1",
+  "subtitulo": "A preview of our other podcast",
+  "fecha_publicacion": "2019-11-17",
+  "fuente_url": "https://nav.al/angel-1",
+  "orden_archivo": 55,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-09-08"
+}

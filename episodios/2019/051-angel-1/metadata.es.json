@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 51,
+  "anio": 2019,
+  "slug": "angel-1",
+  "titulo_es": "Cómo invertir como ángel, parte uno",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Cómo invertir como ángel, parte uno",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": ""
+}

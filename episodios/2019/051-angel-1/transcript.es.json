@@ -1,0 +1,1104 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2019/051-angel-1",
+  "numero": 51,
+  "fecha": "2019-11-17",
+  "titulo": "Cómo invertir como ángel, parte uno",
+  "subtitulo": "Un adelanto de nuestro otro podcast",
+  "fuente_url": "https://nav.al/angel-1",
+  "titulos_seccion": [
+    "Esto es un adelanto de nuestro podcast Spearhead, donde hablamos de startups e inversión ángel.",
+    "Consejos para nuevos inversores ángel en hubs tecnológicos",
+    "Dónde aprender lo básico",
+    "Liberamos en abierto lo que enseñamos en Spearhead",
+    "Opiniones fuertes, sostenidas con soltura",
+    "Esto no es asesoramiento de inversión, es solo un enfoque propio de invertir",
+    "Esto no es asesoramiento de inversión",
+    "Esto es solo un enfoque propio de invertir",
+    "Cambiamos de opinión constantemente",
+    "Vivir en un hub tecnológico es media batalla ganada",
+    "Es una época de fiebre del oro en hubs tecnológicos como Silicon Valley",
+    "Si no estás en un hub tecnológico, las probabilidades juegan en tu contra",
+    "Hay unas dos docenas de hubs tecnológicos en el mundo",
+    "Silicon Valley es un sitio más indulgente para invertir",
+    "Los mejores indicadores de un hub de startups son las salidas y los inversores de etapa tardía",
+    "Estás viviendo dentro de la mina de oro",
+    "Hoy no hay mejor sitio donde invertir que la tecnología",
+    "La inversión ángel tiene ventajas fiscales",
+    "Cuanto menos eficiente sea el mercado, mejor te irá",
+    "Muy poca gente puede jugar a la inversión ángel",
+    "Deberías doblar la apuesta por la tecnología",
+    "Las salidas a bolsa son para los últimos inversores de la fila",
+    "Ahora los financieros vienen a Silicon Valley a invertir en las empresas primero",
+    "Si inviertes en la salida a bolsa, eres literalmente el último de la fila",
+    "Un plan de jubilación es como invertir en la oficina de tráfico",
+    "Cincuenta mil dólares invertidos en un emprendedor listo le cambian la vida",
+    "Duermo tranquilo sabiendo que mi patrimonio está invertido en el mejor talento",
+    "Ser fundador toda la vida es un camino duro",
+    "A medida que los aciertos se hacen más grandes, tiene más sentido invertir y un poco menos sentido fundar empresas",
+    "A medida que los aciertos se hacen más grandes, tiene más sentido invertir",
+    "La inversión ángel es algo que puedes hacer hasta el día que te mueras",
+    "Todo fundador debería aprender inversión ángel",
+    "Invertir requiere capital, criterio y flujo de operaciones",
+    "Necesitas levantar dinero, desarrollar criterio con el tiempo y conseguir acceso a las operaciones adecuadas",
+    "El capital es lo más difícil o lo más fácil de conseguir, según tus circunstancias",
+    "Aplica a las inversiones el mismo listón alto que te aplicas a ti",
+    "Los buenos inversores son más pesimistas que los buenos fundadores",
+    "Todo el mundo tiene flujo de operaciones, la dificultad es entrar en las buenas",
+    "No dejes que las operaciones pasen de ti",
+    "La mayoría de los retornos vienen de unas pocas operaciones, no dejes que pasen de ti",
+    "La mayoría de los retornos vienen de unas pocas operaciones",
+    "Que te dejen fuera de las operaciones es señal de que no te va a ir bien",
+    "Pagar dos y veinte a un buen inversor ángel es una ganga",
+    "Necesitas una marca para entrar en las operaciones calientes",
+    "Una marca es una reputación auténtica que tienes con fundadores e inversores",
+    "Invertir en ganadores es la mejor forma de construir una marca",
+    "Puedes construir una marca con contenido",
+    "No puedes construir una marca imitando a otro",
+    "Las ondas están demasiado saturadas para contenido y distribución sin diferenciar",
+    "No vas a construir una marca solo porque quieras",
+    "Hay muy poca innovación en el capital riesgo",
+    "Tienes que estar dispuesto a hacer algo que no se haya hecho antes",
+    "Puedes construir una marca a través de tus asesores y tus socios inversores",
+    "Puedes construir software para startups",
+    "Puedes comprar acciones ordinarias en vez de preferentes",
+    "Mi marca original estaba en el growth hacking",
+    "Le presenté el growth hacking a Twitter, pasaron de ello pero me dejaron invertir",
+    "Ryan Hoover y Patri Friedman tienen marcas interesantes",
+    "No construyas una marca en un vertical estrecho",
+    "Si el mercado no llega nunca o llega tarde, tu marca está muerta",
+    "Las mejores firmas de capital riesgo rara vez se especializan",
+    "Los mercados a destiempo o que nunca llegan les cuestan mucho dinero a los inversores",
+    "Las mejores operaciones vienen de tu red",
+    "Sal de tu red una vez te hayas construido la reputación",
+    "Sal fuera cuando hayas agotado tu red",
+    "Sé un cofundador en la sombra",
+    "Crea tu propio flujo de operaciones ayudando a arrancar empresas",
+    "Sé un cofundador en la sombra para crear tu propio flujo de operaciones",
+    "Consigue derechos pro rata valiosos invirtiendo en pre semilla",
+    "Acierta contra el consenso",
+    "Trabaja desde primeros principios y forma tu propia opinión",
+    "Acierta contra el consenso",
+    "No aprendas a invertir de la comentocracia",
+    "Cuanto mayor sea la manada, menores serán los retornos",
+    "Fundadores respaldando a fundadores",
+    "Invertir te mantiene afilado y conectado con lo que hacen los mejores fundadores",
+    "Los fundadores quieren que les respalden otros fundadores",
+    "Invertir alinea intereses",
+    "Los asesores sufren selección adversa"
+  ],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Hola a todos, somos Naval y Nivi.",
+        "Vamos a hablar de algo muy distinto de lo que hemos tratado en el pasado.",
+        "En su día hicimos Venture Hacks, que iba entero sobre la teoría de juegos del capital riesgo y sobre ayudar a los emprendedores a levantar dinero.",
+        "Más tarde hablamos de Cómo hacerse rico, que eran consejos generales sobre creación de riqueza para la persona media que está montando un negocio.",
+        "Ahora vamos a hablar de inversión ángel."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Esperamos que este podcast conecte sobre todo con gente que está en un hub tecnológico y que ha empezado a invertir pero todavía no es profesional.",
+        "O sea, inversores ángel recién llegados, fondos de capital riesgo y fundadores que están tanteando esto.",
+        "Digamos que vives en Silicon Valley, o estás en Shanghái o en Pekín, o en Bangalore, o en Londres, o en Nueva York, y tienes acceso a muchas empresas de tecnología interesantes.",
+        "Estás en el negocio de la tecnología y has ganado algo de dinero extra o has levantado algo de dinero.",
+        "¿Cómo te conviertes en un buen inversor?"
+      ]
+    },
+    {
+      "id": "b03-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Este podcast asume que tienes algo de familiaridad con la inversión.",
+        "No va a ser un arranque en frío.",
+        "Hay recursos a los que podemos remitirte para el arranque en frío.",
+        "Paul Graham escribió un texto titulado How to be an Angel Investor.",
+        "Está How to be an Angel Investor, Part Two, en Venture Hacks.",
+        "Hay un curso que se llama Future Investor.",
+        "Puedes mirar todos esos para lo básico.",
+        "En esta conversación vamos a centrarnos en temas más avanzados.",
+        "Vamos a hablar de cosas como averiguar cuál es una valoración justa y cuáles son las trampas de las rondas puente.",
+        "Cómo funcionan los derechos pro rata y cómo puedes colarte en una ronda cuando hay fondos de capital riesgo liderándola.",
+        "Cuándo un coinversor te está dando una señal valiosa y cuándo simplemente está barriendo para casa.",
+        "Cómo medir mercados y startups rápido, y si deberías especializarte en un solo vertical o diversificar en varios."
+      ]
+    },
+    {
+      "id": "b04-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Este podcast libera en abierto lo que enseñamos en Spearhead, un fondo que creamos para formar a la siguiente generación de inversores ángel.",
+        "Les da talonarios a los fundadores, les ofrece mentoría y les enseña la habilidad de invertir, que es algo que les va a resultar valioso durante toda la vida."
+      ]
+    },
+    {
+      "id": "b05-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Ahora bien, esto es internet y esto es Estados Unidos, así que tenemos que darte algunos avisos legales.",
+        "La inversión ángel es una forma estupenda de perder tu dinero.",
+        "Hay una vieja broma que dice: cómo te haces millonario, empieza siendo multimillonario y ponte a invertir.",
+        "Esta es una buena forma de perder dinero si no sabes lo que estás haciendo, o si tu momento es malo, o si simplemente tienes mala suerte."
+      ]
+    },
+    {
+      "id": "b06-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Esto no es asesoramiento de inversión, pero puede que te resulte útil si ya estás en la profesión o en la afición de la inversión ángel."
+      ]
+    },
+    {
+      "id": "b07-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Como todo el mundo, nuestros consejos van a ser bienintencionados, pero probablemente acabemos barriendo para casa por el camino.",
+        "Parte de lo que digamos será especulativo, pero irá dicho como si fuera un hecho.",
+        "Otras cosas que digamos estarán simplemente equivocadas."
+      ]
+    },
+    {
+      "id": "b08-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Nuestros consejos pueden quedarse desfasados rápido porque la tecnología está cambiando deprisa, igual que el ecosistema de inversión.",
+        "Hace una década Y Combinator era completamente nuevo.",
+        "AngelList ni siquiera existía.",
+        "La plataforma de First Round Capital no estaba.",
+        "Andreessen Horowitz no estaba.",
+        "No había tantas inversiones de etapa tardía por parte de fondos de cobertura.",
+        "Todavía había empresas saliendo a bolsa antes.",
+        "Así que el mercado era muy distinto."
+      ]
+    },
+    {
+      "id": "b09-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Este es un enfoque propio de la inversión ángel.",
+        "Las cosas de las que vamos a hablar puede que nos funcionen a nosotros de vez en cuando, pero otra gente podría tener resultados parecidos o mejores con estrategias completamente distintas u opuestas."
+      ]
+    },
+    {
+      "id": "b10-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Estamos muy centrados en startups de tecnología en etapa temprana en San Francisco y Silicon Valley.",
+        "Mucho de esto no se traslada a otros sitios.",
+        "Hay muchas excepciones importantes a todo lo que vamos a contar."
+      ]
+    },
+    {
+      "id": "b11-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "También vamos a hablar de startups y de fondos en los que hemos invertido personalmente y en los que tenemos interés financiero."
+      ]
+    },
+    {
+      "id": "b12-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Además cambiamos de opinión y aprendemos constantemente.",
+        "Eso es lo que hace la gente inteligente.",
+        "Sostenemos pensamientos contradictorios y opuestos en la cabeza al mismo tiempo.",
+        "Tenemos multitud de opiniones que a menudo se contradicen entre sí.",
+        "Esto no son matemáticas ni ciencia ni ecuaciones, y estamos cambiando de opinión todo el rato.",
+        "Como dice Marc Andreessen: opiniones fuertes, sostenidas con soltura."
+      ]
+    },
+    {
+      "id": "b13-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Estamos viviendo una época única en la que, como dice Andreessen, el software se está comiendo el mundo.",
+        "Estamos atravesando un cambio de fase en el que la tecnología la está adoptando todo el mundo, no solo los trabajadores del conocimiento.",
+        "Esta transición ha creado una época de fiebre del oro en la tecnología.",
+        "Si estás en la industria tecnológica y vives en uno de los hubs tecnológicos, ya llevas media batalla ganada para ser un buen inversor.",
+        "Esa es la mitad del trabajo.",
+        "Estás bien posicionado para invertir como ángel.",
+        "Solo hay un puñado de estos hubs.",
+        "Si tienes que preguntar, probablemente no estás en uno.",
+        "Suele ser evidente.",
+        "Habrá cientos de startups por lo menos, incluidas algunas con salidas exitosas que hicieron ricos a sus inversores."
+      ]
+    },
+    {
+      "id": "b14-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Si estás en la industria tecnológica pero no en un hub tecnológico, deberías plantearte mudarte a uno.",
+        "La excepción son razones fuertes de estilo de vida que te retengan, como la familia o la calidad de vida, que a menudo es mejor fuera de los hubs tecnológicos.",
+        "Puedes hacerlo en remoto, pero las probabilidades juegan en tu contra.",
+        "No tendrás las redes de confianza.",
+        "No verás suficiente flujo de operaciones.",
+        "En ese caso suele ser mejor trabajar a través de un intermediario, como invertir en el fondo de un amigo de confianza, o ir por AngelList, o venir al Demo Day de Y Combinator."
+      ]
+    },
+    {
+      "id": "b15-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "¿Crees que este consejo es solo para gente de Silicon Valley, o vale también en Nueva York?",
+        "¿Vale en Seattle?",
+        "¿En Austin?",
+        "¿En China?",
+        "¿En Bengaluru?"
+      ]
+    },
+    {
+      "id": "b16-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Creo que vale probablemente en unas dos docenas de ciudades del mundo.",
+        "Algunas de esas ciudades están emergiendo, lo que complica la cosa.",
+        "Seattle y Austin son probablemente estables, ahí seguramente puedas encontrar buenas operaciones.",
+        "Pero necesitas tener acceso a todo y darte cuenta de que la ciudad quizá solo produzca una o dos grandes empresas al año."
+      ]
+    },
+    {
+      "id": "b17-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Silicon Valley es un poco más indulgente: hay quizá veinte o treinta grandes empresas creadas cada año.",
+        "Solo necesitas invertir en una de ellas, aunque tendrás que encontrarlas dentro de un grupo de empresas mucho mayor.",
+        "Sitios como Bengaluru, en India, o incluso Kuala Lumpur, en Malasia, pueden ser ciudades emergentes, pero el momento es difícil de acertar.",
+        "¿Es ahora cuando la industria tecnológica de allí despega?",
+        "Si estabas en Australia e invertiste en Canva o en Atlassian, entonces estupendo.",
+        "Pero si no, no hay tanto grupo con el que trabajar.",
+        "Al mismo tiempo, tus retornos potencialmente pueden ser mucho más altos fuera de los hubs tecnológicos.",
+        "Como hay menos competencia, las valoraciones tienden a ser más bajas porque los riesgos son más altos.",
+        "Lo que no quieres es estar en una ciudad sin historial de producir buenas startups, donde solo ves una o dos startups al año.",
+        "Y encima estás pagando precios de Silicon Valley porque se están fijando en las valoraciones que vieron en el Demo Day de Y Combinator.",
+        "Es mucho más seguro y más fácil empezar en San Francisco, Nueva York, Pekín, Shanghái o Bengaluru.",
+        "Los profesionales pueden jugar en sitios como Londres, Austin, Seattle, Denver, Boulder y Chicago.",
+        "Por debajo de eso, más te vale saber lo que estás haciendo.",
+        "Hemos visto un fenómeno en AngelList: inversores ángel que invierten en su ciudad, que no está produciendo buenas startups tecnológicas.",
+        "Acaban rindiéndose y poniéndose a invertir en startups del área de la bahía porque no ven la calidad ni los retornos en otras ciudades.",
+        "Los retornos son mucho más altos en Silicon Valley."
+      ]
+    },
+    {
+      "id": "b18-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "¿Cuál es el mejor indicador de que un hub de startups está funcionando?",
+        "¿Son las salidas?",
+        "¿Es una comunidad próspera de otros inversores ángel?"
+      ]
+    },
+    {
+      "id": "b19-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Por desgracia, son las salidas.",
+        "La forma típica en la que se desarrolla un hub es esta: unos fundadores montan una empresa, la empresa va bien, y los fundadores y los empleados se hacen ricos en la salida a bolsa o en la adquisición.",
+        "Y entonces se ponen a invertir en sus amigos y compañeros de trabajo.",
+        "Se sienten cómodos haciendo esta inversión temprana porque ellos hicieron su dinero con startups tecnológicas.",
+        "Quieren devolverlo a startups tecnológicas.",
+        "Pero hay muchos arranques en falso.",
+        "Aparecen inversores ángel en una zona e invierten en un montón de empresas, pero después esas empresas se quedan varadas porque hay muy pocos fondos de serie A o de serie B allí para invertir en ellas.",
+        "Llegan los fondos de capital riesgo, pagan valoraciones bajas y barren a los inversores tempranos convirtiéndolos a ordinarias y poniéndoles warrants encima.",
+        "Así que los mercados de financiación, hasta cierto punto, se desarrollan al revés que otros mercados.",
+        "Las inversiones menos arriesgadas son las rondas mezzanine justo antes de que la empresa salga a bolsa.",
+        "Después vienen las series D y las series C.",
+        "Las series B son más arriesgadas que eso, y las series A todavía más.",
+        "La más arriesgada es la inversión ángel, antes de la serie A.",
+        "Así que, de una forma rara, la inversión ángel es lo que debería desarrollarse al final en los hubs nuevos.",
+        "Pero no siempre es así.",
+        "Si una empresa puede despegar solo con dinero ángel, el dinero de etapa tardía la encontrará esté donde esté, o la empresa puede mudarse a un hub maduro con inversores de etapa tardía.",
+        "Pero entonces tienes un gran hueco de financiación entre la inversión ángel y el siguiente inversor, así que la empresa tiene que llegar realmente lejos solo con la inversión ángel."
+      ]
+    },
+    {
+      "id": "b20-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Los retornos de la inversión ángel son interesantes.",
+        "Existe este meme de que los inversores ángel pierden todo su dinero y de que el capital riesgo es un negocio terrible.",
+        "Es cierto si agregas el capital riesgo y las inversiones ángel de todo el mundo.",
+        "Pero si te mantienes centrado en los hubs tecnológicos, en gran medida no es cierto.",
+        "Un inversor ángel competente en Silicon Valley que esté enchufado a una buena red, que sepa lo que hace y que tenga una cartera amplia podría multiplicar su dinero por algo entre tres y diez a lo largo de una década.",
+        "Ese es un buen retorno.",
+        "Eso sí, ten en cuenta que hay una cantidad alta de conocimiento específico y de trabajo que los inversores meten en cada una de esas inversiones."
+      ]
+    },
+    {
+      "id": "b21-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Estas ganancias se consideran plusvalías, que normalmente tributan a tipos más bajos que las rentas del trabajo.",
+        "Esto es en parte porque es un impuesto secundario sobre el beneficio empresarial, que ya ha tributado a nivel de empresa.",
+        "También hay ventajas fiscales para inversores ángel, que van desde la exención de acciones de pequeñas empresas cualificadas en Estados Unidos hasta ventajas fiscales muy favorables en Inglaterra y otros países.",
+        "Desde una base con ventajas fiscales, si estás dispuesto a tolerar riesgo alto e iliquidez, es muy difícil encontrar otra clase de activo comparable.",
+        "En ninguna otra puedes sacarle a tu dinero tanto retorno bruto como un inversor ángel paciente, diversificado y bien enchufado."
+      ]
+    },
+    {
+      "id": "b22-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Una forma de pensarlo es esta: cuanto menos eficiente sea el mercado y más riqueza esté creando el activo subyacente, mejor te va a ir.",
+        "Por ejemplo, el arte no crea realmente tanta riqueza, es más bien un refugio fiscal y un instrumento de especulación.",
+        "Lo mismo con el vino: el activo en sí no genera mucha riqueza, pero el mercado subyacente es muy ineficiente, así que puedes ganar dinero con más facilidad.",
+        "El juego de azar en realidad destruye riqueza.",
+        "Así que no es una gran clase de activo en la que jugar, salvo que seas el dueño del casino, en cuyo caso tienes ventaja sobre todos los demás."
+      ]
+    },
+    {
+      "id": "b23-naval",
+      "speaker": "Naval",
+      "frases": [
+        "La inversión ángel es rara en el sentido de que muy poca gente puede jugar en ella.",
+        "Muy poca gente tiene el conocimiento, el acceso geográfico, el capital, el horizonte de riesgo y la paciencia.",
+        "Pero al mismo tiempo, los activos subyacentes están cambiando el mundo.",
+        "Veo a mucha gente en Silicon Valley que podría ser buena inversora ángel, están en la industria tecnológica y tienen acceso al flujo de operaciones, pero en vez de eso dedican su tiempo a otras cosas.",
+        "Dedican tiempo a pensar en macroeconomía: ¿y si la Reserva Federal baja los tipos de interés?",
+        "¿Qué está pasando en la guerra comercial con China?",
+        "O están poniéndose cortos en acciones, invirtiendo en zonas económicas especiales o revendiendo inmuebles."
+      ]
+    },
+    {
+      "id": "b24-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Tengo un amigo que es un gran inversor de capital riesgo y que lleva un negocio de alquileres como actividad secundaria.",
+        "Eso me hace rascarme la cabeza.",
+        "Estás viviendo dentro de la mina de oro, hay gente desenterrando oro justo a tu lado.",
+        "Los retornos de esta industria son más altos que los de cualquier otra cosa.",
+        "La entiendes muy bien.",
+        "Tienes conocimiento específico.",
+        "Pero tienes un desdén por invertir más en tecnología que viene de tu propia familiaridad con la industria.",
+        "Si estás en la industria tecnológica, deberías doblar la apuesta.",
+        "No conozco mejor industria ni mejor sitio del planeta para invertir, hoy por hoy."
+      ]
+    },
+    {
+      "id": "b25-naval",
+      "speaker": "Naval",
+      "frases": [
+        "La industria tecnológica sigue estando infravalorada.",
+        "La gente antes pensaba en Sand Hill Road como un remanso pequeño y agradable comparado con el gigantesco Wall Street.",
+        "Ahora se reconoce que Sand Hill Road es un sitio importante, aunque Wall Street siga acaparando los titulares."
+      ]
+    },
+    {
+      "id": "b26-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Cada vez es más evidente que Sand Hill Road produce la tecnología que genera buena parte de la riqueza de Estados Unidos.",
+        "La riqueza se origina aquí y se extiende a otros sitios.",
+        "Ahora los financieros de Wall Street vienen a Silicon Valley a invertir en las empresas antes de que lleguen a Wall Street.",
+        "Para cuando una empresa sale a bolsa, puedes apostar a que cualquiera con contactos, apetito, habilidad inversora y capital ya le ha dado un mordisco.",
+        "Así que si estás invirtiendo en la salida a bolsa de una empresa tecnológica, eres literalmente el último de la fila.",
+        "Eso no quiere decir que no puedas ganar dinero, pero las probabilidades son menores porque la fruta ya se ha rebuscado muchas veces."
+      ]
+    },
+    {
+      "id": "b27-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Al último grupo de financieros que estaba en el sitio correcto en el momento correcto lo llamamos Wall Street.",
+        "Ahí es donde la gente conseguía capital para sus startups.",
+        "Entonces no había otro mercado de financiación hasta que tenías las métricas para salir a bolsa.",
+        "Silicon Valley se está convirtiendo en el nuevo Wall Street, solo que no está tan formalizado, organizado ni segmentado.",
+        "Los JP Morgan y los NASDAQ todavía no han aparecido."
+      ]
+    },
+    {
+      "id": "b28-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Esto va a chocar de frente con la sabiduría convencional.",
+        "La persona media debería estar ahorrando para su jubilación.",
+        "Pero yo nunca me propuse ahorrar nada, lo reinvertí casi todo.",
+        "En economía existe la identidad del ahorro, que dice que el ahorro es igual a la inversión.",
+        "Si aportas a un plan de jubilación, ese dinero se reinvierte en partes de la sociedad seguras entre comillas pero improductivas, como el Estado.",
+        "Estás invirtiendo en la oficina de tráfico y en el Departamento de Defensa.",
+        "Sus retornos no han sido espectaculares.",
+        "En esencia es solo el dinero que pueden sacarles a punta de pistola a los contribuyentes y a los extranjeros.",
+        "Si estás en la industria tecnológica, en general es mejor apuesta invertir de vuelta en la industria, sobre todo si eres joven y puedes diversificar."
+      ]
+    },
+    {
+      "id": "b29-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Invierte en la gente más lista, mejor y más brillante que tengas alrededor.",
+        "No en gente de tierras lejanas con motivaciones lejanas, que ya tiene billones de dólares de capital fluyendo hacia ella y que no está tan motivada como tus vecinos.",
+        "Cincuenta mil dólares en tu cuenta de jubilación no van a marcar ninguna diferencia para el gobierno de Estados Unidos cuando acaben en una letra del Tesoro.",
+        "Pero cincuenta mil dólares invertidos en un emprendedor que vive en tu calle le van a cambiar la vida.",
+        "Si consigues encontrar entre diez y cincuenta inversiones así, una o dos pueden salir bien, suponiendo que nos hagas caso y desarrolles habilidades por el camino."
+      ]
+    },
+    {
+      "id": "b30-naval",
+      "speaker": "Naval",
+      "frases": [
+        "La mayor parte de mi patrimonio es ilíquido y está metido en startups.",
+        "Pero duermo bien por las noches sabiendo que cientos de equipos de emprendedores brillantes están trabajando duro para construir cosas que podrían ser enormes y cambiar el mundo.",
+        "Estos equipos incluyen a parte del mejor talento del mundo: fundadores, programadores y diseñadores que estudiaron en las mejores escuelas.",
+        "Están apalancados con capital riesgo, con productos sin coste marginal de reproducción y con los métodos de distribución más modernos.",
+        "Basta con unas pocas de estas empresas para que la cartera entera se equilibre.",
+        "Si inviertes en cien empresas y una de ellas produce un retorno de mil veces, que no es tan inaudito, las otras noventa y nueve inversiones podrían irse a cero y aun así verías un retorno global de diez veces."
+      ]
+    },
+    {
+      "id": "b31-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Como en otras industrias, la mejor forma de ganar dinero en tecnología es tener un trozo de un negocio.",
+        "No te vas a hacer rico alquilando tu tiempo, tienes que tener capital, un trozo de un negocio, para conseguir tu libertad financiera.",
+        "¿Cómo consigues capital sustancial en un negocio?",
+        "Uno de los modelos clásicos es montar tu propia empresa.",
+        "Tiene inconvenientes, eso sí.",
+        "Para empezar, es un trabajo agotador y de altísimo estrés.",
+        "Y además, tus probabilidades de éxito no son grandes, muy pocas empresas triunfan.",
+        "Puede que tengas que volver a ponerte al bate y aguantar unas cuantas rondas.",
+        "Otra vía clásica es que te reconozcan como alguien extremadamente competente ejecutando, para que te llamen cuando la siguiente empresa exitosa esté escalando.",
+        "Quieres tener tu nombre en la lista cuando los fundadores del próximo Uber o del próximo Dropbox llamen a sus inversores favoritos y les digan: oye, ¿quiénes son tus diez mejores ingenieros a los que pueda reclutar ahora mismo?",
+        "Alguien que ha hecho un gran trabajo en otras empresas puede conseguir una cantidad bastante grande de capital por unirse a un cohete que ya ha resuelto el encaje entre producto y mercado."
+      ]
+    },
+    {
+      "id": "b32-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Por último, puedes hacerte rico como inversor.",
+        "A medida que los aciertos se hacen más y más grandes y los retornos se vuelven más no lineales, tiene más sentido jugar como inversor y un poco menos sentido jugar como fundador.",
+        "Esto es porque el potencial al alza es no lineal.",
+        "Cuando inviertes en una startup, puedes sacar un retorno de cien veces, de mil veces, de cinco mil veces, de diez mil veces, si estuviste en la ronda semilla de Facebook por ejemplo.",
+        "Tendrás mucho más de tu propia empresa, pero quizá solo saques un retorno de diez o de cien veces.",
+        "El cerebro humano no está cableado para entender las no linealidades.",
+        "Los que sí lo entienden, gente como Paul Graham y Peter Thiel, acaban haciéndose multimillonarios como inversores y no con las empresas que ellos mismos fundaron.",
+        "Ahora bien, ser fundador es mucho más satisfactorio que invertir.",
+        "Muchos inversores me dicen que ojalá estuvieran construyendo algo.",
+        "Ser fundador te da un sentido de propósito más profundo.",
+        "Hay una sensación de equipo y de estar realmente implicado.",
+        "Por otro lado, dirigir empresas te quema y te envejece rápido.",
+        "Ser fundador toda la vida es un camino muy duro.",
+        "La mayoría de la gente no tiene la constitución para eso."
+      ]
+    },
+    {
+      "id": "b33-naval",
+      "speaker": "Naval",
+      "frases": [
+        "La inversión ángel es algo que puedes hacer cuando tienes cincuenta, sesenta o setenta años.",
+        "Es algo que puedes hacer a tiempo parcial, si estás parcialmente jubilado o de permiso con un bebé recién nacido.",
+        "Es una forma de ganar dinero cuando ya no puedes darle como antes de emprendedor, ya sea porque te estás centrando en tu familia, porque tienes un problema de salud o porque simplemente estás cansado."
+      ]
+    },
+    {
+      "id": "b34-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Tu criterio y tu acceso al capital y al flujo de operaciones también suben a medida que te haces mayor.",
+        "Se tarda mucho en aprender, pero invertir es una de las pocas profesiones en las que puedes mejorar hasta el día que te mueras."
+      ]
+    },
+    {
+      "id": "b35-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Warren Buffet es una de las personas hechas a sí mismas más ricas del planeta porque lleva mucho tiempo componiendo capital.",
+        "Empezó a leer informes anuales cuando tenía diez, once o doce años, y sigue en plena forma.",
+        "Si hubiera empezado más tarde, no estaría ni cerca de la lista de los cuatrocientos de Forbes, porque la magia del interés compuesto no habría funcionado."
+      ]
+    },
+    {
+      "id": "b36-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Hay una frase famosa: intenta aprender algo sobre todo y todo sobre algo.",
+        "En ese sentido, está muy bien ser fundador y además invertir un poco."
+      ]
+    },
+    {
+      "id": "b37-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Actualizando esa frase para fundadores: céntrate en tu trabajo e invierte en tu red.",
+        "Ningún inversor pondría todos los huevos en la misma cesta, ¿por qué ibas a hacerlo tú?",
+        "El dinero listo no está intentando encontrar la solución al encaje entre producto y mercado.",
+        "En vez de eso, está apostando por muchas soluciones razonables."
+      ]
+    },
+    {
+      "id": "b38-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Las tres cosas que hacen falta para meterse a invertir son capital, criterio y flujo de operaciones."
+      ]
+    },
+    {
+      "id": "b39-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Para conseguir capital, o ganas tu propio dinero para invertir, o te ganas suficiente confianza de otra gente como para invertir su capital.",
+        "A veces te rascas la cabeza y dices: ¿cómo es que esta persona está en el negocio del capital riesgo?",
+        "A menudo tienen dinero familiar o se casaron con dinero, o gestionaron dinero para otro, o tienen un amigo multimillonario, o tuvieron acceso a un fondo grande y ese capital les metió en el negocio.",
+        "En Spearhead formamos a fundadores para que sean inversores dándoles talonarios de un millón de dólares.",
+        "Más adelante les ayudamos a levantar más dinero de socios inversores.",
+        "Así que esa es otra forma de conseguir capital.",
+        "El dinero levantado de amigos y familia puede ser el dinero más difícil o el más fácil de levantar, según tus circunstancias."
+      ]
+    },
+    {
+      "id": "b40-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Lo segundo es el criterio.",
+        "Dicen que el buen criterio viene de la experiencia, y la experiencia viene del mal criterio.",
+        "El buen criterio se construye con el tiempo.",
+        "Criterio significa aplicar tus estándares y tu gusto más altos en las cosas que mejor conoces.",
+        "Como fundador te pones un listón alto: solo quieres reclutar a los absolutamente mejores y solo quieres hacer tu mejor trabajo.",
+        "Estás mejorando constantemente, eres el peor crítico de tu negocio, y cada cosita que está mal en tu producto te molesta.",
+        "Y entonces conoces a alguien que está levantando dinero, te enamoras de su idea y te saltas otras cosas.",
+        "La persona no parece tan lista, o no es alguien para quien trabajarías ni a quien contratarías, o su producto está a medio hacer, o están ejecutando despacio.",
+        "Pasas por alto todo eso.",
+        "Bajas tu criterio porque fantaseas con todo lo que podría salir bien.",
+        "Es muy importante que cuando inviertes en otras personas mantengas el listón alto y uses buen criterio.",
+        "Tienes que tener gusto."
+      ]
+    },
+    {
+      "id": "b41-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Algunos de los mejores inversores que conozco son personas tremendamente difíciles.",
+        "Es difícil complacerlos, le ven los problemas a todo.",
+        "Un buen inversor a menudo es mucho más cínico y pesimista que un buen fundador.",
+        "Un buen fundador tiene que ser un optimista racional.",
+        "Un buen inversor, en cambio, rebota maniáticamente entre dos polos.",
+        "Es lo bastante optimista como para ver el futuro y entrar en la operación, y lo bastante pesimista como para ver los riesgos y pasar de nueve de cada diez operaciones que ve.",
+        "Si haces más de una de cada diez operaciones que miras, probablemente estás siendo demasiado optimista.",
+        "Si te tropiezas con grandes operaciones todo el rato, eso dice más de ti que de tu flujo de operaciones.",
+        "Hay excepciones, claro.",
+        "Puede que tengas una ventaja única en tu red.",
+        "Quizá estás sentado en la última hornada de Y Combinator y lo ves todo pronto, o diriges la Stanford Entrepreneurship Network y eliges entre la cosecha que están financiando los fondos de capital riesgo."
+      ]
+    },
+    {
+      "id": "b42-naval",
+      "speaker": "Naval",
+      "frases": [
+        "La última pieza es el flujo de operaciones, que incluye también el acceso.",
+        "Esta es un área en la que nos vamos a centrar: ¿cómo consigues flujo de operaciones?",
+        "¿Cómo consigues buen acceso?",
+        "Flujo de operaciones y acceso no son lo mismo.",
+        "Puedes conseguir flujo de operaciones entrando en AngelList, sentándote en el Demo Day de Y Combinator, yendo a cualquier conferencia de tecnología, incluso viendo Shark Tank, pero eso no significa que tengas acceso a esas operaciones.",
+        "No significa que tengas la capacidad de invertir en ellas cuando quieras y en los términos que quieras.",
+        "Cuando te dejan fuera de las operaciones calientes, eso es señal de que vas a rendir mal como inversor ángel.",
+        "Tienes que hacer lo que haga falta para mejorar tu acceso."
+      ]
+    },
+    {
+      "id": "b43-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Hay muchísimas fuentes de flujo de operaciones ahí fuera, desde amigos e incubadoras hasta AngelList, FundersClub y Republic.",
+        "¿Por qué es tan importante entrar en las operaciones en las que quieres entrar?",
+        "¿Qué pasa si no lo consigues?"
+      ]
+    },
+    {
+      "id": "b44-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Una de cada cien o de cada mil empresas explica la mayoría de los retornos de cada año.",
+        "Si miras la cartera de casi cualquier inversor ángel de éxito, la mayoría de los retornos vienen de una sola operación.",
+        "Y cuando quitas la mejor operación, la mayoría de los retornos restantes vienen de la segunda mayor.",
+        "Es extremadamente no lineal.",
+        "Si quitaras las dos o tres mejores operaciones de la cartera de casi cualquier fondo, probablemente tendrías un fondo con rendimiento negativo, en vez de un fondo que multiplica por cuatro o por diez."
+      ]
+    },
+    {
+      "id": "b45-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Todo va de selección adversa.",
+        "Cuando te dejan fuera de una operación, eso es un indicio de que la operación puede ser ganadora.",
+        "En vez de una probabilidad de una entre cien de hacerse grande, las probabilidades son seguramente de una entre cinco o mejores.",
+        "Este es un escenario habitual: conoces a una empresa que está levantando capital, y mientras te tomas tu tiempo para decidir, entra un inversor de marca top y firma un cheque grande.",
+        "Lo siguiente que sabes es que todo el mundo se apunta porque hay muchísima señal, y ahora el emprendedor te dice: lo siento, la ronda está cerrada, o solo me quedan diez mil dólares para ti.",
+        "Aquí es cuando tu marca marca la diferencia.",
+        "Yo empecé AngelList en parte porque me dejaron fuera de algunas operaciones muy grandes al principio con las que a día de hoy sigo teniendo la espina clavada.",
+        "Habrían sido operaciones que me habrían definido la carrera y me habrían hecho ganar mucho dinero.",
+        "Pero mi marca sencillamente no era lo bastante fuerte.",
+        "Aunque quieres acertar contra el consenso, llega un punto en el que el consenso tiene valor.",
+        "Es cuando aparecen los Sequoia del mundo, cuando las estadísticas están más asentadas, cuando los fundadores son conocidos y cuando hay más información sobre la mesa.",
+        "Además, cuando Sequoia invierte puede crear una profecía autocumplida, porque elimina parte del riesgo de financiación futura y permite que la empresa destaque cuando está reclutando o buscando prensa."
+      ]
+    },
+    {
+      "id": "b46-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "El flujo de operaciones y el acceso son las cosas más importantes en las que trabajar como inversor.",
+        "Tu criterio no tiene que ser tan bueno, porque los retornos siguen una ley de potencias.",
+        "Y siempre puedes conseguir capital si tienes buen flujo de operaciones y buen acceso.",
+        "Está bien pasar de inversiones, lo que no quieres es que ellas pasen de ti.",
+        "No quieres oír: te llamaré si no consigo el dinero de Sequoia."
+      ]
+    },
+    {
+      "id": "b47-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Por esto muchas veces es mejor respaldar a un inversor ángel y pagarle su comisión de gestión y su participación en beneficios que salir por tu cuenta.",
+        "En inversión ángel es una ganga.",
+        "El viejo modelo de dos y veinte lo puso en marcha KKR, una firma de capital privado que gestionaba miles de millones de dólares.",
+        "Hoy un ángel que gestiona solo unos pocos millones de dólares te cobrará ese mismo dos y veinte, aunque su trabajo como proporción del capital invertido es muchísimo mayor.",
+        "Vete a Y Combinator y pídeles que inviertan tu dinero por un dos y veinte al mismo tiempo que ponen el suyo, y te echarán de la sala a carcajadas."
+      ]
+    },
+    {
+      "id": "b48-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Para entrar en buenas operaciones tienes que darles a las startups una razón para elegirte a ti por encima de otros inversores.",
+        "Necesitas una marca.",
+        "Normalmente esto significa aportar valor a la startup de alguna forma única.",
+        "Hablemos de ciento una formas distintas de construir una marca."
+      ]
+    },
+    {
+      "id": "b49-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Esta es la chicha, el corazón del asunto.",
+        "Ya entraremos en cómo desarrollas criterio y en los entresijos de levantar capital.",
+        "Todo eso es secundario.",
+        "Lo único más importante es tener la capacidad de entrar en una operación en la que quieres entrar, y eso es el acceso.",
+        "La forma de conseguir acceso es construyendo una marca.",
+        "Una marca es una reputación auténtica que tienes con fundadores e inversores.",
+        "Es lo que le dice a la gente sentada en la mesa: invitemos a esta persona a invertir en nuestra ronda, aunque sea escasa y todo el mundo quiera entrar ahora que están las señales.",
+        "Entonces, ¿cómo construyes una marca?"
+      ]
+    },
+    {
+      "id": "b50-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Las marcas clásicas del negocio del capital riesgo se construyeron una reputación de hacer grandes inversiones.",
+        "Sequoia se construyó así.",
+        "Andreessen se construyó en parte así, pagando más por las operaciones en rondas posteriores.",
+        "Te asocias con la marca de la empresa y después usas eso para entrar en operaciones más tempranas y más calientes.",
+        "Es una tautología: invierte en las empresas ganadoras y desarrollarás una marca que te deja invertir en empresas ganadoras.",
+        "Pero eso es circular, no te ayuda mucho."
+      ]
+    },
+    {
+      "id": "b51-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Otra forma de construir una marca es ofrecer algo nuevo que sea pro fundador.",
+        "Puede ser una postura: Andreessen Horowitz es famoso por su postura de apoyo a los fundadores, quieren ver a los fundadores dirigiendo la empresa.",
+        "Puede ser contenido.",
+        "Yo construí una marca a través de Twitter.",
+        "Elad Gil desarrolló su marca en parte escribiendo el High Growth Handbook.",
+        "Reid Hoffman también escribió libros, aunque él además tiene muchas otras razones para tener una buena marca.",
+        "Puedes construir una marca con un blog.",
+        "Cuando empezaba, Paul Graham escribió textos increíbles que atrajeron gente a Y Combinator y a Hacker News.",
+        "Fred Wilson sigue manteniendo el blog más popular del capital riesgo en AVC.",
+        "Brad Feld explicó la mecánica de la inversión de capital riesgo, lo que le permitió dirigir un fondo desde Boulder, algo inusual.",
+        "En su día, David Hornik, Andrew Anker y yo montamos VentureBlog, uno de los primeros blogs sobre capital riesgo.",
+        "Deberíamos haber seguido con él.",
+        "Muchos inversores construyeron grandes marcas con una postura muy favorable a los fundadores y ofreciendo contenido, redes, software, plataformas o acceso para emprendedores que antes no existían."
+      ]
+    },
+    {
+      "id": "b52-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Como decíamos, la primera forma de construir una marca es ser un buen inversor para empezar.",
+        "Una segunda forma es crear contenido que ayude a los emprendedores.",
+        "Una tercera es construir infraestructura o plataformas que ayuden a los emprendedores.",
+        "Paul Graham puede entrar en operaciones gracias a Y Combinator.",
+        "Nivi y yo muchas veces podemos entrar gracias a que montamos AngelList.",
+        "Ryan Hoover puede entrar porque montó Product Hunt.",
+        "Las plataformas creadas por First Round Capital y Andreessen Horowitz les ayudan a ganar operaciones frente a otros fondos.",
+        "También puedes montar una conferencia.",
+        "Jason Lemkin creó la conferencia SaaStr.",
+        "Tim O'Reilly, en OATV, publica contenido y organiza conferencias.",
+        "Steven Lurie es muy bueno reclutando, así que montó Team Builder Ventures.",
+        "Puso su valor directamente en el nombre de su marca.",
+        "Las empresas saben lo que ofrece, saben por qué deberían darle un trozo de la ronda y cómo les va a ayudar."
+      ]
+    },
+    {
+      "id": "b53-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Hay matices, eso sí.",
+        "Un fondo de capital riesgo dirá: necesitamos construir una marca, así que necesitamos tener un blog, contratemos a un redactor de contenidos y lancemos un blog.",
+        "O bien: tío, tengo que mejorar mi juego en Twitter, me meto en Twitter y me pongo a contarles a los emprendedores mis criterios de inversión.",
+        "No vas a construir una marca solo porque quieras.",
+        "Más bien, una marca es una expresión auténtica de quién eres.",
+        "Así que sea cual sea la intuición única que tengas, exprésala de la forma más auténtica posible.",
+        "Si eres bueno en Twitter, métete en Twitter.",
+        "Si eres bueno con un blog, escribe un blog.",
+        "Si eres bueno escribiendo libros, escribe libros.",
+        "Si eres bueno hablando, habla en conferencias o crea un podcast.",
+        "Pero no vas a tener éxito imitando a otro, tiene que ser auténtico en ti.",
+        "Además, las ondas de los medios están ahora saturadas, así que necesitas contenido y distribución de máxima calidad.",
+        "Aunque este podcast es un esfuerzo amateur, cortamos las cosas en fragmentos, limpiamos las voces y creamos transcripciones y destacados.",
+        "Estamos en el filo de la curva.",
+        "Claro que otros pueden copiarnos y alcanzarnos, pero para entonces estaremos en otro sitio.",
+        "Puede que estemos escribiendo un libro, haciendo una gira, dirigiendo una incubadora o construyendo otra plataforma de software.",
+        "Vamos por delante de la competencia porque siempre estamos trasteando en el filo."
+      ]
+    },
+    {
+      "id": "b54-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Sea cual sea tu marca, tiene que estar claramente articulada, tiene que estar comunicada.",
+        "Tiene que ser auténtica en quién eres.",
+        "Debería estar diferenciada de lo que ofrecen todos los demás y debería conectar con los emprendedores.",
+        "La peor estrategia es aceptar un montón de reuniones para tomar café o decir: soy una persona buena, pasiva, que no se mete, no te voy a molestar y siempre estoy disponible para ayudar.",
+        "Es demasiado genérico."
+      ]
+    },
+    {
+      "id": "b55-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Si muchos de los inversores y asesores de tu fondo son catedráticos de informática de universidades importantes, los emprendedores te van a querer como inversor.",
+        "Es porque tienes acceso a gente que puede traer estudiantes de doctorado, ayudar con la diligencia tecnológica o resolver problemas algorítmicos difíciles.",
+        "Puede que vengas del sector inmobiliario, y todas las startups de tecnología inmobiliaria te quieren porque tienes un conocimiento profundo del sector, socios y contactos en él, y tus propias propiedades."
+      ]
+    },
+    {
+      "id": "b56-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Podrías ser el mayor experto del mundo en ayudar a una startup a levantar su siguiente ronda.",
+        "Puedes construir software para startups, como AngelList.",
+        "Todavía hay cien cosas distintas en el mundo del software para startups que no se han hecho.",
+        "Puedes ser experto en levantar dinero de inversores internacionales, en China o en Brasil.",
+        "Puedes entrar en un mercado nuevo respaldando a científicos y tecnólogos de ese mercado.",
+        "Puedes ser el mayor experto del mundo en escalar.",
+        "Podrías construir herramientas de código abierto para startups."
+      ]
+    },
+    {
+      "id": "b57-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Hay extremadamente poca innovación en el negocio del capital riesgo.",
+        "Es bastante fácil destacar.",
+        "Tienes que estar dispuesto a hacer algo que otros no hayan hecho antes.",
+        "Dicho de otro modo, tienes que estar dispuesto a asumir responsabilidad y a arriesgarte a equivocarte."
+      ]
+    },
+    {
+      "id": "b58-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "¿Crees que alguien intentará construir una marca alrededor de comprarles acciones ordinarias a los emprendedores, en vez de preferentes?"
+      ]
+    },
+    {
+      "id": "b59-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Se ha hecho un poco.",
+        "Andreessen Horowitz empezó a hacerlo, se registraron como asesores de inversión para poder hacer operaciones en el mercado secundario.",
+        "Podrías argumentar que eso es parte del núcleo de la marca de Y Combinator.",
+        "Compran a valoración baja en la primera ronda, pero antes compraban ordinarias, así que estaban completamente en el mismo barco que tú.",
+        "No hay ninguna firma de marca, ni ningún inversor ángel que firme cheques grandes, que esté comprando ordinarias.",
+        "Creo que es una estrategia inteligente y algo que quizá lleguemos a ver.",
+        "Tiene el problema de que la empresa puede cerrar y quedarse tu dinero.",
+        "Pero hay formas ingeniosas de rodearlo.",
+        "Podrías decir: compro acciones preferentes, pero al cabo de dos años se convierten en ordinarias.",
+        "Cuando se hayan quemado tu efectivo y levanten el de otro, ya no estás sentado encima de ellos con una preferencia de liquidación colgando.",
+        "Pero al mismo tiempo tu dinero ya está gastado, así que no es que puedan cerrar la empresa y largarse con él."
+      ]
+    },
+    {
+      "id": "b60-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Curiosamente, mi marca empezó en el growth hacking.",
+        "Cofundé una aplicación de Facebook que consiguió veinte millones de instalaciones bastante rápido, y la usé como tarjeta de presentación con los emprendedores.",
+        "Esto fue en los primeros tiempos, antes de que Andrew Chen se lo abriera al mundo.",
+        "Un amigo me habló de Twitter.",
+        "Entonces todavía funcionaba con mensajes de texto y era muy de juguete.",
+        "Era la pre aplicación.",
+        "Lo probé y me gustó el producto.",
+        "Rastreé a Evan Williams para preguntarle por invertir.",
+        "Ev acababa de devolverles un montón de dinero a unos inversores por una aventura de podcasting fallida que se llamaba Odeo.",
+        "Se había quedado con Twitter, lo único de aquel estudio que parecía interesante.",
+        "En ese momento su ronda estaba hecha y le quedaba un poquito de asignación.",
+        "Más o menos me preguntó: ¿por qué debería dejarte invertir?",
+        "Me puse en una pizarra durante media hora y le expuse lo poco que sabía sobre growth hacking, mientras él y su lugarteniente miraban.",
+        "Al final dijo: esto suena estupendo, no vamos a hacer nada de ello porque va contra nuestro espíritu.",
+        "Le respeté por eso.",
+        "Pero quedó lo bastante impresionado de que me importara y de que lo hubiera pensado como para darme la oportunidad de invertir en Twitter.",
+        "Esa fue mi primera inversión ángel importante que salió bien."
+      ]
+    },
+    {
+      "id": "b61-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "¿Hay algún inversor ángel nuevo que haya hecho un buen trabajo construyendo una marca?"
+      ]
+    },
+    {
+      "id": "b62-naval",
+      "speaker": "Naval",
+      "frases": [
+        "No sé si necesariamente construyeron marcas para invertir, pero creo que unos cuantos desarrollaron marcas a través de sus actividades naturales que les van a dar la capacidad de invertir.",
+        "El resto, criterio, capital y demás, sigue dependiendo de ellos.",
+        "Ryan Hoover tiene una gran marca.",
+        "Su juego en Twitter está entre los mejores que he visto, construye comunidad en Twitter simplemente como efecto secundario de respirar.",
+        "Va a tener una buena marca como inversor ángel, sobre todo con empresas de consumo.",
+        "Patri Friedman también tiene una marca fuerte.",
+        "Está invirtiendo en países startup y en proyectos de individuos soberanos.",
+        "Es una tesis y un ángulo lo bastante distintivos como para que todos los libertarios y los del estado libre acudan a él.",
+        "Es el primero en clavar la bandera y decir: voy a financiar este tipo de actividades, lo que significa que llegará a ver todo el flujo limitado de operaciones de ese espacio.",
+        "Al mismo tiempo hay montones de otros proyectos, sobre todo en cripto, que estarán naturalmente inclinados a dejarle invertir.",
+        "No van necesariamente de fundar un estado libre, pero se solapan de alguna forma.",
+        "La gente que monta esas empresas simpatiza con los proyectos de estado libre y son ellos mismos individuos soberanos.",
+        "Son la gente que firmó peticiones para liberar a Ross Ulbricht y a Julian Assange, y yo soy uno de ellos, por cierto."
+      ]
+    },
+    {
+      "id": "b63-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "No quieres construir una marca alrededor de una tesis de mercado concreta, ¿verdad?"
+      ]
+    },
+    {
+      "id": "b64-naval",
+      "speaker": "Naval",
+      "frases": [
+        "No quieres construir una marca alrededor de la transición de la tecnología X a la tecnología Y, porque cuando esa transición se complete, tu marca también.",
+        "Tampoco quieres una marca demasiado estrecha ni una marca en un espacio que no se materializa.",
+        "Si tienes una marca de tecnología limpia centrada por entero en la solar y la solar no llega en plazo, toda tu área de experiencia se va al garete."
+      ]
+    },
+    {
+      "id": "b65-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Cuando empiezas hay presión para especializarte por tu experiencia y tu red, y porque quizá quieras levantar capital.",
+        "Pero si miras a las mejores firmas de capital riesgo, rara vez son especialistas, normalmente son generalistas.",
+        "Incluso cuando se especializan, se especializan en algo como ser raros.",
+        "Coge Founders Fund por ejemplo: hacen muchas operaciones de tecnología profunda y muchas operaciones raras, pero no se especializan más allá de eso.",
+        "No dicen: solo hacemos biología sintética.",
+        "O: solo hacemos inteligencia artificial y aprendizaje automático.",
+        "Tienes que resistirte a ese impulso, porque muy a menudo estas tendencias no se materializan."
+      ]
+    },
+    {
+      "id": "b66-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Tengo edad suficiente para acordarme de cuando la tecnología limpia fue una ola que le costó mucho dinero a Kleiner Perkins, y de cuando Java fue otra ola que les costó mucho dinero a los inversores.",
+        "La tecnología limpia tardó más de lo esperado y Java nunca resultó ser un mercado enorme.",
+        "Con la tecnología limpia podrías argumentar que entrar en Tesla o en SpaceX lo perdonaba todo.",
+        "Pero también significa que te lo perdiste todo si no entraste en esas operaciones, si no estabas en la mafia de Elon Musk.",
+        "No quieres ser demasiado estrecho.",
+        "Al mismo tiempo, es difícil destacar si eres demasiado amplio.",
+        "Entonces vuelves a: soy buena persona y quedo a tomar café, déjame invertir.",
+        "Lo mejor es construir una marca alrededor de tus capacidades, plataformas y activos únicos, pero no alrededor de verticales."
+      ]
+    },
+    {
+      "id": "b67-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Las mejores operaciones tienden a venir de tu red, gente en la que llevas mucho tiempo confiando, sobre todo al principio.",
+        "Es notoriamente difícil invertir en una de las empresas de Elon Musk.",
+        "Incluso en rondas caras, es casi imposible entrar en SpaceX o en Neuralink.",
+        "Toda la gente con la que Elon ha ganado dinero en el pasado se abalanza, consigue los primeros derechos y se lleva la asignación entera.",
+        "Si te están invitando a una de las rondas de Elon y nunca le has conocido ni has ganado dinero con él, casi tienes que preguntarte si se ha quedado sin amigos.",
+        "El impulso de salir a cazar operaciones en realidad va a bajar tus retornos.",
+        "Algunos de los mejores inversores ángel consiguen sus primeras victorias invirtiendo en gente de su red cercana, en espacios que conocen bien."
+      ]
+    },
+    {
+      "id": "b68-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Solo tiene sentido salir fuera cuando tu red está agotada.",
+        "Pero para entonces además tienes una reputación y más capital, porque has ganado algo de dinero y has estado invirtiendo con éxito dentro de tu red.",
+        "Ahora tienes reputación, capital y conocimiento.",
+        "Sin eso, es peligroso ponerse a invertir en espacios que no conoces, en gente que no conoces y, lo más peligroso, en operaciones a las que te invitan desconocidos.",
+        "Porque puedes apostar a que si están invitando a un desconocido, ya han agotado su red de aliados y camaradas cercanos."
+      ]
+    },
+    {
+      "id": "b69-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "¿Crees que hay oportunidad de construir una marca invirtiendo en la etapa pre semilla, antes de las aceleradoras o a la vez que ellas?"
+      ]
+    },
+    {
+      "id": "b70-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Las aceleradoras dan consejo sobre cómo montar una empresa a escala.",
+        "No te dan tanto dinero, pero te dan conocimiento importante.",
+        "Cómo montar tu empresa, cómo reclutar y darle vueltas a tu idea, y cuándo está lista para inversores.",
+        "Cómo acercarte a los primeros clientes y medir el crecimiento de clientes, y cómo sacar tu producto mínimo viable ahí fuera.",
+        "Las aceleradoras son ruedines hasta que estás listo para ir a levantar dinero.",
+        "Un inversor ángel puede hacer esto, solo tiene que dedicarle el tiempo.",
+        "Y de hecho es el mejor sitio donde jugar, porque las valoraciones en la etapa semilla están donde antes estaban las rondas de serie A."
+      ]
+    },
+    {
+      "id": "b71-naval",
+      "speaker": "Naval",
+      "frases": [
+        "La mejor forma de conseguir buenas valoraciones y buen flujo de operaciones es crearlo tú mismo: aliarte con emprendedores y convertirte en su cofundador de negocio en la sombra.",
+        "Cuando los emprendedores técnicos empiezan, a menudo ceden la mitad o dos tercios de su empresa a un vendedor, que ayuda a montar la empresa y levanta el dinero.",
+        "Tú puedes ayudar a los fundadores a montar sus empresas.",
+        "Puedes poner el primer dinero.",
+        "A cambio, puede que consigas capital ordinario o al menos condiciones de inversión favorables.",
+        "Más adelante puedes ayudar a reclutar a un vendedor por un cinco o un diez por ciento de la empresa, en lugar de un cincuenta."
+      ]
+    },
+    {
+      "id": "b72-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Si inviertes en la etapa pre semilla, puedes respaldar a grandes equipos, poner las condiciones que quieras y negociar derechos pro rata."
+      ]
+    },
+    {
+      "id": "b73-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Los derechos pro rata son la capacidad de invertir en rondas posteriores.",
+        "Digamos que tienes el cinco por ciento de una empresa por tu inversión original.",
+        "Tu derecho pro rata te da el derecho a aportar el cinco por ciento del capital nuevo en rondas futuras.",
+        "Aunque quizá ya tengas mucho y quizá no te importe la dilución, los retornos sobre el efectivo de las inversiones posteriores tienden a ser mucho mejores.",
+        "Podrías llegar a meter treinta millones de dólares en el pro rata, en vez de tus tres mil dólares iniciales.",
+        "Una vez que la empresa está más probada, los socios inversores y los grandes fondos pelearán por las rondas pro rata.",
+        "Te pagarán participación en beneficios y comisiones de gestión por invertir en ese pro rata.",
+        "Y no estás esperando diez años a tener liquidez en esa inversión.",
+        "En rondas posteriores la empresa puede estar a solo dos años de la liquidez.",
+        "Así que los pro rata pueden ser bastante valiosos.",
+        "También te mantienen enchufado a la empresa.",
+        "Mantienes una relación más estrecha con el equipo directivo, tienen que contarte lo que está pasando.",
+        "Y si hay una ronda a la baja o una ronda de lavado, tus acciones preferentes pueden proteger parte de lo que tienes."
+      ]
+    },
+    {
+      "id": "b74-naval",
+      "speaker": "Naval",
+      "frases": [
+        "La mayoría de lo que decimos en este podcast es conocimiento de consenso, o sabiduría convencional.",
+        "Los inversores de capital riesgo con experiencia dirán: obvio, claro, eso es evidente.",
+        "Pero no está diseñado para ellos."
+      ]
+    },
+    {
+      "id": "b75-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Al mismo tiempo, el dinero de verdad en este negocio se hace acertando contra el consenso, teniendo razón cuando todos los demás no se lo creen.",
+        "Esto pasa todo el rato.",
+        "Por cada operación que hace Sequoia, es posible que Benchmark, Andreessen u otro pasara de ella.",
+        "Por cada operación que hace Andreessen, quizá Sequoia no quería pagar tanto y pasó.",
+        "Hay un universo grande de operaciones de grado inversión en las que ni siquiera los mejores fondos y ángeles se ponen de acuerdo.",
+        "Muchas de esas acaban teniendo éxito.",
+        "Y después están las operaciones de consenso en las que todos los mejores fondos están de acuerdo e intentan apuntarse en masa, y a veces esas acaban estallando."
+      ]
+    },
+    {
+      "id": "b76-naval",
+      "speaker": "Naval",
+      "frases": [
+        "No aprendas inversión ángel de los periodistas ni del comentarista medio de Facebook, Hacker News o Twitter.",
+        "Puede que esta gente tenga buena intención, pero no sabe de lo que habla.",
+        "Todo el mundo se lanza sobre Theranos como ejemplo de los excesos de Silicon Valley.",
+        "La realidad es que a Theranos no la respaldó ningún buen inversor del valle, levantó dinero de inversores de fuera del mercado por buenas razones.",
+        "Los medios encumbraron a su fundadora como la siguiente Steve Jobs porque estaban buscando una heroína.",
+        "Los medios la construyeron y los medios la derribaron.",
+        "Para cualquier inversor sofisticado, esa operación olía mal a un kilómetro.",
+        "Los medios llevan odiando a Mark Zuckerberg y a Facebook desde el principio.",
+        "Y sin embargo ahí está, una empresa que vale varios cientos de miles de millones de dólares, y todos los que la rodean son fabulosamente ricos.",
+        "Lo que Facebook le hace a la sociedad es otra conversación, pero que es un negocio de éxito es innegable.",
+        "Que los periodistas hayan pedido su muerte desde el principio también es difícil de negar."
+      ]
+    },
+    {
+      "id": "b77-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Para tener éxito en este negocio tienes que formar tu propia opinión.",
+        "Tienes que trabajar todo lo posible desde primeros principios.",
+        "Tienes que ignorar a la manada.",
+        "Cuanto mayor sea la manada a la que escuchas, peores serán tus retornos.",
+        "Si vas con el consenso y con el pensamiento medio, tendrás retornos medios, y los retornos medios ahora mismo son del uno por ciento en letras del Tesoro."
+      ]
+    },
+    {
+      "id": "b78-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Una gran razón para invertir como ángel es que te mantiene afilado.",
+        "Es una forma increíble de educarte y de mantenerte al día en tecnología.",
+        "Los grandes fundadores te buscarán y se pasarán una hora contándote lo que han aprendido durante el último año.",
+        "Invertir también te expone a las distintas formas de montar una empresa.",
+        "Tú estás haciendo una C Corp, pero otro está haciendo una sociedad de responsabilidad limitada.",
+        "Tú levantaste dinero de ángeles, pero otro fue directo a los fondos de capital riesgo.",
+        "Tú hiciste el modelo de dos fundadores, pero otros hicieron cinco fundadores y otro hizo el modelo de un solo fundador."
+      ]
+    },
+    {
+      "id": "b79-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Muchos de los mejores fundadores acaban tanteando las empresas de otros como asesores o inversores porque quieren ser buenos en todo.",
+        "Están construyendo los cimientos de un rascacielos y van a ser muy cuidadosos colocando esas primeras vigas y esos primeros ladrillos.",
+        "La mejor forma de averiguar eso es hablar con otra gente lista que se juegue algo.",
+        "Los mejores fundadores además quieren que les respalden otros fundadores.",
+        "Quieren saber que la gente de la que están cogiendo dinero tiene experiencia de primera mano.",
+        "Sobre todo en el lado ángel, ser fundador muchas veces te ayudará a entrar en una operación, mientras que a un inversor puramente financiero quizá no.",
+        "Los fundadores tienen redes únicas y experiencia profunda.",
+        "También pueden tener una ventaja única en el flujo de operaciones por la incubadora por la que pasaron, por estar marcados como fundadores de éxito, por ser expertos en un dominio o por haber asesorado a empresas de éxito."
+      ]
+    },
+    {
+      "id": "b80-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Invertir es también una forma de devolver.",
+        "Muchos fundadores tienen una historia sobre alguien que apostó por ellos al principio, o sobre su primera gran oportunidad.",
+        "Ahora te toca a ti darle a otra gente su gran oportunidad.",
+        "Puedes crear el cambio que quieres ver en el mundo apoyándolo económicamente.",
+        "Invertir también te ayuda a alinearte con otros.",
+        "Si eres de esas personas a las que a menudo mueve la envidia, que seamos sinceros, muchos la sufrimos, una cosa estupenda que puedes hacer es alinear tus intereses.",
+        "Ahora, de repente, estás respaldando a alguien y quieres verle ganar."
+      ]
+    },
+    {
+      "id": "b81-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Otra buena razón para invertir es enseñar, ¿qué mejor forma de aprender que enseñando?",
+        "También puedes hacerlo como asesor.",
+        "Pero como asesor sueles tener mucho menos.",
+        "Hay selección adversa en ser asesor: muy a menudo los mejores emprendedores no necesitan consejo ni lo aceptan.",
+        "A veces puede salir bien, por relaciones fuertes y por experiencia.",
+        "Pero limitarte a estampar tu nombre en una empresa que apenas te conoce no te va a dar mucho, y a ellos tampoco les va a servir de mucho.",
+        "Invertir suele ser una forma más limpia de hacerlo."
+      ]
+    }
+  ]
+}
