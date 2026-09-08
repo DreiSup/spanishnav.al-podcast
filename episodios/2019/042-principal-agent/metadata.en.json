@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 42,
+  "anio": 2019,
+  "slug": "principal-agent",
+  "titulo": "Principal-Agent Problem: Act Like an Owner",
+  "subtitulo": "If you think and act like an owner, it’s only a matter of time until you become an owner",
+  "fecha_publicacion": "2019-07-08",
+  "fuente_url": "https://nav.al/principal-agent",
+  "orden_archivo": 46,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-09-08"
+}
