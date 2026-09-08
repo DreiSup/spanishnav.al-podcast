@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**10** episodios · **0** publicados · **0** sin empezar
+**11** episodios · **0** publicados · **0** sin empezar
 
 ## 2019
 
@@ -10,6 +10,7 @@
 |---|---|---|---|---|---|
 | 35 | [035-a-calm-mind-a-fit-body-a-house-full-of-love](episodios/2019/035-a-calm-mind-a-fit-body-a-house-full-of-love) | Una mente en calma, un cuerpo en forma, una casa llena de amor | 🟠 en revisión | — | — |
 | 36 | [036-there-are-no-get-rich-quick-schemes](episodios/2019/036-there-are-no-get-rich-quick-schemes) | No existen los esquemas para hacerse rico rápido | 🟠 en revisión | — | — |
+| 37 | [037-productize-yourself](episodios/2019/037-productize-yourself) | Productízate a ti mismo | 🟠 en revisión | — | — |
 | 40 | [040-being-ethical-is-long-term-greedy](episodios/2019/040-being-ethical-is-long-term-greedy) | Ser ético es ser codicioso a largo plazo | 🟠 en revisión | — | — |
 | 41 | [041-envy-can-be-useful-or-it-can-eat-you-alive](episodios/2019/041-envy-can-be-useful-or-it-can-eat-you-alive) | La envidia puede ser útil, o puede comerte vivo | 🟠 en revisión | — | — |
 | 42 | [042-principal-agent-problem-act-like-an-owner](episodios/2019/042-principal-agent-problem-act-like-an-owner) | El problema del principal y el agente: actúa como un dueño | 🟠 en revisión | — | — |

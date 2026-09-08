@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 37,
+  "anio": 2019,
+  "slug": "productize-yourself",
+  "titulo": "Productize Yourself",
+  "subtitulo": "Figure out what you're uniquely good at, and apply as much leverage as possible",
+  "fecha_publicacion": "2019-05-24",
+  "fuente_url": "https://nav.al/productize-yourself",
+  "orden_archivo": 41,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-09-08"
+}
