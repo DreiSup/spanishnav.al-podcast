@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 43,
+  "anio": 2019,
+  "slug": "kelly-criterion",
+  "titulo_es": "El criterio de Kelly: evita la ruina",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "El criterio de Kelly: evita la ruina",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Antes de sintetizar: comprobar cómo pronuncia el modelo «ergodicidad», «Nassim Taleb» y «Kelly». b03 «un mono naranja»: «mono» tiene dos sentidos y aquí es la prenda; el «en la cárcel» que sigue lo resuelve, pero conviene escucharlo. «quedar barrido a cero» aparece en el título de sección, en el subtítulo y en b03: si alguna vez se cambia esa expresión, hay que cambiarla en los tres sitios a la vez. b01 tiene ratio es/en 0,83, por debajo del umbral, pero es solo el saludo de Nivi: cinco palabras frente a seis, no falta nada. Artefacto del inglés de la fuente, señalado y no tocado: en b03 la frase que empieza por «So risk-taking» está mal construida en el original y el español la resuelve."
+}
