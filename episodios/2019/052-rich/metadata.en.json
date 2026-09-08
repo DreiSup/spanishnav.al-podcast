@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 52,
+  "anio": 2019,
+  "slug": "rich",
+  "titulo": "How to Get Rich",
+  "subtitulo": "A collection of all my interviews about my ‘How to Get Rich’ tweetstorm.",
+  "fecha_publicacion": "2019-12-28",
+  "fuente_url": "https://nav.al/rich",
+  "orden_archivo": 56,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-09-08"
+}

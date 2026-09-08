@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 52,
+  "anio": 2019,
+  "slug": "rich",
+  "titulo_es": "Cómo hacerse rico",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Cómo hacerse rico",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Recopilación: sus titulos_seccion coinciden con 49 títulos de episodio del catálogo (nº 1-50 salvo el 39), y 34 de esos son heredados. El texto se solapa literalmente con los episodios sueltos (21 de las 53 frases de 035 y 9 de las 49 de 036 son idénticas). Antes de sintetizar, decidir si se produce la recopilación o los sueltos: hacer las dos cosas duplica ~4,5 horas de audio y de limpieza en Audacity."
+}
