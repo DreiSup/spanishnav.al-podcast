@@ -146,6 +146,12 @@ def construir_transcript(origen: dict, idioma: str, ficha: dict) -> tuple[dict, 
                 avisos.append(
                     f"es: bloque {i} frase {j} lleva {', '.join(partes)} — "
                     f"el TTS lo vocaliza; escríbelo como se pronuncia")
+            for j, frase in enumerate(frases, 1):
+                for cierra, abre in (("?", "¿"), ("!", "¡")):
+                    if frase.endswith(cierra) and abre not in frase:
+                        avisos.append(
+                            f"es: bloque {i} frase {j} termina en '{cierra}' sin '{abre}' — "
+                            f"el TTS necesita el signo de apertura para la entonación")
         contenido.append({
             "id": f"b{i:02d}-{slugificar(speaker) or 'sin-hablante'}",
             "speaker": speaker,

@@ -22,6 +22,9 @@ la decisión aquí para no volver a dudar en el episodio siguiente.
   dejando que la entonación haga el trabajo, no encomillando. Punto, coma y
   signos de interrogación y exclamación sí: esos los lee como pausas.
   El normalizador avisa si se cuela alguno.
+- **Signos de apertura siempre**: toda pregunta lleva su «¿» y toda exclamación
+  su «¡». El TTS decide la entonación al empezar la frase, así que sin el signo
+  de apertura la lee como afirmación y solo sube al final, cuando ya es tarde.
 
 ## Términos
 
