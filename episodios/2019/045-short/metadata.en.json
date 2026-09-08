@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 45,
+  "anio": 2019,
+  "slug": "short",
+  "titulo": "Turn Short-Term Games Into Long-Term Games",
+  "subtitulo": "Improve your leverage by turning short-term relationships into long-term ones",
+  "fecha_publicacion": "2019-07-15",
+  "fuente_url": "https://nav.al/short",
+  "orden_archivo": 49,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-09-08"
+}

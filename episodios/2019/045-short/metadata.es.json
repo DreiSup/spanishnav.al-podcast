@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 45,
+  "anio": 2019,
+  "slug": "short",
+  "titulo_es": "Convierte los juegos de corto plazo en juegos de largo plazo",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Convierte los juegos de corto plazo en juegos de largo plazo",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Cambio sobre el f5 recibido, aprobado: «renuncia» -> «contrapartida» como traducción de trade-off, en b03 f02 y en titulos_seccion[0], por el término fijado en GLOSARIO.md. 052-rich sigue diciendo «renuncia» en estas mismas líneas: alinearlo si se produce la recopilación. Decidido mantener «apalancamiento» para leverage en el subtítulo y en b05 f07 aunque el sentido aquí sea negociador y no financiero, por coherencia con el término fijo de la serie. Queda pendiente relajar esa excepción del glosario, que no se ha aplicado nunca. Antes de sintetizar: «mal apalancamiento negociador» (b05 f07) se traba al leerlo en voz alta; escuchar cómo suena y retocar solo si hace falta. Solapamiento con 052-rich: 12 de las 28 frases y 1 de los 3 titulos_seccion son idénticos. Misma decisión pendiente que 035, 036 y 044 sobre producir la recopilación o los sueltos. «The homeowner» se traduce como «el cliente» en b04 f10 y como «el propietario» en b04 f12; no es error, pero conviene recordarlo si se retoca el bloque. Comprobar en el TTS: Pareto, Yelp y Thumbtack. Artefacto del f0 inglés, no tocado: doble espacio en «contractor  operates» (b05); el troceo del script colapsa los espacios, así que no llega al repo."
+}
