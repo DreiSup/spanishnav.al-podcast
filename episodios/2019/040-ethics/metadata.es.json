@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 40,
+  "anio": 2019,
+  "slug": "ethics",
+  "titulo_es": "Ser ético es ser codicioso a largo plazo",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Ser ético es ser codicioso a largo plazo",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": ""
+}
