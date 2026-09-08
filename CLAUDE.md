@@ -24,7 +24,7 @@ se cuela, es un error, no una excepción.
 ## Estructura del repositorio
 
 ```
-episodios/<año>/<NNN>-<slug>/
+episodios/<año>/<NNN>-<slug-del-título>/
   transcript.en.json     original copiado de nav.al          ← FUENTE DE VERDAD
   transcript.es.json     traducción al español               ← FUENTE DE VERDAD
   metadata.en.json       datos del episodio según la fuente  ← lo escribe el normalizador
@@ -48,15 +48,34 @@ crearán al normalizar cada transcript pegado.
 
 ### Nombres
 
-- **Carpeta de episodio**: `<NNN>-<slug>` — número de episodio a tres dígitos, guion, slug.
-  Ejemplo: `026-judgment`.
+- **Carpeta de episodio**: `<NNN>-<slug-del-título>` — número de episodio a tres dígitos,
+  guion, y el **título inglés slugificado**. Ejemplo: el episodio publicado en
+  `nav.al/finally-wealthy`, titulado *A Calm Mind, a Fit Body, a House Full of Love*, va en
+  `035-a-calm-mind-a-fit-body-a-house-full-of-love`.
+
+  **Se nombra por el título y no por el slug de nav.al** porque los dos a menudo no se
+  parecen en nada: `finally-wealthy`, `short`, `rich`, `angel-1`. Con el slug había que abrir
+  el JSON para saber qué episodio era una carpeta.
+
+  Lo genera `slug_de_titulo()` en `normalizar-extraccion.py`, no se escribe a mano:
+  minúsculas, los apóstrofos se caen (`A Founder's Anxiety` → `a-founders-anxiety`) y
+  cualquier otro carácter que no sea letra o cifra pasa a guion. Comprobado sobre los 168
+  títulos del catálogo: ningún par colisiona y el más largo son 65 caracteres.
+
+  **El título literal no vale como nombre de carpeta.** 21 de los 168 llevan `:`, `?` o `"`,
+  ilegales en Windows y macOS, y este repositorio es público: quien lo clonase ahí no podría
+  ni sacar el árbol de trabajo.
 - **El número es el del feed del podcast**, no el del archivo de nav.al. El archivo lista
   168 entradas; el podcast tiene 161 episodios (Apple Podcasts). Los 7 de diferencia son
   4 diálogos con Kapil Gupta de enero-febrero de 2019 (anteriores al primer episodio) y
   3 partes sueltas de *The AI Industrial Revolution*. Esos 7 van en
-  `episodios/<año>/extra-<slug>/`, sin número. La regla y la tabla de correspondencia
+  `episodios/<año>/extra-<slug-del-título>/`, sin número. La regla y la tabla de correspondencia
   están en `docs/extraccion.md`.
-- **Slug**: el de la URL de nav.al, tal cual. Ejemplo: `nav.al/judgment` → `judgment`.
+- **El slug de la URL de nav.al no desaparece**, solo deja de nombrar la carpeta. Sigue
+  siendo lo que identifica la fuente: nombra el fichero de entrada
+  (`trabajo/manual/<slug>.txt`), es lo que el normalizador cruza con `catalogo.json`, lo que
+  acepta `--slug` para desambiguar, y lo que guardan `slug` y `fuente_url` en
+  `metadata.en.json`. Ejemplo: `nav.al/judgment` → `judgment`.
 - **Estados** de `metadata.es.json`: `pendiente` → `traduciendo` → `revision` → `tts` →
   `montaje` → `publicado`. Y `heredado`, que no es un paso del recorrido sino una entrada
   lateral justo antes de `publicado`: ver más abajo.
@@ -209,7 +228,7 @@ No hay sincronización automática. Nada se sube solo. rclone mueve bytes cuando
 ### Estructura en Drive
 
 ```
-naval-podcast/<año>/<NNN>-<slug>/
+naval-podcast/<año>/<NNN>-<slug-del-título>/
   tts/         un clip por bloque de hablante, nombrado por el id del bloque
   audio/       audio final montado
   video/       .mp4 subido a YouTube

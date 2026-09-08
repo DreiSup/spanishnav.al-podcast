@@ -167,8 +167,8 @@ El archivo de nav.al lista **168** entradas. El podcast, según Apple Podcasts, 
 
 | Orden en el archivo | Qué es | Trato |
 |---|---|---|
-| 1–4 | Diálogos con Kapil Gupta, enero-febrero 2019, anteriores al primer episodio | `extra-<slug>`, sin número |
-| 164–166 | Partes sueltas de *The AI Industrial Revolution*, ya retiradas del RSS | `extra-<slug>`, sin número |
+| 1–4 | Diálogos con Kapil Gupta, enero-febrero 2019, anteriores al primer episodio | `extra-<slug-del-título>`, sin número |
+| 164–166 | Partes sueltas de *The AI Industrial Revolution*, ya retiradas del RSS | `extra-<slug-del-título>`, sin número |
 
 La decisión es **numerar por el feed**, porque es lo que ve un oyente y porque coincide con
 la numeración de las carpetas locales antiguas (comprobado: *Judgment* era la carpeta 26 y
@@ -183,7 +183,7 @@ orden 164–166  → extra (sin número)
 orden 167–168  → numero = orden − 7        (160, 161)
 ```
 
-Los extras se guardan en `episodios/<año>/extra-<slug>/` con los mismos cuatro ficheros
+Los extras se guardan en `episodios/<año>/extra-<slug-del-título>/` con los mismos cuatro ficheros
 y `numero: null` en ambos metadata. Nada queda fuera del repo.
 
 ## Después de la verificación
@@ -203,8 +203,9 @@ Qué hace:
 - **Trocea el inglés en frases él mismo**, venga el bloque como un string o como una lista de
   un solo elemento. El **español lo respeta tal cual**: ese troceado es una decisión de
   doblaje de quien traduce, no del script
-- Aplica la regla de numeración de arriba para decidir carpeta y `numero`
-- Escribe los cuatro `.json` en `episodios/<año>/<NNN>-<slug>/`
+- Aplica la regla de numeración de arriba para decidir el número, y nombra la carpeta
+  con el título inglés slugificado, no con el slug de nav.al (ver "Nombres" en CLAUDE.md)
+- Escribe los cuatro `.json` en `episodios/<año>/<NNN>-<slug-del-título>/`
 - Crea `metadata.es.json` en estado `pendiente`, o en `heredado` si el número está entre 1 y
   34 (ver "Episodios heredados" en CLAUDE.md). `--sin-heredado` desactiva esa marca
 - Actualiza la entrada del episodio en `catalogo.json`: `tiene_transcript: true` y, si venía

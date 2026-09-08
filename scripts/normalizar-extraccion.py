@@ -77,6 +77,17 @@ def slugificar(texto: str) -> str:
     return re.sub(r"-+", "-", re.sub(r"[^a-z0-9]+", "-", t)).strip("-")
 
 
+def slug_de_titulo(titulo: str) -> str:
+    """Nombre de carpeta a partir del título inglés. Ver "Nombres" en CLAUDE.md.
+
+    Los apóstrofos se caen en vez de convertirse en guion, que es la diferencia
+    con slugificar(): "A Founder's Anxiety" da a-founders-anxiety y no
+    a-founder-s-anxiety. Comprobado sobre los 168 títulos del catálogo: no hay
+    dos que den el mismo nombre, y el más largo son 65 caracteres.
+    """
+    return slugificar(re.sub(r"['\u2019\u02bc]", "", titulo))
+
+
 def slug_de_url(url: str) -> str:
     return url.rstrip("/").rsplit("/", 1)[-1]
 
@@ -263,7 +274,9 @@ def main() -> int:
             f"error: no hay fecha ISO para '{slug}' (el catálogo trae {entrada['fecha']!r}).\n"
             f"       Búscala en {entrada['url']} y pásala con --fecha AAAA-MM-DD.")
     anio = fecha[:4]
-    nombre = f"{numero:03d}-{slug}" if numero is not None else f"extra-{slug}"
+    # La carpeta se nombra por el título; el slug de la URL sigue identificando la fuente
+    carpeta = slug_de_titulo(entrada["titulo"])
+    nombre = f"{numero:03d}-{carpeta}" if numero is not None else f"extra-{carpeta}"
     destino = RAIZ / "episodios" / anio / nombre
     ficha = {"episodio": f"{anio}/{nombre}", "numero": numero, "fecha": fecha, "url": entrada["url"]}
 

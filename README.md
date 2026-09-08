@@ -13,7 +13,7 @@ enlazan desde cada episodio por *file ID*.
 ## Qué hay en cada episodio
 
 ```
-episodios/<año>/<NNN>-<slug>/
+episodios/<año>/<NNN>-<slug-del-título>/
   transcript.en.json     original            ← fuente de verdad
   transcript.es.json     traducción          ← fuente de verdad
   metadata.en.json       datos de la fuente
