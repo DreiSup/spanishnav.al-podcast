@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 41,
+  "anio": 2019,
+  "slug": "envy",
+  "titulo": "Envy Can Be Useful, or It Can Eat You Alive",
+  "subtitulo": "Envy can give you a powerful boost, or it can eat you alive",
+  "fecha_publicacion": "2019-06-28",
+  "fuente_url": "https://nav.al/envy",
+  "orden_archivo": 45,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-09-08"
+}

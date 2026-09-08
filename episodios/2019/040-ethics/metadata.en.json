@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 40,
+  "anio": 2019,
+  "slug": "ethics",
+  "titulo": "Being Ethical Is Long-Term Greedy",
+  "subtitulo": "If you cut fair deals, you will get paid in the long run",
+  "fecha_publicacion": "2019-06-26",
+  "fuente_url": "https://nav.al/ethics",
+  "orden_archivo": 44,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-09-08"
+}
