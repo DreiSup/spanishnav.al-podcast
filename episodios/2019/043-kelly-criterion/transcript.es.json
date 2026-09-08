@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2019/043-kelly-criterion",
+  "numero": 43,
+  "fecha": "2019-07-10",
+  "titulo": "El criterio de Kelly: evita la ruina",
+  "subtitulo": "No arruines tu reputación ni te quedes barrido a cero",
+  "fuente_url": "https://nav.al/kelly-criterion",
+  "titulos_seccion": [
+    "Arruinar tu reputación es lo mismo que quedar barrido a cero"
+  ],
+  "contenido": [
+    {
+      "id": "b01-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Hablemos del criterio de Kelly."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "El criterio de Kelly es una formulación matemática popularizada de un concepto sencillo.",
+        "El concepto sencillo es: no lo arriesgues todo.",
+        "Mantente fuera de la cárcel.",
+        "No lo apuestes todo a una sola jugada grande.",
+        "Ten cuidado con cuánto apuestas cada vez, para no perder el bote entero.",
+        "Si eres jugador, el criterio de Kelly formula matemáticamente cuánto deberías apostar por mano, incluso si tienes ventaja, porque incluso cuando tienes ventaja puedes perder.",
+        "Digamos que tienes una ventaja de cincuenta y uno a cuarenta y nueve.",
+        "Cualquier jugador sabe que no hay que apostar el bote entero con esa ventaja de cincuenta y uno a cuarenta y nueve, porque podrías perderlo todo y no llegarías a volver a la media.",
+        "Nassim Taleb habla mucho de la ergodicidad, que es una palabra elegante para un concepto sencillo: lo que es cierto para cien personas de media no es lo mismo que una persona haciendo eso mismo cien veces."
+      ]
+    },
+    {
+      "id": "b03-naval",
+      "speaker": "Naval",
+      "frases": [
+        "La forma más fácil de verlo es con la ruleta rusa.",
+        "Digamos que seis personas juegan a la ruleta rusa una vez cada una, y cada ganador se lleva mil millones de dólares.",
+        "Una persona acaba muerta y cinco personas se llevan mil millones de dólares.",
+        "Compara eso con una persona jugando a la ruleta rusa seis veces con la misma pistola.",
+        "Nunca va a acabar siendo multimillonaria, va a acabar muerta y valiendo cero.",
+        "Así que asumir riesgo, sobre todo cuando las medias se calculan sobre poblaciones grandes, no siempre es racional.",
+        "El criterio de Kelly te ayuda a evitar la ruina.",
+        "La primera forma en la que la gente se arruina en los negocios modernos no es apostando demasiado, es atajando por lo fácil y haciendo cosas poco éticas o directamente ilegales.",
+        "Acabar con un mono naranja en la cárcel o arruinar tu reputación es lo mismo que quedar barrido a cero, así que nunca hagas esas cosas."
+      ]
+    }
+  ]
+}
