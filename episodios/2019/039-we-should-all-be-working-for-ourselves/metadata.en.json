@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 39,
+  "anio": 2019,
+  "slug": "working-ourselves",
+  "titulo": "We Should All Be Working for Ourselves",
+  "subtitulo": "But we will have to make sacrifices and take on more risk",
+  "fecha_publicacion": "2019-06-24",
+  "fuente_url": "https://nav.al/working-ourselves",
+  "orden_archivo": 43,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-09-08"
+}
