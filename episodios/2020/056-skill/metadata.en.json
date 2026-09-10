@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 56,
+  "anio": 2020,
+  "slug": "skill",
+  "titulo": "Happiness Is a Skill You Can Develop",
+  "subtitulo": "You’re not stuck at your current level of happiness",
+  "fecha_publicacion": "2020-02-03",
+  "fuente_url": "https://nav.al/skill",
+  "orden_archivo": 60,
+  "en_feed": true,
+  "participantes": [
+    "Naval"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-09-10"
+}

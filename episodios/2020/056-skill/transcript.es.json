@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2020/056-skill",
+  "numero": 56,
+  "fecha": "2020-02-03",
+  "titulo": "La felicidad es una habilidad que puedes desarrollar",
+  "subtitulo": "No estás atascado en tu nivel actual de felicidad",
+  "fuente_url": "https://nav.al/skill",
+  "titulos_seccion": [
+    "La genética es importante, pero es solo la mitad de la imagen",
+    "No estás atascado en tu nivel de felicidad"
+  ],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "El primer paso para aumentar tu nivel de felicidad es darte cuenta de que puedes.",
+        "Aquí es donde mucha gente tropieza.",
+        "Para la gran mayoría de la gente, parte de su felicidad, probablemente mucha más de la que creen, está bajo su control.",
+        "Este paso no es fácil.",
+        "Puede que te quedes atascado aquí mucho tiempo.",
+        "Mucha gente cree que la felicidad no se puede desarrollar ni cambiar, así que la desprecian.",
+        "Dicen que no quieren ser felices.",
+        "La genética es importante.",
+        "Determina en gran medida la fuerza, el rendimiento atlético y la inteligencia.",
+        "Pero tu punto de partida genético es solo más o menos la mitad.",
+        "Y la felicidad, o la satisfacción general, es mucho más maleable que las otras cosas.",
+        "Me sería muy difícil cambiar drásticamente mi rendimiento atlético solo entrenando.",
+        "Estoy mucho más limitado en ese terreno por mi genética.",
+        "Pero cosas como mi temperamento, mi visión de la vida, lo tranquilo que estoy, lo mucho que me enfado, están mucho más bajo mi control.",
+        "Así que la felicidad es una habilidad, como la nutrición y la forma física.",
+        "La felicidad es una habilidad que identificas y desarrollas, y que poco a poco te da resultados a medida que mejoras en ella.",
+        "No es un don divino.",
+        "No te la entregan y ya te quedas con ella para siempre, aunque si empiezas con un nivel alto, por supuesto, consérvalo."
+      ]
+    }
+  ]
+}

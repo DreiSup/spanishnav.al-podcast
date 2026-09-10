@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 56,
+  "anio": 2020,
+  "slug": "skill",
+  "titulo_es": "La felicidad es una habilidad que puedes desarrollar",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "La felicidad es una habilidad que puedes desarrollar",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Antes de sintetizar: episodio corto, un solo bloque de unas 230 palabras, sin nombres propios ni palabras extranjeras. «Tu punto de partida genético» traduce «your genetic set point»; es punto de referencia más que punto de partida, pero se dejó así porque en voz alta se entiende igual. Si alguna vez se revisa, cambiarlo también en el título de sección no hace falta: ahí no aparece."
+}
