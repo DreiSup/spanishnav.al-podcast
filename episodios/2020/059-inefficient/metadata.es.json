@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 59,
+  "anio": 2020,
+  "slug": "inefficient",
+  "titulo_es": "Ser infeliz es extremadamente ineficiente",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Ser infeliz es extremadamente ineficiente",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Antes de sintetizar: comprobar cómo pronuncia el modelo «Elon Musk» y «el Buda». «Las veinticuatro horas» traduce «24/7» y «veinte por ciento» traduce «20%», los dos escritos como se pronuncian. Artefacto del inglés de la fuente, señalado y no tocado: en el bloque único falta el espacio tras el punto en «the long-term outcomes.I cut straight to the chase»; el español ya lo resuelve como dos frases."
+}
