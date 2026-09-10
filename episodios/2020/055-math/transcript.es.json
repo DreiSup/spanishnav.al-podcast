@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2020/055-math",
+  "numero": 55,
+  "fecha": "2020-01-31",
+  "titulo": "La felicidad no es ciencia ni matemáticas",
+  "subtitulo": "La felicidad se parece más a la poesía que a los algoritmos",
+  "fuente_url": "https://nav.al/math",
+  "titulos_seccion": [
+    "Hay muchos tipos de felicidad",
+    "La felicidad se parece más a la poesía que a los algoritmos"
+  ],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Felicidad es un término extremadamente cargado.",
+        "Significa cosas completamente distintas para distintas personas.",
+        "Todo el mundo tiene ideas preconcebidas muy firmes sobre qué es la felicidad y cómo alcanzarla.",
+        "Voy a mezclar felicidad, placer, paz, alegría, dicha, satisfacción, bienestar y más.",
+        "No lo hago deliberadamente.",
+        "Pero al mismo tiempo, esto no son matemáticas.",
+        "No podemos delimitar claramente estas palabras.",
+        "Significan cosas distintas en contextos distintos para personas distintas.",
+        "Así que intenta entrar en el espíritu de lo que digo, en lugar de quedarte enganchado en palabras y detalles concretos.",
+        "Cuando algunas personas hablan de felicidad, en realidad hablan de placer o de emociones fuertes.",
+        "Pueden decir que han comido muy bien y que, por tanto, son felices.",
+        "Cuando otras personas hablan de felicidad, hablan de un estado general de satisfacción y bienestar.",
+        "Otras se refieren a la iluminación, como la que habría alcanzado un Buda.",
+        "Mucha gente adopta el punto de vista de que la felicidad no existe, o de que es contraproducente, o de que la desdicha viene de perseguir la felicidad.",
+        "Hay mucha verdad en estas ideas, ya entraremos en ello.",
+        "Puedo decir que la forma de ser feliz es tal cosa, y la gente responderá que si no acabo de decir que la felicidad es causa de desdicha.",
+        "Esto no son matemáticas.",
+        "No puedes encadenar algoritmos.",
+        "Esto se parece más a la poesía.",
+        "Si lees cincuenta poemas del mismo poeta e intentas mapearlos analíticamente, cruzando palabras de un poema a otro para ver si tiene sentido, te perderás lo esencial.",
+        "No te obsesiones con las palabras.",
+        "Ni siquiera te obsesiones con las frases.",
+        "Reflexiona sobre el proceso de pensamiento y el mensaje en su conjunto."
+      ]
+    }
+  ]
+}

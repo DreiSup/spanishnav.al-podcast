@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 55,
+  "anio": 2020,
+  "slug": "math",
+  "titulo_es": "La felicidad no es ciencia ni matemáticas",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "La felicidad no es ciencia ni matemáticas",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Antes de sintetizar: comprobar cómo pronuncia el modelo «Buda». La primera frase, «Felicidad es un término extremadamente cargado», va deliberadamente sin artículo porque nombra la palabra, no el concepto; en texto llevaría comillas, pero el glosario las prohíbe, así que la entonación de apertura tiene que hacer ese trabajo: escuchar cómo queda. «X» del inglés se traduce por «tal cosa» para que el TTS no deletree la letra."
+}

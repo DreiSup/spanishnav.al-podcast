@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**8** episodios · **0** publicados · **0** sin empezar
+**9** episodios · **0** publicados · **0** sin empezar
 
 ## 2020
 
@@ -10,6 +10,7 @@
 |---|---|---|---|---|---|
 | 53 | [053-philosopher](episodios/2020/053-philosopher) | Vive lo suficiente y te convertirás en filósofo | 🟠 en revisión | — | — |
 | 54 | [054-material](episodios/2020/054-material) | La felicidad sin comodidad material es jugar en modo difícil | 🟠 en revisión | — | — |
+| 55 | [055-math](episodios/2020/055-math) | La felicidad no es ciencia ni matemáticas | 🟠 en revisión | — | — |
 
 ## 2019
 
