@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 63,
+  "anio": 2020,
+  "slug": "peace",
+  "titulo": "Finding Peace from Mind",
+  "subtitulo": "The mind should be a servant, not a master",
+  "fecha_publicacion": "2020-03-03",
+  "fuente_url": "https://nav.al/peace",
+  "orden_archivo": 67,
+  "en_feed": true,
+  "participantes": [
+    "Naval"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-09-10"
+}

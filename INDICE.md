@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**16** episodios · **0** publicados · **0** sin empezar
+**17** episodios · **0** publicados · **0** sin empezar
 
 ## 2020
 
@@ -18,6 +18,7 @@
 | 60 | [060-least](episodios/2020/060-least) | Trabaja lo menos posible para conseguirlo | 🟠 en revisión | — | — |
 | 61 | [061-addiction](episodios/2020/061-addiction) | La lucha moderna es combatir la adicción convertida en arma | 🟠 en revisión | — | — |
 | 62 | [062-unacceptable](episodios/2020/062-unacceptable) | Romper con la adicción es socialmente inaceptable | 🟠 en revisión | — | — |
+| 63 | [063-peace](episodios/2020/063-peace) | Encontrar la paz frente a la mente | 🟠 en revisión | — | — |
 
 ## 2019
 

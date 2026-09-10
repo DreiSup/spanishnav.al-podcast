@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 63,
+  "anio": 2020,
+  "slug": "peace",
+  "titulo_es": "Encontrar la paz frente a la mente",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Encontrar la paz frente a la mente",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Antes de sintetizar: dos puntos delicados. Uno, la cadena «A se come a B, B se come a C, C se come a D, D se come a E» son letras sueltas y el modelo puede leerlas mal o saltárselas; escuchar esa frase la primera. Dos, «kitesurf» va sin traducir. «La naturaleza es roja de diente y garra» es calco deliberado del verso de Tennyson y se deja así aunque en español no sea frase hecha. «Paz frente a la mente» traduce «peace from mind» y se opone a «paz mental» para «peace of mind»: ese contraste es el eje del episodio y aparece tres veces, cambiarlo obliga a cambiarlo en las tres y en el título."
+}
