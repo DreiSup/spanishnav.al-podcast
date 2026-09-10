@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 58,
+  "anio": 2020,
+  "slug": "smart",
+  "titulo": "If You’re So Smart, Why Aren’t You Happy?",
+  "subtitulo": "You can increase your happiness without losing your drive",
+  "fecha_publicacion": "2020-02-12",
+  "fuente_url": "https://nav.al/smart",
+  "orden_archivo": 62,
+  "en_feed": true,
+  "participantes": [
+    "Naval"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-09-10"
+}

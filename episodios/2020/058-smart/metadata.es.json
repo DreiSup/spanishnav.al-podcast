@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 58,
+  "anio": 2020,
+  "slug": "smart",
+  "titulo_es": "Si eres tan listo, ¿por qué no eres feliz?",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Si eres tan listo, ¿por qué no eres feliz?",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Antes de sintetizar: la primera frase, «La felicidad es para los tontos», es en el inglés una cita entre comillas de la queja que Naval va a rebatir, no su opinión. Sin comillas, en audio arranca sonando a afirmación suya hasta que la frase siguiente lo aclara. Es el punto más delicado del episodio: escuchar si la entonación lo separa bien y, si no, decidir entonces. Otra cosa: la frase larga del inglés sobre los estados alterados se parte en dos y la primera mitad se cierra con «ya lo sabes», que no está en el original; es la solución de doblaje para no dejar el «si» sin apódosis. Bloque largo, unas 460 palabras."
+}
