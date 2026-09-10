@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 62,
+  "anio": 2020,
+  "slug": "unacceptable",
+  "titulo": "Breaking Addiction Is Socially Unacceptable",
+  "subtitulo": "Addiction enables artificial relationships and activities",
+  "fecha_publicacion": "2020-02-26",
+  "fuente_url": "https://nav.al/unacceptable",
+  "orden_archivo": 66,
+  "en_feed": true,
+  "participantes": [
+    "Naval"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-09-10"
+}

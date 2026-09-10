@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 62,
+  "anio": 2020,
+  "slug": "unacceptable",
+  "titulo_es": "Romper con la adicción es socialmente inaceptable",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Romper con la adicción es socialmente inaceptable",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Antes de sintetizar: sin nombres propios ni palabras extranjeras. El bloque cambia de persona a mitad, de «tú» a «yo», siguiendo al inglés, que hace lo mismo: no es un descuido, y la voz tiene que sostener el cambio sin que parezca que entra otro hablante. «Una ruta de bares» traduce «bar-hopping»; se eligió por ser neutra frente a «ir de bares», más de España."
+}
