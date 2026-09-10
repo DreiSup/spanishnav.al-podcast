@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 67,
+  "anio": 2020,
+  "slug": "truth",
+  "titulo_es": "El camino a la paz es la verdad",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "El camino a la paz es la verdad",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Antes de sintetizar: sin nombres propios ni palabras extranjeras. La penúltima frase, «Lo vemos en el peso extra que cargamos, en el pico y la caída de glucosa..., en cómo la cafeína nos acelera y luego nos hunde», es una enumeración de tres con la misma preposición: las tres comas tienen que oírse como pausas paralelas o el paralelismo se pierde. Es el punto a escuchar. Cierra el bloque de la felicidad de 2020; el siguiente del archivo es el diálogo con Kapil Gupta."
+}

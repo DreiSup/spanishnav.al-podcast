@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 67,
+  "anio": 2020,
+  "slug": "truth",
+  "titulo": "The Path to Peace Is Truth",
+  "subtitulo": "When self-improvement fails, work on discovering the truth",
+  "fecha_publicacion": "2020-03-27",
+  "fuente_url": "https://nav.al/truth",
+  "orden_archivo": 71,
+  "en_feed": true,
+  "participantes": [
+    "Naval"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-09-10"
+}
