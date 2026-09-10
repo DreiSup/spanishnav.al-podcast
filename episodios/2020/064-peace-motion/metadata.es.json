@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 64,
+  "anio": 2020,
+  "slug": "peace-motion",
+  "titulo_es": "La felicidad es paz en movimiento",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "La felicidad es paz en movimiento",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Antes de sintetizar: comprobar cómo pronuncia el modelo «sij». La frase que da título, «La paz es felicidad en reposo, la felicidad es paz en movimiento», va sin comillas y es un quiasmo: la coma central tiene que oírse como pausa o se pierde la simetría. Es el punto a escuchar. «Paz frente a la mente» aparece también aquí y tiene que sonar igual que en el episodio 63."
+}

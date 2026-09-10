@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 64,
+  "anio": 2020,
+  "slug": "peace-motion",
+  "titulo": "Happiness Is Peace in Motion",
+  "subtitulo": "Peace is happiness at rest",
+  "fecha_publicacion": "2020-03-05",
+  "fuente_url": "https://nav.al/peace-motion",
+  "orden_archivo": 68,
+  "en_feed": true,
+  "participantes": [
+    "Naval"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-09-10"
+}
