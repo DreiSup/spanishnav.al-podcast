@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 54,
+  "anio": 2020,
+  "slug": "material",
+  "titulo_es": "La felicidad sin comodidad material es jugar en modo difícil",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "La felicidad sin comodidad material es jugar en modo difícil",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Antes de sintetizar: comprobar cómo pronuncia el modelo «Osho» y «Confucio». Un solo bloque de Naval de unas 420 palabras, el clip más largo hasta ahora en 2020. La cita de Osho y el dicho de Confucio van en estilo indirecto, sin comillas, así que la entonación tiene que separarlos del hilo de Naval por sí sola: escuchar esos dos puntos. Los títulos de sección del inglés dicen «material desires» en el subtítulo y «material needs» en el título de sección; el español respeta esa diferencia, «deseos» y «necesidades», porque está en la fuente."
+}

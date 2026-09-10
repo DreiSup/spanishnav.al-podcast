@@ -2,13 +2,14 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**7** episodios · **0** publicados · **0** sin empezar
+**8** episodios · **0** publicados · **0** sin empezar
 
 ## 2020
 
 | # | Episodio | Título en español | Estado | Drive | YouTube |
 |---|---|---|---|---|---|
 | 53 | [053-philosopher](episodios/2020/053-philosopher) | Vive lo suficiente y te convertirás en filósofo | 🟠 en revisión | — | — |
+| 54 | [054-material](episodios/2020/054-material) | La felicidad sin comodidad material es jugar en modo difícil | 🟠 en revisión | — | — |
 
 ## 2019
 

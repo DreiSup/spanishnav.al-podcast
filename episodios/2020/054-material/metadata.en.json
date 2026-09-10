@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 54,
+  "anio": 2020,
+  "slug": "material",
+  "titulo": "Happiness Without Material Comfort Is Playing on Hard Mode",
+  "subtitulo": "It's easier to fulfill your material desires than to renounce them",
+  "fecha_publicacion": "2020-01-29",
+  "fuente_url": "https://nav.al/material",
+  "orden_archivo": 58,
+  "en_feed": true,
+  "participantes": [
+    "Naval"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-09-10"
+}
