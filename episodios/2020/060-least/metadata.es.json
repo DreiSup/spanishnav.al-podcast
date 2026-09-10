@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 60,
+  "anio": 2020,
+  "slug": "least",
+  "titulo_es": "Trabaja lo menos posible para conseguirlo",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Trabaja lo menos posible para conseguirlo",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Antes de sintetizar: comprobar cómo pronuncia el modelo «Warren Buffett», «bridge» y «golf». «Bridge» es el juego de cartas, no el puente, y va sin traducir: si el modelo lo lee en español la frase se rompe, así que es el punto a escuchar primero. «Leyendo folletos de salida a bolsa» traduce «reading S-1s» y evita que el TTS deletree la sigla. Los porcentajes van escritos como se pronuncian, «el ochenta y cinco por ciento» y «el setenta por ciento». El título de sección es el mismo que el del episodio 59 y se traduce igual, «Una mente en paz toma mejores decisiones»: si se cambia, cambiarlo en los dos."
+}

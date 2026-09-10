@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**13** episodios · **0** publicados · **0** sin empezar
+**14** episodios · **0** publicados · **0** sin empezar
 
 ## 2020
 
@@ -15,6 +15,7 @@
 | 57 | [057-desire](episodios/2020/057-desire) | El deseo es un contrato que firmas para ser infeliz | 🟠 en revisión | — | — |
 | 58 | [058-smart](episodios/2020/058-smart) | Si eres tan listo, ¿por qué no eres feliz? | 🟠 en revisión | — | — |
 | 59 | [059-inefficient](episodios/2020/059-inefficient) | Ser infeliz es extremadamente ineficiente | 🟠 en revisión | — | — |
+| 60 | [060-least](episodios/2020/060-least) | Trabaja lo menos posible para conseguirlo | 🟠 en revisión | — | — |
 
 ## 2019
 

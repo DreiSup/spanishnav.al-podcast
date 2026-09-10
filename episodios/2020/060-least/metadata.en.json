@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 60,
+  "anio": 2020,
+  "slug": "least",
+  "titulo": "Work the Least for It",
+  "subtitulo": "Happy people don’t have to work as hard",
+  "fecha_publicacion": "2020-02-19",
+  "fuente_url": "https://nav.al/least",
+  "orden_archivo": 64,
+  "en_feed": true,
+  "participantes": [
+    "Naval"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-09-10"
+}
