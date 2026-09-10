@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**19** episodios · **0** publicados · **0** sin empezar
+**20** episodios · **0** publicados · **0** sin empezar
 
 ## 2020
 
@@ -21,6 +21,7 @@
 | 63 | [063-peace](episodios/2020/063-peace) | Encontrar la paz frente a la mente | 🟠 en revisión | — | — |
 | 64 | [064-peace-motion](episodios/2020/064-peace-motion) | La felicidad es paz en movimiento | 🟠 en revisión | — | — |
 | 65 | [065-silent](episodios/2020/065-silent) | Cuanto más cerca estás de la verdad, más silencioso te vuelves por dentro | 🟠 en revisión | — | — |
+| 66 | [066-consensus](episodios/2020/066-consensus) | Los grupos buscan consenso, los individuos buscan la verdad | 🟠 en revisión | — | — |
 
 ## 2019
 

@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 66,
+  "anio": 2020,
+  "slug": "consensus",
+  "titulo_es": "Los grupos buscan consenso, los individuos buscan la verdad",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Los grupos buscan consenso, los individuos buscan la verdad",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Antes de sintetizar: sin nombres propios ni palabras extranjeras. Es el episodio con el ratio es/en más alto del lote, 1,14: el español es más largo porque «homeschooling» y «unschooling» se desarrollan como «educación en casa» y «educación sin escuela»; no sobra texto. La frase «Que el dinero no te hará feliz es una verdad social» arranca con «que» átono porque en el inglés va entrecomillada: escuchar que no suene a frase cortada."
+}
