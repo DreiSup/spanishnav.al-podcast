@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 53,
+  "anio": 2020,
+  "slug": "philosopher",
+  "titulo": "Live Long Enough and You’ll Become a Philosopher",
+  "subtitulo": "This podcast is a practical philosophy of health, wealth and happiness",
+  "fecha_publicacion": "2020-01-27",
+  "fuente_url": "https://nav.al/philosopher",
+  "orden_archivo": 57,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-09-10"
+}

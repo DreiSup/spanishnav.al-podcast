@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2020/053-philosopher",
+  "numero": 53,
+  "fecha": "2020-01-27",
+  "titulo": "Vive lo suficiente y te convertirás en filósofo",
+  "subtitulo": "Este podcast es una filosofía práctica de la salud, la riqueza y la felicidad",
+  "fuente_url": "https://nav.al/philosopher",
+  "titulos_seccion": [
+    "Los grandes problemas son los antiguos",
+    "Lo que puede hacer un mono, puede hacerlo otro"
+  ],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Hablemos de por qué hacemos este podcast.",
+        "En realidad es una conversación sobre filosofía altamente práctica.",
+        "La filosofía, tal y como la entendemos normalmente, es poco práctica.",
+        "Es abstracta y obtusa, algo escrito hace mucho tiempo en un lenguaje rebuscado.",
+        "La ponemos en un pedestal y parece inaccesible.",
+        "A veces suena a obviedades.",
+        "Pero si vives lo suficiente, tú mismo te convertirás en filósofo.",
+        "Habrás pasado toda una vida resolviendo los grandes problemas de tu vida.",
+        "Los grandes problemas son los antiguos, los que llevamos intentando resolver desde el principio.",
+        "Cómo sigo siendo feliz, cómo consigo estar sano, cómo me hago rico, cómo formo la familia que quiero.",
+        "Este podcast trata de la filosofía práctica que nos ha funcionado a nosotros.",
+        "Lo que puede hacer un mono, puede hacerlo otro.",
+        "Queremos que la gente piense que si esta persona aprendió algo que la hizo más feliz, más sana o más rica, entonces cualquiera puede.",
+        "En eso nos centramos, en una filosofía práctica de la salud, la riqueza y la felicidad."
+      ]
+    },
+    {
+      "id": "b02-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Si lo resumieras en una palabra, sería salud.",
+        "Salud financiera, salud mental y salud física."
+      ]
+    },
+    {
+      "id": "b03-naval",
+      "speaker": "Naval",
+      "frases": [
+        "La salud es un estado de bienestar.",
+        "Lleguemos a un estado de salud financiera en el que no vivamos con miedo día a día.",
+        "Por ahí empezamos, y le dedicamos mucho tiempo.",
+        "Lleguemos a un estado de salud física en el que no suframos dolencias, enfermedades ni adicciones.",
+        "Lleguemos a un estado de salud mental en el que estemos relativamente en paz y bastante contentos con nosotros mismos."
+      ]
+    }
+  ]
+}

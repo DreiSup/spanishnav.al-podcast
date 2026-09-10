@@ -1,0 +1,56 @@
+{
+  "schema": 1,
+  "idioma": "en",
+  "episodio": "2020/053-philosopher",
+  "numero": 53,
+  "fecha": "2020-01-27",
+  "titulo": "Live Long Enough and You’ll Become a Philosopher",
+  "subtitulo": "This podcast is a practical philosophy of health, wealth and happiness",
+  "fuente_url": "https://nav.al/philosopher",
+  "titulos_seccion": [
+    "The big problems are the old ones",
+    "What one monkey can do, another can do"
+  ],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Let’s talk about why we’re doing this podcast.",
+        "It’s really a discussion of highly practical philosophy.",
+        "Philosophy, as we normally think of it, is impractical.",
+        "It’s abstract and obtuse—something written a long time ago in fancy language.",
+        "We put it on a pedestal and it feels unapproachable.",
+        "Sometimes it comes across like truisms.",
+        "But if you live long enough, you will become a philosopher yourself.",
+        "You’ll have spent a lifetime solving the big problems in your life.",
+        "The big problems are the old ones, the ones we’ve been trying to solve since the beginning: How do I stay happy?",
+        "How do I become healthy?",
+        "How do I become wealthy?",
+        "How do I raise the family I want?",
+        "This podcast is about practical philosophy that has worked for us.",
+        "What one monkey can do, another can.",
+        "We want people to think, “If this person learned something that made them happier, healthier or wealthier, then I can do it too.",
+        "That’s what we focus on: a practical philosophy of health, wealth and happiness."
+      ]
+    },
+    {
+      "id": "b02-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "If you summed it up in one word, it would be health: financial health, mental health and physical health."
+      ]
+    },
+    {
+      "id": "b03-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Health is a state of well-being.",
+        "Let’s get to a state of financial health where we’re not fearful day to day.",
+        "That’s where we started, and we spent a lot of time on that.",
+        "Let’s get to a state of physical health where we’re not suffering from afflictions, disease and addiction.",
+        "Let’s get to a state of mental health where we’re relatively at peace and quite content with ourselves."
+      ]
+    }
+  ]
+}

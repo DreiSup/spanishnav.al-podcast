@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 53,
+  "anio": 2020,
+  "slug": "philosopher",
+  "titulo_es": "Vive lo suficiente y te convertirás en filósofo",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Vive lo suficiente y te convertirás en filósofo",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Antes de sintetizar: b01 funde las cuatro preguntas del inglés en una enumeración afirmativa, así que ahí no hay entonación interrogativa y no falta ningún signo de apertura: es deliberado. b02 tiene ratio es/en 0,79, por debajo del umbral, pero es la frase de los dos puntos del inglés partida en dos y no falta contenido. El episodio no tiene nombres propios ni palabras extranjeras que vigilar."
+}
