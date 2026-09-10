@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2020/057-desire",
+  "numero": 57,
+  "fecha": "2020-02-10",
+  "titulo": "El deseo es un contrato que firmas para ser infeliz",
+  "subtitulo": "La felicidad es volver a un estado en el que no falta nada",
+  "fuente_url": "https://nav.al/desire",
+  "titulos_seccion": [
+    "Ninguna cosa te hará feliz para siempre",
+    "La felicidad es un proceso de comprensión y autodescubrimiento"
+  ],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "El deseo es un contrato que firmas para ser infeliz hasta que consigues lo que quieres.",
+        "Te perturbas porque quieres algo.",
+        "Luego trabajas muy duro para conseguirlo y mientras tanto eres desdichado.",
+        "Por fin, cuando lo consigues, vuelves al estado en el que estabas antes de tenerlo.",
+        "No es que alcances un nivel máximo de dicha en el que te quedes para siempre.",
+        "La gente se aferra al engaño de que hay algo ahí fuera que la hará feliz y plena para siempre.",
+        "Ninguna cosa puede hacer eso.",
+        "La iluminación es algo distinto.",
+        "Parece ser una solución permanente, pero todavía no vamos a explorar eso.",
+        "Estamos hablando solo de la felicidad de sentido común.",
+        "No hay una única solución permanente para la felicidad.",
+        "Más bien, alcanzar la felicidad requiere un proceso de comprensión y autodescubrimiento.",
+        "Es un proceso de entrenarte para ver ciertas verdades.",
+        "Si obtener cosas nos hiciera felices de forma permanente, entonces los cavernícolas habrían sido desdichados, y todos nosotros seríamos delirantemente felices.",
+        "Sin embargo, la felicidad neta por persona no está subiendo, y puede que incluso esté bajando.",
+        "La modernidad probablemente trae más infelicidad que el pasado.",
+        "Así que la felicidad es volver al estado en el que no falta nada en este momento."
+      ]
+    }
+  ]
+}

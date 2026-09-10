@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 57,
+  "anio": 2020,
+  "slug": "desire",
+  "titulo": "Desire Is a Contract You Make to Be Unhappy",
+  "subtitulo": "Happiness is returning to a state where nothing is missing",
+  "fecha_publicacion": "2020-02-10",
+  "fuente_url": "https://nav.al/desire",
+  "orden_archivo": 61,
+  "en_feed": true,
+  "participantes": [
+    "Naval"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-09-10"
+}

@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 57,
+  "anio": 2020,
+  "slug": "desire",
+  "titulo_es": "El deseo es un contrato que firmas para ser infeliz",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "El deseo es un contrato que firmas para ser infeliz",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Antes de sintetizar: episodio corto, un bloque de unas 205 palabras, sin nombres propios ni palabras extranjeras. «Te perturbas porque quieres algo» es un reflexivo poco frecuente en español hablado; escuchar cómo suena y, si se traba, decidir entonces. «Delirantemente felices» es literal del inglés «deliriously happy» y es intencionado."
+}
