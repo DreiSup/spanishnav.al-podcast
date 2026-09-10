@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2020/065-silent",
+  "numero": 65,
+  "fecha": "2020-03-10",
+  "titulo": "Cuanto más cerca estás de la verdad, más silencioso te vuelves por dentro",
+  "subtitulo": "La gente sabia es callada",
+  "fuente_url": "https://nav.al/silent",
+  "titulos_seccion": [
+    "La sabiduría engendra estoicismo"
+  ],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Hace un tiempo publiqué este tuit, que cuanto más cerca estás de la verdad, más silencioso te vuelves por dentro.",
+        "Intuitivamente lo sabemos.",
+        "Cuando alguien habla demasiado o hace de bufón de la corte, sabes que no está en paz.",
+        "Sabes que Robin Williams no estaba en paz por dentro.",
+        "Esperamos que una persona sabia como un Lao Tzu o un Sócrates sea callada, no porque intente parecer sabia, sino porque está en silencio por dentro.",
+        "Entendemos que la paz y la sabiduría van juntas.",
+        "Kapil Gupta, que ha escrito mucho más que yo sobre este tema, dijo que la sabiduría engendra estoicismo, y que el estoicismo no engendra sabiduría.",
+        "A medida que te vuelves sabio, te vuelves estoico de forma natural.",
+        "No te vuelves sabio siendo estoico.",
+        "Eso es poner el carro delante de los bueyes.",
+        "Como inciso, uno de mis tuits del otro día se malinterpretó de forma increíble.",
+        "Mucha gente suspendió ese test de inteligencia.",
+        "Escribí que cuanto más listo te vuelves, más despacio lees.",
+        "La gente de la lectura rápida se ofendió, y algunos dijeron que Bill Gates lee ciento cincuenta libros al año.",
+        "Otros dijeron que leen muy despacio, así que deben de ser listos.",
+        "Lo entendieron mal.",
+        "Yo dije que si A, entonces B.",
+        "Eso no significa que si B, entonces A."
+      ]
+    }
+  ]
+}

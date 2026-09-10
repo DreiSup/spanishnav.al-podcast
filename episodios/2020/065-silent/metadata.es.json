@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 65,
+  "anio": 2020,
+  "slug": "silent",
+  "titulo_es": "Cuanto más cerca estás de la verdad, más silencioso te vuelves por dentro",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Cuanto más cerca estás de la verdad, más silencioso te vuelves por dentro",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Antes de sintetizar: comprobar cómo pronuncia el modelo «Robin Williams», «Lao Tzu», «Sócrates», «Kapil Gupta» y «Bill Gates». El cierre son letras sueltas, «si A, entonces B» y «si B, entonces A»: es el punto a escuchar primero, porque si el modelo las lee mal se pierde el remate del episodio. «Poner el carro delante de los bueyes» traduce «reversing the cart and horse» con el refrán español, que lleva bueyes y no caballo."
+}

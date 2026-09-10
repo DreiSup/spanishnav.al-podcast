@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 65,
+  "anio": 2020,
+  "slug": "silent",
+  "titulo": "The Closer You Are to the Truth, the More Silent You Become Inside",
+  "subtitulo": "Wise people are quiet",
+  "fecha_publicacion": "2020-03-10",
+  "fuente_url": "https://nav.al/silent",
+  "orden_archivo": 69,
+  "en_feed": true,
+  "participantes": [
+    "Naval"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-09-10"
+}
