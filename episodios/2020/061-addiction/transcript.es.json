@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2020/061-addiction",
+  "numero": 61,
+  "fecha": "2020-02-24",
+  "titulo": "La lucha moderna es combatir la adicción convertida en arma",
+  "subtitulo": "Perseguir el placer por sí mismo crea adicción",
+  "fuente_url": "https://nav.al/addiction",
+  "titulos_seccion": [
+    "Las adicciones son trabajo falso y juego falso"
+  ],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "En un nivel muy profundo, todo placer crea su propio dolor compensatorio y su miedo a la pérdida.",
+        "Hace poco tuiteé que en una era de abundancia, perseguir el placer por sí mismo crea adicción.",
+        "Estaba actualizando una frase de Miyamoto Musashi, que dice que no busques el placer por sí mismo.",
+        "Musashi era un espadachín japonés.",
+        "En su época, perseguir el placer significaba algo muy distinto de lo que significa hoy.",
+        "Él no tenía comida procesada ilimitada, pornografía en internet, marihuana y alcohol disponibles a demanda.",
+        "Ahora que estamos en una era de abundancia, podemos caer fácilmente en la adicción si perseguimos el placer por sí mismo.",
+        "Y de eso es difícil salir.",
+        "La lucha moderna es en realidad la de individuos, desconectados de su tribu, su religión y sus redes culturales, que intentan plantar cara a todas estas adicciones convertidas en armas.",
+        "El alcohol, las drogas, la pornografía, la comida procesada, los medios de noticias, internet, las redes sociales y los videojuegos.",
+        "Las adicciones te permiten practicar juego falso y trabajo falso.",
+        "Antes tenías que salir a socializar con amigos, ahora puedes simplemente emborracharte con un puñado de desconocidos.",
+        "Antes tenías que buscar pareja, tener hijos y criar una familia, ahora puedes simplemente ver mucho porno.",
+        "Antes tenías que cazar y trepar a los árboles para conseguir fruta y un poco de dulzor natural, ahora puedes comprar todo el helado que quieras.",
+        "La lucha moderna es plantar cara a estas adicciones convertidas en armas.",
+        "Te dan pequeñas dosis de placer, pero también te insensibilizan y te exponen a la desdicha de su ausencia."
+      ]
+    }
+  ]
+}

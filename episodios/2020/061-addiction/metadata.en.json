@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 61,
+  "anio": 2020,
+  "slug": "addiction",
+  "titulo": "The Modern Struggle Is Fighting Weaponized Addiction",
+  "subtitulo": "Pursuing pleasure for its own sake creates addiction",
+  "fecha_publicacion": "2020-02-24",
+  "fuente_url": "https://nav.al/addiction",
+  "orden_archivo": 65,
+  "en_feed": true,
+  "participantes": [
+    "Naval"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-09-10"
+}

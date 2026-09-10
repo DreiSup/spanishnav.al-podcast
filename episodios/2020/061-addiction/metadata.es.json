@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 61,
+  "anio": 2020,
+  "slug": "addiction",
+  "titulo_es": "La lucha moderna es combatir la adicción convertida en arma",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "La lucha moderna es combatir la adicción convertida en arma",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Antes de sintetizar: comprobar cómo pronuncia el modelo «Miyamoto Musashi» y «internet». La lista larga de adicciones va en frase aparte porque el inglés la introducía con dos puntos: son diez elementos seguidos, escuchar que el modelo no los recite de corrido sin respirar. El inglés dice «fake work and fake play» en el título de sección y «fake play and fake work» en el cuerpo; el español mantiene los dos órdenes porque así está en la fuente."
+}
