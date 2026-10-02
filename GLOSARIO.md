@@ -46,3 +46,37 @@ la decisión aquí para no volver a dudar en el episodio siguiente.
 
 No se traducen. Comprueba en `NOTAS.md` del episodio cómo los pronuncia el TTS
 y, si hace falta, escríbelos fonéticamente solo en el texto que va al TTS.
+
+## Decisiones del archivo de transcripts
+
+- rational optimist(s) → optimista(s) racional(es) (012)
+- partner with → asociarse con (012)
+- action bias → sesgo hacia la acción (012)
+- upside / downside → lo que se puede ganar / lo que se puede perder (012)
+- risk of ruin → riesgo de ruina (012)
+- nitpickers → tiquismiquis (012)
+- orange jumpsuit → mono naranja (012)
+- BOCTAOE → BOCTAOE, siglas verbatim con su significado explicado en español (012)
+- Arm yourself with specific knowledge → Ármate de conocimiento específico (013)
+- accountability, en la terna conocimiento específico, responsabilidad y apalancamiento → responsabilidad (013)
+- soft skills → habilidades blandas (013)
+- on the job training → formación sobre el terreno (013)
+- pattern matching → reconocer patrones (013)
+- compounding factors → efecto acumulativo (013)
+- tinkering with technology → trastear con la tecnología (013)
+- pithy → conciso (013)
+- edge of knowledge → frontera del conocimiento (013)
+- your DNA → lo que llevas en los genes, para no leer siglas (013)
+- bleeding edge → vanguardia (014)
+- apprenticeship(s) → de maestro a aprendiz / aprendizaje (014)
+- self-taught careers → carreras de autodidacta (014)
+- value investing → inversión en valor (014)
+- meme lords → reyes de los memes (014)
+- unique knowledge → conocimiento único (014)
+- overloaded, dicho de un término → cargado con otro significado (014)
+- rebrand it → darle mi propio sentido (014)
+- top 25 percentile / top 5% → entre el veinticinco / el cinco por ciento mejor (014)
+- diminishing returns → rendimientos decrecientes (014)
+- combinatorics → combinatoria (014)
+- a natural (at something) → tener un don natural (para algo) (014)
+- double down → redoblar la apuesta (014)
