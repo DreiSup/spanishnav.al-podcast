@@ -102,7 +102,9 @@ validar en la fase 1:
 
 1. **Elegir el motor.** Pruebas con varios modelos y varias iteraciones hasta decidir cuál
    se usa para todos los hablantes. Decide el autor, escuchando.
-2. **Reunir material** suficiente de cada hablante: audio limpio con su transcript.
+2. **Reunir material** suficiente de cada hablante: audio limpio con su transcript. Se
+   hace en local con el prompt de `docs/prompt-dataset-local.md`; quién habla y de dónde
+   sacar audio, en `docs/hablantes.md`.
 3. **Fine-tunear** a cada hablante con todo organizado.
 4. **Escribir el cuaderno general** y probarlo.
 
