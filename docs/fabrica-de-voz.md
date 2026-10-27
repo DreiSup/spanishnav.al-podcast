@@ -86,6 +86,23 @@ autor; los detalles se están decidiendo en diálogo y no hay que rellenarlos po
 3. **Fine-tunear** a cada hablante con todo organizado.
 4. **Escribir el cuaderno general** y probarlo.
 
+## Fase 1a — material que aporta el autor
+
+En `fine_tunned_naval/speaker_refs/<hablante>/`, por cada voz (Naval y Nivi
+obligatorias; un invitado como Brett Hall, opcional):
+
+- 3 clips de unos **6, 12 y 25 s**, en `.wav`, con su frecuencia de muestreo original.
+- Sacados del **audio original en inglés del podcast de Naval**: mismo micrófono y misma
+  sala que lo que se va a doblar.
+- Una sola voz, sin risas, solapes, música ni sintonía. Cortados en silencio, con unos
+  200 ms de margen.
+- Sin limpieza de ruido agresiva: si un clip trae ruido, se descarta en vez de limpiarlo.
+- Cada clip con su `.txt` de transcripción **literal**: `naval_ref01.wav` +
+  `naval_ref01.txt`.
+
+Las frases de prueba en español las prepara Claude a partir de los `transcript.es.json`
+del repo.
+
 ## Estado encontrado en Drive (2026-10-26)
 
 Sirve para no repetir el reconocimiento.
