@@ -16,7 +16,18 @@
    métricas automáticas (WER, similitud, UTMOS) ayudan a decidir, pero no deciden.
 
 Presupuesto a 2026-10-27: **459 unidades de Colab**; aproximadamente un tercio caducará
-pronto. No hay suscripción activa.
+pronto. La suscripción a Colab Pro está dada de baja: no llegarán más unidades.
+
+**El canal no se va a monetizar.** Por eso las licencias no comerciales (XTTS v2 y
+otras) no descartan ningún motor. XTTS entra en la criba como candidato completo.
+
+**Cómo evalúa el autor cada audio**, de 1 a 5, a ciegas:
+
+- **Parecido:** si suena a la persona.
+- **Acento:** si suena a un español nativo o se nota el inglés.
+- **Naturalidad:** si respira y entona o recita.
+- **Alucinaciones:** si repite, se salta o inventa palabras.
+- **Tono:** si cambia con la referencia de Kapil.
 
 ## Objetivo final
 
