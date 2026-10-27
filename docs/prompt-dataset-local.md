@@ -158,3 +158,109 @@ Empieza por el punto 0 y no avances sin mi confirmación.
   sin hacer trampa con clips que el modelo ya ha visto.
 - **Similitud contra la referencia.** pyannote diariza bien pero no sabe quién es quién;
   la referencia evita meter al entrevistador en el dataset de Naval.
+
+## Segundo mensaje: tarea inmediata y respuestas al punto 0
+
+Se envía después de que la sesión local termine el punto 0. Corrige el orden de prioridades:
+primero las referencias, que desbloquean la criba de modelos, y después los datasets.
+
+```
+Gracias, el punto 0 está bien. Te doy más contexto sobre lo que quiero ahora mismo y
+respondo a tus preguntas.
+
+## La tarea inmediata, en dos partes y en este orden
+
+**Parte 1, la prioridad: los clips de referencia de cada integrante.** Sirven para la
+criba de modelos de voz (docs/fabrica-de-voz.md, "Fase 1a"), que se ejecuta en Colab
+con unidades que van a caducar. Por eso van antes que los datasets.
+
+Para cada integrante:
+- 3 clips de unos 6, 12 y 25 s (±20 %), cada uno con un .txt que tenga la
+  transcripción LITERAL de lo que se oye.
+- Una sola voz, sin solapes, risas, música ni sintonía. Habla natural y continua, no
+  una lectura entrecortada. Se corta en una pausa, con 200 ms de margen.
+- El WAV se corta del audio de la fuente, recodificado a PCM de 16 bits, mono, a la
+  frecuencia de la fuente, sin remuestrear y sin limpieza de ruido. Si un tramo tiene
+  ruido, se descarta.
+- Para cada hueco me propones 2 o 3 candidatos, ordenados por similitud con el resto de
+  su voz y por calidad estimada. Los escucho, elijo y corrijo el .txt si hace falta.
+- Además, para Naval, un segundo juego "naval_kapil" de 2 o 3 clips sacados del
+  episodio con Kapil Gupta. Sirve para comprobar si el tono de la referencia se
+  transfiere al doblaje.
+
+Salida:
+~/naval-datos/speaker_refs/<hablante>/<hablante>_ref01.wav + <hablante>_ref01.txt
+(y ref02, ref03). Una vez aprobados, se suben a gdrive:fine_tunned_naval/speaker_refs/<hablante>/.
+Los clips de referencia no pueden acabar en el split "eval" del dataset.
+
+Orden: naval, nivi, brett y naval_kapil primero, porque son los de la criba. Después
+deutsch, kapil, vitalik, ridley, hodak, rauch, scholl y qureshi. Los nombres de carpeta
+son exactamente esos.
+
+**Parte 2: los datasets de fine-tuning**, tal como se describen en el primer mensaje.
+Se empieza cuando la parte 1 esté aprobada.
+
+## Qué podcasts te voy a pasar
+
+Te paso episodios del propio podcast de Naval. Así las referencias salen con el mismo
+micrófono y la misma sala que lo que vamos a doblar, y con estos episodios están todos
+los integrantes:
+
+| Orden en el catálogo | Episodio | Quién habla, además de Naval |
+|---|---|---|
+| 56 | How to Get Rich — nav.al/rich | Nivi |
+| 72 | Kapil Gupta: Conquering the Mind — nav.al/kapil | Kapil Gupta |
+| 74 | Matt Ridley: How Innovation Works, Part 1 — nav.al/matt-ridley | Matt Ridley |
+| 109 | The Beginning of Infinity, Part 1 — nav.al/infinity | Brett Hall |
+| 135 | Vitalik: Ethereum, Part 1 — nav.al/vitalik | Vitalik Buterin, Haseeb Qureshi |
+| 139 | The Deutsch Files I — nav.al/deutsch-files-i | David Deutsch, Brett Hall |
+| 167 | The AI Industrial Revolution — nav.al/industrial | Max Hodak, Guillermo Rauch, Blake Scholl |
+
+Quién sale en cada episodio está en docs/hablantes.md, que se sacó contando los
+prefijos de hablante de los transcripts. El episodio 168 (Garry Tan, Daniel Francis,
+Farbood Nivi) no tiene transcript; queda fuera por ahora.
+
+## Respuestas a tus preguntas
+
+**Antes del punto 0:**
+
+1. **Episodios.** Los de la tabla de arriba. Los Naval-EpX.mp3 de spanishpodcast/ son
+   los episodios 1 y 2: sirven para Naval y Nivi si alguno de la tabla falla. Dime qué
+   episodio es el de XTTS_fine_tunning_reference/ y lo incluimos si encaja.
+2. **Transcripts.** Sí, los de nav.al llevan los prefijos "Naval:", "Nivi:", "Brett
+   Hall:", "David Deutsch:", etc. Hay variantes del mismo nombre ("Brett", "David",
+   "Max"); la lista está en docs/hablantes.md. Están en Drive, en un Google Doc por año
+   ("<año> all podcasts", en naval-podcast/transcripts/<año>/). Cuando tengas rclone,
+   expórtalos con --drive-export-formats txt. Úsalos SOLO para comprobar a quién
+   atribuyes cada tramo y para saber quién sale en cada episodio, nunca como texto
+   de un clip.
+3. **Hablantes.** Todos los que salgan, cada uno en su carpeta.
+4. **Salida.** Una carpeta por hablante con numeración continua, y la fuente en el
+   nombre del fichero: <hablante>_<fuente>_<00001>.wav. Así no chocan nombres entre
+   episodios, y metadata.jsonl guarda de qué episodio sale cada clip.
+
+**Después del punto 0:**
+
+1. **pyannote.** Ya he aceptado los términos de los tres modelos con la cuenta dreysst.
+   Comprueba que el 403 ha desaparecido. Atribución de hablante: el criterio principal
+   es la similitud de embeddings; el transcript oficial es la comprobación cruzada. Si
+   los dos no coinciden en un tramo, ese tramo se descarta.
+2. **rclone.** Instala el binario oficial en ~/.local/bin, sin sudo: la versión de apt
+   es antigua. El remoto "gdrive" lo creo yo con rclone config cuando me avises.
+3. **venv.** OK a ~/naval-datos/venv. Si faster-whisper/ctranslate2 y WhisperX/pyannote
+   no conviven por CUDA, crea un venv por etapa en vez de pelearte con versiones.
+   Recuerda que solo hay 6,6 GB de RAM libre: una etapa cada vez.
+4. **Demucs.** El pipeline del TFC con Demucs no existe en este disco ni en Drive.
+   Escribe lo nuevo, con Demucs como opción para fuentes con música, no por defecto.
+   El WAV original de Modern Wisdom en try1 se puede reaprovechar como fuente para
+   Naval sin volver a descargarlo.
+
+Tus tres propuestas del piloto, aprobadas:
+- initial_prompt con muletillas, comprobando en el piloto si las conserva;
+- la probabilidad por palabra de faster-whisper como asr_conf, y WhisperX solo para los
+  tiempos;
+- ganancia fija calculada con pyloudnorm, sin el filtro loudnorm de ffmpeg.
+
+Empieza instalando rclone y el venv. Luego espero tu propuesta para descargar los
+episodios de la tabla.
+```
