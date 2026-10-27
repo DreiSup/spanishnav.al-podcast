@@ -52,16 +52,23 @@ El autor ajusta después el conjunto en Audacity.
 
 ## SOP por episodio
 
-Cada vez que se pida traducir un podcast se sigue un SOP. Lo que hay hasta ahora:
+Cada vez que se pida traducir un podcast se sigue un SOP. Esto es lo que ha fijado el
+autor; los detalles se están decidiendo en diálogo y no hay que rellenarlos por suposición.
 
 1. Se lee el contexto mínimo necesario sobre el proyecto y sus reglas.
-2. *(pendiente: el autor lo completa)*
+2. Se lee el texto del podcast, que estará preparado de antemano.
+3. Se usan solo los modelos de quienes hablan en ese episodio: si solo hablan Naval y
+   Nivi, se cargan solo los fine-tuneados de Naval y de Nivi.
+4. **Salida:** un audio por intervención, separados por hablante, guardados en Google
+   Drive en una carpeta con el nombre del podcast.
 
-## Pendiente del autor
+## Abierto, a decidir con el autor
 
-- El proceso que cree que hace falta seguir para llegar al objetivo.
-- Lo que quiere comprobar personalmente en cada fase.
-- El resto del SOP.
+- **¿Un cuaderno por voz o uno general** que cargue solo los modelos que hagan falta?
+- La fuente exacta del texto, el nombre de la carpeta de Drive y el formato de nombre de
+  cada clip.
+- El proceso completo hasta llegar al objetivo y lo que el autor quiere comprobar
+  personalmente en cada fase.
 
 ## Estado encontrado en Drive (2026-10-26)
 
