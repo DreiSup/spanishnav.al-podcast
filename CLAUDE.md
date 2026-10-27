@@ -237,6 +237,10 @@ rclone.
 
 El paso 4 es irreducible: requiere criterio humano.
 
+Para el paso 3 —elegir y fine-tunear los modelos de voz— el objetivo, las reglas de gasto de
+GPU y el estado de Drive están en **`docs/fabrica-de-voz.md`**. Léelo antes de proponer nada
+que consuma unidades de Colab.
+
 ## Restricciones del entorno
 
 **nav.al está bloqueado desde las sesiones web de Claude Code.** La política de egress
