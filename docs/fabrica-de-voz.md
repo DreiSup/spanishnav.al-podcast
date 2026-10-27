@@ -78,6 +78,26 @@ autor; los detalles se están decidiendo en diálogo y no hay que rellenarlos po
   preveía CLAUDE.md. En Drive no hay audio de episodios en ningún sitio: el material
   antiguo sigue en local (`spanishpodcast/2019/`).
 
+## Identidad y tono son dos cosas distintas
+
+El autor quiere que cada episodio doblado conserve el tono de su original: no suena igual
+Naval con Kapil Gupta que en *How to Get Rich*. La solución propuesta, pendiente de
+validar en la fase 1:
+
+- **El fine-tuning fija la identidad** —timbre, acento, forma de hablar— y se hace **una
+  vez por hablante**, con audio limpio de varias fuentes y de registros variados
+  (calmado, enérgico, conversacional). Si solo se entrena con un registro, el modelo tira
+  hacia ese registro.
+- **El tono de cada episodio sale de la referencia en inferencia.** Se cortan 2 o 3 clips
+  del propio episodio original y el modelo fine-tuneado los usa como referencia. Nada de
+  fine-tuning por episodio: cuesta unidades cada vez, hay pocos datos, aumenta el riesgo de
+  olvidar el español y rompe la automatización.
+- Si con la referencia no basta: unos pocos LoRA por registro, reutilizables, nunca por
+  episodio. Solo si las pruebas lo piden.
+- **Criterio obligatorio al elegir motor:** que el modelo ya fine-tuneado siga aceptando
+  audio de referencia, o instrucciones de estilo, y que la prosodia pase del inglés al
+  español.
+
 ## El camino hasta el objetivo, en este orden
 
 1. **Elegir el motor.** Pruebas con varios modelos y varias iteraciones hasta decidir cuál
@@ -99,6 +119,10 @@ obligatorias; un invitado como Brett Hall, opcional):
 - Sin limpieza de ruido agresiva: si un clip trae ruido, se descarta en vez de limpiarlo.
 - Cada clip con su `.txt` de transcripción **literal**: `naval_ref01.wav` +
   `naval_ref01.txt`.
+
+Para la prueba de tono, Naval lleva además un segundo juego, `speaker_refs/naval_kapil/`:
+2 o 3 clips del episodio con Kapil Gupta, con las mismas reglas. Las mismas frases se
+sintetizan con un juego y con el otro, y el autor escucha si el tono cambia.
 
 Las frases de prueba en español las prepara Claude a partir de los `transcript.es.json`
 del repo.
