@@ -62,13 +62,29 @@ autor; los detalles se están decidiendo en diálogo y no hay que rellenarlos po
 4. **Salida:** un audio por intervención, separados por hablante, guardados en Google
    Drive en una carpeta con el nombre del podcast.
 
-## Abierto, a decidir con el autor
+## Decidido (2026-10-27)
 
-- **¿Un cuaderno por voz o uno general** que cargue solo los modelos que hagan falta?
-- La fuente exacta del texto, el nombre de la carpeta de Drive y el formato de nombre de
-  cada clip.
-- El proceso completo hasta llegar al objetivo y lo que el autor quiere comprobar
-  personalmente en cada fase.
+- **Un único motor para todas las voces.** Todos los fine-tunes usan el mismo modelo base,
+  de modo que un solo cuaderno general sirve para cualquier combinación de hablantes.
+- **Colab lo ejecuta el autor.** Claude Code no puede lanzar cuadernos: prepara todo y el
+  autor pulsa *Ejecutar todo*. Ese clic es también el control del gasto.
+- **Texto de entrada:** `transcript.es.json` del repo. Lleva hablante e id por bloque y
+  está validado; los `_es.json` de Drive no llevan ids.
+- **Nombre de los clips:** `001naval.wav`. Se deriva del orden del bloque en el JSON
+  (`b01-naval` → `001naval.wav`), así que no contradice la regla de los ids.
+- **Carpeta en Drive:** la del episodio que ya existe, con una subcarpeta `tts/`:
+  `naval-podcast/transcripts/<año>/<NNN Título en inglés>/tts/001naval.wav`. Es la única
+  estructura por episodio que hay en Drive hoy, y las subcarpetas por tipo son las que ya
+  preveía CLAUDE.md. En Drive no hay audio de episodios en ningún sitio: el material
+  antiguo sigue en local (`spanishpodcast/2019/`).
+
+## El camino hasta el objetivo, en este orden
+
+1. **Elegir el motor.** Pruebas con varios modelos y varias iteraciones hasta decidir cuál
+   se usa para todos los hablantes. Decide el autor, escuchando.
+2. **Reunir material** suficiente de cada hablante: audio limpio con su transcript.
+3. **Fine-tunear** a cada hablante con todo organizado.
+4. **Escribir el cuaderno general** y probarlo.
 
 ## Estado encontrado en Drive (2026-10-26)
 
