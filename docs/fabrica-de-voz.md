@@ -137,6 +137,24 @@ Para la prueba de tono, Naval lleva además un segundo juego, `speaker_refs/nava
 2 o 3 clips del episodio con Kapil Gupta, con las mismas reglas. Las mismas frases se
 sintetizan con un juego y con el otro, y el autor escucha si el tono cambia.
 
+**Referencias elegidas por el autor (2026-10-28)**, de los candidatos de la sesión local.
+`nav109` es el número de orden en el catálogo del episodio del que sale el clip:
+
+| Hablante | ref01 (~6 s) | ref02 (~12 s, la de la criba) | ref03 (~25 s) | Fuente |
+|---|---|---|---|---|
+| naval | c2 · 6,0 s | c1 · 11,8 s | c2 · 25,8 s | nav109 |
+| nivi | c1 · 6,1 s | c1 · 12,4 s | c1 · 26,1 s | nav056 |
+| brett | c2 · 6,2 s | c3 · 11,7 s | c2 · 23,2 s | nav109 |
+| naval_kapil | — | c2 · 16,3 s | — | nav072 |
+| kapil | c3 · 5,9 s | c1 · 11,7 s | c1 · 24,1 s | nav072 |
+| deutsch | c2 · 6,2 s | c1 · 12,4 s | c2 · 23,6 s | nav139 |
+| vitalik | c3 · 5,7 s | c1 · 11,7 s | c2 · 22,4 s | nav135 |
+| ridley | c1 · 6,0 s | c1 · 13,1 s | c3 · 25,7 s | nav074 |
+| hodak | c1 · 5,6 s | c2 · 10,0 s | c1 · 23,0 s | nav167 |
+| rauch | c1 · 5,2 s | c3 · 14,3 s | c1 · 25,2 s | nav167 |
+| scholl | c2 · 7,2 s | c1 · 11,7 s | c1 · 24,6 s | nav167 |
+| qureshi | c3 · 5,5 s | c1 · 12,5 s | c3 · 22,4 s | nav135 |
+
 Las frases de prueba en español las prepara Claude a partir de los `transcript.es.json`
 del repo.
 
