@@ -108,10 +108,11 @@ cuaderno("01_chatterbox.ipynb", [
              "Parámetros por defecto de la librería: `exaggeration=0.5`, `cfg_weight=0.5`, `temperature=0.8`."),
     code("""
 # 1. Instalación (después: Entorno de ejecución → Reiniciar sesión)
-# chatterbox-tts 0.1.7 fija torch 2.6.0, transformers 5.2.0 y numpy<2: por eso hay que reiniciar.
+# chatterbox-tts fija torch 2.6.0, transformers 5.2.0 y numpy<2: por eso hay que reiniciar.
+# Se instala desde GitHub: la 0.1.7 de PyPI es anterior a la V3 y solo carga la V2.
 # torchvision se fija a la versión que casa con torch 2.6.0: la que trae Colab pide otro torch.
 # El aviso rojo "pip's dependency resolver..." que sale después es normal.
-!pip install -q chatterbox-tts==0.1.7 torchvision==0.21.0
+!pip install -q "chatterbox-tts @ git+https://github.com/resemble-ai/chatterbox.git@master" torchvision==0.21.0
 """),
     preparar(),
     code("""
@@ -120,6 +121,8 @@ import os, shutil, torch
 from pathlib import Path
 from chatterbox.mtl_tts import ChatterboxMultilingualTTS
 from huggingface_hub import snapshot_download
+
+INFO = {}
 
 def cargar(variante):
     if variante == "chatterbox_v2":
@@ -132,16 +135,31 @@ def cargar(variante):
             "ve.pt", "s3gen.pt", "grapheme_mtl_merged_expanded_v1.json", "conds.pt", "Cangjie5_TC.json"]))
         pack = Path(snapshot_download("ResembleAI/Chatterbox-Multilingual-es-es"))
         print("Ficheros del pack es-es:", sorted(p.name for p in pack.rglob("*") if p.is_file()))
+        if (pack / "README.md").exists():
+            print("--- README del pack (primeras líneas) ---")
+            print("\\n".join((pack / "README.md").read_text(encoding="utf-8").splitlines()[:40]))
+            print("---")
         junto = Path("/content/chatterbox_es_es")
         junto.mkdir(exist_ok=True)
         for origen in (base, pack):
             for p in origen.rglob("*"):
                 if p.is_file() and p.suffix in {".pt", ".json", ".safetensors"}:
                     shutil.copy(p, junto / p.name)
-        t3s = sorted(p.name for p in pack.rglob("*.safetensors"))
-        assert t3s, "El pack no trae ningún .safetensors: revisa la lista de ficheros de arriba"
-        t3 = next((n for n in t3s if n.startswith("t3")), t3s[0])
+        t3s = sorted(p.name for p in pack.rglob("t3*.safetensors"))
+        assert t3s, "El pack no trae ningún t3*.safetensors: revisa la lista de ficheros de arriba"
+        t3 = t3s[0]
         print("T3 del pack:", t3)
+        # El pack trae su propio decodificador (s3gen_v3). Se intenta con él; si no casa con
+        # el código instalado, se vuelve al s3gen base y queda anotado en parametros.json.
+        if (pack / "s3gen_v3.pt").exists():
+            shutil.copy(pack / "s3gen_v3.pt", junto / "s3gen.pt")
+            try:
+                INFO[variante] = {"t3": t3, "s3gen": "s3gen_v3.pt del pack"}
+                return ChatterboxMultilingualTTS.from_local(junto, "cuda", t3_model=t3)
+            except Exception as e:
+                print(f"s3gen_v3 del pack no carga ({type(e).__name__}: {str(e)[:200]}); pruebo con el s3gen base")
+                shutil.copy(base / "s3gen.pt", junto / "s3gen.pt")
+        INFO[variante] = {"t3": t3, "s3gen": "s3gen.pt base"}
         return ChatterboxMultilingualTTS.from_local(junto, "cuda", t3_model=t3)
     raise ValueError(variante)
 
@@ -169,7 +187,7 @@ for variante in ["chatterbox_v2", "chatterbox_v3", "chatterbox_v3_es"]:
         continue
     comun.guardar_entorno(variante, ["chatterbox-tts", "torch", "transformers", "numpy"])
     comun.generar(variante, hacer_sintetizar(modelo), ITEMS, REFS, SILENCIO_MS,
-                  params={**PARAMS, "language_id": "es"})
+                  params={**PARAMS, "language_id": "es", **INFO.get(variante, {})})
     del modelo
     comun.liberar()
 """),
