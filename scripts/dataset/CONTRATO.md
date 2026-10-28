@@ -84,7 +84,8 @@ solo para **tiempos finos**. La probabilidad sale de asr.json.
 - `turnos`: diarización normal (con solapes). `exclusivo`: la `exclusive_speaker_diarization`
   de pyannote 4. `solapes`: intervalos donde ≥2 etiquetas de `turnos` coinciden.
 - `embeddings`: los de pyannote por etiqueta, si la salida los trae.
-- Episodios largos (nav056 dura 3,6 h): primero se intenta entero. Con `--trozos 3600`
+- Episodios largos (nav056 dura 3,6 h): por encima de 5.400 s (`--max-entero`) se diariza
+  directamente por trozos, para no arriesgar la RAM en el clustering. Con `--trozos 3600`
   diariza por trozos de 60 min con 30 s de solape; las etiquetas pasan a `T0_SPEAKER_00`,
   `T1_SPEAKER_00`… y `trozos` guarda los límites. La etapa 06 las une por embeddings.
 
