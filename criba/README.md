@@ -28,3 +28,31 @@ Sobre las frases:
   tiene que ver si los motores nuevos lo resuelven sin reagrupar frases.
 - **Los items `b` y `k` repiten textos de los `n`.** Así se puede comparar el mismo texto
   entre voces y entre referencias.
+
+## Cuadernos
+
+Están en `cuadernos/` y son **generados**: se editan en `construir_cuadernos.py` y se
+regeneran con `python3 criba/construir_cuadernos.py`. El código común (Drive, frases,
+referencias, generación sin repetir lo ya hecho, desconexión) está en `comun.py`, y cada
+cuaderno lo trae clonando el repo.
+
+| Cuaderno | Variantes (carpeta en `outputs/criba/`) | GPU |
+|---|---|---|
+| `01_chatterbox.ipynb` | `chatterbox_v2`, `chatterbox_v3`, `chatterbox_v3_es` | T4 |
+| `02_omnivoice.ipynb` | `omnivoice` | T4 |
+| `03_qwen3tts.ipynb` | `qwen3tts_1.7b` | L4 |
+| `04_dots.ipynb` | `dots_soar` | L4 |
+| `05_xtts.ipynb` | `xtts_base`, `xtts_navalchris` (solo Naval) | T4 |
+| `06_metricas_y_escucha.ipynb` | `metricas/` y `escucha/` | T4 |
+
+Se abren en Colab directamente desde GitHub:
+`https://colab.research.google.com/github/DreiSup/spanishnav.al-podcast/blob/claude/quirky-dirac-x18c3n/criba/cuadernos/<cuaderno>`
+
+Todos siguen el mismo patrón:
+
+1. celda 1, instalación, y reiniciar la sesión;
+2. celda 2, que comprueba las referencias y las frases antes de cargar nada;
+3. carga del modelo y generación;
+4. la última celda desconecta la GPU sola.
+
+Usan la referencia `<voz>_ref02` (~12 s) y una semilla fija por item.
