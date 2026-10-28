@@ -197,7 +197,13 @@ def liberar():
 
 
 def desconectar():
-    """Suelta la GPU para que deje de consumir unidades."""
-    print("Desconectando el entorno para no gastar más unidades...")
-    from google.colab import runtime
+    """Sube a Drive lo pendiente y suelta la GPU para que deje de consumir unidades.
+
+    Colab escribe en Drive a través de una caché local que se sube en segundo plano. Si se
+    suelta la GPU sin vaciarla, lo generado en los últimos minutos se pierde.
+    """
+    from google.colab import drive, runtime
+    print("Subiendo a Drive lo pendiente (puede tardar unos minutos)...")
+    drive.flush_and_unmount()
+    print("Drive al día. Desconectando el entorno para no gastar más unidades...")
     runtime.unassign()
