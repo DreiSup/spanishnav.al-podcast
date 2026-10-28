@@ -109,7 +109,9 @@ cuaderno("01_chatterbox.ipynb", [
     code("""
 # 1. Instalación (después: Entorno de ejecución → Reiniciar sesión)
 # chatterbox-tts 0.1.7 fija torch 2.6.0, transformers 5.2.0 y numpy<2: por eso hay que reiniciar.
-!pip install -q chatterbox-tts==0.1.7
+# torchvision se fija a la versión que casa con torch 2.6.0: la que trae Colab pide otro torch.
+# El aviso rojo "pip's dependency resolver..." que sale después es normal.
+!pip install -q chatterbox-tts==0.1.7 torchvision==0.21.0
 """),
     preparar(),
     code("""
