@@ -173,6 +173,19 @@ de 4 audios por motor, **el piloto de fine-tuning se hace con los dos, Qwen3-TTS
 OmniVoice, y con los mismos datos**. El que quede mejor de acento sin perder timbre será
 el motor definitivo.
 
+## Dos modelos de Naval: normal y con Kapil (2026-10-30)
+
+En modo solo timbre, Qwen3-TTS quita el acento pero la referencia ya no transmite el tono
+del episodio. Por eso el registro de Naval con Kapil Gupta tendrá **su propio LoRA**, el
+plan B de «un LoRA por registro» de la sección *Identidad y tono*:
+
+- **`naval`**: todos los episodios salvo los de Kapil. **nav072 queda fuera de su
+  dataset**, para no mezclar registros.
+- **`naval_kapil`**: solo la voz de Naval en nav072 y en los 4 diálogos de 2019 (orden 1–4
+  del catálogo). Una de esas 5 fuentes va entera a eval.
+- **En producción**, cada episodio indica qué modelo de Naval usa. Los de Kapil (extras
+  1–4 y el 72) usan `naval_kapil`.
+
 ## El camino hasta el objetivo, en este orden
 
 1. **Elegir el motor.** Pruebas con varios modelos y varias iteraciones hasta decidir cuál
