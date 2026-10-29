@@ -437,7 +437,7 @@ y el resto en orden. Lo ya medido no se vuelve a medir.
 """),
     code("""
 # 1. Instalación (después: Entorno de ejecución → Reiniciar sesión)
-!pip install -q faster-whisper==1.2.1 jiwer speechbrain soundfile pandas
+!pip install -q faster-whisper==1.2.1 jiwer speechbrain soundfile librosa pandas
 !pip install -q git+https://github.com/sarulab-speech/UTMOSv2.git
 """),
     code(f"""
@@ -463,12 +463,20 @@ print("Audios a medir:", len(AUDIOS))
     code("""
 # 3. WER con faster-whisper large-v3
 import re, jiwer
+import numpy as np, soundfile as sf, librosa
 from faster_whisper import WhisperModel
 
 def normaliza(t):
     t = t.lower()
     t = re.sub(r"[^\\wáéíóúüñ\\s]", " ", t)
     return re.sub(r"\\s+", " ", t).strip()
+
+def audio_16k(ruta):
+    # Se lee aquí y no con faster-whisper: su lector (PyAV) no casa con la versión de Colab
+    a, sr = sf.read(str(ruta), dtype="float32")
+    if a.ndim > 1:
+        a = a.mean(axis=1)
+    return librosa.resample(a, orig_sr=sr, target_sr=16000) if sr != 16000 else a
 
 def cargar_cache(nombre):
     f = METRICAS / nombre
@@ -483,7 +491,7 @@ asr = WhisperModel("large-v3", device="cuda", compute_type="float16")
 for v, i in AUDIOS:
     if (v, i) in asr_hecho:
         continue
-    segs, _ = asr.transcribe(str(comun.SALIDA / v / f"{i}.wav"), language="es", beam_size=5)
+    segs, _ = asr.transcribe(audio_16k(comun.SALIDA / v / f"{i}.wav"), language="es", beam_size=5)
     hyp = " ".join(s.text.strip() for s in segs).strip()
     ref = " ".join(POR_ID[i]["frases"])
     fila = {"variante": v, "id": i, "wer": jiwer.wer(normaliza(ref), normaliza(hyp)) if normaliza(hyp) else 1.0,
