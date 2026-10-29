@@ -1,0 +1,20 @@
+# Python 3.12.
+# torch con CUDA 12.8: pip install ... --extra-index-url https://download.pytorch.org/whl/cu128
+# ctranslate2 necesita LD_LIBRARY_PATH con site-packages/nvidia/{cublas,cudnn}/lib
+#   (common.asegurar_entorno_cuda lo hace solo).
+# Lock completo (pip freeze del venv que funciona): ~/naval-datos/requirements.lock.txt
+whisperx==3.8.6
+faster-whisper==1.2.1
+ctranslate2==4.8.4
+torch==2.8.0
+torchaudio==2.8.0
+pyannote.audio==4.0.7
+speechbrain==1.1.2
+pyloudnorm==0.2.0
+soundfile==0.14.0
+librosa==1.0.0
+numpy==2.5.4
+speechmos==0.0.1.1
+# con av 19 faster-whisper falla con 'metadata_errors'
+av==15.1.0
+yt-dlp==2026.08.19

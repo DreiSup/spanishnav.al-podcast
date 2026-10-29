@@ -1,0 +1,3607 @@
+{
+ "schema": 1,
+ "_comentario": "Frases para el español sintético del piloto de fine-tuning (docs/fabrica-de-voz.md). Generadas por piloto/elegir_frases.py: no editar a mano.",
+ "silencio_entre_frases_ms": 250,
+ "items": [
+  {
+   "id": "s001",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "¿Significa eso que quieres ser auténtico hasta el punto de que no haya encaje entre producto y mercado?"
+   ],
+   "origen": "2019/052-rich#b180-naval/17"
+  },
+  {
+   "id": "s002",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Digamos que el precio fluctúa entre ocho y doce dólares, sea cual sea el servicio."
+   ],
+   "origen": "2019/052-rich#b253-naval/4"
+  },
+  {
+   "id": "s003",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Tú estás haciendo una C Corp, pero otro está haciendo una sociedad de responsabilidad limitada."
+   ],
+   "origen": "2019/051-angel-1#b78-naval/4"
+  },
+  {
+   "id": "s004",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Así que mis ganas de aprender algoritmos salieron del sufrimiento de fregar platos."
+   ],
+   "origen": "2019/052-rich#b235-naval/9"
+  },
+  {
+   "id": "s005",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Tiene que convencerlos de que les conviene más trabajar para él que hacer lo que él hizo y trabajar por su cuenta."
+   ],
+   "origen": "2019/036-rich-quick#b02-naval/28"
+  },
+  {
+   "id": "s006",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Y lo máximo, lo máximo, es cuando entras en una biblioteca y la miras de arriba abajo y no le temes a ningún libro."
+   ],
+   "origen": "2019/052-rich#b93-naval/8"
+  },
+  {
+   "id": "s007",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "A California le gusta hacer declaraciones y poner anuncios para meterle miedo a la gente y que no se duche durante las sequías."
+   ],
+   "origen": "2019/052-rich#b270-naval/0"
+  },
+  {
+   "id": "s008",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Incluso los coches compartidos tienden hacia un único sistema en el que el ganador se lo lleva todo."
+   ],
+   "origen": "2019/052-rich#b139-naval/1"
+  },
+  {
+   "id": "s009",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Y si quieres ser rico, tienes que averiguar cuál de esas cosas puedes proporcionarle a la sociedad, algo que todavía no sabe cómo conseguir pero que va a querer."
+   ],
+   "origen": "2019/052-rich#b44-naval/0"
+  },
+  {
+   "id": "s010",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Pero quizá no haya mucho mercado para eso, ni siquiera con vídeos de YouTube."
+   ],
+   "origen": "2019/052-rich#b180-naval/19"
+  },
+  {
+   "id": "s011",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Puede que sea verdad, pero yo diría que la mayor parte de la revolución de los robots ya ha ocurrido."
+   ],
+   "origen": "2019/052-rich#b126-naval/2"
+  },
+  {
+   "id": "s012",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Te ofreces a ayudar y te conviertes en la mano derecha del dueño resolviendo su problema de financiación."
+   ],
+   "origen": "2019/052-rich#b277-naval/17"
+  },
+  {
+   "id": "s013",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Habrían enturbiado el mensaje, y habría tenido suerte de conseguir esa forma de apalancamiento."
+   ],
+   "origen": "2019/052-rich#b121-naval/12"
+  },
+  {
+   "id": "s014",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Estás en la playa en las Bahamas o estás durmiendo por la noche y tus clientes se están aportando valor unos a otros."
+   ],
+   "origen": "2019/052-rich#b141-naval/7"
+  },
+  {
+   "id": "s015",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Y volviendo al caso de estudio de la escuela de negocios, ese es el ejemplo clásico."
+   ],
+   "origen": "2019/052-rich#b101-naval/6"
+  },
+  {
+   "id": "s016",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "La gente que me conoce sabe que soy famoso por hacer dos cosas a la vez."
+   ],
+   "origen": "2019/052-rich#b169-naval/1"
+  },
+  {
+   "id": "s017",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Pero cuando lo miro, hay dentro una verdad tan clara que resuena."
+   ],
+   "origen": "2019/035-finally-wealthy#b02-naval/19"
+  },
+  {
+   "id": "s018",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Porque el posicionamiento, el momento y la reflexión son muy importantes cuando montas una empresa."
+   ],
+   "origen": "2019/036-rich-quick#b02-naval/34"
+  },
+  {
+   "id": "s019",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Al mismo tiempo, esa persona entra en las reuniones más importantes."
+   ],
+   "origen": "2019/052-rich#b273-naval/8"
+  },
+  {
+   "id": "s020",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Para encontrar algo nuevo, original y sin descubrir, ayuda estar operando en una frontera."
+   ],
+   "origen": "2019/052-rich#b28-naval/2"
+  },
+  {
+   "id": "s021",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Adelanta el reloj hasta tu yo rico y elige una tarifa por hora intermedia."
+   ],
+   "origen": "2019/052-rich#b160-naval/0"
+  },
+  {
+   "id": "s022",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Así que, sea cual sea tu obsesión de nicho, internet te permite escalarla."
+   ],
+   "origen": "2019/052-rich#b49-naval/5"
+  },
+  {
+   "id": "s023",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Ahora bien, estás haciendo otros sacrificios y otras concesiones en cuanto a los recursos de esa persona, y estás apostando fuerte por ella."
+   ],
+   "origen": "2019/052-rich#b247-naval/12"
+  },
+  {
+   "id": "s024",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Históricamente ha sido muy difícil encontrar buenos contratistas, y el contratista tiene poca información sobre el dueño de la casa."
+   ],
+   "origen": "2019/052-rich#b256-naval/14"
+  },
+  {
+   "id": "s025",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Vamos a hablar de cosas como averiguar cuál es una valoración justa y cuáles son las trampas de las rondas puente."
+   ],
+   "origen": "2019/051-angel-1#b03-naval/8"
+  },
+  {
+   "id": "s026",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Eso no significa pasar por encima de tu equipo, porque la gente es extremadamente sensible a que otros se lleven demasiado mérito."
+   ],
+   "origen": "2019/052-rich#b282-naval/10"
+  },
+  {
+   "id": "s027",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Esa persona nunca va a acabar siendo multimillonaria, va a acabar muerta y sin valer nada."
+   ],
+   "origen": "2019/052-rich#b250-naval/4"
+  },
+  {
+   "id": "s028",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Es gente que ya es muy rica y que claramente hizo su riqueza en otros campos, no vendiendo el discurso de cómo hacerse rico."
+   ],
+   "origen": "2019/052-rich#b205-naval/10"
+  },
+  {
+   "id": "s029",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Y hacer algo nuevo por primera vez es doloroso, porque te estás metiendo en terreno incierto y hay muchas probabilidades de que fracases."
+   ],
+   "origen": "2019/052-rich#b103-naval/2"
+  },
+  {
+   "id": "s030",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Hubo un tiempo en el que los coches eran tecnología, y eso hizo rico a Henry Ford."
+   ],
+   "origen": "2019/052-rich#b43-naval/7"
+  },
+  {
+   "id": "s031",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Puedes escapar de la competencia siendo auténtico, cuando te das cuenta de que nadie puede competir contigo en ser tú."
+   ],
+   "origen": "2019/052-rich#b50-naval/17"
+  },
+  {
+   "id": "s032",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Y yo pensé: qué dices, mi madre me está diciendo que voy a dedicarme a los negocios, yo voy a ser astrofísico, mamá no sabe de qué habla."
+   ],
+   "origen": "2019/052-rich#b75-naval/19"
+  },
+  {
+   "id": "s033",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Quería ganar dinero y ganarme la vida con actividades mentales, no con actividades físicas."
+   ],
+   "origen": "2019/041-envy#b03-naval/5"
+  },
+  {
+   "id": "s034",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Pero si miras a las mejores firmas de capital riesgo, rara vez son especialistas, normalmente son generalistas."
+   ],
+   "origen": "2019/051-angel-1#b65-naval/1"
+  },
+  {
+   "id": "s035",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Estás a un paso muy corto de un motín o de que te coman o te despedace la turba."
+   ],
+   "origen": "2019/052-rich#b118-naval/3"
+  },
+  {
+   "id": "s036",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Hay mucha buena gente en Twitter que es mejor que yo en forma física."
+   ],
+   "origen": "2019/052-rich#b199-naval/21"
+  },
+  {
+   "id": "s037",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Es algo que puedes hacer a tiempo parcial, si estás parcialmente jubilado o de permiso con un bebé recién nacido."
+   ],
+   "origen": "2019/051-angel-1#b33-naval/1"
+  },
+  {
+   "id": "s038",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "En esencia, asumir la responsabilidad de tus actos es lo mismo que tomar una posición de capital en todo tu trabajo."
+   ],
+   "origen": "2019/052-rich#b110-naval/17"
+  },
+  {
+   "id": "s039",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Si no tienes esa experiencia de base, se lee como una colección de citas."
+   ],
+   "origen": "2019/052-rich#b195-naval/9"
+  },
+  {
+   "id": "s040",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Por ejemplo, ahora mismo todo el mundo está con los modelos mentales."
+   ],
+   "origen": "2019/052-rich#b101-naval/10"
+  },
+  {
+   "id": "s041",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "En general, cuanto más dice alguien que es moral, ético y de mucha integridad, menos probable es que lo sea."
+   ],
+   "origen": "2019/052-rich#b63-naval/31"
+  },
+  {
+   "id": "s042",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Nosotros, como grupo, se podría argumentar que nos juntamos por eso."
+   ],
+   "origen": "2019/052-rich#b17-naval/5"
+  },
+  {
+   "id": "s043",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Y de la misma manera, esas personas gravitan hacia trabajar con otra gente ética."
+   ],
+   "origen": "2019/052-rich#b230-naval/4"
+  },
+  {
+   "id": "s044",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Todos tenemos ese recuerdo de estar sentados en clase aprendiendo matemáticas, y todo era lógico y tenía sentido hasta que en cierto punto la clase fue demasiado rápido y nos quedamos atrás."
+   ],
+   "origen": "2019/052-rich#b93-naval/1"
+  },
+  {
+   "id": "s045",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Mi bufete de abogados ideal es un bufete de una sola persona."
+   ],
+   "origen": "2019/052-rich#b247-naval/10"
+  },
+  {
+   "id": "s046",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Las personas son mucho más honestas con sus actos que con sus palabras."
+   ],
+   "origen": "2019/042-principal-agent#b05-naval/5"
+  },
+  {
+   "id": "s047",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Criterio significa aplicar tus estándares y tu gusto más altos en las cosas que mejor conoces."
+   ],
+   "origen": "2019/051-angel-1#b40-naval/3"
+  },
+  {
+   "id": "s048",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Si abro un restaurante y una versión más interesante del mismo restaurante abre en otro pueblo, eso es fantástico."
+   ],
+   "origen": "2019/052-rich#b186-naval/4"
+  },
+  {
+   "id": "s049",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Seas Elon Musk o el tipo que lleva tres restaurantes italianos en el pueblo, estás trabajando ochenta horas a la semana."
+   ],
+   "origen": "2019/052-rich#b260-naval/1"
+  },
+  {
+   "id": "s050",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Eso puede pasar si trabajas en un campo nuevo y que se expande deprisa."
+   ],
+   "origen": "2019/052-rich#b273-naval/1"
+  },
+  {
+   "id": "s051",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "La sabiduría aplicada a problemas externos creo que es criterio."
+   ],
+   "origen": "2019/052-rich#b151-naval/3"
+  },
+  {
+   "id": "s052",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "O: solo hacemos inteligencia artificial y aprendizaje automático."
+   ],
+   "origen": "2019/051-angel-1#b65-naval/5"
+  },
+  {
+   "id": "s053",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Estas ganancias se consideran plusvalías, que normalmente tributan a tipos más bajos que las rentas del trabajo."
+   ],
+   "origen": "2019/051-angel-1#b21-naval/0"
+  },
+  {
+   "id": "s054",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Eso es mucho mejor que las medidas para quedarse a gusto, como prohibir las bolsas de plástico o limitar las duchas durante una sequía."
+   ],
+   "origen": "2019/052-rich#b269-naval/4"
+  },
+  {
+   "id": "s055",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Nadie le pregunta cuánto trabaja, nadie le pregunta a qué hora se levanta o a qué hora se acuesta."
+   ],
+   "origen": "2019/052-rich#b149-naval/14"
+  },
+  {
+   "id": "s056",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Pero entonces tienes un gran hueco de financiación entre la inversión ángel y el siguiente inversor, así que la empresa tiene que llegar realmente lejos solo con la inversión ángel."
+   ],
+   "origen": "2019/051-angel-1#b19-naval/16"
+  },
+  {
+   "id": "s057",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Así que la gente enfadada, indignada, vengativa y cortoplacista es así, en el fondo, en muchas de sus interacciones en la vida real."
+   ],
+   "origen": "2019/052-rich#b63-naval/5"
+  },
+  {
+   "id": "s058",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Para no tener que levantarte a las siete de la mañana a toda prisa para ir al trabajo y quedarte sentado en un atasco."
+   ],
+   "origen": "2019/052-rich#b05-naval/2"
+  },
+  {
+   "id": "s059",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Estás invirtiendo en la oficina de tráfico y en el Departamento de Defensa."
+   ],
+   "origen": "2019/051-angel-1#b28-naval/5"
+  },
+  {
+   "id": "s060",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Nassim Taleb habla mucho de la ergodicidad, que es una palabra sofisticada para un concepto simple."
+   ],
+   "origen": "2019/052-rich#b249-naval/9"
+  },
+  {
+   "id": "s061",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Las formas de apalancamiento han pasado de basarse en humanos y en trabajo y en capital a basarse mucho más en el producto, en el código y en los medios."
+   ],
+   "origen": "2019/052-rich#b131-naval/1"
+  },
+  {
+   "id": "s062",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Si te pasas la vida cambiando de sitio y cambiando de grupo, pasa lo siguiente."
+   ],
+   "origen": "2019/052-rich#b53-naval/1"
+  },
+  {
+   "id": "s063",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Hay un dicho que va así: si quieres que algo se haga, ve tú. Si no, manda a otro."
+   ],
+   "origen": "2019/052-rich#b241-naval/0"
+  },
+  {
+   "id": "s064",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "La gente tiene que poder saber qué papel tuviste tú en el éxito de la empresa."
+   ],
+   "origen": "2019/052-rich#b282-naval/9"
+  },
+  {
+   "id": "s065",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Seguro que los contratistas tienen su propia versión de la historia: el dueño de la casa tiene exigencias irrazonables."
+   ],
+   "origen": "2019/052-rich#b256-naval/9"
+  },
+  {
+   "id": "s066",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "No hay nada peor que alguien temerario que persigue algo que no merece la pena."
+   ],
+   "origen": "2019/052-rich#b66-naval/2"
+  },
+  {
+   "id": "s067",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Esto era antes del iPhone, y gracias a Dios por Steve Jobs, que nos salvó a todos de un aburrimiento infinito."
+   ],
+   "origen": "2019/052-rich#b236-naval/7"
+  },
+  {
+   "id": "s068",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "No van necesariamente de fundar un estado libre, pero se solapan de alguna forma."
+   ],
+   "origen": "2019/051-angel-1#b62-naval/10"
+  },
+  {
+   "id": "s069",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Creo que vale probablemente en unas dos docenas de ciudades del mundo."
+   ],
+   "origen": "2019/051-angel-1#b16-naval/0"
+  },
+  {
+   "id": "s070",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Lo rechazaron, y eso fue lo que le hizo meterse en los negocios."
+   ],
+   "origen": "2019/052-rich#b179-naval/16"
+  },
+  {
+   "id": "s071",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Tengo ciertas capacidades analíticas sobre cómo ganar dinero."
+   ],
+   "origen": "2019/052-rich#b75-naval/10"
+  },
+  {
+   "id": "s072",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Da al menos el primer paso, y el segundo, y el tercero, y luego decide."
+   ],
+   "origen": "2019/052-rich#b65-naval/16"
+  },
+  {
+   "id": "s073",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Todos conocemos esto desde la infancia, pero resulta un poco incómodo hablar de ello."
+   ],
+   "origen": "2019/052-rich#b107-naval/16"
+  },
+  {
+   "id": "s074",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "A largo plazo, quien entiende el producto por debajo y sabe cómo construirlo y además sabe venderlo es hierba gatera para los inversores."
+   ],
+   "origen": "2019/052-rich#b87-naval/15"
+  },
+  {
+   "id": "s075",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Jeff Bezos ni siquiera tiene una mejor experiencia informática."
+   ],
+   "origen": "2019/052-rich#b128-naval/5"
+  },
+  {
+   "id": "s076",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Tienes un montón de parásitos dentro de ti, viviendo a tu costa."
+   ],
+   "origen": "2019/052-rich#b10-naval/9"
+  },
+  {
+   "id": "s077",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Aquí principal es una persona, no un principio que uno sigue."
+   ],
+   "origen": "2019/042-principal-agent#b03-naval/2"
+  },
+  {
+   "id": "s078",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Y escribir es una habilidad que se puede aprender mucho más fácilmente que, digamos, vender en persona."
+   ],
+   "origen": "2019/052-rich#b87-naval/9"
+  },
+  {
+   "id": "s079",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Cómo montar tu empresa, cómo reclutar y darle vueltas a tu idea, y cuándo está lista para inversores."
+   ],
+   "origen": "2019/051-angel-1#b70-naval/2"
+  },
+  {
+   "id": "s080",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "En vez de leer libros avanzados sobre cosmología y sobre lo que llevan diciendo Neil Degrasse Tyson y Stephen Hawking, puedes coger Seis piezas fáciles de Richard Feynman y empezar por la física básica."
+   ],
+   "origen": "2019/052-rich#b92-naval/10"
+  },
+  {
+   "id": "s081",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Si tienes una mente en calma y ya has ganado dinero, deberías tener buenas relaciones."
+   ],
+   "origen": "2019/035-finally-wealthy#b02-naval/52"
+  },
+  {
+   "id": "s082",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Con el tiempo, esas son las personas que acaban siendo quienes cierran los tratos dentro de la red."
+   ],
+   "origen": "2019/040-ethics#b07-naval/3"
+  },
+  {
+   "id": "s083",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Ese contratista general está asumiendo responsabilidad, está asumiendo la responsabilidad del trabajo."
+   ],
+   "origen": "2019/052-rich#b143-naval/1"
+  },
+  {
+   "id": "s084",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Y los juegos a largo plazo no solo son buenos para el interés compuesto, también son buenos para la confianza."
+   ],
+   "origen": "2019/052-rich#b52-naval/9"
+  },
+  {
+   "id": "s085",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "El conocimiento específico atemporal normalmente no se puede enseñar, y se queda contigo para siempre."
+   ],
+   "origen": "2019/052-rich#b278-naval/11"
+  },
+  {
+   "id": "s086",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Está invirtiendo en países startup y en proyectos de individuos soberanos."
+   ],
+   "origen": "2019/051-angel-1#b62-naval/6"
+  },
+  {
+   "id": "s087",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Necesitas a alguien inteligente, porque si no irá en la dirección equivocada."
+   ],
+   "origen": "2019/052-rich#b60-naval/2"
+  },
+  {
+   "id": "s088",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Y que además te sea natural, y esté dentro de tus habilidades y de tus capacidades."
+   ],
+   "origen": "2019/052-rich#b44-naval/1"
+  },
+  {
+   "id": "s089",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Así es como vas a aprender sobre la marcha, porque muchas de las sutilezas no se manifiestan hasta que estás de verdad dentro del negocio."
+   ],
+   "origen": "2019/052-rich#b101-naval/9"
+  },
+  {
+   "id": "s090",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "A lo mejor tú acabas en el Empire State Building, pero no es lo más probable."
+   ],
+   "origen": "2019/052-rich#b252-naval/20"
+  },
+  {
+   "id": "s091",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Que tú tengas una casa no le quita nada a mi capacidad de tener una casa."
+   ],
+   "origen": "2019/052-rich#b07-naval/12"
+  },
+  {
+   "id": "s092",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Ahora bien, obviamente yo tenía todos mis miembros, tenía mis facultades mentales y sí tuve una educación."
+   ],
+   "origen": "2019/052-rich#b21-naval/3"
+  },
+  {
+   "id": "s093",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Algo se puede aprender, pero no puedes coger su circunstancia exacta y trasladarla a la tuya."
+   ],
+   "origen": "2019/052-rich#b193-naval/5"
+  },
+  {
+   "id": "s094",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Al poner tu nombre ahí fuera te conviertes en una celebridad, y la fama tiene muchísimos inconvenientes."
+   ],
+   "origen": "2019/052-rich#b106-naval/14"
+  },
+  {
+   "id": "s095",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "En vez de eso, tiendo a centrarme en las pocas lecciones que he aprendido una y otra vez en la vida, que me parecen increíblemente importantes y que parecen aplicarse casi universalmente."
+   ],
+   "origen": "2019/052-rich#b240-naval/4"
+  },
+  {
+   "id": "s096",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Te darás cuenta justo cuando otra gente, que no está sintonizada con ese campo, no lo note."
+   ],
+   "origen": "2019/052-rich#b18-naval/2"
+  },
+  {
+   "id": "s097",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Tus propios usuarios están creando valor para los usuarios que ya están."
+   ],
+   "origen": "2019/052-rich#b140-naval/3"
+  },
+  {
+   "id": "s098",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Sitios como Bengaluru, en India, o incluso Kuala Lumpur, en Malasia, pueden ser ciudades emergentes, pero el momento es difícil de acertar."
+   ],
+   "origen": "2019/051-angel-1#b17-naval/2"
+  },
+  {
+   "id": "s099",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Quedemos si esto te resulta útil, y seré respetuoso con tu tiempo."
+   ],
+   "origen": "2019/052-rich#b173-naval/3"
+  },
+  {
+   "id": "s100",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Por otro lado, unas cuantas personas se darán cuenta de que siempre estás arañando y de que no juegas limpio, y tenderán a evitarte."
+   ],
+   "origen": "2019/040-ethics#b07-naval/2"
+  },
+  {
+   "id": "s101",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Lo que te impide ver lo que está pasando de verdad son tus emociones."
+   ],
+   "origen": "2019/052-rich#b153-naval/3"
+  },
+  {
+   "id": "s102",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "La gente que monta esas empresas simpatiza con los proyectos de estado libre y son ellos mismos individuos soberanos."
+   ],
+   "origen": "2019/051-angel-1#b62-naval/11"
+  },
+  {
+   "id": "s103",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Te pagan tus quince, veinte, veinticinco o cincuenta dólares la hora, o setenta y cinco si tienes mucha suerte, pero poco más."
+   ],
+   "origen": "2019/052-rich#b142-naval/12"
+  },
+  {
+   "id": "s104",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Porque el ego puede ser inmerecido, pero con la autoestima al menos sientes que has estado a la altura de tu propio código moral interno."
+   ],
+   "origen": "2019/052-rich#b63-naval/28"
+  },
+  {
+   "id": "s105",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Están diciendo: no, la gente es más importante, y yo, el periodista, represento a la gente, y por lo tanto yo soy más importante."
+   ],
+   "origen": "2019/052-rich#b09-naval/2"
+  },
+  {
+   "id": "s106",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Las aceleradoras son ruedines hasta que estás listo para ir a levantar dinero."
+   ],
+   "origen": "2019/051-angel-1#b70-naval/4"
+  },
+  {
+   "id": "s107",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Por ejemplo, quieres ser honesto porque eso te deja la mente despejada."
+   ],
+   "origen": "2019/040-ethics#b06-naval/2"
+  },
+  {
+   "id": "s108",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Podrías decir: compro acciones preferentes, pero al cabo de dos años se convierten en ordinarias."
+   ],
+   "origen": "2019/051-angel-1#b59-naval/8"
+  },
+  {
+   "id": "s109",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Y con Twitter, ¿a qué otro sitio irías para escribir microblogs?"
+   ],
+   "origen": "2019/052-rich#b139-naval/5"
+  },
+  {
+   "id": "s110",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Pero, para mí, esas son socias en la creación de riqueza que crea el cuerpo humano."
+   ],
+   "origen": "2019/052-rich#b14-naval/23"
+  },
+  {
+   "id": "s111",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Seguro que los contratistas tienen su propia versión: el cliente tiene exigencias poco razonables, hemos encontrado problemas, el cliente no quiere pagarlos, no lo entienden porque son compradores con poca información."
+   ],
+   "origen": "2019/045-short#b04-naval/9"
+  },
+  {
+   "id": "s112",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Los inversores de capital riesgo con experiencia dirán: obvio, claro, eso es evidente."
+   ],
+   "origen": "2019/051-angel-1#b74-naval/1"
+  },
+  {
+   "id": "s113",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Las plataformas creadas por First Round Capital y Andreessen Horowitz les ayudan a ganar operaciones frente a otros fondos."
+   ],
+   "origen": "2019/051-angel-1#b52-naval/6"
+  },
+  {
+   "id": "s114",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Y entonces conoces a alguien que está levantando dinero, te enamoras de su idea y te saltas otras cosas."
+   ],
+   "origen": "2019/051-angel-1#b40-naval/6"
+  },
+  {
+   "id": "s115",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Un agente trabaja para el dueño, así que puedes pensar en el agente como un empleado."
+   ],
+   "origen": "2019/042-principal-agent#b03-naval/4"
+  },
+  {
+   "id": "s116",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "La peor estrategia es aceptar un montón de reuniones para tomar café o decir: soy una persona buena, pasiva, que no se mete, no te voy a molestar y siempre estoy disponible para ayudar."
+   ],
+   "origen": "2019/051-angel-1#b54-naval/3"
+  },
+  {
+   "id": "s117",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Los empleados tienen la mayor seguridad, pero a cambio de esa seguridad no tienen tanto potencial de ganancia."
+   ],
+   "origen": "2019/052-rich#b110-naval/6"
+  },
+  {
+   "id": "s118",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Habrían sido operaciones que me habrían definido la carrera y me habrían hecho ganar mucho dinero."
+   ],
+   "origen": "2019/051-angel-1#b45-naval/7"
+  },
+  {
+   "id": "s119",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Tú también quieres quedar conmigo, pero no podemos comunicarnos."
+   ],
+   "origen": "2019/044-schelling-point#b03-naval/1"
+  },
+  {
+   "id": "s120",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "La forma en que la gente tiende a trabajar de manera más eficaz, sobre todo en el trabajo del conocimiento, es esprintar todo lo que puede mientras se siente inspirada, y luego descansar."
+   ],
+   "origen": "2019/052-rich#b166-naval/6"
+  },
+  {
+   "id": "s121",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Así que, en el fondo, tus entradas están emparejadas con tus salidas."
+   ],
+   "origen": "2019/052-rich#b35-naval/12"
+  },
+  {
+   "id": "s122",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Pero hay ciertos consejeros delegados que sin duda se ganan lo suyo, porque su criterio es mejor."
+   ],
+   "origen": "2019/052-rich#b149-naval/3"
+  },
+  {
+   "id": "s123",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Yo casi no monto una empresa, ni contrato a una persona, ni trabajo con alguien si me parece que no le atrae lo que quiero que haga."
+   ],
+   "origen": "2019/052-rich#b62-naval/1"
+  },
+  {
+   "id": "s124",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Pero creo que es importante no empezar a ensamblar cosas de forma demasiado deliberada, porque quieres elegir cosas para las que seas un natural."
+   ],
+   "origen": "2019/052-rich#b82-naval/1"
+  },
+  {
+   "id": "s125",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Un Toyota Corolla nuevo es un coche muy bueno, pero como es mayoritario, la tecnología ha amortizado el coste de producción entre el mayor número posible de consumidores."
+   ],
+   "origen": "2019/052-rich#b130-naval/6"
+  },
+  {
+   "id": "s126",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Y creo que eso es muy importante, simplemente no mejorar tu nivel de vida todo el rato, para mantener tu libertad."
+   ],
+   "origen": "2019/052-rich#b39-naval/3"
+  },
+  {
+   "id": "s127",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "El emprendimiento es en esencia un acto de crear algo nuevo desde cero."
+   ],
+   "origen": "2019/052-rich#b46-naval/14"
+  },
+  {
+   "id": "s128",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Sigue cambiando tu objetivo hasta que encaje con tu conocimiento específico, tus habilidades, tu posición, tus capacidades, tu localización y tus intereses."
+   ],
+   "origen": "2019/052-rich#b176-naval/12"
+  },
+  {
+   "id": "s129",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Que pudieras salir ahí fuera y construir robots, y ordenadores, y puentes, y programarlos."
+   ],
+   "origen": "2019/052-rich#b11-naval/13"
+  },
+  {
+   "id": "s130",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Si hay alguien mejor ahí fuera con quien trabajar, ve a trabajar con esa persona."
+   ],
+   "origen": "2019/052-rich#b165-naval/1"
+  },
+  {
+   "id": "s131",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "En general, ceteris paribus, que son palabras latinas elegantes para decir en igualdad de condiciones, te irá mejor en una organización pequeña que en una grande."
+   ],
+   "origen": "2019/052-rich#b226-naval/0"
+  },
+  {
+   "id": "s132",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Como en otras industrias, la mejor forma de ganar dinero en tecnología es tener un trozo de un negocio."
+   ],
+   "origen": "2019/051-angel-1#b31-naval/0"
+  },
+  {
+   "id": "s133",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Si tenemos que elegir una fecha arbitraria, probablemente elegiremos fin de año."
+   ],
+   "origen": "2019/044-schelling-point#b03-naval/9"
+  },
+  {
+   "id": "s134",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "¿Quieres usar ese tiempo haciendo recados y resolviendo problemillas?"
+   ],
+   "origen": "2019/052-rich#b158-naval/12"
+  },
+  {
+   "id": "s135",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Si el proyecto se alarga y hay pérdidas, entonces él se come las pérdidas."
+   ],
+   "origen": "2019/052-rich#b143-naval/8"
+  },
+  {
+   "id": "s136",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "En cambio, si tienes reputación de ser buena persona para hacer negocios y eres persuasivo y comunicativo, esa reputación casi se vuelve una profecía que se cumple sola."
+   ],
+   "origen": "2019/052-rich#b89-naval/6"
+  },
+  {
+   "id": "s137",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Es notoriamente difícil invertir en una de las empresas de Elon Musk."
+   ],
+   "origen": "2019/051-angel-1#b67-naval/1"
+  },
+  {
+   "id": "s138",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "El hilo de tuits de Cómo hacerse rico tocó una fibra y se hizo viral."
+   ],
+   "origen": "2019/052-rich#b02-naval/0"
+  },
+  {
+   "id": "s139",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "En política ves que hay muchos veteranos, como en el Senado, gente que lleva ahí mucho tiempo y que ha sido política de carrera."
+   ],
+   "origen": "2019/052-rich#b53-naval/15"
+  },
+  {
+   "id": "s140",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Esta forma de apalancamiento, la más nueva de todas, es donde se hacen todas las fortunas nuevas, todos los nuevos multimillonarios."
+   ],
+   "origen": "2019/052-rich#b122-naval/0"
+  },
+  {
+   "id": "s141",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "El impulso de salir a cazar operaciones en realidad va a bajar tus retornos."
+   ],
+   "origen": "2019/051-angel-1#b67-naval/5"
+  },
+  {
+   "id": "s142",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Se quedó con el capital, pero también está asumiendo responsabilidad y riesgo."
+   ],
+   "origen": "2019/052-rich#b143-naval/7"
+  },
+  {
+   "id": "s143",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Pero la sociedad todavía no sabe cómo crear esas cosas, porque si lo supiera no te necesitaría."
+   ],
+   "origen": "2019/052-rich#b43-naval/3"
+  },
+  {
+   "id": "s144",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Tu objetivo y tus habilidades deberían converger para hacerte el número uno."
+   ],
+   "origen": "2019/052-rich#b176-naval/13"
+  },
+  {
+   "id": "s145",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "No voy a dar nombres, pero cuando un economista famoso despotrica contra Bitcoin, o cuando un periodista de negocios ataca a la última empresa que sale a bolsa, es una tontería absoluta."
+   ],
+   "origen": "2019/052-rich#b209-naval/2"
+  },
+  {
+   "id": "s146",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Es aquella en la que simplemente tuve suerte porque pasó algo completamente fuera de mi control."
+   ],
+   "origen": "2019/052-rich#b16-naval/1"
+  },
+  {
+   "id": "s147",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "La diferencia entre un fundador y un empleado es la diferencia entre un principal y un agente."
+   ],
+   "origen": "2019/042-principal-agent#b03-naval/5"
+  },
+  {
+   "id": "s148",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Las series B son más arriesgadas que eso, y las series A todavía más."
+   ],
+   "origen": "2019/051-angel-1#b19-naval/11"
+  },
+  {
+   "id": "s149",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Larry y Sergey probablemente se repartieron el trabajo por esas mismas líneas, aunque ahí es un poco distinto, porque aquello era un producto muy técnico entregado a usuarios finales a través de una interfaz sencilla."
+   ],
+   "origen": "2019/052-rich#b85-naval/4"
+  },
+  {
+   "id": "s150",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Si estoy en el consejo de una empresa, llamo al consejero delegado."
+   ],
+   "origen": "2019/052-rich#b168-naval/18"
+  },
+  {
+   "id": "s151",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Para cualquiera que quiera mejorar de forma fiable y predecible su capacidad de crear riqueza con el tiempo, que tenga paciencia y que mire al largo plazo."
+   ],
+   "origen": "2019/052-rich#b223-naval/3"
+  },
+  {
+   "id": "s152",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Pero a largo plazo todo el mundo querrá hacer negocios contigo."
+   ],
+   "origen": "2019/052-rich#b233-naval/6"
+  },
+  {
+   "id": "s153",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Si quieres hacer grandes cosas, seas músico, emprendedor o inversor, necesitas tiempo libre y una mente libre."
+   ],
+   "origen": "2019/052-rich#b174-naval/9"
+  },
+  {
+   "id": "s154",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Así que, sea lo que sea aquello para lo que eres un natural, quieres doblar la apuesta ahí."
+   ],
+   "origen": "2019/052-rich#b82-naval/5"
+  },
+  {
+   "id": "s155",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Si extrapolas eso a un salario anual, son varios millones de dólares al año."
+   ],
+   "origen": "2019/052-rich#b162-naval/5"
+  },
+  {
+   "id": "s156",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Simplemente subirán el precio hasta que solo ellos puedan tener un Rolex."
+   ],
+   "origen": "2019/052-rich#b129-naval/8"
+  },
+  {
+   "id": "s157",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Las órdenes hay que darlas en un lenguaje de ordenador, en un lenguaje que ellos entiendan."
+   ],
+   "origen": "2019/052-rich#b126-naval/20"
+  },
+  {
+   "id": "s158",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "En el proceso de destruir la creación de riqueza, arrastran a todo el mundo a su nivel."
+   ],
+   "origen": "2019/052-rich#b14-naval/2"
+  },
+  {
+   "id": "s159",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Nassim Taleb habla mucho de la ergodicidad, que es una palabra elegante para un concepto sencillo: lo que es cierto para cien personas de media no es lo mismo que una persona haciendo eso mismo cien veces."
+   ],
+   "origen": "2019/043-kelly-criterion#b02-naval/8"
+  },
+  {
+   "id": "s160",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Creo que además, llegados a ese punto, empieza a ser tan determinista que deja de ser suerte."
+   ],
+   "origen": "2019/052-rich#b24-naval/0"
+  },
+  {
+   "id": "s161",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Todas estas son formas de convertir un juego de una sola jugada en un juego de más largo plazo y de salir de una posición de mal apalancamiento negociador y mala información."
+   ],
+   "origen": "2019/045-short#b05-naval/6"
+  },
+  {
+   "id": "s162",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Sé que hay gente que escucha al doble o al triple de velocidad, pero entonces todos suenan como ardillas y es difícil volver atrás."
+   ],
+   "origen": "2019/052-rich#b101-naval/3"
+  },
+  {
+   "id": "s163",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Si algo son las empresas con ánimo de lucro, es financieramente sostenibles."
+   ],
+   "origen": "2019/052-rich#b221-naval/5"
+  },
+  {
+   "id": "s164",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Creo que lo leí en otro sitio, así que no me atribuyo el mérito, pero lo modifiqué un poco."
+   ],
+   "origen": "2019/052-rich#b63-naval/21"
+  },
+  {
+   "id": "s165",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Y opera con el apalancamiento de los medios, con Periscope, dibujando las viñetas de Dilbert y escribiendo libros."
+   ],
+   "origen": "2019/052-rich#b77-naval/12"
+  },
+  {
+   "id": "s166",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Es aquel en el que construyes un carácter único, una marca única, una mentalidad única, y entonces la suerte te encuentra a ti."
+   ],
+   "origen": "2019/052-rich#b19-naval/2"
+  },
+  {
+   "id": "s167",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Históricamente ha sido muy difícil encontrar buenos contratistas, y el contratista tiene poca información sobre el propietario."
+   ],
+   "origen": "2019/045-short#b04-naval/11"
+  },
+  {
+   "id": "s168",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Un tercero puede ser bueno con las tendencias macroeconómicas y tener olfato para los mercados."
+   ],
+   "origen": "2019/052-rich#b184-naval/4"
+  },
+  {
+   "id": "s169",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Acabé trabajando para una empresa de catering que servía comida india."
+   ],
+   "origen": "2019/052-rich#b238-naval/4"
+  },
+  {
+   "id": "s170",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Pero luego me di cuenta de que la ética no es necesariamente algo que se estudie."
+   ],
+   "origen": "2019/052-rich#b229-naval/1"
+  },
+  {
+   "id": "s171",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Una vez que llevas un tiempo en una buena relación con alguien, ya sea de negocios o sentimental, la vida se vuelve mucho más fácil porque sabes que esa persona te cubre las espaldas."
+   ],
+   "origen": "2019/052-rich#b258-naval/1"
+  },
+  {
+   "id": "s172",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Y tienes que averiguar en quién puedes confiar, y en quién puedes confiar durante un periodo larguísimo de tiempo."
+   ],
+   "origen": "2019/052-rich#b52-naval/18"
+  },
+  {
+   "id": "s173",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Otra forma de pensar en esto es la siguiente: si puedes externalizar algo, o directamente no hacerlo, por menos que tu tarifa por hora, externalízalo o no lo hagas."
+   ],
+   "origen": "2019/052-rich#b161-naval/0"
+  },
+  {
+   "id": "s174",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Si eres un inversor brillante y te dan mil millones de dólares y sacas un treinta por ciento de rentabilidad, mientras que cualquier otro solo saca un veinte por ciento, te vas a llevar todo el dinero."
+   ],
+   "origen": "2019/052-rich#b119-naval/23"
+  },
+  {
+   "id": "s175",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Si empiezas con una vez lo que tienes, y luego lo aumentas un veinte por ciento al año durante treinta años, no es que le sumes treinta años por veinte por ciento."
+   ],
+   "origen": "2019/052-rich#b52-naval/4"
+  },
+  {
+   "id": "s176",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Muchas veces la gente está desmotivada para una cosa concreta, pero está motivada para otras cosas."
+   ],
+   "origen": "2019/052-rich#b60-naval/13"
+  },
+  {
+   "id": "s177",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "O es verdadera formación en el puesto de trabajo, porque estás reconociendo patrones en entornos muy complejos, es decir, construyendo criterio en un dominio concreto."
+   ],
+   "origen": "2019/052-rich#b72-naval/12"
+  },
+  {
+   "id": "s178",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "También está la frase militar clásica: o lideras, o sigues, o te apartas del camino."
+   ],
+   "origen": "2019/052-rich#b65-naval/10"
+  },
+  {
+   "id": "s179",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Es difícil subrayar, es difícil localizar fragmentos y guardarlos en tu cuaderno, y cosas así."
+   ],
+   "origen": "2019/052-rich#b101-naval/4"
+  },
+  {
+   "id": "s180",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Y nosotros fuimos inmigrantes pobres que llegamos aquí, a Estados Unidos, cuando yo era bastante joven."
+   ],
+   "origen": "2019/052-rich#b14-naval/9"
+  },
+  {
+   "id": "s181",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Las marcas clásicas del negocio del capital riesgo se construyeron una reputación de hacer grandes inversiones."
+   ],
+   "origen": "2019/051-angel-1#b50-naval/0"
+  },
+  {
+   "id": "s182",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Estábamos atrapados en una competencia feroz unos con otros."
+   ],
+   "origen": "2019/052-rich#b187-naval/6"
+  },
+  {
+   "id": "s183",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Es una respuesta escurridiza, pero creo que en realidad es la respuesta correcta."
+   ],
+   "origen": "2019/052-rich#b89-naval/8"
+  },
+  {
+   "id": "s184",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "El experimento mental que quiero que hagas es imaginar que todo el mundo tuviera el conocimiento de un buen ingeniero de software y de un buen ingeniero de hardware."
+   ],
+   "origen": "2019/052-rich#b11-naval/12"
+  },
+  {
+   "id": "s185",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Cuando coges dos estimaciones inventadas y las multiplicas entre sí, obtienes cuatro cifras de precisión."
+   ],
+   "origen": "2019/052-rich#b191-naval/14"
+  },
+  {
+   "id": "s186",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Eso puede significar mantenerte lejos de cosas que puedan ser físicamente peligrosas, que te dañen el cuerpo."
+   ],
+   "origen": "2019/052-rich#b68-naval/25"
+  },
+  {
+   "id": "s187",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Puedes fijarte en eso y pensar: se me da bien cuadrar mis cuentas y tengo buena cabeza para los números, pero nunca he levantado dinero."
+   ],
+   "origen": "2019/052-rich#b277-naval/16"
+  },
+  {
+   "id": "s188",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Claro que otros pueden copiarnos y alcanzarnos, pero para entonces estaremos en otro sitio."
+   ],
+   "origen": "2019/051-angel-1#b53-naval/14"
+  },
+  {
+   "id": "s189",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Puedes decir: oye, yo me hago cargo de esto de lo que nadie quiere hacerse cargo."
+   ],
+   "origen": "2019/052-rich#b277-naval/10"
+  },
+  {
+   "id": "s190",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Los derechos pro rata son la capacidad de invertir en rondas posteriores."
+   ],
+   "origen": "2019/051-angel-1#b73-naval/0"
+  },
+  {
+   "id": "s191",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Escuchar a un grupo de abogados de empresa discutiendo cómo optimizar los detalles de un contrato es aburridísimo."
+   ],
+   "origen": "2019/052-rich#b236-naval/10"
+  },
+  {
+   "id": "s192",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Lo que eso significa es que tienes que hacer sacrificios para conseguir un aprendizaje junto a un maestro."
+   ],
+   "origen": "2019/052-rich#b273-naval/12"
+  },
+  {
+   "id": "s193",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Si hago bien mi trabajo y creo valor para la sociedad, la sociedad dice: gracias, te debemos algo en el futuro por el trabajo que hiciste."
+   ],
+   "origen": "2019/052-rich#b06-naval/2"
+  },
+  {
+   "id": "s194",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Más bien, lo que puedes hacer es mirar lo que ya has construido a esas alturas, y luego construir encima."
+   ],
+   "origen": "2019/052-rich#b72-naval/17"
+  },
+  {
+   "id": "s195",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "No necesariamente tienes que desviarte y hacer algo completamente distinto."
+   ],
+   "origen": "2019/052-rich#b217-naval/12"
+  },
+  {
+   "id": "s196",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Lo que eso te ayuda a ver es que internet significa que puedes encontrar a tu público para tu producto, o para tu talento y tu habilidad, por muy lejos que estén."
+   ],
+   "origen": "2019/052-rich#b48-naval/8"
+  },
+  {
+   "id": "s197",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Sea cual sea tu marca, tiene que estar claramente articulada, tiene que estar comunicada."
+   ],
+   "origen": "2019/051-angel-1#b54-naval/0"
+  },
+  {
+   "id": "s198",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Esa fue mi primera inversión ángel importante que salió bien."
+   ],
+   "origen": "2019/051-angel-1#b60-naval/16"
+  },
+  {
+   "id": "s199",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "La forma más antigua de apalancamiento es el trabajo, que es gente trabajando para ti."
+   ],
+   "origen": "2019/052-rich#b117-naval/0"
+  },
+  {
+   "id": "s200",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Era la recesión de Bush padre, por si alguien que nos escucha estaba vivo entonces y se acuerda, así que era realmente difícil encontrar trabajo."
+   ],
+   "origen": "2019/052-rich#b238-naval/3"
+  },
+  {
+   "id": "s201",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Sobre todo en los terrenos y los problemas interesantes, rápidos y de frontera, no llegas ahí sin experiencia."
+   ],
+   "origen": "2019/052-rich#b152-naval/7"
+  },
+  {
+   "id": "s202",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Y toda la gente de verdad exitosa que conozco tiene un sesgo muy fuerte hacia la acción."
+   ],
+   "origen": "2019/052-rich#b65-naval/13"
+  },
+  {
+   "id": "s203",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Deberías intentar meterte en un negocio en el que fabricar la pieza número doce sea más barato que fabricar la número cinco, y en el que fabricar la número diez mil sea mucho más barato que las anteriores."
+   ],
+   "origen": "2019/052-rich#b136-naval/3"
+  },
+  {
+   "id": "s204",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Así puedes cooperar con la otra persona incluso cuando no podéis comunicaros."
+   ],
+   "origen": "2019/052-rich#b253-naval/1"
+  },
+  {
+   "id": "s205",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Date cuenta de que en la sociedad moderna el riesgo a la baja no es tan grande."
+   ],
+   "origen": "2019/052-rich#b110-naval/19"
+  },
+  {
+   "id": "s206",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Eso no quiere decir que lo que construyas vaya a ser el próximo Facebook, ni que llegue a miles de millones de usuarios."
+   ],
+   "origen": "2019/052-rich#b49-naval/6"
+  },
+  {
+   "id": "s207",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Desarma a todo un grupo de gente que dice: ¿qué sentido tiene hacerse rico?"
+   ],
+   "origen": "2019/052-rich#b197-naval/2"
+  },
+  {
+   "id": "s208",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Otra buena razón para invertir es enseñar, ¿qué mejor forma de aprender que enseñando?"
+   ],
+   "origen": "2019/051-angel-1#b81-naval/0"
+  },
+  {
+   "id": "s209",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Puedes meterte en el perfil de Twitter de alguien y hacerte al menos una idea de cómo debe de ser estar dentro de su cabeza todo el rato."
+   ],
+   "origen": "2019/052-rich#b156-naval/1"
+  },
+  {
+   "id": "s210",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Ese contratista se va a meter en el bolsillo los treinta mil dólares restantes."
+   ],
+   "origen": "2019/052-rich#b143-naval/5"
+  },
+  {
+   "id": "s211",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "No es que un solo vídeo vaya a llenarlo de riquezas de la noche a la mañana."
+   ],
+   "origen": "2019/052-rich#b22-naval/5"
+  },
+  {
+   "id": "s212",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Como he dicho, este hilo de tuits se debería haber llamado Cómo crear riqueza."
+   ],
+   "origen": "2019/052-rich#b35-naval/1"
+  },
+  {
+   "id": "s213",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "¿Qué producto puedo construir que me haga ilusión, y en el que yo tenga conocimiento específico?"
+   ],
+   "origen": "2019/052-rich#b164-naval/11"
+  },
+  {
+   "id": "s214",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Pero hay momentos en la vida en los que puede ser un cohete propulsor muy potente."
+   ],
+   "origen": "2019/041-envy#b06-naval/17"
+  },
+  {
+   "id": "s215",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Así que puedes combinar todas estas piezas en estas dos palabras."
+   ],
+   "origen": "2019/052-rich#b213-naval/3"
+  },
+  {
+   "id": "s216",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Construyes conocimiento específico asumiendo la responsabilidad de cosas que los demás no saben hacer."
+   ],
+   "origen": "2019/052-rich#b277-naval/12"
+  },
+  {
+   "id": "s217",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Debería intentar averiguar cómo construir una carrera con eso, en vez de ponerse un collar al cuello e ir a un trabajo deprimente."
+   ],
+   "origen": "2019/052-rich#b60-naval/18"
+  },
+  {
+   "id": "s218",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Cuando tú y yo intercambiamos información, yo quiero recibir algo de información por tu parte."
+   ],
+   "origen": "2019/052-rich#b12-naval/4"
+  },
+  {
+   "id": "s219",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Pero cuando pones tu nombre ahí fuera, asumes un riesgo con ciertas cosas."
+   ],
+   "origen": "2019/052-rich#b108-naval/20"
+  },
+  {
+   "id": "s220",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Al final habrá algo completamente nuevo que antes no existía."
+   ],
+   "origen": "2019/052-rich#b07-naval/17"
+  },
+  {
+   "id": "s221",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Y, dado eso, cada persona tiene habilidades distintas, intereses distintos, obsesiones distintas."
+   ],
+   "origen": "2019/052-rich#b49-naval/17"
+  },
+  {
+   "id": "s222",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Digamos que seis personas juegan a la ruleta rusa una vez cada una, y que cada ganador se lleva mil millones de dólares."
+   ],
+   "origen": "2019/052-rich#b250-naval/1"
+  },
+  {
+   "id": "s223",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Por eso Estados Unidos es un país muy popular entre los inmigrantes, por el sueño americano."
+   ],
+   "origen": "2019/052-rich#b14-naval/3"
+  },
+  {
+   "id": "s224",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Pero el trabajo duro no sustituye a con quién trabajas y a en qué trabajas."
+   ],
+   "origen": "2019/052-rich#b163-naval/19"
+  },
+  {
+   "id": "s225",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Cuanto más indignado está alguien, te lo garantizo, peor es su criterio."
+   ],
+   "origen": "2019/052-rich#b156-naval/2"
+  },
+  {
+   "id": "s226",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Uno de los secretos sucios de Silicon Valley es que muchos de los negocios ganadores son monopolios naturales."
+   ],
+   "origen": "2019/052-rich#b139-naval/0"
+  },
+  {
+   "id": "s227",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Pero normalmente la riqueza de verdad se crea montando tus propias empresas, o incluso siendo inversor."
+   ],
+   "origen": "2019/052-rich#b36-naval/3"
+  },
+  {
+   "id": "s228",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Ese fantasma no solo es estresante y desquiciante, sino que además te va a llevar a la respuesta equivocada."
+   ],
+   "origen": "2019/052-rich#b179-naval/20"
+  },
+  {
+   "id": "s229",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "A veces puede salir bien, por relaciones fuertes y por experiencia."
+   ],
+   "origen": "2019/051-angel-1#b81-naval/4"
+  },
+  {
+   "id": "s230",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "La primera forma en la que la gente se arruina en los negocios modernos no es apostando demasiado, es atajando por lo fácil y haciendo cosas poco éticas o directamente ilegales."
+   ],
+   "origen": "2019/043-kelly-criterion#b03-naval/7"
+  },
+  {
+   "id": "s231",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Larry Ellison empezó como programador y creo que escribió la primera versión de Oracle, o al menos estuvo muy implicado en ella."
+   ],
+   "origen": "2019/052-rich#b86-naval/8"
+  },
+  {
+   "id": "s232",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "La tecnología impulsa el apalancamiento, así que voy a empujarte hacia la tecnología para que consigas ese apalancamiento gratis."
+   ],
+   "origen": "2019/052-rich#b219-naval/3"
+  },
+  {
+   "id": "s233",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "El apalancamiento viene del trabajo, viene del capital, o puede venir a través del código o de los medios."
+   ],
+   "origen": "2019/052-rich#b105-naval/1"
+  },
+  {
+   "id": "s234",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Nivi y yo muchas veces podemos entrar gracias a que montamos AngelList."
+   ],
+   "origen": "2019/051-angel-1#b52-naval/4"
+  },
+  {
+   "id": "s235",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Tienes que saber qué hace que una propiedad concreta funcione o se hunda."
+   ],
+   "origen": "2019/052-rich#b144-naval/8"
+  },
+  {
+   "id": "s236",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Al final me echaron, me mandaron a casa avergonzado desde mis prácticas de prestigio, destruyendo mi opción de entrar en la facultad de derecho."
+   ],
+   "origen": "2019/041-envy#b04-naval/13"
+  },
+  {
+   "id": "s237",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Lo primero, me pareció una manera muy inteligente de cerrar todo el asunto."
+   ],
+   "origen": "2019/052-rich#b197-naval/1"
+  },
+  {
+   "id": "s238",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Tienes mucho más en riesgo, pero también mucho más que ganar."
+   ],
+   "origen": "2019/052-rich#b148-naval/7"
+  },
+  {
+   "id": "s239",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Pero este puede ser un buen sitio para que aprendas a construir un buen equipo y una buena cultura."
+   ],
+   "origen": "2019/052-rich#b206-naval/6"
+  },
+  {
+   "id": "s240",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Como mínimo, inclínate hacia la autenticidad, hacia alejarte de la competencia."
+   ],
+   "origen": "2019/052-rich#b180-naval/21"
+  },
+  {
+   "id": "s241",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "La verdad es que creo que la mejor forma es simplemente seguir tu propia obsesión."
+   ],
+   "origen": "2019/052-rich#b81-naval/0"
+  },
+  {
+   "id": "s242",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Así que, si ese es el caso, eres extremadamente reemplazable."
+   ],
+   "origen": "2019/052-rich#b73-naval/3"
+  },
+  {
+   "id": "s243",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "En cualquier caso, no va a ser una de esas cosas en las que puedas invertir y disfrutar de los beneficios del interés compuesto durante décadas."
+   ],
+   "origen": "2019/042-principal-agent#b06-naval/4"
+  },
+  {
+   "id": "s244",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Supón que quiero quedar contigo, pero no te digo dónde ni cuándo."
+   ],
+   "origen": "2019/044-schelling-point#b03-naval/0"
+  },
+  {
+   "id": "s245",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Puede que estemos escribiendo un libro, haciendo una gira, dirigiendo una incubadora o construyendo otra plataforma de software."
+   ],
+   "origen": "2019/051-angel-1#b53-naval/15"
+  },
+  {
+   "id": "s246",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Pone en juego la responsabilidad, pone en juego una marca fuerte, y como hablaremos más adelante, eso lleva la responsabilidad asociada."
+   ],
+   "origen": "2019/052-rich#b25-naval/7"
+  },
+  {
+   "id": "s247",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Puede resultar que seas el mejor malabarista del mundo subido a un monociclo."
+   ],
+   "origen": "2019/052-rich#b180-naval/18"
+  },
+  {
+   "id": "s248",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Una gran razón para invertir como ángel es que te mantiene afilado."
+   ],
+   "origen": "2019/051-angel-1#b78-naval/0"
+  },
+  {
+   "id": "s249",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Eso lo tienen muchos negocios, es economía básica de primer curso."
+   ],
+   "origen": "2019/052-rich#b136-naval/2"
+  },
+  {
+   "id": "s250",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Pero al mismo tiempo tu dinero ya está gastado, así que no es que puedan cerrar la empresa y largarse con él."
+   ],
+   "origen": "2019/051-angel-1#b59-naval/10"
+  },
+  {
+   "id": "s251",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Si te acercas a un niño pequeño que está aprendiendo a hablar, prácticamente siempre está preguntando."
+   ],
+   "origen": "2019/052-rich#b94-naval/6"
+  },
+  {
+   "id": "s252",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Ahora, de repente, estás respaldando a alguien y quieres verle ganar."
+   ],
+   "origen": "2019/051-angel-1#b80-naval/6"
+  },
+  {
+   "id": "s253",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Acabé trabajando para una empresa de cáterin que servía comida india."
+   ],
+   "origen": "2019/041-envy#b06-naval/4"
+  },
+  {
+   "id": "s254",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Es lo bastante optimista como para ver el futuro y entrar en la operación, y lo bastante pesimista como para ver los riesgos y pasar de nueve de cada diez operaciones que ve."
+   ],
+   "origen": "2019/051-angel-1#b41-naval/5"
+  },
+  {
+   "id": "s255",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Le habrían quitado la parte económica o me habrían cobrado por ello."
+   ],
+   "origen": "2019/052-rich#b121-naval/11"
+  },
+  {
+   "id": "s256",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Es muy difícil decir nada sobre este tema sin que te ataquen desde cincuenta direcciones distintas, sobre todo hoy en día en Twitter."
+   ],
+   "origen": "2019/035-finally-wealthy#b02-naval/32"
+  },
+  {
+   "id": "s257",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Podrías llegar a meter treinta millones de dólares en el pro rata, en vez de tus tres mil dólares iniciales."
+   ],
+   "origen": "2019/051-angel-1#b73-naval/4"
+  },
+  {
+   "id": "s258",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Y por eso la sociedad te va a pagar por crear cosas que ella quiere."
+   ],
+   "origen": "2019/052-rich#b43-naval/2"
+  },
+  {
+   "id": "s259",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Y si se pueden enseñar, por ejemplo en una escuela, al final vas a competir con alguien que tiene conocimientos más recientes, a quien se los han enseñado, y que llega para reemplazarte."
+   ],
+   "origen": "2019/052-rich#b35-naval/7"
+  },
+  {
+   "id": "s260",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Más adelante puedes ayudar a reclutar a un vendedor por un cinco o un diez por ciento de la empresa, en lugar de un cincuenta."
+   ],
+   "origen": "2019/051-angel-1#b71-naval/5"
+  },
+  {
+   "id": "s261",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Estudian los negocios de otras personas, pero en realidad vas a aprender mucho más sobre llevar un negocio montando tu propio puesto de limonada o algo equivalente."
+   ],
+   "origen": "2019/052-rich#b101-naval/7"
+  },
+  {
+   "id": "s262",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Pero tienes que escuchar los suficientes y leer los suficientes para saber qué rechazar y qué aceptar."
+   ],
+   "origen": "2019/052-rich#b193-naval/17"
+  },
+  {
+   "id": "s263",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Puedes ser ético simplemente porque eres codicioso a largo plazo."
+   ],
+   "origen": "2019/040-ethics#b06-naval/0"
+  },
+  {
+   "id": "s264",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Y sin embargo ahí está, una empresa que vale varios cientos de miles de millones de dólares, y todos los que la rodean son fabulosamente ricos."
+   ],
+   "origen": "2019/051-angel-1#b76-naval/8"
+  },
+  {
+   "id": "s265",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Es mejor recorrer un libro muy despacio, y pelearte y tropezar y rebobinar, que volar por él deprisa y decir: bueno, ya me he leído veinte libros, treinta libros, cincuenta libros del campo."
+   ],
+   "origen": "2019/052-rich#b96-naval/3"
+  },
+  {
+   "id": "s266",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "En su momento tuve unas prácticas prestigiosas en un gran bufete de abogados de Nueva York."
+   ],
+   "origen": "2019/052-rich#b236-naval/0"
+  },
+  {
+   "id": "s267",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "La forma física es otro tema grande, solo que ahí no soy yo el experto."
+   ],
+   "origen": "2019/052-rich#b199-naval/20"
+  },
+  {
+   "id": "s268",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Así que creo que esas tres cosas, tu salud, tu salud mental y tus relaciones cercanas, son cosas que tienes que cultivar."
+   ],
+   "origen": "2019/035-finally-wealthy#b02-naval/28"
+  },
+  {
+   "id": "s269",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "El ejemplo clásico es invertir, pero puede ser en cualquier cosa."
+   ],
+   "origen": "2019/052-rich#b72-naval/13"
+  },
+  {
+   "id": "s270",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Entonces los pobres no pueden tener un Rolex y los Rolex recuperan su valor de señalización."
+   ],
+   "origen": "2019/052-rich#b129-naval/9"
+  },
+  {
+   "id": "s271",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "La tecnología limpia tardó más de lo esperado y Java nunca resultó ser un mercado enorme."
+   ],
+   "origen": "2019/051-angel-1#b66-naval/1"
+  },
+  {
+   "id": "s272",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Incluso YouTube tiene efectos de red débiles, pero aun así son lo bastante potentes como para que no haya de verdad un segundo sitio al que vayas a ver vídeo de forma habitual."
+   ],
+   "origen": "2019/052-rich#b139-naval/6"
+  },
+  {
+   "id": "s273",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Así que tu paquete de un millón de dólares en realidad vale diez mil dólares."
+   ],
+   "origen": "2019/052-rich#b266-naval/8"
+  },
+  {
+   "id": "s274",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Y ese mínimo imprescindible puede ser alto, pero aun así no va a ser riqueza de verdad, del tipo que te deja jubilado."
+   ],
+   "origen": "2019/052-rich#b34-naval/17"
+  },
+  {
+   "id": "s275",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Siempre deberías estar pensando en cómo tus usuarios, tus clientes, pueden aportarse valor unos a otros, porque esa es la forma definitiva de apalancamiento."
+   ],
+   "origen": "2019/052-rich#b141-naval/6"
+  },
+  {
+   "id": "s276",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Porque es un conjunto de habilidades que yo he desarrollado y que creo que cualquiera puede desarrollar."
+   ],
+   "origen": "2019/052-rich#b15-naval/5"
+  },
+  {
+   "id": "s277",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Tú levantaste dinero de ángeles, pero otro fue directo a los fondos de capital riesgo."
+   ],
+   "origen": "2019/051-angel-1#b78-naval/5"
+  },
+  {
+   "id": "s278",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Esto se pone un poco personal y no quiero presumir con falsa modestia."
+   ],
+   "origen": "2019/041-envy#b02-naval/0"
+  },
+  {
+   "id": "s279",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Cuando encuentras una habilidad así, estás ante conocimiento específico."
+   ],
+   "origen": "2019/052-rich#b286-naval/6"
+  },
+  {
+   "id": "s280",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Puede incluir diseño, puede incluir desarrollo, puede incluir fabricación, logística, compras, e incluso puede ser diseñar y operar un servicio."
+   ],
+   "origen": "2019/052-rich#b84-naval/4"
+  },
+  {
+   "id": "s281",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Y luego, ¿cuánta gente en el mundo está realmente interesada en eso?"
+   ],
+   "origen": "2019/052-rich#b48-naval/15"
+  },
+  {
+   "id": "s282",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Así puedes seguir jugando la partida con ellos, de forma que el interés compuesto y la alta confianza te faciliten jugar, y te dejen recoger las grandes recompensas."
+   ],
+   "origen": "2019/052-rich#b52-naval/19"
+  },
+  {
+   "id": "s283",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "En la última generación, las fortunas se hacían con capital."
+   ],
+   "origen": "2019/052-rich#b122-naval/1"
+  },
+  {
+   "id": "s284",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Pero quedó lo bastante impresionado de que me importara y de que lo hubiera pensado como para darme la oportunidad de invertir en Twitter."
+   ],
+   "origen": "2019/051-angel-1#b60-naval/15"
+  },
+  {
+   "id": "s285",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "A menudo, negocios que parecen estar en competencia directa en realidad no lo están."
+   ],
+   "origen": "2019/052-rich#b186-naval/7"
+  },
+  {
+   "id": "s286",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Te asocias con la marca de la empresa y después usas eso para entrar en operaciones más tempranas y más calientes."
+   ],
+   "origen": "2019/051-angel-1#b50-naval/3"
+  },
+  {
+   "id": "s287",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Es un juego de suma cero, en vez de un juego de suma positiva."
+   ],
+   "origen": "2019/052-rich#b09-naval/10"
+  },
+  {
+   "id": "s288",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Los profesionales pueden jugar en sitios como Londres, Austin, Seattle, Denver, Boulder y Chicago."
+   ],
+   "origen": "2019/051-angel-1#b17-naval/11"
+  },
+  {
+   "id": "s289",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Es esta: la autoestima es la reputación que tienes contigo mismo."
+   ],
+   "origen": "2019/052-rich#b63-naval/22"
+  },
+  {
+   "id": "s290",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Gates y Allen probablemente tenían responsabilidades parecidas en los primeros tiempos de Microsoft."
+   ],
+   "origen": "2019/052-rich#b85-naval/3"
+  },
+  {
+   "id": "s291",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Una sola buena funcionalidad de producto puede marcar la diferencia entre el encaje entre producto y mercado y el fracaso absoluto."
+   ],
+   "origen": "2019/052-rich#b282-naval/4"
+  },
+  {
+   "id": "s292",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Cuando la gente me pide consejo sobre qué startup elegir para entrar, yo digo: elige la que vaya a darte la mejor red de antiguos compañeros en el futuro."
+   ],
+   "origen": "2019/052-rich#b165-naval/2"
+  },
+  {
+   "id": "s293",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Las firmas grandes, en igualdad de condiciones, suelen ser peores que las pequeñas."
+   ],
+   "origen": "2019/042-principal-agent#b10-naval/2"
+  },
+  {
+   "id": "s294",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Un peón en India gana mucho menos porque no tiene apalancamiento de herramientas."
+   ],
+   "origen": "2019/052-rich#b142-naval/15"
+  },
+  {
+   "id": "s295",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Esto nos lleva otra vez a que el mundo es un lugar eficiente."
+   ],
+   "origen": "2019/052-rich#b204-naval/0"
+  },
+  {
+   "id": "s296",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Antiguamente se esperaba que el capitán se hundiera con el barco."
+   ],
+   "origen": "2019/052-rich#b112-naval/10"
+  },
+  {
+   "id": "s297",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "La gente que tiene la capacidad de fracasar en público bajo su propio nombre gana en realidad mucho poder."
+   ],
+   "origen": "2019/052-rich#b108-naval/9"
+  },
+  {
+   "id": "s298",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Lo que nunca he podido hacer es mirarles a la cara y decirles que tienen que estar en su mesa a las ocho de la mañana."
+   ],
+   "origen": "2019/036-rich-quick#b02-naval/35"
+  },
+  {
+   "id": "s299",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Si haces más de una de cada diez operaciones que miras, probablemente estás siendo demasiado optimista."
+   ],
+   "origen": "2019/051-angel-1#b41-naval/6"
+  },
+  {
+   "id": "s300",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Si miras la jerarquía del capital en una empresa, los empleados cobran primero."
+   ],
+   "origen": "2019/052-rich#b110-naval/2"
+  },
+  {
+   "id": "s301",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Del primer tipo de suerte podría decirse que es la suerte ciega."
+   ],
+   "origen": "2019/052-rich#b16-naval/0"
+  },
+  {
+   "id": "s302",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "En realidad hay cosas que puedes leer, sobre todo al principio, que programan tu cerebro de una cierta manera."
+   ],
+   "origen": "2019/052-rich#b92-naval/3"
+  },
+  {
+   "id": "s303",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Pero el elemento de trabajo en la producción de comida ha bajado muchísimo."
+   ],
+   "origen": "2019/052-rich#b131-naval/7"
+  },
+  {
+   "id": "s304",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Hay un montón de trabajos serviles que se hacen en una obra."
+   ],
+   "origen": "2019/052-rich#b142-naval/8"
+  },
+  {
+   "id": "s305",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "No te dan tanto dinero, pero te dan conocimiento importante."
+   ],
+   "origen": "2019/051-angel-1#b70-naval/1"
+  },
+  {
+   "id": "s306",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Tiene el problema de que la empresa puede cerrar y quedarse tu dinero."
+   ],
+   "origen": "2019/051-angel-1#b59-naval/6"
+  },
+  {
+   "id": "s307",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Pero son solo anécdotas, y tratan de ayudarte a reconocer patrones lanzándote un montón de datos, pero la realidad es que nunca vas a entenderlos del todo hasta que estés tú mismo en esa posición."
+   ],
+   "origen": "2019/052-rich#b99-naval/6"
+  },
+  {
+   "id": "s308",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Puedes montar una B Corporation, que tiene una misión doble."
+   ],
+   "origen": "2019/052-rich#b221-naval/6"
+  },
+  {
+   "id": "s309",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Por cierto, la mejor manera de aprender teoría de juegos es jugar a muchos juegos."
+   ],
+   "origen": "2019/052-rich#b101-naval/20"
+  },
+  {
+   "id": "s310",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "La comida se está volviendo barata y abundante, al menos en el primer mundo, demasiado incluso, para nuestro perjuicio."
+   ],
+   "origen": "2019/052-rich#b131-naval/4"
+  },
+  {
+   "id": "s311",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Si las mantienes presentes, poco a poco pero de forma constante te ayudarán a llegar a ciertas revelaciones que te llevarán a un estado interior más calmado."
+   ],
+   "origen": "2019/035-finally-wealthy#b02-naval/47"
+  },
+  {
+   "id": "s312",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Si estás en uno de esos trabajos, y a no ser que seas de un oficio cualificado, pongamos carpintero o electricista, en realidad no tienes conocimiento específico."
+   ],
+   "origen": "2019/052-rich#b142-naval/9"
+  },
+  {
+   "id": "s313",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Tengo edad suficiente para acordarme de cuando la tecnología limpia fue una ola que le costó mucho dinero a Kleiner Perkins, y de cuando Java fue otra ola que les costó mucho dinero a los inversores."
+   ],
+   "origen": "2019/051-angel-1#b66-naval/0"
+  },
+  {
+   "id": "s314",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Puede que estén sacando un cinco, un diez, un quince, un veinte o un veinticinco por ciento al año, pero ahí está limitado su potencial."
+   ],
+   "origen": "2019/052-rich#b110-naval/9"
+  },
+  {
+   "id": "s315",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Para cualquier inversor sofisticado, esa operación olía mal a un kilómetro."
+   ],
+   "origen": "2019/051-angel-1#b76-naval/6"
+  },
+  {
+   "id": "s316",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Algunos de los mejores inversores ángel consiguen sus primeras victorias invirtiendo en gente de su red cercana, en espacios que conocen bien."
+   ],
+   "origen": "2019/051-angel-1#b67-naval/6"
+  },
+  {
+   "id": "s317",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Y hace falta mucho trabajo hasta para construir cosas pequeñas."
+   ],
+   "origen": "2019/052-rich#b66-naval/11"
+  },
+  {
+   "id": "s318",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Que tú participes valida las operaciones y hace que salgan adelante, porque tú no te meterías en algo de baja calidad."
+   ],
+   "origen": "2019/052-rich#b231-naval/4"
+  },
+  {
+   "id": "s319",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Algunos grandes fundadores hacen realidad su visión filantrópica dirigiendo un negocio."
+   ],
+   "origen": "2019/052-rich#b221-naval/10"
+  },
+  {
+   "id": "s320",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Un nivel más allá podría ser alguien que dice: en realidad, quiero aplicar el máximo apalancamiento posible en este mercado, y el máximo conocimiento específico."
+   ],
+   "origen": "2019/052-rich#b146-naval/0"
+  },
+  {
+   "id": "s321",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Pues bien, si no se te da bien ya o si no te interesa de verdad, quizá no sea lo tuyo, céntrate en aquello que sí te apasiona."
+   ],
+   "origen": "2019/052-rich#b75-naval/15"
+  },
+  {
+   "id": "s322",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Circulaba un hilo por Twitter que decía: nombra cinco trabajos que hayas tenido."
+   ],
+   "origen": "2019/052-rich#b235-naval/1"
+  },
+  {
+   "id": "s323",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Tu primer trabajo es ir a conseguir apalancamiento, y puedes conseguirlo con permiso, haciendo que la gente trabaje para ti, o levantando capital."
+   ],
+   "origen": "2019/052-rich#b148-naval/1"
+  },
+  {
+   "id": "s324",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "También hay sectores en los que la gente es transitoria por definición."
+   ],
+   "origen": "2019/052-rich#b53-naval/11"
+  },
+  {
+   "id": "s325",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Puede que no tuviera suficiente confianza en sus habilidades comerciales, pero fue el programador que escribió Netscape Navigator, o buena parte de él."
+   ],
+   "origen": "2019/052-rich#b86-naval/10"
+  },
+  {
+   "id": "s326",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Ese espacio acabó convirtiéndose en TripAdvisor y Yelp, que es adonde deberíamos haber ido nosotros."
+   ],
+   "origen": "2019/052-rich#b187-naval/1"
+  },
+  {
+   "id": "s327",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Si estás jubilado, ponlos a prueba para ver si son ciertos y luego enséñaselos a tus hijos o a tus nietos."
+   ],
+   "origen": "2019/052-rich#b224-naval/13"
+  },
+  {
+   "id": "s328",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "No quieres pasártela haciendo cosas que no forman parte de tu misión."
+   ],
+   "origen": "2019/052-rich#b168-naval/10"
+  },
+  {
+   "id": "s329",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Una cosa sencilla que veo es que entro en Twitter y parece que la mitad de Twitter está indignada por algo en todo momento."
+   ],
+   "origen": "2019/052-rich#b156-naval/0"
+  },
+  {
+   "id": "s330",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Pregúntate: en qué soy realmente bueno, según la observación y la gente en la que confío, que el mercado valore."
+   ],
+   "origen": "2019/052-rich#b191-naval/21"
+  },
+  {
+   "id": "s331",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Si soy leñador con excavadoras, hachas robóticas automáticas y sierras, estoy usando herramientas."
+   ],
+   "origen": "2019/052-rich#b37-naval/21"
+  },
+  {
+   "id": "s332",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Hay muchas excepciones importantes a todo lo que vamos a contar."
+   ],
+   "origen": "2019/051-angel-1#b10-naval/2"
+  },
+  {
+   "id": "s333",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "La combinación de las tres cosas debería ser tu objetivo absoluto."
+   ],
+   "origen": "2019/052-rich#b164-naval/2"
+  },
+  {
+   "id": "s334",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Pero incluso en el negocio de las lavanderías podría ser la persona que está construyendo el servicio de lavandería, la que hace que los trenes salgan puntuales."
+   ],
+   "origen": "2019/052-rich#b84-naval/8"
+  },
+  {
+   "id": "s335",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Entrénate para pensar como un principal y al final llegarás a ser un principal."
+   ],
+   "origen": "2019/042-principal-agent#b07-naval/2"
+  },
+  {
+   "id": "s336",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Mi apuesta es que lo que pasaría es que construiríamos robots, máquinas, software y hardware para hacerlo todo."
+   ],
+   "origen": "2019/052-rich#b11-naval/16"
+  },
+  {
+   "id": "s337",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "En vez de leer ahora mismo un libro sobre biotecnología que puede ser muy avanzado, yo cogería El octavo día de la creación, de Watson y Crick."
+   ],
+   "origen": "2019/052-rich#b92-naval/9"
+  },
+  {
+   "id": "s338",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "La cantidad de horas que le metías a algo era un indicador fiable del resultado que ibas a obtener."
+   ],
+   "origen": "2019/052-rich#b282-naval/1"
+  },
+  {
+   "id": "s339",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Porque yo no voy a estar en mi mesa a las ocho de la mañana."
+   ],
+   "origen": "2019/036-rich-quick#b02-naval/36"
+  },
+  {
+   "id": "s340",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Si entiendes los fundamentos, sobre todo en matemáticas, física y ciencias, entonces no le tendrás miedo a ningún libro."
+   ],
+   "origen": "2019/052-rich#b93-naval/0"
+  },
+  {
+   "id": "s341",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Todo el mundo intenta volverse más listo adoptando modelos mentales."
+   ],
+   "origen": "2019/042-principal-agent#b02-naval/1"
+  },
+  {
+   "id": "s342",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Nunca he sido capaz de decirles que hoy son un gran director y que mañana serán vicepresidentes, metiéndoles en esa vía fría de carrera profesional."
+   ],
+   "origen": "2019/052-rich#b206-naval/13"
+  },
+  {
+   "id": "s343",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Por ejemplo, digamos que eres muy buen ingeniero y la gente te dice que ahora tienes que ser bueno vendiendo."
+   ],
+   "origen": "2019/052-rich#b87-naval/7"
+  },
+  {
+   "id": "s344",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Necesitas a alguien con mucha energía, porque el mundo está lleno de gente lista y perezosa."
+   ],
+   "origen": "2019/052-rich#b60-naval/4"
+  },
+  {
+   "id": "s345",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Hay algo importante en el emprendimiento: solo tienes que acertar una vez."
+   ],
+   "origen": "2019/052-rich#b189-naval/25"
+  },
+  {
+   "id": "s346",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Cuando averiguamos cómo hacer que funcionaran, desaparecieron al fondo y pasaron a formar parte de nuestra vida diaria."
+   ],
+   "origen": "2019/052-rich#b280-naval/3"
+  },
+  {
+   "id": "s347",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Si no estás aprendiendo de esa persona y mejorando, nadie debería estar por encima de ti."
+   ],
+   "origen": "2019/052-rich#b227-naval/6"
+  },
+  {
+   "id": "s348",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Discutía con mis novias: yo no hago eso, ese no es un problema que yo resuelva."
+   ],
+   "origen": "2019/052-rich#b160-naval/6"
+  },
+  {
+   "id": "s349",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Cuando conoces gente esperando ese golpe de suerte, dependes de la suerte de tipo uno, que es la suerte ciega, y de la de tipo dos, que es la suerte del que se mueve mucho."
+   ],
+   "origen": "2019/052-rich#b174-naval/4"
+  },
+  {
+   "id": "s350",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Warren Buffett gana aquí porque tiene una credibilidad enorme."
+   ],
+   "origen": "2019/052-rich#b149-naval/9"
+  },
+  {
+   "id": "s351",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Ahora bien, ser fundador es mucho más satisfactorio que invertir."
+   ],
+   "origen": "2019/051-angel-1#b32-naval/7"
+  },
+  {
+   "id": "s352",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Estás mejorando constantemente, eres el peor crítico de tu negocio, y cada cosita que está mal en tu producto te molesta."
+   ],
+   "origen": "2019/051-angel-1#b40-naval/5"
+  },
+  {
+   "id": "s353",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Al final me echaron y me mandaron a casa con la vergüenza de haber perdido unas prácticas prestigiosas, y con ello se destruyó mi opción de ir a la facultad de derecho."
+   ],
+   "origen": "2019/052-rich#b236-naval/14"
+  },
+  {
+   "id": "s354",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Un gran ingeniero puede, por ejemplo, crear bitcoin y crear miles de millones de dólares de valor."
+   ],
+   "origen": "2019/052-rich#b37-naval/5"
+  },
+  {
+   "id": "s355",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Aunque este podcast es un esfuerzo amateur, cortamos las cosas en fragmentos, limpiamos las voces y creamos transcripciones y destacados."
+   ],
+   "origen": "2019/051-angel-1#b53-naval/12"
+  },
+  {
+   "id": "s356",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Hubo un tiempo en el que el petróleo era una tecnología, y eso hizo rico a J.D. Rockefeller."
+   ],
+   "origen": "2019/052-rich#b43-naval/6"
+  },
+  {
+   "id": "s357",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Por ejemplo, tenía un amigo en cuya empresa invertí, y la empresa fracasó, y podría haber barrido a todos los inversores."
+   ],
+   "origen": "2019/052-rich#b63-naval/10"
+  },
+  {
+   "id": "s358",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Es todo para lo que tienes tiempo mientras estás en esta misión."
+   ],
+   "origen": "2019/052-rich#b161-naval/12"
+  },
+  {
+   "id": "s359",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Pero creo que sirven para cualquiera que quiera ser emprendedor."
+   ],
+   "origen": "2019/052-rich#b223-naval/1"
+  },
+  {
+   "id": "s360",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Así que un promotor de ese tipo asume más responsabilidad y tiene más riesgo."
+   ],
+   "origen": "2019/052-rich#b144-naval/5"
+  },
+  {
+   "id": "s361",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Puede que no esté construyendo los cohetes él mismo, pero entiende lo suficiente como para hacer aportaciones técnicas de verdad."
+   ],
+   "origen": "2019/052-rich#b86-naval/4"
+  },
+  {
+   "id": "s362",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "No voy a dar nombres, pero cuando un economista famoso arremete contra Bitcoin, o cuando un periodista de negocios ataca a la última empresa que sale a bolsa, es un disparate absoluto."
+   ],
+   "origen": "2019/036-rich-quick#b04-naval/2"
+  },
+  {
+   "id": "s363",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Si cierras tratos justos con la gente, no cobrarás a corto plazo."
+   ],
+   "origen": "2019/040-ethics#b07-naval/5"
+  },
+  {
+   "id": "s364",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Otra persona podría decir: me gusta ese apalancamiento, pero no quiero gestionar a toda esa gente."
+   ],
+   "origen": "2019/052-rich#b145-naval/4"
+  },
+  {
+   "id": "s365",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Están apalancados con capital riesgo, con productos sin coste marginal de reproducción y con los métodos de distribución más modernos."
+   ],
+   "origen": "2019/051-angel-1#b30-naval/3"
+  },
+  {
+   "id": "s366",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "La forma número uno en la que la gente se arruina en los negocios modernos no es apostando demasiado."
+   ],
+   "origen": "2019/052-rich#b250-naval/7"
+  },
+  {
+   "id": "s367",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Este lo tenemos un poco menos cableado, porque las grandes cantidades de dinero moviéndose, ahorrándose e invirtiéndose en mercados monetarios son inventos humanos bastante recientes."
+   ],
+   "origen": "2019/052-rich#b119-naval/1"
+  },
+  {
+   "id": "s368",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Hay muchísimos libros que simplemente no se han traducido a otros idiomas."
+   ],
+   "origen": "2019/052-rich#b140-naval/16"
+  },
+  {
+   "id": "s369",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Y en esencia eres reemplazable, porque ahora ocupas un papel fijo."
+   ],
+   "origen": "2019/052-rich#b35-naval/5"
+  },
+  {
+   "id": "s370",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Ellos querían que me quedara ahí sentado en silencio y sin leer el periódico."
+   ],
+   "origen": "2019/052-rich#b236-naval/11"
+  },
+  {
+   "id": "s371",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Así que el conocimiento específico es el conocimiento que te importa."
+   ],
+   "origen": "2019/052-rich#b72-naval/15"
+  },
+  {
+   "id": "s372",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Pero una ventaja es que sí que cierran acuerdos entre ellos, porque saben que el otro va a seguir en el mismo puesto dentro de diez años."
+   ],
+   "origen": "2019/052-rich#b53-naval/17"
+  },
+  {
+   "id": "s373",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "En vez de leer un libro sobre biología o evolución escrito hoy, yo cogería El origen de las especies de Darwin."
+   ],
+   "origen": "2019/052-rich#b92-naval/8"
+  },
+  {
+   "id": "s374",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Consiste en coger cosas de la ciencia y de la cultura que todavía no sabemos producir en masa ni crear de forma eficiente, y averiguar cómo comercializarlas y ponerlas al alcance de todo el mundo."
+   ],
+   "origen": "2019/052-rich#b280-naval/5"
+  },
+  {
+   "id": "s375",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Tim O'Reilly, en OATV, publica contenido y organiza conferencias."
+   ],
+   "origen": "2019/051-angel-1#b52-naval/9"
+  },
+  {
+   "id": "s376",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Creo que existe esta idea de que ganar dinero es malvado, ¿verdad?"
+   ],
+   "origen": "2019/052-rich#b10-naval/0"
+  },
+  {
+   "id": "s377",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Pero, por lo que sea, por educación, por circunstancias, no tuvo la oportunidad de pensar tan a lo grande, así que el resultado no es tan grande."
+   ],
+   "origen": "2019/052-rich#b66-naval/14"
+  },
+  {
+   "id": "s378",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Vender no significa necesariamente solo venderle a clientes individuales, puede significar marketing, puede significar comunicar, puede significar reclutar."
+   ],
+   "origen": "2019/052-rich#b84-naval/12"
+  },
+  {
+   "id": "s379",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "En cambio, la mayoría de la gente quiere ganar un poquito de dinero cada día y, a cambio, tolera mucho riesgo de estallido, tolera acabar completamente en bancarrota."
+   ],
+   "origen": "2019/052-rich#b103-naval/7"
+  },
+  {
+   "id": "s380",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Pero cada vez creo más que los jóvenes se están dando cuenta de que, si van a trabajar, van a trabajar para sí mismos."
+   ],
+   "origen": "2019/052-rich#b227-naval/12"
+  },
+  {
+   "id": "s381",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "A menudo los mejores ingenieros no son los que más trabajan."
+   ],
+   "origen": "2019/052-rich#b282-naval/6"
+  },
+  {
+   "id": "s382",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Es esa comprensión que llega por la repetición, por el uso, por la lógica y por los fundamentos la que de verdad te convierte en un pensador inteligente."
+   ],
+   "origen": "2019/052-rich#b96-naval/5"
+  },
+  {
+   "id": "s383",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Hay gente que sale a crear cosas, y a construir cosas, y a trabajar duro en cosas."
+   ],
+   "origen": "2019/052-rich#b10-naval/5"
+  },
+  {
+   "id": "s384",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "No es yendo a la universidad a estudiar el trabajo más de moda, ni metiéndote en el campo que los inversores digan que está más caliente."
+   ],
+   "origen": "2019/052-rich#b74-naval/4"
+  },
+  {
+   "id": "s385",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "No puedes ir arrastrando variables y formar salidas lógicas absolutas."
+   ],
+   "origen": "2019/052-rich#b191-naval/10"
+  },
+  {
+   "id": "s386",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Si de verdad quieres que te paguen en este mundo, tienes que ser el número uno en lo que hagas."
+   ],
+   "origen": "2019/052-rich#b176-naval/0"
+  },
+  {
+   "id": "s387",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Si entiendes la lógica y las matemáticas, entonces tienes la base para entender el método científico."
+   ],
+   "origen": "2019/052-rich#b95-naval/14"
+  },
+  {
+   "id": "s388",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Buena parte de la sabiduría consiste en darse cuenta de las consecuencias a largo plazo de tus actos."
+   ],
+   "origen": "2019/040-ethics#b07-naval/12"
+  },
+  {
+   "id": "s389",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Tienes que ponerte en esa posición con conocimiento específico, responsabilidad, apalancamiento y un conjunto de habilidades auténtico para ser el mejor del mundo en lo que haces."
+   ],
+   "origen": "2019/052-rich#b189-naval/13"
+  },
+  {
+   "id": "s390",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Luego el último tipo de suerte es el más raro y el más difícil."
+   ],
+   "origen": "2019/052-rich#b19-naval/0"
+  },
+  {
+   "id": "s391",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "En cuanto a la afición que te mantiene en forma, no tengo ninguna de verdad."
+   ],
+   "origen": "2019/052-rich#b215-naval/6"
+  },
+  {
+   "id": "s392",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Resulta que las clases y las charlas que damos son en gran medida inútiles."
+   ],
+   "origen": "2019/052-rich#b286-naval/1"
+  },
+  {
+   "id": "s393",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Y quieres seguir cambiando lo que haces hasta que seas el número uno."
+   ],
+   "origen": "2019/052-rich#b176-naval/8"
+  },
+  {
+   "id": "s394",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Si quiere un correo, mira a ver si acepta un mensaje de texto."
+   ],
+   "origen": "2019/052-rich#b170-naval/2"
+  },
+  {
+   "id": "s395",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Tampoco quieres una marca demasiado estrecha ni una marca en un espacio que no se materializa."
+   ],
+   "origen": "2019/051-angel-1#b64-naval/1"
+  },
+  {
+   "id": "s396",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Me habría leído el reverso de un folleto con tal de no volverme loco, porque escuchar a un grupo de abogados de empresa discutir cómo optimizar los detalles de un contrato es realmente aburridísimo."
+   ],
+   "origen": "2019/041-envy#b04-naval/9"
+  },
+  {
+   "id": "s397",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Porque puedes apostar a que si están invitando a un desconocido, ya han agotado su red de aliados y camaradas cercanos."
+   ],
+   "origen": "2019/051-angel-1#b68-naval/4"
+  },
+  {
+   "id": "s398",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Llegan los fondos de capital riesgo, pagan valoraciones bajas y barren a los inversores tempranos convirtiéndolos a ordinarias y poniéndoles warrants encima."
+   ],
+   "origen": "2019/051-angel-1#b19-naval/7"
+  },
+  {
+   "id": "s399",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Porque tus jefes, compañeros e inversores listos se darán cuenta de que eres de clase mundial en esa cosa concreta."
+   ],
+   "origen": "2019/052-rich#b184-naval/14"
+  },
+  {
+   "id": "s400",
+   "voz": "naval",
+   "ref": "naval",
+   "frases": [
+    "Ev acababa de devolverles un montón de dinero a unos inversores por una aventura de podcasting fallida que se llamaba Odeo."
+   ],
+   "origen": "2019/051-angel-1#b60-naval/8"
+  }
+ ]
+}

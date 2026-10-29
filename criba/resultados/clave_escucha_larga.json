@@ -1,0 +1,34 @@
+{
+  "n25": {
+    "A": "dots_soar",
+    "B": "chatterbox_v3_es",
+    "C": "qwen3tts_1.7b",
+    "D": "xtts_base",
+    "E": "omnivoice",
+    "F": "chatterbox_v2"
+  },
+  "k10": {
+    "A": "chatterbox_v2",
+    "B": "chatterbox_v3_es",
+    "C": "omnivoice",
+    "D": "qwen3tts_1.7b",
+    "E": "xtts_base",
+    "F": "dots_soar"
+  },
+  "b10": {
+    "A": "omnivoice",
+    "B": "xtts_base",
+    "C": "qwen3tts_1.7b",
+    "D": "dots_soar",
+    "E": "chatterbox_v2",
+    "F": "chatterbox_v3_es"
+  },
+  "v10": {
+    "A": "dots_soar",
+    "B": "chatterbox_v3_es",
+    "C": "omnivoice",
+    "D": "xtts_base",
+    "E": "qwen3tts_1.7b",
+    "F": "chatterbox_v2"
+  }
+}
