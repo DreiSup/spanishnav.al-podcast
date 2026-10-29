@@ -165,6 +165,14 @@ entrenamiento. Si no convence, se prueban otros métodos.
   copia solo el timbre de la referencia, no la forma de hablar. Puede reducir el acento
   por sí solo.
 
+## Decidido tras la escucha a ciegas (2026-10-29)
+
+En la escucha a ciegas del autor (`criba/resultados/resumen.md`) ganó OmniVoice por
+equilibrio. Qwen3-TTS tuvo el acento más marcado y no clonó bien a Nivi. Con una muestra
+de 4 audios por motor, **el piloto de fine-tuning se hace con los dos, Qwen3-TTS y
+OmniVoice, y con los mismos datos**. El que quede mejor de acento sin perder timbre será
+el motor definitivo.
+
 ## El camino hasta el objetivo, en este orden
 
 1. **Elegir el motor.** Pruebas con varios modelos y varias iteraciones hasta decidir cuál
