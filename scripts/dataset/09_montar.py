@@ -112,6 +112,31 @@ def recortar_train(train: list, tope_s: float) -> list:
     return train
 
 
+def repartir_train(train: list, cfg: dict) -> list:
+    """Sin train_min: todo lo aprobado. Con cuotas por grupo (minutos): cada grupo hasta su
+    cuota y lo que le falte a uno lo completa el otro, hasta el tope de train_min."""
+    if not cfg.get("train_min"):
+        return train
+    tope = cfg["train_min"][1] * 60
+    cuotas = cfg.get("cuotas_train_min")
+    if not cuotas:
+        return recortar_train(train, tope)
+    grupos = {}
+    for c in train:
+        grupos.setdefault(c["grupo"], []).append(c)
+    disp = {g: sum(c["dur"] for c in cs) for g, cs in grupos.items()}
+    asig = {g: min(disp.get(g, 0), cuotas.get(g, 0) * 60) for g in grupos}
+    sobra = tope - sum(asig.values())
+    for g in sorted(grupos, key=lambda g: -(disp[g] - asig[g])):
+        extra = min(max(sobra, 0), disp[g] - asig[g])
+        asig[g] += extra
+        sobra -= extra
+    out = []
+    for g, cs in grupos.items():
+        out += recortar_train(cs, asig[g])
+    return out
+
+
 def elegir_eval(cands: list, objetivo_s: float, refs: list) -> list:
     por_f = {}
     for c in sorted(cands, key=lambda c: -c["punt"]):
@@ -171,15 +196,15 @@ def main():
         fuentes_ok.append({**fu, "sr": d["sr"], "n_medidos": len(d["clips"])})
         for c in d["clips"]:
             c["split_fuente"], c["registro"] = fu["split"], fu["registro"]
+            c["grupo"] = fu.get("grupo", fu["registro"])
             c["motivos"] = motivos(c, u)
             c["punt"] = puntuacion(c)
             todos.append(c)
     if not todos:
         raise SystemExit("no hay clips")
     aprob = [c for c in todos if not c["motivos"]]
-    train = recortar_train([c for c in aprob if c["split_fuente"] == "train"],
-                           cfg["train_min"][1] * 60)
-    ev_obj = sum(cfg["eval_min"]) / 2 * 60
+    train = repartir_train([c for c in aprob if c["split_fuente"] == "train"], cfg)
+    ev_obj = sum(cfg["eval_min"]) / 2 * 60 if cfg.get("eval_min") else float("inf")
     ev = elegir_eval([c for c in aprob if c["split_fuente"] == "eval"], ev_obj, refs)
     for c in train:
         c["split"] = "train"
@@ -258,6 +283,9 @@ def main():
          f"**train: {mins(final, split='train')} min ({sum(c['split'] == 'train' for c in final)} "
          f"clips) · eval: {mins(final, split='eval')} min "
          f"({sum(c['split'] == 'eval' for c in final)} clips)**", "",
+         "train por grupo: " + ", ".join(
+             f"{g} {mins([c for c in final if c['split'] == 'train'], grupo=g)} min"
+             for g in sorted({c['grupo'] for c in final if c['split'] == 'train'})), "",
          "| Fuente | Registro | Split | Medidos (min) | Aprobados (min) | En el dataset (min) |",
          "|---|---|---|---|---|---|"]
     for f in fj:
@@ -284,6 +312,12 @@ def main():
     # --- página de escucha (fuera del dataset)
     rnd = random.Random(a.semilla)
     muestra = rnd.sample(filas, min(a.escuchar, len(filas)))
+    franja = cfg.get("revision_cps")      # p. ej. [22, 25]: clips rápidos para escuchar aparte
+    muestra_cps = []
+    if franja:
+        en_f = [r for r in filas if franja[0] < len(r["text"]) / r["dur"] <= franja[1]
+                and r not in muestra]
+        muestra_cps = rnd.sample(en_f, min(5, len(en_f)))
     rech_c = [c for c in todos if c["motivos"]]
     muestra_r = rnd.sample(rech_c, min(10, len(rech_c)))
     shutil.rmtree(revision, ignore_errors=True)
@@ -295,13 +329,14 @@ def main():
                  aplicar_ganancia(r07.cortar(F, c["start"], c["end"]), ganancia_db(c)),
                  F.sr, subtype="PCM_16")
         c["_wav"] = f"rechazados/{nom}"
-    (revision / "escuchar.html").write_text(html_escuchar(h, muestra, muestra_r, salida),
+    (revision / "escuchar.html").write_text(html_escuchar(h, muestra, muestra_r, salida, muestra_cps, franja),
                                              encoding="utf-8")
     log(f"listo: {salida} train {mins(final, split='train')} min, eval "
         f"{mins(final, split='eval')} min; escucha: {revision / 'escuchar.html'}")
 
 
-def html_escuchar(h: str, muestra: list, rech: list, salida: Path) -> str:
+def html_escuchar(h: str, muestra: list, rech: list, salida: Path, rapidos: list,
+                  franja) -> str:
     import html
     e = html.escape
     p = ["<!doctype html><html lang='es'><head><meta charset='utf-8'>",
@@ -316,14 +351,21 @@ def html_escuchar(h: str, muestra: list, rech: list, salida: Path) -> str:
          ".m{color:var(--mut);font-size:.85rem}.bad{color:var(--bad);font-weight:600}"
          "</style></head><body>", f"<h1>Revisión del dataset {e(h)}</h1>",
          f"<h2>{len(muestra)} clips aprobados al azar</h2>"]
-    for i, r in enumerate(muestra, 1):
+    def fila(i, r):
         p.append(f"<div class='c'><b>{i}. {e(r['id'])}</b> <span class='m'>{e(r['split'])}</span>"
                  f"<audio controls preload='none' src='{e(str(salida / r['file']))}'></audio>"
                  f"<div>{e(r['text'])}</div><div class='m'>{e(r['source_id'])} "
                  f"{r['start']:.1f}-{r['end']:.1f}s ({r['dur']:.1f}s) | sim {r['sim']:.3f} | "
                  f"asr {r['asr_conf']:.3f} (min {r['asr_conf_min']:.2f}) | DNSMOS {r['mos']:.2f} "
                  f"(sig {r['dnsmos']['sig']:.2f}, bak {r['dnsmos']['bak']:.2f}) | "
-                 f"WER {r['wer_largo']:.2f} | ganancia {r['gain_db']:+.1f} dB</div></div>")
+                 f"WER {r['wer_largo']:.2f} | {len(r['text']) / r['dur']:.1f} car./s | "
+                 f"ganancia {r['gain_db']:+.1f} dB</div></div>")
+    for i, r in enumerate(muestra, 1):
+        fila(i, r)
+    if rapidos:
+        p.append(f"<h2>{len(rapidos)} clips rápidos ({franja[0]}-{franja[1]} car./s) al azar</h2>")
+        for i, r in enumerate(rapidos, 1):
+            fila(i, r)
     p.append(f"<h2>{len(rech)} rechazados al azar (para calibrar umbrales)</h2>")
     for c in rech:
         p.append(f"<div class='c'><span class='bad'>{e(', '.join(c['motivos']))}</span>"

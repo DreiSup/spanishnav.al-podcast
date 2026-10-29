@@ -1,17 +1,57 @@
 {
-  "nota": "Dataset de fine-tuning de Naval (Parte 2, piloto LoRA Qwen3-TTS / OmniVoice). Fuentes aprobadas el 2026-10-29. eval sale de episodios que no están en train.",
+  "nota": "Dataset de fine-tuning de Naval (Parte 2, piloto LoRA Qwen3-TTS / OmniVoice). Fuentes aprobadas el 2026-10-29; nav072 (Kapil) fuera: va en naval_kapil. train 50/50 monólogo/conversación. eval sale de episodios que no están en train.",
   "hablante": "naval",
-  "train_min": [60, 70],
-  "eval_min": [3, 5],
+  "train_min": [
+    60,
+    70
+  ],
+  "eval_min": [
+    3,
+    5
+  ],
   "fuentes": [
-    {"id": "nav056", "split": "train", "registro": "monólogo calmado"},
-    {"id": "nav167", "split": "train", "registro": "conversación (mesa redonda)"},
-    {"id": "nav072", "split": "train", "registro": "conversación"},
-    {"id": "nav109", "split": "train", "registro": "conversación"},
-    {"id": "nav074", "split": "train", "registro": "conversación"},
-    {"id": "nav139", "split": "eval", "registro": "conversación"},
-    {"id": "nav135", "split": "eval", "registro": "conversación"},
-    {"id": "nav081", "split": "eval", "registro": "monólogo calmado"}
+    {
+      "id": "nav056",
+      "split": "train",
+      "registro": "monólogo calmado",
+      "grupo": "monologo"
+    },
+    {
+      "id": "nav167",
+      "split": "train",
+      "registro": "conversación (mesa redonda)",
+      "grupo": "conversacion"
+    },
+    {
+      "id": "nav109",
+      "split": "train",
+      "registro": "conversación",
+      "grupo": "conversacion"
+    },
+    {
+      "id": "nav074",
+      "split": "train",
+      "registro": "conversación",
+      "grupo": "conversacion"
+    },
+    {
+      "id": "nav139",
+      "split": "eval",
+      "registro": "conversación",
+      "grupo": "conversacion"
+    },
+    {
+      "id": "nav135",
+      "split": "eval",
+      "registro": "conversación",
+      "grupo": "conversacion"
+    },
+    {
+      "id": "nav081",
+      "split": "eval",
+      "registro": "monólogo calmado",
+      "grupo": "monologo"
+    }
   ],
   "umbrales": {
     "sim_min": 0.6,
@@ -19,7 +59,18 @@
     "asr_min_min": 0.3,
     "dnsmos_ovrl_min": 3.0,
     "wer_largo_max": 0.15,
-    "cps": [8, 22],
+    "cps": [
+      8,
+      25
+    ],
     "pico_max_dbfs": -0.1
-  }
+  },
+  "cuotas_train_min": {
+    "conversacion": 35,
+    "monologo": 35
+  },
+  "revision_cps": [
+    22,
+    25
+  ]
 }

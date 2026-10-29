@@ -20,6 +20,8 @@ Métricas por clip (cortando de orig.wav, nunca el episodio entero):
   clip solo con faster-whisper large-v3 (beam 5, sin prompt): ese es el texto literal;
   wer_largo lo compara con el texto del ASR largo (un corte que se come una palabra sube).
 
+`naval_kapil` = tramos de naval medidos contra emb/naval_kapil.npy (Naval con Kapil).
+
 Salida: trabajo/<id>/clips_<hablante>.json. Se salta si existe (--forzar para rehacer).
 
 Uso: 08_clips.py <hablante> <id> [<id> ...] [--forzar] [--cpu] [--modelo-asr tiny]
@@ -60,7 +62,9 @@ def margen(hueco: float) -> float:
 
 
 def segmentar(F, h: str, extremos: float, rech: dict) -> list:
-    """Clips (s, e, c0, c1, ti) por programación dinámica sobre los puntos de corte."""
+    """Clips (s, e, c0, c1, ti) por programación dinámica sobre los puntos de corte.
+    naval_kapil usa los tramos de naval (la fuente decide el registro, no la etiqueta)."""
+    h = r07.real(h)
     otros = F.otros(h)
     sl, el, ts = F.sl, F.el, F.ts_l
     out = []
