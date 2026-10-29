@@ -117,7 +117,7 @@ Cuatro cosas que hay que entender:
 **Los ids son de bloque, no de frase.** `transcript.es.json` y su `.en` llevan los mismos
 ids de bloque —los bloques sí se corresponden—, pero **el troceado en `frases` es
 independiente en cada idioma**: la traducción parte las frases largas y funde las muy
-cortas para que el TTS suene mejor, y eso es correcto. Verificado en `035-finally-wealthy`:
+cortas para que el TTS suene mejor, y eso es correcto. Verificado en `035-a-calm-mind-a-fit-body-a-house-full-of-love`:
 4 bloques en ambos idiomas con los mismos hablantes, 65 frases en inglés y 68 en español.
 
 ### `metadata.en.json`
@@ -294,7 +294,7 @@ YouTube Studio.
 | `scripts/nuevo-episodio.sh` | Crea la carpeta de un episodio con los cuatro `.json`. Al día |
 | `scripts/indice.py` | Regenera `INDICE.md`. Al día |
 | `scripts/extraer-episodios.py` | Convierte los `.txt` pegados a mano en `trabajo/manual/` a JSON crudo en `trabajo/extraccion/`. Modo por defecto `manual`, probado. Los modos `api` y `paginas` bajan de nav.al y **no forman parte del flujo** |
-| `scripts/normalizar-extraccion.py` | Convierte el par de transcripts (en + es) en los cuatro `.json` del episodio, les pone los ids de bloque y marca `tiene_transcript: true` en `catalogo.json`. Estrenado con `035-finally-wealthy` |
+| `scripts/normalizar-extraccion.py` | Convierte el par de transcripts (en + es) en los cuatro `.json` del episodio, les pone los ids de bloque y marca `tiene_transcript: true` en `catalogo.json`. Estrenado con `035-a-calm-mind-a-fit-body-a-house-full-of-love` |
 | `scripts/unir-audios.sh` | **Nunca ejecutado y desactualizado.** Ordena los clips alfabéticamente; debe reescribirse para leer el orden y los ids de `transcript.es.json`. No lo uses todavía |
 | `scripts/render-video.sh` | **Nunca ejecutado.** Opera sobre un directorio de trabajo local, no sobre el repo |
 

@@ -30,7 +30,7 @@ El **troceado en `frases` dentro de cada bloque es otra cosa**: no genera ficher
 se le entrega el texto al TTS para que respire. En español lo decide quien traduce, porque
 partir una frase larga o fundir un "Sí." suelto con la siguiente es una decisión de doblaje.
 Por eso el número de frases no tiene por qué coincidir entre idiomas, y no coincide: en
-`035-finally-wealthy` son 65 en inglés y 68 en español, con los mismos 4 bloques.
+`035-a-calm-mind-a-fit-body-a-house-full-of-love` son 65 en inglés y 68 en español, con los mismos 4 bloques.
 
 ## Cómo se pega un episodio
 

@@ -13,8 +13,7 @@ paralelo: no la toques.
 
 ## Contexto que tienes que leer, en este orden
 
-El repo es DreiSup/spanishnav.al-podcast. La documentación está en la rama
-claude/quirky-dirac-x18c3n, no en main. Haz fetch de esa rama y léela desde ahí.
+El repo es DreiSup/spanishnav.al-podcast. La documentación está en main.
 
 1. CLAUDE.md, entero. Estructura del repo, esquemas JSON y reglas. La más importante:
    GitHub guarda texto y punteros, Google Drive guarda bytes.
@@ -22,7 +21,7 @@ claude/quirky-dirac-x18c3n, no en main. Haz fetch de esa rama y léela desde ah�
 3. docs/rss.md: cómo funciona el feed RSS y por qué recomendamos un feed propio.
 4. docs/youtube.md: cómo se consigue el enlace al vídeo original de Naval.
 5. docs/almacenamiento.md: Drive, rclone y por qué el audio nunca entra en git.
-6. Un episodio de ejemplo completo: episodios/2019/035-finally-wealthy/, sobre todo
+6. Un episodio de ejemplo completo: episodios/2019/035-a-calm-mind-a-fit-body-a-house-full-of-love/, sobre todo
    metadata.es.json, que ya trae la plantilla de la descripción de YouTube.
 7. catalogo.json (solo su estructura) e INDICE.md.
 8. scripts/render-video.sh (está sin probar).

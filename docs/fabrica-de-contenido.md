@@ -60,7 +60,7 @@ audio limpio (Drive)  ──►  workflow de publicación  ──►  web spanis
   sola vez. Ese feed es la pieza clave: con él, las dos plataformas se actualizan solas
   con cada episodio nuevo.
 - **La descripción** ya tiene plantilla: `metadata.es.json → youtube.descripcion`, ver
-  `035-finally-wealthy`.
+  `035-a-calm-mind-a-fit-body-a-house-full-of-love`.
 - **El aviso de IA** va en cada episodio, en español y en inglés.
 
 ## Pendiente de decidir con el autor
