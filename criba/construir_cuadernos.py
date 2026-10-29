@@ -330,6 +330,75 @@ comun.generar("qwen3tts_1.7b", sintetizar, ITEMS, REFS, SILENCIO_MS,
     cierre(["qwen3tts_1.7b"]),
 ], gpu="L4")
 
+# ---------------------------------------------------------------- Qwen3-TTS: modo x_vector_only
+cuaderno("03c_qwen_xvector.ipynb", [
+    cabecera("Qwen3-TTS, modo «solo timbre» (x_vector_only)", "L4", "unos 20 min",
+             "¿Baja el acento inglés de Qwen si solo copia el **timbre** de la referencia y no su forma de hablar?\n\n"
+             "| Variante | Cómo usa la referencia |\n|---|---|\n"
+             "| `qwen3tts_1.7b` (criba) | La grabación entera más su transcripción: copia timbre, ritmo, entonación y acento |\n"
+             "| `qwen3tts_xvec` (nueva) | Solo una huella del timbre: la pronunciación la pone el modelo |\n\n"
+             "21 frases (`criba/frases_xvector.json`): 10 de Naval, 3 de Nivi, 2 de Brett y, nuevas, 3 de David Deutsch "
+             "(`d01`–`d03`) y 3 de Kapil Gupta (`g01`–`g03`). De Deutsch y Kapil no había nada generado, así que se "
+             "hacen en los dos modos. Al final monta `escucha/escucha_xvector.html`: cada frase en los dos modos, "
+             "con letras al azar."),
+    code("""
+# 1. Instalación (después: Entorno de ejecución → Reiniciar sesión)
+!pip install -q qwen-tts==0.1.1
+"""),
+    code(f"""
+# 2. Preparar: código del repo, Drive, frases y referencias
+import os, sys, subprocess
+from pathlib import Path
+RAMA = "{RAMA}"
+if os.path.isdir("/content/repo"):
+    subprocess.run(["git", "-C", "/content/repo", "pull", "-q"], check=True)
+else:
+    subprocess.run(["git", "clone", "-q", "--depth", "1", "-b", RAMA, "{REPO}", "/content/repo"], check=True)
+sys.path.insert(0, "/content/repo/criba")
+import comun, escucha
+
+comun.montar_drive()
+comun.FRASES = Path("/content/repo/criba/frases_xvector.json")
+ITEMS, SILENCIO_MS = comun.cargar_items()
+REFS = comun.comprobar(ITEMS)
+"""),
+    code("""
+# 3. Cargar el modelo
+import torch
+from qwen_tts import Qwen3TTSModel
+DTYPE = torch.bfloat16 if torch.cuda.is_bf16_supported() else torch.float16
+modelo = Qwen3TTSModel.from_pretrained("Qwen/Qwen3-TTS-12Hz-1.7B-Base", device_map="cuda:0",
+                                       dtype=DTYPE, attn_implementation="sdpa")
+_prompts = {}
+
+def hacer_sintetizar(solo_timbre):
+    def sintetizar(texto, ref):
+        clave = (ref["wav"], solo_timbre)
+        if clave not in _prompts:
+            _prompts[clave] = modelo.create_voice_clone_prompt(
+                ref_audio=ref["wav"], ref_text=None if solo_timbre else ref["texto"], x_vector_only_mode=solo_timbre)
+        wavs, sr = modelo.generate_voice_clone(text=texto, language="Spanish", voice_clone_prompt=_prompts[clave])
+        return wavs[0], sr
+    return sintetizar
+print("OK,", DTYPE)
+"""),
+    code("""
+# 4. Generar los dos modos (el normal solo hace lo que falta: Deutsch y Kapil)
+for variante, solo_timbre in [("qwen3tts_1.7b", False), ("qwen3tts_xvec", True)]:
+    print(f"\\n=== {variante}")
+    comun.guardar_entorno(variante, ["qwen-tts", "torch", "transformers", "accelerate"])
+    comun.generar(variante, hacer_sintetizar(solo_timbre), ITEMS, REFS, SILENCIO_MS,
+                  params={"modelo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base", "language": "Spanish",
+                          "dtype": str(DTYPE), "x_vector_only_mode": solo_timbre})
+"""),
+    code("""
+# 5. Página de escucha a ciegas: cada frase en los dos modos
+escucha.construir_pagina(["n05", "n12", "n25", "v05", "v10", "b10", "d02", "d03", "g01", "g03"],
+                         ["qwen3tts_1.7b", "qwen3tts_xvec"], nombre="escucha_xvector")
+"""),
+    cierre(["qwen3tts_1.7b", "qwen3tts_xvec"]),
+], gpu="L4")
+
 # ---------------------------------------------------------------- dots.tts
 cuaderno("04_dots.ipynb", [
     cabecera("dots.tts (SOAR)", "L4", "unos 45 min",

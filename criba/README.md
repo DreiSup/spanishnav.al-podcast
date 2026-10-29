@@ -42,6 +42,7 @@ cuaderno lo trae clonando el repo.
 | `02_omnivoice.ipynb` | `omnivoice` | T4 |
 | `02b_omnivoice_acento.ipynb` | `omnivoice_ref01`, `omnivoice_g3`, `omnivoice_ref01_g3` (10 frases de Naval) | L4 o T4 |
 | `03_qwen3tts.ipynb` | `qwen3tts_1.7b` | L4 |
+| `03c_qwen_xvector.ipynb` | `qwen3tts_xvec` (solo timbre) y Deutsch/Kapil en modo normal, con `frases_xvector.json`; monta `escucha/escucha_xvector.html` | L4 |
 | `04_dots.ipynb` | `dots_soar` (en un Python 3.12 aparte: Colab trae 3.13 y dots-tts no lo admite) | L4 |
 | `05_xtts.ipynb` | `xtts_base`, `xtts_navalchris` (solo Naval) | T4 |
 | `06_metricas_y_escucha.ipynb` | `metricas/` y `escucha/` | T4 |
