@@ -139,6 +139,32 @@ Para que funcione:
 - **Licencia.** XTTS es CPML, no comercial. No bloquea, porque el canal no se monetiza,
   pero queda anotado.
 
+## Decisión provisional: Qwen3-TTS (2026-10-29)
+
+El autor se inclina por **Qwen3-TTS 1.7B** como motor. En la criba es el que mejor suena
+(UTMOS 3,42) y el que más se parece a Naval (0,77). Su problema es el acento inglés. El
+plan es fine-tunearlo hasta quitarlo, empezando por el método de la sección anterior: audio
+en español generado por XTTS, u otro modelo con mejor pronunciación, como datos de
+entrenamiento. Si no convence, se prueban otros métodos.
+
+**Condición técnica: LoRA sobre el modelo Base, no el SFT oficial.**
+
+- **El SFT oficial no sirve.** El script `sft_12hz.py` convierte el modelo en
+  `custom_voice`: hornea la voz y `generate_voice_clone` deja de aceptar audio de
+  referencia. Se perdería el tono por episodio sacado de clips del original. El 1.7B
+  fine-tuneado así, además, ignora las instrucciones de estilo (discusión #121).
+- **La vía buena es un LoRA sobre `Qwen3-TTS-12Hz-1.7B-Base`.** El modelo sigue siendo
+  `base`, de modo que sigue clonando desde una referencia. Hay un repositorio comunitario
+  que corrige los fallos del script oficial: `instavar/qwen3-tts-lora-finetuning`. Usa
+  r16/α32 y lr 2e-6, y cabe en una L4.
+  - Por confirmar al montar el piloto: que el LoRA se pueda cargar sobre el Base y seguir
+    usando `generate_voice_clone`.
+- **Hay un precedente**, discusión #230: un usuario quitó el acento inglés del francés de
+  Qwen3-TTS con un LoRA entrenado con unas 30 frases nativas.
+- **Antes de entrenar, una prueba sin coste de entrenamiento:** `x_vector_only_mode=True`
+  copia solo el timbre de la referencia, no la forma de hablar. Puede reducir el acento
+  por sí solo.
+
 ## El camino hasta el objetivo, en este orden
 
 1. **Elegir el motor.** Pruebas con varios modelos y varias iteraciones hasta decidir cuál
