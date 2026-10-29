@@ -340,7 +340,9 @@ cuaderno("04_dots.ipynb", [
 !pip install -q uv
 !uv python install 3.12
 !uv venv -q --python 3.12 /content/venv_dots
-!uv pip install -q --python /content/venv_dots/bin/python dots-tts==0.3.1 soundfile numpy
+# torch y torchaudio tienen que ir a juego: se fijan las versiones que recomienda dots.tts
+# (constraints/recommended.txt). transformers 4.57.0 está retirada de PyPI: se usa la 4.57.1.
+!uv pip install -q --python /content/venv_dots/bin/python dots-tts==0.3.1 torch==2.8.0 torchaudio==2.8.0 transformers==4.57.1 soundfile numpy
 !/content/venv_dots/bin/python -c "import dots_tts, torch; print('dots-tts OK | torch', torch.__version__, '| CUDA', torch.cuda.is_available())"
 """),
     preparar(),
