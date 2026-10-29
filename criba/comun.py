@@ -169,11 +169,12 @@ def generar(variante, sintetizar, items, refs, silencio_ms, params=None):
 
 def guardar_entorno(variante, paquetes):
     """Deja en Drive las versiones exactas de lo instalado, para poder repetir la prueba."""
+    from importlib.metadata import distributions
     destino = SALIDA / variante
     destino.mkdir(parents=True, exist_ok=True)
-    salida = subprocess.run([sys.executable, "-m", "pip", "freeze"], capture_output=True, text=True).stdout
-    claves = [p.lower().replace("_", "-") for p in paquetes]
-    lineas = [l for l in salida.splitlines() if any(l.lower().replace("_", "-").startswith(c) for c in claves)]
+    claves = {p.lower().replace("_", "-") for p in paquetes}
+    lineas = sorted(f"{d.metadata['Name']}=={d.version}" for d in distributions()
+                    if (d.metadata["Name"] or "").lower().replace("_", "-") in claves)
     gpu = ""
     try:
         gpu = subprocess.run(["nvidia-smi", "--query-gpu=name", "--format=csv,noheader"],

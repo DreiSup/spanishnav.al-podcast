@@ -329,33 +329,24 @@ comun.generar("qwen3tts_1.7b", sintetizar, ITEMS, REFS, SILENCIO_MS,
 
 # ---------------------------------------------------------------- dots.tts
 cuaderno("04_dots.ipynb", [
-    cabecera("dots.tts (SOAR)", "L4", "unos 40 min",
+    cabecera("dots.tts (SOAR)", "L4", "unos 45 min",
              "`dots-studio/dots.tts-soar`, el checkpoint de mayor similitud y base de su fine-tuning, en modo "
-             "continuación (referencia + su transcripción), `language=\"es\"`, `num_steps=10`, `guidance_scale=1.2`."),
+             "continuación (referencia + su transcripción), `language=\"es\"`, `num_steps=10`, `guidance_scale=1.2`.\n\n"
+             "dots.tts solo admite Python 3.10–3.12 y Colab ya trae 3.13: la celda 1 crea un Python 3.12 aparte "
+             "(con `uv`) solo para él, y la celda 3 genera desde ahí con `criba/motores/dots_generar.py`."),
     code("""
-# 1. Instalación (después: Entorno de ejecución → Reiniciar sesión)
-# dots-tts pide Python < 3.13. Si falla aquí, mira la versión que imprime la celda 2.
-!pip install -q dots-tts==0.3.1
+# 1. Instalación: un Python 3.12 aparte solo para dots.tts (unos 5 min)
+# Aquí no hace falta reiniciar la sesión, pero no pasa nada si lo haces.
+!pip install -q uv
+!uv python install 3.12
+!uv venv -q --python 3.12 /content/venv_dots
+!uv pip install -q --python /content/venv_dots/bin/python dots-tts==0.3.1 soundfile numpy
+!/content/venv_dots/bin/python -c "import dots_tts, torch; print('dots-tts OK | torch', torch.__version__, '| CUDA', torch.cuda.is_available())"
 """),
     preparar(),
     code("""
-# 3. Cargar el modelo
-import torch
-from dots_tts.runtime import DotsTtsRuntime
-comun.guardar_entorno("dots_soar", ["dots-tts", "torch", "transformers"])
-PRECISION = "bfloat16" if torch.cuda.is_bf16_supported() else "float16"
-modelo = DotsTtsRuntime.from_pretrained("dots-studio/dots.tts-soar", precision=PRECISION, optimize=False)
-PARAMS = dict(language="es", num_steps=10, guidance_scale=1.2)
-
-def sintetizar(texto, ref):
-    r = modelo.generate(text=texto, prompt_audio_path=ref["wav"], prompt_text=ref["texto"], **PARAMS)
-    return r["audio"], r["sample_rate"]
-print("OK,", PRECISION)
-"""),
-    code("""
-# 4. Generar
-comun.generar("dots_soar", sintetizar, ITEMS, REFS, SILENCIO_MS,
-              params={"modelo": "dots-studio/dots.tts-soar", "precision": PRECISION, **PARAMS})
+# 3. Generar (en el Python 3.12 aparte; se salta lo que ya esté en Drive)
+!/content/venv_dots/bin/python -u /content/repo/criba/motores/dots_generar.py
 """),
     cierre(["dots_soar"]),
 ], gpu="L4")
