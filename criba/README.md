@@ -40,6 +40,7 @@ cuaderno lo trae clonando el repo.
 |---|---|---|
 | `01_chatterbox.ipynb` | `chatterbox_v2`, `chatterbox_v3`, `chatterbox_v3_es` | T4 |
 | `02_omnivoice.ipynb` | `omnivoice` | T4 |
+| `02b_omnivoice_acento.ipynb` | `omnivoice_ref01`, `omnivoice_g3`, `omnivoice_ref01_g3` (10 frases de Naval) | L4 o T4 |
 | `03_qwen3tts.ipynb` | `qwen3tts_1.7b` | L4 |
 | `04_dots.ipynb` | `dots_soar` | L4 |
 | `05_xtts.ipynb` | `xtts_base`, `xtts_navalchris` (solo Naval) | T4 |

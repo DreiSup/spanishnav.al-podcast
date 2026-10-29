@@ -109,6 +109,36 @@ validar en la fase 1:
   audio de referencia, o instrucciones de estilo, y que la prosodia pase del inglés al
   español.
 
+## Idea para la fase 1b: enseñar el español con audio de XTTS (2026-10-29)
+
+**Lo observado.** OmniVoice suena muy natural, pero arrastra el acento inglés de la
+referencia; su mantenedor reconoce que el modelo no separa timbre de acento. XTTS, en
+cambio, apenas tiene acento, aunque suena menos natural.
+
+**La propuesta del autor.** Usar audio en español generado por XTTS con la voz de Naval
+como parte de los datos de fine-tuning de OmniVoice. Es la técnica de «destilación con
+datos sintéticos»: el único precedente publicado que mejora la clonación desde inglés (el
+paper de IWSLT 2026 sobre OmniVoice) hace exactamente eso.
+
+Para que funcione:
+
+- **Mezclar, no sustituir.**
+  - El español de XTTS enseña la **pronunciación**.
+  - El inglés real de Naval enseña el **timbre y la naturalidad**.
+
+  Con solo XTTS, OmniVoice aprendería también el timbre más pobre y la entonación más
+  plana de XTTS, y perdería justo lo que lo hace bueno.
+- **Filtrar cada clip sintético antes de entrenar.**
+  - Que no alucine: WER bajo con Whisper.
+  - Que se parezca a Naval: similitud alta contra sus referencias.
+  - Lo que no pase el filtro, fuera.
+- **Elegir el profesor con datos.** El cuaderno 05 mide tanto XTTS base como el fine-tune
+  `navalchris`. El que mejor combine acento y parecido es el profesor.
+- **Medir el olvido y el acento por checkpoint.** Se usan frases en español que no estén
+  en el entrenamiento, y el checkpoint se elige por WER y por oído, no por la loss.
+- **Licencia.** XTTS es CPML, no comercial. No bloquea, porque el canal no se monetiza,
+  pero queda anotado.
+
 ## El camino hasta el objetivo, en este orden
 
 1. **Elegir el motor.** Pruebas con varios modelos y varias iteraciones hasta decidir cuál

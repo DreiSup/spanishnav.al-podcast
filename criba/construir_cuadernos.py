@@ -225,6 +225,69 @@ comun.generar("omnivoice", sintetizar, ITEMS, REFS, SILENCIO_MS,
     cierre(["omnivoice"]),
 ], gpu="T4")
 
+# ---------------------------------------------------------------- OmniVoice: prueba de acento
+cuaderno("02b_omnivoice_acento.ipynb", [
+    cabecera("OmniVoice, prueba de acento", "L4 o T4", "unos 15 min",
+             "¿Se puede rebajar el acento inglés de OmniVoice sin entrenar? Repite **10 frases de Naval** con tres "
+             "ajustes y las deja junto a las del cuaderno 02 para comparar el mismo item:\n\n"
+             "| Variante | Referencia | `guidance_scale` |\n|---|---|---|\n"
+             "| `omnivoice` (ya hecha, cuaderno 02) | `naval_ref02` (~12 s) | 2,0 (por defecto) |\n"
+             "| `omnivoice_ref01` | `naval_ref01` (~6 s) | 2,0 |\n"
+             "| `omnivoice_g3` | `naval_ref02` | 3,0 |\n"
+             "| `omnivoice_ref01_g3` | `naval_ref01` | 3,0 |\n\n"
+             "Por qué: OmniVoice recomienda referencias de 3–10 s; cuanto más larga, más forma de hablar inglesa copia. "
+             "Una guía más alta lo ciñe más al texto y a la etiqueta de idioma `es`."),
+    code("""
+# 1. Instalación (después: Entorno de ejecución → Reiniciar sesión)
+!pip install -q omnivoice==0.2.1
+"""),
+    code(f"""
+# 2. Preparar: código del repo, Drive, frases y las dos referencias de Naval
+import os, sys, subprocess
+RAMA = "{RAMA}"
+if os.path.isdir("/content/repo"):
+    subprocess.run(["git", "-C", "/content/repo", "pull", "-q"], check=True)
+else:
+    subprocess.run(["git", "clone", "-q", "--depth", "1", "-b", RAMA, "{REPO}", "/content/repo"], check=True)
+sys.path.insert(0, "/content/repo/criba")
+import comun
+
+comun.montar_drive()
+TODOS, SILENCIO_MS = comun.cargar_items(["naval"])
+ESCOGIDOS = ["n01", "n03", "n05", "n07", "n10", "n12", "n14", "n17", "n21", "n25"]
+ITEMS = [it for it in TODOS if it["id"] in ESCOGIDOS]
+REF02 = comun.comprobar(ITEMS, slot="ref02")
+REF01 = comun.comprobar(ITEMS, slot="ref01")
+"""),
+    code("""
+# 3. Cargar el modelo
+import torch
+from pathlib import Path
+from omnivoice import OmniVoice
+modelo = OmniVoice.from_pretrained("k2-fsa/OmniVoice", device_map="cuda:0", dtype=torch.float16)
+SR = modelo.sampling_rate or 24000
+
+def hacer_sintetizar(guia):
+    def sintetizar(texto, ref):
+        audios = modelo.generate(text=texto, language="es", ref_audio=ref["wav"], ref_text=ref["texto"],
+                                 guidance_scale=guia)
+        return audios[0], SR
+    return sintetizar
+print("OK, sale a", SR, "Hz")
+"""),
+    code("""
+# 4. Generar las tres variantes
+VARIANTES = [("omnivoice_ref01", REF01, 2.0), ("omnivoice_g3", REF02, 3.0), ("omnivoice_ref01_g3", REF01, 3.0)]
+for variante, refs, guia in VARIANTES:
+    print(f"\\n=== {variante}")
+    comun.guardar_entorno(variante, ["omnivoice", "torch", "transformers"])
+    comun.generar(variante, hacer_sintetizar(guia), ITEMS, refs, SILENCIO_MS,
+                  params={"modelo": "k2-fsa/OmniVoice", "language": "es", "dtype": "float16",
+                          "guidance_scale": guia, "ref": Path(refs["naval"]["wav"]).name})
+"""),
+    cierre(["omnivoice_ref01", "omnivoice_g3", "omnivoice_ref01_g3"]),
+], gpu="L4")
+
 # ---------------------------------------------------------------- Qwen3-TTS
 cuaderno("03_qwen3tts.ipynb", [
     cabecera("Qwen3-TTS 1.7B Base", "L4", "unos 40 min",
