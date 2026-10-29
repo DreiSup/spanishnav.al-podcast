@@ -62,6 +62,8 @@ Una sola etapa pesada a la vez (candado `gpu.lock`).
 | 05 | `05_oficiales.py` | Parsea los transcripts de nav.al por hablante | `oficiales/docs/*.txt` | `oficiales/<id>.json` | no | segundos |
 | 06 | `06_hablantes.py` | Etiqueta por palabra, ECAPA, etiqueta a hablante, tramos | etapas 03-05 | `hablantes.json`, `emb/` | no (ECAPA en CPU) | ~4-10 min por fuente |
 | 07 | `07_candidatos_ref.py` | Ventanas limpias, métricas, corte y re-ASR del clip | `hablantes.json`, `orig.wav`, `emb/` | `speaker_refs/` | sí (solo el re-ASR) | ~10 min para 5 hablantes |
+| 08 | `08_clips.py` | Parte 2: corta los tramos en clips de 3-15 s por pausas >= 0,25 s (programación dinámica) y mide cada clip: sim, asr_conf, DNSMOS, LUFS, pico, re-ASR literal | `hablantes.json`, `orig.wav`, `emb/` | `trabajo/<id>/clips_<h>.json` (sin audio) | sí (re-ASR) | |
+| 09 | `09_montar.py` | Parte 2: aplica umbrales, reparte train/eval, ganancia fija a -20 LUFS, escribe WAV y metadatos | `clips_<h>.json`, `dataset_<h>.json` | `datasets/<h>/`, `revision/<h>/escuchar.html` | no | |
 
 El orquestador no lanza 01 ni 05: hay que ejecutarlas antes con `etapa.sh` (`./etapa.sh 01_descargar.py`,
 `./etapa.sh 05_oficiales.py`). La 05 no usa torch.
@@ -130,7 +132,17 @@ Aprendido en la ejecución real del 2026-10-28.
   `speaker_refs/<h>/`. `refs.json` guarda fuente y tiempos de todos los candidatos para que la
   parte 2 no los meta nunca en el split `eval`.
 
-## Próximo paso
+## Parte 2: dataset de fine-tuning de Naval (2026-10-29)
 
-**Parte 2 (datasets)**, pendiente de dos aprobaciones: las referencias elegidas y la lista de
-fuentes en `~/naval-datos/fuentes_parte2.md`.
+Piloto LoRA con Qwen3-TTS y OmniVoice; los demás hablantes esperan al motor ganador.
+Fuentes, split y registro en `scripts/dataset/dataset_naval.json`: train = nav056, nav167,
+nav072, nav109, nav074; eval = nav139, nav135 y nav081 (Happiness, añadido para tener
+monólogo en eval). Ninguna referencia elegida sale de una fuente eval y 09 lo comprueba igual.
+
+```bash
+./etapa.sh 08_clips.py naval nav056 nav167 ...   # mide (GPU, re-ASR)
+./prueba.sh 09_montar.py naval                    # monta; --umbral sim_min=0.65 para probar
+```
+
+Los umbrales se ajustan en `dataset_naval.json` sin volver a medir. `revision/naval/escuchar.html`
+trae 20 clips al azar y 10 rechazados para calibrar; queda fuera del dataset y no se sube.
