@@ -1,0 +1,22 @@
+{
+  "nota": "Kapil Gupta en las mismas fuentes que naval_kapil, guardado aparte por si algún día se hace su modelo; no se sube ni entra en ningún dataset de Naval. Fuentes aprobadas el 2026-10-29. Meta: todo lo limpio. eval = una fuente entera (pendiente de decidir con el usuario).",
+  "hablante": "kapil",
+  "train_min": null,
+  "eval_min": null,
+  "fuentes": [
+    {"id": "nav072", "split": "train", "registro": "conversación con Kapil (2020)", "grupo": "conversacion"},
+    {"id": "nav001", "split": "train", "registro": "conversación con Kapil (2019)", "grupo": "conversacion"},
+    {"id": "nav002", "split": "train", "registro": "conversación con Kapil (2019)", "grupo": "conversacion"},
+    {"id": "nav003", "split": "train", "registro": "conversación con Kapil (2019)", "grupo": "conversacion"},
+    {"id": "nav004", "split": "train", "registro": "conversación con Kapil (2019)", "grupo": "conversacion"}
+  ],
+  "umbrales": {
+    "sim_min": 0.6,
+    "asr_media_min": 0.85,
+    "asr_min_min": 0.3,
+    "dnsmos_ovrl_min": 3.0,
+    "wer_largo_max": 0.15,
+    "cps": [8, 25],
+    "pico_max_dbfs": -0.1
+  }
+}
