@@ -53,9 +53,17 @@ class Asr:
                           torch_dtype=torch.float16, device="cuda:0", chunk_length_s=30)
 
     def transcribe(self, ruta):
-        salida = self.p({"raw": audio_16k(ruta), "sampling_rate": 16000},
+        """Devuelve (texto, inicio, fin): cuándo empieza la primera palabra y acaba la última.
+
+        Con eso se detecta lo que el WER no ve: murmullos, sílabas o ruido antes o después de la
+        frase, que Whisper suele omitir en el texto.
+        """
+        salida = self.p({"raw": audio_16k(ruta), "sampling_rate": 16000}, return_timestamps="word",
                         generate_kwargs={"language": "spanish", "task": "transcribe"})
-        return salida["text"].strip()
+        marcas = [c["timestamp"] for c in salida.get("chunks", []) if c.get("timestamp")]
+        inicio = next((t[0] for t in marcas if t[0] is not None), None)
+        fin = next((t[1] for t in reversed(marcas) if t[1] is not None), None)
+        return salida["text"].strip(), inicio, fin
 
 
 class Ecapa:

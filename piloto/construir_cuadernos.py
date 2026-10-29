@@ -155,8 +155,10 @@ cuaderno("03_filtrar_sintetico.ipynb", [
 Se ejecuta **después** de los cuadernos 01 y 02. Mide cada clip sintético y se queda con los buenos:
 
 1. **WER** con Whisper large-v3: descarta los que no dicen exactamente el texto (alucinaciones, saltos).
-2. **Velocidad de habla** en caracteres por segundo: descarta los cortados o estirados.
-3. **Similitud** con las referencias de Naval (ECAPA): no descarta, ordena. Entre dos clips buenos de la
+2. **Audio que sobra**: descarta los que tienen más de 0,8 s antes de la primera palabra o después de la
+   última. Ahí suelen estar los murmullos o sílabas alucinadas que el WER no ve.
+3. **Velocidad de habla** en caracteres por segundo: descarta los cortados o estirados.
+4. **Similitud** con las referencias de Naval (ECAPA): no descarta, ordena. Entre dos clips buenos de la
    misma frase gana el que más se parece a Naval.
 
 Después elige **una versión por frase** (la mejor de los dos profesores) hasta llegar a los minutos
@@ -204,10 +206,12 @@ if pendientes:
     ref_naval = ecapa.referencia(sorted((comun.REFS / "naval").glob("naval_ref0*.wav")))
     for n, (v, i) in enumerate(pendientes, 1):
         wav = SINT / v / f"{i}.wav"
-        hyp = asr.transcribe(wav)
+        hyp, inicio, fin = asr.transcribe(wav)
         dur = medir.duracion(wav)
         fila = {"variante": v, "id": i, "wer": medir.wer(TEXTO[i], hyp), "transcripcion": hyp,
                 "segundos": round(dur, 2), "cps": round(len(TEXTO[i]) / dur, 1),
+                "sobra_inicio": round(inicio, 2) if inicio is not None else None,
+                "sobra_final": round(dur - fin, 2) if fin is not None else None,
                 "similitud": ecapa.similitud(wav, ref_naval)}
         medir.anadir(MEDIDAS, fila)
         hecho[(v, i)] = fila
@@ -221,10 +225,16 @@ print("Medidos:", len(hecho))
 # 4. Filtrar y seleccionar
 WER_MAX = 0.05        # tolera una palabra mal transcrita por el ASR en una frase larga
 CPS = (9, 22)         # fuera de ahí, el clip está cortado o estirado
+SOBRA_MAX = 0.8       # segundos de audio antes de la primera palabra o después de la última:
+                      # más que eso suele ser un murmullo o una sílaba alucinada que el WER no ve
 MIN_OBJETIVO = 40     # minutos de español: 40 % frente a 60 min de inglés real
 
+def limpio(f):
+    return (f["sobra_inicio"] is not None and f["sobra_final"] is not None
+            and f["sobra_inicio"] <= SOBRA_MAX and f["sobra_final"] <= SOBRA_MAX)
+
 filas = list(hecho.values())
-buenos = [f for f in filas if f["wer"] <= WER_MAX and CPS[0] <= f["cps"] <= CPS[1]]
+buenos = [f for f in filas if f["wer"] <= WER_MAX and CPS[0] <= f["cps"] <= CPS[1] and limpio(f)]
 # Una versión por frase: la de menor WER y, a igualdad, la que más se parece a Naval
 mejor = {}
 for f in sorted(buenos, key=lambda f: (f["wer"], -f["similitud"])):
@@ -240,7 +250,8 @@ for f in ordenados:
 (SINT / "seleccion.jsonl").write_text("".join(json.dumps(s, ensure_ascii=False) + "\\n" for s in seleccion),
                                       encoding="utf-8")
 lineas = ["# Español sintético: filtro y selección", "",
-          f"Umbrales: WER <= {WER_MAX}, caracteres/s entre {CPS[0]} y {CPS[1]}. Objetivo: {MIN_OBJETIVO} min.", "",
+          f"Umbrales: WER <= {WER_MAX}, caracteres/s entre {CPS[0]} y {CPS[1]}, como mucho {SOBRA_MAX} s de audio "
+          f"antes de la primera palabra o después de la última. Objetivo: {MIN_OBJETIVO} min.", "",
           "| Profesor | Clips | Pasan el filtro | Elegidos | Min elegidos | WER medio | Similitud media |",
           "|---|---|---|---|---|---|---|"]
 for v in PROFESORES:
