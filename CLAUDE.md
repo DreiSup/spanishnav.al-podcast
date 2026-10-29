@@ -239,7 +239,8 @@ El paso 4 es irreducible: requiere criterio humano.
 
 Para el paso 3 —elegir y fine-tunear los modelos de voz— el objetivo, las reglas de gasto de
 GPU y el estado de Drive están en **`docs/fabrica-de-voz.md`**. Léelo antes de proponer nada
-que consuma unidades de Colab.
+que consuma unidades de Colab. Lo que está en marcha, lo que espera y lo pendiente está en
+**`docs/estado.md`**: es lo primero que hay que leer al retomar.
 
 ## Restricciones del entorno
 
