@@ -25,11 +25,14 @@ def code(texto):
 
 
 def cuaderno(nombre, celdas, gpu="T4"):
+    colab = {"provenance": []}
+    if gpu:
+        colab["gpuType"] = gpu
     nb = {
         "nbformat": 4, "nbformat_minor": 0,
         "metadata": {
-            "accelerator": "GPU",
-            "colab": {"provenance": [], "gpuType": gpu},
+            **({"accelerator": "GPU"} if gpu else {}),
+            "colab": colab,
             "kernelspec": {"name": "python3", "display_name": "Python 3"},
             "language_info": {"name": "python"},
         },
@@ -592,95 +595,63 @@ print("\\n=== Peores WER (posibles alucinaciones)")
 print(df.sort_values("wer", ascending=False).head(15)[["variante", "id", "wer", "transcripcion"]].to_string(index=False))
 """),
     code("""
-# 7. Página de escucha a ciegas
+# 7. Página de escucha a ciegas (el código está en criba/escucha.py)
 # Elige qué se escucha: 14 items representativos y las variantes que quieras (por defecto, todas).
+import escucha
 ITEMS_ESCUCHA = ["n01", "n05", "n10", "n14", "n17", "n23", "n25", "v02", "v05", "v09", "b03", "b10", "k04", "k09"]
-VARIANTES_ESCUCHA = VARIANTES
-
-import base64, random, html, subprocess, tempfile
-def mp3_b64(ruta):
-    with tempfile.NamedTemporaryFile(suffix=".mp3") as t:
-        subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(ruta), "-ac", "1", "-b:a", "64k", t.name], check=True)
-        return base64.b64encode(open(t.name, "rb").read()).decode()
-
-def audio_tag(ruta):
-    return f'<audio controls preload="none" src="data:audio/mpeg;base64,{mp3_b64(ruta)}"></audio>'
-
-CRITERIOS = [("parecido", "Parecido"), ("acento", "Acento nativo"), ("naturalidad", "Naturalidad"),
-             ("alucinaciones", "Sin alucinaciones")]
-rnd = random.Random(2026)
-clave, bloques = {}, []
-for i in ITEMS_ESCUCHA:
-    it = POR_ID[i]
-    vs = [v for v in VARIANTES_ESCUCHA if (comun.SALIDA / v / f"{i}.wav").exists()]
-    rnd.shuffle(vs)
-    letras = {chr(65 + n): v for n, v in enumerate(vs)}
-    clave[i] = letras
-    ref = sorted((comun.REFS / it["ref"]).glob(f"{it['ref']}_ref02.wav"))
-    texto = html.escape(" ".join(it["frases"]))
-    filas = []
-    for letra, v in letras.items():
-        selects = "".join(
-            f'<label>{nom} <select data-item="{i}" data-letra="{letra}" data-criterio="{c}">'
-            + "".join(f"<option>{x}</option>" for x in ["", "1", "2", "3", "4", "5"]) + "</select></label>"
-            for c, nom in CRITERIOS)
-        extra = ""
-        if it["ref"] == "naval_kapil":
-            gemelo = comun.SALIDA / v / f"{it['mismo_texto_que']}.wav"
-            if gemelo.exists():
-                extra = (f'<div class="gemelo">Misma voz con la referencia normal: {audio_tag(gemelo)}'
-                         f'<label>Tono: ¿se nota el cambio hacia la referencia de Kapil? <select data-item="{i}" '
-                         f'data-letra="{letra}" data-criterio="tono">'
-                         + "".join(f"<option>{x}</option>" for x in ["", "1", "2", "3", "4", "5"]) + "</select></label></div>")
-        filas.append(f'<div class="version"><b>{letra}</b> {audio_tag(comun.SALIDA / v / f"{i}.wav")}'
-                     f'<div class="notas">{selects}</div>{extra}</div>')
-    ancla = f'<div class="ancla">Referencia original ({it["ref"]}): {audio_tag(ref[0])}</div>' if ref else ""
-    bloques.append(f'<section><h2>{i} · {it["voz"]}</h2><p class="texto">{texto}</p>{ancla}{"".join(filas)}</section>')
-
-pagina = f'''<!doctype html><html lang="es"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1"><title>Escucha a ciegas</title>
-<style>
-body{{font-family:system-ui,sans-serif;max-width:900px;margin:0 auto;padding:16px;background:#fafafa;color:#222}}
-section{{background:#fff;border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:16px 0}}
-.texto{{font-style:italic}} .ancla{{color:#555;margin-bottom:8px}}
-.version{{border-top:1px solid #eee;padding:8px 0}} .notas label{{margin-right:12px;white-space:nowrap}}
-.gemelo{{margin-top:6px;padding-left:12px;border-left:3px solid #ccc}} audio{{vertical-align:middle;max-width:100%}}
-#barra{{position:sticky;top:0;background:#222;color:#fff;padding:8px 12px;border-radius:6px}}
-button{{font-size:15px;padding:4px 12px}}
-</style></head><body>
-<div id="barra">Puntúa de 1 (mal) a 5 (perfecto). Tus notas se guardan en este navegador.
-<button onclick="descargar()">Descargar puntuaciones (CSV)</button> <span id="cuenta"></span></div>
-<p>Cada versión es un motor distinto, con letras al azar en cada frase. Escucha primero la referencia original.
-<b>Sin alucinaciones</b>: 5 = dice exactamente el texto; 1 = repite, se salta o inventa palabras.</p>
-{"".join(bloques)}
-<script>
-const K = "criba_escucha_v1";
-let notas = {{}};
-try {{ notas = JSON.parse(localStorage.getItem(K) || "{{}}"); }} catch (e) {{}}
-const sels = document.querySelectorAll("select");
-function id(s) {{ return s.dataset.item + "|" + s.dataset.letra + "|" + s.dataset.criterio; }}
-function contar() {{ document.getElementById("cuenta").textContent =
-  Object.values(notas).filter(Boolean).length + " / " + sels.length + " notas"; }}
-sels.forEach(s => {{ if (notas[id(s)]) s.value = notas[id(s)];
-  s.addEventListener("change", () => {{ notas[id(s)] = s.value;
-    try {{ localStorage.setItem(K, JSON.stringify(notas)); }} catch (e) {{}} contar(); }}); }});
-contar();
-function descargar() {{
-  let csv = "item,letra,criterio,nota\\\\n";
-  sels.forEach(s => {{ if (s.value) csv += [s.dataset.item, s.dataset.letra, s.dataset.criterio, s.value].join(",") + "\\\\n"; }});
-  const a = document.createElement("a");
-  a.href = URL.createObjectURL(new Blob([csv], {{type: "text/csv"}}));
-  a.download = "puntuaciones_criba.csv"; a.click();
-}}
-</script></body></html>'''
-ESCUCHA = comun.SALIDA / "escucha"
-ESCUCHA.mkdir(exist_ok=True)
-(ESCUCHA / "escucha.html").write_text(pagina, encoding="utf-8")
-(ESCUCHA / "clave.json").write_text(json.dumps(clave, ensure_ascii=False, indent=2), encoding="utf-8")
-print(f"Página: {ESCUCHA / 'escucha.html'} ({len(pagina) / 1e6:.1f} MB). La clave está aparte, en clave.json: no la abras antes de puntuar.")
+escucha.construir_pagina(ITEMS_ESCUCHA, VARIANTES, nombre="escucha")
 """),
     code("""
 # 8. Desconectar la GPU
 comun.desconectar()
 """),
 ], gpu="T4")
+
+# ---------------------------------------------------------------- Escucha corta (sin GPU)
+cuaderno("07_escucha_larga.ipynb", [
+    md("""
+# Criba de motores TTS — escucha rápida, solo audios largos
+
+Monta una página de escucha a ciegas **más corta** que la del cuaderno 06: solo los audios largos, que
+son los que se parecen a producción, y sin las variantes que las métricas ya descartan.
+
+| Item | Qué es |
+|---|---|
+| `n25` | Naval, bloque de 9 frases seguidas (~30 s) |
+| `k10` | El mismo bloque con la referencia del episodio de Kapil: prueba de tono |
+| `b10` | Brett, el mismo bloque |
+| `v10` | Nivi, su frase más larga (~15 s) |
+
+Variantes: `chatterbox_v2`, `chatterbox_v3_es`, `omnivoice`, `qwen3tts_1.7b`, `dots_soar` y `xtts_base`.
+Fuera quedan `chatterbox_v3`, que lo supera su versión con el pack de español, y `xtts_navalchris`, que no
+mejora a XTTS base.
+
+**No necesita GPU.** *Entorno de ejecución → Cambiar tipo de entorno → CPU*, y ejecuta las tres celdas en
+orden. Tarda un par de minutos.
+
+Sale `outputs/criba/escucha/escucha_larga.html` en Drive. Descárgala, ábrela en el navegador, puntúa y
+pulsa «Descargar puntuaciones (CSV)». Sube el CSV a la misma carpeta. No abras `clave_escucha_larga.json`.
+"""),
+    code(f"""
+# 1. Preparar: código del repo y Drive
+import os, sys, subprocess
+RAMA = "{RAMA}"
+if os.path.isdir("/content/repo"):
+    subprocess.run(["git", "-C", "/content/repo", "pull", "-q"], check=True)
+else:
+    subprocess.run(["git", "clone", "-q", "--depth", "1", "-b", RAMA, "{REPO}", "/content/repo"], check=True)
+sys.path.insert(0, "/content/repo/criba")
+import comun, escucha
+comun.montar_drive()
+"""),
+    code("""
+# 2. Montar la página
+ITEMS = ["n25", "k10", "b10", "v10"]
+VARIANTES = ["chatterbox_v2", "chatterbox_v3_es", "omnivoice", "qwen3tts_1.7b", "dots_soar", "xtts_base"]
+escucha.construir_pagina(ITEMS, VARIANTES, nombre="escucha_larga")
+"""),
+    code("""
+# 3. Subir a Drive y desconectar
+comun.desconectar()
+"""),
+], gpu=None)

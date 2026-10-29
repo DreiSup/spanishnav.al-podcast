@@ -45,6 +45,7 @@ cuaderno lo trae clonando el repo.
 | `04_dots.ipynb` | `dots_soar` (en un Python 3.12 aparte: Colab trae 3.13 y dots-tts no lo admite) | L4 |
 | `05_xtts.ipynb` | `xtts_base`, `xtts_navalchris` (solo Naval) | T4 |
 | `06_metricas_y_escucha.ipynb` | `metricas/` y `escucha/` | T4 |
+| `07_escucha_larga.ipynb` | `escucha/escucha_larga.html`: solo los 4 audios largos y 6 variantes | ninguna (CPU) |
 
 Se abren en Colab directamente desde GitHub:
 `https://colab.research.google.com/github/DreiSup/spanishnav.al-podcast/blob/claude/quirky-dirac-x18c3n/criba/cuadernos/<cuaderno>`
