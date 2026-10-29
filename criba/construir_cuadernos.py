@@ -426,7 +426,7 @@ cuaderno("06_metricas_y_escucha.ipynb", [
 Se ejecuta **después** de los cuadernos 01–05; mide lo que haya en `outputs/criba/` aunque falte algún
 motor. Reutiliza el método de tu `compare_xtts_vs_chatterbox`:
 
-- **WER** con faster-whisper large-v3 en español: palabras que el audio no dice como debe. Detecta
+- **WER** con Whisper large-v3 (vía `transformers`) en español: palabras que el audio no dice como debe. Detecta
   alucinaciones, saltos y repeticiones.
 - **Similitud** con ECAPA-TDNN entre cada audio y la media de las 3 referencias de su voz, en inglés.
 - **UTMOSv2**: calidad percibida estimada, de 1 a 5.
@@ -439,7 +439,7 @@ y el resto en orden. Lo ya medido no se vuelve a medir.
 """),
     code("""
 # 1. Instalación (después: Entorno de ejecución → Reiniciar sesión)
-!pip install -q faster-whisper==1.2.1 jiwer speechbrain soundfile librosa pandas
+!pip install -q jiwer speechbrain soundfile librosa pandas
 !pip install -q git+https://github.com/sarulab-speech/UTMOSv2.git
 """),
     code(f"""
@@ -463,10 +463,10 @@ print("Variantes:", VARIANTES)
 print("Audios a medir:", len(AUDIOS))
 """),
     code("""
-# 3. WER con faster-whisper large-v3
-import re, jiwer
+# 3. WER con Whisper large-v3 (vía transformers: faster-whisper necesita CUDA 12 y Colab trae CUDA 13)
+import re, jiwer, torch
 import numpy as np, soundfile as sf, librosa
-from faster_whisper import WhisperModel
+from transformers import pipeline
 
 def normaliza(t):
     t = t.lower()
@@ -474,7 +474,6 @@ def normaliza(t):
     return re.sub(r"\\s+", " ", t).strip()
 
 def audio_16k(ruta):
-    # Se lee aquí y no con faster-whisper: su lector (PyAV) no casa con la versión de Colab
     a, sr = sf.read(str(ruta), dtype="float32")
     if a.ndim > 1:
         a = a.mean(axis=1)
@@ -489,12 +488,14 @@ def anadir(nombre, fila):
         f.write(json.dumps(fila, ensure_ascii=False) + "\\n")
 
 asr_hecho = cargar_cache("asr.jsonl")
-asr = WhisperModel("large-v3", device="cuda", compute_type="float16")
+asr = pipeline("automatic-speech-recognition", model="openai/whisper-large-v3",
+               torch_dtype=torch.float16, device="cuda:0", chunk_length_s=30)
 for v, i in AUDIOS:
     if (v, i) in asr_hecho:
         continue
-    segs, _ = asr.transcribe(audio_16k(comun.SALIDA / v / f"{i}.wav"), language="es", beam_size=5)
-    hyp = " ".join(s.text.strip() for s in segs).strip()
+    salida = asr({"raw": audio_16k(comun.SALIDA / v / f"{i}.wav"), "sampling_rate": 16000},
+                 generate_kwargs={"language": "spanish", "task": "transcribe"})
+    hyp = salida["text"].strip()
     ref = " ".join(POR_ID[i]["frases"])
     fila = {"variante": v, "id": i, "wer": jiwer.wer(normaliza(ref), normaliza(hyp)) if normaliza(hyp) else 1.0,
             "transcripcion": hyp}
