@@ -1,0 +1,42 @@
+{
+  "n05": {
+    "A": "qwen3tts_xvec",
+    "B": "qwen3tts_1.7b"
+  },
+  "n12": {
+    "A": "qwen3tts_1.7b",
+    "B": "qwen3tts_xvec"
+  },
+  "n25": {
+    "A": "qwen3tts_xvec",
+    "B": "qwen3tts_1.7b"
+  },
+  "v05": {
+    "A": "qwen3tts_xvec",
+    "B": "qwen3tts_1.7b"
+  },
+  "v10": {
+    "A": "qwen3tts_1.7b",
+    "B": "qwen3tts_xvec"
+  },
+  "b10": {
+    "A": "qwen3tts_1.7b",
+    "B": "qwen3tts_xvec"
+  },
+  "d02": {
+    "A": "qwen3tts_1.7b",
+    "B": "qwen3tts_xvec"
+  },
+  "d03": {
+    "A": "qwen3tts_xvec",
+    "B": "qwen3tts_1.7b"
+  },
+  "g01": {
+    "A": "qwen3tts_xvec",
+    "B": "qwen3tts_1.7b"
+  },
+  "g03": {
+    "A": "qwen3tts_xvec",
+    "B": "qwen3tts_1.7b"
+  }
+}
