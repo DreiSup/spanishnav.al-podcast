@@ -19,13 +19,25 @@ La **fase 1** (elegir motor) está casi cerrada:
   datos. Receta en `piloto/investigacion-lora.md`.
 - **Dos modelos de Naval**: `naval` y `naval_kapil`. Ver `docs/fabrica-de-voz.md`.
 
+## Hecho recientemente
+
+- **Filtro del español sintético** (`piloto/cuadernos/03_filtrar_sintetico`), 29-oct.
+  En `piloto/sintetico/`: `seleccion.jsonl`, `medidas.jsonl` e `informe.md`.
+  - Chatterbox V2: 368 de 400 pasan; se eligen 365 (37,8 min, similitud 0,67).
+  - XTTS base: 335 de 400 pasan; se eligen 19 (2,2 min, similitud 0,39–0,53).
+  - Total: 384 clips y 40,0 min. No sobra margen: son todas las frases con alguna versión buena.
+  - El control de audio sobrante **al inicio no funciona**: Whisper marca siempre la
+    primera palabra en 0,0 s. El del final sí funciona (descartó el s057 de XTTS, 8,6 s
+    sobrantes).
+  - Propuesta pendiente del autor: quitar los 19 de XTTS (timbre lejano a Naval y único
+    profesor que alucina). Quedarían 37,8 min, un 39 % frente a 60 min de inglés.
+
 ## Esperando a que termine
 
 | Qué | Dónde corre | Resultado esperado |
 |---|---|---|
 | Dataset de Naval normal (lote completo) | Sesión local | `fine_tunned_naval/datasets/naval/` en Drive. Decisiones: hasta 25 caracteres/s, 50/50 monólogo y conversación, **sin nav072** |
 | Dataset `naval_kapil` (nav072 + los diálogos 1–4 de 2019) | Sesión local, después del anterior | `datasets/naval_kapil/`; una fuente entera a eval |
-| Filtro del español sintético (`piloto/cuadernos/03_filtrar_sintetico`) | Colab, lanzado por el autor | `piloto/sintetico/seleccion.jsonl` e `informe.md` (objetivo: 40 min) |
 
 ## Pendiente del autor
 
