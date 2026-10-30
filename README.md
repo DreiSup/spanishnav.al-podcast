@@ -41,9 +41,9 @@ La estructura está montada y los años 2019–2026 creados, en el repo y en Dri
 episodios ya normalizados están en [INDICE.md](INDICE.md); el resto del catálogo, en
 [catalogo.json](catalogo.json), está por procesar.
 
-Los 34 primeros episodios ya se produjeron con el método manual anterior a este repo: llevan
-el estado `heredado` y su audio **no se re-sintetiza**. La regla está en
-[CLAUDE.md](CLAUDE.md#episodios-heredados).
+Los 34 primeros episodios, producidos a mano antes de este repo, se rehacen de cero con la
+fábrica de voz como todos los demás. Ver
+[CLAUDE.md](CLAUDE.md#episodios-antiguos-se-rehacen-de-cero).
 
 Los transcripts se copian **a mano** desde nav.al a `trabajo/manual/<slug>.txt`; un script
 los convierte y otro los normaliza a los ficheros del repo. El formato y el protocolo están

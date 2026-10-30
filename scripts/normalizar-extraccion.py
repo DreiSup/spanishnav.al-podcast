@@ -25,7 +25,6 @@ Lo que hace, y nada más:
   - renombra titulo_seccion (singular) a subtitulo
   - trocea en frases el inglés siempre; en español respeta el troceado del traductor
   - avisa si el español lleva caracteres que el TTS vocaliza (comillas, guiones, cifras)
-  - si el episodio es uno de los 34 producidos a mano en 2019, lo marca como heredado
 
 Y actualiza catalogo.json para ese episodio: `tiene_transcript: true` —si el transcript
 está en el repo, es que existe— y la fecha, si la entrada venía sin ella. Con --simular
@@ -49,12 +48,6 @@ PLANTILLAS = RAIZ / "plantillas" / "episodio"
 
 # Entradas del archivo de nav.al que no son episodios del feed (ver docs/extraccion.md)
 EXTRAS = set(range(1, 5)) | set(range(164, 167))
-
-# Episodios ya producidos con el método manual de 2019 (auditado en disco el 2026-09-06).
-# Su audio existe y NO se re-sintetiza. Ver "Episodios heredados" en CLAUDE.md.
-HEREDADOS = set(range(1, 35))          # 1-34 tienen audio montado
-HEREDADOS_SIN_VIDEO = {34}             # el 34 es el único sin vídeo
-AUDITADO_EL = "2026-09-06"
 
 # Caracteres que el TTS vocaliza en vez de interpretar: los lee en alto ("comillas",
 # "guion") o los pronuncia mal. En el texto en español no deben aparecer; el inglés es
@@ -184,21 +177,6 @@ def construir_transcript(origen: dict, idioma: str, ficha: dict) -> tuple[dict, 
     return transcript, avisos
 
 
-def bloque_heredado(numero: int | None) -> dict | None:
-    """Ficha del material producido a mano en 2019, si este episodio es uno de ellos."""
-    if numero is None or numero not in HEREDADOS:
-        return None
-    return {
-        "audio_existente": True,
-        "origen": "produccion-manual-2019",
-        "ruta_local": f"spanishpodcast/2019/{numero:02d}",
-        "corresponde_al_transcript": False,
-        "tiene_master": False,
-        "video_resolucion": "" if numero in HEREDADOS_SIN_VIDEO else "1376x768",
-        "auditado_el": AUDITADO_EL,
-    }
-
-
 def marcar_en_catalogo(slug: str, fecha: str, simular: bool) -> str:
     """Actualiza la entrada del episodio en el catálogo. Devuelve qué hizo.
 
@@ -257,8 +235,6 @@ def main() -> int:
     ap.add_argument("--fecha", help="fecha AAAA-MM-DD, para los 59 episodios que el catálogo no trae fechados")
     ap.add_argument("--simular", action="store_true", help="no escribe nada")
     ap.add_argument("--forzar", action="store_true", help="sobrescribe una carpeta existente")
-    ap.add_argument("--sin-heredado", action="store_true",
-                    help="no marcar como heredado aunque el número esté entre los 34 producidos")
     args = ap.parse_args()
 
     origen_en = json.loads(Path(args.en).read_text(encoding="utf-8"))
@@ -334,13 +310,6 @@ def main() -> int:
     meta_es.update(numero=numero, anio=int(anio), slug=slug, titulo_es=tr_es["titulo"], estado="revision")
     meta_es["youtube"]["titulo"] = tr_es["titulo"]
 
-    heredado = None if args.sin_heredado else bloque_heredado(numero)
-    if heredado:
-        meta_es["heredado"] = heredado
-        meta_es["audio_editado_a_mano"] = True
-        meta_es["estado"] = "heredado"
-        print(f"  HEREDADO: audio de {heredado['origen']} en {heredado['ruta_local']}")
-        print("            no se re-sintetiza; el transcript es referencia textual, no su fuente")
 
     escribir(destino / "transcript.en.json", tr_en, args.simular)
     escribir(destino / "transcript.es.json", tr_es, args.simular)

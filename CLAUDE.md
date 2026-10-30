@@ -77,8 +77,7 @@ crearán al normalizar cada transcript pegado.
   acepta `--slug` para desambiguar, y lo que guardan `slug` y `fuente_url` en
   `metadata.en.json`. Ejemplo: `nav.al/judgment` → `judgment`.
 - **Estados** de `metadata.es.json`: `pendiente` → `traduciendo` → `revision` → `tts` →
-  `montaje` → `publicado`. Y `heredado`, que no es un paso del recorrido sino una entrada
-  lateral justo antes de `publicado`: ver más abajo.
+  `montaje` → `publicado`.
 
 ## Los esquemas JSON
 
@@ -132,68 +131,19 @@ url) y el bloque `drive` con los file IDs. `audio_editado_a_mano: true` marca lo
 que pasaron por Audacity: a partir de ese punto el audio **ya no es regenerable** desde la
 traducción, y el proyecto `.aup3` pasa a ser un artefacto que hay que conservar en Drive.
 
-## Episodios heredados
+## Episodios antiguos: se rehacen de cero
 
-**34 episodios ya están producidos** con el método manual anterior a este repo: audio montado
-en Audacity, del 1 al 34. Auditado en disco el 2026-09-06:
+Los 34 primeros episodios se produjeron a mano antes de este repo, con una traducción
+antigua y montaje en Audacity. Ese material está en local y **no se usa**.
 
-- 34 con audio, 33 con vídeo — el 34 es el único sin vídeo
-- **Ninguno tiene master en español.** `Naval-Ep1.mp3` y `Naval-Ep2.mp3` son los originales
-  **en inglés**, no masters: no los confundas
-- Los vídeos son 1376x768, no 4K: heredan la resolución de la miniatura
-- Proyectos `.aup3` solo en 4 episodios: 01, 06, 07 y 08. (`CONTEXTO.md` dice 6; prevalece
-  esta auditoría, que es posterior y más específica)
-- El material está **en local**, todavía no en Drive
+**Decisión del autor (2026-10-30): todos los episodios se producen de cero con la fábrica de
+voz, también del 1 al 34.** No hay estado `heredado` ni audio antiguo que conservar: cada
+episodio sigue el flujo normal desde su transcript, y el audio publicado sale siempre del
+`transcript.es.json` del repo.
 
-### Por qué necesitan un estado propio
-
-La máquina de estados no podía describirlos. No son `pendiente` —hay audio y vídeo hechos— ni
-`publicado` —no están ni en YouTube ni en ningún sitio—. De ahí `heredado`.
-
-Pero el problema de fondo es otro: **ese audio se montó desde la traducción antigua**, y el
-`transcript.es.json` del repo viene de la traducción nueva. El audio no se corresponde con su
-texto. Queda huérfano.
-
-### La regla
-
-> **Un episodio `heredado` NO se re-sintetiza.** Su audio se sube tal cual a Drive y a
-> YouTube. Su `transcript.es.json` es **referencia textual, no la fuente del audio publicado**.
-
-En `metadata.es.json` lo marca el bloque `heredado`, que el normalizador rellena solo cuando
-el número está entre 1 y 34:
-
-```json
-"audio_editado_a_mano": true,
-"heredado": {
-  "audio_existente": true,
-  "origen": "produccion-manual-2019",
-  "ruta_local": "spanishpodcast/2019/26",
-  "corresponde_al_transcript": false,
-  "tiene_master": false,
-  "video_resolucion": "1376x768",
-  "auditado_el": "2026-09-06"
-}
-```
-
-`ruta_local` es el **prefijo** de la carpeta local; el nombre completo lleva además el título
-en inglés. Es un puntero temporal: cuando el material suba a Drive, manda `drive`.
-
-`corresponde_al_transcript: false` es el campo importante. Deja la divergencia escrita en el
-dato, no en la memoria de nadie.
-
-### Si se re-traduce un heredado
-
-**Se acepta la divergencia. No se re-produce.**
-
-El paso 4 del flujo —limpiar el audio en Audacity— es el cuello de botella de todo el
-proyecto, y es irreducible. Gastarlo en 34 episodios que ya suenan bien es el peor uso posible
-de ese tiempo. La divergencia entre el texto del repo y el audio publicado no es un problema
-mientras esté marcada, y lo está.
-
-Re-producir uno es una decisión deliberada y por episodio, nunca automática. Cuando se tome:
-pon `estado` en `tts`, pon `heredado` en `null` y el episodio vuelve al flujo normal. El
-registro de que hubo audio antiguo queda en el historial de git, que para eso se versiona el
-metadata.
+Hasta esa fecha regía la regla contraria (no re-sintetizar los 34 y marcarlos como
+`heredado`); queda en el historial de git. El campo `heredado` de `metadata.es.json` se
+conserva en el esquema por compatibilidad y vale siempre `null`.
 
 ## El vínculo con Google Drive
 
