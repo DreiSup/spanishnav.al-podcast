@@ -24,7 +24,7 @@ Ganancia: g = -20 - LUFS del clip, limitada para que el pico no pase de -1 dBFS 
 
 Se reescribe entero cada vez (wavs/ se monta aparte y se cambia al final).
 
-Uso: 09_montar.py <hablante> [--fuentes nav056,...] [--umbral sim_min=0.65 ...]
+Uso: 09_montar.py <hablante> [--fuentes nav056,... --salida DIR] [--umbral sim_min=0.65 ...]
      [--escuchar 20] [--semilla 0]
 """
 import argparse
@@ -82,8 +82,9 @@ def ganancia_db(c: dict) -> float:
     if c.get("lufs") is None:
         return 0.0
     g = LUFS_OBJ - c["lufs"]
-    g = min(g, PICO_TECHO_DBFS - c["pico_dbfs"])
-    return round(max(-GANANCIA_MAX_DB, min(GANANCIA_MAX_DB, g)), 2)
+    # pico_dbfs viene redondeado a 0,01 dB: 0,02 dB de colchón y redondeo hacia abajo
+    g = min(g, PICO_TECHO_DBFS - 0.02 - c["pico_dbfs"])
+    return math.floor(max(-GANANCIA_MAX_DB, min(GANANCIA_MAX_DB, g)) * 100) / 100
 
 
 def aplicar_ganancia(x: np.ndarray, g_db: float) -> np.ndarray:
@@ -177,8 +178,11 @@ def main():
         if k not in u:
             ap.error(f"umbral desconocido {k}; válidos: {sorted(u)}")
         u[k] = json.loads(v)
+    if a.fuentes and not a.salida:
+        ap.error("--fuentes monta un subconjunto: pásale --salida para no pisar datasets/<h>")
     salida = a.salida or DATASETS / h
-    revision = DATOS / "revision" / h
+    # una prueba con --salida deja su página de revisión al lado, sin pisar la de verdad
+    revision = salida / "revision" if a.salida else DATOS / "revision" / h
     cat = {f["id"]: f for f in cargar_fuentes()}
     pedidas = set(a.fuentes.split(",")) if a.fuentes else None
     refs = [r for r in leer_json(SPEAKER_REFS / "elegidas.json")["elegidas"]

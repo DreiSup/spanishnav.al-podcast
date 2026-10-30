@@ -99,7 +99,7 @@ MIN_CHOQUE = 0.15      # solape mínimo con otra voz dentro de ese hueco para co
 POCA_COB = 0.3         # n_off < POCA_COB * palabras del tramo: cobertura oficial pobre
 CKPT_VENT = 200        # guardado parcial de la caché de embeddings cada tantas ventanas
 CKPT_S = 180           # ... o cada tantos segundos
-SOLO_KAPIL = ("nav072", "nav001", "nav002", "nav003", "nav004")   # Naval en estas fuentes va a naval_kapil y no a naval
+SOLO_KAPIL = common.SOLO_KAPIL   # Naval en estas fuentes va a naval_kapil y no a naval
 NGRAMA = 4
 MAX_HITS_NGRAMA = 50   # 4-gramas más repetidos que esto no dan evidencia de posición
 MIN_CHUNK_TOK = 25     # los segmentos ASR cortos se juntan hasta tener al menos esto
@@ -673,9 +673,15 @@ class Centroides:
         return self.global_(h, excluir=fid)
 
     def kapil(self):
-        """Centroide de naval_kapil: Naval en las fuentes SOLO_KAPIL."""
-        vs = [self.vec[("naval", f)] for f in SOLO_KAPIL if ("naval", f) in self.vec]
-        return media_unit(np.array(vs)) if vs else None
+        """Centroide de naval_kapil: Naval en las fuentes SOLO_KAPIL, ponderado por segundos
+        (nav072 tiene ~18 min y las de 2019 segundos o pocos minutos: a pesos iguales mandarían
+        ellas, a 16 kHz y sin transcript que las confirme)."""
+        fs = [f for f in SOLO_KAPIL if ("naval", f) in self.vec]
+        if not fs:
+            return None
+        w = np.array([self.meta["naval"][f]["segundos"] for f in fs], dtype=np.float64)
+        v = (np.array([self.vec[("naval", f)] for f in fs]) * w[:, None]).sum(axis=0)
+        return v / (np.linalg.norm(v) + 1e-12)
 
     def fuentes_de(self, h):
         return sorted(self.meta.get(h, {}))

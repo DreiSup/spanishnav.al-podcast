@@ -117,6 +117,9 @@ Aprendido en la ejecución real del 2026-10-28.
 | `naval_kapil` sale **solo de nav072**; el centroide principal de `naval` **lo excluye** | La prueba de tono compara a Naval en dos contextos; mezclarlos contaminaría el centroide. |
 | **Sin Demucs** por defecto | Sus artefactos empeoran el fine-tuning (decisión del autor). Solo para fuentes con música de fondo, marcando los clips con `"demucs": true`. En las referencias, además, un clip con ruido se descarta, no se limpia. |
 | Referencias **sin normalizar ni limpiar** | Corte exacto de `orig.wav`, PCM16 mono a la sr original; LUFS solo se anota. |
+| En 08, un borde de tramo solo es punto de corte si la palabra vecina de fuera tiene tiempo propio (`ts_ok`) | Con tiempo interpolado el hueco medido es ficticio y el clip podía arrastrar una palabra (revisión del 2026-10-30: 6 clips de los datasets subidos, todos con la palabra del propio hablante; ninguno con otra voz). |
+| `naval_kapil.npy` ponderado por segundos | nav072 (~18 min, con transcript) debe mandar sobre los segundos de las fuentes de 2019 a 16 kHz. Los datasets naval y naval_kapil ya aprobados se montaron con el centroide anterior. |
+| `09_montar.py --fuentes` exige `--salida` | Montar un subconjunto con la salida por defecto pisaba el dataset aprobado. |
 | Diarización de nav056 por trozos de 60 min | El clustering es O(n²) y con el tope de 5,5 GB el kernel mataba el proceso. |
 
 ## Resultados de la Fase 1a (2026-10-28)

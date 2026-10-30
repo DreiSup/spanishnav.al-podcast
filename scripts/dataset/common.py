@@ -36,6 +36,8 @@ GPU_LOCK = DATOS / "gpu.lock"
 MIN_RAM_MB = 2500
 MIN_DISCO_GB = 15
 
+# Naval en estas fuentes es "naval_kapil" (su tono con Kapil Gupta) y no entra en "naval"
+SOLO_KAPIL = ("nav072", "nav001", "nav002", "nav003", "nav004")
 HABLANTES = ["naval", "nivi", "brett", "deutsch", "kapil", "vitalik", "ridley",
              "hodak", "rauch", "scholl", "qureshi"]
 

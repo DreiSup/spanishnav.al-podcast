@@ -109,8 +109,10 @@ def segmentar(F, h: str, extremos: float, rech: dict) -> list:
         # puntos de corte: k = "antes de la palabra k" (ia..ib+1), con el hueco a cada lado
         cortes = []
         for k in range(ia, ib + 2):
-            izq_ok = k == ia or (not malas[k - 1 - ia] and ts[k - 1])
-            der_ok = k == ib + 1 or (not malas[k - ia] and ts[k])
+            # en los bordes del tramo la vecina de fuera también debe tener tiempo propio:
+            # con ts_ok false su tiempo es interpolado y el hueco medido no es real
+            izq_ok = (k == 0 or ts[k - 1]) if k == ia else (not malas[k - 1 - ia] and ts[k - 1])
+            der_ok = (k == F.n or ts[k]) if k == ib + 1 else (not malas[k - ia] and ts[k])
             if not (izq_ok and der_ok):
                 continue
             if k == ia:
