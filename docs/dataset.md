@@ -160,3 +160,18 @@ montan en `datasets/kapil/` solo en local.
 
 Los umbrales se ajustan en `dataset_<h>.json` sin volver a medir. `revision/naval/escuchar.html`
 trae 20 clips al azar y 10 rechazados para calibrar; queda fuera del dataset y no se sube.
+
+## Parte 2b: datasets de deutsch, brett y nivi (2026-10-30)
+
+Fuentes nuevas procesadas con `orquesta_parte2b.sh`; las que no tienen transcript oficial (tok221,
+niv001-niv003, nav163) se etiquetan solo por embeddings (`06_hablantes.py <id> --asignar ...`,
+cosenos de 0,74 a 0,93 contra el centroide del hablante) y se miden con `orquesta_parte2c.sh`.
+
+| Dataset | train | eval | Notas |
+|---|---|---|---|
+| deutsch | 60,0 min (nav139 + nav140, recortado al tope) | 4,1 min (nav141) | todo conversación |
+| brett | 46,8 min (nav109 35,6 conversación + tok221 11,2 monólogo) | 4,1 min (nav139) | tok221 pierde 13 min por DNSMOS < 3,0 y pico a 0 dBFS (MP3 masterizado a fondo de escala); se dejó así |
+| nivi | 62,7 min (40,7 monólogo de Twitter Spaces + 22,0 conversación) | 5,0 min (nav163 + nav055) | nav055 pasó a eval porque nav163 solo daba 2,7 min |
+
+Los tres están aprobados por escucha y subidos a `gdrive:fine_tunned_naval/datasets/<h>/` con
+`rclone copy`; `rclone check` sin diferencias.
