@@ -374,7 +374,7 @@ def main():
     catalogo = leer_json(CATALOGO)
 
     # Agrupa por Doc para parsear cada uno una sola vez
-    fuentes.sort(key=lambda f: f["doc_anio"])
+    fuentes.sort(key=lambda f: f["doc_anio"] or 0)
     cache: dict = {}
     for fu in fuentes:
         salida = a.salida / f"{fu['id']}.json"

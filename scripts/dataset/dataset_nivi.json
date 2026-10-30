@@ -1,0 +1,68 @@
+{
+  "nota": "Babak Nivi (Parte 2). Fuentes aprobadas el 2026-10-30. Meta: todo lo que haya. Twitter Spaces sin transcript: hablantes por embeddings. eval = Sell the Truth entero.",
+  "hablante": "nivi",
+  "train_min": null,
+  "eval_min": null,
+  "fuentes": [
+    {
+      "id": "nav056",
+      "split": "train",
+      "registro": "conversación (pregunta a Naval)",
+      "grupo": "conversacion"
+    },
+    {
+      "id": "nav167",
+      "split": "train",
+      "registro": "conversación (mesa redonda)",
+      "grupo": "conversacion"
+    },
+    {
+      "id": "nav055",
+      "split": "train",
+      "registro": "conversación (pregunta a Naval)",
+      "grupo": "conversacion"
+    },
+    {
+      "id": "nav158",
+      "split": "train",
+      "registro": "conversación (pregunta a Naval)",
+      "grupo": "conversacion"
+    },
+    {
+      "id": "niv001",
+      "split": "train",
+      "registro": "monólogo (Twitter Space)",
+      "grupo": "monologo"
+    },
+    {
+      "id": "niv002",
+      "split": "train",
+      "registro": "monólogo (Twitter Space)",
+      "grupo": "monologo"
+    },
+    {
+      "id": "niv003",
+      "split": "train",
+      "registro": "monólogo (Twitter Space)",
+      "grupo": "monologo"
+    },
+    {
+      "id": "nav163",
+      "split": "eval",
+      "registro": "conversación (pregunta a Naval)",
+      "grupo": "conversacion"
+    }
+  ],
+  "umbrales": {
+    "sim_min": 0.6,
+    "asr_media_min": 0.85,
+    "asr_min_min": 0.3,
+    "dnsmos_ovrl_min": 3.0,
+    "wer_largo_max": 0.15,
+    "cps": [
+      8,
+      25
+    ],
+    "pico_max_dbfs": -0.1
+  }
+}

@@ -26,6 +26,7 @@ Salida: trabajo/<id>/clips_<hablante>.json. Se salta si existe (--forzar para re
 
 Uso: 08_clips.py <hablante> <id> [<id> ...] [--forzar] [--cpu] [--modelo-asr tiny]
      [--limite N]  (solo los N primeros clips; pruebas)
+     [--muestra-min N]  (solo ~N min repartidos por el episodio; para fuentes de eval)
 """
 import argparse
 import contextlib
@@ -213,6 +214,8 @@ def main():
     ap.add_argument("--emb", type=Path, default=DATOS / "emb")
     ap.add_argument("--excluir-extremos", type=float, default=EXTREMOS_S)
     ap.add_argument("--limite", type=int, default=None)
+    ap.add_argument("--muestra-min", type=float, default=None,
+                    help="medir solo ~N min repartidos por todo el episodio (fuentes de eval)")
     a = ap.parse_args()
     prueba = os.environ.get("NAVAL_PRUEBA") == "1"
     a.cpu = a.cpu or prueba
@@ -246,6 +249,10 @@ def main():
                 clips = segmentar(F, h, a.excluir_extremos, rech)
                 if a.limite:
                     clips = clips[:a.limite]
+                tot = sum(c[3] - c[2] for c in clips)
+                if a.muestra_min and tot > a.muestra_min * 60:
+                    paso = math.ceil(tot / (a.muestra_min * 60))
+                    clips = clips[::paso]   # uno de cada `paso`: repartido por todo el episodio
                 tot = sum(c[3] - c[2] for c in clips)
                 log(f"{fid}: {len(clips)} clips, {tot / 60:.1f} min (descartes: {rech})")
                 res = medir(F, clips, h, mod, cen, rech)
