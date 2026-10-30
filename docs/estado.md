@@ -40,25 +40,31 @@ La **fase 1** (elegir motor) está casi cerrada:
   44,1 kHz mono. Subido a `fine_tunned_naval/datasets/naval/` (388 ficheros, `rclone check` sin
   diferencias).
 
+- **Dataset `naval_kapil`** subido a `fine_tunned_naval/datasets/naval_kapil/`: train 15,6 min
+  (15,2 de nav072 a 44,1 kHz + 0,4 de nav003 a 16 kHz), eval nav001 entero (50 s).
+- **LoRA de Qwen, variante B** (`04_lora_qwen`), 30-oct: 158 pasos completos, checkpoints 40, 80,
+  120 y 158. Pérdida de evaluación en inglés 2,93 → 2,66 y en español 2,82 → 2,45, bajando en
+  todos los checkpoints (sin sobreajuste). Prueba en `piloto/lora_qwen/B/prueba/`.
+- **Ritmo**: el autor nota que todas las versiones van lentas (~15 c/s frente a 19,5 de Naval).
+  Acelerar sin cambiar el tono se descarta; **acortar las pausas a 0,12 s queda fijado para la
+  fábrica** (`docs/fabrica-de-voz.md`, sección *Ritmo*).
+
 ## Esperando a que termine
 
 | Qué | Dónde corre | Resultado esperado |
 |---|---|---|
-| Dataset `naval_kapil` | Sesión local: aprobado el 30-oct, subiéndose | `datasets/naval_kapil/`: train 15,6 min (15,2 de nav072 a 44,1 kHz + 0,4 de nav003 a 16 kHz), eval nav001 entero (50 s). Se entrenará como repaso corto encima del LoRA de Naval |
+| Datasets de Nivi, Brett y Deutsch | Sesión local (`orquesta_parte2b.sh`) | Tabla de fuentes, informe y escucha de cada uno, para el OK del autor |
 
 ## Pendiente del autor
 
-1. **`04_lora_qwen`, variante B**: lanzado el 30-oct. Al terminar, mirar la pérdida de evaluación
-   y escuchar a ciegas `piloto/lora_qwen/B/prueba/escucha/lora_qwen_B.html` (modelo base frente
-   a cada checkpoint, 3 frases de Naval). Elegir el mejor checkpoint.
-2. **`04_lora_qwen`, variante kapil**: con `PARTIR_DE` = el checkpoint elegido. Escuchar
-   `piloto/lora_qwen/kapil/prueba/escucha/lora_qwen_kapil.html`.
-3. **Datasets de Nivi, Brett y Deutsch** en la sesión local (prompt enviado el 30-oct; está
-   procesando fuentes con `orquesta_parte2b.sh`). Aprobar la tabla de fuentes, la escucha y la
-   subida de cada uno. Nada se sube a Drive sin el OK del autor.
-
-Hecho el 30-oct: escucha del 035 («no suena mal», pero Naval se entrena igualmente), datasets de
-Naval y `naval_kapil` aprobados y subidos, variante B elegida como principal.
+1. **Puntuar a ciegas** `piloto/lora_qwen/B/prueba/escucha/lora_qwen_B.html` (base frente a los 4
+   checkpoints) y pasar el CSV, para elegir checkpoint. Las versiones de la página no llevan
+   todavía el recorte de pausas: compáralas entre sí, el ritmo se arregla después igual en todas.
+2. **`04_lora_qwen`, variante kapil**, con `PARTIR_DE` = el checkpoint elegido.
+3. **Después, `05_lora_omnivoice`**, si tras escuchar Qwen sigue mereciendo la comparación
+   (ojo: los pesos de OmniVoice serían no comerciales).
+4. **Datasets de Nivi, Brett y Deutsch** en la sesión local: aprobar la tabla de fuentes, la
+   escucha y la subida de cada uno. Nada se sube a Drive sin el OK del autor.
 
 ## Pendiente de Claude
 

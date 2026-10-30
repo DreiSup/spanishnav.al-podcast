@@ -722,7 +722,7 @@ Ejecuta las celdas en orden; la última desconecta el entorno.
 CARPETA = "piloto/lora_qwen/B/prueba"     # dentro de fine_tunned_naval
 VERSIONES = ["paso_0158"]                 # añade "base" para comparar con el modelo sin LoRA
 FRASES = ["n12", "n18", "n25"]
-PAUSAS_MAX = [0.35, 0.25]                 # segundos: cada valor es una versión más, además del original
+PAUSAS_MAX = [0.25, 0.18, 0.12]           # segundos; 0,12 es el valor fijado para la fábrica
 GUARDAR = False                           # True: deja las versiones en <CARPETA>/pausas/ en Drive
 """),
     code(f"""

@@ -13,6 +13,9 @@ from pathlib import Path
 
 import soundfile as sf
 
+# Decidido por el autor el 30-oct, escuchando 0,35 / 0,25 / 0,18 / 0,12 en 06_ritmo: gana el más apretado.
+PAUSA_FABRICA = 0.12
+
 
 def _ejecutar(cmd):
     return subprocess.run(cmd, capture_output=True, text=True).returncode == 0
@@ -55,7 +58,7 @@ def _tramos_silencio(audio, sr, umbral_db, ventana=0.02, salto=0.01):
     return tramos
 
 
-def acortar_pausas(audio, sr, pausa_max=0.30, inicio=0.05, final=0.15, umbral_db=-40.0, fundido=0.01):
+def acortar_pausas(audio, sr, pausa_max=PAUSA_FABRICA, inicio=0.05, final=0.15, umbral_db=-40.0, fundido=0.01):
     """Acorta los silencios sin tocar el habla.
 
     - Silencio inicial: se deja en `inicio` segundos. Silencio final: en `final`.
