@@ -144,5 +144,16 @@ monólogo en eval). Ninguna referencia elegida sale de una fuente eval y 09 lo c
 ./prueba.sh 09_montar.py naval                    # monta; --umbral sim_min=0.65 para probar
 ```
 
-Los umbrales se ajustan en `dataset_naval.json` sin volver a medir. `revision/naval/escuchar.html`
+Resultado (aprobado y subido a `gdrive:fine_tunned_naval/datasets/naval/`): train 69,9 min
+(35 conversación + 35 monólogo; nav072 fuera), eval 4,2 min de nav139, nav135 y nav081.
+
+**naval_kapil** (`dataset_naval_kapil.json`): Naval solo con Kapil; nav072 entero en train y
+nav001 (On Meditation, 2019) entero en eval. Las 4 fuentes de 2019 (nav001-nav004) no tienen
+transcript: `05_oficiales.py` escribe un oficial vacío (`sin_transcript`) y las etiquetas se
+asignaron por embeddings (`06_hablantes.py <id> --asignar SPEAKER_0X=naval ...`, coseno contra
+`emb/naval_kapil.npy` y `emb/kapil.npy`). Vienen a 16 kHz: se dejan así, `sr` por clip en el
+manifiesto y minutos por frecuencia en el informe. Los clips de Kapil (`dataset_kapil.json`) se
+montan en `datasets/kapil/` solo en local.
+
+Los umbrales se ajustan en `dataset_<h>.json` sin volver a medir. `revision/naval/escuchar.html`
 trae 20 clips al azar y 10 rechazados para calibrar; queda fuera del dataset y no se sube.

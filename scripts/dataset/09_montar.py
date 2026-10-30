@@ -286,6 +286,10 @@ def main():
          "train por grupo: " + ", ".join(
              f"{g} {mins([c for c in final if c['split'] == 'train'], grupo=g)} min"
              for g in sorted({c['grupo'] for c in final if c['split'] == 'train'})), "",
+         "por frecuencia de muestreo (sin remuestrear): " + "; ".join(
+             f"{sr / 1000:g} kHz: train {mins([c for c in final if c['sr'] == sr], split='train')} "
+             f"min, eval {mins([c for c in final if c['sr'] == sr], split='eval')} min"
+             for sr in sorted({c['sr'] for c in final}, reverse=True)), "",
          "| Fuente | Registro | Split | Medidos (min) | Aprobados (min) | En el dataset (min) |",
          "|---|---|---|---|---|---|"]
     for f in fj:
