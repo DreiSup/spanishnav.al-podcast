@@ -34,7 +34,7 @@ La **fase 1** (elegir motor) está casi cerrada:
     Chatterbox V2, 37,8 min, un 39 % frente a 60 min de inglés.
 - **Episodio 035 en Qwen** (`criba/cuadernos/03d_qwen_episodio`), 29-oct. En
   `outputs/criba/episodio_035/`: `episodio_xvec.wav` y `episodio_nivi_normal.wav`.
-  Falta la escucha del autor.
+  Escuchado el 30-oct: «no suena mal», pero **el autor quiere entrenar Naval igualmente**.
 - **Dataset de Naval** montado en la sesión local: 69,9 min de train (35,0 conversación y
   34,9 monólogo, 363 clips) y 4,2 min de eval (nav139, nav135 y nav081). Sin nav072.
   44,1 kHz mono. Autorizado a subirse a `fine_tunned_naval/datasets/naval/`.
@@ -57,12 +57,16 @@ La **fase 1** (elegir motor) está casi cerrada:
    - **B**, la mezcla 60 % inglés real + 40 % español sintético, con etiqueta de idioma,
      como principal;
    - **A**, solo español sintético, como comparación opcional.
-4. **Enviar a la sesión local** los datasets de Nivi, Brett y Deutsch, cuando Naval esté
-   cerrado. El mensaje está preparado en la conversación del 29-oct. Metas:
+4. **Enviar a la sesión local** los datasets de Nivi, Brett y Deutsch. Naval ya está
+   montado, así que se puede mandar ya (mensaje del 30-oct). Metas:
    - nivi: todo lo que haya, buscando también su podcast propio;
    - brett y deutsch: 45–60 min cada uno.
 
 ## Pendiente de Claude
+
+> Orden de los fine-tunings: primero el piloto con Naval decide motor y receta; después
+> Nivi, Brett y Deutsch con esa receta (y su español sintético, que sí gasta unidades). Los
+> invitados menores (Vitalik, Ridley, Hodak, Rauch, Scholl, Qureshi) van en zero-shot.
 
 1. **Cuaderno de entrenamiento LoRA de Qwen3-TTS** en modo x-vector:
    - entrenador propio, basado en el de Alexandria, con la referencia y el idioma por
