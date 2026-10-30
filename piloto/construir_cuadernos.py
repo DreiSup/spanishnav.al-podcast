@@ -696,35 +696,37 @@ comun.desconectar()
 """),
 ], gpu="L4")
 
-# ---------------------------------------------------------------- Tempo
-cuaderno("06_tempo.ipynb", [
+# ---------------------------------------------------------------- Ritmo
+cuaderno("06_ritmo.ipynb", [
     md("""
-# Piloto de fine-tuning — acelerar sin cambiar el tono
+# Piloto de fine-tuning — acortar las pausas
 
 Verificación rápida: coge audios ya generados en Drive (por defecto, las frases de prueba del LoRA de Qwen) y
-los acelera un poco **conservando el tono**, con Rubber Band. Los escuchas aquí mismo, uno debajo de otro, con
-su velocidad en caracteres por segundo. Como referencia, Naval en inglés habla a unos 19,5 c/s y Qwen en
-español sale a unos 15.
+**acorta solo los silencios**, sin tocar el habla:
+
+- el silencio del principio queda en 0,05 s y el del final en 0,15 s;
+- cada pausa interna de más de `PAUSA_MAX` se queda en `PAUSA_MAX` (se le quita el centro);
+- las pausas más cortas (comas, respiraciones) no se tocan.
+
+Los escuchas aquí mismo, uno debajo de otro, con su duración y su velocidad en caracteres por segundo. Como
+referencia, Naval en inglés habla a unos 19,5 c/s y Qwen en español sale a unos 15. Lo que más se nota es el
+bloque de 9 frases (n25): ahí se acumulan las pausas entre frases.
 
 No genera nada con el modelo ni guarda nada en Drive, salvo que pongas `GUARDAR = True`.
 
-**Entorno: CPU, sin GPU** (*Entorno de ejecución → Cambiar tipo de entorno → CPU*). Tarda un par de minutos.
+**Entorno: CPU, sin GPU** (*Entorno de ejecución → Cambiar tipo de entorno → CPU*). Tarda un minuto.
 Ejecuta las celdas en orden; la última desconecta el entorno.
 """),
     code("""
-# 1. Instalación: Rubber Band, el programa que cambia el tempo sin tocar el tono (no hace falta reiniciar)
-!apt-get -qq install -y rubberband-cli > /dev/null && rubberband --version 2>&1 | head -1
-"""),
-    code("""
-# 2. Parámetros
+# 1. Parámetros
 CARPETA = "piloto/lora_qwen/B/prueba"     # dentro de fine_tunned_naval
 VERSIONES = ["paso_0158"]                 # añade "base" para comparar con el modelo sin LoRA
 FRASES = ["n12", "n18", "n25"]
-TEMPOS = [1.00, 1.05, 1.10, 1.15]         # 1.10 = un 10 % más rápido
-GUARDAR = False                           # True: deja los acelerados en <CARPETA>/tempo/ en Drive
+PAUSAS_MAX = [0.35, 0.25]                 # segundos: cada valor es una versión más, además del original
+GUARDAR = False                           # True: deja las versiones en <CARPETA>/pausas/ en Drive
 """),
     code(f"""
-# 3. Preparar: código del repo, Drive y los textos de las frases
+# 2. Preparar: código del repo, Drive y los textos de las frases
 import os, sys, subprocess
 from pathlib import Path
 RAMA = "{RAMA}"
@@ -733,7 +735,7 @@ if os.path.isdir("/content/repo"):
 else:
     subprocess.run(["git", "clone", "-q", "--depth", "1", "-b", RAMA, "{REPO}", "/content/repo"], check=True)
 sys.path[:0] = ["/content/repo/criba", "/content/repo/piloto"]
-import comun, tempo
+import comun, ritmo
 
 comun.montar_drive()
 BASE = comun.DRIVE / CARPETA
@@ -745,7 +747,7 @@ if faltan:
 print("RESULTADO: OK")
 """),
     code("""
-# 4. Acelerar y escuchar
+# 3. Acortar las pausas y escuchar
 import soundfile as sf
 from IPython.display import Audio, Markdown, display
 
@@ -753,18 +755,20 @@ for f in FRASES:
     display(Markdown(f"### {f}\\n*{TEXTO[f]}*"))
     for v in VERSIONES:
         audio, sr = sf.read(str(BASE / v / f"{f}.wav"), dtype="float32")
-        for t in TEMPOS:
-            rapido, metodo = tempo.acelerar(audio, sr, t)
-            cps = len(TEXTO[f]) / (len(rapido) / sr)
-            display(Markdown(f"**{v} · ×{t:.2f}** — {len(rapido) / sr:.1f} s, {cps:.1f} c/s ({metodo})"))
-            display(Audio(rapido, rate=sr))
-            if GUARDAR and t != 1.0:
-                destino = BASE / "tempo" / v
+        for pm in [None] + PAUSAS_MAX:
+            corto = audio if pm is None else ritmo.acortar_pausas(audio, sr, pausa_max=pm)
+            seg = len(corto) / sr
+            nombre = "original" if pm is None else f"pausas ≤ {pm:.2f} s"
+            ahorro = "" if pm is None else f", {len(audio) / sr - seg:.1f} s menos"
+            display(Markdown(f"**{v} · {nombre}** — {seg:.1f} s, {len(TEXTO[f]) / seg:.1f} c/s{ahorro}"))
+            display(Audio(corto, rate=sr))
+            if GUARDAR and pm is not None:
+                destino = BASE / "pausas" / v
                 destino.mkdir(parents=True, exist_ok=True)
-                sf.write(str(destino / f"{f}_x{t:.2f}.wav"), rapido, sr, subtype="PCM_16")
+                sf.write(str(destino / f"{f}_p{pm:.2f}.wav"), corto, sr, subtype="PCM_16")
 """),
     code("""
-# 5. Desconectar (sube a Drive lo pendiente si has guardado algo)
+# 4. Desconectar (sube a Drive lo pendiente si has guardado algo)
 comun.desconectar()
 """),
 ], gpu=None)
