@@ -47,23 +47,35 @@ def asignar_referencias(ejemplos, semilla, clave="grupo_ref"):
     return ejemplos
 
 
+def _sortear(ejemplos, minutos, rng):
+    xs = ejemplos[:]
+    rng.shuffle(xs)
+    elegidos, acum = [], 0.0
+    for e in xs:
+        if acum >= minutos:
+            break
+        elegidos.append(e)
+        acum += e["segundos"]
+    return elegidos
+
+
 def mezcla_por_epoca(ingles, espanol, frac_es, epocas, semilla):
-    """Orden de entrenamiento: en cada época todo el español y un subconjunto del inglés, elegido al azar,
-    de modo que el español sea `frac_es` de los minutos. Con dos épocas se ve casi todo el inglés."""
+    """Orden de entrenamiento: en cada época todo el idioma que escasea y un sorteo del otro, de modo que el
+    español sea `frac_es` de los minutos.
+
+    Con Naval escasea el español: entra entero y el inglés se sortea (en dos épocas se ve casi todo). Con
+    naval_kapil escasea el inglés: entra entero y se sortea el español."""
     rng = random.Random(semilla)
-    min_es = sum(e["segundos"] for e in espanol)
-    objetivo_en = min_es * (1 - frac_es) / frac_es if frac_es < 1 else 0
+    seg_en = sum(e["segundos"] for e in ingles)
+    seg_es = sum(e["segundos"] for e in espanol)
     orden = []
     for _ in range(epocas):
-        en = ingles[:]
-        rng.shuffle(en)
-        elegidos, acum = [], 0.0
-        for e in en:
-            if acum >= objetivo_en:
-                break
-            elegidos.append(e)
-            acum += e["segundos"]
-        epoca = elegidos + espanol
+        if frac_es >= 1 or not ingles:
+            epoca = espanol[:]
+        elif seg_es * (1 - frac_es) / frac_es <= seg_en:
+            epoca = _sortear(ingles, seg_es * (1 - frac_es) / frac_es, rng) + espanol
+        else:
+            epoca = ingles + _sortear(espanol, seg_en * frac_es / (1 - frac_es), rng)
         rng.shuffle(epoca)
         orden.append(epoca)
     return orden

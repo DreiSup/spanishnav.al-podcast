@@ -283,12 +283,13 @@ modo que en la escucha a ciegas dio a Naval parecido 5 y acento 5. El objetivo d
 en español sin perder el timbre. No se usa el SFT oficial de Qwen porque rompe la clonación por referencia
 (detalles en `piloto/investigacion-lora.md`). El entrenador está en `piloto/lora_qwen.py`.
 
-**Datos**
+**Variantes** (se elige en la celda 2)
 
-| Variante | Qué entra en cada época |
-|---|---|
-| **B** (por defecto) | Todo el español sintético de Chatterbox V2 (unos 36 min) + inglés real de Naval hasta que el español sea el **40 %** de los minutos. El inglés se sortea en cada época, así que en dos épocas se ve casi entero |
-| **A** | Solo el español sintético. Para comparar, si quieres |
+| Variante | Modelo | Qué entra en cada época |
+|---|---|---|
+| **B** (por defecto) | `naval` | Todo el español sintético de Chatterbox V2 (unos 36 min) + inglés real de Naval (`datasets/naval`) hasta que el español sea el **40 %** de los minutos. El inglés se sortea en cada época: en dos épocas se ve casi entero |
+| **A** | `naval` | Solo el español sintético. Para comparar, si quieres |
+| **kapil** | `naval_kapil` | Parte del checkpoint de Naval que elijas (`PARTIR_DE`) y hace un repaso corto con la sesión con Kapil (`datasets/naval_kapil`, 15,6 min) + español sintético sorteado hasta el 40 %, para no recuperar acento |
 
 Cada clip lleva su **etiqueta de idioma** y, como referencia, el timbre de **otro clip de la misma voz**.
 Los 19 clips de XTTS quedan fuera, como decidiste.
@@ -300,30 +301,43 @@ Los 19 clips de XTTS quedan fuera, como decidiste.
 | `paso_0040/`, `paso_0080/`… | Los checkpoints del LoRA (unos pocos MB cada uno) |
 | `estado.json` | La pérdida de evaluación de cada checkpoint, en inglés y en español |
 | `registro.jsonl` | La pérdida de cada paso |
-| `prueba/` | Tres frases de la criba con el modelo base y con cada checkpoint |
+| `prueba/` | Tres frases de la criba con cada versión del modelo |
 | `prueba/escucha/lora_qwen_<variante>.html` | La página de escucha a ciegas de esas frases |
 
+En **kapil**, la prueba usa las frases k05, k07 y k10 con la referencia de la sesión con Kapil, y compara el
+modelo sin LoRA, el LoRA de Naval de partida y cada checkpoint nuevo. La página trae además, en cada versión,
+la misma frase con la referencia normal de Naval, para puntuar si se nota el cambio de tono.
+
 **GPU: L4** (necesita bf16; con T4 el cuaderno se para al principio sin gastar casi nada).
-**Tiempo estimado:** 30–45 min en total. Uso: celda 1, *Entorno de ejecución → Reiniciar sesión*, y el resto
-en orden. Si se corta, vuelve a ejecutarlo: los códigos ya calculados, los pasos ya entrenados y los audios ya
-generados no se repiten.
+**Tiempo estimado:** 30–45 min con B, unos 25 con kapil. Uso: celda 1, *Entorno de ejecución → Reiniciar
+sesión*, y el resto en orden. Si se corta, vuelve a ejecutarlo: los códigos ya calculados, los pasos ya
+entrenados y los audios ya generados no se repiten.
 """),
     code("""
 # 1. Instalación (después: Entorno de ejecución → Reiniciar sesión)
 # El aviso rojo "pip's dependency resolver..." es normal.
 !pip install -q qwen-tts==0.1.1 peft==0.17.1
 """),
-    code(f"""
+    code("""
 # 2. Parámetros
-VARIANTE = "B"       # "B": 60 % inglés real + 40 % español sintético · "A": solo español sintético
-EPOCAS = 2
+VARIANTE = "B"       # "B": 60 % inglés real + 40 % español · "A": solo español · "kapil": naval_kapil
+PARTIR_DE = "B/paso_0158"   # solo para "kapil": el checkpoint de Naval que elegiste al escuchar
+
 LR = 2e-6            # el de Alexandria para unos cientos de ejemplos; más alto farfulla
-LORA_R, LORA_ALPHA = 64, 128
+LORA_R, LORA_ALPHA = 64, 128   # en "kapil" tienen que ser los mismos que en el LoRA de partida
 ACUMULACION = 8      # batch efectivo de 8 clips
-GUARDAR_CADA = 40    # pasos de optimizador entre checkpoints
 EVAL_ES = 16         # clips del español sintético que se apartan para medir la pérdida
 SEMILLA = 1234
-FRASES_PRUEBA = ["n12", "n18", "n25"]   # de la criba: una media, una larga y el bloque de 9 frases
+if VARIANTE == "kapil":
+    DATASET = "naval_kapil"
+    EPOCAS = 3       # unos 15 min de inglés + 10 de español por época: tres pasadas cortas
+    GUARDAR_CADA = 15
+    FRASES_PRUEBA = ["k05", "k07", "k10"]   # las mismas frases que n12, n18 y n25, con la ref de Kapil
+else:
+    DATASET = "naval"
+    EPOCAS = 2
+    GUARDAR_CADA = 40    # pasos de optimizador entre checkpoints
+    FRASES_PRUEBA = ["n12", "n18", "n25"]   # de la criba: una media, una larga y el bloque de 9 frases
 """),
     code(f"""
 # 3. Preparar: código del repo, Drive y los ejemplos
@@ -339,13 +353,13 @@ import comun, lora_qwen
 
 comun.montar_drive()
 D = comun.DRIVE
-NAVAL = D / "datasets" / "naval"
+DATOS = D / "datasets" / DATASET
 SALIDA = D / "piloto" / "lora_qwen" / VARIANTE
 
 def ingles(split):
-    return [{{"audio": str(NAVAL / f["file"]), "texto": f["text"], "idioma": "en", "segundos": f["dur"],
+    return [{{"audio": str(DATOS / f["file"]), "texto": f["text"], "idioma": "en", "segundos": f["dur"],
              "grupo_ref": "en:" + f["source_id"]}}
-            for f in lora_qwen.leer_jsonl(NAVAL / "metadata.jsonl") if f["split"] == split]
+            for f in lora_qwen.leer_jsonl(DATOS / "metadata.jsonl") if f["split"] == split]
 
 espanol = [{{"audio": str(D / s["audio"]), "texto": s["texto"], "idioma": "es", "segundos": s["segundos"],
             "grupo_ref": "es"}}
@@ -358,15 +372,21 @@ if VARIANTE == "A":
     en_train = []
 TODOS = en_train + en_eval + es_train + es_eval
 faltan = [e["audio"] for e in TODOS if not Path(e["audio"]).is_file()]
+if VARIANTE == "kapil":
+    ADAPTADOR_INICIAL = D / "piloto" / "lora_qwen" / PARTIR_DE
+    if not (ADAPTADOR_INICIAL / "adapter_model.safetensors").is_file():
+        faltan.append(str(ADAPTADOR_INICIAL / "adapter_model.safetensors"))
 if faltan:
-    raise SystemExit(f"Faltan {{len(faltan)}} audios en Drive, por ejemplo {{faltan[0]}}. No sigas.")
+    raise SystemExit(f"Faltan {{len(faltan)}} ficheros en Drive, por ejemplo {{faltan[0]}}. No sigas.")
 lora_qwen.asignar_referencias(TODOS, SEMILLA)
-ORDEN = lora_qwen.mezcla_por_epoca(en_train, es_train, 0.4 if VARIANTE == "B" else 1.0, EPOCAS, SEMILLA)
+ORDEN = lora_qwen.mezcla_por_epoca(en_train, es_train, 0.4 if VARIANTE != "A" else 1.0, EPOCAS, SEMILLA)
 EVAL = en_eval + es_eval
 
 m = lambda xs: sum(e["segundos"] for e in xs) / 60
-print(f"Variante {{VARIANTE}}. Disponible: inglés {{m(en_train):.1f}} min ({{len(en_train)}} clips), "
+print(f"Variante {{VARIANTE}} ({{DATASET}}). Disponible: inglés {{m(en_train):.1f}} min ({{len(en_train)}} clips), "
       f"español {{m(es_train):.1f}} min ({{len(es_train)}} clips)")
+if VARIANTE == "kapil":
+    print(f"Parte de: {{PARTIR_DE}}")
 for n, ep in enumerate(ORDEN, 1):
     en_ = [e for e in ep if e["idioma"] == "en"]
     es_ = [e for e in ep if e["idioma"] == "es"]
@@ -395,11 +415,13 @@ print(f"Listo: {len(TODOS)} clips; el más largo tiene {largo} frames ({largo / 
 """),
     code("""
 # 5. Entrenar el LoRA
-from peft import LoraConfig, get_peft_model
+from peft import LoraConfig, get_peft_model, set_peft_model_state_dict
+from safetensors.torch import load_file
 comun.SALIDA = D / "piloto" / "lora_qwen"
 comun.guardar_entorno(VARIANTE, ["qwen-tts", "peft", "torch", "transformers", "accelerate"])
 (SALIDA / "parametros.json").write_text(json.dumps({
-    "variante": VARIANTE, "epocas": EPOCAS, "lr": LR, "lora_r": LORA_R, "lora_alpha": LORA_ALPHA,
+    "variante": VARIANTE, "dataset": DATASET, "partir_de": PARTIR_DE if VARIANTE == "kapil" else None,
+    "epocas": EPOCAS, "lr": LR, "lora_r": LORA_R, "lora_alpha": LORA_ALPHA,
     "acumulacion": ACUMULACION, "guardar_cada": GUARDAR_CADA, "semilla": SEMILLA,
     "modelo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base", "peso_sub": lora_qwen.PESO_SUB,
     "ejemplos": [{k: e[k] for k in ("audio", "idioma", "ref", "segundos")} for e in TODOS]},
@@ -410,6 +432,10 @@ peft_talker = get_peft_model(hf.talker, LoraConfig(
     r=LORA_R, lora_alpha=LORA_ALPHA, lora_dropout=0.05, bias="none",
     target_modules=["q_proj", "k_proj", "v_proj", "o_proj"]))
 hf.talker = peft_talker
+if VARIANTE == "kapil":
+    # Arranca con los pesos del LoRA de Naval elegido (si se reanuda, entrenar() carga luego los suyos)
+    set_peft_model_state_dict(peft_talker, load_file(str(ADAPTADOR_INICIAL / "adapter_model.safetensors")))
+    print("Pesos iniciales:", PARTIR_DE)
 peft_talker.base_model.model.model.gradient_checkpointing_enable(
     gradient_checkpointing_kwargs={"use_reentrant": False})
 peft_talker.print_trainable_parameters()
@@ -421,34 +447,44 @@ for nombre, ev in ESTADO["checkpoints"].items():
     print(f"  {nombre}: inglés {ev.get('en', '-')} · español {ev.get('es', '-')}")
 """),
     code("""
-# 6. Prueba de escucha: tres frases con el modelo base y con cada checkpoint
-# Misma referencia y mismo modo que en producción: naval_ref02, solo timbre, non-streaming.
+# 6. Prueba de escucha: tres frases con cada versión del modelo
+# Mismo modo que en producción: solo timbre y non-streaming.
 peft_talker.eval()
 CHECKPOINTS = sorted(p.name for p in SALIDA.glob("paso_*") if p.name != "paso_0000")
 for c in CHECKPOINTS:
     if c not in peft_talker.peft_config:
         peft_talker.load_adapter(str(SALIDA / c), adapter_name=c)
+VERSIONES = ["base"] + CHECKPOINTS
+if VARIANTE == "kapil":
+    peft_talker.load_adapter(str(ADAPTADOR_INICIAL), adapter_name="naval")
+    VERSIONES = ["base", "naval"] + CHECKPOINTS
 
 comun.SALIDA = SALIDA / "prueba"
 items, silencio_ms = comun.cargar_items()
-ITEMS = [it for it in items if it["id"] in FRASES_PRUEBA]
+por_id = {it["id"]: it for it in items}
+# En kapil se generan también las frases gemelas con la ref normal, para puntuar el cambio de tono
+ids = FRASES_PRUEBA + [por_id[i]["mismo_texto_que"] for i in FRASES_PRUEBA if por_id[i].get("mismo_texto_que")]
+ITEMS = [por_id[i] for i in ids]
 REFS = comun.comprobar(ITEMS)
-prompt = tts.create_voice_clone_prompt(ref_audio=REFS["naval"]["wav"], x_vector_only_mode=True)
+prompts = {r: tts.create_voice_clone_prompt(ref_audio=v["wav"], x_vector_only_mode=True) for r, v in REFS.items()}
 
 def sintetizar(texto, ref):
-    wavs, sr = tts.generate_voice_clone(text=texto, language="Spanish", voice_clone_prompt=prompt,
+    clave = next(r for r, v in REFS.items() if v["wav"] == ref["wav"])
+    wavs, sr = tts.generate_voice_clone(text=texto, language="Spanish", voice_clone_prompt=prompts[clave],
                                         non_streaming_mode=True)
     return wavs[0], sr
 
-PARAMS = {"modo": "x_vector_only", "non_streaming_mode": True, "ref": "naval_ref02"}
-with peft_talker.disable_adapter():
-    comun.generar("base", sintetizar, ITEMS, REFS, silencio_ms, params=PARAMS)
-for c in CHECKPOINTS:
-    peft_talker.set_adapter(c)
-    comun.generar(c, sintetizar, ITEMS, REFS, silencio_ms, params={**PARAMS, "checkpoint": c})
+PARAMS = {"modo": "x_vector_only", "non_streaming_mode": True, "slot_ref": comun.REF_POR_DEFECTO}
+for v in VERSIONES:
+    if v == "base":
+        with peft_talker.disable_adapter():
+            comun.generar(v, sintetizar, ITEMS, REFS, silencio_ms, params=PARAMS)
+    else:
+        peft_talker.set_adapter(v)
+        comun.generar(v, sintetizar, ITEMS, REFS, silencio_ms, params={**PARAMS, "adaptador": v})
 
 import escucha
-escucha.construir_pagina(FRASES_PRUEBA, ["base"] + CHECKPOINTS, nombre=f"lora_qwen_{VARIANTE}")
+escucha.construir_pagina(FRASES_PRUEBA, VERSIONES, nombre=f"lora_qwen_{VARIANTE}")
 """),
     code("""
 # 7. Subir a Drive y desconectar

@@ -48,22 +48,17 @@ La **fase 1** (elegir motor) está casi cerrada:
 
 ## Pendiente del autor
 
-1. **Escuchar el episodio 035** (ya generado, en `outputs/criba/episodio_035/`) entero en
-   modo solo timbre. Decide si Naval en zero-shot es publicable, y qué versión de Nivi
-   prefiere: solo timbre o normal.
-2. **Aprobar en la sesión local** la última escucha de los datasets de Naval y de
-   `naval_kapil`.
-3. **Ejecutar `piloto/cuadernos/04_lora_qwen`** (L4, 30–45 min) y escuchar a ciegas
-   `piloto/lora_qwen/B/prueba/escucha/lora_qwen_B.html`: el modelo base frente a cada
-   checkpoint, con 3 frases de Naval.
-4. **Decidir las variantes del LoRA.** Tras el modo solo timbre, la propuesta es:
-   - **B**, la mezcla 60 % inglés real + 40 % español sintético, con etiqueta de idioma,
-     como principal;
-   - **A**, solo español sintético, como comparación opcional.
-5. **Enviar a la sesión local** los datasets de Nivi, Brett y Deutsch (prompt actualizado
-   del 30-oct). Metas:
-   - nivi: todo lo que haya, buscando también su podcast propio;
-   - brett y deutsch: 45–60 min cada uno.
+1. **`04_lora_qwen`, variante B**: lanzado el 30-oct. Al terminar, mirar la pérdida de evaluación
+   y escuchar a ciegas `piloto/lora_qwen/B/prueba/escucha/lora_qwen_B.html` (modelo base frente
+   a cada checkpoint, 3 frases de Naval). Elegir el mejor checkpoint.
+2. **`04_lora_qwen`, variante kapil**: con `PARTIR_DE` = el checkpoint elegido. Escuchar
+   `piloto/lora_qwen/kapil/prueba/escucha/lora_qwen_kapil.html`.
+3. **Datasets de Nivi, Brett y Deutsch** en la sesión local (prompt enviado el 30-oct; está
+   procesando fuentes con `orquesta_parte2b.sh`). Aprobar la tabla de fuentes, la escucha y la
+   subida de cada uno. Nada se sube a Drive sin el OK del autor.
+
+Hecho el 30-oct: escucha del 035 («no suena mal», pero Naval se entrena igualmente), datasets de
+Naval y `naval_kapil` aprobados y subidos, variante B elegida como principal.
 
 ## Pendiente de Claude
 
@@ -74,16 +69,20 @@ La **fase 1** (elegir motor) está casi cerrada:
 1. ~~Cuaderno LoRA de Qwen3-TTS~~: hecho el 30-oct, `piloto/cuadernos/04_lora_qwen`
    (entrenador en `piloto/lora_qwen.py`, probado en CPU con un modelo diminuto). Variante B
    por defecto: 2 épocas, 158 pasos, lr 2e-6, r 64 / alpha 128, checkpoints cada 40 pasos.
-2. **Cuaderno de entrenamiento LoRA de OmniVoice**:
+2. ~~`naval_kapil`~~: hecho el 30-oct como variante `kapil` del mismo `04_lora_qwen`. Parte del
+   checkpoint de Naval que elija el autor (`PARTIR_DE`), 3 épocas con los 15,6 min de la sesión con
+   Kapil + español sorteado al 40 % (73 pasos, checkpoints cada 15). Prueba: k05, k07 y k10 frente a
+   sus gemelas con la referencia normal.
+3. **Cuaderno de entrenamiento LoRA de OmniVoice** (en preparación por un subagente, 30-oct):
    - instalado desde git (el 0.2.1 de PyPI no trae LoRA);
    - truco de `clean_start_token_idx` para fijar la referencia;
    - `instruct_ratio=0`;
    - pocas épocas.
-3. **Cuaderno de evaluación de checkpoints**: las 55 frases de la criba, WER, similitud y
+4. **Cuaderno de evaluación de checkpoints**: las 55 frases de la criba, WER, similitud y
    escucha a ciegas frente al modelo base.
-4. **Después: fase 4**, el registro de voces (`voces.json`) y el cuaderno general de la
+5. **Después: fase 4**, el registro de voces (`voces.json`) y el cuaderno general de la
    fábrica.
-5. **Arreglar `drive.json`**: sus IDs de año ya no existen. Las carpetas reales son
+6. **Arreglar `drive.json`**: sus IDs de año ya no existen. Las carpetas reales son
    `naval-podcast/transcripts/<año>`.
 
 ## Otros frentes

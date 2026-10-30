@@ -32,6 +32,6 @@ Naval.
 | `01_sintetico_chatterbox.ipynb` | 400 clips con Chatterbox V2 → `piloto/sintetico/chatterbox_v2/` | T4 |
 | `02_sintetico_xtts.ipynb` | 400 clips con XTTS base → `piloto/sintetico/xtts_base/` | T4 |
 | `03_filtrar_sintetico.ipynb` | Mide, filtra (WER ≤ 5 %, velocidad normal) y elige la mejor versión de cada frase hasta 40 min → `seleccion.jsonl` | T4 |
-| `04_lora_qwen.ipynb` | LoRA de Qwen3-TTS en modo solo timbre (variante B: 60 % inglés real + 40 % español de Chatterbox; A: solo español), checkpoints, pérdida de evaluación y una escucha a ciegas de 3 frases → `piloto/lora_qwen/<variante>/` | L4 |
+| `04_lora_qwen.ipynb` | LoRA de Qwen3-TTS en modo solo timbre (variante B: 60 % inglés real + 40 % español de Chatterbox; A: solo español; kapil: repaso corto de `naval_kapil` encima del checkpoint de Naval elegido), checkpoints, pérdida de evaluación y una escucha a ciegas de 3 frases → `piloto/lora_qwen/<variante>/` | L4 |
 
 Rutas en Drive, bajo `fine_tunned_naval/`.
