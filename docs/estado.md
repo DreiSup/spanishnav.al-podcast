@@ -48,6 +48,9 @@ La **fase 1** (elegir motor) está casi cerrada:
 - **Ritmo**: el autor nota que todas las versiones van lentas (~15 c/s frente a 19,5 de Naval).
   Acelerar sin cambiar el tono se descarta; **acortar las pausas a 0,12 s queda fijado para la
   fábrica** (`docs/fabrica-de-voz.md`, sección *Ritmo*).
+- **Escucha a ciegas del LoRA B** (30-oct, `piloto/resultados/resumen.md`): base 3,67 de media;
+  pasos 80, 120 y 158 empatados en torno a 4 (naturalidad 3 → 4; el acento no cambia, 4). **Se
+  elige `paso_0158`**: sin ninguna nota por debajo de 4 y con la menor pérdida de evaluación.
 
 ## Esperando a que termine
 
@@ -57,13 +60,10 @@ La **fase 1** (elegir motor) está casi cerrada:
 
 ## Pendiente del autor
 
-1. **Puntuar a ciegas** `piloto/lora_qwen/B/prueba/escucha/lora_qwen_B.html` (base frente a los 4
-   checkpoints) y pasar el CSV, para elegir checkpoint. Las versiones de la página no llevan
-   todavía el recorte de pausas: compáralas entre sí, el ritmo se arregla después igual en todas.
-2. **`04_lora_qwen`, variante kapil**, con `PARTIR_DE` = el checkpoint elegido.
-3. **Después, `05_lora_omnivoice`**, si tras escuchar Qwen sigue mereciendo la comparación
+1. **`04_lora_qwen`, variante kapil**, con `PARTIR_DE = "B/paso_0158"`.
+2. **Después, `05_lora_omnivoice`**, si tras escuchar Qwen sigue mereciendo la comparación
    (ojo: los pesos de OmniVoice serían no comerciales).
-4. **Datasets de Nivi, Brett y Deutsch** en la sesión local: aprobar la tabla de fuentes, la
+3. **Datasets de Nivi, Brett y Deutsch** en la sesión local: aprobar la tabla de fuentes, la
    escucha y la subida de cada uno. Nada se sube a Drive sin el OK del autor.
 
 ## Pendiente de Claude
