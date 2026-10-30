@@ -88,32 +88,83 @@ lo que ya esté en Drive no se genera otra vez. La última celda sube todo a Dri
 
 # ---------------------------------------------------------------- Chatterbox V2
 cuaderno("01_sintetico_chatterbox.ipynb", [
-    cabecera("español sintético con Chatterbox V2",
-             "Chatterbox V2 es el profesor sin alucinaciones: en la escucha a ciegas sacó 4,25 de acento nativo "
-             "y 5 de «sin alucinaciones». Parámetros por defecto (`exaggeration=0.5`, `cfg_weight=0.5`, "
-             "`temperature=0.8`), los mismos de la criba.", "unos 60 min"),
+    md("""
+# Piloto de fine-tuning — español sintético con Chatterbox V2
+
+Genera la parte en español del entrenamiento de cada voz: las **400 frases** de
+`piloto/frases_sinteticas.json` (unos 45 min de audio) dichas con la voz del hablante, clonada con
+Chatterbox V2 a partir de su referencia `speaker_refs/<voz>/<voz>_ref02.wav`. Chatterbox V2 es el profesor
+sin alucinaciones: en la escucha a ciegas sacó 4,25 de acento nativo y 5 de «sin alucinaciones». Parámetros
+por defecto (`exaggeration=0.5`, `cfg_weight=0.5`, `temperature=0.8`), los mismos que con Naval.
+
+Salida en Drive: `fine_tunned_naval/piloto/sintetico/<voz>/chatterbox_v2/` (`s001` … `s400`). Naval ya
+está hecho (en `piloto/sintetico/chatterbox_v2/`). Después, el cuaderno 03 filtra los clips de cada voz.
+
+**GPU:** T4 (o L4). **Tiempo estimado:** unos 60 min por voz en T4. Se puede hacer una voz por sesión:
+pon solo esa en `VOCES`.
+
+Uso: celda 1, *Entorno de ejecución → Reiniciar sesión*, y el resto en orden. Si se corta, vuelve a empezar:
+lo que ya esté en Drive no se genera otra vez. La última celda sube todo a Drive y desconecta la GPU.
+"""),
     code("""
 # 1. Instalación (después: Entorno de ejecución → Reiniciar sesión)
 # Desde GitHub: la 0.1.7 de PyPI no tiene el parámetro t3_model. torchvision a juego con torch 2.6.0.
 # El aviso rojo "pip's dependency resolver..." es normal.
 !pip install -q "chatterbox-tts @ git+https://github.com/resemble-ai/chatterbox.git@master" torchvision==0.21.0
 """),
-    code(PREPARAR),
     code("""
-# 3. Generar
+# 2. Parámetros
+VOCES = ["nivi", "brett", "deutsch"]   # Naval ya está hecho
+PARAMS = dict(exaggeration=0.5, cfg_weight=0.5, temperature=0.8)
+"""),
+    code(f"""
+# 3. Preparar: código del repo, Drive, frases y referencias
+import os, sys, subprocess, json
+from pathlib import Path
+RAMA = "{RAMA}"
+if os.path.isdir("/content/repo"):
+    subprocess.run(["git", "-C", "/content/repo", "pull", "-q"], check=True)
+else:
+    subprocess.run(["git", "clone", "-q", "--depth", "1", "-b", RAMA, "{REPO}", "/content/repo"], check=True)
+sys.path[:0] = ["/content/repo/criba", "/content/repo/piloto"]
+import comun, rutas
+
+comun.montar_drive()
+comun.FRASES = Path("/content/repo/piloto/frases_sinteticas.json")
+FRASES, SILENCIO_MS = comun.cargar_items()
+# Las mismas 400 frases para cada voz; solo cambia la referencia
+ITEMS = {{voz: [{{**it, "voz": voz, "ref": voz}} for it in FRASES] for voz in VOCES}}
+REFS = comun.comprobar([it for items in ITEMS.values() for it in items])
+for voz in VOCES:
+    hechos = len(list((rutas.sintetico(comun.DRIVE, voz) / "chatterbox_v2").glob("s*.wav")))
+    print(f"  {{voz}}: {{hechos}} de {{len(ITEMS[voz])}} clips ya generados")
+"""),
+    code("""
+# 4. Generar, voz a voz
 from chatterbox.mtl_tts import ChatterboxMultilingualTTS
 VARIANTE = "chatterbox_v2"
-PARAMS = dict(exaggeration=0.5, cfg_weight=0.5, temperature=0.8)
 modelo = ChatterboxMultilingualTTS.from_pretrained(device="cuda", t3_model="v2")
-modelo.prepare_conditionals(REFS["naval"]["wav"], exaggeration=PARAMS["exaggeration"])
 
 def sintetizar(texto, ref):
     return modelo.generate(texto, language_id="es", **PARAMS), modelo.sr
 
-comun.guardar_entorno(VARIANTE, ["chatterbox-tts", "torch", "transformers", "numpy"])
-comun.generar(VARIANTE, sintetizar, ITEMS, REFS, SILENCIO_MS, params={**PARAMS, "language_id": "es"})
+for voz in VOCES:
+    print(f"=== {voz}")
+    comun.SALIDA = rutas.sintetico(comun.DRIVE, voz)
+    modelo.prepare_conditionals(REFS[voz]["wav"], exaggeration=PARAMS["exaggeration"])
+    comun.guardar_entorno(VARIANTE, ["chatterbox-tts", "torch", "transformers", "numpy"])
+    comun.generar(VARIANTE, sintetizar, ITEMS[voz], REFS, SILENCIO_MS, params={**PARAMS, "language_id": "es", "voz": voz})
 """),
-    cierre("chatterbox_v2"),
+    code("""
+# 5. Resumen, subir a Drive y desconectar
+for voz in VOCES:
+    reg = rutas.sintetico(comun.DRIVE, voz) / "chatterbox_v2" / "registro.jsonl"
+    filas = [json.loads(l) for l in reg.read_text(encoding="utf-8").splitlines() if l.strip()]
+    ok = [f for f in filas if f["ok"]]
+    print(f"{voz}: {len(ok)} clips correctos ({sum(f['segundos_audio'] for f in ok) / 60:.0f} min), "
+          f"{len(filas) - len(ok)} con error")
+comun.desconectar()
+"""),
 ])
 
 # ---------------------------------------------------------------- XTTS base
@@ -154,23 +205,26 @@ cuaderno("03_filtrar_sintetico.ipynb", [
     md("""
 # Piloto de fine-tuning — filtrar y seleccionar el español sintético
 
-Se ejecuta **después** de los cuadernos 01 y 02. Mide cada clip sintético y se queda con los buenos:
+Se ejecuta **después** del cuaderno 01, para una voz cada vez (`VOZ`). Mide cada clip sintético y se queda
+con los buenos:
 
 1. **WER** con Whisper large-v3: descarta los que no dicen exactamente el texto (alucinaciones, saltos).
-2. **Audio que sobra**: descarta los que tienen más de 0,8 s antes de la primera palabra o después de la
-   última. Ahí suelen estar los murmullos o sílabas alucinadas que el WER no ve.
+2. **Audio que sobra al final**: descarta los que tienen más de 0,8 s después de la última palabra. Ahí
+   suelen estar los murmullos o sílabas alucinadas que el WER no ve. (El del principio no se puede medir:
+   Whisper marca siempre la primera palabra en 0,0 s.)
 3. **Velocidad de habla** en caracteres por segundo: descarta los cortados o estirados.
-4. **Similitud** con las referencias de Naval (ECAPA): no descarta, ordena. Entre dos clips buenos de la
-   misma frase gana el que más se parece a Naval.
+4. **Similitud** con las referencias de la voz (ECAPA): no descarta, ordena. Entre dos clips buenos de la
+   misma frase gana el que más se parece.
 
-Después elige **una versión por frase** (la mejor de los dos profesores) hasta llegar a los minutos
-objetivo, por defecto **40 min**, el 40 % de un entrenamiento con 60 min de inglés real.
+Después elige **una versión por frase** hasta los minutos objetivo: por defecto, los que hacen falta para
+que el español sea el **40 %** frente al inglés real de su dataset (`datasets/<voz>/`).
 
-Salida en `fine_tunned_naval/piloto/sintetico/`: `medidas.jsonl` (todas las medidas), `seleccion.jsonl`
-(los elegidos, con texto, profesor, duración y medidas) e `informe.md`.
+Salida en `fine_tunned_naval/piloto/sintetico/<voz>/` (la de Naval, en `piloto/sintetico/`):
+`medidas.jsonl` (todas las medidas), `seleccion.jsonl` (los elegidos, con texto, duración y medidas) e
+`informe.md`. Solo se usa el profesor Chatterbox V2: XTTS quedó descartado.
 
-**GPU:** T4. **Tiempo estimado:** unos 30 min. Uso: celda 1, reiniciar sesión, y el resto en orden.
-Lo ya medido no se vuelve a medir.
+**GPU:** T4. **Tiempo estimado:** unos 15 min por voz. Uso: celda 1, reiniciar sesión, y el resto en orden.
+Lo ya medido no se vuelve a medir. Para otra voz, cambia `VOZ` y ejecuta de la celda 2 en adelante.
 """),
     code("""
 # 1. Instalación (después: Entorno de ejecución → Reiniciar sesión)
@@ -178,6 +232,8 @@ Lo ya medido no se vuelve a medir.
 """),
     code(f"""
 # 2. Preparar
+VOZ = "nivi"          # nivi, brett o deutsch (naval ya está hecho)
+
 import os, sys, subprocess, json
 from pathlib import Path
 RAMA = "{RAMA}"
@@ -186,26 +242,28 @@ if os.path.isdir("/content/repo"):
 else:
     subprocess.run(["git", "clone", "-q", "--depth", "1", "-b", RAMA, "{REPO}", "/content/repo"], check=True)
 sys.path[:0] = ["/content/repo/criba", "/content/repo/piloto"]
-import comun, medir
+import comun, medir, rutas
 
 comun.montar_drive()
 comun.FRASES = Path("/content/repo/piloto/frases_sinteticas.json")
-SINT = comun.DRIVE / "piloto" / "sintetico"
+SINT = rutas.sintetico(comun.DRIVE, VOZ)
 ITEMS, _ = comun.cargar_items()
 TEXTO = {{it["id"]: it["frases"][0] for it in ITEMS}}
-PROFESORES = sorted(p.name for p in SINT.iterdir() if (p / "registro.jsonl").exists())
+PROFESORES = ["chatterbox_v2"]
 CLIPS = [(v, i) for v in PROFESORES for i in TEXTO if (SINT / v / f"{{i}}.wav").exists()]
-print("Profesores:", PROFESORES, "| clips a medir:", len(CLIPS))
+print(VOZ, "| clips a medir:", len(CLIPS))
+if not CLIPS:
+    raise SystemExit(f"No hay clips en {{SINT / 'chatterbox_v2'}}: ejecuta antes el cuaderno 01 con esta voz.")
 """),
     code("""
-# 3. Medir: WER, velocidad de habla y similitud con Naval
+# 3. Medir: WER, velocidad de habla y similitud con la voz
 MEDIDAS = SINT / "medidas.jsonl"
 hecho = medir.cargar(MEDIDAS)
 pendientes = [(v, i) for v, i in CLIPS if (v, i) not in hecho]
 print("Pendientes:", len(pendientes))
 if pendientes:
     asr, ecapa = medir.Asr(), medir.Ecapa()
-    ref_naval = ecapa.referencia(sorted((comun.REFS / "naval").glob("naval_ref0*.wav")))
+    ref_voz = ecapa.referencia(sorted((comun.REFS / VOZ).glob(f"{VOZ}_ref0*.wav")))
     for n, (v, i) in enumerate(pendientes, 1):
         wav = SINT / v / f"{i}.wav"
         hyp, inicio, fin = asr.transcribe(wav)
@@ -214,7 +272,7 @@ if pendientes:
                 "segundos": round(dur, 2), "cps": round(len(TEXTO[i]) / dur, 1),
                 "sobra_inicio": round(inicio, 2) if inicio is not None else None,
                 "sobra_final": round(dur - fin, 2) if fin is not None else None,
-                "similitud": ecapa.similitud(wav, ref_naval)}
+                "similitud": ecapa.similitud(wav, ref_voz)}
         medir.anadir(MEDIDAS, fila)
         hecho[(v, i)] = fila
         if n % 50 == 0:
@@ -227,33 +285,37 @@ print("Medidos:", len(hecho))
 # 4. Filtrar y seleccionar
 WER_MAX = 0.05        # tolera una palabra mal transcrita por el ASR en una frase larga
 CPS = (9, 22)         # fuera de ahí, el clip está cortado o estirado
-SOBRA_MAX = 0.8       # segundos de audio antes de la primera palabra o después de la última:
-                      # más que eso suele ser un murmullo o una sílaba alucinada que el WER no ve
-MIN_OBJETIVO = 40     # minutos de español: 40 % frente a 60 min de inglés real
+SOBRA_MAX = 0.8       # segundos de audio después de la última palabra: más suele ser un murmullo alucinado
+FRAC_ES = 0.4         # el español, 40 % de los minutos del entrenamiento
+en_train = [json.loads(l) for l in (rutas.dataset(comun.DRIVE, VOZ) / "metadata.jsonl").read_text(
+    encoding="utf-8").splitlines() if l.strip()]
+MIN_INGLES = sum(f["dur"] for f in en_train if f["split"] == "train") / 60
+MIN_OBJETIVO = MIN_INGLES * FRAC_ES / (1 - FRAC_ES)
 
 def limpio(f):
-    return (f["sobra_inicio"] is not None and f["sobra_final"] is not None
-            and f["sobra_inicio"] <= SOBRA_MAX and f["sobra_final"] <= SOBRA_MAX)
+    return f["sobra_final"] is not None and f["sobra_final"] <= SOBRA_MAX
 
 filas = list(hecho.values())
 buenos = [f for f in filas if f["wer"] <= WER_MAX and CPS[0] <= f["cps"] <= CPS[1] and limpio(f)]
-# Una versión por frase: la de menor WER y, a igualdad, la que más se parece a Naval
+# Una versión por frase: la de menor WER y, a igualdad, la que más se parece a la voz
 mejor = {}
 for f in sorted(buenos, key=lambda f: (f["wer"], -f["similitud"])):
     mejor.setdefault(f["id"], f)
 ordenados = sorted(mejor.values(), key=lambda f: (f["wer"], -f["similitud"]))
+relativa = SINT.relative_to(comun.DRIVE)
 seleccion, minutos = [], 0.0
 for f in ordenados:
     if minutos >= MIN_OBJETIVO:
         break
-    seleccion.append({**f, "texto": TEXTO[f["id"]], "audio": f"piloto/sintetico/{f['variante']}/{f['id']}.wav"})
+    seleccion.append({**f, "texto": TEXTO[f["id"]], "audio": f"{relativa}/{f['variante']}/{f['id']}.wav"})
     minutos += f["segundos"] / 60
 
 (SINT / "seleccion.jsonl").write_text("".join(json.dumps(s, ensure_ascii=False) + "\\n" for s in seleccion),
                                       encoding="utf-8")
-lineas = ["# Español sintético: filtro y selección", "",
+lineas = [f"# Español sintético de {VOZ}: filtro y selección", "",
           f"Umbrales: WER <= {WER_MAX}, caracteres/s entre {CPS[0]} y {CPS[1]}, como mucho {SOBRA_MAX} s de audio "
-          f"antes de la primera palabra o después de la última. Objetivo: {MIN_OBJETIVO} min.", "",
+          f"después de la última palabra. Objetivo: {MIN_OBJETIVO:.1f} min, el {FRAC_ES:.0%} frente a "
+          f"{MIN_INGLES:.1f} min de inglés real.", "",
           "| Profesor | Clips | Pasan el filtro | Elegidos | Min elegidos | WER medio | Similitud media |",
           "|---|---|---|---|---|---|---|"]
 for v in PROFESORES:
@@ -265,6 +327,9 @@ for v in PROFESORES:
                   f"{sum(f['similitud'] for f in tot) / max(len(tot), 1):.3f} |")
 lineas += ["", f"**Total elegido: {len(seleccion)} clips, {minutos:.1f} min**, de {len(mejor)} frases con al menos "
            f"una versión buena."]
+if minutos < MIN_OBJETIVO:
+    lineas += ["", f"Aviso: faltan {MIN_OBJETIVO - minutos:.1f} min para el objetivo. El LoRA mezclará con lo que "
+               f"hay y el español pesará algo menos del {FRAC_ES:.0%}."]
 informe = "\\n".join(lineas)
 (SINT / "informe.md").write_text(informe + "\\n", encoding="utf-8")
 print(informe)
@@ -292,6 +357,7 @@ en español sin perder el timbre. No se usa el SFT oficial de Qwen porque rompe 
 | **B** (por defecto) | `naval` | Todo el español sintético de Chatterbox V2 (unos 36 min) + inglés real de Naval (`datasets/naval`) hasta que el español sea el **40 %** de los minutos. El inglés se sortea en cada época: en dos épocas se ve casi entero |
 | **A** | `naval` | Solo el español sintético. Para comparar, si quieres |
 | **kapil** | `naval_kapil` | Parte del checkpoint de Naval que elijas (`PARTIR_DE`) y hace un repaso corto con la sesión con Kapil (`datasets/naval_kapil`, 15,6 min) + español sintético sorteado hasta el 40 %, para no recuperar acento |
+| **nivi**, **brett**, **deutsch** | su voz | Como B, con su dataset (`datasets/<voz>`) y su español sintético (`piloto/sintetico/<voz>/`, cuadernos 01 y 03) |
 
 Cada clip lleva su **etiqueta de idioma** y, como referencia, el timbre de **otro clip de la misma voz**.
 Los 19 clips de XTTS quedan fuera, como decidiste.
@@ -306,7 +372,8 @@ Los 19 clips de XTTS quedan fuera, como decidiste.
 | `prueba/` | Tres frases de la criba con cada versión del modelo |
 | `prueba/escucha/lora_qwen_<variante>.html` | La página de escucha a ciegas de esas frases |
 
-En **kapil**, la prueba usa las frases k05, k07 y k10 con la referencia de la sesión con Kapil, y compara el
+En **nivi**, **brett** y **deutsch**, la prueba usa tres frases suyas de la criba con su referencia
+(`piloto/rutas.py`, `PRUEBA`). En **kapil**, la prueba usa las frases k05, k07 y k10 con la referencia de la sesión con Kapil, y compara el
 modelo sin LoRA, el LoRA de Naval de partida y cada checkpoint nuevo. La página trae además, en cada versión,
 la misma frase con la referencia normal de Naval, para puntuar si se nota el cambio de tono.
 
@@ -322,7 +389,8 @@ entrenados y los audios ya generados no se repiten.
 """),
     code("""
 # 2. Parámetros
-VARIANTE = "B"       # "B": 60 % inglés real + 40 % español · "A": solo español · "kapil": naval_kapil
+VARIANTE = "B"       # Naval: "B" (60 % inglés + 40 % español) o "A" (solo español) · "kapil": naval_kapil
+                     # · "nivi", "brett" o "deutsch": la voz de ese hablante
 PARTIR_DE = "B/paso_0158"   # solo para "kapil": el checkpoint de Naval que elegiste al escuchar
 
 LR = 2e-6            # el de Alexandria para unos cientos de ejemplos; más alto farfulla
@@ -331,15 +399,11 @@ ACUMULACION = 8      # batch efectivo de 8 clips
 EVAL_ES = 16         # clips del español sintético que se apartan para medir la pérdida
 SEMILLA = 1234
 if VARIANTE == "kapil":
-    DATASET = "naval_kapil"
     EPOCAS = 3       # unos 15 min de inglés + 10 de español por época: tres pasadas cortas
     GUARDAR_CADA = 15
-    FRASES_PRUEBA = ["k05", "k07", "k10"]   # las mismas frases que n12, n18 y n25, con la ref de Kapil
 else:
-    DATASET = "naval"
     EPOCAS = 2
     GUARDAR_CADA = 40    # pasos de optimizador entre checkpoints
-    FRASES_PRUEBA = ["n12", "n18", "n25"]   # de la criba: una media, una larga y el bloque de 9 frases
 """),
     code(f"""
 # 3. Preparar: código del repo, Drive y los ejemplos
@@ -351,12 +415,20 @@ if os.path.isdir("/content/repo"):
 else:
     subprocess.run(["git", "clone", "-q", "--depth", "1", "-b", RAMA, "{REPO}", "/content/repo"], check=True)
 sys.path[:0] = ["/content/repo/criba", "/content/repo/piloto"]
-import comun, lora_qwen
+import comun, lora_qwen, rutas
 
 comun.montar_drive()
 D = comun.DRIVE
-DATOS = D / "datasets" / DATASET
-SALIDA = D / "piloto" / "lora_qwen" / VARIANTE
+# La voz que se entrena, de dónde sale su inglés real y de dónde su español sintético
+VOZ = {{"B": "naval", "A": "naval", "kapil": "naval_kapil"}}.get(VARIANTE, VARIANTE)
+DATASET = VOZ
+VOZ_ES = "naval" if VOZ in ("naval", "naval_kapil") else VOZ
+DATOS = rutas.dataset(D, DATASET)
+SALIDA = rutas.lora(D, VARIANTE)
+for necesario, falta in [(DATOS / "metadata.jsonl", "el dataset de la sesión local"),
+                         (rutas.sintetico(D, VOZ_ES) / "seleccion.jsonl", "los cuadernos 01 y 03 con esta voz")]:
+    if not necesario.is_file():
+        raise SystemExit(f"Falta {{necesario}}: hace falta {{falta}}. No sigas.")
 
 def ingles(split):
     return [{{"audio": str(DATOS / f["file"]), "texto": f["text"], "idioma": "en", "segundos": f["dur"],
@@ -365,7 +437,7 @@ def ingles(split):
 
 espanol = [{{"audio": str(D / s["audio"]), "texto": s["texto"], "idioma": "es", "segundos": s["segundos"],
             "grupo_ref": "es"}}
-           for s in lora_qwen.leer_jsonl(D / "piloto" / "sintetico" / "seleccion.jsonl")
+           for s in lora_qwen.leer_jsonl(rutas.sintetico(D, VOZ_ES) / "seleccion.jsonl")
            if s["variante"] == "chatterbox_v2"]
 random.Random(SEMILLA).shuffle(espanol)
 es_eval, es_train = espanol[:EVAL_ES], espanol[EVAL_ES:]
@@ -374,6 +446,9 @@ if VARIANTE == "A":
     en_train = []
 TODOS = en_train + en_eval + es_train + es_eval
 faltan = [e["audio"] for e in TODOS if not Path(e["audio"]).is_file()]
+if (not en_train and VARIANTE != "A") or not espanol:
+    faltan.append(f"datos de {{VOZ}}: {{len(en_train)}} clips en inglés y {{len(espanol)}} en español "
+                  "(¿están el dataset y el cuaderno 03 de esta voz?)")
 if VARIANTE == "kapil":
     ADAPTADOR_INICIAL = D / "piloto" / "lora_qwen" / PARTIR_DE
     if not (ADAPTADOR_INICIAL / "adapter_model.safetensors").is_file():
@@ -462,6 +537,8 @@ if VARIANTE == "kapil":
     VERSIONES = ["base", "naval"] + CHECKPOINTS
 
 comun.SALIDA = SALIDA / "prueba"
+fichero, FRASES_PRUEBA = rutas.PRUEBA[VOZ]
+comun.FRASES = Path("/content/repo/criba") / fichero
 items, silencio_ms = comun.cargar_items()
 por_id = {it["id"]: it for it in items}
 # En kapil se generan también las frases gemelas con la ref normal, para puntuar el cambio de tono
