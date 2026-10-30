@@ -272,3 +272,186 @@ print(informe)
 comun.desconectar()
 """),
 ])
+
+# ---------------------------------------------------------------- LoRA de Qwen3-TTS
+cuaderno("04_lora_qwen.ipynb", [
+    md("""
+# Piloto de fine-tuning — LoRA de Qwen3-TTS para Naval
+
+Entrena un **LoRA** sobre `Qwen/Qwen3-TTS-12Hz-1.7B-Base` que se usa en **modo solo timbre** (x-vector), el
+modo que en la escucha a ciegas dio a Naval parecido 5 y acento 5. El objetivo del LoRA es ganar naturalidad
+en español sin perder el timbre. No se usa el SFT oficial de Qwen porque rompe la clonación por referencia
+(detalles en `piloto/investigacion-lora.md`). El entrenador está en `piloto/lora_qwen.py`.
+
+**Datos**
+
+| Variante | Qué entra en cada época |
+|---|---|
+| **B** (por defecto) | Todo el español sintético de Chatterbox V2 (unos 36 min) + inglés real de Naval hasta que el español sea el **40 %** de los minutos. El inglés se sortea en cada época, así que en dos épocas se ve casi entero |
+| **A** | Solo el español sintético. Para comparar, si quieres |
+
+Cada clip lleva su **etiqueta de idioma** y, como referencia, el timbre de **otro clip de la misma voz**.
+Los 19 clips de XTTS quedan fuera, como decidiste.
+
+**Salida** en `fine_tunned_naval/piloto/lora_qwen/<variante>/`:
+
+| Fichero | Qué es |
+|---|---|
+| `paso_0040/`, `paso_0080/`… | Los checkpoints del LoRA (unos pocos MB cada uno) |
+| `estado.json` | La pérdida de evaluación de cada checkpoint, en inglés y en español |
+| `registro.jsonl` | La pérdida de cada paso |
+| `prueba/` | Tres frases de la criba con el modelo base y con cada checkpoint |
+| `prueba/escucha/lora_qwen_<variante>.html` | La página de escucha a ciegas de esas frases |
+
+**GPU: L4** (necesita bf16; con T4 el cuaderno se para al principio sin gastar casi nada).
+**Tiempo estimado:** 30–45 min en total. Uso: celda 1, *Entorno de ejecución → Reiniciar sesión*, y el resto
+en orden. Si se corta, vuelve a ejecutarlo: los códigos ya calculados, los pasos ya entrenados y los audios ya
+generados no se repiten.
+"""),
+    code("""
+# 1. Instalación (después: Entorno de ejecución → Reiniciar sesión)
+# El aviso rojo "pip's dependency resolver..." es normal.
+!pip install -q qwen-tts==0.1.1 peft==0.17.1
+"""),
+    code(f"""
+# 2. Parámetros
+VARIANTE = "B"       # "B": 60 % inglés real + 40 % español sintético · "A": solo español sintético
+EPOCAS = 2
+LR = 2e-6            # el de Alexandria para unos cientos de ejemplos; más alto farfulla
+LORA_R, LORA_ALPHA = 64, 128
+ACUMULACION = 8      # batch efectivo de 8 clips
+GUARDAR_CADA = 40    # pasos de optimizador entre checkpoints
+EVAL_ES = 16         # clips del español sintético que se apartan para medir la pérdida
+SEMILLA = 1234
+FRASES_PRUEBA = ["n12", "n18", "n25"]   # de la criba: una media, una larga y el bloque de 9 frases
+"""),
+    code(f"""
+# 3. Preparar: código del repo, Drive y los ejemplos
+import os, sys, subprocess, json, random
+from pathlib import Path
+RAMA = "{RAMA}"
+if os.path.isdir("/content/repo"):
+    subprocess.run(["git", "-C", "/content/repo", "pull", "-q"], check=True)
+else:
+    subprocess.run(["git", "clone", "-q", "--depth", "1", "-b", RAMA, "{REPO}", "/content/repo"], check=True)
+sys.path[:0] = ["/content/repo/criba", "/content/repo/piloto"]
+import comun, lora_qwen
+
+comun.montar_drive()
+D = comun.DRIVE
+NAVAL = D / "datasets" / "naval"
+SALIDA = D / "piloto" / "lora_qwen" / VARIANTE
+
+def ingles(split):
+    return [{{"audio": str(NAVAL / f["file"]), "texto": f["text"], "idioma": "en", "segundos": f["dur"],
+             "grupo_ref": "en:" + f["source_id"]}}
+            for f in lora_qwen.leer_jsonl(NAVAL / "metadata.jsonl") if f["split"] == split]
+
+espanol = [{{"audio": str(D / s["audio"]), "texto": s["texto"], "idioma": "es", "segundos": s["segundos"],
+            "grupo_ref": "es"}}
+           for s in lora_qwen.leer_jsonl(D / "piloto" / "sintetico" / "seleccion.jsonl")
+           if s["variante"] == "chatterbox_v2"]
+random.Random(SEMILLA).shuffle(espanol)
+es_eval, es_train = espanol[:EVAL_ES], espanol[EVAL_ES:]
+en_train, en_eval = ingles("train"), ingles("eval")
+if VARIANTE == "A":
+    en_train = []
+TODOS = en_train + en_eval + es_train + es_eval
+faltan = [e["audio"] for e in TODOS if not Path(e["audio"]).is_file()]
+if faltan:
+    raise SystemExit(f"Faltan {{len(faltan)}} audios en Drive, por ejemplo {{faltan[0]}}. No sigas.")
+lora_qwen.asignar_referencias(TODOS, SEMILLA)
+ORDEN = lora_qwen.mezcla_por_epoca(en_train, es_train, 0.4 if VARIANTE == "B" else 1.0, EPOCAS, SEMILLA)
+EVAL = en_eval + es_eval
+
+m = lambda xs: sum(e["segundos"] for e in xs) / 60
+print(f"Variante {{VARIANTE}}. Disponible: inglés {{m(en_train):.1f}} min ({{len(en_train)}} clips), "
+      f"español {{m(es_train):.1f}} min ({{len(es_train)}} clips)")
+for n, ep in enumerate(ORDEN, 1):
+    en_ = [e for e in ep if e["idioma"] == "en"]
+    es_ = [e for e in ep if e["idioma"] == "es"]
+    print(f"  época {{n}}: {{len(ep)}} clips · inglés {{m(en_):.1f}} min · español {{m(es_):.1f}} min "
+          f"({{m(es_) / max(m(ep), 1e-9):.0%}} de español)")
+pasos = -(-sum(len(ep) for ep in ORDEN) // ACUMULACION)
+print(f"Pasos de optimizador: {{pasos}}; checkpoints cada {{GUARDAR_CADA}}. "
+      f"Evaluación: {{len(en_eval)}} clips en inglés y {{len(es_eval)}} en español.")
+print("RESULTADO: OK")
+"""),
+    code("""
+# 4. Cargar Qwen y calcular códigos y x-vectors (una sola vez: quedan en Drive)
+import torch
+if not torch.cuda.is_available() or not torch.cuda.is_bf16_supported():
+    raise SystemExit("Este cuaderno necesita una GPU con bf16 (L4 o A100). Cambia el tipo de entorno.")
+from qwen_tts import Qwen3TTSModel
+tts = Qwen3TTSModel.from_pretrained("Qwen/Qwen3-TTS-12Hz-1.7B-Base", device_map="cuda:0",
+                                    dtype=torch.bfloat16, attn_implementation="sdpa")
+hf = tts.model
+idiomas = hf.get_supported_languages()
+assert "english" in idiomas and "spanish" in idiomas, idiomas
+SALIDA.mkdir(parents=True, exist_ok=True)
+lora_qwen.preparar(hf, tts.processor, TODOS, D / "piloto" / "lora_qwen" / "cache_qwen.pt")
+largo = max(e["codigos"].shape[0] for e in TODOS)
+print(f"Listo: {len(TODOS)} clips; el más largo tiene {largo} frames ({largo / 12:.1f} s)")
+"""),
+    code("""
+# 5. Entrenar el LoRA
+from peft import LoraConfig, get_peft_model
+comun.SALIDA = D / "piloto" / "lora_qwen"
+comun.guardar_entorno(VARIANTE, ["qwen-tts", "peft", "torch", "transformers", "accelerate"])
+(SALIDA / "parametros.json").write_text(json.dumps({
+    "variante": VARIANTE, "epocas": EPOCAS, "lr": LR, "lora_r": LORA_R, "lora_alpha": LORA_ALPHA,
+    "acumulacion": ACUMULACION, "guardar_cada": GUARDAR_CADA, "semilla": SEMILLA,
+    "modelo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base", "peso_sub": lora_qwen.PESO_SUB,
+    "ejemplos": [{k: e[k] for k in ("audio", "idioma", "ref", "segundos")} for e in TODOS]},
+    ensure_ascii=False, indent=1), encoding="utf-8")
+
+torch.manual_seed(SEMILLA)
+peft_talker = get_peft_model(hf.talker, LoraConfig(
+    r=LORA_R, lora_alpha=LORA_ALPHA, lora_dropout=0.05, bias="none",
+    target_modules=["q_proj", "k_proj", "v_proj", "o_proj"]))
+hf.talker = peft_talker
+peft_talker.base_model.model.model.gradient_checkpointing_enable(
+    gradient_checkpointing_kwargs={"use_reentrant": False})
+peft_talker.print_trainable_parameters()
+ESTADO = lora_qwen.entrenar(hf, peft_talker, ORDEN, EVAL, SALIDA, lr=LR, accum=ACUMULACION,
+                            guardar_cada=GUARDAR_CADA)
+print()
+print("Pérdida de evaluación por checkpoint (más baja = mejor; si sube, empieza a sobreajustar):")
+for nombre, ev in ESTADO["checkpoints"].items():
+    print(f"  {nombre}: inglés {ev.get('en', '-')} · español {ev.get('es', '-')}")
+"""),
+    code("""
+# 6. Prueba de escucha: tres frases con el modelo base y con cada checkpoint
+# Misma referencia y mismo modo que en producción: naval_ref02, solo timbre, non-streaming.
+peft_talker.eval()
+CHECKPOINTS = sorted(p.name for p in SALIDA.glob("paso_*") if p.name != "paso_0000")
+for c in CHECKPOINTS:
+    if c not in peft_talker.peft_config:
+        peft_talker.load_adapter(str(SALIDA / c), adapter_name=c)
+
+comun.SALIDA = SALIDA / "prueba"
+items, silencio_ms = comun.cargar_items()
+ITEMS = [it for it in items if it["id"] in FRASES_PRUEBA]
+REFS = comun.comprobar(ITEMS)
+prompt = tts.create_voice_clone_prompt(ref_audio=REFS["naval"]["wav"], x_vector_only_mode=True)
+
+def sintetizar(texto, ref):
+    wavs, sr = tts.generate_voice_clone(text=texto, language="Spanish", voice_clone_prompt=prompt,
+                                        non_streaming_mode=True)
+    return wavs[0], sr
+
+PARAMS = {"modo": "x_vector_only", "non_streaming_mode": True, "ref": "naval_ref02"}
+with peft_talker.disable_adapter():
+    comun.generar("base", sintetizar, ITEMS, REFS, silencio_ms, params=PARAMS)
+for c in CHECKPOINTS:
+    peft_talker.set_adapter(c)
+    comun.generar(c, sintetizar, ITEMS, REFS, silencio_ms, params={**PARAMS, "checkpoint": c})
+
+import escucha
+escucha.construir_pagina(FRASES_PRUEBA, ["base"] + CHECKPOINTS, nombre=f"lora_qwen_{VARIANTE}")
+"""),
+    code("""
+# 7. Subir a Drive y desconectar
+comun.desconectar()
+"""),
+], gpu="L4")

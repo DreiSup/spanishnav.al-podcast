@@ -20,6 +20,9 @@ Naval.
 
 - `elegir_frases.py` → `frases_sinteticas.json`: 400 frases de Naval, de 60 a 220
   caracteres, sin ninguna de la criba.
+- `lora_qwen.py`: el entrenador LoRA de Qwen. Replica la entrada de `generate` en modo x-vector y
+  non-streaming, con referencia e idioma por ejemplo, EOS entrenado y la pérdida del sub-talker
+  corregida. Probado en CPU con un modelo diminuto: el prefill es idéntico al de `generate`.
 - `medir.py`: WER con Whisper large-v3 (sin tildes y con las cifras pasadas a letra) y
   similitud ECAPA.
 - `construir_cuadernos.py` → `cuadernos/`, que son generados:
@@ -29,5 +32,6 @@ Naval.
 | `01_sintetico_chatterbox.ipynb` | 400 clips con Chatterbox V2 → `piloto/sintetico/chatterbox_v2/` | T4 |
 | `02_sintetico_xtts.ipynb` | 400 clips con XTTS base → `piloto/sintetico/xtts_base/` | T4 |
 | `03_filtrar_sintetico.ipynb` | Mide, filtra (WER ≤ 5 %, velocidad normal) y elige la mejor versión de cada frase hasta 40 min → `seleccion.jsonl` | T4 |
+| `04_lora_qwen.ipynb` | LoRA de Qwen3-TTS en modo solo timbre (variante B: 60 % inglés real + 40 % español de Chatterbox; A: solo español), checkpoints, pérdida de evaluación y una escucha a ciegas de 3 frases → `piloto/lora_qwen/<variante>/` | L4 |
 
 Rutas en Drive, bajo `fine_tunned_naval/`.

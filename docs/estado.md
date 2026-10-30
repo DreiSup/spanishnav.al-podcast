@@ -37,14 +37,14 @@ La **fase 1** (elegir motor) está casi cerrada:
   Escuchado el 30-oct: «no suena mal», pero **el autor quiere entrenar Naval igualmente**.
 - **Dataset de Naval** montado en la sesión local: 69,9 min de train (35,0 conversación y
   34,9 monólogo, 363 clips) y 4,2 min de eval (nav139, nav135 y nav081). Sin nav072.
-  44,1 kHz mono. Autorizado a subirse a `fine_tunned_naval/datasets/naval/`.
+  44,1 kHz mono. Subido a `fine_tunned_naval/datasets/naval/` (388 ficheros, `rclone check` sin
+  diferencias).
 
 ## Esperando a que termine
 
 | Qué | Dónde corre | Resultado esperado |
 |---|---|---|
-| Subida del dataset de Naval | Sesión local, tras la escucha del autor | `fine_tunned_naval/datasets/naval/` (376 MB) |
-| Dataset `naval_kapil` (nav072 + los diálogos 1–4 de 2019) | Sesión local, midiendo | `datasets/naval_kapil/`; una fuente entera a eval. Ojo: los de 2019 vienen a 16 kHz y nav072 a 44,1 |
+| Dataset `naval_kapil` | Sesión local: aprobado el 30-oct, subiéndose | `datasets/naval_kapil/`: train 15,6 min (15,2 de nav072 a 44,1 kHz + 0,4 de nav003 a 16 kHz), eval nav001 entero (50 s). Se entrenará como repaso corto encima del LoRA de Naval |
 
 ## Pendiente del autor
 
@@ -53,12 +53,15 @@ La **fase 1** (elegir motor) está casi cerrada:
    prefiere: solo timbre o normal.
 2. **Aprobar en la sesión local** la última escucha de los datasets de Naval y de
    `naval_kapil`.
-3. **Decidir las variantes del LoRA.** Tras el modo solo timbre, la propuesta es:
+3. **Ejecutar `piloto/cuadernos/04_lora_qwen`** (L4, 30–45 min) y escuchar a ciegas
+   `piloto/lora_qwen/B/prueba/escucha/lora_qwen_B.html`: el modelo base frente a cada
+   checkpoint, con 3 frases de Naval.
+4. **Decidir las variantes del LoRA.** Tras el modo solo timbre, la propuesta es:
    - **B**, la mezcla 60 % inglés real + 40 % español sintético, con etiqueta de idioma,
      como principal;
    - **A**, solo español sintético, como comparación opcional.
-4. **Enviar a la sesión local** los datasets de Nivi, Brett y Deutsch. Naval ya está
-   montado, así que se puede mandar ya (mensaje del 30-oct). Metas:
+5. **Enviar a la sesión local** los datasets de Nivi, Brett y Deutsch (prompt actualizado
+   del 30-oct). Metas:
    - nivi: todo lo que haya, buscando también su podcast propio;
    - brett y deutsch: 45–60 min cada uno.
 
@@ -68,12 +71,9 @@ La **fase 1** (elegir motor) está casi cerrada:
 > Nivi, Brett y Deutsch con esa receta (y su español sintético, que sí gasta unidades). Los
 > invitados menores (Vitalik, Ridley, Hodak, Rauch, Scholl, Qureshi) van en zero-shot.
 
-1. **Cuaderno de entrenamiento LoRA de Qwen3-TTS** en modo x-vector:
-   - entrenador propio, basado en el de Alexandria, con la referencia y el idioma por
-     ejemplo y la pérdida del sub-talker corregida;
-   - lr de 1e-6 a 2e-6, 1–3 épocas, batch 1 con grad_accum 8, atención sdpa;
-   - checkpoints a Drive cada 100 pasos;
-   - inferencia con `PeftModel` sobre el Base y `generate_voice_clone(x_vector_only_mode=True, non_streaming_mode=True)`.
+1. ~~Cuaderno LoRA de Qwen3-TTS~~: hecho el 30-oct, `piloto/cuadernos/04_lora_qwen`
+   (entrenador en `piloto/lora_qwen.py`, probado en CPU con un modelo diminuto). Variante B
+   por defecto: 2 épocas, 158 pasos, lr 2e-6, r 64 / alpha 128, checkpoints cada 40 pasos.
 2. **Cuaderno de entrenamiento LoRA de OmniVoice**:
    - instalado desde git (el 0.2.1 de PyPI no trae LoRA);
    - truco de `clean_start_token_idx` para fijar la referencia;
