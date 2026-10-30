@@ -229,7 +229,7 @@ rclone.
 |---|---|---|---|
 | 1 | Copiar el transcript de nav.al **a mano** a `trabajo/manual/<slug>.txt` y convertirlo con `extraer-episodios.py` | **local, manual por decisión** | formato y script listos |
 | 2 | Traducir al español a `transcript.es.json` | web / local | por definir |
-| 3 | Generar un clip de TTS por bloque de hablante y subirlo a Drive | Colab (GPU) | por definir |
+| 3 | Generar un clip de TTS por bloque de hablante y subirlo a Drive | Colab (GPU), `fabrica/fabrica.ipynb` | cuaderno listo; voces en `fabrica/voces.json` |
 | 4 | Juntar clips, quitar ruido y alucinaciones | **local, Audacity** | manual por diseño |
 | 5 | Subir el audio limpio a Drive con rclone | local | — |
 | 6 | Montar el `.mp4` con la miniatura | local | script sin probar |

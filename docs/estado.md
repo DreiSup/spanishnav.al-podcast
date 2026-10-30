@@ -52,44 +52,45 @@ La **fase 1** (elegir motor) está casi cerrada:
   pasos 80, 120 y 158 empatados en torno a 4 (naturalidad 3 → 4; el acento no cambia, 4). **Se
   elige `paso_0158`**: sin ninguna nota por debajo de 4 y con la menor pérdida de evaluación.
 
+- **Datasets de Nivi, Brett y Deutsch** subidos (`docs/dataset.md`, parte 2b): deutsch 60,0 min de
+  train + 4,1 de eval; brett 46,8 + 4,1; nivi 62,7 + 5,0. Kapil (23,6 min) sigue solo en local.
+- **Entrenamiento de cualquier voz** (30-oct): `piloto/rutas.py` centraliza las rutas; 01 genera el
+  español sintético de nivi, brett y deutsch; 03 lo filtra por voz; 04 acepta `VARIANTE` = nivi, brett
+  o deutsch.
+- **La fábrica** (30-oct): `fabrica/voces.json`, `fabrica/fabrica.py` y `fabrica/fabrica.ipynb`. Probada
+  en CPU con un motor falso sobre el 035: plan, regla de Kapil, carpeta en Drive, reintentos, pausas de
+  0,12 s, reanudación e informe. Sin probar todavía en GPU.
+
 ## Esperando a que termine
 
 | Qué | Dónde corre | Resultado esperado |
 |---|---|---|
-| Datasets de Nivi, Brett y Deutsch | Sesión local (`orquesta_parte2b.sh`) | Tabla de fuentes, informe y escucha de cada uno, para el OK del autor |
+| `04_lora_qwen`, variante kapil | Colab, lanzado por el autor el 30-oct | `piloto/lora_qwen/kapil/` y su página de escucha |
 
 ## Pendiente del autor
 
-1. **`04_lora_qwen`, variante kapil**, con `PARTIR_DE = "B/paso_0158"`.
-2. **Después, `05_lora_omnivoice`**, si tras escuchar Qwen sigue mereciendo la comparación
-   (ojo: los pesos de OmniVoice serían no comerciales).
-3. **Datasets de Nivi, Brett y Deutsch** en la sesión local: aprobar la tabla de fuentes, la
-   escucha y la subida de cada uno. Nada se sube a Drive sin el OK del autor.
+1. **Escuchar a ciegas `lora_qwen_kapil.html`** y elegir checkpoint. Después, apuntarlo en
+   `fabrica/voces.json` (`naval_kapil.adaptador`), o pedírselo a Claude.
+2. **Probar la fábrica** con un episodio corto ya traducido (por ejemplo `2019/043-kelly-criterion`, unos
+   2 min) y medir el coste por minuto de audio que imprime la celda 5.
+3. **Español sintético de Nivi, Brett y Deutsch**: `piloto/cuadernos/01_sintetico_chatterbox` (T4, ~1 h
+   por voz) y después `03_filtrar_sintetico` con cada `VOZ`.
+4. **LoRA de Nivi, Brett y Deutsch**: `04_lora_qwen` con `VARIANTE` = cada voz; escuchar y elegir.
+5. **Aprobar la organización de Drive** (`docs/organizacion-drive.md`); se ejecuta cuando estén todas las
+   voces.
+6. Opcional: `05_lora_omnivoice` (pesos no comerciales) y el LoRA de la voz de Kapil (dataset en local).
 
 ## Pendiente de Claude
 
-> Orden de los fine-tunings: primero el piloto con Naval decide motor y receta; después
-> Nivi, Brett y Deutsch con esa receta (y su español sintético, que sí gasta unidades). Los
-> invitados menores (Vitalik, Ridley, Hodak, Rauch, Scholl, Qureshi) van en zero-shot.
+1. **Tras cada escucha**, apuntar el checkpoint elegido en `fabrica/voces.json`.
+2. **Cuaderno de evaluación** amplio (las 55 frases de la criba, WER y similitud), si hace falta
+   comparar más a fondo que con las páginas de 3 frases.
+3. **Reorganizar Drive** cuando el autor la apruebe, y actualizar `voces.json`, `piloto/rutas.py` y
+   `drive.json`.
+4. Si la fábrica sigue sonando lenta: probar a generar 2–3 frases de una vez y referencia en español en
+   modo normal (`docs/fabrica-de-voz.md`, sección *Ritmo*).
 
-1. ~~Cuaderno LoRA de Qwen3-TTS~~: hecho el 30-oct, `piloto/cuadernos/04_lora_qwen`
-   (entrenador en `piloto/lora_qwen.py`, probado en CPU con un modelo diminuto). Variante B
-   por defecto: 2 épocas, 158 pasos, lr 2e-6, r 64 / alpha 128, checkpoints cada 40 pasos.
-2. ~~`naval_kapil`~~: hecho el 30-oct como variante `kapil` del mismo `04_lora_qwen`. Parte del
-   checkpoint de Naval que elija el autor (`PARTIR_DE`), 3 épocas con los 15,6 min de la sesión con
-   Kapil + español sorteado al 40 % (73 pasos, checkpoints cada 15). Prueba: k05, k07 y k10 frente a
-   sus gemelas con la referencia normal.
-3. ~~Cuaderno LoRA de OmniVoice~~: hecho el 30-oct, `piloto/cuadernos/05_lora_omnivoice`
-   (`piloto/lora_omnivoice.py`, entrenador oficial de OmniVoice, probado en CPU con un modelo
-   diminuto). Mismos datos y variantes que el 04. lr 1e-4, r 16 / alpha 32, 4 épocas (unos 212
-   pasos en B). La referencia va como tokens delante del clip, con `clean_start_token_idx`; un
-   10 % de ejemplos sin condicionamiento para la guía. Se lanza después de escuchar el de Qwen.
-4. **Cuaderno de evaluación de checkpoints**: las 55 frases de la criba, WER, similitud y
-   escucha a ciegas frente al modelo base.
-5. **Después: fase 4**, el registro de voces (`voces.json`) y el cuaderno general de la
-   fábrica.
-6. **Arreglar `drive.json`**: sus IDs de año ya no existen. Las carpetas reales son
-   `naval-podcast/transcripts/<año>`.
+Hecho el 30-oct: cuadernos LoRA de Qwen (B, kapil y cualquier voz) y de OmniVoice, `06_ritmo`, la fábrica.
 
 ## Otros frentes
 

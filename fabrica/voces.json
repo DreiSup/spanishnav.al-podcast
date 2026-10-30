@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "_comentario": "Registro de voces de la fábrica. Qué modelo, qué referencia y qué adaptador LoRA usa cada hablante. Las rutas de 'ref' y 'adaptador' son relativas a rutas.voces; adaptador null = Qwen base sin LoRA. Cambiar de checkpoint o de referencia es cambiar este fichero, no el código.",
+  "motor": {
+    "modelo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+    "modo": "x_vector",
+    "idioma": "Spanish",
+    "non_streaming_mode": true
+  },
+  "ritmo": {
+    "_comentario": "Decidido el 30-oct en piloto/cuadernos/06_ritmo: ninguna pausa por encima de 0,12 s.",
+    "pausa_max": 0.12
+  },
+  "verificacion": {
+    "_comentario": "Whisper revisa cada frase al generarla. Si no dice el texto, o deja más de sobra_final_max segundos tras la última palabra (una alucinación que el texto no ve), se repite con otra semilla hasta 'reintentos' veces. Si ninguna sale bien, se queda la mejor y va al informe para Audacity.",
+    "activa": true,
+    "reintentos": 2,
+    "errores_por_cada_10_palabras": 1,
+    "sobra_final_max": 0.8
+  },
+  "rutas": {
+    "drive": "/content/drive/MyDrive",
+    "voces": "fine_tunned_naval",
+    "episodios": "naval-podcast/transcripts"
+  },
+  "alias": {
+    "naval ravikant": "naval",
+    "babak nivi": "nivi",
+    "brett hall": "brett",
+    "david deutsch": "deutsch",
+    "david": "deutsch",
+    "kapil gupta": "kapil",
+    "matt ridley": "ridley",
+    "matt": "ridley",
+    "vitalik buterin": "vitalik",
+    "haseeb qureshi": "qureshi",
+    "haseeb": "qureshi",
+    "max hodak": "hodak",
+    "max": "hodak",
+    "guillermo rauch": "rauch",
+    "guillermo": "rauch",
+    "blake scholl": "scholl",
+    "blake": "scholl"
+  },
+  "reglas": [
+    {
+      "_comentario": "En los episodios con Kapil Gupta, Naval usa su modelo de esa sesión (docs/fabrica-de-voz.md, «Dos modelos de Naval»).",
+      "si_habla": "kapil",
+      "usar": {"naval": "naval_kapil"}
+    }
+  ],
+  "voces": {
+    "naval": {
+      "ref": "speaker_refs/naval/naval_ref02.wav",
+      "adaptador": "piloto/lora_qwen/B/paso_0158",
+      "nota": "LoRA B, paso 158: elegido el 30-oct por escucha a ciegas (piloto/resultados/resumen.md)"
+    },
+    "naval_kapil": {
+      "fichero": "naval",
+      "ref": "speaker_refs/naval_kapil/naval_kapil_ref02.wav",
+      "adaptador": null,
+      "nota": "Pendiente: variante kapil de 04_lora_qwen. Mientras tanto, Qwen base con la referencia de la sesión con Kapil"
+    },
+    "nivi": {"ref": "speaker_refs/nivi/nivi_ref02.wav", "adaptador": null, "nota": "Pendiente de LoRA"},
+    "brett": {"ref": "speaker_refs/brett/brett_ref02.wav", "adaptador": null, "nota": "Pendiente de LoRA"},
+    "deutsch": {"ref": "speaker_refs/deutsch/deutsch_ref02.wav", "adaptador": null, "nota": "Pendiente de LoRA"},
+    "kapil": {"ref": "speaker_refs/kapil/kapil_ref02.wav", "adaptador": null, "nota": "LoRA opcional: su dataset está en local, sin subir"},
+    "vitalik": {"ref": "speaker_refs/vitalik/vitalik_ref02.wav", "adaptador": null, "nota": "Invitado menor: sin LoRA"},
+    "ridley": {"ref": "speaker_refs/ridley/ridley_ref02.wav", "adaptador": null, "nota": "Invitado menor: sin LoRA"},
+    "hodak": {"ref": "speaker_refs/hodak/hodak_ref02.wav", "adaptador": null, "nota": "Invitado menor: sin LoRA"},
+    "rauch": {"ref": "speaker_refs/rauch/rauch_ref02.wav", "adaptador": null, "nota": "Invitado menor: sin LoRA"},
+    "scholl": {"ref": "speaker_refs/scholl/scholl_ref02.wav", "adaptador": null, "nota": "Invitado menor: sin LoRA"},
+    "qureshi": {"ref": "speaker_refs/qureshi/qureshi_ref02.wav", "adaptador": null, "nota": "Invitado menor: sin LoRA"}
+  }
+}

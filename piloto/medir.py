@@ -58,7 +58,14 @@ class Asr:
         Con eso se detecta lo que el WER no ve: murmullos, sílabas o ruido antes o después de la
         frase, que Whisper suele omitir en el texto.
         """
-        salida = self.p({"raw": audio_16k(ruta), "sampling_rate": 16000}, return_timestamps="word",
+        return self.transcribe_audio(audio_16k(ruta), 16000)
+
+    def transcribe_audio(self, audio, sr):
+        """Como transcribe(), con el audio ya en memoria (mono, float32)."""
+        a = np.asarray(audio, dtype=np.float32)
+        if sr != 16000:
+            a = librosa.resample(a, orig_sr=sr, target_sr=16000)
+        salida = self.p({"raw": a, "sampling_rate": 16000}, return_timestamps="word",
                         generate_kwargs={"language": "spanish", "task": "transcribe"})
         marcas = [c["timestamp"] for c in salida.get("chunks", []) if c.get("timestamp")]
         inicio = next((t[0] for t in marcas if t[0] is not None), None)
