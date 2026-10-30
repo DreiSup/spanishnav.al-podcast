@@ -1,5 +1,5 @@
 {
-  "nota": "Babak Nivi (Parte 2). Fuentes aprobadas el 2026-10-30. Meta: todo lo que haya. Twitter Spaces sin transcript: hablantes por embeddings. eval = Sell the Truth entero.",
+  "nota": "Babak Nivi (Parte 2). Fuentes aprobadas el 2026-10-30. Meta: todo lo que haya. Twitter Spaces sin transcript: hablantes por embeddings. eval = Sell the Truth entero. nav055 pasa a eval (2026-10-30): nav163 solo daba 2,7 min.",
   "hablante": "nivi",
   "train_min": null,
   "eval_min": null,
@@ -18,7 +18,7 @@
     },
     {
       "id": "nav055",
-      "split": "train",
+      "split": "eval",
       "registro": "conversación (pregunta a Naval)",
       "grupo": "conversacion"
     },
