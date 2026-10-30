@@ -29,19 +29,26 @@ La **fase 1** (elegir motor) está casi cerrada:
   - El control de audio sobrante **al inicio no funciona**: Whisper marca siempre la
     primera palabra en 0,0 s. El del final sí funciona (descartó el s057 de XTTS, 8,6 s
     sobrantes).
-  - Propuesta pendiente del autor: quitar los 19 de XTTS (timbre lejano a Naval y único
-    profesor que alucina). Quedarían 37,8 min, un 39 % frente a 60 min de inglés.
+  - **Decidido (30-oct): fuera los 19 de XTTS** (timbre lejano a Naval y único profesor que
+    alucina). El cuaderno del LoRA los descarta al leer la selección: quedan 365 clips de
+    Chatterbox V2, 37,8 min, un 39 % frente a 60 min de inglés.
+- **Episodio 035 en Qwen** (`criba/cuadernos/03d_qwen_episodio`), 29-oct. En
+  `outputs/criba/episodio_035/`: `episodio_xvec.wav` y `episodio_nivi_normal.wav`.
+  Falta la escucha del autor.
+- **Dataset de Naval** montado en la sesión local: 69,9 min de train (35,0 conversación y
+  34,9 monólogo, 363 clips) y 4,2 min de eval (nav139, nav135 y nav081). Sin nav072.
+  44,1 kHz mono. Autorizado a subirse a `fine_tunned_naval/datasets/naval/`.
 
 ## Esperando a que termine
 
 | Qué | Dónde corre | Resultado esperado |
 |---|---|---|
-| Dataset de Naval normal (lote completo) | Sesión local | `fine_tunned_naval/datasets/naval/` en Drive. Decisiones: hasta 25 caracteres/s, 50/50 monólogo y conversación, **sin nav072** |
-| Dataset `naval_kapil` (nav072 + los diálogos 1–4 de 2019) | Sesión local, después del anterior | `datasets/naval_kapil/`; una fuente entera a eval |
+| Subida del dataset de Naval | Sesión local, tras la escucha del autor | `fine_tunned_naval/datasets/naval/` (376 MB) |
+| Dataset `naval_kapil` (nav072 + los diálogos 1–4 de 2019) | Sesión local, midiendo | `datasets/naval_kapil/`; una fuente entera a eval. Ojo: los de 2019 vienen a 16 kHz y nav072 a 44,1 |
 
 ## Pendiente del autor
 
-1. **Ejecutar `criba/cuadernos/03d_qwen_episodio`** y escuchar el episodio 035 entero en
+1. **Escuchar el episodio 035** (ya generado, en `outputs/criba/episodio_035/`) entero en
    modo solo timbre. Decide si Naval en zero-shot es publicable, y qué versión de Nivi
    prefiere: solo timbre o normal.
 2. **Aprobar en la sesión local** la última escucha de los datasets de Naval y de
