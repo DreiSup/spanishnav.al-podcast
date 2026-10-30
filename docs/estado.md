@@ -73,11 +73,11 @@ Naval y `naval_kapil` aprobados y subidos, variante B elegida como principal.
    checkpoint de Naval que elija el autor (`PARTIR_DE`), 3 épocas con los 15,6 min de la sesión con
    Kapil + español sorteado al 40 % (73 pasos, checkpoints cada 15). Prueba: k05, k07 y k10 frente a
    sus gemelas con la referencia normal.
-3. **Cuaderno de entrenamiento LoRA de OmniVoice** (en preparación por un subagente, 30-oct):
-   - instalado desde git (el 0.2.1 de PyPI no trae LoRA);
-   - truco de `clean_start_token_idx` para fijar la referencia;
-   - `instruct_ratio=0`;
-   - pocas épocas.
+3. ~~Cuaderno LoRA de OmniVoice~~: hecho el 30-oct, `piloto/cuadernos/05_lora_omnivoice`
+   (`piloto/lora_omnivoice.py`, entrenador oficial de OmniVoice, probado en CPU con un modelo
+   diminuto). Mismos datos y variantes que el 04. lr 1e-4, r 16 / alpha 32, 4 épocas (unos 212
+   pasos en B). La referencia va como tokens delante del clip, con `clean_start_token_idx`; un
+   10 % de ejemplos sin condicionamiento para la guía. Se lanza después de escuchar el de Qwen.
 4. **Cuaderno de evaluación de checkpoints**: las 55 frases de la criba, WER, similitud y
    escucha a ciegas frente al modelo base.
 5. **Después: fase 4**, el registro de voces (`voces.json`) y el cuaderno general de la

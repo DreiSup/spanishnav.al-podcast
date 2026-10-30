@@ -491,3 +491,205 @@ escucha.construir_pagina(FRASES_PRUEBA, VERSIONES, nombre=f"lora_qwen_{VARIANTE}
 comun.desconectar()
 """),
 ], gpu="L4")
+
+# ---------------------------------------------------------------- LoRA de OmniVoice
+cuaderno("05_lora_omnivoice.ipynb", [
+    md("""
+# Piloto de fine-tuning — LoRA de OmniVoice para Naval
+
+Entrena un **LoRA** sobre `k2-fsa/OmniVoice`, el ganador de la escucha a ciegas de la criba (media 4,31), que
+clona bien a Naval pero con acento inglés (3 sobre 5). El objetivo del LoRA es **quitar el acento en español
+sin perder el timbre**. Es el segundo brazo del piloto: mismos datos y misma prueba que `04_lora_qwen`.
+
+Se usa el entrenamiento **oficial** de OmniVoice con su LoRA, instalado desde git (el 0.2.1 de PyPI no lo trae).
+Lo propio del piloto está en `piloto/lora_omnivoice.py` (detalles en `piloto/investigacion-lora.md`, §2):
+
+- Cada ejemplo lleva como **referencia otro clip de la misma voz**, tokenizado igual que en la inferencia, y el
+  modelo solo aprende a generar el clip, nunca la referencia. El entrenamiento oficial solo sabe usar un trozo
+  del mismo clip.
+- Cada ejemplo lleva su **etiqueta de idioma** (`en` o `es`).
+- Un 10 % de los ejemplos va **sin condicionamiento**, como en el preentrenamiento, para no estropear la guía
+  (`guidance_scale`) que usa la generación.
+- Se completa el **silencio final** de los clips hasta 0,2 s: OmniVoice se come el final de las frases en
+  español (issue #116).
+
+**Datos** (los mismos que en `04_lora_qwen`: mismo barajado y los mismos 16 clips de español para evaluar)
+
+| Variante | Qué entra en cada época |
+|---|---|
+| **B** (por defecto) | Todo el español sintético de Chatterbox V2 (unos 36 min) + inglés real de Naval hasta que el español sea el **40 %** de los minutos. El inglés se sortea en cada época |
+| **A** | Solo el español sintético. Para comparar, si quieres |
+
+**Salida** en `fine_tunned_naval/piloto/lora_omnivoice/<variante>/`:
+
+| Fichero | Qué es |
+|---|---|
+| `paso_NNNN/` | Un checkpoint por época: solo el adaptador (unos 100 MB), que es lo que hace falta para cargarlo |
+| `estado.json` | La pérdida de evaluación de cada checkpoint, en inglés y en español |
+| `registro.jsonl` | La pérdida de entrenamiento cada 10 pasos |
+| `reanudar.pt` | El optimizador del último checkpoint, para reanudar si se corta |
+| `prueba/` | Tres frases de la criba con el modelo base y con cada checkpoint |
+| `prueba/escucha/lora_omnivoice_<variante>.html` | La página de escucha a ciegas de esas frases |
+
+Los tokens de audio quedan en `piloto/lora_omnivoice/cache_tokens.pt` y valen para las dos variantes.
+
+**GPU: L4** (necesita bf16; con T4 el cuaderno se para al principio sin gastar casi nada).
+**Tiempo estimado:** 30–45 min en total, la mayor parte en descargar el modelo, leer los audios de Drive y la
+prueba de escucha; el entrenamiento son unos 210 pasos. Uso: celda 1, *Entorno de ejecución → Reiniciar sesión*, y el resto
+en orden. Si se corta, vuelve a ejecutarlo: los tokens ya calculados, los pasos ya entrenados y los audios ya
+generados no se repiten.
+"""),
+    code("""
+# 1. Instalación (después: Entorno de ejecución → Reiniciar sesión)
+# OmniVoice desde git, en el commit investigado: el wheel 0.2.1 de PyPI no trae el LoRA.
+# transformers y peft, fijados a las versiones con las que se probó el código en CPU.
+# audioop-lts solo se instala con Python 3.13, donde pydub lo necesita.
+# El aviso rojo "pip's dependency resolver..." es normal.
+!pip install -q "omnivoice[lora] @ git+https://github.com/k2-fsa/OmniVoice@08be0b4ccbac3e13e374e86fbfead4b4cac343e2" transformers==5.22.0 peft==0.21.2 "audioop-lts; python_version >= '3.13'"
+"""),
+    code("""
+# 2. Parámetros
+VARIANTE = "B"       # "B": 60 % inglés real + 40 % español sintético · "A": solo español sintético
+EPOCAS = 4           # el objetivo enmascarado solo puntúa parte de los tokens: necesita más pasadas que Qwen
+LR = 1e-4            # el del ejemplo oficial de LoRA de OmniVoice
+LORA_R, LORA_ALPHA = 16, 32   # los del ejemplo oficial
+BATCH_TOKENS = 4096  # tokens por lote, relleno incluido
+ACUMULACION = 2      # unos 8192 tokens por paso de optimizador, como el ejemplo oficial
+EVAL_ES = 16         # clips del español sintético que se apartan para medir la pérdida (los mismos que en Qwen)
+SEMILLA = 1234
+FRASES_PRUEBA = ["n12", "n18", "n25"]   # de la criba: una media, una larga y el bloque de 9 frases
+"""),
+    code(f"""
+# 3. Preparar: código del repo, Drive y los ejemplos (todavía no se carga ningún modelo)
+import os, sys, subprocess, json, random
+from pathlib import Path
+RAMA = "{RAMA}"
+if os.path.isdir("/content/repo"):
+    subprocess.run(["git", "-C", "/content/repo", "pull", "-q"], check=True)
+else:
+    subprocess.run(["git", "clone", "-q", "--depth", "1", "-b", RAMA, "{REPO}", "/content/repo"], check=True)
+sys.path[:0] = ["/content/repo/criba", "/content/repo/piloto"]
+import comun, lora_qwen, lora_omnivoice
+
+comun.montar_drive()
+D = comun.DRIVE
+NAVAL = D / "datasets" / "naval"
+SALIDA = D / "piloto" / "lora_omnivoice" / VARIANTE
+
+# Exactamente los ejemplos de 04_lora_qwen: mismo barajado, mismo reparto, mismas referencias y misma mezcla
+def ingles(split):
+    return [{{"audio": str(NAVAL / f["file"]), "texto": f["text"], "idioma": "en", "segundos": f["dur"],
+             "grupo_ref": "en:" + f["source_id"]}}
+            for f in lora_qwen.leer_jsonl(NAVAL / "metadata.jsonl") if f["split"] == split]
+
+espanol = [{{"audio": str(D / s["audio"]), "texto": s["texto"], "idioma": "es", "segundos": s["segundos"],
+            "grupo_ref": "es"}}
+           for s in lora_qwen.leer_jsonl(D / "piloto" / "sintetico" / "seleccion.jsonl")
+           if s["variante"] == "chatterbox_v2"]
+random.Random(SEMILLA).shuffle(espanol)
+es_eval, es_train = espanol[:EVAL_ES], espanol[EVAL_ES:]
+en_train, en_eval = ingles("train"), ingles("eval")
+if VARIANTE == "A":
+    en_train = []
+TODOS = en_train + en_eval + es_train + es_eval
+faltan = [e["audio"] for e in TODOS if not Path(e["audio"]).is_file()]
+if faltan:
+    raise SystemExit(f"Faltan {{len(faltan)}} audios en Drive, por ejemplo {{faltan[0]}}. No sigas.")
+lora_qwen.asignar_referencias(TODOS, SEMILLA)
+ORDEN = lora_qwen.mezcla_por_epoca(en_train, es_train, 0.4 if VARIANTE == "B" else 1.0, EPOCAS, SEMILLA)
+EVAL = en_eval + es_eval
+
+# La referencia de la prueba de escucha, antes de gastar nada
+items, _ = comun.cargar_items()
+comun.comprobar([it for it in items if it["id"] in FRASES_PRUEBA])
+
+m = lambda xs: sum(e["segundos"] for e in xs) / 60
+SEG = {{e["audio"]: e["segundos"] for e in TODOS}}
+print(f"Variante {{VARIANTE}}. Disponible: inglés {{m(en_train):.1f}} min ({{len(en_train)}} clips), "
+      f"español {{m(es_train):.1f}} min ({{len(es_train)}} clips)")
+for n, ep in enumerate(ORDEN, 1):
+    en_ = [e for e in ep if e["idioma"] == "en"]
+    es_ = [e for e in ep if e["idioma"] == "es"]
+    con_ref = sum(e["segundos"] + SEG[e["ref"]] for e in ep) / 60
+    print(f"  época {{n}}: {{len(ep)}} clips · inglés {{m(en_):.1f}} min · español {{m(es_):.1f}} min "
+          f"({{m(es_) / max(m(ep), 1e-9):.0%}} de español) · {{con_ref:.0f}} min con su referencia delante")
+pasos = lora_omnivoice.estimar_pasos(ORDEN, SEG, BATCH_TOKENS, ACUMULACION)
+print(f"Pasos de optimizador: unos {{pasos}} (el número exacto sale al escribir los datos), un checkpoint "
+      f"por época. Evaluación: {{len(en_eval)}} clips en inglés y {{len(es_eval)}} en español.")
+print("RESULTADO: OK")
+"""),
+    code("""
+# 4. Tokenizar el audio (una sola vez: queda en Drive y vale para las dos variantes)
+import torch
+if not torch.cuda.is_available() or not torch.cuda.is_bf16_supported():
+    raise SystemExit("Este cuaderno necesita una GPU con bf16 (L4 o A100). Cambia el tipo de entorno.")
+SALIDA.mkdir(parents=True, exist_ok=True)
+TOKENS = lora_omnivoice.preparar_tokens(TODOS, D / "piloto" / "lora_omnivoice" / "cache_tokens.pt")
+cortos = [e for e in TODOS if TOKENS["destino"][e["audio"]]["cola"] < lora_omnivoice.COLA_MIN]
+largo = max(TOKENS["ref"][e["ref"]]["tokens"].shape[1] + TOKENS["destino"][e["audio"]]["tokens"].shape[1]
+            for e in TODOS)
+print(f"Listo: {len(TODOS)} clips. {len(cortos)} tenían menos de {lora_omnivoice.COLA_MIN} s de silencio final "
+      f"y se les ha completado hasta {lora_omnivoice.COLA_OBJETIVO} s.")
+print(f"El ejemplo más largo, referencia incluida, tiene {largo} tokens de audio "
+      f"({largo / TOKENS['frame_rate']:.1f} s); el límite es 2000 tokens con el texto.")
+"""),
+    code("""
+# 5. Entrenar el LoRA con el entrenador oficial de OmniVoice
+comun.SALIDA = D / "piloto" / "lora_omnivoice"
+comun.guardar_entorno(VARIANTE, ["omnivoice", "peft", "torch", "transformers", "accelerate", "webdataset"])
+LOCAL = Path("/content/lora_omnivoice") / VARIANTE
+DATOS = lora_omnivoice.escribir_webdataset(lora_omnivoice.plan(ORDEN, TOKENS, SEMILLA), LOCAL / "datos",
+                                           TOKENS["frame_rate"])
+CFG = lora_omnivoice.config_entrenamiento(learning_rate=LR, lora_r=LORA_R, lora_alpha=LORA_ALPHA,
+                                          batch_tokens=BATCH_TOKENS, gradient_accumulation_steps=ACUMULACION,
+                                          seed=SEMILLA)
+(SALIDA / "parametros.json").write_text(json.dumps({
+    "variante": VARIANTE, "epocas": EPOCAS, "semilla": SEMILLA, "config": CFG,
+    "prob_incondicional": lora_omnivoice.PROB_INCONDICIONAL,
+    "silencio_final": [lora_omnivoice.COLA_MIN, lora_omnivoice.COLA_OBJETIVO],
+    "ejemplos": [{k: e[k] for k in ("audio", "idioma", "ref", "segundos")} for e in TODOS]},
+    ensure_ascii=False, indent=1), encoding="utf-8")
+ESTADO = lora_omnivoice.entrenar(CFG, DATOS, EVAL, TOKENS, EPOCAS, SALIDA, LOCAL / "checkpoints")
+print()
+print("Pérdida de evaluación por checkpoint (más baja = mejor; si sube, empieza a sobreajustar):")
+for nombre, ev in ESTADO["checkpoints"].items():
+    print(f"  {nombre}: inglés {ev.get('en', '-')} · español {ev.get('es', '-')}")
+"""),
+    code("""
+# 6. Prueba de escucha: tres frases con el modelo base y con cada checkpoint
+# Los mismos parámetros que la criba (02_omnivoice): float16, language="es", naval_ref02 con su transcripción
+# y el resto por defecto. Cada checkpoint se carga como hace omnivoice-infer --lora_adapter (fusionado).
+from omnivoice import OmniVoice
+from omnivoice.utils.lora import load_lora_adapter
+import escucha
+
+comun.SALIDA = SALIDA / "prueba"
+items, silencio_ms = comun.cargar_items()
+ITEMS = [it for it in items if it["id"] in FRASES_PRUEBA]
+REFS = comun.comprobar(ITEMS)
+CHECKPOINTS = sorted(p.name for p in SALIDA.glob("paso_*") if p.is_dir())
+PARAMS = {"modelo": lora_omnivoice.MODELO, "language": "es", "dtype": "float16", "ref": "naval_ref02"}
+for version in ["base"] + CHECKPOINTS:
+    if all((comun.SALIDA / version / f"{i}.wav").exists() for i in FRASES_PRUEBA):
+        print(f"=== {version}: ya estaba generado")
+        continue
+    print(f"=== {version}")
+    modelo = OmniVoice.from_pretrained(lora_omnivoice.MODELO, device_map="cuda:0", dtype=torch.float16)
+    if version != "base":
+        modelo = load_lora_adapter(modelo, str(SALIDA / version))
+
+    def sintetizar(texto, ref):
+        audios = modelo.generate(text=texto, language="es", ref_audio=ref["wav"], ref_text=ref["texto"])
+        return audios[0], modelo.sampling_rate
+
+    comun.generar(version, sintetizar, ITEMS, REFS, silencio_ms, params={**PARAMS, "adaptador": version})
+    del modelo
+    comun.liberar()
+
+escucha.construir_pagina(FRASES_PRUEBA, ["base"] + CHECKPOINTS, nombre=f"lora_omnivoice_{VARIANTE}")
+"""),
+    code("""
+# 7. Subir a Drive y desconectar
+comun.desconectar()
+"""),
+], gpu="L4")
