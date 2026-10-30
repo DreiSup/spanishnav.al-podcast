@@ -49,3 +49,6 @@ venv/
 # Caché de Python
 __pycache__/
 *.pyc
+
+# Copias de trabajo temporales de los subagentes de Claude Code
+.claude/worktrees/
