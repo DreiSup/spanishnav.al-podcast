@@ -33,3 +33,29 @@ Lectura:
   2,45 en español) y el ritmo más vivo en la frase larga (19 c/s en n18).
 - **El acento no mejora** con el LoRA: se queda en 4. Lo que aporta es naturalidad.
 - Ninguna versión alucina.
+
+## LoRA de Qwen, variante kapil (naval_kapil) — escucha a ciegas (2026-10-31)
+
+Frases k05, k07 y k10 (los textos de n12, n18 y n25) con la referencia `naval_kapil_ref02`, en modo solo
+timbre. «naval» es el LoRA B `paso_0158` de partida; los `paso_00NN` son el repaso con la sesión con Kapil.
+Notas del autor en `puntuaciones_lora_qwen_kapil.csv`, letras en `clave_lora_qwen_kapil.json`.
+
+| Versión | Parecido | Acento | Naturalidad | Tono | Alucinaciones | Media (4 primeros) |
+|---|---|---|---|---|---|---|
+| base (sin LoRA) | 3,00 | 4,00 | 3,33 | 3,00 | 5 | 3,33 |
+| naval (B/paso_0158) | 3,33 | **4,33** | 4,00 | 3,33 | 5 | 3,75 |
+| paso_0015 | 4,33 | 4,00 | 4,00 | 3,00 | 5 | 3,83 |
+| paso_0030 | 3,33 | 3,67 | 4,00 | 3,33 | 5 | 3,58 |
+| paso_0045 | 3,00 | 3,67 | 3,67 | **4,00** | 5 | 3,58 |
+| paso_0060 | 4,00 | 3,33 | **4,67** | 3,33 | 5 | 3,83 |
+| paso_0073 | 4,00 | 3,33 | **4,67** | 3,67 | 5 | **3,92** |
+
+Lectura:
+
+- **Cualquier LoRA mejora a la base** (3,33).
+- **El repaso con Kapil gana naturalidad** (4,0 → 4,67) **pero pierde acento** (4,33 → 3,33): entrenar con
+  más inglés de esa sesión devuelve algo de acento inglés.
+- **El tono apenas cambia** (3,0–4,0, sin tendencia clara): con 15 minutos de datos, el modelo propio de
+  la sesión aporta poco tono.
+- Con 3 frases por versión, las diferencias de medias (3,58–3,92) son ruido; la del acento (1 punto) es la
+  más grande de la tabla.
