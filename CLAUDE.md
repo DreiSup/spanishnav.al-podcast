@@ -206,6 +206,10 @@ rclone.
 
 El paso 4 es irreducible: requiere criterio humano.
 
+**Cada proceso de la fábrica tiene su SOP en `docs/sop/`**, con su estado (validado,
+borrador o sin hacer). Un SOP solo se da por validado cuando el proceso se ha hecho a mano
+de principio a fin. Al hacer un proceso, se sigue su SOP y se corrige en el momento.
+
 Para el paso 3 —elegir y fine-tunear los modelos de voz— el objetivo, las reglas de gasto de
 GPU y el estado de Drive están en **`docs/fabrica-de-voz.md`**. Léelo antes de proponer nada
 que consuma unidades de Colab.

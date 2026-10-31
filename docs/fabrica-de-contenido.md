@@ -9,6 +9,8 @@
 Con un episodio ya limpio en Audacity, el autor lanza **un solo workflow** y el episodio
 queda publicado en todas las plataformas. Para eso hace falta un SOP por plataforma.
 
+Los SOP y su estado se llevan en [`docs/sop/`](sop/README.md).
+
 ```
 audio limpio (Drive)  ──►  workflow de publicación  ──►  web spanishnav.al
                                                      ├─► YouTube
