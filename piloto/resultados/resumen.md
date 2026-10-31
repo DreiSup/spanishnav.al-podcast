@@ -59,3 +59,6 @@ Lectura:
   la sesión aporta poco tono.
 - Con 3 frases por versión, las diferencias de medias (3,58–3,92) son ruido; la del acento (1 punto) es la
   más grande de la tabla.
+
+**Decisión del autor (31-oct):** `naval_kapil` usa el LoRA de Naval (`B/paso_0158`) con la referencia de la
+sesión con Kapil. El acento manda; el repaso propio queda en `piloto/lora_qwen/kapil/` sin usar.

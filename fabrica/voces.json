@@ -58,8 +58,8 @@
     "naval_kapil": {
       "fichero": "naval",
       "ref": "speaker_refs/naval_kapil/naval_kapil_ref02.wav",
-      "adaptador": null,
-      "nota": "Pendiente: variante kapil de 04_lora_qwen. Mientras tanto, Qwen base con la referencia de la sesión con Kapil"
+      "adaptador": "piloto/lora_qwen/B/paso_0158",
+      "nota": "El LoRA de Naval con la referencia de la sesión con Kapil. Decidido el 31-oct: el repaso propio (piloto/lora_qwen/kapil) ganaba naturalidad pero perdía un punto de acento y apenas aportaba tono (piloto/resultados/resumen.md)"
     },
     "nivi": {"ref": "speaker_refs/nivi/nivi_ref02.wav", "adaptador": null, "nota": "Pendiente de LoRA"},
     "brett": {"ref": "speaker_refs/brett/brett_ref02.wav", "adaptador": null, "nota": "Pendiente de LoRA"},

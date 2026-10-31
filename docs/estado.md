@@ -65,12 +65,12 @@ La **fase 1** (elegir motor) está casi cerrada:
 
 | Qué | Dónde corre | Resultado esperado |
 |---|---|---|
-| `04_lora_qwen`, variante kapil | Colab, lanzado por el autor el 30-oct | `piloto/lora_qwen/kapil/` y su página de escucha |
+| Español sintético de Nivi, Brett y Deutsch (`01_sintetico_chatterbox`) | Colab, lanzado por el autor el 30-oct | `piloto/sintetico/<voz>/chatterbox_v2/` |
 
 ## Pendiente del autor
 
-1. **Escuchar a ciegas `lora_qwen_kapil.html`** y elegir checkpoint. Después, apuntarlo en
-   `fabrica/voces.json` (`naval_kapil.adaptador`), o pedírselo a Claude.
+1. ~~Escucha de `naval_kapil`~~ (31-oct): se queda el LoRA de Naval con la referencia de la sesión
+   con Kapil; ya está en `fabrica/voces.json`.
 2. **Probar la fábrica** con un episodio corto ya traducido (por ejemplo `2019/043-kelly-criterion`, unos
    2 min) y medir el coste por minuto de audio que imprime la celda 5.
 3. **Español sintético de Nivi, Brett y Deutsch**: `piloto/cuadernos/01_sintetico_chatterbox` (T4, ~1 h
