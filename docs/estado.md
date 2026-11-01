@@ -67,7 +67,9 @@ La **fase 1** (elegir motor) está casi cerrada:
   41,9 min (objetivo 41,8). Similitud media 0,58 (Naval: 0,67).
 - **Filtro de Brett**, 1-nov: 360 de 400 pasan; se eligen 275 clips, 31,3 min (objetivo 31,2).
   Similitud media 0,49, la más baja de las tres voces. **Deutsch sin filtrar.**
-- **LoRA de Nivi** (`04_lora_qwen`, `VARIANTE = "nivi"`): lanzado el 1-nov.
+- **LoRA de Nivi** (`04_lora_qwen`, `VARIANTE = "nivi"`), 1-nov: 159 pasos completos, checkpoints
+  40, 80, 120 y 159. Pérdida de evaluación en inglés 2,63 → 2,43 y en español 2,85 → 2,56, bajando
+  en todos. Falta la escucha: `piloto/lora_qwen/nivi/prueba/escucha/lora_qwen_nivi.html`.
 
 ## Esperando a que termine
 
