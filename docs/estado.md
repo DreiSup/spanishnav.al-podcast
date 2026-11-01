@@ -64,7 +64,10 @@ La **fase 1** (elegir motor) está casi cerrada:
 - **Español sintético** (`01_sintetico_chatterbox`), 30–31 oct: 400 de 400 clips en las tres voces
   (nivi, brett 44,0 min, deutsch 49,4 min).
 - **Filtro de Nivi** (`03_filtrar_sintetico`), 31-oct: 354 de 400 pasan; se eligen 299 clips,
-  41,9 min (objetivo 41,8). Similitud media 0,58 (Naval: 0,67). **Brett y Deutsch sin filtrar.**
+  41,9 min (objetivo 41,8). Similitud media 0,58 (Naval: 0,67).
+- **Filtro de Brett**, 1-nov: 360 de 400 pasan; se eligen 275 clips, 31,3 min (objetivo 31,2).
+  Similitud media 0,49, la más baja de las tres voces. **Deutsch sin filtrar.**
+- **LoRA de Nivi** (`04_lora_qwen`, `VARIANTE = "nivi"`): lanzado el 1-nov.
 
 ## Esperando a que termine
 
