@@ -61,11 +61,16 @@ La **fase 1** (elegir motor) está casi cerrada:
   en CPU con un motor falso sobre el 035: plan, regla de Kapil, carpeta en Drive, reintentos, pausas de
   0,12 s, reanudación e informe. Sin probar todavía en GPU.
 
+- **Español sintético** (`01_sintetico_chatterbox`), 30–31 oct: 400 de 400 clips en las tres voces
+  (nivi, brett 44,0 min, deutsch 49,4 min).
+- **Filtro de Nivi** (`03_filtrar_sintetico`), 31-oct: 354 de 400 pasan; se eligen 299 clips,
+  41,9 min (objetivo 41,8). Similitud media 0,58 (Naval: 0,67). **Brett y Deutsch sin filtrar.**
+
 ## Esperando a que termine
 
 | Qué | Dónde corre | Resultado esperado |
 |---|---|---|
-| Español sintético de Nivi, Brett y Deutsch (`01_sintetico_chatterbox`) | Colab, lanzado por el autor el 30-oct | `piloto/sintetico/<voz>/chatterbox_v2/` |
+| — | — | Nada corriendo a fecha del 1-nov |
 
 ## Pendiente del autor
 
