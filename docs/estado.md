@@ -84,7 +84,8 @@ La **fase 1** (elegir motor) está casi cerrada:
 
 - **Primera prueba de la fábrica en GPU** (2-nov, 044, L4): 1,7 min de audio en 8 min (4,58 s de GPU por s de
   audio), 27 frases sin un reintento. Estructura y ritmo bien según el autor; **Naval suena demasiado inglés**:
-  cuaderno `piloto/cuadernos/08_acento_naval` (huella en español y LoRA a media fuerza), pendiente de escucha.
+  cuaderno `piloto/cuadernos/08_acento_naval` (huella en español y LoRA a media fuerza). Escucha del 2-nov: **gana
+  la versión actual** (4,67; parecido y naturalidad 5); las demás no mejoran el acento. Naval se queda igual.
 - **Auditoría de las traducciones de Drive** (2-nov): los 16 de 2019 (001–016, heredados) son buenos; 9 listos y 7
   con decisiones menores. Problemas repetidos: palabras de España, troceado copiado del inglés, notas
   `[correction]` locutadas, siglas y títulos en inglés. Se mantiene el SOP con reglas nuevas.

@@ -1,0 +1,23 @@
+{
+  "044_b02-naval": {
+    "A": "lora_ref_es1",
+    "B": "base_ref_es5",
+    "C": "lora_medio_ref_es5",
+    "D": "lora_ref_es5",
+    "E": "actual"
+  },
+  "041_b02-naval": {
+    "A": "actual",
+    "B": "base_ref_es5",
+    "C": "lora_ref_es5",
+    "D": "lora_medio_ref_es5",
+    "E": "lora_ref_es1"
+  },
+  "040_b04-naval": {
+    "A": "lora_ref_es1",
+    "B": "lora_ref_es5",
+    "C": "actual",
+    "D": "lora_medio_ref_es5",
+    "E": "base_ref_es5"
+  }
+}
