@@ -90,16 +90,18 @@ La **fase 1** (elegir motor) está casi cerrada:
 
 ## Pendiente del autor
 
-1. ~~Escucha de `naval_kapil`~~ (31-oct): se queda el LoRA de Naval con la referencia de la sesión
-   con Kapil; ya está en `fabrica/voces.json`.
-2. **Probar la fábrica** con un episodio corto ya traducido (por ejemplo `2019/043-kelly-criterion`, unos
-   2 min) y medir el coste por minuto de audio que imprime la celda 5.
-3. **Español sintético de Nivi, Brett y Deutsch**: `piloto/cuadernos/01_sintetico_chatterbox` (T4, ~1 h
-   por voz) y después `03_filtrar_sintetico` con cada `VOZ`.
-4. **LoRA de Nivi, Brett y Deutsch**: `04_lora_qwen` con `VARIANTE` = cada voz; escuchar y elegir.
-5. **Aprobar la organización de Drive** (`docs/organizacion-drive.md`); se ejecuta cuando estén todas las
-   voces.
-6. Opcional: `05_lora_omnivoice` (pesos no comerciales) y el LoRA de la voz de Kapil (dataset en local).
+**Plan del autor (2-nov) hasta la versión alfa de la fábrica:**
+
+1. **Pausa de Nivi:** `07_prueba_voz` (generando) y después `06_ritmo`. Decir el valor a Claude.
+2. **Sesión de traducción aparte:** traduce unos cuantos episodios al formato del repo
+   (`transcript.es.json` vía `scripts/normalizar-extraccion.py`).
+3. **Primera prueba de la fábrica** con esos episodios: generar el audio (`fabrica/fabrica.ipynb`).
+4. **Con el autor, los SOP de publicación:** el `.mp3` principal, el vídeo de YouTube y sus datos, la web y
+   el RSS.
+5. **Cuando todo funcione:** traducir el resto y poner en marcha la fábrica (versión alfa).
+
+Opcionales: el LoRA de la voz de Kapil y `05_lora_omnivoice`. Al final: reorganizar Drive
+(`docs/organizacion-drive.md`).
 
 ## Pendiente de Claude
 
