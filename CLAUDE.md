@@ -24,7 +24,7 @@ se cuela, es un error, no una excepción.
 ## Estructura del repositorio
 
 ```
-episodios/<año>/<NNN>-<slug-del-título>/
+episodios/<año>/<NNN>-<slug>/
   transcript.en.json     original copiado de nav.al          ← FUENTE DE VERDAD
   transcript.es.json     traducción al español               ← FUENTE DE VERDAD
   metadata.en.json       datos del episodio según la fuente  ← lo escribe el normalizador
@@ -48,36 +48,18 @@ crearán al normalizar cada transcript pegado.
 
 ### Nombres
 
-- **Carpeta de episodio**: `<NNN>-<slug-del-título>` — número de episodio a tres dígitos,
-  guion, y el **título inglés slugificado**. Ejemplo: el episodio publicado en
-  `nav.al/finally-wealthy`, titulado *A Calm Mind, a Fit Body, a House Full of Love*, va en
-  `035-a-calm-mind-a-fit-body-a-house-full-of-love`.
-
-  **Se nombra por el título y no por el slug de nav.al** porque los dos a menudo no se
-  parecen en nada: `finally-wealthy`, `short`, `rich`, `angel-1`. Con el slug había que abrir
-  el JSON para saber qué episodio era una carpeta.
-
-  Lo genera `slug_de_titulo()` en `normalizar-extraccion.py`, no se escribe a mano:
-  minúsculas, los apóstrofos se caen (`A Founder's Anxiety` → `a-founders-anxiety`) y
-  cualquier otro carácter que no sea letra o cifra pasa a guion. Comprobado sobre los 168
-  títulos del catálogo: ningún par colisiona y el más largo son 65 caracteres.
-
-  **El título literal no vale como nombre de carpeta.** 21 de los 168 llevan `:`, `?` o `"`,
-  ilegales en Windows y macOS, y este repositorio es público: quien lo clonase ahí no podría
-  ni sacar el árbol de trabajo.
+- **Carpeta de episodio**: `<NNN>-<slug>` — número de episodio a tres dígitos, guion, slug.
+  Ejemplo: `026-judgment`.
 - **El número es el del feed del podcast**, no el del archivo de nav.al. El archivo lista
   168 entradas; el podcast tiene 161 episodios (Apple Podcasts). Los 7 de diferencia son
   4 diálogos con Kapil Gupta de enero-febrero de 2019 (anteriores al primer episodio) y
   3 partes sueltas de *The AI Industrial Revolution*. Esos 7 van en
-  `episodios/<año>/extra-<slug-del-título>/`, sin número. La regla y la tabla de correspondencia
+  `episodios/<año>/extra-<slug>/`, sin número. La regla y la tabla de correspondencia
   están en `docs/extraccion.md`.
-- **El slug de la URL de nav.al no desaparece**, solo deja de nombrar la carpeta. Sigue
-  siendo lo que identifica la fuente: nombra el fichero de entrada
-  (`trabajo/manual/<slug>.txt`), es lo que el normalizador cruza con `catalogo.json`, lo que
-  acepta `--slug` para desambiguar, y lo que guardan `slug` y `fuente_url` en
-  `metadata.en.json`. Ejemplo: `nav.al/judgment` → `judgment`.
+- **Slug**: el de la URL de nav.al, tal cual. Ejemplo: `nav.al/judgment` → `judgment`.
 - **Estados** de `metadata.es.json`: `pendiente` → `traduciendo` → `revision` → `tts` →
-  `montaje` → `publicado`.
+  `montaje` → `publicado`. Y `heredado`, que no es un paso del recorrido sino una entrada
+  lateral justo antes de `publicado`: ver más abajo.
 
 ## Los esquemas JSON
 
@@ -116,7 +98,7 @@ Cuatro cosas que hay que entender:
 **Los ids son de bloque, no de frase.** `transcript.es.json` y su `.en` llevan los mismos
 ids de bloque —los bloques sí se corresponden—, pero **el troceado en `frases` es
 independiente en cada idioma**: la traducción parte las frases largas y funde las muy
-cortas para que el TTS suene mejor, y eso es correcto. Verificado en `035-a-calm-mind-a-fit-body-a-house-full-of-love`:
+cortas para que el TTS suene mejor, y eso es correcto. Verificado en `035-finally-wealthy`:
 4 bloques en ambos idiomas con los mismos hablantes, 65 frases en inglés y 68 en español.
 
 ### `metadata.en.json`
@@ -131,19 +113,68 @@ url) y el bloque `drive` con los file IDs. `audio_editado_a_mano: true` marca lo
 que pasaron por Audacity: a partir de ese punto el audio **ya no es regenerable** desde la
 traducción, y el proyecto `.aup3` pasa a ser un artefacto que hay que conservar en Drive.
 
-## Episodios antiguos: se rehacen de cero
+## Episodios heredados
 
-Los 34 primeros episodios se produjeron a mano antes de este repo, con una traducción
-antigua y montaje en Audacity. Ese material está en local y **no se usa**.
+**34 episodios ya están producidos** con el método manual anterior a este repo: audio montado
+en Audacity, del 1 al 34. Auditado en disco el 2026-09-06:
 
-**Decisión del autor (2026-10-30): todos los episodios se producen de cero con la fábrica de
-voz, también del 1 al 34.** No hay estado `heredado` ni audio antiguo que conservar: cada
-episodio sigue el flujo normal desde su transcript, y el audio publicado sale siempre del
-`transcript.es.json` del repo.
+- 34 con audio, 33 con vídeo — el 34 es el único sin vídeo
+- **Ninguno tiene master en español.** `Naval-Ep1.mp3` y `Naval-Ep2.mp3` son los originales
+  **en inglés**, no masters: no los confundas
+- Los vídeos son 1376x768, no 4K: heredan la resolución de la miniatura
+- Proyectos `.aup3` solo en 4 episodios: 01, 06, 07 y 08. (`CONTEXTO.md` dice 6; prevalece
+  esta auditoría, que es posterior y más específica)
+- El material está **en local**, todavía no en Drive
 
-Hasta esa fecha regía la regla contraria (no re-sintetizar los 34 y marcarlos como
-`heredado`); queda en el historial de git. El campo `heredado` de `metadata.es.json` se
-conserva en el esquema por compatibilidad y vale siempre `null`.
+### Por qué necesitan un estado propio
+
+La máquina de estados no podía describirlos. No son `pendiente` —hay audio y vídeo hechos— ni
+`publicado` —no están ni en YouTube ni en ningún sitio—. De ahí `heredado`.
+
+Pero el problema de fondo es otro: **ese audio se montó desde la traducción antigua**, y el
+`transcript.es.json` del repo viene de la traducción nueva. El audio no se corresponde con su
+texto. Queda huérfano.
+
+### La regla
+
+> **Un episodio `heredado` NO se re-sintetiza.** Su audio se sube tal cual a Drive y a
+> YouTube. Su `transcript.es.json` es **referencia textual, no la fuente del audio publicado**.
+
+En `metadata.es.json` lo marca el bloque `heredado`, que el normalizador rellena solo cuando
+el número está entre 1 y 34:
+
+```json
+"audio_editado_a_mano": true,
+"heredado": {
+  "audio_existente": true,
+  "origen": "produccion-manual-2019",
+  "ruta_local": "spanishpodcast/2019/26",
+  "corresponde_al_transcript": false,
+  "tiene_master": false,
+  "video_resolucion": "1376x768",
+  "auditado_el": "2026-09-06"
+}
+```
+
+`ruta_local` es el **prefijo** de la carpeta local; el nombre completo lleva además el título
+en inglés. Es un puntero temporal: cuando el material suba a Drive, manda `drive`.
+
+`corresponde_al_transcript: false` es el campo importante. Deja la divergencia escrita en el
+dato, no en la memoria de nadie.
+
+### Si se re-traduce un heredado
+
+**Se acepta la divergencia. No se re-produce.**
+
+El paso 4 del flujo —limpiar el audio en Audacity— es el cuello de botella de todo el
+proyecto, y es irreducible. Gastarlo en 34 episodios que ya suenan bien es el peor uso posible
+de ese tiempo. La divergencia entre el texto del repo y el audio publicado no es un problema
+mientras esté marcada, y lo está.
+
+Re-producir uno es una decisión deliberada y por episodio, nunca automática. Cuando se tome:
+pon `estado` en `tts`, pon `heredado` en `null` y el episodio vuelve al flujo normal. El
+registro de que hubo audio antiguo queda en el historial de git, que para eso se versiona el
+metadata.
 
 ## El vínculo con Google Drive
 
@@ -178,7 +209,7 @@ No hay sincronización automática. Nada se sube solo. rclone mueve bytes cuando
 ### Estructura en Drive
 
 ```
-naval-podcast/<año>/<NNN>-<slug-del-título>/
+naval-podcast/<año>/<NNN>-<slug>/
   tts/         un clip por bloque de hablante, nombrado por el id del bloque
   audio/       audio final montado
   video/       .mp4 subido a YouTube
@@ -245,7 +276,7 @@ YouTube Studio.
 | `scripts/nuevo-episodio.sh` | Crea la carpeta de un episodio con los cuatro `.json`. Al día |
 | `scripts/indice.py` | Regenera `INDICE.md`. Al día |
 | `scripts/extraer-episodios.py` | Convierte los `.txt` pegados a mano en `trabajo/manual/` a JSON crudo en `trabajo/extraccion/`. Modo por defecto `manual`, probado. Los modos `api` y `paginas` bajan de nav.al y **no forman parte del flujo** |
-| `scripts/normalizar-extraccion.py` | Convierte el par de transcripts (en + es) en los cuatro `.json` del episodio, les pone los ids de bloque y marca `tiene_transcript: true` en `catalogo.json`. Estrenado con `035-a-calm-mind-a-fit-body-a-house-full-of-love` |
+| `scripts/normalizar-extraccion.py` | Convierte el par de transcripts (en + es) en los cuatro `.json` del episodio, les pone los ids de bloque y marca `tiene_transcript: true` en `catalogo.json`. Estrenado con `035-finally-wealthy` |
 | `scripts/unir-audios.sh` | **Nunca ejecutado y desactualizado.** Ordena los clips alfabéticamente; debe reescribirse para leer el orden y los ids de `transcript.es.json`. No lo uses todavía |
 | `scripts/render-video.sh` | **Nunca ejecutado.** Opera sobre un directorio de trabajo local, no sobre el repo |
 

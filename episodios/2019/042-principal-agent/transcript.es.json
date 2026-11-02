@@ -1,0 +1,147 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2019/042-principal-agent",
+  "numero": 42,
+  "fecha": "2019-07-08",
+  "titulo": "El problema del principal y el agente: actúa como un dueño",
+  "subtitulo": "Si piensas y actúas como un dueño, es solo cuestión de tiempo que llegues a ser dueño",
+  "fuente_url": "https://nav.al/principal-agent",
+  "titulos_seccion": [
+    "Un principal es un dueño, un agente es un empleado",
+    "Los incentivos del principal son distintos de los del agente",
+    "Si puedes trabajar sobre los incentivos, no trabajes sobre ninguna otra cosa",
+    "Cuando cierras tratos, es mejor tener los mismos incentivos",
+    "Si eres empleado, tu trabajo más importante es pensar como un principal",
+    "Trata con firmas pequeñas para evitar el problema del principal y el agente"
+  ],
+  "contenido": [
+    {
+      "id": "b01-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Antes hablamos de elegir un modelo de negocio que tenga apalancamiento por economías de escala, efectos de red y coste marginal de replicación cero.",
+        "Había algunas otras ideas que se quedaron fuera del montaje final y que quiero repasar contigo.",
+        "La primera es el problema del principal y el agente."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Los modelos mentales están muy de moda.",
+        "Todo el mundo intenta volverse más listo adoptando modelos mentales.",
+        "Creo que los modelos mentales son interesantes, pero yo no pienso de forma explícita en listas de modelos mentales.",
+        "Sé que Charlie Munger sí lo hace, pero esa no es mi forma de pensar."
+      ]
+    },
+    {
+      "id": "b03-naval",
+      "speaker": "Naval",
+      "frases": [
+        "En vez de eso, tiendo a centrarme en las pocas lecciones que he aprendido una y otra vez en la vida, que me parecen tremendamente importantes y que parecen aplicarse de forma casi universal.",
+        "Una que aparece todo el rato en la microeconomía, porque como ya hemos dejado claro, la macroeconomía no merece que le dediques tiempo, es lo que se llama el problema del principal y el agente.",
+        "Aquí principal es una persona, no un principio que uno sigue.",
+        "Un principal es un dueño.",
+        "Un agente trabaja para el dueño, así que puedes pensar en el agente como un empleado.",
+        "La diferencia entre un fundador y un empleado es la diferencia entre un principal y un agente.",
+        "Puedo resumir el problema del principal y el agente con una cita famosa atribuida a Napoleón o a Julio César: si quieres que se haga, ve tú, y si no, manda a alguien.",
+        "Lo que viene a decir: si quieres que algo se haga bien, hazlo tú mismo, porque a los demás simplemente no les importa lo suficiente."
+      ]
+    },
+    {
+      "id": "b04-naval",
+      "speaker": "Naval",
+      "frases": [
+        "El problema del principal y el agente aparece por todas partes.",
+        "En microeconomía intentan caracterizarlo así: los incentivos del principal son distintos de los incentivos del agente, así que el dueño del negocio quiere lo que es mejor para el negocio y lo que dará más dinero.",
+        "El agente en general quiere lo que le haga quedar bien ante el principal, o lo que le consiga más amigos en el barrio o en el sector, o lo que le dé a él personalmente más dinero.",
+        "Esto se ve mucho con los consejeros delegados de alquiler que dirigen empresas cotizadas, donde la propiedad está tan repartida que ya no queda ningún principal.",
+        "Nadie tiene más del uno por ciento de la empresa.",
+        "El consejero delegado toma el mando y llena el consejo de amiguetes.",
+        "Después empieza a emitirse opciones sobre acciones a precio bajo, o a hacer muchas recompras de acciones porque su remuneración está atada directamente al precio de la acción."
+      ]
+    },
+    {
+      "id": "b05-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Los agentes tienen una manera de hackear los sistemas.",
+        "Eso es lo que hace tan difícil el diseño de incentivos.",
+        "Como dice Charlie Munger: nunca, jamás, pienses en otra cosa cuando deberías estar pensando en el poder de los incentivos.",
+        "Casi todo el comportamiento humano se explica por incentivos.",
+        "El estudio de las señales consiste en ver lo que la gente hace a pesar de lo que dice.",
+        "Las personas son mucho más honestas con sus actos que con sus palabras.",
+        "Tienes que acertar con los incentivos para que la gente se comporte correctamente.",
+        "Es un problema muy difícil porque las personas no funcionan con monedas.",
+        "Las buenas no solo buscan dinero, también buscan estatus y sentido en lo que hacen.",
+        "Como dueño de un negocio siempre vas a estar lidiando con el problema del principal y el agente.",
+        "Siempre vas a estar intentando averiguar cómo hago que esta persona piense como yo, cómo la incentivo, cómo le doy mentalidad de fundador.",
+        "Solo los fundadores pueden apreciar del todo la importancia de la mentalidad de fundador y lo difícil y espinoso que es el problema del principal y el agente."
+      ]
+    },
+    {
+      "id": "b06-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Si eres un principal, conviene que dediques mucho tiempo a pensar en este problema.",
+        "Quieres ser generoso con tus principales lugartenientes, en términos de propiedad y de incentivos, aunque ellos no se den cuenta necesariamente, porque con el tiempo se darán cuenta y tú quieres que estén alineados contigo.",
+        "Cuando cierras tratos, es mejor tener una sociedad alineada donde los dos tienen los mismos incentivos que una sociedad donde tú tienes la ventaja en el trato.",
+        "Porque al final la otra persona se dará cuenta y la sociedad se romperá.",
+        "En cualquier caso, no va a ser una de esas cosas en las que puedas invertir y disfrutar de los beneficios del interés compuesto durante décadas."
+      ]
+    },
+    {
+      "id": "b07-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Por último, si estás en un papel de agente, es decir, eres empleado, tu trabajo más importante es pensar como un principal.",
+        "Cuanto más consigas pensar como un principal, mejor te irá a largo plazo.",
+        "Entrénate para pensar como un principal y al final llegarás a ser un principal.",
+        "Si te alineas con un buen principal, te ascenderá o te dará poder o te dará responsabilidad o apalancamiento que puede estar totalmente fuera de proporción con tu papel relativamente menor.",
+        "Siempre me impresionan los fundadores que ascienden a gente joven saltándose varios niveles a pesar de su falta de experiencia.",
+        "Cuando pasa es siempre porque ese agente, que está muy abajo en la organización, piensa como un principal.",
+        "Si consigues abrirte camino a través del problema del principal y el agente, probablemente habrás resuelto la mitad de lo que hace falta para dirigir una empresa."
+      ]
+    },
+    {
+      "id": "b08-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "La razón por la que te he preguntado primero por este es que siento que nunca veo el problema del principal y el agente en mi trabajo.",
+        "Suelo trabajar en equipos pequeños donde todo el mundo está muy alineado económicamente, y donde la gente ha pasado un filtro de compromiso con la misión, y todos los demás que no encajan acaban yéndose a otro sitio."
+      ]
+    },
+    {
+      "id": "b09-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Todas esas son heurísticas que has diseñado para no tener que lidiar con el mayor problema que existe en la gestión."
+      ]
+    },
+    {
+      "id": "b10-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Otro ejemplo de heurística que te ayuda a esquivar el problema del principal y el agente es trabajar con las empresas más pequeñas posibles.",
+        "Por ejemplo, cuando contrato a un abogado o a un banquero o incluso a un contable para que trabaje en mis operaciones, me he vuelto muy consciente del tamaño de la firma.",
+        "Las firmas grandes, en igualdad de condiciones, suelen ser peores que las pequeñas.",
+        "Sí, la firma grande tiene más experiencia.",
+        "Sí, tiene más gente.",
+        "Sí, tiene una marca más grande.",
+        "Pero verás que el principal y el agente están muy separados.",
+        "Muy a menudo el principal te vende y te convence de trabajar con la firma, pero después todo el trabajo lo hace un agente al que sencillamente no le importa tanto.",
+        "Acabas recibiendo un servicio por debajo del estándar.",
+        "Yo prefiero trabajar con boutiques.",
+        "Mi bufete ideal es un bufete de una sola persona.",
+        "Mi banquero ideal es un banquero en solitario.",
+        "Ahora bien, estás haciendo otros sacrificios y otras contrapartidas en cuanto a los recursos de esa persona, y estás apostando fuerte por ella.",
+        "Pero tienes un solo cuello que apretar.",
+        "No hay nadie más a quien señalar con el dedo y no hay ningún sitio adonde huir.",
+        "La responsabilidad es altísima.",
+        "Si eres un agente, la mejor forma de operar es preguntarte qué haría el fundador.",
+        "Si piensas como el dueño y actúas como el dueño, es solo cuestión de tiempo que llegues a ser el dueño."
+      ]
+    }
+  ]
+}

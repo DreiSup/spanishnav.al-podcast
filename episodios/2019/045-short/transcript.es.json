@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2019/045-short",
+  "numero": 45,
+  "fecha": "2019-07-15",
+  "titulo": "Convierte los juegos de corto plazo en juegos de largo plazo",
+  "subtitulo": "Mejora tu apalancamiento convirtiendo relaciones de corto plazo en relaciones de largo plazo",
+  "fuente_url": "https://nav.al/short",
+  "titulos_seccion": [
+    "Las soluciones óptimas de Pareto exigen una contrapartida para mejorar cualquier criterio",
+    "Las negociaciones las gana quien menos le importa",
+    "Convierte los juegos de una jugada en juegos de varias jugadas"
+  ],
+  "contenido": [
+    {
+      "id": "b01-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "¿Quieres hablar del óptimo de Pareto?"
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "El óptimo de Pareto es otro concepto de la teoría de juegos, junto con lo superior en el sentido de Pareto.",
+        "Superior en el sentido de Pareto significa que algo es mejor en algunos aspectos siendo igual o mejor en los demás.",
+        "No es peor en ningún aspecto.",
+        "Este es un concepto importante cuando estás negociando.",
+        "Si puedes hacer que una solución sea superior en el sentido de Pareto respecto a donde estaba antes, siempre lo harás."
+      ]
+    },
+    {
+      "id": "b03-naval",
+      "speaker": "Naval",
+      "frases": [
+        "El óptimo de Pareto es cuando la solución es lo mejor que puede llegar a ser y no puedes cambiarla sin empeorarla en al menos una dimensión.",
+        "A partir de ese punto hay una contrapartida dura.",
+        "Estos son conceptos importantes de entender cuando estás metido en una negociación grande."
+      ]
+    },
+    {
+      "id": "b04-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Aun así, yo suelo decir que las negociaciones las gana quien menos le importa.",
+        "Negociar va de no desearlo demasiado.",
+        "Si quieres algo con demasiadas ganas, la otra persona puede extraerte más valor.",
+        "Si alguien se está aprovechando de ti en una negociación, tu mejor opción es convertirla de un juego de corto plazo en un juego de largo plazo.",
+        "Intenta que sea un juego repetido.",
+        "Intenta meter la reputación dentro de la negociación.",
+        "Intenta incluir a otras personas que puedan querer jugar con esta persona en el futuro.",
+        "Un ejemplo de juego de una sola jugada, caro y con poca información, es reformar tu casa.",
+        "Los contratistas son famosos por sobrecargarse de trabajo, por timar a la gente y por no responder de nada.",
+        "Seguro que los contratistas tienen su propia versión: el cliente tiene exigencias poco razonables, hemos encontrado problemas, el cliente no quiere pagarlos, no lo entienden porque son compradores con poca información.",
+        "Es una transacción cara.",
+        "Históricamente ha sido muy difícil encontrar buenos contratistas, y el contratista tiene poca información sobre el propietario."
+      ]
+    },
+    {
+      "id": "b05-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Así que intentas ir a través de amigos.",
+        "Intentas encontrar gente con buena reputación.",
+        "Estás convirtiendo un juego caro de una sola jugada con alta probabilidad de trampa por ambos lados en un juego de varias jugadas.",
+        "Una forma de hacerlo es decir: en realidad necesito dos proyectos distintos, el primero lo hacemos juntos y según cómo salga decido si hacemos el segundo.",
+        "Otra forma es decir: voy a hacer este proyecto contigo, y tengo tres amigos que quieren hacer obras y están esperando a ver cómo sale este proyecto.",
+        "Otra forma es escribir una reseña en Yelp o en Thumbtack, sobre todo si el contratista opera dentro de una comunidad y quiere proteger su reputación en ella.",
+        "Todas estas son formas de convertir un juego de una sola jugada en un juego de más largo plazo y de salir de una posición de mal apalancamiento negociador y mala información."
+      ]
+    }
+  ]
+}
