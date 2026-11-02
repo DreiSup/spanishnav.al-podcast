@@ -38,7 +38,8 @@ Para cada episodio:
    Naval usa su modelo `naval_kapil`.
 2. Genera frase a frase con Qwen3-TTS en modo solo timbre. **Whisper revisa cada frase** y, si no dice el
    texto o deja una cola rara, la repite con otra semilla (hasta 2 veces).
-3. Recorta los silencios y une las frases con **0,12 s** de pausa, el ritmo que elegiste.
+3. Recorta los silencios y une las frases con la pausa de cada voz, la que elegiste escuchando: 0,12 s
+   Naval, 0,20 Nivi y Deutsch, 0,30 Brett.
 4. Deja junto a `tts/` un **`informe_tts.md`** con las frases que siguen sospechosas y el segundo exacto
    donde están, un `registro_tts.jsonl` con el detalle y un `borrador_tts.wav` con todo seguido para una
    escucha rápida.
@@ -56,7 +57,7 @@ cuántos segundos de GPU cuesta cada segundo de audio, para calcular el gasto de
 """),
     code("""
 # 2. Parámetros
-EPISODIOS = ["2019/035-finally-wealthy"]   # carpetas de episodios/ del repo, tantas como quieras
+EPISODIOS = ["2019/044-schelling-point"]   # carpetas de episodios/ del repo, tantas como quieras
 VERIFICAR = True     # revisar cada frase con Whisper y repetir las que fallen (más lento, mucho menos Audacity)
 """),
     code(f"""

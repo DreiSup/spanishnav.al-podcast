@@ -5,7 +5,7 @@ Drive, listo para Audacity.
 
 | Fichero | Qué es |
 |---|---|
-| `voces.json` | **La configuración.** Qué referencia y qué LoRA usa cada hablante, alias de nombres, la regla de Kapil (en sus episodios Naval usa `naval_kapil`), la pausa (0,12 s), la verificación con Whisper y las rutas de Drive |
+| `voces.json` | **La configuración.** Qué referencia y qué LoRA usa cada hablante, alias de nombres, la regla de Kapil (en sus episodios Naval usa `naval_kapil`), la pausa de cada voz (0,12 s por defecto), la verificación con Whisper y las rutas de Drive |
 | `fabrica.py` | La lógica: plan del episodio, carpeta en Drive, generación frase a frase con revisión y reintentos, recorte de pausas, informe y borrador. `MotorQwen` carga Qwen3-TTS base con un adaptador por voz |
 | `construir_cuaderno.py` → `fabrica.ipynb` | El cuaderno de Colab (generado: se edita el `.py` y se regenera) |
 

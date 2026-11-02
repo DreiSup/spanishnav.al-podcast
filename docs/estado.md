@@ -95,7 +95,10 @@ La **fase 1** (elegir motor) está casi cerrada:
 1. ~~Pausa de Nivi~~: 0,20 s (2-nov). Pausas en la fábrica: Naval 0,12, Brett 0,30, Deutsch y Nivi 0,20.
 2. **Sesión de traducción aparte**, con el prompt de `docs/prompt-sesion-traduccion.md`: traduce unos
    cuantos episodios al formato del repo. Lleva su propio registro en `docs/traduccion.md`.
-3. **Primera prueba de la fábrica** con esos episodios: generar el audio (`fabrica/fabrica.ipynb`).
+3. **Primera prueba de la fábrica** (`fabrica/fabrica.ipynb`). No hace falta esperar a la traducción: ya hay
+   8 episodios cortos traducidos (035, 036, 040–045; unos 36 min, solo Naval y Nivi). Primero el 044 (2 min)
+   para comprobar el motor en GPU y medir el coste; después los otros 7 en la misma sesión. El 051 (56 min)
+   y el 052 (280 min) quedan fuera de la prueba. Brett, Deutsch y Kapil se prueban cuando haya episodios suyos.
 4. **Con el autor, los SOP de publicación:** el `.mp3` principal, el vídeo de YouTube y sus datos, la web y
    el RSS.
 5. **Cuando todo funcione:** traducir el resto y poner en marcha la fábrica (versión alfa).
