@@ -797,6 +797,7 @@ Ejecuta las celdas en orden; la última desconecta el entorno.
     code("""
 # 1. Parámetros
 CARPETA = "piloto/lora_qwen/B/prueba"     # dentro de fine_tunned_naval; para otra voz, p. ej. ".../brett/prueba"
+                                          # o los bloques del cuaderno 07: "piloto/prueba_voz/<voz>"
 VERSIONES = ["paso_0158"]                 # añade "base" para comparar con el modelo sin LoRA
 FRASES = ["n12", "n18", "n25"]            # nivi: v07 v09 v10 · brett: b05 b08 b10 · deutsch: d01 d02 d03
 PAUSAS_MAX = [0.25, 0.18, 0.12]           # segundos; 0,12 es el valor fijado para la fábrica
@@ -820,6 +821,9 @@ TEXTO = {{}}
 for fichero in ("frases.json", "frases_xvector.json"):   # las de Deutsch están en el segundo
     comun.FRASES = Path("/content/repo/criba") / fichero
     TEXTO.update({{it["id"]: " ".join(it["frases"]) for it in comun.cargar_items()[0]}})
+if (BASE / "textos.json").is_file():   # los bloques que genera el cuaderno 07_prueba_voz
+    import json
+    TEXTO.update(json.loads((BASE / "textos.json").read_text(encoding="utf-8")))
 faltan = [str(BASE / v / f"{{f}}.wav") for v in VERSIONES for f in FRASES if not (BASE / v / f"{{f}}.wav").is_file()]
 if faltan:
     raise SystemExit(f"Faltan audios en Drive, por ejemplo {{faltan[0]}}")
@@ -865,3 +869,92 @@ for f in FRASES:
 comun.desconectar()
 """),
 ], gpu=None)
+
+# ---------------------------------------------------------------- Prueba de voz con bloques reales
+cuaderno("07_prueba_voz.ipynb", [
+    md("""
+# Piloto de fine-tuning — prueba de una voz con intervenciones reales
+
+Genera unas cuantas **intervenciones reales** de un hablante, sacadas de los episodios ya traducidos, con el
+**mismo modelo que usa la fábrica** para esa voz (`fabrica/voces.json`: su referencia y su LoRA, o Qwen base si
+no tiene). Sirve para escuchar bloques largos, de varias frases, antes de producir episodios enteros.
+
+A diferencia de la fábrica, **no recorta las pausas**: une las frases con 250 ms, como las pruebas de los
+cuadernos 04. Así, después, el cuaderno **`06_ritmo`** puede probar distintas pausas sobre el mismo audio.
+
+Salida en `fine_tunned_naval/piloto/prueba_voz/<voz>/<versión>/`, un `.wav` por bloque (`052_b23-nivi.wav`…), y
+`textos.json` con su texto. La versión es el checkpoint de la voz (`paso_0130`…) o `base`.
+
+**GPU:** T4 (o L4). **Tiempo:** unos 5 minutos. Celda 1, *Reiniciar sesión* y el resto en orden.
+"""),
+    code("""
+# 1. Instalación (después: Entorno de ejecución → Reiniciar sesión)
+# El aviso rojo "pip's dependency resolver..." es normal.
+!pip install -q qwen-tts==0.1.1 peft==0.17.1
+"""),
+    code("""
+# 2. Parámetros
+VOZ = "nivi"
+# Bloques reales de los episodios traducidos: "<año>/<carpeta del episodio>#<id del bloque>"
+BLOQUES = ["2019/052-rich#b23-nivi",       # 9 frases
+           "2019/052-rich#b134-nivi",      # 7 frases
+           "2019/051-angel-1#b56-nivi"]    # 7 frases
+SILENCIO_MS = 250
+"""),
+    code(f"""
+# 3. Preparar: código del repo, Drive, el modelo de la voz y el texto de los bloques
+import os, sys, subprocess, json
+from pathlib import Path
+RAMA = "{RAMA}"
+if os.path.isdir("/content/repo"):
+    subprocess.run(["git", "-C", "/content/repo", "pull", "-q"], check=True)
+else:
+    subprocess.run(["git", "clone", "-q", "--depth", "1", "-b", RAMA, "{REPO}", "/content/repo"], check=True)
+sys.path[:0] = ["/content/repo/fabrica", "/content/repo/piloto", "/content/repo/criba"]
+import comun, fabrica
+
+comun.montar_drive()
+CFG = fabrica.cargar_config()
+RAIZ_VOCES = Path(CFG["rutas"]["drive"]) / CFG["rutas"]["voces"]
+datos = CFG["voces"][VOZ]
+VERSION = Path(datos["adaptador"]).name if datos.get("adaptador") else "base"
+SALIDA = RAIZ_VOCES / "piloto" / "prueba_voz" / VOZ
+ITEMS = {{}}
+for b in BLOQUES:
+    ep, bloque = b.split("#")
+    tr = json.loads((Path("/content/repo/episodios") / ep / "transcript.es.json").read_text(encoding="utf-8"))
+    frases = next(x["frases"] for x in tr["contenido"] if x["id"] == bloque)
+    ITEMS[f"{{ep.split('/')[1].split('-')[0]}}_{{bloque}}"] = frases
+for i, frases in ITEMS.items():
+    print(f"  {{i}}: {{len(frases)}} frases, {{sum(len(f) for f in frases)}} caracteres")
+print(f"Voz {{VOZ}} · {{'LoRA ' + datos['adaptador'] if datos.get('adaptador') else 'Qwen base'}} · salida "
+      f"{{(SALIDA / VERSION).relative_to(RAIZ_VOCES)}}")
+(SALIDA / VERSION).mkdir(parents=True, exist_ok=True)
+(SALIDA / "textos.json").write_text(json.dumps({{i: " ".join(f) for i, f in ITEMS.items()}}, ensure_ascii=False,
+                                               indent=1), encoding="utf-8")
+print("RESULTADO: OK")
+"""),
+    code("""
+# 4. Generar cada bloque frase a frase, unidas con SILENCIO_MS (sin recortar pausas)
+import numpy as np, soundfile as sf
+MOTOR = fabrica.MotorQwen(CFG, [VOZ], RAIZ_VOCES)
+for i, frases in ITEMS.items():
+    destino = SALIDA / VERSION / f"{i}.wav"
+    if destino.exists():
+        print(f"  {i}: ya existe")
+        continue
+    trozos, sr = [], None
+    for frase in frases:
+        audio, sr = MOTOR.sintetizar(frase, VOZ, 0)
+        trozos += [np.asarray(audio, dtype=np.float32).squeeze(), np.zeros(int(sr * SILENCIO_MS / 1000), np.float32)]
+    audio = np.concatenate(trozos[:-1])
+    sf.write(str(destino), audio, sr, subtype="PCM_16")
+    print(f"  {i}: {len(audio) / sr:.1f} s")
+print(f"Listo. Para escucharlo con distintas pausas, en 06_ritmo: CARPETA = \\"piloto/prueba_voz/{VOZ}\\", "
+      f"VERSIONES = [\\"{VERSION}\\"], FRASES = {list(ITEMS)}")
+"""),
+    code("""
+# 5. Subir a Drive y desconectar
+comun.desconectar()
+"""),
+])

@@ -35,5 +35,6 @@ Naval.
 | `04_lora_qwen.ipynb` | LoRA de Qwen3-TTS en modo solo timbre (variante B: 60 % inglés real + 40 % español de Chatterbox; A: solo español; kapil: repaso corto de `naval_kapil` encima del checkpoint de Naval elegido), checkpoints, pérdida de evaluación y una escucha a ciegas de 3 frases → `piloto/lora_qwen/<variante>/` | L4 |
 | `05_lora_omnivoice.ipynb` | LoRA de OmniVoice con el entrenador oficial (`lora_omnivoice.py`) y los mismos datos y variantes que el 04: referencia de otro clip por ejemplo (`clean_start_token_idx`), idioma por ejemplo, 10 % sin condicionamiento y 4 épocas. Un adaptador por época, pérdida de evaluación por idioma y la misma escucha a ciegas → `piloto/lora_omnivoice/<variante>/` | L4 |
 | `06_ritmo.ipynb` | Verificación rápida del ritmo sobre audios ya generados: acorta los silencios largos sin tocar el habla (`ritmo.py`) y los reproduce en el propio cuaderno con su velocidad en c/s. Acelerar sin cambiar el tono se probó y se descartó: pierde naturalidad | CPU |
+| `07_prueba_voz.ipynb` | Genera intervenciones reales y largas de un hablante (de los episodios traducidos) con el modelo de la fábrica, sin recortar pausas, para probarlas después en `06_ritmo` → `piloto/prueba_voz/<voz>/` | T4 |
 
 Rutas en Drive, bajo `fine_tunned_naval/`.
