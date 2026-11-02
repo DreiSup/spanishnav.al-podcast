@@ -827,13 +827,27 @@ print("RESULTADO: OK")
 """),
     code("""
 # 3. Acortar las pausas y escuchar
+import shutil, time
 import soundfile as sf
 from IPython.display import Audio, Markdown, display
+
+def leer(ruta, intentos=4):
+    # El montaje de Drive a veces falla al abrir un fichero ("System error"): se copia a disco local y se reintenta
+    for n in range(intentos):
+        try:
+            local = Path("/tmp") / ruta.name
+            shutil.copyfile(ruta, local)
+            return sf.read(str(local), dtype="float32")
+        except Exception as e:
+            if n == intentos - 1:
+                raise
+            print(f"  reintento {n + 1} con {ruta.name}: {type(e).__name__}")
+            time.sleep(2)
 
 for f in FRASES:
     display(Markdown(f"### {f}\\n*{TEXTO[f]}*"))
     for v in VERSIONES:
-        audio, sr = sf.read(str(BASE / v / f"{f}.wav"), dtype="float32")
+        audio, sr = leer(BASE / v / f"{f}.wav")
         for pm in [None] + PAUSAS_MAX:
             corto = audio if pm is None else ritmo.acortar_pausas(audio, sr, pausa_max=pm)
             seg = len(corto) / sr
