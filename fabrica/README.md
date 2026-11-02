@@ -32,5 +32,7 @@ Todo se cambia en `voces.json`, sin tocar código:
 - **Nuevo LoRA** (por ejemplo, cuando se entrene Nivi): pon en `adaptador` la carpeta del checkpoint elegido,
   relativa a `rutas.voces`. `null` = Qwen base.
 - **Otra referencia:** cambia `ref`.
+- **Otro ritmo para una voz:** añade `"pausa_max"` a su entrada (Brett lleva 0,30); si no lo tiene, usa el
+  general de `ritmo` (0,12).
 - **Hablante nuevo:** añade una entrada en `voces` (y en `alias` si el transcript lo escribe de otra forma).
   Si un transcript trae un hablante que no está, la celda 3 lo dice antes de gastar nada.

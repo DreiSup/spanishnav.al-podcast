@@ -2,7 +2,8 @@
 
 Para cada bloque de hablante del transcript sale un clip, `001naval.wav`, `002nivi.wav`…, en la carpeta
 `tts/` del episodio. Cada frase se genera por separado, se revisa con Whisper (y se repite si no dice el
-texto), se le recortan los silencios y se une a las demás con la pausa fijada en voces.json.
+texto), se le recortan los silencios y se une a las demás con la pausa fijada en voces.json (la general
+de `ritmo` o la propia de la voz).
 
 Junto a `tts/`, en la carpeta del episodio:
   informe_tts.md       duración, reintentos y las frases sospechosas, con el segundo donde están
@@ -146,12 +147,16 @@ def generar_frase(texto, voz, sintetizar, asr, cfg_ver, pausa_max):
     return mejor
 
 
+def pausa_de(voz, cfg):
+    """La pausa máxima de una voz: la suya si la tiene en voces.json, si no la general de 'ritmo'."""
+    return cfg["voces"][voz].get("pausa_max", cfg["ritmo"]["pausa_max"])
+
+
 def generar_episodio(plan, sintetizar, asr, carpeta, cfg, avisar=print):
     """Genera los clips que falten en <carpeta>/tts/ y reescribe el informe y el borrador.
 
     Lo que ya existe no se repite: si se corta, se vuelve a lanzar y sigue por donde iba.
     """
-    pausa = cfg["ritmo"]["pausa_max"]
     cfg_ver = cfg["verificacion"]
     tts_dir = Path(carpeta) / "tts"
     tts_dir.mkdir(parents=True, exist_ok=True)
@@ -169,6 +174,7 @@ def generar_episodio(plan, sintetizar, asr, carpeta, cfg, avisar=print):
             continue
         t0 = time.time()
         trozos, detalle, sr, cursor = [], [], None, BORDE_INICIO
+        pausa = pausa_de(p["voz"], cfg)
         hueco = max(0.0, pausa - RECORTE_INICIO - RECORTE_FINAL)
         for k, frase in enumerate(p["frases"]):
             r = generar_frase(frase, p["voz"], sintetizar, asr, cfg_ver, pausa)
