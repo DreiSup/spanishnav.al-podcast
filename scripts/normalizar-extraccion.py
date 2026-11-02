@@ -25,7 +25,7 @@ Lo que hace, y nada más:
   - renombra titulo_seccion (singular) a subtitulo
   - trocea en frases el inglés siempre; en español respeta el troceado del traductor
   - avisa si el español lleva caracteres que el TTS vocaliza (comillas, guiones, cifras), frases de más
-    de 45 palabras o de una o dos sueltas, y palabras de España que el GLOSARIO veta (vosotros, vale…)
+    de 45 palabras o de una o dos sueltas, y palabras que el GLOSARIO veta (vosotros, os, vale…)
   - si el episodio es uno de los 34 producidos a mano en 2019, lo marca como heredado
 
 Y actualiza catalogo.json para ese episodio: `tiene_transcript: true` —si el transcript
@@ -69,8 +69,8 @@ VOCALIZA_EL_TTS = re.compile(r'[«»“”„‟–—―…()\[\]{}*/\\|_#<>~^+
 MAX_PALABRAS = 45
 MIN_PALABRAS = 3
 
-# Español de España que el GLOSARIO veta («Español neutro»): vosotros y sus verbos, «vale» como
-# interjección y algunos coloquialismos. «coche» y «ordenador» quedan fuera hasta que el autor decida.
+# Lo que el GLOSARIO veta aunque el vocabulario sea el de España: vosotros y sus verbos, «os», «vale» como
+# interjección y algunos coloquialismos. «coche» y «ordenador» se quedan (decisión del autor, 2-nov).
 ESPANA = re.compile(r"\b(vosotros|vosotras|vuestr[oa]s?|os|chaval(?:es)?|guay|mola|molan|sois"
                     r"|\w*[^s\W][áé]is)\b", re.IGNORECASE)
 VALE = re.compile(r"(?:^|[.,;:¿¡]\s*)(vale)[.,!?]", re.IGNORECASE)
@@ -171,8 +171,8 @@ def construir_transcript(origen: dict, idioma: str, ficha: dict) -> tuple[dict, 
                 halladas = sorted({m.group(1).lower() for m in ESPANA.finditer(frase)}
                                   | {m.group(1).lower() for m in VALE.finditer(frase)})
                 if halladas:
-                    avisos.append(f"es: bloque {i} frase {j} usa {', '.join(halladas)} — español de España; "
-                                  f"el GLOSARIO pide español neutro")
+                    avisos.append(f"es: bloque {i} frase {j} usa {', '.join(halladas)} — "
+                                  f"el GLOSARIO lo veta (tuteo en singular, sin «vale» ni coloquialismos)")
             for j, frase in enumerate(frases, 1):
                 for cierra, abre in (("?", "¿"), ("!", "¡")):
                     if frase.endswith(cierra) and abre not in frase:

@@ -97,7 +97,8 @@ La **fase 1** (elegir motor) está casi cerrada:
   palabras, de frases de una o dos palabras sueltas (salvo preguntas y exclamaciones) y de palabras de España;
   el prompt de traducción pide trocear para el oído, no locutar notas `[correction]` y criterio para siglas y
   títulos (sección nueva en GLOSARIO.md). Con las reglas nuevas, ya en el repo: 036 (3 avisos), 040 (2) y 052
-  (40, 14 de ellos de España). Pendiente del autor: «coche» y «ordenador».
+  (40, 14 de ellos de vocabulario vetado). El autor decide (2-nov) mantener «coche» y «ordenador»: vocabulario
+  de España. Prompt de traducción reescrito con todo esto.
 
 ## Esperando a que termine
 
