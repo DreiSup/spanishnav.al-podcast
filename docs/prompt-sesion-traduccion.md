@@ -31,17 +31,21 @@ EL FLUJO DE CADA EPISODIO
 2. Mismos bloques y mismos hablantes en los dos idiomas, uno a uno. Los ids (b01-nivi…) NO los pones tú:
    los pone el normalizador.
 3. Revisión y subida según docs/revision-episodios.md: cobertura bloque a bloque, normalizar-extraccion.py
-   --simular con CERO avisos, revisión del español, y después sin --simular, scripts/indice.py, la
+   --simular con CERO avisos (además de símbolos y signos, avisa de frases de más de 45 palabras, de frases de
+   una o dos palabras que no están solas en su bloque y de palabras de España), revisión del español, y después sin --simular, scripts/indice.py, la
    comprobación de que no hay audio en git, un commit por episodio y push.
 
 CÓMO SE ESCRIBE PARA LA FÁBRICA DE VOZ (lo más importante)
 El texto no se lee: se sintetiza con TTS (Qwen3-TTS) y se limpia a mano en Audacity. Cada error de texto es
 trabajo manual después.
-- Cada elemento de "frases" se genera POR SEPARADO, y Whisper lo revisa: si no dice exactamente el texto, se
-  repite. Por eso:
+- Cada elemento de "frases" se genera POR SEPARADO (en lotes, pero cada una por su cuenta), y Whisper lo revisa:
+  si no dice exactamente el texto, se repite. Por eso:
+  - El troceado se rehace PARA EL OÍDO. No copies el troceado del inglés frase a frase: en las traducciones
+    antiguas eso dejó frases de 60 palabras y «No.» sueltas. Une y parte según cómo suena en español.
   - Frases de 8 a 35 palabras como norma; ninguna de más de 45. Parte las largas por un punto o un punto y
     coma natural.
   - Funde las muy cortas («Sí.», «Exacto.», «Claro.») con la frase siguiente o la anterior del mismo bloque.
+    Las preguntas o exclamaciones cortas («¿Dónde quedaremos?») sí pueden ir solas: suenan bien.
     Una frase de una o dos palabras sale con entonación rara y Whisper la revisa mal. Excepción: si es la
     única frase del bloque (una respuesta suelta), se queda como está.
   - Cada frase tiene que tener sentido completo leída sola: el modelo no ve la anterior.
@@ -51,8 +55,16 @@ trabajo manual después.
   símbolos (%, $, &, /). El normalizador avisa de casi todo; cero avisos.
 - Cifras, fechas, porcentajes y unidades en letra, como se pronuncian.
 - Signos de apertura ¿ y ¡ siempre.
-- Siglas y nombres propios como se leen; si una sigla se deletrea, escríbela como se pronuncia solo si de
-  otro modo se leería mal, y apúntalo en GLOSARIO.md.
+- Español neutro: nada de vosotros (ni sus verbos: podéis, tenéis, estáis), «os», «vale» como interjección,
+  «chaval», «guay», «mola». El normalizador avisa de todas.
+- Las notas del copiado ([correction: …], [sic], [inaudible], aclaraciones del editor de nav.al) NO se
+  locutan ni se convierten en frases de un hablante. El hablante dice lo que dijo; la nota va, traducida, al
+  campo "notas" de metadata.es.json, y se la señalas al autor en el resumen. Ejemplo real a evitar: «[correction:
+  the tweet is by @mmay3r]» acabó como una frase de Nivi, «aunque en realidad el tuit era de otra persona».
+- Títulos de libros, siglas y nombres en inglés: si hay traducción publicada y conocida en español, úsala; si
+  no, deja el título en inglés solo si el TTS lo puede leer de forma razonable. Las siglas que se deletrean o se
+  leen raro (BOCTAOE) se resuelven en la frase («lo que vale para un caso vale para todos») o se escriben como
+  se pronuncian. Cada decisión, en la sección «Siglas y títulos» de GLOSARIO.md, para no volver a dudar.
 - Tuteo, español neutro, frases cortas y afirmativas como habla Naval (GLOSARIO.md).
 
 LOS HABLANTES
@@ -89,6 +101,12 @@ de estado que mantienes.
 ```
 
 ## Por qué estas reglas
+
+- **Lo que añadió la auditoría del 2-nov** (16 traducciones antiguas de 2019 en Drive, todas buenas de sentido):
+  los fallos que se repetían eran palabras de España en 8 de 16, troceado copiado del inglés (9 frases de más de
+  45 palabras y 15 de una o dos), notas `[correction]` convertidas en frases locutadas y siglas o títulos en
+  inglés sin criterio. De ahí las reglas de troceado, español neutro, notas y siglas, y los avisos nuevos del
+  normalizador.
 
 - **Frases de 8 a 35 palabras y fundir las de una palabra:** la fábrica genera cada frase por separado y la
   revisa con Whisper (`fabrica/fabrica.py`). Las frases sueltas muy cortas salen con mala entonación y

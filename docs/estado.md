@@ -93,6 +93,12 @@ La **fase 1** (elegir motor) está casi cerrada:
   en lote, tope de pasos por frase y cuaderno por defecto en T4. Probado sin GPU (reintentos y reanudación).
   Falta medir el ahorro real con los 7 cortos (035, 036, 040–043, 045).
 
+- **Reglas nuevas de traducción** (2-nov, tras la auditoría): el normalizador avisa ahora de frases de más de 45
+  palabras, de frases de una o dos palabras sueltas (salvo preguntas y exclamaciones) y de palabras de España;
+  el prompt de traducción pide trocear para el oído, no locutar notas `[correction]` y criterio para siglas y
+  títulos (sección nueva en GLOSARIO.md). Con las reglas nuevas, ya en el repo: 036 (3 avisos), 040 (2) y 052
+  (40, 14 de ellos de España). Pendiente del autor: «coche» y «ordenador».
+
 ## Esperando a que termine
 
 | Qué | Dónde corre | Resultado esperado |

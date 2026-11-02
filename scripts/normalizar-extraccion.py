@@ -24,7 +24,8 @@ Lo que hace, y nada más:
   - pone un id por bloque de hablante: b01-nivi, b02-naval, …
   - renombra titulo_seccion (singular) a subtitulo
   - trocea en frases el inglés siempre; en español respeta el troceado del traductor
-  - avisa si el español lleva caracteres que el TTS vocaliza (comillas, guiones, cifras)
+  - avisa si el español lleva caracteres que el TTS vocaliza (comillas, guiones, cifras), frases de más
+    de 45 palabras o de una o dos sueltas, y palabras de España que el GLOSARIO veta (vosotros, vale…)
   - si el episodio es uno de los 34 producidos a mano en 2019, lo marca como heredado
 
 Y actualiza catalogo.json para ese episodio: `tiene_transcript: true` —si el transcript
@@ -60,6 +61,19 @@ AUDITADO_EL = "2026-09-06"
 # "guion") o los pronuncia mal. En el texto en español no deben aparecer; el inglés es
 # referencia y no pasa por el modelo, así que ahí da igual. Ver GLOSARIO.md.
 VOCALIZA_EL_TTS = re.compile(r'[«»“”„‟–—―…()\[\]{}*/\\|_#<>~^+=%$€&@"]|\d')
+
+# Longitud de las frases en español (docs/prompt-sesion-traduccion.md): la fábrica genera cada frase por
+# separado. Las de más de 45 palabras alucinan más; las de una o dos, si no son la única del bloque, salen con
+# entonación rara y Whisper las revisa mal. Las preguntas y exclamaciones cortas («¿Dónde quedaremos?») sí salen
+# bien (044, 2-nov): no avisan.
+MAX_PALABRAS = 45
+MIN_PALABRAS = 3
+
+# Español de España que el GLOSARIO veta («Español neutro»): vosotros y sus verbos, «vale» como
+# interjección y algunos coloquialismos. «coche» y «ordenador» quedan fuera hasta que el autor decida.
+ESPANA = re.compile(r"\b(vosotros|vosotras|vuestr[oa]s?|os|chaval(?:es)?|guay|mola|molan|sois"
+                    r"|\w*[^s\W][áé]is)\b", re.IGNORECASE)
+VALE = re.compile(r"(?:^|[.,;:¿¡]\s*)(vale)[.,!?]", re.IGNORECASE)
 
 
 def numero_de_episodio(orden: int) -> int | None:
@@ -146,6 +160,19 @@ def construir_transcript(origen: dict, idioma: str, ficha: dict) -> tuple[dict, 
                 avisos.append(
                     f"es: bloque {i} frase {j} lleva {', '.join(partes)} — "
                     f"el TTS lo vocaliza; escríbelo como se pronuncia")
+            for j, frase in enumerate(frases, 1):
+                n = len(frase.split())
+                if n > MAX_PALABRAS:
+                    avisos.append(f"es: bloque {i} frase {j} tiene {n} palabras (máximo {MAX_PALABRAS}) — "
+                                  f"pártela por un punto o un punto y coma natural")
+                elif n < MIN_PALABRAS and len(frases) > 1 and not frase.startswith(("¿", "¡")):
+                    avisos.append(f"es: bloque {i} frase {j} tiene {n} palabra{'s' if n > 1 else ''} («{frase}») — "
+                                  f"fúndela con la anterior o la siguiente")
+                halladas = sorted({m.group(1).lower() for m in ESPANA.finditer(frase)}
+                                  | {m.group(1).lower() for m in VALE.finditer(frase)})
+                if halladas:
+                    avisos.append(f"es: bloque {i} frase {j} usa {', '.join(halladas)} — español de España; "
+                                  f"el GLOSARIO pide español neutro")
             for j, frase in enumerate(frases, 1):
                 for cierra, abre in (("?", "¿"), ("!", "¡")):
                     if frase.endswith(cierra) and abre not in frase:

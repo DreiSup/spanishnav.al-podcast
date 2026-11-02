@@ -46,3 +46,16 @@ la decisión aquí para no volver a dudar en el episodio siguiente.
 
 No se traducen. Comprueba en `NOTAS.md` del episodio cómo los pronuncia el TTS
 y, si hace falta, escríbelos fonéticamente solo en el texto que va al TTS.
+
+## Siglas y títulos
+
+Cómo se escriben para que el TTS los lea bien. Una línea por decisión: la sigla o el título, cómo queda en el
+texto en español y por qué.
+
+| Original | En el texto | Nota |
+|---|---|---|
+| ADN | ADN | Se lee bien como sigla |
+
+**Pendiente del autor:** «coche» y «ordenador» (España) frente a «auto» y «computadora». El repo los usa (13
+veces en 2019); el normalizador no avisa de ellos hasta que se decida.
+
