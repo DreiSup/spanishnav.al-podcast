@@ -93,8 +93,8 @@ La **fase 1** (elegir motor) está casi cerrada:
 **Plan del autor (2-nov) hasta la versión alfa de la fábrica:**
 
 1. **Pausa de Nivi:** `07_prueba_voz` (generando) y después `06_ritmo`. Decir el valor a Claude.
-2. **Sesión de traducción aparte:** traduce unos cuantos episodios al formato del repo
-   (`transcript.es.json` vía `scripts/normalizar-extraccion.py`).
+2. **Sesión de traducción aparte**, con el prompt de `docs/prompt-sesion-traduccion.md`: traduce unos
+   cuantos episodios al formato del repo. Lleva su propio registro en `docs/traduccion.md`.
 3. **Primera prueba de la fábrica** con esos episodios: generar el audio (`fabrica/fabrica.ipynb`).
 4. **Con el autor, los SOP de publicación:** el `.mp3` principal, el vídeo de YouTube y sus datos, la web y
    el RSS.
