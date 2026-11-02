@@ -89,3 +89,31 @@ Elegido (en `fabrica/voces.json`):
 
 Los tres suenan lentos, como Naval antes del recorte: las páginas no llevan el recorte de pausas de 0,12 s
 que aplica la fábrica a todas las voces.
+
+## Acento de Naval — escucha a ciegas (2026-11-02)
+
+Cuaderno `piloto/cuadernos/08_acento_naval`: tres intervenciones reales de Naval (044 b02, 041 b02, 040 b04), como
+en la fábrica (semilla por frase y pausas de 0,12 s). El autor encontraba a Naval «demasiado inglés» en el 044.
+Notas en `puntuaciones_acento_naval.csv`, letras en `clave_acento_naval.json`.
+
+| Versión | Parecido | Acento | Naturalidad | Alucinaciones | Media (3 primeros) |
+|---|---|---|---|---|---|
+| **actual** (LoRA B/paso_0158 + huella inglesa `naval_ref02`) | **5,00** | 4,00 | **5,00** | 5 | **4,67** |
+| lora_ref_es1 (LoRA + huella del mejor clip español) | 4,00 | 4,00 | 4,00 | 5 | 4,00 |
+| lora_ref_es5 (LoRA + media de 5 clips españoles) | 3,33 | 4,00 | 3,33 | 5 | 3,56 |
+| lora_medio_ref_es5 (LoRA al 50 % + media española) | 3,00 | 4,33 | 3,33 | 5 | 3,56 |
+| base_ref_es5 (sin LoRA + media española) | 3,67 | 4,00 | 3,33 | 5 | 3,67 |
+
+Lectura:
+
+- **La huella en español no mejora el acento** (4 en todas) y cuesta parecido y naturalidad: el x-vector del
+  español sintético se aleja de Naval. El LoRA a media fuerza gana un tercio de punto de acento y pierde dos de
+  parecido.
+- **La versión actual gana** con claridad: 5 de parecido y de naturalidad. Su acento varía con el texto: 3 en el
+  044 b02 (Thomas Schelling, *The Strategy of Conflict*: nombres y título en inglés) y 5 en el 040 b04. Parte de lo
+  «inglés» que se oye en el 044 sale de los nombres y títulos en inglés del texto, no del modelo.
+
+**Decisión:** Naval se queda como está (`B/paso_0158` + `naval_ref02`). Las palancas baratas quedan descartadas.
+Si el acento sigue molestando en episodios enteros, lo siguiente sería un LoRA con más español (por ejemplo,
+60 % español), que sí cuesta unidades.
+
