@@ -58,7 +58,7 @@ cuántos segundos de GPU cuesta cada segundo de audio, para calcular el gasto de
 """),
     code("""
 # 2. Parámetros
-EPISODIOS = ["2019/044-schelling-point"]   # carpetas de episodios/ del repo, tantas como quieras
+EPISODIOS = ["2019/037-productize-yourself", "2019/038-accountability", "2019/039-working-ourselves"]   # carpetas de episodios/ del repo
 VERIFICAR = True     # revisar cada frase con Whisper y repetir las que fallen (más lento, mucho menos Audacity)
 """),
     code(f"""
