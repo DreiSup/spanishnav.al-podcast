@@ -958,3 +958,190 @@ print(f"Listo. Para escucharlo con distintas pausas, en 06_ritmo: CARPETA = \\"p
 comun.desconectar()
 """),
 ])
+
+# ---------------------------------------------------------------- Acento de Naval
+cuaderno("08_acento_naval.ipynb", [
+    md("""
+# Piloto de fine-tuning — un Naval con acento más español
+
+El autor nota a Naval **demasiado inglés** en la fábrica (LoRA `B/paso_0158` con la referencia `naval_ref02`).
+En la escucha del 30-oct el acento sacó 4 en todos los checkpoints: cambiar de checkpoint no lo arregla. Este
+cuaderno prueba, sin entrenar nada, dos palancas baratas y sus combinaciones:
+
+- **Referencia en español.** En modo solo timbre, Qwen clona a partir de una huella de voz (x-vector) sacada de
+  la referencia. La de ahora sale de Naval hablando **inglés** y arrastra parte de su acento. Aquí la huella sale
+  del **español sintético de Naval** (Chatterbox V2, `piloto/sintetico/seleccion.jsonl`): del clip más parecido
+  a él, o la media de los `N_REFS_ES` más parecidos.
+- **LoRA a media fuerza.** Una mezcla entre la base (algo mejor de acento) y el LoRA (mejor naturalidad).
+
+Versiones (en la página salen con letras al azar):
+
+| Versión | LoRA | Huella |
+|---|---|---|
+| `actual` | `B/paso_0158` | `naval_ref02` (inglés) — lo que suena hoy en la fábrica |
+| `lora_ref_es1` | `B/paso_0158` | el clip español más parecido |
+| `lora_ref_es5` | `B/paso_0158` | media de los `N_REFS_ES` clips españoles más parecidos |
+| `lora_medio_ref_es5` | `B/paso_0158` a `FUERZA_MEDIA` | media de los clips españoles |
+| `base_ref_es5` | ninguno | media de los clips españoles |
+
+Las frases son **intervenciones reales** de Naval de los episodios traducidos, generadas **como en la fábrica**:
+misma semilla por frase y pausas recortadas a 0,12 s. La de 044 es la misma que ya escuchaste en el borrador.
+
+Salida en `fine_tunned_naval/piloto/acento_naval/`: un `.wav` por versión y bloque, y la página de escucha a
+ciegas en `escucha/acento_naval.html` (la clave, aparte, en `clave_acento_naval.json`: no la abras antes de
+puntuar). **El criterio que manda aquí es el acento** (5 = español nativo), sin perder parecido.
+
+**GPU:** T4. **Tiempo:** unos 25–35 minutos (unos 6 minutos de audio). Celda 1, *Reiniciar sesión* y el resto
+en orden. Si se corta, vuelve a lanzar: lo que ya esté en Drive no se repite.
+"""),
+    code("""
+# 1. Instalación (después: Entorno de ejecución → Reiniciar sesión)
+# El aviso rojo "pip's dependency resolver..." es normal.
+!pip install -q qwen-tts==0.1.1 peft==0.17.1
+"""),
+    code("""
+# 2. Parámetros
+# Intervenciones reales de Naval: "<año>/<carpeta del episodio>#<id del bloque>"
+BLOQUES = ["2019/044-schelling-point#b02-naval",   # 3 frases, la que ya escuchaste en el borrador
+           "2019/041-envy#b02-naval",              # 5 frases
+           "2019/040-ethics#b04-naval"]            # 5 frases
+N_REFS_ES = 5          # cuántos clips españoles se promedian para la huella
+DUR_REF_ES = (6, 15)   # solo clips de entre 6 y 15 s: ni tan cortos que la huella sea pobre ni tan largos
+FUERZA_MEDIA = 0.5     # la fuerza del LoRA en la versión lora_medio (1 = completo, 0 = base)
+"""),
+    code(f"""
+# 3. Preparar: código del repo, Drive, texto de los bloques y referencias españolas (sin cargar modelos)
+import os, sys, subprocess, json
+from pathlib import Path
+RAMA = "{RAMA}"
+if os.path.isdir("/content/repo"):
+    subprocess.run(["git", "-C", "/content/repo", "pull", "-q"], check=True)
+else:
+    subprocess.run(["git", "clone", "-q", "--depth", "1", "-b", RAMA, "{REPO}", "/content/repo"], check=True)
+sys.path[:0] = ["/content/repo/fabrica", "/content/repo/piloto", "/content/repo/criba"]
+import comun, fabrica, rutas
+
+comun.montar_drive()
+CFG = fabrica.cargar_config()
+RAIZ_VOCES = Path(CFG["rutas"]["drive"]) / CFG["rutas"]["voces"]
+NAVAL = CFG["voces"]["naval"]
+ADAPTADOR = RAIZ_VOCES / NAVAL["adaptador"]
+REF_EN = RAIZ_VOCES / NAVAL["ref"]
+PAUSA = fabrica.pausa_de("naval", CFG)
+SALIDA = RAIZ_VOCES / "piloto" / "acento_naval"
+SALIDA.mkdir(parents=True, exist_ok=True)
+
+items = []
+for b in BLOQUES:
+    ep, bloque = b.split("#")
+    tr = json.loads((Path("/content/repo/episodios") / ep / "transcript.es.json").read_text(encoding="utf-8"))
+    frases = next(x["frases"] for x in tr["contenido"] if x["id"] == bloque)
+    items.append({{"id": f"{{ep.split('/')[1].split('-')[0]}}_{{bloque}}", "voz": "naval", "ref": "naval",
+                  "frases": frases, "origen": b}})
+    print(f"  {{items[-1]['id']}}: {{len(frases)}} frases, {{sum(len(f.split()) for f in frases)}} palabras")
+# La página de escucha lee los items de este fichero
+comun.FRASES = SALIDA / "frases.json"
+comun.FRASES.write_text(json.dumps({{"schema": 1, "silencio_entre_frases_ms": 0, "items": items}},
+                                   ensure_ascii=False, indent=1), encoding="utf-8")
+comun.SALIDA = SALIDA
+
+SINT = rutas.sintetico(comun.DRIVE, "naval")
+candidatos = [s for s in (json.loads(l) for l in (SINT / "seleccion.jsonl").read_text(encoding="utf-8").splitlines()
+                          if l.strip())
+              if s["variante"] == "chatterbox_v2" and DUR_REF_ES[0] <= s["segundos"] <= DUR_REF_ES[1]]
+candidatos.sort(key=lambda s: -s["similitud"])
+REFS_ES = [comun.DRIVE / s["audio"] for s in candidatos[:N_REFS_ES]]
+print(f"Huella española: {{len(REFS_ES)}} clips de {{len(candidatos)}} candidatos")
+for s in candidatos[:N_REFS_ES]:
+    print(f"  {{s['id']}}: {{s['segundos']:.1f}} s · similitud {{s['similitud']:.2f}} · {{s['texto'][:60]}}…")
+
+problemas = [str(p) for p in [REF_EN, ADAPTADOR / "adapter_model.safetensors", *REFS_ES] if not p.is_file()]
+if len(REFS_ES) < N_REFS_ES:
+    problemas.append(f"solo hay {{len(REFS_ES)}} clips españoles entre {{DUR_REF_ES}} s")
+if problemas:
+    print("RESULTADO: REVISAR")
+    for p in problemas:
+        print("  - falta:", p)
+    raise SystemExit("Corrige lo de arriba antes de cargar modelos: todavía no se ha gastado nada.")
+print(f"Pausas de {{PAUSA}} s, como en la fábrica. Salida: {{SALIDA.relative_to(comun.DRIVE)}}")
+print("RESULTADO: OK")
+"""),
+    code("""
+# 4. Cargar Qwen, el LoRA de Naval (entero y a media fuerza) y las tres huellas
+import dataclasses, torch
+from qwen_tts import Qwen3TTSModel
+from peft import PeftModel
+dtype = torch.bfloat16 if torch.cuda.is_bf16_supported() else torch.float16
+tts = Qwen3TTSModel.from_pretrained(CFG["motor"]["modelo"], device_map="cuda:0", dtype=dtype,
+                                    attn_implementation="sdpa")
+peft = PeftModel.from_pretrained(tts.model.talker, str(ADAPTADOR), adapter_name="entero")
+peft.load_adapter(str(ADAPTADOR), adapter_name="medio")
+capas = 0
+for m in peft.modules():
+    if isinstance(getattr(m, "scaling", None), dict) and "medio" in m.scaling:
+        m.scaling["medio"] *= FUERZA_MEDIA
+        capas += 1
+tts.model.talker = peft
+peft.eval()
+print(f"LoRA cargado; versión 'medio' al {FUERZA_MEDIA:.0%} en {capas} capas")
+
+def huella(rutas_audio):
+    \"\"\"Prompt de solo timbre con la media de las huellas de varios clips (con su norma media).\"\"\"
+    it = tts.create_voice_clone_prompt(ref_audio=[str(r) for r in rutas_audio], x_vector_only_mode=True)
+    embs = torch.stack([x.ref_spk_embedding for x in it])
+    media = embs.mean(0)
+    media = media / media.norm() * embs.norm(dim=-1).mean()
+    return [dataclasses.replace(it[0], ref_spk_embedding=media)]
+
+PROMPTS = {"en": huella([REF_EN]), "es1": huella(REFS_ES[:1]), "es5": huella(REFS_ES)}
+sim = torch.nn.functional.cosine_similarity
+for k in ("es1", "es5"):
+    print(f"Huella {k}: parecido con la inglesa {sim(PROMPTS[k][0].ref_spk_embedding.float(), PROMPTS['en'][0].ref_spk_embedding.float(), dim=0):.2f}")
+"""),
+    code("""
+# 5. Generar cada versión, como en la fábrica (misma semilla por frase y pausas recortadas)
+import time, numpy as np, soundfile as sf
+from contextlib import nullcontext
+VERSIONES = {"actual": ("entero", "en"), "lora_ref_es1": ("entero", "es1"), "lora_ref_es5": ("entero", "es5"),
+             "lora_medio_ref_es5": ("medio", "es5"), "base_ref_es5": (None, "es5")}
+hueco = max(0.0, PAUSA - fabrica.RECORTE_INICIO - fabrica.RECORTE_FINAL)
+
+for version, (adaptador, clave) in VERSIONES.items():
+    (SALIDA / version).mkdir(exist_ok=True)
+    def sintetizar(texto, voz, intento):
+        if adaptador:
+            peft.set_adapter(adaptador)
+        with (peft.disable_adapter() if adaptador is None else nullcontext()):
+            torch.manual_seed(fabrica.semilla(texto, intento))
+            wavs, sr = tts.generate_voice_clone(text=texto, language=CFG["motor"]["idioma"],
+                                                voice_clone_prompt=PROMPTS[clave],
+                                                non_streaming_mode=CFG["motor"]["non_streaming_mode"])
+        return wavs[0], sr
+    for it in items:
+        destino = SALIDA / version / f"{it['id']}.wav"
+        if destino.exists():
+            print(f"  {version}/{it['id']}: ya existe")
+            continue
+        t0, trozos, sr = time.time(), [], None
+        for k, frase in enumerate(it["frases"]):
+            r = fabrica.generar_frase(frase, "naval", sintetizar, None, CFG["verificacion"], PAUSA)
+            sr = r["sr"]
+            if k:
+                trozos.append(np.zeros(int(sr * hueco), np.float32))
+            trozos.append(r["audio"])
+        audio = np.concatenate([np.zeros(int(sr * fabrica.BORDE_INICIO), np.float32), *trozos,
+                                np.zeros(int(sr * fabrica.BORDE_FINAL), np.float32)])
+        sf.write(str(destino), audio, sr, subtype="PCM_16")
+        print(f"  {version}/{it['id']}: {len(audio) / sr:.1f} s en {time.time() - t0:.0f} s")
+"""),
+    code("""
+# 6. Página de escucha a ciegas
+import escucha
+escucha.construir_pagina([it["id"] for it in items], list(VERSIONES), nombre="acento_naval")
+print("Ábrela desde Drive (descárgala y ábrela en el navegador). Prioridad: el ACENTO, sin perder parecido.")
+"""),
+    code("""
+# 7. Subir a Drive y desconectar
+comun.desconectar()
+"""),
+])
