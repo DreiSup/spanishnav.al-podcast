@@ -72,6 +72,9 @@ La **fase 1** (elegir motor) está casi cerrada:
 - **LoRA de Brett** (`04_lora_qwen`, `VARIANTE = "brett"`), 1-nov: 130 pasos completos, checkpoints
   40, 80, 120 y 130. Pérdida de evaluación en inglés 3,14 → 2,93 y en español 2,89 → 2,60, bajando en
   todos. Falta la escucha: `piloto/lora_qwen/brett/prueba/escucha/lora_qwen_brett.html`.
+- **LoRA de Deutsch** (`04_lora_qwen`, `VARIANTE = "deutsch"`), 2-nov: 155 pasos completos, checkpoints
+  40, 80, 120 y 155. Pérdida de evaluación en inglés 3,10 → 2,77 y en español 2,65 → 2,45, bajando en
+  todos. Falta la escucha: `piloto/lora_qwen/deutsch/prueba/escucha/lora_qwen_deutsch.html`.
 - **LoRA de Nivi** (`04_lora_qwen`, `VARIANTE = "nivi"`), 1-nov: 159 pasos completos, checkpoints
   40, 80, 120 y 159. Pérdida de evaluación en inglés 2,63 → 2,43 y en español 2,85 → 2,56, bajando
   en todos. Falta la escucha: `piloto/lora_qwen/nivi/prueba/escucha/lora_qwen_nivi.html`.
