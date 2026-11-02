@@ -61,3 +61,36 @@ inglés. El acento solo lo juzga el oído.
   - Los dos son candidatos.
 - **Muestra pequeña:** 4 audios por motor y un solo oyente. Sirve para elegir dirección,
   no para cerrar la decisión.
+
+## Qwen3-TTS: modo normal frente a modo solo timbre (x_vector_only)
+
+Escucha a ciegas del autor (cuaderno 03c): 10 frases, cada una en los dos modos.
+
+- `puntuaciones_escucha_xvector.csv`: las notas.
+- `clave_escucha_xvector.json`: qué modo es cada letra.
+
+| Modo | Parecido | Acento nativo | Naturalidad | Sin alucinaciones |
+|---|---|---|---|---|
+| Normal (grabación + transcripción) | **4,10** | 2,40 | **4,70** | 5,00 |
+| Solo timbre (`x_vector_only`) | 3,70 | **4,60** | 3,89 | 5,00 |
+
+Por voz, como parecido / acento:
+
+| Voz | Normal | Solo timbre |
+|---|---|---|
+| Naval (`n05`, `n12`, `n25`) | 5, 5, 4 / 3, 2, 2 | **5, 5, 4 / 5, 5, 5** |
+| Nivi (`v05`, `v10`) | 4, 2 / 2, 2 | 2, 3 / 4, 4 |
+| Brett (`b10`) | 5 / 2 | 3 / 5 |
+| Deutsch (`d02`, `d03`) | 5, 5 / 2, 2 | 3, 3 / 5, 3 |
+| Kapil (`g01`, `g03`) | 2, 4 / 5, 2 | 4, 5 / 5, 5 |
+
+La naturalidad y las alucinaciones de `n12` en modo solo timbre quedaron sin puntuar.
+
+**Lectura.**
+
+- El modo solo timbre **casi elimina el acento inglés**: pasa de 2,4 a 4,6.
+- **Con Naval no pierde parecido** (5, 5, 4 en los dos modos) y el acento sube a 5 en las
+  tres frases.
+- Con Nivi, Brett y Deutsch el parecido baja a 2–3. Con Kapil sube.
+- La naturalidad baja de 4,7 a 3,9.
+- En este modo la referencia ya no transmite el tono de cada episodio.

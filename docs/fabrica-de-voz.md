@@ -173,6 +173,41 @@ de 4 audios por motor, **el piloto de fine-tuning se hace con los dos, Qwen3-TTS
 OmniVoice, y con los mismos datos**. El que quede mejor de acento sin perder timbre será
 el motor definitivo.
 
+## Dos modelos de Naval: normal y con Kapil (2026-10-30)
+
+En modo solo timbre, Qwen3-TTS quita el acento pero la referencia ya no transmite el tono
+del episodio. Por eso el registro de Naval con Kapil Gupta tendrá **su propio LoRA**, el
+plan B de «un LoRA por registro» de la sección *Identidad y tono*:
+
+- **`naval`**: todos los episodios salvo los de Kapil. **nav072 queda fuera de su
+  dataset**, para no mezclar registros.
+- **`naval_kapil`**: solo la voz de Naval en nav072 y en los 4 diálogos de 2019 (orden 1–4
+  del catálogo). Una de esas 5 fuentes va entera a eval.
+- **En producción**, cada episodio indica qué modelo de Naval usa. Los de Kapil (extras
+  1–4 y el 72) usan `naval_kapil`.
+
+## Ritmo: pausas de 0,12 s como máximo (2026-10-30)
+
+En modo solo timbre, Qwen3-TTS habla en español a unos 15 caracteres por segundo; Naval en inglés
+va a 19,5. Gran parte de la lentitud son pausas: el silencio que deja el modelo al principio y al
+final de cada frase, más los 250 ms que se añaden al unirlas. Probado en `piloto/cuadernos/06_ritmo`:
+
+- **Acelerar sin cambiar el tono** (Rubber Band, ×1,05–1,15): **descartado**, pierde naturalidad.
+- **Acortar solo las pausas** (`piloto/ritmo.py`, `acortar_pausas`): el habla no se toca; el
+  silencio inicial queda en 0,05 s, el final en 0,15 s y cada pausa interna en un máximo. Entre
+  0,35 / 0,25 / 0,18 / 0,12 s, el autor elige **0,12 s** (`ritmo.PAUSA_FABRICA`).
+
+**Por voz (2-nov):** Brett lleva **0,30 s** (con 0,12 sonaba demasiado rápido) y Deutsch y Nivi **0,20 s**;
+Naval sigue en 0,12. Cada voz
+puede tener su `pausa_max` en `fabrica/voces.json`; si no, usa el general.
+
+**En la fábrica**, cada clip de intervención (`001naval.wav`…) pasa por
+`ritmo.acortar_pausas(audio, sr)` después de unir sus frases y antes de guardarse. Las escuchas a
+ciegas de modelos nuevos deben aplicarlo a todas las versiones por igual, para comparar lo que de
+verdad se va a publicar. Si aun así falta ritmo, quedan dos pruebas de generación pendientes:
+generar en trozos de 2–3 frases y usar como referencia en modo normal un clip en español con la
+voz de Naval.
+
 ## El camino hasta el objetivo, en este orden
 
 1. **Elegir el motor.** Pruebas con varios modelos y varias iteraciones hasta decidir cuál

@@ -58,12 +58,38 @@ class Asr:
         Con eso se detecta lo que el WER no ve: murmullos, sílabas o ruido antes o después de la
         frase, que Whisper suele omitir en el texto.
         """
-        salida = self.p({"raw": audio_16k(ruta), "sampling_rate": 16000}, return_timestamps="word",
+        return self.transcribe_audio(audio_16k(ruta), 16000)
+
+    def transcribe_audio(self, audio, sr):
+        """Como transcribe(), con el audio ya en memoria (mono, float32)."""
+        a = np.asarray(audio, dtype=np.float32)
+        if sr != 16000:
+            a = librosa.resample(a, orig_sr=sr, target_sr=16000)
+        salida = self.p({"raw": a, "sampling_rate": 16000}, return_timestamps="word",
                         generate_kwargs={"language": "spanish", "task": "transcribe"})
         marcas = [c["timestamp"] for c in salida.get("chunks", []) if c.get("timestamp")]
         inicio = next((t[0] for t in marcas if t[0] is not None), None)
         fin = next((t[1] for t in reversed(marcas) if t[1] is not None), None)
         return salida["text"].strip(), inicio, fin
+
+    def transcribe_lote(self, audios, sr, batch_size=8):
+        """transcribe_audio de varios audios en una pasada de Whisper. Si el lote falla, uno a uno."""
+        if sr != 16000:
+            audios = [librosa.resample(np.asarray(a, dtype=np.float32), orig_sr=sr, target_sr=16000) for a in audios]
+        entradas = [{"raw": np.asarray(a, dtype=np.float32), "sampling_rate": 16000} for a in audios]
+        try:
+            salidas = self.p(entradas, batch_size=batch_size, return_timestamps="word",
+                             generate_kwargs={"language": "spanish", "task": "transcribe"})
+        except Exception as e:  # noqa: BLE001 — la revisión no debe parar la fábrica
+            print(f"  (Whisper en lote falló: {e}; sigo frase a frase)")
+            return [self.transcribe_audio(a, 16000) for a in audios]
+        res = []
+        for salida in salidas:
+            marcas = [c["timestamp"] for c in salida.get("chunks", []) if c.get("timestamp")]
+            inicio = next((t[0] for t in marcas if t[0] is not None), None)
+            fin = next((t[1] for t in reversed(marcas) if t[1] is not None), None)
+            res.append((salida["text"].strip(), inicio, fin))
+        return res
 
 
 class Ecapa:

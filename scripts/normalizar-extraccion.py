@@ -24,7 +24,9 @@ Lo que hace, y nada más:
   - pone un id por bloque de hablante: b01-nivi, b02-naval, …
   - renombra titulo_seccion (singular) a subtitulo
   - trocea en frases el inglés siempre; en español respeta el troceado del traductor
-  - avisa si el español lleva caracteres que el TTS vocaliza (comillas, guiones, cifras)
+  - avisa si el español lleva caracteres que el TTS vocaliza (comillas, guiones, cifras), frases de más
+    de 45 palabras o de una o dos sueltas, y palabras que el GLOSARIO veta (vosotros, os, vale…)
+  - si el episodio es uno de los 34 producidos a mano en 2019, lo marca como heredado
 
 Y actualiza catalogo.json para ese episodio: `tiene_transcript: true` —si el transcript
 está en el repo, es que existe— y la fecha, si la entrada venía sin ella. Con --simular
@@ -49,10 +51,29 @@ PLANTILLAS = RAIZ / "plantillas" / "episodio"
 # Entradas del archivo de nav.al que no son episodios del feed (ver docs/extraccion.md)
 EXTRAS = set(range(1, 5)) | set(range(164, 167))
 
+# Episodios ya producidos con el método manual de 2019 (auditado en disco el 2026-09-06).
+# Su audio existe y NO se re-sintetiza. Ver "Episodios heredados" en CLAUDE.md.
+HEREDADOS = set(range(1, 35))          # 1-34 tienen audio montado
+HEREDADOS_SIN_VIDEO = {34}             # el 34 es el único sin vídeo
+AUDITADO_EL = "2026-09-06"
+
 # Caracteres que el TTS vocaliza en vez de interpretar: los lee en alto ("comillas",
 # "guion") o los pronuncia mal. En el texto en español no deben aparecer; el inglés es
 # referencia y no pasa por el modelo, así que ahí da igual. Ver GLOSARIO.md.
 VOCALIZA_EL_TTS = re.compile(r'[«»“”„‟–—―…()\[\]{}*/\\|_#<>~^+=%$€&@"]|\d')
+
+# Longitud de las frases en español (docs/prompt-sesion-traduccion.md): la fábrica genera cada frase por
+# separado. Las de más de 45 palabras alucinan más; las de una o dos, si no son la única del bloque, salen con
+# entonación rara y Whisper las revisa mal. Las preguntas y exclamaciones cortas («¿Dónde quedaremos?») sí salen
+# bien (044, 2-nov): no avisan.
+MAX_PALABRAS = 45
+MIN_PALABRAS = 3
+
+# Lo que el GLOSARIO veta aunque el vocabulario sea el de España: vosotros y sus verbos, «os», «vale» como
+# interjección y algunos coloquialismos. «coche» y «ordenador» se quedan (decisión del autor, 2-nov).
+ESPANA = re.compile(r"\b(vosotros|vosotras|vuestr[oa]s?|os|chaval(?:es)?|guay|mola|molan|sois"
+                    r"|\w*[^s\W][áé]is)\b", re.IGNORECASE)
+VALE = re.compile(r"(?:^|[.,;:¿¡]\s*)(vale)[.,!?]", re.IGNORECASE)
 
 
 def numero_de_episodio(orden: int) -> int | None:
@@ -68,17 +89,6 @@ def slugificar(texto: str) -> str:
     t = unicodedata.normalize("NFKD", texto)
     t = "".join(c for c in t if not unicodedata.combining(c)).lower()
     return re.sub(r"-+", "-", re.sub(r"[^a-z0-9]+", "-", t)).strip("-")
-
-
-def slug_de_titulo(titulo: str) -> str:
-    """Nombre de carpeta a partir del título inglés. Ver "Nombres" en CLAUDE.md.
-
-    Los apóstrofos se caen en vez de convertirse en guion, que es la diferencia
-    con slugificar(): "A Founder's Anxiety" da a-founders-anxiety y no
-    a-founder-s-anxiety. Comprobado sobre los 168 títulos del catálogo: no hay
-    dos que den el mismo nombre, y el más largo son 65 caracteres.
-    """
-    return slugificar(re.sub(r"['\u2019\u02bc]", "", titulo))
 
 
 def slug_de_url(url: str) -> str:
@@ -151,6 +161,19 @@ def construir_transcript(origen: dict, idioma: str, ficha: dict) -> tuple[dict, 
                     f"es: bloque {i} frase {j} lleva {', '.join(partes)} — "
                     f"el TTS lo vocaliza; escríbelo como se pronuncia")
             for j, frase in enumerate(frases, 1):
+                n = len(frase.split())
+                if n > MAX_PALABRAS:
+                    avisos.append(f"es: bloque {i} frase {j} tiene {n} palabras (máximo {MAX_PALABRAS}) — "
+                                  f"pártela por un punto o un punto y coma natural")
+                elif n < MIN_PALABRAS and len(frases) > 1 and not frase.startswith(("¿", "¡")):
+                    avisos.append(f"es: bloque {i} frase {j} tiene {n} palabra{'s' if n > 1 else ''} («{frase}») — "
+                                  f"fúndela con la anterior o la siguiente")
+                halladas = sorted({m.group(1).lower() for m in ESPANA.finditer(frase)}
+                                  | {m.group(1).lower() for m in VALE.finditer(frase)})
+                if halladas:
+                    avisos.append(f"es: bloque {i} frase {j} usa {', '.join(halladas)} — "
+                                  f"el GLOSARIO lo veta (tuteo en singular, sin «vale» ni coloquialismos)")
+            for j, frase in enumerate(frases, 1):
                 for cierra, abre in (("?", "¿"), ("!", "¡")):
                     if frase.endswith(cierra) and abre not in frase:
                         avisos.append(
@@ -175,6 +198,21 @@ def construir_transcript(origen: dict, idioma: str, ficha: dict) -> tuple[dict, 
         "contenido": contenido,
     }
     return transcript, avisos
+
+
+def bloque_heredado(numero: int | None) -> dict | None:
+    """Ficha del material producido a mano en 2019, si este episodio es uno de ellos."""
+    if numero is None or numero not in HEREDADOS:
+        return None
+    return {
+        "audio_existente": True,
+        "origen": "produccion-manual-2019",
+        "ruta_local": f"spanishpodcast/2019/{numero:02d}",
+        "corresponde_al_transcript": False,
+        "tiene_master": False,
+        "video_resolucion": "" if numero in HEREDADOS_SIN_VIDEO else "1376x768",
+        "auditado_el": AUDITADO_EL,
+    }
 
 
 def marcar_en_catalogo(slug: str, fecha: str, simular: bool) -> str:
@@ -235,6 +273,8 @@ def main() -> int:
     ap.add_argument("--fecha", help="fecha AAAA-MM-DD, para los 59 episodios que el catálogo no trae fechados")
     ap.add_argument("--simular", action="store_true", help="no escribe nada")
     ap.add_argument("--forzar", action="store_true", help="sobrescribe una carpeta existente")
+    ap.add_argument("--sin-heredado", action="store_true",
+                    help="no marcar como heredado aunque el número esté entre los 34 producidos")
     args = ap.parse_args()
 
     origen_en = json.loads(Path(args.en).read_text(encoding="utf-8"))
@@ -250,9 +290,7 @@ def main() -> int:
             f"error: no hay fecha ISO para '{slug}' (el catálogo trae {entrada['fecha']!r}).\n"
             f"       Búscala en {entrada['url']} y pásala con --fecha AAAA-MM-DD.")
     anio = fecha[:4]
-    # La carpeta se nombra por el título; el slug de la URL sigue identificando la fuente
-    carpeta = slug_de_titulo(entrada["titulo"])
-    nombre = f"{numero:03d}-{carpeta}" if numero is not None else f"extra-{carpeta}"
+    nombre = f"{numero:03d}-{slug}" if numero is not None else f"extra-{slug}"
     destino = RAIZ / "episodios" / anio / nombre
     ficha = {"episodio": f"{anio}/{nombre}", "numero": numero, "fecha": fecha, "url": entrada["url"]}
 
@@ -310,6 +348,13 @@ def main() -> int:
     meta_es.update(numero=numero, anio=int(anio), slug=slug, titulo_es=tr_es["titulo"], estado="revision")
     meta_es["youtube"]["titulo"] = tr_es["titulo"]
 
+    heredado = None if args.sin_heredado else bloque_heredado(numero)
+    if heredado:
+        meta_es["heredado"] = heredado
+        meta_es["audio_editado_a_mano"] = True
+        meta_es["estado"] = "heredado"
+        print(f"  HEREDADO: audio de {heredado['origen']} en {heredado['ruta_local']}")
+        print("            no se re-sintetiza; el transcript es referencia textual, no su fuente")
 
     escribir(destino / "transcript.en.json", tr_en, args.simular)
     escribir(destino / "transcript.es.json", tr_es, args.simular)

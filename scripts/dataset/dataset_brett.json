@@ -1,0 +1,48 @@
+{
+  "nota": "Brett Hall (Parte 2). Fuentes aprobadas el 2026-10-30. train 50/50 conversación (podcast de Naval) / monólogo (ToKCast en solitario). eval = Brett en nav139.",
+  "hablante": "brett",
+  "train_min": [
+    45,
+    60
+  ],
+  "eval_min": [
+    3,
+    5
+  ],
+  "cuotas_train_min": {
+    "conversacion": 30,
+    "monologo": 30
+  },
+  "fuentes": [
+    {
+      "id": "nav109",
+      "split": "train",
+      "registro": "conversación",
+      "grupo": "conversacion"
+    },
+    {
+      "id": "tok221",
+      "split": "train",
+      "registro": "monólogo (ToKCast en solitario)",
+      "grupo": "monologo"
+    },
+    {
+      "id": "nav139",
+      "split": "eval",
+      "registro": "conversación (Deutsch Files)",
+      "grupo": "conversacion"
+    }
+  ],
+  "umbrales": {
+    "sim_min": 0.6,
+    "asr_media_min": 0.85,
+    "asr_min_min": 0.3,
+    "dnsmos_ovrl_min": 3.0,
+    "wer_largo_max": 0.15,
+    "cps": [
+      8,
+      25
+    ],
+    "pico_max_dbfs": -0.1
+  }
+}

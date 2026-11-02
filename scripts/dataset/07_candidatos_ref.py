@@ -53,7 +53,7 @@ from pathlib import Path
 
 import numpy as np
 
-from common import (DATOS, HABLANTES, SPEAKER_REFS, TRABAJO, asegurar_entorno_cuda,
+from common import (DATOS, HABLANTES, SOLO_KAPIL, SPEAKER_REFS, TRABAJO, asegurar_entorno_cuda,
                     candado_gpu, comprobar_recursos, escribir_json, leer_json, log)
 
 # ---------------------------------------------------------------- constantes del contrato
@@ -88,9 +88,9 @@ def real(h: str) -> str:
 
 def fuente_vale(h: str, fid: str) -> bool:
     if h == "naval":
-        return fid != "nav072"
+        return fid not in SOLO_KAPIL
     if h == "naval_kapil":
-        return fid == "nav072"
+        return fid in SOLO_KAPIL
     return True
 
 

@@ -399,6 +399,101 @@ escucha.construir_pagina(["n05", "n12", "n25", "v05", "v10", "b10", "d02", "d03"
     cierre(["qwen3tts_1.7b", "qwen3tts_xvec"]),
 ], gpu="L4")
 
+# ---------------------------------------------------------------- Qwen3-TTS: episodio entero
+cuaderno("03d_qwen_episodio.ipynb", [
+    cabecera("Qwen3-TTS, un episodio entero en modo solo timbre", "L4", "unos 20 min",
+             "Prueba de producción: el episodio **035 (*Una mente en calma, un cuerpo en forma, una casa llena de "
+             "amor*)** entero, unos 4–5 min, generado con Qwen3-TTS en modo solo timbre y con el formato de la "
+             "fábrica: **un clip por intervención** (`001nivi.wav`, `002naval.wav`…), cada frase unida con 250 ms de "
+             "silencio.\n\n"
+             "Como en modo solo timbre Nivi se parecía menos, sus bloques salen también en modo normal para "
+             "comparar. Salida en `outputs/criba/episodio_035/`:\n\n"
+             "| Carpeta o fichero | Qué es |\n|---|---|\n"
+             "| `qwen3tts_xvec/` | Los 4 clips en modo solo timbre |\n"
+             "| `qwen3tts_1.7b/` | Los 2 clips de Nivi en modo normal |\n"
+             "| `episodio_xvec.wav` | El episodio montado, todo en modo solo timbre |\n"
+             "| `episodio_nivi_normal.wav` | El episodio montado: Naval en solo timbre, Nivi en modo normal |\n\n"
+             "Escucha el episodio montado **de principio a fin**, como lo oiría tu audiencia. Fíjate en si la voz "
+             "aguanta en el bloque largo de Naval (61 frases), si el ritmo se vuelve monótono y cuánto trabajo te "
+             "daría en Audacity."),
+    code("""
+# 1. Instalación (después: Entorno de ejecución → Reiniciar sesión)
+!pip install -q qwen-tts==0.1.1
+"""),
+    code(f"""
+# 2. Preparar: código del repo, Drive, el episodio y las referencias
+import os, sys, subprocess, json
+from pathlib import Path
+RAMA = "{RAMA}"
+if os.path.isdir("/content/repo"):
+    subprocess.run(["git", "-C", "/content/repo", "pull", "-q"], check=True)
+else:
+    subprocess.run(["git", "clone", "-q", "--depth", "1", "-b", RAMA, "{REPO}", "/content/repo"], check=True)
+sys.path.insert(0, "/content/repo/criba")
+import comun
+
+comun.montar_drive()
+comun.SALIDA = comun.DRIVE / "outputs" / "criba" / "episodio_035"
+EP = json.loads(Path("/content/repo/episodios/2019/035-finally-wealthy/transcript.es.json").read_text(encoding="utf-8"))
+# Un item por bloque de hablante, con el nombre de la fábrica: 001nivi, 002naval...
+ITEMS = []
+for n, b in enumerate(EP["contenido"], 1):
+    voz = b["speaker"].lower()
+    ITEMS.append({{"id": f"{{n:03d}}{{voz}}", "voz": voz, "ref": voz, "frases": b["frases"]}})
+SILENCIO_MS = 250
+print(EP["titulo"])
+for it in ITEMS:
+    print(f"  {{it['id']}}: {{len(it['frases'])}} frases, {{sum(len(f) for f in it['frases'])}} caracteres")
+REFS = comun.comprobar(ITEMS)
+"""),
+    code("""
+# 3. Cargar el modelo
+import torch
+from qwen_tts import Qwen3TTSModel
+DTYPE = torch.bfloat16 if torch.cuda.is_bf16_supported() else torch.float16
+modelo = Qwen3TTSModel.from_pretrained("Qwen/Qwen3-TTS-12Hz-1.7B-Base", device_map="cuda:0",
+                                       dtype=DTYPE, attn_implementation="sdpa")
+_prompts = {}
+
+def hacer_sintetizar(solo_timbre):
+    def sintetizar(texto, ref):
+        clave = (ref["wav"], solo_timbre)
+        if clave not in _prompts:
+            _prompts[clave] = modelo.create_voice_clone_prompt(
+                ref_audio=ref["wav"], ref_text=None if solo_timbre else ref["texto"], x_vector_only_mode=solo_timbre)
+        wavs, sr = modelo.generate_voice_clone(text=texto, language="Spanish", voice_clone_prompt=_prompts[clave])
+        return wavs[0], sr
+    return sintetizar
+print("OK,", DTYPE)
+"""),
+    code("""
+# 4. Generar: todo en solo timbre, y los bloques de Nivi también en modo normal
+PARAMS = {"modelo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base", "language": "Spanish", "dtype": str(DTYPE)}
+comun.generar("qwen3tts_xvec", hacer_sintetizar(True), ITEMS, REFS, SILENCIO_MS,
+              params={**PARAMS, "x_vector_only_mode": True})
+comun.generar("qwen3tts_1.7b", hacer_sintetizar(False), [it for it in ITEMS if it["voz"] == "nivi"], REFS,
+              SILENCIO_MS, params={**PARAMS, "x_vector_only_mode": False})
+"""),
+    code("""
+# 5. Montar el episodio para escucharlo de principio a fin (600 ms entre intervenciones)
+import numpy as np, soundfile as sf
+
+def montar(nombre, carpeta_de):
+    trozos, sr = [], None
+    for it in ITEMS:
+        audio, sr_clip = sf.read(str(comun.SALIDA / carpeta_de(it) / f"{it['id']}.wav"), dtype="float32")
+        sr = sr or sr_clip
+        trozos += [audio, np.zeros(int(sr * 0.6), dtype=np.float32)]
+    total = np.concatenate(trozos[:-1])
+    sf.write(str(comun.SALIDA / nombre), total, sr, subtype="PCM_16")
+    print(f"{nombre}: {len(total) / sr / 60:.1f} min")
+
+montar("episodio_xvec.wav", lambda it: "qwen3tts_xvec")
+montar("episodio_nivi_normal.wav", lambda it: "qwen3tts_1.7b" if it["voz"] == "nivi" else "qwen3tts_xvec")
+"""),
+    cierre(["qwen3tts_xvec", "qwen3tts_1.7b"]),
+], gpu="L4")
+
 # ---------------------------------------------------------------- dots.tts
 cuaderno("04_dots.ipynb", [
     cabecera("dots.tts (SOAR)", "L4", "unos 45 min",

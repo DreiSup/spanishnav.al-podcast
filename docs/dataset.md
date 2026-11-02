@@ -62,6 +62,8 @@ Una sola etapa pesada a la vez (candado `gpu.lock`).
 | 05 | `05_oficiales.py` | Parsea los transcripts de nav.al por hablante | `oficiales/docs/*.txt` | `oficiales/<id>.json` | no | segundos |
 | 06 | `06_hablantes.py` | Etiqueta por palabra, ECAPA, etiqueta a hablante, tramos | etapas 03-05 | `hablantes.json`, `emb/` | no (ECAPA en CPU) | ~4-10 min por fuente |
 | 07 | `07_candidatos_ref.py` | Ventanas limpias, métricas, corte y re-ASR del clip | `hablantes.json`, `orig.wav`, `emb/` | `speaker_refs/` | sí (solo el re-ASR) | ~10 min para 5 hablantes |
+| 08 | `08_clips.py` | Parte 2: corta los tramos en clips de 3-15 s por pausas >= 0,25 s (programación dinámica) y mide cada clip: sim, asr_conf, DNSMOS, LUFS, pico, re-ASR literal | `hablantes.json`, `orig.wav`, `emb/` | `trabajo/<id>/clips_<h>.json` (sin audio) | sí (re-ASR) | |
+| 09 | `09_montar.py` | Parte 2: aplica umbrales, reparte train/eval, ganancia fija a -20 LUFS, escribe WAV y metadatos | `clips_<h>.json`, `dataset_<h>.json` | `datasets/<h>/`, `revision/<h>/escuchar.html` | no | |
 
 El orquestador no lanza 01 ni 05: hay que ejecutarlas antes con `etapa.sh` (`./etapa.sh 01_descargar.py`,
 `./etapa.sh 05_oficiales.py`). La 05 no usa torch.
@@ -115,6 +117,9 @@ Aprendido en la ejecución real del 2026-10-28.
 | `naval_kapil` sale **solo de nav072**; el centroide principal de `naval` **lo excluye** | La prueba de tono compara a Naval en dos contextos; mezclarlos contaminaría el centroide. |
 | **Sin Demucs** por defecto | Sus artefactos empeoran el fine-tuning (decisión del autor). Solo para fuentes con música de fondo, marcando los clips con `"demucs": true`. En las referencias, además, un clip con ruido se descarta, no se limpia. |
 | Referencias **sin normalizar ni limpiar** | Corte exacto de `orig.wav`, PCM16 mono a la sr original; LUFS solo se anota. |
+| En 08, un borde de tramo solo es punto de corte si la palabra vecina de fuera tiene tiempo propio (`ts_ok`) | Con tiempo interpolado el hueco medido es ficticio y el clip podía arrastrar una palabra (revisión del 2026-10-30: 6 clips de los datasets subidos, todos con la palabra del propio hablante; ninguno con otra voz). |
+| `naval_kapil.npy` ponderado por segundos | nav072 (~18 min, con transcript) debe mandar sobre los segundos de las fuentes de 2019 a 16 kHz. Los datasets naval y naval_kapil ya aprobados se montaron con el centroide anterior. |
+| `09_montar.py --fuentes` exige `--salida` | Montar un subconjunto con la salida por defecto pisaba el dataset aprobado. |
 | Diarización de nav056 por trozos de 60 min | El clustering es O(n²) y con el tope de 5,5 GB el kernel mataba el proceso. |
 
 ## Resultados de la Fase 1a (2026-10-28)
@@ -130,7 +135,43 @@ Aprendido en la ejecución real del 2026-10-28.
   `speaker_refs/<h>/`. `refs.json` guarda fuente y tiempos de todos los candidatos para que la
   parte 2 no los meta nunca en el split `eval`.
 
-## Próximo paso
+## Parte 2: dataset de fine-tuning de Naval (2026-10-29)
 
-**Parte 2 (datasets)**, pendiente de dos aprobaciones: las referencias elegidas y la lista de
-fuentes en `~/naval-datos/fuentes_parte2.md`.
+Piloto LoRA con Qwen3-TTS y OmniVoice; los demás hablantes esperan al motor ganador.
+Fuentes, split y registro en `scripts/dataset/dataset_naval.json`: train = nav056, nav167,
+nav072, nav109, nav074; eval = nav139, nav135 y nav081 (Happiness, añadido para tener
+monólogo en eval). Ninguna referencia elegida sale de una fuente eval y 09 lo comprueba igual.
+
+```bash
+./etapa.sh 08_clips.py naval nav056 nav167 ...   # mide (GPU, re-ASR)
+./prueba.sh 09_montar.py naval                    # monta; --umbral sim_min=0.65 para probar
+```
+
+Resultado (aprobado y subido a `gdrive:fine_tunned_naval/datasets/naval/`): train 69,9 min
+(35 conversación + 35 monólogo; nav072 fuera), eval 4,2 min de nav139, nav135 y nav081.
+
+**naval_kapil** (`dataset_naval_kapil.json`): Naval solo con Kapil; nav072 entero en train y
+nav001 (On Meditation, 2019) entero en eval. Las 4 fuentes de 2019 (nav001-nav004) no tienen
+transcript: `05_oficiales.py` escribe un oficial vacío (`sin_transcript`) y las etiquetas se
+asignaron por embeddings (`06_hablantes.py <id> --asignar SPEAKER_0X=naval ...`, coseno contra
+`emb/naval_kapil.npy` y `emb/kapil.npy`). Vienen a 16 kHz: se dejan así, `sr` por clip en el
+manifiesto y minutos por frecuencia en el informe. Los clips de Kapil (`dataset_kapil.json`) se
+montan en `datasets/kapil/` solo en local.
+
+Los umbrales se ajustan en `dataset_<h>.json` sin volver a medir. `revision/naval/escuchar.html`
+trae 20 clips al azar y 10 rechazados para calibrar; queda fuera del dataset y no se sube.
+
+## Parte 2b: datasets de deutsch, brett y nivi (2026-10-30)
+
+Fuentes nuevas procesadas con `orquesta_parte2b.sh`; las que no tienen transcript oficial (tok221,
+niv001-niv003, nav163) se etiquetan solo por embeddings (`06_hablantes.py <id> --asignar ...`,
+cosenos de 0,74 a 0,93 contra el centroide del hablante) y se miden con `orquesta_parte2c.sh`.
+
+| Dataset | train | eval | Notas |
+|---|---|---|---|
+| deutsch | 60,0 min (nav139 + nav140, recortado al tope) | 4,1 min (nav141) | todo conversación |
+| brett | 46,8 min (nav109 35,6 conversación + tok221 11,2 monólogo) | 4,1 min (nav139) | tok221 pierde 13 min por DNSMOS < 3,0 y pico a 0 dBFS (MP3 masterizado a fondo de escala); se dejó así |
+| nivi | 62,7 min (40,7 monólogo de Twitter Spaces + 22,0 conversación) | 5,0 min (nav163 + nav055) | nav055 pasó a eval porque nav163 solo daba 2,7 min |
+
+Los tres están aprobados por escucha y subidos a `gdrive:fine_tunned_naval/datasets/<h>/` con
+`rclone copy`; `rclone check` sin diferencias.

@@ -283,6 +283,10 @@ def titulos_buscados(fid: str, fu: dict, catalogo: dict) -> list[str]:
 
 def procesar(fu: dict, docs: Path, catalogo: dict, cache: dict, cobertura_forzada: str | None) -> dict:
     fid = fu["id"]
+    if fu.get("sin_transcript"):  # sin transcript en los Docs: 06 decide solo por embeddings
+        log("  sin transcript oficial: se escribe vacío (cobertura ninguna)")
+        return {"id": fid, "entradas": [], "cobertura": "ninguna", "turnos": [],
+                "palabras_por_hablante": {}}
     doc = docs / f"{fu['doc_anio']}_all_podcasts.txt"
     if not doc.exists():
         sys.exit(f"{fid}: no existe {doc}")
@@ -370,7 +374,7 @@ def main():
     catalogo = leer_json(CATALOGO)
 
     # Agrupa por Doc para parsear cada uno una sola vez
-    fuentes.sort(key=lambda f: f["doc_anio"])
+    fuentes.sort(key=lambda f: f["doc_anio"] or 0)
     cache: dict = {}
     for fu in fuentes:
         salida = a.salida / f"{fu['id']}.json"
