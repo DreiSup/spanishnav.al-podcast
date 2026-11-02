@@ -341,7 +341,30 @@ class MotorQwen:
         return audios[0], sr
 
     def sintetizar_lote(self, textos, voz, intento, semilla_lote=None):
-        """Varias frases de la misma voz en una sola pasada del modelo."""
+        """Varias frases de la misma voz en una sola pasada del modelo.
+
+        Si la GPU se queda sin memoria, libera y parte el lote en dos (hasta llegar a una frase). Después de cada
+        pasada libera la memoria del modelo para que Whisper tenga sitio.
+        """
+        import gc
+        fallo = False
+        try:
+            return self._sintetizar_lote(textos, voz, intento, semilla_lote)
+        except self.torch.cuda.OutOfMemoryError:
+            if len(textos) == 1:
+                raise
+            fallo = True
+        finally:
+            gc.collect()
+            self.torch.cuda.empty_cache()
+        if fallo:   # fuera del except, para que la excepción no retenga la memoria del intento fallido
+            mitad = len(textos) // 2
+            print(f"  (sin memoria con {len(textos)} frases a la vez; las parto en {mitad} y {len(textos) - mitad})")
+            a1, sr = self.sintetizar_lote(textos[:mitad], voz, intento, semilla_lote)
+            a2, _ = self.sintetizar_lote(textos[mitad:], voz, intento, semilla_lote)
+            return a1 + a2, sr
+
+    def _sintetizar_lote(self, textos, voz, intento, semilla_lote=None):
         from contextlib import nullcontext
         if self.peft is None:
             ctx = nullcontext()

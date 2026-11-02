@@ -72,17 +72,31 @@ class Asr:
         fin = next((t[1] for t in reversed(marcas) if t[1] is not None), None)
         return salida["text"].strip(), inicio, fin
 
-    def transcribe_lote(self, audios, sr, batch_size=8):
-        """transcribe_audio de varios audios en una pasada de Whisper. Si el lote falla, uno a uno."""
+    def transcribe_lote(self, audios, sr, batch_size=4):
+        """transcribe_audio de varios audios en una pasada de Whisper.
+
+        Si la GPU se queda sin memoria, libera y lo intenta con lotes más pequeños hasta llegar a uno a uno. El
+        reintento va fuera del `except`: dentro, la excepción aún retiene la memoria del intento fallido.
+        """
+        import gc
+        import torch
         if sr != 16000:
             audios = [librosa.resample(np.asarray(a, dtype=np.float32), orig_sr=sr, target_sr=16000) for a in audios]
         entradas = [{"raw": np.asarray(a, dtype=np.float32), "sampling_rate": 16000} for a in audios]
-        try:
-            salidas = self.p(entradas, batch_size=batch_size, return_timestamps="word",
-                             generate_kwargs={"language": "spanish", "task": "transcribe"})
-        except Exception as e:  # noqa: BLE001 — la revisión no debe parar la fábrica
-            print(f"  (Whisper en lote falló: {e}; sigo frase a frase)")
-            return [self.transcribe_audio(a, 16000) for a in audios]
+        while True:
+            fallo = None
+            try:
+                salidas = self.p(entradas, batch_size=batch_size, return_timestamps="word",
+                                 generate_kwargs={"language": "spanish", "task": "transcribe"})
+                break
+            except torch.cuda.OutOfMemoryError:
+                fallo = batch_size
+            gc.collect()
+            torch.cuda.empty_cache()
+            if fallo == 1:
+                raise torch.cuda.OutOfMemoryError("Whisper no cabe en la GPU ni con una frase")
+            batch_size = max(1, fallo // 2)
+            print(f"  (Whisper sin memoria con {fallo} a la vez; pruebo con {batch_size})")
         res = []
         for salida in salidas:
             marcas = [c["timestamp"] for c in salida.get("chunks", []) if c.get("timestamp")]

@@ -64,6 +64,7 @@ VERIFICAR = True     # revisar cada frase con Whisper y repetir las que fallen (
     code(f"""
 # 3. Preparar: código del repo, Drive, voces y plan de cada episodio (sin cargar modelos)
 import os, sys, subprocess, json
+os.environ.setdefault("PYTORCH_CUDA_ALLOC_CONF", "expandable_segments:True")   # menos memoria perdida en huecos
 from pathlib import Path
 RAMA = "{RAMA}"
 if os.path.isdir("/content/repo"):
