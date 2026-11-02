@@ -45,7 +45,7 @@ trabajo manual después.
     Una frase de una o dos palabras sale con entonación rara y Whisper la revisa mal. Excepción: si es la
     única frase del bloque (una respuesta suelta), se queda como está.
   - Cada frase tiene que tener sentido completo leída sola: el modelo no ve la anterior.
-- Entre frase y frase la fábrica deja una pausa corta (0,12 s; Brett 0,30 y Deutsch 0,20). Si un corte
+- Entre frase y frase la fábrica deja una pausa corta (0,12 s; Brett 0,30, Deutsch y Nivi 0,20). Si un corte
   pide una pausa más larga, que sea un punto, no una coma.
 - Sin nada que el TTS vocalice: ni comillas, ni guiones largos, ni paréntesis, ni puntos suspensivos, ni
   símbolos (%, $, &, /). El normalizador avisa de casi todo; cero avisos.

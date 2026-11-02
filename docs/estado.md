@@ -92,7 +92,7 @@ La **fase 1** (elegir motor) está casi cerrada:
 
 **Plan del autor (2-nov) hasta la versión alfa de la fábrica:**
 
-1. **Pausa de Nivi:** `07_prueba_voz` (generando) y después `06_ritmo`. Decir el valor a Claude.
+1. ~~Pausa de Nivi~~: 0,20 s (2-nov). Pausas en la fábrica: Naval 0,12, Brett 0,30, Deutsch y Nivi 0,20.
 2. **Sesión de traducción aparte**, con el prompt de `docs/prompt-sesion-traduccion.md`: traduce unos
    cuantos episodios al formato del repo. Lleva su propio registro en `docs/traduccion.md`.
 3. **Primera prueba de la fábrica** con esos episodios: generar el audio (`fabrica/fabrica.ipynb`).
