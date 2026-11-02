@@ -8,7 +8,7 @@
     "non_streaming_mode": true
   },
   "ritmo": {
-    "_comentario": "Decidido el 30-oct en piloto/cuadernos/06_ritmo: ninguna pausa por encima de 0,12 s. Una voz puede tener su propio pausa_max en su entrada (Brett: 0,30).",
+    "_comentario": "Decidido el 30-oct en piloto/cuadernos/06_ritmo: ninguna pausa por encima de 0,12 s. Una voz puede tener su propio pausa_max en su entrada (Brett: 0,30; Deutsch: 0,20).",
     "pausa_max": 0.12
   },
   "verificacion": {
@@ -63,7 +63,7 @@
     },
     "nivi": {"ref": "speaker_refs/nivi/nivi_ref02.wav", "adaptador": null, "nota": "Qwen base, sin LoRA: ganó la escucha del 2-nov (4,22). Su LoRA (piloto/lora_qwen/nivi) le devolvía acento inglés: 4,0 → 2,67 en el paso 159"},
     "brett": {"ref": "speaker_refs/brett/brett_ref02.wav", "adaptador": "piloto/lora_qwen/brett/paso_0130", "pausa_max": 0.30, "nota": "LoRA paso 130, escucha del 2-nov (4,67). El autor quiere que conserve algo de su acento australiano. Pausas de 0,30 s (no 0,12): con 0,12 sonaba demasiado rápido (2-nov)"},
-    "deutsch": {"ref": "speaker_refs/deutsch/deutsch_ref02.wav", "adaptador": "piloto/lora_qwen/deutsch/paso_0120", "nota": "LoRA paso 120, escucha del 2-nov (4,67). El autor quiere que conserve algo de su acento británico"},
+    "deutsch": {"ref": "speaker_refs/deutsch/deutsch_ref02.wav", "adaptador": "piloto/lora_qwen/deutsch/paso_0120", "pausa_max": 0.20, "nota": "LoRA paso 120, escucha del 2-nov (4,67). El autor quiere que conserve algo de su acento británico. Pausas de 0,20 s (2-nov)"},
     "kapil": {"ref": "speaker_refs/kapil/kapil_ref02.wav", "adaptador": null, "nota": "LoRA opcional: su dataset está en local, sin subir"},
     "vitalik": {"ref": "speaker_refs/vitalik/vitalik_ref02.wav", "adaptador": null, "nota": "Invitado menor: sin LoRA"},
     "ridley": {"ref": "speaker_refs/ridley/ridley_ref02.wav", "adaptador": null, "nota": "Invitado menor: sin LoRA"},

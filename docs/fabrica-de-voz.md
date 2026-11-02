@@ -197,7 +197,8 @@ final de cada frase, más los 250 ms que se añaden al unirlas. Probado en `pilo
   silencio inicial queda en 0,05 s, el final en 0,15 s y cada pausa interna en un máximo. Entre
   0,35 / 0,25 / 0,18 / 0,12 s, el autor elige **0,12 s** (`ritmo.PAUSA_FABRICA`).
 
-**Por voz (2-nov):** Brett lleva **0,30 s** (con 0,12 sonaba demasiado rápido); Naval sigue en 0,12. Cada voz
+**Por voz (2-nov):** Brett lleva **0,30 s** (con 0,12 sonaba demasiado rápido) y Deutsch **0,20 s**; Naval sigue
+en 0,12. Cada voz
 puede tener su `pausa_max` en `fabrica/voces.json`; si no, usa el general.
 
 **En la fábrica**, cada clip de intervención (`001naval.wav`…) pasa por
