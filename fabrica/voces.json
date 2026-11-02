@@ -5,7 +5,9 @@
     "modelo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
     "modo": "x_vector",
     "idioma": "Spanish",
-    "non_streaming_mode": true
+    "non_streaming_mode": true,
+    "lote": 8,
+    "_lote": "Frases de una misma intervención que se generan a la vez. Más lote = más barato por minuto de audio, hasta que la GPU se llena; con 8 cabe de sobra en una T4"
   },
   "ritmo": {
     "_comentario": "Decidido el 30-oct en piloto/cuadernos/06_ritmo: ninguna pausa por encima de 0,12 s. Una voz puede tener su propio pausa_max en su entrada (Brett: 0,30; Deutsch y Nivi: 0,20).",

@@ -89,6 +89,10 @@ La **fase 1** (elegir motor) está casi cerrada:
   con decisiones menores. Problemas repetidos: palabras de España, troceado copiado del inglés, notas
   `[correction]` locutadas, siglas y títulos en inglés. Se mantiene el SOP con reglas nuevas.
 
+- **Fábrica por lotes** (2-nov): genera juntas las frases de cada intervención (lotes de 8), Whisper las revisa
+  en lote, tope de pasos por frase y cuaderno por defecto en T4. Probado sin GPU (reintentos y reanudación).
+  Falta medir el ahorro real con los 7 cortos (035, 036, 040–043, 045).
+
 ## Esperando a que termine
 
 | Qué | Dónde corre | Resultado esperado |

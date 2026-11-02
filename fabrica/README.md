@@ -6,12 +6,12 @@ Drive, listo para Audacity.
 | Fichero | Qué es |
 |---|---|
 | `voces.json` | **La configuración.** Qué referencia y qué LoRA usa cada hablante, alias de nombres, la regla de Kapil (en sus episodios Naval usa `naval_kapil`), la pausa de cada voz (0,12 s por defecto), la verificación con Whisper y las rutas de Drive |
-| `fabrica.py` | La lógica: plan del episodio, carpeta en Drive, generación frase a frase con revisión y reintentos, recorte de pausas, informe y borrador. `MotorQwen` carga Qwen3-TTS base con un adaptador por voz |
+| `fabrica.py` | La lógica: plan del episodio, carpeta en Drive, generación de cada intervención en lotes de frases (`motor.lote`, 8) con revisión de Whisper y reintentos, tope de duración por frase, recorte de pausas, informe y borrador. `MotorQwen` carga Qwen3-TTS base con un adaptador por voz |
 | `construir_cuaderno.py` → `fabrica.ipynb` | El cuaderno de Colab (generado: se edita el `.py` y se regenera) |
 
 ## Uso
 
-1. Abre `fabrica/fabrica.ipynb` en Colab con L4:
+1. Abre `fabrica/fabrica.ipynb` en Colab con T4 (o L4):
    `https://colab.research.google.com/github/DreiSup/spanishnav.al-podcast/blob/claude/quirky-dirac-x18c3n/fabrica/fabrica.ipynb`
 2. Celda 1 y reiniciar sesión. En la celda 2, la lista de `EPISODIOS` (carpetas de `episodios/` del repo).
 3. La celda 3 comprueba todo sin cargar modelos: transcript, voces, referencias y adaptadores. Si dice
@@ -36,3 +36,11 @@ Todo se cambia en `voces.json`, sin tocar código:
   general de `ritmo` (0,12).
 - **Hablante nuevo:** añade una entrada en `voces` (y en `alias` si el transcript lo escribe de otra forma).
   Si un transcript trae un hablante que no está, la celda 3 lo dice antes de gastar nada.
+
+## Coste
+
+Primera prueba (2-nov, 044, L4, frase a frase): **4,58 s de GPU por segundo de audio**, unas 22 unidades por hora
+de audio. Casi todo es Qwen esperando entre pasos pequeños, no Whisper ni los reintentos (ninguno en el 044).
+Desde el 2-nov las frases de cada intervención se generan en lotes (`motor.lote`) y cada frase lleva un tope
+de pasos proporcional a su texto (`tope_pasos`), para que una alucinación no llegue a 164 s. La celda 5 imprime
+la cifra nueva al acabar: apúntala aquí.

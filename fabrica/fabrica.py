@@ -111,10 +111,13 @@ def semilla(texto, intento):
     return zlib.crc32(texto.encode("utf-8")) + 7919 * intento
 
 
-def revisar(texto, audio, sr, asr, cfg_ver):
-    """(ok, errores, palabras, sobra_final, transcripción) de una frase generada."""
+def revisar(texto, audio, sr, asr, cfg_ver, transcripcion=None):
+    """(ok, errores, palabras, sobra_final, transcripción) de una frase generada.
+
+    `transcripcion` = (texto, inicio, fin) si Whisper ya la ha oído (en lote); si no, la pide aquí.
+    """
     import medir
-    hyp, _, fin = asr.transcribe_audio(audio, sr)
+    hyp, _, fin = transcripcion if transcripcion is not None else asr.transcribe_audio(audio, sr)
     palabras = max(len(medir.normaliza(texto).split()), 1)
     errores = round(medir.wer(texto, hyp) * palabras)
     dur = len(audio) / sr
@@ -147,15 +150,64 @@ def generar_frase(texto, voz, sintetizar, asr, cfg_ver, pausa_max):
     return mejor
 
 
+def tope_pasos(texto):
+    """Máximo de pasos del modelo (12,5 por segundo) para una frase: el doble de lo que dura leída despacio, más
+    3 s. Una frase que alucina y no se para se corta aquí en vez de llegar a 2048 pasos (164 s); Whisper la ve
+    mal y se repite."""
+    return int(12.5 * (len(texto) / 7.0 + 3.0))
+
+
+def generar_bloque(frases, voz, sintetizar_lote, asr, cfg_ver, pausa_max, lote=8):
+    """Como generar_frase, para todas las frases de una intervención a la vez.
+
+    `sintetizar_lote(textos, voz, intento)` devuelve (audios, sr). Las frases se mandan en lotes de `lote`,
+    agrupadas por longitud para que ninguna espere mucho a la más larga. Las que no pasan la revisión se repiten
+    juntas, con otra semilla, hasta `reintentos` veces. Devuelve una lista como la de generar_frase, en orden.
+    """
+    import ritmo
+    intentos = 1 + (cfg_ver["reintentos"] if asr is not None else 0)
+    mejor = [None] * len(frases)
+    pendientes = list(range(len(frases)))
+    for intento in range(intentos):
+        if not pendientes:
+            break
+        orden = sorted(pendientes, key=lambda i: len(frases[i]))
+        tam = -(-len(orden) // -(-len(orden) // lote))   # lotes iguales: 17 frases → 6, 6 y 5, no 8, 8 y 1
+        nuevos = []
+        for g in range(0, len(orden), tam):
+            idx = orden[g:g + tam]
+            audios, sr = sintetizar_lote([frases[i] for i in idx], voz, intento)
+            nuevos += [(i, np.asarray(a, dtype=np.float32).squeeze(), sr) for i, a in zip(idx, audios)]
+        oidos = asr.transcribe_lote([a for _, a, _ in nuevos], nuevos[0][2]) if asr is not None else None
+        siguen = []
+        for n, (i, audio, sr) in enumerate(nuevos):
+            cand = {"audio": audio, "sr": sr, "ok": None, "intentos": intento + 1}
+            if asr is not None:
+                ok, errores, palabras, sobra, hyp = revisar(frases[i], audio, sr, asr, cfg_ver, oidos[n])
+                cand.update(ok=ok, errores=errores, palabras=palabras, sobra_final=sobra, transcripcion=hyp)
+            m = mejor[i]
+            if m is None or cand["ok"] or (cand["errores"], cand["sobra_final"]) < (m["errores"], m["sobra_final"]):
+                mejor[i] = cand
+            mejor[i]["intentos"] = intento + 1
+            if cand["ok"] is False:
+                siguen.append(i)
+        pendientes = siguen
+    for m in mejor:
+        m["audio"] = ritmo.acortar_pausas(m["audio"], m["sr"], pausa_max=pausa_max,
+                                          inicio=RECORTE_INICIO, final=RECORTE_FINAL)
+    return mejor
+
+
 def pausa_de(voz, cfg):
     """La pausa máxima de una voz: la suya si la tiene en voces.json, si no la general de 'ritmo'."""
     return cfg["voces"][voz].get("pausa_max", cfg["ritmo"]["pausa_max"])
 
 
-def generar_episodio(plan, sintetizar, asr, carpeta, cfg, avisar=print):
+def generar_episodio(plan, sintetizar_lote, asr, carpeta, cfg, avisar=print):
     """Genera los clips que falten en <carpeta>/tts/ y reescribe el informe y el borrador.
 
-    Lo que ya existe no se repite: si se corta, se vuelve a lanzar y sigue por donde iba.
+    `sintetizar_lote(textos, voz, intento)` → (audios, sr): las frases de cada intervención se generan juntas
+    (generar_bloque). Lo que ya existe no se repite: si se corta, se vuelve a lanzar y sigue por donde iba.
     """
     cfg_ver = cfg["verificacion"]
     tts_dir = Path(carpeta) / "tts"
@@ -176,8 +228,9 @@ def generar_episodio(plan, sintetizar, asr, carpeta, cfg, avisar=print):
         trozos, detalle, sr, cursor = [], [], None, BORDE_INICIO
         pausa = pausa_de(p["voz"], cfg)
         hueco = max(0.0, pausa - RECORTE_INICIO - RECORTE_FINAL)
-        for k, frase in enumerate(p["frases"]):
-            r = generar_frase(frase, p["voz"], sintetizar, asr, cfg_ver, pausa)
+        hechas = generar_bloque(p["frases"], p["voz"], sintetizar_lote, asr, cfg_ver, pausa,
+                                lote=cfg["motor"].get("lote", 8))
+        for k, (frase, r) in enumerate(zip(p["frases"], hechas)):
             sr = sr or r["sr"]
             if k:
                 trozos.append(np.zeros(int(sr * hueco), dtype=np.float32))
@@ -284,6 +337,11 @@ class MotorQwen:
               f"{[v for v in voces if v not in con_lora] or 'ninguna'}")
 
     def sintetizar(self, texto, voz, intento):
+        audios, sr = self.sintetizar_lote([texto], voz, intento, semilla_lote=semilla(texto, intento))
+        return audios[0], sr
+
+    def sintetizar_lote(self, textos, voz, intento, semilla_lote=None):
+        """Varias frases de la misma voz en una sola pasada del modelo."""
         from contextlib import nullcontext
         if self.peft is None:
             ctx = nullcontext()
@@ -293,8 +351,9 @@ class MotorQwen:
         else:
             ctx = self.peft.disable_adapter()
         with ctx:
-            self.torch.manual_seed(semilla(texto, intento))
+            self.torch.manual_seed(semilla_lote if semilla_lote is not None else semilla("|".join(textos), intento))
             wavs, sr = self.tts.generate_voice_clone(
-                text=texto, language=self.cfg["motor"]["idioma"], voice_clone_prompt=self.prompts[voz],
-                non_streaming_mode=self.cfg["motor"]["non_streaming_mode"])
-        return wavs[0], sr
+                text=list(textos), language=self.cfg["motor"]["idioma"], voice_clone_prompt=self.prompts[voz],
+                non_streaming_mode=self.cfg["motor"]["non_streaming_mode"],
+                max_new_tokens=max(tope_pasos(t) for t in textos))
+        return list(wavs), sr

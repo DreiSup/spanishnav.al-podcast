@@ -36,8 +36,9 @@ Para cada episodio:
 1. Lee su `transcript.es.json` del repo y decide la voz de cada hablante con `fabrica/voces.json`: qué
    referencia y qué LoRA usa cada uno (si no tiene LoRA, Qwen base). En los episodios con Kapil Gupta,
    Naval usa su modelo `naval_kapil`.
-2. Genera frase a frase con Qwen3-TTS en modo solo timbre. **Whisper revisa cada frase** y, si no dice el
-   texto o deja una cola rara, la repite con otra semilla (hasta 2 veces).
+2. Genera con Qwen3-TTS en modo solo timbre, **varias frases de una intervención a la vez** (en lotes de
+   `motor.lote` de `voces.json`, 8), que es mucho más barato que una a una. **Whisper revisa cada frase** y las
+   que no dicen el texto o dejan una cola rara se repiten juntas con otra semilla (hasta 2 veces).
 3. Recorta los silencios y une las frases con la pausa de cada voz, la que elegiste escuchando: 0,12 s
    Naval, 0,20 Nivi y Deutsch, 0,30 Brett.
 4. Deja junto a `tts/` un **`informe_tts.md`** con las frases que siguen sospechosas y el segundo exacto
@@ -47,7 +48,7 @@ Para cada episodio:
 Si se corta, vuelve a ejecutarlo: los clips que ya están en Drive no se repiten. Para rehacer uno, bórralo
 de `tts/` y vuelve a lanzar.
 
-**GPU: L4** (vale T4, más lenta). La celda 3 estima los minutos de audio de cada episodio; la 5 mide al final
+**GPU: T4** (la más barata; L4 también vale). La celda 3 estima los minutos de audio de cada episodio; la 5 mide al final
 cuántos segundos de GPU cuesta cada segundo de audio, para calcular el gasto de los demás episodios.
 """),
     code("""
@@ -114,6 +115,8 @@ print("RESULTADO: OK")
 """),
     code("""
 # 4. Cargar Qwen con los adaptadores de las voces que hacen falta, y Whisper para revisar
+from transformers.utils import logging as hf_logging
+hf_logging.set_verbosity_error()   # sin los avisos repetidos de pad_token_id y de "pipelines sequentially"
 MOTOR = fabrica.MotorQwen(CFG, VOCES, RAIZ_VOCES)
 ASR = None
 if VERIFICAR:
@@ -128,7 +131,7 @@ for ep, plan in PLANES.items():
     titulo_en = json.loads((base / "metadata.en.json").read_text(encoding="utf-8"))["titulo"]
     carpeta = fabrica.carpeta_episodio(RAIZ_EPISODIOS, ep, titulo_en)
     print(f"=== {ep} → {carpeta.relative_to(DRIVE)}")
-    fabrica.generar_episodio(plan, MOTOR.sintetizar, ASR, carpeta, CFG)
+    fabrica.generar_episodio(plan, MOTOR.sintetizar_lote, ASR, carpeta, CFG)
     print(f"Informe: {(carpeta / 'informe_tts.md').relative_to(DRIVE)}")
 """),
     code("""
@@ -140,7 +143,7 @@ comun.desconectar()
 
 def main():
     nb = {"nbformat": 4, "nbformat_minor": 0,
-          "metadata": {"accelerator": "GPU", "colab": {"provenance": [], "gpuType": "L4"},
+          "metadata": {"accelerator": "GPU", "colab": {"provenance": [], "gpuType": "T4"},
                        "kernelspec": {"name": "python3", "display_name": "Python 3"},
                        "language_info": {"name": "python"}},
           "cells": CELDAS}
