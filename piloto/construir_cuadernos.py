@@ -796,9 +796,9 @@ Ejecuta las celdas en orden; la última desconecta el entorno.
 """),
     code("""
 # 1. Parámetros
-CARPETA = "piloto/lora_qwen/B/prueba"     # dentro de fine_tunned_naval
+CARPETA = "piloto/lora_qwen/B/prueba"     # dentro de fine_tunned_naval; para otra voz, p. ej. ".../brett/prueba"
 VERSIONES = ["paso_0158"]                 # añade "base" para comparar con el modelo sin LoRA
-FRASES = ["n12", "n18", "n25"]
+FRASES = ["n12", "n18", "n25"]            # nivi: v07 v09 v10 · brett: b05 b08 b10 · deutsch: d01 d02 d03
 PAUSAS_MAX = [0.25, 0.18, 0.12]           # segundos; 0,12 es el valor fijado para la fábrica
 GUARDAR = False                           # True: deja las versiones en <CARPETA>/pausas/ en Drive
 """),
@@ -816,8 +816,10 @@ import comun, ritmo
 
 comun.montar_drive()
 BASE = comun.DRIVE / CARPETA
-items, _ = comun.cargar_items()
-TEXTO = {{it["id"]: " ".join(it["frases"]) for it in items}}
+TEXTO = {{}}
+for fichero in ("frases.json", "frases_xvector.json"):   # las de Deutsch están en el segundo
+    comun.FRASES = Path("/content/repo/criba") / fichero
+    TEXTO.update({{it["id"]: " ".join(it["frases"]) for it in comun.cargar_items()[0]}})
 faltan = [str(BASE / v / f"{{f}}.wav") for v in VERSIONES for f in FRASES if not (BASE / v / f"{{f}}.wav").is_file()]
 if faltan:
     raise SystemExit(f"Faltan audios en Drive, por ejemplo {{faltan[0]}}")

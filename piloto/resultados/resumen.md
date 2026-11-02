@@ -62,3 +62,30 @@ Lectura:
 
 **Decisión del autor (31-oct):** `naval_kapil` usa el LoRA de Naval (`B/paso_0158`) con la referencia de la
 sesión con Kapil. El acento manda; el repaso propio queda en `piloto/lora_qwen/kapil/` sin usar.
+
+## LoRA de Nivi, Brett y Deutsch — escucha a ciegas (2026-11-02)
+
+Tres frases de cada voz con su referencia, en modo solo timbre, sin recorte de pausas. Notas del autor en
+`puntuaciones_lora_qwen_<voz>.csv`, letras en `clave_lora_qwen_<voz>.json`. **Criterio del acento:** en Nivi,
+5 = español nativo; en Brett y Deutsch el autor puntuó alto las versiones que **conservan un poco** su acento
+(australiano y británico): quiere un español con un toque inglés que les dé personalidad.
+
+Medias de parecido, acento y naturalidad (alucinaciones: 5 en todas salvo una nota de 4 en Deutsch base):
+
+| Versión | Nivi | Brett | Deutsch |
+|---|---|---|---|
+| base (sin LoRA) | **4,22** (acento 4,0) | 4,22 | 3,78 |
+| paso_0040 | 4,11 | 3,67 | 4,44 |
+| paso_0080 | 4,11 | 3,67 | 4,22 |
+| paso_0120 | 4,11 (acento 3,33) | 3,67 | **4,67** (4,67 / 4,67 / 4,67) |
+| último (159 / 130 / 155) | 3,78 (acento 2,67) | **4,67** (4,33 / 4,67 / 5,0) | 3,89 |
+
+Elegido (en `fabrica/voces.json`):
+
+- **Nivi: Qwen base, sin LoRA.** Es el que más puntúa y el único sin ninguna nota por debajo de 4; el LoRA
+  le devolvía acento inglés a medida que entrenaba (4,0 → 2,67).
+- **Brett: `paso_0130`.**
+- **Deutsch: `paso_0120`.**
+
+Los tres suenan lentos, como Naval antes del recorte: las páginas no llevan el recorte de pausas de 0,12 s
+que aplica la fábrica a todas las voces.
