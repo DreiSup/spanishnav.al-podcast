@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 38,
+  "anio": 2019,
+  "slug": "accountability",
+  "titulo": "Accountability Means Letting People Criticize You",
+  "subtitulo": "You have to stick your neck out and be willing to fail publicly",
+  "fecha_publicacion": "2019-06-21",
+  "fuente_url": "https://nav.al/accountability",
+  "orden_archivo": 42,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-09-08"
+}

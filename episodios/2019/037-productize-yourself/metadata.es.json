@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 37,
+  "anio": 2019,
+  "slug": "productize-yourself",
+  "titulo_es": "Productízate a ti mismo",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Productízate a ti mismo",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Cambio sobre el f5 recibido, aprobado: se adopta la solución que 052-rich ya daba al juego de palabras. El f5 decía «en dos palabras: conviértete en producto», que son tres, y analizaba «la palabra tú», que no aparece en esa frase, así que la mnemotecnia sobre la que se sostiene el episodio no cerraba. Cambiadas cuatro frases (b01 f01 y b02 f01 a f03) y el título español, que pasa de «Conviértete en producto» a «Productízate a ti mismo». Ahora las dos unidades que Naval analiza, Productizar y A ti mismo, sí están las dos en la frase, igual que Productize y Yourself en el inglés. Solapamiento con 052-rich: 12 de las 24 frases y el subtítulo son idénticos. Misma decisión pendiente que 035, 036 y 044 a 045: producir la recopilación o los sueltos, no ambos. Antes de sintetizar: «productízate» y «productizar» son calcos del inglés; escuchar cómo los lee el TTS. Dos incoherencias menores que se dejan porque vienen heredadas de 052 y no son errores: «uniquely» se traduce como «excepcionalmente» en el subtítulo y como «de forma única» en b03 f01; y accountability va como «responsabilidad» a secas, no como «asumir la responsabilidad» que fija GLOSARIO.md, porque en una enumeración de tres conceptos la forma larga se traba al leerla. Artefacto del f0 inglés, no tocado: espaciado irregular en b03 alrededor de un guion largo; el troceo del script colapsa los espacios."
+}
