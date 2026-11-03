@@ -57,3 +57,4 @@ texto en español y por qué.
 | Original | En el texto | Nota |
 |---|---|---|
 | ADN | ADN | Se lee bien como sigla |
+| S-1 (folleto de la SEC para salir a bolsa) | folletos de salida a bolsa | La sigla con guion y cifra la vocaliza el TTS; se resuelve en la frase (060) |
