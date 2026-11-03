@@ -21,5 +21,5 @@
   },
   "audio_editado_a_mano": false,
   "heredado": null,
-  "notas": "Inglés sacado del Google Doc «2020 all podcasts»; cuadra palabra a palabra. Las citas de Osho (b03) y Confucio (b04) van en estilo indirecto o sin comillas, como pide el GLOSARIO. Antes de sintetizar: comprobar cómo lee el TTS «Osho»."
+  "notas": "Inglés sacado del Google Doc «2020 all podcasts»; cuadra palabra a palabra. Las citas de Osho (b03) y Confucio (b04) van en estilo indirecto o sin comillas, como pide el GLOSARIO. Antes de sintetizar: comprobar cómo lee el TTS «Osho». Atribución en b03: la cita de Osho termina en «…talk about sex.»; «Todo lo que te niegas a ti mismo se convertirá en tu nueva prisión» es comentario de Naval, no de Osho. En el documento la comilla de cierre está; en transcript.en.json falta porque el troceo del normalizador se come la «”» que sigue a un punto. Retoque del autor (3-nov), b04: «Estoy en una forma aceptable y llevo una dieta aceptable» -> «Estoy en una forma física aceptable y llevo una dieta razonable»."
 }

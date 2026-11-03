@@ -22,9 +22,14 @@ Dos líneas sin negrita en el documento son títulos de sección y no se dicen (
 «Can you increase happiness without losing your drive?» (058) y «Are good investors piling in the round
 with you?» (069).
 
+**Para la sesión técnica** (hallazgo del 3-nov, no tocado): el troceo del inglés en
+`scripts/normalizar-extraccion.py` (`trocear`, el `["”]?` fuera del lookbehind) consume la comilla de
+cierre que sigue a un punto. En el documento las citas están cerradas; en `transcript.en.json` quedan
+abiertas («…talk about sex.» sin «”»). Afecta solo al inglés, que no se locuta, pero altera el texto.
+
 | Fecha | Episodio | Estado | Bloques | Frases es | Palabras es | Min. | Notas |
 |---|---|---|---|---|---|---|---|
 | 2026-11-03 | 053 Live Long Enough and You'll Become a Philosopher | revision | 5 | 23 | 264 | 1,6 | Cero avisos. b02 en 0,84 por compresión de las preguntas |
-| 2026-11-03 | 054 Happiness Without Material Comfort Is Playing on Hard Mode | revision | 5 | 32 | 433 | 2,5 | Cero avisos. Citas de Osho y Confucio en estilo indirecto |
+| 2026-11-03 | 054 Happiness Without Material Comfort Is Playing on Hard Mode | revision | 5 | 32 | 434 | 2,5 | Cero avisos. Citas de Osho y Confucio en estilo indirecto. Retoque del autor en b04 (3-nov) |
 | 2026-11-03 | 055 Happiness Is Not Science or Math | revision | 3 | 22 | 280 | 1,6 | Cero avisos |
-| 2026-11-03 | 056 Happiness Is a Skill You Can Develop | revision | 3 | 16 | 244 | 1,4 | Cero avisos |
+| 2026-11-03 | 056 Happiness Is a Skill You Can Develop | revision | 3 | 16 | 244 | 1,4 | Cero avisos. Retoque del autor en b03 (3-nov) |
