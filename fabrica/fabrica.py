@@ -214,6 +214,26 @@ def refs_espanol(raiz_voces, sintetico="piloto/sintetico", n=1, duracion=(6, 15)
     return [f["audio"] for f in filas[:n]]
 
 
+def firma(voz, cfg):
+    """Lo que define cómo suena una voz: adaptador, referencias, temperatura y pausa. Si cambia en voces.json, los
+    clips ya hechos con la firma anterior se rehacen solos al relanzar la fábrica."""
+    d = cfg["voces"][voz]
+    return {"adaptador": d.get("adaptador"), "ref": refs_de(d), "temperatura": d.get("temperatura"),
+            "pausa_max": pausa_de(voz, cfg)}
+
+
+def misma_voz(fila, voz, cfg):
+    """¿Se generó el clip de esta fila del registro con la voz que dice ahora voces.json?
+
+    Los clips anteriores al 3-nov no guardan la firma: solo su adaptador, y se generaron sin temperatura propia (la
+    referencia y la pausa de cada voz no han cambiado desde entonces).
+    """
+    actual = firma(voz, cfg)
+    if "firma" in fila:
+        return fila["firma"] == actual
+    return fila.get("adaptador") == actual["adaptador"] and actual["temperatura"] is None
+
+
 def pausa_de(voz, cfg):
     """La pausa máxima de una voz: la suya si la tiene en voces.json, si no la general de 'ritmo'."""
     return cfg["voces"][voz].get("pausa_max", cfg["ritmo"]["pausa_max"])
@@ -239,7 +259,10 @@ def generar_episodio(plan, sintetizar_lote, asr, carpeta, cfg, avisar=print):
     for p in plan:
         wav = tts_dir / p["fichero"]
         if wav.exists():
-            continue
+            anterior = hechos.get(p["fichero"])
+            if anterior is None or misma_voz(anterior, p["voz"], cfg):
+                continue
+            avisar(f"  {p['fichero']}: la voz ha cambiado en voces.json desde que se generó; lo rehago")
         t0 = time.time()
         trozos, detalle, sr, cursor = [], [], None, BORDE_INICIO
         pausa = pausa_de(p["voz"], cfg)
@@ -268,7 +291,7 @@ def generar_episodio(plan, sintetizar_lote, asr, carpeta, cfg, avisar=print):
         t_total, s_total = t_total + dt, s_total + seg
         fila = {"fichero": p["fichero"], "bloque": p["bloque"], "voz": p["voz"], "segundos": round(seg, 2),
                 "segundos_generacion": round(dt, 1), "sr": sr, "frases": detalle,
-                "adaptador": cfg["voces"][p["voz"]].get("adaptador")}
+                "adaptador": cfg["voces"][p["voz"]].get("adaptador"), "firma": firma(p["voz"], cfg)}
         with registro.open("a", encoding="utf-8") as fh:
             fh.write(json.dumps(fila, ensure_ascii=False) + "\n")
         hechos[p["fichero"]] = fila

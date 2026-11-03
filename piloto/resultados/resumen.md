@@ -142,3 +142,7 @@ Lectura:
 - Sin probar: el paso 120 con temperatura 0,7, que juntaría las dos mejoras.
 - Muestra pequeña: 3 audios por versión.
 
+**Segunda ronda (3-nov), escuchada en el propio cuaderno sin puntuar:** actual, paso 120, actual con temperatura
+0,7 y paso 120 con temperatura 0,7. **Decisión del autor: paso 120 con temperatura 0,7** para Naval (y para
+`naval_kapil`, que usa el mismo LoRA). Ya en `fabrica/voces.json`.
+
