@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2020/067-truth",
+  "numero": 67,
+  "fecha": "2020-03-27",
+  "titulo": "El camino hacia la paz es la verdad",
+  "subtitulo": "Cuando la superación personal falla, trabaja en descubrir la verdad",
+  "fuente_url": "https://nav.al/truth",
+  "titulos_seccion": [
+    "Cuando descubres la verdad, los malos hábitos pueden desaparecer",
+    "La superación personal no es más que conflicto con uno mismo disfrazado"
+  ],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "La búsqueda de la paz es, en realidad, la búsqueda de la verdad.",
+        "Intenta ver la ventaja de entender las cosas descubriendo la verdad, en lugar de a base de práctica."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Digamos que estoy intentando dejar de fumar, hay técnicas que puedo probar, pero siempre son dolorosas y difíciles.",
+        "A menudo llega un momento en el que me veo de una forma nueva que hace que el hábito desaparezca por sí solo.",
+        "Me diagnostican un cáncer de pulmón y entiendo que voy a morir, o veo a un amigo meterse en problemas por malos hábitos parecidos.",
+        "Cuando veo algo con suficiente claridad y lo entiendo, el mal hábito puede disolverse por sí solo.",
+        "En un sentido más amplio, puede que vea alguna faceta de mí mismo que no me gusta.",
+        "Quizá la veo en un amigo y después ya no puedo dejar de verla, hasta el punto de que ya no podemos ser amigos."
+      ]
+    },
+    {
+      "id": "b03-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Ver y entender las cosas lleva a cambios que la práctica y la técnica no pueden conseguir.",
+        "Cuando sigues una técnica, siempre hay una distancia entre tú y lo que intentas conseguir, y siempre hay repetición, lucha y conflicto.",
+        "Si queremos paz, tenemos que renunciar al conflicto con nosotros mismos.",
+        "Incluso tenemos que renunciar a la superación personal, porque la superación personal no es más que conflicto con uno mismo disfrazado.",
+        "En lugar de eso, tenemos que usar nuestra curiosidad natural para entender mejor las cosas.",
+        "A través de la comprensión, mejoraremos de forma natural.",
+        "Cuando de verdad entendemos los efectos de la comida poco sana en nuestro cuerpo, cambiamos a mejor de forma automática.",
+        "Lo vemos en los kilos de más que cargamos, en el pico y la caída de glucosa después de tomar demasiado azúcar, o en cómo la cafeína nos acelera y luego nos hunde.",
+        "Así que el camino hacia la paz es la verdad."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 67,
+  "anio": 2020,
+  "slug": "truth",
+  "titulo_es": "El camino hacia la paz es la verdad",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "El camino hacia la paz es la verdad",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Inglés sacado del Google Doc «2020 all podcasts»; cuadra palabra a palabra."
+}
