@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2020/059-inefficient",
+  "numero": 59,
+  "fecha": "2020-02-17",
+  "titulo": "Ser infeliz es tremendamente ineficiente",
+  "subtitulo": "Una mente en paz toma mejores decisiones",
+  "fuente_url": "https://nav.al/inefficient",
+  "titulos_seccion": [
+    "La gente infeliz no tiene buen criterio",
+    "Una mente en paz toma mejores decisiones"
+  ],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Además de la objeción de que uno es demasiado listo para eso, la otra es que no quiere que baje su productividad, ni tener menos deseo ni menos ética de trabajo.",
+        "Y es verdad, cuanto más feliz y más en paz estás, menos probable es que salgas corriendo a cambiar el mundo.",
+        "Pero, al mismo tiempo, ser infeliz es muy ineficiente.",
+        "Una persona en paz no tiene pensamientos superfluos dándole vueltas en la cabeza.",
+        "Si eres una persona ambiciosa e infeliz, tu mente estará encendida las veinticuatro horas del día, los siete días de la semana."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "¿Qué consecuencias tiene esto?",
+        "No dormirás bien, y será mucho más probable que reacciones con ira y te metas en un agujero del que luego tendrás que salir.",
+        "Tus decisiones serán emocionales e impulsivas, y caerás más fácilmente en la trampa de estar ocupado.",
+        "Estarás ocupado todo el rato, corriendo de una cosa a otra porque no eres capaz de priorizar mentalmente.",
+        "Cuando no tienes paz mental, te cuesta formarte un criterio, porque tienes demasiados hilos dándote vueltas en la cabeza.",
+        "No tienes tiempo que dedicar a formarte ese criterio.",
+        "Hay una contrapartida, y es que si mañana te conviertes en Buda, es poco probable que además lances cohetes a la Luna como Elon Musk.",
+        "Por otro lado, hay muchísimos científicos, innovadores y otros líderes de éxito y optimistas, sobre todo a medida que se hacen mayores.",
+        "Así que la gente feliz no siempre es ineficaz."
+      ]
+    },
+    {
+      "id": "b03-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Cuando me volví más feliz en mi propia vida, me volví mucho más eficaz, aunque no trabajo tanto como antes.",
+        "Soy capaz de crear relaciones con personas a las que antes habría mantenido a distancia por los prejuicios que tuviera.",
+        "Ahora tomo decisiones con mucha más claridad, porque veo los resultados a largo plazo.",
+        "Voy directo al grano y no intento negociar un veinte por ciento más aquí o allá.",
+        "Sé que eso me hará infeliz a largo plazo, hará infeliz a la otra persona y hará el acuerdo menos estable.",
+        "Me he vuelto más productivo aunque no trabaje tanto, porque tomo mejores decisiones."
+      ]
+    }
+  ]
+}

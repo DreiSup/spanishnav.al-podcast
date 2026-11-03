@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 59,
+  "anio": 2020,
+  "slug": "inefficient",
+  "titulo_es": "Ser infeliz es tremendamente ineficiente",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Ser infeliz es tremendamente ineficiente",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Inglés sacado del Google Doc «2020 all podcasts»; cuadra palabra a palabra. Las citas de b01 («I’m too smart for it», «I don’t want it to lower my productivity…») van en estilo indirecto. «Fact check on that is: True» se traduce como «Y es verdad». «judgments» se traduce como «criterio», según el GLOSARIO. Artefacto del copiado en el inglés, no tocado: «long-term outcomes.I cut» va sin espacio tras el punto. Antes de sintetizar: comprobar cómo lee el TTS «Elon Musk»."
+}
