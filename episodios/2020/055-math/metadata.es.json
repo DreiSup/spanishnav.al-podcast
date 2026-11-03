@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 55,
+  "anio": 2020,
+  "slug": "math",
+  "titulo_es": "La felicidad no es ciencia ni matemáticas",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "La felicidad no es ciencia ni matemáticas",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Inglés sacado del Google Doc «2020 all podcasts»; cuadra palabra a palabra. Las dos frases citadas de b03 («The way to be happy is X» y la réplica) van en estilo indirecto; «X» se traduce como «tal cosa»."
+}

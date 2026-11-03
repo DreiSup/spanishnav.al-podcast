@@ -1,0 +1,56 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2020/055-math",
+  "numero": 55,
+  "fecha": "2020-01-31",
+  "titulo": "La felicidad no es ciencia ni matemáticas",
+  "subtitulo": "La felicidad se parece más a la poesía que a los algoritmos",
+  "fuente_url": "https://nav.al/math",
+  "titulos_seccion": [
+    "Hay muchos tipos de felicidad",
+    "La felicidad se parece más a la poesía que a los algoritmos"
+  ],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "La felicidad es un término cargadísimo de significados.",
+        "Significa cosas completamente distintas para cada persona.",
+        "Todo el mundo tiene ideas preconcebidas muy firmes sobre qué es la felicidad y cómo alcanzarla."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Voy a mezclar felicidad, placer, paz, alegría, dicha, satisfacción, bienestar y más cosas, y no lo hago a propósito.",
+        "Pero, al mismo tiempo, esto no son matemáticas.",
+        "No podemos delimitar estas palabras con precisión.",
+        "Significan cosas distintas en contextos distintos y para personas distintas.",
+        "Así que intenta captar el espíritu de lo que digo, en vez de atascarte en palabras y detalles concretos.",
+        "Cuando algunas personas hablan de felicidad, en realidad hablan de placer o de emociones fuertes.",
+        "Podrían decir que han comido muy bien y que, por tanto, son felices.",
+        "Cuando otras personas hablan de felicidad, se refieren a un estado general de satisfacción y bienestar.",
+        "Otras se refieren a la iluminación, como la que habría alcanzado un Buda.",
+        "Mucha gente piensa que la felicidad no existe, o que es contraproducente, o que la infelicidad viene precisamente de buscarla.",
+        "Estas ideas tienen mucho de verdad, y hablaremos de ello."
+      ]
+    },
+    {
+      "id": "b03-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Puede que yo diga que la manera de ser feliz es tal cosa.",
+        "Y que alguien me reproche que antes había dicho que la felicidad es causa de infelicidad.",
+        "Esto no son matemáticas, no puedes encadenar algoritmos.",
+        "Esto se parece más a la poesía.",
+        "Imagina que lees cincuenta poemas del mismo poeta e intentas analizarlos de forma sistemática.",
+        "Si relacionas las palabras de un poema con las de otro para ver si encajan, se te escapará lo esencial.",
+        "No te obsesiones con las palabras, ni siquiera con las frases.",
+        "Reflexiona sobre el razonamiento y el mensaje en su conjunto."
+      ]
+    }
+  ]
+}
