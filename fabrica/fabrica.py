@@ -350,6 +350,12 @@ class MotorQwen:
         print(f"Qwen cargado ({dtype}); con LoRA: {con_lora or 'ninguna'}; sin LoRA: "
               f"{[v for v in voces if v not in con_lora] or 'ninguna'}")
 
+    def _muestreo(self, voz):
+        """Temperatura de la voz si voces.json la fija ("temperatura"); si no, la de Qwen (0,9). Se aplica igual a
+        los dos niveles del modelo, como en piloto/cuadernos/09_erres_naval."""
+        t = self.cfg["voces"][voz].get("temperatura")
+        return {} if t is None else {"temperature": t, "subtalker_temperature": t}
+
     def _huella(self, rutas_audio):
         """Prompt de solo timbre. Con varias referencias, la media de sus huellas (con su norma media), como en
         piloto/cuadernos/08_acento_naval."""
@@ -404,5 +410,5 @@ class MotorQwen:
             wavs, sr = self.tts.generate_voice_clone(
                 text=list(textos), language=self.cfg["motor"]["idioma"], voice_clone_prompt=self.prompts[voz],
                 non_streaming_mode=self.cfg["motor"]["non_streaming_mode"],
-                max_new_tokens=max(tope_pasos(t) for t in textos))
+                max_new_tokens=max(tope_pasos(t) for t in textos), **self._muestreo(voz))
         return list(wavs), sr

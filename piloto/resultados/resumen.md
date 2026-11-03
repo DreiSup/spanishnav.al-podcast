@@ -117,3 +117,28 @@ Lectura:
 Si el acento sigue molestando en episodios enteros, lo siguiente sería un LoRA con más español (por ejemplo,
 60 % español), que sí cuesta unidades.
 
+## Las erres de Naval — escucha a ciegas (2026-11-03)
+
+Cuaderno `piloto/cuadernos/09_erres_naval`: tres audios de dos frases reales de Naval con muchas erres y sin nombres
+en inglés, con la referencia `naval_ref02`, misma semilla por frase y pausas de 0,12 s. El autor oía giros ingleses
+en la r y la rr. Notas en `puntuaciones_erres_naval.csv`, letras en `clave_erres_naval.json`.
+
+| Versión | Parecido | Acento | Naturalidad | Alucinaciones | Media (3 primeros) |
+|---|---|---|---|---|---|
+| actual (`B/paso_0158`, temperatura 0,9) | 3,67 | 3,33 | 4,00 | 5 | 3,67 |
+| **paso_0120** | **4,33** | 4,33 | 4,33 | 5 | **4,33** |
+| paso_0080 | 3,50 (2 notas) | 4,33 | **4,67** | 5 | 4,17 |
+| paso_0040 | 3,67 | 4,33 | 4,00 | 5 | 4,00 |
+| base (sin LoRA) | 4,00 | 4,33 | 4,33 | 5 | 4,22 |
+| **actual_t07** (`B/paso_0158`, temperatura 0,7) | 4,00 | **4,67** | 4,33 | 5 | **4,33** |
+
+Lectura:
+
+- **Con frases llenas de erres, la versión actual es la peor en acento (3,33)**: confirma lo que oía el autor.
+- **Bajar la temperatura a 0,7 da el mejor acento (4,67)** con el mismo modelo: menos variación al elegir cada
+  sonido, menos erres a la inglesa. Empata en media con el paso 120.
+- **El paso 120** es el más equilibrado y el que más se parece (4,33). Cualquier otra versión mejora el acento de
+  la actual.
+- Sin probar: el paso 120 con temperatura 0,7, que juntaría las dos mejoras.
+- Muestra pequeña: 3 audios por versión.
+

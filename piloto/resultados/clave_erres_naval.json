@@ -1,0 +1,26 @@
+{
+  "r1": {
+    "A": "base",
+    "B": "paso_0120",
+    "C": "paso_0040",
+    "D": "actual_t07",
+    "E": "paso_0080",
+    "F": "actual"
+  },
+  "r2": {
+    "A": "actual",
+    "B": "paso_0120",
+    "C": "paso_0080",
+    "D": "paso_0040",
+    "E": "actual_t07",
+    "F": "base"
+  },
+  "r3": {
+    "A": "paso_0080",
+    "B": "actual_t07",
+    "C": "paso_0040",
+    "D": "base",
+    "E": "actual",
+    "F": "paso_0120"
+  }
+}

@@ -104,8 +104,9 @@ La **fase 1** (elegir motor) está casi cerrada:
   de España. Prompt de traducción reescrito con todo esto.
 
 - **Las erres de Naval** (3-nov): el autor sigue oyendo giros ingleses en la r y la rr. Cuaderno
-  `piloto/cuadernos/09_erres_naval` (pasos anteriores del LoRA, Qwen sin LoRA y temperatura 0,7), pendiente de
-  escucha. Si ninguno lo arregla: repaso del LoRA solo con español (Chatterbox V2, acento nativo).
+  `piloto/cuadernos/09_erres_naval`. Escucha del 3-nov: la actual es la peor en acento (3,33); empatan arriba
+  el paso 120 (4,33) y la actual con temperatura 0,7 (4,33, acento 4,67). La fábrica acepta ya `temperatura` por
+  voz en voces.json. Pendiente de decidir; y una prueba del 037 con la huella española (`lora_ref_es1`).
 
 ## Esperando a que termine
 
