@@ -25,3 +25,6 @@ with you?» (069).
 | Fecha | Episodio | Estado | Bloques | Frases es | Palabras es | Min. | Notas |
 |---|---|---|---|---|---|---|---|
 | 2026-11-03 | 053 Live Long Enough and You'll Become a Philosopher | revision | 5 | 23 | 264 | 1,6 | Cero avisos. b02 en 0,84 por compresión de las preguntas |
+| 2026-11-03 | 054 Happiness Without Material Comfort Is Playing on Hard Mode | revision | 5 | 32 | 433 | 2,5 | Cero avisos. Citas de Osho y Confucio en estilo indirecto |
+| 2026-11-03 | 055 Happiness Is Not Science or Math | revision | 3 | 22 | 280 | 1,6 | Cero avisos |
+| 2026-11-03 | 056 Happiness Is a Skill You Can Develop | revision | 3 | 16 | 244 | 1,4 | Cero avisos |
