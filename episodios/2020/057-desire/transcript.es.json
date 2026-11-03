@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2020/057-desire",
+  "numero": 57,
+  "fecha": "2020-02-10",
+  "titulo": "El deseo es un contrato que firmas para ser infeliz",
+  "subtitulo": "La felicidad es volver a un estado en el que no falta nada",
+  "fuente_url": "https://nav.al/desire",
+  "titulos_seccion": [
+    "Ninguna cosa por sí sola te hará feliz para siempre",
+    "La felicidad es un proceso de comprensión y de descubrimiento de uno mismo"
+  ],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "El deseo es un contrato que firmas contigo mismo para ser infeliz hasta que consigas lo que quieres.",
+        "Te inquietas porque quieres algo, y luego te matas a trabajar para conseguirlo y lo pasas mal mientras tanto.",
+        "Al final, cuando lo consigues, vuelves al estado en el que estabas antes de tenerlo.",
+        "No es que alcances un pico de dicha y te quedes ahí para siempre."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "La gente se aferra a la ilusión de que hay algo ahí fuera que la hará feliz y la llenará para siempre.",
+        "Ninguna cosa por sí sola puede conseguir eso.",
+        "La iluminación es algo distinto, y parece una solución permanente, pero eso todavía no lo vamos a explorar.",
+        "Ahora solo hablamos de la felicidad de sentido común."
+      ]
+    },
+    {
+      "id": "b03-naval",
+      "speaker": "Naval",
+      "frases": [
+        "No hay una única solución permanente para la felicidad.",
+        "Alcanzar la felicidad exige, más bien, un proceso de comprensión y de descubrimiento de uno mismo.",
+        "Es un proceso en el que te entrenas para ver ciertas verdades.",
+        "Si conseguir cosas nos hiciera felices para siempre, los hombres de las cavernas habrían sido unos desgraciados y todos nosotros seríamos locamente felices.",
+        "Sin embargo, la felicidad neta por persona no está aumentando, y puede que incluso esté bajando.",
+        "Probablemente la modernidad trae más infelicidad que el pasado.",
+        "Así que la felicidad es volver al estado en el que no te falta nada en este momento."
+      ]
+    }
+  ]
+}
