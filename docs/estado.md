@@ -103,6 +103,10 @@ La **fase 1** (elegir motor) está casi cerrada:
   (40, 14 de ellos de vocabulario vetado). El autor decide (2-nov) mantener «coche» y «ordenador»: vocabulario
   de España. Prompt de traducción reescrito con todo esto.
 
+- **Las erres de Naval** (3-nov): el autor sigue oyendo giros ingleses en la r y la rr. Cuaderno
+  `piloto/cuadernos/09_erres_naval` (pasos anteriores del LoRA, Qwen sin LoRA y temperatura 0,7), pendiente de
+  escucha. Si ninguno lo arregla: repaso del LoRA solo con español (Chatterbox V2, acento nativo).
+
 ## Esperando a que termine
 
 | Qué | Dónde corre | Resultado esperado |

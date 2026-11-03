@@ -1145,3 +1145,149 @@ print("Ábrela desde Drive (descárgala y ábrela en el navegador). Prioridad: e
 comun.desconectar()
 """),
 ])
+
+# ---------------------------------------------------------------- Las erres de Naval
+cuaderno("09_erres_naval.ipynb", [
+    md("""
+# Piloto de fine-tuning — las erres de Naval
+
+El autor sigue oyendo a Naval con giros ingleses, sobre todo en la **r** y la **rr**. El cuaderno 08 descartó la
+huella en español. Aquí se prueba **otro paso del LoRA y el modelo sin LoRA**, con frases reales de los episodios
+escogidas por tener muchas erres (y sin nombres en inglés, para que lo único que suene inglés sea la voz):
+
+| Versión | Modelo |
+|---|---|
+| `actual` | LoRA `B/paso_0158`, lo que suena hoy en la fábrica |
+| `paso_0120`, `paso_0080`, `paso_0040` | pasos anteriores del mismo LoRA: menos horas oyendo a Naval en inglés |
+| `base` | Qwen sin LoRA. En la criba, este modo sacó **5 de acento** con Naval en las tres frases (cuaderno 03c) |
+| `actual_t07` | `actual` con temperatura 0,7 en vez de 0,9: menos variación al elegir cada sonido |
+
+Todas con la referencia `naval_ref02` en modo solo timbre, la misma semilla por frase y pausas de 0,12 s, como
+la fábrica. Salida en `fine_tunned_naval/piloto/erres_naval/` y la página de escucha a ciegas en
+`escucha/erres_naval.html` (la clave aparte, en `clave_erres_naval.json`). **Puntúa sobre todo el acento**
+(fíjate en las erres) sin perder parecido.
+
+**GPU:** T4. **Tiempo:** unos 15–20 minutos (unos 4 minutos de audio). Celda 1, *Reiniciar sesión* y el resto
+en orden. Si se corta, vuelve a lanzar: lo que ya esté en Drive no se repite.
+"""),
+    code("""
+# 1. Instalación (después: Entorno de ejecución → Reiniciar sesión)
+# El aviso rojo "pip's dependency resolver..." es normal.
+!pip install -q qwen-tts==0.1.1 peft==0.17.1
+"""),
+    code("""
+# 2. Parámetros
+# Frases reales de Naval con muchas erres, sin nombres en inglés. Dos por audio.
+ITEMS = {
+    "r1": ["Es una respuesta escurridiza, pero creo que en realidad es la respuesta correcta.",
+           "Acabar con un mono naranja en la cárcel o arruinar tu reputación es lo mismo que quedar barrido a cero, así que nunca hagas esas cosas."],
+    "r2": ["Mañana podrían ser robots de reparto, robots voladores y robots mecánicos, y drones, que llevan cosas de un lado a otro.",
+           "¿Ir corriendo por el barrio donde vive enseñándoselo a la gente en un ordenador o en una pantalla?"],
+    "r3": ["Un escalón por encima de eso podrías tener a un contratista, un contratista general al que alguien contrata para venir a arreglar y reparar y levantar su casa.",
+           "Quieres trabajar con gente de fiar durante periodos largos sin tener que reevaluar cada conversación ni mirar todo el rato por encima del hombro."],
+}
+# versión: (checkpoint del LoRA de Naval o None para Qwen sin LoRA, temperatura)
+VERSIONES = {"actual": ("paso_0158", 0.9), "paso_0120": ("paso_0120", 0.9), "paso_0080": ("paso_0080", 0.9),
+             "paso_0040": ("paso_0040", 0.9), "base": (None, 0.9), "actual_t07": ("paso_0158", 0.7)}
+"""),
+    code(f"""
+# 3. Preparar: código del repo, Drive y comprobación de los checkpoints (sin cargar modelos)
+import os, sys, subprocess, json
+from pathlib import Path
+os.environ.setdefault("PYTORCH_CUDA_ALLOC_CONF", "expandable_segments:True")
+RAMA = "{RAMA}"
+if os.path.isdir("/content/repo"):
+    subprocess.run(["git", "-C", "/content/repo", "pull", "-q"], check=True)
+else:
+    subprocess.run(["git", "clone", "-q", "--depth", "1", "-b", RAMA, "{REPO}", "/content/repo"], check=True)
+sys.path[:0] = ["/content/repo/fabrica", "/content/repo/piloto", "/content/repo/criba"]
+import comun, fabrica, rutas
+
+comun.montar_drive()
+CFG = fabrica.cargar_config()
+RAIZ_VOCES = Path(CFG["rutas"]["drive"]) / CFG["rutas"]["voces"]
+LORA = rutas.lora(comun.DRIVE, "B")
+REF = RAIZ_VOCES / CFG["voces"]["naval"]["ref"]
+PAUSA = fabrica.pausa_de("naval", CFG)
+SALIDA = RAIZ_VOCES / "piloto" / "erres_naval"
+SALIDA.mkdir(parents=True, exist_ok=True)
+
+items = [{{"id": i, "voz": "naval", "ref": "naval", "frases": f}} for i, f in ITEMS.items()]
+comun.FRASES = SALIDA / "frases.json"
+comun.FRASES.write_text(json.dumps({{"schema": 1, "silencio_entre_frases_ms": 0, "items": items}},
+                                   ensure_ascii=False, indent=1), encoding="utf-8")
+comun.SALIDA = SALIDA
+CHECKPOINTS = sorted({{c for c, _ in VERSIONES.values() if c}})
+problemas = [str(p) for p in [REF, *(LORA / c / "adapter_model.safetensors" for c in CHECKPOINTS)] if not p.is_file()]
+if problemas:
+    print("RESULTADO: REVISAR")
+    for p in problemas:
+        print("  - falta:", p)
+    raise SystemExit("Corrige lo de arriba antes de cargar modelos: todavía no se ha gastado nada.")
+print(f"{{len(VERSIONES)}} versiones · {{len(items)}} audios · checkpoints {{CHECKPOINTS}}")
+print("RESULTADO: OK")
+"""),
+    code("""
+# 4. Cargar Qwen con los checkpoints del LoRA de Naval
+import torch
+from transformers.utils import logging as hf_logging
+hf_logging.set_verbosity_error()
+from qwen_tts import Qwen3TTSModel
+from peft import PeftModel
+dtype = torch.bfloat16 if torch.cuda.is_bf16_supported() else torch.float16
+tts = Qwen3TTSModel.from_pretrained(CFG["motor"]["modelo"], device_map="cuda:0", dtype=dtype,
+                                    attn_implementation="sdpa")
+peft = PeftModel.from_pretrained(tts.model.talker, str(LORA / CHECKPOINTS[0]), adapter_name=CHECKPOINTS[0])
+for c in CHECKPOINTS[1:]:
+    peft.load_adapter(str(LORA / c), adapter_name=c)
+tts.model.talker = peft
+peft.eval()
+PROMPT = tts.create_voice_clone_prompt(ref_audio=str(REF), x_vector_only_mode=True)
+print(f"Qwen cargado ({dtype}) con {CHECKPOINTS}")
+"""),
+    code("""
+# 5. Generar cada versión, como en la fábrica (misma semilla por frase y pausas recortadas)
+import time, numpy as np, soundfile as sf
+from contextlib import nullcontext
+hueco = max(0.0, PAUSA - fabrica.RECORTE_INICIO - fabrica.RECORTE_FINAL)
+
+for version, (checkpoint, temperatura) in VERSIONES.items():
+    (SALIDA / version).mkdir(exist_ok=True)
+    def sintetizar(texto, voz, intento):
+        if checkpoint:
+            peft.set_adapter(checkpoint)
+        with (peft.disable_adapter() if checkpoint is None else nullcontext()):
+            torch.manual_seed(fabrica.semilla(texto, intento))
+            wavs, sr = tts.generate_voice_clone(text=texto, language=CFG["motor"]["idioma"], voice_clone_prompt=PROMPT,
+                                                non_streaming_mode=CFG["motor"]["non_streaming_mode"],
+                                                temperature=temperatura, subtalker_temperature=temperatura,
+                                                max_new_tokens=fabrica.tope_pasos(texto))
+        return wavs[0], sr
+    for it in items:
+        destino = SALIDA / version / f"{it['id']}.wav"
+        if destino.exists():
+            print(f"  {version}/{it['id']}: ya existe")
+            continue
+        t0, trozos, sr = time.time(), [], None
+        for k, frase in enumerate(it["frases"]):
+            r = fabrica.generar_frase(frase, "naval", sintetizar, None, CFG["verificacion"], PAUSA)
+            sr = r["sr"]
+            if k:
+                trozos.append(np.zeros(int(sr * hueco), np.float32))
+            trozos.append(r["audio"])
+        audio = np.concatenate([np.zeros(int(sr * fabrica.BORDE_INICIO), np.float32), *trozos,
+                                np.zeros(int(sr * fabrica.BORDE_FINAL), np.float32)])
+        sf.write(str(destino), audio, sr, subtype="PCM_16")
+        print(f"  {version}/{it['id']}: {len(audio) / sr:.1f} s en {time.time() - t0:.0f} s")
+"""),
+    code("""
+# 6. Página de escucha a ciegas
+import escucha
+escucha.construir_pagina([it["id"] for it in items], list(VERSIONES), nombre="erres_naval")
+print("Descárgala de Drive y ábrela en el navegador. Prioridad: el ACENTO (las erres), sin perder parecido.")
+"""),
+    code("""
+# 7. Subir a Drive y desconectar
+comun.desconectar()
+"""),
+])

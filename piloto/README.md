@@ -37,5 +37,6 @@ Naval.
 | `06_ritmo.ipynb` | Verificación rápida del ritmo sobre audios ya generados: acorta los silencios largos sin tocar el habla (`ritmo.py`) y los reproduce en el propio cuaderno con su velocidad en c/s. Acelerar sin cambiar el tono se probó y se descartó: pierde naturalidad | CPU |
 | `07_prueba_voz.ipynb` | Genera intervenciones reales y largas de un hablante (de los episodios traducidos) con el modelo de la fábrica, sin recortar pausas, para probarlas después en `06_ritmo` → `piloto/prueba_voz/<voz>/` | T4 |
 | `08_acento_naval.ipynb` | Naval con acento más español sin entrenar: huella de voz sacada de su español sintético (un clip o la media de 5) y LoRA a media fuerza, sobre intervenciones reales y con las pausas de la fábrica; página de escucha a ciegas → `piloto/acento_naval/` | T4 |
+| `09_erres_naval.ipynb` | Las erres de Naval: pasos 40, 80, 120 y 158 del LoRA B, Qwen sin LoRA y el paso 158 con temperatura 0,7, sobre frases reales con muchas erres; página de escucha a ciegas → `piloto/erres_naval/` | T4 |
 
 Rutas en Drive, bajo `fine_tunned_naval/`.
