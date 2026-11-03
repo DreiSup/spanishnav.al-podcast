@@ -1163,12 +1163,13 @@ escogidas por tener muchas erres (y sin nombres en inglés, para que lo único q
 | `actual_t07` | `actual` con temperatura 0,7 en vez de 0,9: menos variación al elegir cada sonido |
 
 Todas con la referencia `naval_ref02` en modo solo timbre, la misma semilla por frase y pausas de 0,12 s, como
-la fábrica. Salida en `fine_tunned_naval/piloto/erres_naval/` y la página de escucha a ciegas en `escucha/<PAGINA>.html` (la
-clave aparte, en `clave_<PAGINA>.json`). **Puntúa sobre todo el acento** (fíjate en las erres) sin perder parecido.
+la fábrica. Salida en `fine_tunned_naval/piloto/erres_naval/`. La primera ronda se puntuó a ciegas (resultados en
+`piloto/resultados/resumen.md`).
 
 **Segunda ronda (3-nov):** la primera escucha dejó empatados el paso 120 y la actual con temperatura 0,7. Se añade
-`paso_0120_t07` (las dos mejoras juntas) y la página `erres_naval_2` compara solo `actual`, `paso_0120`,
-`actual_t07` y `paso_0120_t07`. Lo ya generado no se repite: solo se genera la versión nueva (unos 3–5 minutos).
+`paso_0120_t07` (las dos mejoras juntas). **No hay que puntuar:** la celda 6 pone aquí mismo, para cada audio, las
+versiones de `ESCUCHAR` una debajo de otra, con su nombre. Lo ya generado no se repite: solo se genera la versión
+nueva (unos 3–5 minutos).
 
 **GPU:** T4. **Tiempo:** unos 15–20 minutos (unos 4 minutos de audio). Celda 1, *Reiniciar sesión* y el resto
 en orden. Si se corta, vuelve a lanzar: lo que ya esté en Drive no se repite.
@@ -1193,10 +1194,9 @@ ITEMS = {
 VERSIONES = {"actual": ("paso_0158", 0.9), "paso_0120": ("paso_0120", 0.9), "paso_0080": ("paso_0080", 0.9),
              "paso_0040": ("paso_0040", 0.9), "base": (None, 0.9), "actual_t07": ("paso_0158", 0.7),
              "paso_0120_t07": ("paso_0120", 0.7)}   # añadida el 3-nov: junta las dos mejoras de la primera escucha
-# Qué versiones salen en la página y cómo se llama. Segunda ronda (3-nov): las dos ganadoras, su combinación y la
-# actual como referencia. Las que ya están en Drive no se vuelven a generar.
-EN_PAGINA = ["actual", "paso_0120", "actual_t07", "paso_0120_t07"]
-PAGINA = "erres_naval_2"
+# Qué versiones se escuchan en la celda 6, en este orden. Segunda ronda (3-nov): las dos ganadoras, su combinación
+# y la actual como referencia. Las que ya están en Drive no se vuelven a generar.
+ESCUCHAR = ["actual", "paso_0120", "actual_t07", "paso_0120_t07"]
 """),
     code(f"""
 # 3. Preparar: código del repo, Drive y comprobación de los checkpoints (sin cargar modelos)
@@ -1289,10 +1289,18 @@ for version, (checkpoint, temperatura) in VERSIONES.items():
         print(f"  {version}/{it['id']}: {len(audio) / sr:.1f} s en {time.time() - t0:.0f} s")
 """),
     code("""
-# 6. Página de escucha a ciegas
-import escucha
-escucha.construir_pagina([it["id"] for it in items], EN_PAGINA, nombre=PAGINA)
-print("Descárgala de Drive y ábrela en el navegador. Prioridad: el ACENTO (las erres), sin perder parecido.")
+# 6. Escuchar aquí mismo: cada audio con todas las versiones de ESCUCHAR, una debajo de otra
+from IPython.display import Audio, Markdown, display
+for it in items:
+    display(Markdown(f"### {it['id']}\\n> " + " ".join(it["frases"])))
+    for v in ESCUCHAR:
+        ruta = SALIDA / v / f"{it['id']}.wav"
+        if not ruta.exists():
+            display(Markdown(f"**{v}**: no generado"))
+            continue
+        checkpoint, temperatura = VERSIONES[v]
+        display(Markdown(f"**{v}** — {checkpoint or 'sin LoRA'}, temperatura {temperatura}"))
+        display(Audio(str(ruta)))
 """),
     code("""
 # 7. Subir a Drive y desconectar
