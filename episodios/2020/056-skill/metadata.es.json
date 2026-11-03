@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 56,
+  "anio": 2020,
+  "slug": "skill",
+  "titulo_es": "La felicidad es una habilidad que puedes desarrollar",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "La felicidad es una habilidad que puedes desarrollar",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Inglés sacado del Google Doc «2020 all podcasts»; cuadra palabra a palabra. La cita final de b01 («Well, I don’t want to be happy») va en estilo indirecto."
+}

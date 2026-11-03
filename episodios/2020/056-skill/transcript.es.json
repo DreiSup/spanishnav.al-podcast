@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2020/056-skill",
+  "numero": 56,
+  "fecha": "2020-02-03",
+  "titulo": "La felicidad es una habilidad que puedes desarrollar",
+  "subtitulo": "No estás atrapado en tu nivel actual de felicidad",
+  "fuente_url": "https://nav.al/skill",
+  "titulos_seccion": [
+    "La genética es importante, pero es solo la mitad",
+    "No estás atrapado en tu nivel de felicidad"
+  ],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "El primer paso para aumentar tu nivel de felicidad es darte cuenta de que puedes hacerlo.",
+        "Aquí es donde mucha gente se tropieza.",
+        "Para la gran mayoría de las personas, parte de su felicidad, probablemente mucha más de la que creen, está bajo su control.",
+        "Este paso no es fácil, y puede que te quedes atascado en él mucho tiempo.",
+        "Mucha gente cree que la felicidad no se puede desarrollar ni cambiar, así que le quita valor.",
+        "Y acaban diciendo que, en realidad, no quieren ser felices."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "La genética es importante, y pesa mucho a la hora de determinar la fuerza, el rendimiento deportivo y la inteligencia.",
+        "Pero tu punto de partida genético es solo la mitad.",
+        "Y la felicidad, o la satisfacción general, es mucho más maleable que esas otras cosas.",
+        "Me costaría muchísimo cambiar de forma radical mi rendimiento deportivo solo a base de entrenar.",
+        "En ese terreno estoy mucho más limitado por mi genética.",
+        "Pero cosas como mi temperamento, mi forma de ver la vida, lo tranquilo que estoy o lo mucho que me enfado dependen mucho más de mí."
+      ]
+    },
+    {
+      "id": "b03-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Así que la felicidad es una habilidad, como la nutrición o la forma física.",
+        "Es una habilidad que identificas y desarrollas, y que poco a poco te da resultados a medida que mejoras.",
+        "No es un don divino, no te viene dado para que te quedes atascado con él para siempre.",
+        "Aunque, si partes de un nivel alto, por supuesto, consérvalo."
+      ]
+    }
+  ]
+}
