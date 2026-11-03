@@ -21,6 +21,7 @@ def _cifras_a_letras(texto):
     except ImportError:
         return texto
     texto = re.sub(r"(?<=\d)[.,](?=\d{3}\b)", "", texto)
+    texto = re.sub(r"\s*%", " por ciento", texto)   # "90%" → "90 por ciento" (las frases lo llevan en letra)
     return re.sub(r"\d+", lambda m: f" {num2words(int(m.group()), lang='es')} ", texto)
 
 

@@ -43,4 +43,9 @@ Primera prueba (2-nov, 044, L4, frase a frase): **4,58 s de GPU por segundo de a
 de audio. Casi todo es Qwen esperando entre pasos pequeños, no Whisper ni los reintentos (ninguno en el 044).
 Desde el 2-nov las frases de cada intervención se generan en lotes (`motor.lote`) y cada frase lleva un tope
 de pasos proporcional a su texto (`tope_pasos`), para que una alucinación no llegue a 164 s. La celda 5 imprime
-la cifra nueva al acabar: apúntala aquí.
+la cifra nueva al acabar.
+
+Con lotes en T4 (2-nov, 037–039, 10,6 min de audio): **unos 2–2,8 s de GPU por segundo de audio** (calculado con
+las horas de los ficheros en Drive; el 038 tuvo 7 reintentos). Whisper no cabe en la T4 con lotes de 4 junto a
+Qwen y baja solo a 2. Con la T4 a unas 2 unidades por hora, **unas 5 unidades por hora de audio**, frente a 22
+antes.

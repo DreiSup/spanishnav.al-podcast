@@ -92,7 +92,9 @@ La **fase 1** (elegir motor) está casi cerrada:
 
 - **Fábrica por lotes** (2-nov): genera juntas las frases de cada intervención (lotes de 8), Whisper las revisa
   en lote, tope de pasos por frase y cuaderno por defecto en T4. Probado sin GPU (reintentos y reanudación).
-  Falta medir el ahorro real con los 7 cortos (035, 036, 040–043, 045).
+  **Medido el 2-nov con 037–039 en T4:** 10,6 min de audio en unos 22 min (2–2,8 s de GPU por s de audio),
+  unas 5 unidades por hora de audio frente a 22 antes. Una sola frase sospechosa y era falsa («noventa por
+  ciento» frente a «90%» de Whisper; corregido en `medir.normaliza`). Faltan 035, 036, 040–043 y 045.
 
 - **Reglas nuevas de traducción** (2-nov, tras la auditoría): el normalizador avisa ahora de frases de más de 45
   palabras, de frases de una o dos palabras sueltas (salvo preguntas y exclamaciones) y de palabras de España;
