@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**24** episodios · **0** publicados · **0** sin empezar
+**25** episodios · **0** publicados · **0** sin empezar
 
 ## 2020
 
@@ -19,6 +19,7 @@
 | 61 | [061-addiction](episodios/2020/061-addiction) | La lucha moderna es plantar cara a las adicciones convertidas en armas | 🟠 en revisión | — | — |
 | 62 | [062-unacceptable](episodios/2020/062-unacceptable) | Romper con una adicción está mal visto socialmente | 🟠 en revisión | — | — |
 | 65 | [065-silent](episodios/2020/065-silent) | Cuanto más cerca estás de la verdad, más silencioso te vuelves por dentro | 🟠 en revisión | — | — |
+| 66 | [066-consensus](episodios/2020/066-consensus) | Los grupos buscan el consenso, los individuos buscan la verdad | 🟠 en revisión | — | — |
 
 ## 2019
 
