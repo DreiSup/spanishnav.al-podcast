@@ -23,7 +23,9 @@ Drive, listo para Audacity.
    - `borrador_tts.wav` — todos los clips seguidos, para una escucha rápida;
    - `registro_tts.jsonl` — el detalle de cada frase.
 
-Lo que ya está en `tts/` no se repite. Para rehacer un clip, bórralo y relanza.
+Lo que ya está en `tts/` no se repite. Para rehacer un clip, bórralo y relanza. **Si cambias una voz en
+`voces.json`** (adaptador, referencia, temperatura o pausa), al relanzar un episodio la fábrica rehace sola los clips
+de esa voz y deja los demás: cada clip guarda en `registro_tts.jsonl` con qué voz se hizo.
 
 ## Cambiar una voz
 
@@ -31,6 +33,8 @@ Todo se cambia en `voces.json`, sin tocar código:
 
 - **Nuevo LoRA** (por ejemplo, cuando se entrene Nivi): pon en `adaptador` la carpeta del checkpoint elegido,
   relativa a `rutas.voces`. `null` = Qwen base.
+- **Temperatura:** `"temperatura"` en la entrada de la voz (Naval: 0,7). Sin ella, la de Qwen (0,9). Más baja = menos
+  variación al elegir cada sonido; a Naval le quitó las erres inglesas.
 - **Otra referencia:** cambia `ref`. Puede ser una ruta o una lista de rutas: con varias, la fábrica usa la media de
   sus huellas (como `lora_ref_es5` del cuaderno 08).
 - **Probar una voz en un episodio sin tocar los clips buenos:** en la celda 2, `SUBCARPETA = "prueba_…"` manda

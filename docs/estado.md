@@ -105,8 +105,9 @@ La **fase 1** (elegir motor) está casi cerrada:
 
 - **Las erres de Naval** (3-nov): el autor sigue oyendo giros ingleses en la r y la rr. Cuaderno
   `piloto/cuadernos/09_erres_naval`. Escucha del 3-nov: la actual es la peor en acento (3,33); empatan arriba
-  el paso 120 (4,33) y la actual con temperatura 0,7 (4,33, acento 4,67). La fábrica acepta ya `temperatura` por
-  voz en voces.json. Pendiente de decidir; y una prueba del 037 con la huella española (`lora_ref_es1`).
+  el paso 120 (4,33) y la actual con temperatura 0,7 (4,33, acento 4,67). **Decisión del autor: paso 120 con
+  temperatura 0,7** para Naval y naval_kapil, ya en voces.json. La fábrica rehace sola, al relanzar, los clips
+  hechos con otra voz (037, 038, 039 y 044: solo los de Naval).
 
 ## Esperando a que termine
 

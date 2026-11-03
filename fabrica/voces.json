@@ -54,14 +54,16 @@
   "voces": {
     "naval": {
       "ref": "speaker_refs/naval/naval_ref02.wav",
-      "adaptador": "piloto/lora_qwen/B/paso_0158",
-      "nota": "LoRA B, paso 158: elegido el 30-oct por escucha a ciegas (piloto/resultados/resumen.md)"
+      "adaptador": "piloto/lora_qwen/B/paso_0120",
+      "temperatura": 0.7,
+      "nota": "LoRA B, paso 120, con temperatura 0,7: elegido el 3-nov tras la escucha de las erres (piloto/cuadernos/09_erres_naval; con el paso 158 y temperatura 0,9 la r y la rr sonaban inglesas). Antes, desde el 30-oct, paso 158"
     },
     "naval_kapil": {
       "fichero": "naval",
       "ref": "speaker_refs/naval_kapil/naval_kapil_ref02.wav",
-      "adaptador": "piloto/lora_qwen/B/paso_0158",
-      "nota": "El LoRA de Naval con la referencia de la sesión con Kapil. Decidido el 31-oct: el repaso propio (piloto/lora_qwen/kapil) ganaba naturalidad pero perdía un punto de acento y apenas aportaba tono (piloto/resultados/resumen.md)"
+      "adaptador": "piloto/lora_qwen/B/paso_0120",
+      "temperatura": 0.7,
+      "nota": "El LoRA de Naval con la referencia de la sesión con Kapil; sigue al de Naval (paso 120 y temperatura 0,7 desde el 3-nov). Decidido el 31-oct: el repaso propio (piloto/lora_qwen/kapil) ganaba naturalidad pero perdía un punto de acento y apenas aportaba tono (piloto/resultados/resumen.md)"
     },
     "nivi": {"ref": "speaker_refs/nivi/nivi_ref02.wav", "adaptador": null, "pausa_max": 0.20, "nota": "Qwen base, sin LoRA: ganó la escucha del 2-nov (4,22). Su LoRA (piloto/lora_qwen/nivi) le devolvía acento inglés: 4,0 → 2,67 en el paso 159. Pausas de 0,20 s, elegidas con bloques largos reales (07_prueba_voz + 06_ritmo)"},
     "brett": {"ref": "speaker_refs/brett/brett_ref02.wav", "adaptador": "piloto/lora_qwen/brett/paso_0130", "pausa_max": 0.30, "nota": "LoRA paso 130, escucha del 2-nov (4,67). El autor quiere que conserve algo de su acento australiano. Pausas de 0,30 s (no 0,12): con 0,12 sonaba demasiado rápido (2-nov)"},
