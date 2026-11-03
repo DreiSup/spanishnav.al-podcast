@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**23** episodios · **0** publicados · **0** sin empezar
+**24** episodios · **0** publicados · **0** sin empezar
 
 ## 2020
 
@@ -18,6 +18,7 @@
 | 60 | [060-least](episodios/2020/060-least) | Trabaja lo menos posible para conseguirlo | 🟠 en revisión | — | — |
 | 61 | [061-addiction](episodios/2020/061-addiction) | La lucha moderna es plantar cara a las adicciones convertidas en armas | 🟠 en revisión | — | — |
 | 62 | [062-unacceptable](episodios/2020/062-unacceptable) | Romper con una adicción está mal visto socialmente | 🟠 en revisión | — | — |
+| 65 | [065-silent](episodios/2020/065-silent) | Cuanto más cerca estás de la verdad, más silencioso te vuelves por dentro | 🟠 en revisión | — | — |
 
 ## 2019
 

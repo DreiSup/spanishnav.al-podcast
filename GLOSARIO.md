@@ -58,3 +58,6 @@ texto en español y por qué.
 |---|---|---|
 | ADN | ADN | Se lee bien como sigla |
 | S-1 (folleto de la SEC para salir a bolsa) | folletos de salida a bolsa | La sigla con guion y cifra la vocaliza el TTS; se resuelve en la frase (060) |
+| Lao Tzu | Lao Tse | Forma asentada en español, como Sócrates o Confucio (065) |
+| IQ test | test de inteligencia | «IQ» y «CI» se deletrean mal; se resuelve en la frase (065) |
+| If A, then B / A eats B | si pasa una cosa, pasa la otra; uno se come a otro | Las letras sueltas el TTS las lee como preposición o las deletrea; se dice con palabras (063, 065) |

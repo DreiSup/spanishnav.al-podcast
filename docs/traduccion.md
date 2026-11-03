@@ -42,3 +42,4 @@ abiertas («…talk about sex.» sin «”»). Afecta solo al inglés, que no se
 | 2026-11-03 | 060 Work the Least for It | revision | 2 | 17 | 302 | 1,8 | Cero avisos. S-1 resuelto en la frase |
 | 2026-11-03 | 061 The Modern Struggle Is Fighting Weaponized Addiction | revision | 2 | 14 | 270 | 1,6 | Cero avisos. Citas en estilo indirecto |
 | 2026-11-03 | 062 Breaking Addiction Is Socially Unacceptable | revision | 3 | 18 | 306 | 1,8 | Cero avisos |
+| 2026-11-03 | 065 The Closer You Are to the Truth, the More Silent You Become Inside | revision | 2 | 13 | 224 | 1,3 | Cero avisos. Lao Tse, test de inteligencia y si A entonces B resueltos en la frase (GLOSARIO) |
