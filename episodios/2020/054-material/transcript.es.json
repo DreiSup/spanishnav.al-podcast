@@ -1,0 +1,80 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2020/054-material",
+  "numero": 54,
+  "fecha": "2020-01-29",
+  "titulo": "La felicidad sin comodidad material es jugar en modo difícil",
+  "subtitulo": "Es más fácil satisfacer tus deseos materiales que renunciar a ellos",
+  "fuente_url": "https://nav.al/material",
+  "titulos_seccion": [
+    "Renunciar a las cosas no es un camino fácil hacia la felicidad",
+    "Es más fácil satisfacer tus necesidades materiales que renunciar a ellas",
+    "Cuando estás enfermo, tus deseos se esfuman",
+    "He pasado de ser infeliz a ser muy feliz"
+  ],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Puedes alcanzar la felicidad sin riqueza económica.",
+        "La mayoría sabemos que la felicidad no se puede comprar.",
+        "Pero hoy en día sí puedes pagar para librarte de muchas de las causas habituales de la infelicidad.",
+        "La riqueza económica puede darte libertad y más tiempo, y puede darte paz."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Antiguamente, uno de los caminos para encontrar la paz era hacerse monje.",
+        "Renunciabas a cosas como el sexo, el techo, el dinero y otros apegos materiales, y te ibas al bosque.",
+        "Quizá encontrabas algo de paz al cabo de treinta años, cuando por fin habías aceptado que no ibas a tener esas cosas.",
+        "La verdad es que la mayoría probablemente nunca llegó a aceptarlo.",
+        "Hay muchos monjes por ahí, pero no hay muchas personas iluminadas."
+      ]
+    },
+    {
+      "id": "b03-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Osho decía, más o menos, que cada vez que conocía a una prostituta, ella quería hablar de Dios.",
+        "Y que cada vez que conocía a un sacerdote, él quería hablar de sexo.",
+        "Todo lo que te niegas a ti mismo se convertirá en tu nueva prisión.",
+        "Hoy en día, de hecho, es más fácil satisfacer tu deseo de comodidad material que renunciar a él.",
+        "Te llevará toda una vida renunciar a la comodidad material, y aun así puede que no funcione.",
+        "Pero puedes ganar algo de dinero y tener éxito material en menos de una vida.",
+        "Puedes alcanzar la felicidad sin comodidad material, y probablemente sería una felicidad más duradera.",
+        "Pero eso es jugar en modo difícil."
+      ]
+    },
+    {
+      "id": "b04-naval",
+      "speaker": "Naval",
+      "frases": [
+        "La salud física es la base de todo.",
+        "Si no tienes salud física, no tienes nada.",
+        "Hay un dicho de Confucio que me gusta mucho.",
+        "Un hombre enfermo solo quiere una cosa, y un hombre sano quiere diez mil.",
+        "Cuando estás enfermo, tus deseos se esfuman.",
+        "Si no puedes levantarte y valerte por ti mismo, no puedes convertirte en la máquina de desear que eres.",
+        "Aunque la salud física es lo más importante, es de lo que menos hablo, porque es el área en la que tengo menos conocimiento específico.",
+        "En ese terreno no me he realizado del todo.",
+        "Estoy en una forma aceptable y llevo una dieta aceptable.",
+        "Entiendo las teorías de la salud física, pero me sentiría un impostor dándote consejos si yo mismo no fuera un modelo de salud física."
+      ]
+    },
+    {
+      "id": "b05-naval",
+      "speaker": "Naval",
+      "frases": [
+        "En la riqueza me he realizado mucho más.",
+        "Y en la salud mental, en encontrar la felicidad y la paz, he pasado de ser una persona más bien infeliz a ser muy feliz.",
+        "Fue algo deliberado, practicado y fruto del esfuerzo.",
+        "Llegó a base de ir comprendiendo cosas.",
+        "Como he progresado, puedo contarte lo que me ha funcionado a mí."
+      ]
+    }
+  ]
+}

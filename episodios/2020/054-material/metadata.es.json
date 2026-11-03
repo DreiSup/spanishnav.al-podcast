@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 54,
+  "anio": 2020,
+  "slug": "material",
+  "titulo_es": "La felicidad sin comodidad material es jugar en modo difícil",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "La felicidad sin comodidad material es jugar en modo difícil",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Inglés sacado del Google Doc «2020 all podcasts»; cuadra palabra a palabra. Las citas de Osho (b03) y Confucio (b04) van en estilo indirecto o sin comillas, como pide el GLOSARIO. Antes de sintetizar: comprobar cómo lee el TTS «Osho»."
+}
