@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 61,
+  "anio": 2020,
+  "slug": "addiction",
+  "titulo_es": "La lucha moderna es plantar cara a las adicciones convertidas en armas",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "La lucha moderna es plantar cara a las adicciones convertidas en armas",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Inglés sacado del Google Doc «2020 all podcasts»; cuadra palabra a palabra. El tuit de Naval y la frase de Musashi van en estilo indirecto. «weaponized addictions» se traduce como «adicciones convertidas en armas»; «gelato» como «helado». Antes de sintetizar: comprobar cómo lee el TTS «Miyamoto Musashi»."
+}

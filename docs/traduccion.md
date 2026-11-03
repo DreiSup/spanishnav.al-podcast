@@ -40,3 +40,4 @@ abiertas («…talk about sex.» sin «”»). Afecta solo al inglés, que no se
 | 2026-11-03 | 058 If You’re So Smart, Why Aren’t You Happy? | revision | 4 | 31 | 484 | 2,8 | Cero avisos. Título de sección confirmado por el autor; citas en estilo indirecto |
 | 2026-11-03 | 059 Being Unhappy Is Extremely Inefficient | revision | 3 | 20 | 346 | 2,0 | Cero avisos. Artefacto del copiado en el inglés señalado en notas |
 | 2026-11-03 | 060 Work the Least for It | revision | 2 | 17 | 302 | 1,8 | Cero avisos. S-1 resuelto en la frase |
+| 2026-11-03 | 061 The Modern Struggle Is Fighting Weaponized Addiction | revision | 2 | 14 | 270 | 1,6 | Cero avisos. Citas en estilo indirecto |
