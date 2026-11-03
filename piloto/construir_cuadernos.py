@@ -1163,9 +1163,12 @@ escogidas por tener muchas erres (y sin nombres en inglés, para que lo único q
 | `actual_t07` | `actual` con temperatura 0,7 en vez de 0,9: menos variación al elegir cada sonido |
 
 Todas con la referencia `naval_ref02` en modo solo timbre, la misma semilla por frase y pausas de 0,12 s, como
-la fábrica. Salida en `fine_tunned_naval/piloto/erres_naval/` y la página de escucha a ciegas en
-`escucha/erres_naval.html` (la clave aparte, en `clave_erres_naval.json`). **Puntúa sobre todo el acento**
-(fíjate en las erres) sin perder parecido.
+la fábrica. Salida en `fine_tunned_naval/piloto/erres_naval/` y la página de escucha a ciegas en `escucha/<PAGINA>.html` (la
+clave aparte, en `clave_<PAGINA>.json`). **Puntúa sobre todo el acento** (fíjate en las erres) sin perder parecido.
+
+**Segunda ronda (3-nov):** la primera escucha dejó empatados el paso 120 y la actual con temperatura 0,7. Se añade
+`paso_0120_t07` (las dos mejoras juntas) y la página `erres_naval_2` compara solo `actual`, `paso_0120`,
+`actual_t07` y `paso_0120_t07`. Lo ya generado no se repite: solo se genera la versión nueva (unos 3–5 minutos).
 
 **GPU:** T4. **Tiempo:** unos 15–20 minutos (unos 4 minutos de audio). Celda 1, *Reiniciar sesión* y el resto
 en orden. Si se corta, vuelve a lanzar: lo que ya esté en Drive no se repite.
@@ -1188,7 +1191,12 @@ ITEMS = {
 }
 # versión: (checkpoint del LoRA de Naval o None para Qwen sin LoRA, temperatura)
 VERSIONES = {"actual": ("paso_0158", 0.9), "paso_0120": ("paso_0120", 0.9), "paso_0080": ("paso_0080", 0.9),
-             "paso_0040": ("paso_0040", 0.9), "base": (None, 0.9), "actual_t07": ("paso_0158", 0.7)}
+             "paso_0040": ("paso_0040", 0.9), "base": (None, 0.9), "actual_t07": ("paso_0158", 0.7),
+             "paso_0120_t07": ("paso_0120", 0.7)}   # añadida el 3-nov: junta las dos mejoras de la primera escucha
+# Qué versiones salen en la página y cómo se llama. Segunda ronda (3-nov): las dos ganadoras, su combinación y la
+# actual como referencia. Las que ya están en Drive no se vuelven a generar.
+EN_PAGINA = ["actual", "paso_0120", "actual_t07", "paso_0120_t07"]
+PAGINA = "erres_naval_2"
 """),
     code(f"""
 # 3. Preparar: código del repo, Drive y comprobación de los checkpoints (sin cargar modelos)
@@ -1283,7 +1291,7 @@ for version, (checkpoint, temperatura) in VERSIONES.items():
     code("""
 # 6. Página de escucha a ciegas
 import escucha
-escucha.construir_pagina([it["id"] for it in items], list(VERSIONES), nombre="erres_naval")
+escucha.construir_pagina([it["id"] for it in items], EN_PAGINA, nombre=PAGINA)
 print("Descárgala de Drive y ábrela en el navegador. Prioridad: el ACENTO (las erres), sin perder parecido.")
 """),
     code("""
