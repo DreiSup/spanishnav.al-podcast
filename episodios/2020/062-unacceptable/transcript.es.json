@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2020/062-unacceptable",
+  "numero": 62,
+  "fecha": "2020-02-26",
+  "titulo": "Romper con una adicción está mal visto socialmente",
+  "subtitulo": "La adicción sostiene relaciones y actividades artificiales",
+  "fuente_url": "https://nav.al/unacceptable",
+  "titulos_seccion": [
+    "Romper con una adicción exige un nuevo estilo de vida",
+    "La adicción sostiene relaciones falsas y actividades falsas"
+  ],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Si bebes alcohol o tomas algún tipo de droga con regularidad, prueba este experimento mental.",
+        "¿Qué planes son los que más esperas?",
+        "Apuesto a que son aquellos en los que puedes beber o drogarte.",
+        "Esperas con ganas la hora de la cena, la próxima fiesta o ir de bares con los amigos.",
+        "Para ver lo artificial que es, decide no beber ni drogarte la próxima vez que salgas.",
+        "Ahora pregúntate cuántas ganas tienes de ese plan, y verás que ninguna.",
+        "Esto crea un dilema, porque estas fuentes de placer artificial acabarán insensibilizándome, me harán sufrir cuando falten y me llevarán a la adicción.",
+        "Pero si renuncio a ellas, también seré desgraciado, porque dejaré de socializar con mis amigos, no saldré y no me divertiré."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Romper con una adicción es muy difícil, porque tienes que romper la adicción física y además cambiar tu estilo de vida.",
+        "Tienes que pasar a un estilo de vida en el que puedas ser feliz sin esa sustancia.",
+        "Si bebo para socializar y lo hago lo suficiente, acabaré pasando el rato con gente con la que no estaría si no fuera por eso.",
+        "Cuando estoy sobrio, no soporto a esa gente, ni los temas de los que hablamos, ni los sitios a los que vamos, y solo lo aguanto borracho."
+      ]
+    },
+    {
+      "id": "b03-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Estas relaciones falsas y estas actividades falsas se sostienen gracias al alcohol.",
+        "Si dejo de beber, tengo que cambiar de amigos y encontrar cosas nuevas que hacer.",
+        "Eso es difícil y está mal visto socialmente.",
+        "Hace tiempo me di cuenta de que esperar con ganas los fines de semana y las vacaciones es un problema.",
+        "Primero, le quita la alegría al día a día, porque vives en el futuro y sufres el resto del tiempo.",
+        "Segundo, has aceptado una forma de vida en la que pasas la mayor parte del tiempo sufriendo."
+      ]
+    }
+  ]
+}

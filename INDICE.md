@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**22** episodios · **0** publicados · **0** sin empezar
+**23** episodios · **0** publicados · **0** sin empezar
 
 ## 2020
 
@@ -17,6 +17,7 @@
 | 59 | [059-inefficient](episodios/2020/059-inefficient) | Ser infeliz es tremendamente ineficiente | 🟠 en revisión | — | — |
 | 60 | [060-least](episodios/2020/060-least) | Trabaja lo menos posible para conseguirlo | 🟠 en revisión | — | — |
 | 61 | [061-addiction](episodios/2020/061-addiction) | La lucha moderna es plantar cara a las adicciones convertidas en armas | 🟠 en revisión | — | — |
+| 62 | [062-unacceptable](episodios/2020/062-unacceptable) | Romper con una adicción está mal visto socialmente | 🟠 en revisión | — | — |
 
 ## 2019
 
