@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 58,
+  "anio": 2020,
+  "slug": "smart",
+  "titulo_es": "Si eres tan listo, ¿por qué no eres feliz?",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Si eres tan listo, ¿por qué no eres feliz?",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Inglés sacado del Google Doc «2020 all podcasts»; cuadra palabra a palabra. Normalizado con --slug smart porque el título lleva apóstrofos curvos (You’re, Aren’t) y el catálogo rectos. «Can you increase happiness without losing your drive?» es título de sección, no se dice (confirmado por el autor el 3-nov). Las citas de b01 («Happiness is for stupid people», «I don’t want to be happy…») y de b02 («I’m not happy because I’m smart») van en estilo indirecto. b03: la pregunta del título, «Si eres tan listo, ¿por qué no eres feliz?», queda como frase propia; el TTS la lee empezando sin ¿, comprobar la entonación."
+}
