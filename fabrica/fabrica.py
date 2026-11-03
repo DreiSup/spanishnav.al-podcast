@@ -198,6 +198,22 @@ def generar_bloque(frases, voz, sintetizar_lote, asr, cfg_ver, pausa_max, lote=8
     return mejor
 
 
+def refs_de(datos_voz):
+    """Las referencias de una voz como lista: en voces.json "ref" puede ser una ruta o varias (se promedian)."""
+    ref = datos_voz["ref"]
+    return [ref] if isinstance(ref, str) else list(ref)
+
+
+def refs_espanol(raiz_voces, sintetico="piloto/sintetico", n=1, duracion=(6, 15)):
+    """Los n clips de español sintético (Chatterbox V2) más parecidos a la voz, de entre 6 y 15 s, relativos a
+    raiz_voces. Es la regla del cuaderno 08 (versiones lora_ref_es1 y lora_ref_es5)."""
+    filas = [json.loads(l) for l in (Path(raiz_voces) / sintetico / "seleccion.jsonl").read_text(
+        encoding="utf-8").splitlines() if l.strip()]
+    filas = [f for f in filas if f["variante"] == "chatterbox_v2" and duracion[0] <= f["segundos"] <= duracion[1]]
+    filas.sort(key=lambda f: -f["similitud"])
+    return [f["audio"] for f in filas[:n]]
+
+
 def pausa_de(voz, cfg):
     """La pausa máxima de una voz: la suya si la tiene en voces.json, si no la general de 'ritmo'."""
     return cfg["voces"][voz].get("pausa_max", cfg["ritmo"]["pausa_max"])
@@ -330,11 +346,21 @@ class MotorQwen:
                     self.peft.load_adapter(ruta, adapter_name=v)
             self.tts.model.talker = self.peft
             self.peft.eval()
-        self.prompts = {v: self.tts.create_voice_clone_prompt(ref_audio=str(Path(raiz_voces) / cfg["voces"][v]["ref"]),
-                                                              x_vector_only_mode=True)
-                        for v in voces}
+        self.prompts = {v: self._huella([Path(raiz_voces) / r for r in refs_de(cfg["voces"][v])]) for v in voces}
         print(f"Qwen cargado ({dtype}); con LoRA: {con_lora or 'ninguna'}; sin LoRA: "
               f"{[v for v in voces if v not in con_lora] or 'ninguna'}")
+
+    def _huella(self, rutas_audio):
+        """Prompt de solo timbre. Con varias referencias, la media de sus huellas (con su norma media), como en
+        piloto/cuadernos/08_acento_naval."""
+        import dataclasses
+        it = self.tts.create_voice_clone_prompt(ref_audio=[str(r) for r in rutas_audio], x_vector_only_mode=True)
+        if len(it) == 1:
+            return it
+        embs = self.torch.stack([x.ref_spk_embedding for x in it])
+        media = embs.mean(0)
+        media = media / media.norm() * embs.norm(dim=-1).mean()
+        return [dataclasses.replace(it[0], ref_spk_embedding=media)]
 
     def sintetizar(self, texto, voz, intento):
         audios, sr = self.sintetizar_lote([texto], voz, intento, semilla_lote=semilla(texto, intento))

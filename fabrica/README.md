@@ -31,7 +31,11 @@ Todo se cambia en `voces.json`, sin tocar código:
 
 - **Nuevo LoRA** (por ejemplo, cuando se entrene Nivi): pon en `adaptador` la carpeta del checkpoint elegido,
   relativa a `rutas.voces`. `null` = Qwen base.
-- **Otra referencia:** cambia `ref`.
+- **Otra referencia:** cambia `ref`. Puede ser una ruta o una lista de rutas: con varias, la fábrica usa la media de
+  sus huellas (como `lora_ref_es5` del cuaderno 08).
+- **Probar una voz en un episodio sin tocar los clips buenos:** en la celda 2, `SUBCARPETA = "prueba_…"` manda
+  todo a `<episodio>/prueba_…/`. `REF_ES_NAVAL = 1` (o 5) cambia, solo para esa ejecución, la referencia de Naval
+  por su mejor clip en español (o la media de 5), como `lora_ref_es1` y `lora_ref_es5` del cuaderno 08.
 - **Otro ritmo para una voz:** añade `"pausa_max"` a su entrada (Brett lleva 0,30); si no lo tiene, usa el
   general de `ritmo` (0,12).
 - **Hablante nuevo:** añade una entrada en `voces` (y en `alias` si el transcript lo escribe de otra forma).

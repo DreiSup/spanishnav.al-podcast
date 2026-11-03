@@ -60,6 +60,10 @@ cuántos segundos de GPU cuesta cada segundo de audio, para calcular el gasto de
 # 2. Parámetros
 EPISODIOS = ["2019/037-productize-yourself", "2019/038-accountability", "2019/039-working-ourselves"]   # carpetas de episodios/ del repo
 VERIFICAR = True     # revisar cada frase con Whisper y repetir las que fallen (más lento, mucho menos Audacity)
+
+# Pruebas de voz. Para producir normal: REF_ES_NAVAL = 0 y SUBCARPETA = ""
+REF_ES_NAVAL = 0     # 0 = la referencia de voces.json; 1 = el mejor clip de Naval en español (lora_ref_es1 del 08); 5 = media de 5
+SUBCARPETA = ""      # p. ej. "prueba_ref_es1": la prueba va a <episodio>/<subcarpeta>/ y no toca los clips de verdad
 """),
     code(f"""
 # 3. Preparar: código del repo, Drive, voces y plan de cada episodio (sin cargar modelos)
@@ -80,6 +84,15 @@ CFG["verificacion"]["activa"] = VERIFICAR
 DRIVE = Path(CFG["rutas"]["drive"])
 RAIZ_VOCES = DRIVE / CFG["rutas"]["voces"]
 RAIZ_EPISODIOS = DRIVE / CFG["rutas"]["episodios"]
+if REF_ES_NAVAL:
+    CFG["voces"]["naval"]["ref"] = fabrica.refs_espanol(RAIZ_VOCES, n=REF_ES_NAVAL)
+    print(f"PRUEBA: Naval con la huella de {{REF_ES_NAVAL}} clip(s) en español: {{CFG['voces']['naval']['ref']}}")
+if SUBCARPETA:
+    print(f"PRUEBA: todo va a la subcarpeta {{SUBCARPETA}}/ de cada episodio")
+
+def carpeta_de(ep, titulo_en, crear=True):
+    c = fabrica.carpeta_episodio(RAIZ_EPISODIOS, ep, titulo_en, crear=crear)
+    return c / SUBCARPETA if SUBCARPETA else c
 
 PLANES, problemas = {{}}, []
 for ep in EPISODIOS:
@@ -94,7 +107,7 @@ for ep in EPISODIOS:
         problemas.append(f"{{ep}}: {{e}}")
         continue
     titulo_en = json.loads((base / "metadata.en.json").read_text(encoding="utf-8"))["titulo"]
-    carpeta = fabrica.carpeta_episodio(RAIZ_EPISODIOS, ep, titulo_en, crear=False)
+    carpeta = carpeta_de(ep, titulo_en, crear=False)
     hechos = sum((carpeta / "tts" / p["fichero"]).exists() for p in PLANES[ep])
     print(f"{{ep}} — {{tr['titulo']}}")
     print(f"  Drive: {{carpeta.relative_to(DRIVE)}} ({{hechos}} de {{len(PLANES[ep])}} clips ya hechos)")
@@ -103,8 +116,9 @@ for ep in EPISODIOS:
 VOCES = sorted({{p["voz"] for plan in PLANES.values() for p in plan}})
 for v in VOCES:
     datos = CFG["voces"][v]
-    if not (RAIZ_VOCES / datos["ref"]).is_file():
-        problemas.append(f"voz {{v}}: falta la referencia {{datos['ref']}}")
+    for r in fabrica.refs_de(datos):
+        if not (RAIZ_VOCES / r).is_file():
+            problemas.append(f"voz {{v}}: falta la referencia {{r}}")
     if datos.get("adaptador") and not (RAIZ_VOCES / datos["adaptador"] / "adapter_model.safetensors").is_file():
         problemas.append(f"voz {{v}}: falta el adaptador {{datos['adaptador']}}")
 if problemas:
@@ -130,7 +144,7 @@ if VERIFICAR:
 for ep, plan in PLANES.items():
     base = Path("/content/repo/episodios") / ep
     titulo_en = json.loads((base / "metadata.en.json").read_text(encoding="utf-8"))["titulo"]
-    carpeta = fabrica.carpeta_episodio(RAIZ_EPISODIOS, ep, titulo_en)
+    carpeta = carpeta_de(ep, titulo_en)
     print(f"=== {ep} → {carpeta.relative_to(DRIVE)}")
     fabrica.generar_episodio(plan, MOTOR.sintetizar_lote, ASR, carpeta, CFG)
     print(f"Informe: {(carpeta / 'informe_tts.md').relative_to(DRIVE)}")
