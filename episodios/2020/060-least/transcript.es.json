@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2020/060-least",
+  "numero": 60,
+  "fecha": "2020-02-19",
+  "titulo": "Trabaja lo menos posible para conseguirlo",
+  "subtitulo": "La gente feliz no tiene que trabajar tanto",
+  "fuente_url": "https://nav.al/least",
+  "titulos_seccion": [
+    "Una mente en paz toma mejores decisiones"
+  ],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "La calidad de nuestras decisiones es fundamental en la era moderna, porque todos tenemos apalancamiento.",
+        "Puedes apalancarte a través del código, la comunidad, los medios, el capital, el trabajo y de otras formas.",
+        "Si eres listo, apalancas cada decisión que tomas.",
+        "Si Warren Buffett acierta el ochenta y cinco por ciento de las veces y sus competidores aciertan el setenta por ciento, Buffett lo gana todo.",
+        "Esa es una de las fuentes de su fuerza, tomar buenas decisiones.",
+        "Toma una o dos decisiones al año, y la mayor parte del tiempo está sentado leyendo libros, pensando, leyendo folletos de salida a bolsa, jugando al bridge, viajando y jugando al golf.",
+        "Obviamente, trabajar duro no es la solución, la solución es tomar buenas decisiones y tener mucho apalancamiento."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Tener una mente en paz, ser una persona más feliz, depender menos del placer momentáneo y estar más tranquilo te dará la disposición mental para tomar mejores decisiones.",
+        "De hecho, ser feliz aumentará tu eficacia, y mientras el aumento de eficacia sea mayor que la pérdida de empuje, sales ganando.",
+        "Pregúntate si preferirías ser el mejor del mundo trabajando más que nadie, o trabajando menos que nadie porque trabajaste de la forma más inteligente.",
+        "Imagina que eres el dios del universo, omnisciente y omnipotente.",
+        "Podrías cambiar cualquier cosa del universo solo con empujar una mariposa en una dirección, porque sabes exactamente cómo chocarán las partículas a partir de ahí.",
+        "La omnisciencia es omnipotencia, el conocimiento es poder.",
+        "Podemos alcanzar la felicidad solo a través del conocimiento, y esa felicidad mejorará nuestras decisiones.",
+        "Esa felicidad nos dará más tiempo para leer y nos hará entender mejor cómo funcionamos nosotros y cómo funcionan los demás.",
+        "Nos hará más eficaces y mejorará nuestro criterio.",
+        "También debería aumentar nuestros ingresos y los rendimientos que necesitamos para ser libres económicamente."
+      ]
+    }
+  ]
+}
