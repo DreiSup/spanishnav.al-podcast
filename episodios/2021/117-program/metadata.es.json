@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 117,
+  "anio": 2021,
+  "slug": "program",
+  "titulo_es": "Si no puedes programarlo, no lo has entendido",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Si no puedes programarlo, no lo has entendido",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). Artefacto del copiado en el inglés (T1 del brief): «evolutionary algorithms%2C,mutation%2C%20recombination%2C%20and%20selection.)» es basura de un enlace de nav.al; se traduce solo algoritmos evolutivos. La cita de Deutsch (If you can't program it, you haven't understood it) va en estilo indirecto, sin comillas, según T7. AGI se escribe inteligencia artificial general, nunca la sigla. Escuchar en el TTS: David Deutsch. Hablante Brett copiado exacto del inglés (el validador avisa de hablante no habitual: es esperado en esta serie). Ningún bloque fuera de rango (ratio 1,07)."
+}

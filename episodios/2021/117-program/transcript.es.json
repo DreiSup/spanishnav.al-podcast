@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2021/117-program",
+  "numero": 117,
+  "fecha": "2021-11-10",
+  "titulo": "Si no puedes programarlo, no lo has entendido",
+  "subtitulo": "Los algoritmos evolutivos no producen seres vivos",
+  "fuente_url": "https://nav.al/program",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-brett",
+      "speaker": "Brett",
+      "frases": [
+        "Todas estas son hipótesis inciertas, pero también tenemos que recordar que hay muchísimas cosas que no sabemos sobre la evolución por selección natural.",
+        "Hay una frase ingeniosa de David Deutsch que dice que si no puedes programarlo, no lo has entendido.",
+        "En el caso de la inteligencia artificial general, esto significa que no podemos programarla porque no entendemos esta idea de la inteligencia general.",
+        "Y resulta que con la evolución por selección natural pasa lo mismo.",
+        "Existen unas cosas que se llaman algoritmos evolutivos, pero eso no es programar la evolución por selección natural.",
+        "Eso no es lo mismo que poder crear entidades artificiales dentro de un ordenador que, sometidas a presiones reales del entorno, puedan evolucionar hacia esa complejidad cada vez mayor."
+      ]
+    }
+  ]
+}
