@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**101** episodios · **0** publicados · **0** sin empezar
+**102** episodios · **0** publicados · **0** sin empezar
 
 ## 2023
 
@@ -111,6 +111,7 @@
 | # | Episodio | Título en español | Estado | Drive | YouTube |
 |---|---|---|---|---|---|
 | 1 | [001-seek-wealth](episodios/2019/001-seek-wealth) | Busca riqueza, no dinero ni estatus | 🟠 en revisión | — | — |
+| 2 | [002-ethical-wealth](episodios/2019/002-ethical-wealth) | Crea abundancia para el mundo | 🟠 en revisión | — | — |
 | 35 | [035-finally-wealthy](episodios/2019/035-finally-wealthy) | Una mente en calma, un cuerpo en forma, una casa llena de amor | 🟠 en revisión | — | — |
 | 36 | [036-rich-quick](episodios/2019/036-rich-quick) | No existen los esquemas para hacerse rico rápido | 🟠 en revisión | — | — |
 | 37 | [037-productize-yourself](episodios/2019/037-productize-yourself) | Productízate a ti mismo | 🟠 en revisión | — | — |

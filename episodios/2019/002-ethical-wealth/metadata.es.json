@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 2,
+  "anio": 2019,
+  "slug": "ethical-wealth",
+  "titulo_es": "Crea abundancia para el mundo",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Crea abundancia para el mundo",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": ""
+}

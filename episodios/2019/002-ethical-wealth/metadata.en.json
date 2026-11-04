@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 2,
+  "anio": 2019,
+  "slug": "ethical-wealth",
+  "titulo": "Make Abundance for the World",
+  "subtitulo": "Wealth isn't about taking something from somebody else",
+  "fecha_publicacion": "2019-03-03",
+  "fuente_url": "https://nav.al/ethical-wealth",
+  "orden_archivo": 6,
+  "en_feed": true,
+  "participantes": [
+    "Naval"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}
