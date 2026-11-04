@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 10,
+  "anio": 2019,
+  "slug": "long-term",
+  "titulo": "Play Long-term Games With Long-term People",
+  "subtitulo": "All returns in life come from compound interest in long-term games",
+  "fecha_publicacion": "2019-03-19",
+  "fuente_url": "https://nav.al/long-term",
+  "orden_archivo": 14,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}
