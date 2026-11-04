@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 98,
+  "anio": 2021,
+  "slug": "bold",
+  "titulo": "Make Bold Guesses and Weed Out the Failures",
+  "subtitulo": "The best theories come from your imagination, not extrapolation",
+  "fecha_publicacion": "2021-05-05",
+  "fuente_url": "https://nav.al/bold",
+  "orden_archivo": 102,
+  "en_feed": true,
+  "participantes": [
+    "Brett",
+    "Naval"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}

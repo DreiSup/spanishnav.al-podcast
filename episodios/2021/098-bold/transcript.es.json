@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2021/098-bold",
+  "numero": 98,
+  "fecha": "2021-05-05",
+  "titulo": "Haz conjeturas audaces y descarta las que fallen",
+  "subtitulo": "Las mejores teorías salen de tu imaginación, no de extrapolar",
+  "fuente_url": "https://nav.al/bold",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Si vamos aún más lejos, no se trata solo de la ciencia.",
+        "Fíjate en la innovación, en la tecnología y en construir cosas, por ejemplo, en todo lo que hicieron Thomas Edison y Nikola Tesla.",
+        "Todo eso salió del ensayo y error, que consiste en hacer conjeturas creativas y en probar cosas.",
+        "Si te fijas en cómo funciona la evolución, mediante la variación y luego la selección natural, verás que prueba muchas mutaciones aleatorias y filtra las que no han funcionado.",
+        "Parece un modelo general con el que todos los sistemas complejos se mejoran a sí mismos con el tiempo.",
+        "Hacen conjeturas audaces y luego descartan lo que no ha funcionado.",
+        "Hay una simetría preciosa que recorre toda la creación de conocimiento.",
+        "En última instancia, es un acto de creatividad, y no sabemos de dónde viene.",
+        "No es una simple extrapolación mecánica de lo que observamos.",
+        "Terminaré con el ejemplo más famoso de todos.",
+        "Hemos hablado de los cisnes negros y del agua hirviendo, pero el ejemplo divertido y fácil es el del pavo.",
+        "Tienes un pavo al que alimentan muy bien todos los días para engordarlo.",
+        "El pavo cree que vive en un hogar bondadoso, hasta que llega el día de Acción de Gracias y se lleva un buen susto.",
+        "Eso te muestra los límites de la inducción."
+      ]
+    },
+    {
+      "id": "b02-brett",
+      "speaker": "Brett",
+      "frases": [
+        "Exacto. Ahora bien, las teorías hay que conjeturarlas, y todos nuestros grandes científicos siempre han dicho cosas parecidas.",
+        "Solo los filósofos y algunos matemáticos creen que la ciencia es esa forma inductiva de buscar tendencias, extrapolando de las observaciones pasadas hacia el futuro.",
+        "Einstein decía que no era necesariamente más listo que la mayoría de la gente, sino que le interesaban apasionadamente ciertos problemas.",
+        "Y tenía curiosidad e imaginación. Para él, la imaginación era clave. Necesitaba imaginar qué podía explicar esas cosas.",
+        "Einstein no se fijaba en los fenómenos del pasado para llegar a la relatividad general.",
+        "Intentaba explicar ciertos problemas que existían en la física, y la inducción no tuvo ningún papel en ello."
+      ]
+    },
+    {
+      "id": "b03-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Las buenas explicaciones se basan en la creatividad y, claro, son comprobables y falsables.",
+        "Además, son difíciles de variar y hacen predicciones arriesgadas y concretas.",
+        "Es una buena guía para cualquiera que intente averiguar cómo incorporar estos conceptos a su vida diaria.",
+        "Tus mejores teorías van a ser conjeturas creativas, no simples extrapolaciones."
+      ]
+    }
+  ]
+}

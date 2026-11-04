@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 98,
+  "anio": 2021,
+  "slug": "bold",
+  "titulo_es": "Haz conjeturas audaces y descarta las que fallen",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Haz conjeturas audaces y descarta las que fallen",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). Sin notas del editor. El final del inglés está mal construido: they're also hard to vary and to make risky and narrow predictions. Se ha traducido por el sentido: son difíciles de variar y hacen predicciones arriesgadas y concretas. El pavo de Acción de Gracias va como dice el brief (T10): hasta que llega el día de Acción de Gracias y se lleva un buen susto. Términos fijos: conjeturas audaces y conjeturas creativas para guesses, falsables, comprobables, difíciles de variar, predicciones arriesgadas y concretas y creación de conocimiento. Weed out se traduce descartar, igual que en el título. Trial and error se traduce ensayo y error. Precisely. Now, the theories have to be guessed es una frase corta y va fundida con la siguiente. Nombres que hay que escuchar: Thomas Edison, Nikola Tesla y Einstein. El validador avisa de hablante no habitual Brett, que es propio de la serie. Ratio 1,04."
+}
