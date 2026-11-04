@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2021/109-evolution",
+  "numero": 109,
+  "fecha": "2021-10-20",
+  "titulo": "La evolución genética fue el preludio de la evolución memética",
+  "subtitulo": "Las ideas pasan por el mismo proceso evolutivo que los genes",
+  "fuente_url": "https://nav.al/evolution",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-brett",
+      "speaker": "Brett",
+      "frases": [
+        "Popper tiene un libro titulado Conocimiento objetivo, con el subtítulo Un enfoque evolucionista, y tampoco es casualidad.",
+        "Hay una simetría entre la teoría epistemológica y la teoría de la evolución tal como la entendemos.",
+        "Antes de que entendiéramos lo que se conoce como la teoría darwinista de la evolución, la única idea que tenía la gente era que estos seres tenían que haber sido creados.",
+        "Todas las plantas y animales que ves a tu alrededor tenían que haber sido creados por un creador, y no había ningún otro mecanismo explicativo.",
+        "Hubo quien propuso la idea de un cambio gradual a lo largo del tiempo, y Lamarck fue uno de ellos.",
+        "Su idea era que las jirafas tienen el cuello largo porque sus antepasados tenían el cuello un poco más corto, así que intentaban estirarlo para alcanzar las hojas a las que no llegaban.",
+        "Pero, una vez más, no había ningún mecanismo para esto, más allá de que alguien vaya al gimnasio a trabajar los bíceps y los bíceps le crezcan un poco con el tiempo.",
+        "Puedes entrenar en el gimnasio y aumentar el tamaño de tus bíceps, pero eso no significa que tus hijos vayan a heredar esos rasgos.",
+        "Lo que se le ocurrió a Darwin fue una idea parecida a la que tuvo Popper sobre el conocimiento, y se basaba en la corrección de errores.",
+        "La idea es que un organismo se pone a prueba en un entorno concreto, y si no es, como decimos, apto para ese entorno, acaba muriendo.",
+        "Pero si es apto para ese entorno, entonces sobrevive.",
+        "Así que se produce este encuentro con la realidad entre los organismos vivos y el entorno.",
+        "Y es el entorno el que te da la retroalimentación de la realidad y destruye a los organismos que no son lo bastante aptos para sobrevivir.",
+        "La visión neodarwinista nos dice cuál es la unidad de selección.",
+        "No es el grupo ni la manada, ni siquiera es el individuo, sino el gen.",
+        "Es la idea del gen egoísta, que nos llega de Richard Dawkins.",
+        "Dawkins dice que si cualquiera de esos genes resulta no ser apto para un entorno concreto, eso podría causar la muerte del organismo.",
+        "La especie podría sobrevivir, pero todo su ADN irá cambiando muy sutilmente con el tiempo, a medida que cambie el entorno.",
+        "Ahora lo hemos llevado a otro nivel, y los seres humanos somos el siguiente paso de ese proceso evolutivo, en el que podemos crear conocimiento explicativo, que hace lo mismo.",
+        "A David Deutsch le gusta decir que la evolución genética no fue más que un preludio, y que lo que viene ahora es la evolución memética.",
+        "A partir de ahora, la historia del universo va a ser la historia de las ideas, que pasan por el mismo proceso evolutivo por el que antes pasaron los genes."
+      ]
+    }
+  ]
+}
