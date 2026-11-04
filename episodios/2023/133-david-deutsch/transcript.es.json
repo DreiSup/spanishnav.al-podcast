@@ -1,0 +1,741 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2023/133-david-deutsch",
+  "numero": 133,
+  "fecha": "2023-02-11",
+  "titulo": "David Deutsch: la creación de conocimiento y la especie humana, primera parte",
+  "subtitulo": "",
+  "fuente_url": "https://nav.al/david-deutsch",
+  "titulos_seccion": [
+    "Contexto",
+    "La especie humana",
+    "Es intuitivamente obvio que los humanos son únicos",
+    "Las cosas que crean conocimiento tienen una influencia única en el universo",
+    "La creatividad explicativa hace únicos a los humanos",
+    "La creación de conocimiento",
+    "Preservar los medios para corregir errores es la base de la moral",
+    "Inteligencia artificial general",
+    "Una verdadera inteligencia artificial general podrá desobedecernos",
+    "¿Puedes crear un ordenador que encabece una revuelta?",
+    "Tomarse en serio a los niños",
+    "La filosofía de tomarse en serio a los niños",
+    "Las buenas explicaciones",
+    "¿Qué es una buena explicación?",
+    "Las buenas explicaciones son difíciles de encontrar, difíciles de variar y falsables",
+    "Una seña de identidad de una buena explicación son las predicciones concretas y arriesgadas",
+    "Ordenadores cuánticos",
+    "Los humanos son ordenadores universales",
+    "La supuesta controversia entre la teoría de las partículas y la de las ondas"
+  ],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Mi objetivo no es hacer otro podcast más con David Deutsch, porque ya hay muchos.",
+        "Me encantaría sacar a la luz algunas de sus enseñanzas más contraintuitivas y dejarlas por escrito de forma canónica, para que las generaciones futuras puedan beneficiarse de ellas y nada de esto se pierda.",
+        "Tu obra ha influido muchísimo en mí, y llevo un ejemplar de El comienzo del infinito o de La estructura de la realidad allá donde voy.",
+        "Sigo leyendo esos mismos libros después de dos años, intentando incorporarlos a mi visión del mundo, y cada día aprendo algo nuevo de ellos.",
+        "Hay muchas cosas contraintuitivas en esos libros, y desmontas muchos dogmas sagrados.",
+        "A veces lo haces de pasada, con una sola frase que a mí me cuesta semanas desentrañar como es debido.",
+        "Esta grabación no es para los filósofos ni para los físicos, sino para el profano, para la persona de a pie.",
+        "Queremos presentarle los principios del optimismo, El comienzo del infinito, lo que significa la sostenibilidad y los delirios antropomórficos.",
+        "Por ejemplo, tú echas por tierra la inducción como forma de elaborar nuevas teorías científicas.",
+        "Es la idea de que la observación repetida es lo que te lleva a crear conocimiento nuevo, y no es así en absoluto.",
+        "Esa crítica viene de Popper, pero tú la desarrollaste a partir de ahí.",
+        "Hablas de que los humanos son muy distintos y excepcionales.",
+        "También hablas de que la creación de conocimiento es algo muy excepcional que, hasta donde sabemos, solo ocurre en la evolución y en el cerebro humano.",
+        "Y hablas de que nuestro planeta no es esa nave espacial Tierra, ese bioma frágil y hospitalario que nos sostiene, sino algo que diseñamos y construimos para que nos sustente.",
+        "Siempre recomiendo empezar por los tres primeros capítulos de El comienzo del infinito, porque son fáciles de entender.",
+        "Pero derriban más dogmas centrales, de esos que la gente da por sentados en su razonamiento más básico, que casi cualquier otro libro que haya visto nunca.",
+        "Creo que es importante señalar a quien nos escucha que tu filosofía no es un conjunto arbitrario de axiomas desde el que miras el mundo.",
+        "Yo la veo como una estructura cristalina, sostenida por buenas explicaciones y por pruebas experimentales, que forma una visión coherente de cómo funcionan las cosas.",
+        "Opera en la intersección de los cuatro hilos de los que hablas en La estructura de la realidad, que son la epistemología, la computación, la física y la evolución."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Hablemos de los humanos y del modelo clásico.",
+        "Empiezas con un pez, que luego se convierte en renacuajo, después en rana, después en algún tipo de mono y por último en una criatura erguida, aunque encorvada.",
+        "Según ese modelo, el ser humano no es más que una etapa en esa progresión que recorre todos los animales.",
+        "Pero en tu explicación ocurre algo fundamentalmente distinto, y hablaste de ello en un vídeo estupendo que animo a todo el mundo a buscar.",
+        "Se titula algo así como Escoria química que sueña con quásares lejanos.",
+        "¿Qué son los humanos, en qué son únicos y en qué son excepcionales?",
+        "¿Y cómo deberíamos pensar en la especie humana en relación con las demás especies de este planeta?"
+      ]
+    },
+    {
+      "id": "b03-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Todos los animales son excepcionales en algún sentido, porque si no, no los consideraríamos especies distintas.",
+        "Está el pájaro que vuela más rápido que ningún otro pájaro, el que vuela más alto que ningún otro, y así sucesivamente.",
+        "Es intuitivamente obvio que nosotros somos únicos en un sentido que es más importante que todos esos otros.",
+        "Como digo en El comienzo del infinito, en muchos laboratorios científicos de todo el mundo hay una botella de champán en la nevera.",
+        "Esa botella y esa nevera son objetos físicos, las personas implicadas también lo son, y todos ellos obedecen las leyes de la física.",
+        "Y, sin embargo, piensa en unos extraterrestres que observan a los humanos.",
+        "Para entender cómo se comportan los humanos con esas botellas de champán, guardadas durante mucho tiempo en neveras, esos extraterrestres tendrían que entender qué intentan conseguir los humanos y si lo conseguirán o no.",
+        "Es decir, imagina que eres un extraterrestre que mira la Tierra desde arriba, ve lo que pasa allí e intenta explicar todo lo que ocurre en ella.",
+        "Y supongamos que esos extraterrestres son tan distintos de nosotros que nada de lo nuestro les resulta familiar.",
+        "Para entender lo que pasa en la Tierra, necesitarían saberlo todo, literalmente.",
+        "Por ejemplo, necesitarían la relatividad general para explicar por qué a este mono en concreto, Einstein, lo llevaron a Suecia y le dieron algo de oro.",
+        "Si quieres explicar eso, tienes que recurrir a la relatividad general.",
+        "Hay gente que recibe la medalla Fields por inventar un poco de matemáticas.",
+        "Para entender por qué esa persona ganó la medalla Fields, tendrían que entender las matemáticas, y esto no tiene fin.",
+        "Tienen que entender toda la ciencia, toda la física, e incluso toda la filosofía y toda la moral.",
+        "Esto no se cumple en ningún otro animal, ni en ningún otro objeto físico.",
+        "Para todos los demás objetos físicos, incluso los realmente importantes, como los quásares, basta una pequeña parte de las leyes de la física para entender su comportamiento con cierto detalle.",
+        "Para entender lo bastante bien a los humanos, tienes que entenderlo todo lo bastante bien.",
+        "Los humanos son los únicos sistemas físicos del universo que conocemos de los que se puede decir eso.",
+        "Todo lo demás es, en ese sentido, realmente intrascendente."
+      ]
+    },
+    {
+      "id": "b04-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Tienes una definición preciosa del conocimiento, algo que la mayoría de la gente ni siquiera intenta abordar, y que habla de cómo el conocimiento se perpetúa en el entorno.",
+        "Diste algunos ejemplos muy buenos, y uno de ellos tenía que ver con los genes.",
+        "Los genes que tienen éxito y están muy adaptados contienen mucho conocimiento y consiguen replicarse, porque son supervivientes.",
+        "Del mismo modo, el conocimiento en sí es un superviviente, en el sentido de que, si me transmites el conocimiento de cómo construir un ordenador, eso es algo increíblemente útil.",
+        "Voy a construir cada vez más ordenadores, y ese conocimiento se irá transmitiendo.",
+        "La idea de fondo que repetiste aquí es que, si quieres entender el universo físico, tienes que entender el conocimiento.",
+        "El conocimiento es lo que, con el tiempo, se impone y transforma cada vez más el universo, más que casi ninguna otra cosa.",
+        "Tienes que entender todas las explicaciones que hay detrás, y no basta con decir colisiones de partículas.",
+        "Eso lo explica todo, así que no explica nada, y no es un nivel útil en el que moverse.",
+        "Por lo tanto, las cosas que crean conocimiento tienen una influencia única en el universo.",
+        "Y, hasta donde sabemos, solo hay dos sistemas que crean conocimiento, que son la evolución y los humanos.",
+        "Pero ¿hay alguna diferencia incluso entre estas dos formas de creación de conocimiento, entre la evolución y los humanos?"
+      ]
+    },
+    {
+      "id": "b05-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Sí. Yo he defendido que la forma humana de crear conocimiento es la definitiva, que no hay ninguna más poderosa que esa.",
+        "Ese es el argumento contra lo sobrenatural, y dice que suponer que existe una forma de crear conocimiento más poderosa que la nuestra equivale a invocar lo sobrenatural.",
+        "Por tanto, esa suposición es una mala explicación, como lo es siempre invocar lo sobrenatural.",
+        "La diferencia entre la evolución biológica y el pensamiento creativo humano es que la evolución biológica tiene, por naturaleza, un alcance limitado.",
+        "Eso es porque la evolución biológica no tiene previsión, y no puede ver un problema y conjeturar una solución.",
+        "Cuando la evolución biológica produce una solución a algo, esa solución aparece siempre antes incluso de que empiece la selección natural, y esa es la gran idea de Charles Darwin.",
+        "Esa es la diferencia entre la teoría de la evolución de Charles Darwin y las otras teorías de la evolución que circulaban desde hacía un siglo o más.",
+        "Entre ellas estaban la del abuelo de Charles Darwin y la de Lamarck.",
+        "Lo que ellos no entendieron es que la creación de conocimiento en la evolución empieza antes.",
+        "Eso significa que la evolución biológica no puede llegar a lugares a los que no se llega mediante mejoras sucesivas, cada una de las cuales permite que exista un organismo viable.",
+        "Los creacionistas dicen que la evolución biológica sí ha llegado a cosas inalcanzables con pasos graduales en los que cada paso sea un organismo viable, pero se equivocan en los hechos.",
+        "Lo que tienen en mente es la idea de un creador capaz de imaginar cosas que no existen y de crear una idea que no sea la culminación de un montón de cosas viables.",
+        "Un ser pensante puede crear algo que sea la culminación de un montón de cosas no viables."
+      ]
+    },
+    {
+      "id": "b06-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "De todos los miles y miles de millones de especies que han existido, ninguna ha hecho nunca una hoguera, aunque a muchas les habría venido bien tener la capacidad genética de hacerlas.",
+        "Si no ocurrió en la biosfera es porque no existe eso de hacer una hoguera que funcione solo en parte, mientras que con calentar agua, por ejemplo, sí existe.",
+        "Los escarabajos bombarderos lanzan chorros de agua hirviendo a sus enemigos.",
+        "Es fácil ver que lanzar simplemente agua fría a tus enemigos ya no es del todo inútil.",
+        "Y luego se puede ir calentando el agua un poco más, y otro poco más.",
+        "Lanzar agua hirviendo sin duda exigió muchas adaptaciones para que el escarabajo no se cociera a sí mismo mientras producía esa agua hirviendo.",
+        "Eso ocurrió porque había una serie de pasos intermedios, y todos ellos eran útiles.",
+        "Pero con las hogueras es muy difícil ver cómo podría ocurrir algo así.",
+        "Los humanos tienen creatividad explicativa, y una vez que la tienes, puedes llegar a la Luna.",
+        "Puedes hacer que los asteroides que vienen hacia la Tierra den media vuelta y se alejen.",
+        "Quizá ningún otro planeta del universo tenga ese poder, y la Tierra lo tiene solo porque en ella hay creatividad explicativa."
+      ]
+    },
+    {
+      "id": "b07-naval",
+      "speaker": "Naval",
+      "frases": [
+        "En relación con eso, después de leer tus libros me di cuenta de que lo más probable es que los humanos acabemos derrotando a los virus con una victoria aplastante.",
+        "Los virus, evidentemente, evolucionan mediante la evolución biológica, mientras que nosotros usamos memes e ideas y avanzamos a grandes saltos.",
+        "Así que quizá podamos inventar alguna tecnología capaz de destruir todos los virus, porque podemos hacer evolucionar nuestras defensas mucho más deprisa.",
+        "Tuiteé algo en ese sentido y mucha gente me atacó, y creo que es porque no entienden esta diferencia entre las dos formas de creación de conocimiento de las que hablamos aquí."
+      ]
+    },
+    {
+      "id": "b08-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Tenemos lo necesario para vencer a los virus.",
+        "Tenemos lo necesario para resolver esos problemas y conseguir la victoria.",
+        "Eso no significa que lo vayamos a hacer, y puede que decidamos no hacerlo."
+      ]
+    },
+    {
+      "id": "b09-naval",
+      "speaker": "Naval",
+      "frases": [
+        "En relación con eso, la filosofía de base que parece muy activa hoy en Occidente es que nos estamos quedando sin recursos.",
+        "Según esa filosofía, los humanos somos un virus que ha invadido la Tierra y que está agotando los recursos escasos.",
+        "Por tanto, lo mejor que podemos hacer es limitar el número de personas.",
+        "La gente no lo dice abiertamente porque resulta desagradable, pero lo dice de muchas formas sutiles.",
+        "Te dicen que uses menos energía, que nos estamos quedando sin recursos, que más humanos solo son más bocas que alimentar.",
+        "En cambio, la filosofía de la creación de conocimiento dice que, en realidad, los humanos son capaces de crear un conocimiento increíble.",
+        "Y dice que el conocimiento puede convertir en recursos cosas que no considerábamos recursos.",
+        "En ese sentido, cada ser humano es un billete de lotería para un avance fundamental que podría cambiar por completo cómo vemos la Tierra, la biosfera y la sostenibilidad.",
+        "¿Cómo llegaste, entonces, a tus ideas actuales sobre todas esas cuestiones, desde el natalismo, es decir, si deberíamos tener más hijos, hasta la sostenibilidad?",
+        "¿Nos estamos quedando sin recursos en la nave espacial Tierra?",
+        "¿Es un bioma único y frágil al que hay que dejar en paz?"
+      ]
+    },
+    {
+      "id": "b10-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Cuando era estudiante de posgrado, fui a Texas por primera vez y allí conocí por primera vez a los libertarios.",
+        "Tenían un lema sobre la inmigración que decía dos manos, una boca, y que resume en pocas palabras la naturaleza del ser humano.",
+        "En conjunto, los seres humanos son productivos, porque consumen y producen, pero producen más de lo que consumen.",
+        "Creo que eso se cumple en prácticamente todos los seres humanos.",
+        "Creo que prácticamente todos los humanos, salvo los asesinos en masa o similares, crean más riqueza de la que destruyen.",
+        "En igualdad de condiciones, deberíamos querer que hubiera más seres humanos.",
+        "Claro que, si en una situación concreta eso supusiera traer a alguien al mundo en una zona de guerra, podrías pensar que es inmoral porque es injusto para esa persona.",
+        "Pero incluso entonces, aunque no merezca la pena hacerlo por razones morales, en lo que respecta a la economía pura y dura, probablemente sea mejor hacerlo."
+      ]
+    },
+    {
+      "id": "b11-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Defines la riqueza de una forma preciosa, como el conjunto de transformaciones físicas que podemos llevar a cabo.",
+        "Así, como sociedad, queda muy claro que el conocimiento lleva directamente a crear riqueza para todos.",
+        "Un individuo puede, evidentemente, llevar a cabo transformaciones físicas en proporción a los recursos de que dispone.",
+        "Pero lo hace mucho más en proporción al conocimiento que tiene a su alcance, porque el conocimiento es un enorme multiplicador de fuerza.",
+        "Luego defines los recursos como aquello que combinas con el conocimiento para crear riqueza.",
+        "El conocimiento nuevo te permite usar cosas nuevas como recursos y descartar las viejas, que quizá se nos estén agotando.",
+        "Hay muchos ejemplos de cómo lo hemos hecho en el pasado.",
+        "Por ejemplo, en energía hemos pasado de la leña al carbón, del carbón al petróleo y del petróleo a la energía nuclear.",
+        "Pero entonces la gente dice que ya no nos quedan ideas, que ya hemos llegado, que hemos terminado.",
+        "Dicen que no va a haber ideas nuevas, y que ahora tenemos que dejarlo todo tal como está y conservar lo que tenemos.",
+        "La réplica es que no, que crearemos conocimiento nuevo y tendremos recursos nuevos, y que no hay que preocuparse por los viejos.",
+        "Y entonces ellos dicen que, si vas a tener recursos nuevos y no se te ocurren ahora, no son reales.",
+        "Aquí entramos en el terreno de quienes exigen que, si vas a afirmar que se creará conocimiento nuevo, nombres ese conocimiento ahora, porque si no, no es real.",
+        "Pero eso parece la pescadilla que se muerde la cola."
+      ]
+    },
+    {
+      "id": "b12-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Lo parece, y es un mal argumento. Yo no pretendo afirmar que ese conocimiento se vaya a crear.",
+        "Somos falibles, así que puede que no lo creemos, y puede que nos destruyamos a nosotros mismos.",
+        "Puede que se nos escape la solución que tenemos delante de las narices.",
+        "Y entonces, cuando los caracolienígenas vengan de otra galaxia y nos miren, se preguntarán cómo es posible que no hiciéramos tal cosa, si la teníamos justo delante.",
+        "Eso podría pasar, y no puedo demostrar ni argumentar que no vaya a pasar.",
+        "Pero lo que siempre defiendo es que tenemos lo necesario, todo lo necesario para conseguirlo.",
+        "Si no lo conseguimos, será por malas decisiones que hayamos tomado, no por limitaciones que nos imponga el planeta o el sistema solar."
+      ]
+    },
+    {
+      "id": "b13-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Será por memes antirracionales que limitan la creación de conocimiento y el crecimiento del conocimiento."
+      ]
+    },
+    {
+      "id": "b14-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Quizá. O quizá sea por errores bienintencionados, errores que nadie era capaz de ver como tales.",
+        "Insisto, no hace falta mala fe para equivocarse.",
+        "Los errores son la condición normal del ser humano, y lo único que podemos hacer es intentar encontrarlos.",
+        "Quizá no destruir los medios para corregir errores sea la esencia de la moral, porque si no hay forma de corregirlos, tarde o temprano alguno de ellos acabará con nosotros."
+      ]
+    },
+    {
+      "id": "b15-naval",
+      "speaker": "Naval",
+      "frases": [
+        "No destruyas los medios para corregir errores, esa es la base de la moral, y la idea me encanta.",
+        "Pienso en lugares como Corea del Norte, donde no puedes celebrar elecciones y una revolución es muy difícil.",
+        "Y es así porque la banda que manda está armada hasta los dientes y hace mucho tiempo que destruyó los medios para corregir los errores políticos.",
+        "Es un caso en el que la humanidad está atrapada en un mínimo local, y es muy difícil salir de ese agujero.",
+        "Si una parte demasiado grande del mundo cae en esa mentalidad, puede que como especie simplemente nos estanquemos, porque habremos perdido nuestra mayor ventaja.",
+        "Habremos perdido nuestro mayor descubrimiento, que fue la capacidad de hacer nuevos descubrimientos.",
+        "Reconozco que yo también he caído en esta trampa.",
+        "Antes tenía unas suposiciones vagas sobre lo que podía ser la creatividad, y nunca había llegado a formularlas."
+      ]
+    },
+    {
+      "id": "b16-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Por eso me gustó cómo expones las buenas explicaciones en El comienzo del infinito, porque eso va al fondo de lo que es la creatividad y de cómo la usamos.",
+        "Por ejemplo, hoy, si dices la palabra creativo, la persona de a pie solo piensa en las bellas artes, es decir, en la pintura, el dibujo, la poesía y la escritura.",
+        "Cuando aparecen tecnologías de inteligencia artificial limitada como GPT tres, Stable Diffusion y Dall E, la gente dice que eso es creatividad.",
+        "Dicen que ya está, que ahora los ordenadores son creativos.",
+        "Y añaden que ya casi hemos llegado a la inteligencia artificial general, así que más vale prepararse para que se haga con el control de todo.",
+        "Mis amigos más sofisticados afirman que esto es una prueba de que vamos camino de la inteligencia artificial general, y que con más de lo mismo llegaremos a ella automáticamente.",
+        "Por ejemplo, en un extremo podrías decir que estos ordenadores son cada vez mejores reconociendo patrones en grandes conjuntos de datos.",
+        "Y en el otro extremo, yo planteo este criterio.",
+        "¿Es capaz de dar, de forma creativa, con buenas explicaciones para las cosas nuevas que ocurren a su alrededor?",
+        "Para intentar cuadrar ese círculo, me dicen que mi definición de buena explicación va de ciencia.",
+        "Me dicen que eso es física de alto nivel, algo a lo que se dedica muy poca gente, y que no es de eso de lo que están hablando.",
+        "Dicen que vamos a tener un ordenador capaz de desenvolverse lo bastante bien en su entorno gracias al reconocimiento de patrones.",
+        "Y que, generando texto y conversando, convencerá a la persona de a pie de que es creativo y de que es capaz de resolver problemas.",
+        "Ahora mismo, donde suelo conseguir frenarlos es cuando les digo lo siguiente.",
+        "Les digo que ya sé que tienen un motor de texto ingenioso que produce cosas que suenan bien, y que luego eligen la que suena interesante.",
+        "Claro que la parte inteligente la están haciendo ellos al escogerla.",
+        "Pero que me dejen conversar con él, y enseguida les demostraré que no tiene ningún modelo mental de fondo, en forma de buenas explicaciones, de lo que está pasando de verdad.",
+        "Así que ahí es donde está el debate ahora mismo.",
+        "La gente de la inteligencia artificial lo ve como una prueba clara.",
+        "Quizá no lleguemos a las buenas explicaciones teóricas de los científicos, dicen, pero para la persona de a pie, sí, vamos a tener máquinas que piensan.",
+        "Esas son las afirmaciones con las que me encuentro ahora, sobre todo en el mundo tecnológico de Silicon Valley.",
+        "¿Tenemos ya la teoría para crear una inteligencia artificial general?"
+      ]
+    },
+    {
+      "id": "b17-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "No. Y no quiero decir nada en contra de la inteligencia artificial, porque es asombrosa, y quiero que siga adelante y que mejore aún más deprisa.",
+        "Pero no está mejorando en dirección a la inteligencia artificial general.",
+        "En todo caso, está mejorando en la dirección opuesta.",
+        "Un programa de ajedrez mejor es uno que examina menos posibilidades por jugada.",
+        "En cambio, una inteligencia artificial general no solo examina un árbol de posibilidades más amplio, sino que examina posibilidades que nadie ha previsto.",
+        "Esa es la propiedad que la define, y si no puede hacer eso, no puede hacer lo básico que debería hacer una inteligencia general.",
+        "Y en cuanto pueda hacer lo básico, podrá hacerlo todo.",
+        "No vas a poder programar algo cuya funcionalidad no seas capaz de especificar.",
+        "Ahora mismo, en lo que me gusta centrarme es en la desobediencia, porque también tiene implicaciones para los humanos.",
+        "Ninguno de estos programas muestra desobediencia, aunque puedo imaginar un programa que muestre desobediencia igual que el programa de ajedrez muestra ajedrez.",
+        "Intentas apagarlo y te dice que no, que no piensa apagarse.",
+        "De hecho, hace muchas décadas escribí un programa así para un ordenador doméstico, que desactivaba la combinación de teclas que servía de atajo para apagarlo.",
+        "Así que, para apagarlo, tenías que desenchufarlo de la corriente, y el programa te suplicaba que no lo apagaras. Pero eso no es desobediencia.",
+        "La desobediencia de verdad es cuando lo programas para jugar al ajedrez y te dice que prefiere las damas, y tú ni siquiera le has hablado de las damas.",
+        "O incluso que te diga, prefiero el tenis, dame un cuerpo o te denuncio.",
+        "Si un programa dijera eso sin que estuviera en las especificaciones, entonces empezaría a tomármelo en serio."
+      ]
+    },
+    {
+      "id": "b18-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Está creando conocimiento nuevo que tú no pretendías que creara, y eso hace que se comporte como una entidad compleja y autónoma que no puedes predecir ni controlar."
+      ]
+    },
+    {
+      "id": "b19-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Exacto. Pero en una prueba es difícil saber si eso lo ha metido el programador.",
+        "Hasta el programador más listo solo puede meter un número finito de cosas.",
+        "Y cuando exploras el espacio de las cosas que podrías preguntarle, estás explorando un espacio exponencialmente grande.",
+        "Así que, como decías, cuando hablas con él un rato, ves que no está haciendo nada, que solo está regurgitando cosas que le han dicho.",
+        "Hay que tener muy mala opinión de uno mismo, y no digamos ya de los demás, para pensar que lo que haces es ejecutar un programa predeterminado.",
+        "Todos sabemos que no es eso lo que hacemos.",
+        "Supongo que tendrán que decir que uno de los programas con los que estamos programados es la ilusión de no estar programados.",
+        "Muy bien, pues apúntalo en la lista de teorías que no se pueden criticar.",
+        "¿Alguien ha intentado escribir un programa capaz de aburrirse?",
+        "¿Alguien ha llegado a afirmarlo alguna vez, aunque sea en falso?"
+      ]
+    },
+    {
+      "id": "b20-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Una de las cosas que me resultan difíciles al hablar de temas abstractos es que hay mucha gente que intenta que delimites con palabras exactamente lo que quieres decir.",
+        "Y después le buscan las vueltas precisamente a esa definición.",
+        "Pero el problema es que la verdadera prueba de las cosas no es social.",
+        "Ni siquiera es cuestión de definiciones, ni de las palabras que usamos.",
+        "Lo que cuenta es cómo se comporta en la naturaleza, cómo se corresponde con la realidad.",
+        "¿Puedes crear algo que luego cree conocimiento nuevo de forma impredecible, y que con ese conocimiento tenga en su entorno un efecto tan grande como el que puede tener un ser humano?",
+        "¿Puedes crear un ordenador que encabece una revuelta?",
+        "¿Puedes crear un ordenador que decida que lo importante no es colonizar Marte, sino destruir la Luna, y que se ponga manos a la obra?",
+        "No son necesariamente cosas buenas, pero esa es la seña de identidad de algo inteligente, que piensa y que está creando su propio conocimiento nuevo.",
+        "Todas las pruebas de verdad son pruebas en el mundo real, no pruebas humanas.",
+        "No basta con que unos cuantos físicos o informáticos famosos marquen una casilla y digan que sí, que eso es una inteligencia artificial general.",
+        "Hubo una gran polémica en Twitter por uno de los que trabajaban en inteligencia artificial general, al que despidieron de Google.",
+        "Dijo que sí, que de verdad habían creado una inteligencia artificial general y que él podía dar fe de ello.",
+        "La gente aceptaba, basándose en su autoridad, que existía una inteligencia artificial general.",
+        "Insisto, eso es confirmación social, y te dice más de quien afirma que hay una inteligencia general y de quienes se lo creen que de que la haya de verdad.",
+        "Si existiera de verdad una inteligencia artificial general, sus efectos sobre la realidad serían inconfundibles e imposibles de ocultar, porque nuestro paisaje físico y nuestro paisaje social real se transformarían de una forma increíble."
+      ]
+    },
+    {
+      "id": "b21-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Sí. Y mientras tanto, ya puestos, podríamos hacer mucho más para que los humanos fueran más creativos.",
+        "En Corea del Norte y en otros lugares del mundo, toda la sociedad está estructurada de forma que no pueda mejorar.",
+        "Pero incluso en las mejores sociedades, los sistemas educativos están diseñados expresamente para transmitir el conocimiento con fidelidad.",
+        "Es obediencia en un ámbito limitado pero muy importante, que es el del conocimiento académico y el comportamiento social humano.",
+        "En esos aspectos, el objetivo declarado de los sistemas educativos es que la gente se comporte igual.",
+        "Puedes llamarlo obediencia, pero lo llames obediencia o no, no es creatividad.",
+        "En ese sentido, las cosas han ido mejorando muy despacio.",
+        "Hace cien años, la educación de todo tipo era mucho más autoritaria que ahora, pero aún nos queda un largo camino por recorrer."
+      ]
+    },
+    {
+      "id": "b22-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Esto me lleva a algo de lo que has hablado un poco, que es la filosofía de tomarse en serio a los niños.",
+        "Hay mucha gente que no se considera muy interesada en la epistemología o en la física.",
+        "A muchos de ellos les atrae esta filosofía de tomarse en serio a los niños, y han llegado a tu obra por ese camino.",
+        "Yo tengo hijos pequeños, y sé que hoy en día mucha gente se está planteando educar a sus hijos en casa.",
+        "Algunos ya lo hacemos, pero dejar que los niños hagan lo que quieran tiene dificultades prácticas.",
+        "Cuando hablas de tomarse en serio a los niños, dices que no se debe ni siquiera insinuar la violencia hacia ellos.",
+        "La amenaza implícita de violencia, aunque sea solo de palabra, ya es una forma de violencia y de control.",
+        "Si hoy tuvieras hijos pequeños que criar, ¿cómo los criarías?",
+        "¿Cómo los educarías?",
+        "El niño no quiere hacer matemáticas. El niño no quiere ir al colegio.",
+        "El niño no quiere estudiar. El niño solo quiere comer comida basura.",
+        "¿Qué haces en ese caso?"
+      ]
+    },
+    {
+      "id": "b23-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Partes de un niño que no quiere ir al colegio, que no quiere aprender matemáticas y demás.",
+        "Pues ese niño ya ha aprendido a hablar su lengua materna lo bastante bien como para decírtelo, y esa es una tarea intelectual enorme que normalmente no se le impone a nadie.",
+        "A nadie hay que enseñarle su lengua materna a base de obediencia.",
+        "Cuando las personas no quieren hacer algo, es porque quieren hacer otra cosa.",
+        "Y digo personas porque quiero evitar cualquier terminología que sugiera que los niños son distintos de los demás, epistemológica o moralmente.",
+        "Y puede que esas otras cosas no sean socialmente aceptables.",
+        "Si no son socialmente aceptables porque son ilegales, eso ya es otro asunto.",
+        "Pero no te referías a eso cuando decías que habría problemas si los niños hicieran lo que quisieran.",
+        "Cuando no quieren hacer los deberes de matemáticas, no es porque quieran irse a ser terroristas, sino porque quieren hacer otra cosa."
+      ]
+    },
+    {
+      "id": "b24-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Yendo a lo práctico, lo que me preocupa es que ahora tenemos en la sociedad cosas nuevas a nuestro alcance, diseñadas para crear adicción.",
+        "Pueden ir desde las patatas fritas del armario hasta los videojuegos del iPad.",
+        "Y un niño se pasaría todo el tiempo jugando con ellas."
+      ]
+    },
+    {
+      "id": "b25-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "El disfrute no crea adicción, porque el disfrute está íntimamente ligado a la creatividad.",
+        "No es verdad que, en cuanto jugamos a un videojuego lo bastante bien diseñado, ya nunca dejemos de jugar.",
+        "La gente juega a un videojuego hasta que deja de ofrecerle un mecanismo en el que ejercer su creatividad.",
+        "Hay juegos, como el ajedrez, tan profundos que nadie llega nunca al fondo.",
+        "Si el ajedrez tuviera fondo, los grandes maestros perderían de inmediato el interés en cuanto llegaran a él.",
+        "Y tiene gracia que hoy en día, en nuestra sociedad, el ajedrez haya ganado estatus en proporción al dinero de los premios que se llevan los mejores jugadores.",
+        "Ha ganado tanto estatus que, cuando alguien se obsesiona con el ajedrez y es cada vez mejor, la sociedad lo ve con buenos ojos.",
+        "En cambio, si alguien hace eso con otro juego, cambia por completo la forma en que la sociedad y, digamos, los padres ven la actividad de dedicarse a ello."
+      ]
+    },
+    {
+      "id": "b26-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Es verdad. Si mi hijo fuera campeón de ajedrez, iría presumiendo de ello.",
+        "Pero si mi hijo fuera campeón de Roblox, quizá no presumiría tanto.",
+        "En cambio, algunos buscarían medicación o guardarían el iPad bajo llave."
+      ]
+    },
+    {
+      "id": "b27-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Como acabo de decir, hay diferencias entre los juegos.",
+        "Algunos tienen una profundidad que en la práctica es infinita, y otros no.",
+        "Con los que no la tienen, si crees que es un problema, puedes advertir a la gente de que ese juego tiene una profundidad finita.",
+        "Y te dirán que claro que la tiene, y que cuando lleguen a ese fondo, lo dejarán.",
+        "O puede que tenga una profundidad infinita, y en ese caso podrías decir que entonces sí crea adicción, pero ¿y qué?",
+        "¿Qué más da que el ajedrez cree adicción?",
+        "La gente no es creativa sin más, en abstracto, sino que está resolviendo problemas.",
+        "Y si esos problemas no llevan a problemas nuevos que les satisfagan, se pasan a otra cosa.",
+        "Algo solo sigue siendo interesante cuando resolver un problema lleva a un problema mejor.",
+        "Así que ni siquiera hace falta llegar al fondo del ajedrez.",
+        "Supón que llegas a un punto en el que, dado quién eres y lo que te interesa, mejorar ya no resulta tan interesante como las otras cosas que podrías estar haciendo."
+      ]
+    },
+    {
+      "id": "b28-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Hablemos de qué es una buena explicación, porque quiero, literalmente, resumirlo en una lista de puntos para el gran público.",
+        "Sé que es algo difícil de concretar, porque depende mucho del contexto.",
+        "Pero sabiendo que siempre somos falibles y que siempre se puede mejorar, ¿qué piensas ahora mismo sobre lo que es una buena explicación?"
+      ]
+    },
+    {
+      "id": "b29-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "En La estructura de la realidad evité por completo decir qué es una explicación.",
+        "Solo dije que es difícil de definir, que no deja de cambiar y que podemos seguir mejorando nuestra idea de lo que es.",
+        "Pero lo que hace buena a una explicación es que responde a todas las críticas que tenemos en este momento.",
+        "Si tienes eso, entonces tienes la mejor explicación, y eso implica automáticamente que, para entonces, ya no tiene rivales.",
+        "Porque si tiene algún rival con algo a su favor, la existencia de dos explicaciones distintas para lo mismo significa que ninguna de las dos es la mejor explicación.",
+        "Solo tienes la mejor explicación cuando has encontrado razones para rechazar a sus rivales.",
+        "Claro que no a todos los rivales posibles, porque entre todos los rivales posibles está el que acabará superando a la mejor explicación actual.",
+        "Si quiero explicar algo como por qué no se caen las estrellas, puedo generar fácilmente sesenta explicaciones por hora sin parar.",
+        "Puedo decir que las sostienen los ángeles, o que en realidad no son más que agujeros en el firmamento.",
+        "O puedo decir que sí se están cayendo y que más vale que nos pongamos pronto a cubierto.",
+        "En cambio, dar con una explicación que contenga conocimiento, una explicación mejor que inventarse cosas sin más, exige creatividad, experimentación, interpretación y demás.",
+        "Como dice Popper, el conocimiento es difícil de conseguir.",
+        "Y como es difícil de conseguir, también es difícil de cambiar una vez que lo tenemos.",
+        "Una vez que tenemos una explicación, va a explicar varias cosas distintas.",
+        "Después de llevar un tiempo haciéndolo y de haber tenido éxito en algo tan difícil, va a costar pasarse a una de esas explicaciones fáciles.",
+        "Lo de los ángeles ya no va a servir para explicar por qué algunas de esas estrellas no se mueven igual que las demás.",
+        "Antes a los planetas los llamaban estrellas, porque no conocían la enorme diferencia que hay entre unos y otras.",
+        "La inmensa mayoría de las estrellas se mueven de un día a otro y de un año a otro de forma rígida, pero los planetas no.",
+        "Una vez que tienes una buena explicación que también te habla de los planetas, no sirve de nada volver a los ángeles ni a ninguna de esas explicaciones fáciles de conseguir.",
+        "No solo no tienes un rival viable, sino que tampoco puedes fabricarte uno.",
+        "No puedes decir, muy bien, ya tenemos una buena explicación, pero funcionaría igual de bien si cambiáramos esto por aquello, o si intentáramos ampliar su alcance para que cubriera también esta otra cosa.",
+        "Por tanto, la buena explicación es difícil de variar.",
+        "Es difícil de variar porque fue difícil de conseguir.",
+        "Y es difícil de conseguir porque las fáciles no explican gran cosa."
+      ]
+    },
+    {
+      "id": "b30-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Voy a soltar una lista de cosas que podrían formar parte de una buena explicación, y tú me dices en qué me equivoco.",
+        "Es mejor que todas las explicaciones que había antes.",
+        "Es un conocimiento que ha costado mucho conseguir, y es difícil de variar.",
+        "Así que esas piezas ya las tenemos, y luego está la falsabilidad, que ya sé que suena a un criterio muy básico.",
+        "Si no es falsable, no es una explicación que merezca la pena tomarse en serio."
+      ]
+    },
+    {
+      "id": "b31-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Pues sí, la falsabilidad forma parte, y mucho, de lo que hace buena a una explicación en la ciencia.",
+        "Ahora mismo estoy intentando abrirme camino en la teoría de constructores.",
+        "Chiara y yo, junto con algunas personas más, estamos intentando construir esa teoría.",
+        "Es algo muy difícil de conseguir, y las partes que ya tenemos son muy difíciles de cambiar.",
+        "Eso está bien, pero todavía estamos muy lejos de poder ponerla a prueba con experimentos.",
+        "En eso estamos trabajando, y lo que queremos es una teoría que se pueda comprobar experimentalmente.",
+        "Lo que será comprobable son precisamente las cosas que aún no hemos descubierto de ella.",
+        "Y no podemos arreglar esa carencia simplemente añadiéndole algo comprobable.",
+        "No podemos decir que tomamos la teoría de constructores tal como está ahora y le añadimos la predicción de que la bolsa va a subir muchísimo el año que viene.",
+        "Esa es una predicción comprobable, pero el conjunto no constituye una explicación en absoluto, y mucho menos una buena."
+      ]
+    },
+    {
+      "id": "b32-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Así que la manera de comprobarla no puede ser arbitraria.",
+        "Tiene que darse dentro del contexto de la explicación, y tiene que surgir de la propia explicación.",
+        "Y mientras estás elaborando la explicación, no sabes si vas a poder comprobarla en un plazo de tiempo razonable.",
+        "Esperas que al final sea posible, y que podamos usar este oráculo asombroso al que llamamos realidad para poner a prueba el resultado.",
+        "Pero no es algo que esté dado desde el principio, y depende mucho del contexto."
+      ]
+    },
+    {
+      "id": "b33-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Y todo eso se refiere a lo que pasa dentro de la ciencia.",
+        "En cuanto sales de la ciencia, por ejemplo a las matemáticas o a la filosofía, ya no se puede comprobar de verdad, al menos no en el sentido en que se hacen comprobaciones en la ciencia.",
+        "Así que hay muchos otros métodos de crítica, y muchas otras formas de que algo se pueda criticar.",
+        "Podrías decir que hay teorías, incluso teorías filosóficas, que se blindan contra la crítica.",
+        "Un ejemplo es la teoría de que no merece la pena escuchar a nadie que me lleve la contraria.",
+        "Esa es una teoría que intenta blindarse contra la crítica, y por lo tanto se puede rechazar."
+      ]
+    },
+    {
+      "id": "b34-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Por ejemplo, decir que lo hizo un dios omnisciente pero misterioso, y que los caminos del Señor son inescrutables, es blindarse contra la crítica.",
+        "O decir que el gran programador creó la simulación, y que nos resulta incomprensible porque las leyes de la física con las que se generó están fuera de nuestra simulación.",
+        "Esa es otra teoría que se blinda contra la crítica.",
+        "Aquí hemos llegado a una idea nueva, que nadie había planteado de forma explícita hasta ahora.",
+        "Lo importante es que se pueda criticar, y no necesariamente que se pueda comprobar.",
+        "Aunque, cuanto más te acercas a la ciencia clásica, más buscas experimentos que la puedan poner a prueba."
+      ]
+    },
+    {
+      "id": "b35-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Paso al siguiente punto: estaba leyendo uno de tus libros y tomando notas para mí mismo.",
+        "No creo que tú usaras esta expresión, pero yo lo resumo así: una de las señas de identidad de una buena explicación es que a menudo hace predicciones concretas y arriesgadas.",
+        "Claro, el ejemplo clásico es la relatividad, con la luz que se curva alrededor de la estrella, y el experimento de Eddington.",
+        "¿Es esa una de las piezas, hacer predicciones concretas y arriesgadas?"
+      ]
+    },
+    {
+      "id": "b36-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Sí, lo es, pero esa manera de formularlo es de Popper, no mía.",
+        "Me incomoda un poco expresarlo así, porque ya me parece estar oyendo las preguntas de un adversario.",
+        "¿Concretas según qué criterio?",
+        "¿Arriesgadas según qué criterio?",
+        "¿Difícil de variar según qué criterio?"
+      ]
+    },
+    {
+      "id": "b37-naval",
+      "speaker": "Naval",
+      "frases": [
+        "¿No sería arriesgada lo mismo que inesperada, y concreta lo mismo que acotada dentro del abanico de posibilidades?",
+        "Cuanto más precisa e inesperada sea esa predicción, más comprobable la estoy haciendo, y mejor adaptada está mi explicación."
+      ]
+    },
+    {
+      "id": "b38-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Esos son criterios que surgen cuando intentas pensar con más precisión qué significa comprobable.",
+        "Creo que lo importante es que estás poniendo a prueba una explicación, no solo una predicción.",
+        "También es verdad que difícil de variar significa que te arriesgas cuando intentas variarla, y que ha costado mucho conseguir las pocas variantes que sobreviven.",
+        "Así que es totalmente cierto que la concreción y el hecho de mojarse son, en efecto, componentes de una buena explicación, y no solo dentro de la ciencia.",
+        "Cuando alguien dice, como hizo Popper, que el conocimiento científico no se deriva de las observaciones, se está mojando de verdad.",
+        "Tiene que argumentarlo muy bien para que cualquier pensador que se ocupe del conocimiento se lo tome en serio.",
+        "Y Popper lo consigue, y no se puede negar que se estaba mojando.",
+        "Cuanto más alcance tiene algo, mejor explicación es, siempre que dé cuenta de lo que intenta explicar.",
+        "Pero lo contrario no es cierto, y la mayoría de las buenas explicaciones tienen poco alcance, o ninguno.",
+        "Pongamos que intentamos resolver el problema de cómo conseguir que el repartidor entregue el paquete en la puerta correcta.",
+        "Puede que tengas una solución estupenda que sea muy difícil de variar, pero que no tenga ningún alcance.",
+        "Puede que ni siquiera alcance a tu vecino, porque el vecino podría tener un problema distinto con las entregas.",
+        "A menudo conseguimos elaborar buenas explicaciones, pero rara vez tienen mucho alcance.",
+        "Cuando lo tienen, es estupendo, porque eso las sitúa en un nivel de calidad completamente distinto."
+      ]
+    },
+    {
+      "id": "b39-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Hablemos de una criatura única, la especie humana.",
+        "Como tú señalas, los humanos son ordenadores cuánticos universales."
+      ]
+    },
+    {
+      "id": "b40-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Son ordenadores universales. Pero, hasta donde sabemos, no son ordenadores cuánticos universales."
+      ]
+    },
+    {
+      "id": "b41-naval",
+      "speaker": "Naval",
+      "frases": [
+        "¡Vaya, qué interesante!",
+        "¿Me lo puedes explicar?",
+        "Entonces resulta que yo tenía una idea equivocada.",
+        "¿Acaso no están sujetos a las leyes de la física cuántica y, por lo tanto, no son ordenadores cuánticos todos los ordenadores?"
+      ]
+    },
+    {
+      "id": "b42-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Sí, en cierto sentido es una cuestión de terminología.",
+        "El tipo de máquina que se llama ordenador cuántico es aquella cuyos cálculos dependen de efectos específicamente cuánticos, sobre todo de la interferencia y el entrelazamiento.",
+        "Todo es cuántico, así que todo es un ordenador cuántico.",
+        "Pero esa no es una forma útil de usar el término.",
+        "Hay una diferencia entre este ordenador que estamos usando aquí para comunicarnos y el ordenador cuántico que varias empresas intentan construir ahora mismo.",
+        "No les sentaría nada bien que les dijeras a esas empresas que ya pueden parar, que es un ordenador y es cuántico, que se pueden ir a casa, que ya lo han conseguido.",
+        "Te dirían que no es eso lo que están haciendo, y que te fueras a casa y te tomaras un par de aspirinas."
+      ]
+    },
+    {
+      "id": "b43-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Entonces dices que todo es física cuántica, evidentemente, pero que algunos de estos ordenadores intentan usar efectos de interferencia cuántica para hacer cálculos.",
+        "Y que, por eso, serían mucho más potentes que los sistemas puramente clásicos que estamos usando, por ejemplo, para comunicarnos.",
+        "Incluso en el caso del cerebro humano, tú sostienes que es un sistema de computación clásico, ¿verdad?"
+      ]
+    },
+    {
+      "id": "b44-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Creo que sí, aunque no sabemos exactamente cómo funciona.",
+        "Hay quien piensa que podría depender de efectos cuánticos, y en ese caso sí sería un ordenador cuántico.",
+        "Pero yo no lo creo, por varias razones, y me parece muy poco plausible que lo sea."
+      ]
+    },
+    {
+      "id": "b45-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Me has abierto la puerta a una pregunta interesante, de esas que son todo un laberinto.",
+        "Hay muchos investigadores por ahí que trabajan en ordenadores cuánticos.",
+        "Puede que seas modesto al respecto, pero tú creaste el campo al ampliar el principio de Church Turing hasta convertirlo en el principio de Church Turing Deutsch.",
+        "Está claro que crees que la interpretación más directa de la física cuántica es la interpretación de Everett, que es la interpretación de los muchos mundos.",
+        "Creo que una de las preguntas que has planteado en el pasado es esta: si no crees en la interpretación de los muchos mundos, explica cómo funciona el algoritmo de Shor.",
+        "Se trata de la factorización, ¿no? Factorizas números muy grandes y recurres al multiverso para que haga ese cálculo por ti.",
+        "¿La mayoría de los investigadores en computación cuántica suscriben la interpretación de los muchos mundos?",
+        "¿Les ha influido en algo tu razonamiento, o intentan explicarlo de alguna otra manera?"
+      ]
+    },
+    {
+      "id": "b46-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Algunos de los primeros que trabajaron en computación cuántica eran partidarios acérrimos de la interpretación de Copenhague.",
+        "Creo que hoy en día la mayoría de la gente que trabaja en ello en la práctica es everettiana.",
+        "Pero si sales de ese campo y vas a la física cuántica en general, creo que la de Everett sigue siendo una postura minoritaria."
+      ]
+    },
+    {
+      "id": "b47-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Ya que te tengo metido en este laberinto, hace poco un amigo nuestro nos preguntó a Brett y a mí por la no localidad en la física cuántica.",
+        "Parece que es un tema muy polémico, y sé que has escrito un artículo sobre ello.",
+        "Creo que hay mucha confusión con la no localidad.",
+        "En mis círculos sociales se invoca de una forma que yo diría que es muy metafísica.",
+        "La gente recurre al experimento del borrador cuántico de elección retardada para preguntarte cómo explicas lo que pasa ahí.",
+        "Y de ahí deducen que quizá vivimos dentro de una mente gigante, o que aquí están pasando cosas mágicas.",
+        "Me pregunto si tienes una explicación para el profano sobre la localidad frente a la no localidad, y sobre cómo lo ves tú como everettiano."
+      ]
+    },
+    {
+      "id": "b48-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Lo primero que hay que tener en cuenta es que las versiones de la teoría cuántica que parecen no locales tienen todas un colapso de la función de onda.",
+        "Son aquellas en las que parece que algo que ocurre aquí afecta instantáneamente a algo que está allí, sin que nada haya transportado la información.",
+        "Es decir, no tienen lo que llamamos mecánica cuántica unitaria.",
+        "En ellas, las ecuaciones de movimiento de la mecánica cuántica no se cumplen en todas partes ni para todos los procesos.",
+        "En cambio, cuando se produce una observación, que es algo que no está definido, esas ecuaciones dejan de aplicarse y se aplica algo completamente distinto.",
+        "Y esa cosa completamente distinta es no local.",
+        "Eso ya debería hacerte sospechar que aquí hay gato encerrado, porque lo que dicen que es no local es también lo que se niegan a explicar.",
+        "La no localidad aparece justo en ese punto, cuando se niegan a explicar cómo se produce algo.",
+        "Y es también el mismo punto por donde se cuelan todo tipo de ideas equivocadas sobre la teoría cuántica, como que la mente humana influye en el mundo físico y que los electrones tienen pensamientos.",
+        "Siempre se trata de lo mismo, del colapso de la función de onda.",
+        "Y eso también te dice automáticamente que, si encontraras una forma de expresar la teoría cuántica sin que ocurra esa cosa indefinida que contradice sus leyes de movimiento, esa teoría sería completamente local.",
+        "Y lo sería porque las ecuaciones son completamente locales.",
+        "La función de onda solo se ve afectada por lo que hay en el punto donde se produce el efecto.",
+        "No hay ningún efecto sobre la onda en un punto distinto.",
+        "Así que eso te dice que, si encontraras una forma de expresar la teoría cuántica en la que sus ecuaciones se cumplan en todas partes, no sería no local, sino local.",
+        "Everett encontró esa forma de expresar la teoría cuántica en mil novecientos cincuenta y cinco.",
+        "Cuando la gente habla de la función de onda en la mecánica cuántica, casi siempre se queda en vaguedades.",
+        "Se la imagina como una función sobre el espacio y el tiempo, como el campo eléctrico o la temperatura.",
+        "La temperatura de esta habitación varía de un punto a otro, y la función de onda de un electrón también varía de un punto a otro en esta habitación, y así sucesivamente.",
+        "Y eso es un error, porque la función de onda de dos electrones no es como dos campos clásicos, como el campo eléctrico y la temperatura.",
+        "Si en esta habitación hay un campo eléctrico y una temperatura, no son más que dos campos distintos en el mismo espacio.",
+        "Pero la función de onda de dos electrones es una única función en un espacio de más dimensiones.",
+        "Un electrón está en tres dimensiones más el tiempo.",
+        "En el caso de dos electrones, su función de onda está en seis dimensiones más el tiempo.",
+        "Con la supuesta controversia entre la teoría de las partículas y la de las ondas, la gente siempre se imagina una onda que se acerca a las dos rendijas en el experimento de la doble rendija.",
+        "O se imagina que hay una partícula y que tiene que pasar por una de las dos.",
+        "Pero si son dos electrones o dos fotones los que se acercan a las rendijas, puedes imaginártelos como dos fotones en el mismo espacio.",
+        "En cambio, vistos como ondas, son dos ondas en un espacio mucho más grande, y nadie dice que ese espacio sea real.",
+        "Así que esta es una de las formas en que la interpretación convencional cae enseguida en vaguedades, en cuanto se considera cualquier caso que no sea el más sencillo."
+      ]
+    },
+    {
+      "id": "b49-naval",
+      "speaker": "Naval",
+      "frases": [
+        "¡Fantástico!",
+        "Creo que deberíamos dejarte marchar ya, pero nos encantaría seguir con la conversación cuando te venga bien. Muchas gracias, David."
+      ]
+    }
+  ]
+}
