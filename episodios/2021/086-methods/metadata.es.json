@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 86,
+  "anio": 2021,
+  "slug": "methods",
+  "titulo_es": "Los métodos de las matemáticas son falibles",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Los métodos de las matemáticas son falibles",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). 086 Los métodos de las matemáticas son falibles. Terminología del brief brett_deutsch: verdad necesaria, objeto de estudio, demostrar (no probar), modelo estándar, teoría de cuerdas, bosones gauge, falible. El titulo_seccion del inglés es media frase (Even if the subject matter is not) y se completa como propone el brief: Aunque su objeto de estudio no lo sea. Erratas del inglés, que no se ha tocado, traducidas por el sentido: en el bloque 1, «quarks are fundamental and electrons and fundamental» se traduce como «los quarks son fundamentales, y los electrones también»; «So, too in mathematics.», que no tiene verbo, queda como «Lo mismo pasa en las matemáticas.». Las rayas del inglés (a brain, which is a physical object…) se resuelven con subordinadas y una frase aparte. «Resolve», en el sentido de la resolución de un acelerador, se traduce «distinguir». En la revisión se dio sujeto a las frases que no se entendían solas (Este modelo describe…, un matemático puede tener los despistes…), y «mathematics is capable of error» pasó a «las matemáticas pueden contener errores» (las matemáticas no se equivocan; quien se equivoca es el matemático). El validador da un aviso informativo sobre el hablante Brett: es el hablante correcto en esta serie y no se puede quitar sin cambiar el speaker. Nombres para escuchar antes de sintetizar: Deutsch, quarks, bosones gauge. Ningún bloque fuera de 0,85 a 1,45 (ratio total 1,14)."
+}

@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2021/086-methods",
+  "numero": 86,
+  "fecha": "2021-04-05",
+  "titulo": "Los métodos de las matemáticas son falibles",
+  "subtitulo": "Aunque su objeto de estudio no lo sea",
+  "fuente_url": "https://nav.al/methods",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-brett",
+      "speaker": "Brett",
+      "frases": [
+        "Si comparo las matemáticas con la física, tenemos este campo que se llama física de partículas, y la teoría más profunda que tenemos en él se llama modelo estándar.",
+        "Este modelo describe todas las partículas fundamentales que existen y las interacciones entre ellas, es decir, las fuerzas que actúan entre ellas.",
+        "También describe los bosones gauge, que transmiten la fuerza entre partículas como los electrones, los protones y los neutrones.",
+        "Ahora bien, ¿de qué está hecha la materia?",
+        "Diríamos que la materia está hecha de estas partículas que describe el modelo estándar de la física.",
+        "Pero ¿eso descarta que estas partículas fundamentales puedan estar formadas, a su vez, por partículas aún más pequeñas?",
+        "Tenemos una teoría que quizá sea más profunda, que se llama teoría de cuerdas.",
+        "Así que una cosa es lo que sabemos sobre cuáles son las partículas más fundamentales, y otra distinta es cuáles son, en la realidad, las partículas más fundamentales.",
+        "Lo mismo pasa en las matemáticas. Deutsch explica que las matemáticas son un campo en el que lo que intentamos descubrir es la verdad necesaria.",
+        "El objeto de estudio de las matemáticas es la verdad necesaria, del mismo modo que el objeto de estudio de la física de partículas son las partículas fundamentales.",
+        "Pero que el objeto de estudio de la física de partículas fundamentales sean las partículas fundamentales no significa que de verdad encuentres las partículas fundamentales.",
+        "Lo único que significa es que has encontrado las partículas más pequeñas que tus mayores aceleradores de partículas son capaces de distinguir.",
+        "Pero si tuvieras un acelerador de partículas aún más grande, podrías encontrar partículas dentro de esas partículas.",
+        "Esa ha sido la historia de la física de partículas.",
+        "Antes pensábamos que los átomos eran fundamentales, y luego, por supuesto, descubrimos que contenían núcleos y electrones.",
+        "Dentro de los núcleos, descubrimos que había protones y neutrones.",
+        "Y al mirar dentro de los protones y los neutrones, descubrimos que estaban formados por quarks.",
+        "Y ahí es donde estamos ahora mismo, en el punto en el que decimos que los quarks son fundamentales, y los electrones también.",
+        "Pero eso no significa que vayamos a dar por terminada la física de partículas ya.",
+        "Lo que necesitamos son nuevas teorías sobre lo que podría haber dentro de esas partículas tan pequeñas.",
+        "Si comparamos eso con las matemáticas, si la verdad necesaria es su objeto de estudio, entonces los matemáticos se dedican a crear conocimiento sobre la verdad necesaria.",
+        "Un matemático tiene un cerebro, que es un objeto físico, y todos los objetos físicos están expuestos a errores por degradación, debido a la segunda ley de la termodinámica.",
+        "O, sencillamente, un matemático puede tener los despistes y los errores mentales de siempre, los que comete cualquier ser humano.",
+        "Por eso un matemático es tan falible como cualquier otra persona.",
+        "Así que lo que acaba demostrando podría contener un error."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Si entiendo bien este punto, hasta las matemáticas pueden contener errores, porque las matemáticas son un acto creativo.",
+        "Nunca terminamos del todo. Podría haber habido un error en alguno de tus axiomas."
+      ]
+    }
+  ]
+}
