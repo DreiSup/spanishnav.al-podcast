@@ -46,3 +46,4 @@ abiertas («…talk about sex.» sin «”»). Afecta solo al inglés, que no se
 | 2026-11-03 | 066 Groups Search for Consensus, Individuals Search for Truth | revision | 3 | 20 | 369 | 2,2 | Cero avisos |
 | 2026-11-03 | 067 The Path to Peace Is Truth | revision | 3 | 17 | 312 | 1,8 | Cero avisos |
 | 2026-11-03 | 063 Finding Peace from Mind | revision | 4 | 24 | 408 | 2,4 | Cero avisos. Paz frente a la mente (opción C del autor); A come a B resuelto con palabras |
+| 2026-11-03 | 064 Happiness Is Peace in Motion | revision | 4 | 26 | 398 | 2,3 | Cero avisos. Paz frente a la mente (opción C del autor) |

@@ -1,0 +1,67 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2020/064-peace-motion",
+  "numero": 64,
+  "fecha": "2020-03-05",
+  "titulo": "La felicidad es paz en movimiento",
+  "subtitulo": "La paz es felicidad en reposo",
+  "fuente_url": "https://nav.al/peace-motion",
+  "titulos_seccion": [
+    "El estrés es la incapacidad de decidir qué es importante",
+    "La paz es felicidad en reposo",
+    "No puedes trabajar para conseguir la paz, solo para comprender"
+  ],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "En algunos aspectos, la vida moderna es más ajetreada que en la prehistoria, y nuestras fuentes de estrés son más crónicas.",
+        "Definamos el estrés, que en términos físicos se produce cuando algo quiere estar en dos sitios a la vez.",
+        "Si aplico presión a los dos extremos de una viga de hierro, creo tensión en la viga, porque una parte quiere ir al norte y la otra al sur."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "En términos mentales, el estrés es la incapacidad de decidir qué es importante.",
+        "Quieres dos cosas incompatibles a la vez, quiero relajarme pero tengo que trabajar, y ya estoy estresado.",
+        "Cuando renuncias a algo, deja de estresarte, y cuando aceptas que algo escapa a tu control, no tiene sentido estresarte por ello.",
+        "La mente crea estrés constantemente, y te vuelve más paranoico o más iracundo de lo que la situación justifica.",
+        "Lo que quieres es encontrar paz frente a la mente.",
+        "No se trata de apagar el cerebro, porque no puedes reprimir la mente ni obligarla a hacer nada.",
+        "Si te digo que no pienses en un elefante blanco, pensarás en un elefante blanco.",
+        "Más bien, se trata de desarrollar herramientas para que tu mente se calme sola, y así el estrés desaparecerá de forma natural.",
+        "¿Cómo se hace eso?",
+        "¿Cómo acabas teniendo una mente más tranquila?"
+      ]
+    },
+    {
+      "id": "b03-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Hay una frase que me gusta, la paz es felicidad en reposo y la felicidad es paz en movimiento.",
+        "Alguien que está en paz en reposo acabará siendo feliz cuando haga algo.",
+        "Y una persona feliz que está sin hacer nada estará en paz.",
+        "El objetivo último no es la felicidad, aunque usemos mucho esa palabra, el objetivo es la paz.",
+        "Así que la pregunta es cómo llegar a la paz.",
+        "El primer problema para alcanzar la paz es que ninguna actividad te llevará hasta ella.",
+        "En el fondo, la paz es inactividad, es la sensación de que todo está bien.",
+        "Si todo está bien, no estás haciendo ninguna actividad física ni mental para cambiarlo.",
+        "Y tampoco estás deseando hacer algo para cambiarlo, porque eso crea estrés."
+      ]
+    },
+    {
+      "id": "b04-naval",
+      "speaker": "Naval",
+      "frases": [
+        "No puedes alcanzar la paz directamente, ni siquiera trabajar para conseguirla.",
+        "Lo que sí puedes es trabajar para comprender.",
+        "Hay un viejo dicho sij que dice que el nombre de Dios es la verdad.",
+        "Cuando entiendes ciertas cosas y pasan a formar parte de ti, te vuelves de forma natural una persona más en paz."
+      ]
+    }
+  ]
+}
