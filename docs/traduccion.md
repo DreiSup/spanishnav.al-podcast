@@ -71,3 +71,4 @@ abiertas («…talk about sex.» sin «”»). Afecta solo al inglés, que no se
 | 2026-11-04 | 084 There Is No End of Science | revision | 1 | 22 | 415 | 2,4 | Cero avisos. Workflow de especialistas (4-nov); 1 decisiones aplicadas, ver notas |
 | 2026-11-04 | 085 There Is No Settled Mathematics | revision | 2 | 28 | 555 | 3,3 | Cero avisos. Workflow de especialistas (4-nov); 2 decisiones aplicadas, ver notas |
 | 2026-11-04 | 086 The Methods of Mathematics Are Fallible | revision | 2 | 27 | 509 | 3,0 | Cero avisos. Workflow de especialistas (4-nov); 1 decisiones aplicadas, ver notas |
+| 2026-11-04 | 087 All Knowledge Is Conjectural | revision | 1 | 34 | 531 | 3,1 | Cero avisos. Workflow de especialistas (4-nov); 1 decisiones aplicadas, ver notas |

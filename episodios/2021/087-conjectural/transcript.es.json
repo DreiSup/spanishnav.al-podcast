@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2021/087-conjectural",
+  "numero": 87,
+  "fecha": "2021-04-07",
+  "titulo": "Todo conocimiento es conjetural",
+  "subtitulo": "Desconfía de la certeza absoluta",
+  "fuente_url": "https://nav.al/conjectural",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-brett",
+      "speaker": "Brett",
+      "frases": [
+        "Todo conocimiento es conjetural, y siempre es fruto de una conjetura.",
+        "Es lo mejor que hemos llegado a entender en cada momento.",
+        "Tienes razón al decir que los axiomas podrían ser incorrectos.",
+        "¿Cómo sabemos que un axioma es correcto?",
+        "Tradicionalmente, la respuesta ha sido que es así porque está claro y es evidente.",
+        "¿Cómo puedes demostrar que equis más cero tiene que ser igual a equis?",
+        "No te queda más remedio que aceptar que es verdad.",
+        "Pero fíjate en algo como los Elementos de Euclides.",
+        "Si quieres, puedes hacer tú mismo este experimento.",
+        "Coge una hoja de papel, coge un bolígrafo y dibuja dos puntos en la hoja.",
+        "Y ahora, ¿cuántas líneas rectas distintas puedes trazar que pasen por esos dos puntos?",
+        "Debería resultarte bastante evidente que solo se puede trazar una, y sin embargo, sabemos que eso es falso.",
+        "Párate a pensar que, mientras miras fijamente la hoja de papel, en la que solo has trazado una línea recta, tienes una sensación de certeza.",
+        "Estás absolutamente seguro de que no te equivocas.",
+        "Esa sensación es algo de lo que siempre deberíamos desconfiar.",
+        "Cuando la gente ha estado absolutamente segura, incluso en un campo tan aparentemente lleno de certezas como las matemáticas, se ha demostrado que estaba equivocada.",
+        "Entonces, ¿cómo podemos demostrar que es falso?",
+        "Puede que pienses que hago trampa, pero, por otro lado, tienes que preguntarte si entendiste lo que te decía cuando te pedí que trazaras una única recta por dos puntos.",
+        "Dobla la hoja de papel y piensa en tres dimensiones.",
+        "Envuelve con la hoja un balón de baloncesto, si tienes uno.",
+        "Ahora piensa en las formas en que podrías trazar una línea recta que pase por esos dos puntos.",
+        "Podrías hacer un agujero en uno de esos puntos con el bolígrafo y empujarlo hasta que salga por el otro lado, por el otro agujero.",
+        "Y así tienes ahora una línea recta distinta.",
+        "Tienes la línea recta que has dibujado con el bolígrafo, y tienes otra línea recta que es literalmente tu bolígrafo atravesando esos dos puntos.",
+        "Tu sensación inicial de certeza absoluta, de que por esos dos puntos solo se podía trazar una línea, es falsa.",
+        "Puede que estés pensando que eso no es justo, que es hacer trampa.",
+        "Tú pensabas en dos dimensiones, y yo no. Yo pensaba en más dimensiones que esas.",
+        "Karl Popper tiene una frase maravillosa, que dice que es imposible hablar de manera que nadie pueda malinterpretarte, y esto siempre es así.",
+        "Incluso en las matemáticas, donde intentamos ser lo más precisos posible, la gente puede cometer errores y partir de premisas falsas sobre el argumento que intenta defender.",
+        "Tradicionalmente, la geometría se hacía en dos dimensiones, sobre una hoja de papel.",
+        "Este ejemplo concreto de la geometría euclidiana lo resolvieron varias personas, y eso llevó a la geometría del espacio curvo.",
+        "Y la geometría del espacio curvo llevó a Einstein a formular la teoría general de la relatividad.",
+        "Así que es cuestionar nuestras suposiciones más profundas, esas en las que creemos que es imposible equivocarnos, lo que lleva al verdadero progreso.",
+        "Eso es lo que lleva a un cambio auténtico y fundamental, en las ciencias y en todo lo demás."
+      ]
+    }
+  ]
+}

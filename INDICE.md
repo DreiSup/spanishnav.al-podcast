@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**52** episodios · **0** publicados · **0** sin empezar
+**53** episodios · **0** publicados · **0** sin empezar
 
 ## 2021
 
@@ -23,6 +23,7 @@
 | 84 | [084-end](episodios/2021/084-end) | La ciencia no tiene fin | 🟠 en revisión | — | — |
 | 85 | [085-settled](episodios/2021/085-settled) | No existen unas matemáticas definitivas | 🟠 en revisión | — | — |
 | 86 | [086-methods](episodios/2021/086-methods) | Los métodos de las matemáticas son falibles | 🟠 en revisión | — | — |
+| 87 | [087-conjectural](episodios/2021/087-conjectural) | Todo conocimiento es conjetural | 🟠 en revisión | — | — |
 
 ## 2020
 

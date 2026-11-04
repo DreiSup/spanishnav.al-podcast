@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 87,
+  "anio": 2021,
+  "slug": "conjectural",
+  "titulo": "All Knowledge Is Conjectural",
+  "subtitulo": "Be skeptical of absolute certainty",
+  "fecha_publicacion": "2021-04-07",
+  "fuente_url": "https://nav.al/conjectural",
+  "orden_archivo": 91,
+  "en_feed": true,
+  "participantes": [
+    "Brett"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}
