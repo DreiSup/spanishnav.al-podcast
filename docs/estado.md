@@ -115,6 +115,11 @@ La **fase 1** (elegir motor) está casi cerrada:
   repo (además de los de voz cambiada): compara las frases guardadas en el registro.
 - **Traducción** (3–4 nov): 053–067 subidos (cortos, casi todos solo Naval). 368 min traducidos en total.
 
+- **Sin Audacity por defecto** (decisión del autor, 4-nov): la fábrica monta ya el **master**
+  (`audio/<NNN>-<slug>.mp3`, -16 LUFS, MP3 mono 128 kbps) y el informe da el minuto de cada clip y de cada frase
+  sospechosa. El autor lo escucha y solo arregla lo que suene mal: otra semilla (`RONDA`) o el clip en Audacity y
+  `SOLO_MASTER`. Procedimiento en `docs/sop-episodio.md`. Pendiente: vídeo, YouTube, web y RSS, e intro o cierre.
+
 ## Esperando a que termine
 
 | Qué | Dónde corre | Resultado esperado |

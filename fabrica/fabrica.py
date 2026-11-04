@@ -6,9 +6,9 @@ texto), se le recortan los silencios y se une a las demás con la pausa fijada e
 de `ritmo` o la propia de la voz).
 
 Junto a `tts/`, en la carpeta del episodio:
-  informe_tts.md       duración, reintentos y las frases sospechosas, con el segundo donde están
-  registro_tts.jsonl   una línea por clip, con el detalle de cada frase
-  borrador_tts.wav     todos los clips seguidos, para una escucha rápida antes de Audacity
+  audio/<NNN>-<slug>.mp3  el master: los clips seguidos, a -16 LUFS, listo para publicar si suena bien
+  informe_tts.md       duración, reintentos, dónde empieza cada clip en el master y las frases sospechosas
+  registro_tts.jsonl   una línea por clip, con el detalle de cada frase, su texto y con qué voz se hizo
 
 Este módulo no sabe nada de Qwen: recibe una función `sintetizar(texto, voz, intento)` y un ASR. El motor
 real está en `MotorQwen`; las pruebas usan uno falso.
@@ -26,7 +26,8 @@ RAIZ = Path(__file__).resolve().parent
 VOCES_JSON = RAIZ / "voces.json"
 BORDE_INICIO, BORDE_FINAL = 0.05, 0.15     # silencio al principio y al final de cada clip
 RECORTE_INICIO, RECORTE_FINAL = 0.02, 0.05  # lo que se deja a cada frase antes de unirla
-SILENCIO_BORRADOR = 0.6                     # entre intervenciones, en el borrador
+SILENCIO_ENTRE = 0.6                        # entre intervenciones, en el master
+MASTER = {"lufs": -16.0, "pico_db": -1.5, "sr": 44100, "kbps": 128}   # volumen y formato del master (podcast)
 
 
 # ---------------------------------------------------------------- configuración y plan
@@ -242,8 +243,8 @@ def pausa_de(voz, cfg):
     return cfg["voces"][voz].get("pausa_max", cfg["ritmo"]["pausa_max"])
 
 
-def generar_episodio(plan, sintetizar_lote, asr, carpeta, cfg, avisar=print):
-    """Genera los clips que falten en <carpeta>/tts/ y reescribe el informe y el borrador.
+def generar_episodio(plan, sintetizar_lote, asr, carpeta, cfg, avisar=print, master=None, titulo=None):
+    """Genera los clips que falten en <carpeta>/tts/, monta el master (si están todos) y reescribe el informe.
 
     `sintetizar_lote(textos, voz, intento)` → (audios, sr): las frases de cada intervención se generan juntas
     (generar_bloque). Lo que ya existe no se repite: si se corta, se vuelve a lanzar y sigue por donde iba.
@@ -252,12 +253,7 @@ def generar_episodio(plan, sintetizar_lote, asr, carpeta, cfg, avisar=print):
     tts_dir = Path(carpeta) / "tts"
     tts_dir.mkdir(parents=True, exist_ok=True)
     registro = Path(carpeta) / "registro_tts.jsonl"
-    hechos = {}
-    if registro.exists():
-        for l in registro.read_text(encoding="utf-8").splitlines():
-            if l.strip():
-                f = json.loads(l)
-                hechos[f["fichero"]] = f
+    hechos = leer_registro(carpeta)
     t_total, s_total = 0.0, 0.0
     for p in plan:
         wav = tts_dir / p["fichero"]
@@ -304,48 +300,120 @@ def generar_episodio(plan, sintetizar_lote, asr, carpeta, cfg, avisar=print):
     if s_total:
         avisar(f"Generado: {s_total / 60:.1f} min de audio en {t_total / 60:.1f} min "
                f"({t_total / s_total:.2f} s de GPU por segundo de audio)")
-    escribir_informe(plan, hechos, carpeta)
-    escribir_borrador(plan, tts_dir, Path(carpeta) / "borrador_tts.wav")
+    master = Path(master) if master else Path(carpeta) / "audio" / "master.mp3"
+    inicios = None
+    if all((tts_dir / p["fichero"]).exists() for p in plan):
+        inicios = montar_master(plan, tts_dir, master, titulo=titulo)
+        avisar(f"Master: {master.name} ({inicios['_total'] / 60:.1f} min)")
+    escribir_informe(plan, hechos, carpeta, inicios, master)
     return hechos
 
 
-def escribir_informe(plan, hechos, carpeta):
+def leer_registro(carpeta):
+    """{fichero: última fila del registro_tts.jsonl}."""
+    registro = Path(carpeta) / "registro_tts.jsonl"
+    hechos = {}
+    if registro.exists():
+        for l in registro.read_text(encoding="utf-8").splitlines():
+            if l.strip():
+                f = json.loads(l)
+                hechos[f["fichero"]] = f
+    return hechos
+
+
+def rehacer_master(plan, carpeta, master, titulo=None, avisar=print):
+    """Solo el master y el informe, sin GPU: para cuando se ha arreglado a mano un clip de tts/ (Audacity)."""
+    tts_dir = Path(carpeta) / "tts"
+    faltan = [p["fichero"] for p in plan if not (tts_dir / p["fichero"]).exists()]
+    if faltan:
+        avisar(f"  faltan clips, no hay master: {faltan}")
+        return None
+    inicios = montar_master(plan, tts_dir, master, titulo=titulo)
+    escribir_informe(plan, leer_registro(carpeta), carpeta, inicios, master)
+    avisar(f"  master: {Path(master).name} ({inicios['_total'] / 60:.1f} min)")
+    return inicios
+
+
+def _mmss(segundos):
+    return f"{int(segundos // 60)}:{segundos % 60:04.1f}"
+
+
+def escribir_informe(plan, hechos, carpeta, inicios=None, master=None):
+    """informe_tts.md: qué clips hay, cuánto duran, dónde empiezan en el master y qué frases son sospechosas."""
     total = sum(f["segundos"] for f in hechos.values())
     lineas = [f"# Clips de TTS — {Path(carpeta).name}", "",
-              f"{len(hechos)} de {len(plan)} clips · {total / 60:.1f} min. Las frases **sospechosas** no pasaron la "
-              "revisión de Whisper ni con los reintentos: mira primero ahí en Audacity (el segundo es el de su clip).",
-              "", "| Clip | Voz | Duración | Frases | Reintentos | Sospechosas |", "|---|---|---|---|---|---|"]
+              f"{len(hechos)} de {len(plan)} clips · {total / 60:.1f} min. "
+              + (f"Master: `audio/{Path(master).name}`. " if inicios else "Sin master: faltan clips. ")
+              + "Las frases **sospechosas** no pasaron la revisión de Whisper ni con los reintentos: si al escuchar el "
+              "master algo suena raro, empieza por ahí (el minuto es el del master).",
+              "", "| Clip | Voz | En el master | Duración | Frases | Reintentos | Sospechosas |",
+              "|---|---|---|---|---|---|---|"]
     sospechas = []
     for p in plan:
         f = hechos.get(p["fichero"])
         if not f:
-            lineas.append(f"| {p['fichero']} | {p['voz']} | — | {len(p['frases'])} | — | sin generar |")
+            lineas.append(f"| {p['fichero']} | {p['voz']} | — | — | {len(p['frases'])} | — | sin generar |")
             continue
         reint = sum(d["intentos"] - 1 for d in f["frases"])
         malas = [d for d in f["frases"] if d["ok"] is False]
-        lineas.append(f"| {p['fichero']} | {f['voz']} | {f['segundos']:.1f} s | {len(f['frases'])} | {reint} | "
-                      f"{len(malas) or ''} |")
-        sospechas += [(p["fichero"], d) for d in malas]
+        inicio = inicios.get(p["fichero"]) if inicios else None
+        lineas.append(f"| {p['fichero']} | {f['voz']} | {_mmss(inicio) if inicio is not None else '—'} | "
+                      f"{f['segundos']:.1f} s | {len(f['frases'])} | {reint} | {len(malas) or ''} |")
+        sospechas += [(p["fichero"], d, inicio) for d in malas]
     if sospechas:
         lineas += ["", "## Frases sospechosas", ""]
-        for fichero, d in sospechas:
-            lineas += [f"- **{fichero}**, segundo {d['inicio_s']:.1f} ({d['errores']} errores, "
+        for fichero, d, inicio in sospechas:
+            donde = f"minuto {_mmss(inicio + d['inicio_s'])} del master" if inicio is not None else "sin master"
+            lineas += [f"- **{donde}** ({fichero}, segundo {d['inicio_s']:.1f} del clip; {d['errores']} errores, "
                        f"{d['sobra_final']} s tras la última palabra)",
                        f"  - Texto: {d['texto']}", f"  - Whisper oyó: {d['transcripcion']}"]
     (Path(carpeta) / "informe_tts.md").write_text("\n".join(lineas) + "\n", encoding="utf-8")
 
 
-def escribir_borrador(plan, tts_dir, destino):
-    trozos, sr = [], None
-    for p in plan:
-        wav = tts_dir / p["fichero"]
-        if not wav.exists():
-            continue
-        audio, sr_clip = sf.read(str(wav), dtype="float32")
+def montar_master(plan, tts_dir, destino, titulo=None, silencio=SILENCIO_ENTRE, ajustes=MASTER):
+    """El audio final del episodio: los clips en el orden del transcript (que es el de montaje), con `silencio`
+    segundos entre intervenciones, a -16 LUFS y en MP3 mono. Devuelve {fichero: segundo en que empieza en el master}
+    y '_total' con la duración.
+
+    El volumen se ajusta con loudnorm de ffmpeg en dos pasadas (mide y después aplica una ganancia lineal), así que
+    no comprime ni cambia la dinámica de la voz.
+    """
+    import subprocess
+    import tempfile
+    trozos, inicios, cursor, sr = [], {}, 0.0, None
+    for n, p in enumerate(plan):
+        audio, sr_clip = sf.read(str(Path(tts_dir) / p["fichero"]), dtype="float32")
+        if audio.ndim > 1:
+            audio = audio.mean(axis=1)
         sr = sr or sr_clip
-        trozos += [audio, np.zeros(int(sr * SILENCIO_BORRADOR), dtype=np.float32)]
-    if trozos:
-        sf.write(str(destino), np.concatenate(trozos[:-1]), sr, subtype="PCM_16")
+        if n:
+            trozos.append(np.zeros(int(sr * silencio), dtype=np.float32))
+            cursor += silencio
+        inicios[p["fichero"]] = round(cursor, 2)
+        trozos.append(audio)
+        cursor += len(audio) / sr
+    inicios["_total"] = round(cursor, 2)
+    destino = Path(destino)
+    destino.parent.mkdir(parents=True, exist_ok=True)
+    norma = f"I={ajustes['lufs']}:TP={ajustes['pico_db']}:LRA=11"
+    with tempfile.TemporaryDirectory() as tmp:
+        wav = Path(tmp) / "master.wav"
+        sf.write(str(wav), np.concatenate(trozos), sr, subtype="PCM_16")
+        medida = subprocess.run(["ffmpeg", "-hide_banner", "-nostats", "-i", str(wav), "-af",
+                                 f"loudnorm={norma}:print_format=json", "-f", "null", "-"],
+                                capture_output=True, text=True, check=True).stderr
+        m = json.loads(medida[medida.rindex("{"):medida.rindex("}") + 1])
+        filtro = (f"loudnorm={norma}:measured_I={m['input_i']}:measured_TP={m['input_tp']}:"
+                  f"measured_LRA={m['input_lra']}:measured_thresh={m['input_thresh']}:offset={m['target_offset']}:"
+                  f"linear=true")
+        salida = Path(tmp) / "master.mp3"
+        orden = ["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-i", str(wav), "-af", filtro,
+                 "-ar", str(ajustes["sr"]), "-ac", "1", "-c:a", "libmp3lame", "-b:a", f"{ajustes['kbps']}k"]
+        if titulo:
+            orden += ["-metadata", f"title={titulo}"]
+        subprocess.run(orden + [str(salida)], check=True)
+        destino.write_bytes(salida.read_bytes())   # copia de una vez: en Drive no queda un mp3 a medias
+    return inicios
 
 
 # ---------------------------------------------------------------- el motor real
@@ -432,7 +500,8 @@ class MotorQwen:
         else:
             ctx = self.peft.disable_adapter()
         with ctx:
-            self.torch.manual_seed(semilla_lote if semilla_lote is not None else semilla("|".join(textos), intento))
+            base = semilla_lote if semilla_lote is not None else semilla("|".join(textos), intento)
+            self.torch.manual_seed(base + 104729 * self.cfg["motor"].get("ronda", 0))
             wavs, sr = self.tts.generate_voice_clone(
                 text=list(textos), language=self.cfg["motor"]["idioma"], voice_clone_prompt=self.prompts[voz],
                 non_streaming_mode=self.cfg["motor"]["non_streaming_mode"],

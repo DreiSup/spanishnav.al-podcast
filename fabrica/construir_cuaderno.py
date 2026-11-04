@@ -41,9 +41,9 @@ Para cada episodio:
    que no dicen el texto o dejan una cola rara se repiten juntas con otra semilla (hasta 2 veces).
 3. Recorta los silencios y une las frases con la pausa de cada voz, la que elegiste escuchando: 0,12 s
    Naval, 0,20 Nivi y Deutsch, 0,30 Brett.
-4. Deja junto a `tts/` un **`informe_tts.md`** con las frases que siguen sospechosas y el segundo exacto
-   donde están, un `registro_tts.jsonl` con el detalle y un `borrador_tts.wav` con todo seguido para una
-   escucha rápida.
+4. Monta el **master**, `audio/<NNN>-<slug>.mp3`: todos los clips seguidos, a -16 LUFS, listo para publicar si al
+   escucharlo suena bien. Junto a `tts/` deja un **`informe_tts.md`** con el minuto del master donde empieza cada
+   clip y dónde están las frases sospechosas, y un `registro_tts.jsonl` con el detalle.
 
 Si se corta, vuelve a ejecutarlo: los clips que ya están en Drive no se repiten. Para rehacer uno, bórralo
 de `tts/` y vuelve a lanzar.
@@ -60,6 +60,10 @@ cuántos segundos de GPU cuesta cada segundo de audio, para calcular el gasto de
 # 2. Parámetros
 EPISODIOS = ["2019/037-productize-yourself", "2019/038-accountability", "2019/039-working-ourselves"]   # carpetas de episodios/ del repo
 VERIFICAR = True     # revisar cada frase con Whisper y repetir las que fallen (más lento, mucho menos Audacity)
+
+# Arreglos tras escuchar el master (docs/sop-episodio.md). Para producir normal: SOLO_MASTER = False y RONDA = 0
+SOLO_MASTER = False  # True = no genera nada ni usa GPU: rehace el master con los clips de tts/ (p. ej. uno arreglado en Audacity)
+RONDA = 0            # 1, 2…: otras semillas para los clips que borres de tts/ (el mismo número da siempre el mismo audio)
 
 # Pruebas de voz. Para producir normal: REF_ES_NAVAL = 0 y SUBCARPETA = ""
 REF_ES_NAVAL = 0     # 0 = la referencia de voces.json; 1 = el mejor clip de Naval en español (lora_ref_es1 del 08); 5 = media de 5
@@ -81,6 +85,7 @@ import comun, fabrica
 comun.montar_drive()
 CFG = fabrica.cargar_config()
 CFG["verificacion"]["activa"] = VERIFICAR
+CFG["motor"]["ronda"] = RONDA
 DRIVE = Path(CFG["rutas"]["drive"])
 RAIZ_VOCES = DRIVE / CFG["rutas"]["voces"]
 RAIZ_EPISODIOS = DRIVE / CFG["rutas"]["episodios"]
@@ -130,14 +135,17 @@ print("RESULTADO: OK")
 """),
     code("""
 # 4. Cargar Qwen con los adaptadores de las voces que hacen falta, y Whisper para revisar
-from transformers.utils import logging as hf_logging
-hf_logging.set_verbosity_error()   # sin los avisos repetidos de pad_token_id y de "pipelines sequentially"
-MOTOR = fabrica.MotorQwen(CFG, VOCES, RAIZ_VOCES)
-ASR = None
-if VERIFICAR:
-    import medir
-    ASR = medir.Asr()
-    print("Whisper large-v3 cargado")
+if SOLO_MASTER:
+    print("SOLO_MASTER: no se carga ningún modelo")
+else:
+    from transformers.utils import logging as hf_logging
+    hf_logging.set_verbosity_error()   # sin los avisos repetidos de pad_token_id y de "pipelines sequentially"
+    MOTOR = fabrica.MotorQwen(CFG, VOCES, RAIZ_VOCES)
+    ASR = None
+    if VERIFICAR:
+        import medir
+        ASR = medir.Asr()
+        print("Whisper large-v3 cargado")
 """),
     code("""
 # 5. Generar los episodios
@@ -145,8 +153,13 @@ for ep, plan in PLANES.items():
     base = Path("/content/repo/episodios") / ep
     titulo_en = json.loads((base / "metadata.en.json").read_text(encoding="utf-8"))["titulo"]
     carpeta = carpeta_de(ep, titulo_en)
+    titulo_es = json.loads((base / "transcript.es.json").read_text(encoding="utf-8"))["titulo"]
+    master = carpeta / "audio" / f"{ep.split('/')[1]}.mp3"
     print(f"=== {ep} → {carpeta.relative_to(DRIVE)}")
-    fabrica.generar_episodio(plan, MOTOR.sintetizar_lote, ASR, carpeta, CFG)
+    if SOLO_MASTER:
+        fabrica.rehacer_master(plan, carpeta, master, titulo=titulo_es)
+    else:
+        fabrica.generar_episodio(plan, MOTOR.sintetizar_lote, ASR, carpeta, CFG, master=master, titulo=titulo_es)
     print(f"Informe: {(carpeta / 'informe_tts.md').relative_to(DRIVE)}")
 """),
     code("""

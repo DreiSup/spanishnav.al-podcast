@@ -229,13 +229,14 @@ rclone.
 |---|---|---|---|
 | 1 | Copiar el transcript de nav.al **a mano** a `trabajo/manual/<slug>.txt` y convertirlo con `extraer-episodios.py` | **local, manual por decisión** | formato y script listos |
 | 2 | Traducir al español a `transcript.es.json` | web / local | por definir |
-| 3 | Generar un clip de TTS por bloque de hablante y subirlo a Drive | Colab (GPU), `fabrica/fabrica.ipynb` | cuaderno listo; voces en `fabrica/voces.json` |
-| 4 | Juntar clips, quitar ruido y alucinaciones | **local, Audacity** | manual por diseño |
-| 5 | Subir el audio limpio a Drive con rclone | local | — |
+| 3 | Generar un clip de TTS por bloque de hablante y montar el master (`audio/<NNN>-<slug>.mp3`) en Drive | Colab (GPU), `fabrica/fabrica.ipynb` | en producción; voces en `fabrica/voces.json` |
+| 4 | Escuchar el master y, solo si algo suena mal, arreglarlo (otra semilla, o el clip en Audacity) | **el autor** | `docs/sop-episodio.md` |
+| 5 | — (el master ya queda en Drive; rclone solo para subir un clip arreglado a mano) | — | — |
 | 6 | Montar el `.mp4` con la miniatura | local | script sin probar |
 | 7 | Subir a YouTube con título, descripción y miniatura | por definir | ver aviso abajo |
 
-El paso 4 es irreducible: requiere criterio humano.
+El paso 4 requiere criterio humano, pero **desde el 4-nov no pasa por Audacity por defecto**: el autor escucha el
+master y solo arregla lo que suene mal. El procedimiento completo está en **`docs/sop-episodio.md`**.
 
 Para el paso 3 —elegir y fine-tunear los modelos de voz— el objetivo, las reglas de gasto de
 GPU y el estado de Drive están en **`docs/fabrica-de-voz.md`**. Léelo antes de proponer nada

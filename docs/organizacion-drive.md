@@ -22,8 +22,7 @@ spanishnav/
   episodios/<año>/<NNN Título>/    todo lo de un episodio
     tts/                           los clips de la fábrica: 001naval.wav, 002nivi.wav…
     informe_tts.md                 frases sospechosas para Audacity
-    borrador_tts.wav               escucha rápida
-    audio/                         el audio limpio, salido de Audacity
+    audio/<NNN>-<slug>.mp3         el master, salido de la fábrica (y arreglado, si hizo falta)
     proyecto/                      el .aup3
     video/                         el .mp4 que se sube a YouTube
   voces/<voz>/                     lo que la fábrica necesita para que hable cada uno
