@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 73,
+  "anio": 2021,
+  "slug": "think",
+  "titulo": "This Book Changed the Way I Think",
+  "subtitulo": "David Deutsch’s book expanded my repertoire of reasoning",
+  "fecha_publicacion": "2021-03-03",
+  "fuente_url": "https://nav.al/think",
+  "orden_archivo": 77,
+  "en_feed": true,
+  "participantes": [
+    "Naval"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}

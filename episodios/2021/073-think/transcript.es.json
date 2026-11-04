@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2021/073-think",
+  "numero": 73,
+  "fecha": "2021-03-03",
+  "titulo": "Este libro cambió mi forma de pensar",
+  "subtitulo": "El libro de David Deutsch amplió mi repertorio de razonamiento",
+  "fuente_url": "https://nav.al/think",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Hace un par de años me llevé una grata sorpresa al abrir un libro viejo que había leído una década antes, El comienzo del infinito, de David Deutsch.",
+        "A veces lees un libro y te deja huella enseguida.",
+        "Otras veces lees un libro y no lo entiendes, pero luego lo lees en el momento adecuado y entonces sí te deja huella.",
+        "Esta vez lo leí con mucho más detenimiento que antes.",
+        "En lugar de leerlo para poder decir que lo había terminado, lo leí para entender los conceptos, y me detenía cada vez que aparecía algo nuevo.",
+        "Empezó a remodelar mi visión del mundo y cambió mi forma de pensar.",
+        "Le reconozco a este libro el mérito de ser el único de la última década que me hizo más inteligente, salvo quizá algunas obras de Nassim Taleb y uno o dos libros sueltos más.",
+        "Esos libros ampliaron literalmente mi forma de pensar, y no solo ampliaron el repertorio de mis conocimientos, sino también el repertorio de mi razonamiento.",
+        "La gente habla mucho de modelos mentales, pero la mayoría no merece que los leas, que pienses en ellos ni que los escuches, porque son triviales.",
+        "En cambio, los conceptos que salen de El comienzo del infinito son transformadores, porque cambian de forma muy convincente tu manera de ver qué es verdad y qué no lo es.",
+        "Karl Popper expuso la teoría de qué es científico y qué no lo es, y de qué es una buena explicación y qué no lo es.",
+        "Deutsch la amplía de forma espectacular en El comienzo del infinito.",
+        "La variedad de temas que abarca es increíble.",
+        "Trata la epistemología, que es la teoría del conocimiento, la mecánica cuántica, la teoría del multiverso, el infinito y las matemáticas.",
+        "Trata también el alcance de lo que se puede conocer y de lo que no, las explicaciones universales y la teoría de la computación.",
+        "Y aborda qué es la belleza, qué sistemas políticos funcionan mejor, cómo criar a tus hijos y mucho más.",
+        "Son ideas filosóficas de largo alcance que lo abarcan todo."
+      ]
+    }
+  ]
+}
