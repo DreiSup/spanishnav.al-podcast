@@ -101,7 +101,7 @@
     {"orden": 96, "titulo": "Is Light a Particle or a Wave?", "fecha": "2021-04-19", "url": "https://nav.al/light", "tiene_transcript": true},
     {"orden": 97, "titulo": "The Multiverse", "fecha": "2021-04-21", "url": "https://nav.al/multiverse", "tiene_transcript": true},
     {"orden": 98, "titulo": "We Explain the Seen in Terms of the Unseen", "fecha": "2021-04-26", "url": "https://nav.al/unseen", "tiene_transcript": true},
-    {"orden": 99, "titulo": "Science Expands Our Vision of Reality", "fecha": "2021-04-28", "url": "https://nav.al/expand", "tiene_transcript": null},
+    {"orden": 99, "titulo": "Science Expands Our Vision of Reality", "fecha": "2021-04-28", "url": "https://nav.al/expand", "tiene_transcript": true},
     {"orden": 100, "titulo": "Science Is an Error-Correcting Mechanism", "fecha": "2021-04-30", "url": "https://nav.al/error", "tiene_transcript": null},
     {"orden": 101, "titulo": "Theories Are Explanations, Not Predictions", "fecha": "2021-05-03", "url": "https://nav.al/predictions", "tiene_transcript": null},
     {"orden": 102, "titulo": "Make Bold Guesses and Weed Out the Failures", "fecha": "2021-05-05", "url": "https://nav.al/bold", "tiene_transcript": null},

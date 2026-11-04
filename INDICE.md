@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**60** episodios · **0** publicados · **0** sin empezar
+**61** episodios · **0** publicados · **0** sin empezar
 
 ## 2021
 
@@ -31,6 +31,7 @@
 | 92 | [092-light](episodios/2021/092-light) | ¿La luz es una partícula o una onda? | 🟠 en revisión | — | — |
 | 93 | [093-multiverse](episodios/2021/093-multiverse) | El multiverso | 🟠 en revisión | — | — |
 | 94 | [094-unseen](episodios/2021/094-unseen) | Explicamos lo visible a partir de lo invisible | 🟠 en revisión | — | — |
+| 95 | [095-expand](episodios/2021/095-expand) | La ciencia amplía nuestra visión de la realidad | 🟠 en revisión | — | — |
 
 ## 2020
 
