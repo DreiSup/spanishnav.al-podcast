@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2021/114-aliens",
+  "numero": 114,
+  "fecha": "2021-11-01",
+  "titulo": "¿Dónde están los extraterrestres?",
+  "subtitulo": "El universo debería estar repleto de extraterrestres",
+  "fuente_url": "https://nav.al/aliens",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Hablemos un momento de la paradoja de Fermi, ya que estamos hablando de extraterrestres.",
+        "Por si no lo sabes, Enrico Fermi fue un físico famoso que participó en el Proyecto Manhattan.",
+        "Y Fermi se preguntó, ¿dónde están los extraterrestres?",
+        "El universo es enorme, y probablemente hay muchísimos planetas capaces de albergar algún tipo de vida.",
+        "¿No deberíamos haberlos visto ya?"
+      ]
+    },
+    {
+      "id": "b02-brett",
+      "speaker": "Brett",
+      "frases": [
+        "Alrededor de casi todas las estrellas hay un conjunto de planetas, muy parecido a nuestro sistema solar.",
+        "El número de estrellas que hay en una galaxia típica como la Vía Láctea ronda los doscientos mil millones, aunque las estimaciones llegan hasta unos cuatrocientos mil millones.",
+        "Y el número de galaxias que podemos ver está entre doscientos mil y trescientos mil millones.",
+        "El universo observable es solo una pequeña fracción del universo entero, lo que significa que el número de planetas es absolutamente astronómico.",
+        "Con estas cifras, seguro que ahí fuera no solo hay planetas aptos para la vida, sino que el universo debería estar repleto de civilizaciones.",
+        "Habría civilizaciones mucho más avanzadas que la nuestra, otras menos avanzadas y algunas con un nivel de avance parecido al nuestro.",
+        "Entonces, ¿dónde están?"
+      ]
+    }
+  ]
+}

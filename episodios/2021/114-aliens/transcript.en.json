@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "idioma": "en",
+  "episodio": "2021/114-aliens",
+  "numero": 114,
+  "fecha": "2021-11-01",
+  "titulo": "Where Are the Aliens?",
+  "subtitulo": "The universe should be teeming with aliens",
+  "fuente_url": "https://nav.al/aliens",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Let’s talk briefly about the Fermi paradox since we’re talking about aliens.",
+        "For listeners who don’t know, Enrico Fermi was a famous physicist who was part of the Manhattan Project.",
+        "He said, “Where are the aliens?",
+        "The universe is so large and there are probably so many planets that are capable of supporting life of some kind or another.",
+        "Shouldn’t we have seen them by now?"
+      ]
+    },
+    {
+      "id": "b02-brett",
+      "speaker": "Brett",
+      "frases": [
+        "Around almost every star there is a contingent of planets much like our own solar system.",
+        "The number of stars that exist within a typical galaxy like the Milky Way is something like 200 billion, although the estimates go up to about 400 billion.",
+        "The number of galaxies that we can see is around 200 to 300 billion.",
+        "The observable universe is just a small fraction of the entire universe, which means that the number of planets is absolutely astronomical.",
+        "Surely, given these numbers, it has to be the case that there are not only planets out there that are suitable for life but that the universe should be teeming with civilizations far more advanced than ours, less advanced than ours, and some that are similar in advancement to ours.",
+        "So where are they?"
+      ]
+    }
+  ]
+}
