@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2021/085-settled",
+  "numero": 85,
+  "fecha": "2021-04-02",
+  "titulo": "No existen unas matemáticas definitivas",
+  "subtitulo": "Las demostraciones no son certezas",
+  "fuente_url": "https://nav.al/settled",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Hay otros dos pensadores científicos que me gustan y que llegan a conclusiones parecidas a las de Deutsch.",
+        "Uno es Nassim Taleb, que popularizó la idea del cisne negro, es decir, que por muchos cisnes blancos que veas, nunca puedes descartar que exista un cisne negro.",
+        "Nunca puedes afirmar de forma concluyente que todos los cisnes son blancos, ni puedes establecer una verdad definitiva.",
+        "Lo único que puedes hacer es trabajar con la mejor explicación que tengas hoy, que aun así es mucho mejor que la ignorancia.",
+        "En cualquier momento puede aparecer un cisne negro y refutar tu teoría, y entonces tienes que ir a buscar una mejor.",
+        "El otro, que me parece fascinante, es Gregory Chaitin.",
+        "Es un matemático muy en la línea de Kurt Gödel, porque explora los límites y las fronteras de lo que es posible en las matemáticas.",
+        "Una de las cosas que señala es que el teorema de incompletitud de Gödel no dice que las matemáticas sean basura, y que ese teorema no es motivo para desesperar.",
+        "El teorema de incompletitud de Gödel dice que ningún sistema formal, incluidas las matemáticas, puede ser a la vez completo y correcto.",
+        "O bien hay enunciados verdaderos que no se pueden demostrar dentro del sistema, o bien habrá una contradicción en algún punto del sistema.",
+        "Esto podría ser motivo de desesperación para los matemáticos que ven las matemáticas como algo abstracto, perfecto y completamente cerrado en sí mismo.",
+        "Pero Chaitin sostiene que, en realidad, eso abre la puerta a la creatividad en las matemáticas.",
+        "Significa que incluso en las matemáticas siempre estás a un paso de falsar algo y de encontrar después una explicación mejor.",
+        "Eso vuelve a poner en el centro de todo a los seres humanos, su creatividad y su empeño por encontrar buenas explicaciones.",
+        "En el fondo, las matemáticas siguen siendo un arte.",
+        "Claro que de las matemáticas salen cosas muy útiles.",
+        "Sigues construyendo un edificio de conocimiento, pero no existe una verdad concluyente y definitiva. No hay ciencia definitiva, no hay matemáticas definitivas.",
+        "Hay buenas explicaciones que con el tiempo se sustituirán por otras buenas explicaciones que explican más cosas del mundo."
+      ]
+    },
+    {
+      "id": "b02-brett",
+      "speaker": "Brett",
+      "frases": [
+        "Esto es algo que heredamos de la escuela más que de ningún otro sitio.",
+        "Forma parte de nuestra cultura académica, y también se filtra a la cultura en general.",
+        "La gente tiene la idea de que las matemáticas son un terreno inmaculado del conocimiento, en el que lo que está demostrado es verdad con toda certeza.",
+        "Luego está la ciencia, que no te da una verdad segura, aunque puedes confiar mucho en lo que descubres.",
+        "Puedes usar experimentos para confirmar que lo que dices parece correcto, pero podrías estar equivocado.",
+        "Y luego, por supuesto, está la filosofía, que es una mera cuestión de opinión.",
+        "Esta es la jerarquía que algunos heredan de la escuela, según la cual las matemáticas son una certeza, la ciencia es casi una certeza y todo lo demás es más o menos cuestión de opinión.",
+        "Es lo que Deutsch llama el error de concepto de los matemáticos.",
+        "Los matemáticos tienen esa manera intuitiva de dar por hecho que su demostración, es decir, el teorema al que han llegado con ese método, es verdad con certeza absoluta.",
+        "En realidad, es una confusión entre el objeto de estudio y el conocimiento que tienen de él."
+      ]
+    }
+  ]
+}

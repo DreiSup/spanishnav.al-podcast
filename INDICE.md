@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**50** episodios · **0** publicados · **0** sin empezar
+**51** episodios · **0** publicados · **0** sin empezar
 
 ## 2021
 
@@ -21,6 +21,7 @@
 | 82 | [082-explanations](episodios/2021/082-explanations) | Las buenas explicaciones son actos de creatividad | 🟠 en revisión | — | — |
 | 83 | [083-vary](episodios/2021/083-vary) | Las buenas explicaciones son difíciles de variar | 🟠 en revisión | — | — |
 | 84 | [084-end](episodios/2021/084-end) | La ciencia no tiene fin | 🟠 en revisión | — | — |
+| 85 | [085-settled](episodios/2021/085-settled) | No existen unas matemáticas definitivas | 🟠 en revisión | — | — |
 
 ## 2020
 
