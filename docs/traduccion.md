@@ -52,3 +52,4 @@ abiertas («…talk about sex.» sin «”»). Afecta solo al inglés, que no se
 | 2026-11-04 | 048 Consumer Surplus: Getting More Than You Paid For | revision | 1 | 12 | 171 | 1,0 | Cero avisos. Workflow de especialistas (4-nov); 1 decisiones aplicadas, ver notas |
 | 2026-11-04 | 049 Net Present Value: What Future Income Is Worth Today | revision | 3 | 11 | 212 | 1,2 | Cero avisos. Workflow de especialistas (4-nov); 4 decisiones aplicadas, ver notas |
 | 2026-11-04 | 050 Externalities: Calculating the Hidden Costs of Products | revision | 4 | 19 | 324 | 1,9 | Cero avisos. Workflow de especialistas (4-nov); 3 decisiones aplicadas, ver notas |
+| 2026-11-04 | 068 Kapil Gupta: Conquering the Mind | revision | 84 | 438 | 7675 | 45,1 | Cero avisos. Workflow de especialistas (4-nov); 16 decisiones aplicadas, ver notas |

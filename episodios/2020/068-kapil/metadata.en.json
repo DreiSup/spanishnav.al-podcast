@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 68,
+  "anio": 2020,
+  "slug": "kapil",
+  "titulo": "Kapil Gupta: Conquering the Mind",
+  "subtitulo": "",
+  "fecha_publicacion": "2020-05-13",
+  "fuente_url": "https://nav.al/kapil",
+  "orden_archivo": 72,
+  "en_feed": true,
+  "participantes": [
+    "Kapil",
+    "Naval"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}
