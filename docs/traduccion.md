@@ -102,3 +102,4 @@ abiertas («…talk about sex.» sin «”»). Afecta solo al inglés, que no se
 | 2026-11-04 | 116 The Probability of Human Existence Is Infinitesimally Small | revision | 1 | 11 | 222 | 1,3 | Cero avisos. Workflow de especialistas (4-nov) |
 | 2026-11-04 | 117 If You Can’t Program It, You Haven’t Understood It | revision | 1 | 6 | 123 | 0,7 | Cero avisos. Workflow de especialistas (4-nov) |
 | 2026-11-04 | 118 Aliens Might Just Be Too Far Away | revision | 2 | 22 | 467 | 2,7 | Cero avisos. Workflow de especialistas (4-nov); 1 decisiones aplicadas, ver notas |
+| 2026-11-04 | 119 Aliens Would Visit for Knowledge, Not Resources | revision | 2 | 26 | 475 | 2,8 | Cero avisos. Workflow de especialistas (4-nov); 1 decisiones aplicadas, ver notas |

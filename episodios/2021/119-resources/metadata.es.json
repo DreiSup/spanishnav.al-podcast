@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 119,
+  "anio": 2021,
+  "slug": "resources",
+  "titulo_es": "Los extraterrestres vendrían por el conocimiento, no por los recursos",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Los extraterrestres vendrían por el conocimiento, no por los recursos",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). No hay notas del editor ni artefactos del copiado. La atribución dudosa de Brett, «I think Stephen Hawking said», se conserva como «Creo que Stephen Hawking dijo» (T15 del brief). La cita imaginada de los extraterrestres («Ah, there's a planet full of coal and water. We're going to take it.») va en estilo indirecto y sin comillas: No es que vayan a ver un planeta lleno de carbón y agua y a decidir quedárselo. Las expresiones combativas siguen el brief: immoral bastards se traduce «canallas inmorales» y moral midgets, «enanos morales». 3D printing se pasa como «impresión en tres dimensiones» y VR space como «un espacio de realidad virtual». Falsify se traduce «falsar», el término popperiano. «Turn that [hydrogen] into a fusion reactor» se traduce por el sentido: alimentar con él un reactor de fusión. «Freedom… liberty» se resuelve como «libertad» y «libertades». Nombres que hay que escuchar: Stephen Hawking, Popper, Fermi y Dyson. Ningún bloque queda fuera de rango (ratio global 0,99; frase más larga, 33 palabras). El validador da solo el aviso informativo de hablante no habitual para Brett, que es correcto."
+}
