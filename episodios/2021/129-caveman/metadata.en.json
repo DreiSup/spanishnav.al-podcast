@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 129,
+  "anio": 2021,
+  "slug": "caveman",
+  "titulo": "To a Caveman Very Few Things Are Resources",
+  "subtitulo": "There was a time when coal wasn’t a resource",
+  "fecha_publicacion": "2021-12-13",
+  "fuente_url": "https://nav.al/caveman",
+  "orden_archivo": 133,
+  "en_feed": true,
+  "participantes": [
+    "Brett",
+    "Naval"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}

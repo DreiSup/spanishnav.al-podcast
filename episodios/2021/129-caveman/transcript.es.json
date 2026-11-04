@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2021/129-caveman",
+  "numero": 129,
+  "fecha": "2021-12-13",
+  "titulo": "Para un cavernícola, casi nada es un recurso",
+  "subtitulo": "Hubo un tiempo en que el carbón no era un recurso",
+  "fuente_url": "https://nav.al/caveman",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-brett",
+      "speaker": "Brett",
+      "frases": [
+        "En la cadena británica ITV salió un reportaje sobre la cantidad de supuestos residuos que genera Amazon, y contaba que Amazon destruía habitualmente un montón de productos.",
+        "Y me pregunté por qué esa gente se metía a opinar sobre un negocio del que no sabía absolutamente nada.",
+        "¿Preferirían que Amazon supiera a la perfección cuántos productos exactamente hay que fabricar?",
+        "Es decir, querrían que Amazon estuviera en una situación epistemológicamente imposible.",
+        "¿O preferirían que Amazon fabricara menos productos de los necesarios, de modo que la gente que quería comprarlos no pudiera conseguirlos?",
+        "Lo que hace Amazon, por supuesto, es fabricar un poco más de lo que necesita.",
+        "Es lo que pasa en cualquier negocio. De vez en cuando, se fabrica un poco más de lo que hace falta."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Una vez, un inversor de capital riesgo me sostuvo que había demasiados tipos de zapatillas.",
+        "Decía que era un ejemplo de cómo había fracasado el capitalismo, porque nadie necesita tantos tipos de zapatillas deportivas.",
+        "Yo le pregunté cuándo había sabido él que había demasiadas zapatillas.",
+        "¿En qué momento de la historia decidimos que hay demasiadas zapatillas?",
+        "Antes necesitábamos más zapatillas porque necesitábamos zapatillas más elásticas, necesitábamos zapatillas más resistentes, necesitábamos zapatillas con la suela más gruesa, necesitábamos zapatillas más ligeras.",
+        "Necesitábamos todo tipo de innovaciones increíbles en zapatillas.",
+        "Y luego, en algún momento, alguien decide que en realidad ya tenemos suficientes zapatillas, y que ahora hay que acabar con todas las demás líneas de zapatillas.",
+        "¿De dónde has sacado la idea de que, casualmente, naciste justo en el momento y en el lugar adecuados para darte cuenta de que sí, ya tenemos suficientes zapatillas?",
+        "Es una especie de provincianismo en el que cae todo el mundo.",
+        "Hay una versión más general de esto, que es esa filosofía de que nos estamos quedando sin recursos.",
+        "Parte de la idea de que la Tierra es finita, de que hay un conjunto finito de recursos y nos los estamos gastando todos.",
+        "De ahí deduce que vamos a morir todos si no frenamos nuestro consumo.",
+        "Para empezar, ¿cómo decidiste que el límite era la Tierra?",
+        "¿Cómo decidiste que no era tu pueblo el que se estaba quedando sin recursos?",
+        "¿Por qué no era tu pueblo la zona que de verdad querías salvar, y todo lo que había fuera de él era ajeno e inalcanzable?",
+        "¿Por qué trazar la frontera alrededor de la Tierra?",
+        "Podríamos ir al sistema solar. Podríamos ir a la galaxia, podríamos ir al universo. Podríamos ir al multiverso.",
+        "Hay muchísimos recursos ahí fuera si sabes cómo aprovecharlos.",
+        "Y luego, ¿cómo defines qué es un recurso?",
+        "Un recurso no es más que algo que, gracias al conocimiento, puedes convertir de una cosa en otra.",
+        "Hubo un tiempo en que el carbón no era un recurso, y el hierro tampoco lo era.",
+        "Para un cavernícola, casi nada es un recurso, aparte de unas cuantas plantas comestibles y unos cuantos animales comestibles, y ya está.",
+        "La domesticación, las cosechas, la metalurgia, la química, la física y el desarrollo de motores y cohetes consisten en coger cosas que creíamos que no valían nada y convertirlas en recursos.",
+        "El uranio ha pasado de no valer absolutamente nada a ser un recurso increíble.",
+        "Este modelo del mundo basado en recursos finitos da por hecho, sin decirlo, que el conocimiento es finito.",
+        "Dice que la creación de conocimiento ha llegado a su fin, y que nos hemos quedado estancados donde estamos ahora.",
+        "Y concluye que, por tanto, con el conocimiento que tenemos hoy, estos son todos los recursos de los que disponemos, y que ahora toca empezar a ahorrar.",
+        "Pero el conocimiento es algo de lo que siempre podemos crear más."
+      ]
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**94** episodios · **0** publicados · **0** sin empezar
+**95** episodios · **0** publicados · **0** sin empezar
 
 ## 2021
 
@@ -65,6 +65,7 @@
 | 126 | [126-social](episodios/2021/126-social) | Hacer algo social destruye su verdad | 🟠 en revisión | — | — |
 | 127 | [127-failure](episodios/2021/127-failure) | Los grupos nunca admiten el fracaso | 🟠 en revisión | — | — |
 | 128 | [128-infinite-resources](episodios/2021/128-infinite-resources) | El conocimiento hace infinita la existencia de recursos | 🟠 en revisión | — | — |
+| 129 | [129-caveman](episodios/2021/129-caveman) | Para un cavernícola, casi nada es un recurso | 🟠 en revisión | — | — |
 
 ## 2020
 
