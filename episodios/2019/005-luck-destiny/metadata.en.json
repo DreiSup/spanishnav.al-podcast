@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 5,
+  "anio": 2019,
+  "slug": "luck-destiny",
+  "titulo": "Make Luck Your Destiny",
+  "subtitulo": "Build your character in a way that luck becomes deterministic",
+  "fecha_publicacion": "2019-03-07",
+  "fuente_url": "https://nav.al/luck-destiny",
+  "orden_archivo": 9,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}
