@@ -1,0 +1,808 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2020/069-angel-2",
+  "numero": 69,
+  "fecha": "2020-06-12",
+  "titulo": "Cómo invertir como ángel, parte dos",
+  "subtitulo": "Un adelanto de nuestro otro podcast",
+  "fuente_url": "https://nav.al/angel-2",
+  "titulos_seccion": [
+    "Todo el mundo cree que ya tiene buen criterio",
+    "Se tarda años en saber si tienes buen criterio",
+    "Los buenos emprendedores no quieren que se les asocie con el mal criterio",
+    "Si tienes mal criterio, no lo sabrás",
+    "Se tarda de cinco a quince años en saber si tienes buen criterio",
+    "El criterio te da de antemano los números ganadores de la lotería",
+    "Pero sigues necesitando el efecto cartera para tener éxito",
+    "La diversificación es una cobertura contra la falta de conocimiento",
+    "En la etapa semilla nadie tiene datos suficientes para tener mucha convicción",
+    "El criterio te da de antemano los números ganadores de la lotería",
+    "El criterio es el trabajo que haces antes de que llegue una operación",
+    "Con el tiempo necesitarás menos datos para evaluar una operación",
+    "Invertir en etapa temprana tiene más de intuición que de diligencia debida",
+    "Los mejores inversores son inmunes al miedo a quedarse fuera",
+    "Los giros hacen que tu criterio con las personas importe de verdad",
+    "Apostar por startups en etapa semilla es apostar por los fundadores",
+    "¿Se apuntan buenos inversores a la ronda contigo?",
+    "Que inversores de trayectoria probada se apunten a la ronda es señal de buen criterio",
+    "Fíjate en las revalorizaciones de las rondas posteriores",
+    "¿Se apuntan buenos inversores a la ronda contigo?",
+    "Pregunta a la gente por tus debilidades",
+    "El criterio exige estar dispuesto a ser impopular",
+    "El pensamiento de grupo lleva a tener mal criterio",
+    "El pensamiento de grupo lleva a tener mal criterio",
+    "Las mejores operaciones parecen raras",
+    "Quieres acertar cuando todos los demás se equivocan",
+    "Las mejores operaciones tienen algo roto, extraño o distinto",
+    "Patri Friedman está haciendo inversiones raras",
+    "Puedes concederle a cada operación un defecto fatal",
+    "Una startup que se salta todas las reglas no llegará a ninguna parte",
+    "Una startup que se salta todas las reglas no llegará a ninguna parte",
+    "Saltarse las reglas es más fácil cuando entiendes la tecnología",
+    "Meterás menos dinero en tus ganadoras",
+    "Intenta siempre meter tu porción habitual en una operación",
+    "Intenta siempre meter tu porción habitual",
+    "Todo el que persigue los mercados de moda acaba estrellándose",
+    "No fantasees con lo que harías si fueras el fundador",
+    "No eres tú quien dirige la empresa, estás apostando por el fundador",
+    "Invierte en los científicos más listos de un campo nuevo",
+    "No vas a convertirte en un gran inversor tecnológico leyendo TechCrunch",
+    "No vas a convertirte en un gran inversor leyendo TechCrunch",
+    "Invierte en los científicos más listos de un campo nuevo",
+    "Los científicos y los tecnólogos son un arma secreta",
+    "Invierte solo en equipos técnicos",
+    "Si no hay equipo técnico, no estás invirtiendo en tecnología",
+    "Todo gran equipo fundador tiene un gran tecnólogo",
+    "Si no estás construyendo, estás vendiendo",
+    "No estás invirtiendo en gente amable",
+    "Invierte en gente con mucha energía, inteligencia e integridad",
+    "Las startups son los Juegos Olímpicos de los negocios",
+    "Sé un esnob con la inteligencia",
+    "La integridad se pone a prueba cuando hay mucho en juego",
+    "Dejarse aconsejar está sobrevalorado",
+    "Los grandes fundadores escuchan muchos consejos y siguen pocos",
+    "Tu reputación la construyen las empresas a las que les va mal",
+    "No inviertas tanto como para portarte mal cuando las cosas se pongan feas",
+    "Tu reputación la construyen las empresas a las que les va mal",
+    "Con los fundadores, las referencias casi no sirven",
+    "Un fundador genial para un negocio puede ser terrible para otro",
+    "Pasé de Twilio por culpa de una referencia",
+    "Las referencias pueden degenerar en listas de comprobación",
+    "Evita los equipos que venderían pronto",
+    "El capital riesgo es un negocio de grand slams",
+    "Los fundadores primerizos a menudo llevan bastante tiempo trasteando",
+    "Su primera startup no siempre es su primera startup",
+    "La etiqueta de fundador primerizo puede ser engañosa",
+    "Los fundadores que repiten suelen ejecutar mejor",
+    "Los fundadores que repiten suelen tener menos pasión",
+    "Los fundadores que repiten en el fondo no quieren volver a empezar de cero",
+    "Pon a prueba la pasión de los fundadores que repiten",
+    "Pon a prueba la pasión de los fundadores que repiten",
+    "Los fundadores primerizos asumen riesgo de mercado"
+  ],
+  "contenido": [
+    {
+      "id": "b01-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "En los últimos episodios hablamos de por qué deberías invertir como ángel y de cómo conseguir un flujo de operaciones propio construyendo una marca.",
+        "Ahora hablemos del criterio, de lo importante que es y de cómo desarrollarlo."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "A largo plazo, tener buen criterio es fundamental.",
+        "Sin él, acabarás con una mala cartera, los demás inversores no te respaldarán, perderás tu dinero y tu marca se resentirá.",
+        "Los buenos emprendedores no quieren que se les asocie con el mal criterio.",
+        "Al final, el criterio es lo más importante de todo.",
+        "Es más importante que el acceso a las operaciones y que el acceso al capital."
+      ]
+    },
+    {
+      "id": "b03-naval",
+      "speaker": "Naval",
+      "frases": [
+        "El problema del criterio es que todo el mundo cree que ya lo tiene.",
+        "Eso es porque tu capacidad para evaluar tu propio criterio depende de tu nivel de criterio.",
+        "Si tienes mal criterio, no lo sabrás, y a ese sesgo cognitivo se le llama efecto Dunning Kruger, por los psicólogos que popularizaron la idea.",
+        "También es de sentido común, porque la gente que no es muy inteligente normalmente no lo sabe.",
+        "En parte es un mecanismo de defensa del ego."
+      ]
+    },
+    {
+      "id": "b04-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Además, puedes tener buen criterio en ciertas áreas y mal criterio en otras.",
+        "Puedes tener buen criterio con las personas y que te falte criterio de mercado.",
+        "La única forma de saberlo es observarlo durante mucho tiempo.",
+        "Por desgracia, en la inversión en etapa temprana se tarda de cinco a quince años en saber si tienes buen criterio.",
+        "Lo primero que tienes que hacer es ser honesto contigo mismo sobre tu propio criterio.",
+        "Vamos a repasar un plan para calibrar y mejorar tu criterio a largo plazo."
+      ]
+    },
+    {
+      "id": "b05-naval",
+      "speaker": "Naval",
+      "frases": [
+        "En la etapa semilla, el criterio se basa mucho más en el criterio con las personas y en el potencial del producto y del mercado.",
+        "Tu capacidad para calcular flujos de caja, costes de adquisición de clientes o métricas de viralidad cuenta mucho menos, porque no tienes muchos datos."
+      ]
+    },
+    {
+      "id": "b06-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Cuando tienes menos datos, necesitas una cartera más diversificada.",
+        "En cierto sentido, la diversificación es una cobertura contra la falta de conocimiento.",
+        "Warren Buffett puede examinar en detalle una empresa que lleva veinte años funcionando.",
+        "El criterio sigue contando, pero él puede elegir una operación después de hacer la diligencia debida en muchas.",
+        "Con las startups en etapa semilla tienes muy pocos datos.",
+        "Puede que tengas que fiarte del criterio de otros, y por eso la prueba social pesa tanto."
+      ]
+    },
+    {
+      "id": "b07-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Para tener éxito invirtiendo en etapa temprana, vas a tener que construir una cartera, porque al principio nadie tiene datos suficientes para tener mucha convicción ni un criterio infalible.",
+        "Cuando publicaba en Twitter como Startup L Jackson, Parker Thompson escribió que todo el que invierte después de él es un esclavo de las hojas de cálculo, y todo el que invierte antes es un mono que lanza dardos.",
+        "Me pareció muy acertado, porque los inversores de etapa tardía ven a los inversores semilla como gente que hace conjeturas a lo loco.",
+        "Y los inversores semilla ven a los de etapa tardía como esclavos de las hojas de cálculo.",
+        "Pero solo están aplicando niveles y tipos de criterio distintos, porque tienen a su alcance datos distintos.",
+        "Van a tener carteras de distinto tamaño y distinta convicción por el criterio que pueden aplicar."
+      ]
+    },
+    {
+      "id": "b08-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Teniendo en cuenta lo mucho que influye la suerte en la etapa semilla, ¿qué importancia tiene el criterio?"
+      ]
+    },
+    {
+      "id": "b09-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Invertir en la etapa semilla es como jugar a la lotería, salvo que puedes usar tu acceso y tu criterio para conocer de antemano algunos de los números ganadores.",
+        "Cuanto mejor es tu criterio, más números conoces de antemano.",
+        "Eso aumenta tus probabilidades, pero sigues necesitando el efecto cartera para tener éxito.",
+        "Por eso es crucial cultivar y afinar tu criterio.",
+        "Es un juego a largo plazo, que se juega en decenas de inversiones y, con el tiempo, en cientos."
+      ]
+    },
+    {
+      "id": "b10-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Teniendo en cuenta lo rápido que se mueven las operaciones, ¿cuánto tiempo tengo de verdad para aplicar mi criterio?",
+        "¿No me voy a quedar fuera si me tomo tiempo para pensarlo bien?"
+      ]
+    },
+    {
+      "id": "b11-naval",
+      "speaker": "Naval",
+      "frases": [
+        "El criterio no es necesariamente diligencia debida, y ni siquiera es pensar.",
+        "El criterio es la preparación que haces antes de que llegue una operación, para que tu subconsciente pueda procesarla rápido."
+      ]
+    },
+    {
+      "id": "b12-naval",
+      "speaker": "Naval",
+      "frases": [
+        "El criterio para invertir en etapa temprana no implica una diligencia debida exhaustiva.",
+        "Sí, es sensato comprobar referencias, hablar con otra gente y pensarlo bien, pero eso lleva días, no semanas.",
+        "Con el tiempo desarrollarás olfato, y necesitarás cada vez menos datos para evaluar una operación.",
+        "Sabrás si un fundador es creíble con solo escucharle.",
+        "Sabrás si viene de una red creíble, y eso significa que puedes pasar menos tiempo comprobando referencias.",
+        "Sabrás cómo piensan los clientes de ese sector y desarrollarás intuición sobre lo que los fundadores pueden venderles."
+      ]
+    },
+    {
+      "id": "b13-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Hoy a las startups se las entrena para llevar un proceso de captación de fondos ajustado y rápido.",
+        "Esto pasa sobre todo con las startups que salen de aceleradoras.",
+        "Algunas te presionan mucho para que tomes una decisión.",
+        "Los mejores inversores son inmunes al miedo a quedarse fuera.",
+        "Si les presionas para que decidan en cuarenta y ocho horas, te dirán que ellos no deciden en cuarenta y ocho horas, así que no es para ellos.",
+        "No la mirarán, aunque sea una operación caliente.",
+        "El miedo a quedarse fuera funciona con muchos inversores, hasta cierto punto.",
+        "Yo me impongo un periodo de enfriamiento de veinticuatro horas para las operaciones que estoy considerando.",
+        "Incluso después de decidir invertir, me obligo a esperar veinticuatro horas antes de seguir adelante."
+      ]
+    },
+    {
+      "id": "b14-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "¿Cómo puede saber un inversor en qué empresas invertir, teniendo en cuenta lo mucho que pueden pivotar?"
+      ]
+    },
+    {
+      "id": "b15-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Como las empresas pivotan a menudo, tu criterio con las personas importa de verdad.",
+        "Pivotar significa dejar un pie fijo y mover el otro alrededor.",
+        "No es un salto ni un brinco a un sector completamente distinto.",
+        "Muchas veces una empresa pivota hacia un sector contiguo, así que sigue operando dentro del mercado más amplio.",
+        "En ese caso, darás más peso a evaluar al equipo y la ejecución, y menos peso al enfoque exacto del producto, suponiendo que el mercado tenga espacio suficiente para pivotar.",
+        "La valoración debería reflejar que la empresa puede pasar por varios giros, y también deberían reflejarlo el ritmo al que quema caja y su planificación de tesorería."
+      ]
+    },
+    {
+      "id": "b16-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Aquí tienes algunos ejemplos de giros suaves y bruscos.",
+        "Twitter empezó siendo Odeo, Instagram era Burbn, Slack era Glitch, Lyft era Zimride y Uber empezó solo con coches negros de lujo."
+      ]
+    },
+    {
+      "id": "b17-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Que Uber pasara de los coches negros a los viajes compartidos no fue un giro, fue una ampliación.",
+        "Que Zimride pasara de los viajes compartidos de larga distancia a los de corta distancia también fue una ampliación, y una innovación brillante por su parte.",
+        "Pasar de Odeo a Twitter fue un giro, pero no un salto.",
+        "Fue un giro de los podcasts al microblogueo, de la mano de la persona que popularizó los blogs tal como los conocemos, Evan Williams.",
+        "Fue una apuesta por una persona extraordinaria que se quedaba dentro de su terreno.",
+        "Pasar de Burbn a Instagram apenas fue un giro, fue más bien un paso.",
+        "Ahora bien, pasar de Geni a Yammer sí fue un salto.",
+        "David Sacks es uno de los mejores diseñadores de producto que hemos visto.",
+        "Estuvo en PayPal desde el principio, hizo pivotar Geni hasta convertirla en Yammer y dirigió Zenefits.",
+        "Fue de los primeros inversores en algunos de los mayores éxitos que hay.",
+        "Geni fue una apuesta por David, parecida a una apuesta por Elon Musk.",
+        "La gente que apostó por David apostaría por él una y otra vez.",
+        "Pasar de Glitch a Slack fue otro salto, porque Glitch era una empresa de videojuegos.",
+        "Pero, si no recuerdo mal, Stewart Butterfield ya había hecho algo parecido antes.",
+        "Incluso su primer éxito, Flickr, también había sido una especie de salto.",
+        "La gente invertía en Stewart con la esperanza de que saliera bien, y él cumplió.",
+        "Pero por cada uno de esos casos hay diez fracasos."
+      ]
+    },
+    {
+      "id": "b18-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Cuando quieres desarrollar tu criterio, el primer paso es calibrarlo.",
+        "¿Tengo buen criterio o no?",
+        "Estaría muy bien poder mirar los resultados de tus inversiones y ver si estabas en lo cierto.",
+        "Pero no lo sabrás hasta dentro de diez o quince años, y para entonces el sector ya habrá cambiado, porque evoluciona y se adapta rápido."
+      ]
+    },
+    {
+      "id": "b19-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Puedes fijarte en las revalorizaciones intermedias, apuntando cuándo Sequoia, Andreessen o Benchmark invierten en rondas posteriores y pagan precios más altos.",
+        "Es una métrica interesante, aunque en realidad lo que mide es si tienes buen ojo para lo que les gusta a otros creadores de tendencias.",
+        "Es un concurso de belleza keynesiano, en el que a cada juez se le premia según lo que piense el juez de la ronda siguiente.",
+        "Si tus operaciones se revalorizan, significa que te estás convirtiendo en un buen árbitro del gusto futuro.",
+        "Ese tipo de criterio es un mecanismo que usa a otras personas como indicador, no es realmente una forma de construir y calibrar tu propio criterio.",
+        "Aunque sí tiene valor, porque si puedes predecir lo que financiarán los inversores de capital riesgo, tus empresas tienen más posibilidades de conseguir financiación, y eso les da una ventaja competitiva.",
+        "Pero ser un árbitro del gusto de los inversores no te va a ayudar con una operación como Bitcoin, que es increíblemente rara y que nadie entiende.",
+        "Ahí no hay una ronda posterior de capital riesgo por la que apostar, así que tienes que tomar la decisión tú mismo."
+      ]
+    },
+    {
+      "id": "b20-naval",
+      "speaker": "Naval",
+      "frases": [
+        "También puedes fijarte en qué inversores te siguen en la misma ronda.",
+        "Si se comprometen antes que tú, eso no dice nada de tu criterio, porque probablemente te estás guiando por ellos.",
+        "Pero si buenos inversores con un criterio demostrado se apuntan a la misma ronda después de ti, eso es un indicio razonable de buen criterio."
+      ]
+    },
+    {
+      "id": "b21-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Por último, puedes preguntar a la gente, pero no les preguntes si tienes buen criterio o no, porque la gente educada siempre te dirá que sí.",
+        "Lo que tienes que preguntarles es cuáles son tus debilidades.",
+        "Y, claro, pregunta solo a gente que también tenga buen criterio."
+      ]
+    },
+    {
+      "id": "b22-naval",
+      "speaker": "Naval",
+      "frases": [
+        "La gente con buen criterio suele demostrarlo en todos los aspectos de la vida.",
+        "Leen mucho, piensan de forma crítica y manejan una gran variedad de ideas y opiniones, incluso contradictorias.",
+        "La gente con buen criterio es humilde y tiene un ego relativamente bajo, así que no se apega demasiado a decisiones anteriores y se cuestiona constantemente.",
+        "A menudo tienen formación científica o algún otro tipo de formación técnica.",
+        "Y trabajan en sectores donde la respuesta les llega del mundo real y tiene consecuencias, no solo de lo que la gente piensa de ellos."
+      ]
+    },
+    {
+      "id": "b23-naval",
+      "speaker": "Naval",
+      "frases": [
+        "La gente con buen criterio está dispuesta a ser impopular.",
+        "Los que piensan con más claridad trabajan desde la base, razonan a partir de primeros principios y acaban fiándose de su propia autoridad.",
+        "Hay cosas que llevan a tener mal criterio, como el pensamiento de grupo, socializar demasiado el criterio y elegir cosas porque son populares política o socialmente.",
+        "Mucha gente pierde dinero en este negocio persiguiendo cosas que desearía que fueran ciertas, en lugar de lo que de verdad resulta ser cierto.",
+        "La mafia de PayPal es famosa por ser un grupo cerrado.",
+        "Todos tienen buen criterio, todos son raros y políticamente incorrectos, y todos son brillantes.",
+        "No les da miedo sostener opiniones impopulares, y valoran las ideas y el criterio de los demás miembros del grupo.",
+        "Diga lo que diga la gente de Peter Thiel, nadie quiere enfrentarse a él en un debate, porque es brillante y piensa a la contra.",
+        "Es alguien que piensa desde la base, a partir de primeros principios.",
+        "Si te rodeas de gente brillante, que piensa a la contra y a partir de primeros principios, desarrollarás un criterio extremadamente bueno.",
+        "Eso sí, puede que no acabes siendo muy popular."
+      ]
+    },
+    {
+      "id": "b24-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Al invertir, quieres acertar contra el consenso, es decir, acertar cuando todos los demás se equivocan.",
+        "Si aciertas cuando todos los demás aciertan, no obtendrás un retorno suficiente.",
+        "Y si te equivocas, no obtendrás ningún retorno."
+      ]
+    },
+    {
+      "id": "b25-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Las mejores operaciones son raras, siempre tienen algo roto, extraño o distinto.",
+        "Son socialmente inaceptables, quedan fuera de las normas del capital riesgo o son demasiado de nicho para parecer interesantes.",
+        "El fundador no encaja en el molde habitual, o está en la ciudad equivocada.",
+        "O hay un problema en la tabla de capitalización, y así sucesivamente.",
+        "Eso no significa que debas invertir solo en operaciones raras.",
+        "Es como dice el viejo refrán, de la genialidad a la locura hay un paso.",
+        "El genio y el loco parecen igual de locos hasta que los hechos le dan la razón al genio.",
+        "Uno de cada cien resulta ser un genio, y los otros noventa y nueve resultan estar locos.",
+        "Tienes que ser lo bastante iconoclasta para reconocer a los fundadores geniales, sin tener tan poco criterio que dejes entrar también a todos los locos."
+      ]
+    },
+    {
+      "id": "b26-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Por cómo se construyen las carteras, puede que te vaya mejor invirtiendo en muchas operaciones disparatadas que en muchas operaciones que parecen decentes.",
+        "Por poner un ejemplo reciente, Patri Friedman ha montado un fondo que se llama Pronomos Capital.",
+        "Está invirtiendo en experimentos de gobernanza, como nuevas ciudades Estado, pueblos y localidades.",
+        "Son lugares donde la gente está tomando las riendas del gobierno local y haciendo experimentos de gobernanza.",
+        "Parece algo dificilísimo, casi imposible, y los intentos de crear ciudades autónomas en Honduras no han salido bien.",
+        "Pero lo único que tienes que hacer es toparte con el próximo Singapur o el próximo Hong Kong, ya sea virtual o físico.",
+        "Y entonces tienes algo que puede crear billones de dólares en riqueza y cambiar la forma en que vive la gente.",
+        "Pronomos se beneficia de dos cosas, y la primera es que tiene una marca única, porque nadie más está haciendo eso.",
+        "Todo el que está interesado en este campo sabe que tiene que acudir a ellos.",
+        "La segunda es que la gran mayoría de sus inversiones van a parecer una locura.",
+        "Pero las pocas excepciones geniales deberían dar retornos enormes, porque son inversiones contra el consenso.",
+        "Del mismo modo, Founders Fund, Steve Jurvetson y otras muchas personas construyeron su marca por estar dispuestos a financiar operaciones raras mucho antes que nadie."
+      ]
+    },
+    {
+      "id": "b27-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Puedes concederle a cada operación un defecto fatal, que es lo que los inversores de capital riesgo tradicionales usarán como excusa para pasar de ella.",
+        "Si hay más de un defecto, tienes que preocuparte."
+      ]
+    },
+    {
+      "id": "b28-naval",
+      "speaker": "Naval",
+      "frases": [
+        "A las startups se las recompensa por innovar en algo nuevo.",
+        "Si inviertes en una startup que intenta innovar en cosas que ya funcionan, como la estructura del equipo o la mentalidad del fundador, solo estás asumiendo un riesgo adicional.",
+        "Tienes que usar tu criterio para averiguar cuándo una startup puede saltarse las reglas y cuándo no.",
+        "Una startup que sigue todas las reglas probablemente no será interesante.",
+        "Una startup que se salta todas las reglas no llegará a ninguna parte, porque tiene que reinventarlo todo desde cero.",
+        "Uber era rara cuando apareció, porque los inversores la veían como un negocio de taxis y en aquella época no invertían en sectores fuera de internet.",
+        "Les parecía que la aplicación era el cinco por ciento del negocio y que el otro noventa y cinco por ciento era gente conduciendo coches, y tenían razón.",
+        "Sin embargo, la pregunta es cuánto apalancamiento acumula la empresa dueña de la aplicación.",
+        "También importa cuánto puede ampliar el mercado con esa aplicación, lanzando productos nuevos, atrayendo clientes nuevos y ofreciendo comodidad.",
+        "Google era rara porque, cuando apareció, todo el mundo pensaba que la guerra de los buscadores ya estaba ganada."
+      ]
+    },
+    {
+      "id": "b29-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Para saber qué reglas saltarte, ayuda entender la tecnología.",
+        "Como inversor, la mejor posición es aquella en la que los demás pasan de una operación porque no entienden la tecnología, y tú tienes el conocimiento técnico suficiente para saber que es viable.",
+        "Después tienes que asegurarte de que puedes conseguirle financiación hasta el punto en que resulte evidente para todo el mundo.",
+        "El valor está en saltarte la regla que sabes que no es una regla, mientras todos los demás creen que sí lo es."
+      ]
+    },
+    {
+      "id": "b30-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Es fácil sobrestimar tu propio criterio, y no pasa nada por decir que no lo sabes.",
+        "Esa debería ser tu respuesta la mayoría de las veces.",
+        "Hay pocas operaciones en las que debas decir que tienes convicción.",
+        "E incluso entonces, ten cuidado con cuánta convicción tienes.",
+        "En la etapa semilla, si pones mucho dinero en una empresa y muy poco en otra, eso plantea una pregunta.",
+        "¿De verdad tienes convicción, o simplemente tienes mejor acceso a una de las operaciones?",
+        "En general, cuanto mejor es la operación, menos acceso tendrás."
+      ]
+    },
+    {
+      "id": "b31-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Si pones mucho dinero en unas pocas operaciones y poco en muchas otras, verás que tus ganadoras tienden a salir, de forma desproporcionada, de las operaciones en las que invertiste poco.",
+        "Y eso perjudicará el retorno de tu cartera.",
+        "Una vez que tengas convicción, intenta siempre meter tu porción habitual en esa operación.",
+        "Si una operación tiene demasiado hueco para ti, eso significa una de dos cosas.",
+        "O deberías invertir más en otras operaciones o menos en esta, o deberías recibir a cambio una valoración más baja.",
+        "Esa rebaja te la mereces porque eres tú quien está creando la señal que la empresa usará para levantar el grueso del dinero."
+      ]
+    },
+    {
+      "id": "b32-naval",
+      "speaker": "Naval",
+      "frases": [
+        "En este negocio, todo el que persigue los mercados de moda acaba estrellándose.",
+        "Si empezaste a invertir en etapa semilla cuando estaba de moda el mercado de las redes sociales para consumidores, el mercado ya se había acabado para cuando tus inversiones maduraron.",
+        "Piensa en la avalancha de empresas de reparto de comida que aparecieron cuando ya era evidente que Uber estaba ganando.",
+        "Si invertiste en ellas de la quinta empresa en adelante, hasta la número cincuenta, perdiste tu dinero.",
+        "Si invertiste en cripto en dos mil diecisiete, llegaste al final del mercado, mientras que el principio fue de dos mil nueve a dos mil quince.",
+        "Hoy está de moda el software como servicio, que ha demostrado que da dinero, pero ya veremos cómo evoluciona.",
+        "Cuando las inversiones actuales de etapa semilla en software como servicio maduren, dentro de cinco o diez años, puede que descubras que los retornos son mucho más bajos que hoy.",
+        "Es bueno estar al principio de un mercado, no al final.",
+        "Para cuando ves conferencias sobre el tema y lees artículos de TechCrunch sobre él, probablemente ya es demasiado tarde."
+      ]
+    },
+    {
+      "id": "b33-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Una trampa habitual para los inversores, sobre todo si eres emprendedor, es fantasear con las cosas que podrías hacer con la empresa si tú fueras el fundador.",
+        "Aprenderás por las malas que, en realidad, es el emprendedor quien dirige la empresa.",
+        "Es importante escuchar con atención y creer al fundador cuando te cuenta lo que piensa hacer.",
+        "No te dejes llevar por la idea de que la empresa la va a dirigir otra persona.",
+        "La inversión ángel es lo contrario de la inversión en valor.",
+        "Warren Buffett dice que inviertas en un negocio que vaya tan bien que hasta un idiota pueda dirigirlo, porque tarde o temprano lo dirigirá uno.",
+        "Con las startups no es así, porque en la mayoría de ellas casi toda la creación de valor ocurre mientras el fundador está implicado de lleno.",
+        "Así que, en realidad, lo que haces es apostar por el fundador.",
+        "Si apuestas por un fundador que no te entusiasma, aunque te entusiasmen el mercado o el producto, a menudo ese fundador echará a perder la empresa.",
+        "Otras veces aparecerá un competidor con un fundador mucho mejor.",
+        "Cuando eso pasa, o tendrás un conflicto de intereses que te impida invertir en la nueva empresa, o el nuevo fundador no querrá hablar contigo porque invertiste en un competidor."
+      ]
+    },
+    {
+      "id": "b34-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Hay muchas formas de construir buen criterio, y el criterio atemporal, el de tomar buenas decisiones y saber calar a la gente, viene con la experiencia.",
+        "Puedes desarrollarlo leyendo grandes obras en la intersección entre la ciencia, los negocios y la filosofía.",
+        "Lee libros que expliquen cómo piensa la gente inteligente.",
+        "Construye los llamados modelos mentales y familiarízate con la microeconomía, las matemáticas y la teoría de juegos."
+      ]
+    },
+    {
+      "id": "b35-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Puedes construir conocimiento específico del momento sobre un campo si te zambulles en él y aprendes todo lo que puedas, lo más rápido posible.",
+        "No te convertirás en un gran inversor tecnológico leyendo sobre tecnología en TechCrunch o en Bloomberg News.",
+        "Tienes que ir a la fuente, y no deberías dudar en leer artículos científicos y revistas especializadas.",
+        "Deberías repasar tus matemáticas y disfrutar de verdad aprendiendo ciencia y tecnología.",
+        "Al fin y al cabo, la tecnología es ciencia aplicada."
+      ]
+    },
+    {
+      "id": "b36-naval",
+      "speaker": "Naval",
+      "frases": [
+        "También puedes desarrollar buen criterio invirtiendo en los científicos y tecnólogos más listos del campo.",
+        "Aunque no te hagan ganar dinero, pueden hacerte la diligencia debida de las operaciones.",
+        "Pueden validar y calibrar operaciones por ti, y pueden mandarte a otros grandes científicos.",
+        "Quizá los nombres asesores de tu fondo, les des una parte de tu participación en beneficios o les dejes invertir contigo.",
+        "Yo lo hice al principio, cuando invertí en empresas de criptomonedas.",
+        "Me hice amigo de Zooko Wilcox O'Hearn, que fundó Zcash, y de Juan Benet, que fundó Filecoin.",
+        "También me hice amigo de Ryan Shea y Muneeb Ali, que fundaron juntos Blockstack, y de Bram Cohen, que creó BitTorrent.",
+        "Y me hice amigo también de Eli Ben Sasson y de Andrew Miller.",
+        "Se convirtieron en mi gente de referencia para examinar y validar operaciones.",
+        "Me decían qué tecnologías eran reales y cuáles no, y qué científicos eran creíbles y cuáles no."
+      ]
+    },
+    {
+      "id": "b37-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Si te rodeas de los mejores científicos y tecnólogos, se convertirán en tu arma secreta.",
+        "Suelen ser gente que no se anda con rodeos, te dirán exactamente lo que piensan de una tecnología nueva y te pondrán en contacto con su red.",
+        "Tendrás que usar tu propio criterio para decidir cuándo se muestran negativos sin motivo o tienen envidia, porque es algo propio de la naturaleza humana.",
+        "En general, la gente muy técnica tiende a ser extremadamente objetiva.",
+        "Están acostumbrados a tratar con el mundo real y con resultados científicos, y no con personas que se dejan influir por la subjetividad.",
+        "Si encuentras un grupo de científicos y tecnólogos distinguidos y de una honestidad que duele, eso será un arma secreta durante toda tu carrera como inversor."
+      ]
+    },
+    {
+      "id": "b38-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Hablemos de cómo aplicar el criterio al evaluar los equipos, el producto y el mercado, la tracción y la prueba social."
+      ]
+    },
+    {
+      "id": "b39-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Esto es el negocio de la tecnología, así que quieres invertir en equipos tecnológicos.",
+        "Es muy probable que toda gran startup tecnológica tenga un gran tecnólogo en su equipo fundador.",
+        "Si no es el miembro más importante del equipo, el tecnólogo tiene que estar suficientemente compensado y motivado.",
+        "Su nombre y su responsabilidad tienen que ser cruciales para el proyecto.",
+        "Si en el equipo fundador no hay nadie con un perfil técnico sólido, o no es un negocio de tecnología o la empresa ha subcontratado esa función.",
+        "Eso no es solo una señal de precaución, sino una señal de alarma.",
+        "Por ejemplo, yo no considero que Dollar Shave Club sea un negocio de tecnología.",
+        "Claro que puedes ganar dinero invirtiendo en negocios que no son de tecnología, como Dollar Shave Club o Chipotle, pero no es de eso de lo que hablamos aquí."
+      ]
+    },
+    {
+      "id": "b40-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Cualquiera del equipo fundador que no sea muy técnico debería ser muy bueno vendiendo.",
+        "Tiene que saber venderles a los usuarios finales del producto, a los inversores cuando se levanta dinero y a los posibles empleados para atraer talento.",
+        "Otra figura que puede resultar increíblemente útil es el creador de comunidad, aunque los buenos escasean.",
+        "También venden, solo que a ellos se les dan bien las ventas masivas en lugar de las ventas uno a uno.",
+        "Como los growth hackers, son una combinación única de construir y vender.",
+        "Los grandes creadores de comunidad tienen mucho apalancamiento, pero también son extremadamente difíciles de encontrar.",
+        "Probablemente sean lo más escaso que hay ahora mismo.",
+        "Todo el mundo dice que se le da bien crear comunidad, pero necesitas ver los resultados."
+      ]
+    },
+    {
+      "id": "b41-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Para valorar las cualidades que quieres en un socio, uso la prueba de tres partes de Warren Buffett, que pide mucha energía, mucha inteligencia y mucha integridad."
+      ]
+    },
+    {
+      "id": "b42-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Lo de tener mucha energía es evidente, porque tienes que trabajar duro.",
+        "Las startups son los Juegos Olímpicos de los negocios, y estás compitiendo contra los mejores del mundo.",
+        "Parafraseando la película Éxito a cualquier precio, el primer premio es un Cadillac Eldorado, el segundo es un juego de cuchillos para carne y el tercero es que te despiden.",
+        "Si vas a ganar, necesitas gente que lo dé todo.",
+        "En Twitter hay un meme que dice que siempre deberías trabajar de nueve a cinco, y que eso es el equilibrio entre la vida laboral y la personal.",
+        "Me parece bien, no todo el mundo tiene que matarse a trabajar.",
+        "Pero entonces yo diría que no deberías ser atleta olímpico ni fundador de una startup tecnológica en la que el ganador se lo lleva todo.",
+        "Si montas una startup, tendrás que dejarte la piel, igual que el resto del núcleo del equipo."
+      ]
+    },
+    {
+      "id": "b43-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Tener mucha inteligencia es importante, porque necesitas gente que tome buenas decisiones.",
+        "La inteligencia no es solo criterio para las grandes cuestiones, también es criterio en el día a día.",
+        "Si inviertes en gente que no está a tu altura intelectual, en el fondo estás invirtiendo, hablando y pensando por debajo de tu nivel.",
+        "Lo que estás haciendo es elegir a la gente equivocada."
+      ]
+    },
+    {
+      "id": "b44-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Tener mucha integridad es fundamental, porque sin ella te encuentras con un estafador listo y muy trabajador que puede engañarte con facilidad.",
+        "Y en este negocio hay muchísimas maneras de que te engañen.",
+        "Descubrir si alguien tiene integridad lleva mucho tiempo.",
+        "Es difícil valorar la integridad de alguien si no has trabajado con él durante mucho tiempo, y eso es lo que pasará con la mayoría de los fundadores.",
+        "Puedes fijarte en cómo tratan a la gente que tienen alrededor, incluidos los posibles inversores, los cofundadores y los empleados.",
+        "Quien hace tratos en su propio beneficio a costa de los demás acabará haciéndotelo a ti.",
+        "Los fundadores no tienen por qué ser gente amable.",
+        "La amabilidad es una señal fácil de fingir, y no basta como filtro.",
+        "La gente técnica suele saberlo, así que no le da demasiada importancia a la amabilidad.",
+        "Puede que a ti te importe, porque has decidido que es más agradable trabajar con alguien amable.",
+        "Pero hay muchos empresarios de éxito que no son amables.",
+        "Lo que tienes que buscar es integridad, no amabilidad.",
+        "La integridad consiste en estar a la altura de un código ético interno, en ser fiable y honesto.",
+        "La amabilidad a menudo no es más que cortesía, o alguien que da señales de tener integridad cuando hay poco en juego.",
+        "La integridad se pone a prueba cuando hay mucho en juego."
+      ]
+    },
+    {
+      "id": "b45-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Entre los inversores de capital riesgo, sobre todo los inexpertos, circula el meme de que un buen fundador tiene que dejarse aconsejar.",
+        "Estos inversores confían demasiado en sus propias capacidades y piensan que ellos tienen razón y que los fundadores se equivocan.",
+        "Los inversores inexpertos también confían demasiado en la idea de que puedes cambiar a la gente a corto plazo.",
+        "Los inversores con experiencia saben que no es así.",
+        "De hecho, los grandes fundadores no se dejan aconsejar tanto, y aunque escuchan muchísimos consejos, siguen muy pocos.",
+        "Desarrollan su propia brújula interna, así que creo que la capacidad de dejarse aconsejar es una métrica sobrevalorada."
+      ]
+    },
+    {
+      "id": "b46-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Los inversores ángel suelen ser bastante duros cuando empiezan, sobre todo si invierten mucho dinero propio.",
+        "En general, no te conviene invertir dinero que no estés dispuesto a perder.",
+        "Si te juegas demasiado en una operación, te comportarás mal cuando las cosas se pongan feas.",
+        "Cuando a la empresa le vaya mal, tú te portarás mal.",
+        "Emocionalmente no podrás evitarlo, y eso dañará tu reputación."
+      ]
+    },
+    {
+      "id": "b47-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Es en esos momentos cuando se construye tu reputación.",
+        "Tus retornos los construyen las empresas a las que les va bien.",
+        "Tu reputación la construyen las empresas a las que les va mal.",
+        "A largo plazo, tus retornos también dependen de tu acceso.",
+        "Y tu acceso depende de cómo te portaste con los fundadores cuando a sus empresas les iba mal.",
+        "Por eso nunca te conviene tener demasiado en juego, así que no metas tanto dinero como para que te importe."
+      ]
+    },
+    {
+      "id": "b48-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Algunos inversores ángel insisten en pedir referencias de los fundadores.",
+        "Puede funcionar si sabes lo que haces, pero comprobar referencias es un arte que la mayoría de la gente no domina.",
+        "Fundar una startup es un acto de creatividad.",
+        "Si piensas en los grandes escritores, filósofos y artistas de la historia, unas referencias sinceras te dirían que todos estaban locos.",
+        "Los fundadores no son intercambiables, son insustituibles, y un fundador que es genial para un negocio puede ser terrible para otro.",
+        "Piensa en el fundador capaz de construir Craigslist, alguien orientado a la comunidad, extremadamente paciente y casi anticapitalista.",
+        "Ese fundador no funcionará en una startup financiera que va a toda prisa para levantar y desplegar mucho capital mientras hace presentaciones a bancos y reguladores.",
+        "Así que se trata del fundador adecuado para el trabajo adecuado.",
+        "Las referencias suelen ser genéricas, y para evaluar fundadores no funcionan tan bien como para contratar empleados.",
+        "En una contratación buscas a alguien que haga crecer procesos que ya funcionan."
+      ]
+    },
+    {
+      "id": "b49-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Pasé de Twilio en la ronda semilla por culpa de una referencia, y fue un gran error.",
+        "La referencia vino de alguien en quien confiaba y que tenía buenas intenciones.",
+        "Probablemente hasta era acertada, pero eso no era lo importante.",
+        "Debería haber hecho caso a mi intuición de que Jeff Lawson era el fundador adecuado para el trabajo.",
+        "También pasé de Ethereum muy al principio por una referencia de un inversor de capital riesgo muy activo en ese sector.",
+        "La referencia me disuadió cuando no debería haberlo hecho, aunque de esa me di cuenta más tarde."
+      ]
+    },
+    {
+      "id": "b50-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Las referencias de inversores de capital riesgo están entre las peores.",
+        "Por cada operación que hace un fondo de capital riesgo, hay otros fondos que pasaron de esa misma operación.",
+        "Sequoia hace muchas operaciones de las que Andreessen ha pasado, y al revés.",
+        "Esto pasa de arriba abajo en toda la cadena.",
+        "Los mejores fondos de capital riesgo no siempre persiguen las mejores operaciones.",
+        "En este mercado, cada uno tiene su propio punto de vista único, y los buenos jugadores tienen puntos de vista muy independientes.",
+        "Las referencias pueden degenerar en listas de comprobación, en pensar que más te vale marcar la casilla de que has pedido todas las referencias.",
+        "O, si de verdad les haces caso, tu punto de vista se convierte en una media difuminada, diluida por lo que piensa otra gente."
+      ]
+    },
+    {
+      "id": "b51-naval",
+      "speaker": "Naval",
+      "frases": [
+        "La inversión ángel es un juego de resultados excepcionales, no un juego de medias.",
+        "Te va mejor con una cartera en la que nueve de cada diez inversiones se van a cero y la décima multiplica por mil.",
+        "Eso es mejor que una cartera en la que todas multiplican por dos o por tres.",
+        "Si un equipo fundador insinúa, da señales o simplemente parece propenso a vender pronto la empresa, es un indicador muy negativo.",
+        "Los equipos con una motivación demasiado económica a menudo venden la empresa por cien o doscientos millones de dólares.",
+        "Para ellos es un resultado que les cambia la vida, pero a ti no te importa mucho porque tienes muy poco de la empresa, así que no te va a cambiar nada tu patrimonio.",
+        "Como dijo Bill Gurley en una frase famosa, el capital riesgo ni siquiera es un negocio de jonrones, es un negocio de grand slams.",
+        "Los inversores de capital riesgo listos buscan los casos más atípicos y extremos.",
+        "Por eso los inversores de capital riesgo listos dejan que los fundadores vendan acciones en el mercado secundario desde el principio.",
+        "Los fundadores aseguran algo de dinero a cambio de ir a por el oro.",
+        "Cuando inviertes en una empresa que va a vender pronto, te pierdes el interés compuesto.",
+        "Además, los fondos de capital riesgo de rondas posteriores captarán esa señal y pasarán de la operación.",
+        "Y la startup no podrá levantar el dinero que necesita para convertirse en una gran empresa.",
+        "Es difícil sacarles esta señal a los fundadores, aunque a veces la dan ellos mismos."
+      ]
+    },
+    {
+      "id": "b52-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Entre los inversores hay un debate continuo sobre qué es mejor, los fundadores primerizos o los fundadores que repiten.",
+        "No hay una respuesta tajante, pero yo diría que probablemente la mayor parte del valor del sector la crean fundadores primerizos.",
+        "Piensa en Jeff Bezos, en Bill Gates, en Larry Page y Sergey Brin, y en Mark Zuckerberg.",
+        "Cae un rayo, todo prende fuego y la empresa despega."
+      ]
+    },
+    {
+      "id": "b53-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Eso sí, a algunos de ellos la etiqueta de fundador primerizo no les encaja del todo.",
+        "Zuckerberg tuvo otros proyectos antes de que Facebook despegara.",
+        "Gates fundó Traf O Data con Paul Allen mucho antes de montar Microsoft.",
+        "Medían el tráfico y vendían los datos a las ciudades.",
+        "A menudo, el llamado fundador primerizo lleva ya bastante tiempo trasteando."
+      ]
+    },
+    {
+      "id": "b54-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Los fundadores que repiten también pueden tener muchísimo éxito, como se ve en Uber, en WhatsApp y en Zoom.",
+        "Los fundadores que repiten suelen ser mucho mejores ejecutando.",
+        "Se les da bien reclutar equipos y, en general, eligen con más cuidado en qué mercados entran.",
+        "Los fundadores que repiten también tienen mejores contactos, y eso facilita levantar dinero.",
+        "Como llevan tiempo en esto, es más probable que hayan creado relaciones a largo plazo con gente que conoces.",
+        "Eso hace más fácil comprobar su reputación y si tienen integridad."
+      ]
+    },
+    {
+      "id": "b55-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Por otro lado, los fundadores que repiten suelen tener menos pasión.",
+        "Estudiaron el mercado y eligieron lo que creen que va a funcionar, no necesariamente lo que más les entusiasma.",
+        "Suelen tener menos conocimiento específico del campo, porque no han pasado los últimos veinte años enterrados en él.",
+        "Aunque a veces sí encuentras ese conocimiento específico en fundadores que vienen de empresas más grandes, donde incubaron una tecnología que les gusta de verdad.",
+        "Las operaciones con fundadores que repiten suelen ser más caras, así que tus retornos son más bajos.",
+        "Hay contrapartidas, y no tengo ninguna regla tajante que diga que no hay que apoyar a fundadores que repiten, ni que no hay que apoyar a fundadores primerizos.",
+        "Me he encontrado con que los dos pueden funcionar y los dos pueden fallar."
+      ]
+    },
+    {
+      "id": "b56-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Con los fundadores primerizos, tienes que poner a prueba su capacidad de aprender.",
+        "¿Aprenden rápido?",
+        "¿Aprenderán a dirigir una empresa?",
+        "¿Se adaptarán y crecerán?",
+        "Esto es distinto de preguntarse si se dejan aconsejar.",
+        "Creo que la capacidad de dejarse aconsejar está sobrevalorada."
+      ]
+    },
+    {
+      "id": "b57-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Con los fundadores que repiten, deberías poner a prueba su pasión.",
+        "¿Llevarán la empresa hasta el final cuando las cosas se pongan difíciles, o se irán a montar lo siguiente?",
+        "¿Tienen convicción?",
+        "¿Tienen la humildad de pasar otra vez por todo eso, empezando desde cero?",
+        "Los fundadores que repiten a menudo no quieren volver a empezar con cuatro o cinco personas apretujadas en un espacio diminuto detrás de mesas de madera.",
+        "Quieren empezar con mucho dinero y a lo grande, con una oficina grande y un equipo grande.",
+        "Eso puede funcionar cuando el riesgo es sobre todo de ejecución, como suele pasar en el software y las ventas para empresas.",
+        "No funciona tan bien cuando hay riesgo de invención, como pasa con los productos de consumo, las redes sociales y el desarrollo de tecnología profunda."
+      ]
+    },
+    {
+      "id": "b58-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Entonces, los fundadores primerizos asumen riesgo de mercado, y eso explica por qué suelen tener los resultados más grandes.",
+        "También explica por qué la mayoría de ellos fracasan.",
+        "En cambio, los fundadores que repiten asumen riesgo de ejecución, y eso explica por qué consiguen resultados más constantes.",
+        "También explica por qué sus retornos no son enormes, porque no están apostando por una visión del mercado."
+      ]
+    },
+    {
+      "id": "b59-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Esa es una manera muy profunda de resumirlo.",
+        "Los fundadores primerizos asumen riesgo de mercado y, como resultado, crean mercados nuevos o se quedan con mercados enteros, mientras que los fundadores que repiten asumen riesgo de ejecución.",
+        "También hay casos mixtos, como cuando desarrollas una tecnología nueva que puede crear un mercado nuevo.",
+        "Eso requiere un conocimiento técnico profundo, lo que favorece a un fundador primerizo.",
+        "Pero también requiere levantar mucho dinero y resolver cosas como la forma de fabricar y distribuir algo nuevo, y para eso quizá hagan falta los recursos de un fundador que repite.",
+        "A veces aparece un punto óptimo, un fundador que repite y que ya tuvo éxito antes, pero no tanto como para perder la mentalidad de fundador primerizo.",
+        "Digamos que tienes un equipo de gente que construye robots.",
+        "Fracasaron porque llegaron demasiado pronto y el mercado no estaba del todo preparado.",
+        "Pero lo intentaron bien, y lo hicieron con poco dinero.",
+        "Más adelante el equipo vuelve y todavía quiere construir robots.",
+        "Te dicen que por fin es el momento adecuado y que han incorporado a algunas personas más jóvenes con acceso a tecnología nueva.",
+        "Ahora están en posición de levantar más dinero, y tienen la espina muy clavada, decididos a demostrar que este sector puede funcionar.",
+        "Ese tipo de apuestas pueden ser muy interesantes."
+      ]
+    }
+  ]
+}
