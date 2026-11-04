@@ -23,9 +23,10 @@ Drive, listo para Audacity.
    - `borrador_tts.wav` — todos los clips seguidos, para una escucha rápida;
    - `registro_tts.jsonl` — el detalle de cada frase.
 
-Lo que ya está en `tts/` no se repite. Para rehacer un clip, bórralo y relanza. **Si cambias una voz en
-`voces.json`** (adaptador, referencia, temperatura o pausa), al relanzar un episodio la fábrica rehace sola los clips
-de esa voz y deja los demás: cada clip guarda en `registro_tts.jsonl` con qué voz se hizo.
+Lo que ya está en `tts/` no se repite. Para rehacer un clip, bórralo y relanza. **Si cambia el texto de una
+intervención en el repo, o una voz en `voces.json`** (adaptador, referencia, temperatura o pausa), al relanzar el
+episodio la fábrica rehace sola esos clips y deja los demás: cada clip guarda en `registro_tts.jsonl` su texto y
+con qué voz se hizo.
 
 ## Cambiar una voz
 

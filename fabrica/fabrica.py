@@ -222,13 +222,16 @@ def firma(voz, cfg):
             "pausa_max": pausa_de(voz, cfg)}
 
 
-def misma_voz(fila, voz, cfg):
-    """¿Se generó el clip de esta fila del registro con la voz que dice ahora voces.json?
+def clip_al_dia(fila, p, cfg):
+    """¿El clip de esta fila del registro sigue valiendo para el bloque `p` del plan?
 
-    Los clips anteriores al 3-nov no guardan la firma: solo su adaptador, y se generaron sin temperatura propia (la
-    referencia y la pausa de cada voz no han cambiado desde entonces).
+    Vale si se generó con el mismo texto (las frases que guarda el registro) y con la voz que dice ahora voces.json.
+    Los clips anteriores al 3-nov no guardan la firma de la voz: solo su adaptador, y se generaron sin temperatura
+    propia (la referencia y la pausa de cada voz no han cambiado desde entonces).
     """
-    actual = firma(voz, cfg)
+    if [d.get("texto") for d in fila.get("frases", [])] != p["frases"]:
+        return False
+    actual = firma(p["voz"], cfg)
     if "firma" in fila:
         return fila["firma"] == actual
     return fila.get("adaptador") == actual["adaptador"] and actual["temperatura"] is None
@@ -260,9 +263,9 @@ def generar_episodio(plan, sintetizar_lote, asr, carpeta, cfg, avisar=print):
         wav = tts_dir / p["fichero"]
         if wav.exists():
             anterior = hechos.get(p["fichero"])
-            if anterior is None or misma_voz(anterior, p["voz"], cfg):
+            if anterior is None or clip_al_dia(anterior, p, cfg):
                 continue
-            avisar(f"  {p['fichero']}: la voz ha cambiado en voces.json desde que se generó; lo rehago")
+            avisar(f"  {p['fichero']}: ha cambiado su texto o su voz desde que se generó; lo rehago")
         t0 = time.time()
         trozos, detalle, sr, cursor = [], [], None, BORDE_INICIO
         pausa = pausa_de(p["voz"], cfg)

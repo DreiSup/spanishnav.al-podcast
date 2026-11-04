@@ -109,6 +109,12 @@ La **fase 1** (elegir motor) está casi cerrada:
   temperatura 0,7** para Naval y naval_kapil, ya en voces.json. La fábrica rehace sola, al relanzar, los clips
   hechos con otra voz (037, 038, 039 y 044: solo los de Naval).
 
+- **Fábrica con la voz final de Naval** (3-nov, T4): 035, 036, 037, 038, 039 y 040 hechos o rehechos, **cero frases
+  sospechosas**, unos 2,1 s de GPU por s de audio. La ejecución se cortó al empezar el 041 (carpeta vacía). Faltan
+  041–045 y rehacer Naval en el 044. Desde el 4-nov la fábrica rehace sola los clips cuyo **texto** cambió en el
+  repo (además de los de voz cambiada): compara las frases guardadas en el registro.
+- **Traducción** (3–4 nov): 053–067 subidos (cortos, casi todos solo Naval). 368 min traducidos en total.
+
 ## Esperando a que termine
 
 | Qué | Dónde corre | Resultado esperado |
