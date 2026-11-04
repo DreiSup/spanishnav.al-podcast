@@ -85,7 +85,7 @@
     {"orden": 80, "titulo": "Read the Best 100 Books Over and Over Again", "fecha": "2021-03-10", "url": "https://nav.al/read", "tiene_transcript": true},
     {"orden": 81, "titulo": "Happiness", "fecha": "2021-03-12", "url": "https://nav.al/happiness", "tiene_transcript": true},
     {"orden": 82, "titulo": "We're at the Beginning of an Infinity of Knowledge", "fecha": "2021-03-15", "url": "https://nav.al/knowledge", "tiene_transcript": true},
-    {"orden": 83, "titulo": "People Are a Force of Nature", "fecha": "2021-03-17", "url": "https://nav.al/people", "tiene_transcript": null},
+    {"orden": 83, "titulo": "People Are a Force of Nature", "fecha": "2021-03-17", "url": "https://nav.al/people", "tiene_transcript": true},
     {"orden": 84, "titulo": "It's Impossible to Predict the Growth of Knowledge", "fecha": "2021-03-19", "url": "https://nav.al/predict", "tiene_transcript": null},
     {"orden": 85, "titulo": "Humans Are Unique in Our Ability to Understand Things", "fecha": "2021-03-22", "url": "https://nav.al/understand", "tiene_transcript": null},
     {"orden": 86, "titulo": "Good Explanations Are Acts of Creativity", "fecha": "2021-03-24", "url": "https://nav.al/explanations", "tiene_transcript": null},

@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 79,
+  "anio": 2021,
+  "slug": "people",
+  "titulo": "People Are a Force of Nature",
+  "subtitulo": "We create knowledge that transforms the universe",
+  "fecha_publicacion": "2021-03-17",
+  "fuente_url": "https://nav.al/people",
+  "orden_archivo": 83,
+  "en_feed": true,
+  "participantes": [
+    "Brett"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}
