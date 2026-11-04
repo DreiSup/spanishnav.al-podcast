@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2021/101-ignorance",
+  "numero": 101,
+  "fecha": "2021-05-12",
+  "titulo": "En nuestra infinita ignorancia, todos somos iguales",
+  "subtitulo": "La puerta siempre está abierta a ideas nuevas",
+  "fuente_url": "https://nav.al/ignorance",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-brett",
+      "speaker": "Brett",
+      "frases": [
+        "La inducción dice que la predicción es la razón principal por la que existe la ciencia, pero en realidad es la explicación.",
+        "Lo que quieres es una explicación de lo que está pasando, aunque no siempre puedas predecir con certeza lo que va a pasar después.",
+        "De hecho, saber con cierto grado de certeza lo que va a pasar después puede quitarle toda la emoción.",
+        "Lo desconocido puede ser mucho más divertido que la certeza absoluta sobre lo que nos traerá el mañana."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Esto nos lleva a una idea relacionada, y es que la ciencia nunca es definitiva.",
+        "Siempre deberíamos tener libertad para aportar nuevas ideas creativas y plantear nuevas conjeturas.",
+        "Nunca sabes de dónde van a salir las mejores ideas.",
+        "Tienes que tomarte en serio cualquier idea que se plantee de buena fe.",
+        "Esa idea de que la ciencia ya está zanjada, o de que la ciencia ya está cerrada, es absurda.",
+        "Implica que todos podemos ponernos de acuerdo en el proceso por el que se nos ocurren las teorías nuevas.",
+        "Pero las teorías nuevas surgen de la creatividad y de la conjetura.",
+        "La puerta siempre está abierta para que llegue gente nueva con ideas nuevas y haga justo eso."
+      ]
+    },
+    {
+      "id": "b03-brett",
+      "speaker": "Brett",
+      "frases": [
+        "Como dijo Popper, en nuestra infinita ignorancia, todos somos iguales.",
+        "Aunque alguien diga ser experto, y puede que con razón, hay un número infinito de cosas que no sabe y que podrían afectar a lo que sí sabe.",
+        "Un estudiante que no es experto en nada puede aun así tener una idea capaz de poner en duda los cimientos de lo que sabe el mayor de los expertos.",
+        "Igual que un niño, el experto ignora un montón de cosas y podría estar equivocado.",
+        "Alguien que no tenga ese conocimiento tan especializado puede aun así señalar esos errores y proponer una idea mejor."
+      ]
+    }
+  ]
+}

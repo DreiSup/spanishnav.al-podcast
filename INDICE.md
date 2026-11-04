@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**66** episodios · **0** publicados · **0** sin empezar
+**67** episodios · **0** publicados · **0** sin empezar
 
 ## 2021
 
@@ -37,6 +37,7 @@
 | 98 | [098-bold](episodios/2021/098-bold) | Haz conjeturas audaces y descarta las que fallen | 🟠 en revisión | — | — |
 | 99 | [099-advances](episodios/2021/099-advances) | La ciencia avanza de funeral en funeral | 🟠 en revisión | — | — |
 | 100 | [100-theories](episodios/2021/100-theories) | Es raro tener teorías científicas viables que compitan entre sí | 🟠 en revisión | — | — |
+| 101 | [101-ignorance](episodios/2021/101-ignorance) | En nuestra infinita ignorancia, todos somos iguales | 🟠 en revisión | — | — |
 
 ## 2020
 

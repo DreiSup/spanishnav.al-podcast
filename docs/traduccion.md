@@ -84,3 +84,4 @@ abiertas («…talk about sex.» sin «”»). Afecta solo al inglés, que no se
 | 2026-11-04 | 098 Make Bold Guesses and Weed Out the Failures | revision | 3 | 24 | 387 | 2,3 | Cero avisos. Workflow de especialistas (4-nov); 1 decisiones aplicadas, ver notas |
 | 2026-11-04 | 099 Science Advances One Funeral at a Time | revision | 3 | 12 | 219 | 1,3 | Cero avisos. Workflow de especialistas (4-nov); 1 decisiones aplicadas, ver notas |
 | 2026-11-04 | 100 It’s Rare to Have Competing, Viable, Scientific Theories | revision | 6 | 41 | 669 | 3,9 | Cero avisos. Workflow de especialistas (4-nov); 2 decisiones aplicadas, ver notas |
+| 2026-11-04 | 101 We’re All Equal in Our Infinite Ignorance | revision | 3 | 17 | 303 | 1,8 | Cero avisos. Workflow de especialistas (4-nov); 1 decisiones aplicadas, ver notas |
