@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**85** episodios · **0** publicados · **0** sin empezar
+**86** episodios · **0** publicados · **0** sin empezar
 
 ## 2021
 
@@ -56,6 +56,7 @@
 | 117 | [117-program](episodios/2021/117-program) | Si no puedes programarlo, no lo has entendido | 🟠 en revisión | — | — |
 | 118 | [118-far-away](episodios/2021/118-far-away) | Quizá los extraterrestres simplemente estén demasiado lejos | 🟠 en revisión | — | — |
 | 119 | [119-resources](episodios/2021/119-resources) | Los extraterrestres vendrían por el conocimiento, no por los recursos | 🟠 en revisión | — | — |
+| 120 | [120-ideas](episodios/2021/120-ideas) | Las ideas son el nuevo petróleo | 🟠 en revisión | — | — |
 
 ## 2020
 
