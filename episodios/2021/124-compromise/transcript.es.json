@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2021/124-compromise",
+  "numero": 124,
+  "fecha": "2021-11-29",
+  "titulo": "La miseria del término medio",
+  "subtitulo": "Un término medio pone a prueba ideas que nadie creyó nunca que fueran correctas",
+  "fuente_url": "https://nav.al/compromise",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-brett",
+      "speaker": "Brett",
+      "frases": [
+        "Esta idea de cuestionar cosas que hasta entonces creías inatacables en un ámbito concreto es muy interesante.",
+        "Durante milenios, la gente se ha preguntado cuál es la mejor manera de concebir qué es la democracia.",
+        "Platón se preguntó qué es la democracia, y se planteó la cuestión de quién debería gobernar.",
+        "Supuestamente, en eso consiste toda la idea de la democracia, en averiguar quién debería gobernar.",
+        "¿Deberían gobernar los reyes filósofos?",
+        "¿Debería gobernar el conjunto de los ciudadanos?",
+        "Platón llegó a la conclusión de que la masa votaría sin reparos para quitarle sus derechos a una minoría, y eso es lo que él pensaba que era la democracia.",
+        "Pero Popper cuestionó toda esta forma de abordar qué era la democracia.",
+        "Fue todavía más al fondo, y vino a decir que la democracia no tiene nada que ver con quién debería gobernar.",
+        "Dijo que la democracia es el sistema que te permite deshacerte de políticas y de gobernantes de la forma más eficiente y sin violencia.",
+        "Y añadió que así es como hay que juzgar los distintos sistemas democráticos.",
+        "Así que, de hecho, puedes juzgar a Francia, a Inglaterra, a Estados Unidos, a Australia o a Canadá.",
+        "¿Tienen estos países una democracia mejor o peor?",
+        "Depende de hasta qué punto seamos capaces de echar del sistema democrático a la gente que no nos gusta de forma rápida, eficiente, fácil y sin violencia.",
+        "Esa es la medida de un buen sistema democrático, y no tratar de averiguar cuál nos va a dar los mejores gobernantes.",
+        "Es el mismo error que preguntarse qué método científico nos va a dar la teoría verdadera.",
+        "Ningún método científico nos va a dar la teoría verdadera.",
+        "La ciencia es un mecanismo de corrección de errores, y lo único que podemos esperar es deshacernos de las malas ideas.",
+        "Al hacerlo, habremos corregido algunos de nuestros errores, y entonces podremos seguir avanzando para encontrar una teoría mejor que la que teníamos antes.",
+        "Esto nos lleva a la cuestión de cómo tomar buenas decisiones cuando chocas frontalmente con otra persona.",
+        "Existe esta idea de que llegar a un término medio es una especie de virtud, y no lo es.",
+        "Es preferible a un enfrentamiento violento, si tienes a dos personas que de otro modo no podrían llegar nunca a un acuerdo y van a acabar enzarzadas en algún tipo de pelea.",
+        "Imagina una situación en la que una persona tiene una idea y otra persona tiene otra distinta.",
+        "Lo que se suele entender por término medio es una tercera idea que está en algún punto a medio camino entre las dos.",
+        "La primera persona no consigue todo lo que quiere, y la segunda persona tampoco consigue todo lo que quiere.",
+        "Así que acuerdan un término medio, que es esa tercera teoría.",
+        "No debería sorprendernos que esa tercera teoría acabe por no funcionar, porque ninguno de los dos pensó nunca que fuera la mejor idea.",
+        "La primera persona vuelve a decir que ya lo había dicho siempre, que la idea correcta era la suya.",
+        "Y la segunda persona vuelve a decir que ya lo había dicho siempre, que la mejor idea era la suya.",
+        "No han avanzado absolutamente nada. Han demostrado que la tercera idea está equivocada, pero es que nadie creyó nunca que fuera correcta.",
+        "Esta es la miseria del término medio, y es lo que pasa en la ciencia en ciertos momentos.",
+        "Y en la política también está por todas partes."
+      ]
+    }
+  ]
+}

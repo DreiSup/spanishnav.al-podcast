@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**89** episodios · **0** publicados · **0** sin empezar
+**90** episodios · **0** publicados · **0** sin empezar
 
 ## 2021
 
@@ -60,6 +60,7 @@
 | 121 | [121-einstein](episodios/2021/121-einstein) | Un Einstein vale más que una legión de doctores autómatas | 🟠 en revisión | — | — |
 | 122 | [122-credibility](episodios/2021/122-credibility) | No te fíes de los sellos de credibilidad | 🟠 en revisión | — | — |
 | 123 | [123-decentralization](episodios/2021/123-decentralization) | La innovación necesita descentralización y una frontera | 🟠 en revisión | — | — |
+| 124 | [124-compromise](episodios/2021/124-compromise) | La miseria del término medio | 🟠 en revisión | — | — |
 
 ## 2020
 

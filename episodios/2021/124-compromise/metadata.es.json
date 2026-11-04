@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 124,
+  "anio": 2021,
+  "slug": "compromise",
+  "titulo_es": "La miseria del término medio",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "La miseria del término medio",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). 124 compromise. Un solo bloque, de Brett. El campo speaker se copia exacto del inglés (Brett), y por eso el validador da un aviso informativo de hablante no habitual. Ratio 1,08, ningún bloque fuera de rango. Frase más larga, 32 palabras. No hay notas del editor ni artefactos del copiado. Las citas de Popper y de las dos personas del ejemplo se pasan a estilo indirecto sin comillas. La de Popper la introduce Brett con roughly said, que se traduce vino a decir. La pregunta de Platón, What is democracy?, también va en estilo indirecto (se preguntó qué es la democracia). Las preguntas sobre quién debe gobernar van en estilo directo, con su signo de apertura. La pregunta larga sobre los países (Do these places have better or worse kinds of democracy to the extent that…) se parte en una pregunta corta y una respuesta que empieza con Depende de hasta qué punto. Compromise = término medio, nunca compromiso a secas (D6 del brief). El título, La miseria del término medio, conserva el guiño a La miseria del historicismo de Popper. Las letras sueltas (person A, idea X, theory Z) se resuelven en la frase: una persona, otra persona, la primera, la segunda y una tercera idea o teoría (D10 del brief, mismo criterio que el 063 del GLOSARIO). At loggerheads = chocar frontalmente. Hitherto = hasta entonces. Make a judgment on France = juzgar a Francia, según la nota del brief sobre judgment. Nombres que hay que escuchar en el TTS: Platón, Popper."
+}
