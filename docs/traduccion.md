@@ -67,3 +67,4 @@ abiertas («…talk about sex.» sin «”»). Afecta solo al inglés, que no se
 | 2026-11-04 | 080 It’s Impossible to Predict the Growth of Knowledge | revision | 2 | 19 | 362 | 2,1 | Cero avisos. Workflow de especialistas (4-nov); 2 decisiones aplicadas, ver notas |
 | 2026-11-04 | 081 Humans Are Unique in Our Ability to Understand Things | revision | 1 | 12 | 225 | 1,3 | Cero avisos. Workflow de especialistas (4-nov); 1 decisiones aplicadas, ver notas |
 | 2026-11-04 | 082 Good Explanations Are Acts of Creativity | revision | 1 | 20 | 345 | 2,0 | Cero avisos. Workflow de especialistas (4-nov); 1 decisiones aplicadas, ver notas |
+| 2026-11-04 | 083 Good Explanations Are Hard to Vary | revision | 5 | 28 | 484 | 2,8 | Cero avisos. Workflow de especialistas (4-nov); 1 decisiones aplicadas, ver notas |

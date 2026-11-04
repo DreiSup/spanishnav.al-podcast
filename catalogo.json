@@ -89,7 +89,7 @@
     {"orden": 84, "titulo": "It's Impossible to Predict the Growth of Knowledge", "fecha": "2021-03-19", "url": "https://nav.al/predict", "tiene_transcript": true},
     {"orden": 85, "titulo": "Humans Are Unique in Our Ability to Understand Things", "fecha": "2021-03-22", "url": "https://nav.al/understand", "tiene_transcript": true},
     {"orden": 86, "titulo": "Good Explanations Are Acts of Creativity", "fecha": "2021-03-24", "url": "https://nav.al/explanations", "tiene_transcript": true},
-    {"orden": 87, "titulo": "Good Explanations Are Hard to Vary", "fecha": "2021-03-26", "url": "https://nav.al/vary", "tiene_transcript": null},
+    {"orden": 87, "titulo": "Good Explanations Are Hard to Vary", "fecha": "2021-03-26", "url": "https://nav.al/vary", "tiene_transcript": true},
     {"orden": 88, "titulo": "There Is No End of Science", "fecha": "2021-03-31", "url": "https://nav.al/end", "tiene_transcript": null},
     {"orden": 89, "titulo": "There Is No Settled Mathematics", "fecha": "2021-04-02", "url": "https://nav.al/settled", "tiene_transcript": null},
     {"orden": 90, "titulo": "The Methods of Mathematics Are Fallible", "fecha": "2021-04-05", "url": "https://nav.al/methods", "tiene_transcript": null},

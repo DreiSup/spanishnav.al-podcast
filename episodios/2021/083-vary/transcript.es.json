@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2021/083-vary",
+  "numero": 83,
+  "fecha": "2021-03-26",
+  "titulo": "Las buenas explicaciones son difíciles de variar",
+  "subtitulo": "Deben hacer predicciones arriesgadas y concretas",
+  "fuente_url": "https://nav.al/vary",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Brett, ¿dirías que una teoría científica es un subconjunto de las buenas explicaciones?"
+      ]
+    },
+    {
+      "id": "b02-brett",
+      "speaker": "Brett",
+      "frases": [
+        "Sí, son el tipo de buenas explicaciones que se pueden comprobar.",
+        "En realidad, teorías falsables hay a montones, y que una teoría sea falsable no te dice nada sobre la calidad de la explicación que te están dando.",
+        "El ejemplo que se usa en La estructura de la realidad es el de la hierba como cura del resfriado común.",
+        "Si alguien dice que comer un kilo de hierba te curará el resfriado, entonces tiene una teoría comprobable.",
+        "El problema es que nadie debería ponerla a prueba.",
+        "¿Por qué? Porque no ha explicado el mecanismo que permitiría que la hierba curase el resfriado.",
+        "Y si te comes un kilo de hierba y no se te cura el resfriado, siempre puede salir con que a lo mejor con un kilo cien sí funciona."
+      ]
+    },
+    {
+      "id": "b03-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Exacto. O a lo mejor necesitas otro tipo de hierba."
+      ]
+    },
+    {
+      "id": "b04-brett",
+      "speaker": "Brett",
+      "frases": [
+        "Siempre se puede comprobar, pero no estás avanzando nada."
+      ]
+    },
+    {
+      "id": "b05-naval",
+      "speaker": "Naval",
+      "frases": [
+        "La segunda pieza de una buena explicación es que es difícil de variar.",
+        "Tiene que ser muy precisa, y esa precisión tiene que tener una buena razón de ser.",
+        "El ejemplo famoso de El comienzo del infinito es la explicación de por qué tenemos estaciones.",
+        "Está la antigua explicación griega, según la cual dependen de Perséfone, la diosa de la primavera, y de cuándo puede salir del Hades.",
+        "Era toda una teoría de dioses y diosas, y no solo no era fácil de comprobar, sino que era muy fácil de variar.",
+        "Perséfone podría haber sido Nike, y Hades podría haber sido Júpiter o Zeus.",
+        "Es muy fácil variar esa explicación sin que cambien sus predicciones.",
+        "En cambio, fíjate en la teoría de la inclinación del eje.",
+        "Dice que la Tierra está inclinada veintitrés grados respecto al Sol, y que por eso el sol debería salir por aquí en invierno y por allí en verano.",
+        "Los hechos de esa teoría son muy difíciles de variar, y hace predicciones arriesgadas y concretas.",
+        "La teoría de la inclinación del eje puede predecir cuánto duran exactamente el verano y el invierno en cada latitud, y eso se puede comprobar con precisión.",
+        "Además de ser una teoría creativa, comprobable y falsable, debería ser difícil variar sus piezas sin destruir la teoría por completo.",
+        "Y lo que desde luego no quieres es variarla a posteriori, como en tu ejemplo de la hierba.",
+        "¿Que no bastaba con un kilo? Pues ahora es un kilo cien, y luego un kilo doscientos.",
+        "Por último, las predicciones que hace deberían ser concretas y precisas, y deberían ser arriesgadas.",
+        "Por ejemplo, en el caso de la relatividad, creo que fue Eddington quien hizo el experimento y demostró que la luz de las estrellas se curva durante un eclipse.",
+        "Era una predicción que Einstein había hecho con la relatividad, y resultó ser cierta.",
+        "Fue una predicción arriesgada que tardó mucho tiempo en confirmarse."
+      ]
+    }
+  ]
+}
