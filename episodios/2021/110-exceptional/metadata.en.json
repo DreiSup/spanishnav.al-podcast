@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 110,
+  "anio": 2021,
+  "slug": "exceptional",
+  "titulo": "Humans Are Exceptional",
+  "subtitulo": "Humans aren’t just a form of bacteria that overran the planet",
+  "fecha_publicacion": "2021-10-22",
+  "fuente_url": "https://nav.al/exceptional",
+  "orden_archivo": 114,
+  "en_feed": true,
+  "participantes": [
+    "Naval"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}
