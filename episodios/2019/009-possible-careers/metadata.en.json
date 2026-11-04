@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 9,
+  "anio": 2019,
+  "slug": "possible-careers",
+  "titulo": "The Internet Has Massively Broadened Career Possibilities",
+  "subtitulo": "The Internet allows you to scale any niche obsession",
+  "fecha_publicacion": "2019-03-19",
+  "fuente_url": "https://nav.al/possible-careers",
+  "orden_archivo": 13,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}
