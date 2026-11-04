@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2019/047-price-discrimination",
+  "numero": 47,
+  "fecha": "2019-07-25",
+  "titulo": "Discriminación de precios: cobrar más a algunos",
+  "subtitulo": "Puedes cobrar extras a la gente según su disposición a pagar",
+  "fuente_url": "https://nav.al/price-discrimination",
+  "titulos_seccion": [
+    "Los ricos y las grandes empresas están dispuestos a pagar más"
+  ],
+  "contenido": [
+    {
+      "id": "b01-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "¿Hay algún otro concepto microeconómico, aparte del coste marginal de replicación cero y las economías de escala, que sea importante entender?"
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "La discriminación de precios es importante.",
+        "Significa que puedes cobrar a la gente en función de su propensión a pagar.",
+        "Ahora bien, no puedes cobrar cantidades distintas a distintas personas solo porque te caigan mal.",
+        "Tienes que ofrecerles algo extra.",
+        "Pero tiene que ser algo que a los ricos les importe.",
+        "Los asientos de clase business cuestan habitualmente cinco o diez veces más que los de turista.",
+        "Pero a la aerolínea le cuesta mucho menos, quizá dos o tres veces más que un asiento normal, ofrecer ventajas como asientos más anchos, más espacio para las piernas y bebidas gratis."
+      ]
+    },
+    {
+      "id": "b03-naval",
+      "speaker": "Naval",
+      "frases": [
+        "La discriminación de precios funciona porque los ricos están dispuestos a pagar más.",
+        "Solo tienes que darles esas pequeñas cosas extra que necesitan para señalar que son ricos, o ese poquito de comodidad que quieren.",
+        "Muchas empresas de software para empresas usan discriminación de precios, sobre todo con productos freemium.",
+        "La versión gratuita o barata hará casi todo lo que quieres.",
+        "Pero si quieres la versión que es especialmente segura, o que se aloja en tus propios servidores, o que tiene administración de varios usuarios para que el informático pueda supervisarlo todo, acabarás pagando diez o cien veces más."
+      ]
+    }
+  ]
+}

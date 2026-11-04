@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 47,
+  "anio": 2019,
+  "slug": "price-discrimination",
+  "titulo": "Price Discrimination: Charge Some People More",
+  "subtitulo": "You can charge people for extras based on their propensity to pay",
+  "fecha_publicacion": "2019-07-25",
+  "fuente_url": "https://nav.al/price-discrimination",
+  "orden_archivo": 51,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}

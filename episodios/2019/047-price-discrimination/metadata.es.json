@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 47,
+  "anio": 2019,
+  "slug": "price-discrimination",
+  "titulo_es": "Discriminación de precios: cobrar más a algunos",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Discriminación de precios: cobrar más a algunos",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). Recorte del 052-rich. Los tres bloques reutilizan palabra por palabra los b261, b262 y b263 aprobados del 052, en el mismo orden. El revisor lo ha comprobado por script. Títulos: titulo, titulo_seccion y titulos_seccion son los aprobados del 052. El título «La discriminación de precios es una técnica para cobrar más a ciertas personas» del 052 no figura en este f0 y no se usa. Cifras en letra heredadas: cinco o diez veces, dos o tres veces, diez o cien veces. «IT person» va resuelto como «el informático». Nombres y anglicismos que hay que escuchar en el TTS: clase business, freemium. Frase más larga: la quinta del bloque 3, con 38 palabras, por debajo de 45. Reutilización de clips: los tres bloques coinciden letra a letra con el 052, así que sus clips se pueden reutilizar. Revisión: no se ha cambiado ningún texto, por la regla de identidad con el 052. Los posibles retoques del aprobado van en decisiones."
+}
