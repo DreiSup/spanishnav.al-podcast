@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 113,
+  "anio": 2021,
+  "slug": "mind-blowing",
+  "titulo": "It’s Mind Blowing That Our Minds Can’t Be Blown",
+  "subtitulo": "Humans can understand every idea given enough time and effort",
+  "fecha_publicacion": "2021-10-30",
+  "fuente_url": "https://nav.al/mind-blowing",
+  "orden_archivo": 117,
+  "en_feed": true,
+  "participantes": [
+    "Brett",
+    "Naval"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}

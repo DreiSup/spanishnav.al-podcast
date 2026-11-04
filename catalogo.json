@@ -119,7 +119,7 @@
     {"orden": 114, "titulo": "Humans Are Exceptional", "fecha": "2021-10-22", "url": "https://nav.al/exceptional", "tiene_transcript": true},
     {"orden": 115, "titulo": "We Are Qualitatively Different From Other Species", "fecha": "2021-10-25", "url": "https://nav.al/species", "tiene_transcript": true},
     {"orden": 116, "titulo": "More Compute Power Doesn't Produce AGI", "fecha": "2021-10-27", "url": "https://nav.al/agi", "tiene_transcript": true},
-    {"orden": 117, "titulo": "It's Mind Blowing That Our Minds Can't Be Blown", "fecha": "2021-10-30", "url": "https://nav.al/mind-blowing", "tiene_transcript": null},
+    {"orden": 117, "titulo": "It's Mind Blowing That Our Minds Can't Be Blown", "fecha": "2021-10-30", "url": "https://nav.al/mind-blowing", "tiene_transcript": true},
     {"orden": 118, "titulo": "Where Are the Aliens?", "fecha": "2021-11-01", "url": "https://nav.al/aliens", "tiene_transcript": null},
     {"orden": 119, "titulo": "Intelligent Species Have Risen Only Once on Planet Earth", "fecha": "2021-11-03", "url": "https://nav.al/intelligent", "tiene_transcript": null},
     {"orden": 120, "titulo": "The Probability of Human Existence Is Infinitesimally Small", "fecha": "2021-11-08", "url": "https://nav.al/existence", "tiene_transcript": null},
