@@ -1,7 +1,7 @@
 # Infraestructura: audio público en R2
 
 > **Parte 1 (infraestructura): validada** el 2026-10-31.
-> **Parte 2 (subida por episodio): borrador.** Se valida con el Ep. 1 y pasa a
+> **Parte 2 (subida por episodio): hecha a mano con el Ep. 1 el 4-nov** (`200`). El procedimiento vigente está en
 > `docs/sop-publicacion.md`, apartado 2. El formato del MP3 ya lo fija la fábrica
 > (MP3 mono 44,1 kHz 128 kbps, -16 LUFS).
 
@@ -106,8 +106,7 @@ como enlace permanente: si cambia, el episodio deja de sonar en todas las apps.
    Debe dar `200` y `content-type: audio/mpeg`.
 4. **Escucharlo** abriendo esa dirección en el navegador.
 5. **Apuntarlo en el repo.**
-   *Pendiente:* qué campos de `metadata.es.json` recogen el audio (clave, duración, bytes).
-   Se decide con el Ep. 1.
+   `metadata.es.json` → `publicacion` (`audio_url`, `audio_bytes`, `duracion_s`), decidido con el Ep. 1.
 
 ### Reglas
 

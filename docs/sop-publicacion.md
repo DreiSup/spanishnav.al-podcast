@@ -64,6 +64,25 @@ Requisitos que cumplen (comprobados el 4-nov):
 
 Para cambiar la portada: se sustituye `public/portada.jpg` en la web **con el mismo nombre**, sin pasar de 500 KB.
 
+## 2. Subir el master a R2
+
+> **Hecho a mano con el 001 el 4-nov** (respuesta `200`). Infraestructura y reglas: `docs/infraestructura-r2.md`.
+
+Desde el ordenador del autor (las sesiones web de Claude no llegan a R2):
+
+1. Bajar el master de Drive: `transcripts/<año>/<NNN Título>/audio/<NNN>-<slug>.mp3`. Sale de la fábrica en su
+   formato final; no se exporta nada.
+2. Subirlo con **el mismo nombre**:
+
+   ```bash
+   rclone copyto ~/Descargas/<NNN>-<slug>.mp3 r2:spanishnaval/<año>/<NNN>-<slug>.mp3 -P
+   ```
+
+3. Comprobarlo: `curl -sI https://audio.spanishnav.al/<año>/<NNN>-<slug>.mp3` → `200` y `content-type: audio/mpeg`.
+
+Esa dirección **no cambia nunca**: es el enlace del episodio en el feed. Nunca `rclone sync` ni `delete` sobre el
+bucket.
+
 ## 3. La descripción de cada episodio
 
 > **Decidido** con el autor el 4-nov, sobre la descripción que usaba en los vídeos hechos con XTTS. Pendiente de
@@ -126,10 +145,63 @@ comparte. Se guarda limpio: `https://www.youtube.com/watch?v=<id>`.
 - **Más adelante**: capítulos de YouTube con los minutos de cada sección, que la fábrica ya conoce
   (`indice_master.tsv`).
 
-## Pendiente, en este orden
+## 4. El feed RSS (web)
 
-2. **Subir el master a R2**: nombre `<año>/<NNN>-<slug>.mp3` (el mismo que el master de la fábrica) y comprobación
-   del enlace público.
-4. **Generar el feed** desde la web (`spanishnav.al/podcast.xml`, a confirmar).
-5. **Alta, una sola vez**, en YouTube Studio, Spotify for Creators y Apple Podcasts Connect.
-6. **Publicar cada episodio** y quién mueve el estado a `publicado` en `metadata.es.json`.
+> **Hecho el 4-nov** con el 001: `https://spanishnav.al/podcast.xml`, validado como XML en local. Pendiente de
+> validar en producción y en las tres plataformas.
+
+Lo genera la web (`DreiSup/spanishnaval-web`) al desplegar: `app/podcast.xml/route.ts` y `lib/feed.ts`. Los datos
+fijos (apartado 1) están en `lib/site.ts` → `podcast`; la descripción de cada episodio (apartado 3) la escribe
+`lib/feed.ts` → `episodeDescription`. **La dirección del feed no cambia nunca.**
+
+Cada episodio entra en el feed con:
+
+| Etiqueta | De dónde sale | 001 |
+|---|---|---|
+| `title` | `transcript.es.json` → `titulo` | Busca riqueza, no dinero ni estatus |
+| `enclosure` (url, bytes, `audio/mpeg`) | R2 y el tamaño del master | `…/2019/001-seek-wealth.mp3`, 6 633 103 |
+| `itunes:duration` | duración del master, en segundos | 415 |
+| `guid` | `spanishnav.al/<año>/<slug>`. **No cambia nunca**: si cambia, las apps lo ven como un episodio nuevo | `spanishnav.al/2019/seek-wealth` |
+| `pubDate` | fecha de publicación **de la traducción**, no la del original | 2026-11-04 |
+| `itunes:episode` | número del feed | 1 |
+
+Los mismos datos se apuntan en `metadata.es.json` → `publicacion` (`fecha`, `audio_url`, `audio_bytes`,
+`duracion_s`, `feed_guid`).
+
+## 5. Alta en las plataformas (una sola vez)
+
+> **Pendiente.** Requisito: el feed en producción con al menos un episodio. Las tres mandan un código de
+> verificación a `podcast@spanishnav.al` (el `itunes:email` del feed).
+
+**YouTube** ([ayuda de Google](https://support.google.com/youtube/answer/13973017)): YouTube Studio del canal →
+**Crear** → **Nuevo podcast** → **Enviar feed RSS** → aceptar las condiciones → pegar el feed → código del correo →
+elegir cuántos episodios importar → publicar. Si no sale «Enviar feed RSS», falta verificar el canal o la función no
+está en la región.
+
+**Spotify** ([ayuda de Spotify](https://support.spotify.com/us/creators/article/claiming-your-podcast-on-spotify-for-creators/)):
+creators.spotify.com → menú del perfil → **Add a new show** → programa existente alojado **en otro sitio** → pegar el
+feed → código de 8 cifras del correo → país, idioma (español) y categoría → enviar.
+
+**Apple** (Apple Podcasts Connect, con el Apple ID del autor): **+** → **Nuevo programa** → **Añadir un programa con
+un feed RSS** → pegar el feed → revisar categoría, derechos de contenido y contacto → **Enviar para revisión**. La
+revisión puede tardar días; Apple avisa por correo.
+
+Al terminar, el enlace público de cada plataforma va a `lib/site.ts` → `platforms` en la web (hoy a `null`, sale
+«Próximamente»).
+
+## 6. Publicar cada episodio (después del alta)
+
+1. Master escuchado y bueno: estado `montaje` (`docs/sop-episodio.md`).
+2. Subirlo a R2 (apartado 2).
+3. En la web: copiar `transcript.es.json` a `content/episodios/<año>/<NNN>-<slug>.json` y añadir el episodio a
+   `lib/episodes.ts` con `audioKey`, `audioBytes`, `durationSec`, `published` y `youtubeOriginal`. Desplegar
+   (`main`).
+4. Las plataformas leen el feed solas (YouTube, Spotify y Apple tardan de minutos a horas).
+5. En `metadata.es.json`: bloque `publicacion`, `youtube.url` del vídeo que crea YouTube, y estado `publicado`.
+
+**Automatizable más adelante:** el paso 3 sale entero del repo del podcast (texto, tamaño y duración del master).
+
+## Pendiente
+
+- Validar los apartados 1, 3, 4 y 5 en producción con el 001.
+- Capítulos de YouTube con `indice_master.tsv`.

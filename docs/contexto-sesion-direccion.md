@@ -101,18 +101,22 @@ masters publicables).
 | 5. Alta en YouTube, Spotify y Apple (una vez) | Pendiente |
 | 6. Publicar cada episodio y mover el estado a `publicado` | Pendiente |
 
-## 8. Pendiente inmediato (4-nov)
+## 8. Estado del 001 y pendiente inmediato (4-nov, noche)
 
-1. **Comprobar el master del 001** en Drive (`transcripts/2019/001 …/audio/001-seek-wealth.mp3`): duración,
-   formato (MP3 mono 44,1 kHz 128 kbps, -16 LUFS), informe sin sospechosas. Lo escucha el autor.
-2. **Campo `youtube.url_original`** en `metadata.es.json` (plantilla y 001:
-   `https://www.youtube.com/watch?v=jemPACNo1_I`). Propuesto; falta el OK del autor.
-3. **Subir el 001 a R2** con el autor (rclone en su ordenador) y comprobar `https://audio.spanishnav.al/2019/001-seek-wealth.mp3`.
-4. **Web**: quitar los dos episodios de prueba, poner el 001 real, publicar las portadas.
-5. **Feed RSS** en la web y su validación.
-6. **Altas** en YouTube Studio (Crear → Nuevo podcast → Enviar feed RSS; verificación al correo del feed),
-   Spotify for Creators y Apple Podcasts Connect.
-7. Ir apuntando cada paso en `docs/sop-publicacion.md` a medida que se hace.
+Hecho:
+- Master del 001 comprobado por datos (4/4 clips, 6:54, sin sospechosas). **No escuchado entero**: el autor lo dio
+  por bueno; queda escuchar el 4:33 («Creamos» / «Creemos»).
+- Subido a R2: `https://audio.spanishnav.al/2019/001-seek-wealth.mp3` respondió `200`.
+- `metadata.es.json`: campos nuevos `youtube.url_original` y bloque `publicacion` (plantilla y 001). 001 en
+  `montaje`, con los IDs de Drive.
+- Web (rama `claude/cool-heisenberg-5ecig9`, commit «Publica el episodio 1 real…»): fuera los episodios de prueba,
+  001 real desde su `transcript.es.json`, feed `/podcast.xml`. **Falta pasarlo a `main`** (el permiso de la sesión
+  bloqueó el push a producción; lo tiene que autorizar o hacer el autor).
+
+Pendiente:
+1. `main` de la web → comprobar `https://spanishnav.al/podcast.xml` y `/seek-wealth` en producción.
+2. Altas (`docs/sop-publicacion.md` §5): YouTube, Spotify, Apple. Códigos a `podcast@spanishnav.al`.
+3. Poner los enlaces de las plataformas en `lib/site.ts` → `platforms`; `youtube.url` del 001; estado `publicado`.
 
 Otros pendientes del autor, sin prisa: Substack, X, contenido corto (Instagram, Facebook, TikTok); limpiar los
 registros DNS sobrantes de Upflare (`mail`, `ftp`, la parte `ip4`/`mailchannels` del SPF); el 052 (recopilación de

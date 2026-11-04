@@ -110,7 +110,7 @@
 
 | # | Episodio | Título en español | Estado | Drive | YouTube |
 |---|---|---|---|---|---|
-| 1 | [001-seek-wealth](episodios/2019/001-seek-wealth) | Busca riqueza, no dinero ni estatus | 🟠 en revisión | — | — |
+| 1 | [001-seek-wealth](episodios/2019/001-seek-wealth) | Busca riqueza, no dinero ni estatus | 🟣 montaje | [📁](https://drive.google.com/drive/folders/11X4s-IkNs4qssipaPMRLE2wj-EJtuZBd) | — |
 | 2 | [002-ethical-wealth](episodios/2019/002-ethical-wealth) | Crea abundancia para el mundo | 🟠 en revisión | — | — |
 | 35 | [035-finally-wealthy](episodios/2019/035-finally-wealthy) | Una mente en calma, un cuerpo en forma, una casa llena de amor | 🟠 en revisión | — | — |
 | 36 | [036-rich-quick](episodios/2019/036-rich-quick) | No existen los esquemas para hacerse rico rápido | 🟠 en revisión | — | — |

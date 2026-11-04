@@ -5,21 +5,29 @@
   "anio": 2019,
   "slug": "seek-wealth",
   "titulo_es": "Busca riqueza, no dinero ni estatus",
-  "estado": "revision",
+  "estado": "montaje",
   "youtube": {
     "titulo": "Busca riqueza, no dinero ni estatus",
     "descripcion": "",
     "tags": [],
-    "url": ""
+    "url": "",
+    "url_original": "https://www.youtube.com/watch?v=jemPACNo1_I"
   },
   "drive": {
-    "carpeta_id": "",
-    "tts_id": "",
-    "audio_final_id": "",
+    "carpeta_id": "11X4s-IkNs4qssipaPMRLE2wj-EJtuZBd",
+    "tts_id": "1qb9TbOmYGA_q66EyWqDcIR3nf41RaysO",
+    "audio_final_id": "1o9eAMUrd8MYKoU0HR-pUxBMuTfchBGB_",
     "video_id": "",
     "proyecto_id": ""
   },
+  "publicacion": {
+    "fecha": "2026-11-04",
+    "audio_url": "https://audio.spanishnav.al/2019/001-seek-wealth.mp3",
+    "audio_bytes": 6633103,
+    "duracion_s": 415,
+    "feed_guid": "spanishnav.al/2019/seek-wealth"
+  },
   "audio_editado_a_mano": false,
   "heredado": null,
-  "notas": ""
+  "notas": "Master dado por bueno sin escucharlo entero (4-nov, por falta de tiempo). Pendiente escuchar el 4:33: Whisper oyó «Creemos cosas juntos» donde el texto dice «Creamos»."
 }

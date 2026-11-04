@@ -10,7 +10,8 @@
     "titulo": "",
     "descripcion": "",
     "tags": [],
-    "url": ""
+    "url": "",
+    "url_original": ""
   },
   "drive": {
     "carpeta_id": "",
@@ -18,6 +19,13 @@
     "audio_final_id": "",
     "video_id": "",
     "proyecto_id": ""
+  },
+  "publicacion": {
+    "fecha": "",
+    "audio_url": "",
+    "audio_bytes": 0,
+    "duracion_s": 0,
+    "feed_guid": ""
   },
   "audio_editado_a_mano": false,
   "heredado": null,
