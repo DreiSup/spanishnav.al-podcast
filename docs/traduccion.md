@@ -106,3 +106,4 @@ abiertas («…talk about sex.» sin «”»). Afecta solo al inglés, que no se
 | 2026-11-04 | 120 Ideas Are the New Oil | revision | 1 | 29 | 553 | 3,3 | Cero avisos. Workflow de especialistas (4-nov); 1 decisiones aplicadas, ver notas |
 | 2026-11-04 | 121 One Einstein Is Worth A Legion Of PhD Drones | revision | 2 | 14 | 250 | 1,5 | Cero avisos. Workflow de especialistas (4-nov); 2 decisiones aplicadas, ver notas |
 | 2026-11-04 | 122 Don’t Rely on Credibility Stamps | revision | 3 | 22 | 370 | 2,2 | Cero avisos. Workflow de especialistas (4-nov); 2 decisiones aplicadas, ver notas |
+| 2026-11-04 | 123 Innovation Requires Decentralization and a Frontier | revision | 1 | 35 | 648 | 3,8 | Cero avisos. Workflow de especialistas (4-nov); 2 decisiones aplicadas, ver notas |

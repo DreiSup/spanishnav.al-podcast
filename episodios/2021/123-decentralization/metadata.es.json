@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 123,
+  "anio": 2021,
+  "slug": "decentralization",
+  "titulo_es": "La innovación necesita descentralización y una frontera",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "La innovación necesita descentralización y una frontera",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). 123 decentralization. Un solo bloque, de Naval. Ratio 1,09, ningún bloque fuera de rango. Frase más larga, 32 palabras. No hay notas del editor. Artefactos del inglés: el tuit de Paul Graham trae puntos suspensivos y comillas, y la queja de los científicos va entre comillas como pregunta. Las dos se pasan a estilo indirecto. Los guiones largos del inglés se resuelven con frases separadas. Atribución: He'd be canceled by his own team está fuera de las comillas del tuit. Se trata como comentario de Naval y no se mete dentro de lo que dijo Graham. Cifras: 20% = el veinte por ciento. Athenian city-states = la Atenas de las ciudades estado (Atenas era una sola ciudad estado). Crypto = el mundo cripto y cryptocurrencies = criptomonedas. Keep = fortaleza. Regulatory capture = captura regulatoria. Programmatic = programable. Arc of technology swung us = el rumbo de la tecnología nos ha empujado, con el mismo verbo que el titulo_seccion. El arc go back and forth del final = este movimiento va y viene. Nombres que hay que escuchar en el TTS: Paul Graham, Y Combinator (presentada como la aceleradora Y Combinator), Steve Jobs, Amazon, Shopify, DoorDash (escuchar), Wall Street, California."
+}
