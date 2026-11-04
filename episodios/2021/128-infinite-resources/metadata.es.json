@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 128,
+  "anio": 2021,
+  "slug": "infinite-resources",
+  "titulo_es": "El conocimiento hace infinita la existencia de recursos",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "El conocimiento hace infinita la existencia de recursos",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). Episodio 128. Sin notas del editor. Título y título de sección definitivos, que se copian tal cual a los titulos_seccion de la recopilación 130: El conocimiento hace infinita la existencia de recursos / Vamos a seguir creando conocimiento nuevo y recursos nuevos. Artefactos del inglés: comillas y apóstrofos tipográficos y un punto y coma en el original, que no se trasladan. «earth» en minúscula en el bloque 1 se traduce como la Tierra. «Phosphors» se traduce como puntos fosforescentes, para que no se confunda con los fósforos de encender. «LCD screens» queda como pantallas de cristal líquido, sin sigla, como fija el brief. Cifras en letra: hace unos sesenta años. El original dice solo «David»: como es la única mención del episodio, se escribe David Deutsch, siguiendo el brief (nombre completo la primera vez en cada episodio). Se conserva la cadencia de Naval. Nombres que hay que escuchar antes de sintetizar: Deutsch, europio, maltusiano. Validador OK; el único aviso es el de hablante no habitual Brett, que es el esperado. Cero avisos del normalizador. Cobertura total 1,02, sin bloques fuera de rango. Frases de 8 a 33 palabras."
+}

@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 128,
+  "anio": 2021,
+  "slug": "infinite-resources",
+  "titulo": "Knowledge Makes the Existence of Resources Infinite",
+  "subtitulo": "We’re going to keep creating new knowledge and new resources",
+  "fecha_publicacion": "2021-12-10",
+  "fuente_url": "https://nav.al/infinite-resources",
+  "orden_archivo": 132,
+  "en_feed": true,
+  "participantes": [
+    "Brett",
+    "Naval"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}

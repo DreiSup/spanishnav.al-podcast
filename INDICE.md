@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**93** episodios · **0** publicados · **0** sin empezar
+**94** episodios · **0** publicados · **0** sin empezar
 
 ## 2021
 
@@ -64,6 +64,7 @@
 | 125 | [125-feedback](episodios/2021/125-feedback) | Los mercados libres dan la mejor retroalimentación | 🟠 en revisión | — | — |
 | 126 | [126-social](episodios/2021/126-social) | Hacer algo social destruye su verdad | 🟠 en revisión | — | — |
 | 127 | [127-failure](episodios/2021/127-failure) | Los grupos nunca admiten el fracaso | 🟠 en revisión | — | — |
+| 128 | [128-infinite-resources](episodios/2021/128-infinite-resources) | El conocimiento hace infinita la existencia de recursos | 🟠 en revisión | — | — |
 
 ## 2020
 

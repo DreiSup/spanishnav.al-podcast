@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2021/128-infinite-resources",
+  "numero": 128,
+  "fecha": "2021-12-10",
+  "titulo": "El conocimiento hace infinita la existencia de recursos",
+  "subtitulo": "Vamos a seguir creando conocimiento nuevo y recursos nuevos",
+  "fuente_url": "https://nav.al/infinite-resources",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-brett",
+      "speaker": "Brett",
+      "frases": [
+        "El conocimiento es lo que hace infinita la existencia de recursos, y la creación de conocimiento no tiene límites.",
+        "Vamos a seguir creando más conocimiento y, con ello, vamos a seguir descubriendo más recursos, y recursos distintos.",
+        "Hay una parábola maravillosa sobre el europio en El comienzo del infinito, en la que David Deutsch habla de cuando se empezaron a fabricar los primeros televisores en color, hace unos sesenta años.",
+        "Eran televisores de tubo de rayos catódicos, que disparaban un haz de electrones contra una pantalla fosforescente.",
+        "La pantalla fosforescente tenía unos píxeles de tres colores distintos, y uno de esos colores era el rojo.",
+        "Y esos puntos fosforescentes rojos de la pantalla contenían un elemento químico, el europio.",
+        "Lo interesante del europio es que, cuando le haces pasar electricidad, cuando lo excitas, brilla con ese color rojo.",
+        "Y lo más interesante todavía es que es el único elemento de la tabla periódica que lo hace, la única sustancia química que se comporta así.",
+        "Si le disparas electrones, brilla justo con el rojo que necesitas para la televisión en color.",
+        "Se calculó que en la Tierra solo hay una cantidad determinada de europio, y que los fabricantes de tubos de rayos catódicos la estaban consumiendo a toda velocidad.",
+        "Así que los científicos tenían una teoría matemática perfectamente sólida según la cual el número de tubos de rayos catódicos era finito.",
+        "Y, por tanto, se suponía que nos íbamos a quedar sin tubos de rayos catódicos.",
+        "Es cierto, en un sentido muy limitado, que de cualquier recurso vas a tener una cantidad finita en el planeta Tierra.",
+        "Por supuesto, habrá europio en el espacio exterior y probablemente se podría extraer allí, pero la cuestión de fondo es que ya nadie tiene tubos de rayos catódicos.",
+        "Hoy en día, la idea de la televisión en color no tiene nada que ver con la extracción de europio.",
+        "Todos tenemos pantallas de cristal líquido, tenemos pantallas de plasma, y probablemente vendrá algo más en el futuro que no tendrá absolutamente nada que ver con la tecnología que tenemos hoy.",
+        "Pero vamos a seguir teniendo televisión en color, o pantallas en color.",
+        "Y esto vale para absolutamente cualquier recurso que se nos ocurra.",
+        "Si vives en la sabana africana, bien podrías hacer un cálculo maltusiano perfectamente válido según el cual no podemos seguir quemando madera.",
+        "Al final, se van a acabar quemando todos los bosques, así que es evidente que nos vamos a quedar sin madera.",
+        "Hay una cantidad finita de madera, y aunque puedas plantar más árboles, al final el consumo de madera va a superar la cantidad que hay.",
+        "Y ese es el argumento que se usa con el carbón, con el petróleo y con todo lo demás que consumimos."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Incluso el llamado espacio vacío tiene mucha materia y muchas cosas que se podrían convertir en energía.",
+        "No hay límite en la cantidad de recursos que hay ahí fuera. El único límite está en el conocimiento.",
+        "Por desgracia, aquí la gente parte de una suposición pesimista, la de que la creatividad humana tiene límites.",
+        "Y creo que quienes más lo sienten así son los que no han construido cosas, los que no han creado cosas nuevas desde cero."
+      ]
+    }
+  ]
+}
