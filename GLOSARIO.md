@@ -43,6 +43,7 @@ la decisión aquí para no volver a dudar en el episodio siguiente.
 | happiness | felicidad | |
 | status game | juego de estatus | |
 | wealth (vs. money) | riqueza (frente a dinero) | La distinción es intencionada: mantenla. |
+| peace of mind / peace from mind | paz mental / paz frente a la mente | Juego de palabras de Naval; decisión del autor (4-nov). Mantén «paz» en las dos mitades (063, 064). |
 
 ## Nombres propios y marcas
 

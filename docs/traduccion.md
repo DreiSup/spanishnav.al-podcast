@@ -45,3 +45,4 @@ abiertas («…talk about sex.» sin «”»). Afecta solo al inglés, que no se
 | 2026-11-03 | 065 The Closer You Are to the Truth, the More Silent You Become Inside | revision | 2 | 13 | 222 | 1,3 | Cero avisos. Lao Tse y test de inteligencia resueltos en la frase; si A entonces B según el autor (4-nov) |
 | 2026-11-03 | 066 Groups Search for Consensus, Individuals Search for Truth | revision | 3 | 20 | 369 | 2,2 | Cero avisos |
 | 2026-11-03 | 067 The Path to Peace Is Truth | revision | 3 | 17 | 312 | 1,8 | Cero avisos |
+| 2026-11-03 | 063 Finding Peace from Mind | revision | 4 | 24 | 408 | 2,4 | Cero avisos. Paz frente a la mente (opción C del autor); A come a B resuelto con palabras |

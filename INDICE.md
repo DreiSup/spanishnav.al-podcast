@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**26** episodios · **0** publicados · **0** sin empezar
+**27** episodios · **0** publicados · **0** sin empezar
 
 ## 2020
 
@@ -18,6 +18,7 @@
 | 60 | [060-least](episodios/2020/060-least) | Trabaja lo menos posible para conseguirlo | 🟠 en revisión | — | — |
 | 61 | [061-addiction](episodios/2020/061-addiction) | La lucha moderna es plantar cara a las adicciones convertidas en armas | 🟠 en revisión | — | — |
 | 62 | [062-unacceptable](episodios/2020/062-unacceptable) | Romper con una adicción está mal visto socialmente | 🟠 en revisión | — | — |
+| 63 | [063-peace](episodios/2020/063-peace) | Encontrar la paz frente a la mente | 🟠 en revisión | — | — |
 | 65 | [065-silent](episodios/2020/065-silent) | Cuanto más cerca estás de la verdad, más silencioso te vuelves por dentro | 🟠 en revisión | — | — |
 | 66 | [066-consensus](episodios/2020/066-consensus) | Los grupos buscan el consenso, los individuos buscan la verdad | 🟠 en revisión | — | — |
 | 67 | [067-truth](episodios/2020/067-truth) | El camino hacia la paz es la verdad | 🟠 en revisión | — | — |
