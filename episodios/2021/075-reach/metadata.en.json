@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 75,
+  "anio": 2021,
+  "slug": "reach",
+  "titulo": "Explanations That Reach the Entire Universe",
+  "subtitulo": "We can understand anything that can be understood",
+  "fecha_publicacion": "2021-03-08",
+  "fuente_url": "https://nav.al/reach",
+  "orden_archivo": 79,
+  "en_feed": true,
+  "participantes": [
+    "Brett",
+    "Naval"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}

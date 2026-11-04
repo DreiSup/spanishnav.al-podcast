@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2021/075-reach",
+  "numero": 75,
+  "fecha": "2021-03-08",
+  "titulo": "Explicaciones que alcanzan a todo el universo",
+  "subtitulo": "Podemos entender todo lo que se puede entender",
+  "fuente_url": "https://nav.al/reach",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-brett",
+      "speaker": "Brett",
+      "frases": [
+        "Al principio de La estructura de la realidad, David Deutsch plantea la idea de que no necesitas conocer todos y cada uno de los hechos para entender a fondo todo lo que se puede entender.",
+        "Presenta esta visión de que hay cuatro teorías fundamentales, unas de la ciencia y otras de fuera de ella.",
+        "Son la teoría cuántica, la teoría de la computación, la evolución por selección natural y la epistemología, que es la teoría del conocimiento.",
+        "Juntas forman la visión del mundo, o la lente, a través de la cual puedes entender todo lo que se puede entender."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Vi un vídeo precioso suyo en YouTube en el que defendía estas mismas ideas.",
+        "Decía que no hace falta memorizar ni conocer todos los hechos, ni saber hacia dónde se ha movido cada partícula.",
+        "Decía que, si entiendes las teorías profundas que hay detrás de todo, sabes a grandes rasgos cómo funciona todo.",
+        "Y todo esto lo puede entender una sola persona, un solo cerebro, un solo ser humano. Está al alcance de cualquiera.",
+        "Es una idea tan poderosa que te deja con la boca abierta.",
+        "Podemos tener explicaciones que alcanzan a todo el universo.",
+        "Es curioso que la teoría de la relatividad no esté en la lista de las cuatro teorías."
+      ]
+    },
+    {
+      "id": "b03-brett",
+      "speaker": "Brett",
+      "frases": [
+        "Deutsch considera que la teoría cuántica es más profunda que la teoría de la relatividad.",
+        "No es que estemos descartando la relatividad, pero su conjetura es que la teoría cuántica resultará más fundamental que la teoría de la relatividad.",
+        "Habrá un espacio tiempo del multiverso, y el multiverso es la explicación que da David de la teoría cuántica.",
+        "Por eso la relatividad no aparece entre esas cuatro teorías.",
+        "La mayoría de los físicos esperan que, en algún momento, lleguemos a unificar la teoría cuántica y la teoría de la relatividad."
+      ]
+    }
+  ]
+}

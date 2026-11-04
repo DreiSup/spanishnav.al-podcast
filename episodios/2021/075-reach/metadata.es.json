@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 75,
+  "anio": 2021,
+  "slug": "reach",
+  "titulo_es": "Explicaciones que alcanzan a todo el universo",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Explicaciones que alcanzan a todo el universo",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). 075 Explanations That Reach the Entire Universe. Tres bloques (Brett, Naval, Brett). El speaker es Brett, exacto del inglés, y el validador da un aviso informativo de hablante no habitual, sin error. 16 frases, ratio 1,13, frase más larga de 35 palabras. Sin notas del editor ni artefactos. Términos de la serie: alcanzan a todo el universo (reach), teoría cuántica, teoría de la computación, evolución por selección natural, epistemología, visión del mundo (worldview), espacio tiempo sin guion, multiverso. Naval da en estilo directo la cita de Deutsch en el vídeo de YouTube. Aquí pasa a estilo indirecto en dos frases, con el verbo Decía delante. Su remate (And this can all be understood by a single person... It's accessible to anybody.) se atribuye a Naval, fuera de la cita, como en el inglés, donde la cita se cierra antes. Jaw-droppingly powerful idea se traduce por una idea tan poderosa que te deja con la boca abierta. Las cuatro teorías se nombran otra vez al final (no aparece entre esas cuatro teorías) para que la frase se entienda sola. Nombres a escuchar: David Deutsch, YouTube."
+}
