@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2021/078-knowledge",
+  "numero": 78,
+  "fecha": "2021-03-15",
+  "titulo": "Estamos al comienzo de un infinito de conocimiento",
+  "subtitulo": "El progreso es inevitable mientras tengamos buenas explicaciones",
+  "fuente_url": "https://nav.al/knowledge",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-brett",
+      "speaker": "Brett",
+      "frases": [
+        "La diferencia con El comienzo del infinito es que te llevas una visión del mundo.",
+        "No te llevas la interpretación habitual de los físicos sobre cómo entender la teoría cuántica.",
+        "Tampoco te llevas la interpretación habitual de los filósofos sobre cómo entender el conocimiento.",
+        "Y, desde luego, no te llevas la interpretación habitual de los matemáticos sobre cómo entender las matemáticas.",
+        "David Deutsch es un experto en todos estos campos."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "¿Cuál es el núcleo de esa visión del mundo?"
+      ]
+    },
+    {
+      "id": "b03-brett",
+      "speaker": "Brett",
+      "frases": [
+        "La visión del mundo de Deutsch es que la realidad es comprensible.",
+        "Los problemas tienen solución, son solubles, como escribe él.",
+        "Es una visión del mundo de un optimismo profundamente racional, que cree en las buenas explicaciones científicas y en el progreso.",
+        "El progreso es inevitable mientras tengamos estas buenas explicaciones.",
+        "Las buenas explicaciones tienen un alcance enorme, y son actos de creatividad.",
+        "Los humanos sabemos resolver problemas, y podemos resolverlos todos.",
+        "Todos los pecados y todo el mal se deben a la falta de conocimiento.",
+        "Podemos ser optimistas ante un progreso constante, y a eso se refiere el título, a que estamos al comienzo de una serie infinita de progreso.",
+        "Es una visión muy optimista, que sostiene que en el universo estamos en casa, y que el universo es nuestro, como un recurso del que aprender y que aprovechar.",
+        "Sostiene que la riqueza material es el conjunto de transformaciones físicas que podemos llevar a cabo.",
+        "Y que todo lo que no prohíben las leyes de la física acaba siendo posible gracias al conocimiento y a la creación de conocimiento.",
+        "También escribe que los humanos somos explicadores universales.",
+        "Todo lo que se puede conocer y entender lo pueden conocer y entender los seres humanos, con la potencia de cálculo de un sistema humano.",
+        "Los humanos podemos llegar a conocerlo todo, y estamos al comienzo de un infinito de conocimiento.",
+        "Entendemos las cosas mediante buenas explicaciones, y sustituimos constantemente las teorías antiguas por otras mejores.",
+        "No hay un punto final a la vista, ni existe la perfección.",
+        "Toda teoría puede acabar siendo falsada y mejorada.",
+        "Vamos camino de poder hacer todo lo que no prohíben las leyes de la física."
+      ]
+    }
+  ]
+}

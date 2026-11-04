@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**43** episodios · **0** publicados · **0** sin empezar
+**44** episodios · **0** publicados · **0** sin empezar
 
 ## 2021
 
@@ -14,6 +14,7 @@
 | 75 | [075-reach](episodios/2021/075-reach) | Explicaciones que alcanzan a todo el universo | 🟠 en revisión | — | — |
 | 76 | [076-read](episodios/2021/076-read) | Lee los cien mejores libros una y otra vez | 🟠 en revisión | — | — |
 | 77 | [077-happiness](episodios/2021/077-happiness) | La felicidad | 🟠 en revisión | — | — |
+| 78 | [078-knowledge](episodios/2021/078-knowledge) | Estamos al comienzo de un infinito de conocimiento | 🟠 en revisión | — | — |
 
 ## 2020
 
