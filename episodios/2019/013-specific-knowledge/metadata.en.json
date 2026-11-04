@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 13,
+  "anio": 2019,
+  "slug": "specific-knowledge",
+  "titulo": "Arm Yourself With Specific Knowledge",
+  "subtitulo": "Specific knowledge can be found by pursuing your genuine curiosity",
+  "fecha_publicacion": "2019-03-25",
+  "fuente_url": "https://nav.al/specific-knowledge",
+  "orden_archivo": 17,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}
