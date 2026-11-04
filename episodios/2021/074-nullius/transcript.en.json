@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "idioma": "en",
+  "episodio": "2021/074-nullius",
+  "numero": 74,
+  "fecha": "2021-03-05",
+  "titulo": "Nullius in Verba",
+  "subtitulo": "Take no one’s word for it",
+  "fuente_url": "https://nav.al/nullius",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "The Beginning of Infinity is not an easy book to read.",
+        "Deutsch wrote it for other physicists and philosophers.",
+        "He has a certain peer group that he respects, and that respects him, and he has to meet them at their level.",
+        "I wanted to understand the principles in the book so I could confirm or refute them for myself.",
+        "I love the old motto from the Royal Society, “Nullius in Verba,” which means, “Take no one’s word for it.",
+        "In other words, figure it out yourself.",
+        "That’s the only way to know anything.",
+        "To do that, I was reading the book and started reading blog posts on it.",
+        "Eventually I came across Brett Hall and started listening to his podcast, ToKCast, which stands for the “Theory of Knowledge-Cast.",
+        "I’ve brought him on this podcast to discuss the ideas in The Beginning of Infinity.",
+        "Brett, listening to your podcast helped me clarify a lot of these principles.",
+        "I would love to explore the depth, clarity, reach, and importance of these ideas.",
+        "Then hopefully someone out there can become smarter by it."
+      ]
+    },
+    {
+      "id": "b02-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Hello Naval, it’s great to be here.",
+        "You’ve raised so many interesting aspects of The Beginning of Infinity, which has become a real passion of mine.",
+        "Like a lot of people who enter science, when I was at school I thought, “Well, I want to be an astronomer, so I’ll go to a university and do a physics degree, then do an astronomy degree, and then become a professional astronomer.",
+        "One day I picked up David Deutsch’s The Fabric of Reality in a bookstore and started reading it.",
+        "The first chapter described what I was trying to achieve in my life.",
+        "It was putting into words what I felt my university studies and my general outlook on life was about.",
+        "Deutsch says that the ancient philosophers thought they could get an understanding of the entire world.",
+        "As time passed, though, modern science made it seem as though this was an impossible project.",
+        "There’s no way you could understand everything about reality.",
+        "There’s too much to know.",
+        "How could you possibly know everything?"
+      ]
+    }
+  ]
+}

@@ -58,3 +58,4 @@ abiertas («…talk about sex.» sin «”»). Afecta solo al inglés, que no se
 | 2026-11-04 | 071 Matt Ridley: How Innovation Works, Part 2 | revision | 40 | 289 | 6080 | 35,8 | Cero avisos. Workflow de especialistas (4-nov); 15 decisiones aplicadas, ver notas |
 | 2026-11-04 | 072 Science Is the Engine That Pulls Humanity Forward | revision | 1 | 29 | 461 | 2,7 | Cero avisos. Workflow de especialistas (4-nov); 2 decisiones aplicadas, ver notas |
 | 2026-11-04 | 073 This Book Changed the Way I Think | revision | 1 | 17 | 344 | 2,0 | Cero avisos. Workflow de especialistas (4-nov) |
+| 2026-11-04 | 074 Nullius in Verba | revision | 2 | 22 | 358 | 2,1 | Cero avisos. Workflow de especialistas (4-nov); 1 decisiones aplicadas, ver notas |

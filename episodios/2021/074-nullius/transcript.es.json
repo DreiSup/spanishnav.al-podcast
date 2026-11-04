@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2021/074-nullius",
+  "numero": 74,
+  "fecha": "2021-03-05",
+  "titulo": "Nullius in verba",
+  "subtitulo": "No te fíes de la palabra de nadie",
+  "fuente_url": "https://nav.al/nullius",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "El comienzo del infinito no es un libro fácil de leer.",
+        "Deutsch lo escribió para otros físicos y para filósofos.",
+        "Tiene un grupo de colegas a los que respeta y que lo respetan a él, y tiene que ponerse a su nivel.",
+        "Yo quería entender los principios del libro para poder confirmarlos o refutarlos por mí mismo.",
+        "Me encanta el viejo lema de la Royal Society, nulius in verba, que significa no te fíes de la palabra de nadie.",
+        "Es decir, averígualo por ti mismo, porque es la única forma de saber algo.",
+        "Para eso, además de leer el libro, empecé a leer artículos de blogs sobre él.",
+        "Al final di con Brett Hall y empecé a escuchar su podcast, Tokcast, que viene de podcast de la teoría del conocimiento.",
+        "Lo he traído a este podcast para hablar de las ideas de El comienzo del infinito.",
+        "Brett, escuchar tu podcast me ayudó a aclarar muchos de estos principios.",
+        "Me encantaría explorar la profundidad, la claridad, el alcance y la importancia de estas ideas.",
+        "Y ojalá alguien, en algún lugar, se vuelva más inteligente gracias a ello."
+      ]
+    },
+    {
+      "id": "b02-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Hola, Naval, es un placer estar aquí. Has planteado muchísimos aspectos interesantes de El comienzo del infinito, que se ha convertido en una verdadera pasión para mí.",
+        "Como mucha gente que se dedica a la ciencia, cuando estaba en el colegio pensaba que quería ser astrónomo.",
+        "Pensaba que iría a la universidad, estudiaría la carrera de física, luego la de astronomía, y me convertiría en astrónomo profesional.",
+        "Un día, en una librería, cogí La estructura de la realidad, de David Deutsch, y empecé a leerlo.",
+        "El primer capítulo describía lo que yo intentaba conseguir en la vida.",
+        "Ponía en palabras lo que yo sentía que era el sentido de mis estudios universitarios y de mi visión general de la vida.",
+        "Deutsch dice que los filósofos de la Antigüedad creían que podían llegar a entender el mundo entero.",
+        "Pero, con el paso del tiempo, la ciencia moderna hizo que pareciera un proyecto imposible.",
+        "No había manera de entenderlo todo sobre la realidad, porque había demasiado que saber.",
+        "¿Cómo ibas a poder saberlo todo?"
+      ]
+    }
+  ]
+}

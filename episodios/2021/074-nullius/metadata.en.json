@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 74,
+  "anio": 2021,
+  "slug": "nullius",
+  "titulo": "Nullius in Verba",
+  "subtitulo": "Take no one’s word for it",
+  "fecha_publicacion": "2021-03-05",
+  "fuente_url": "https://nav.al/nullius",
+  "orden_archivo": 78,
+  "en_feed": true,
+  "participantes": [
+    "Brett Hall",
+    "Naval"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}
