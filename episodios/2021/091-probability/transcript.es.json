@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2021/091-probability",
+  "numero": 91,
+  "fecha": "2021-04-16",
+  "titulo": "La probabilidad es subjetiva",
+  "subtitulo": "Todo lo que es físicamente posible ocurre",
+  "fuente_url": "https://nav.al/probability",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "¿La probabilidad existe de verdad en el universo físico, o es una función de nuestra ignorancia?",
+        "Si tiro un dado, no sé de qué lado va a caer, así que le asigno una probabilidad.",
+        "Pero ¿eso significa que en el universo hay de verdad algo probabilístico que no se puede conocer?",
+        "¿El universo está tirando un dado en alguna parte, o siempre es determinista?"
+      ]
+    },
+    {
+      "id": "b02-brett",
+      "speaker": "Brett",
+      "frases": [
+        "En realidad, toda probabilidad es subjetiva, y la incertidumbre y el azar también son subjetivos.",
+        "No sabes cuál va a ser el resultado, así que tiras un dado.",
+        "Eso es porque tú, individualmente, no lo sabes, no porque en el fondo del universo haya incertidumbre.",
+        "Lo que sabemos de la teoría cuántica es que todo lo que es físicamente posible ocurre, y esto lleva al concepto del multiverso.",
+        "En lugar de refutar todas las formas fallidas de intentar entender la teoría cuántica, vamos a tomarnos en serio lo que dicen sus ecuaciones.",
+        "Lo que nos vemos obligados a pensar sobre la teoría cuántica, a la vista de los experimentos, es que absolutamente todo lo que puede pasar, pasa.",
+        "Eso significa que no hay una incertidumbre intrínseca en el universo, porque todo lo que puede pasar va a pasar de verdad.",
+        "No es que unas cosas vayan a pasar y otras no, es que pasa todo.",
+        "Tú ocupas un único universo, y en ese universo, cuando tiras el dado, sale un dos.",
+        "En otro lugar de la realidad física sale un uno, en otro sale un tres, y en otros un cuatro, un cinco y un seis."
+      ]
+    },
+    {
+      "id": "b03-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Si tiro dos dados, hay menos universos en los que suman dos que universos en los que saco un siete.",
+        "Y es que el siete puede salir con un tres y un cuatro, con un cinco y un dos, y así sucesivamente.",
+        "Así que el número de universos sí se corresponde con lo que calculamos como probabilidad."
+      ]
+    },
+    {
+      "id": "b04-brett",
+      "speaker": "Brett",
+      "frases": [
+        "Sí, y esto lleva a lo que Deutsch llama su enfoque de la probabilidad en la teoría cuántica, basado en la teoría de la decisión.",
+        "Basarse en la teoría de la decisión significa suponer que hay una proporcionalidad en la manera en que los universos se reparten las cosas.",
+        "Así que si tiras dos dados distintos, los universos se reparten proporcionalmente en medidas, y una medida es una forma de hablar de infinitos."
+      ]
+    }
+  ]
+}

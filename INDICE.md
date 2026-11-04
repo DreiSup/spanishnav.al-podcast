@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**56** episodios · **0** publicados · **0** sin empezar
+**57** episodios · **0** publicados · **0** sin empezar
 
 ## 2021
 
@@ -27,6 +27,7 @@
 | 88 | [088-discrete](episodios/2021/088-discrete) | ¿El universo es discreto o continuo? | 🟠 en revisión | — | — |
 | 89 | [089-substrate](episodios/2021/089-substrate) | Toda teoría reside en un sustrato físico | 🟠 en revisión | — | — |
 | 90 | [090-prove](episodios/2021/090-prove) | Con la física que conocemos no podemos demostrar la mayoría de los teoremas | 🟠 en revisión | — | — |
+| 91 | [091-probability](episodios/2021/091-probability) | La probabilidad es subjetiva | 🟠 en revisión | — | — |
 
 ## 2020
 
