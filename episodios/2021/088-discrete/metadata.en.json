@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 88,
+  "anio": 2021,
+  "slug": "discrete",
+  "titulo": "Is the Universe Discrete or Continuous?",
+  "subtitulo": "Quantum theory and relativity disagree",
+  "fecha_publicacion": "2021-04-09",
+  "fuente_url": "https://nav.al/discrete",
+  "orden_archivo": 92,
+  "en_feed": true,
+  "participantes": [
+    "Brett",
+    "Naval"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}

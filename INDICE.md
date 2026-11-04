@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**53** episodios · **0** publicados · **0** sin empezar
+**54** episodios · **0** publicados · **0** sin empezar
 
 ## 2021
 
@@ -24,6 +24,7 @@
 | 85 | [085-settled](episodios/2021/085-settled) | No existen unas matemáticas definitivas | 🟠 en revisión | — | — |
 | 86 | [086-methods](episodios/2021/086-methods) | Los métodos de las matemáticas son falibles | 🟠 en revisión | — | — |
 | 87 | [087-conjectural](episodios/2021/087-conjectural) | Todo conocimiento es conjetural | 🟠 en revisión | — | — |
+| 88 | [088-discrete](episodios/2021/088-discrete) | ¿El universo es discreto o continuo? | 🟠 en revisión | — | — |
 
 ## 2020
 

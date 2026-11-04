@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2021/088-discrete",
+  "numero": 88,
+  "fecha": "2021-04-09",
+  "titulo": "¿El universo es discreto o continuo?",
+  "subtitulo": "La teoría cuántica y la relatividad discrepan",
+  "fuente_url": "https://nav.al/discrete",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Decías que pasamos de los átomos, en la época de Demócrito, a los núcleos, y de ahí a los protones y los neutrones, y luego a los quarks.",
+        "Son partículas y más partículas hasta el fondo, por parafrasear a Feynman, y podemos seguir así para siempre.",
+        "Pero no es del todo para siempre, ¿no?",
+        "En algún momento te topas con la longitud de Planck."
+      ]
+    },
+    {
+      "id": "b02-brett",
+      "speaker": "Brett",
+      "frases": [
+        "Está el tiempo de Planck, está la longitud de Planck, e incluso está la masa de Planck, que en realidad es una masa bastante grande.",
+        "Estas magnitudes no tienen ningún significado físico, y no es que el tiempo de Planck sea el tiempo más corto posible.",
+        "Ni tampoco es que la longitud de Planck sea la longitud más corta posible.",
+        "La razón es que estas magnitudes de Planck forman parte de la teoría cuántica.",
+        "Pero la longitud no la describe la teoría cuántica, sino la teoría general de la relatividad.",
+        "Y en esa teoría, el espacio es infinitamente divisible.",
+        "No existe una longitud mínima posible, ni tampoco un tiempo mínimo.",
+        "Esto pone de manifiesto una antigua tensión entre lo discreto y lo continuo.",
+        "La teoría cuántica parece sugerir que las cosas son discretas.",
+        "Por ejemplo, existe la partícula de oro más pequeña posible, que es el átomo de oro.",
+        "Existe la partícula de electricidad más pequeña posible, que es el electrón.",
+        "Y existe la partícula de luz más pequeña posible, que es el fotón.",
+        "En la teoría cuántica tenemos esta idea de que la realidad es discreta, de que existe una cosa que es la más pequeña posible y a partir de ella se construye todo lo demás.",
+        "Pero en la relatividad general la idea es la contraria.",
+        "Esta teoría dice que las cosas pueden variar de forma continua, y sus matemáticas exigen que las cosas varíen de forma continua para poder derivarlas, entre otras cosas.",
+        "La idea es que puedes seguir dividiendo el espacio y puedes seguir dividiendo el tiempo.",
+        "Los físicos saben que existe esta contradicción en el nivel más profundo de nuestras explicaciones más fundamentales de la física.",
+        "Es una de las razones por las que se intenta unificar la teoría cuántica y la relatividad general.",
+        "¿Cuál es la naturaleza fundamental de la realidad?",
+        "¿Las cosas pueden ser infinitamente divisibles, o tenemos que pararnos en algún punto?",
+        "Si la realidad es infinitamente divisible, puede que la teoría cuántica tenga que quedar subordinada a la relatividad general. Sencillamente, no lo sabemos."
+      ]
+    }
+  ]
+}
