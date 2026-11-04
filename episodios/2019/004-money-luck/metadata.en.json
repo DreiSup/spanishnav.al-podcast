@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 4,
+  "anio": 2019,
+  "slug": "money-luck",
+  "titulo": "Making Money Isn’t About Luck",
+  "subtitulo": "Become the kind of person who makes money",
+  "fecha_publicacion": "2019-03-06",
+  "fuente_url": "https://nav.al/money-luck",
+  "orden_archivo": 8,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}
