@@ -74,7 +74,7 @@ esos episodios.
 
 | Original | En el texto | Nota |
 |---|---|---|
-| prescription(s) | receta(s) | Término clave de Kapil Gupta (068 y los diálogos de 2019). Prescriptionize = convertir en receta. Prescripción es un calco técnico. |
+| prescription(s) | prescripción, prescripciones | **Decisión del autor (4-nov)**, término clave de Kapil Gupta (068 y los diálogos de 2019). Derivados: prescriptionize = convertir en prescripción; prescriptively = de forma prescriptiva; prescription givers = los que dan prescripciones. No «recetas». |
 | freedom from the mind | libertad frente a la mente | En paralelo con paz frente a la mente (decisión del 4-nov). Libertad de la mente significaría lo contrario. |
 | There is no other | No existe el otro | Lema de Kapil (068, b37 y b38). No hay otro se entiende como 'no hay otra opción'. |
 | self-conflict / self-improvement / self image | conflicto con uno mismo / superación personal / la imagen de uno mismo | Los dos primeros ya están en el 067; conviene fijarlos en el glosario. |

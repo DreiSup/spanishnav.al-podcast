@@ -1,5 +1,8 @@
 # Brief del grupo «Kapil Gupta»
 
+> **Corrección del autor (4-nov):** *prescriptions* se traduce como **prescripciones**, no como *recetas*. La D1 de este brief queda anulada: donde abajo dice *receta(s)*, léase *prescripción/prescripciones* (convertir en prescripción, de forma prescriptiva, los que dan prescripciones). Ver GLOSARIO.md.
+
+
 Para traductores y revisores de **068 Kapil Gupta: Conquering the Mind** (2020-05-13, 40:46, 84 bloques,
 unas 7.400 palabras en inglés). Si más adelante entran los cuatro diálogos de 2019 con Kapil (extras sin
 número: *On Meditation*, *On Humility*, *A Founder's Anxiety*, *The Need for Indifference*), este brief
