@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 108,
+  "anio": 2021,
+  "slug": "gravity",
+  "titulo_es": "No puede haber una teoría definitiva de la gravedad",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "No puede haber una teoría definitiva de la gravedad",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). 108 No puede haber una teoría definitiva de la gravedad. Sin notas del editor. Ratio 1,11; ningún bloque fuera de rango; frase más larga de 33 palabras. Aviso informativo del validador por el hablante Brett, que es el correcto según el brief y no se puede quitar. Subtítulo: Lo único que tenemos son aproximaciones cada vez mejores a la realidad. Artefactos del inglés: «what I would call species of scientism» se traduce por el sentido como una especie de cientificismo, según la trampa T1 del brief. En el bloque de Naval, «Every other animal on the planet that can form good explanations is a Bayesian» se contradice con lo que dice justo después (solo el neocórtex humano forma buenas explicaciones); probablemente falta un can't en el transcript. Se traduce por el sentido (ver decisiones). Términos: crucial experiment es experimento crucial; final theory es teoría definitiva; inverse square law es la ley de la inversa del cuadrado, el término estándar en español; the seen in terms of the unseen es lo visible a partir de lo invisible; Bayes' theorem es el teorema de Bayes. Cherry on top se traduce la guinda. 1919 va en letra: mil novecientos diecinueve. Las citas del sol que sale y de la cosa caliente, y la cita del popperiano, pasan a estilo indirecto. Las dos preguntas cortas (¿Qué dicen los bayesianos en esa situación? y ¿Cómo va a tener sentido eso?) van solas, como permiten las reglas. Nombres que hay que escuchar en el TTS: Newton, newtoniana, Bayes, bayesianos, bayesianismo, popperiano y neocórtex."
+}

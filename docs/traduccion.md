@@ -91,3 +91,4 @@ abiertas («…talk about sex.» sin «”»). Afecta solo al inglés, que no se
 | 2026-11-04 | 105 The Beginning of Infinity, Part 1 | revision | 73 | 704 | 12489 | 73,5 | Cero avisos. Workflow de especialistas (4-nov); 4 decisiones aplicadas, ver notas |
 | 2026-11-04 | 106 With a Good Theory of Knowledge, You Can Decide What Else Is True | revision | 1 | 17 | 326 | 1,9 | Cero avisos. Workflow de especialistas (4-nov); 1 decisiones aplicadas, ver notas |
 | 2026-11-04 | 107 No Truth Can Be Justified | revision | 1 | 20 | 427 | 2,5 | Cero avisos. Workflow de especialistas (4-nov); 3 decisiones aplicadas, ver notas |
+| 2026-11-04 | 108 There Can Be No Final Theory of Gravity | revision | 2 | 38 | 644 | 3,8 | Cero avisos. Workflow de especialistas (4-nov); 2 decisiones aplicadas, ver notas |

@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**73** episodios · **0** publicados · **0** sin empezar
+**74** episodios · **0** publicados · **0** sin empezar
 
 ## 2021
 
@@ -44,6 +44,7 @@
 | 105 | [105-infinity](episodios/2021/105-infinity) | El comienzo del infinito, primera parte | 🟠 en revisión | — | — |
 | 106 | [106-theory](episodios/2021/106-theory) | Con una buena teoría del conocimiento, puedes decidir qué más es verdad | 🟠 en revisión | — | — |
 | 107 | [107-justified](episodios/2021/107-justified) | Ninguna verdad puede justificarse | 🟠 en revisión | — | — |
+| 108 | [108-gravity](episodios/2021/108-gravity) | No puede haber una teoría definitiva de la gravedad | 🟠 en revisión | — | — |
 
 ## 2020
 

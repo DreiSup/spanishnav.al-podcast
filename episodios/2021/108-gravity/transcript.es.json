@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2021/108-gravity",
+  "numero": 108,
+  "fecha": "2021-10-18",
+  "titulo": "No puede haber una teoría definitiva de la gravedad",
+  "subtitulo": "Lo único que tenemos son aproximaciones cada vez mejores a la realidad",
+  "fuente_url": "https://nav.al/gravity",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-brett",
+      "speaker": "Brett",
+      "frases": [
+        "En casi todos los casos, solo tienes una teoría sobre la mesa.",
+        "En el caso de la gravedad, ahora mismo hay literalmente una sola teoría sobre la mesa, que es la relatividad general.",
+        "Antes sí teníamos dos teorías, la gravedad newtoniana y la relatividad general, pero hicimos un experimento crucial.",
+        "Esta idea del experimento crucial es la guinda de la ciencia.",
+        "Tienes dos teorías que compiten entre sí, y si el experimento sale en un sentido, una de las teorías queda descartada, pero la otra no.",
+        "En ese caso, te quedas con esa otra teoría mientras no surja ningún problema.",
+        "Esta visión del conocimiento nos permite emprender una búsqueda del progreso que no tiene fin.",
+        "Esto no se parece en nada a ninguna otra idea sobre el conocimiento.",
+        "La inmensa mayoría de los físicos siguen siendo bayesianos.",
+        "Y la razón por la que siguen siéndolo es que eso es lo que suele enseñarse en las universidades, y lo que pasa por ser una forma intelectualmente rigurosa de entender el mundo.",
+        "Pero no es más que lo que yo llamaría una especie de cientificismo.",
+        "Y es así porque tienen detrás una fórmula, el teorema de Bayes, que es una fórmula estadística perfectamente aceptable.",
+        "La gente la usa continuamente de formas perfectamente legítimas.",
+        "Lo que pasa es que no es una epistemología.",
+        "No es una forma de garantizar que tu teoría sea verdadera, ni siquiera de estar seguro de que lo es.",
+        "Mi ejemplo favorito de esto es que, antes de mil novecientos diecinueve, absolutamente todos los experimentos que se hacían sobre la gravedad eran coherentes con la teoría de la gravedad de Newton.",
+        "¿Qué dicen los bayesianos en esa situación?",
+        "Dicen que cada vez estás más seguro de la teoría de Newton.",
+        "¿Cómo va a tener sentido eso?",
+        "¿Cómo encajas que el día antes de que se demostrara que era falsa fuera el día en que más seguro estabas de ella?",
+        "Ahora bien, un popperiano no tiene este problema.",
+        "Un popperiano dice que la teoría de Newton no fue verdadera en ningún momento.",
+        "Contenía algo de verdad, pero esa verdad no es algo que podamos medir.",
+        "Digo que contenía algo de verdad porque, desde luego, tiene una conexión más directa con la realidad que la conjetura que se le ocurra a cualquiera sobre la naturaleza de la gravedad.",
+        "Es cierto que la gravedad varía aproximadamente según la ley de la inversa del cuadrado, pero no exactamente.",
+        "Necesitábamos la relatividad general para corregir los errores de la teoría de la gravedad de Newton.",
+        "Y aunque la relatividad general sea nuestra mejor conjetura ahora mismo, en última instancia no puede ser la teoría definitiva de la gravedad.",
+        "No puede haber una teoría definitiva de la gravedad.",
+        "Lo único que tenemos son aproximaciones cada vez mejores a la realidad."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Creo que la razón por la que caemos tan fácilmente en el bayesianismo probablemente tenga que ver con por qué caemos tan fácilmente en el pesimismo.",
+        "La evolución nos ha programado de serie para el bayesianismo.",
+        "Todos los demás animales del planeta, que no saben formar buenas explicaciones, son bayesianos.",
+        "Se limitan a observar sucesos que se repiten y a decirse que, si el sol salió ayer, saldrá también mañana.",
+        "O se dicen que esa cosa que tocaron estaba caliente y que probablemente lo seguirá estando en el futuro.",
+        "Así funcionaban la mayoría de nuestros sistemas biológicos y la mayor parte de nuestra herencia evolutiva.",
+        "Lo que pasa es que ahora tenemos este neocórtex, que puede formar buenas explicaciones de lo visible a partir de lo invisible.",
+        "Eso nos da un nivel superior de razonamiento, pero ese nivel superior no nos sale por instinto, sino que requiere esfuerzo y requiere pensar a fondo.",
+        "Recurrimos por defecto al bayesianismo porque así es como parece funcionar gran parte del mundo natural que nos rodea, al menos en el plano puramente biológico."
+      ]
+    }
+  ]
+}

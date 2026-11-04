@@ -114,7 +114,7 @@
     {"orden": 109, "titulo": "The Beginning of Infinity, Part 1", "fecha": "2021-07-02", "url": "https://nav.al/infinity", "tiene_transcript": true},
     {"orden": 110, "titulo": "With a Good Theory of Knowledge, You Can Decide What Else Is True", "fecha": "2021-10-08", "url": "https://nav.al/theory", "tiene_transcript": true},
     {"orden": 111, "titulo": "No Truth Can Be Justified", "fecha": "2021-10-15", "url": "https://nav.al/justified", "tiene_transcript": true},
-    {"orden": 112, "titulo": "There Can Be No Final Theory of Gravity", "fecha": "2021-10-18", "url": "https://nav.al/gravity", "tiene_transcript": null},
+    {"orden": 112, "titulo": "There Can Be No Final Theory of Gravity", "fecha": "2021-10-18", "url": "https://nav.al/gravity", "tiene_transcript": true},
     {"orden": 113, "titulo": "Genetic Evolution Was a Prelude to Memetic Evolution", "fecha": "2021-10-20", "url": "https://nav.al/evolution", "tiene_transcript": null},
     {"orden": 114, "titulo": "Humans Are Exceptional", "fecha": "2021-10-22", "url": "https://nav.al/exceptional", "tiene_transcript": null},
     {"orden": 115, "titulo": "We Are Qualitatively Different From Other Species", "fecha": "2021-10-25", "url": "https://nav.al/species", "tiene_transcript": null},
