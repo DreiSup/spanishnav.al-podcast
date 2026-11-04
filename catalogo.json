@@ -111,7 +111,7 @@
     {"orden": 106, "titulo": "It's Easy to Extrapolate How Things Will Get Worse", "fecha": "2021-05-14", "url": "https://nav.al/extrapolate", "tiene_transcript": true},
     {"orden": 107, "titulo": "Pessimism Seems Like an Intellectually Serious Position", "fecha": "2021-05-17", "url": "https://nav.al/pessimism", "tiene_transcript": true},
     {"orden": 108, "titulo": "Rational Optimism Is the Way Out", "fecha": "2021-05-24", "url": "https://nav.al/optimism", "tiene_transcript": true},
-    {"orden": 109, "titulo": "The Beginning of Infinity, Part 1", "fecha": "2021-07-02", "url": "https://nav.al/infinity", "tiene_transcript": null},
+    {"orden": 109, "titulo": "The Beginning of Infinity, Part 1", "fecha": "2021-07-02", "url": "https://nav.al/infinity", "tiene_transcript": true},
     {"orden": 110, "titulo": "With a Good Theory of Knowledge, You Can Decide What Else Is True", "fecha": "2021-10-08", "url": "https://nav.al/theory", "tiene_transcript": null},
     {"orden": 111, "titulo": "No Truth Can Be Justified", "fecha": "2021-10-15", "url": "https://nav.al/justified", "tiene_transcript": null},
     {"orden": 112, "titulo": "There Can Be No Final Theory of Gravity", "fecha": "2021-10-18", "url": "https://nav.al/gravity", "tiene_transcript": null},

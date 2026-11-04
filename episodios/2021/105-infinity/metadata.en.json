@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 105,
+  "anio": 2021,
+  "slug": "infinity",
+  "titulo": "The Beginning of Infinity, Part 1",
+  "subtitulo": "",
+  "fecha_publicacion": "2021-07-02",
+  "fuente_url": "https://nav.al/infinity",
+  "orden_archivo": 109,
+  "en_feed": true,
+  "participantes": [
+    "Brett Hall",
+    "Naval"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}

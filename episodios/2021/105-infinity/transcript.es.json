@@ -1,0 +1,1221 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2021/105-infinity",
+  "numero": 105,
+  "fecha": "2021-07-02",
+  "titulo": "El comienzo del infinito, primera parte",
+  "subtitulo": "",
+  "fuente_url": "https://nav.al/infinity",
+  "titulos_seccion": [
+    "Una recopilación de todos los episodios sobre El comienzo del infinito.",
+    "La ciencia es el motor que hace avanzar a la humanidad",
+    "Creer en la ciencia es un oxímoron",
+    "El comienzo del infinito",
+    "El libro de David Deutsch amplió mi repertorio de razonamiento",
+    "Nullius in verba",
+    "No te fíes de la palabra de nadie",
+    "Explicaciones que alcanzan a todo el universo",
+    "Podemos entender todo lo que se puede entender",
+    "Lee los cien mejores libros una y otra vez",
+    "Muchos dicen que lo han leído, pero muy pocos lo entienden",
+    "Estamos al comienzo de un infinito de conocimiento",
+    "El progreso es inevitable mientras tengamos buenas explicaciones",
+    "Las personas son una fuerza de la naturaleza",
+    "Creamos conocimiento que transforma el universo",
+    "Es imposible predecir el crecimiento del conocimiento",
+    "Las leyes de la física no pueden predecir el futuro",
+    "Los humanos somos únicos en nuestra capacidad de entender",
+    "El conocimiento está en el observador, no en lo observado",
+    "Las buenas explicaciones son actos de creatividad",
+    "No se deducen de mirar al pasado",
+    "Las buenas explicaciones son difíciles de variar",
+    "Deben hacer predicciones arriesgadas y concretas",
+    "La ciencia no tiene fin",
+    "Podemos seguir progresando",
+    "No existen unas matemáticas definitivas",
+    "Las demostraciones no son certezas",
+    "Los métodos de las matemáticas son falibles",
+    "Aunque su objeto de estudio no lo sea",
+    "Todo conocimiento es conjetural",
+    "Desconfía de la certeza absoluta",
+    "¿El universo es discreto o continuo?",
+    "La teoría cuántica y la relatividad discrepan",
+    "Toda teoría reside en un sustrato físico",
+    "Siempre estás sujeto a las leyes de la física",
+    "Con la física que conocemos no podemos demostrar la mayoría de los teoremas",
+    "Los teoremas indemostrables superan con creces a los demostrables",
+    "La probabilidad es subjetiva",
+    "Todo lo que es físicamente posible ocurre",
+    "¿La luz es una partícula o una onda?",
+    "Dios no juega a los dados con el universo",
+    "El multiverso",
+    "Los experimentos nos obligan a reconocer otros universos",
+    "Explicamos lo visible a partir de lo invisible",
+    "Nadie ha visto nunca el núcleo del Sol",
+    "La ciencia amplía nuestra visión de la realidad",
+    "El multiverso es otro paso en esta dirección",
+    "La ciencia es un mecanismo de corrección de errores",
+    "No pretende predecir el futuro a partir del pasado",
+    "Las teorías son explicaciones, no predicciones",
+    "La predicción llega después de la explicación",
+    "Haz conjeturas audaces y descarta las que fallen",
+    "Las mejores teorías salen de tu imaginación, no de extrapolar",
+    "La ciencia avanza de funeral en funeral",
+    "Hasta los mejores se quedan atascados",
+    "Es raro tener teorías científicas viables que compitan entre sí",
+    "La relatividad general frente a la mecánica newtoniana es un ejemplo reciente",
+    "En nuestra infinita ignorancia, todos somos iguales",
+    "La puerta siempre está abierta a ideas nuevas",
+    "Es fácil extrapolar cómo empeorarán las cosas",
+    "Es más difícil adivinar cómo podría mejorar la vida",
+    "El pesimismo parece una postura intelectualmente seria",
+    "Hemos salido de trampas anteriores a base de innovar",
+    "El optimismo racional es la salida",
+    "El pesimismo se cumple a sí mismo"
+  ],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Bienvenido, Brett, a este podcast que lleva mi propio nombre.",
+        "El tema con el que empezamos fueron los principios atemporales de la creación de riqueza.",
+        "Y después tocamos un poco la felicidad interior, la paz y el bienestar.",
+        "Por encima de todo, soy un estudiante de ciencia.",
+        "Soy un físico fracasado, en el sentido de que me encantaba la física y quería dedicarme a ella, pero nunca sentí que fuera a ser un gran físico.",
+        "Me atrajo más la tecnología, que es ciencia aplicada.",
+        "Aun así, sigo siendo un estudiante de ciencia, y me sigue fascinando.",
+        "Todos mis verdaderos héroes son científicos, porque creo que la ciencia es el motor que hace avanzar a la humanidad.",
+        "Tenemos la suerte de vivir en una época en la que el progreso científico y tecnológico no parece probable, sino inevitable.",
+        "Nos hemos acostumbrado a la idea de que la vida siempre va a mejor.",
+        "Se oyen muchas quejas de que el crecimiento de la productividad está estancado.",
+        "Pero la realidad es que cualquiera que tenga un móvil, conduzca un coche o simplemente viva en una casa ha visto cómo la tecnología le mejoraba la calidad de vida una y otra vez.",
+        "Damos este progreso por sentado, y se lo debemos a la ciencia.",
+        "Para mí, la ciencia también es el estudio de la verdad.",
+        "¿Qué sabemos que es verdad?",
+        "¿Cómo sabemos que algo es verdad?",
+        "A medida que me hago mayor, me veo incapaz de prestar atención a nada que no esté anclado en la verdad.",
+        "El origen de esta serie de episodios en concreto es que yo creía que sabía mucho de ciencia.",
+        "Y había muchas cosas de la ciencia que daba por sentadas, como qué es una teoría científica y cómo se forman las teorías científicas.",
+        "La mayoría de nosotros tenemos una idea vaga de ello.",
+        "Hay quien piensa que la ciencia es lo que hacen los científicos, lo cual tiene un problema de definición.",
+        "¿Qué es un científico?",
+        "Otros piensan que la ciencia consiste en hacer predicciones falsables o comprobables, y quizá eso se acerque más.",
+        "A veces la gente te dice que la ciencia es el método científico.",
+        "¿Y qué es el método científico?",
+        "Entonces empiezan a describir el experimento de química que hicieron en el instituto, y a partir de ahí pierden el hilo.",
+        "Sobre todo hoy en día, cuando nos dicen que hay que creer en la ciencia, lo cual es un oxímoron, la gente respeta la ciencia, pero no entiende qué es.",
+        "La idea de lo que es la ciencia acaba secuestrada, a veces por gente bienintencionada que quiere convencerte de lo que dice la ciencia.",
+        "Otras veces la secuestra gente no tan bienintencionada, que quiere influir en tu forma de pensar, de sentir y de actuar."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Hace un par de años me llevé una grata sorpresa al abrir un libro viejo que había leído una década antes, El comienzo del infinito, de David Deutsch.",
+        "A veces lees un libro y te deja huella enseguida.",
+        "Otras veces lees un libro y no lo entiendes, pero luego lo lees en el momento adecuado y entonces sí te deja huella.",
+        "Esta vez lo leí con mucho más detenimiento que antes.",
+        "En lugar de leerlo para poder decir que lo había terminado, lo leí para entender los conceptos, y me detenía cada vez que aparecía algo nuevo.",
+        "Empezó a remodelar mi visión del mundo y cambió mi forma de pensar.",
+        "Le reconozco a este libro el mérito de ser el único de la última década que me hizo más inteligente, salvo quizá algunas obras de Nassim Taleb y uno o dos libros sueltos más.",
+        "Esos libros ampliaron literalmente mi forma de pensar, y no solo ampliaron el repertorio de mis conocimientos, sino también el repertorio de mi razonamiento.",
+        "La gente habla mucho de modelos mentales, pero la mayoría no merece que los leas, que pienses en ellos ni que los escuches, porque son triviales.",
+        "En cambio, los conceptos que salen de El comienzo del infinito son transformadores, porque cambian de forma muy convincente tu manera de ver qué es verdad y qué no lo es.",
+        "Karl Popper expuso la teoría de qué es científico y qué no lo es, y de qué es una buena explicación y qué no lo es.",
+        "Deutsch la amplía de forma espectacular en El comienzo del infinito.",
+        "La variedad de temas que abarca es increíble.",
+        "Trata la epistemología, que es la teoría del conocimiento, la mecánica cuántica, la teoría del multiverso, el infinito y las matemáticas.",
+        "Trata también el alcance de lo que se puede conocer y de lo que no, las explicaciones universales y la teoría de la computación.",
+        "Y aborda qué es la belleza, qué sistemas políticos funcionan mejor, cómo criar a tus hijos y mucho más.",
+        "Son ideas filosóficas de largo alcance que lo abarcan todo."
+      ]
+    },
+    {
+      "id": "b03-naval",
+      "speaker": "Naval",
+      "frases": [
+        "El comienzo del infinito no es un libro fácil de leer.",
+        "Deutsch lo escribió para otros físicos y para filósofos.",
+        "Tiene un grupo de colegas a los que respeta y que lo respetan a él, y tiene que ponerse a su nivel.",
+        "Yo quería entender los principios del libro para poder confirmarlos o refutarlos por mí mismo.",
+        "Me encanta el viejo lema de la Royal Society, nulius in verba, que significa no te fíes de la palabra de nadie.",
+        "Es decir, averígualo por ti mismo, porque es la única forma de saber algo.",
+        "Para eso, además de leer el libro, empecé a leer artículos de blogs sobre él.",
+        "Al final di con Brett Hall y empecé a escuchar su podcast, Tokcast, que viene de podcast de la teoría del conocimiento.",
+        "Lo he traído a este podcast para hablar de las ideas de El comienzo del infinito.",
+        "Brett, escuchar tu podcast me ayudó a aclarar muchos de estos principios.",
+        "Me encantaría explorar la profundidad, la claridad, el alcance y la importancia de estas ideas.",
+        "Y ojalá alguien, en algún lugar, se vuelva más inteligente gracias a ello."
+      ]
+    },
+    {
+      "id": "b04-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Hola, Naval, es un placer estar aquí. Has planteado muchísimos aspectos interesantes de El comienzo del infinito, que se ha convertido en una verdadera pasión para mí.",
+        "Como mucha gente que se dedica a la ciencia, cuando estaba en el colegio pensaba que quería ser astrónomo.",
+        "Pensaba que iría a la universidad, estudiaría la carrera de física, luego la de astronomía, y me convertiría en astrónomo profesional.",
+        "Un día, en una librería, cogí La estructura de la realidad, de David Deutsch, y empecé a leerlo.",
+        "El primer capítulo describía lo que yo intentaba conseguir en la vida.",
+        "Ponía en palabras lo que yo sentía que era el sentido de mis estudios universitarios y de mi visión general de la vida.",
+        "Deutsch dice que los filósofos de la Antigüedad creían que podían llegar a entender el mundo entero.",
+        "Pero, con el paso del tiempo, la ciencia moderna hizo que pareciera un proyecto imposible.",
+        "No había manera de entenderlo todo sobre la realidad, porque había demasiado que saber.",
+        "¿Cómo ibas a poder saberlo todo?"
+      ]
+    },
+    {
+      "id": "b05-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Al principio de La estructura de la realidad, David Deutsch plantea la idea de que no necesitas conocer todos y cada uno de los hechos para entender a fondo todo lo que se puede entender.",
+        "Presenta esta visión de que hay cuatro teorías fundamentales, unas de la ciencia y otras de fuera de ella.",
+        "Son la teoría cuántica, la teoría de la computación, la evolución por selección natural y la epistemología, que es la teoría del conocimiento.",
+        "Juntas forman la visión del mundo, o la lente, a través de la cual puedes entender todo lo que se puede entender."
+      ]
+    },
+    {
+      "id": "b06-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Vi un vídeo precioso suyo en YouTube en el que defendía estas mismas ideas.",
+        "Decía que no hace falta memorizar ni conocer todos los hechos, ni saber hacia dónde se ha movido cada partícula.",
+        "Decía que, si entiendes las teorías profundas que hay detrás de todo, sabes a grandes rasgos cómo funciona todo.",
+        "Y todo esto lo puede entender una sola persona, un solo cerebro, un solo ser humano. Está al alcance de cualquiera.",
+        "Es una idea tan poderosa que te deja con la boca abierta.",
+        "Podemos tener explicaciones que alcanzan a todo el universo.",
+        "Es curioso que la teoría de la relatividad no esté en la lista de las cuatro teorías."
+      ]
+    },
+    {
+      "id": "b07-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Deutsch considera que la teoría cuántica es más profunda que la teoría de la relatividad.",
+        "No es que estemos descartando la relatividad, pero su conjetura es que la teoría cuántica resultará más fundamental que la teoría de la relatividad.",
+        "Habrá un espacio tiempo del multiverso, y el multiverso es la explicación que da David de la teoría cuántica.",
+        "Por eso la relatividad no aparece entre esas cuatro teorías.",
+        "La mayoría de los físicos esperan que, en algún momento, lleguemos a unificar la teoría cuántica y la teoría de la relatividad."
+      ]
+    },
+    {
+      "id": "b08-naval",
+      "speaker": "Naval",
+      "frases": [
+        "El comienzo del infinito es el libro que más me recuerda a Gödel, Escher, Bach, porque abarca muchísimo y une ideas de disciplinas muy distintas.",
+        "Es muy difícil de entender y de seguir del todo.",
+        "Todo el mundo dice que lo ha leído, pero, por lo que veo, muy poca gente lo entiende.",
+        "Me pasó algo así en la universidad, cuando descubrí la obra de Hofstadter.",
+        "Recuerdo que lo puse en la estantería y empecé a leerlo, y empecé a leerlo, y empecé a leerlo.",
+        "Al cabo de un año, iría más o menos por la mitad.",
+        "Luego simplemente me quedé sin tiempo, porque tenía otras cosas entre manos.",
+        "Recuerdo que me acercaba a otros amigos de la universidad y les decía que era un libro buenísimo y que tenían que leerlo.",
+        "Una semana después volvían y me decían que sí, que ya habían leído Gödel, Escher, Bach, y que era genial.",
+        "Y yo me sentía el más tonto de toda la universidad.",
+        "Solo años después me di cuenta de que nadie lo había leído.",
+        "Cuando te haces mayor, te atreves más con esas confesiones.",
+        "O dices que no lo leíste, o que lo leíste a un ritmo constante y que, cada vez que encontrabas algo que no entendías, seguías adelante.",
+        "Confieso que, a día de hoy, todavía no he leído entero Gödel, Escher, Bach.",
+        "Pero al menos, a estas alturas, lo he recorrido y he encontrado las partes que más me interesaban, que eran las de Gödel, y esas sí las he leído y he intentado entenderlas.",
+        "Me salté las partes que no me interesaban tanto, que eran las de Bach.",
+        "Con El comienzo del infinito pasa algo parecido.",
+        "Todo el mundo en mi círculo social lo tiene en la estantería.",
+        "Muchos dicen que lo han leído, pero muy pocos lo han entendido de verdad.",
+        "Vuelvo a una idea que expresó por primera vez, con mucha elocuencia, un usuario de Twitter que se hace llamar ilacertus.",
+        "Escribió, más o menos, que no quería leer todos los libros, que solo quería leer los cien mejores una y otra vez.",
+        "Ahora mismo estoy metido en un bucle en el que, al menos en ciencia, solo voy a leer El comienzo del infinito y La estructura de la realidad.",
+        "Voy a leerlos una y otra vez hasta entenderlos del todo.",
+        "Si los hubiera leído hace veinte años, sabría muchísimo más, porque habría elegido los libros y los autores adecuados para leer después.",
+        "Es un libro difícil de seguir, así que deberías comprarlo en tapa dura y en versión electrónica, para tenerlo todo."
+      ]
+    },
+    {
+      "id": "b09-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Y la versión en audio."
+      ]
+    },
+    {
+      "id": "b10-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Hazte con él en todos los formatos que puedas.",
+        "Si eres capaz de terminarlo a la primera y entender a fondo todas sus ideas, pues enhorabuena.",
+        "Pero si no lo consigues, esperamos poder desmenuzártelo nosotros."
+      ]
+    },
+    {
+      "id": "b11-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "La diferencia con El comienzo del infinito es que te llevas una visión del mundo.",
+        "No te llevas la interpretación habitual de los físicos sobre cómo entender la teoría cuántica.",
+        "Tampoco te llevas la interpretación habitual de los filósofos sobre cómo entender el conocimiento.",
+        "Y, desde luego, no te llevas la interpretación habitual de los matemáticos sobre cómo entender las matemáticas.",
+        "David Deutsch es un experto en todos estos campos."
+      ]
+    },
+    {
+      "id": "b12-naval",
+      "speaker": "Naval",
+      "frases": [
+        "¿Cuál es el núcleo de esa visión del mundo?"
+      ]
+    },
+    {
+      "id": "b13-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "La visión del mundo de Deutsch es que la realidad es comprensible.",
+        "Los problemas tienen solución, son solubles, como escribe él.",
+        "Es una visión del mundo de un optimismo profundamente racional, que cree en las buenas explicaciones científicas y en el progreso.",
+        "El progreso es inevitable mientras tengamos estas buenas explicaciones.",
+        "Las buenas explicaciones tienen un alcance enorme, y son actos de creatividad.",
+        "Los humanos sabemos resolver problemas, y podemos resolverlos todos.",
+        "Todos los pecados y todo el mal se deben a la falta de conocimiento.",
+        "Podemos ser optimistas ante un progreso constante, y a eso se refiere el título, a que estamos al comienzo de una serie infinita de progreso.",
+        "Es una visión muy optimista, que sostiene que en el universo estamos en casa, y que el universo es nuestro, como un recurso del que aprender y que aprovechar.",
+        "Sostiene que la riqueza material es el conjunto de transformaciones físicas que podemos llevar a cabo.",
+        "Y que todo lo que no prohíben las leyes de la física acaba siendo posible gracias al conocimiento y a la creación de conocimiento.",
+        "También escribe que los humanos somos explicadores universales.",
+        "Todo lo que se puede conocer y entender lo pueden conocer y entender los seres humanos, con la potencia de cálculo de un sistema humano.",
+        "Los humanos podemos llegar a conocerlo todo, y estamos al comienzo de un infinito de conocimiento.",
+        "Entendemos las cosas mediante buenas explicaciones, y sustituimos constantemente las teorías antiguas por otras mejores.",
+        "No hay un punto final a la vista, ni existe la perfección.",
+        "Toda teoría puede acabar siendo falsada y mejorada.",
+        "Vamos camino de poder hacer todo lo que no prohíben las leyes de la física."
+      ]
+    },
+    {
+      "id": "b14-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "El conocimiento es lo que transforma el mundo.",
+        "Podemos tomar una materia prima que no tiene ningún uso concreto y encontrar dentro de ella núcleos de uranio.",
+        "Esos núcleos se pueden usar después para fabricar bombas o para generar energía en un reactor nuclear.",
+        "Podemos encontrarlos dentro de algo que, durante casi toda la existencia geológica de la Tierra, estuvo ahí inerte, y que sin las personas no habría hecho nada.",
+        "Las personas son las entidades del universo que crean explicaciones.",
+        "Son capaces de explicar en qué se podrían transformar las materias primas.",
+        "Ahora bien, ¿en qué transforman esas materias primas? En civilización.",
+        "Al crear conocimiento, las personas acaban convirtiéndose, literalmente, en una fuerza de la naturaleza.",
+        "Si queremos explicar algo como la forma de una galaxia o de una estrella, cualquier astrofísico te contará una historia basada en las leyes de la física.",
+        "Te contará cómo la gravedad acaba dando forma de esfera a las cosas, y cómo las leyes de la termodinámica hacen que ciertos gases se calienten y se expandan.",
+        "Todas las leyes de la física que conocemos bastan para explicar lo que vemos ahí fuera, en el cosmos.",
+        "Pero las leyes de la física por sí solas no pueden explicar que haya aparecido Manhattan.",
+        "Hay que recurrir a otras cosas, aparte de las leyes fundamentales de la física.",
+        "Hay que recurrir a la existencia de las personas y a su capacidad de explicar el mundo desde la ciencia, la filosofía y la política.",
+        "Es todo eso junto lo que explica por qué tenemos ciertas estructuras, como los rascacielos de Manhattan.",
+        "Es una idea profunda, y parece que los científicos la han pasado por alto.",
+        "Muchos de ellos tienen una idea reduccionista de cómo explicar lo que vemos en nuestro entorno.",
+        "Solo intentan explicar los fenómenos naturales que hay en un entorno.",
+        "Por supuesto, todo el mundo quiere saber cómo funcionan las leyes de la naturaleza.",
+        "Pero si queremos entender cómo va a evolucionar el universo con el tiempo, ya sea aquí en nuestro planeta o, más adelante, en la galaxia, tendremos que hablar del conocimiento que crean las personas.",
+        "Y tendremos que hablar de las decisiones que van a tomar en el futuro.",
+        "Esta es una visión distinta del lugar que ocupan las personas en el universo."
+      ]
+    },
+    {
+      "id": "b15-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "En una frase célebre, Stephen Hawking dijo que la raza humana no es más que escoria química en un planeta de tamaño mediano.",
+        "Según él, ese planeta gira alrededor de una estrella muy corriente, en las afueras de una galaxia de entre cien mil millones.",
+        "Dijo que somos tan insignificantes que no podía creer que todo el universo existiera para nuestro beneficio.",
+        "Esta visión de lo que son las personas y de lo que es el planeta Tierra es cierta en un sentido trivial.",
+        "Pero pasa por alto que las personas somos una especie de centro neurálgico.",
+        "Somos, hasta donde sabemos, el único lugar del universo que está creando conocimiento, un caudal de conocimiento sin final que podría transformar el resto de la realidad.",
+        "La gravedad es capaz de dar a una galaxia una forma determinada.",
+        "Del mismo modo, en el futuro el conocimiento podrá dar forma al rumbo del planeta, del sistema solar y, con el tiempo, de la galaxia.",
+        "Tendremos un impacto profundo en todo lo que vemos a nuestro alrededor.",
+        "No hay nada que las leyes de la física, las de la química o incluso las de la biología puedan hacer para predecir lo que va a pasar en el futuro.",
+        "Es imposible predecir el crecimiento futuro del conocimiento.",
+        "Esa es la naturaleza del conocimiento, porque crear conocimiento es, de verdad, un acto de creación.",
+        "Es hacer que exista algo que antes no estaba ahí."
+      ]
+    },
+    {
+      "id": "b16-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Si pudieras predecirlo, es que ya lo habrías inventado.",
+        "Muchas de nuestras visiones del mundo más pesimistas vienen de extrapolar en línea recta las tendencias negativas, sin tener en cuenta las positivas.",
+        "Las tendencias positivas surgen sobre todo de la creatividad y de la creación de conocimiento, y eso es impredecible por naturaleza.",
+        "Cada generación tiene sus agoreros, sus casandras y sus maltusianos modernos, que dicen que, si seguimos por este camino, vamos a morir todos.",
+        "Son muy populares por la misma razón por la que lo son las películas de zombis y las de vampiros.",
+        "Pero la realidad es que no pueden predecir lo que vamos a hacer en el futuro para mejorar nuestra calidad de vida y salvarnos de una ruina inevitable."
+      ]
+    },
+    {
+      "id": "b17-naval",
+      "speaker": "Naval",
+      "frases": [
+        "El valor está en el conocimiento, y el conocimiento está dentro del observador y del creador, es decir, de un ser humano, no dentro de la cosa en sí.",
+        "Por ejemplo, el petróleo no sirve de nada a menos que sepas refinarlo, quemarlo y aprovechar su combustión.",
+        "La información no sirve de nada si no hay un cerebro que la reciba.",
+        "Podría haber una señal que emitiera en inglés hacia el espacio exterior.",
+        "Pero si no hay ninguna criatura capaz de entender qué idioma es ese, cómo funciona y quién lo transmite, no son más que frecuencias electromagnéticas moduladas que no significan nada.",
+        "Así que gran parte de la información, gran parte del valor, está dentro de una entidad concreta que porta conocimiento.",
+        "A medida que crece el alcance de la ciencia, hemos llegado a una ciencia muy reduccionista, en la que descomponemos las cosas en piezas cada vez más pequeñas.",
+        "Y luego intentamos explicar las cosas a partir de esas piezas.",
+        "Dentro de la ciencia hay una contracorriente, la teoría de la complejidad, en la que hablamos de propiedades emergentes y de sistemas de nivel superior.",
+        "Estudia sistemas que, a pequeña escala, funcionan de forma caótica e impredecible.",
+        "Pero, a gran escala, podemos afirmar ciertas cosas sobre ellos que sí tienen poder explicativo.",
+        "Los humanos somos únicos en nuestra capacidad de entender las cosas."
+      ]
+    },
+    {
+      "id": "b18-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Hay una expresión que nos vas a oír repetir una y otra vez a Brett y a mí, la de las buenas explicaciones.",
+        "Las buenas explicaciones son la mejora que introduce David Deutsch en el método científico.",
+        "Al mismo tiempo, van más allá de la ciencia, porque no solo son válidas en la ciencia, sino en toda la vida.",
+        "Nos vamos abriendo camino en la vida, y lo hacemos con éxito gracias a que creamos buenas explicaciones.",
+        "Si no te quedas con nada más, intenta entender qué es una buena explicación.",
+        "Una buena explicación, en primer lugar, es comprobable o falsable.",
+        "Puedes hacer un experimento en el mundo real para ver si es verdad o no.",
+        "Y, yendo incluso un paso más atrás, es una explicación creativa.",
+        "Se fija en algo que pasa en el mundo real y dice cuál es la razón por la que está pasando.",
+        "Es un salto creativo que dice cuál es la explicación de fondo de cómo funciona eso.",
+        "Por ejemplo, cuando veo una puesta de sol con mis hijos pequeños, les pregunto si el sol se va a alguna parte.",
+        "¿Se está moviendo? ¿O quizá somos nosotros los que nos movemos, y nos movemos de tal manera que parece que el sol se pone?",
+        "¿Cuál es la explicación correcta?",
+        "Mirándolo de forma ingenua, pensarías que el sol cruza el cielo a toda velocidad y da vueltas alrededor de la Tierra.",
+        "Pero esa no es la única explicación posible.",
+        "Hay una explicación totalmente creativa que parece contradecir lo que se observa a simple vista, que el sol se mueve, pero que también podría encajar con los hechos.",
+        "Eso sí, requiere algo de creatividad, y esa explicación es que la Tierra gira.",
+        "Las buenas explicaciones no tienen por qué ser evidentes, y no salen simplemente de mirar lo que ha pasado antes.",
+        "En cambio, sí son comprobables, porque hay experimentos que podemos hacer para averiguarlo.",
+        "Con ellos podemos saber si es el sol el que gira alrededor de la Tierra o si es la Tierra la que gira sobre sí misma."
+      ]
+    },
+    {
+      "id": "b19-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Brett, ¿dirías que una teoría científica es un subconjunto de las buenas explicaciones?"
+      ]
+    },
+    {
+      "id": "b20-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Sí, son el tipo de buenas explicaciones que se pueden comprobar.",
+        "En realidad, teorías falsables hay a montones, y que una teoría sea falsable no te dice nada sobre la calidad de la explicación que te están dando.",
+        "El ejemplo que se usa en La estructura de la realidad es el de la hierba como cura del resfriado común.",
+        "Si alguien dice que comer un kilo de hierba te curará el resfriado, entonces tiene una teoría comprobable.",
+        "El problema es que nadie debería ponerla a prueba.",
+        "¿Por qué? Porque no ha explicado el mecanismo que permitiría que la hierba curase el resfriado.",
+        "Y si te comes un kilo de hierba y no se te cura el resfriado, siempre puede salir con que a lo mejor con un kilo cien sí funciona."
+      ]
+    },
+    {
+      "id": "b21-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Exacto. O a lo mejor necesitas otro tipo de hierba."
+      ]
+    },
+    {
+      "id": "b22-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Siempre se puede comprobar, pero no estás avanzando nada."
+      ]
+    },
+    {
+      "id": "b23-naval",
+      "speaker": "Naval",
+      "frases": [
+        "La segunda pieza de una buena explicación es que es difícil de variar.",
+        "Tiene que ser muy precisa, y esa precisión tiene que tener una buena razón de ser.",
+        "El ejemplo famoso de El comienzo del infinito es la explicación de por qué tenemos estaciones.",
+        "Está la antigua explicación griega, según la cual dependen de Perséfone, la diosa de la primavera, y de cuándo puede salir del Hades.",
+        "Era toda una teoría de dioses y diosas, y no solo no era fácil de comprobar, sino que era muy fácil de variar.",
+        "Perséfone podría haber sido Nike, y Hades podría haber sido Júpiter o Zeus.",
+        "Es muy fácil variar esa explicación sin que cambien sus predicciones.",
+        "En cambio, fíjate en la teoría de la inclinación del eje.",
+        "Dice que la Tierra está inclinada veintitrés grados respecto al Sol, y que por eso el sol debería salir por aquí en invierno y por allí en verano.",
+        "Los hechos de esa teoría son muy difíciles de variar, y hace predicciones arriesgadas y concretas.",
+        "La teoría de la inclinación del eje puede predecir cuánto duran exactamente el verano y el invierno en cada latitud, y eso se puede comprobar con precisión.",
+        "Además de ser una teoría creativa, comprobable y falsable, debería ser difícil variar sus piezas sin destruir la teoría por completo.",
+        "Y lo que desde luego no quieres es variarla a posteriori, como en tu ejemplo de la hierba.",
+        "¿Que no bastaba con un kilo? Pues ahora es un kilo cien, y luego un kilo doscientos.",
+        "Por último, las predicciones que hace deberían ser concretas y precisas, y deberían ser arriesgadas.",
+        "Por ejemplo, en el caso de la relatividad, creo que fue Eddington quien hizo el experimento y demostró que la luz de las estrellas se curva durante un eclipse.",
+        "Era una predicción que Einstein había hecho con la relatividad, y resultó ser cierta.",
+        "Fue una predicción arriesgada que tardó mucho tiempo en confirmarse."
+      ]
+    },
+    {
+      "id": "b24-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "El experimento de Eddington es un ejemplo excelente de lo que se llama un experimento crucial, que viene a ser la cumbre de todo lo que es la ciencia.",
+        "Si hacemos una prueba y no concuerda con una teoría concreta que tenemos, eso es un problema.",
+        "Pero eso no significa que la prueba refute la teoría.",
+        "Si refutaras la única teoría que tienes, ¿hacia dónde saltarías, si no tienes ninguna alternativa?",
+        "Si mañana hiciéramos una prueba científica y no fuera coherente con la teoría de la relatividad general, ¿entonces qué?",
+        "No hay ninguna alternativa a la relatividad general.",
+        "De hecho, a lo largo de los años ha habido experimentos que parecían incoherentes con la relatividad general.",
+        "¿Y sabes qué? Al final, todos ellos resultaron tener algún fallo.",
+        "Si tuvieras que elegir entre que tu prueba haya refutado la relatividad general o que tu prueba tenga un fallo, quédate con que tu prueba tiene un fallo.",
+        "En el caso del experimento de Eddington, teníamos dos teorías viables de la gravedad.",
+        "Por un lado teníamos la teoría de la gravitación universal de Newton, y por otro, la teoría general de la relatividad de Einstein.",
+        "Tu descripción del experimento, de cuánto se curva la luz durante un eclipse solar, es la forma correcta de contar lo que pasó.",
+        "No es que demostráramos que la relatividad general era correcta en un sentido definitivo, sino que refutamos la teoría de la gravitación de Newton.",
+        "La teoría de Newton quedó descartada porque no era coherente con la prueba, mientras que la relatividad general sí lo era.",
+        "Eso no significa que la relatividad general sea la última palabra de la ciencia.",
+        "Significa que es la mejor teoría que tenemos por ahora, y hay un montón de razones para pensar que, a fin de cuentas, la relatividad general tiene que ser falsa.",
+        "Este es otro aspecto de esta visión del mundo, la idea de que nunca tenemos la última palabra, y eso es algo bueno.",
+        "Es optimista, porque significa que podemos seguir mejorando, podemos seguir progresando y podemos seguir descubriendo cosas nuevas. La ciencia no tiene fin.",
+        "Hay quien teme que algún día el progreso se detenga, que la ciencia se acabe.",
+        "En realidad, estamos al comienzo del infinito, y siempre estaremos al comienzo del infinito precisamente porque podemos mejorar nuestras ideas.",
+        "Somos seres humanos falibles, y ninguna de nuestras teorías es perfecta porque nosotros no somos perfectos.",
+        "El proceso con el que creamos conocimiento tampoco es perfecto, y es propenso a errores."
+      ]
+    },
+    {
+      "id": "b25-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Hay otros dos pensadores científicos que me gustan y que llegan a conclusiones parecidas a las de Deutsch.",
+        "Uno es Nassim Taleb, que popularizó la idea del cisne negro, es decir, que por muchos cisnes blancos que veas, nunca puedes descartar que exista un cisne negro.",
+        "Nunca puedes afirmar de forma concluyente que todos los cisnes son blancos, ni puedes establecer una verdad definitiva.",
+        "Lo único que puedes hacer es trabajar con la mejor explicación que tengas hoy, que aun así es mucho mejor que la ignorancia.",
+        "En cualquier momento puede aparecer un cisne negro y refutar tu teoría, y entonces tienes que ir a buscar una mejor.",
+        "El otro, que me parece fascinante, es Gregory Chaitin.",
+        "Es un matemático muy en la línea de Kurt Gödel, porque explora los límites y las fronteras de lo que es posible en las matemáticas.",
+        "Una de las cosas que señala es que el teorema de incompletitud de Gödel no dice que las matemáticas sean basura, y que ese teorema no es motivo para desesperar.",
+        "El teorema de incompletitud de Gödel dice que ningún sistema formal, incluidas las matemáticas, puede ser a la vez completo y correcto.",
+        "O bien hay enunciados verdaderos que no se pueden demostrar dentro del sistema, o bien habrá una contradicción en algún punto del sistema.",
+        "Esto podría ser motivo de desesperación para los matemáticos que ven las matemáticas como algo abstracto, perfecto y completamente cerrado en sí mismo.",
+        "Pero Chaitin sostiene que, en realidad, eso abre la puerta a la creatividad en las matemáticas.",
+        "Significa que incluso en las matemáticas siempre estás a un paso de falsar algo y de encontrar después una explicación mejor.",
+        "Eso vuelve a poner en el centro de todo a los seres humanos, su creatividad y su empeño por encontrar buenas explicaciones.",
+        "En el fondo, las matemáticas siguen siendo un arte.",
+        "Claro que de las matemáticas salen cosas muy útiles.",
+        "Sigues construyendo un edificio de conocimiento, pero no existe una verdad concluyente y definitiva. No hay ciencia definitiva, no hay matemáticas definitivas.",
+        "Hay buenas explicaciones que con el tiempo se sustituirán por otras buenas explicaciones que explican más cosas del mundo."
+      ]
+    },
+    {
+      "id": "b26-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Esto es algo que heredamos de la escuela más que de ningún otro sitio.",
+        "Forma parte de nuestra cultura académica, y también se filtra a la cultura en general.",
+        "La gente tiene la idea de que las matemáticas son un terreno inmaculado del conocimiento, en el que lo que está demostrado es verdad con toda certeza.",
+        "Luego está la ciencia, que no te da una verdad segura, aunque puedes confiar mucho en lo que descubres.",
+        "Puedes usar experimentos para confirmar que lo que dices parece correcto, pero podrías estar equivocado.",
+        "Y luego, por supuesto, está la filosofía, que es una mera cuestión de opinión.",
+        "Esta es la jerarquía que algunos heredan de la escuela, según la cual las matemáticas son una certeza, la ciencia es casi una certeza y todo lo demás es más o menos cuestión de opinión.",
+        "Es lo que Deutsch llama el error de concepto de los matemáticos.",
+        "Los matemáticos tienen esa manera intuitiva de dar por hecho que su demostración, es decir, el teorema al que han llegado con ese método, es verdad con certeza absoluta.",
+        "En realidad, es una confusión entre el objeto de estudio y el conocimiento que tienen de él."
+      ]
+    },
+    {
+      "id": "b27-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Si comparo las matemáticas con la física, tenemos este campo que se llama física de partículas, y la teoría más profunda que tenemos en él se llama modelo estándar.",
+        "Este modelo describe todas las partículas fundamentales que existen y las interacciones entre ellas, es decir, las fuerzas que actúan entre ellas.",
+        "También describe los bosones gauge, que transmiten la fuerza entre partículas como los electrones, los protones y los neutrones.",
+        "Ahora bien, ¿de qué está hecha la materia?",
+        "Diríamos que la materia está hecha de estas partículas que describe el modelo estándar de la física.",
+        "Pero ¿eso descarta que estas partículas fundamentales puedan estar formadas, a su vez, por partículas aún más pequeñas?",
+        "Tenemos una teoría que quizá sea más profunda, que se llama teoría de cuerdas.",
+        "Así que una cosa es lo que sabemos sobre cuáles son las partículas más fundamentales, y otra distinta es cuáles son, en la realidad, las partículas más fundamentales.",
+        "Lo mismo pasa en las matemáticas. Deutsch explica que las matemáticas son un campo en el que lo que intentamos descubrir es la verdad necesaria.",
+        "El objeto de estudio de las matemáticas es la verdad necesaria, del mismo modo que el objeto de estudio de la física de partículas son las partículas fundamentales.",
+        "Pero que el objeto de estudio de la física de partículas fundamentales sean las partículas fundamentales no significa que de verdad encuentres las partículas fundamentales.",
+        "Lo único que significa es que has encontrado las partículas más pequeñas que tus mayores aceleradores de partículas son capaces de distinguir.",
+        "Pero si tuvieras un acelerador de partículas aún más grande, podrías encontrar partículas dentro de esas partículas.",
+        "Esa ha sido la historia de la física de partículas.",
+        "Antes pensábamos que los átomos eran fundamentales, y luego, por supuesto, descubrimos que contenían núcleos y electrones.",
+        "Dentro de los núcleos, descubrimos que había protones y neutrones.",
+        "Y al mirar dentro de los protones y los neutrones, descubrimos que estaban formados por quarks.",
+        "Y ahí es donde estamos ahora mismo, en el punto en el que decimos que los quarks son fundamentales, y los electrones también.",
+        "Pero eso no significa que vayamos a dar por terminada la física de partículas ya.",
+        "Lo que necesitamos son nuevas teorías sobre lo que podría haber dentro de esas partículas tan pequeñas.",
+        "Si comparamos eso con las matemáticas, si la verdad necesaria es su objeto de estudio, entonces los matemáticos se dedican a crear conocimiento sobre la verdad necesaria.",
+        "Un matemático tiene un cerebro, que es un objeto físico, y todos los objetos físicos están expuestos a errores por degradación, debido a la segunda ley de la termodinámica.",
+        "O, sencillamente, un matemático puede tener los despistes y los errores mentales de siempre, los que comete cualquier ser humano.",
+        "Por eso un matemático es tan falible como cualquier otra persona.",
+        "Así que lo que acaba demostrando podría contener un error."
+      ]
+    },
+    {
+      "id": "b28-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Si entiendo bien este punto, hasta las matemáticas pueden contener errores, porque las matemáticas son un acto creativo.",
+        "Nunca terminamos del todo. Podría haber habido un error en alguno de tus axiomas."
+      ]
+    },
+    {
+      "id": "b29-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Todo conocimiento es conjetural, y siempre es fruto de una conjetura.",
+        "Es lo mejor que hemos llegado a entender en cada momento.",
+        "Tienes razón al decir que los axiomas podrían ser incorrectos.",
+        "¿Cómo sabemos que un axioma es correcto?",
+        "Tradicionalmente, la respuesta ha sido que es así porque está claro y es evidente.",
+        "¿Cómo puedes demostrar que equis más cero tiene que ser igual a equis?",
+        "No te queda más remedio que aceptar que es verdad.",
+        "Pero fíjate en algo como los Elementos de Euclides.",
+        "Si quieres, puedes hacer tú mismo este experimento.",
+        "Coge una hoja de papel, coge un bolígrafo y dibuja dos puntos en la hoja.",
+        "Y ahora, ¿cuántas líneas rectas distintas puedes trazar que pasen por esos dos puntos?",
+        "Debería resultarte bastante evidente que solo se puede trazar una, y sin embargo, sabemos que eso es falso.",
+        "Párate a pensar que, mientras miras fijamente la hoja de papel, en la que solo has trazado una línea recta, tienes una sensación de certeza.",
+        "Estás absolutamente seguro de que no te equivocas.",
+        "Esa sensación es algo de lo que siempre deberíamos desconfiar.",
+        "Cuando la gente ha estado absolutamente segura, incluso en un campo tan aparentemente lleno de certezas como las matemáticas, se ha demostrado que estaba equivocada.",
+        "Entonces, ¿cómo podemos demostrar que es falso?",
+        "Puede que pienses que hago trampa, pero, por otro lado, tienes que preguntarte si entendiste lo que te decía cuando te pedí que trazaras una única recta por dos puntos.",
+        "Dobla la hoja de papel y piensa en tres dimensiones.",
+        "Envuelve con la hoja un balón de baloncesto, si tienes uno.",
+        "Ahora piensa en las formas en que podrías trazar una línea recta que pase por esos dos puntos.",
+        "Podrías hacer un agujero en uno de esos puntos con el bolígrafo y empujarlo hasta que salga por el otro lado, por el otro agujero.",
+        "Y así tienes ahora una línea recta distinta.",
+        "Tienes la línea recta que has dibujado con el bolígrafo, y tienes otra línea recta que es literalmente tu bolígrafo atravesando esos dos puntos.",
+        "Tu sensación inicial de certeza absoluta, de que por esos dos puntos solo se podía trazar una línea, es falsa.",
+        "Puede que estés pensando que eso no es justo, que es hacer trampa.",
+        "Tú pensabas en dos dimensiones, y yo no. Yo pensaba en más dimensiones que esas.",
+        "Karl Popper tiene una frase maravillosa, que dice que es imposible hablar de manera que nadie pueda malinterpretarte, y esto siempre es así.",
+        "Incluso en las matemáticas, donde intentamos ser lo más precisos posible, la gente puede cometer errores y partir de premisas falsas sobre el argumento que intenta defender.",
+        "Tradicionalmente, la geometría se hacía en dos dimensiones, sobre una hoja de papel.",
+        "Este ejemplo concreto de la geometría euclidiana lo resolvieron varias personas, y eso llevó a la geometría del espacio curvo.",
+        "Y la geometría del espacio curvo llevó a Einstein a formular la teoría general de la relatividad.",
+        "Así que es cuestionar nuestras suposiciones más profundas, esas en las que creemos que es imposible equivocarnos, lo que lleva al verdadero progreso.",
+        "Eso es lo que lleva a un cambio auténtico y fundamental, en las ciencias y en todo lo demás."
+      ]
+    },
+    {
+      "id": "b30-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Decías que pasamos de los átomos, en la época de Demócrito, a los núcleos, y de ahí a los protones y los neutrones, y luego a los quarks.",
+        "Son partículas y más partículas hasta el fondo, por parafrasear a Feynman, y podemos seguir así para siempre.",
+        "Pero no es del todo para siempre, ¿no?",
+        "En algún momento te topas con la longitud de Planck."
+      ]
+    },
+    {
+      "id": "b31-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Está el tiempo de Planck, está la longitud de Planck, e incluso está la masa de Planck, que en realidad es una masa bastante grande.",
+        "Estas magnitudes no tienen ningún significado físico, y no es que el tiempo de Planck sea el tiempo más corto posible.",
+        "Ni tampoco es que la longitud de Planck sea la longitud más corta posible.",
+        "La razón es que estas magnitudes de Planck forman parte de la teoría cuántica.",
+        "Pero la longitud no la describe la teoría cuántica, sino la teoría general de la relatividad.",
+        "Y en esa teoría, el espacio es infinitamente divisible.",
+        "No existe una longitud mínima posible, ni tampoco un tiempo mínimo.",
+        "Esto pone de manifiesto una antigua tensión entre lo discreto y lo continuo.",
+        "La teoría cuántica parece sugerir que las cosas son discretas.",
+        "Por ejemplo, existe la partícula de oro más pequeña posible, que es el átomo de oro.",
+        "Existe la partícula de electricidad más pequeña posible, que es el electrón.",
+        "Y existe la partícula de luz más pequeña posible, que es el fotón.",
+        "En la teoría cuántica tenemos esta idea de que la realidad es discreta, de que existe una cosa que es la más pequeña posible y a partir de ella se construye todo lo demás.",
+        "Pero en la relatividad general la idea es la contraria.",
+        "Esta teoría dice que las cosas pueden variar de forma continua, y sus matemáticas exigen que las cosas varíen de forma continua para poder derivarlas, entre otras cosas.",
+        "La idea es que puedes seguir dividiendo el espacio y puedes seguir dividiendo el tiempo.",
+        "Los físicos saben que existe esta contradicción en el nivel más profundo de nuestras explicaciones más fundamentales de la física.",
+        "Es una de las razones por las que se intenta unificar la teoría cuántica y la relatividad general.",
+        "¿Cuál es la naturaleza fundamental de la realidad?",
+        "¿Las cosas pueden ser infinitamente divisibles, o tenemos que pararnos en algún punto?",
+        "Si la realidad es infinitamente divisible, puede que la teoría cuántica tenga que quedar subordinada a la relatividad general. Sencillamente, no lo sabemos."
+      ]
+    },
+    {
+      "id": "b32-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Adiós a mi solución para la paradoja de Zenón.",
+        "La paradoja dice que, antes de llegar hasta algún sitio, tienes que llegar a mitad de camino.",
+        "Y antes de llegar a mitad de camino, tienes que recorrer un cuarto del camino, y por tanto nunca llegarás.",
+        "Una forma de superarla es decir que incluso una serie infinita de cosas puede tener una suma finita.",
+        "Desarrollas la serie infinita, la sumas y ves que converge, y eso lo aprendemos bastante pronto.",
+        "Otra idea que tuve es que tienes que recorrer una distancia mínima, la longitud de Planck, y que por tanto llegarás.",
+        "Es una serie finita de pasos, pero tú dices que sencillamente no lo sabemos."
+      ]
+    },
+    {
+      "id": "b33-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Si las leyes de la física dicen que podemos recorrer un metro en un determinado tiempo, eso es exactamente lo que haremos.",
+        "Y nuestra comprensión actual de las leyes de la física dice precisamente eso.",
+        "Así que la paradoja de Zenón se resuelve sin más, diciendo que podemos recorrer este espacio en este tiempo.",
+        "Esa solución no dice nada sobre si el espacio es o no infinitamente divisible.",
+        "Si alguien me pregunta si el espacio es infinitamente divisible, yo le diría que sí.",
+        "Puede que entonces me pregunte cómo lo sé, y yo le diría que por la relatividad general.",
+        "¿Cómo sé que eso es verdad?",
+        "Bueno, no sé que sea verdad, pero es la mejor explicación que tenemos ahora mismo del espacio tiempo.",
+        "Y luego quizá me diga que, si es infinitamente divisible, volvemos a tener delante la paradoja de Zenón.",
+        "Y yo le diría que no, que eso se refuta con un simple experimento.",
+        "Así que no sabemos cómo es, pero podemos recorrer todos esos infinitos puntos, si es que de verdad hay infinitos puntos.",
+        "La paradoja de Zenón pertenece al campo de las matemáticas puras.",
+        "Pero no vivimos en un mundo de matemáticas puras, sino en un mundo de física.",
+        "Y si la física dice que podemos recorrer un número infinito de puntos en un tiempo finito, eso es lo que haremos, digan lo que digan las matemáticas."
+      ]
+    },
+    {
+      "id": "b34-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Toda teoría matemática reside en un sustrato físico, ya sea un cerebro o un ordenador.",
+        "Siempre estás sujeto a las leyes de la física, y puede que estos campos puros y abstractos no tengan ninguna correspondencia con la realidad."
+      ]
+    },
+    {
+      "id": "b35-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "La inmensa mayoría de los teoremas de las matemáticas son teoremas que no podemos demostrar de ningún modo.",
+        "Es el teorema de Gödel, y también se deduce de la demostración de Turing sobre qué es computable y qué no lo es.",
+        "Las cosas que no son computables superan con creces a las que sí lo son.",
+        "Y lo que es computable depende por completo de qué ordenadores podemos construir en este universo físico.",
+        "Los ordenadores que podemos construir tienen que obedecer nuestras leyes de la física.",
+        "Si las leyes de la física fueran distintas, podríamos demostrar otros tipos de matemáticas.",
+        "Esta es otra parte del error de concepto de los matemáticos, que creen que pueden salirse de las leyes de la física.",
+        "Sin embargo, su cerebro no es más que un ordenador físico, y su cerebro tiene que obedecer las leyes de la física.",
+        "Si existieran en un universo con otras leyes de la física, podrían demostrar otros teoremas.",
+        "Pero existimos en el universo en el que estamos, así que estamos sujetos a un montón de cosas, empezando por la velocidad finita de la luz.",
+        "Podría haber ciertas cosas ahí fuera, en el espacio abstracto, que llegaríamos a entender más a fondo si pudiéramos escapar de las restricciones de las leyes de la física.",
+        "Por suerte, ninguno de esos teoremas que ahora mismo no podemos demostrar es intrínsecamente interesante.",
+        "Algunas cosas pueden ser intrínsecamente aburridas, en concreto todos esos teoremas de los que no hay forma de demostrar si son verdaderos o falsos.",
+        "Esos teoremas no pueden tener ninguna relevancia en nuestro universo físico.",
+        "No tienen nada que ver con nuestro universo físico, y por eso decimos que son intrínsecamente poco interesantes.",
+        "Y hay muchísimas cosas que son intrínsecamente poco interesantes."
+      ]
+    },
+    {
+      "id": "b36-naval",
+      "speaker": "Naval",
+      "frases": [
+        "¿La probabilidad existe de verdad en el universo físico, o es una función de nuestra ignorancia?",
+        "Si tiro un dado, no sé de qué lado va a caer, así que le asigno una probabilidad.",
+        "Pero ¿eso significa que en el universo hay de verdad algo probabilístico que no se puede conocer?",
+        "¿El universo está tirando un dado en alguna parte, o siempre es determinista?"
+      ]
+    },
+    {
+      "id": "b37-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "En realidad, toda probabilidad es subjetiva, y la incertidumbre y el azar también son subjetivos.",
+        "No sabes cuál va a ser el resultado, así que tiras un dado.",
+        "Eso es porque tú, individualmente, no lo sabes, no porque en el fondo del universo haya incertidumbre.",
+        "Lo que sabemos de la teoría cuántica es que todo lo que es físicamente posible ocurre, y esto lleva al concepto del multiverso.",
+        "En lugar de refutar todas las formas fallidas de intentar entender la teoría cuántica, vamos a tomarnos en serio lo que dicen sus ecuaciones.",
+        "Lo que nos vemos obligados a pensar sobre la teoría cuántica, a la vista de los experimentos, es que absolutamente todo lo que puede pasar, pasa.",
+        "Eso significa que no hay una incertidumbre intrínseca en el universo, porque todo lo que puede pasar va a pasar de verdad.",
+        "No es que unas cosas vayan a pasar y otras no, es que pasa todo.",
+        "Tú ocupas un único universo, y en ese universo, cuando tiras el dado, sale un dos.",
+        "En otro lugar de la realidad física sale un uno, en otro sale un tres, y en otros un cuatro, un cinco y un seis."
+      ]
+    },
+    {
+      "id": "b38-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Si tiro dos dados, hay menos universos en los que suman dos que universos en los que saco un siete.",
+        "Y es que el siete puede salir con un tres y un cuatro, con un cinco y un dos, y así sucesivamente.",
+        "Así que el número de universos sí se corresponde con lo que calculamos como probabilidad."
+      ]
+    },
+    {
+      "id": "b39-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Sí, y esto lleva a lo que Deutsch llama su enfoque de la probabilidad en la teoría cuántica, basado en la teoría de la decisión.",
+        "Basarse en la teoría de la decisión significa suponer que hay una proporcionalidad en la manera en que los universos se reparten las cosas.",
+        "Así que si tiras dos dados distintos, los universos se reparten proporcionalmente en medidas, y una medida es una forma de hablar de infinitos."
+      ]
+    },
+    {
+      "id": "b40-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Hay un vídeo de YouTube en el que Deutsch explica el famoso experimento cuántico de la doble rendija, que trata de la dualidad onda partícula.",
+        "¿La luz es una partícula o una onda?",
+        "La haces pasar por una rendija y, según haya o no un observador y una interferencia, acaba formando un patrón de onda o llegando como fotones individuales.",
+        "Es un experimento famoso que ha desconcertado a la gente durante mucho tiempo y que la ha obligado a revisar su visión del mundo.",
+        "Fue lo que llevó a Einstein a decir que Dios no juega a los dados con el universo."
+      ]
+    },
+    {
+      "id": "b41-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Einstein era un realista en la época en que los fundadores de la teoría cuántica intentaban dar con una buena explicación de qué pasaba exactamente en estos experimentos cuánticos.",
+        "Einstein rechazó todas esas explicaciones porque no eran realistas, e hizo bien en rechazarlas, porque ninguna de ellas tenía ningún sentido.",
+        "A día de hoy, ninguna de las demás alternativas tiene sentido.",
+        "Ahora bien, Einstein no sabía nada del multiverso, y tuvimos que esperar a que Hugh Everett, en los años cincuenta, ideara una forma sencilla y realista de entender la teoría cuántica.",
+        "Pero si vuelvo a la idea del experimento de la doble rendija, a menudo se dice que las partículas tienen una dualidad.",
+        "Se dice que a veces son partículas y a veces son ondas.",
+        "Por ejemplo, el electrón, en ciertos experimentos, se comporta como una partícula, y en otros experimentos se comporta como una onda.",
+        "Quien oye esto piensa que, bueno, eso más o menos explica lo que está pasando.",
+        "En el efecto fotoeléctrico, iluminas unos electrones, lo que literalmente significa que disparas un fotón contra un electrón.",
+        "Un fotón es una partícula de luz, y con él puedes arrancar el electrón del átomo.",
+        "Se supone que esto es la prueba definitiva de que la luz, en forma de fotones, y la electricidad, en forma de electrones, son partículas, porque rebotan unas contra otras.",
+        "Eso es lo que hacen las partículas, y las ondas no lo hacen.",
+        "Fíjate en las olas de la playa y verás que se atraviesan unas a otras, y que no rebotan unas contra otras.",
+        "Las ondas rebotan contra las partículas, pero no rebotan unas contra otras.",
+        "Antes del experimento de la doble rendija de Young, nos basábamos en las ideas de Newton sobre la luz.",
+        "La idea de Newton era que la luz era corpuscular, como decía él, lo que significa que estaba hecha de partículas.",
+        "Entonces llegó Young e hizo pasar luz por dos rendijas recortadas en una hoja de papel.",
+        "Y cuando proyectas esa luz sobre otra hoja de papel, lo que encuentras no son solo dos haces de luz.",
+        "Encuentras lo que se llama un patrón de interferencia, en el que la luz ha interferido consigo misma.",
+        "Es parecido a lo que pasa cuando las olas atraviesan aberturas pequeñas o huecos geológicos naturales.",
+        "Las olas interfieren entre sí, forman crestas en unos sitios y valles en otros, y pueden anularse unas a otras.",
+        "Para algunos de los primeros físicos, esto era supuestamente la prueba de que la luz era, de hecho, una onda.",
+        "Ahora llegamos a la teoría cuántica y descubrimos que cosas que creíamos que sin duda eran partículas, como los electrones, interfieren entre sí cuando hacemos con ellas el mismo experimento.",
+        "Parece que tenemos partículas que se comportan como ondas y ondas que se comportan como partículas.",
+        "La solución a esto no consiste en aceptar disparates.",
+        "En las clases de teoría cuántica de la carrera se suele explicar que hay que aceptar que algo como un fotón nace como partícula, vive como onda y al morir vuelve a ser partícula, lo cual es absurdo.",
+        "Es absurdo porque el fotón no sabe si está vivo o muerto, ni sabe en qué experimento está participando."
+      ]
+    },
+    {
+      "id": "b42-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Tenemos que llegar a entender más a fondo qué pasa en este experimento de la doble rendija.",
+        "Si disparamos un fotón o un electrón contra el aparato de la doble rendija y ponemos un detector en cualquiera de las dos rendijas, detectaremos una partícula.",
+        "Podemos detectar que hemos disparado una partícula, podemos detectar que una partícula pasa por esas rendijas, y también podemos detectar una partícula en la pantalla de proyección.",
+        "Cuando haces este experimento en el laboratorio con electrones, puedes ver los puntos donde los electrones chocan contra la pantalla.",
+        "Pero no obtienes el patrón sencillo que cabría esperar.",
+        "Si disparas balas de cañón contra una pared a través de los mismos dos agujeros, esperarías que todas las balas cayeran en uno de dos puntos detrás de la pared.",
+        "Pero con las partículas a nivel cuántico, eso no es lo que pasa.",
+        "La única explicación es que, cuando disparamos un fotón, está el fotón que podemos ver en nuestro universo.",
+        "Y también hay fotones que no podemos ver, en otros universos, que atraviesan el aparato.",
+        "Esos fotones pueden interactuar con el fotón que sí podemos detectar.",
+        "Aquí es donde entra el concepto de interferencia, que es un concepto antiguo de la física y se remonta a las ondas.",
+        "Las ondas, desde luego, interfieren, pero necesitamos entender de qué manera las partículas pueden interferir unas con otras.",
+        "Eso incluye las partículas que podemos observar y las partículas cuya existencia solo podemos deducir a partir de estos experimentos.",
+        "Por eso nos vemos obligados a reconocer la existencia de estas otras partículas.",
+        "Y no solo de estas otras partículas, sino también de otros universos en los que existen esas partículas."
+      ]
+    },
+    {
+      "id": "b43-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Llegados a este punto, alguien podría protestar y preguntarme cómo me atrevo a invocar en la ciencia cosas que no se pueden ver ni observar.",
+        "Y me diría que, desde luego, eso va completamente en contra del método científico.",
+        "Y yo diría que casi todo lo interesante que sabes de la ciencia trata de lo que no se ha observado.",
+        "Pensemos en los dinosaurios, que nunca se han observado.",
+        "A lo mejor me dices que espere, que has estado en el museo y has visto un dinosaurio.",
+        "Pues no, has visto un fósil, y un fósil ni siquiera es un hueso.",
+        "Es un hueso osificado que se ha transformado en roca, así que nadie ha visto nunca un dinosaurio.",
+        "Hemos visto cosas que parecen dinosaurios y las hemos interpretado como enormes criaturas reptilianas parecidas a aves.",
+        "Cuando montamos sus esqueletos, nos inventamos una historia sobre qué era ese ser que caminaba por la Tierra hace decenas o cientos de millones de años.",
+        "Del mismo modo, nadie ha visto nunca el núcleo del Sol, y nadie lo observará jamás.",
+        "Pero conocemos la fusión estelar, y sabemos que allí los núcleos de hidrógeno chocan entre sí para formar helio y que en el proceso producen calor.",
+        "No vemos el big bang, ni vemos cómo se mueven los continentes.",
+        "Casi todo lo interesante de la ciencia es algo que no observamos."
+      ]
+    },
+    {
+      "id": "b44-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Incluso de muchas de las cosas que decimos haber visto, en realidad solo hemos visto cómo las detectan los instrumentos.",
+        "Observamos los efectos a través de instrumentos y luego teorizamos que ahí fuera hay otros universos en los que los fotones interactúan con los fotones que podemos ver."
+      ]
+    },
+    {
+      "id": "b45-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Muchos científicos y filósofos han hablado del concepto de multiverso.",
+        "Pero nosotros hablamos de una idea muy estricta y muy sobria de lo que es un multiverso.",
+        "Todos los universos de este multiverso obedecen las mismas leyes de la física.",
+        "No hablamos de universos en los que rigen otras leyes de la física.",
+        "Antes pensábamos que todo lo que hay en nuestro universo giraba a nuestro alrededor, aquí, en este planeta diminuto.",
+        "Los demás planetas, las estrellas, el Sol y la Luna, todo daba vueltas en torno a nosotros.",
+        "Luego nuestra visión de la realidad se amplió un poco.",
+        "Nos dimos cuenta de que, de hecho, no éramos el centro del universo, sino que el centro era el Sol.",
+        "También nos dimos cuenta de que el Sol y algunos de los demás planetas, como Júpiter, Saturno y los otros gigantes gaseosos, eran más grandes que el nuestro.",
+        "Así que nuestro universo se hizo más grande.",
+        "Después nos dimos cuenta de que no éramos más que un sistema estelar entre muchos, dentro de una galaxia enorme de cientos de miles de millones de estrellas.",
+        "Más tarde descubrimos que esta galaxia es una entre cientos de miles de millones de galaxias.",
+        "La historia de las ideas y de la ciencia es la historia de cómo hemos ido ampliando nuestra visión de lo grande que es exactamente la realidad física.",
+        "El multiverso es otro paso en esa tendencia general, y deberíamos esperar que continúe.",
+        "No debería costarle tanto a la gente aceptar que esta es la forma de entender las cosas.",
+        "¿Lo sabemos todo sobre la teoría cuántica y sobre cómo funciona este multiverso? No, no hemos unificado el multiverso con la relatividad general.",
+        "Todavía nos falta un espacio tiempo, o una geometría, del multiverso."
+      ]
+    },
+    {
+      "id": "b46-naval",
+      "speaker": "Naval",
+      "frases": [
+        "¿De dónde salen las buenas explicaciones?",
+        "Ahora mismo hay una obsesión con la inducción, la idea de que se puede predecir el futuro a partir del pasado.",
+        "Puedes decir que has visto uno, luego dos, luego tres, luego cuatro y luego cinco, y que por tanto lo siguiente tiene que ser seis, siete, ocho y nueve.",
+        "Se cree que así es como se crea el conocimiento nuevo, que así es como se forman las teorías científicas y que así es como podemos dar buenas explicaciones sobre el universo.",
+        "¿Qué tiene de malo la inducción, y de dónde sale realmente el conocimiento nuevo?"
+      ]
+    },
+    {
+      "id": "b47-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Antes has mencionado el cisne negro, y me gustaría volver a eso.",
+        "El cisne negro es un ejemplo que se ha usado durante años para ilustrar una idea.",
+        "La idea es que observar los mismos fenómenos una y otra vez no debería darte la seguridad de que vayan a seguir produciéndose en el futuro.",
+        "En Europa tenemos cisnes blancos, así que un biólogo interesado en las aves observaría un cisne blanco tras otro y, al parecer, concluiría que, por tanto, todos los cisnes son blancos.",
+        "Entonces alguien viaja a Australia Occidental y se fija en que allí los cisnes son idénticos a los de Europa en todo, salvo en que son negros.",
+        "Veamos otro ejemplo de inducción. Desde que naciste, has observado que el sol sale cada día.",
+        "¿Significa eso que, científicamente, deberías concluir que el sol saldrá mañana y que seguirá saliendo cada día a partir de entonces?",
+        "La ciencia no trata de eso. No consiste en catalogar una historia de sucesos que ocurrieron en el pasado y dar por hecho que van a volver a ocurrir en el futuro.",
+        "La ciencia es un marco explicativo, es un mecanismo de corrección de errores.",
+        "Nunca funciona diciendo que el sol siempre ha salido en el pasado y que, por tanto, saldrá en el futuro.",
+        "Podemos imaginar todo tipo de maneras en las que el sol podría no salir mañana.",
+        "Basta con hacer un viaje a la Antártida, donde el sol no sale en absoluto durante algunos meses del año.",
+        "Si vas a la Estación Espacial Internacional, no verás salir y ponerse el sol una vez al día.",
+        "Saldrá y se pondrá una y otra vez a lo largo de tu rapidísimo viaje alrededor de la Tierra."
+      ]
+    },
+    {
+      "id": "b48-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Hay otro ejemplo parecido, y puedes hacerlo en casa con un cazo.",
+        "Pon un vaso de precipitados con agua sobre una fuente de calor, mete un termómetro en el agua y enciende la fuente de calor.",
+        "A medida que pasa el tiempo, apunta la temperatura del agua.",
+        "Verás que la temperatura del agua aumenta, y mientras la fuente de calor sea más o menos constante, la subida de temperatura también será más o menos constante.",
+        "Al cabo de un minuto, puede que la temperatura pase de veinte a treinta grados.",
+        "Imagina que cada minuto sube otros diez grados."
+      ]
+    },
+    {
+      "id": "b49-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Pero en algún momento se va a estancar, cuando llegue al punto de ebullición."
+      ]
+    },
+    {
+      "id": "b50-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Exacto. Ahora bien, imagina que eres inductivista, o incluso que razonas de forma bayesiana, y que no sabes nada de la temperatura de ebullición ni de lo que pasa a esa temperatura.",
+        "Podrías unir todas esas líneas tan bonitas en una recta perfectamente diagonal y extrapolarla hasta el infinito.",
+        "Según tu razonamiento bayesiano y tu inducción, deberíamos suponer que, al cabo de dos horas, el agua estará a mil grados.",
+        "Pero, claro, eso es completamente falso. Una vez que el agua empieza a hervir, se queda en su temperatura de ebullición.",
+        "La temperatura se estanca en unos cien grados, y ahí se mantiene hasta que se evapora toda el agua.",
+        "No hay manera posible de saberlo sin hacer antes el experimento, o sin haber conjeturado ya, por alguna vía explicativa, lo que iba a pasar.",
+        "Ningún método que registre todos estos datos y los extrapole hacia el futuro podría haberte dado nunca la respuesta correcta.",
+        "La respuesta correcta solo puede venir de la creatividad.",
+        "Fíjate en que la ciencia no consiste en predecir dónde empieza la tendencia y hacia dónde va.",
+        "Para explicar lo que pasa con el agua, hablaríamos de las partículas y de cómo, al aumentar la temperatura, su energía cinética empieza a aumentar.",
+        "Eso significa que la velocidad de las partículas está aumentando.",
+        "Al final, las partículas en estado líquido alcanzan la velocidad de escape respecto al resto del líquido, y en ese momento el agua hierve.",
+        "Esa velocidad de escape requiere energía, lo que en términos técnicos se llama calor latente.",
+        "Por eso podemos calentar el agua sin que suba su temperatura.",
+        "Eso es la ciencia, toda esa historia complicada sobre cómo las partículas se mueven más deprisa.",
+        "No trata de tendencias ni de predicciones, sino de explicaciones.",
+        "Solo cuando tenemos la explicación podemos hacer la predicción."
+      ]
+    },
+    {
+      "id": "b51-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Si vamos aún más lejos, no se trata solo de la ciencia.",
+        "Fíjate en la innovación, en la tecnología y en construir cosas, por ejemplo, en todo lo que hicieron Thomas Edison y Nikola Tesla.",
+        "Todo eso salió del ensayo y error, que consiste en hacer conjeturas creativas y en probar cosas.",
+        "Si te fijas en cómo funciona la evolución, mediante la variación y luego la selección natural, verás que prueba muchas mutaciones aleatorias y filtra las que no han funcionado.",
+        "Parece un modelo general con el que todos los sistemas complejos se mejoran a sí mismos con el tiempo.",
+        "Hacen conjeturas audaces y luego descartan lo que no ha funcionado.",
+        "Hay una simetría preciosa que recorre toda la creación de conocimiento.",
+        "En última instancia, es un acto de creatividad, y no sabemos de dónde viene.",
+        "No es una simple extrapolación mecánica de lo que observamos.",
+        "Terminaré con el ejemplo más famoso de todos.",
+        "Hemos hablado de los cisnes negros y del agua hirviendo, pero el ejemplo divertido y fácil es el del pavo.",
+        "Tienes un pavo al que alimentan muy bien todos los días para engordarlo.",
+        "El pavo cree que vive en un hogar bondadoso, hasta que llega el día de Acción de Gracias y se lleva un buen susto.",
+        "Eso te muestra los límites de la inducción."
+      ]
+    },
+    {
+      "id": "b52-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Exacto. Ahora bien, las teorías hay que conjeturarlas, y todos nuestros grandes científicos siempre han dicho cosas parecidas.",
+        "Solo los filósofos y algunos matemáticos creen que la ciencia es esa forma inductiva de buscar tendencias, extrapolando de las observaciones pasadas hacia el futuro.",
+        "Einstein decía que no era necesariamente más listo que la mayoría de la gente, sino que le interesaban apasionadamente ciertos problemas.",
+        "Y tenía curiosidad e imaginación. Para él, la imaginación era clave. Necesitaba imaginar qué podía explicar esas cosas.",
+        "Einstein no se fijaba en los fenómenos del pasado para llegar a la relatividad general.",
+        "Intentaba explicar ciertos problemas que existían en la física, y la inducción no tuvo ningún papel en ello."
+      ]
+    },
+    {
+      "id": "b53-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Las buenas explicaciones se basan en la creatividad y, claro, son comprobables y falsables.",
+        "Además, son difíciles de variar y hacen predicciones arriesgadas y concretas.",
+        "Es una buena guía para cualquiera que intente averiguar cómo incorporar estos conceptos a su vida diaria.",
+        "Tus mejores teorías van a ser conjeturas creativas, no simples extrapolaciones."
+      ]
+    },
+    {
+      "id": "b54-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Hay una simetría profunda entre la teoría del multiverso y las integrales de caminos de Feynman, ¿no?"
+      ]
+    },
+    {
+      "id": "b55-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Tienes toda la razón, Feynman creía en las historias múltiples.",
+        "Pero sigue sin estar claro si pensaba que eran cosas físicamente reales o simples objetos matemáticos, y él apenas se pronunció sobre el tema.",
+        "Feynman era un realista y un genio absoluto, probablemente el segundo físico más grande del siglo veinte, después de Einstein.",
+        "Pero tuvo una de las peores ocurrencias, cuando dijo que si crees que entiendes la teoría cuántica, es que no la entiendes.",
+        "Eso es absurdo. David Deutsch entiende la teoría cuántica.",
+        "Fue una de las pocas ocasiones en que Feynman cayó en la irracionalidad."
+      ]
+    },
+    {
+      "id": "b56-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Creo que fue Planck quien dijo que la ciencia avanza de funeral en funeral.",
+        "Por desgracia, hasta los mejores se quedan atascados por el camino, y lo veo en mi propio campo.",
+        "Algunos de los mejores inversores de nuestra época, gente como Warren Buffett y Charlie Munger, son genios absolutos, pero las criptomonedas no les caben en la cabeza.",
+        "La idea de un dinero al margen de cualquier soberanía, nativo de internet y programable, les resulta ajena, porque para ellos el dinero siempre ha sido algo que proporciona y controla el gobierno.",
+        "Sencillamente, no pueden imaginarlo de ninguna otra manera. Es la naturaleza humana."
+      ]
+    },
+    {
+      "id": "b57-naval",
+      "speaker": "Naval",
+      "frases": [
+        "También está la teoría de la inducción de Solomonoff.",
+        "¿Le has echado un vistazo alguna vez?"
+      ]
+    },
+    {
+      "id": "b58-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "He oído hablar de ella, pero no la he investigado."
+      ]
+    },
+    {
+      "id": "b59-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Seguramente lo explique fatal, pero viene a decir lo siguiente.",
+        "Supón que quieres encontrar una teoría nueva que explique por qué ocurre algo, en este caso algo que está codificado como una cadena binaria.",
+        "Entonces la teoría correcta es una teoría ponderada por probabilidades, que tiene en cuenta todas las teorías posibles y las pondera según su complejidad.",
+        "Las teorías más simples tienen más probabilidades de ser ciertas, y las más complejas tienen menos.",
+        "Las sumas todas, y así es como das con la función de distribución de probabilidad correcta para tu explicación."
+      ]
+    },
+    {
+      "id": "b60-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Eso se parece al bayesianismo, ¿no?",
+        "En los dos casos dan por hecho que se pueden enumerar todas las teorías posibles.",
+        "Pero en la ciencia es muy raro tener más de una teoría viable.",
+        "Estaba la teoría de la gravedad de Newton, y estaba la teoría de la relatividad general.",
+        "Es una de las pocas ocasiones en que ha habido dos teorías que competían entre sí.",
+        "Que haya tres teorías compitiendo entre sí y tengas que sopesarlas es algo casi desconocido."
+      ]
+    },
+    {
+      "id": "b61-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Lo que confunde a la gente es que la inducción y el bayesianismo funcionan bien en espacios finitos y acotados que ya se conocen, pero no sirven para explicaciones nuevas.",
+        "Según el bayesianismo, recibes información nueva y la usas para ponderar las predicciones de probabilidad que ya tenías.",
+        "Cambias tu probabilidad a partir de los datos nuevos, y ahora crees que va a pasar algo distinto.",
+        "Por ejemplo, está el clásico problema de Monty Hall, que viene de un concurso de la televisión estadounidense.",
+        "Monty Hall te hace subir al escenario y hay tres puertas.",
+        "Detrás de una hay un tesoro, y detrás de las otras dos no hay nada.",
+        "Eliges una puerta, la uno, la dos o la tres.",
+        "Entonces él abre una de las otras dos puertas y te enseña que detrás no hay nada.",
+        "Y luego Hall te pregunta si ahora quieres cambiar tu elección.",
+        "La probabilidad ingenua dice que no deberías cambiar tu elección.",
+        "¿Por qué iba a importar que una de las puertas que te ha enseñado no tenga nada detrás?",
+        "La probabilidad no tendría por qué haber cambiado.",
+        "Pero el bayesianismo dice que tienes información nueva, así que deberías replantearte tu elección y cambiarte a la otra puerta.",
+        "Una forma más fácil de entenderlo es imaginar que hay cien puertas y que eliges una al azar.",
+        "Entonces él abre noventa y ocho de las noventa y nueve restantes y te enseña que detrás no hay nada.",
+        "¿Y ahora te cambias?",
+        "Pues claro que sí. La primera vez tenías una posibilidad entre cien de elegir la puerta correcta, y ahora tienes noventa y nueve entre cien.",
+        "Así que se ve mucho más claro cuando cambias así el experimento mental y al final tienes que elegir una de las dos puertas que quedan.",
+        "Hay quien descubre esto y piensa que, claro, ahora es un bayesiano listo.",
+        "Piensa que puede actualizar sus probabilidades previas a partir de información nueva, que eso es lo que hace la gente lista y que, por lo tanto, es bayesiano.",
+        "Pero eso no te ayuda en absoluto a descubrir conocimiento nuevo ni explicaciones nuevas."
+      ]
+    },
+    {
+      "id": "b62-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Ese es el uso del bayesianismo que no genera ninguna polémica, y ahí es una herramienta muy potente.",
+        "Se usa en medicina para intentar averiguar qué medicamentos pueden ser más eficaces que otros.",
+        "Hay áreas enteras de las matemáticas, como el bayesianismo, que se pueden aplicar en la ciencia sin ninguna polémica.",
+        "Se vuelve polémico cuando decimos que el bayesianismo es la forma de generar explicaciones nuevas, o la forma de comparar una explicación con otra.",
+        "De hecho, la forma de generar explicaciones nuevas es a través de la creatividad.",
+        "Y la forma de comparar una explicación con otra es la refutación experimental o una crítica directa, cuando nos damos cuenta de que una explicación es mala."
+      ]
+    },
+    {
+      "id": "b63-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "La inducción dice que la predicción es la razón principal por la que existe la ciencia, pero en realidad es la explicación.",
+        "Lo que quieres es una explicación de lo que está pasando, aunque no siempre puedas predecir con certeza lo que va a pasar después.",
+        "De hecho, saber con cierto grado de certeza lo que va a pasar después puede quitarle toda la emoción.",
+        "Lo desconocido puede ser mucho más divertido que la certeza absoluta sobre lo que nos traerá el mañana."
+      ]
+    },
+    {
+      "id": "b64-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Esto nos lleva a una idea relacionada, y es que la ciencia nunca es definitiva.",
+        "Siempre deberíamos tener libertad para aportar nuevas ideas creativas y plantear nuevas conjeturas.",
+        "Nunca sabes de dónde van a salir las mejores ideas.",
+        "Tienes que tomarte en serio cualquier idea que se plantee de buena fe.",
+        "Esa idea de que la ciencia ya está zanjada, o de que la ciencia ya está cerrada, es absurda.",
+        "Implica que todos podemos ponernos de acuerdo en el proceso por el que se nos ocurren las teorías nuevas.",
+        "Pero las teorías nuevas surgen de la creatividad y de la conjetura.",
+        "La puerta siempre está abierta para que llegue gente nueva con ideas nuevas y haga justo eso."
+      ]
+    },
+    {
+      "id": "b65-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Como dijo Popper, en nuestra infinita ignorancia, todos somos iguales.",
+        "Aunque alguien diga ser experto, y puede que con razón, hay un número infinito de cosas que no sabe y que podrían afectar a lo que sí sabe.",
+        "Un estudiante que no es experto en nada puede aun así tener una idea capaz de poner en duda los cimientos de lo que sabe el mayor de los expertos.",
+        "Igual que un niño, el experto ignora un montón de cosas y podría estar equivocado.",
+        "Alguien que no tenga ese conocimiento tan especializado puede aun así señalar esos errores y proponer una idea mejor."
+      ]
+    },
+    {
+      "id": "b66-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Muchas de las teorías sobre por qué estamos a punto de crear una inteligencia artificial general se basan en una extrapolación ingenua de la potencia de cálculo.",
+        "Es casi una inducción a partir de una potencia de cálculo cada vez mayor.",
+        "Dicen que a la inteligencia artificial ya se le da bien la visión y que ya gana a los humanos al ajedrez y a los videojuegos, así que pronto empezará a pensar.",
+        "Otra variante de lo mismo es la idea de que los humanos nos estamos comiendo todos los recursos de la Tierra, así que tener más humanos en la Tierra es mala idea.",
+        "Pero si crees que el conocimiento llega a través de la creatividad, cualquier niño que nazca mañana podría ser el próximo Einstein o el próximo Feynman.",
+        "Podría descubrir algo que cambie el mundo para siempre, con una creatividad cuyos resultados y efectos no son lineales."
+      ]
+    },
+    {
+      "id": "b67-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Ahora mismo nos preocupan mucho la contaminación y la desaparición de ciertas especies, y para algunas personas son preocupaciones legítimas.",
+        "Pero eso nunca debería ir en detrimento de la visión a largo plazo de que podemos resolver todos esos problemas, y muchos más.",
+        "Podríamos hacerlo si progresáramos a un ritmo más rápido usando los recursos que tenemos a nuestra disposición."
+      ]
+    },
+    {
+      "id": "b68-naval",
+      "speaker": "Naval",
+      "frases": [
+        "¿Por qué parece que en el mundo siempre hay más pesimistas que optimistas, sobre todo cuando seguimos viviendo con valores que en su mayoría son de la Ilustración y con una innovación tan tremenda?",
+        "Probablemente haya varias razones. Es más fácil ser pesimista que optimista.",
+        "Es difícil adivinar cómo va a mejorar la vida, y es más fácil extrapolar cómo va a empeorar.",
+        "También se podría argumentar que el riesgo de ruina es tan grande, porque de la ruina no se vuelve, que estamos programados para ser pesimistas.",
+        "Si eres optimista y aciertas, solo ganas un poco.",
+        "Pero si eres optimista, te equivocas y te come un tigre, lo pierdes todo."
+      ]
+    },
+    {
+      "id": "b69-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Si eres académico, ser capaz de explicar todos los problemas que hay ahí fuera, lo peligrosos que son y por qué necesitas financiación para estudiarlos más a fondo parece la postura intelectualmente seria.",
+        "En cambio, quien dice que podemos resolverlos suena un poco a buenismo.",
+        "De hecho, la colaboración, la cooperación y la explotación de los recursos son lo que impulsará esta economía del conocimiento para que podamos resolver estos problemas.",
+        "Siempre parece intelectualmente más serio plantarte con el ceño fruncido delante del público de una charla TED y enumerar todas las formas en que vamos a morir.",
+        "Y contar todas las formas en que va a fallar la Tierra y en que vamos a acabar en la ruina."
+      ]
+    },
+    {
+      "id": "b70-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Confieso que grabé uno de esos podcasts catastrofistas sobre gente capaz de hacer saltar la Tierra por los aires.",
+        "Es el podcast del que más me he arrepentido.",
+        "Tuvimos una conversación estupenda, pero en el fondo no estoy de acuerdo con la conclusión de que deberíamos frenar porque el mundo se va a acabar.",
+        "La única salida que tenemos es el progreso.",
+        "No he promocionado ese podcast tanto como otros, y cuando leí a Deutsch entendí por qué.",
+        "El pesimismo es una trampa en la que es fácil caer, pero implica que los humanos no somos creativos.",
+        "El pesimismo no reconoce todas las formas en que hemos salido de trampas anteriores a base de innovar.",
+        "Los emprendedores son optimistas por naturaleza, porque se les recompensa por ser optimistas.",
+        "Como decías tú, a los intelectuales se les recompensa por ser pesimistas, así que hay un sesgo de incentivos.",
+        "Si eres pesimista, la retroalimentación te llega de otras personas, porque es un acto social.",
+        "Estás convenciendo a otras personas de tu pesimismo.",
+        "Pero a los emprendedores la retroalimentación les llega de la naturaleza y de los mercados libres, que para mí son mecanismos de retroalimentación mucho más realistas.",
+        "Hasta ahora, la mayoría de las predicciones pesimistas han resultado ser falsas.",
+        "Si miras los plazos en los que supuestamente se iba a acabar el mundo o iban a llegar las catástrofes medioambientales, verás que han fallado bastante."
+      ]
+    },
+    {
+      "id": "b71-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Las profesiones en las que la retroalimentación te la dan otros miembros de esa misma profesión tienden a corromperse.",
+        "Fíjate en un periodista que escribe artículos para impresionar a otros periodistas, o en el dueño de un restaurante que intenta impresionar a otros gastrónomos y restauradores.",
+        "Lo que hacen no suele ser práctico ni de gran calidad.",
+        "El periodista o el restaurador pueden recibir elogios dentro de ciertos círculos de élite, pero eso no refleja la realidad.",
+        "Un científico o un experimentador recibe la retroalimentación de la madre naturaleza.",
+        "Y un emprendedor la recibe de un mercado libre en el que la gente vota con su dinero y con su tiempo, y esas son señales mucho más fiables.",
+        "La gente a la que pagan por trabajar en el mundo real tiende a ser optimista.",
+        "La gente que trabaja en torres de marfil tiene incentivos para ser pesimista."
+      ]
+    },
+    {
+      "id": "b72-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Para ser emprendedor, tienes que ser optimista y confiar en que estás creando algo que otras personas van a valorar.",
+        "Quienes tienen una filosofía pesimista suelen tener también una psicología pesimista.",
+        "Si estás pensando constantemente en todas las formas en que el mundo se va a ir a pique, eso influye día a día en tu manera de verlo todo.",
+        "Afecta a cómo ves al resto de la sociedad, a tu familia y a tus amigos, porque crees que este mundo está condenado.",
+        "Vas a sentir ese peso sobre los hombros, y eso se va a notar en cómo te presentas ante el resto del mundo.",
+        "Esto se ve mucho en las redes sociales, aunque los emprendedores suelen estar demasiado ocupados para pasar mucho tiempo en ellas.",
+        "Pero ahí sí encuentras a científicos, académicos y periodistas que viven deprimidos porque tienen una visión pesimista de la realidad.",
+        "Y eso afecta a su experiencia subjetiva del mundo.",
+        "En cambio, la gente que crea está intentando traer al mundo algo nuevo."
+      ]
+    },
+    {
+      "id": "b73-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Por desgracia, el pesimismo se cumple a sí mismo.",
+        "Aquí partimos de la postura de que todos los males se deben a la falta de conocimiento.",
+        "El optimismo racional es la salida, y lo respaldan tanto los datos como la historia.",
+        "Gracias a la creatividad, siempre podemos dar con buenas explicaciones que mejoren nuestra vida y la de todos los demás, así que mantente optimista."
+      ]
+    }
+  ]
+}
