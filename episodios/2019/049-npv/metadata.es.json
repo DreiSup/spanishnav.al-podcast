@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 49,
+  "anio": 2019,
+  "slug": "npv",
+  "titulo_es": "Valor presente neto: lo que valen hoy los ingresos futuros",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Valor presente neto: lo que valen hoy los ingresos futuros",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). Recorte del 052-rich. Bloque 1: el b265. Bloque 2: frases 1 a 3 del b266. Bloque 3: frases 4 a 10 del b266. Todo palabra por palabra del 052 aprobado, comprobado por script por el revisor. La sigla NPV entre paréntesis del inglés no se dice, como en el 052. Las citas en estilo directo, la pregunta del valor presente neto y lo que dice el fundador, van con verbo introductorio y dos puntos, sin comillas, como en el aprobado. En el inglés del 052 esas comillas no se cerraban; en este f0 sí. Títulos: titulo, titulo_seccion y titulos_seccion son los aprobados del 052. Cifras en letra heredadas: mil millones de dólares, una décima parte del uno por ciento, un millón de dólares, diez millones, el uno por ciento, diez mil dólares. Frase más larga: la tercera del bloque 2, con 44 palabras, por debajo de 45. No hay nombres propios problemáticos. Fuera de rango: el bloque 1, de Nivi, tiene una cobertura de 0,71 porque el inglés cuenta la sigla NPV, que no se locuta. Es compresión natural y no se fuerza. Reutilización de clips: el bloque 1 coincide con el b265 del 052. Los bloques 2 y 3 parten el b266 y necesitan clips propios. Revisión: no se ha cambiado ningún texto."
+}

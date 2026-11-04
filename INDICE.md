@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**31** episodios · **0** publicados · **0** sin empezar
+**32** episodios · **0** publicados · **0** sin empezar
 
 ## 2020
 
@@ -42,5 +42,6 @@
 | 46 | [046-relationships](episodios/2019/046-relationships) | Las relaciones que componen te hacen la vida más fácil | 🟠 en revisión | — | — |
 | 47 | [047-price-discrimination](episodios/2019/047-price-discrimination) | Discriminación de precios: cobrar más a algunos | 🟠 en revisión | — | — |
 | 48 | [048-surplus](episodios/2019/048-surplus) | Excedente del consumidor: recibir más de lo que pagaste | 🟠 en revisión | — | — |
+| 49 | [049-npv](episodios/2019/049-npv) | Valor presente neto: lo que valen hoy los ingresos futuros | 🟠 en revisión | — | — |
 | 51 | [051-angel-1](episodios/2019/051-angel-1) | Cómo invertir como ángel, parte uno | 🟠 en revisión | — | — |
 | 52 | [052-rich](episodios/2019/052-rich) | Cómo hacerse rico | 🟠 en revisión | — | — |

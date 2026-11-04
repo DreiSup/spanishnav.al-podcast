@@ -50,3 +50,4 @@ abiertas («…talk about sex.» sin «”»). Afecta solo al inglés, que no se
 | 2026-11-04 | 046 Compounding Relationships Make Life Easier | revision | 5 | 25 | 434 | 2,6 | Cero avisos. Workflow de especialistas (4-nov); 6 decisiones aplicadas, ver notas |
 | 2026-11-04 | 047 Price Discrimination: Charge Some People More | revision | 3 | 13 | 219 | 1,3 | Cero avisos. Workflow de especialistas (4-nov); 3 decisiones aplicadas, ver notas |
 | 2026-11-04 | 048 Consumer Surplus: Getting More Than You Paid For | revision | 1 | 12 | 171 | 1,0 | Cero avisos. Workflow de especialistas (4-nov); 1 decisiones aplicadas, ver notas |
+| 2026-11-04 | 049 Net Present Value: What Future Income Is Worth Today | revision | 3 | 11 | 212 | 1,2 | Cero avisos. Workflow de especialistas (4-nov); 4 decisiones aplicadas, ver notas |

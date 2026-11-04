@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 49,
+  "anio": 2019,
+  "slug": "npv",
+  "titulo": "Net Present Value: What Future Income Is Worth Today",
+  "subtitulo": "See what future income is worth today by applying a discount to its future value",
+  "fecha_publicacion": "2019-07-29",
+  "fuente_url": "https://nav.al/npv",
+  "orden_archivo": 53,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}
