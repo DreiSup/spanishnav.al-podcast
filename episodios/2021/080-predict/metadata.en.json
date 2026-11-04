@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 80,
+  "anio": 2021,
+  "slug": "predict",
+  "titulo": "It’s Impossible to Predict the Growth of Knowledge",
+  "subtitulo": "The laws of physics can’t predict the future",
+  "fecha_publicacion": "2021-03-19",
+  "fuente_url": "https://nav.al/predict",
+  "orden_archivo": 84,
+  "en_feed": true,
+  "participantes": [
+    "Brett",
+    "Naval"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}

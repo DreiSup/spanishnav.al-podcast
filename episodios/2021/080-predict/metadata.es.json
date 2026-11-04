@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 80,
+  "anio": 2021,
+  "slug": "predict",
+  "titulo_es": "Es imposible predecir el crecimiento del conocimiento",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Es imposible predecir el crecimiento del conocimiento",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). Sin notas del editor. Artefacto del copiado en el bloque 2: «doomsayers, Cassandras), and modern Malthusians» trae un paréntesis suelto, resto de un enlace de nav.al. Se traduce por el sentido, «sus agoreros, sus casandras y sus maltusianos modernos» (brief T1). La cita de Hawking va en estilo indirecto y partida en tres frases, cada una con verbo y sentido propio (brief T9). «A hundred billion galaxies» se traduce cien mil millones de galaxias (brief T4). No hay traducción española asentada de la cita de Hawking: la versión es nuestra. La cita de los agoreros, «On this trajectory, we’re all going to die», va en estilo indirecto. «Hub» se traduce centro neurálgico. El único aviso del validador es «hablante no habitual Brett», que es informativo. Nombres que hay que escuchar en el TTS: Stephen Hawking. Ningún bloque fuera de rango: ratio total 1,10."
+}

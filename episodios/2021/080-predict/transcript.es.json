@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2021/080-predict",
+  "numero": 80,
+  "fecha": "2021-03-19",
+  "titulo": "Es imposible predecir el crecimiento del conocimiento",
+  "subtitulo": "Las leyes de la física no pueden predecir el futuro",
+  "fuente_url": "https://nav.al/predict",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-brett",
+      "speaker": "Brett",
+      "frases": [
+        "En una frase célebre, Stephen Hawking dijo que la raza humana no es más que escoria química en un planeta de tamaño mediano.",
+        "Según él, ese planeta gira alrededor de una estrella muy corriente, en las afueras de una galaxia de entre cien mil millones.",
+        "Dijo que somos tan insignificantes que no podía creer que todo el universo existiera para nuestro beneficio.",
+        "Esta visión de lo que son las personas y de lo que es el planeta Tierra es cierta en un sentido trivial.",
+        "Pero pasa por alto que las personas somos una especie de centro neurálgico.",
+        "Somos, hasta donde sabemos, el único lugar del universo que está creando conocimiento, un caudal de conocimiento sin final que podría transformar el resto de la realidad.",
+        "La gravedad es capaz de dar a una galaxia una forma determinada.",
+        "Del mismo modo, en el futuro el conocimiento podrá dar forma al rumbo del planeta, del sistema solar y, con el tiempo, de la galaxia.",
+        "Tendremos un impacto profundo en todo lo que vemos a nuestro alrededor.",
+        "No hay nada que las leyes de la física, las de la química o incluso las de la biología puedan hacer para predecir lo que va a pasar en el futuro.",
+        "Es imposible predecir el crecimiento futuro del conocimiento.",
+        "Esa es la naturaleza del conocimiento, porque crear conocimiento es, de verdad, un acto de creación.",
+        "Es hacer que exista algo que antes no estaba ahí."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Si pudieras predecirlo, es que ya lo habrías inventado.",
+        "Muchas de nuestras visiones del mundo más pesimistas vienen de extrapolar en línea recta las tendencias negativas, sin tener en cuenta las positivas.",
+        "Las tendencias positivas surgen sobre todo de la creatividad y de la creación de conocimiento, y eso es impredecible por naturaleza.",
+        "Cada generación tiene sus agoreros, sus casandras y sus maltusianos modernos, que dicen que, si seguimos por este camino, vamos a morir todos.",
+        "Son muy populares por la misma razón por la que lo son las películas de zombis y las de vampiros.",
+        "Pero la realidad es que no pueden predecir lo que vamos a hacer en el futuro para mejorar nuestra calidad de vida y salvarnos de una ruina inevitable."
+      ]
+    }
+  ]
+}

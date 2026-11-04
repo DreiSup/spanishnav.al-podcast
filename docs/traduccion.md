@@ -64,3 +64,4 @@ abiertas («…talk about sex.» sin «”»). Afecta solo al inglés, que no se
 | 2026-11-04 | 077 Happiness | revision | 49 | 309 | 4867 | 28,6 | Cero avisos. Workflow de especialistas (4-nov); 1 decisiones aplicadas, ver notas |
 | 2026-11-04 | 078 We’re at the Beginning of an Infinity of Knowledge | revision | 3 | 24 | 358 | 2,1 | Cero avisos. Workflow de especialistas (4-nov); 2 decisiones aplicadas, ver notas |
 | 2026-11-04 | 079 People Are a Force of Nature | revision | 1 | 22 | 381 | 2,2 | Cero avisos. Workflow de especialistas (4-nov) |
+| 2026-11-04 | 080 It’s Impossible to Predict the Growth of Knowledge | revision | 2 | 19 | 362 | 2,1 | Cero avisos. Workflow de especialistas (4-nov); 2 decisiones aplicadas, ver notas |
