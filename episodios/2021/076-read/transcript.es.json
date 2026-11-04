@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2021/076-read",
+  "numero": 76,
+  "fecha": "2021-03-10",
+  "titulo": "Lee los cien mejores libros una y otra vez",
+  "subtitulo": "Muchos dicen que lo han leído, pero muy pocos lo entienden",
+  "fuente_url": "https://nav.al/read",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "El comienzo del infinito es el libro que más me recuerda a Gödel, Escher, Bach, porque abarca muchísimo y une ideas de disciplinas muy distintas.",
+        "Es muy difícil de entender y de seguir del todo.",
+        "Todo el mundo dice que lo ha leído, pero, por lo que veo, muy poca gente lo entiende.",
+        "Me pasó algo así en la universidad, cuando descubrí la obra de Hofstadter.",
+        "Recuerdo que lo puse en la estantería y empecé a leerlo, y empecé a leerlo, y empecé a leerlo.",
+        "Al cabo de un año, iría más o menos por la mitad.",
+        "Luego simplemente me quedé sin tiempo, porque tenía otras cosas entre manos.",
+        "Recuerdo que me acercaba a otros amigos de la universidad y les decía que era un libro buenísimo y que tenían que leerlo.",
+        "Una semana después volvían y me decían que sí, que ya habían leído Gödel, Escher, Bach, y que era genial.",
+        "Y yo me sentía el más tonto de toda la universidad.",
+        "Solo años después me di cuenta de que nadie lo había leído.",
+        "Cuando te haces mayor, te atreves más con esas confesiones.",
+        "O dices que no lo leíste, o que lo leíste a un ritmo constante y que, cada vez que encontrabas algo que no entendías, seguías adelante.",
+        "Confieso que, a día de hoy, todavía no he leído entero Gödel, Escher, Bach.",
+        "Pero al menos, a estas alturas, lo he recorrido y he encontrado las partes que más me interesaban, que eran las de Gödel, y esas sí las he leído y he intentado entenderlas.",
+        "Me salté las partes que no me interesaban tanto, que eran las de Bach.",
+        "Con El comienzo del infinito pasa algo parecido.",
+        "Todo el mundo en mi círculo social lo tiene en la estantería.",
+        "Muchos dicen que lo han leído, pero muy pocos lo han entendido de verdad.",
+        "Vuelvo a una idea que expresó por primera vez, con mucha elocuencia, un usuario de Twitter que se hace llamar ilacertus.",
+        "Escribió, más o menos, que no quería leer todos los libros, que solo quería leer los cien mejores una y otra vez.",
+        "Ahora mismo estoy metido en un bucle en el que, al menos en ciencia, solo voy a leer El comienzo del infinito y La estructura de la realidad.",
+        "Voy a leerlos una y otra vez hasta entenderlos del todo.",
+        "Si los hubiera leído hace veinte años, sabría muchísimo más, porque habría elegido los libros y los autores adecuados para leer después.",
+        "Es un libro difícil de seguir, así que deberías comprarlo en tapa dura y en versión electrónica, para tenerlo todo."
+      ]
+    },
+    {
+      "id": "b02-brett",
+      "speaker": "Brett",
+      "frases": [
+        "Y la versión en audio."
+      ]
+    },
+    {
+      "id": "b03-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Hazte con él en todos los formatos que puedas.",
+        "Si eres capaz de terminarlo a la primera y entender a fondo todas sus ideas, pues enhorabuena.",
+        "Pero si no lo consigues, esperamos poder desmenuzártelo nosotros."
+      ]
+    }
+  ]
+}

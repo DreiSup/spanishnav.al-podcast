@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 76,
+  "anio": 2021,
+  "slug": "read",
+  "titulo": "Read the Best 100 Books Over and Over Again",
+  "subtitulo": "Many claim to read, but very few understand",
+  "fecha_publicacion": "2021-03-10",
+  "fuente_url": "https://nav.al/read",
+  "orden_archivo": 80,
+  "en_feed": true,
+  "participantes": [
+    "Brett",
+    "Naval"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}

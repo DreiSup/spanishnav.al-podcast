@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**41** episodios · **0** publicados · **0** sin empezar
+**42** episodios · **0** publicados · **0** sin empezar
 
 ## 2021
 
@@ -12,6 +12,7 @@
 | 73 | [073-think](episodios/2021/073-think) | Este libro cambió mi forma de pensar | 🟠 en revisión | — | — |
 | 74 | [074-nullius](episodios/2021/074-nullius) | Nullius in verba | 🟠 en revisión | — | — |
 | 75 | [075-reach](episodios/2021/075-reach) | Explicaciones que alcanzan a todo el universo | 🟠 en revisión | — | — |
+| 76 | [076-read](episodios/2021/076-read) | Lee los cien mejores libros una y otra vez | 🟠 en revisión | — | — |
 
 ## 2020
 

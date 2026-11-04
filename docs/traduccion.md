@@ -60,3 +60,4 @@ abiertas («…talk about sex.» sin «”»). Afecta solo al inglés, que no se
 | 2026-11-04 | 073 This Book Changed the Way I Think | revision | 1 | 17 | 344 | 2,0 | Cero avisos. Workflow de especialistas (4-nov) |
 | 2026-11-04 | 074 Nullius in Verba | revision | 2 | 22 | 358 | 2,1 | Cero avisos. Workflow de especialistas (4-nov); 1 decisiones aplicadas, ver notas |
 | 2026-11-04 | 075 Explanations That Reach the Entire Universe | revision | 3 | 16 | 301 | 1,8 | Cero avisos. Workflow de especialistas (4-nov); 1 decisiones aplicadas, ver notas |
+| 2026-11-04 | 076 Read the Best 100 Books Over and Over Again | revision | 3 | 29 | 470 | 2,8 | Cero avisos. Workflow de especialistas (4-nov); 2 decisiones aplicadas, ver notas |

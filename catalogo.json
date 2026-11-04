@@ -82,7 +82,7 @@
     {"orden": 77, "titulo": "This Book Changed the Way I Think", "fecha": "2021-03-03", "url": "https://nav.al/think", "tiene_transcript": true},
     {"orden": 78, "titulo": "Nullius in Verba", "fecha": "2021-03-05", "url": "https://nav.al/nullius", "tiene_transcript": true},
     {"orden": 79, "titulo": "Explanations That Reach the Entire Universe", "fecha": "2021-03-08", "url": "https://nav.al/reach", "tiene_transcript": true},
-    {"orden": 80, "titulo": "Read the Best 100 Books Over and Over Again", "fecha": "2021-03-10", "url": "https://nav.al/read", "tiene_transcript": null},
+    {"orden": 80, "titulo": "Read the Best 100 Books Over and Over Again", "fecha": "2021-03-10", "url": "https://nav.al/read", "tiene_transcript": true},
     {"orden": 81, "titulo": "Happiness", "fecha": "2021-03-12", "url": "https://nav.al/happiness", "tiene_transcript": true},
     {"orden": 82, "titulo": "We're at the Beginning of an Infinity of Knowledge", "fecha": "2021-03-15", "url": "https://nav.al/knowledge", "tiene_transcript": null},
     {"orden": 83, "titulo": "People Are a Force of Nature", "fecha": "2021-03-17", "url": "https://nav.al/people", "tiene_transcript": null},
