@@ -2,13 +2,14 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**99** episodios · **0** publicados · **0** sin empezar
+**100** episodios · **0** publicados · **0** sin empezar
 
 ## 2023
 
 | # | Episodio | Título en español | Estado | Drive | YouTube |
 |---|---|---|---|---|---|
 | 133 | [133-david-deutsch](episodios/2023/133-david-deutsch) | David Deutsch: la creación de conocimiento y la especie humana, primera parte | 🟠 en revisión | — | — |
+| 134 | [134-david-deutsch-2](episodios/2023/134-david-deutsch-2) | David Deutsch: la creación de conocimiento y la especie humana, segunda parte | 🟠 en revisión | — | — |
 
 ## 2022
 

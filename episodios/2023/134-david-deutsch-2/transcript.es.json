@@ -1,0 +1,550 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2023/134-david-deutsch-2",
+  "numero": 134,
+  "fecha": "2023-08-11",
+  "titulo": "David Deutsch: la creación de conocimiento y la especie humana, segunda parte",
+  "subtitulo": "",
+  "fuente_url": "https://nav.al/david-deutsch-2",
+  "titulos_seccion": [
+    "La influencia de Popper",
+    "Conjeturas creativas",
+    "Experimentos, demostraciones y mediciones",
+    "Tomarse en serio las teorías",
+    "Nuevos paradigmas",
+    "Los fundamentos de la ciencia",
+    "La Ilustración",
+    "La desinformación"
+  ],
+  "contenido": [
+    {
+      "id": "b01-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Hay otra cosa que va contra la intuición, y es uno de los errores de concepto que veo surgir en el mundo académico, en los círculos intelectuales y en la educación.",
+        "La gente cree que existe una teoría definitiva.",
+        "Creen que lo que intentamos conseguir es un cubo lleno de teorías que serán la verdad al final de algún periodo de descubrimientos.",
+        "Y que podremos ir por ahí con ese cubo, diciendo que aquí están todas las verdades y que ya no nos queda trabajo por hacer.",
+        "Al parecer, vamos a sentarnos a no hacer nada, salvo dejar que la inteligencia artificial se encargue de todos los trabajos más pesados.",
+        "Estaremos tumbados en hamacas tomando cócteles, o algo por el estilo.",
+        "Hasta donde yo sé, hoy eres la única persona que explica que toda esta visión está completamente equivocada.",
+        "Me refiero a la visión de cómo se construye el conocimiento y de cuál es nuestro propósito en la ciencia y en todo lo demás.",
+        "No es solo que esté un poco equivocada, es que está infinitamente equivocada.",
+        "Porque nunca llegará el momento en que estemos tumbados en hamacas tomando cócteles, intelectualmente hablando.",
+        "¿Puedes contarnos un poco más sobre esto, ya que es una idea que viene de Popper?"
+      ]
+    },
+    {
+      "id": "b02-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Desde luego. En cierto sentido, la filosofía de Popper es en realidad muy amplia, porque es muy profunda.",
+        "Popper solo tuvo una idea, y es que todo empieza con problemas y que no hay ningún camino privilegiado para resolverlos.",
+        "Si lo miras de la forma adecuada, eso te lleva al falibilismo y al antiautoritarismo, a la conjetura y la crítica, y a todo lo demás.",
+        "Luego aplicó esa idea a muchísimas cosas distintas y escribió decenas de libros.",
+        "La gente los compró, y todos los filósofos han oído hablar de él.",
+        "Pero ahí tengo que poner el límite, porque hasta ahí llegó su éxito.",
+        "En realidad nadie lo entendió, ni siquiera muchos de sus partidarios, y la gente solía quedarse con una parte.",
+        "Aunque, cuando alguien es muy creativo y tiene mucho éxito en un campo concreto, suele ser popperiano en ese campo.",
+        "Y normalmente insiste en que se trata de una propiedad especial de ese campo."
+      ]
+    },
+    {
+      "id": "b03-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Tienen que serlo, porque si quieres avanzar, la única forma posible de hacerlo es encontrar el problema, plantear posibles soluciones y después criticar esas soluciones.",
+        "Así que, si estás avanzando, eres necesariamente popperiano, aunque no lo sepas."
+      ]
+    },
+    {
+      "id": "b04-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Por poner un ejemplo de justo lo que estás diciendo, entrevisté a Matt Ridley, que fue uno de mis héroes cuando era joven.",
+        "Leí todos sus libros de divulgación científica, y recuerdo su libro Genoma y su libro El optimista racional.",
+        "Su libro más reciente trata sobre la innovación, y todo gira en torno al ensayo y error.",
+        "También se puede llamar variación y selección o, como dices tú en la ciencia, conjetura y crítica.",
+        "Todo eso no es más que el mismo método, y todo son conjeturas creativas.",
+        "Cuando lo asimilas del todo, cambia tu visión del mundo.",
+        "Simplemente ves que todo consiste en hacer conjeturas de forma creativa.",
+        "No estamos copiando nada, y no lo estamos sacando del entorno.",
+        "No es algo que veamos con claridad en la naturaleza y que luego, al asimilarlo cada vez más como bayesianos o inductivistas, nos permita de algún modo llegar a la verdad.",
+        "Al contrario, todo es una conjetura cargada de teoría.",
+        "Lo curioso es que le estoy enseñando esto a mi hijo de seis años, porque quiero que tenga una base sólida.",
+        "Y ahora entiende de forma intuitiva que sí, que todo es una conjetura.",
+        "Así que, cada vez que llegamos a algo y me pregunta por qué, le digo que empecemos a hacer unas cuantas conjeturas.",
+        "Cuando asimilas esta visión del mundo, la ves con claridad por todas partes.",
+        "Por ejemplo, en mi campo, el de la tecnología y la innovación, la gente piensa que está siendo creativa, y lo que hace es conjeturar.",
+        "Los artistas creen que están siendo creativos, y lo que hacen es conjeturar."
+      ]
+    },
+    {
+      "id": "b05-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Por cierto, acabas de mencionar una base sólida de epistemología para tu hijo de seis años.",
+        "Pero ni siquiera la epistemología popperiana tiene como papel ser una base sólida.",
+        "También necesita mejoras, y siempre está formulada de forma imperfecta.",
+        "Creo que Popper no se centró lo suficiente en el concepto de explicación, en que el propósito de la ciencia es la explicación.",
+        "Así que una de las notas al pie que he añadido a la epistemología popperiana es que no es solo que las buenas explicaciones sean buenas como heurística y nos ayuden a descubrir cosas.",
+        "Es más bien que todo esto trata justamente de descubrirlas.",
+        "Cuando hablas, por ejemplo, de que algo sea comprobable, eso solo importa porque en un campo concreto, que es la física, es la forma de poner a prueba las explicaciones."
+      ]
+    },
+    {
+      "id": "b06-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Me gustaría hacer una distinción entre experimentos, demostraciones y mediciones.",
+        "Cuando haces este experimento con el ácido y la base, como no hay ninguna teoría rival, lo que estás haciendo es una demostración.",
+        "Si se lo enseñas a unos escolares, puedes decirles que no se van a creer lo que pasa al echar esto en aquello, y que no lo adivinarían ni en un millón de años.",
+        "Entonces lo echas, cambia de color, y ellos te dicen que ya han visto cosas así antes.",
+        "Pero luego vuelve al color de antes, y otra vez al nuevo, y otra vez al de antes, y entonces les preguntas cómo puede ocurrir algo así.",
+        "Les dices que eso contradice todo lo que les han enseñado de química hasta ahora, y les preguntas cómo podemos averiguarlo.",
+        "Les cuentas que algunos decían que funcionaba de una manera, y que luego llegó otro y dijo que funcionaba de otra.",
+        "Y les preguntas cómo podemos distinguir entre esas dos explicaciones.",
+        "Y eso es un experimento, porque pone a prueba dos explicaciones distintas, una contra otra, en un caso en que sin el experimento no puedes saber cuál es la buena explicación.",
+        "Y luego está la medición, como la diferencia entre lo que hizo Newton y lo que hizo Cavendish.",
+        "Newton desarrolló la teoría de la gravitación, pero nunca midió la constante de Newton.",
+        "Creo, aunque no pondría la mano en el fuego, que Newton podía medir ge por eme, donde eme es la masa de la Tierra, pero no podía medir ge y eme por separado.",
+        "Y por eso, cuando estimaban la masa del Sol y demás, siempre era como un múltiplo de la masa de la Tierra.",
+        "Luego llegó Cavendish con un experimento práctico, en el que había una fuerza gravitatoria entre dos objetos cuya masa se podía medir directamente.",
+        "Esa masa se medía pesándolos por comparación con un kilogramo patrón, o con lo que tuvieran en aquella época.",
+        "Y así demostró que se puede medir la constante.",
+        "Ahora bien, eso no es un experimento, aunque se le llame el experimento de Cavendish.",
+        "En la terminología que intento establecer, no es un experimento, porque solo hay una explicación en juego.",
+        "Antes, durante y después de sus experimentos, Cavendish nunca dudó de la teoría de la gravedad de Newton.",
+        "Lo que intentaba hacer era medir la constante de Newton.",
+        "Podría haber llegado alguien a decir que quizá la constante de Newton cambia de una parte de la Tierra a otra.",
+        "Pero nadie lo dijo, y si alguien lo hubiera dicho, la medición de Cavendish se habría convertido en un experimento.",
+        "Sin embargo, no había ninguna buena explicación en ese sentido, porque la teoría de Newton tenía un éxito increíble, en parte por ser tan universal.",
+        "Así que, por la situación del problema en aquel momento, lo que faltaba era una medición.",
+        "Hoy, muchos experimentos a los que llamamos experimentos son en realidad mediciones, y muchos otros son en realidad demostraciones.",
+        "Lo cual no quiere decir que las mediciones y las demostraciones no sean estupendas."
+      ]
+    },
+    {
+      "id": "b07-naval",
+      "speaker": "Naval",
+      "frases": [
+        "A ver si lo he entendido, dices que un experimento elige entre explicaciones rivales o entre teorías rivales.",
+        "Una demostración solo muestra que si hago esto, obtengo aquello, que así es como parece funcionar el mundo y que es algo observable.",
+        "Y la medición puede ayudar a refinar una teoría y a hacerla más precisa, al averiguar cosas sobre ella que no sabíamos.",
+        "Son tres cosas distintas, y usamos la palabra experimento a la ligera.",
+        "Pero un experimento de verdad es algo clave que se hace de vez en cuando para elegir entre dos explicaciones que compiten, y eso ocurre muy pocas veces.",
+        "Es muy raro tener dos buenas explicaciones rivales.",
+        "Volviendo un momento a las buenas explicaciones, he visto mencionar otras dos cosas.",
+        "Hay algunas otras técnicas que te veo usar mucho en los dos libros cuando hablas de buenas y malas explicaciones.",
+        "Una es que las buenas explicaciones hacen esas predicciones arriesgadas.",
+        "Por ejemplo, Einstein predijo que la luz se curvaría alrededor del Sol, que la luz de las estrellas se curvaría al pasar junto al Sol.",
+        "Son predicciones arriesgadas y concretas, de esas que antes no habrías previsto.",
+        "También has hablado de la respuesta más sencilla, o de la inducción de Solomonoff.",
+        "Según eso, el solipsismo es una mala explicación, porque sigues teniendo entidades complejas y autónomas, pero ahora has añadido esa entidad de más en tu mente."
+      ]
+    },
+    {
+      "id": "b08-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Yo no menciono la inducción de Solomonoff, pero en el libro sí menciono la explicación más sencilla.",
+        "Esa no es la forma correcta de verlo, porque solo puedes detectar, medir o definir la sencillez una vez que tienes, digamos, una teoría de la física.",
+        "Entonces puedes decir que la sencillez es el menor número de bits con el que se podría codificar un programa dado.",
+        "Pero si los bits se comportaran de otra manera, cosas que antes eran complejas se volverían sencillas.",
+        "Y eso es exactamente lo que pasó con la computación cuántica.",
+        "Así que no hay ninguna escala de complejidad o de sencillez que sea anterior a la física.",
+        "En principio, puedes definir la complejidad o la sencillez.",
+        "Pero no tiene sentido preguntar lo compleja que es, por ejemplo, una teoría de la física, porque eso es plantearlo al revés.",
+        "La sencillez no es anterior a la ciencia, es posterior."
+      ]
+    },
+    {
+      "id": "b09-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Este es otro tema que recorre toda tu obra.",
+        "La computación se tiene que hacer en el mundo real y tiene que obedecer las leyes de la física cuántica.",
+        "Hablas de que las matemáticas tienen que estar sujetas a las leyes de la física.",
+        "Así que incluso el argumento reduccionista, el que dice que no, que todas las buenas teorías son básicas, solo depende de las leyes de la física y del contexto desde el que lo abordes."
+      ]
+    },
+    {
+      "id": "b10-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Exacto. Y lo que acabas de decir refuta la inducción de Solomonoff, porque se basa en una medida concreta, que es la longitud de los programas de una máquina de Turing.",
+        "Pero él no era consciente de que estaba presuponiendo una teoría de la física compleja y estructurada.",
+        "Y luego decía que deberíamos elegir la teoría de la física que sea más sencilla en esos mismos términos.",
+        "Supongo que, en algún momento después de la teoría cuántica, llegará un nuevo marco que nos dará una concepción distinta de la complejidad y de la sencillez.",
+        "Pero ya como cuestión de lógica, no tiene sentido considerar que la sencillez y la complejidad sean fundamentales a priori, en comparación con la física."
+      ]
+    },
+    {
+      "id": "b11-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Hay algo que mencionas a menudo, y que yo casi llamaría una refutación a lo Deutsch, porque te lo veo usar más que a casi cualquier otro autor.",
+        "Se trata de que la teoría se refuta a sí misma.",
+        "Por ejemplo, hablas del principio de precaución, y como la civilización nunca lo ha seguido, si empezamos a seguirlo ahora, ya no estamos siendo precavidos.",
+        "Así que se refuta a sí mismo, y ese es solo un ejemplo, pero usas muchos de este tipo.",
+        "Es decir, muchas de esas teorías llevan escondida su propia refutación."
+      ]
+    },
+    {
+      "id": "b12-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Pero hay otra forma de expresarlo, en lugar de verlo como un método de refutación.",
+        "Consiste en pensar que esto es simplemente lo que significa tomarse en serio las teorías, en vez de tratarlas como fórmulas que uno aprende a recitar.",
+        "Es como los profesores de física, que cuando les preguntan algo importante sobre la teoría cuántica, han aprendido a contestar que, bueno, es una partícula y una onda a la vez.",
+        "Y si el alumno pregunta qué significa eso, puede que el profesor le diga que ya se acostumbrará, que acabará entendiéndolo.",
+        "Pero lo que suelen decir, por desgracia, es que esa no es la pregunta que hay que hacer, que no es una pregunta con sentido y que no está permitido hacerla.",
+        "Sin embargo, la pregunta no nace de un malentendido sobre la teoría cuántica, es justo al revés.",
+        "Es tomarse en serio la teoría cuántica y decir que quieres entenderla.",
+        "Y decir que es a la vez una partícula y una onda no responde a esa pregunta, es una forma de acallarla."
+      ]
+    },
+    {
+      "id": "b13-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "A mí lo que me solían decir es que nace como partícula, vive como onda y muere como partícula.",
+        "Porque los experimentos que capturan esa entidad en movimiento solo llegan a capturar la partícula, nunca otra cosa.",
+        "Pero luego la interferencia se explica porque es una onda.",
+        "Era una forma retorcida de intentar esquivar la dualidad onda partícula, diciendo que, técnicamente, no es las dos cosas a la vez.",
+        "Pero no había ninguna explicación de cómo pasaba de ser partícula a ser onda, ni de cómo sabía que tenía que cambiar entre ser una partícula y ser una onda."
+      ]
+    },
+    {
+      "id": "b14-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Sí, y por supuesto también puede volver atrás.",
+        "Si haces un experimento de interferencia más complejo, es una partícula, luego una onda y luego otra vez una partícula.",
+        "Si te fijas en algunos de los experimentos de Vaidman, cuesta muchísimo entenderlos si no partes de la interpretación de Everett.",
+        "Porque dependen por completo de tomarse en serio esta entidad cuántica, que no se puede describir ni como partícula ni como onda."
+      ]
+    },
+    {
+      "id": "b15-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "¿En qué sentido nos acercamos más a la realidad con las buenas explicaciones, si lo que decimos de ellas es que de verdad describen la realidad?",
+        "Mi ejemplo clásico, al que siempre recurro, es el de Newton, que explicaba la gravedad como una fuerza que actúa al instante sobre los cuerpos.",
+        "Y luego esa explicación queda superada por la relatividad general de Einstein, en la que no existe ninguna fuerza así.",
+        "Es decir, estamos diciendo que algo que formaba parte de una buena explicación ya no existe en absoluto."
+      ]
+    },
+    {
+      "id": "b16-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Hay dos respuestas a esa pregunta, una que está en el libro y otra que no.",
+        "En el libro digo que hay muchos conceptos, leyes y explicaciones que comparten la teoría de la gravedad de Newton y la de Einstein.",
+        "Por ejemplo, las dos teorías adoptan la cosmología heliocéntrica, y dicen que el movimiento de la Tierra y de los demás planetas bajo la gravedad lo causa el Sol.",
+        "Si se nota una influencia, es porque el Sol está ahí.",
+        "Ahora bien, esa influencia no es una fuerza, es una curvatura del espacio tiempo, pero esa curvatura del espacio tiempo la causa la masa del Sol.",
+        "Pero hay otro sentido en el que, por ejemplo, la teoría de Newton y la de Einstein están más relacionadas de lo que podrías pensar.",
+        "La teoría de Newton contiene los problemas para los que la teoría de Einstein es la solución.",
+        "Newton dijo que la gravedad viaja de forma instantánea, y ese era un problema que la gente ya había visto antes de Einstein.",
+        "Querían explicar qué significa siquiera que algo viaje al instante.",
+        "Y luego había otro problema, porque si el universo dura para siempre, como pensaba Newton, había que explicar por qué a la larga no colapsa entero.",
+        "No sé si Newton conocía lo que se llama la paradoja de Olbers, pero según la teoría de Newton, si el universo es infinito o muy grande, el cielo debería ser blanco.",
+        "De nuevo, ese es un problema al que la teoría de Newton no puede responder de verdad.",
+        "Hay que hacer suposiciones muy forzadas, hechas a medida, para que eso encaje en la teoría de Newton como cosmología.",
+        "Y la teoría de Einstein simplemente resuelve ese problema, que estaba en la teoría de Newton.",
+        "Y la teoría de Newton resuelve el problema que había en la teoría de Kepler, que era tan grave que Galileo la rechazó.",
+        "Galileo no quería creerse la teoría de Kepler, porque no explicaba por qué las órbitas eran elipses.",
+        "Si hubieran sido círculos, había una explicación que habría encajado en la filosofía de la época, según la cual el círculo es la forma perfecta.",
+        "Si no era un círculo, había que explicar por qué no lo era.",
+        "Kepler se limitaba a decir que bastaba con mirar, que era una elipse.",
+        "Eso a Galileo no le bastaba, así que tuvo que retorcer la teoría para que predijera círculos.",
+        "Pero entonces llegó Newton y dijo que era la ley de la inversa del cuadrado, y que esa ley puede producir círculos, pero también elipses.",
+        "Y ese es un nivel de explicación más profundo incluso que decir que los círculos son formas perfectas.",
+        "Así que están relacionadas por las suposiciones que comparten y por los problemas que tienen o que resuelven."
+      ]
+    },
+    {
+      "id": "b17-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Pero lo que acabas de decir saca a relucir la tensión entre Karl Popper y Thomas Kuhn.",
+        "Kuhn carga un poco las tintas con la idea de que en la historia de la ciencia hay grandes revoluciones que derriban por completo el paradigma anterior.",
+        "Según esa idea, cualquiera que trabaje dentro del paradigma vigente es literalmente incapaz de concebir cómo funciona el nuevo paradigma.",
+        "Kuhn tiene mucho más apoyo que Popper en la comunidad intelectual, desde luego en las humanidades, e incluso, hasta cierto punto, en las ciencias.",
+        "Y, por supuesto, desde entonces han llevado a Kuhn al extremo todas esas cosas que se hacen llamar ciencia, como la ciencia de género o cualquier materia a la que se añade la palabra ciencia.",
+        "Kuhn dijo cosas correctas, pero, como acabas de decir, no es que nos deshagamos por completo del paradigma anterior.",
+        "Y quienes crean el nuevo paradigma suelen haber entendido el anterior y haber resuelto problemas que venían de él."
+      ]
+    },
+    {
+      "id": "b18-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Está esa imagen del joven iconoclasta al que rechazan los viejos inmovilistas.",
+        "Luego el joven iconoclasta reúne a unos cuantos amigos y, cuando los viejos inmovilistas se mueren, los jóvenes iconoclastas pasan a ser ellos los viejos inmovilistas.",
+        "El caso es que es pura ficción, y no conozco ninguna situación real en la que haya pasado eso.",
+        "Lo que sí pasa es que la gente a menudo se aferra de forma irracional a sus propias ideas, sean nuevas o viejas.",
+        "La gente puede ser terca, y a veces los tercos que defienden una teoría sin más razón que la sensación de que es correcta resultan tener razón.",
+        "No hay ningún algoritmo que determine quién tiene razón según quién sea más terco.",
+        "A veces el más terco es el que de verdad tiene razón, como Lister y Semmelweis.",
+        "Se mantuvieron en sus trece y los rechazaron, pero incluso entonces no fue una cuestión generacional.",
+        "Lo que había en marcha era un proceso mucho más complejo.",
+        "Los médicos no solo rechazaron una teoría, rechazaron tener que cambiar su forma de trabajar, porque eso rebajaba la dignidad que la gente veía en ellos.",
+        "Pero esa dignidad que la gente ve en los médicos cumple una función.",
+        "Sobre todo cuando no se sabía mucho de medicina, si le decías a alguien que había que quitarle las amígdalas, necesitabas un poco de autoridad, por irracional que sea.",
+        "Y es que era una operación muy desagradable, difícil y dolorosa.",
+        "En aquella época el mundo era mucho más irracional, y cuando la ciencia mejoró, la gente se volvió más abierta a los argumentos.",
+        "Pero la historia generacional, como digo en La estructura de la realidad, no explica por qué la gente pasa de una teoría a otra.",
+        "Es como si simplemente se inventaran una moda nueva, como cuando Christian Dior decía que había que subir el bajo de la falda y todas las mujeres del mundo se lo subían.",
+        "Por lo visto, eso pasaba antes, pero no es la descripción de lo que pasa en la ciencia.",
+        "Hay una razón por la que la gente adopta una teoría.",
+        "Aunque sea falsa, hay una razón por la que la adopta.",
+        "Si no le resulta satisfactoria, no la adopta.",
+        "Y a veces la gente es irracional, así son las cosas, pero esa no es la imagen de la ciencia."
+      ]
+    },
+    {
+      "id": "b19-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Creo que esto es bastante evidente si te fijas en la tecnología.",
+        "Puede que hayamos pasado de los intentos analógicos de computación a las válvulas de vacío, y de ahí a los transistores.",
+        "Y el salto de las válvulas de vacío a los transistores es menor que el de la computación analógica a las válvulas de vacío.",
+        "Está claro que por el camino hay progreso.",
+        "Ahora bien, ya no usamos ordenadores de válvulas de vacío, se han quedado obsoletos, pero eso no significa que fueran un error.",
+        "Fueron un paso necesario, estaban más cerca de la verdad y de ellos se podía aprender mucho.",
+        "Cuando te lo encuentras en la vida real, se vuelve mucho más tangible y es más difícil de refutar.",
+        "Me parece que cuanta más retroalimentación recibes de otras personas, más probable es que te desvíes.",
+        "En cambio, cuanta más retroalimentación recibes de la realidad y de la naturaleza, más cerca estás de la verdad.",
+        "Y en la ciencia, por desgracia, mucho de eso se mezcla con la filosofía y con el mundo académico, donde en realidad no se interactúa tanto con el mundo real.",
+        "No debería pasar en la física, pero existe ese bucle de retroalimentación social en el que hablas con otras personas.",
+        "No siempre estás construyendo cosas, y los cohetes no tienen por qué volar, por así decirlo."
+      ]
+    },
+    {
+      "id": "b20-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Pero el crecimiento del conocimiento también es posible en la filosofía, incluso en la moral y en la epistemología, incluso cuando no tienes la realidad física.",
+        "Es eso que hace unos minutos he llamado tomarse en serio la teoría.",
+        "La refutación del solipsismo no es más que tomarse en serio el solipsismo.",
+        "En vez de decir que quizá todo sea un sueño mío, sigues adelante a partir de ahí y te dices, de acuerdo, supongamos que esto es un sueño mío.",
+        "¿Qué podemos decir de mi sueño?",
+        "Entonces estoy soñando el autobús, y estoy soñando a toda la gente que va en él.",
+        "Ahora aparece una persona que lleva un traje amarillo.",
+        "¿Me lo he inventado yo?",
+        "Nunca había pensado en algo así, y ahora lo estoy viendo.",
+        "Así que, si soy solipsista, tengo que tener una explicación de cómo han podido surgir las cosas de mi sueño.",
+        "Y en realidad por eso el solipsismo se destruye a sí mismo.",
+        "Y en la filosofía, y también en la física, la mayoría de las ideas se destruyen a sí mismas.",
+        "Como dijiste hace un rato, es raro tener un caso en el que de verdad se pueda decidir entre dos explicaciones mediante un experimento."
+      ]
+    },
+    {
+      "id": "b21-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "¿Va a haber, en lo que se refiere al progreso y a la comprensión, alguna teoría que no seamos capaces de entender?",
+        "Creo que ahora mismo la opinión predominante es que tiene que haber algo ahí fuera que esté más allá de nuestra comprensión."
+      ]
+    },
+    {
+      "id": "b22-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "¿Cómo sabemos que no hay un límite?",
+        "¿Cómo sabemos que no habrá nuevo conocimiento matemático por descubrir?",
+        "No podemos saberlo. Podría aniquilarnos un planeta llegado de otra galaxia que cruzara la nuestra a la mitad de la velocidad de la luz, y moriríamos todos al instante.",
+        "No hay ninguna teoría conocida que diga que eso no va a pasar.",
+        "Del mismo modo, podría pasar algo así en el universo de las ideas.",
+        "Podría haber un muro en alguna parte, más allá del cual no podamos avanzar.",
+        "Pero en ambos casos, invocar eso como argumento sobre lo que podemos o debemos hacer es lógicamente equivalente a creer en lo sobrenatural.",
+        "¿Por qué acabo de decir un planeta que se mueve a la mitad de la velocidad de la luz?",
+        "¿Por qué no he dicho un asteroide que se mueve al noventa y nueve por ciento de la velocidad de la luz?",
+        "¿Por qué no he dicho una enfermedad que funciona según principios que no conocemos y que acabará con nosotros en unos días?",
+        "Hay una infinidad de cosas que podría haber dicho, y todas hacen una predicción sofisticada sin tener una explicación que la respalde.",
+        "Es exactamente lo mismo cuando la gente dice que el mundo se va a acabar tal o cual martes.",
+        "Yo querría preguntarles por qué el martes, por qué no el miércoles.",
+        "Y me dirán que es porque el martes sale de su interpretación de la Biblia.",
+        "Y yo les preguntaría por qué hay que creer su interpretación de la Biblia y no la de ese otro que dice que es el miércoles.",
+        "Y casi de inmediato se quedan sin respuesta, porque no tienen una explicación para su predicción.",
+        "Pasa lo mismo con la idea de que la universalidad explicativa se va a agotar por un motivo u otro.",
+        "Da igual que el motivo sea una aniquilación física, un apocalipsis de la inteligencia artificial general o que todos seamos simulaciones en un ordenador, y cosas así."
+      ]
+    },
+    {
+      "id": "b23-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Pero la gente tiene el impulso de proponer cosas como el solipsismo, la hipótesis de la simulación o lo que sea, como si fueran la teoría definitiva.",
+        "Lo interesante de tu trabajo es que trabajas en los fundamentos.",
+        "Vas tan a fondo como puedes, pero al mismo tiempo estás en contra del fundacionalismo.",
+        "¿Cómo resuelves esa cuadratura del círculo cuando se lo explicas a la gente?",
+        "¿Cómo puedes decir que estás estudiando los fundamentos, pero que, por otro lado, estás en contra de los fundamentos?"
+      ]
+    },
+    {
+      "id": "b24-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Es algo parecido a la relación entre la física y la ingeniería de estructuras.",
+        "Los fundamentos son teorías que explican por qué las teorías de nivel superior son como son.",
+        "Pero con la teoría de Newton no puedes construir un puente.",
+        "Para construir un puente, necesitas teorías sobre cómo se construyen los puentes.",
+        "Christopher Wren fue un arquitecto de éxito, y una de las razones es que empezó a usar en serio las teorías de Newton para diseñar edificios.",
+        "Así, a la hora de decidir cuál debía ser la distancia entre los pilares, no tenía que depender del ojo de un maestro de obras.",
+        "Ese ojo intuye qué aspecto debe tener la obra y qué se va a derrumbar y qué no, pero Wren podía calcularlo de verdad con la mecánica newtoniana.",
+        "Eso significa que la mecánica newtoniana servía, en primer lugar, para entender qué hace que los edificios se mantengan en pie.",
+        "Y también servía para criticar diseños concretos por no ser tan buenos como otros diseños.",
+        "Después podías usar la medición, la demostración y todo lo demás para rellenar los huecos.",
+        "Pero si solo te dieran la teoría de Newton, no se te ocurriría un puente colgante.",
+        "En los Principia de Newton no aparece en ningún sitio el dibujo de un puente colgante. Eso se inventó más tarde.",
+        "Así que la ingeniería es una materia aparte, y las leyes de Newton no se estudian principalmente para construir mejores puentes.",
+        "Pero lo que hizo la teoría de Newton fue unificar nuestra comprensión.",
+        "Nos dio un nuevo nivel de comprensión e influyó en otras ciencias.",
+        "La gente intentó crear teorías como las de Newton en otros campos del conocimiento, y algunas funcionaron y otras no."
+      ]
+    },
+    {
+      "id": "b25-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Ahora dime una cosa. Newton era inglés, Christopher Wren era inglés y Alan Turing era inglés.",
+        "¿Qué tiene de especial Inglaterra?",
+        "No deberíamos considerar que una cultura es superior a otra.",
+        "Sin embargo, parece que allí, en Gran Bretaña, tenemos los comienzos de un tipo especial de ilustración, que lleva a una revolución industrial encabezada por Gran Bretaña.",
+        "¿Qué está pasando?",
+        "¿Por qué sale tanto de Inglaterra y, quizá, del mundo anglosajón en general?"
+      ]
+    },
+    {
+      "id": "b26-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Está la Ilustración, que se produjo sobre todo en Inglaterra.",
+        "También hubo individuos aislados en Francia y en Alemania que participaron en ella, pero en Inglaterra se convirtió en la corriente dominante mucho más deprisa.",
+        "Fue una rebelión contra la autoridad, pero fue una rebelión no utópica.",
+        "Así que no decían que había que librarse de la autoridad y sustituirla por lo que es realmente cierto, lo realmente fiable, lo que nunca habría que volver a derribar.",
+        "Se trataba más bien de decir, mira, aquí hay un problema.",
+        "Algunas personas tienen privilegios, pero Dios nos dice que todas las personas son iguales.",
+        "¿Qué podemos hacer para resolver este problema?",
+        "También hubo un cambio social y un cambio económico bastante rápidos.",
+        "Pero todo ello consistió en extender a cada vez más clases de personas unos privilegios que antes solo tenía la clase dirigente.",
+        "Estaba el Parlamento, al que solo tenía acceso un grupo determinado de personas.",
+        "Luego se abrió a más y más personas, y así sucesivamente.",
+        "Había una expresión que decía que la casa de un inglés es su castillo.",
+        "Ahora bien, no soy historiador, pero imagino que la casa de un aristócrata era su castillo.",
+        "Su castillo era su casa y su casa era su castillo, y nadie tenía derecho legítimo a inmiscuirse en sus dominios.",
+        "Así que, cuando más tarde se hicieron reformas que decían que la casa de un inglés es su castillo, eso fue una modificación del conocimiento que ya existía sobre cómo estructurar la sociedad.",
+        "Ahora había personas que tenían casa y que no eran aristócratas.",
+        "Había un conjunto de privilegios ya hecho que se podía ir extendiendo hasta que, al final, uno tras otro, se extendieron a todo el mundo.",
+        "En cambio, en Francia o en Alemania fue distinto.",
+        "Sus reformas giraban siempre en torno a abolir cosas, como abolir al tirano.",
+        "Todavía hoy hay tradiciones de utopismo, en las que la idea es crear instituciones que duren para siempre.",
+        "Esas instituciones tienen que basarse en teorías fundamentales, como los derechos humanos, que se ponen por escrito de una vez por todas, y luego se procura que sea difícil cambiarlas.",
+        "Y se crean instituciones que van a proteger esos derechos para siempre.",
+        "Pero Gran Bretaña se ha mantenido fiel a su plan durante siglos, y eso ha producido cambios rápidos sin revoluciones repentinas y sin ningún extremismo.",
+        "En los años treinta, las teorías totalitarias estaban muy extendidas por toda Europa.",
+        "Los partidos totalitarios o bien se hicieron con el poder o bien eran una gran amenaza para los partidos democráticos.",
+        "En cambio, en Gran Bretaña hubo un movimiento fascista, pero nunca consiguió ni un solo diputado y desapareció por sí solo poco después.",
+        "Eso es porque en la cultura política británica se daba por hecho que el sistema político está para resolver problemas.",
+        "Uno se dirige al gobierno para pedir que se reparen sus agravios, no para que unos pongan a otros contra el paredón y los fusilen.",
+        "La teoría era que los agravios existen, que se pueden reparar y que hacerlo no es fácil.",
+        "La forma de hacerlo es que las teorías rivales se enfrenten entre sí.",
+        "Tienes que poder decir cuál crees que es el problema, y los demás dicen cuál creen ellos que es el problema, y así sucesivamente.",
+        "En ningún momento se da por hecho que alguien tenga la respuesta definitiva."
+      ]
+    },
+    {
+      "id": "b27-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Por eso es tan preocupante el furor actual contra la desinformación, y hay quien incluso invoca a Popper para justificarlo.",
+        "Circula una viñeta política que pone en boca de Popper que no toleramos a los intolerantes, así que hay que hacerlos callar porque difunden desinformación.",
+        "Y no hay nada más contrario a Popper, cuya idea es que tiene que haber debate y teorías rivales que se enfrenten.",
+        "Tiene que haber un sistema para quitar a los malos gobernantes y revertir las malas decisiones.",
+        "En ese sentido, el sistema de dos partidos tiene lógica, porque puedes usar a uno para pedirle cuentas al otro.",
+        "El otro bando tacha de desinformación toda verdad que acaba triunfando, porque contradice lo que ya se tiene por verdadero.",
+        "Así que eliminar la desinformación a priori es imposible, porque el conocimiento a priori es imposible.",
+        "Hay que conjeturarlo de forma creativa y descubrirlo.",
+        "Hay una idea preciosa en La estructura de la realidad, y cuando intento explicársela a mis amigos, a mi manera torpe, se quedan alucinados.",
+        "Esa idea combina los cuatro hilos de La estructura de la realidad.",
+        "Tú hablas de epistemología, de computación, de física cuántica y de evolución.",
+        "Si tuviera que resumir la idea, diría más o menos que el conocimiento es algo que provoca su propia replicación en el entorno.",
+        "Si yo averiguo cómo hacer fuego, otras personas de mi entorno lo copiarán porque es útil.",
+        "Si hay un gen bien adaptado al entorno, la secuencia de ese gen que lleva a una mayor capacidad de supervivencia se copia.",
+        "En cambio, si hay ADN aleatorio o ADN basura, eso no se va a copiar.",
+        "Si te fijas en cómo se van diferenciando los universos del multiverso, lo aleatorio, la parte que no es útil, será distinto en cada universo.",
+        "Es decir, la información que no es conocimiento cambiará de un universo a otro.",
+        "En cambio, el conocimiento que es útil será común a todo el multiverso.",
+        "Hablo de los genes que llevan a una mayor adaptación, de las ideas que llevan a una mayor supervivencia y de los inventos que estamos creando y que de verdad funcionan.",
+        "Y hablo de las filosofías que tenemos y que hacen que los seres humanos prosperemos y nos repliquemos.",
+        "Así que sería casi como si hubiera un cristal de conocimiento.",
+        "No creo que esto sea factible, pero si de algún modo pudieras asomarte al multiverso como si fuera un único objeto, la verdad sería emergente.",
+        "O estaríamos más cerca de la verdad al ver lo que es común en todo el multiverso, y lo que varía de un universo a otro no sería verdad.",
+        "Hasta donde yo sé, esta idea es única y tremendamente interesante.",
+        "¿Pero se podrá sacar de ella algo práctico algún día?"
+      ]
+    },
+    {
+      "id": "b28-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Hay una razón fundamental por la que, aunque pudiéramos mirar dentro del multiverso, no nos ayudaría tanto.",
+        "Y es que no hay límite para el tamaño del error que podemos cometer.",
+        "Por tanto, cuando miras a tu alrededor en un multiverso y ves todos esos cristales, sí, en general hay algunos muy grandes y muy gordos.",
+        "Y puedes suponer que este en concreto se dirige hacia la verdad.",
+        "Pero no puedes saber hacia dónde, porque no sabes hacia dónde va a ir este cristal.",
+        "Y luego habrá otra cosa enorme, una religión o algo así que lleva miles de años creciendo.",
+        "Y no hay forma de examinarla con una lupa y comprobar que se diferencia en algo de una que va hacia la verdad.",
+        "Podríamos esperar que la mayoría de los grandes vayan hacia la verdad, según alguna definición de mayoría.",
+        "En un solo universo ya puedes intuirlo, porque puedes decir qué idea es la más persuasiva.",
+        "De acuerdo, pero es que muchas ideas malas son persuasivas.",
+        "¿Qué idea es la más persuasiva para la gente que la adopta porque cree que resuelve su problema?",
+        "De acuerdo, pero también hay muchas ideas así que son falsas.",
+        "Así que me temo que no va a funcionar.",
+        "Si hubiera un límite para el tamaño del error, sabrías que, una vez que has cometido un error de cierto tamaño, tu siguiente idea tiene que ser verdadera por fuerza.",
+        "La regla sería algo así como que nadie puede cometer más de doscientos cincuenta y seis errores seguidos, y no hay nada parecido que sea cierto."
+      ]
+    },
+    {
+      "id": "b29-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Sin atajos."
+      ]
+    },
+    {
+      "id": "b30-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Exacto, no hay ningún atajo."
+      ]
+    },
+    {
+      "id": "b31-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Parece que la naturaleza del conocimiento es crear no linealidades.",
+        "Así que incluso una sola idea falsa puede crear un conocimiento falso que se imponga a una verdad durante bastante tiempo y en una gran parte del espacio."
+      ]
+    },
+    {
+      "id": "b32-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Sí."
+      ]
+    },
+    {
+      "id": "b33-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Así que siempre es creativo, siempre es conjetural y siempre es contextual.",
+        "Eso nos deja por delante un infinito de mejoras, lo que hace que la vida siga siendo interesante."
+      ]
+    }
+  ]
+}

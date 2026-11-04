@@ -117,3 +117,4 @@ abiertas («…talk about sex.» sin «”»). Afecta solo al inglés, que no se
 | 2026-11-04 | 131 Vitalik: Ethereum, Part 1 | revision | 82 | 503 | 9334 | 54,9 | Cero avisos. Workflow de especialistas (4-nov); 20 decisiones aplicadas, ver notas |
 | 2026-11-04 | 132 Vitalik: Ethereum, Part 2 | revision | 59 | 313 | 5332 | 31,4 | Cero avisos. Workflow de especialistas (4-nov); 17 decisiones aplicadas, ver notas |
 | 2026-11-04 | 133 David Deutsch: Knowledge Creation and The Human Race, Part 1 | revision | 49 | 414 | 7736 | 45,5 | Cero avisos. Workflow de especialistas (4-nov); 16 decisiones aplicadas, ver notas |
+| 2026-11-04 | 134 David Deutsch: Knowledge Creation and The Human Race, Part 2 | revision | 33 | 330 | 6033 | 35,5 | Cero avisos. Workflow de especialistas (4-nov); 14 decisiones aplicadas, ver notas |
