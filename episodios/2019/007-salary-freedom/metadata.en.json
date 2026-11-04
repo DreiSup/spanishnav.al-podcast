@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 7,
+  "anio": 2019,
+  "slug": "salary-freedom",
+  "titulo": "Live Below Your Means for Freedom",
+  "subtitulo": "People busy upgrading their lifestyles just can't fathom this freedom",
+  "fecha_publicacion": "2019-03-11",
+  "fuente_url": "https://nav.al/salary-freedom",
+  "orden_archivo": 11,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}

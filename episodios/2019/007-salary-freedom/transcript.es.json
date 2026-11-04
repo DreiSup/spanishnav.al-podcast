@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2019/007-salary-freedom",
+  "numero": 7,
+  "fecha": "2019-03-11",
+  "titulo": "Vive por debajo de tus posibilidades para ser libre",
+  "subtitulo": "Quienes no paran de mejorar su estilo de vida no pueden ni imaginar esta libertad",
+  "fuente_url": "https://nav.al/salary-freedom",
+  "titulos_seccion": [
+    "Lo más peligroso es la heroína y un sueldo mensual",
+    "Lo ideal es ganar tu dinero en bloques aislados"
+  ],
+  "contenido": [
+    {
+      "id": "b01-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "¿Hay alguna otra cosa importante que convenga evitar, aparte de alquilar tu tiempo?"
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Sí, hay dos tuits que publiqué que están relacionados.",
+        "En el primero hablaba de que tu estilo de vida no debería mejorar demasiado deprisa.",
+        "Y básicamente decía que quienes viven muy por debajo de sus posibilidades disfrutan de una libertad que quienes no paran de mejorar su estilo de vida no pueden ni imaginar.",
+        "Y creo que eso es muy importante, simplemente no mejorar tu estilo de vida todo el rato.",
+        "Para mantener tu libertad.",
+        "Y te da libertad de maniobra.",
+        "Básicamente, en cuanto ganas un poco de dinero, quieres seguir viviendo como antes, para que la preocupación desaparezca sin más.",
+        "Así que no salgas corriendo a mejorar la casa, el estilo de vida y todo eso.",
+        "Pongamos que te pagan mil dólares la hora.",
+        "El problema es que, cuando entras en ese tipo de vida laboral, no pasas de repente de ganar veinte dólares la hora a ganar mil.",
+        "Es una progresión a lo largo de una carrera larga.",
+        "Y mientras eso ocurre, un problema sutil es que mejoras tu estilo de vida a medida que ganas más y más dinero.",
+        "Y esa mejora del estilo de vida sube el listón de lo que consideras riqueza, y te quedas atrapado en la esclavitud del sueldo.",
+        "No recuerdo quién lo dijo, quizá fue Nassim Taleb.",
+        "Pero dijo que lo más peligroso es la heroína y un sueldo mensual.",
+        "Porque son muy adictivos.",
+        "La forma de hacerse rico es ser pobre y trabajar, y trabajar, y trabajar.",
+        "Y así es, por ejemplo, como funciona la industria tecnológica.",
+        "No ganas nada de dinero durante diez años, y de repente, en el año once, puede que tengas un pago gigantesco.",
+        "Que, por cierto, es una de las razones por las que esos tipos marginales de impuestos tan altos para los supuestos ricos están mal planteados.",
+        "Porque en las profesiones más arriesgadas y más creativas literalmente pierdes dinero durante una década de tu vida, mientras asumes riesgos enormes y te desangras, y te desangras, y te desangras.",
+        "Y de repente, en el año once, o en el año quince, puede que tengas un único gran pago.",
+        "Pero entonces, claro, aparece el Tío Sam y básicamente te dice que, como este año has ganado mucho dinero, eres rico.",
+        "Y que, como eres rico, eres malvado y tienes que dárselo todo.",
+        "Así que destruye ese tipo de profesiones creativas en las que se asumen riesgos.",
+        "Pero lo ideal es ganar tu dinero en bloques aislados, separados por largos periodos de tiempo, para que tu propio estilo de vida no tenga ocasión de adaptarse rápido.",
+        "Y entonces, básicamente, te dices: bueno, ya está.",
+        "Ya me he jubilado.",
+        "Ya soy libre.",
+        "Voy a seguir trabajando, porque algo tienes que hacer con tu vida, pero solo voy a trabajar en las cosas que quiera y cuando quiera.",
+        "Y así tienes mucha más expresión creativa, y todo gira mucho menos en torno al dinero."
+      ]
+    }
+  ]
+}
