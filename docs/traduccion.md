@@ -35,12 +35,12 @@ abiertas («…talk about sex.» sin «”»). Afecta solo al inglés, que no se
 | 2026-11-03 | 056 Happiness Is a Skill You Can Develop | revision | 3 | 16 | 244 | 1,4 | Cero avisos. Retoque del autor en b03 (3-nov) |
 | 2026-11-03 | 036 There Are No Get Rich Quick Schemes (arreglo) | revision | 6 | 66 | 953 | 5,6 | 3 avisos a cero: dos frases de más de 45 palabras partidas y «Resulta sospechoso.» fundida |
 | 2026-11-03 | 040 Being Ethical Is Long-Term Greedy (arreglo) | revision | 7 | 45 | 687 | 4,0 | 2 avisos a cero: «Tienes confianza.» y «Tienes reputación.» fundidas |
-| 2026-11-03 | 052 How to Get Rich (arreglo) | revision | 288 | 2883 | 42076 | 248 | 40 avisos a cero: 14 por vosotros, os, vale y chaval, 26 frases cortas fundidas. Detalle en notas y en el commit |
+| 2026-11-03 | 052 How to Get Rich (arreglo) | revision | 288 | 2883 | 42076 | 248 | 40 avisos a cero: 14 por vosotros, os, vale y chaval, 26 frases cortas fundidas. Detalle en notas y en el commit. Retoques de la revisión (4-nov) |
 | 2026-11-03 | 057 Desire Is a Contract You Make to Be Unhappy | revision | 3 | 15 | 226 | 1,3 | Cero avisos |
-| 2026-11-03 | 058 If You’re So Smart, Why Aren’t You Happy? | revision | 4 | 31 | 484 | 2,8 | Cero avisos. Título de sección confirmado por el autor; citas en estilo indirecto |
+| 2026-11-03 | 058 If You’re So Smart, Why Aren’t You Happy? | revision | 4 | 32 | 483 | 2,8 | Cero avisos. Título de sección confirmado por el autor; citas en estilo indirecto. Retoques de la revisión (4-nov) |
 | 2026-11-03 | 059 Being Unhappy Is Extremely Inefficient | revision | 3 | 20 | 346 | 2,0 | Cero avisos. Artefacto del copiado en el inglés señalado en notas |
 | 2026-11-03 | 060 Work the Least for It | revision | 2 | 17 | 302 | 1,8 | Cero avisos. S-1 resuelto en la frase |
-| 2026-11-03 | 061 The Modern Struggle Is Fighting Weaponized Addiction | revision | 2 | 14 | 270 | 1,6 | Cero avisos. Citas en estilo indirecto |
+| 2026-11-03 | 061 The Modern Struggle Is Fighting Weaponized Addiction | revision | 2 | 14 | 273 | 1,6 | Cero avisos. Citas en estilo indirecto. Retoques de la revisión (4-nov) |
 | 2026-11-03 | 062 Breaking Addiction Is Socially Unacceptable | revision | 3 | 18 | 306 | 1,8 | Cero avisos |
 | 2026-11-03 | 065 The Closer You Are to the Truth, the More Silent You Become Inside | revision | 2 | 13 | 222 | 1,3 | Cero avisos. Lao Tse y test de inteligencia resueltos en la frase; si A entonces B según el autor (4-nov) |
 | 2026-11-03 | 066 Groups Search for Consensus, Individuals Search for Truth | revision | 3 | 20 | 369 | 2,2 | Cero avisos |
