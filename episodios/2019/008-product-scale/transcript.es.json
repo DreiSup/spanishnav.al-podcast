@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2019/008-product-scale",
+  "numero": 8,
+  "fecha": "2019-03-14",
+  "titulo": "Dale a la sociedad lo que todavía no sabe cómo conseguir",
+  "subtitulo": "La sociedad te pagará por crear lo que quiere y hacérselo llegar a gran escala",
+  "fuente_url": "https://nav.al/product-scale",
+  "titulos_seccion": [
+    "Averigua qué producto puedes ofrecer y luego averigua cómo escalarlo"
+  ],
+  "contenido": [
+    {
+      "id": "b01-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "No te vas a hacer rico alquilando tu tiempo.",
+        "Pero dices que te harás rico dándole a la sociedad lo que quiere pero todavía no sabe cómo conseguir a gran escala."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Así es. En esencia, como dijimos antes, el dinero son pagarés de la sociedad que vienen a decir que hiciste algo bueno en el pasado y que esto es lo que te debemos para el futuro.",
+        "Y así, la sociedad te pagará por crear cosas que quiere.",
+        "Pero la sociedad todavía no sabe cómo crear esas cosas, porque si lo supiera, no te necesitaría.",
+        "Ya se estarían fabricando en masa.",
+        "Casi todo lo que hay en tu casa, en tu lugar de trabajo y en la calle fue tecnología en algún momento.",
+        "Hubo una época en que el petróleo era una tecnología, y eso hizo rico a Rockefeller.",
+        "Hubo una época en que los coches eran tecnología, y eso hizo rico a Henry Ford.",
+        "Así que la tecnología es simplemente, como dijo Danny Hillis, el conjunto de cosas que todavía no acaban de funcionar.",
+        "En cuanto algo funciona, deja de ser tecnología.",
+        "Así que la sociedad siempre quiere cosas nuevas.",
+        "Y si quieres ser rico, tienes que averiguar cuál de esas cosas puedes ofrecerle a la sociedad, algo que todavía no sabe cómo conseguir pero que va a querer.",
+        "Y que te salga de forma natural y esté dentro de tus habilidades y de tus capacidades.",
+        "Y luego tienes que averiguar cómo escalarlo.",
+        "Porque si solo fabricas uno, no basta.",
+        "Tienes que fabricar miles, o cientos de miles, o millones, o miles de millones.",
+        "Para que todo el mundo pueda tener uno.",
+        "Steve Jobs y su equipo, claro, se dieron cuenta de que la sociedad querría teléfonos inteligentes.",
+        "Un ordenador en el bolsillo con todas las funciones de un teléfono multiplicadas por cien, y fácil de usar.",
+        "Así que averiguaron cómo fabricarlo, y luego averiguaron cómo escalarlo.",
+        "Y averiguaron cómo meter uno en el bolsillo de cada ciudadano del primer mundo, y con el tiempo también en el de cada ciudadano del tercer mundo.",
+        "Y por eso los han recompensado generosamente, y Apple es la empresa más valiosa del mundo."
+      ]
+    },
+    {
+      "id": "b03-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Yo intenté expresarlo diciendo que el trabajo del emprendedor es intentar llevar la gama alta al mercado de masas."
+      ]
+    },
+    {
+      "id": "b04-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Empieza siendo gama alta.",
+        "Primero empieza como un acto de creatividad.",
+        "Primero lo creas simplemente porque lo quieres.",
+        "Lo quieres, sabes cómo fabricarlo y lo necesitas.",
+        "Así que lo fabricas para ti.",
+        "Luego averiguas cómo hacérselo llegar a otras personas.",
+        "Y luego, durante un tiempo, lo tienen los ricos.",
+        "Por ejemplo, los ricos tenían chóferes, y luego tenían coches negros con conductor.",
+        "Y entonces llegó Uber, y el chófer privado de cada uno está al alcance de todo el mundo.",
+        "Y ahora incluso ves viajes compartidos de Uber que están sustituyendo a los autobuses lanzadera, porque son más cómodos.",
+        "Y luego llegan los patinetes, que están todavía más abajo en el mercado.",
+        "Así que tienes razón.",
+        "Se trata de llevar a todo el mundo lo que antes solo tenían los ricos.",
+        "Pero el trabajo del emprendedor empieza incluso antes, con la creación.",
+        "Emprender es, en esencia, un acto de crear algo nuevo desde cero.",
+        "Predecir que la sociedad lo va a querer, y luego averiguar cómo escalarlo y hacérselo llegar a todo el mundo de forma rentable, de forma autosostenible."
+      ]
+    }
+  ]
+}

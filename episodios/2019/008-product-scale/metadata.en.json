@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 8,
+  "anio": 2019,
+  "slug": "product-scale",
+  "titulo": "Give Society What It Doesn’t Know How to Get",
+  "subtitulo": "Society will pay you for creating what it wants and delivering it at scale",
+  "fecha_publicacion": "2019-03-14",
+  "fuente_url": "https://nav.al/product-scale",
+  "orden_archivo": 12,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}
