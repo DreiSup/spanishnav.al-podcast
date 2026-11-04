@@ -1,0 +1,550 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2020/071-matt-ridley-2",
+  "numero": 71,
+  "fecha": "2020-07-15",
+  "titulo": "Matt Ridley, claves de la innovación, parte dos",
+  "subtitulo": "La innovación es madre de la prosperidad",
+  "fuente_url": "https://nav.al/matt-ridley-2",
+  "titulos_seccion": [
+    "Hambruna de innovación",
+    "La covid",
+    "Burbujas de filtros",
+    "Más sobre cripto",
+    "Automatización",
+    "La teoría del gran hombre",
+    "El libro"
+  ],
+  "contenido": [
+    {
+      "id": "b01-matt",
+      "speaker": "Matt",
+      "frases": [
+        "Hacia el final del libro tengo un capítulo en el que me quejo de que vivimos una hambruna de innovación, y no un festín de innovación, sobre todo fuera del mundo digital.",
+        "Una de las razones es el poder que tiene el movimiento ecologista para oponerse a tecnologías nuevas que a menudo son buenas para el medio ambiente.",
+        "Explico con detalle el caso de los organismos modificados genéticamente, con los que haces que una planta resista a los insectos y puedes desenganchar a la agricultura de los pesticidas químicos.",
+        "Está demostrado que funciona, y ya se usa en la India, en Brasil y también en Norteamérica.",
+        "Pero no en Europa ni en África, donde toda una tecnología ha quedado rechazada en la práctica por la presión de los ecologistas.",
+        "Mi buen amigo Mark Lynas fue uno de los activistas más destacados contra esta tecnología en los años noventa, y protestó mucho y escribió mucho sobre ella.",
+        "Y luego cambió de opinión y dijo, estábamos haciendo lo que no debíamos, pero ya es casi demasiado tarde.",
+        "Es muy difícil ver cómo va a cambiar ahora Europa de opinión para adoptar esta nueva tecnología.",
+        "La mejor esperanza está en la próxima tecnología que llega, que es la edición genómica con herramientas como crísper.",
+        "Con ella pueden dejarse a un lado muchas de las preocupaciones de los ecologistas, porque no es una tecnología que meta en las plantas material genético ajeno, de otras criaturas, signifique eso lo que signifique.",
+        "Así que es posible que ahí demos un salto directo a tecnologías más limpias.",
+        "La meta tiene que ser que, cuanto más innovemos, menos recursos y menos tierra necesitaremos, y más tierra podremos devolver a la naturaleza.",
+        "Y podremos hacer más prósperas a las personas, lo que las lleva a reducir su natalidad y también a plantar más árboles.",
+        "La humanidad tiene la posibilidad de un aterrizaje suave más adelante en este siglo, si innovamos muchísimo más.",
+        "Podríamos acabar siendo ocho o nueve mil millones de personas con unas vidas mucho más respetuosas con el medio natural, y que permitan a la mayoría tener vegetación a su alrededor.",
+        "La pandemia de la covid nos ha mostrado con bastante crudeza que no hemos innovado lo suficiente.",
+        "No hemos desarrollado suficientes vacunas, no hemos encontrado formas de desarrollar vacunas más deprisa y no hemos desarrollado suficientes aparatos de diagnóstico.",
+        "Cuando buscas la razón, descubres que hay un retraso de entre diecisiete y veinte meses para conseguir la licencia que permite vender un aparato de diagnóstico nuevo.",
+        "Eso basta para disuadir a la mayoría de los emprendedores de siquiera intentar entrar en ese campo.",
+        "Espero que uno de los mensajes que se lleve la gente sea que, si innovamos más, no destruiremos el planeta.",
+        "Es justo al revés, es la forma más segura de salvar el planeta.",
+        "Los países más pobres son los que más daños ambientales están sufriendo ahora mismo."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "David Deutsch habla a menudo en sus obras de una idea, y es que todo lo que no prohíben las leyes de la física es posible.",
+        "Y si es posible, podemos crearlo mediante la tecnología y la ciencia.",
+        "Como explicadores universales, los seres humanos somos capaces de entender cualquier cosa que pueda entender cualquier ser, o cualquier criatura teórica.",
+        "Lo único que tenemos que hacer es averiguar cómo reconfigurar los átomos y las partículas que existen ahí fuera para que hagan lo que queremos.",
+        "Y todo ello dentro de las leyes de la física, que son bastante generosas y bastante amplias.",
+        "En ese sentido, todos los fracasos y todos los pecados no son más que ignorancia, simple falta de conocimiento.",
+        "Si aceleráramos la acumulación y la aplicación del conocimiento a través de la innovación, podríamos resolver todos los problemas de la humanidad.",
+        "Y siempre estamos en el comienzo del infinito, como dice él, porque hay una cantidad infinita de progreso por hacer.",
+        "Queda tanto camino por recorrer que, si miras dónde estamos en cualquier punto de esa curva, ves el infinito extendiéndose delante de ti.",
+        "Eso me parece enormemente esperanzador, pero, como señalas, en estos casos podemos ser nuestro peor enemigo."
+      ]
+    },
+    {
+      "id": "b03-matt",
+      "speaker": "Matt",
+      "frases": [
+        "Una parte muy importante del optimismo racional es que no decimos que el mundo sea perfecto, todo lo contrario.",
+        "Eso es lo que significaba la palabra optimismo cuando la acuñó Voltaire, creer que el mundo era perfecto y que ya no se podía mejorar.",
+        "No es eso lo que decimos personas como David Deutsch y yo.",
+        "Decimos que hay una cantidad increíble de mejoras que ni siquiera hemos empezado a imaginar.",
+        "Como especie, estamos al principio de una temporada muy larga en cartel en Broadway, y no cerca del final.",
+        "En el siglo en el que estamos vamos a ver novedades asombrosas.",
+        "Le reprocho una cosa al movimiento ecologista, y como dices, no me refiero al conservacionista, que se ocupa de la naturaleza local, sino al planetario.",
+        "Ese ecologismo da por hecho que no vamos a poder inventar gran cosa y que, si inventamos algo, hará daño, y eso no me convence.",
+        "Apenas hemos arañado la superficie de las distintas formas de combinar y recombinar los átomos y los elementos del mundo.",
+        "Paul Romer habló de cuántos compuestos distintos se podrían fabricar con los minerales de la tabla periódica.",
+        "Es un número astronómico, y apenas hemos explorado las propiedades de la mitad de ellos.",
+        "Como tú, soy partidario de la energía de fusión, y creo que podría marcar una enorme diferencia en lo que nos queda de vida.",
+        "Hay muchísimas cosas que vamos a poder hacer en este siglo para mejorar la humanidad, y también para que el mundo sea un lugar habitable."
+      ]
+    },
+    {
+      "id": "b04-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Hay una metáfora, la de la nave espacial Tierra, a la que mucha gente se aferra por instinto porque es seductora.",
+        "La gente dice que la Tierra es una canica azul frágil y preciosa que nos da todo lo que queremos, y que si destruimos nuestro hogar no nos queda ningún otro sitio.",
+        "No podemos bajarnos de la nave espacial Tierra.",
+        "Eso trata a la Tierra como un juego de suma cero, pero si se examina de cerca, la idea se desmorona.",
+        "Incluso la Tierra es hostil a la idea de que vivan en ella siete mil millones de seres humanos.",
+        "La única forma de que siete mil millones de seres humanos vivan en la Tierra es la innovación, la tecnología y la modificación del entorno.",
+        "El reto es cómo hacerlo de forma sostenible, y después averiguar cómo hacerlo en otros planetas y terraformar Marte y la Luna para que sean habitables.",
+        "Hace falta revisar con cuidado esta metáfora de la nave espacial Tierra, que la mayoría se cree por instinto, pero que, examinada de cerca, resulta ser errónea."
+      ]
+    },
+    {
+      "id": "b05-matt",
+      "speaker": "Matt",
+      "frases": [
+        "Has mencionado que el conocimiento es potencialmente infinito, y es muy importante subrayar que el conocimiento es un fenómeno distribuido y colectivo.",
+        "Aquí recurro a un pequeño ensayo maravilloso que escribió Leonard Read en los años cincuenta, titulado Yo, el lápiz.",
+        "En él, un lápiz averigua cómo llegó a existir y descubre que millones de personas contribuyeron a fabricarlo.",
+        "Contribuyeron desde los que talan árboles para obtener la madera hasta los que extraen grafito para hacer la mina.",
+        "Lo importante es que ninguno de ellos sabe fabricar un lápiz.",
+        "Somos capaces de fabricar objetos, incluso los más sencillos, que superan lo que una sola mente humana puede comprender.",
+        "Hace falta que colaboren muchas mentes humanas para fabricarlos, y también para acumular el conocimiento de cómo inventarlos.",
+        "Llegado este punto empiezo a sonar un poco a marxista, porque me pongo a hablar de la humanidad colectiva.",
+        "Pero es una forma de rescatar la colaboración, la cooperación y la asociación de la perspectiva comunista, y devolverlas a un extremo mucho más voluntario del espectro político, por así decirlo."
+      ]
+    },
+    {
+      "id": "b06-naval",
+      "speaker": "Naval",
+      "frases": [
+        "La cooperación es la base de la especie, y fíjate, por ejemplo, en las hormigas y las abejas, que parecen criaturas de colmena pero no cooperan más allá de las fronteras genéticas.",
+        "Somos las únicas criaturas que cooperan más allá de las fronteras genéticas y que hacen planes a largo plazo unas con otras, y Yuval Noah Harari habla de esto."
+      ]
+    },
+    {
+      "id": "b07-matt",
+      "speaker": "Matt",
+      "frases": [
+        "Nosotros sabemos cooperar con los desconocidos, y ellos no saben hacerlo."
+      ]
+    },
+    {
+      "id": "b08-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Tú y yo somos muy distintos genéticamente y muy distintos culturalmente.",
+        "Si perteneciéramos a cualquier otra especie, ya fueran perros, ratones u hormigas, y nos encontráramos en la vida real siendo tan distintos, probablemente nos atacaríamos o nos pelearíamos por el mismo hábitat.",
+        "No podríamos cooperar ni conversar, y ese es un rasgo único del que deberíamos estar orgullosos.",
+        "Hace falta cooperación, y nadie por sí solo entiende ninguno de estos sistemas complejos.",
+        "Por eso me río cuando los macroeconomistas construyen sus modelos para intentar averiguar hacia dónde va a ir la economía.",
+        "La economía es demasiado grande para que la entienda una sola persona, es un sistema complejo y emergente de miles de millones de agentes.",
+        "Así que esos modelos, por definición, escogen a dedo unos cuantos supuestos endebles y acaban coincidiendo, como por milagro, con el sesgo político que los macroeconomistas tuvieran de antemano."
+      ]
+    },
+    {
+      "id": "b09-matt",
+      "speaker": "Matt",
+      "frases": [
+        "Ese es uno de los problemas que estamos viendo ahora mismo con los modelos de la pandemia.",
+        "Son un intento de entender un fenómeno de abajo arriba con un enfoque de arriba abajo.",
+        "Otra forma de decirlo es que en un día normal almuerzan en Londres unos diez millones de personas, y la mayoría elige qué comer en el último momento.",
+        "¿Cómo es posible que haya las cantidades justas de los tipos de comida adecuados, en los sitios adecuados y en el momento adecuado para que eso ocurra?",
+        "¿Quién es el comisario del almuerzo de Londres?",
+        "Él o ella tendría que ser increíblemente inteligente, y por supuesto, no hay nadie así, y si lo hubiera, sería un desastre absoluto."
+      ]
+    },
+    {
+      "id": "b10-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Entonces todos comeríamos raciones de rancho al estilo soviético, la mitad pasaríamos hambre y habría largas colas.",
+        "Por desgracia, en dos mil veinte los economistas están construyendo modelos epidemiológicos y los epidemiólogos están dirigiendo la economía, así que lo tenemos al revés.",
+        "Estamos atrapados en una mala situación en la que no estamos dispuestos a ponerle un valor a una sola vida humana.",
+        "Se ha puesto al mando a unos responsables de salud pública que no se formaron para dirigir el mundo entero ni se apuntaron a eso.",
+        "Y a esos responsables les aterra que los culpen del exceso de muertes si aflojan demasiado pronto.",
+        "Las consecuencias económicas son muy difíciles de calcular, así que nos van a tener confinados bastante tiempo.",
+        "Me intriga el modelo sueco, y no porque sea necesariamente el mejor.",
+        "El mejor habría sido aislarnos y aplastar la curva como hicieron Hong Kong y Taiwán.",
+        "Pero la mayoría de los países occidentales son grandes democracias y no tienen la capacidad ni la voluntad de hacer eso.",
+        "Así que todos vamos hacia un modelo sueco de una forma u otra, sea cual sea al final."
+      ]
+    },
+    {
+      "id": "b11-matt",
+      "speaker": "Matt",
+      "frases": [
+        "Menos mal que Suecia no se confinó, porque si no, el mundo occidental habría podido decir, bueno, es que no hay alternativa.",
+        "Sabemos que hay una alternativa, porque aunque en Suecia hubo muchísimo distanciamiento social voluntario, el país no impuso confinamientos obligatorios.",
+        "Y su economía ha sufrido muchísimo menos daño que la de países como el Reino Unido o Estados Unidos.",
+        "Suecia ha demostrado que las medidas más importantes para controlar esta pandemia son, casi con toda seguridad, las voluntarias.",
+        "Son cosas como no darse la mano, no celebrar grandes reuniones y mantener la distancia de seguridad, en vez de encerrar a todo el mundo en su casa."
+      ]
+    },
+    {
+      "id": "b12-naval",
+      "speaker": "Naval",
+      "frases": [
+        "No tiene ningún sentido que las grandes superficies estén abiertas y que a los pequeños negocios no se les permita abrir.",
+        "Obviamente, la mejor respuesta es una respuesta distribuida, de abajo arriba.",
+        "Al virus se le gana cuando cada individuo entra en pánico, no cuando entran en pánico los gobiernos.",
+        "Y es que un solo individuo en pánico puede ser más listo que el virus.",
+        "Los gobiernos no saben controlar los virus, pero sí saben controlar a los individuos, mientras que un individuo puede controlar su propia salud, su seguridad y la propagación del virus.",
+        "Así que hemos convertido un problema de educación en un problema de control del gobierno, de arriba abajo."
+      ]
+    },
+    {
+      "id": "b13-matt",
+      "speaker": "Matt",
+      "frases": [
+        "El Gobierno británico está descubriendo ahora mismo que es bastante fácil asustar a la gente y no tan fácil quitarle el miedo.",
+        "La implantación draconiana del confinamiento fue muy eficaz, y resultó que la gente estaba dispuesta a acatarlo e incluso a denunciar a sus vecinos.",
+        "Se volvieron sorprendentemente autoritarios en un tiempo sorprendentemente corto, porque les estaban contando una historia que daba muchísimo miedo.",
+        "La gente se asusta con facilidad, pero cuando llegas y dices, muy bien, se acabó el susto, ya se puede volver al trabajo, la mitad del país te contesta que no.",
+        "Te dicen, yo creía que habías dicho que daba miedo, así que todavía no vamos a salir.",
+        "Y por cierto, nos estás pagando por quedarnos en casa, así que ¿por qué iba a volver?"
+      ]
+    },
+    {
+      "id": "b14-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Eso va a cambiar, y la lectura cínica es que, hasta ahora, los que están perdiendo su empleo son los trabajadores manuales.",
+        "Todavía no les ha tocado a los trabajadores de oficina, que son los que dirigen la sociedad y controlan los medios, el gobierno, las universidades, los laboratorios de ideas y a los que hacen los modelos.",
+        "Pero cuando los trabajadores de oficina empiecen a perder su empleo, la gente dirá, un momento, hay que tener en cuenta la economía.",
+        "Como va a demostrar el experimento sueco, hay tres variables distintas que tienes que seguir a la vez en la cabeza, y eso a la mayoría de la gente le cuesta mucho.",
+        "Una es, por supuesto, la tasa de letalidad de la infección, es decir, cuánta gente acaba enfermando o muriendo.",
+        "La segunda es el impacto económico, y para eso necesitas una forma estándar de medirlo y de compararlo.",
+        "Y la tercera es qué porcentaje de la población ha desarrollado inmunidad de grupo.",
+        "Y hay que recordar que la inmunidad de grupo por contagio natural es muy distinta de la inmunidad de grupo por vacuna.",
+        "La vacuna se aplica de forma indiscriminada, mientras que cuando un virus se propaga de forma natural, infecta primero a los supercontagiadores, que se mueven más, y también a los más vulnerables.",
+        "Así que los primeros en caer fueron los que tenían más probabilidades de propagarlo o los que tenían más probabilidades de morir.",
+        "Por eso el umbral de la inmunidad de grupo natural es más bajo que el de la inmunidad de grupo por vacuna."
+      ]
+    },
+    {
+      "id": "b15-matt",
+      "speaker": "Matt",
+      "frases": [
+        "En el Reino Unido ha quedado claro, y creo que en gran medida también en Estados Unidos, que una parte enorme de las muertes se debe a contagios en hospitales y residencias de mayores.",
+        "Como al principio no se hacían suficientes pruebas, los sanitarios se infectaron bastante pronto, y eso significa que se convirtieron en portadores bastante pronto.",
+        "Y eso pasó porque los enfermos acudían a los centros sanitarios.",
+        "En consecuencia, hay una población muy vulnerable que no solo tenía una tasa de mortalidad alta, sino también una tasa de transmisión alta, porque tenía más carga viral.",
+        "En esa población, la tasa de reproducción del virus ha sido muy alta, pero eso no significa que lo sea en el resto de la comunidad.",
+        "Los ejemplos de Suecia y de otros países demuestran que, para quienes no están en ese grupo, debería ser posible frenar este virus con medidas voluntarias.",
+        "Y así se llegaría a la inmunidad de grupo con niveles de contagio bastante bajos."
+      ]
+    },
+    {
+      "id": "b16-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Vamos a acabar en ese escenario de todas formas, así que la pregunta será cuánto ganaron los que intentaron aplanar la curva durante más tiempo.",
+        "Ahora mismo estamos viendo este experimento estado por estado en Estados Unidos.",
+        "Por supuesto, la batalla se está trasladando al relato y a la interpretación de los datos que van saliendo.",
+        "Unos dicen que se están ocultando muertes, otros que se está exagerando esto, o que no se está exagerando aquello.",
+        "Cuando todo esto termine, no sé si tendremos la honestidad de mirar atrás y decir, bueno, esto es lo que pasó.",
+        "Y es que ahora, en la era de las redes sociales, cada uno está atrapado en su burbuja de filtros, en su silo.",
+        "Todos los periodistas han tomado partido, y su periodismo objetivo, en la medida en que existiera, ha saltado por los aires.",
+        "Así que puede que acabemos viviendo en dos mundos con relatos distintos incluso cuando ya sepamos lo que pasó."
+      ]
+    },
+    {
+      "id": "b17-matt",
+      "speaker": "Matt",
+      "frases": [
+        "Me alarma mucho hasta qué punto nos hemos fragmentado en estas burbujas de filtros y cámaras de eco.",
+        "En el libro planteo la hipótesis de que es una consecuencia del determinismo tecnológico.",
+        "Yo pensaba que la invención de internet traería las redes sociales, y que eso nos llevaría a todos a ver el punto de vista de los demás, pero no ha sido así.",
+        "Las redes sociales han resultado ser un medio muy divisivo, como lo fue la radio en los primeros años del siglo veinte, cuando fue una herramienta importante para el ascenso de los dictadores.",
+        "Pero la televisión no, porque fue un medio que nos arrastró a todos hacia un centro templado y sin aristas."
+      ]
+    },
+    {
+      "id": "b18-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Estoy totalmente de acuerdo, y cuando leí esa parte del libro, tuve que dejarlo un momento.",
+        "Por cierto, lo que me encanta de tu libro es que cada tres páginas tenía que dejarlo y pararme a pensar, y para mí esa es la señal de un buen libro.",
+        "Creo que cuanto más rápido puedas leer un libro, peor es el libro.",
+        "Si un libro se puede leer en diagonal, no deberías leerlo, apártalo sin más, porque no merece ser un libro.",
+        "Pero en esa parte tratas el tema muy de pasada, y me di cuenta de que ahí había una gran idea, de que ahí dentro había todo un libro.",
+        "Un autor con menos talento cogería esos dos párrafos y los convertiría en un libro, pero tú lo despachas muy brevemente.",
+        "Mi forma de verlo es que la razón está en que la televisión tenía una producción muy cuidada y unos costes de distribución altísimos.",
+        "Solo podías permitirte difundir el mensaje una o dos veces.",
+        "Sobre todo en los primeros tiempos de la televisión, no había tantos canales, así que la gente recibía noticias depuradas, siempre de las mismas fuentes.",
+        "Lo malo es que podías estar viviendo en una burbuja controlada por las élites, por el gobierno o por lo que los medios quisieran que pensaras.",
+        "Pero lo bueno es que, al menos, estábamos más o menos en sintonía, y no había esta guerra civil constante de baja intensidad dentro de la sociedad.",
+        "Cuando pasas a algo como la radio, o al extremo de las redes sociales, cualquiera puede aportar y crear contenido todo el tiempo, y por eso la división es casi inevitable.",
+        "De hecho, con la radio había un filtro, que era sintonizar la emisora, pero en las redes sociales te has construido tu propia emisora.",
+        "La burbuja de filtros en la que puedes meterte es mucho más profunda y está mucho más ajustada a cada persona que cualquier burbuja de filtros anterior."
+      ]
+    },
+    {
+      "id": "b19-matt",
+      "speaker": "Matt",
+      "frases": [
+        "Aquí resuena lo que pasó con la invención de la imprenta.",
+        "El impresor más emprendedor de todos y el autor más publicado de Europa fue Martín Lutero.",
+        "Y usa esta nueva tecnología con mucha eficacia para provocar una revolución social, que acaba convirtiéndose en una serie de guerras de religión.",
+        "Ya hemos pasado por esto, y no fue nada bonito, por así decirlo."
+      ]
+    },
+    {
+      "id": "b20-naval",
+      "speaker": "Naval",
+      "frases": [
+        "No, no lo fue, y es asombroso cuánto cambia la estructura de la sociedad según cómo se distribuyen los medios y la información.",
+        "Citas la ley de Amara, que dice que los efectos de la innovación se sobrestiman a corto plazo y se subestiman a largo plazo.",
+        "Lo he visto clarísimamente, una y otra vez, en Silicon Valley, con todo, desde los coches autónomos hasta internet, los teléfonos móviles y cripto."
+      ]
+    },
+    {
+      "id": "b21-matt",
+      "speaker": "Matt",
+      "frases": [
+        "Cripto es un buen ejemplo, y no escribo lo suficiente sobre cripto, ojalá hubiera escrito más.",
+        "Pero sí creo que cripto es un buen ejemplo de una tecnología que nos seguirá decepcionando durante unos cuantos años más.",
+        "Aunque tú has hecho comentarios muy interesantes sobre su potencial, sospecho que mucha gente se va a dejar hasta la camisa en proyectos cripto durante bastante tiempo.",
+        "Y eso antes de que empiece a cumplir esa promesa, si es que el gobierno se lo permite alguna vez, claro."
+      ]
+    },
+    {
+      "id": "b22-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Aquí es donde cripto va a funcionar de una forma algo distinta de lo que la gente espera.",
+        "La ley de Amara suele traducirse en que sobrestimamos lo que pasará en diez años y subestimamos lo que pasará en veinte, así que el punto de cruce está en los quince.",
+        "Pero, obviamente, como sabemos, la historia no se repite exactamente, aunque puede rimar.",
+        "Nunca obtienes el mismo resultado dos veces, porque si lo obtuvieras, no habría información nueva.",
+        "No sería un sistema complejo si pudieras predecir fácilmente el siguiente paso.",
+        "Para empezar, cripto existe desde dos mil nueve, que es cuando se creó Bitcoin, así que lleva más tiempo del que la gente cree.",
+        "Además, al final de tu última intervención has dicho, si los Estados lo permiten, y precisamente esa es la razón de ser de cripto.",
+        "Cripto resuelve el problema de coordinación que normalmente solo podías resolver con un Estado, pero lo resuelve sin el Estado.",
+        "En su origen, es una solución al problema de los generales bizantinos.",
+        "No tengo claro que los Estados puedan pararlo, porque si pudieran, lo harían.",
+        "Ningún Estado quiere que exista un sistema que escape a su jurisdicción, porque controlar la máquina de imprimir dinero es el poder supremo.",
+        "Dicho esto, en los dos últimos años, desde que estalló la burbuja de euforia, ha habido grandes emprendedores trabajando duro, y ya veo los primeros brotes verdes en cripto.",
+        "Yo los dividiría en dos categorías, y la primera es que estamos construyendo una infraestructura de finanzas descentralizadas.",
+        "Sirve para pedir prestado y para prestar, para los derivados, la compraventa, la custodia y todo eso.",
+        "Lo que Wall Street hace por el veinte por ciento del producto interior bruto de Estados Unidos se hará por el uno por ciento en el mundo cripto.",
+        "Está mejorando tanto que no me sorprendería que, dentro de unos años, viéramos a más operadores de Wall Street que quisieran hacer una apuesta concreta, que tuvieran una opinión o que quisieran cubrirse de cierta manera.",
+        "Otros querrían comprar un activo concreto que la infraestructura financiera actual no les deja comprar, y todos ellos tendrían que pasarse a Bitcoin o a Ethereum y hacerlo con finanzas descentralizadas.",
+        "Es, sencillamente, muy superior tecnológicamente, y esa es una de las cosas que estoy viendo.",
+        "La otra cosa que estoy viendo es que las primeras aplicaciones de cripto están saliendo en el almacenamiento de archivos, en la autenticación y en la identidad.",
+        "Es la infraestructura, la fontanería de las empresas de internet, que se está construyendo en el terreno cripto.",
+        "Y las versiones cripto son superiores a las que no son cripto porque están descentralizadas, y ya no están bajo el control de Apple, Google o Facebook.",
+        "A los desarrolladores independientes no les gusta vivir bajo el control de Apple, Google, Facebook, Twitter o quien sea, porque saben que pueden echarlos de la plataforma en cualquier momento.",
+        "Saben que el operador de la plataforma se quedará con la mayor parte del valor.",
+        "Y saben que, si dan con un filón, el operador de la plataforma llegará y se lo quedará.",
+        "Vamos a ver cómo se tiende una fontanería basada en cripto, y vamos a ver cómo la despliegan las finanzas descentralizadas durante los próximos cinco años.",
+        "Ahí es donde están saliendo los brotes verdes de cripto.",
+        "Y luego, en la década siguiente, veremos los resultados, y van a ser mayores de lo que podemos prever."
+      ]
+    },
+    {
+      "id": "b23-matt",
+      "speaker": "Matt",
+      "frases": [
+        "Eso es muy esperanzador, como dices, porque es importante poder conservar nuestra autonomía individual en este mundo.",
+        "Y ahora mismo tengo la sensación de que el gobierno, por un lado, y Facebook, por otro, están encontrando formas de restringir mi libertad de expresión, de pensamiento y de debate.",
+        "E incluso están restringiendo los hechos a los que tengo acceso."
+      ]
+    },
+    {
+      "id": "b24-naval",
+      "speaker": "Naval",
+      "frases": [
+        "El gobierno puede restringirte porque tiene el monopolio de la violencia.",
+        "La gente intenta secuestrar al gobierno, porque si consigues que el gobierno cumpla tus órdenes, tienes a tipos armados que hacen lo que tú quieras, y lo controlas todo.",
+        "Lo que permite la criptografía es la primera ventaja asimétrica del defensor frente al atacante, probablemente desde la muralla del castillo o el foso.",
+        "En la historia de la guerra, el atacante ha ido ganando enormes ventajas y el defensor las ha ido perdiendo desde que se inventaron el cañón y las armas de fuego, y eso favorece al atacante.",
+        "Las armas nucleares, obviamente, favorecen al atacante, y las armas biológicas también favorecen al atacante.",
+        "Los ataques aéreos favorecen al atacante, y los tanques favorecen al atacante."
+      ]
+    },
+    {
+      "id": "b25-matt",
+      "speaker": "Matt",
+      "frases": [
+        "Curiosamente, la ametralladora favorecía al defensor, y eso es lo que hizo que la guerra de trincheras fuera tan estática."
+      ]
+    },
+    {
+      "id": "b26-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Muy buena observación, sí, esa se me había pasado.",
+        "Con la criptografía, el atacante puede lanzar toda la potencia de cálculo que quiera, pero si has hecho bien tu seguridad, no puede romper tu clave de cifrado, así que favorece al defensor.",
+        "Y, por supuesto, hacia donde vaya el poder, irán también el control, la identidad y el anonimato.",
+        "Estamos perdiendo el anonimato físico con la videovigilancia, con la Agencia de Seguridad Nacional espiando a todo el mundo y con cámaras conectadas a internet por todas partes.",
+        "La privacidad física ha muerto, y el gobierno siempre sabrá dónde estás físicamente, a menos que te vayas cambiando la cara todo el tiempo.",
+        "Hay quien dice que la vuelta de las mascarillas nos tapará la cara, pero no, no la tapará, basta con un algoritmo un poco mejor.",
+        "Si otro ser humano puede reconocerte, al final el ordenador también te reconocerá, porque ese es uno de los problemas más fáciles para la inteligencia artificial y el aprendizaje automático.",
+        "Dicho esto, la privacidad digital sí es real, y podrás crear una identidad personal protegida con criptografía que circule por internet.",
+        "Podrás construirte una reputación con ella, hacer negocios con ella y hacer amigos con ella, y nadie sabrá del todo quién eres.",
+        "Es verdad que los servicios de inteligencia y quienes pinchan los cables de fibra óptica podrían llegar a desenmascararte, pero si eres lo bastante sofisticado, hay incluso formas de esquivar eso."
+      ]
+    },
+    {
+      "id": "b27-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Eso nos lleva a cómo abordan los gobiernos nuestras libertades.",
+        "Tienen mucho poder sobre nosotros, y por eso a la gente le gusta crear relatos para hacerse con ese poder.",
+        "Uno de los relatos que vuelven cada veinte años es el de la automatización y la pérdida de empleos.",
+        "Esta vez es la inteligencia artificial general, la idea de que vamos a crear una tecnología que avance tan deprisa que se mejore a sí misma más rápido de lo que podemos reciclarnos.",
+        "Se mejoraría más rápido de lo que podemos crear empleos nuevos, y todos acabaríamos sin trabajo.",
+        "Esto tiene dos partes, y la primera es el ritmo de innovación de la inteligencia artificial y lo que significa la inteligencia artificial.",
+        "La segunda es la idea de que esta vez es diferente y de que vamos a perder nuestros trabajos.",
+        "Y me pareció que tenías una visión muy acertada sobre esto."
+      ]
+    },
+    {
+      "id": "b28-matt",
+      "speaker": "Matt",
+      "frases": [
+        "Esto ya lo hemos vivido, otras veces hemos creído que la innovación y la automatización iban a destruir empleos, y nunca los destruyen.",
+        "Siempre crean nuevas oportunidades de empleo, y crean la riqueza que permite a unas personas dar trabajo a otras.",
+        "También crean tiempo libre, eso sí, y reducen las horas que tenemos que trabajar a lo largo de la vida.",
+        "Podemos dedicar más tiempo a la educación y a la jubilación, y tener fines de semana más largos que los de nuestros abuelos.",
+        "En cierta medida, por primera vez, las profesiones burguesas de la clase media alta se sienten amenazadas por la automatización.",
+        "Mientras se automatizaba a los obreros de las fábricas y a los peones del campo, a esas profesiones no les importaba.",
+        "Pero ahora las máquinas pueden desplazar a médicos y abogados, y de repente todos tenemos que entrar en pánico.",
+        "Cada vez que se ha planteado como un problema urgente en los últimos cincuenta años, ha resultado ser una falsa alarma, y creo que esta vez también lo será.",
+        "Por supuesto, las distintas formas de automatización y de innovación provocarán trastornos locales en el empleo, y eso no se puede negar."
+      ]
+    },
+    {
+      "id": "b29-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Y, de hecho, muchos de esos trastornos no podrían haber existido si no se hubiera permitido antes otra generación de automatización.",
+        "Por ejemplo, no puedes perder tu trabajo de camionero si los camiones no existen.",
+        "Y no existirían si los hubieras frenado desde el principio para proteger a la gente del ferrocarril o a quienes cargaban cosas a la espalda.",
+        "Buena parte de la economía actual se basa en bienes de lujo.",
+        "Como dices en el libro, mientras no pueda tener todas las uvas peladas y todos los masajes que quiera en cuanto los pida, seguirá habiendo margen para más empleo.",
+        "Y vamos cambiando lo que consideramos un trabajo, y hay cosas que todavía no hemos descubierto cómo hacer con la automatización y la robótica."
+      ]
+    },
+    {
+      "id": "b30-matt",
+      "speaker": "Matt",
+      "frases": [
+        "Si pudieras llegar a ese punto final teórico en el que una máquina hace todo lo que puedas llegar a necesitar, entonces no tendrías ningún problema."
+      ]
+    },
+    {
+      "id": "b31-naval",
+      "speaker": "Naval",
+      "frases": [
+        "¿Y por qué ibas a tenerlo?",
+        "El trabajo no es bueno en sí mismo, y deberías poder dedicarte a escribir libros, grabar podcasts y entretener al resto de los monos todo el día.",
+        "Como señalas al hablar de la innovación, buena parte de la automatización que se produce es muy democratizadora, porque da lugar a un consumo democrático.",
+        "También haces una observación muy buena, que lo propio de la civilización moderna es concentrar la producción mediante la especialización.",
+        "Así, la persona que mejor hace algo en todo el mundo puede hacerlo para todos los demás.",
+        "Pero, por otro lado, democratizas el consumo, y ahora todo el mundo puede acceder a todo."
+      ]
+    },
+    {
+      "id": "b32-matt",
+      "speaker": "Matt",
+      "frases": [
+        "Lo que solemos hacer como especie, a medida que progresamos, es especializarnos cada vez más en lo que producimos y diversificarnos cada vez más en lo que consumimos.",
+        "Esa frase la saqué hace años de un libro maravilloso titulado Segunda naturaleza, de un hombre llamado Haim Ofek.",
+        "Le escribí y le dije, es una reflexión interesante, ¿has escrito algo más sobre ella?",
+        "Y me contestó, bueno, creo que esa idea la saqué de uno de tus libros."
+      ]
+    },
+    {
+      "id": "b33-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Tiene gracia, porque tengo un tuit sobre ese mismo tema de hace unos cuantos años, y no tengo ni idea de dónde lo saqué.",
+        "Puede que fuera de uno de tus libros, o de David Deutsch, o de cualquier cosa que leí por ahí, ni siquiera lo sé."
+      ]
+    },
+    {
+      "id": "b34-matt",
+      "speaker": "Matt",
+      "frases": [
+        "Hoy me has dicho cosas que has sacado de mis libros y que a mí me suenan nuevas, como si fueras tú quien lo hubiera planteado.",
+        "Por así decirlo, cada uno pone ideas en la esfera pública, las recogemos, las cambiamos un poco y nos las devolvemos unos a otros, y esa es la naturaleza de una conversación inteligente."
+      ]
+    },
+    {
+      "id": "b35-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Esto nos devuelve a la teoría del gran hombre o la gran mujer en la historia.",
+        "Después de leer tu libro tuve que pensarlo un poco, porque sin darme cuenta me adhería entre un setenta y un ochenta por ciento a la teoría del gran hombre.",
+        "Y a la teoría evolutiva de la historia me adhería entre un veinte y un treinta por ciento.",
+        "Visto en retrospectiva, probablemente era un reparto equivocado.",
+        "Una forma de reconciliarlo que se me ocurrió es que hacen falta grandes personas para que el mundo avance, pero no necesariamente esa gran persona en concreto.",
+        "Aunque necesitábamos a Edison para crear la bombilla, había otras veintiuna personas trabajando en la bombilla más o menos al mismo tiempo.",
+        "Necesitábamos que una de esas veintiuna personas fuera el innovador que la sacara adelante.",
+        "Así que no es que en cada momento haya un único individuo capaz de lograrlo.",
+        "Lo que hay es un conjunto de individuos especiales, y cualquiera de ellos, en la situación adecuada, bastará, o bastará cualquier grupo de ellos.",
+        "Esa es la conclusión a la que llegué yo."
+      ]
+    },
+    {
+      "id": "b36-matt",
+      "speaker": "Matt",
+      "frases": [
+        "Leonardo da Vinci no tenía que preocuparse de que otro pintara la Gioconda antes que él.",
+        "En cambio, ser la primera persona en desarrollar una bombilla práctica tiene algo especialmente exigente, brillante e ingenioso.",
+        "Si estás en una carrera, que lo consigas tú es todavía más impresionante.",
+        "En cierta medida, el hecho de que no sea un logro único lo hace aún más impresionante."
+      ]
+    },
+    {
+      "id": "b37-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Con tu libro tuve un caso leve de amnesia de Gell-Mann, si recuerdas esa idea.",
+        "La amnesia de Gell-Mann dice que te crees todo lo que lees en los periódicos, y cuando llegan a un tema que conoces a fondo, te das cuenta de que es un disparate.",
+        "O ves que no termina de cuadrar, y aun así sigues creyéndote todo lo demás que escriben.",
+        "No te culpo, has hecho un trabajo estupendo, pero hubo una disonancia.",
+        "Demostrabas tu argumento mostrando que tendemos a mitificar demasiado a unos pocos inventores y a recordarlos como los creadores, cuando es mucho más un proceso de equipo, repartido entre muchos.",
+        "Ponías ejemplos de inventores y de personas que se llevan el mérito a lo largo de la historia.",
+        "Luego, más adelante en el libro, hablas de Facebook y de Airbnb como innovadores, y mencionas a sus fundadores, Brian Chesky y Mark Zuckerberg.",
+        "Pero cualquiera que lleve un tiempo en Silicon Valley sabe que antes de Facebook estaba Myspace, y antes de Myspace estaba Friendster.",
+        "El pobre Jonathan Abrams, que creó Friendster, se queda como el castor que mira la presa y dice, ¿de quién es esta presa?",
+        "Con Airbnb pasa lo mismo, antes estaban Vrbo, HomeAway y un montón de webs de alquiler vacacional, aunque Airbnb sí fue pionera en alquilar habitaciones sueltas.",
+        "Pero también estaban Couchsurfing, Craigslist y otras muchas.",
+        "Por desgracia, la historia la escriben los vencedores, y en este caso los vencedores ni siquiera tienen que escribirla, la escriben todos los que los rodean.",
+        "Hay un sesgo de disponibilidad, la gente ve al vencedor, así que al vencedor, el botín y el mérito."
+      ]
+    },
+    {
+      "id": "b38-matt",
+      "speaker": "Matt",
+      "frases": [
+        "Tienes toda la razón, y acepto la corrección en los dos casos, no podrías estar más en lo cierto."
+      ]
+    },
+    {
+      "id": "b39-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Matt, acabas de publicar un libro nuevo, Claves de la innovación.",
+        "Es de lectura obligada para emprendedores y para cargos públicos que quieran ser innovadores o fomentar la innovación en su región o en su sociedad.",
+        "Sinceramente, si te consideras emprendedor, inventor o innovador, probablemente sea la formación más barata y rápida que puedes conseguir sobre la historia y el futuro de la innovación.",
+        "Lo recomiendo muchísimo, y me voy a despedir con una cita suya que me gusta, que resume qué es la innovación y dónde se fomenta.",
+        "Refleja una visión muy optimista y acertada de cómo funciona la innovación.",
+        "La cita dice así, la innovación es hija de la libertad porque es un intento libre y creativo de satisfacer deseos humanos expresados libremente.",
+        "Para mí es una cita poderosa, porque me dice que la innovación necesita libertad.",
+        "Es creativa, y con ella satisfacemos lo que la gente quiere hacer, no lo que le mandan o le obligan a hacer.",
+        "Así que gracias, Matt, por ayudarme a entender la evolución.",
+        "Te recomiendo también Genoma, y para entender la base racional de la ética, el origen de la virtud.",
+        "Me ayudaste a ser optimista de una forma racional con tu famoso libro El optimista racional.",
+        "Y en Claves de la innovación dejas muy clara la evolución de la innovación y cómo fomentarla. Ha sido un placer."
+      ]
+    },
+    {
+      "id": "b40-matt",
+      "speaker": "Matt",
+      "frases": [
+        "Naval, gracias por las ideas increíbles que me has dado hoy, por tus comentarios fantásticos y amables, y por decir que este libro deberían leerlo quienes se dedican a innovar.",
+        "Lo digo porque soy un poco impostor, no soy innovador, no he inventado nada, no he montado ningún negocio ni soy emprendedor, soy escritor.",
+        "Así que me honra muchísimo que pienses que el libro tiene utilidad práctica para la gente, además de ser un recorrido interesante por las ideas que hay detrás de este misterioso concepto de la innovación humana."
+      ]
+    }
+  ]
+}

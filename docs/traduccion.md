@@ -55,3 +55,4 @@ abiertas («…talk about sex.» sin «”»). Afecta solo al inglés, que no se
 | 2026-11-04 | 068 Kapil Gupta: Conquering the Mind | revision | 84 | 438 | 7675 | 45,1 | Cero avisos. Workflow de especialistas (4-nov); 16 decisiones aplicadas, ver notas |
 | 2026-11-04 | 069 How to Angel Invest, Part 2 | revision | 59 | 368 | 6203 | 36,5 | Cero avisos. Workflow de especialistas (4-nov); 23 decisiones aplicadas, ver notas |
 | 2026-11-04 | 070 Matt Ridley: How Innovation Works, Part 1 | revision | 21 | 304 | 5761 | 33,9 | Cero avisos. Workflow de especialistas (4-nov); 13 decisiones aplicadas, ver notas |
+| 2026-11-04 | 071 Matt Ridley: How Innovation Works, Part 2 | revision | 40 | 289 | 6080 | 35,8 | Cero avisos. Workflow de especialistas (4-nov); 15 decisiones aplicadas, ver notas |

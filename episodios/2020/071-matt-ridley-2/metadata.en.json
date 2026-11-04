@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 71,
+  "anio": 2020,
+  "slug": "matt-ridley-2",
+  "titulo": "Matt Ridley: How Innovation Works, Part 2",
+  "subtitulo": "Innovation is the parent of prosperity",
+  "fecha_publicacion": "2020-07-15",
+  "fuente_url": "https://nav.al/matt-ridley-2",
+  "orden_archivo": 75,
+  "en_feed": true,
+  "participantes": [
+    "Matt",
+    "Naval"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}

@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**36** episodios · **0** publicados · **0** sin empezar
+**37** episodios · **0** publicados · **0** sin empezar
 
 ## 2020
 
@@ -26,6 +26,7 @@
 | 68 | [068-kapil](episodios/2020/068-kapil) | Conquistar la mente, con Kapil Gupta | 🟠 en revisión | — | — |
 | 69 | [069-angel-2](episodios/2020/069-angel-2) | Cómo invertir como ángel, parte dos | 🟠 en revisión | — | — |
 | 70 | [070-matt-ridley](episodios/2020/070-matt-ridley) | Matt Ridley, claves de la innovación, parte uno | 🟠 en revisión | — | — |
+| 71 | [071-matt-ridley-2](episodios/2020/071-matt-ridley-2) | Matt Ridley, claves de la innovación, parte dos | 🟠 en revisión | — | — |
 
 ## 2019
 
