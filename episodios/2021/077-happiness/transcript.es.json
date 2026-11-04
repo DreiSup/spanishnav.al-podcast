@@ -1,0 +1,679 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2021/077-happiness",
+  "numero": 77,
+  "fecha": "2021-03-12",
+  "titulo": "La felicidad",
+  "subtitulo": "",
+  "fuente_url": "https://nav.al/happiness",
+  "titulos_seccion": [
+    "Vive lo suficiente y te convertirás en filósofo",
+    "Este podcast es una filosofía práctica de la salud, la riqueza y la felicidad",
+    "Los grandes problemas son los de siempre",
+    "Lo que puede hacer un mono, lo puede hacer otro",
+    "La felicidad sin comodidad material es jugar en modo difícil",
+    "Es más fácil satisfacer tus deseos materiales que renunciar a ellos",
+    "Renunciar a las cosas no es un camino fácil hacia la felicidad",
+    "Es más fácil satisfacer tus necesidades materiales que renunciar a ellas",
+    "Cuando estás enfermo, tus deseos se esfuman",
+    "He pasado de ser infeliz a ser muy feliz",
+    "La felicidad no es ciencia ni matemáticas",
+    "La felicidad se parece más a la poesía que a los algoritmos",
+    "Hay muchos tipos de felicidad",
+    "La felicidad se parece más a la poesía que a los algoritmos",
+    "La felicidad es una habilidad que puedes desarrollar",
+    "No estás atrapado en tu nivel actual de felicidad",
+    "La genética es importante, pero es solo la mitad",
+    "No estás atrapado en tu nivel de felicidad",
+    "El deseo es un contrato que firmas para ser infeliz",
+    "La felicidad es volver a un estado en el que no falta nada",
+    "Ninguna cosa por sí sola te hará feliz para siempre",
+    "La felicidad es un proceso de comprensión y de descubrimiento de uno mismo",
+    "Si eres tan listo, ¿por qué no eres feliz?",
+    "Puedes aumentar tu felicidad sin perder el empuje",
+    "¿Puedes aumentar tu felicidad sin perder el empuje?",
+    "Descubrir la verdad te llevará a la felicidad",
+    "El rango de la felicidad es muy amplio",
+    "Ser infeliz es tremendamente ineficiente",
+    "Una mente en paz toma mejores decisiones",
+    "La gente infeliz no tiene buen criterio",
+    "Una mente en paz toma mejores decisiones",
+    "Trabaja lo menos posible para conseguirlo",
+    "La gente feliz no tiene que trabajar tanto",
+    "Una mente en paz toma mejores decisiones",
+    "La lucha moderna es plantar cara a las adicciones convertidas en armas",
+    "Buscar el placer por sí mismo crea adicción",
+    "Las adicciones son trabajo de mentira y juego de mentira",
+    "Romper con una adicción está mal visto socialmente",
+    "La adicción sostiene relaciones y actividades artificiales",
+    "Romper con una adicción exige un nuevo estilo de vida",
+    "La adicción sostiene relaciones falsas y actividades falsas",
+    "Encontrar la paz frente a la mente",
+    "La mente debería ser un sirviente, no un amo",
+    "La mente se queda callada en los momentos de mayor placer",
+    "En algún momento, la mente se convirtió en el amo",
+    "Nuestro entorno premia el pesimismo y la paranoia",
+    "La felicidad es paz en movimiento",
+    "La paz es felicidad en reposo",
+    "El estrés es la incapacidad de decidir qué es importante",
+    "La paz es felicidad en reposo",
+    "No puedes trabajar para conseguir la paz, solo para comprender",
+    "Cuanto más cerca estás de la verdad, más silencioso te vuelves por dentro",
+    "Los sabios son callados",
+    "La sabiduría engendra estoicismo",
+    "Los grupos buscan el consenso, los individuos buscan la verdad",
+    "Lo que la sociedad quiere para ti no es lo que te conviene",
+    "Incluso la gente lista acepta las mentiras de la sociedad",
+    "La culpa es la sociedad entrenándote para ser tu propio carcelero",
+    "El camino hacia la paz es la verdad",
+    "Cuando la superación personal falla, trabaja en descubrir la verdad",
+    "Cuando descubres la verdad, los malos hábitos pueden desaparecer",
+    "La superación personal no es más que conflicto con uno mismo disfrazado"
+  ],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Hablemos de por qué hacemos este podcast.",
+        "En el fondo, es una conversación sobre filosofía muy práctica.",
+        "La filosofía, tal como solemos entenderla, no tiene nada de práctica.",
+        "Es abstracta y enrevesada, algo que se escribió hace mucho tiempo en un lenguaje rebuscado.",
+        "La ponemos en un pedestal y parece inalcanzable, y a veces suena a simples obviedades."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Pero si vives lo suficiente, tú mismo te convertirás en filósofo.",
+        "Te habrás pasado la vida entera resolviendo tus grandes problemas.",
+        "Los grandes problemas son los de siempre, los que llevamos intentando resolver desde el principio.",
+        "¿Cómo sigo siendo feliz?",
+        "¿Cómo consigo estar sano?",
+        "¿Cómo me hago rico?",
+        "¿Cómo formo la familia que quiero?"
+      ]
+    },
+    {
+      "id": "b03-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Este podcast trata de la filosofía práctica que nos ha funcionado a nosotros.",
+        "Lo que puede hacer un mono, lo puede hacer otro.",
+        "Queremos que la gente piense que, si esta persona aprendió algo que la hizo más feliz, más sana o más rica, ella también puede hacerlo.",
+        "En eso nos centramos, en una filosofía práctica de la salud, la riqueza y la felicidad."
+      ]
+    },
+    {
+      "id": "b04-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Si lo resumieras en una sola palabra, sería la salud.",
+        "La salud financiera, la salud mental y la salud física."
+      ]
+    },
+    {
+      "id": "b05-naval",
+      "speaker": "Naval",
+      "frases": [
+        "La salud es un estado de bienestar.",
+        "Lleguemos a un estado de salud financiera en el que no vivamos con miedo día a día.",
+        "Por ahí empezamos, y le dedicamos mucho tiempo.",
+        "Lleguemos a un estado de salud física en el que no suframos dolencias, enfermedades ni adicciones.",
+        "Lleguemos a un estado de salud mental en el que estemos relativamente en paz y bastante contentos con nosotros mismos."
+      ]
+    },
+    {
+      "id": "b06-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Puedes alcanzar la felicidad sin riqueza económica.",
+        "La mayoría sabemos que la felicidad no se puede comprar.",
+        "Pero hoy en día sí puedes pagar para librarte de muchas de las causas habituales de la infelicidad.",
+        "La riqueza económica puede darte libertad y más tiempo, y puede darte paz."
+      ]
+    },
+    {
+      "id": "b07-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Antiguamente, uno de los caminos para encontrar la paz era hacerse monje.",
+        "Renunciabas a cosas como el sexo, el techo, el dinero y otros apegos materiales, y te ibas al bosque.",
+        "Quizá encontrabas algo de paz al cabo de treinta años, cuando por fin habías aceptado que no ibas a tener esas cosas.",
+        "La verdad es que la mayoría probablemente nunca llegó a aceptarlo.",
+        "Hay muchos monjes por ahí, pero no hay muchas personas iluminadas."
+      ]
+    },
+    {
+      "id": "b08-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Osho decía, más o menos, que cada vez que conocía a una prostituta, ella quería hablar de Dios.",
+        "Y que cada vez que conocía a un sacerdote, él quería hablar de sexo.",
+        "Todo lo que te niegas a ti mismo se convertirá en tu nueva prisión.",
+        "Hoy en día, de hecho, es más fácil satisfacer tu deseo de comodidad material que renunciar a él.",
+        "Te llevará toda una vida renunciar a la comodidad material, y aun así puede que no funcione.",
+        "Pero puedes ganar algo de dinero y tener éxito material en menos de una vida.",
+        "Puedes alcanzar la felicidad sin comodidad material, y probablemente sería una felicidad más duradera.",
+        "Pero eso es jugar en modo difícil."
+      ]
+    },
+    {
+      "id": "b09-naval",
+      "speaker": "Naval",
+      "frases": [
+        "La salud física es la base de todo.",
+        "Si no tienes salud física, no tienes nada.",
+        "Hay un dicho de Confucio que me gusta mucho.",
+        "Un hombre enfermo solo quiere una cosa, y un hombre sano quiere diez mil.",
+        "Cuando estás enfermo, tus deseos se esfuman.",
+        "Si no puedes levantarte y valerte por ti mismo, no puedes convertirte en la máquina de desear que eres.",
+        "Aunque la salud física es lo más importante, es de lo que menos hablo, porque es el área en la que tengo menos conocimiento específico.",
+        "En ese terreno no me he realizado del todo.",
+        "Estoy en una forma física aceptable y llevo una dieta razonable.",
+        "Entiendo las teorías de la salud física, pero me sentiría un impostor dándote consejos si yo mismo no fuera un modelo de salud física."
+      ]
+    },
+    {
+      "id": "b10-naval",
+      "speaker": "Naval",
+      "frases": [
+        "En la riqueza me he realizado mucho más.",
+        "Y en la salud mental, en encontrar la felicidad y la paz, he pasado de ser una persona más bien infeliz a ser muy feliz.",
+        "Fue algo deliberado, practicado y fruto del esfuerzo.",
+        "Llegó a base de ir comprendiendo cosas.",
+        "Como he progresado, puedo contarte lo que me ha funcionado a mí."
+      ]
+    },
+    {
+      "id": "b11-naval",
+      "speaker": "Naval",
+      "frases": [
+        "La felicidad es un término cargadísimo de significados.",
+        "Significa cosas completamente distintas para cada persona.",
+        "Todo el mundo tiene ideas preconcebidas muy firmes sobre qué es la felicidad y cómo alcanzarla."
+      ]
+    },
+    {
+      "id": "b12-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Voy a mezclar felicidad, placer, paz, alegría, dicha, satisfacción, bienestar y más cosas, y no lo hago a propósito.",
+        "Pero, al mismo tiempo, esto no son matemáticas.",
+        "No podemos delimitar estas palabras con precisión.",
+        "Significan cosas distintas en contextos distintos y para personas distintas.",
+        "Así que intenta captar el espíritu de lo que digo, en vez de atascarte en palabras y detalles concretos.",
+        "Cuando algunas personas hablan de felicidad, en realidad hablan de placer o de emociones fuertes.",
+        "Podrían decir que han comido muy bien y que, por tanto, son felices.",
+        "Cuando otras personas hablan de felicidad, se refieren a un estado general de satisfacción y bienestar.",
+        "Otras se refieren a la iluminación, como la que habría alcanzado un Buda.",
+        "Mucha gente piensa que la felicidad no existe, o que es contraproducente, o que la infelicidad viene precisamente de buscarla.",
+        "Estas ideas tienen mucho de verdad, y hablaremos de ello."
+      ]
+    },
+    {
+      "id": "b13-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Puede que yo diga que la manera de ser feliz es tal cosa.",
+        "Y que alguien me reproche que antes había dicho que la felicidad es causa de infelicidad.",
+        "Esto no son matemáticas, no puedes encadenar algoritmos.",
+        "Esto se parece más a la poesía.",
+        "Imagina que lees cincuenta poemas del mismo poeta e intentas analizarlos de forma sistemática.",
+        "Si relacionas las palabras de un poema con las de otro para ver si encajan, se te escapará lo esencial.",
+        "No te obsesiones con las palabras, ni siquiera con las frases.",
+        "Reflexiona sobre el razonamiento y el mensaje en su conjunto."
+      ]
+    },
+    {
+      "id": "b14-naval",
+      "speaker": "Naval",
+      "frases": [
+        "El primer paso para aumentar tu nivel de felicidad es darte cuenta de que puedes hacerlo.",
+        "Aquí es donde mucha gente se tropieza.",
+        "Para la gran mayoría de las personas, parte de su felicidad, probablemente mucha más de la que creen, está bajo su control.",
+        "Este paso no es fácil, y puede que te quedes atascado en él mucho tiempo.",
+        "Mucha gente cree que la felicidad no se puede desarrollar ni cambiar, así que le quita valor.",
+        "Y acaban diciendo que, en realidad, no quieren ser felices."
+      ]
+    },
+    {
+      "id": "b15-naval",
+      "speaker": "Naval",
+      "frases": [
+        "La genética es importante, y pesa mucho a la hora de determinar la fuerza, el rendimiento deportivo y la inteligencia.",
+        "Pero tu punto de partida genético es solo la mitad.",
+        "Y la felicidad, o la satisfacción general, es mucho más maleable que esas otras cosas.",
+        "Me costaría muchísimo cambiar de forma radical mi rendimiento deportivo solo a base de entrenar.",
+        "En ese terreno estoy mucho más limitado por mi genética.",
+        "Pero cosas como mi temperamento, mi forma de ver la vida, lo tranquilo que estoy o lo mucho que me enfado dependen mucho más de mí."
+      ]
+    },
+    {
+      "id": "b16-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Así que la felicidad es una habilidad, como la nutrición o la forma física.",
+        "Es una habilidad que identificas y desarrollas, y que poco a poco te da resultados a medida que mejoras.",
+        "No es un don divino, ni algo que te toca y con lo que te quedas para siempre.",
+        "Aunque, si partes de un nivel alto, por supuesto, consérvalo."
+      ]
+    },
+    {
+      "id": "b17-naval",
+      "speaker": "Naval",
+      "frases": [
+        "El deseo es un contrato que firmas contigo mismo para ser infeliz hasta que consigas lo que quieres.",
+        "Te inquietas porque quieres algo, y luego te matas a trabajar para conseguirlo y lo pasas mal mientras tanto.",
+        "Al final, cuando lo consigues, vuelves al estado en el que estabas antes de tenerlo.",
+        "No es que alcances un pico de dicha y te quedes ahí para siempre."
+      ]
+    },
+    {
+      "id": "b18-naval",
+      "speaker": "Naval",
+      "frases": [
+        "La gente se aferra a la ilusión de que hay algo ahí fuera que la hará feliz y la llenará para siempre.",
+        "Ninguna cosa por sí sola puede conseguir eso.",
+        "La iluminación es algo distinto, y parece una solución permanente, pero eso todavía no lo vamos a explorar.",
+        "Ahora solo hablamos de la felicidad de sentido común."
+      ]
+    },
+    {
+      "id": "b19-naval",
+      "speaker": "Naval",
+      "frases": [
+        "No hay una única solución permanente para la felicidad.",
+        "Alcanzar la felicidad exige, más bien, un proceso de comprensión y de descubrimiento de uno mismo.",
+        "Es un proceso en el que te entrenas para ver ciertas verdades.",
+        "Si conseguir cosas nos hiciera felices para siempre, los hombres de las cavernas habrían sido unos desgraciados y todos nosotros seríamos locamente felices.",
+        "Sin embargo, la felicidad neta por persona no está aumentando, y puede que incluso esté bajando.",
+        "Probablemente la modernidad trae más infelicidad que el pasado.",
+        "Así que la felicidad es volver al estado en el que no te falta nada en este momento."
+      ]
+    },
+    {
+      "id": "b20-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Una queja habitual que oigo entre la gente lista y muy ambiciosa es que la felicidad es para los tontos.",
+        "Creen que solo la gente tonta o vaga puede ser feliz.",
+        "Los emprendedores te dicen que no quieren ser felices porque quieren tener éxito.",
+        "Les preocupa que, si son demasiado felices, pierdan el deseo y dejen de trabajar duro."
+      ]
+    },
+    {
+      "id": "b21-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Como pasa con todo, esto tiene algo de verdad.",
+        "En general, cuanto más inteligente eres, más ves lo que hay detrás de la fachada de una vida cotidiana fácil y segura.",
+        "Ves todos los riesgos y los inconvenientes, las calamidades que nos esperan.",
+        "Ves el cinismo y la manipulación que hay detrás de tantas cosas que te venden como buenas para ti o para la sociedad.",
+        "Te vuelves cínico, y demuestras tu inteligencia a través del cinismo.",
+        "La gente muy lista a menudo se comunica solo con observaciones cínicas.",
+        "No pasa nada por no querer ser feliz.",
+        "Pero vamos a explorar si puedes aumentar tu felicidad sin reducir mucho tu empuje ni tu intelecto.",
+        "Vamos con la primera objeción, la de que no soy feliz porque soy listo.",
+        "Y es verdad en parte, eres infeliz en parte porque sabes y entiendes demasiado, y has estado expuesto a demasiadas cosas.",
+        "Pero eso no significa que no puedas ser feliz y conservar tu inteligencia."
+      ]
+    },
+    {
+      "id": "b22-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Pero no lo pongas al revés, no eres listo porque seas infeliz, eres infeliz porque eres listo.",
+        "Puedes ser feliz y listo, solo que te costará más trabajo.",
+        "La buena noticia es que a la gente lista se le da bien descubrir la verdad.",
+        "Cuanto más ahondes en ciertas verdades profundas, más libre y más en paz estarás.",
+        "Y esa paz te llevará a la felicidad.",
+        "Si eres tan listo, ¿por qué no eres feliz?",
+        "Lo creo de verdad.",
+        "Lo bueno de tener una mente brillante en nuestra sociedad es que puedes cambiarla por casi cualquier cosa.",
+        "Si eres listo, puedes descubrir cómo estar sano dentro de tus límites genéticos y cómo hacerte rico dentro de los límites de tu entorno.",
+        "Si eres listo, puedes descubrir cómo ser feliz dentro de tus límites biológicos.",
+        "Pero tus límites biológicos son mucho más amplios de lo que crees."
+      ]
+    },
+    {
+      "id": "b23-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Quizá alguna vez te has emborrachado o has alcanzado un estado alterado de conciencia con drogas psicodélicas, o con la meditación, la respiración u otras técnicas hipnóticas.",
+        "Si es así, has vivido breves momentos de una felicidad que va más allá de la de un día normal.",
+        "Claro que parte de esto es una felicidad falsa, impulsada por el placer.",
+        "Pero tiene algo de verdad, porque si no, no desearías ese estado.",
+        "Alcanzar esos breves estados de felicidad te puede enseñar lo amplio que es tu rango, y ese rango puede ser muy grande.",
+        "¿Cómo te vas empujando en esa dirección de forma permanente, en lugar de visitarla aturdiendo a tu mente hasta someterla y silenciarla?"
+      ]
+    },
+    {
+      "id": "b24-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Además de la objeción de que uno es demasiado listo para eso, la otra es que no quiere que baje su productividad, ni tener menos deseo ni menos ética de trabajo.",
+        "Y es verdad, cuanto más feliz y más en paz estás, menos probable es que salgas corriendo a cambiar el mundo.",
+        "Pero, al mismo tiempo, ser infeliz es muy ineficiente.",
+        "Una persona en paz no tiene pensamientos superfluos dándole vueltas en la cabeza.",
+        "Si eres una persona ambiciosa e infeliz, tu mente estará encendida las veinticuatro horas del día, los siete días de la semana."
+      ]
+    },
+    {
+      "id": "b25-naval",
+      "speaker": "Naval",
+      "frases": [
+        "¿Qué consecuencias tiene esto?",
+        "No dormirás bien, y será mucho más probable que reacciones con ira y te metas en un agujero del que luego tendrás que salir.",
+        "Tus decisiones serán emocionales e impulsivas, y caerás más fácilmente en la trampa de estar ocupado.",
+        "Estarás ocupado todo el rato, corriendo de una cosa a otra porque no eres capaz de priorizar mentalmente.",
+        "Cuando no tienes paz mental, te cuesta formarte un criterio, porque tienes demasiados hilos dándote vueltas en la cabeza.",
+        "No tienes tiempo que dedicar a formarte ese criterio.",
+        "Hay una contrapartida, y es que si mañana te conviertes en Buda, es poco probable que además lances cohetes a la Luna como Elon Musk.",
+        "Por otro lado, hay muchísimos científicos, innovadores y otros líderes de éxito y optimistas, sobre todo a medida que se hacen mayores.",
+        "Así que la gente feliz no siempre es ineficaz."
+      ]
+    },
+    {
+      "id": "b26-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Cuando me volví más feliz en mi propia vida, me volví mucho más eficaz, aunque no trabajo tanto como antes.",
+        "Soy capaz de crear relaciones con personas a las que antes habría mantenido a distancia por los prejuicios que tuviera.",
+        "Ahora tomo decisiones con mucha más claridad, porque veo los resultados a largo plazo.",
+        "Voy directo al grano y no intento negociar un veinte por ciento más aquí o allá.",
+        "Sé que eso me hará infeliz a largo plazo, hará infeliz a la otra persona y hará el acuerdo menos estable.",
+        "Me he vuelto más productivo aunque no trabaje tanto, porque tomo mejores decisiones."
+      ]
+    },
+    {
+      "id": "b27-naval",
+      "speaker": "Naval",
+      "frases": [
+        "La calidad de nuestras decisiones es fundamental en la era moderna, porque todos tenemos apalancamiento.",
+        "Puedes apalancarte a través del código, la comunidad, los medios, el capital, el trabajo y de otras formas.",
+        "Si eres listo, apalancas cada decisión que tomas.",
+        "Si Warren Buffett acierta el ochenta y cinco por ciento de las veces y sus competidores aciertan el setenta por ciento, Buffett lo gana todo.",
+        "Esa es una de las fuentes de su fuerza, tomar buenas decisiones.",
+        "Toma una o dos decisiones al año, y la mayor parte del tiempo está sentado leyendo libros, pensando, leyendo folletos de salida a bolsa, jugando al bridge, viajando y jugando al golf.",
+        "Obviamente, trabajar duro no es la solución, la solución es tomar buenas decisiones y tener mucho apalancamiento."
+      ]
+    },
+    {
+      "id": "b28-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Tener una mente en paz, ser una persona más feliz, depender menos del placer momentáneo y estar más tranquilo te dará la disposición mental para tomar mejores decisiones.",
+        "De hecho, ser feliz aumentará tu eficacia, y mientras el aumento de eficacia sea mayor que la pérdida de empuje, sales ganando.",
+        "Pregúntate si preferirías ser el mejor del mundo trabajando más que nadie, o trabajando menos que nadie porque trabajaste de la forma más inteligente.",
+        "Imagina que eres el dios del universo, omnisciente y omnipotente.",
+        "Podrías cambiar cualquier cosa del universo solo con empujar una mariposa en una dirección, porque sabes exactamente cómo chocarán las partículas a partir de ahí.",
+        "La omnisciencia es omnipotencia, el conocimiento es poder.",
+        "Podemos alcanzar la felicidad solo a través del conocimiento, y esa felicidad mejorará nuestras decisiones.",
+        "Esa felicidad nos dará más tiempo para leer y nos hará entender mejor cómo funcionamos nosotros y cómo funcionan los demás.",
+        "Nos hará más eficaces y mejorará nuestro criterio.",
+        "También debería aumentar nuestros ingresos y los rendimientos que necesitamos para ser libres económicamente."
+      ]
+    },
+    {
+      "id": "b29-naval",
+      "speaker": "Naval",
+      "frases": [
+        "En un nivel muy profundo, todo placer crea su propio dolor compensatorio y su miedo a perderlo.",
+        "Hace poco tuiteé que, en una era de abundancia, buscar el placer por sí mismo crea adicción.",
+        "Estaba actualizando una frase de Miyamoto Musashi, que decía que no hay que buscar el placer por sí mismo.",
+        "Musashi era un espadachín japonés, y en su época buscar el placer significaba algo muy distinto de lo que significa hoy.",
+        "No tenía comida procesada ilimitada, ni pornografía en internet, ni marihuana ni alcohol a demanda.",
+        "Ahora que vivimos en una era de abundancia, podemos caer fácilmente en la adicción si buscamos el placer por sí mismo, y de ahí es difícil salir.",
+        "La lucha moderna es, en realidad, la de individuos desconectados de su tribu, de su religión y de sus redes culturales, que intentan plantar cara a todas estas adicciones convertidas en armas.",
+        "Hablo del alcohol, las drogas, la pornografía, la comida procesada, los medios de comunicación, internet, las redes sociales y los videojuegos."
+      ]
+    },
+    {
+      "id": "b30-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Las adicciones te permiten jugar de mentira y trabajar de mentira.",
+        "Antes tenías que salir a socializar con tus amigos, y ahora puedes emborracharte con un montón de desconocidos.",
+        "Antes tenías que encontrar pareja, tener hijos y criar una familia, y ahora puedes ver mucho porno.",
+        "Antes tenías que cazar y trepar a los árboles para conseguir fruta y un poco de dulzor natural, y ahora puedes comprar todo el helado que quieras.",
+        "La lucha moderna consiste en plantar cara a estas adicciones convertidas en armas.",
+        "Te dan pequeñas dosis de placer, pero también te insensibilizan y te exponen al sufrimiento de no tenerlas."
+      ]
+    },
+    {
+      "id": "b31-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Si bebes alcohol o tomas algún tipo de droga con regularidad, prueba este experimento mental.",
+        "¿Qué planes son los que más esperas?",
+        "Apuesto a que son aquellos en los que puedes beber o drogarte.",
+        "Esperas con ganas la hora de la cena, la próxima fiesta o ir de bares con los amigos.",
+        "Para ver lo artificial que es, decide no beber ni drogarte la próxima vez que salgas.",
+        "Ahora pregúntate cuántas ganas tienes de ese plan, y verás que ninguna.",
+        "Esto crea un dilema, porque estas fuentes de placer artificial acabarán insensibilizándome, me harán sufrir cuando falten y me llevarán a la adicción.",
+        "Pero si renuncio a ellas, también seré desgraciado, porque dejaré de socializar con mis amigos, no saldré y no me divertiré."
+      ]
+    },
+    {
+      "id": "b32-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Romper con una adicción es muy difícil, porque tienes que romper la adicción física y además cambiar tu estilo de vida.",
+        "Tienes que pasar a un estilo de vida en el que puedas ser feliz sin esa sustancia.",
+        "Si bebo para socializar y lo hago lo suficiente, acabaré pasando el rato con gente con la que no estaría si no fuera por eso.",
+        "Cuando estoy sobrio, no soporto a esa gente, ni los temas de los que hablamos, ni los sitios a los que vamos, y solo lo aguanto borracho."
+      ]
+    },
+    {
+      "id": "b33-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Estas relaciones falsas y estas actividades falsas se sostienen gracias al alcohol.",
+        "Si dejo de beber, tengo que cambiar de amigos y encontrar cosas nuevas que hacer.",
+        "Eso es difícil y está mal visto socialmente.",
+        "Hace tiempo me di cuenta de que esperar con ganas los fines de semana y las vacaciones es un problema.",
+        "Primero, le quita la alegría al día a día, porque vives en el futuro y sufres el resto del tiempo.",
+        "Segundo, has aceptado una forma de vida en la que pasas la mayor parte del tiempo sufriendo."
+      ]
+    },
+    {
+      "id": "b34-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Hablemos de la paz, y después hablaremos de la verdad y de cómo se relacionan con la felicidad.",
+        "Cuando digo que quieres ser feliz, lo que en realidad digo es que quieres encontrar la paz.",
+        "Decimos paz mental, pero lo que de verdad queremos es paz frente a la mente."
+      ]
+    },
+    {
+      "id": "b35-naval",
+      "speaker": "Naval",
+      "frases": [
+        "En tus momentos de mayor placer, ya sea tomando una droga, teniendo un orgasmo, rozando tu límite haciendo kitesurf, riéndote con un amigo o mirando una puesta de sol increíble, tu mente se queda callada.",
+        "Se calma, y esa voz de tu cabeza se queda en silencio.",
+        "Sientes asombro, que también podrías llamar belleza, dicha o alegría.",
+        "Todos buscamos esto y todos lo perseguimos, y en el fondo lo que de verdad buscamos es paz frente a la mente."
+      ]
+    },
+    {
+      "id": "b36-naval",
+      "speaker": "Naval",
+      "frases": [
+        "No estoy pintando la mente como un enemigo, porque es una herramienta muy útil.",
+        "Pero en algún momento se volvió incontrolable, y la mente pasó a ser el amo en lugar de un sirviente.",
+        "Nuestra mente evolucionó para ser paranoica, miedosa e iracunda.",
+        "Los humanos somos las criaturas más paranoicas e iracundas que han pisado la tierra.",
+        "Somos superdepredadores que dominamos la cadena alimentaria matando, sometiendo o domesticando a todas las demás especies del planeta.",
+        "Lo hicimos a través del miedo, de la violencia y, por supuesto, de la cooperación.",
+        "La naturaleza es brutal, pon cualquier documental de naturaleza y verás cómo uno se come a otro, ese otro se come a un tercero, y así sucesivamente.",
+        "La naturaleza tiene los dientes y las garras manchados de sangre.",
+        "Venimos de la violencia y de la sangre."
+      ]
+    },
+    {
+      "id": "b37-naval",
+      "speaker": "Naval",
+      "frases": [
+        "La sociedad moderna es mucho más segura y pacífica.",
+        "Sigue teniendo sentido ser prudente, mantener cierta paranoia y enfadarse de vez en cuando, pero no tanto como llevamos grabado de serie.",
+        "No pasa nada por bajarle el volumen, porque el nivel de amenaza no es tan alto como creen nuestros genes.",
+        "Si hace mil años ibas caminando por el bosque y oías algo moverse entre los arbustos, hacías bien en ser paranoico.",
+        "Digamos que nueve de cada diez veces es un conejo y una de cada diez es un tigre.",
+        "El optimista cazaría un conejo nueve de cada diez veces y la décima se lo comería un tigre.",
+        "El pesimista, en cambio, sobrevive todas las veces.",
+        "Nuestra naturaleza evolucionada premia el pesimismo, pero vivimos en tiempos mucho más seguros, así que tenemos que encontrar la forma de superarlo y avanzar hacia la paz."
+      ]
+    },
+    {
+      "id": "b38-naval",
+      "speaker": "Naval",
+      "frases": [
+        "En algunos aspectos, la vida moderna es más ajetreada que en la prehistoria, y nuestras fuentes de estrés son más crónicas.",
+        "Definamos el estrés, que en términos físicos se produce cuando algo quiere estar en dos sitios a la vez.",
+        "Si aplico presión a los dos extremos de una viga de hierro, creo tensión en la viga, porque una parte quiere ir al norte y la otra al sur."
+      ]
+    },
+    {
+      "id": "b39-naval",
+      "speaker": "Naval",
+      "frases": [
+        "En términos mentales, el estrés es la incapacidad de decidir qué es importante.",
+        "Quieres dos cosas incompatibles a la vez, quiero relajarme pero tengo que trabajar, y ya estoy estresado.",
+        "Cuando renuncias a algo, deja de estresarte, y cuando aceptas que algo escapa a tu control, no tiene sentido estresarte por ello.",
+        "La mente crea estrés constantemente, y te vuelve más paranoico o más iracundo de lo que la situación justifica.",
+        "Lo que quieres es encontrar paz frente a la mente.",
+        "No se trata de apagar el cerebro, porque no puedes reprimir la mente ni obligarla a hacer nada.",
+        "Si te digo que no pienses en un elefante blanco, pensarás en un elefante blanco.",
+        "Más bien, se trata de desarrollar herramientas para que tu mente se calme sola, y así el estrés desaparecerá de forma natural.",
+        "¿Cómo se hace eso?",
+        "¿Cómo acabas teniendo una mente más tranquila?"
+      ]
+    },
+    {
+      "id": "b40-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Hay una frase que me gusta, la paz es felicidad en reposo y la felicidad es paz en movimiento.",
+        "Alguien que está en paz en reposo acabará siendo feliz cuando haga algo.",
+        "Y una persona feliz que está sin hacer nada estará en paz.",
+        "El objetivo último no es la felicidad, aunque usemos mucho esa palabra, el objetivo es la paz.",
+        "Así que la pregunta es cómo llegar a la paz.",
+        "El primer problema para alcanzar la paz es que ninguna actividad te llevará hasta ella.",
+        "En el fondo, la paz es inactividad, es la sensación de que todo está bien.",
+        "Si todo está bien, no estás haciendo ninguna actividad física ni mental para cambiarlo.",
+        "Y tampoco estás deseando hacer algo para cambiarlo, porque eso crea estrés."
+      ]
+    },
+    {
+      "id": "b41-naval",
+      "speaker": "Naval",
+      "frases": [
+        "No puedes alcanzar la paz directamente, ni siquiera trabajar para conseguirla.",
+        "Lo que sí puedes es trabajar para comprender.",
+        "Hay un viejo dicho sij que dice que el nombre de Dios es la verdad.",
+        "Cuando entiendes ciertas cosas y pasan a formar parte de ti, te vuelves de forma natural una persona más en paz."
+      ]
+    },
+    {
+      "id": "b42-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Hace tiempo tuiteé que, cuanto más cerca estás de la verdad, más silencioso te vuelves por dentro.",
+        "Lo sabemos de forma intuitiva, cuando alguien habla demasiado o hace de bufón de la corte, sabes que no está en paz.",
+        "Sabes que Robin Williams no estaba en paz por dentro."
+      ]
+    },
+    {
+      "id": "b43-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Esperamos que un sabio como Lao Tse o Sócrates sea callado, no porque intente parecer sabio, sino porque está callado por dentro.",
+        "Entendemos que la paz y la sabiduría van juntas.",
+        "Kapil Gupta, que ha escrito sobre este tema mucho más que yo, dijo que la sabiduría engendra estoicismo, pero el estoicismo no engendra sabiduría.",
+        "A medida que te vuelves sabio, te vuelves estoico de forma natural.",
+        "No te vuelves sabio por ser estoico, eso es poner el carro delante de los caballos.",
+        "Por cierto, el otro día uno de mis tuits se malinterpretó de una forma increíble, y mucha gente suspendió ese test de inteligencia.",
+        "Escribí que cuanto más listo te vuelves, más despacio lees.",
+        "Los aficionados a la lectura rápida saltaron, y hubo quien dijo que Bill Gates lee ciento cincuenta libros al año.",
+        "Otros dijeron que ellos leen muy despacio, así que deben de ser listos.",
+        "Lo entendieron mal, porque yo dije que si pasa A, entonces pasa B, y eso no significa que si pasa B, entonces pasa A."
+      ]
+    },
+    {
+      "id": "b44-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Lo que se considera verdad es motivo de disputa.",
+        "Los individuos buscan la verdad, pero los grupos buscan el consenso, y la sociedad es el grupo más grande.",
+        "Así que el mayor problema con el que nos topamos es que lo que la sociedad quiere para ti no siempre es lo que te conviene."
+      ]
+    },
+    {
+      "id": "b45-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Incluso la gente lista y con pensamiento crítico acepta muchas de las verdades de la sociedad, aun sabiendo en el fondo que son mentiras.",
+        "Te pongo un ejemplo sencillo, que el dinero no da la felicidad es una verdad social, pero no es una verdad individual.",
+        "Fíjate en todas las personas que intentan ganar dinero.",
+        "Saben que el dinero puede eliminar muchas fuentes de infelicidad y llevarlas a un punto en el que la felicidad está bajo su control.",
+        "Pasa a ser una elección suya, en lugar de algo que les imponen fuerzas externas.",
+        "Esa es solo una de las muchas mentiras que te cuenta la sociedad.",
+        "Otra de las mentiras de la sociedad es que mandas a tus hijos al colegio para que se eduquen.",
+        "En realidad, reciben una hora de educación al día y adoctrinamiento el resto del tiempo.",
+        "Les enseñan al ritmo del alumno más lento, y sobre todo les enseñan materias irrelevantes u obsoletas.",
+        "El colegio es una combinación de un poco de educación, grandes dosis de socialización y de entrenamiento en la obediencia, y una dosis enorme de guardería.",
+        "Eso ayuda a los padres que no pueden cuidar de sus hijos en casa, y además mantiene a los jóvenes alborotadores fuera de la calle.",
+        "El colegio hace muchas cosas, pero la educación es solo una pequeña parte.",
+        "Las estadísticas de la educación en casa lo demuestran claramente, e incluso las de la desescolarización empiezan a demostrarlo."
+      ]
+    },
+    {
+      "id": "b46-naval",
+      "speaker": "Naval",
+      "frases": [
+        "La sociedad no solo te miente, sino que te programa para que te fustigues cuando incumples una de sus verdades.",
+        "La culpa es la sociedad programándote de forma tan eficaz que te conviertes en tu propio carcelero.",
+        "La culpa es la voz de la sociedad hablando en tu cabeza.",
+        "Buscar la verdad es un trabajo duro, porque en el fondo tienes que entender, con una convicción profunda, cosas que te han programado para malinterpretar."
+      ]
+    },
+    {
+      "id": "b47-naval",
+      "speaker": "Naval",
+      "frases": [
+        "La búsqueda de la paz es, en realidad, la búsqueda de la verdad.",
+        "Intenta ver la ventaja de entender las cosas descubriendo la verdad, en lugar de a base de práctica."
+      ]
+    },
+    {
+      "id": "b48-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Digamos que estoy intentando dejar de fumar, hay técnicas que puedo probar, pero siempre son dolorosas y difíciles.",
+        "A menudo llega un momento en el que me veo de una forma nueva que hace que el hábito desaparezca por sí solo.",
+        "Me diagnostican un cáncer de pulmón y entiendo que voy a morir, o veo a un amigo meterse en problemas por malos hábitos parecidos.",
+        "Cuando veo algo con suficiente claridad y lo entiendo, el mal hábito puede disolverse por sí solo.",
+        "En un sentido más amplio, puede que vea alguna faceta de mí mismo que no me gusta.",
+        "Quizá la veo en un amigo y después ya no puedo dejar de verla, hasta el punto de que ya no podemos ser amigos."
+      ]
+    },
+    {
+      "id": "b49-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Ver y entender las cosas lleva a cambios que la práctica y la técnica no pueden conseguir.",
+        "Cuando sigues una técnica, siempre hay una distancia entre tú y lo que intentas conseguir, y siempre hay repetición, lucha y conflicto.",
+        "Si queremos paz, tenemos que renunciar al conflicto con nosotros mismos.",
+        "Incluso tenemos que renunciar a la superación personal, porque la superación personal no es más que conflicto con uno mismo disfrazado.",
+        "En lugar de eso, tenemos que usar nuestra curiosidad natural para entender mejor las cosas.",
+        "A través de la comprensión, mejoraremos de forma natural.",
+        "Cuando de verdad entendemos los efectos de la comida poco sana en nuestro cuerpo, cambiamos a mejor de forma automática.",
+        "Lo vemos en los kilos de más que cargamos, en el pico y la caída de glucosa después de tomar demasiado azúcar, o en cómo la cafeína nos acelera y luego nos hunde.",
+        "Así que el camino hacia la paz es la verdad."
+      ]
+    }
+  ]
+}

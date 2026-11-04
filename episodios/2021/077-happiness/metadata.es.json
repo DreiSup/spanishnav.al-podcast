@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 77,
+  "anio": 2021,
+  "slug": "happiness",
+  "titulo_es": "La felicidad",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "La felicidad",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). Recopilación. El 077 Happiness no tiene texto propio: sus 49 bloques son, uno a uno y en el mismo orden, los bloques de los episodios 053 a 067 (053 philosopher, 054 material, 055 math, 056 skill, 057 desire, 058 smart, 059 inefficient, 060 least, 061 addiction, 062 unacceptable, 063 peace, 064 peace-motion, 065 silent, 066 consensus y 067 truth). El español se monta con sus traducciones aprobadas, sin cambiar una palabra: casan los 49 bloques y los 62 títulos de sección, así que las mismas frases suenan igual y hasta se podrán reutilizar los clips de TTS. Lo único traducido aquí es el título: La felicidad. titulo_seccion viene vacío en inglés y se deja vacío. Nota del editor de nav.al, quitada del texto y no locutada: «Una recopilación de todos mis episodios sobre la felicidad». El inglés no trae artefactos del copiado: ni corchetes ni insertos del editor. Hablantes: Naval en todos los bloques menos b04, que es de Nivi, como en el 053. Bloque fuera de rango: b02, con ratio 0,84, heredado del 053 b02. Las cuatro preguntas «How do I…?» se comprimen en «¿Cómo…?» y no falta contenido; la justificación es la misma que en las notas del 053. El validador de la skill marca un error en Formato 5 por titulo_seccion vacío. Es intencionado, porque el inglés lo trae vacío y la instrucción es dejarlo así. El normalizador con --simular da cero avisos. Ya se aplican las decisiones del autor heredadas (no se reabren): paz mental y paz frente a la mente, Lao Tse, test de inteligencia, «si pasa A, entonces pasa B» y «uno se come a otro». Antes de sintetizar hay que escuchar estos nombres: Osho, Kapil Gupta, Miyamoto Musashi, Lao Tse, Confucio, Sócrates, Buda, Robin Williams, Elon Musk, Warren Buffett, Bill Gates y el dicho sij (la palabra sij)."
+}

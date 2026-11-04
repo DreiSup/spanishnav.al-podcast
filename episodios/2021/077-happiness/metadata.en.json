@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 77,
+  "anio": 2021,
+  "slug": "happiness",
+  "titulo": "Happiness",
+  "subtitulo": "",
+  "fecha_publicacion": "2021-03-12",
+  "fuente_url": "https://nav.al/happiness",
+  "orden_archivo": 81,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}
