@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 14,
+  "anio": 2019,
+  "slug": "creative-technical",
+  "titulo": "Specific Knowledge Is Highly Creative or Technical",
+  "subtitulo": "Specific knowledge is on the bleeding edge of technology, art and communication",
+  "fecha_publicacion": "2019-03-28",
+  "fuente_url": "https://nav.al/creative-technical",
+  "orden_archivo": 18,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}
