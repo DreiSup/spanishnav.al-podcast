@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2021/118-far-away",
+  "numero": 118,
+  "fecha": "2021-11-12",
+  "titulo": "Quizá los extraterrestres simplemente estén demasiado lejos",
+  "subtitulo": "Puede que no estemos solos en el universo, sino demasiado lejos unos de otros",
+  "fuente_url": "https://nav.al/far-away",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-brett",
+      "speaker": "Brett",
+      "frases": [
+        "Seguimos teniendo el problema de qué estuvo haciendo el ADN durante esos dos mil quinientos millones de años, más o menos, que son la inmensa mayoría de la historia de la vida en la Tierra.",
+        "¿Por qué no evolucionó en absoluto durante todo ese tiempo?",
+        "¿Qué es lo que estaba pasando?",
+        "Hay un libro de Peter Ward y Donald Brownlee sobre la llamada hipótesis de la Tierra rara, y estos autores hablan de todas las cosas peculiares que pasaron en la historia evolutiva de la Tierra.",
+        "Yo me he centrado solo en el hecho de que nosotros, los explicadores universales, evolucionamos al parecer por casualidad, y al parecer una sola vez.",
+        "Pero si miras más atrás, te das cuenta de que pasar de bacterias unicelulares a un organismo pluricelular fue algo raro e insólito, y que no se ha podido repetir en un laboratorio.",
+        "Luego hubo que pasar del organismo pluricelular a algo parecido a una planta, y después a algo parecido a un animal.",
+        "Cada uno de esos pasos parece haberse dado por razones que no entendemos."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Puede que estén influyendo varias cosas a la vez, y tu argumento puede ser estadístico en lugar de absoluto.",
+        "Puede que no estemos solos en el universo, pero llegar a ser explicadores universales podría ser algo rarísimo.",
+        "Y cuando multiplicas eso por las distancias interestelares, que son inmensas, quizá simplemente estemos demasiado lejos unos de otros.",
+        "Creo que Fermi también partía de un supuesto poco razonable, que los extraterrestres capaces de viajar entre estrellas descubrirían cómo superar la velocidad de la luz.",
+        "Y eso cuando no tenemos ni la menor hipótesis de cómo podría ser posible algo así.",
+        "No tenemos nada que se parezca ni de lejos a una forma de superar la velocidad de la luz.",
+        "Así que, si estás limitado por la velocidad de la luz y el salto a explicadores universales es raro, quizá simplemente estemos demasiado lejos, y puede que todo lleve mucho más tiempo.",
+        "El universo es muy grande, pero también está casi completamente vacío, al menos en lo que se refiere a planetas y estrellas.",
+        "Por eso sigue siendo bastante razonable decir que los humanos y los explicadores parecidos a los humanos son bastante raros.",
+        "Su aparición por el universo todavía está en una fase temprana, y están separados por distancias tan increíblemente grandes que no nos hemos encontrado.",
+        "Si nos hubiéramos encontrado, creo que lo sabríamos.",
+        "Por ejemplo, para cuando llegara aquí una nave extraterrestre, sus ondas de radio habrían llegado mucho antes.",
+        "En la historia de una civilización hay un periodo bastante largo en el que ya ha inventado la radio y emite ondas de radio hacia el espacio.",
+        "Y eso pasa mucho antes de que invente los viajes interestelares y empiece a mandar cohetes y civilizaciones por todo el universo."
+      ]
+    }
+  ]
+}
