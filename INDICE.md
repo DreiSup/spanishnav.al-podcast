@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**30** episodios · **0** publicados · **0** sin empezar
+**31** episodios · **0** publicados · **0** sin empezar
 
 ## 2020
 
@@ -41,5 +41,6 @@
 | 45 | [045-short](episodios/2019/045-short) | Convierte los juegos de corto plazo en juegos de largo plazo | 🟠 en revisión | — | — |
 | 46 | [046-relationships](episodios/2019/046-relationships) | Las relaciones que componen te hacen la vida más fácil | 🟠 en revisión | — | — |
 | 47 | [047-price-discrimination](episodios/2019/047-price-discrimination) | Discriminación de precios: cobrar más a algunos | 🟠 en revisión | — | — |
+| 48 | [048-surplus](episodios/2019/048-surplus) | Excedente del consumidor: recibir más de lo que pagaste | 🟠 en revisión | — | — |
 | 51 | [051-angel-1](episodios/2019/051-angel-1) | Cómo invertir como ángel, parte uno | 🟠 en revisión | — | — |
 | 52 | [052-rich](episodios/2019/052-rich) | Cómo hacerse rico | 🟠 en revisión | — | — |

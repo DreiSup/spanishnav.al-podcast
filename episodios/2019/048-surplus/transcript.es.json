@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2019/048-surplus",
+  "numero": 48,
+  "fecha": "2019-07-25",
+  "titulo": "Excedente del consumidor: recibir más de lo que pagaste",
+  "subtitulo": "La gente está dispuesta a pagar más de lo que cobran las empresas",
+  "fuente_url": "https://nav.al/surplus",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "El excedente del consumidor y el excedente del productor son conceptos importantes.",
+        "El excedente del consumidor es el valor de más que sacas de algo cuando pagas menos de lo que estabas dispuesto a pagar.",
+        "Yo disfruto mucho de mi café de Starbucks por la mañana.",
+        "Obviamente he ganado algo de dinero.",
+        "Así que si mi café costase veinte dólares, lo pagaría.",
+        "Pero Starbucks no lo sabe.",
+        "No pueden poner el café a veinte dólares solo para mí, porque están vendiendo exactamente el mismo producto a los demás.",
+        "Así que estoy sacando mucho excedente del consumidor de ese café.",
+        "Todos los negocios generan excedente del consumidor.",
+        "Es bueno tenerlo en cuenta cuando alguien se pone pesado con lo malvadas que son las empresas.",
+        "Amazon puede ser una empresa que vale un billón de dólares, pero apuesto a que está generando billones de dólares de excedente del consumidor por lo que la gente está dispuesta a pagar por la comodidad.",
+        "Mucha gente está dispuesta a pagar más de lo que cobra Amazon."
+      ]
+    }
+  ]
+}

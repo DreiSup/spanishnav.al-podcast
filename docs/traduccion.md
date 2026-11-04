@@ -49,3 +49,4 @@ abiertas («…talk about sex.» sin «”»). Afecta solo al inglés, que no se
 | 2026-11-03 | 064 Happiness Is Peace in Motion | revision | 4 | 26 | 398 | 2,3 | Cero avisos. Paz frente a la mente (opción C del autor) |
 | 2026-11-04 | 046 Compounding Relationships Make Life Easier | revision | 5 | 25 | 434 | 2,6 | Cero avisos. Workflow de especialistas (4-nov); 6 decisiones aplicadas, ver notas |
 | 2026-11-04 | 047 Price Discrimination: Charge Some People More | revision | 3 | 13 | 219 | 1,3 | Cero avisos. Workflow de especialistas (4-nov); 3 decisiones aplicadas, ver notas |
+| 2026-11-04 | 048 Consumer Surplus: Getting More Than You Paid For | revision | 1 | 12 | 171 | 1,0 | Cero avisos. Workflow de especialistas (4-nov); 1 decisiones aplicadas, ver notas |

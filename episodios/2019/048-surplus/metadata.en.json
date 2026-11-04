@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 48,
+  "anio": 2019,
+  "slug": "surplus",
+  "titulo": "Consumer Surplus: Getting More Than You Paid For",
+  "subtitulo": "People are willing to pay more than what companies charge",
+  "fecha_publicacion": "2019-07-25",
+  "fuente_url": "https://nav.al/surplus",
+  "orden_archivo": 52,
+  "en_feed": true,
+  "participantes": [
+    "Naval"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}
