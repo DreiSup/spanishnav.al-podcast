@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 3,
+  "anio": 2019,
+  "slug": "free-markets",
+  "titulo": "Free Markets Are Intrinsic to Humans",
+  "subtitulo": "We use credits and debits to cooperate across genetic boundaries",
+  "fecha_publicacion": "2019-03-05",
+  "fuente_url": "https://nav.al/free-markets",
+  "orden_archivo": 7,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}
