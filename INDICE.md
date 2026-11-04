@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**92** episodios · **0** publicados · **0** sin empezar
+**93** episodios · **0** publicados · **0** sin empezar
 
 ## 2021
 
@@ -63,6 +63,7 @@
 | 124 | [124-compromise](episodios/2021/124-compromise) | La miseria del término medio | 🟠 en revisión | — | — |
 | 125 | [125-feedback](episodios/2021/125-feedback) | Los mercados libres dan la mejor retroalimentación | 🟠 en revisión | — | — |
 | 126 | [126-social](episodios/2021/126-social) | Hacer algo social destruye su verdad | 🟠 en revisión | — | — |
+| 127 | [127-failure](episodios/2021/127-failure) | Los grupos nunca admiten el fracaso | 🟠 en revisión | — | — |
 
 ## 2020
 

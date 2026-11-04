@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 127,
+  "anio": 2021,
+  "slug": "failure",
+  "titulo_es": "Los grupos nunca admiten el fracaso",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Los grupos nunca admiten el fracaso",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). 127 Los grupos nunca admiten el fracaso. Sin notas del editor. Ratio 1,10, ningún bloque fuera de rango. El subtítulo You get a schism instead es media frase en inglés y se completa como En su lugar, se produce un cisma, que es la fórmula del brief. We thought A, but the answer's actually B se resuelve sin letras sueltas según D10: pensaban una cosa, pero que en realidad la respuesta era otra. ETH se dice Ethereum. Las citas We were repressed, We made a mistake, We should have smart contracts y We should have been immutable van en estilo indirecto. Mythology se traduce como el mito. Begging bowl se traduce con la frase hecha pasar el platillo. Términos: retroalimentación, el mundo cripto, las monedas se bifurcan, contratos inteligentes, empresa o entidad con ánimo y sin ánimo de lucro, utilidad marginal decreciente, rendimientos decrecientes. Nombres que hay que escuchar en el TTS: Bitcoin y Ethereum."
+}

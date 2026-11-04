@@ -110,3 +110,4 @@ abiertas («…talk about sex.» sin «”»). Afecta solo al inglés, que no se
 | 2026-11-04 | 124 The Poverty of Compromise | revision | 1 | 32 | 572 | 3,4 | Cero avisos. Workflow de especialistas (4-nov); 2 decisiones aplicadas, ver notas |
 | 2026-11-04 | 125 Free Markets Provide the Best Feedback | revision | 2 | 30 | 556 | 3,3 | Cero avisos. Workflow de especialistas (4-nov); 2 decisiones aplicadas, ver notas |
 | 2026-11-04 | 126 Making Something Social Destroys the Truth of It | revision | 1 | 27 | 490 | 2,9 | Cero avisos. Workflow de especialistas (4-nov); 1 decisiones aplicadas, ver notas |
+| 2026-11-04 | 127 Groups Never Admit Failure | revision | 1 | 27 | 442 | 2,6 | Cero avisos. Workflow de especialistas (4-nov); 1 decisiones aplicadas, ver notas |
