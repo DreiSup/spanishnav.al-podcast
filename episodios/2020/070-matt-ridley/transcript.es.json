@@ -1,0 +1,451 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2020/070-matt-ridley",
+  "numero": 70,
+  "fecha": "2020-07-09",
+  "titulo": "Matt Ridley, claves de la innovación, parte uno",
+  "subtitulo": "La innovación es hija de la libertad",
+  "fuente_url": "https://nav.al/matt-ridley",
+  "titulos_seccion": [
+    "Quién es Matt",
+    "El nuevo libro",
+    "Invención frente a innovación",
+    "Individuos frente a equipos",
+    "La concentración geográfica de la innovación",
+    "Cripto",
+    "Fragmentación política e innovación"
+  ],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "No tengo héroes, pero sí hay personas a las que admiro y de las que he aprendido mucho.",
+        "Y Matt Ridley, que está al otro lado de la línea, tiene que estar casi en lo más alto de esa lista.",
+        "De joven era un lector voraz, sobre todo de ciencia.",
+        "Matt influyó más que casi ningún otro autor en atraerme hacia la ciencia y en hacer que me enamorara de ella.",
+        "El primer libro suyo que leí se titula Genoma.",
+        "Debo de tener seis o siete ejemplares con las esquinas dobladas, repartidos por distintas cajas.",
+        "Me ayudó a definir qué es la vida, cómo funciona y por qué es importante, y colocó la evolución en el centro de mi visión del mundo como principio unificador.",
+        "Es un tema recurrente que atraviesa los libros de Matt.",
+        "Después leí su libro La reina roja, que describe la competición ancestral entre las bacterias, los virus y los seres humanos, un tema de enorme actualidad hoy en día.",
+        "También leí su libro El optimista racional, que me hizo ver que era racional ser optimista.",
+        "Ser optimista era racional por el avance tecnológico y científico que hemos logrado como especie humana desde que dimos con el hacha de piedra y las herramientas básicas.",
+        "Su libro El origen de la virtud me ayudó a abordar las virtudes y la ética desde el marco de la teoría de juegos.",
+        "Su libro La evolución de todo continuó con ese tema, la idea de que todo evoluciona.",
+        "Siento decir que se me han escapado uno o dos de tus libros, Matt.",
+        "Uno de ellos es el titulado Qué nos hace humanos, y tengo que volver a por él para leerlo.",
+        "Y hace muy poco, Matt ha escrito un libro estupendo titulado Claves de la innovación, que ya habrá salido cuando se publique este podcast.",
+        "He tenido el placer de leer un ejemplar anticipado durante la última semana.",
+        "Bienvenido, Matt, para mí es un honor tenerte aquí.",
+        "¿Quieres contarnos un poco de tu trayectoria y de cómo empezaste a escribir sobre ciencia?"
+      ]
+    },
+    {
+      "id": "b02-matt",
+      "speaker": "Matt",
+      "frases": [
+        "Naval, es un placer conocerte, y me parece muy interesante oír que has leído tantos libros míos y que has captado lo esencial de ellos, y eso es maravilloso.",
+        "Soy alguien que ha disfrutado escribiendo toda la vida.",
+        "Me hice periodista profesional después de una breve carrera como científico.",
+        "Solo llegué a hacer un doctorado en biología, y luego decidí que prefería ser escritor.",
+        "Así que me hice periodista, y durante varios años fui editor de ciencia en The Economist, donde también trabajé como reportero político y corresponsal.",
+        "Después me hice escritor independiente, y fue entonces cuando escribí La reina roja, un libro cercano a lo que había estudiado como biólogo, es decir, la evolución del sexo.",
+        "A partir de ahí he tenido muchísima suerte, porque me han dado contratos para escribir libros sobre cosas que me interesan.",
+        "Ahora mismo saco un libro más o menos cada cinco años.",
+        "Pero no me pongo con un libro hasta que un tema me interesa lo suficiente.",
+        "Es una decisión muy difícil, porque lanzarte a escribir un libro sobre un tema significa renunciar a todos los demás temas sobre los que querrías escribir."
+      ]
+    },
+    {
+      "id": "b03-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Leí este libro para preparar esta conversación, así que la lectura acabó teniendo algo de obligación.",
+        "Normalmente uno lee por puro placer, a su ritmo, y esta vez se trataba más bien de cumplir un plazo.",
+        "Dicho esto, es el libro tuyo que más me ha impactado desde Genoma, y me ha abierto mucho los ojos.",
+        "Hay dos cosas de este libro que, para mí, lo ponen en una categoría distinta a la de tus libros anteriores.",
+        "La primera es que corrigió una idea equivocada que tenía desde hacía mucho sobre cómo funciona Silicon Valley.",
+        "Estoy empapado de Silicon Valley, vivo aquí desde mil novecientos noventa y seis y soy inversor en cientos de empresas.",
+        "Además, he fundado cerca de una docena de empresas.",
+        "Creía conocer este juego tan bien como cualquiera, pero tu libro corrigió un error grave en mi esquema de cómo funciona Silicon Valley, y ya entraremos en eso.",
+        "La segunda cosa de este libro es que es práctico y aplicable.",
+        "La primera mitad es una colección de historias increíbles sobre inventores e innovadores, que por sí sola ya sería una lectura de historia entretenida.",
+        "Pero luego la segunda mitad explica cómo funciona la innovación, qué la ayuda a funcionar y qué impide que funcione.",
+        "Y explica qué condiciones hacen que funcione y cuáles hacen que no funcione.",
+        "Así que recomiendo este libro a dos tipos de personas.",
+        "El primer grupo son los propios innovadores y los que aspiran a serlo.",
+        "Si eres emprendedor en Silicon Valley, Shanghái o Bangalore y piensas crear productos, ya sean redes sociales, el lanzamiento de cohetes, la fabricación de aviones o la ingeniería genética, tienes que leer este libro.",
+        "Te dará una visión de la historia de la innovación, y también de su futuro, mejor que cualquier otro libro que yo conozca.",
+        "Ese contexto será importantísimo cuando intentes resolver cosas como si debes solicitar patentes, qué importancia tiene la ciencia o qué papel juega el gobierno.",
+        "También tendrás que calcular cuánto tardará la gente en adoptar tu innovación, y cuánto te tocará invertir en batallas legales.",
+        "Y lo tendrás que comparar con lo que dediques a explicarle las cosas a la gente o a construir el producto.",
+        "Así que es de lectura obligada para ese tipo de personas.",
+        "El otro grupo para el que es muy relevante son los cargos públicos.",
+        "Muchos de ellos dicen de boquilla que quieren construir el próximo Silicon Valley o atraer a los emprendedores, pero no saben cómo hacerlo.",
+        "La gente me lo pregunta continuamente, y yo les doy respuestas básicas y vagas, como que hace falta algo de libertad, buen clima y un sistema universitario.",
+        "Pero cerca del final, este libro trae un manual práctico para fomentar ese entorno."
+      ]
+    },
+    {
+      "id": "b04-matt",
+      "speaker": "Matt",
+      "frases": [
+        "Me alegra mucho que te parezca práctico y aplicable, porque era una de las cosas que quería conseguir con este libro.",
+        "En general, la mayoría de mis libros se dedican a pensar el mundo más que a cambiarlo.",
+        "Pero en este caso quería intentar centrarme en los aspectos prácticos de lo que de verdad implica la innovación."
+      ]
+    },
+    {
+      "id": "b05-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Hay una frase que saqué de cerca del final del libro, la idea de que la innovación es hija de la libertad y madre de la prosperidad.",
+        "Me encanta esa frase, ahí tienes un tuit buenísimo.",
+        "Lo de hija de la libertad responde a cómo se crea la innovación, y en el libro das una definición muy amplia de la libertad.",
+        "Y lo de madre de la prosperidad explica por qué es importante.",
+        "Podemos entrar en las dos cosas, pero me pareció un buen resumen.",
+        "No sé si querías que fuera el resumen, pero es la frase que más me llamó la atención."
+      ]
+    },
+    {
+      "id": "b06-matt",
+      "speaker": "Matt",
+      "frases": [
+        "Sí, desde luego, a menudo son las ideas de los demás las que despiertan las tuyas.",
+        "Casi necesitas que alguien te diga lo que estás diciendo.",
+        "Este tema de la libertad, que acabó en la portada del libro, me lo señaló su primer lector, un amigo mío muy inteligente, John Constable, que piensa las cosas muy a fondo.",
+        "Volvió y me dijo, bueno, el tema de fondo es la libertad, ¿te has dado cuenta?",
+        "Y le contesté, pues no, no creo que me hubiera dado cuenta.",
+        "Luego reescribí algunas partes, y seguramente de ahí salió esa frase tan redonda, en una de las últimas reescrituras."
+      ]
+    },
+    {
+      "id": "b07-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Otro tema muy evidente y profundo es esa conversación que se repite una y otra vez sobre casi todo en la historia.",
+        "¿Es la historia el producto de unos pocos grandes hombres y mujeres, de unos pocos grandes logros, momentos, batallas e inventos que aparecen por casualidad?",
+        "¿O es un proceso inevitable, inexorable y evolutivo?",
+        "Tú demuestras de forma concluyente, con muchísimas pruebas, que la innovación es un proceso evolutivo y no un proceso de invención.",
+        "Y lo llamas innovación en lugar de invención.",
+        "Parece una elección deliberada, así que háblame de esa elección."
+      ]
+    },
+    {
+      "id": "b08-matt",
+      "speaker": "Matt",
+      "frases": [
+        "Intento distinguir entre invención e innovación, y aunque no es una distinción grabada en piedra, creo que es la mejor forma de pensar en ello.",
+        "La invención consiste en dar con el prototipo de un aparato nuevo o de una nueva práctica social.",
+        "La innovación es el trabajo de convertir ese aparato nuevo en algo práctico, asequible y fiable que la gente quiera usar y tener.",
+        "Es el proceso de bajar el precio, de mejorar la fiabilidad y la eficiencia del aparato, y también de convencer a los demás para que lo adopten.",
+        "Thomas Edison lo ilustra muy bien, aunque no creo que usara mucho la palabra innovación, él hablaba de invención.",
+        "Pero sobre todo es un innovador, porque no siempre se le ocurren ideas originales, sino que toma las ideas de otros y las convierte en propuestas prácticas.",
+        "Edison decía que esto es un uno por ciento de inspiración y un noventa y nueve por ciento de transpiración.",
+        "Lo que intento con este libro es rescatar del olvido a los del sudor y quitar un poco de protagonismo a los de la inspiración.",
+        "Los de la inspiración siempre creerán que merecen casi todo el mérito, y a veces se quejan de no recibir suficiente recompensa porque la idea original era suya.",
+        "Me gusta contar una historia que contaba Charles Townes, el inventor del láser, sobre un conejo y un castor que miran la presa Hoover.",
+        "Y el castor le dice al conejo, no, no la construí yo, pero está basada en una idea mía.",
+        "Así ven muchas veces los inventores las innovaciones, y piensan, ¡venga ya, si la idea fue mía!",
+        "Pero convertir una idea en algo práctico exige muchísimo trabajo y mucho talento."
+      ]
+    },
+    {
+      "id": "b09-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Esto es algo que aprendes muy pronto en Silicon Valley, que las ideas abundan y no valen nada.",
+        "Todas las ideas llevan tiempo flotando por ahí.",
+        "Incluso muchas de las ideas antiguas que fracasaron no eran necesariamente malas ideas, simplemente llegaron en mal momento.",
+        "En mil novecientos noventa y nueve, por ejemplo, tuvimos la burbuja puntocom.",
+        "Entonces fracasaron cosas como Webvan y Kozmo, pero ahora tenemos Instacart, Postmates y DoorDash, que funcionan.",
+        "Tuvimos Pets punto com, que se hundió, y ahora Amazon ha comprado una gran empresa de comida para perros por más de quinientos millones de dólares.",
+        "Así que estas cosas sí funcionan, solo necesitan la estructura adecuada de innovaciones previas sobre la que construir.",
+        "Y a veces das un salto demasiado grande hacia delante.",
+        "Todavía no existen las innovaciones previas en las que apoyarte, ni los gigantes a cuyos hombros quieres subirte, así que intentas construir demasiado por tu cuenta, desde cero."
+      ]
+    },
+    {
+      "id": "b10-matt",
+      "speaker": "Matt",
+      "frases": [
+        "Una de las cosas que hago en este libro es restarle un poco de importancia a la disrupción.",
+        "La mayoría de las veces, la innovación es un proceso que avanza poco a poco.",
+        "Parece disruptiva cuando miras hacia atrás, pero en su momento es sorprendentemente gradual.",
+        "La primera versión de una tecnología nueva se parece sorprendentemente a la última versión de una tecnología antigua."
+      ]
+    },
+    {
+      "id": "b11-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Esta es la idea equivocada sobre Silicon Valley que me corregiste.",
+        "Crecí leyendo ciencia y leyendo sobre científicos, y al principio quería ser científico.",
+        "Pero nunca se me dio muy bien, y sabía que no iba a ser un físico de primer nivel mundial.",
+        "Además quería ganar dinero, así que cambié de rumbo hacia el negocio de la tecnología, que creía que consistía en comercializar la ciencia y llevarla a las masas.",
+        "Llegué a Silicon Valley pensando que la invención era eso que había leído en los libros, un inventor genial que da con un invento nuevo y cambia el mundo.",
+        "Orville y Wilbur Wright crearon el avión, Samuel Morse creó el telégrafo y Alexander Graham Bell creó el teléfono.",
+        "Newton y Leibniz descubrieron el cálculo, y sin ellos nos habríamos quedado atascados en la Edad Oscura quién sabe cuánto tiempo.",
+        "Así es como yo creía que funcionaba el mundo.",
+        "Cuando llegué a Silicon Valley, miré a mi alrededor y no vi que pasara eso.",
+        "No vi a un solo inventor genial creando una sola cosa que de repente cambiara el mundo.",
+        "Lo que vi, en cambio, fue a mucha gente trasteando y haciendo muchos pequeños retoques.",
+        "En algún rincón de mi cabeza adopté una mentalidad, la de que ya no somos tan innovadores como antes.",
+        "Y eso aunque estoy en Silicon Valley, y aunque hoy sea el motor de la innovación del mundo, o al menos lo parezca.",
+        "Pensaba que habíamos perdido a los grandes personajes y los objetivos audaces, que ya no inventábamos cosas nuevas y que el inventor solitario había desaparecido.",
+        "Tu libro me enseñó que eso era un mito, y que ese inventor solitario nunca existió.",
+        "La innovación está ocurriendo ahora mismo a nuestro alrededor, sobre todo en los ámbitos que no están regulados.",
+        "En Silicon Valley hay una vieja broma que dice que nos va bien porque operamos en los últimos ámbitos sin regular.",
+        "Pero a mí no me parecía que estuviera habiendo innovación.",
+        "Ahora me doy cuenta de que es un proceso evolutivo, con mucha gente mirándolo desde puntos de vista distintos.",
+        "Quizá sí estoy en una industria innovadora, pero no soy capaz de verlo, porque lo veo desde dentro, como un proceso evolutivo, y no como una sucesión de grandes avances."
+      ]
+    },
+    {
+      "id": "b12-matt",
+      "speaker": "Matt",
+      "frases": [
+        "Me encanta oír que eso es lo que te ha pasado, porque me propuse con mucho empeño dejar clara esa idea.",
+        "No es que hubiera una edad de oro en la que los individuos inventaban cosas y que hoy lo hagan los equipos.",
+        "Siempre fueron equipos, en el sentido de colaboradores, aunque no trabajaran necesariamente para la misma institución.",
+        "Nuestra costumbre de darle el premio Nobel o la patente a un solo individuo ha tendido a destacar al gran hombre de la historia y a subirlo a un pedestal donde no necesariamente merece estar.",
+        "Ese individuo es muy importante, pero es el que pone la última piedra del arco, y el resto del arco lo construyeron otros.",
+        "En el libro hablo de uno de mis héroes, Norman Borlaug, que desarrolló en México variedades de trigo de paja corta y alto rendimiento.",
+        "Después convenció a la India y a Pakistán para que las adoptaran, y con eso puso en marcha la revolución verde.",
+        "La revolución verde erradicó en gran medida las hambrunas en el subcontinente indio, y la India pasó de ser un país con hambre crónica a exportar alimentos.",
+        "¿Y de dónde sacó la idea de estas variedades enanas de trigo, que aguantaban más fertilizante y por tanto daban más rendimiento?",
+        "La sacó en un bar de Buenos Aires, durante un congreso, de Burton Bayles, un agrónomo bastante desconocido que coincidió allí con él.",
+        "Bayles había visto a Orville Vogel cultivar estas variedades en Oregón y cruzar unas con otras.",
+        "Orville Vogel había conseguido estas variedades de Cecil Salmon, que había formado parte del estado mayor de Douglas MacArthur en Tokio al final de la guerra.",
+        "Salmon había visitado estaciones agrícolas en Japón y había encontrado allí estas variedades enanas.",
+        "Las había desarrollado, cruzado, hibridado y mejorado Gonjiro Inazuka, que a su vez las había sacado de algún lugar de la península de Corea, y ahí se pierde el rastro.",
+        "Y si vuelves a Borlaug, ves que tampoco convenció a la India él solo.",
+        "Habló con el genetista indio Swaminathan, que recogió el testigo e hizo muchísimo trabajo para convencer a sus compatriotas de que adoptaran esta tecnología.",
+        "Así que es un buen ejemplo de lo que parece una cadena lineal de personas, pero que en cierto sentido también es un equipo, un esfuerzo de colaboración.",
+        "Y es una historia mucho más gradual de lo que parecería si se contara de la forma habitual."
+      ]
+    },
+    {
+      "id": "b13-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Esto también ayuda a explicar por qué la innovación suele estar concentrada geográficamente.",
+        "Si fuera cosa de grandes avances de individuos solitarios, cabría esperar que la innovación estuviera muy dispersa geográficamente.",
+        "Pero suele estar muy concentrada, allí donde estás rodeado de otros inventores, manitas y pensadores, porque siempre estás construyendo sobre pequeñas piezas sueltas.",
+        "Lo vemos en Silicon Valley, con una densidad y una concentración geográficas que casi parecen injustas para el resto del mundo.",
+        "La idea de alguien en un cóctel pasa a otra persona en una cafetería y acaba convertida en un prototipo.",
+        "Ese prototipo llega a un inversor de capital riesgo, que lo comenta con una empresa de su cartera, que a su vez se lo menciona a otro emprendedor, y así sucesivamente."
+      ]
+    },
+    {
+      "id": "b14-matt",
+      "speaker": "Matt",
+      "frases": [
+        "Me asombra lo concentrada geográficamente que está la innovación en cada momento de la historia.",
+        "En los últimos cincuenta años ha sido California, pero hubo una época en que fue la Gran Bretaña victoriana.",
+        "Hubo una época en que fueron los Países Bajos, y otra en que fue la Italia del Renacimiento.",
+        "En algún momento fue la antigua Grecia, durante un tiempo fue la provincia china de Fujian, y en otra época probablemente fue el valle del Ganges.",
+        "¿Por qué el incendio forestal de la innovación arde solo en un lugar en cada momento?",
+        "La clave está en entender el ecosistema en el que se mueven estas personas innovadoras.",
+        "No es solo que saquen ideas unos de otros, que se desafíen entre sí a innovar y que disfruten de formas únicas de libertad que se lo permiten.",
+        "Es que además se toman prestadas tecnologías directamente unos a otros.",
+        "Lo vi claro cuando escribía sobre el proceso de Haber, que fija el nitrógeno del aire.",
+        "Es un proceso muy importante, para bien y para mal, porque sirve para fabricar explosivos, pero también para fabricar fertilizantes.",
+        "Ese proceso no habría sido posible sin todas las demás industrias que tenía alrededor en Alemania, que producían los metales y los productos químicos de gran calidad que necesitaba.",
+        "Lo mismo pasará en Silicon Valley, porque una idea no funcionará sin la empresa vecina que produce los dispositivos y los programas necesarios para desarrollarla."
+      ]
+    },
+    {
+      "id": "b15-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Ahora ha llegado a otro nivel, porque cuando creas una innovación y lanzas un producto nuevo, necesitas clientes.",
+        "Los primeros en adoptarlo suelen ser otras empresas innovadoras.",
+        "En Silicon Valley tenemos una masa crítica de miles de empresas innovadoras que se compran productos unas a otras.",
+        "Así que no solo encuentras en un mismo lugar a tus innovadores y tu cantera de talento, sino que también encuentras allí a tus clientes.",
+        "Ese efecto de red acaba siendo muy fuerte, y por supuesto los políticos locales lo explotan con impuestos altos y servicios deficientes.",
+        "Atacan constantemente a la tecnología y la culpan de todos los males, pero les sale bien, porque esto se ha convertido en la gallina de los huevos de oro.",
+        "Es el yacimiento de petróleo que nunca deja de manar, así que pueden salirse con la suya en muchas cosas."
+      ]
+    },
+    {
+      "id": "b16-matt",
+      "speaker": "Matt",
+      "frases": [
+        "Hasta que un día deja de manar, y es que una de las pautas de los innovadores es que se mudan.",
+        "Se van de los regímenes que les son hostiles a los que les son favorables.",
+        "El secreto de Europa en su época más innovadora fue que estaba fragmentada políticamente.",
+        "Es muy difícil unificar Europa por todas sus cordilleras y sus penínsulas, así que acabas teniendo muchos países distintos.",
+        "Muchos innovadores, como Gutenberg, el pionero de la imprenta, tuvieron que irse de su ciudad natal a otra para encontrar un régimen que se lo permitiera.",
+        "Diría yo que lo mismo se puede decir de la China de la dinastía Song, que es el periodo en que fue más innovadora.",
+        "En aquella época era un imperio sorprendentemente descentralizado, y la gente podía desplazarse y escapar de un gobierno local que no le ofrecía nada prometedor.",
+        "Estados Unidos es la excepción que parece confirmar esta regla.",
+        "Aunque desde fuera parece un imperio, un país enorme y unificado, cuando entras ves que California tiene un régimen bastante distinto al de otras partes.",
+        "Esta misma semana, Elon Musk hablaba de irse de California y mudarse a Texas, porque está muy molesto con cómo están gestionando el fin del confinamiento.",
+        "Es como un innovador europeo del siglo quince que amenaza con irse de una parte de Alemania a otra parte de Alemania."
+      ]
+    },
+    {
+      "id": "b17-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Durante mucho tiempo pensé que, pese a lo mal gobernada que está, California era inexpugnable.",
+        "Tenía demasiado efecto de red y retenía a la gente con demasiada fuerza, pero ahora empiezo a ver las grietas.",
+        "Por supuesto, esta pandemia está acelerando las cosas, porque obliga a la gente a trabajar en remoto.",
+        "Twitter anunció hace poco que va a pasar a trabajar completamente en remoto.",
+        "Muchas de las empresas con las que he tenido relación se preguntan si de verdad tienen que volver a tener una oficina.",
+        "No me sorprendería que el próximo Silicon Valley se mudara a la nube.",
+        "Sería algo increíblemente bueno para toda la humanidad, porque entonces podríamos repartirlo por todas partes.",
+        "Obviamente, hay cosas que no se pueden trasladar a la nube, y no puedes tener una fábrica de semiconductores en la nube.",
+        "Pero buena parte de la coordinación inicial, de la invención, de los contactos, de las conversaciones y del trabajo de diseño sí puede hacerse en la nube.",
+        "Hay un precedente reciente de esto, aunque no sé cuánto has seguido la revolución cripto.",
+        "Obviamente, el mundo cripto pasó por su gran ciclo de euforia hace unos años, y ahora mismo hay mucha innovación en cripto.",
+        "Estamos en esa fase silenciosa, por debajo del radar, en la que grandes emprendedores construyen grandes productos que se extenderán mucho más en los próximos cinco o diez años.",
+        "Lo interesante de cripto es que está distribuido geográficamente de verdad.",
+        "Algunos de los mayores innovadores de cripto están repartidos por todo el mundo.",
+        "Más de la mitad de mis inversiones en cripto están fuera de la zona de la bahía de San Francisco, y eso no pasa con ninguna otra clase de inversión de las que hago.",
+        "Muchos de los principales innovadores de cripto son anónimos, como Satoshi Nakamoto, que es el caso más famoso.",
+        "Las empresas cripto captan dinero en público, a la vista de todos, emitiendo tokens, así que no están atadas al modelo de capital riesgo de Sand Hill Road.",
+        "El sistema cripto empieza por las finanzas, pero está sentando las bases para que las empresas del futuro se construyan de forma totalmente distribuida.",
+        "Podrían tener colaboradores anónimos, financiación anónima, dinero anónimo y desarrolladores anónimos.",
+        "Hay incluso un santo grial en cripto que se llama organización autónoma.",
+        "Son empresas que existen como contratos inteligentes dentro de la cadena de bloques, completamente fuera de cualquier soberanía, al margen del Estado.",
+        "Pueden aplicar el derecho contractual, hacer cumplir los contratos y gestionar pagos, dividendos, inversiones, participaciones, deuda, repartos y reputaciones.",
+        "Así reconstruyen la empresa, pero la modernizan, y pasan de los tiempos de la Carta Magna a un sistema moderno basado en código.",
+        "Ese sistema vive en una cadena de bloques matemática, anónima y basada en la reputación.",
+        "No me sorprendería que dentro de diez años el resto de la industria tecnológica estuviera tan distribuido como lo está hoy la industria cripto.",
+        "A California y a la bahía les seguirá yendo bien, y seguirán siendo un polo de innovación.",
+        "No creo que los precios vayan a echar a los innovadores de la bahía, porque los innovadores son los que más ganan de toda la historia.",
+        "Son las personas con más apalancamiento, porque se apalancan con el código, el capital, los medios, el trabajo y la inteligencia.",
+        "Por cabeza, pueden crear más que nadie, así que siempre pueden permitirse vivir donde quieran vivir.",
+        "No los echarán los precios, pero puede que los echen las regulaciones.",
+        "Puede que los echen porque no puedan ir a trabajar, ya que el gobierno se lo prohíbe.",
+        "O puede que los echen porque el lugar ya no resulte atractivo para vivir.",
+        "Si los echan, sería fantástico para todos que se mudaran a la nube y no a otro lugar físico del que puedan volver a desplazarnos.",
+        "En los ejemplos que has puesto, la innovación va a saltos.",
+        "Entre uno y otro pasan cincuenta, cien o doscientos años en los que no hay ningún lugar donde innovar, y por eso el ritmo de la innovación se desploma.",
+        "Así que, si la innovación es la flor de un jardín bien cuidado, y tienes que arrancar esas flores y trasplantarlas, la sociedad sufre una pérdida irrecuperable enorme.",
+        "Durante décadas, o quizá incluso durante siglos, tenemos que esperar a que surja otro jardín y a que la gente vuelva a reunirse allí.",
+        "Tiene que volver a darse el caldo de cultivo adecuado, que mezcla la desregulación con innovadores, buen clima y una sociedad rica, y todo eso tiene que juntarse."
+      ]
+    },
+    {
+      "id": "b18-matt",
+      "speaker": "Matt",
+      "frases": [
+        "Muchas gracias por eso, porque de una sola vez has llenado una laguna que tenía en mi forma de entenderlo.",
+        "Siempre me ha interesado que estos incendios forestales de la innovación acaben apagándose por alguna combinación de gobernantes, sacerdotes y ladrones, por así decirlo."
+      ]
+    },
+    {
+      "id": "b19-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Me gusta eso de gobernantes, sacerdotes y ladrones.",
+        "O, como diría un bromista, gobernantes, sacerdotes y ladrones, ¿qué diferencia hay?"
+      ]
+    },
+    {
+      "id": "b20-matt",
+      "speaker": "Matt",
+      "frases": [
+        "Exacto, en la China de los Ming es un régimen político muy restrictivo, autoritario e intervencionista el que mata la gallina de los huevos de oro.",
+        "En la Arabia abasí, no muy lejos en el tiempo, hablamos del siglo doce, un gran florecimiento del saber y de la innovación queda aplastado por un resurgir del fundamentalismo religioso.",
+        "El islam pasa entonces de ser una estructura de mentalidad muy abierta a una de mentalidad muy cerrada.",
+        "Algo parecido pasa en París más o menos por la misma época, cuando Bernardo de Claraval quemaba libros.",
+        "En un libro anterior lo destaqué como un periodo en el que el mundo pudo haber perdido este hábito por completo.",
+        "Podría haber renunciado a la innovación en todas partes, y la llama se habría apagado.",
+        "Por suerte, las ciudades estado italianas mantuvieron viva la llama.",
+        "Escribo sobre Fibonacci, el mercader italiano que trae a Italia desde el norte de África la numeración india, que luego se extiende por todo el mundo.",
+        "Es una suerte que en cada etapa de la historia haya algún sitio que mantenga la función en marcha, pero no es casualidad.",
+        "Son personas que huyen del otro régimen y vuelven a empezar allí.",
+        "Pero sí me preocupaba que antiguamente siempre había otro sitio adonde ir, y que en este mundo globalizado cabe imaginar una secta lo bastante oscurantista que se haga con el mundo entero.",
+        "Una secta que diga, no, no queremos ni conocimiento, ni innovación, ni tecnología, queremos pararlo todo.",
+        "Es muy poco probable, pero ¿y si Estados Unidos pierde la chispa y tenemos que depender de China como motor de la innovación del mundo?",
+        "China no es un lugar libre, es un régimen políticamente dictatorial, aunque los emprendedores tienen cierta libertad por debajo del nivel de la política.",
+        "Si esa es nuestra única esperanza, la perspectiva no es muy buena, y quizá la India pueda tomar el relevo.",
+        "A Europa ahora mismo no se le da muy bien tomar el relevo, porque no es un continente muy innovador.",
+        "Está intentando centralizar todas sus decisiones a través de la Unión Europea.",
+        "Pero la India ya lo ha hecho antes, y probablemente fue el primer lugar donde arrancó todo esto.",
+        "Era un lugar de pensamiento libre y de mucho orden espontáneo, y también de mucho desorden espontáneo.",
+        "Quizá sea ese el lugar, pero tú me has dado otra posibilidad, que es escapar de los gobernantes, los sacerdotes y los ladrones hacia la nube.",
+        "Allí la innovación puede quedar fuera de su alcance, al menos el tiempo suficiente hasta que averigüen cómo llegar a ella."
+      ]
+    },
+    {
+      "id": "b21-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Creo que la innovación digital puede escapar a la nube.",
+        "Obviamente, la innovación física necesita infraestructura física, y eso dependería de una ciudad estado ilustrada, un lugar como Suiza o como Hong Kong, como Singapur o Nueva Zelanda.",
+        "Pero entonces tienes el problema del mercado pequeño, porque no hay mucha gente dispuesta a ser la primera en adoptar la tecnología.",
+        "Puedes construir un prototipo, pero no puedes desplegarlo a gran escala.",
+        "Creo de verdad que la innovación física está en apuros, y tú hablas de esto en el libro.",
+        "En algunos terrenos, la velocidad de la innovación ha sido muy baja.",
+        "Por ejemplo, no podemos viajar más rápido de lo que viajábamos antes.",
+        "¿Por qué pasa eso?",
+        "La respuesta es que se debe sobre todo a la regulación.",
+        "Un tema de fondo que recorre todo este libro es que la innovación es un proceso de evolución.",
+        "Y como cualquier proceso evolutivo, necesita ensayo y error.",
+        "La innovación se produce cuando das un paso más sobre lo que ha hecho el conjunto de innovadores que te rodea.",
+        "Haces muchísimas pruebas y luego te llegan los errores y la respuesta de los clientes y de la economía.",
+        "Todas esas piezas son necesarias, y necesitas tener a tu alrededor un conjunto de innovadores.",
+        "Eso significa que tiene que haber un lugar donde puedan reunirse todos, ya sea en internet o en el mundo físico.",
+        "Tiene que existir la posibilidad de hacer muchos intentos.",
+        "Necesitas capital riesgo, necesitas startups, necesitas un entorno favorable para montar un negocio.",
+        "Ya no nos gusta que la gente cometa errores, así que intentamos cubrir el riesgo a la baja.",
+        "Pero al hacerlo también hemos cortado el potencial al alza.",
+        "Por último, necesitas el circuito de retroalimentación del entorno, y parte de eso pasa por tener una gran base de clientes.",
+        "Así que soy optimista sobre la posibilidad de hacerlo en el ámbito digital, y veo que eso está pasando en cripto, por ejemplo.",
+        "Pero soy un poco pesimista en el ámbito físico, y es una pena, porque ahí están muchos de los grandes problemas que la humanidad tiene que resolver.",
+        "Pienso en el problema de la energía, en conseguir que la fusión nuclear funcione a gran escala.",
+        "Pienso también en el problema del transporte, en mover a la gente muy deprisa con aviones hipersónicos, o incluso en algunos problemas de biotecnología.",
+        "Todo eso requiere infraestructura física y grandes mercados relativamente desregulados.",
+        "Así que creo que tienes razón en que solo nos quedan la India y China, y ninguna de las dos es ideal.",
+        "China no va a ser el lugar al que vaya el próximo judío que huya de los nazis, porque no es un destino de inmigración y no atrae a los mejores y más brillantes.",
+        "California no crea emprendedores, California atrae emprendedores, y China no va a atraerlos, así que siempre estará limitada por eso.",
+        "Aunque la India tiene muchos de los demás elementos, no tiene la infraestructura básica para ser un lugar atractivo al que ir.",
+        "Además, por su nivel de pobreza, la India tiene una cultura muy contraria a la innovación.",
+        "En la India, los innovadores a menudo sobreviven sin llamar la atención, y se ve en cómo la India prohibió las criptomonedas.",
+        "Ojalá eso se revoque, pero son capaces de hacer cosas así.",
+        "Al principio, alguien anunció en eBay en la India algo que no se podía anunciar.",
+        "Y sin más, detuvieron a los directivos locales de eBay y los metieron en la cárcel.",
+        "El historial reciente de la India en cuanto a fomentar la innovación no ha sido muy bueno.",
+        "Dicho esto, ahora mismo hay un florecimiento en lugares como Bangalore, Bombay y Delhi.",
+        "Ojalá, a medida que la India se enriquezca y tenga un gobierno más competente, veamos cómo el gobierno se quita de en medio y deja que la India se convierta en un polo de innovación.",
+        "El mercado es lo bastante grande, y son lo bastante pobres como para recibirla con los brazos abiertos.",
+        "Hablan inglés, tienen muy buena formación y sienten un profundo respeto por las ciencias, la tecnología, la ingeniería y las matemáticas.",
+        "Así que la India podría ser uno de esos polos de innovación.",
+        "Pero también necesitaría inmigración y lugares limpios y bonitos donde la gente quiera vivir.",
+        "Los innovadores se van a ir a vivir donde quieran vivir, porque son muy productivos.",
+        "También has dicho otra cosa muy interesante, y es qué pasa con la gente que podría crear un movimiento global para frenar la innovación.",
+        "Eso da mucho miedo y es muy posible, y el ecologismo es un buen ejemplo.",
+        "Hoy va por dos vías, y una es el ecologismo local, el que todo el mundo puede apoyar.",
+        "Es el que dice, quiero que limpien mis ríos, que salven las especies, quiero árboles, bosques y parques, y eso le gusta a todo el mundo.",
+        "Después eso se mezcla con un ecologismo global de ordeno y mando, que dice, tienes que frenar el progreso, tienes que frenar la innovación.",
+        "Tienes que pararlo todo, porque estás destruyendo el medio ambiente.",
+        "Una de las cosas de las que hablas en tu libro es cómo el mundo se está regenerando y cómo la innovación nos permite hacer más con menos.",
+        "Hablas también de cómo nos hemos vuelto mucho más eficientes como sociedad.",
+        "No vamos a poder impedir que la India y China crezcan.",
+        "No vamos a poder impedir que innoven, y no vamos a poder impedir que se modernicen.",
+        "Podemos hacer lo que hace Elon Musk, que dice, voy a darles coches eléctricos alimentados con energía solar y cohetes lo antes posible.",
+        "Así pueden saltarse la fase derrochadora de la innovación, en la que se destruye mucho el medio ambiente.",
+        "Y pueden llegar a la parte en la que todos podemos permitirnos ríos limpios, bosques preciosos, buenos parques y otras especies en nuestro entorno.",
+        "Por cierto, esto se lo debo a Genoma, un libro que pinta una imagen de la utopía.",
+        "No en el sentido de una idea platónica, impuesta de arriba abajo por los humanos, de cómo debería gobernarse el mundo.",
+        "Es una utopía que está en cómo está diseñado y cómo funciona el mundo natural, y en nuestro papel dentro de él.",
+        "Genoma pinta el paraíso como un jardín, y eso está en nuestros mitos más arraigados.",
+        "El paraíso en el que viven Adán y Eva es un jardín.",
+        "Caen en desgracia, y con ella salen del jardín.",
+        "Hoy, en plena pandemia, ¿dónde quieres vivir?",
+        "¿En tu pequeño apartamento de Nueva York o en un pisito de Londres?",
+        "¿O prefieres estar sentado en un jardín precioso, al sol?",
+        "Los seres humanos quieren por naturaleza un entorno limpio y bonito.",
+        "Pero ese movimiento lo secuestran mecanismos de arriba abajo, de ordeno y mando, en manos de gobernantes, sacerdotes y ladrones.",
+        "Así pueden despilfarrar los recursos que ya tenemos y además aplastar la innovación, y eso nos impide avanzar."
+      ]
+    }
+  ]
+}

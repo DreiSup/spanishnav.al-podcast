@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 70,
+  "anio": 2020,
+  "slug": "matt-ridley",
+  "titulo": "Matt Ridley: How Innovation Works, Part 1",
+  "subtitulo": "Innovation is the child of freedom",
+  "fecha_publicacion": "2020-07-09",
+  "fuente_url": "https://nav.al/matt-ridley",
+  "orden_archivo": 74,
+  "en_feed": true,
+  "participantes": [
+    "Matt",
+    "Naval"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}
