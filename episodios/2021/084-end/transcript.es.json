@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2021/084-end",
+  "numero": 84,
+  "fecha": "2021-03-31",
+  "titulo": "La ciencia no tiene fin",
+  "subtitulo": "Podemos seguir progresando",
+  "fuente_url": "https://nav.al/end",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-brett",
+      "speaker": "Brett",
+      "frases": [
+        "El experimento de Eddington es un ejemplo excelente de lo que se llama un experimento crucial, que viene a ser la cumbre de todo lo que es la ciencia.",
+        "Si hacemos una prueba y no concuerda con una teoría concreta que tenemos, eso es un problema.",
+        "Pero eso no significa que la prueba refute la teoría.",
+        "Si refutaras la única teoría que tienes, ¿hacia dónde saltarías, si no tienes ninguna alternativa?",
+        "Si mañana hiciéramos una prueba científica y no fuera coherente con la teoría de la relatividad general, ¿entonces qué?",
+        "No hay ninguna alternativa a la relatividad general.",
+        "De hecho, a lo largo de los años ha habido experimentos que parecían incoherentes con la relatividad general.",
+        "¿Y sabes qué? Al final, todos ellos resultaron tener algún fallo.",
+        "Si tuvieras que elegir entre que tu prueba haya refutado la relatividad general o que tu prueba tenga un fallo, quédate con que tu prueba tiene un fallo.",
+        "En el caso del experimento de Eddington, teníamos dos teorías viables de la gravedad.",
+        "Por un lado teníamos la teoría de la gravitación universal de Newton, y por otro, la teoría general de la relatividad de Einstein.",
+        "Tu descripción del experimento, de cuánto se curva la luz durante un eclipse solar, es la forma correcta de contar lo que pasó.",
+        "No es que demostráramos que la relatividad general era correcta en un sentido definitivo, sino que refutamos la teoría de la gravitación de Newton.",
+        "La teoría de Newton quedó descartada porque no era coherente con la prueba, mientras que la relatividad general sí lo era.",
+        "Eso no significa que la relatividad general sea la última palabra de la ciencia.",
+        "Significa que es la mejor teoría que tenemos por ahora, y hay un montón de razones para pensar que, a fin de cuentas, la relatividad general tiene que ser falsa.",
+        "Este es otro aspecto de esta visión del mundo, la idea de que nunca tenemos la última palabra, y eso es algo bueno.",
+        "Es optimista, porque significa que podemos seguir mejorando, podemos seguir progresando y podemos seguir descubriendo cosas nuevas. La ciencia no tiene fin.",
+        "Hay quien teme que algún día el progreso se detenga, que la ciencia se acabe.",
+        "En realidad, estamos al comienzo del infinito, y siempre estaremos al comienzo del infinito precisamente porque podemos mejorar nuestras ideas.",
+        "Somos seres humanos falibles, y ninguna de nuestras teorías es perfecta porque nosotros no somos perfectos.",
+        "El proceso con el que creamos conocimiento tampoco es perfecto, y es propenso a errores."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 84,
+  "anio": 2021,
+  "slug": "end",
+  "titulo_es": "La ciencia no tiene fin",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "La ciencia no tiene fin",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). 084 La ciencia no tiene fin. No hay notas del editor ni artefactos. Crucial test se traduce como experimento crucial, como fija el brief. El sustantivo test, cuando es una prueba concreta, se traduce como prueba. Guess what? se traduce como ¿Y sabes qué?. In the final analysis se traduce como a fin de cuentas, y has to be false como tiene que ser falsa. There is no end of science (la ciencia no tiene fin) va en el mismo elemento que la frase anterior, para que no quede suelto. Subtítulo: Podemos seguir progresando. Nombres que hay que escuchar: Eddington, Newton, Einstein. El validador avisa de que Brett es un hablante no habitual: es lo esperado. Ratio 1,00."
+}
