@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 15,
+  "anio": 2019,
+  "slug": "build-sell",
+  "titulo": "Learn to Sell, Learn to Build",
+  "subtitulo": "If you can do both, you will be unstoppable",
+  "fecha_publicacion": "2019-03-31",
+  "fuente_url": "https://nav.al/build-sell",
+  "orden_archivo": 19,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}

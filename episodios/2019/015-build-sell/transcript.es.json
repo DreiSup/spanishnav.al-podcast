@@ -1,0 +1,107 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2019/015-build-sell",
+  "numero": 15,
+  "fecha": "2019-03-31",
+  "titulo": "Aprende a vender, aprende a construir",
+  "subtitulo": "Si sabes hacer las dos cosas, serás imparable",
+  "fuente_url": "https://nav.al/build-sell",
+  "titulos_seccion": [
+    "El modelo de Silicon Valley es un constructor y un vendedor",
+    "Si sabes hacer las dos cosas, serás imparable",
+    "Prefiero enseñarle marketing a un ingeniero que ingeniería a alguien de marketing"
+  ],
+  "contenido": [
+    {
+      "id": "b01-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Hablando de combinar habilidades, dijiste que hay que aprender a vender y aprender a construir, y que si sabes hacer las dos cosas, serás imparable."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Es una categoría muy amplia.",
+        "En realidad son dos categorías amplias.",
+        "Una es construir el producto.",
+        "Algo que es difícil y que tiene muchas variables.",
+        "Puede incluir diseño, puede incluir desarrollo, puede incluir fabricación, logística, compras, e incluso puede ser diseñar y operar un servicio.",
+        "Tiene muchísimas definiciones.",
+        "Pero en cada sector hay una definición de quién construye.",
+        "En nuestro sector, el tecnológico, es el CTO, es el programador, es el ingeniero de software, el ingeniero de hardware.",
+        "Pero incluso en el negocio de las lavanderías, puede ser la persona que construye el servicio de lavandería.",
+        "La que hace que todo funcione como un reloj, la que se asegura de que toda la ropa acabe en el sitio correcto en el momento correcto, y cosas así.",
+        "La otra cara es la venta.",
+        "De nuevo, vender tiene una definición muy amplia.",
+        "Vender no significa solo venderle a clientes individuales.",
+        "Puede ser marketing, puede ser comunicar, puede ser reclutar, puede ser conseguir financiación, puede ser inspirar a la gente, puede ser hacer relaciones públicas.",
+        "Es una categoría paraguas muy amplia.",
+        "Así que, en general, el modelo de startup de Silicon Valley tiende a funcionar mejor de una forma concreta.",
+        "No es la única, pero probablemente es la más habitual, cuando hay dos fundadores, uno de primer nivel vendiendo y otro de primer nivel construyendo.",
+        "Ejemplos hay, claro.",
+        "Steve Jobs y Steve Wozniak con Apple.",
+        "Gates y Allen probablemente se repartieron así las responsabilidades al principio en Microsoft.",
+        "Larry y Sergey probablemente se dividieron de una forma parecida, aunque ahí es un poco distinto, porque era un producto muy técnico que llegaba al usuario final a través de una interfaz sencilla.",
+        "Pero, en general, verás este patrón repetirse una y otra vez.",
+        "Hay un constructor y hay un vendedor.",
+        "Hay un tándem de CEO y CTO.",
+        "Y los inversores de capital riesgo y de tecnología están casi entrenados para buscar ese tándem siempre que pueden.",
+        "Es la combinación mágica.",
+        "Lo máximo es cuando una sola persona sabe hacer las dos cosas.",
+        "Ahí es cuando tienes superpoderes de verdad.",
+        "Ahí es cuando aparece gente capaz de crear sectores enteros.",
+        "El ejemplo vivo es Elon Musk.",
+        "Puede que no construya los cohetes él mismo, pero entiende lo suficiente como para hacer aportaciones técnicas de verdad.",
+        "Entiende la tecnología lo bastante bien como para que nadie le dé gato por liebre, y no va por ahí prometiendo cosas que no cree que vaya a poder cumplir tarde o temprano.",
+        "Puede que sea optimista con los plazos, pero cree que lo que promete se puede entregar dentro de lo razonable.",
+        "Incluso Steve Jobs desarrolló suficientes habilidades de producto y se implicó lo bastante en el producto como para moverse también en los dos terrenos.",
+        "Larry Ellison empezó como programador y creo que escribió la primera versión de Oracle, o al menos participó muy de cerca en ella.",
+        "Marc Andreessen también estaba en este terreno.",
+        "Puede que no tuviera mucha confianza en sus dotes de vendedor, pero fue el programador que escribió Netscape Navigator, o una buena parte.",
+        "Así que creo que los verdaderos gigantes de cualquier campo son las personas que saben construir y vender a la vez.",
+        "Y normalmente construir es algo que un vendedor no puede aprender más adelante en la vida.",
+        "Exige demasiado tiempo de concentración.",
+        "Pero quien construye sí puede aprender a vender un poco más tarde, sobre todo si ya tenía de forma innata madera de buen comunicador.",
+        "Bill Gates lo resume en una frase célebre, prefiero enseñarle marketing a un ingeniero que ingeniería a alguien de marketing.",
+        "Supón que empiezas con mentalidad de construir y tienes habilidades para construir, y aún estás en una etapa temprana de tu vida, o tienes suficiente tiempo de concentración como para pensar que puedes aprender a vender.",
+        "Si además tienes ciertas cualidades naturales o se te da bien vender, creo que puedes redoblar la apuesta en eso.",
+        "Ahora bien, tus habilidades de venta pueden estar en un terreno distinto del tradicional.",
+        "Por ejemplo, digamos que eres muy buen ingeniero y la gente te dice que ahora tienes que ser bueno vendiendo.",
+        "Puede que no se te dé bien la venta cara a cara, pero puede que escribas muy bien.",
+        "Y escribir es una habilidad que se aprende mucho más fácilmente que, por ejemplo, vender en persona.",
+        "Así que puedes cultivar la escritura hasta convertirte en un buen comunicador en Internet, y luego usar eso para vender.",
+        "Por otro lado, puede que simplemente construyas bien, escribas mal y no te guste comunicarte con grandes audiencias, pero que se te dé bien el trato de tú a tú.",
+        "Entonces podrías usar tus habilidades de venta para reclutar o para conseguir financiación, que son tareas más de tú a tú.",
+        "Lo que quiero señalar es que, si estás en la intersección de estas dos cosas, no te desesperes porque no vayas a ser el mejor tecnólogo ni el mejor vendedor.",
+        "Por extraño que parezca, esa mezcla, volviendo a la combinación de habilidades de Scott Adams, esa mezcla de dos habilidades es imparable.",
+        "A largo plazo, las personas que entienden el producto de fondo, saben cómo construirlo y saben venderlo son irresistibles para los inversores.",
+        "Esas personas pueden derribar muros si tienen suficiente energía, y pueden sacar adelante casi cualquier cosa."
+      ]
+    },
+    {
+      "id": "b03-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Si solo pudieras elegir una en la que ser bueno, ¿cuál elegirías?"
+      ]
+    },
+    {
+      "id": "b04-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Cuando intentas destacar entre el ruido, construir es en realidad mejor, porque hay muchísimos buscavidas y vendedores que no tienen nada que los respalde.",
+        "Cuando estás empezando, cuando intentas que te reconozcan, construir es mejor.",
+        "Pero mucho más adelante, construir acaba agotando, porque es un trabajo de concentración.",
+        "Y cuesta mantenerse al día, porque siempre aparece gente nueva y productos nuevos con herramientas más modernas y, francamente, con más tiempo, porque es una tarea muy intensa y que exige mucha concentración.",
+        "Así que las habilidades de venta en realidad escalan mejor con el tiempo.",
+        "Por ejemplo, si tienes fama de construir un gran producto, eso está bien, pero cuando lances tu nuevo producto, yo lo voy a juzgar por el producto.",
+        "En cambio, si tienes fama de ser alguien con quien da gusto hacer negocios, y eres persuasivo y comunicativo, esa reputación casi se cumple sola.",
+        "Así que creo que, si solo pudieras quedarte con una, puedes empezar construyendo y después pasar a vender.",
+        "Es una respuesta para salir del paso, pero creo que de verdad es la respuesta correcta."
+      ]
+    }
+  ]
+}
