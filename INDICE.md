@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**77** episodios · **0** publicados · **0** sin empezar
+**78** episodios · **0** publicados · **0** sin empezar
 
 ## 2021
 
@@ -48,6 +48,7 @@
 | 109 | [109-evolution](episodios/2021/109-evolution) | La evolución genética fue el preludio de la evolución memética | 🟠 en revisión | — | — |
 | 110 | [110-exceptional](episodios/2021/110-exceptional) | Los humanos somos excepcionales | 🟠 en revisión | — | — |
 | 111 | [111-species](episodios/2021/111-species) | Somos cualitativamente distintos de las demás especies | 🟠 en revisión | — | — |
+| 112 | [112-agi](episodios/2021/112-agi) | Más potencia de cálculo no produce una inteligencia artificial general | 🟠 en revisión | — | — |
 
 ## 2020
 

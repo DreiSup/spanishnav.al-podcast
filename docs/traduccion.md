@@ -95,3 +95,4 @@ abiertas («…talk about sex.» sin «”»). Afecta solo al inglés, que no se
 | 2026-11-04 | 109 Genetic Evolution Was a Prelude to Memetic Evolution | revision | 1 | 21 | 471 | 2,8 | Cero avisos. Workflow de especialistas (4-nov) |
 | 2026-11-04 | 110 Humans Are Exceptional | revision | 1 | 24 | 429 | 2,5 | Cero avisos. Workflow de especialistas (4-nov) |
 | 2026-11-04 | 111 We Are Qualitatively Different From Other Species | revision | 1 | 17 | 302 | 1,8 | Cero avisos. Workflow de especialistas (4-nov) |
+| 2026-11-04 | 112 More Compute Power Doesn’t Produce AGI | revision | 1 | 15 | 319 | 1,9 | Cero avisos. Workflow de especialistas (4-nov); 1 decisiones aplicadas, ver notas |
