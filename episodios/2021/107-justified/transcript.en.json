@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "idioma": "en",
+  "episodio": "2021/107-justified",
+  "numero": 107,
+  "fecha": "2021-10-15",
+  "titulo": "No Truth Can Be Justified",
+  "subtitulo": "‘Knowledge’ is just our best guess at the time",
+  "fuente_url": "https://nav.al/justified",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-brett",
+      "speaker": "Brett",
+      "frases": [
+        "Initial guesses at what ‘knowledge’ was all about amounted to what is known as the “justified true belief” vision of knowledge, and it’s still the most prevalent idea today.",
+        "Anyone who calls themself a Bayesian is a justified true believer.",
+        "This is the misconception that knowledge is about trying to justify your beliefs as true.",
+        "And if you’ve done so, then you can say, “I know that thing.",
+        "If I can justify as true my theory of gravity, then I should believe that theory of gravity, and only then can I say that it’s known.",
+        "The problem with this is that there is no method of showing any piece of knowledge is true.",
+        "The improvement Deutsch promotes in his books is this vision that Popper gave us, that all we have are guesses about reality.",
+        "They’re conjectures.",
+        "People think, “Oh, that sounds a bit wishy-washy.",
+        "It’s just a guess.",
+        "Well, it’s not a random guess.",
+        "It’s a guess that has stood up against trials, against attempts to show that it’s false.",
+        "It’s not that everyone who decides to have a guess stands on equal footing.",
+        "When people are unable to show that something’s false—via this method of refutation—then we accept it as a piece of knowledge.",
+        "This allows us to accept the fact that we’re going to be able to make progress in the future, because all of our knowledge is conjectural.",
+        "All of it is our best guess at the time.",
+        "There’s elasticity within the knowledge that allows us to say, “There’s going to be errors.",
+        "We’re going to correct them and, thereby, be able to make progress into the infinite future.",
+        "This is unlike the previous conception of knowledge, which says, “Once you’ve justified something as true, well, it’s true.",
+        "If it’s true, that means there is nothing false about it and, therefore, it can’t possibly be refuted.",
+        "That’s a very religious notion.",
+        "The modern incantation of this is Bayesianism, which says, “You have a theory, you collect more evidence, and you become more and more confident over time that your theory is correct.",
+        "It gets a little bit worse than that, because then it says, “This Bayesian reasoning enables you to generate new theories.",
+        "Which it can’t.",
+        "The best that it can hope to do is to show you that you are more confident in this theory than you are in that theory.",
+        "The Popperian view says, “If you can show that there’s a flaw in a particular theory, you can discard that theory.”"
+      ]
+    }
+  ]
+}

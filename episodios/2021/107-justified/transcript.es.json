@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2021/107-justified",
+  "numero": 107,
+  "fecha": "2021-10-15",
+  "titulo": "Ninguna verdad puede justificarse",
+  "subtitulo": "El conocimiento no es más que nuestra mejor conjetura del momento",
+  "fuente_url": "https://nav.al/justified",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-brett",
+      "speaker": "Brett",
+      "frases": [
+        "Las primeras conjeturas sobre en qué consistía el conocimiento desembocaron en lo que llamamos la visión del conocimiento como creencia verdadera justificada.",
+        "Y sigue siendo la idea más extendida hoy en día.",
+        "Cualquiera que se considere bayesiano es partidario de la creencia verdadera justificada.",
+        "Es la idea equivocada de que el conocimiento consiste en intentar justificar que tus creencias son verdaderas.",
+        "Y si lo has conseguido, entonces puedes decir que eso lo sabes.",
+        "Si puedo justificar que mi teoría de la gravedad es verdadera, entonces debería creer en esa teoría de la gravedad, y solo entonces puedo decir que es conocimiento.",
+        "El problema es que no hay ningún método para mostrar que un conocimiento cualquiera es verdadero.",
+        "La mejora que Deutsch defiende en sus libros es esta visión que nos dio Popper, según la cual lo único que tenemos son intentos de adivinar cómo es la realidad, es decir, conjeturas.",
+        "La gente piensa que eso suena un poco vago, que no es más que una conjetura.",
+        "Pues no es una conjetura al azar, sino una conjetura que ha resistido pruebas, que ha resistido los intentos de mostrar que es falsa.",
+        "No es que la conjetura que se le ocurra a cualquiera valga lo mismo que las demás.",
+        "Cuando no se consigue mostrar que algo es falso, por este método de la refutación, lo aceptamos como un conocimiento.",
+        "Esto nos permite aceptar que vamos a poder progresar en el futuro, porque todo nuestro conocimiento es conjetural y no es más que nuestra mejor conjetura del momento.",
+        "El conocimiento tiene una elasticidad que nos permite decir que habrá errores, que los corregiremos y que así podremos seguir progresando hacia un futuro infinito.",
+        "Esto es muy distinto de la concepción anterior del conocimiento, que dice que, una vez que has justificado que algo es verdad, pues es verdad y punto.",
+        "Y si es verdad, eso significa que no tiene nada de falso y que, por tanto, es imposible refutarlo, y esa es una noción muy religiosa.",
+        "La encarnación moderna de esto es el bayesianismo, que dice que tienes una teoría, reúnes más pruebas y, con el tiempo, cada vez estás más seguro de que tu teoría es correcta.",
+        "Y la cosa empeora un poco, porque luego dice que este razonamiento bayesiano te permite generar teorías nuevas, cosa que no puede hacer.",
+        "Lo máximo a lo que puede aspirar es a mostrarte que confías más en esta teoría que en aquella otra.",
+        "La visión popperiana dice que, si puedes mostrar que una teoría concreta tiene un fallo, puedes descartar esa teoría."
+      ]
+    }
+  ]
+}

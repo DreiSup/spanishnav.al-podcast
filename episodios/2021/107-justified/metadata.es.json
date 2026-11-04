@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 107,
+  "anio": 2021,
+  "slug": "justified",
+  "titulo_es": "Ninguna verdad puede justificarse",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Ninguna verdad puede justificarse",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). 107 Ninguna verdad puede justificarse. Sin notas del editor. Ratio 1,02; ningún bloque fuera de rango; frase más larga de 33 palabras. Aviso informativo del validador por el hablante Brett, que es el correcto según el brief y no se puede quitar. Las comillas simples de ‘knowledge’ y las citas en estilo directo, siete en total, pasan a estilo indirecto. Subtítulo: El conocimiento no es más que nuestra mejor conjetura del momento. Términos: justified true belief es creencia verdadera justificada; guess es conjetura; Bayesian y Bayesianism son bayesiano y bayesianismo; Popperian es popperiano; refutation es refutación. Artefacto del inglés: «The modern incantation of this» es casi seguro una errata por incarnation, y se traduce encarnación. «Wishy-washy» se traduce un poco vago. «A justified true believer» es un juego de palabras que no cuadra en español: se traduce partidario de la creencia verdadera justificada. «It's not that everyone who decides to have a guess stands on equal footing» se traduce por el sentido: no es que la conjetura que se le ocurra a cualquiera valga lo mismo que las demás. Nombres que hay que escuchar en el TTS: Deutsch, Popper, bayesiano y bayesianismo."
+}
