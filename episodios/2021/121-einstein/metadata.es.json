@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 121,
+  "anio": 2021,
+  "slug": "einstein",
+  "titulo_es": "Un Einstein vale más que una legión de doctores autómatas",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Un Einstein vale más que una legión de doctores autómatas",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). Errata del transcript: en el bloque 1, «bachelor of engineers» se traduce por el sentido, «licenciados en ciencias y en ingeniería» (T1 del brief). La cita «This is what's true. This is the unquestioned correct way…» va en estilo indirecto: Les han enseñado que esto es lo verdadero, y que esta es la forma correcta e incuestionable de pensar en la ciencia. Las cifras van en letra: diez, cincuenta mil, un cien por cien de eficacia, de cero a uno. «Any day» se resuelve con la construcción española «me quedo con los diez sin dudarlo». El título sigue la D11 del brief: Un Einstein vale más que una legión de doctores autómatas. En el texto de Naval, «the legion of drones with PhDs in physics» se traduce «una legión de autómatas con doctorados en física». «Throwing bodies at the problem» se traduce «por mucha gente que le eches al problema», y por coherencia el título de sección dice «echarle más gente» en lugar de «cuerpos». «Think outside of the box» se traduce «salirse del guion», sin el calco de la caja. Nombres que hay que escuchar: Einstein y China. Ratio global 1,07; frase más larga, 34 palabras. El validador da solo el aviso informativo de hablante no habitual para Brett, que es correcto."
+}

@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "idioma": "en",
+  "episodio": "2021/121-einstein",
+  "numero": 121,
+  "fecha": "2021-11-19",
+  "titulo": "One Einstein Is Worth A Legion Of PhD Drones",
+  "subtitulo": "Creativity goes from 0 to 1 and bodies aren’t going to solve the problem",
+  "fuente_url": "https://nav.al/einstein",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-brett",
+      "speaker": "Brett",
+      "frases": [
+        "China keeps graduating more bachelor of science and bachelor of engineers than anywhere else in the world.",
+        "China’s universities are pumping out more science graduates than us, but they’re not pumping out more innovators.",
+        "It’s not like the students that are coming out of those universities in China with their science degrees are going off and doing innovative stuff.",
+        "It’s quite the opposite, because they’ve been trained in a particular way.",
+        "They’re being trained to memorize this textbook, respond to this exam.",
+        "They can’t think outside of the box.",
+        "They’ve been trained that, “This is what’s true.",
+        "This is the unquestioned correct way of thinking about science.",
+        "That might be good for being able to imitate, as we see, but it’s not going to be the thing that enables you to push forward the frontier in technology, let alone fundamental physics or anywhere else.",
+        "I don’t care what the statistics are on how many science graduates they’ve got.",
+        "That makes no difference.",
+        "Give me 10 innovative, creative, young physics graduates over 50,000 physics graduates who all are able to pass the exam with 100% efficiency any day."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "So, one Einstein is worth the legion of drones with PhDs in physics.",
+        "It doesn’t matter.",
+        "Creativity goes zero to one.",
+        "And no amount of throwing bodies at the problem will get you there.",
+        "That’s just the nature of memetic evolution; it’s just the nature of creativity."
+      ]
+    }
+  ]
+}

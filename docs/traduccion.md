@@ -104,3 +104,4 @@ abiertas («…talk about sex.» sin «”»). Afecta solo al inglés, que no se
 | 2026-11-04 | 118 Aliens Might Just Be Too Far Away | revision | 2 | 22 | 467 | 2,7 | Cero avisos. Workflow de especialistas (4-nov); 1 decisiones aplicadas, ver notas |
 | 2026-11-04 | 119 Aliens Would Visit for Knowledge, Not Resources | revision | 2 | 26 | 475 | 2,8 | Cero avisos. Workflow de especialistas (4-nov); 1 decisiones aplicadas, ver notas |
 | 2026-11-04 | 120 Ideas Are the New Oil | revision | 1 | 29 | 553 | 3,3 | Cero avisos. Workflow de especialistas (4-nov); 1 decisiones aplicadas, ver notas |
+| 2026-11-04 | 121 One Einstein Is Worth A Legion Of PhD Drones | revision | 2 | 14 | 250 | 1,5 | Cero avisos. Workflow de especialistas (4-nov); 2 decisiones aplicadas, ver notas |

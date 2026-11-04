@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2021/121-einstein",
+  "numero": 121,
+  "fecha": "2021-11-19",
+  "titulo": "Un Einstein vale más que una legión de doctores autómatas",
+  "subtitulo": "La creatividad va de cero a uno, y echarle más gente no va a resolver el problema",
+  "fuente_url": "https://nav.al/einstein",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-brett",
+      "speaker": "Brett",
+      "frases": [
+        "China sigue sacando más licenciados en ciencias y en ingeniería que ningún otro país del mundo.",
+        "Las universidades chinas producen en serie más graduados en ciencias que nosotros, pero no producen más innovadores.",
+        "No es que los estudiantes que salen de esas universidades chinas con sus títulos de ciencias se vayan luego a hacer cosas innovadoras.",
+        "Es justo lo contrario, porque los han formado de una manera muy concreta.",
+        "Los forman para memorizar el libro de texto y responder al examen, y no son capaces de salirse del guion.",
+        "Les han enseñado que esto es lo verdadero, y que esta es la forma correcta e incuestionable de pensar en la ciencia.",
+        "Eso puede servir para imitar, como estamos viendo, pero no es lo que te va a permitir hacer avanzar la frontera de la tecnología.",
+        "Y mucho menos hacer avanzar la física fundamental o cualquier otro campo.",
+        "Me dan igual las estadísticas sobre cuántos graduados en ciencias tienen, porque eso no cambia nada.",
+        "Entre diez licenciados en física jóvenes, innovadores y creativos y cincuenta mil licenciados en física capaces de aprobar el examen con un cien por cien de eficacia, me quedo con los diez sin dudarlo."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Así que un Einstein vale más que una legión de autómatas con doctorados en física.",
+        "Da igual, la creatividad va de cero a uno.",
+        "Y por mucha gente que le eches al problema, no vas a llegar ahí.",
+        "Es la naturaleza misma de la evolución memética, y la naturaleza misma de la creatividad."
+      ]
+    }
+  ]
+}

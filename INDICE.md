@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**86** episodios · **0** publicados · **0** sin empezar
+**87** episodios · **0** publicados · **0** sin empezar
 
 ## 2021
 
@@ -57,6 +57,7 @@
 | 118 | [118-far-away](episodios/2021/118-far-away) | Quizá los extraterrestres simplemente estén demasiado lejos | 🟠 en revisión | — | — |
 | 119 | [119-resources](episodios/2021/119-resources) | Los extraterrestres vendrían por el conocimiento, no por los recursos | 🟠 en revisión | — | — |
 | 120 | [120-ideas](episodios/2021/120-ideas) | Las ideas son el nuevo petróleo | 🟠 en revisión | — | — |
+| 121 | [121-einstein](episodios/2021/121-einstein) | Un Einstein vale más que una legión de doctores autómatas | 🟠 en revisión | — | — |
 
 ## 2020
 
