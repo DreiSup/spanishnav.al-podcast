@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 97,
+  "anio": 2021,
+  "slug": "predictions",
+  "titulo": "Theories Are Explanations, Not Predictions",
+  "subtitulo": "The prediction comes after the explanation",
+  "fecha_publicacion": "2021-05-03",
+  "fuente_url": "https://nav.al/predictions",
+  "orden_archivo": 101,
+  "en_feed": true,
+  "participantes": [
+    "Brett",
+    "Naval"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}

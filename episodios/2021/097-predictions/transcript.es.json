@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2021/097-predictions",
+  "numero": 97,
+  "fecha": "2021-05-03",
+  "titulo": "Las teorías son explicaciones, no predicciones",
+  "subtitulo": "La predicción llega después de la explicación",
+  "fuente_url": "https://nav.al/predictions",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-brett",
+      "speaker": "Brett",
+      "frases": [
+        "Hay otro ejemplo parecido, y puedes hacerlo en casa con un cazo.",
+        "Pon un vaso de precipitados con agua sobre una fuente de calor, mete un termómetro en el agua y enciende la fuente de calor.",
+        "A medida que pasa el tiempo, apunta la temperatura del agua.",
+        "Verás que la temperatura del agua aumenta, y mientras la fuente de calor sea más o menos constante, la subida de temperatura también será más o menos constante.",
+        "Al cabo de un minuto, puede que la temperatura pase de veinte a treinta grados.",
+        "Imagina que cada minuto sube otros diez grados."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Pero en algún momento se va a estancar, cuando llegue al punto de ebullición."
+      ]
+    },
+    {
+      "id": "b03-brett",
+      "speaker": "Brett",
+      "frases": [
+        "Exacto. Ahora bien, imagina que eres inductivista, o incluso que razonas de forma bayesiana, y que no sabes nada de la temperatura de ebullición ni de lo que pasa a esa temperatura.",
+        "Podrías unir todas esas líneas tan bonitas en una recta perfectamente diagonal y extrapolarla hasta el infinito.",
+        "Según tu razonamiento bayesiano y tu inducción, deberíamos suponer que, al cabo de dos horas, el agua estará a mil grados.",
+        "Pero, claro, eso es completamente falso. Una vez que el agua empieza a hervir, se queda en su temperatura de ebullición.",
+        "La temperatura se estanca en unos cien grados, y ahí se mantiene hasta que se evapora toda el agua.",
+        "No hay manera posible de saberlo sin hacer antes el experimento, o sin haber conjeturado ya, por alguna vía explicativa, lo que iba a pasar.",
+        "Ningún método que registre todos estos datos y los extrapole hacia el futuro podría haberte dado nunca la respuesta correcta.",
+        "La respuesta correcta solo puede venir de la creatividad.",
+        "Fíjate en que la ciencia no consiste en predecir dónde empieza la tendencia y hacia dónde va.",
+        "Para explicar lo que pasa con el agua, hablaríamos de las partículas y de cómo, al aumentar la temperatura, su energía cinética empieza a aumentar.",
+        "Eso significa que la velocidad de las partículas está aumentando.",
+        "Al final, las partículas en estado líquido alcanzan la velocidad de escape respecto al resto del líquido, y en ese momento el agua hierve.",
+        "Esa velocidad de escape requiere energía, lo que en términos técnicos se llama calor latente.",
+        "Por eso podemos calentar el agua sin que suba su temperatura.",
+        "Eso es la ciencia, toda esa historia complicada sobre cómo las partículas se mueven más deprisa.",
+        "No trata de tendencias ni de predicciones, sino de explicaciones.",
+        "Solo cuando tenemos la explicación podemos hacer la predicción."
+      ]
+    }
+  ]
+}

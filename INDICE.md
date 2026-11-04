@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**61** episodios · **0** publicados · **0** sin empezar
+**63** episodios · **0** publicados · **0** sin empezar
 
 ## 2021
 
@@ -32,6 +32,8 @@
 | 93 | [093-multiverse](episodios/2021/093-multiverse) | El multiverso | 🟠 en revisión | — | — |
 | 94 | [094-unseen](episodios/2021/094-unseen) | Explicamos lo visible a partir de lo invisible | 🟠 en revisión | — | — |
 | 95 | [095-expand](episodios/2021/095-expand) | La ciencia amplía nuestra visión de la realidad | 🟠 en revisión | — | — |
+| 96 | [096-error](episodios/2021/096-error) | La ciencia es un mecanismo de corrección de errores | 🟠 en revisión | — | — |
+| 97 | [097-predictions](episodios/2021/097-predictions) | Las teorías son explicaciones, no predicciones | 🟠 en revisión | — | — |
 
 ## 2020
 

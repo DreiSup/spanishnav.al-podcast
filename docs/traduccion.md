@@ -80,3 +80,4 @@ abiertas («…talk about sex.» sin «”»). Afecta solo al inglés, que no se
 | 2026-11-04 | 093 The Multiverse | revision | 1 | 15 | 278 | 1,6 | Cero avisos. Workflow de especialistas (4-nov) |
 | 2026-11-04 | 094 We Explain the Seen in Terms of the Unseen | revision | 2 | 15 | 276 | 1,6 | Cero avisos. Workflow de especialistas (4-nov) |
 | 2026-11-04 | 095 Science Expands Our Vision of Reality | revision | 1 | 17 | 292 | 1,7 | Cero avisos. Workflow de especialistas (4-nov) |
+| 2026-11-04 | 097 Theories Are Explanations, Not Predictions | revision | 3 | 24 | 413 | 2,4 | Cero avisos. Workflow de especialistas (4-nov) |
