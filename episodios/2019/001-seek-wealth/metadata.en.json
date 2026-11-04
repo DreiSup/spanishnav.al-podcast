@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 1,
+  "anio": 2019,
+  "slug": "seek-wealth",
+  "titulo": "Seek Wealth, Not Money or Status",
+  "subtitulo": "Wealth is assets that earn while you sleep",
+  "fecha_publicacion": "2019-02-28",
+  "fuente_url": "https://nav.al/seek-wealth",
+  "orden_archivo": 5,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}
