@@ -80,6 +80,7 @@ abiertas («…talk about sex.» sin «”»). Afecta solo al inglés, que no se
 | 2026-11-04 | 093 The Multiverse | revision | 1 | 15 | 278 | 1,6 | Cero avisos. Workflow de especialistas (4-nov) |
 | 2026-11-04 | 094 We Explain the Seen in Terms of the Unseen | revision | 2 | 15 | 276 | 1,6 | Cero avisos. Workflow de especialistas (4-nov) |
 | 2026-11-04 | 095 Science Expands Our Vision of Reality | revision | 1 | 17 | 292 | 1,7 | Cero avisos. Workflow de especialistas (4-nov) |
+| 2026-11-04 | 096 Science Is an Error-Correcting Mechanism | revision | 2 | 19 | 388 | 2,3 | Cero avisos. Workflow de especialistas (4-nov) |
 | 2026-11-04 | 097 Theories Are Explanations, Not Predictions | revision | 3 | 24 | 413 | 2,4 | Cero avisos. Workflow de especialistas (4-nov) |
 | 2026-11-04 | 098 Make Bold Guesses and Weed Out the Failures | revision | 3 | 24 | 387 | 2,3 | Cero avisos. Workflow de especialistas (4-nov); 1 decisiones aplicadas, ver notas |
 | 2026-11-04 | 099 Science Advances One Funeral at a Time | revision | 3 | 12 | 219 | 1,3 | Cero avisos. Workflow de especialistas (4-nov); 1 decisiones aplicadas, ver notas |

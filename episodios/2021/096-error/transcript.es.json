@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2021/096-error",
+  "numero": 96,
+  "fecha": "2021-04-30",
+  "titulo": "La ciencia es un mecanismo de corrección de errores",
+  "subtitulo": "No pretende predecir el futuro a partir del pasado",
+  "fuente_url": "https://nav.al/error",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "¿De dónde salen las buenas explicaciones?",
+        "Ahora mismo hay una obsesión con la inducción, la idea de que se puede predecir el futuro a partir del pasado.",
+        "Puedes decir que has visto uno, luego dos, luego tres, luego cuatro y luego cinco, y que por tanto lo siguiente tiene que ser seis, siete, ocho y nueve.",
+        "Se cree que así es como se crea el conocimiento nuevo, que así es como se forman las teorías científicas y que así es como podemos dar buenas explicaciones sobre el universo.",
+        "¿Qué tiene de malo la inducción, y de dónde sale realmente el conocimiento nuevo?"
+      ]
+    },
+    {
+      "id": "b02-brett",
+      "speaker": "Brett",
+      "frases": [
+        "Antes has mencionado el cisne negro, y me gustaría volver a eso.",
+        "El cisne negro es un ejemplo que se ha usado durante años para ilustrar una idea.",
+        "La idea es que observar los mismos fenómenos una y otra vez no debería darte la seguridad de que vayan a seguir produciéndose en el futuro.",
+        "En Europa tenemos cisnes blancos, así que un biólogo interesado en las aves observaría un cisne blanco tras otro y, al parecer, concluiría que, por tanto, todos los cisnes son blancos.",
+        "Entonces alguien viaja a Australia Occidental y se fija en que allí los cisnes son idénticos a los de Europa en todo, salvo en que son negros.",
+        "Veamos otro ejemplo de inducción. Desde que naciste, has observado que el sol sale cada día.",
+        "¿Significa eso que, científicamente, deberías concluir que el sol saldrá mañana y que seguirá saliendo cada día a partir de entonces?",
+        "La ciencia no trata de eso. No consiste en catalogar una historia de sucesos que ocurrieron en el pasado y dar por hecho que van a volver a ocurrir en el futuro.",
+        "La ciencia es un marco explicativo, es un mecanismo de corrección de errores.",
+        "Nunca funciona diciendo que el sol siempre ha salido en el pasado y que, por tanto, saldrá en el futuro.",
+        "Podemos imaginar todo tipo de maneras en las que el sol podría no salir mañana.",
+        "Basta con hacer un viaje a la Antártida, donde el sol no sale en absoluto durante algunos meses del año.",
+        "Si vas a la Estación Espacial Internacional, no verás salir y ponerse el sol una vez al día.",
+        "Saldrá y se pondrá una y otra vez a lo largo de tu rapidísimo viaje alrededor de la Tierra."
+      ]
+    }
+  ]
+}
