@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 11,
+  "anio": 2019,
+  "slug": "intelligence-energy-integrity",
+  "titulo": "Pick Partners With Intelligence, Energy and Integrity",
+  "subtitulo": "You can't compromise on any of these three",
+  "fecha_publicacion": "2019-03-22",
+  "fuente_url": "https://nav.al/intelligence-energy-integrity",
+  "orden_archivo": 15,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}
