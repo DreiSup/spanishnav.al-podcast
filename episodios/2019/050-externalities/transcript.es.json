@@ -1,0 +1,59 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2019/050-externalities",
+  "numero": 50,
+  "fecha": "2019-07-31",
+  "titulo": "Externalidades: calcular los costes ocultos de los productos",
+  "subtitulo": "Las externalidades permiten contar el coste real de los productos incluyendo los costes ocultos",
+  "fuente_url": "https://nav.al/externalities",
+  "titulos_seccion": [
+    "Poner precio correctamente a las externalidades es más eficaz que las medidas de buena conciencia",
+    "Poner bien precio a las externalidades puede ahorrar recursos de forma tremenda"
+  ],
+  "contenido": [
+    {
+      "id": "b01-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "¿Qué es una externalidad mal valorada?",
+        "La mencionaste en un episodio anterior."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Una externalidad es un coste adicional que impone el producto que se está produciendo o consumiendo y que no está recogido en el precio de ese producto.",
+        "Esto puede pasar por muchas razones.",
+        "A veces se arregla metiendo ese coste de vuelta en el precio.",
+        "Algunos de los críticos más feroces del capitalismo dicen que está destruyendo el medio ambiente.",
+        "Si tiras el capitalismo a la basura porque está destruyendo el medio ambiente, adivina qué: volvemos todos a la época preindustrial.",
+        "Y eso no va a ser nada bueno."
+      ]
+    },
+    {
+      "id": "b03-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Como el medio ambiente es finito y valioso, tenemos que ponerle un precio adecuado y trasladarlo al coste de los productos y los servicios.",
+        "Si hay gente que desperdicia agua, que suelta hidrocarburos a la atmósfera o que contamina de otras maneras, la sociedad debería cobrarles lo que cuesta limpiar esa contaminación y devolver el entorno a su estado original.",
+        "A lo mejor ese precio tiene que ser altísimo.",
+        "Si subes el precio lo suficiente, te cargas la contaminación.",
+        "Eso es mucho mejor que las medidas para quedarse a gusto, como prohibir las bolsas de plástico o limitar las duchas durante una sequía."
+      ]
+    },
+    {
+      "id": "b04-naval",
+      "speaker": "Naval",
+      "frases": [
+        "A California le gusta hacer declaraciones y poner anuncios para meterle miedo a la gente y que no se duche durante las sequías.",
+        "Sería mejor subir el precio del agua potable.",
+        "El consumidor medio pagaría unos céntimos más por ducharse, pero los cultivadores de almendras, que consumen muchísima agua, van a recortar.",
+        "Y puede que el cultivo de almendras se mude a una parte del país donde el agua sea más abundante.",
+        "Ponerle un precio adecuado a las externalidades puede ahorrar recursos de una forma tremenda.",
+        "Es un buen marco para cuando quieres hacer cosas como salvar el medio ambiente, en vez de hacer cosas que te dejan buen sabor de boca pero que al final no sirven de nada."
+      ]
+    }
+  ]
+}

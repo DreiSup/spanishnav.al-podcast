@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 50,
+  "anio": 2019,
+  "slug": "externalities",
+  "titulo_es": "Externalidades: calcular los costes ocultos de los productos",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Externalidades: calcular los costes ocultos de los productos",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). Recorte del 052-rich. Los cuatro bloques reutilizan palabra por palabra los b267 a b270 aprobados del 052, en el mismo orden, comprobado por script por el revisor. Títulos: titulo, titulo_seccion y titulos_seccion son los aprobados del 052. Los guiones largos del inglés («guess what», «who consume a lot of water») ya están resueltos en el aprobado con dos puntos y comas. «Very, very, very high» va como «altísimo», por compresión natural. Nombres que hay que escuchar en el TTS: California. Reutilización de clips: los cuatro bloques coinciden letra a letra con el 052. Revisión: no se ha cambiado ningún texto. Los posibles retoques del aprobado son «agua potable», el título de las medidas de buena conciencia y las frases cortas, y van en decisiones."
+}

@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 50,
+  "anio": 2019,
+  "slug": "externalities",
+  "titulo": "Externalities: Calculating the Hidden Costs of Products",
+  "subtitulo": "Externalities let you account for the true cost of products by including hidden costs",
+  "fecha_publicacion": "2019-07-31",
+  "fuente_url": "https://nav.al/externalities",
+  "orden_archivo": 54,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}
