@@ -60,4 +60,5 @@ texto en español y por qué.
 | S-1 (folleto de la SEC para salir a bolsa) | folletos de salida a bolsa | La sigla con guion y cifra la vocaliza el TTS; se resuelve en la frase (060) |
 | Lao Tzu | Lao Tse | Forma asentada en español, como Sócrates o Confucio (065) |
 | IQ test | test de inteligencia | «IQ» y «CI» se deletrean mal; se resuelve en la frase (065) |
-| If A, then B / A eats B | si pasa una cosa, pasa la otra; uno se come a otro | Las letras sueltas el TTS las lee como preposición o las deletrea; se dice con palabras (063, 065) |
+| If A, then B | si pasa A, entonces pasa B | Decisión del autor (4-nov). Alternativa si el TTS lee mal la «A» suelta: si pasa uno, entonces pasa dos (065) |
+| A eats B; B eats C… | uno se come a otro, ese otro se come a un tercero, y así sucesivamente | Las letras en cadena el TTS las lee como preposición o las deletrea (063) |

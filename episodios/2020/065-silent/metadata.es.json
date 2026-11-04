@@ -21,5 +21,5 @@
   },
   "audio_editado_a_mano": false,
   "heredado": null,
-  "notas": "Inglés sacado del Google Doc «2020 all podcasts»; cuadra palabra a palabra. El tuit de Naval, la cita de Kapil Gupta y las réplicas de b02 van en estilo indirecto. Lao Tzu va como «Lao Tse», la forma asentada en español; «IQ test» como «test de inteligencia»; «If A, then B. That doesn’t mean, If B, then A» como «si pasa una cosa, pasa la otra, y eso no significa que si pasa la otra, pase la primera», porque las letras sueltas las lee mal el TTS (ver GLOSARIO). Antes de sintetizar: comprobar cómo lee el TTS «Robin Williams» y «Bill Gates»."
+  "notas": "Inglés sacado del Google Doc «2020 all podcasts»; cuadra palabra a palabra. El tuit de Naval, la cita de Kapil Gupta y las réplicas de b02 van en estilo indirecto. Lao Tzu va como «Lao Tse», la forma asentada en español; «IQ test» como «test de inteligencia»; «If A, then B. That doesn’t mean, If B, then A» como «si pasa A, entonces pasa B, y eso no significa que si pasa B, entonces pasa A» (decisión del autor, 4-nov). Antes de sintetizar: comprobar que el TTS lee bien la «A» suelta y que Whisper la reconoce; si no, la alternativa del autor es «si pasa uno, entonces pasa dos». Antes de sintetizar: comprobar cómo lee el TTS «Robin Williams» y «Bill Gates»."
 }
