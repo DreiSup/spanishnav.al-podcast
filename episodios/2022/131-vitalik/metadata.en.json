@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 131,
+  "anio": 2022,
+  "slug": "vitalik",
+  "titulo": "Vitalik: Ethereum, Part 1",
+  "subtitulo": "",
+  "fecha_publicacion": "2022-04-08",
+  "fuente_url": "https://nav.al/vitalik",
+  "orden_archivo": 135,
+  "en_feed": true,
+  "participantes": [
+    "Haseeb",
+    "Naval",
+    "Vitalik"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}

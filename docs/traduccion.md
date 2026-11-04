@@ -114,3 +114,4 @@ abiertas («…talk about sex.» sin «”»). Afecta solo al inglés, que no se
 | 2026-11-04 | 128 Knowledge Makes the Existence of Resources Infinite | revision | 2 | 26 | 535 | 3,1 | Cero avisos. Workflow de especialistas (4-nov); 2 decisiones aplicadas, ver notas |
 | 2026-11-04 | 129 To a Caveman Very Few Things Are Resources | revision | 2 | 35 | 611 | 3,6 | Cero avisos. Workflow de especialistas (4-nov); 3 decisiones aplicadas, ver notas |
 | 2026-11-04 | 130 The Beginning of Infinity, Part 2 | revision | 35 | 567 | 10553 | 62,1 | Cero avisos. Workflow de especialistas (4-nov); 2 decisiones aplicadas, ver notas |
+| 2026-11-04 | 131 Vitalik: Ethereum, Part 1 | revision | 82 | 503 | 9334 | 54,9 | Cero avisos. Workflow de especialistas (4-nov); 20 decisiones aplicadas, ver notas |
