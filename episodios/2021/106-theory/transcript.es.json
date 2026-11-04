@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2021/106-theory",
+  "numero": 106,
+  "fecha": "2021-10-08",
+  "titulo": "Con una buena teoría del conocimiento, puedes decidir qué más es verdad",
+  "subtitulo": "La teoría de David Deutsch gira en torno a las buenas explicaciones",
+  "fuente_url": "https://nav.al/theory",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "David Deutsch tiene una visión del mundo estupenda, según la cual todo lo importante lo puede entender un solo ser humano.",
+        "Con lo importante se refiere a las teorías de base, las que están en el fondo y rigen la mayor parte de la realidad.",
+        "Deutsch se centra en cuatro teorías, aunque yo diría que quizá haya algunas más.",
+        "Habría más, sobre todo, si empiezas a meterte en Adam Smith y La riqueza de las naciones, y en algunas otras teorías más sociológicas.",
+        "Pero, claro, él es físico, y le interesan más la realidad y la búsqueda de la verdad que los sistemas humanos.",
+        "De las cuatro que elige, la primera es la teoría de la epistemología, y la segunda, la teoría de la evolución por selección natural.",
+        "La tercera es la teoría cuántica, en la que engloba la relatividad y el resto de la física.",
+        "Y la cuarta es la teoría de la computación, que incluye su teoría de la computación cuántica.",
+        "Estas cuatro son fascinantes, y probablemente valga la pena explorar qué tiene de interesante cada una.",
+        "¿Cuál es aquí el gran avance que quizá no sea evidente?",
+        "Empecemos por la epistemología, y es que lo que me encanta de El comienzo del infinito es que Deutsch hace un repaso muy riguroso de lo que es correcto en ella.",
+        "Es decir, repasa con rigor lo que sabemos que son las mejores respuestas.",
+        "Una vez que tienes una buena teoría del conocimiento, puedes decidir qué más es verdad.",
+        "Si partes de una mala base para la teoría del conocimiento, vas a acabar aceptando un montón de cosas falsas pensando que podrían ser verdad.",
+        "Y su epistemología gira en torno a las buenas explicaciones.",
+        "Parte de la visión de Popper, que entiende la ciencia y la búsqueda de la verdad como mecanismos de corrección de errores, y la amplía.",
+        "Me encantaría oír tu resumen de la teoría del conocimiento, o epistemología, tal como la plantea Deutsch."
+      ]
+    }
+  ]
+}

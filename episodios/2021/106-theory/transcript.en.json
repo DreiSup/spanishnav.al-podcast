@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "idioma": "en",
+  "episodio": "2021/106-theory",
+  "numero": 106,
+  "fecha": "2021-10-08",
+  "titulo": "With a Good Theory of Knowledge, You Can Decide What Else Is True",
+  "subtitulo": "David Deutsch’s theory is centered around good explanations",
+  "fuente_url": "https://nav.al/theory",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "David Deutsch has this great view of the world where he believes that everything important is understandable by a single human.",
+        "By important he means the underlying base theories that drive most of reality.",
+        "Deutsch fixates on four theories.",
+        "I could argue maybe there are a few more, especially if you start getting into Adam Smith and The Wealth of Nations and a few other more sociological ones.",
+        "But he’s obviously a physicist concerned more with reality and truth-seeking, not human systems.",
+        "The four he picks are the theory of epistemology; the theory of evolution by natural selection; quantum theory, into which he subsumes relativity and other physics; and the theory of computation, which includes his theory of quantum computation.",
+        "These four are fascinating.",
+        "It’s probably worth exploring what’s interesting about each of them.",
+        "What is the breakthrough here that might be nonobvious?",
+        "Let’s start with epistemology.",
+        "The reason I love The Beginning of Infinity is that Deutsch does a very rigorous review of what is correct in epistemology, what we know to be the best answers.",
+        "Once you have a good theory of knowledge, then you can decide what else is true.",
+        "If you’re starting with a bad basis for the theory of knowledge, then you’re going to decide on a bunch of things that are false when you think they might be true.",
+        "And his epistemology is centered around good explanations.",
+        "It takes Popper’s view of science and truth-seeking as being error-correcting mechanisms and expands on it.",
+        "I’d love to hear your summary of the theory of knowledge, or epistemology, as Deutsch lays it out."
+      ]
+    }
+  ]
+}

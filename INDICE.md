@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**71** episodios · **0** publicados · **0** sin empezar
+**72** episodios · **0** publicados · **0** sin empezar
 
 ## 2021
 
@@ -42,6 +42,7 @@
 | 103 | [103-pessimism](episodios/2021/103-pessimism) | El pesimismo parece una postura intelectualmente seria | 🟠 en revisión | — | — |
 | 104 | [104-optimism](episodios/2021/104-optimism) | El optimismo racional es la salida | 🟠 en revisión | — | — |
 | 105 | [105-infinity](episodios/2021/105-infinity) | El comienzo del infinito, primera parte | 🟠 en revisión | — | — |
+| 106 | [106-theory](episodios/2021/106-theory) | Con una buena teoría del conocimiento, puedes decidir qué más es verdad | 🟠 en revisión | — | — |
 
 ## 2020
 
