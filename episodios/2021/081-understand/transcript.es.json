@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2021/081-understand",
+  "numero": 81,
+  "fecha": "2021-03-22",
+  "titulo": "Los humanos somos únicos en nuestra capacidad de entender",
+  "subtitulo": "El conocimiento está en el observador, no en lo observado",
+  "fuente_url": "https://nav.al/understand",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "El valor está en el conocimiento, y el conocimiento está dentro del observador y del creador, es decir, de un ser humano, no dentro de la cosa en sí.",
+        "Por ejemplo, el petróleo no sirve de nada a menos que sepas refinarlo, quemarlo y aprovechar su combustión.",
+        "La información no sirve de nada si no hay un cerebro que la reciba.",
+        "Podría haber una señal que emitiera en inglés hacia el espacio exterior.",
+        "Pero si no hay ninguna criatura capaz de entender qué idioma es ese, cómo funciona y quién lo transmite, no son más que frecuencias electromagnéticas moduladas que no significan nada.",
+        "Así que gran parte de la información, gran parte del valor, está dentro de una entidad concreta que porta conocimiento.",
+        "A medida que crece el alcance de la ciencia, hemos llegado a una ciencia muy reduccionista, en la que descomponemos las cosas en piezas cada vez más pequeñas.",
+        "Y luego intentamos explicar las cosas a partir de esas piezas.",
+        "Dentro de la ciencia hay una contracorriente, la teoría de la complejidad, en la que hablamos de propiedades emergentes y de sistemas de nivel superior.",
+        "Estudia sistemas que, a pequeña escala, funcionan de forma caótica e impredecible.",
+        "Pero, a gran escala, podemos afirmar ciertas cosas sobre ellos que sí tienen poder explicativo.",
+        "Los humanos somos únicos en nuestra capacidad de entender las cosas."
+      ]
+    }
+  ]
+}

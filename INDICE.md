@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**46** episodios · **0** publicados · **0** sin empezar
+**47** episodios · **0** publicados · **0** sin empezar
 
 ## 2021
 
@@ -17,6 +17,7 @@
 | 78 | [078-knowledge](episodios/2021/078-knowledge) | Estamos al comienzo de un infinito de conocimiento | 🟠 en revisión | — | — |
 | 79 | [079-people](episodios/2021/079-people) | Las personas son una fuerza de la naturaleza | 🟠 en revisión | — | — |
 | 80 | [080-predict](episodios/2021/080-predict) | Es imposible predecir el crecimiento del conocimiento | 🟠 en revisión | — | — |
+| 81 | [081-understand](episodios/2021/081-understand) | Los humanos somos únicos en nuestra capacidad de entender | 🟠 en revisión | — | — |
 
 ## 2020
 
