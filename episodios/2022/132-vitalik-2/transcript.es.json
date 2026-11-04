@@ -1,0 +1,694 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2022/132-vitalik-2",
+  "numero": 132,
+  "fecha": "2022-04-14",
+  "titulo": "Vitalik: Ethereum, segunda parte",
+  "subtitulo": "",
+  "fuente_url": "https://nav.al/vitalik-2",
+  "titulos_seccion": [
+    "La política de los protocolos",
+    "El gran estadista veterano de las cadenas de contratos inteligentes",
+    "La comunidad de Ethereum",
+    "El ataque a la DAO",
+    "Los mejores y los peores momentos de Vitalik en la política de los protocolos",
+    "Convertirse en un maestro de los memes en Twitter",
+    "La influencia de Vitalik hoy en Ethereum",
+    "Cada vez cuesta más hacer grandes cambios en Ethereum",
+    "Objetivos fuera de Ethereum",
+    "El mundo cripto necesita gente de buen carácter",
+    "Rusia",
+    "El estilo de vida de Vitalik",
+    "Reflexiones finales"
+  ],
+  "contenido": [
+    {
+      "id": "b01-haseeb",
+      "speaker": "Haseeb",
+      "frases": [
+        "Vitalik, quiero preguntarte un poco por cómo ha evolucionado tu papel desde que empezó Ethereum.",
+        "Al principio, antes de todo esto, tú eras, claro, el joven emprendedor descarado.",
+        "Ya van seis o siete años, y has pasado de ser el emprendedor a ser el principal tecnólogo, y de ahí a ser el político.",
+        "Ahora eres algo así como el gran estadista veterano de las cadenas de bloques de contratos inteligentes.",
+        "¿Qué has aprendido sobre la política de los protocolos?"
+      ]
+    },
+    {
+      "id": "b02-vitalik",
+      "speaker": "Vitalik",
+      "frases": [
+        "La política de los protocolos se diferencia de la política normal menos de lo que crees.",
+        "Todo son fenómenos emergentes, lo que ocurre cuando juntas a muchos miles de personas.",
+        "En algunos casos tienes incentivos que están alineados, y en otros casos hay competencia.",
+        "Tienes distintos grupos de personas con opiniones distintas, y tienen que enfrentarse entre ellos.",
+        "A veces se enfrentan dentro de un mismo protocolo, y a veces entre protocolos distintos, cuando compiten entre sí.",
+        "Muchas de las dinámicas que aparecen se parecen sorprendentemente al fervor religioso con el que la gente defiende sus opiniones.",
+        "¿Es mejor tener cadenas de bloques con bloques más pequeños, para que sean más fáciles de verificar, o bloques más grandes, para que más gente pueda permitirse usarlas?",
+        "La gente tiene opiniones muy firmes sobre esto, igual que las tiene sobre la religión, la democracia, la libertad de expresión, el Estado del bienestar o cualquier otro tema de la política convencional."
+      ]
+    },
+    {
+      "id": "b03-haseeb",
+      "speaker": "Haseeb",
+      "frases": [
+        "Es llamativo, la verdad. Construiste tu carrera como respuesta al maximalismo de Bitcoin, y has vivido lo bastante para ver el auge del maximalismo de Ethereum.",
+        "Hace tres o cuatro años, parecía que eso ni siquiera existía.",
+        "Y ahora, con todas las alternativas a Ethereum que están surgiendo, está muy claro que la gente de Ethereum siente una gran necesidad de distinguir su identidad de la de los demás.",
+        "Así que me pregunto cómo te planteas mantener sano Ethereum y evitar que su comunidad se degrade cultural y religiosamente, como viste degradarse a la comunidad de Bitcoin."
+      ]
+    },
+    {
+      "id": "b04-vitalik",
+      "speaker": "Vitalik",
+      "frases": [
+        "Una de las cosas que creo haber aprendido en la última década es que la gente da lo peor de sí, moralmente, no por codicia, sino por miedo.",
+        "Es así en la política convencional, y es así en la geopolítica."
+      ]
+    },
+    {
+      "id": "b05-naval",
+      "speaker": "Naval",
+      "frases": [
+        "La covid demostró que todo se movía por miedo.",
+        "La crisis entre Rusia y Ucrania demuestra que Rusia no ataca a Ucrania para quedarse con yacimientos de petróleo, sino por miedo, y todas las respuestas se basan en el miedo.",
+        "El miedo sirve para justificar todas las cosas horribles, desde la Ley Patriota hasta los confinamientos por la covid. El miedo lo mueve todo.",
+        "La codicia siempre se ejerce en nombre propio, y nadie quiere hacerlo en nombre propio.",
+        "El miedo siempre se invoca en nombre de todos los demás.",
+        "Así que acabas con un montón de supuestos salvadores autoproclamados que luchan entre sí."
+      ]
+    },
+    {
+      "id": "b06-vitalik",
+      "speaker": "Vitalik",
+      "frases": [
+        "Exacto. E incluso cuando el líder es de verdad codicioso y megalómano, lo que usa para vendérselo a todos los demás es el miedo.",
+        "Creo que los momentos en que las comunidades de Bitcoin y de Ethereum dieron moralmente lo peor de sí fueron, probablemente, dos crisis.",
+        "En Bitcoin fue la crisis de Bitcoin Cash, la guerra entre los bloques pequeños y los bloques grandes.",
+        "La gente sentía que había una lucha de suma cero entre una visión de lo que sería Bitcoin y otra visión de lo que podría ser Bitcoin.",
+        "Se tiraron por la borda muchos principios, y la gente se portó fatal de muchas maneras.",
+        "En el caso de Ethereum, había una gran aplicación llamada la DAO, y la DAO sufrió un ataque.",
+        "Una gran parte de todo el ether que había estaba atrapada en la DAO.",
+        "Si no se hubiera hecho nada, el atacante habría podido sacarlo al cabo de un par de meses.",
+        "Y esto pasó cuando Ethereum todavía no tenía ni un año de historia.",
+        "Así que se tomó la decisión de cambiar las reglas del protocolo de Ethereum para rescatar a los usuarios de esa aplicación.",
+        "Hubo un gran debate, y algunos pensaban que por una vez no pasaba nada, porque todo estaba empezando.",
+        "Otros pensaban que no intervenir nunca debía ser un principio, y que lo mejor era aplicar esos principios desde el primer día.",
+        "Al final sí hicimos una bifurcación dura para arreglar lo de la DAO, y mucha gente no estuvo de acuerdo.",
+        "Eso acabó dividiendo Ethereum en dos cadenas, Ethereum y Ethereum Classic.",
+        "En Ethereum Classic se negaron a aplicar la bifurcación dura, así que, por principio, dejaron que el atacante se saliera con la suya.",
+        "La forma en que se comportaron las dos comunidades en aquel momento no fue buena.",
+        "Había gente que defendía abiertamente usar la ley de marcas para intentar impedir que Ethereum Classic existiera.",
+        "Y luego había gente que defendía los ataques del cincuenta y uno por ciento y todo tipo de cosas.",
+        "Creo que la gente aceptó cosas que en cualquier otro momento no habría aceptado en absoluto porque tenía miedo.",
+        "La gente de Ethereum tenía miedo de que Ethereum Classic acabara sustituyendo y destruyendo por completo a Ethereum.",
+        "Y la gente de Ethereum Classic tenía miedo de que Ethereum destruyera sus principios y luego creciera hasta superar a la versión de la cadena que se mantuvo fiel a ellos.",
+        "Creo que al final la situación salió bien para la mayoría.",
+        "Desde entonces no ha habido en Ethereum otra violación de la inmutabilidad como aquella, y eso es algo que mucha gente no preveía.",
+        "Mucha gente pensaba de verdad que, si se violaban los principios una vez, luego sería barra libre para hacerlo muchas veces.",
+        "Pero no, un año después, la gente incluso prefirió no arreglar lo del monedero Parity, para sentar el precedente contrario.",
+        "De verdad que nos tomamos esto muy en serio."
+      ]
+    },
+    {
+      "id": "b07-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Hubo un fallo en un monedero multifirma llamado el monedero Parity, que provocó una pérdida enorme de fondos.",
+        "Pero, para que quede claro, ¿no es verdad que el ataque a la DAO fue de una magnitud mucho mayor que todo lo que vino después?"
+      ]
+    },
+    {
+      "id": "b08-vitalik",
+      "speaker": "Vitalik",
+      "frases": [
+        "Sí, fue mucho mayor, y fue algo único, porque hasta se podía arreglar con una bifurcación.",
+        "Normalmente, cuando hay un ataque, el atacante se lleva el dinero al instante y no hay forma de arreglarlo, aunque quieras.",
+        "Así que la DAO fue realmente especial y única en ese sentido."
+      ]
+    },
+    {
+      "id": "b09-haseeb",
+      "speaker": "Haseeb",
+      "frases": [
+        "¿Cuál dirías que ha sido, como político de protocolos, tu mejor momento y tu peor momento en el arte de gobernar cadenas de bloques?"
+      ]
+    },
+    {
+      "id": "b10-vitalik",
+      "speaker": "Vitalik",
+      "frases": [
+        "¿El momento del que menos orgulloso estoy?",
+        "Sin duda, cómo se gestionó la situación de la bifurcación de la DAO.",
+        "Mucha gente se sintió traicionada por la bifurcación de la DAO.",
+        "Mucha gente sintió que se habían incumplido sus expectativas.",
+        "Y mucha gente sintió que no se respetaba su opinión, sobre todo quienes se oponían a la bifurcación.",
+        "Muchos de ellos sentían que había un ambiente social en el que, si te oponías a la bifurcación, eras malvado, porque estabas a favor de que unos piratas informáticos robaran millones de dólares.",
+        "Ese ambiente acabó alejando a mucha gente, y podríamos haber hecho mucho más para no crearlo y para que la gente se sintiera bienvenida a pesar del desacuerdo."
+      ]
+    },
+    {
+      "id": "b11-haseeb",
+      "speaker": "Haseeb",
+      "frases": [
+        "¿Te arrepientes de la decisión, o te arrepientes de la forma en que se tomó?"
+      ]
+    },
+    {
+      "id": "b12-vitalik",
+      "speaker": "Vitalik",
+      "frases": [
+        "No creo que me arrepienta de la decisión.",
+        "Esa decisión también tuvo muchas consecuencias positivas, porque sirvió para fijar una postura polémica.",
+        "Y la gente interpretó esa postura de formas distintas.",
+        "Yo interpreto esa postura como una declaración moral que decía que puedes creer en unos principios sin darles un peso infinito.",
+        "Es decir, que no hace falta prometer que te mantendrás fiel a esos principios en absolutamente todas las circunstancias posibles.",
+        "Ese tipo de moderación es algo muy importante para mí en lo moral, y también en lo práctico.",
+        "La mayoría de quienes intentan adoptar un enfoque más purista acaban topándose con una situación tan extrema que tienen que ceder.",
+        "Si te has comprometido demasiado a no ceder nunca, tu discurso queda todavía peor parado.",
+        "Es mejor ser transparente con estas cosas desde el principio.",
+        "La gente pragmática, dispuesta a ver las cosas de una forma más moderada, está sin duda muy contenta con eso.",
+        "Incluso hubo gente que creía en la moderación y que se opuso a la bifurcación de la DAO, lo cual fue interesante.",
+        "Algunos acabaron quedándose en Ethereum a pesar de la bifurcación de la DAO.",
+        "Pero para mucha gente la bifurcación de la DAO fue un punto de inflexión.",
+        "Antes sentían curiosidad por Ethereum, y de repente se dieron cuenta, asombrados, de que aquello era una cadena centralizada y malvada.",
+        "Es una pena que no podamos contentar a todo el mundo.",
+        "Pero, por otro lado, contentar a todo el mundo sale caro, y contentar a todo el mundo es dificilísimo.",
+        "A veces incluso me pregunto si, de haber contentado a todos con la bifurcación de la DAO, la política para sacar adelante la prueba de participación no habría sido mucho más difícil. No lo sé."
+      ]
+    },
+    {
+      "id": "b13-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Veo que en Twitter recibes palos por todas partes y que te lo tomas con muy buen humor, algo que Zooko también parece hacer.",
+        "Los líderes visibles de los protocolos, o sus creadores, porque ya ni siquiera sé si alguien lidera de verdad Ethereum, suelen saber moverse en público con cierta indiferencia o con cierta combatividad.",
+        "Y no creo que una persona normal pudiera aguantar eso.",
+        "¿Cómo surgió eso en tu caso?",
+        "¿Te gustaría haber seguido siendo anónimo?",
+        "¿Tuviste que pasar por una curva de aprendizaje para saber lidiar con todos los trols, con todos los que te odian y con todos los maximalistas de Bitcoin que te atacan?",
+        "¿Te gustaría poder pulsar un botón y desaparecer de Ethereum, y que Ethereum quedara en manos de la fundación?"
+      ]
+    },
+    {
+      "id": "b14-vitalik",
+      "speaker": "Vitalik",
+      "frases": [
+        "Sin duda hay una curva de aprendizaje, y en años anteriores cometí grandes errores al tuitear.",
+        "Me pasaba sobre todo cuando me dejaba llevar en una discusión concreta, decía algo, sentía que tenía que justificarme y me iba metiendo cada vez más en el hoyo."
+      ]
+    },
+    {
+      "id": "b15-naval",
+      "speaker": "Naval",
+      "frases": [
+        "¿Me estás diciendo que te gustaría no haber discutido tanto en Twitter?"
+      ]
+    },
+    {
+      "id": "b16-vitalik",
+      "speaker": "Vitalik",
+      "frases": [
+        "Sí, con el tiempo aprendes que hay un buen estilo.",
+        "El buen estilo es el que acepta las críticas con elegancia.",
+        "Aprendes a qué responder y qué dejar pasar, porque, siendo realistas, nadie lo va a ver de todos modos.",
+        "Sin duda hay un arte subconsciente e intuitivo para ser un buen maestro de los memes en Twitter, y en general un buen maestro de los memes en cripto."
+      ]
+    },
+    {
+      "id": "b17-naval",
+      "speaker": "Naval",
+      "frases": [
+        "¿Cuánta influencia tienes hoy en Ethereum, sobre todo comparada con la época de la bifurcación de la DAO?",
+        "Mi impresión es que en la bifurcación de la DAO estuviste muy implicado.",
+        "¿Cuánta influencia tendrías si hoy surgiera algo de esa magnitud, comparada con la que tenías entonces?"
+      ]
+    },
+    {
+      "id": "b18-vitalik",
+      "speaker": "Vitalik",
+      "frases": [
+        "Siento que mi influencia en Ethereum no deja de disminuir cada seis meses.",
+        "Ahora tengo menos que hace seis meses, y hace seis meses tenía menos que hace un año.",
+        "Y hace un año tenía menos que hace dieciocho meses.",
+        "Hoy en día, el número de personas a las que incluso yo tengo que convencer para empujar en una dirección concreta es considerable.",
+        "Si sigues algunas de las propuestas de mejora que yo promuevo personalmente, verás que algunas ni siquiera salen adelante.",
+        "Así que con muchas de ellas tienes que esforzarte bastante para atender las preocupaciones de todo el mundo."
+      ]
+    },
+    {
+      "id": "b19-naval",
+      "speaker": "Naval",
+      "frases": [
+        "¿Y qué es lo más importante que has impulsado y que no se está adoptando?"
+      ]
+    },
+    {
+      "id": "b20-vitalik",
+      "speaker": "Vitalik",
+      "frases": [
+        "Un ejemplo es la propuesta de mejora cuatro mil cuatrocientos ochenta y ocho.",
+        "Si yo tuviera más control, ya estaría incluida en Ethereum."
+      ]
+    },
+    {
+      "id": "b21-naval",
+      "speaker": "Naval",
+      "frases": [
+        "¿Y esa en qué consiste?"
+      ]
+    },
+    {
+      "id": "b22-vitalik",
+      "speaker": "Vitalik",
+      "frases": [
+        "Es la que reduce a corto plazo el coste del gas de los datos de llamada.",
+        "Es un cambio bastante técnico que abarata los rollups a corto plazo."
+      ]
+    },
+    {
+      "id": "b23-haseeb",
+      "speaker": "Haseeb",
+      "frases": [
+        "Me da la impresión de que la evolución de tu papel dentro de Ethereum muestra hasta qué punto las cadenas de bloques se parecen a las religiones.",
+        "Imagina que Ethereum empezó como una secta que fundaste tú como líder carismático.",
+        "Y tú anunciabas que la secta se separaba de la religión de Bitcoin, o de la religión de Mastercoin, y que creías en unos principios nuevos, los de la completitud de Turing.",
+        "Hubo un tiempo en que eras el líder de la secta, y a medida que la secta se convierte en iglesia, aparece más burocracia y más vetocracia.",
+        "Cada vez hay más mecanismos que se van desarrollando entre bastidores.",
+        "Y muy pronto puede que sigas siendo la voz carismática de Ethereum, pero el liderazgo formal de Ethereum ha cobrado vida propia.",
+        "¿Qué has observado sobre cómo Ethereum se ha vuelto más sistemático como cultura, en comparación con lo que era hace cinco años?"
+      ]
+    },
+    {
+      "id": "b24-vitalik",
+      "speaker": "Vitalik",
+      "frases": [
+        "Hoy, las decisiones sobre el protocolo suelen tomarse mediante un mecanismo llamado la reunión de todos los desarrolladores del núcleo.",
+        "Es una llamada que se celebra una vez cada dos semanas.",
+        "Como su nombre indica, todos los desarrolladores del núcleo se conectan y hablan de todos los cambios de protocolo que se han propuesto.",
+        "Todo aquello en lo que hay acuerdo se acepta, y si no hay acuerdo, no se acepta.",
+        "Así que hay un circuito bastante complicado por el que tienen que pasar los cambios.",
+        "El primer paso es la fase de generar ideas, y el segundo paso es la fase de pulirlas.",
+        "Luego viene la fase de convencer a cada vez más gente y de hacer una implementación de prueba.",
+        "Al final, la idea se convierte en un documento formal completo que llamamos propuesta de mejora de Ethereum.",
+        "Y por último, la propuesta se lleva a la reunión de todos los desarrolladores del núcleo, y si allí la aceptan, acaba entrando en una bifurcación dura.",
+        "Una bifurcación dura es lo que llamamos una actualización del protocolo de Ethereum, e incluye cambios en el protocolo que todo el mundo tiene que descargarse para seguir siendo aceptado en la red.",
+        "Así que es un proceso bastante largo, y hay muchos puntos del camino en los que distintas personas tienen que estar de acuerdo.",
+        "Ya al principio, el equipo de investigación tiene que estar de acuerdo.",
+        "Y en las fases posteriores también tienen que estar de acuerdo los desarrolladores del núcleo, la gente que de verdad escribe el código.",
+        "Así que, sin duda, es bastante más vetocrático que hace tres años, y mucho más que hace seis años.",
+        "Hace seis años podíamos conseguir que se aceptara un cambio y que se incluyera muy rápido.",
+        "Incluso ahora siento que se está cerrando la ventana para los cambios de calado.",
+        "Ya hoy es cada vez más difícil hacer cosas grandes."
+      ]
+    },
+    {
+      "id": "b25-haseeb",
+      "speaker": "Haseeb",
+      "frases": [
+        "¿Y cómo te sientes con eso?"
+      ]
+    },
+    {
+      "id": "b26-vitalik",
+      "speaker": "Vitalik",
+      "frases": [
+        "En cierto modo, aliviado, porque si Ethereum es más vetocrático, tengo más libertad para jubilarme.",
+        "Bueno, jubilarse es una palabra complicada, porque creo que seguiré haciendo cosas siempre.",
+        "¿Pero qué tipo de cosas?",
+        "Como has dicho, mi papel está cambiando de formas complicadas que son difíciles de describir."
+      ]
+    },
+    {
+      "id": "b27-naval",
+      "speaker": "Naval",
+      "frases": [
+        "¿En qué estarías trabajando tú si no estuvieras trabajando en Ethereum?"
+      ]
+    },
+    {
+      "id": "b28-vitalik",
+      "speaker": "Vitalik",
+      "frases": [
+        "Buena pregunta. Tendría mi larga lista de cosas que creo que tienen que suceder.",
+        "Y haría una combinación de escribir sobre ellas, explicarlas y, probablemente, poner parte de mi propio dinero para hacerlas realidad.",
+        "Intentaría formar equipos y conseguir que salieran adelante.",
+        "Serían cosas como la seguridad de las cuentas, lo que hablamos de los monederos de recuperación social, o ideas sobre privacidad.",
+        "También estaría la votación segura basada en cadenas de bloques, que es algo que he estado impulsando.",
+        "En definitiva, sería toda la hoja de ruta de lo que tenemos que hacer para que funcione esta sociedad descentralizada ideal, que no depende de confiar en nadie."
+      ]
+    },
+    {
+      "id": "b29-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Eso ya lo has hecho con los creadores de mercado automatizados que usa Haseeb, de los que ya hemos hablado.",
+        "La idea salió de una de las entradas de tu blog y luego se implementó como Uniswap.",
+        "¿Hay alguna otra cosa por ahí que sea fácil de conseguir?",
+        "Lo de los monederos de recuperación social ya te lo he oído.",
+        "¿Y la votación con cadenas de bloques?",
+        "Imagina que eres un joven programador que escucha este podcast.",
+        "Pongamos que no haces propaganda de Ethereum, pero piensas que el mundo necesita algo y que alguien debería construirlo.",
+        "¿Qué deberías construir?"
+      ]
+    },
+    {
+      "id": "b30-vitalik",
+      "speaker": "Vitalik",
+      "frases": [
+        "Ahora mismo, algo importante son los clientes web descentralizados, es decir, formas de acceder a la cadena de bloques de Ethereum que salen más baratas que tener un nodo completo.",
+        "Aun así, esos clientes siguen siendo descentralizados y no dependen de ningún servidor.",
+        "Es algo que va a ser mucho más factible con el paso a la prueba de participación.",
+        "Hay gente trabajando en ello, pero nos vendría bien que hubiera más.",
+        "En la capa de aplicación también hay cosas que podrían ser útiles.",
+        "He visto a gente trabajando en redes privadas virtuales descentralizadas, y me parecen muy interesantes."
+      ]
+    },
+    {
+      "id": "b31-naval",
+      "speaker": "Naval",
+      "frases": [
+        "¿Crees que hay aplicaciones de las cadenas de bloques que todavía no han despegado por la escalabilidad, o porque aún no están en todas partes y no todo el mundo tiene un monedero?",
+        "¿Cuál sería el caso extremo?",
+        "¿Qué podría estar haciendo la gente con las cadenas de bloques dentro de diez años que hoy parezca ciencia ficción?"
+      ]
+    },
+    {
+      "id": "b32-vitalik",
+      "speaker": "Vitalik",
+      "frases": [
+        "Sería interesante algún tipo de red social descentralizada basada en cadenas de bloques.",
+        "Lo valioso que se podría hacer con las redes sociales es separar en capas el contenido y la interfaz de usuario.",
+        "Todo el contenido debería estar en una misma capa compartida, y la gente debería competir ofreciendo interfaces distintas.",
+        "En Twitter y en Reddit, al final, todo consiste en que los usuarios escriben comentarios y los usuarios votan.",
+        "La única gran diferencia está en las interfaces que usa la gente para mostrarlo.",
+        "¿Por qué no crear, entonces, un ecosistema en el que cualquiera pueda publicar cosas y enlazar unas publicaciones con otras?",
+        "En ese ecosistema, la gente podría enviar mensajes que sean votos a favor y votos en contra, y también volver a publicar lo que han publicado otros.",
+        "Y luego, simplemente, habría diez maneras distintas de verlo todo.",
+        "Cada una de esas maneras podría tener una presentación diferente, un estilo de moderación diferente y sus propias subcomunidades.",
+        "Algunas serían más abiertas, casi sin normas, y otras serían más restrictivas.",
+        "Algunas se centrarían más en temas concretos, otras serían zonas de libertad de expresión y otras serían espacios para debates científicos muy especializados.",
+        "Pero todas seguirían compartiendo el efecto de red de tener unos mismos estándares comunes para el contenido, que se publicaría en una única red descentralizada."
+      ]
+    },
+    {
+      "id": "b33-naval",
+      "speaker": "Naval",
+      "frases": [
+        "La gente lo ha intentado un poco, pero nada ha despegado.",
+        "¿Por qué pasa eso?"
+      ]
+    },
+    {
+      "id": "b34-vitalik",
+      "speaker": "Vitalik",
+      "frases": [
+        "Si tenemos una cadena de bloques superescalable en la que podamos permitirnos meter este tipo de acciones por defecto, entonces podría pasar."
+      ]
+    },
+    {
+      "id": "b35-haseeb",
+      "speaker": "Haseeb",
+      "frases": [
+        "¿A quién admiras?",
+        "¿Quiénes son tus héroes?"
+      ]
+    },
+    {
+      "id": "b36-vitalik",
+      "speaker": "Vitalik",
+      "frases": [
+        "En el mundo cripto, le tengo mucho respeto a Zooko.",
+        "Zcash es, sencillamente, un proyecto sano y honrado.",
+        "Valora la privacidad, y se esfuerza muchísimo por conseguirla de una forma muy amable."
+      ]
+    },
+    {
+      "id": "b37-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Es tremendamente amable, y no te puedes creer la cantidad de insultos que aguanta.",
+        "Es uno de los pioneros del mundo cripto, y lleva en esto desde siempre por los mejores motivos.",
+        "Recuerdo que, en los primeros tiempos, le pregunté a Zooko si construir aquello era siquiera legal, y qué pasaría si lo detenían.",
+        "Me dijo que, en ese caso, echaría de menos a sus hijos, pero que iría a la cárcel.",
+        "Cree de verdad en lo que hace, y además tiene la costumbre de retuitear a la gente incluso cuando le atacan.",
+        "Uno de mis momentos favoritos de Twitter fue hace muchísimos años, cuando alguien le escribió un tuit diciéndole que dejara de retuitear porquerías inútiles.",
+        "Y Zooko, claro, retuiteó a esa persona, que se convirtió en un genio sin querer."
+      ]
+    },
+    {
+      "id": "b38-vitalik",
+      "speaker": "Vitalik",
+      "frases": [
+        "Ahora estoy intentando recordar si eso lo aprendí de Zooko o no."
+      ]
+    },
+    {
+      "id": "b39-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Creo de verdad que Zooko marcó la pauta de cómo se construye una comunidad con una sonrisa.",
+        "Por ejemplo, ahora Zooko habla de pasar Zcash a la prueba de participación, y le siguen atacando por cosas como la recompensa de los fundadores.",
+        "La gente le pregunta por qué tuvo que crear una moneda alternativa y por qué no lo hizo como parte de Bitcoin.",
+        "Y recuerdo que al principio él quería hacerlo como parte de Bitcoin, pero le dijeron que no, que primero lo implementara como moneda alternativa y que, si les gustaba, ya lo adoptarían."
+      ]
+    },
+    {
+      "id": "b40-haseeb",
+      "speaker": "Haseeb",
+      "frases": [
+        "Vitalik conoce bien esa historia."
+      ]
+    },
+    {
+      "id": "b41-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Exacto. Mira, Bitcoin intenta ser algo muy concreto.",
+        "Creo de verdad que Bitcoin tiene un valor enorme, y es el original.",
+        "Pero se queda corto en dos aspectos, ya que ni es programable ni es privado.",
+        "¿Se puede arreglar eso?",
+        "No se puede sin renunciar seriamente a lo que es Bitcoin.",
+        "Así que ocupa un lugar muy importante en el ecosistema, probablemente el más importante, pero eso no significa que lo sea todo, porque hay mucho más.",
+        "Puede que Bitcoin haya clavado el caso de uso básico, el de proteger tu dinero al estilo de la escuela austriaca de economía, pero hay muchos más casos de uso.",
+        "Las mil flores que han brotado desde entonces en Ethereum y en otras cadenas de bloques de contratos inteligentes son algo increíble.",
+        "Y, como decía Haseeb, vamos a ver proliferar las cadenas de bloques.",
+        "Primero, porque los incentivos son demasiado fuertes, y segundo, porque cada una busca un equilibrio distinto entre descentralización, seguridad y programabilidad.",
+        "Están surgiendo proyectos que dicen que ellos son más programables.",
+        "Agoric dice que con su cadena puedes escribir contratos inteligentes basados en JavaScript.",
+        "Otros dicen que son más rápidos y más sencillos desde el primer momento.",
+        "Dicen que no tienes que pelearte con las soluciones de capa dos, ni con los rollups, ni con la fragmentación, ni con nada de eso.",
+        "Según ellos, simplemente escribes tu código y es fácil de ejecutar.",
+        "Hay partes del espectro que no entiendo, como Binance Smart Chain.",
+        "Su nivel de descentralización es tan bajo que hasta le han puesto su propio nombre.",
+        "Pero, evidentemente, es para la gente a la que le importa mucho menos la descentralización y mucho más el coste, el rendimiento y cosas así.",
+        "Así que va a ser un ecosistema muy rico.",
+        "Las cadenas de bloques suponen un cambio de fondo hacia una nueva forma de computación.",
+        "Y creo que hay que tomárselo con buen carácter, porque recibe un montón de ataques de mala fe.",
+        "Por ejemplo, un profesor de Berkeley escribió un texto larguísimo diciendo que su Raspberry Pi tenía más capacidad de procesamiento y que, por tanto, Ethereum o Bitcoin iban a fracasar.",
+        "Era una comparación absurda, era comparar peras con manzanas.",
+        "Es como comparar un avión con un coche, son sencillamente dos cosas distintas.",
+        "Aun así, escribió páginas y páginas sobre eso, como solo un profesor de Berkeley sabría hacerlo.",
+        "Supongo que son lo que Nassim Taleb llama los intelectuales pero idiotas.",
+        "Nassim tiene en Twitter la estrategia completamente opuesta a la de Vitalik, porque si alguien le ataca, lo ejecuta sin más."
+      ]
+    },
+    {
+      "id": "b42-haseeb",
+      "speaker": "Haseeb",
+      "frases": [
+        "¿Y, hablando de eso, quiénes dirías que son tus enemigos, Vitalik?"
+      ]
+    },
+    {
+      "id": "b43-vitalik",
+      "speaker": "Vitalik",
+      "frases": [
+        "Por desgracia, el encantador gobierno ruso de Vladímir Putin es ahora uno de mis enemigos.",
+        "Sí que hablé con él hace cinco años, y es que creo en hablar con la gente.",
+        "Hablé con Putin, en algún momento hablé con el viceprimer ministro de Taiwán, y he hablado con gente del gobierno de Singapur y con gente de Canadá, del Reino Unido y de muchos otros sitios.",
+        "Pero, al mismo tiempo, desde luego hay momentos en que juzgas que ya le has dado a alguien bastante margen.",
+        "Y aunque estaría bien darle todavía más cariño, por desgracia, ahora mismo están bombardeando ciudades.",
+        "Hay millones de vidas, de familias y de futuros que pueden quedar destruidos y truncados, y un país precioso corre el riesgo de acabar convertido en Siria.",
+        "En última instancia, la primera prioridad tiene que ser hacer todo lo posible por ayudar a la gente afectada por esa situación.",
+        "Así que es algo muy lamentable, y he alzado la voz públicamente y con mucha claridad sobre ello.",
+        "Apoyo plenamente a Ucrania, y me opongo con fuerza a todos los personajes que son cómplices del intento de destruir Ucrania como país y como nación.",
+        "En un momento dado, usé una palabrota rusa que se hizo famosa porque unos soldados ucranianos la usaron como valiente gesto de desafío contra los soldados rusos que les exigían rendirse.",
+        "Y se la repetí a la directora de Russia Today.",
+        "Así que mi planteamiento general es que no creo en no ser desagradable nunca.",
+        "Creo en serlo quizá el cero coma cinco por ciento de las veces.",
+        "Y si solo eres desagradable el cero coma cinco por ciento de las veces, eso hace que, en realidad, esa dureza sea más eficaz.",
+        "En cambio, si eres de esas personas para las que ser desagradable es su forma habitual de expresarse, llega un momento en que la gente simplemente deja de prestarle atención."
+      ]
+    },
+    {
+      "id": "b44-naval",
+      "speaker": "Naval",
+      "frases": [
+        "La comunidad de Bitcoin puede aprender un poco de eso.",
+        "Aunque, desde luego, dentro de Bitcoin también hay gente amable.",
+        "Lo que pasa es que tenemos que hacer un poco menos de ruido, porque dominan los maximalistas."
+      ]
+    },
+    {
+      "id": "b45-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Me gustaría hablar un poco de los aspectos poco comunes de tu vida.",
+        "No porque vayamos detrás de los famosos ni porque nos estemos mirando el ombligo, sino porque muestra las distintas formas en que puedes vivir tu vida.",
+        "Algo poco común de tu vida es que no parece que tengas grandes colecciones de casas y coches, es decir, no haces lo típico de los ricos.",
+        "Otra cosa es que sigues trabajando como líder de esta organización descentralizada.",
+        "Y además hablas un número enorme de idiomas.",
+        "¿Te importaría darnos una idea de cómo es una semana en la vida de Vitalik, o un mes en la vida de Vitalik?",
+        "Puede ser interesante ver en qué se diferencia de la vida de una persona normal."
+      ]
+    },
+    {
+      "id": "b46-vitalik",
+      "speaker": "Vitalik",
+      "frases": [
+        "En los últimos seis meses he estado en San Francisco, Toronto, Argentina, Costa Rica, México y Singapur, una lista larguísima de sitios.",
+        "Ya llevo unos ocho años viviendo como nómada.",
+        "Empecé a hacerlo durante mi viaje de Bitcoin, en dos mil trece.",
+        "Luego empezó Ethereum, y es como si mi viaje de Bitcoin no se hubiera acabado nunca.",
+        "Simplemente seguí yendo a sitios distintos, porque era la persona que estaba dispuesta a viajar a cualquier evento para hablar con la gente.",
+        "Y la gente no paraba de añadirme más sitios que visitar.",
+        "Al final, esa parte de mi estilo de vida se volvió permanente."
+      ]
+    },
+    {
+      "id": "b47-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Además, has donado unas cantidades de dinero disparatadas.",
+        "Si no recuerdo mal, Ethereum tuvo siete fundadores, y probablemente tú has sido uno de los más generosos.",
+        "¿Piensas donarlo todo, o la mayor parte?",
+        "¿Es que el dinero no te importa?"
+      ]
+    },
+    {
+      "id": "b48-vitalik",
+      "speaker": "Vitalik",
+      "frases": [
+        "Pienso destinar el dinero a las cosas que sean más importantes y que más aporten al mundo."
+      ]
+    },
+    {
+      "id": "b49-naval",
+      "speaker": "Naval",
+      "frases": [
+        "¿Cuántos idiomas hablas?"
+      ]
+    },
+    {
+      "id": "b50-vitalik",
+      "speaker": "Vitalik",
+      "frases": [
+        "Depende de lo que cuente como idioma, pero entre cuatro y seis."
+      ]
+    },
+    {
+      "id": "b51-naval",
+      "speaker": "Naval",
+      "frases": [
+        "¿Y con bastante soltura?",
+        "Una vez te vi en un avión hablando chino con fluidez, y me pilló un poco por sorpresa.",
+        "¿Lo aprendiste hace poco?"
+      ]
+    },
+    {
+      "id": "b52-vitalik",
+      "speaker": "Vitalik",
+      "frases": [
+        "Bueno, el chino lo he aprendido en los últimos cinco años.",
+        "Con el inglés y el ruso me crie, y el francés lo aprendimos en el colegio.",
+        "Y luego hablo algo de alemán y algo de español."
+      ]
+    },
+    {
+      "id": "b53-haseeb",
+      "speaker": "Haseeb",
+      "frases": [
+        "Te iba a preguntar una cosa, porque has dicho que sigues en tu viaje de Bitcoin.",
+        "¿Cuándo se va a terminar tu viaje de Bitcoin?"
+      ]
+    },
+    {
+      "id": "b54-vitalik",
+      "speaker": "Vitalik",
+      "frases": [
+        "Puede que no se termine nunca. Hace unos años pensaba que acabaría asentándome en algún sitio.",
+        "Pero durante la covid pasé unos seis meses en Singapur y me di cuenta de que, vaya, a estas alturas mi cerebro se ha reprogramado y simplemente no estoy hecho para quedarme en un sitio.",
+        "Lo de vivir como nómada probablemente no se acabe nunca.",
+        "Fue fascinante, y también liberador, darme cuenta de que me he salido del camino de siempre y ya no voy a volver, y de que estoy bien así."
+      ]
+    },
+    {
+      "id": "b55-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Tengo una última pregunta, que les será útil a quienes me escuchan.",
+        "Mucha gente que escucha este tipo de podcasts solo intenta ser la mejor versión de sí misma.",
+        "Quieren ser más felices, tener más éxito, estar más sanos o estar en mejor forma.",
+        "Me pregunto si tienes alguna filosofía que te ayude a tomar decisiones y que creas que te ha llevado a donde estás hoy.",
+        "¿Una filosofía consciente, en la que te preguntes si deberías dedicar tiempo a tu propia formación o si deberías viajar, o lo que sea?",
+        "¿Tienes algún consejo para un joven que va más o menos por el camino de siempre?",
+        "El camino de siempre consiste en ir al instituto, ir a la universidad, sacarte un título y luego buscar un trabajo, y bla, bla, bla.",
+        "¿Qué consejo le darías, teniendo en cuenta cómo está el mundo hoy y lo que tú has aprendido?"
+      ]
+    },
+    {
+      "id": "b56-vitalik",
+      "speaker": "Vitalik",
+      "frases": [
+        "Esfuérzate por ser mejor persona al final de cada semana de lo que eras al principio.",
+        "Lo que significa ser mejor puede variar mucho.",
+        "Puede significar aprender algo, o hacer ejercicio y correr mejor que antes.",
+        "Puede significar mejorar tu capacidad de relacionarte de forma positiva con los demás.",
+        "Puede significar probar algo nuevo, o visitar un país en el que no has estado nunca y sumar una experiencia más.",
+        "Vive cada semana de forma que, al final de la semana, no sientas que la has desperdiciado.",
+        "Y si haces eso, vas a seguir avanzando y te irá bien."
+      ]
+    },
+    {
+      "id": "b57-naval",
+      "speaker": "Naval",
+      "frases": [
+        "No vivas la vida con el piloto automático.",
+        "¿Tienes alguna pregunta, comentario o reflexión para cerrar, Haseeb?"
+      ]
+    },
+    {
+      "id": "b58-haseeb",
+      "speaker": "Haseeb",
+      "frases": [
+        "Sé que no soy el único que piensa que el mundo cripto tiene una deuda enorme contigo por haberlo hecho avanzar.",
+        "Existe la teoría del gran hombre de la historia, que con el tiempo parece cada vez más anticuada.",
+        "Pero tú eres uno de los pocos ejemplos de una persona viva que, por sí sola, ha hecho avanzar enormemente la historia.",
+        "Sé que probablemente te cuesta hacerte una idea de todo lo que ha hecho Ethereum en el mundo, y sentirlo.",
+        "Pero te puedo decir que todos nosotros le debemos muchísimo de lo que hacemos con nuestra vida a lo que tú empezaste."
+      ]
+    },
+    {
+      "id": "b59-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Yo me sumo a eso, y añado que lo más extraordinario es lo joven que eres.",
+        "Y ya eres una persona de varios actos, porque contribuiste mucho a dar a conocer Bitcoin y contribuiste creando Ethereum.",
+        "Luego también has contribuido con la creación de Uniswap y de los creadores de mercado automatizados, y ahora impulsando los monederos de recuperación social, la privacidad y demás.",
+        "Tienes por delante una carrera de varios actos, y tengo ganas de ver los actos que vendrán.",
+        "Cuando hablabas de mejorar cada semana, eso es interés compuesto.",
+        "Y el interés compuesto depende del número de iteraciones, no del tiempo.",
+        "Así que, a medida que sigues iterando una y otra vez, tengo curiosidad por ver al Vitalik que sale por el otro lado y el enorme impacto que tendrá.",
+        "Y, sinceramente, para alguien como tú, la política es una pérdida de tiempo.",
+        "Y sí, tienes que implicarte en ella, porque te toca coordinar a la gente.",
+        "Pero estoy seguro de que en algún momento vas a tener una gran idea.",
+        "Y esta vez, en lugar de tener que crearla tú mismo contra viento y marea, podrás reclutar a un gran equipo, financiarlo y guiarlo para construir algo con tanto impacto en un ámbito paralelo.",
+        "Así que tengo muchísimas ganas de que llegue ese momento.",
+        "Sé que haces muchas entrevistas de este tipo.",
+        "Hemos intentado que esta fuera un poco distinta, un poco más de fondo y un poco más atemporal.",
+        "Eres incansable en el circuito de los podcasts, así que gracias otra vez, y espero poder serte útil a ti y a la comunidad de Ethereum."
+      ]
+    }
+  ]
+}

@@ -2,13 +2,14 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**97** episodios · **0** publicados · **0** sin empezar
+**98** episodios · **0** publicados · **0** sin empezar
 
 ## 2022
 
 | # | Episodio | Título en español | Estado | Drive | YouTube |
 |---|---|---|---|---|---|
 | 131 | [131-vitalik](episodios/2022/131-vitalik) | Vitalik: Ethereum, primera parte | 🟠 en revisión | — | — |
+| 132 | [132-vitalik-2](episodios/2022/132-vitalik-2) | Vitalik: Ethereum, segunda parte | 🟠 en revisión | — | — |
 
 ## 2021
 
