@@ -7,6 +7,7 @@ Drive, listo para Audacity.
 |---|---|
 | `voces.json` | **La configuración.** Qué referencia y qué LoRA usa cada hablante, alias de nombres, la regla de Kapil (en sus episodios Naval usa `naval_kapil`), la pausa de cada voz (0,12 s por defecto), la verificación con Whisper y las rutas de Drive |
 | `fabrica.py` | La lógica: plan del episodio, carpeta en Drive, generación de cada intervención en lotes de frases (`motor.lote`, 8) con revisión de Whisper y reintentos, tope de duración por frase, recorte de pausas, master (MP3 a -16 LUFS) e informe. `MotorQwen` carga Qwen3-TTS base con un adaptador por voz |
+| `localizar.py` | De un minuto del master o de un trozo de frase a la intervención y la frase que hay que rehacer |
 | `construir_cuaderno.py` → `fabrica.ipynb` | El cuaderno de Colab (generado: se edita el `.py` y se regenera) |
 
 ## Uso
@@ -24,8 +25,10 @@ Drive, listo para Audacity.
    - `registro_tts.jsonl` — el detalle de cada frase.
 
    Los episodios generados antes del 4-nov tienen además un `borrador_tts.wav`: lo sustituye el master.
-   Arreglos tras escuchar: `RONDA` (otras semillas para los clips borrados de `tts/`) y `SOLO_MASTER` (rehace el
-   master sin GPU tras arreglar un clip a mano). Ver `docs/sop-episodio.md`.
+   Arreglos tras escuchar: `REHACER_FRASES` (solo las frases que fallan; `fabrica/localizar.py` las encuentra por
+   minuto o por texto), `RONDA` (otras semillas para los clips borrados de `tts/`) y `SOLO_MASTER` (rehace el master
+   sin GPU tras arreglar un clip a mano). `MUESTRA = 3` genera solo las 3 primeras intervenciones de cada voz en
+   `muestra/`, para probar voces nuevas. Ver `docs/sop-episodio.md`.
 
 Lo que ya está en `tts/` no se repite. Para rehacer un clip, bórralo y relanza. **Si cambia el texto de una
 intervención en el repo, o una voz en `voces.json`** (adaptador, referencia, temperatura o pausa), al relanzar el

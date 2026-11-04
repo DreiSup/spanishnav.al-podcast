@@ -158,12 +158,13 @@ def tope_pasos(texto):
     return int(12.5 * (len(texto) / 7.0 + 3.0))
 
 
-def generar_bloque(frases, voz, sintetizar_lote, asr, cfg_ver, pausa_max, lote=8):
+def generar_bloque(frases, voz, sintetizar_lote, asr, cfg_ver, pausa_max, lote=8, intento_base=0):
     """Como generar_frase, para todas las frases de una intervención a la vez.
 
     `sintetizar_lote(textos, voz, intento)` devuelve (audios, sr). Las frases se mandan en lotes de `lote`,
     agrupadas por longitud para que ninguna espere mucho a la más larga. Las que no pasan la revisión se repiten
     juntas, con otra semilla, hasta `reintentos` veces. Devuelve una lista como la de generar_frase, en orden.
+    `intento_base` desplaza las semillas: para rehacer una frase y que no salga igual que la vez anterior.
     """
     import ritmo
     intentos = 1 + (cfg_ver["reintentos"] if asr is not None else 0)
@@ -177,7 +178,7 @@ def generar_bloque(frases, voz, sintetizar_lote, asr, cfg_ver, pausa_max, lote=8
         nuevos = []
         for g in range(0, len(orden), tam):
             idx = orden[g:g + tam]
-            audios, sr = sintetizar_lote([frases[i] for i in idx], voz, intento)
+            audios, sr = sintetizar_lote([frases[i] for i in idx], voz, intento_base + intento)
             nuevos += [(i, np.asarray(a, dtype=np.float32).squeeze(), sr) for i, a in zip(idx, audios)]
         oidos = asr.transcribe_lote([a for _, a, _ in nuevos], nuevos[0][2]) if asr is not None else None
         siguen = []
@@ -243,13 +244,50 @@ def pausa_de(voz, cfg):
     return cfg["voces"][voz].get("pausa_max", cfg["ritmo"]["pausa_max"])
 
 
-def generar_episodio(plan, sintetizar_lote, asr, carpeta, cfg, avisar=print, master=None, titulo=None):
+def ensamblar(audios, sr, hueco):
+    """Las frases de una intervención en un clip: bordes de silencio y `hueco` entre frases. Devuelve el audio y el
+    segundo en que empieza cada frase dentro del clip."""
+    trozos, inicios, cursor = [], [], BORDE_INICIO
+    for k, a in enumerate(audios):
+        if k:
+            trozos.append(np.zeros(int(sr * hueco), dtype=np.float32))
+            cursor += hueco
+        inicios.append(round(cursor, 2))
+        trozos.append(a)
+        cursor += len(a) / sr
+    audio = np.concatenate([np.zeros(int(sr * BORDE_INICIO), dtype=np.float32), *trozos,
+                            np.zeros(int(sr * BORDE_FINAL), dtype=np.float32)])
+    pico = float(np.abs(audio).max()) if audio.size else 0.0
+    if pico > 1.0:
+        audio = audio / pico * 0.99
+    return audio, inicios
+
+
+def ruta_frase(tts_dir, fichero, k):
+    """Cada frase, ya recortada, se guarda aparte para poder rehacer solo esa: tts/frases/002naval_07.wav es la frase 7
+    (numeradas desde 1, como en el informe y en indice_master.tsv; `k` es el índice desde 0)."""
+    return Path(tts_dir) / "frases" / f"{Path(fichero).stem}_{k + 1:02d}.wav"
+
+
+def _escribir_wav(ruta, audio, sr):
+    ruta.parent.mkdir(parents=True, exist_ok=True)
+    tmp = ruta.with_name(f".{ruta.name}.tmp.wav")
+    sf.write(str(tmp), audio, sr, subtype="PCM_16")
+    tmp.rename(ruta)
+
+
+def generar_episodio(plan, sintetizar_lote, asr, carpeta, cfg, avisar=print, master=None, titulo=None, rehacer=None):
     """Genera los clips que falten en <carpeta>/tts/, monta el master (si están todos) y reescribe el informe.
 
     `sintetizar_lote(textos, voz, intento)` → (audios, sr): las frases de cada intervención se generan juntas
     (generar_bloque). Lo que ya existe no se repite: si se corta, se vuelve a lanzar y sigue por donde iba.
+
+    `rehacer` = {"002naval.wav": [7, 12]}: rehace solo esas frases (numeradas desde 1, como en el informe) con
+    semillas nuevas y rearma el clip con las demás intactas. Si el clip es anterior al 4-nov y no tiene sus frases
+    guardadas aparte, lo rehace entero (también con semillas nuevas) y desde ahí ya se puede ir frase a frase.
     """
     cfg_ver = cfg["verificacion"]
+    rehacer = rehacer or {}
     tts_dir = Path(carpeta) / "tts"
     tts_dir.mkdir(parents=True, exist_ok=True)
     registro = Path(carpeta) / "registro_tts.jsonl"
@@ -257,35 +295,58 @@ def generar_episodio(plan, sintetizar_lote, asr, carpeta, cfg, avisar=print, mas
     t_total, s_total = 0.0, 0.0
     for p in plan:
         wav = tts_dir / p["fichero"]
-        if wav.exists():
-            anterior = hechos.get(p["fichero"])
+        anterior = hechos.get(p["fichero"])
+        pedidas = sorted({int(k) - 1 for k in rehacer.get(p["fichero"], [])})
+        if pedidas and (min(pedidas) < 0 or max(pedidas) >= len(p["frases"])):
+            raise ValueError(f"{p['fichero']} tiene {len(p['frases'])} frases: no existe la {[k + 1 for k in pedidas]}")
+        if wav.exists() and not pedidas:
             if anterior is None or clip_al_dia(anterior, p, cfg):
                 continue
             avisar(f"  {p['fichero']}: ha cambiado su texto o su voz desde que se generó; lo rehago")
         t0 = time.time()
-        trozos, detalle, sr, cursor = [], [], None, BORDE_INICIO
         pausa = pausa_de(p["voz"], cfg)
         hueco = max(0.0, pausa - RECORTE_INICIO - RECORTE_FINAL)
-        hechas = generar_bloque(p["frases"], p["voz"], sintetizar_lote, asr, cfg_ver, pausa,
-                                lote=cfg["motor"].get("lote", 8))
-        for k, (frase, r) in enumerate(zip(p["frases"], hechas)):
-            sr = sr or r["sr"]
-            if k:
-                trozos.append(np.zeros(int(sr * hueco), dtype=np.float32))
-                cursor += hueco
-            trozos.append(r["audio"])
-            detalle.append({"k": k, "inicio_s": round(cursor, 2), "texto": frase, "intentos": r["intentos"],
-                            "ok": r["ok"], "errores": r.get("errores"), "sobra_final": r.get("sobra_final"),
-                            "transcripcion": r.get("transcripcion")})
-            cursor += len(r["audio"]) / sr
-        audio = np.concatenate([np.zeros(int(sr * BORDE_INICIO), dtype=np.float32), *trozos,
-                                np.zeros(int(sr * BORDE_FINAL), dtype=np.float32)])
-        pico = float(np.abs(audio).max()) if audio.size else 0.0
-        if pico > 1.0:
-            audio = audio / pico * 0.99
-        tmp = tts_dir / f".{p['fichero']}.tmp.wav"
-        sf.write(str(tmp), audio, sr, subtype="PCM_16")
-        tmp.rename(wav)
+        lote = cfg["motor"].get("lote", 8)
+        parcial = (pedidas and wav.exists() and anterior is not None and clip_al_dia(anterior, p, cfg)
+                   and all(ruta_frase(tts_dir, p["fichero"], k).exists() for k in range(len(p["frases"]))))
+        if parcial:
+            avisar(f"  {p['fichero']}: rehago las frases {[k + 1 for k in pedidas]}")
+            detalle = [dict(d) for d in anterior["frases"]]
+            veces = 1 + max(detalle[k].get("rehecha", 0) for k in pedidas)
+            nuevas = generar_bloque([p["frases"][k] for k in pedidas], p["voz"], sintetizar_lote, asr, cfg_ver, pausa,
+                                    lote=lote, intento_base=100 * veces)
+            audios, sr = [], None
+            for k in range(len(p["frases"])):
+                if k in pedidas:
+                    r = nuevas[pedidas.index(k)]
+                    a, sr_k = r["audio"], r["sr"]
+                    _escribir_wav(ruta_frase(tts_dir, p["fichero"], k), a, sr_k)
+                    detalle[k].update(intentos=r["intentos"], ok=r["ok"], errores=r.get("errores"),
+                                      sobra_final=r.get("sobra_final"), transcripcion=r.get("transcripcion"),
+                                      rehecha=veces)
+                else:
+                    a, sr_k = sf.read(str(ruta_frase(tts_dir, p["fichero"], k)), dtype="float32")
+                sr = sr or sr_k
+                audios.append(a)
+        else:
+            if pedidas:
+                avisar(f"  {p['fichero']}: sin sus frases guardadas aparte; lo rehago entero con semillas nuevas")
+            veces = 1 + max((d.get("rehecha", 0) for d in (anterior or {}).get("frases", [])), default=0) \
+                if pedidas else 0
+            hechas = generar_bloque(p["frases"], p["voz"], sintetizar_lote, asr, cfg_ver, pausa, lote=lote,
+                                    intento_base=100 * veces)
+            sr = hechas[0]["sr"]
+            audios, detalle = [], []
+            for k, (frase, r) in enumerate(zip(p["frases"], hechas)):
+                _escribir_wav(ruta_frase(tts_dir, p["fichero"], k), r["audio"], r["sr"])
+                audios.append(r["audio"])
+                detalle.append({"k": k, "texto": frase, "intentos": r["intentos"], "ok": r["ok"],
+                                "errores": r.get("errores"), "sobra_final": r.get("sobra_final"),
+                                "transcripcion": r.get("transcripcion"), **({"rehecha": veces} if veces else {})})
+        audio, inicios = ensamblar(audios, sr, hueco)
+        for d, ini in zip(detalle, inicios):
+            d["inicio_s"] = ini
+        _escribir_wav(wav, audio, sr)
         seg, dt = len(audio) / sr, time.time() - t0
         t_total, s_total = t_total + dt, s_total + seg
         fila = {"fichero": p["fichero"], "bloque": p["bloque"], "voz": p["voz"], "segundos": round(seg, 2),
@@ -364,10 +425,26 @@ def escribir_informe(plan, hechos, carpeta, inicios=None, master=None):
         lineas += ["", "## Frases sospechosas", ""]
         for fichero, d, inicio in sospechas:
             donde = f"minuto {_mmss(inicio + d['inicio_s'])} del master" if inicio is not None else "sin master"
-            lineas += [f"- **{donde}** ({fichero}, segundo {d['inicio_s']:.1f} del clip; {d['errores']} errores, "
+            lineas += [f"- **{donde}** ({fichero}, frase {d['k'] + 1}; {d['errores']} errores, "
                        f"{d['sobra_final']} s tras la última palabra)",
                        f"  - Texto: {d['texto']}", f"  - Whisper oyó: {d['transcripcion']}"]
     (Path(carpeta) / "informe_tts.md").write_text("\n".join(lineas) + "\n", encoding="utf-8")
+    if inicios:
+        escribir_indice(plan, hechos, inicios, Path(carpeta) / "indice_master.tsv")
+
+
+def escribir_indice(plan, hechos, inicios, destino):
+    """indice_master.tsv: dónde empieza cada frase en el master (minuto, segundo, clip, número de frase desde 1). Con
+    él y el texto del repo se localiza cualquier minuto o cualquier frase: «fallo en el 7:21» → clip y frase."""
+    lineas = ["minuto\tsegundo\tclip\tfrase"]
+    for p in plan:
+        f = hechos.get(p["fichero"])
+        if not f:
+            continue
+        for d in f["frases"]:
+            seg = inicios[p["fichero"]] + d["inicio_s"]
+            lineas.append(f"{_mmss(seg)}\t{seg:.1f}\t{p['fichero']}\t{d['k'] + 1}")
+    Path(destino).write_text("\n".join(lineas) + "\n", encoding="utf-8")
 
 
 def montar_master(plan, tts_dir, destino, titulo=None, silencio=SILENCIO_ENTRE, ajustes=MASTER):

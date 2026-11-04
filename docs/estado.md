@@ -120,6 +120,10 @@ La **fase 1** (elegir motor) está casi cerrada:
   sospechosa. El autor lo escucha y solo arregla lo que suene mal: otra semilla (`RONDA`) o el clip en Audacity y
   `SOLO_MASTER`. Procedimiento en `docs/sop-episodio.md`. Pendiente: vídeo, YouTube, web y RSS, e intro o cierre.
 
+- **Arreglos frase a frase** (4-nov): la fábrica guarda cada frase en `tts/frases/` y escribe `indice_master.tsv`
+  (segundo del master de cada frase). `REHACER_FRASES` rehace solo las frases pedidas; `fabrica/localizar.py` las
+  encuentra por minuto o por texto. `MUESTRA = 3` prueba voces nuevas con 3 intervenciones de cada una.
+
 ## Esperando a que termine
 
 | Qué | Dónde corre | Resultado esperado |

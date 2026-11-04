@@ -20,7 +20,8 @@ Deja en `naval-podcast/transcripts/<año>/<NNN Título>/`:
 |---|---|
 | `audio/<NNN>-<slug>.mp3` | **El master**: todas las intervenciones seguidas, en el orden del transcript, con 0,6 s entre una y otra, a -16 LUFS (pico -1,5 dB), MP3 mono 44,1 kHz 128 kbps, con el título en español en las etiquetas |
 | `informe_tts.md` | En qué minuto del master empieza cada intervención y, si las hay, las frases **sospechosas** con su minuto |
-| `tts/001naval.wav`… | Una intervención por fichero. Solo hacen falta para arreglar algo |
+| `indice_master.tsv` | En qué segundo del master empieza **cada frase** (clip y número de frase) |
+| `tts/001naval.wav`… | Una intervención por fichero, y en `tts/frases/` cada frase aparte (`002naval_07.wav` es la frase 7). Solo hacen falta para arreglar algo |
 | `registro_tts.jsonl` | El detalle de cada frase: texto, intentos, lo que oyó Whisper y con qué voz se hizo |
 
 Estado: `tts`.
@@ -35,12 +36,22 @@ Estado: `tts`.
 
 ## 4. Arreglos (solo si hace falta)
 
-Mira en `informe_tts.md` qué intervención (`00Nvoz.wav`) contiene ese minuto.
+**Localizar el fallo.** Basta con decirle a Claude «en el 037, minuto 1:21 falla» o «en el 037 falla la frase que
+dice …». Con el texto le basta el repo; con el minuto lee el `indice_master.tsv` del episodio en Drive. Responde con la
+intervención, el número de frase y la línea para la fábrica. Lo hace `fabrica/localizar.py`:
 
-**A. Regenerarla con otra semilla** (lo normal para una alucinación; no se toca ningún audio a mano):
-1. Borra ese `.wav` de `tts/` en Drive.
-2. Lanza la fábrica con ese episodio y `RONDA = 1` (si vuelve a salir mal, `RONDA = 2`…). Solo se genera lo que
-   falta, con semillas nuevas, y se rehace el master.
+    python3 fabrica/localizar.py 2019/038-accountability --texto "noventa por ciento"
+    python3 fabrica/localizar.py 2019/038-accountability --minuto 3:05 --indice indice_master.tsv
+    → REHACER_FRASES = {"2019/038-accountability": {"005naval.wav": [3]}}
+
+**A. Rehacer solo esa frase** (lo normal para una alucinación; no se toca ningún audio a mano): lanza la fábrica con
+ese episodio y la línea `REHACER_FRASES` en la celda 2. Rehace esa frase con semillas nuevas (cada vez otras),
+rearma la intervención con las demás frases intactas y rehace el master. Segundos de GPU. Los episodios generados
+antes del 4-nov no tienen las frases guardadas aparte: la primera vez rehace la intervención entera, y desde ahí ya
+va frase a frase.
+
+**A bis. Rehacer una intervención entera:** borra su `.wav` de `tts/` y lanza la fábrica con `RONDA = 1` (o 2, 3…
+para otras semillas).
 
 **B. Arreglarla en Audacity** (un sonido o un silencio concreto):
 1. Descarga ese `.wav` de `tts/`, arréglalo en Audacity y expórtalo en WAV con **el mismo nombre**.

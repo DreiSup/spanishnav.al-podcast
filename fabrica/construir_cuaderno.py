@@ -64,6 +64,8 @@ VERIFICAR = True     # revisar cada frase con Whisper y repetir las que fallen (
 # Arreglos tras escuchar el master (docs/sop-episodio.md). Para producir normal: SOLO_MASTER = False y RONDA = 0
 SOLO_MASTER = False  # True = no genera nada ni usa GPU: rehace el master con los clips de tts/ (p. ej. uno arreglado en Audacity)
 RONDA = 0            # 1, 2…: otras semillas para los clips que borres de tts/ (el mismo número da siempre el mismo audio)
+REHACER_FRASES = {}  # p. ej. {"2019/037-productize-yourself": {"002naval.wav": [7]}}: solo esas frases (números del informe)
+MUESTRA = 0          # 3 = solo las 3 primeras intervenciones de cada voz, en <episodio>/muestra/ (probar voces nuevas)
 
 # Pruebas de voz. Para producir normal: REF_ES_NAVAL = 0 y SUBCARPETA = ""
 REF_ES_NAVAL = 0     # 0 = la referencia de voces.json; 1 = el mejor clip de Naval en español (lora_ref_es1 del 08); 5 = media de 5
@@ -97,7 +99,12 @@ if SUBCARPETA:
 
 def carpeta_de(ep, titulo_en, crear=True):
     c = fabrica.carpeta_episodio(RAIZ_EPISODIOS, ep, titulo_en, crear=crear)
-    return c / SUBCARPETA if SUBCARPETA else c
+    sub = SUBCARPETA or ("muestra" if MUESTRA else "")
+    return c / sub if sub else c
+if MUESTRA:
+    print(f"MUESTRA: solo {{MUESTRA}} intervenciones de cada voz, en la subcarpeta muestra/ de cada episodio")
+for ep, pedidas in REHACER_FRASES.items():
+    print(f"REHACER: {{ep}} → {{pedidas}}")
 
 PLANES, problemas = {{}}, []
 for ep in EPISODIOS:
@@ -111,6 +118,13 @@ for ep in EPISODIOS:
     except ValueError as e:
         problemas.append(f"{{ep}}: {{e}}")
         continue
+    if MUESTRA:   # las MUESTRA primeras intervenciones de cada voz, en su orden
+        vistas, muestra = {{}}, []
+        for p in PLANES[ep]:
+            vistas[p["voz"]] = vistas.get(p["voz"], 0) + 1
+            if vistas[p["voz"]] <= MUESTRA:
+                muestra.append(p)
+        PLANES[ep] = muestra
     titulo_en = json.loads((base / "metadata.en.json").read_text(encoding="utf-8"))["titulo"]
     carpeta = carpeta_de(ep, titulo_en, crear=False)
     hechos = sum((carpeta / "tts" / p["fichero"]).exists() for p in PLANES[ep])
@@ -159,7 +173,8 @@ for ep, plan in PLANES.items():
     if SOLO_MASTER:
         fabrica.rehacer_master(plan, carpeta, master, titulo=titulo_es)
     else:
-        fabrica.generar_episodio(plan, MOTOR.sintetizar_lote, ASR, carpeta, CFG, master=master, titulo=titulo_es)
+        fabrica.generar_episodio(plan, MOTOR.sintetizar_lote, ASR, carpeta, CFG, master=master, titulo=titulo_es,
+                                 rehacer=REHACER_FRASES.get(ep))
     print(f"Informe: {(carpeta / 'informe_tts.md').relative_to(DRIVE)}")
 """),
     code("""
