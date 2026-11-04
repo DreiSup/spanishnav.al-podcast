@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2021/093-multiverse",
+  "numero": 93,
+  "fecha": "2021-04-21",
+  "titulo": "El multiverso",
+  "subtitulo": "Los experimentos nos obligan a reconocer otros universos",
+  "fuente_url": "https://nav.al/multiverse",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-brett",
+      "speaker": "Brett",
+      "frases": [
+        "Tenemos que llegar a entender más a fondo qué pasa en este experimento de la doble rendija.",
+        "Si disparamos un fotón o un electrón contra el aparato de la doble rendija y ponemos un detector en cualquiera de las dos rendijas, detectaremos una partícula.",
+        "Podemos detectar que hemos disparado una partícula, podemos detectar que una partícula pasa por esas rendijas, y también podemos detectar una partícula en la pantalla de proyección.",
+        "Cuando haces este experimento en el laboratorio con electrones, puedes ver los puntos donde los electrones chocan contra la pantalla.",
+        "Pero no obtienes el patrón sencillo que cabría esperar.",
+        "Si disparas balas de cañón contra una pared a través de los mismos dos agujeros, esperarías que todas las balas cayeran en uno de dos puntos detrás de la pared.",
+        "Pero con las partículas a nivel cuántico, eso no es lo que pasa.",
+        "La única explicación es que, cuando disparamos un fotón, está el fotón que podemos ver en nuestro universo.",
+        "Y también hay fotones que no podemos ver, en otros universos, que atraviesan el aparato.",
+        "Esos fotones pueden interactuar con el fotón que sí podemos detectar.",
+        "Aquí es donde entra el concepto de interferencia, que es un concepto antiguo de la física y se remonta a las ondas.",
+        "Las ondas, desde luego, interfieren, pero necesitamos entender de qué manera las partículas pueden interferir unas con otras.",
+        "Eso incluye las partículas que podemos observar y las partículas cuya existencia solo podemos deducir a partir de estos experimentos.",
+        "Por eso nos vemos obligados a reconocer la existencia de estas otras partículas.",
+        "Y no solo de estas otras partículas, sino también de otros universos en los que existen esas partículas."
+      ]
+    }
+  ]
+}
