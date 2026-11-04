@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**54** episodios · **0** publicados · **0** sin empezar
+**55** episodios · **0** publicados · **0** sin empezar
 
 ## 2021
 
@@ -25,6 +25,7 @@
 | 86 | [086-methods](episodios/2021/086-methods) | Los métodos de las matemáticas son falibles | 🟠 en revisión | — | — |
 | 87 | [087-conjectural](episodios/2021/087-conjectural) | Todo conocimiento es conjetural | 🟠 en revisión | — | — |
 | 88 | [088-discrete](episodios/2021/088-discrete) | ¿El universo es discreto o continuo? | 🟠 en revisión | — | — |
+| 89 | [089-substrate](episodios/2021/089-substrate) | Toda teoría reside en un sustrato físico | 🟠 en revisión | — | — |
 
 ## 2020
 

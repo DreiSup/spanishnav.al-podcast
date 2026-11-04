@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 89,
+  "anio": 2021,
+  "slug": "substrate",
+  "titulo_es": "Toda teoría reside en un sustrato físico",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Toda teoría reside en un sustrato físico",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). 089 Toda teoría reside en un sustrato físico. Artefactos del copiado en el inglés, que no se ha tocado: en el bloque 1, «You run the infinite series) and sum it» lleva un paréntesis suelto de un enlace de nav.al; se traduce por el sentido, sin el paréntesis. Errata en el bloque 2: «transverse an infinite number of points» quiere decir traverse y se traduce «recorrer». El diálogo imaginado de Brett («Is space infinitely divisible?» / «Yes, it is.» / «How do you know?» / «General relativity.») va en estilo indirecto, sin comillas y en singular: Si alguien me pregunta si el espacio es infinitamente divisible, yo le diría que sí… La pregunta retórica ¿Cómo sé que eso es verdad? va sola, con su ¿. «Space-time» va sin guion: espacio tiempo. «There goes my solution» se traduce «Adiós a mi solución». «Mappings to reality» se traduce «correspondencia con la realidad». En la revisión solo se evitó repetir «exactamente» en dos frases seguidas. El validador da un aviso informativo sobre el hablante Brett: es el hablante correcto. Nombres para escuchar: Zenón (paradoja de Zenón), Planck. Ningún bloque fuera de rango (ratio 1,00)."
+}

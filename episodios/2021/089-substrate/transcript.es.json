@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2021/089-substrate",
+  "numero": 89,
+  "fecha": "2021-04-12",
+  "titulo": "Toda teoría reside en un sustrato físico",
+  "subtitulo": "Siempre estás sujeto a las leyes de la física",
+  "fuente_url": "https://nav.al/substrate",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Adiós a mi solución para la paradoja de Zenón.",
+        "La paradoja dice que, antes de llegar hasta algún sitio, tienes que llegar a mitad de camino.",
+        "Y antes de llegar a mitad de camino, tienes que recorrer un cuarto del camino, y por tanto nunca llegarás.",
+        "Una forma de superarla es decir que incluso una serie infinita de cosas puede tener una suma finita.",
+        "Desarrollas la serie infinita, la sumas y ves que converge, y eso lo aprendemos bastante pronto.",
+        "Otra idea que tuve es que tienes que recorrer una distancia mínima, la longitud de Planck, y que por tanto llegarás.",
+        "Es una serie finita de pasos, pero tú dices que sencillamente no lo sabemos."
+      ]
+    },
+    {
+      "id": "b02-brett",
+      "speaker": "Brett",
+      "frases": [
+        "Si las leyes de la física dicen que podemos recorrer un metro en un determinado tiempo, eso es exactamente lo que haremos.",
+        "Y nuestra comprensión actual de las leyes de la física dice precisamente eso.",
+        "Así que la paradoja de Zenón se resuelve sin más, diciendo que podemos recorrer este espacio en este tiempo.",
+        "Esa solución no dice nada sobre si el espacio es o no infinitamente divisible.",
+        "Si alguien me pregunta si el espacio es infinitamente divisible, yo le diría que sí.",
+        "Puede que entonces me pregunte cómo lo sé, y yo le diría que por la relatividad general.",
+        "¿Cómo sé que eso es verdad?",
+        "Bueno, no sé que sea verdad, pero es la mejor explicación que tenemos ahora mismo del espacio tiempo.",
+        "Y luego quizá me diga que, si es infinitamente divisible, volvemos a tener delante la paradoja de Zenón.",
+        "Y yo le diría que no, que eso se refuta con un simple experimento.",
+        "Así que no sabemos cómo es, pero podemos recorrer todos esos infinitos puntos, si es que de verdad hay infinitos puntos.",
+        "La paradoja de Zenón pertenece al campo de las matemáticas puras.",
+        "Pero no vivimos en un mundo de matemáticas puras, sino en un mundo de física.",
+        "Y si la física dice que podemos recorrer un número infinito de puntos en un tiempo finito, eso es lo que haremos, digan lo que digan las matemáticas."
+      ]
+    },
+    {
+      "id": "b03-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Toda teoría matemática reside en un sustrato físico, ya sea un cerebro o un ordenador.",
+        "Siempre estás sujeto a las leyes de la física, y puede que estos campos puros y abstractos no tengan ninguna correspondencia con la realidad."
+      ]
+    }
+  ]
+}
