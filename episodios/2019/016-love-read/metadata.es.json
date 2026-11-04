@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 16,
+  "anio": 2019,
+  "slug": "love-read",
+  "titulo_es": "Lee lo que te encante hasta que te encante leer",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Lee lo que te encante hasta que te encante leer",
+    "descripcion": "",
+    "tags": [],
+    "url": "",
+    "url_original": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "publicacion": {
+    "fecha": "",
+    "audio_url": "",
+    "audio_bytes": 0,
+    "duracion_s": 0,
+    "feed_guid": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": ""
+}

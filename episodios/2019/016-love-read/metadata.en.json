@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 16,
+  "anio": 2019,
+  "slug": "love-read",
+  "titulo": "Read What You Love Until You Love to Read",
+  "subtitulo": "You should be able to pick up any book in the library and read it",
+  "fecha_publicacion": "2019-04-03",
+  "fuente_url": "https://nav.al/love-read",
+  "orden_archivo": 20,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}
