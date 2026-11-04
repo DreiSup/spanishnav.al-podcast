@@ -105,7 +105,7 @@
     {"orden": 100, "titulo": "Science Is an Error-Correcting Mechanism", "fecha": "2021-04-30", "url": "https://nav.al/error", "tiene_transcript": true},
     {"orden": 101, "titulo": "Theories Are Explanations, Not Predictions", "fecha": "2021-05-03", "url": "https://nav.al/predictions", "tiene_transcript": true},
     {"orden": 102, "titulo": "Make Bold Guesses and Weed Out the Failures", "fecha": "2021-05-05", "url": "https://nav.al/bold", "tiene_transcript": true},
-    {"orden": 103, "titulo": "Science Advances One Funeral at a Time", "fecha": "2021-05-07", "url": "https://nav.al/advances", "tiene_transcript": null},
+    {"orden": 103, "titulo": "Science Advances One Funeral at a Time", "fecha": "2021-05-07", "url": "https://nav.al/advances", "tiene_transcript": true},
     {"orden": 104, "titulo": "It's Rare to Have Competing, Viable, Scientific Theories", "fecha": "2021-05-11", "url": "https://nav.al/theories", "tiene_transcript": null},
     {"orden": 105, "titulo": "We're All Equal in Our Infinite Ignorance", "fecha": "2021-05-12", "url": "https://nav.al/ignorance", "tiene_transcript": null},
     {"orden": 106, "titulo": "It's Easy to Extrapolate How Things Will Get Worse", "fecha": "2021-05-14", "url": "https://nav.al/extrapolate", "tiene_transcript": null},

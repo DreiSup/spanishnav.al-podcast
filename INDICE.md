@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**64** episodios · **0** publicados · **0** sin empezar
+**65** episodios · **0** publicados · **0** sin empezar
 
 ## 2021
 
@@ -35,6 +35,7 @@
 | 96 | [096-error](episodios/2021/096-error) | La ciencia es un mecanismo de corrección de errores | 🟠 en revisión | — | — |
 | 97 | [097-predictions](episodios/2021/097-predictions) | Las teorías son explicaciones, no predicciones | 🟠 en revisión | — | — |
 | 98 | [098-bold](episodios/2021/098-bold) | Haz conjeturas audaces y descarta las que fallen | 🟠 en revisión | — | — |
+| 99 | [099-advances](episodios/2021/099-advances) | La ciencia avanza de funeral en funeral | 🟠 en revisión | — | — |
 
 ## 2020
 

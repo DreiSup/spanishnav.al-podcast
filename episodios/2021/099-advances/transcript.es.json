@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2021/099-advances",
+  "numero": 99,
+  "fecha": "2021-05-07",
+  "titulo": "La ciencia avanza de funeral en funeral",
+  "subtitulo": "Hasta los mejores se quedan atascados",
+  "fuente_url": "https://nav.al/advances",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Hay una simetría profunda entre la teoría del multiverso y las integrales de caminos de Feynman, ¿no?"
+      ]
+    },
+    {
+      "id": "b02-brett",
+      "speaker": "Brett",
+      "frases": [
+        "Tienes toda la razón, Feynman creía en las historias múltiples.",
+        "Pero sigue sin estar claro si pensaba que eran cosas físicamente reales o simples objetos matemáticos, y él apenas se pronunció sobre el tema.",
+        "Feynman era un realista y un genio absoluto, probablemente el segundo físico más grande del siglo veinte, después de Einstein.",
+        "Pero tuvo una de las peores ocurrencias, cuando dijo que si crees que entiendes la teoría cuántica, es que no la entiendes.",
+        "Eso es absurdo. David Deutsch entiende la teoría cuántica.",
+        "Fue una de las pocas ocasiones en que Feynman cayó en la irracionalidad."
+      ]
+    },
+    {
+      "id": "b03-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Creo que fue Planck quien dijo que la ciencia avanza de funeral en funeral.",
+        "Por desgracia, hasta los mejores se quedan atascados por el camino, y lo veo en mi propio campo.",
+        "Algunos de los mejores inversores de nuestra época, gente como Warren Buffett y Charlie Munger, son genios absolutos, pero las criptomonedas no les caben en la cabeza.",
+        "La idea de un dinero al margen de cualquier soberanía, nativo de internet y programable, les resulta ajena, porque para ellos el dinero siempre ha sido algo que proporciona y controla el gobierno.",
+        "Sencillamente, no pueden imaginarlo de ninguna otra manera. Es la naturaleza humana."
+      ]
+    }
+  ]
+}
