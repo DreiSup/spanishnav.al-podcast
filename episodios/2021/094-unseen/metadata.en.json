@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 94,
+  "anio": 2021,
+  "slug": "unseen",
+  "titulo": "We Explain the Seen in Terms of the Unseen",
+  "subtitulo": "No one has ever seen the core of the sun",
+  "fecha_publicacion": "2021-04-26",
+  "fuente_url": "https://nav.al/unseen",
+  "orden_archivo": 98,
+  "en_feed": true,
+  "participantes": [
+    "Brett",
+    "Naval"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}

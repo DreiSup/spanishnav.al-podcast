@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**59** episodios · **0** publicados · **0** sin empezar
+**60** episodios · **0** publicados · **0** sin empezar
 
 ## 2021
 
@@ -30,6 +30,7 @@
 | 91 | [091-probability](episodios/2021/091-probability) | La probabilidad es subjetiva | 🟠 en revisión | — | — |
 | 92 | [092-light](episodios/2021/092-light) | ¿La luz es una partícula o una onda? | 🟠 en revisión | — | — |
 | 93 | [093-multiverse](episodios/2021/093-multiverse) | El multiverso | 🟠 en revisión | — | — |
+| 94 | [094-unseen](episodios/2021/094-unseen) | Explicamos lo visible a partir de lo invisible | 🟠 en revisión | — | — |
 
 ## 2020
 

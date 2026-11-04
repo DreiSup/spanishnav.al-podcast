@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2021/094-unseen",
+  "numero": 94,
+  "fecha": "2021-04-26",
+  "titulo": "Explicamos lo visible a partir de lo invisible",
+  "subtitulo": "Nadie ha visto nunca el núcleo del Sol",
+  "fuente_url": "https://nav.al/unseen",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-brett",
+      "speaker": "Brett",
+      "frases": [
+        "Llegados a este punto, alguien podría protestar y preguntarme cómo me atrevo a invocar en la ciencia cosas que no se pueden ver ni observar.",
+        "Y me diría que, desde luego, eso va completamente en contra del método científico.",
+        "Y yo diría que casi todo lo interesante que sabes de la ciencia trata de lo que no se ha observado.",
+        "Pensemos en los dinosaurios, que nunca se han observado.",
+        "A lo mejor me dices que espere, que has estado en el museo y has visto un dinosaurio.",
+        "Pues no, has visto un fósil, y un fósil ni siquiera es un hueso.",
+        "Es un hueso osificado que se ha transformado en roca, así que nadie ha visto nunca un dinosaurio.",
+        "Hemos visto cosas que parecen dinosaurios y las hemos interpretado como enormes criaturas reptilianas parecidas a aves.",
+        "Cuando montamos sus esqueletos, nos inventamos una historia sobre qué era ese ser que caminaba por la Tierra hace decenas o cientos de millones de años.",
+        "Del mismo modo, nadie ha visto nunca el núcleo del Sol, y nadie lo observará jamás.",
+        "Pero conocemos la fusión estelar, y sabemos que allí los núcleos de hidrógeno chocan entre sí para formar helio y que en el proceso producen calor.",
+        "No vemos el big bang, ni vemos cómo se mueven los continentes.",
+        "Casi todo lo interesante de la ciencia es algo que no observamos."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Incluso de muchas de las cosas que decimos haber visto, en realidad solo hemos visto cómo las detectan los instrumentos.",
+        "Observamos los efectos a través de instrumentos y luego teorizamos que ahí fuera hay otros universos en los que los fotones interactúan con los fotones que podemos ver."
+      ]
+    }
+  ]
+}
