@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 12,
+  "anio": 2019,
+  "slug": "rational-optimists",
+  "titulo": "Partner With Rational Optimists",
+  "subtitulo": "Don't partner with cynics and pessimists; their beliefs are self-fulfilling",
+  "fecha_publicacion": "2019-03-22",
+  "fuente_url": "https://nav.al/rational-optimists",
+  "orden_archivo": 16,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}
