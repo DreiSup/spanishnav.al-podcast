@@ -99,3 +99,4 @@ abiertas («…talk about sex.» sin «”»). Afecta solo al inglés, que no se
 | 2026-11-04 | 113 It’s Mind Blowing That Our Minds Can’t Be Blown | revision | 2 | 30 | 546 | 3,2 | Cero avisos. Workflow de especialistas (4-nov); 2 decisiones aplicadas, ver notas |
 | 2026-11-04 | 114 Where Are the Aliens? | revision | 2 | 12 | 191 | 1,1 | Cero avisos. Workflow de especialistas (4-nov) |
 | 2026-11-04 | 115 Intelligent Species Have Risen Only Once on Planet Earth | revision | 1 | 31 | 584 | 3,4 | Cero avisos. Workflow de especialistas (4-nov); 1 decisiones aplicadas, ver notas |
+| 2026-11-04 | 116 The Probability of Human Existence Is Infinitesimally Small | revision | 1 | 11 | 222 | 1,3 | Cero avisos. Workflow de especialistas (4-nov) |

@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2021/116-existence",
+  "numero": 116,
+  "fecha": "2021-11-08",
+  "titulo": "La probabilidad de que existamos es infinitesimal",
+  "subtitulo": "Desde el punto de vista evolutivo, es casi imposible",
+  "fuente_url": "https://nav.al/existence",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-brett",
+      "speaker": "Brett",
+      "frases": [
+        "Hay otra forma de pensar en esto que resulta matemáticamente aterradora para quienes creen que los extraterrestres están ahí fuera y que vendrán a visitarnos algún día.",
+        "Antes hablábamos de los billones de planetas que hay en todo el universo conocido y que incluso podrían ser propicios para que surja la vida.",
+        "Imagina que entre nosotros, como seres humanos inteligentes, y la forma de bacteria más simple que podamos imaginar, solo hay cien pasos evolutivos independientes.",
+        "Ahora bien, eso no es verdad, porque probablemente hicieron falta un millón de mutaciones distintas o más para que los organismos sobrevivieran hasta que existiéramos nosotros, pero dejémoslo en solo cien.",
+        "Imagina que cada uno de esos pasos independientes tuviera una probabilidad de solo una entre diez de producirse.",
+        "En realidad, probablemente sea más bien una entre un millón, pero seamos generosos y digamos una entre diez.",
+        "Lo que tenemos ahora es una cadena de probabilidades, uno entre diez, por uno entre diez, por uno entre diez, y así cien veces.",
+        "Es uno entre diez elevado a cien, es decir, uno entre un uno seguido de cien ceros.",
+        "Ese número deja en nada la cifra astronómica de planetas de la que hablaba antes.",
+        "Es decir, según este argumento, la probabilidad de que surgiéramos es infinitesimal.",
+        "El hecho de que haya ocurrido una vez debería dejarnos alucinados."
+      ]
+    }
+  ]
+}

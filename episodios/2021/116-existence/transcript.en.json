@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "idioma": "en",
+  "episodio": "2021/116-existence",
+  "numero": 116,
+  "fecha": "2021-11-08",
+  "titulo": "The Probability of Human Existence Is Infinitesimally Small",
+  "subtitulo": "From an evolutionary standpoint, it’s near impossible",
+  "fuente_url": "https://nav.al/existence",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-brett",
+      "speaker": "Brett",
+      "frases": [
+        "Here’s another way to think about it that is mathematically frightening for the people who think that the aliens are out there and they’re going to visit us sometime in the future.",
+        "We were talking earlier about trillions of planets that exist throughout the known universe that might even be friendly for life to arise.",
+        "Imagine that between us as intelligent human beings and the most simple form of bacteria that we can imagine, there are only 100 independent evolutionary steps.",
+        "Now that’s not true—a million or more different mutations probably had to happen to allow the organisms to survive such that we exist today—but let’s make it only 100.",
+        "Imagine that each of those independent steps had a probability of just one in 10 happening.",
+        "Now, in fact, it’s probably more like one in a million, but we’ll be generous and say one in 10.",
+        "Now what we have is a chain of probability: one in 10, times one in 10, times one in 10…100 times.",
+        "This is one over 10, all to the power of 100—which is one over one followed by 100 zeroes.",
+        "That number swamps the astronomical number I was talking about with planets earlier on.",
+        "In other words, the probability of us arising in this particular argument is infinitesimally small.",
+        "The fact that it’s happened once should blow our minds."
+      ]
+    }
+  ]
+}

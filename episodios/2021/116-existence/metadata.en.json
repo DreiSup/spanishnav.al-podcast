@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 116,
+  "anio": 2021,
+  "slug": "existence",
+  "titulo": "The Probability of Human Existence Is Infinitesimally Small",
+  "subtitulo": "From an evolutionary standpoint, it’s near impossible",
+  "fecha_publicacion": "2021-11-08",
+  "fuente_url": "https://nav.al/existence",
+  "orden_archivo": 120,
+  "en_feed": true,
+  "participantes": [
+    "Brett"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}
