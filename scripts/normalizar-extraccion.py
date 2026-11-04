@@ -26,7 +26,7 @@ Lo que hace, y nada más:
   - trocea en frases el inglés siempre; en español respeta el troceado del traductor
   - avisa si el español lleva caracteres que el TTS vocaliza (comillas, guiones, cifras), frases de más
     de 45 palabras o de una o dos sueltas, y palabras que el GLOSARIO veta (vosotros, os, vale…)
-  - si el episodio es uno de los 34 producidos a mano en 2019, lo marca como heredado
+  - con --heredado, marca el episodio como heredado (regla retirada el 4-nov: por defecto ya no)
 
 Y actualiza catalogo.json para ese episodio: `tiene_transcript: true` —si el transcript
 está en el repo, es que existe— y la fecha, si la entrada venía sin ella. Con --simular
@@ -52,7 +52,7 @@ PLANTILLAS = RAIZ / "plantillas" / "episodio"
 EXTRAS = set(range(1, 5)) | set(range(164, 167))
 
 # Episodios ya producidos con el método manual de 2019 (auditado en disco el 2026-09-06).
-# Su audio existe y NO se re-sintetiza. Ver "Episodios heredados" en CLAUDE.md.
+# Desde el 4-nov se rehacen todos con la fábrica: solo se marcan como heredados con --heredado. Ver CLAUDE.md.
 HEREDADOS = set(range(1, 35))          # 1-34 tienen audio montado
 HEREDADOS_SIN_VIDEO = {34}             # el 34 es el único sin vídeo
 AUDITADO_EL = "2026-09-06"
@@ -273,8 +273,9 @@ def main() -> int:
     ap.add_argument("--fecha", help="fecha AAAA-MM-DD, para los 59 episodios que el catálogo no trae fechados")
     ap.add_argument("--simular", action="store_true", help="no escribe nada")
     ap.add_argument("--forzar", action="store_true", help="sobrescribe una carpeta existente")
-    ap.add_argument("--sin-heredado", action="store_true",
-                    help="no marcar como heredado aunque el número esté entre los 34 producidos")
+    ap.add_argument("--heredado", action="store_true",
+                    help="marcar como heredado si el número está entre los 34 producidos a mano (regla retirada el "
+                         "4-nov: por defecto todos los episodios pasan por la fábrica)")
     args = ap.parse_args()
 
     origen_en = json.loads(Path(args.en).read_text(encoding="utf-8"))
@@ -348,7 +349,7 @@ def main() -> int:
     meta_es.update(numero=numero, anio=int(anio), slug=slug, titulo_es=tr_es["titulo"], estado="revision")
     meta_es["youtube"]["titulo"] = tr_es["titulo"]
 
-    heredado = None if args.sin_heredado else bloque_heredado(numero)
+    heredado = bloque_heredado(numero) if args.heredado else None
     if heredado:
         meta_es["heredado"] = heredado
         meta_es["audio_editado_a_mano"] = True

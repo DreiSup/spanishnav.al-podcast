@@ -205,8 +205,8 @@ Qué hace:
   doblaje de quien traduce, no del script
 - Aplica la regla de numeración de arriba para decidir carpeta y `numero`
 - Escribe los cuatro `.json` en `episodios/<año>/<NNN>-<slug>/`
-- Crea `metadata.es.json` en estado `pendiente`, o en `heredado` si el número está entre 1 y
-  34 (ver "Episodios heredados" en CLAUDE.md). `--sin-heredado` desactiva esa marca
+- Crea `metadata.es.json` en estado `revision`. Ya no marca como `heredado` los episodios 1–34: desde el 4-nov
+  todos pasan por la fábrica (CLAUDE.md). `--heredado` recupera la marca antigua si algún día hiciera falta
 - Actualiza la entrada del episodio en `catalogo.json`: `tiene_transcript: true` y, si venía
   sin fecha, la que se haya pasado con `--fecha`. Reescribe el fichero conservando una entrada
   por línea, así que el diff es de una sola línea. Es idempotente y con `--simular` no lo toca

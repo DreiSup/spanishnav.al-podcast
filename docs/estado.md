@@ -124,6 +124,11 @@ La **fase 1** (elegir motor) está casi cerrada:
   (segundo del master de cada frase). `REHACER_FRASES` rehace solo las frases pedidas; `fabrica/localizar.py` las
   encuentra por minuto o por texto. `MUESTRA = 3` prueba voces nuevas con 3 intervenciones de cada una.
 
+- **Decisiones del autor (4-nov):** se rehacen **todos** los episodios con la fábrica desde el 1 (regla de los
+  heredados retirada; el normalizador ya no los marca); sin intro ni cierre; un solo cuaderno de fábrica. El 052 es
+  la recopilación de 1–50: recomendación técnica, montarlo uniendo masters (pendiente del autor). Traspaso a la
+  sesión global en `docs/contexto-sesion-global.md`.
+
 ## Esperando a que termine
 
 | Qué | Dónde corre | Resultado esperado |

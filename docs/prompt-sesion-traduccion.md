@@ -95,24 +95,18 @@ asimiles a otro: avisa al autor, porque hace falta darle una voz en la fábrica 
 técnica).
 
 QUÉ EPISODIOS, en este orden salvo que el autor diga otra cosa
-1. ARREGLAR LOS QUE YA ESTÁN: con los avisos nuevos, 036-rich-quick (3 avisos), 040-ethics (2) y 052-rich
-   (40, de ellos 14 por vosotros, vale y chaval) ya no pasan. Edita directamente las "frases" de su
-   transcript.es.json (sin tocar ids, hablantes ni bloques) y comprueba con
-   "python3 scripts/normalizar-extraccion.py episodios/2019/<ep>/transcript.en.json
-   episodios/2019/<ep>/transcript.es.json --simular" hasta cero avisos. NO lo relances sin --simular: pisaría
-   metadata.es.json. Después scripts/indice.py, un commit por episodio y push.
-2. LO QUE FALTA DE 2019 (los no heredados): 037 Productize Yourself, 038 Accountability Means Letting
-   People Criticize You, 039 We Should All Be Working for Ourselves, 046 Compounding Relationships, 047 Price
-   Discrimination, 048 Consumer Surplus, 049 Net Present Value y 050 Externalities. Son cortos, de Naval y
-   Nivi.
-3. EPISODIOS QUE ESTRENAN VOCES en la fábrica (Brett, Deutsch y Kapil aún no han pasado por ella): uno de
-   los cuatro diálogos con Kapil Gupta de 2019 (extras sin número: On Meditation, On Humility, A Founder's
-   Anxiety, The Need for Indifference; ver docs/extraccion.md), y cuando el autor quiera, uno de Brett Hall
-   y David Deutsch (The Beginning of Infinity o The Deutsch Files). El autor decide cuáles.
-4. EL RESTO, en orden de feed.
-Los episodios 1 a 34 son "heredados" (CLAUDE.md): ya tienen audio publicado a mano y no se vuelven a
-sintetizar. Hay traducciones buenas de 001–016 en Drive; traerlas al repo tiene poca prioridad y solo si el
-autor lo pide (entonces, como punto de partida, aplicando las reglas de arriba).
+1. DEL 001 AL 034 (decisión del autor, 4-nov: se rehacen TODOS los episodios con la fábrica, empezando por el 1;
+   la regla de los «heredados» está retirada, ver CLAUDE.md). El autor ya tiene traducciones de estos episodios
+   (las de 001–016 están en Drive, en naval-podcast/transcripts/2019/<NNN Título>/, y una auditoría del 2-nov las
+   dio por buenas de sentido): úsalas como punto de partida y aplícales todas las reglas de arriba, sobre todo el
+   troceado para el oído, las notas [correction] fuera del audio y el vocabulario. Ojo: el 001 de Drive tiene el
+   inglés del 002 mal colocado. Normaliza sin --heredado (por defecto ya no se marca).
+2. LOS CUATRO DIÁLOGOS CON KAPIL GUPTA de 2019 (extras sin número: On Meditation, On Humility, A Founder's
+   Anxiety, The Need for Indifference; docs/extraccion.md).
+3. 2024 A 2026: 135–161 y los extras de The AI Industrial Revolution. Si aparece un hablante nuevo, avisa.
+Lo que ya está en la rama (035–134) no se rehace salvo que el autor lo pida. El 052 (How to Get Rich, la
+recopilación de los episodios 1 a 50) tiene su propia traducción: no la toques; el autor decidirá si su audio se
+monta uniendo los de esos episodios.
 
 QUÉ NO TOCAS
 fabrica/, piloto/, criba/, scripts/ (salvo ejecutarlos), docs/fabrica-de-voz.md, docs/estado.md ni nada de
