@@ -77,22 +77,34 @@ Los fijó el especialista de cada grupo en su brief (docs/briefs/) tras investig
 transcripts, y se aplicaron en los episodios del workflow del 4-nov. Si el autor cambia alguno, se cambia aquí y en
 esos episodios.
 
-### Kapil Gupta (068)
+### Kapil Gupta (068) — confirmado por el autor el 4-nov
+
+Toda la tabla tiene el visto bueno del autor (4-nov). Vale para el 068 y para los cuatro diálogos de 2019 si se
+hacen. Con Kapil el vocabulario es el contenido: cada término suyo va siempre con la misma palabra española. Contexto
+y fuentes en docs/briefs/kapil.md, apartado 8.
 
 | Original | En el texto | Nota |
 |---|---|---|
-| prescription(s) | prescripción, prescripciones | **Decisión del autor (4-nov)**, término clave de Kapil Gupta (068 y los diálogos de 2019). Derivados: prescriptionize = convertir en prescripción; prescriptively = de forma prescriptiva; prescription givers = los que dan prescripciones. No «recetas». |
-| freedom from the mind | libertad frente a la mente | En paralelo con paz frente a la mente (decisión del 4-nov). Libertad de la mente significaría lo contrario. |
-| There is no other | No existe el otro | Lema de Kapil (068, b37 y b38). No hay otro se entiende como 'no hay otra opción'. |
-| self-conflict / self-improvement / self image | conflicto con uno mismo / superación personal / la imagen de uno mismo | Los dos primeros ya están en el 067; conviene fijarlos en el glosario. |
-| journey / destination | el camino / el destino | 068, b48 a b55. |
+| prescription(s) | prescripción, prescripciones | Término clave. Derivados: prescriptionize = convertir en prescripción; prescriptively = de forma prescriptiva; prescription givers = los que dan prescripciones; non-prescriptive = no prescriptivo. No «recetas». |
+| truth | la verdad | Su término central. Evita la muletilla «la verdad es que» (suena a «sinceramente»): «Pues la verdad es esta, …» (068, b52). Para *really* en sus frases, mejor «en serio» o «realmente» que «de verdad» cuando choca con «la verdad» (b74). straight truth = la verdad sin rodeos; raw truth = la verdad en bruto. |
+| the understanding (como concepto) | la comprensión | Siempre el sustantivo cuando es su concepto: «la comprensión de que…», «la libertad viene de la comprensión de dónde vienen las cosas» (068, b28, b32, b54, b68, b74, b76). Frente a *knowledge* = conocimiento. «Entender» queda para el uso corriente. |
+| freedom from the mind | libertad frente a la mente | En paralelo con paz frente a la mente. «Libertad de la mente» significaría lo contrario. |
+| There is no other | no hay otro | **Decisión del autor (4-nov)**, en lugar de «No existe el otro» (068, b36 a b38). |
+| sincerity / seriousness / genuine | sinceridad / seriedad / auténtico | En Kapil, sinceridad es querer llegar de verdad, no solo no mentir. *Unserious* = los que no van en serio. |
+| watch your thoughts | observar tus pensamientos | La práctica de meditación que critica; siempre «observar», nunca «vigilar» (068, b32 y b68). |
+| examination / examine | examinar | «el instrumento para examinar» (068, b84). «Examen» suena a colegio. |
+| seek / seeker | buscar / buscador | Forma asentada en el lenguaje espiritual en español. |
+| self-conflict / self-improvement / self image | conflicto con uno mismo / superación personal / la imagen de uno mismo | |
+| journey / destination | el camino / el destino | 068, b48 a b55. En b55 «I'm on the journey» = estoy haciendo el recorrido. |
 | should / shouldn't (sustantivados) | los debería / los no debería | Fórmula de Karen Horney en español: la tiranía de los debería. |
 | self inquiry | autoindagación | Forma de las traducciones españolas de Ramana Maharshi. |
-| sincerity / genuine | sinceridad / auténtico | En Kapil, sinceridad significa entrega total, no solo no mentir. |
-| X como variable en una cita (I want to go to X) | tal sitio, tal cosa | Para la sección Siglas y títulos: la letra suelta se resuelve en la frase, como A come a B en el 063. |
-| a pound (peso) | medio kilo | Conversión aproximada para un oyente español (068, b05); decisión D4, pendiente del autor. |
-| the English language | el lenguaje en inglés | **Decisión del autor (4-nov)**, 068, b32: los que dan prescripciones se han apropiado del lenguaje en inglés. Sustituye a la D5 del brief, que proponía el lenguaje a secas. |
-| Siddha Performance / Kapil | Siddha Performance / Kapil | Nombres propios sin traducir; escuchar el acento de Kapil y cómo lee Siddha el TTS antes de sintetizar. |
+| zero | el cero | Su concepto: la comprensión de que los problemas se pueden resolver para siempre. |
+| titrate | dosificar | Metáfora médica (068, b60). |
+| mindfulness / coach | mindfulness / coach | Así se dicen en España; escuchar cómo los lee el TTS. |
+| X como variable en una cita (I want to go to X) | tal sitio, tal cosa | La letra suelta se resuelve en la frase, como A come a B en el 063. |
+| a pound (peso) | medio kilo | Conversión aproximada para un oyente español (068, b05). |
+| the English language | el lenguaje en inglés | 068, b32: los que dan prescripciones se han apropiado del lenguaje en inglés. |
+| Siddha Performance / Kapil / Atmamun | sin traducir | Nombres propios; escuchar el acento de Kapil y cómo lee Siddha el TTS antes de sintetizar. |
 
 ### Naval y Nivi (046–050, 069, 077)
 

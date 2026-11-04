@@ -1,5 +1,11 @@
 # Brief del grupo «Kapil Gupta»
 
+> **Términos confirmados por el autor (4-nov), segunda revisión:** la tabla de GLOSARIO.md («Kapil Gupta») manda
+> sobre este brief. Cambios respecto a lo de abajo: *There is no other* = **no hay otro** (D3 anulada);
+> *the English language* = **el lenguaje en inglés** (D5 anulada); *the understanding* = **la comprensión**;
+> *watch your thoughts* = **observar**; título del 068 = **Kapil Gupta: Conquistando la mente** (D6 anulada).
+> Investigación sobre su vocabulario en el apartado 8.
+
 > **Corrección del autor (4-nov):** *prescriptions* se traduce como **prescripciones**, no como *recetas*. La D1 de este brief queda anulada: donde abajo dice *receta(s)*, léase *prescripción/prescripciones* (convertir en prescripción, de forma prescriptiva, los que dan prescripciones). Ver GLOSARIO.md.
 
 
@@ -348,3 +354,53 @@ la exclamación final sola y con ¡; *Jordan… en el golf* traducido tal cual. 
 - Autoindagación: selfdefinition.org (*La Autoindagación*), gururamana.org (*Indagación del Ser*), UNED
   (*Atención plena y Auto-indagación en Ramana Maharshi*).
 - Tiranía de los debería (Karen Horney): psiquiatria.com, *La teoría de Karen Horney*.
+
+---
+
+## 8. Su vocabulario: investigación del 4-nov (segunda revisión)
+
+Encargo del autor: entender cómo habla Kapil y qué quiere decir con cada palabra, para que no se repita lo de
+«recetas». Material disponible:
+
+- **Transcripts.** El único transcript de Kapil en el podcast de Naval es el del 068. Los cuatro diálogos de 2019
+  están solo en audio: no aparecen en los Google Docs anuales y nav.al está bloqueado desde las sesiones web.
+- **Web.** Solo fragmentos de búsqueda. WebFetch dio fallo de DNS en kapilguptamd.com, siddhaperformance.com,
+  goodreads.com, podcastnotes.org, antoinebuteau.com y rosetta.to. Lo que sigue y no lleva bNN viene de esos
+  fragmentos.
+- **En español no hay nada.** Ni ediciones de sus libros, ni blogs que lo citen, ni tuits traducidos. No hay
+  traducción previa de sus términos que seguir.
+
+**Quién es y cómo habla.** Médico de formación. Se presenta como consejero personal de «Kings, Queens, CEO's,
+Professional Athletes, Celebrities, and Performing Artists» (kapilguptamd.com). A quienes trabajan con él los llama
+*individuals* o *clients*, y su página de clientes se titula *Who I Journey With*. Rechaza la etiqueta espiritual:
+«all of these so-called spiritual pursuits» (b02), «the spiritual jargon» (b32), «They're not spiritual» (b52).
+Cuando escribe pone en mayúscula sus términos propios (Truth, Mind, Seeker, Sincere), y esa es la pista de qué
+palabras no son lengua corriente. Habla con metáforas médicas (hemorragia, tratamiento frente a cura, dosificar,
+«surgically»), asiente en seco («That's correct.», «That's right.»), afirma de forma categórica y pone comillas de
+distancia a las palabras morales (good, bad, should) para desactivarlas.
+
+**Sus términos y qué significan para él:**
+
+- **prescription.** Cualquier «cómo se hace» aplicado a lo que es arte, libertad o maestría; solo sirve en lo
+  mecánico (b02). Uno de sus podcasts se titula *Prescriptions Are For The Unserious*. Su libro *Direct Truth*
+  lleva el subtítulo *Uncompromising, Non-Prescriptive Truths*.
+- **truth.** No una opinión acertada, sino lo que es, sin filtro, y siempre empieza por algo concreto: «The truth
+  is that in a human being's life, he has problems» (b52).
+- **the understanding.** La comprensión que transforma, frente al conocimiento acumulado: «freedom comes from the
+  understanding of where things come from, not the conscious attempt to end them» (b74). Por eso va siempre como
+  «la comprensión».
+- **sincerity / seriousness.** Querer llegar de verdad, no franqueza: «wherever there's a rule, there's
+  insincerity» (b52); «Where there is sincerity and where there is seriousness, that is its own instrument of
+  examination» (b84).
+- **Seeker of Truth.** El que busca la verdad en serio (*A Master's Secret Whispers*, en forma de diálogo entre el
+  Maestro y su discípulo). En español, el buscador.
+- **zero, source, exposure, titrate, self image, pleasure, the greatest desire always wins.** Ver la tabla del
+  apartado 2 y GLOSARIO.md; la investigación confirma los equivalentes que ya se usan.
+- **Siddha** es sánscrito, «el perfeccionado»; a sus lectores los llama *young Siddha*. **Atmamun** es su nombre
+  para el estado sin mente; ninguna fuente da su etimología. Ninguno de los dos se traduce.
+- **Para los diálogos de 2019.** *humility* = humildad (para él es una idea falsa, no una virtud); *indifference* =
+  indiferencia (no algo que haya que perseguir); *meditation* = meditación. Son los títulos de esos episodios.
+
+**Regla que sale de todo esto:** con Kapil el vocabulario es el contenido. Cada término suyo va siempre con la misma
+palabra española, en todos los episodios, y cualquier cambio lo decide el autor.
+
