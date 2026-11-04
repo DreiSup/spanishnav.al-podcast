@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2021/090-prove",
+  "numero": 90,
+  "fecha": "2021-04-14",
+  "titulo": "Con la física que conocemos no podemos demostrar la mayoría de los teoremas",
+  "subtitulo": "Los teoremas indemostrables superan con creces a los demostrables",
+  "fuente_url": "https://nav.al/prove",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-brett",
+      "speaker": "Brett",
+      "frases": [
+        "La inmensa mayoría de los teoremas de las matemáticas son teoremas que no podemos demostrar de ningún modo.",
+        "Es el teorema de Gödel, y también se deduce de la demostración de Turing sobre qué es computable y qué no lo es.",
+        "Las cosas que no son computables superan con creces a las que sí lo son.",
+        "Y lo que es computable depende por completo de qué ordenadores podemos construir en este universo físico.",
+        "Los ordenadores que podemos construir tienen que obedecer nuestras leyes de la física.",
+        "Si las leyes de la física fueran distintas, podríamos demostrar otros tipos de matemáticas.",
+        "Esta es otra parte del error de concepto de los matemáticos, que creen que pueden salirse de las leyes de la física.",
+        "Sin embargo, su cerebro no es más que un ordenador físico, y su cerebro tiene que obedecer las leyes de la física.",
+        "Si existieran en un universo con otras leyes de la física, podrían demostrar otros teoremas.",
+        "Pero existimos en el universo en el que estamos, así que estamos sujetos a un montón de cosas, empezando por la velocidad finita de la luz.",
+        "Podría haber ciertas cosas ahí fuera, en el espacio abstracto, que llegaríamos a entender más a fondo si pudiéramos escapar de las restricciones de las leyes de la física.",
+        "Por suerte, ninguno de esos teoremas que ahora mismo no podemos demostrar es intrínsecamente interesante.",
+        "Algunas cosas pueden ser intrínsecamente aburridas, en concreto todos esos teoremas de los que no hay forma de demostrar si son verdaderos o falsos.",
+        "Esos teoremas no pueden tener ninguna relevancia en nuestro universo físico.",
+        "No tienen nada que ver con nuestro universo físico, y por eso decimos que son intrínsecamente poco interesantes.",
+        "Y hay muchísimas cosas que son intrínsecamente poco interesantes."
+      ]
+    }
+  ]
+}

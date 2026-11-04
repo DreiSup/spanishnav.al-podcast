@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 90,
+  "anio": 2021,
+  "slug": "prove",
+  "titulo": "We Can’t Prove Most Theorems with Known Physics",
+  "subtitulo": "Unprovable theorems vastly outnumber the provable ones",
+  "fecha_publicacion": "2021-04-14",
+  "fuente_url": "https://nav.al/prove",
+  "orden_archivo": 94,
+  "en_feed": true,
+  "participantes": [
+    "Brett"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}

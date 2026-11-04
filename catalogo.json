@@ -96,7 +96,7 @@
     {"orden": 91, "titulo": "All Knowledge Is Conjectural", "fecha": "2021-04-07", "url": "https://nav.al/conjectural", "tiene_transcript": true},
     {"orden": 92, "titulo": "Is the Universe Discrete or Continuous?", "fecha": "2021-04-09", "url": "https://nav.al/discrete", "tiene_transcript": true},
     {"orden": 93, "titulo": "Every Theory Is Held Inside a Physical Substrate", "fecha": "2021-04-12", "url": "https://nav.al/substrate", "tiene_transcript": true},
-    {"orden": 94, "titulo": "We Can't Prove Most Theorems with Known Physics", "fecha": "2021-04-14", "url": "https://nav.al/prove", "tiene_transcript": null},
+    {"orden": 94, "titulo": "We Can't Prove Most Theorems with Known Physics", "fecha": "2021-04-14", "url": "https://nav.al/prove", "tiene_transcript": true},
     {"orden": 95, "titulo": "Probability Is Subjective", "fecha": "2021-04-16", "url": "https://nav.al/probability", "tiene_transcript": null},
     {"orden": 96, "titulo": "Is Light a Particle or a Wave?", "fecha": "2021-04-19", "url": "https://nav.al/light", "tiene_transcript": null},
     {"orden": 97, "titulo": "The Multiverse", "fecha": "2021-04-21", "url": "https://nav.al/multiverse", "tiene_transcript": null},
