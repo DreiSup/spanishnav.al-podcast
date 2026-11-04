@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 111,
+  "anio": 2021,
+  "slug": "species",
+  "titulo_es": "Somos cualitativamente distintos de las demás especies",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Somos cualitativamente distintos de las demás especies",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). Sin notas del editor ni artefactos del copiado. «A particularly special place» se traduce «un lugar especialmente privilegiado», para evitar «especialmente especial». «Off-axis» se traduce «estamos fuera de ese eje». La frase larga sobre Neil deGrasse Tyson se parte en dos y cada una tiene sentido completo. «Happens to be out there» se traduce «que tienes ahí fuera». Términos fijos: principio cosmológico y «esta visión». Nombre que hay que escuchar en el TTS: Neil deGrasse Tyson, que el brief da por difícil. El validador da un aviso informativo de hablante no habitual («Brett»). Ese es el hablante correcto y se copia exacto del inglés. Revisión independiente: cinco retoques de naturalidad. Cobertura 1,14, sin bloques fuera de rango."
+}

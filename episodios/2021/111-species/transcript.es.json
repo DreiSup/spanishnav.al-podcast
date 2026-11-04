@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2021/111-species",
+  "numero": 111,
+  "fecha": "2021-10-25",
+  "titulo": "Somos cualitativamente distintos de las demás especies",
+  "subtitulo": "No hay un continuo entre los humanos y los chimpancés",
+  "fuente_url": "https://nav.al/species",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-brett",
+      "speaker": "Brett",
+      "frases": [
+        "Lo que planteas ahí es una opinión minoritaria, y creo que la cultura sigue atascada en la segunda parte de lo que decías.",
+        "Al principio creíamos que estábamos en el centro del universo.",
+        "Esa era la concepción religiosa del lugar del hombre en el cosmos.",
+        "La Tierra estaba rodeada por las esferas celestes y todo giraba a su alrededor.",
+        "Así que éramos los herederos de todo el universo, y Dios nos lo había regalado.",
+        "Luego la ciencia nos mostró que, de hecho, no estamos en un lugar especialmente privilegiado del universo.",
+        "Es el principio cosmológico, la idea de que el universo es más o menos igual en todos y cada uno de sus puntos.",
+        "Y nosotros solo estamos en uno de esos lugares que no tienen nada de especial.",
+        "No solo no somos especiales en el sentido cosmológico, sino que biológicamente tampoco tenemos nada de especial.",
+        "Solo estamos en el continuo que va de las bacterias a las cucarachas, y de ahí a los perros y a los chimpancés.",
+        "Hay un astrofísico que me encanta cuando habla de casi cualquier otro tema, Neil deGrasse Tyson.",
+        "Estaba hablando de que los chimpancés son mucho más listos de lo que creemos, y de que quizá nosotros no seamos mucho mejores.",
+        "Eso es lo que piensa casi todo el mundo.",
+        "Esta tercera visión que muchos de nosotros intentamos promover ahora dice que entre los chimpancés y nosotros no hay una ligera diferencia cuantitativa.",
+        "Hay un continuo que va de las bacterias a las cucarachas, a los perros y a los chimpancés, pero nosotros estamos fuera de ese eje.",
+        "Somos cualitativamente distintos, y basta con abrir los ojos.",
+        "Asómate a la ventana y mira esa ciudad preciosa que tienes ahí fuera, una ciudad que no se puede explicar con este aumento gradual de la complejidad biológica."
+      ]
+    }
+  ]
+}

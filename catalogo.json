@@ -117,7 +117,7 @@
     {"orden": 112, "titulo": "There Can Be No Final Theory of Gravity", "fecha": "2021-10-18", "url": "https://nav.al/gravity", "tiene_transcript": true},
     {"orden": 113, "titulo": "Genetic Evolution Was a Prelude to Memetic Evolution", "fecha": "2021-10-20", "url": "https://nav.al/evolution", "tiene_transcript": true},
     {"orden": 114, "titulo": "Humans Are Exceptional", "fecha": "2021-10-22", "url": "https://nav.al/exceptional", "tiene_transcript": true},
-    {"orden": 115, "titulo": "We Are Qualitatively Different From Other Species", "fecha": "2021-10-25", "url": "https://nav.al/species", "tiene_transcript": null},
+    {"orden": 115, "titulo": "We Are Qualitatively Different From Other Species", "fecha": "2021-10-25", "url": "https://nav.al/species", "tiene_transcript": true},
     {"orden": 116, "titulo": "More Compute Power Doesn't Produce AGI", "fecha": "2021-10-27", "url": "https://nav.al/agi", "tiene_transcript": null},
     {"orden": 117, "titulo": "It's Mind Blowing That Our Minds Can't Be Blown", "fecha": "2021-10-30", "url": "https://nav.al/mind-blowing", "tiene_transcript": null},
     {"orden": 118, "titulo": "Where Are the Aliens?", "fecha": "2021-11-01", "url": "https://nav.al/aliens", "tiene_transcript": null},
