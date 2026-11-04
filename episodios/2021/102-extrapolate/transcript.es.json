@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2021/102-extrapolate",
+  "numero": 102,
+  "fecha": "2021-05-14",
+  "titulo": "Es fácil extrapolar cómo empeorarán las cosas",
+  "subtitulo": "Es más difícil adivinar cómo podría mejorar la vida",
+  "fuente_url": "https://nav.al/extrapolate",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Muchas de las teorías sobre por qué estamos a punto de crear una inteligencia artificial general se basan en una extrapolación ingenua de la potencia de cálculo.",
+        "Es casi una inducción a partir de una potencia de cálculo cada vez mayor.",
+        "Dicen que a la inteligencia artificial ya se le da bien la visión y que ya gana a los humanos al ajedrez y a los videojuegos, así que pronto empezará a pensar.",
+        "Otra variante de lo mismo es la idea de que los humanos nos estamos comiendo todos los recursos de la Tierra, así que tener más humanos en la Tierra es mala idea.",
+        "Pero si crees que el conocimiento llega a través de la creatividad, cualquier niño que nazca mañana podría ser el próximo Einstein o el próximo Feynman.",
+        "Podría descubrir algo que cambie el mundo para siempre, con una creatividad cuyos resultados y efectos no son lineales."
+      ]
+    },
+    {
+      "id": "b02-brett",
+      "speaker": "Brett",
+      "frases": [
+        "Ahora mismo nos preocupan mucho la contaminación y la desaparición de ciertas especies, y para algunas personas son preocupaciones legítimas.",
+        "Pero eso nunca debería ir en detrimento de la visión a largo plazo de que podemos resolver todos esos problemas, y muchos más.",
+        "Podríamos hacerlo si progresáramos a un ritmo más rápido usando los recursos que tenemos a nuestra disposición."
+      ]
+    },
+    {
+      "id": "b03-naval",
+      "speaker": "Naval",
+      "frases": [
+        "¿Por qué parece que en el mundo siempre hay más pesimistas que optimistas, sobre todo cuando seguimos viviendo con valores que en su mayoría son de la Ilustración y con una innovación tan tremenda?",
+        "Probablemente haya varias razones. Es más fácil ser pesimista que optimista.",
+        "Es difícil adivinar cómo va a mejorar la vida, y es más fácil extrapolar cómo va a empeorar.",
+        "También se podría argumentar que el riesgo de ruina es tan grande, porque de la ruina no se vuelve, que estamos programados para ser pesimistas.",
+        "Si eres optimista y aciertas, solo ganas un poco.",
+        "Pero si eres optimista, te equivocas y te come un tigre, lo pierdes todo."
+      ]
+    }
+  ]
+}
