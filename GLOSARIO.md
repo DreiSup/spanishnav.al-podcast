@@ -58,6 +58,13 @@ texto en español y por qué.
 | Original | En el texto | Nota |
 |---|---|---|
 | ADN | ADN | Se lee bien como sigla |
+| BOCTAOE (Scott Adams) | «unas siglas en inglés que venían a decir que, por supuesto, hay excepciones obvias» | No se lee: se explica en la frase (012) |
+| The Wealth of Nations | La riqueza de las naciones | Título publicado en español (016) |
+| On the Origin of Species | El origen de las especies | Título publicado en español (016) |
+| The Eighth Day of Creation | El octavo día de la creación | Traducción literal (016) |
+| Six Easy Pieces | Seis piezas fáciles | Título publicado en español (016) |
+| The Intelligent Investor | El inversor inteligente | Título publicado en español (014) |
+| tit-for-tat | el toma y daca | Término de teoría de juegos; «ojo por ojo» connota venganza (010) |
 | S-1 (folleto de la SEC para salir a bolsa) | folletos de salida a bolsa | La sigla con guion y cifra la vocaliza el TTS; se resuelve en la frase (060) |
 | Lao Tzu | Lao Tse | Forma asentada en español, como Sócrates o Confucio (065) |
 | IQ test | test de inteligencia | «IQ» y «CI» se deletrean mal; se resuelve en la frase (065) |
