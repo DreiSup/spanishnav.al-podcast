@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 82,
+  "anio": 2021,
+  "slug": "explanations",
+  "titulo_es": "Las buenas explicaciones son actos de creatividad",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Las buenas explicaciones son actos de creatividad",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). 082 Las buenas explicaciones son actos de creatividad. No hay notas del editor ni artefactos del copiado. En la primera mención va el nombre completo, David Deutsch. Términos del brief: buena explicación, comprobable, falsable. First and foremost se traduce como en primer lugar. Even stepping back from that se traduce como yendo incluso un paso más atrás. La pregunta a los hijos se pasa a estilo indirecto (les pregunto si el sol se va a alguna parte) y las dos preguntas siguientes van en estilo directo sin comillas, con su signo de apertura. Las citas de la explicación creativa (This is why it's happening) van en estilo indirecto con dice cuál es. El subtítulo They're not derived from looking at the past queda como No se deducen de mirar al pasado y se copiará igual en la recopilación 105. Nombres que hay que escuchar: Brett, David Deutsch. Ratio 1,15, ningún bloque fuera de rango."
+}
