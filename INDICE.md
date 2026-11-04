@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**28** episodios · **0** publicados · **0** sin empezar
+**29** episodios · **0** publicados · **0** sin empezar
 
 ## 2020
 
@@ -39,5 +39,6 @@
 | 43 | [043-kelly-criterion](episodios/2019/043-kelly-criterion) | El criterio de Kelly: evita la ruina | 🟠 en revisión | — | — |
 | 44 | [044-schelling-point](episodios/2019/044-schelling-point) | El punto de Schelling: cooperar sin comunicarse | 🟠 en revisión | — | — |
 | 45 | [045-short](episodios/2019/045-short) | Convierte los juegos de corto plazo en juegos de largo plazo | 🟠 en revisión | — | — |
+| 46 | [046-relationships](episodios/2019/046-relationships) | Las relaciones que componen te hacen la vida más fácil | 🟠 en revisión | — | — |
 | 51 | [051-angel-1](episodios/2019/051-angel-1) | Cómo invertir como ángel, parte uno | 🟠 en revisión | — | — |
 | 52 | [052-rich](episodios/2019/052-rich) | Cómo hacerse rico | 🟠 en revisión | — | — |

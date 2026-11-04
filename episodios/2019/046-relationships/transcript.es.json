@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2019/046-relationships",
+  "numero": 46,
+  "fecha": "2019-07-19",
+  "titulo": "Las relaciones que componen te hacen la vida más fácil",
+  "subtitulo": "La vida se vuelve mucho más fácil cuando sabes que alguien te cubre las espaldas",
+  "fuente_url": "https://nav.al/relationships",
+  "titulos_seccion": [
+    "La confianza mutua hace fácil hacer negocios",
+    "Es mejor tener unas pocas relaciones que componen que muchas superficiales"
+  ],
+  "contenido": [
+    {
+      "id": "b01-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Antes hablamos del interés compuesto, pero no llegamos a profundizar mucho en él."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Las relaciones son un buen ejemplo de interés compuesto.",
+        "Una vez que llevas un tiempo en una buena relación con alguien, ya sea de negocios o sentimental, la vida se vuelve mucho más fácil porque sabes que esa persona te cubre las espaldas.",
+        "No tienes que estar cuestionándolo todo el rato.",
+        "Si hago una operación con alguien con quien llevo trabajando veinte años y hay confianza mutua, no hace falta que nos leamos los contratos legales.",
+        "A lo mejor ni siquiera necesitamos hacer contratos legales, a lo mejor nos basta con un apretón de manos.",
+        "Ese tipo de confianza hace que sea muy fácil hacer negocios."
+      ]
+    },
+    {
+      "id": "b03-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Si Nivi y yo montamos otra empresa y las cosas no funcionan, sé que los dos vamos a ser extremadamente razonables al decidir qué hacer, cómo salir o cómo cerrarla.",
+        "O si la estamos escalando, cómo meter gente nueva.",
+        "Tenemos confianza mutua, y eso nos permite montar negocios con más facilidad y hace que el efecto se componga.",
+        "La razón menos reconocida por la que fracasan las startups es que los fundadores se rompen entre ellos.",
+        "Sacar adelante una startup es tan difícil que quitar posibles puntos de fricción entre fundadores puede marcar la diferencia entre el éxito y el fracaso."
+      ]
+    },
+    {
+      "id": "b04-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Hay un par de cosas poco intuitivas sobre componer.",
+        "La primera es que casi todos los beneficios llegan al final, así que puede que al principio no veas beneficios enormes.",
+        "Sam Altman escribió: siempre quiero que sea un proyecto que, si sale bien, haga que el resto de mi carrera parezca una nota a pie de página.",
+        "Insisto, casi todos los beneficios de componer llegan al final.",
+        "Y hay otra cosa poco intuitiva sobre componer.",
+        "Es mejor tener unas pocas relaciones profundas que se componen que muchas relaciones superficiales que no se componen."
+      ]
+    },
+    {
+      "id": "b05-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Hay algo de los negocios de lo que la gente no se da cuenta: cuesta el mismo esfuerzo crear un negocio pequeño que crear uno grande.",
+        "Seas Elon Musk o el tipo que lleva tres restaurantes italianos en el pueblo, estás trabajando ochenta horas a la semana.",
+        "Estás sudando la gota gorda, estás contratando y despidiendo gente, estás intentando cuadrar las cuentas.",
+        "Es enormemente estresante y te lleva años y años de tu vida.",
+        "En un caso acabas con empresas que valen entre cincuenta mil y cien mil millones de dólares y con la admiración de todo el mundo.",
+        "En el otro, a lo mejor ganas un poco de dinero y tienes unos cuantos restaurantes bonitos.",
+        "Así que piensa en grande."
+      ]
+    }
+  ]
+}

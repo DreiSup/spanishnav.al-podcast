@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 46,
+  "anio": 2019,
+  "slug": "relationships",
+  "titulo": "Compounding Relationships Make Life Easier",
+  "subtitulo": "Life gets a lot easier when you know someone’s got your back",
+  "fecha_publicacion": "2019-07-19",
+  "fuente_url": "https://nav.al/relationships",
+  "orden_archivo": 50,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}
