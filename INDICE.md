@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**91** episodios · **0** publicados · **0** sin empezar
+**92** episodios · **0** publicados · **0** sin empezar
 
 ## 2021
 
@@ -62,6 +62,7 @@
 | 123 | [123-decentralization](episodios/2021/123-decentralization) | La innovación necesita descentralización y una frontera | 🟠 en revisión | — | — |
 | 124 | [124-compromise](episodios/2021/124-compromise) | La miseria del término medio | 🟠 en revisión | — | — |
 | 125 | [125-feedback](episodios/2021/125-feedback) | Los mercados libres dan la mejor retroalimentación | 🟠 en revisión | — | — |
+| 126 | [126-social](episodios/2021/126-social) | Hacer algo social destruye su verdad | 🟠 en revisión | — | — |
 
 ## 2020
 
