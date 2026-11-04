@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**69** episodios · **0** publicados · **0** sin empezar
+**70** episodios · **0** publicados · **0** sin empezar
 
 ## 2021
 
@@ -40,6 +40,7 @@
 | 101 | [101-ignorance](episodios/2021/101-ignorance) | En nuestra infinita ignorancia, todos somos iguales | 🟠 en revisión | — | — |
 | 102 | [102-extrapolate](episodios/2021/102-extrapolate) | Es fácil extrapolar cómo empeorarán las cosas | 🟠 en revisión | — | — |
 | 103 | [103-pessimism](episodios/2021/103-pessimism) | El pesimismo parece una postura intelectualmente seria | 🟠 en revisión | — | — |
+| 104 | [104-optimism](episodios/2021/104-optimism) | El optimismo racional es la salida | 🟠 en revisión | — | — |
 
 ## 2020
 

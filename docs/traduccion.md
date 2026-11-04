@@ -87,3 +87,4 @@ abiertas («…talk about sex.» sin «”»). Afecta solo al inglés, que no se
 | 2026-11-04 | 101 We’re All Equal in Our Infinite Ignorance | revision | 3 | 17 | 303 | 1,8 | Cero avisos. Workflow de especialistas (4-nov); 1 decisiones aplicadas, ver notas |
 | 2026-11-04 | 102 It’s Easy to Extrapolate How Things Will Get Worse | revision | 3 | 15 | 321 | 1,9 | Cero avisos. Workflow de especialistas (4-nov) |
 | 2026-11-04 | 103 Pessimism Seems Like an Intellectually Serious Position | revision | 2 | 19 | 353 | 2,1 | Cero avisos. Workflow de especialistas (4-nov); 1 decisiones aplicadas, ver notas |
+| 2026-11-04 | 104 Rational Optimism Is the Way Out | revision | 3 | 21 | 381 | 2,2 | Cero avisos. Workflow de especialistas (4-nov); 1 decisiones aplicadas, ver notas |

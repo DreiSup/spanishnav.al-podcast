@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2021/104-optimism",
+  "numero": 104,
+  "fecha": "2021-05-24",
+  "titulo": "El optimismo racional es la salida",
+  "subtitulo": "El pesimismo se cumple a sí mismo",
+  "fuente_url": "https://nav.al/optimism",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Las profesiones en las que la retroalimentación te la dan otros miembros de esa misma profesión tienden a corromperse.",
+        "Fíjate en un periodista que escribe artículos para impresionar a otros periodistas, o en el dueño de un restaurante que intenta impresionar a otros gastrónomos y restauradores.",
+        "Lo que hacen no suele ser práctico ni de gran calidad.",
+        "El periodista o el restaurador pueden recibir elogios dentro de ciertos círculos de élite, pero eso no refleja la realidad.",
+        "Un científico o un experimentador recibe la retroalimentación de la madre naturaleza.",
+        "Y un emprendedor la recibe de un mercado libre en el que la gente vota con su dinero y con su tiempo, y esas son señales mucho más fiables.",
+        "La gente a la que pagan por trabajar en el mundo real tiende a ser optimista.",
+        "La gente que trabaja en torres de marfil tiene incentivos para ser pesimista."
+      ]
+    },
+    {
+      "id": "b02-brett",
+      "speaker": "Brett",
+      "frases": [
+        "Para ser emprendedor, tienes que ser optimista y confiar en que estás creando algo que otras personas van a valorar.",
+        "Quienes tienen una filosofía pesimista suelen tener también una psicología pesimista.",
+        "Si estás pensando constantemente en todas las formas en que el mundo se va a ir a pique, eso influye día a día en tu manera de verlo todo.",
+        "Afecta a cómo ves al resto de la sociedad, a tu familia y a tus amigos, porque crees que este mundo está condenado.",
+        "Vas a sentir ese peso sobre los hombros, y eso se va a notar en cómo te presentas ante el resto del mundo.",
+        "Esto se ve mucho en las redes sociales, aunque los emprendedores suelen estar demasiado ocupados para pasar mucho tiempo en ellas.",
+        "Pero ahí sí encuentras a científicos, académicos y periodistas que viven deprimidos porque tienen una visión pesimista de la realidad.",
+        "Y eso afecta a su experiencia subjetiva del mundo.",
+        "En cambio, la gente que crea está intentando traer al mundo algo nuevo."
+      ]
+    },
+    {
+      "id": "b03-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Por desgracia, el pesimismo se cumple a sí mismo.",
+        "Aquí partimos de la postura de que todos los males se deben a la falta de conocimiento.",
+        "El optimismo racional es la salida, y lo respaldan tanto los datos como la historia.",
+        "Gracias a la creatividad, siempre podemos dar con buenas explicaciones que mejoren nuestra vida y la de todos los demás, así que mantente optimista."
+      ]
+    }
+  ]
+}
