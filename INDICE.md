@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**57** episodios · **0** publicados · **0** sin empezar
+**58** episodios · **0** publicados · **0** sin empezar
 
 ## 2021
 
@@ -28,6 +28,7 @@
 | 89 | [089-substrate](episodios/2021/089-substrate) | Toda teoría reside en un sustrato físico | 🟠 en revisión | — | — |
 | 90 | [090-prove](episodios/2021/090-prove) | Con la física que conocemos no podemos demostrar la mayoría de los teoremas | 🟠 en revisión | — | — |
 | 91 | [091-probability](episodios/2021/091-probability) | La probabilidad es subjetiva | 🟠 en revisión | — | — |
+| 92 | [092-light](episodios/2021/092-light) | ¿La luz es una partícula o una onda? | 🟠 en revisión | — | — |
 
 ## 2020
 

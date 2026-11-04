@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2021/092-light",
+  "numero": 92,
+  "fecha": "2021-04-19",
+  "titulo": "¿La luz es una partícula o una onda?",
+  "subtitulo": "Dios no juega a los dados con el universo",
+  "fuente_url": "https://nav.al/light",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Hay un vídeo de YouTube en el que Deutsch explica el famoso experimento cuántico de la doble rendija, que trata de la dualidad onda partícula.",
+        "¿La luz es una partícula o una onda?",
+        "La haces pasar por una rendija y, según haya o no un observador y una interferencia, acaba formando un patrón de onda o llegando como fotones individuales.",
+        "Es un experimento famoso que ha desconcertado a la gente durante mucho tiempo y que la ha obligado a revisar su visión del mundo.",
+        "Fue lo que llevó a Einstein a decir que Dios no juega a los dados con el universo."
+      ]
+    },
+    {
+      "id": "b02-brett",
+      "speaker": "Brett",
+      "frases": [
+        "Einstein era un realista en la época en que los fundadores de la teoría cuántica intentaban dar con una buena explicación de qué pasaba exactamente en estos experimentos cuánticos.",
+        "Einstein rechazó todas esas explicaciones porque no eran realistas, e hizo bien en rechazarlas, porque ninguna de ellas tenía ningún sentido.",
+        "A día de hoy, ninguna de las demás alternativas tiene sentido.",
+        "Ahora bien, Einstein no sabía nada del multiverso, y tuvimos que esperar a que Hugh Everett, en los años cincuenta, ideara una forma sencilla y realista de entender la teoría cuántica.",
+        "Pero si vuelvo a la idea del experimento de la doble rendija, a menudo se dice que las partículas tienen una dualidad.",
+        "Se dice que a veces son partículas y a veces son ondas.",
+        "Por ejemplo, el electrón, en ciertos experimentos, se comporta como una partícula, y en otros experimentos se comporta como una onda.",
+        "Quien oye esto piensa que, bueno, eso más o menos explica lo que está pasando.",
+        "En el efecto fotoeléctrico, iluminas unos electrones, lo que literalmente significa que disparas un fotón contra un electrón.",
+        "Un fotón es una partícula de luz, y con él puedes arrancar el electrón del átomo.",
+        "Se supone que esto es la prueba definitiva de que la luz, en forma de fotones, y la electricidad, en forma de electrones, son partículas, porque rebotan unas contra otras.",
+        "Eso es lo que hacen las partículas, y las ondas no lo hacen.",
+        "Fíjate en las olas de la playa y verás que se atraviesan unas a otras, y que no rebotan unas contra otras.",
+        "Las ondas rebotan contra las partículas, pero no rebotan unas contra otras.",
+        "Antes del experimento de la doble rendija de Young, nos basábamos en las ideas de Newton sobre la luz.",
+        "La idea de Newton era que la luz era corpuscular, como decía él, lo que significa que estaba hecha de partículas.",
+        "Entonces llegó Young e hizo pasar luz por dos rendijas recortadas en una hoja de papel.",
+        "Y cuando proyectas esa luz sobre otra hoja de papel, lo que encuentras no son solo dos haces de luz.",
+        "Encuentras lo que se llama un patrón de interferencia, en el que la luz ha interferido consigo misma.",
+        "Es parecido a lo que pasa cuando las olas atraviesan aberturas pequeñas o huecos geológicos naturales.",
+        "Las olas interfieren entre sí, forman crestas en unos sitios y valles en otros, y pueden anularse unas a otras.",
+        "Para algunos de los primeros físicos, esto era supuestamente la prueba de que la luz era, de hecho, una onda.",
+        "Ahora llegamos a la teoría cuántica y descubrimos que cosas que creíamos que sin duda eran partículas, como los electrones, interfieren entre sí cuando hacemos con ellas el mismo experimento.",
+        "Parece que tenemos partículas que se comportan como ondas y ondas que se comportan como partículas.",
+        "La solución a esto no consiste en aceptar disparates.",
+        "En las clases de teoría cuántica de la carrera se suele explicar que hay que aceptar que algo como un fotón nace como partícula, vive como onda y al morir vuelve a ser partícula, lo cual es absurdo.",
+        "Es absurdo porque el fotón no sabe si está vivo o muerto, ni sabe en qué experimento está participando."
+      ]
+    }
+  ]
+}

@@ -76,3 +76,4 @@ abiertas («…talk about sex.» sin «”»). Afecta solo al inglés, que no se
 | 2026-11-04 | 089 Every Theory Is Held Inside a Physical Substrate | revision | 3 | 23 | 385 | 2,3 | Cero avisos. Workflow de especialistas (4-nov); 1 decisiones aplicadas, ver notas |
 | 2026-11-04 | 090 We Can’t Prove Most Theorems with Known Physics | revision | 1 | 16 | 291 | 1,7 | Cero avisos. Workflow de especialistas (4-nov) |
 | 2026-11-04 | 091 Probability Is Subjective | revision | 4 | 20 | 390 | 2,3 | Cero avisos. Workflow de especialistas (4-nov); 1 decisiones aplicadas, ver notas |
+| 2026-11-04 | 092 Is Light a Particle or a Wave? | revision | 2 | 32 | 637 | 3,7 | Cero avisos. Workflow de especialistas (4-nov); 1 decisiones aplicadas, ver notas |

@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 92,
+  "anio": 2021,
+  "slug": "light",
+  "titulo": "Is Light a Particle or a Wave?",
+  "subtitulo": "God does not play dice with the universe",
+  "fecha_publicacion": "2021-04-19",
+  "fuente_url": "https://nav.al/light",
+  "orden_archivo": 96,
+  "en_feed": true,
+  "participantes": [
+    "Brett",
+    "Naval"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}
