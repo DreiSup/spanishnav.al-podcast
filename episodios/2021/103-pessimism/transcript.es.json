@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2021/103-pessimism",
+  "numero": 103,
+  "fecha": "2021-05-17",
+  "titulo": "El pesimismo parece una postura intelectualmente seria",
+  "subtitulo": "Hemos salido de trampas anteriores a base de innovar",
+  "fuente_url": "https://nav.al/pessimism",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-brett",
+      "speaker": "Brett",
+      "frases": [
+        "Si eres académico, ser capaz de explicar todos los problemas que hay ahí fuera, lo peligrosos que son y por qué necesitas financiación para estudiarlos más a fondo parece la postura intelectualmente seria.",
+        "En cambio, quien dice que podemos resolverlos suena un poco a buenismo.",
+        "De hecho, la colaboración, la cooperación y la explotación de los recursos son lo que impulsará esta economía del conocimiento para que podamos resolver estos problemas.",
+        "Siempre parece intelectualmente más serio plantarte con el ceño fruncido delante del público de una charla TED y enumerar todas las formas en que vamos a morir.",
+        "Y contar todas las formas en que va a fallar la Tierra y en que vamos a acabar en la ruina."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Confieso que grabé uno de esos podcasts catastrofistas sobre gente capaz de hacer saltar la Tierra por los aires.",
+        "Es el podcast del que más me he arrepentido.",
+        "Tuvimos una conversación estupenda, pero en el fondo no estoy de acuerdo con la conclusión de que deberíamos frenar porque el mundo se va a acabar.",
+        "La única salida que tenemos es el progreso.",
+        "No he promocionado ese podcast tanto como otros, y cuando leí a Deutsch entendí por qué.",
+        "El pesimismo es una trampa en la que es fácil caer, pero implica que los humanos no somos creativos.",
+        "El pesimismo no reconoce todas las formas en que hemos salido de trampas anteriores a base de innovar.",
+        "Los emprendedores son optimistas por naturaleza, porque se les recompensa por ser optimistas.",
+        "Como decías tú, a los intelectuales se les recompensa por ser pesimistas, así que hay un sesgo de incentivos.",
+        "Si eres pesimista, la retroalimentación te llega de otras personas, porque es un acto social.",
+        "Estás convenciendo a otras personas de tu pesimismo.",
+        "Pero a los emprendedores la retroalimentación les llega de la naturaleza y de los mercados libres, que para mí son mecanismos de retroalimentación mucho más realistas.",
+        "Hasta ahora, la mayoría de las predicciones pesimistas han resultado ser falsas.",
+        "Si miras los plazos en los que supuestamente se iba a acabar el mundo o iban a llegar las catástrofes medioambientales, verás que han fallado bastante."
+      ]
+    }
+  ]
+}
