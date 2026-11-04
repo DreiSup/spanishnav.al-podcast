@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 125,
+  "anio": 2021,
+  "slug": "feedback",
+  "titulo": "Free Markets Provide the Best Feedback",
+  "subtitulo": "The alternative is feedback from whomever has the most guns",
+  "fecha_publicacion": "2021-12-03",
+  "fuente_url": "https://nav.al/feedback",
+  "orden_archivo": 129,
+  "en_feed": true,
+  "participantes": [
+    "Brett",
+    "Naval"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}

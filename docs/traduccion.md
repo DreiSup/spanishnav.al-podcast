@@ -108,3 +108,4 @@ abiertas («…talk about sex.» sin «”»). Afecta solo al inglés, que no se
 | 2026-11-04 | 122 Don’t Rely on Credibility Stamps | revision | 3 | 22 | 370 | 2,2 | Cero avisos. Workflow de especialistas (4-nov); 2 decisiones aplicadas, ver notas |
 | 2026-11-04 | 123 Innovation Requires Decentralization and a Frontier | revision | 1 | 35 | 648 | 3,8 | Cero avisos. Workflow de especialistas (4-nov); 2 decisiones aplicadas, ver notas |
 | 2026-11-04 | 124 The Poverty of Compromise | revision | 1 | 32 | 572 | 3,4 | Cero avisos. Workflow de especialistas (4-nov); 2 decisiones aplicadas, ver notas |
+| 2026-11-04 | 125 Free Markets Provide the Best Feedback | revision | 2 | 30 | 556 | 3,3 | Cero avisos. Workflow de especialistas (4-nov); 2 decisiones aplicadas, ver notas |

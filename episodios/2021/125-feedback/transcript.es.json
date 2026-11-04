@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2021/125-feedback",
+  "numero": 125,
+  "fecha": "2021-12-03",
+  "titulo": "Los mercados libres dan la mejor retroalimentación",
+  "subtitulo": "La alternativa es la retroalimentación de quien tenga más armas",
+  "fuente_url": "https://nav.al/feedback",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Marc Andreessen lo resume muy bien con su fórmula de opiniones fuertes, sostenidas con poca fuerza.",
+        "Como sociedad, si buscas la verdad, te conviene tener opiniones fuertes, pero sostenidas con muy poca fuerza.",
+        "Quieres ponerlas a prueba, ver si funcionan y, si no funcionan, corregir los errores.",
+        "Pero en lugar de eso, lo que tenemos son opiniones fuertes sostenidas con fuerza, que es la postura de la minoría intolerante.",
+        "O tenemos opiniones débiles sostenidas con poca fuerza, que es este modelo de término medio en el que nadie carga con la culpa ni se lleva el mérito.",
+        "Nadie puede intentarlo a su manera, y luego todo el mundo puede escudarse en aquello de que el verdadero comunismo nunca se ha llegado a probar.",
+        "Aunque, en ese caso, el verdadero comunismo sí se ha probado, solo que no ha salido bien.",
+        "Por cierto, una de las críticas más habituales que le oigo a la gente es que tenemos que pasar a un mundo poscapitalista, porque el capitalismo no funciona.",
+        "De acuerdo, ¿y cuál es tu alternativa?",
+        "Normalmente ahí es donde la gente empieza a titubear, porque no hay muchas opciones.",
+        "Cuando intentas decidir cómo repartir el mérito, cómo repartir los recursos y cómo recompensar a la gente por su trabajo, tienes dos opciones.",
+        "Una es la retroalimentación de los mercados libres y de la realidad, y el mejor modelo para eso es el dinero.",
+        "La otra es la retroalimentación de las personas, que es donde acaba el comunismo, con un grupo de gente que decide quién ha hecho el mejor trabajo.",
+        "Ahora bien, ¿quién decide que has hecho el mejor trabajo?",
+        "Alguien tiene que encargarse de eso, y ese alguien acaba siendo siempre el mayor matón de todos.",
+        "No creo que sea casualidad que todos los países comunistas degeneren en una dictadura.",
+        "El comunismo nunca parece estar dirigido de verdad por la mayoría del pueblo, de forma descentralizada.",
+        "Siempre acaba dirigido por un puñado de gente que se hace con el mando.",
+        "Es pura naturaleza humana que, si soy yo quien decide quién se lleva el oro, acabe en manos de mis amigos, de mi familia y de la gente que me cae bien.",
+        "Y eso es, invariablemente, lo que acaba pasando.",
+        "O necesitas una medida objetiva para repartirlo, y la medida objetiva que conocemos es el dinero, o todo se vuelve subjetivo.",
+        "Y si es subjetivo, ¿quién dice que tienes que repartirlo tú y no yo?",
+        "Al final lo vamos a decidir según quién tenga más fuerza física, según quién tenga más armas."
+      ]
+    },
+    {
+      "id": "b02-brett",
+      "speaker": "Brett",
+      "frases": [
+        "Lo que decimos los partidarios de los mercados libres es que hemos sacado la coacción de ese proceso de decisión.",
+        "A nadie se le obliga a comprar un servicio ni a cerrar un acuerdo.",
+        "Solo se recurre a la fuerza cuando interviene el gobierno.",
+        "Entonces los de arriba dicen que esa es la mejor decisión, que vas a tener que aceptarla y que, si no, se va a presentar en tu puerta un hombre con placa y pistola.",
+        "Lo único que decimos sobre el mercado libre es que el individuo puede decidir sin que lo coaccionen.",
+        "Ahora bien, puede que yo esté equivocado, pero ¿por qué no iban a poder intentarlo y cometer errores, si es la única forma de progresar?",
+        "La única forma de corregir errores es probar de verdad otra cosa."
+      ]
+    }
+  ]
+}
