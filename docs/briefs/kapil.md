@@ -264,7 +264,7 @@ fuera de 0,85–1,45 por tamaño, y se justifica en notas sin forzarlo.
 evitar que salga moralina: *no es bueno ser humilde* tiene que sonar a afirmación neutra, no a reproche.
 Los *should* sustantivados van como *los debería* (b65, b68, b72), siempre igual.
 
-**T10. «The English language» (b32).** «the prescription givers have highjacked the English language».
+**T10. «The English language» (b32).** **Decisión del autor (4-nov): *el lenguaje en inglés*; lo de abajo queda anulado.** «the prescription givers have highjacked the English language».
 Recomendación: *los que reparten recetas se han apropiado del lenguaje*. Decir *del inglés* en un doblaje
 español extraña al oyente, y el sentido (cada palabra ya viene cargada de una imagen) se mantiene. Ver D5.
 

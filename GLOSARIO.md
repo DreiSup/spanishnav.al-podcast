@@ -84,6 +84,7 @@ esos episodios.
 | sincerity / genuine | sinceridad / auténtico | En Kapil, sinceridad significa entrega total, no solo no mentir. |
 | X como variable en una cita (I want to go to X) | tal sitio, tal cosa | Para la sección Siglas y títulos: la letra suelta se resuelve en la frase, como A come a B en el 063. |
 | a pound (peso) | medio kilo | Conversión aproximada para un oyente español (068, b05); decisión D4, pendiente del autor. |
+| the English language | el lenguaje en inglés | **Decisión del autor (4-nov)**, 068, b32: los que dan prescripciones se han apropiado del lenguaje en inglés. Sustituye a la D5 del brief, que proponía el lenguaje a secas. |
 | Siddha Performance / Kapil | Siddha Performance / Kapil | Nombres propios sin traducir; escuchar el acento de Kapil y cómo lee Siddha el TTS antes de sintetizar. |
 
 ### Naval y Nivi (046–050, 069, 077)
