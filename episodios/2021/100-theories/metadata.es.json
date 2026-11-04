@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 100,
+  "anio": 2021,
+  "slug": "theories",
+  "titulo_es": "Es raro tener teorías científicas viables que compitan entre sí",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Es raro tener teorías científicas viables que compitan entre sí",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). Sin notas del editor. Nombres que hay que escuchar en el TTS: Solomonoff, Monty Hall, Hall, Newton, bayesianismo y bayesiano (debería leerse ba-yes). Como pide el brief, el concurso Let's Make a Deal no se nombra: se dice un concurso de la televisión estadounidense. Las citas en primera persona (el razonamiento del bayesiano y la pregunta de Monty Hall) van en estilo indirecto y sin comillas. Hay una frase dudosa en el inglés, «So it becomes much more obvious when you change the thought exercise to being one of the two». Se traduce por el sentido: con cien puertas también acabas eligiendo entre dos, y así se ve más claro. Queda así: Así que se ve mucho más claro cuando cambias así el experimento mental y al final tienes que elegir una de las dos puertas que quedan. Change your vote se traduce cambiar tu elección. Revise your guess se traduce replantearte tu elección, porque aquí guess es la apuesta de un concurso y no tiene sentido epistemológico, así que no lleva conjetura. Odds se traduce posibilidad, una entre cien y noventa y nueve entre cien. I'm going to mangle the description se traduce Seguramente lo explique fatal. Update my priors se traduce actualizar sus probabilidades previas, y judge one explanation against another, comparar una explicación con otra, como fija el brief. El validador de la skill avisa de que Brett es un hablante no habitual. Es esperable, porque el campo speaker se copia tal cual del inglés. Todos los bloques quedan entre 0,85 y 1,45 (ratio global 1,12)."
+}

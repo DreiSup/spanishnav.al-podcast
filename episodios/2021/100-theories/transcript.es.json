@@ -1,0 +1,90 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2021/100-theories",
+  "numero": 100,
+  "fecha": "2021-05-11",
+  "titulo": "Es raro tener teorías científicas viables que compitan entre sí",
+  "subtitulo": "La relatividad general frente a la mecánica newtoniana es un ejemplo reciente",
+  "fuente_url": "https://nav.al/theories",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "También está la teoría de la inducción de Solomonoff.",
+        "¿Le has echado un vistazo alguna vez?"
+      ]
+    },
+    {
+      "id": "b02-brett",
+      "speaker": "Brett",
+      "frases": [
+        "He oído hablar de ella, pero no la he investigado."
+      ]
+    },
+    {
+      "id": "b03-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Seguramente lo explique fatal, pero viene a decir lo siguiente.",
+        "Supón que quieres encontrar una teoría nueva que explique por qué ocurre algo, en este caso algo que está codificado como una cadena binaria.",
+        "Entonces la teoría correcta es una teoría ponderada por probabilidades, que tiene en cuenta todas las teorías posibles y las pondera según su complejidad.",
+        "Las teorías más simples tienen más probabilidades de ser ciertas, y las más complejas tienen menos.",
+        "Las sumas todas, y así es como das con la función de distribución de probabilidad correcta para tu explicación."
+      ]
+    },
+    {
+      "id": "b04-brett",
+      "speaker": "Brett",
+      "frases": [
+        "Eso se parece al bayesianismo, ¿no?",
+        "En los dos casos dan por hecho que se pueden enumerar todas las teorías posibles.",
+        "Pero en la ciencia es muy raro tener más de una teoría viable.",
+        "Estaba la teoría de la gravedad de Newton, y estaba la teoría de la relatividad general.",
+        "Es una de las pocas ocasiones en que ha habido dos teorías que competían entre sí.",
+        "Que haya tres teorías compitiendo entre sí y tengas que sopesarlas es algo casi desconocido."
+      ]
+    },
+    {
+      "id": "b05-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Lo que confunde a la gente es que la inducción y el bayesianismo funcionan bien en espacios finitos y acotados que ya se conocen, pero no sirven para explicaciones nuevas.",
+        "Según el bayesianismo, recibes información nueva y la usas para ponderar las predicciones de probabilidad que ya tenías.",
+        "Cambias tu probabilidad a partir de los datos nuevos, y ahora crees que va a pasar algo distinto.",
+        "Por ejemplo, está el clásico problema de Monty Hall, que viene de un concurso de la televisión estadounidense.",
+        "Monty Hall te hace subir al escenario y hay tres puertas.",
+        "Detrás de una hay un tesoro, y detrás de las otras dos no hay nada.",
+        "Eliges una puerta, la uno, la dos o la tres.",
+        "Entonces él abre una de las otras dos puertas y te enseña que detrás no hay nada.",
+        "Y luego Hall te pregunta si ahora quieres cambiar tu elección.",
+        "La probabilidad ingenua dice que no deberías cambiar tu elección.",
+        "¿Por qué iba a importar que una de las puertas que te ha enseñado no tenga nada detrás?",
+        "La probabilidad no tendría por qué haber cambiado.",
+        "Pero el bayesianismo dice que tienes información nueva, así que deberías replantearte tu elección y cambiarte a la otra puerta.",
+        "Una forma más fácil de entenderlo es imaginar que hay cien puertas y que eliges una al azar.",
+        "Entonces él abre noventa y ocho de las noventa y nueve restantes y te enseña que detrás no hay nada.",
+        "¿Y ahora te cambias?",
+        "Pues claro que sí. La primera vez tenías una posibilidad entre cien de elegir la puerta correcta, y ahora tienes noventa y nueve entre cien.",
+        "Así que se ve mucho más claro cuando cambias así el experimento mental y al final tienes que elegir una de las dos puertas que quedan.",
+        "Hay quien descubre esto y piensa que, claro, ahora es un bayesiano listo.",
+        "Piensa que puede actualizar sus probabilidades previas a partir de información nueva, que eso es lo que hace la gente lista y que, por lo tanto, es bayesiano.",
+        "Pero eso no te ayuda en absoluto a descubrir conocimiento nuevo ni explicaciones nuevas."
+      ]
+    },
+    {
+      "id": "b06-brett",
+      "speaker": "Brett",
+      "frases": [
+        "Ese es el uso del bayesianismo que no genera ninguna polémica, y ahí es una herramienta muy potente.",
+        "Se usa en medicina para intentar averiguar qué medicamentos pueden ser más eficaces que otros.",
+        "Hay áreas enteras de las matemáticas, como el bayesianismo, que se pueden aplicar en la ciencia sin ninguna polémica.",
+        "Se vuelve polémico cuando decimos que el bayesianismo es la forma de generar explicaciones nuevas, o la forma de comparar una explicación con otra.",
+        "De hecho, la forma de generar explicaciones nuevas es a través de la creatividad.",
+        "Y la forma de comparar una explicación con otra es la refutación experimental o una crítica directa, cuando nos damos cuenta de que una explicación es mala."
+      ]
+    }
+  ]
+}

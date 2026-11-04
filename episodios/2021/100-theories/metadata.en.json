@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 100,
+  "anio": 2021,
+  "slug": "theories",
+  "titulo": "It’s Rare to Have Competing, Viable, Scientific Theories",
+  "subtitulo": "General relativity vs. Newtonian mechanics is a recent example",
+  "fecha_publicacion": "2021-05-11",
+  "fuente_url": "https://nav.al/theories",
+  "orden_archivo": 104,
+  "en_feed": true,
+  "participantes": [
+    "Brett",
+    "Naval"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}

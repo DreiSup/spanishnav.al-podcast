@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**65** episodios · **0** publicados · **0** sin empezar
+**66** episodios · **0** publicados · **0** sin empezar
 
 ## 2021
 
@@ -36,6 +36,7 @@
 | 97 | [097-predictions](episodios/2021/097-predictions) | Las teorías son explicaciones, no predicciones | 🟠 en revisión | — | — |
 | 98 | [098-bold](episodios/2021/098-bold) | Haz conjeturas audaces y descarta las que fallen | 🟠 en revisión | — | — |
 | 99 | [099-advances](episodios/2021/099-advances) | La ciencia avanza de funeral en funeral | 🟠 en revisión | — | — |
+| 100 | [100-theories](episodios/2021/100-theories) | Es raro tener teorías científicas viables que compitan entre sí | 🟠 en revisión | — | — |
 
 ## 2020
 
