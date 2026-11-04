@@ -89,7 +89,7 @@ Episodio {número} de la traducción al español del podcast de Naval Ravikant.
 Traducción no oficial. Contenido original de Naval Ravikant, publicado en nav.al.
 
 Este podcast se ha traducido al español con inteligencia artificial. Puede haber errores o inconsistencias tanto en la traducción como en la dicción.
-La transcripción se ha traducido del inglés al español con Claude Opus 5, de Anthropic. La voz en español se ha generado con Qwen3-TTS, un modelo de voz de código abierto fine-tuned con las voces de Naval y de otros participantes.
+La transcripción se ha traducido del inglés al español con Claude Opus 5.5 (esfuerzo alto), de Anthropic. La voz en español se ha generado con Qwen3-TTS, un modelo de voz de código abierto fine-tuned con las voces de Naval y de otros participantes.
 
 ¿Algún problema o queja? Escríbeme a podcast@spanishnav.al
 
@@ -97,7 +97,7 @@ La transcripción se ha traducido del inglés al español con Claude Opus 5, de 
 
 Unofficial Spanish translation of Naval Ravikant's podcast. Original content by Naval Ravikant at nav.al.
 This podcast has been translated into Spanish using artificial intelligence. There may be errors or inconsistencies in both the translation and the diction.
-The transcript was translated from English to Spanish with Anthropic's Claude Opus 5. The Spanish audio was generated with Qwen3-TTS, an open-source voice model fine-tuned on the voices of Naval and other participants.
+The transcript was translated from English to Spanish with Anthropic's Claude Opus 5.5 (high effort). The Spanish audio was generated with Qwen3-TTS, an open-source voice model fine-tuned on the voices of Naval and other participants.
 If you run into any problems or have a complaint, reach me at podcast@spanishnav.al
 ```
 
@@ -117,7 +117,7 @@ comparte. Se guarda limpio: `https://www.youtube.com/watch?v=<id>`.
 ### Criterios fijados
 
 - **Español**, no castellano, como el nombre del podcast. «Puede haber errores» (haber impersonal).
-- **Modelos con su nombre concreto** (Claude Opus 5, Qwen3-TTS). Si cambia el motor de traducción o de voz, se
+- **Modelos con su nombre concreto** (Claude Opus 5.5 con esfuerzo alto, Qwen3-TTS). Si cambia el motor de traducción o de voz, se
   cambia esta plantilla y vale para los episodios nuevos; los ya publicados en YouTube no se actualizan solos.
 - **Una frase de voces general**, que vale para todos los episodios: Naval, Brett y Deutsch llevan fine-tuning; Nivi
   y los invitados, no (`docs/contexto-sesion-global.md`, §4). Por eso dice «Naval y otros participantes» y no «Naval y
