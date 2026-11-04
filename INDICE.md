@@ -2,7 +2,13 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**37** episodios · **0** publicados · **0** sin empezar
+**38** episodios · **0** publicados · **0** sin empezar
+
+## 2021
+
+| # | Episodio | Título en español | Estado | Drive | YouTube |
+|---|---|---|---|---|---|
+| 72 | [072-science-2](episodios/2021/072-science-2) | La ciencia es el motor que hace avanzar a la humanidad | 🟠 en revisión | — | — |
 
 ## 2020
 

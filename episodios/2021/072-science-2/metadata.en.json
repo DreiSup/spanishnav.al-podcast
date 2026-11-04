@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 72,
+  "anio": 2021,
+  "slug": "science-2",
+  "titulo": "Science Is the Engine That Pulls Humanity Forward",
+  "subtitulo": "“Believe in science” is an oxymoron",
+  "fecha_publicacion": "2021-03-01",
+  "fuente_url": "https://nav.al/science-2",
+  "orden_archivo": 76,
+  "en_feed": true,
+  "participantes": [
+    "Naval"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}
