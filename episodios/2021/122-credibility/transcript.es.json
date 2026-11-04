@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2021/122-credibility",
+  "numero": 122,
+  "fecha": "2021-11-22",
+  "titulo": "No te fíes de los sellos de credibilidad",
+  "subtitulo": "El paso de las instituciones a los individuos llevará una generación y será caótico",
+  "fuente_url": "https://nav.al/credibility",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Hoy en día, en nuestra sociedad hay muchas instituciones que dependen de los sellos de credibilidad.",
+        "Antes, esos sellos eran la forma de ganarse la credibilidad en la sociedad.",
+        "Si eras periodista y escribías para The New York Times o para The Washington Post, tenías detrás la cabecera del Times o la del Post.",
+        "Si eres profesor en Harvard, tienes credibilidad porque eres profesor en Harvard.",
+        "Claro, esos sistemas acabaron hackeados, y ahora están dentro muchos científicos sociales que no tienen ningún derecho a decirle al mundo lo que debe hacer.",
+        "Llegan con modelos políticos absurdos y se hacen pasar por economistas o por investigadores de las ciencias naturales.",
+        "Hay activistas que escriben bajo la cabecera de estos periódicos que en su día fueron grandes.",
+        "Y están quemando el capital de credibilidad que esos periódicos han ido acumulando con el tiempo.",
+        "Internet los está dejando en evidencia poco a poco, pero sin pausa.",
+        "Y estamos pasando por una fase de transición en la que el gran público todavía cree en las instituciones.",
+        "Estamos atrapados en este punto de Schelling, en este punto de coordinación en torno a las instituciones.",
+        "¿Cómo sé si debo contratarte?",
+        "¿Tienes un título de Harvard?",
+        "Sé que ya no vale lo que valía, y que a estas alturas un título de humanidades de Harvard seguramente sea papel mojado.",
+        "Pero no tengo ninguna otra medida de credibilidad para filtrarte, y necesito hacerlo de una forma eficiente.",
+        "Lo que estamos viendo es el paso del poder de las instituciones a los individuos, pero va a ser caótico y va a llevar al menos una generación.",
+        "Mientras tanto, las instituciones contraatacan, y estamos en la fase de El Imperio contraataca.",
+        "Intentan hacerse con las nuevas plataformas que dan poder a los individuos, como Twitter, Facebook o Patreon."
+      ]
+    },
+    {
+      "id": "b02-brett",
+      "speaker": "Brett",
+      "frases": [
+        "La universidad y todo el mundo académico tienen muchísimo poder, porque son ellos quienes forman a su propia generación de futuros profesores.",
+        "Y esos profesores son los que después enseñan a la siguiente generación de alumnos de primaria y de secundaria."
+      ]
+    },
+    {
+      "id": "b03-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Es un sacerdocio, y solo te dejan decir lo que han aprobado los sacerdotes.",
+        "Y solo puedes decirlo si eres sacerdote, y son los propios sacerdotes quienes deciden quién es sacerdote."
+      ]
+    }
+  ]
+}

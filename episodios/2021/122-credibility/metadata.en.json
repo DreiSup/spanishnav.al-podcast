@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 122,
+  "anio": 2021,
+  "slug": "credibility",
+  "titulo": "Don’t Rely on Credibility Stamps",
+  "subtitulo": "The generation-long shift from institutions to individuals will be messy",
+  "fecha_publicacion": "2021-11-22",
+  "fuente_url": "https://nav.al/credibility",
+  "orden_archivo": 126,
+  "en_feed": true,
+  "participantes": [
+    "Brett",
+    "Naval"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-04"
+}
