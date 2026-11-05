@@ -21,5 +21,10 @@
   },
   "audio_editado_a_mano": false,
   "heredado": null,
+  "escucha": {
+    "escuchado": false,
+    "fecha": null,
+    "feedback": ""
+  },
   "notas": "Inglés sacado del Google Doc «2020 all podcasts»; cuadra palabra a palabra. «peace of mind / peace from mind» se traduce como «paz mental / paz frente a la mente» (opción C, decisión del autor el 4-nov; en el título y en b01 y b02). «A eats B; B eats C; C eats D; D eats E» se traduce como «uno se come a otro, ese otro se come a un tercero, y así sucesivamente», porque el TTS leería mal las letras sueltas. «Nature is red in tooth and claw» se traduce como «La naturaleza tiene los dientes y las garras manchados de sangre». Las cifras van en letra (mil años, nueve de cada diez)."
 }

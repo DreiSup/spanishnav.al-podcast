@@ -29,5 +29,10 @@
   },
   "audio_editado_a_mano": false,
   "heredado": null,
+  "escucha": {
+    "escuchado": false,
+    "fecha": null,
+    "feedback": ""
+  },
   "notas": "En nav.al, Nivi atribuye el retuit sobre la tracción a Ed Latimore y la transcripción corrige: [correction: the tweet is by @mmay3r]. No se locuta: Nivi dice lo que dijo."
 }

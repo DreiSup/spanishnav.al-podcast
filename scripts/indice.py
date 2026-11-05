@@ -48,6 +48,7 @@ def escapar(texto) -> str:
 
 def construir(episodios: list[dict]) -> str:
     publicados = sum(1 for e in episodios if e.get("estado") == "publicado")
+    escuchados = sum(1 for e in episodios if (e.get("escucha") or {}).get("escuchado"))
     pendientes = sum(1 for e in episodios if e.get("estado") == "pendiente")
     lineas = [
         "# Índice de episodios",
@@ -55,7 +56,7 @@ def construir(episodios: list[dict]) -> str:
         "<!-- Generado por scripts/indice.py. No editar a mano. -->",
         "",
         f"**{len(episodios)}** episodios · **{publicados}** publicados · "
-        f"**{pendientes}** sin empezar",
+        f"**{escuchados}** escuchados por el autor · **{pendientes}** sin empezar",
         "",
     ]
 
@@ -67,8 +68,8 @@ def construir(episodios: list[dict]) -> str:
         lineas += [
             f"## {anio}",
             "",
-            "| # | Episodio | Título en español | Estado | Drive | YouTube |",
-            "|---|---|---|---|---|---|",
+            "| # | Episodio | Título en español | Estado | Escuchado | Drive | YouTube |",
+            "|---|---|---|---|---|---|---|",
         ]
         for ep in sorted(por_anio[anio], key=lambda e: e["_nombre"]):
             numero = ep.get("numero") or "—"
@@ -79,7 +80,9 @@ def construir(episodios: list[dict]) -> str:
             drive = f"[📁](https://drive.google.com/drive/folders/{carpeta_id})" if carpeta_id else "—"
             url = (ep.get("youtube") or {}).get("url")
             yt = f"[▶]({url})" if url else "—"
-            lineas.append(f"| {numero} | {enlace} | {titulo_es} | {estado} | {drive} | {yt} |")
+            esc = ep.get("escucha") or {}
+            escuchado = f"✅ {esc.get('fecha') or ''}".strip() if esc.get("escuchado") else "—"
+            lineas.append(f"| {numero} | {enlace} | {titulo_es} | {estado} | {escuchado} | {drive} | {yt} |")
         lineas.append("")
 
     if not episodios:

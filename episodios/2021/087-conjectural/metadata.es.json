@@ -21,5 +21,10 @@
   },
   "audio_editado_a_mano": false,
   "heredado": null,
+  "escucha": {
+    "escuchado": false,
+    "fecha": null,
+    "feedback": ""
+  },
   "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). 087 Todo conocimiento es conjetural. Brett da instrucciones al oyente («Anyone might want to try this experiment for themselves: Take a piece of paper…»), que pasan a imperativo de tú: Si quieres, puedes hacer tú mismo este experimento. Coge una hoja de papel… La cita de Popper («It is impossible to speak in such a way that you cannot be misunderstood», de Búsqueda sin término) va en estilo indirecto y sin comillas: es imposible hablar de manera que nadie pueda malinterpretarte. Las citas imaginadas («Because it's clearly and obviously the case», «That's unfair, that's cheating») también van en estilo indirecto. La fórmula «x plus zero must equal x» va como «equis más cero tiene que ser igual a equis». Euclid's Elements se traduce como los Elementos de Euclides. Posible lapsus del inglés, que no se ha tocado: Brett pregunta «How do we know that an axiom is incorrect?» y contesta con la justificación tradicional de que un axioma es correcto («Because it's clearly and obviously the case»; a continuación: «You just have to accept that it's true»). El revisor lo traduce por el sentido, ¿Cómo sabemos que un axioma es correcto?, como las demás erratas evidentes de la serie; ver decisiones. La frase larga sobre la geometría euclidiana, con una raya en medio, se parte en tres frases completas. «Now,», que aquí introduce el paso siguiente del experimento, se traduce «Y ahora», no «Ahora bien». El validador da un aviso informativo sobre el hablante Brett: es el hablante correcto. Nombres para escuchar: Karl Popper, Euclides, Einstein. Ningún bloque fuera de rango (ratio 1,04)."
 }

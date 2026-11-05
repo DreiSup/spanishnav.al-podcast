@@ -32,7 +32,14 @@ Estado: `tts`.
 2. Escucha el master entero cuando puedas. Busca: **alucinaciones** (palabras que no están en el texto, repeticiones,
    murmullos), **sonidos raros**, **silencios largos**, y pronunciaciones que chirríen.
 3. Si todo está bien: el episodio está **listo**. Estado `montaje` (pasa a vídeo y publicación). Fin.
-4. Si algo está mal, apunta el minuto y elige uno de los arreglos.
+4. **Registro de la escucha**, en el bloque `escucha` de su `metadata.es.json` (por defecto, sin escuchar):
+
+       "escucha": {"escuchado": true, "fecha": "2026-11-05", "feedback": "bien; 2:15 frase rehecha"}
+
+   Lo apunta cualquier sesión cuando el autor dice «he escuchado el 003, bien» o le da feedback. La columna
+   «Escuchado» de `INDICE.md` (`python3 scripts/indice.py`) muestra cuáles faltan. Escuchar no es lo mismo que
+   publicar: un episodio puede estar publicado sin escuchar entero, y queda a la vista.
+5. Si algo está mal, apunta el minuto y elige uno de los arreglos.
 
 ## 4. Arreglos (solo si hace falta)
 

@@ -21,5 +21,10 @@
   },
   "audio_editado_a_mano": false,
   "heredado": null,
+  "escucha": {
+    "escuchado": false,
+    "fecha": null,
+    "feedback": ""
+  },
   "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). Recorte del 052-rich. El único bloque reutiliza palabra por palabra el b264 aprobado del 052, y el revisor lo ha comprobado por script. Solo habla Naval. Artefacto del copiado en inglés: entre el tercer y el cuarto párrafo aparece suelta, sin punto, la línea «Consumer surplus is the extra value you get when you pay less than you were willing». Es la cita destacada de la página; en el 052 es el título «El excedente del consumidor es el valor extra que obtienes cuando pagas menos de lo que estabas dispuesto». No se locuta. titulos_seccion queda vacío porque el inglés no trae ninguno, y titulo y titulo_seccion son los aprobados del 052. Trampa de billion y trillion resuelta como en el aprobado: «a trillion-dollar company» es una empresa que vale un billón de dólares, y «trillions of dollars» son billones de dólares. Veinte dólares va en letra. Nombres que hay que escuchar en el TTS: Starbucks, Amazon. Reutilización de clips: el bloque coincide letra a letra con el b264 del 052. Revisión: no se ha cambiado ningún texto."
 }

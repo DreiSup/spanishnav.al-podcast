@@ -21,5 +21,10 @@
   },
   "audio_editado_a_mano": false,
   "heredado": null,
+  "escucha": {
+    "escuchado": false,
+    "fecha": null,
+    "feedback": ""
+  },
   "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). Sin notas del editor. Errata del inglés: en «physical transformations that we can affect», affect es por effect; se traduce por el sentido, transformaciones físicas que podemos llevar a cabo (brief, tabla de sociedad). «Soluble»: el guiño se conserva con «tienen solución, son solubles, como escribe él» (brief T10). Términos de la serie que se aplican aquí: visión del mundo (worldview), alcance (reach), explicadores universales, falsada (de falsar), creación de conocimiento, potencia de cálculo y optimismo racional (de «rationally optimistic», como «un optimismo profundamente racional»). La primera mención es David Deutsch con el nombre completo; el inglés solo dice «Deutsch», y en la segunda queda así. La pregunta de Naval, «What’s at the core of the worldview?», queda en «¿Cuál es el núcleo de esa visión del mundo?», con el término fijo y dentro de rango (8 frente a 7 palabras). Los dos avisos del validador son «hablante no habitual Brett», que es informativo. Nombres que hay que escuchar en el TTS: Deutsch (si falla, Doich). Ningún bloque fuera de rango: ratio total 1,12."
 }

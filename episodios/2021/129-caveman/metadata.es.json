@@ -21,5 +21,10 @@
   },
   "audio_editado_a_mano": false,
   "heredado": null,
+  "escucha": {
+    "escuchado": false,
+    "fecha": null,
+    "feedback": ""
+  },
   "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). Episodio 129. Sin notas del editor. Título y título de sección definitivos, que se copian tal cual a los titulos_seccion de la recopilación 130: Para un cavernícola, casi nada es un recurso / Hubo un tiempo en que el carbón no era un recurso. Artefactos del inglés: comillas tipográficas, un punto y coma y una raya en el original («To a caveman very few things are resources—just a few edible plants...» y «developing engines and rockets—all of these»), que no se trasladan. Las citas en estilo directo van en estilo indirecto y sin comillas: lo que pensó Brett sobre la gente de ITV, la pregunta de Naval al inversor y el «Actually we have enough shoes» de alguien que decide. «in the U.K.» se integra en la cadena británica ITV, como fija el brief. Se conserva la anáfora de Naval: necesitábamos zapatillas más elásticas, necesitábamos zapatillas más resistentes... En todo el episodio, «shoes» es zapatillas, para que la anáfora se mantenga, y «sneakers» es zapatillas deportivas. Las cuatro menciones de podríamos ir conservan la repetición del original (We could go, cuatro veces). Nombres que hay que escuchar antes de sintetizar: ITV y Amazon. ITV es una sigla: si el TTS la deletrea mal, se escribe una cadena de televisión británica y el nombre queda aquí en notas. Validador OK; el único aviso es el de hablante no habitual Brett, que es el esperado. Cero avisos del normalizador. Cobertura total 1,03, sin bloques fuera de rango. Frases de 8 a 31 palabras."
 }

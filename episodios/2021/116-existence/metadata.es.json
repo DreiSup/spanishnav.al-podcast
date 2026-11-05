@@ -21,5 +21,10 @@
   },
   "audio_editado_a_mano": false,
   "heredado": null,
+  "escucha": {
+    "escuchado": false,
+    "fecha": null,
+    "feedback": ""
+  },
   "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). La cadena de probabilidades se resuelve según T8 del brief, sin símbolos ni puntos suspensivos: uno entre diez, por uno entre diez, por uno entre diez, y así cien veces; uno entre diez elevado a cien, es decir, uno entre un uno seguido de cien ceros. trillions of planets son billones de planetas (T4). La raya de Now that's not true... se integra en la frase con pero dejémoslo en solo cien. «swamps the astronomical number» se traduce deja en nada la cifra astronómica. «should blow our minds» se traduce debería dejarnos alucinados, para enlazar con el título del 113. Hablante Brett copiado exacto del inglés (el validador avisa de hablante no habitual: es esperado en esta serie). Ningún bloque fuera de rango (ratio 0,99)."
 }

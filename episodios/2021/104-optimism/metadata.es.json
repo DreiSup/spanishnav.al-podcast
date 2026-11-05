@@ -21,5 +21,10 @@
   },
   "audio_editado_a_mano": false,
   "heredado": null,
+  "escucha": {
+    "escuchado": false,
+    "fecha": null,
+    "feedback": ""
+  },
   "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). 104 El optimismo racional es la salida. Sin notas del editor. Hablantes: Naval, Brett, Naval (tres bloques). Ratio global 1,09; ningún bloque fuera de rango; frase más larga de 29 palabras. El validador da un aviso informativo por el hablante Brett, que es el correcto según el brief (en los cortos va Brett, no Brett Hall); ese aviso no se puede quitar sin cambiar el hablante. Términos de la serie: feedback se traduce retroalimentación, como fija el brief; free market es mercado libre; rational optimism es optimismo racional; pessimism is self-fulfilling es el pesimismo se cumple a sí mismo, que va también en el subtítulo. Foodies se traduce gastrónomos. Wreck and ruin se traduce irse a pique. La enumeración de la sociedad, la familia y los amigos, que en inglés va entre rayas, se pasa a una frase propia con verbo. Those are much better predictors se funde con la frase anterior y se traduce esas son señales mucho más fiables. So stay optimistic tiene menos de ocho palabras y se funde con la frase anterior: así que mantente optimista. Revisión: se ha quitado el calco operar, se ha reformulado la frase de ser optimista respecto a que y se ha fundido una frase de siete palabras sobre las redes sociales. Nada que escuchar con atención especial en el TTS."
 }

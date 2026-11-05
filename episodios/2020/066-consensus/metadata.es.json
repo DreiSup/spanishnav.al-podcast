@@ -21,5 +21,10 @@
   },
   "audio_editado_a_mano": false,
   "heredado": null,
+  "escucha": {
+    "escuchado": false,
+    "fecha": null,
+    "feedback": ""
+  },
   "notas": "Inglés sacado del Google Doc «2020 all podcasts»; cuadra palabra a palabra. La cita «Money won’t make you happy» va como «que el dinero no da la felicidad», sin comillas. «unschooling» se traduce como «desescolarización»."
 }

@@ -21,5 +21,10 @@
   },
   "audio_editado_a_mano": false,
   "heredado": null,
+  "escucha": {
+    "escuchado": false,
+    "fecha": null,
+    "feedback": ""
+  },
   "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). Sin notas del editor ni artefactos del copiado en el inglés. El título y el subtítulo siguen el apartado 7 del brief. El subtítulo («Las ideas pasan por el mismo proceso evolutivo que los genes») se copia tal cual a los titulos_seccion de la recopilación 130. Obra citada: Objective Knowledge: An Evolutionary Approach, de Popper, con el título de la edición española de Tecnos (Conocimiento objetivo, con el subtítulo Un enfoque evolucionista) y sin comillas. La cita de Deutsch («Genetic evolution was merely a prelude…») va en estilo indirecto. «The theory of epistemology» se traduce «la teoría epistemológica». «Now we have leveled that up» se traduce «Ahora lo hemos llevado a otro nivel» y va fundida con la frase siguiente para que no quede una afirmación corta suelta. «It was an error correction» se traduce «se basaba en la corrección de errores». Términos fijos del brief: corrección de errores, apto, unidad de selección, gen egoísta, neodarwinista, retroalimentación de la realidad, evolución memética y ADN. Nombres que hay que escuchar en el TTS: Popper, Lamarck, Darwin, Richard Dawkins y David Deutsch. El validador da un aviso informativo de hablante no habitual («Brett»). Ese es el hablante correcto según el brief y se copia exacto del inglés. Revisión independiente: tres retoques de naturalidad y tiempos verbales. Cobertura 1,07, sin bloques fuera de rango."
 }

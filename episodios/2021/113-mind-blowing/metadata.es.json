@@ -21,5 +21,10 @@
   },
   "audio_editado_a_mano": false,
   "heredado": null,
+  "escucha": {
+    "escuchado": false,
+    "fecha": null,
+    "feedback": ""
+  },
   "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). Título según D4 del brief: Lo alucinante es que nada puede alucinarnos; dentro del texto, lo alucinante es que nada puede alucinarte. Las citas en estilo directo del inglés (los de mentalidad científica, Dios está ahí fuera, la metafísica de Dios, Oh yeah, if we encounter aliens) se pasan a estilo indirecto, sin comillas. El OK de Naval se vuelve un bueno. «every human species is like bacteria» parece un desliz del habla o del copiado (la idea es que toda especie, incluida la humana, se comporta como las bacterias); se traduce así por el sentido. «rote sci-fi» se traduce como la ciencia ficción más trillada. La imagen «light up the dark matter, the dark energy, the unused resources» se reparte en dos frases: iluminar la materia oscura y la energía oscura, y aprovechar los recursos sin usar del universo. «capable of maximal understanding» se traduce capaces de entender todo lo que se puede entender. Obra citada: Guía del autoestopista galáctico (Anagrama); los vogones y la vía de circunvalación hiperespacial según el brief. Términos fijos: hipótesis del bosque oscuro, hipótesis de la simulación, explicadores universales, maltusiana. Escuchar en el TTS: vogones, maltusiana. Hablante Brett sin apellido, copiado exacto del inglés (el validador avisa de hablante no habitual: es esperado en esta serie). Revisado: ningún bloque fuera de rango (ratio global 1,12), frase más larga de 33 palabras."
 }

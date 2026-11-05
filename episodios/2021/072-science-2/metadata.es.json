@@ -21,5 +21,10 @@
   },
   "audio_editado_a_mano": false,
   "heredado": null,
+  "escucha": {
+    "escuchado": false,
+    "fecha": null,
+    "feedback": ""
+  },
   "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). 072 Science Is the Engine That Pulls Humanity Forward (La ciencia es el motor que hace avanzar a la humanidad). Un bloque de Naval, 29 frases, ratio es/en 1,12, frase más larga de 34 palabras. Sin notas del editor ni artefactos del copiado. Las frases de menos de ocho palabras son todas preguntas (¿Qué sabemos que es verdad?, ¿Cómo sabemos que algo es verdad?, ¿Qué es un científico?, ¿Y qué es el método científico?). Citas sin comillas: It's the scientific method pasa a estilo indirecto (A veces la gente te dice que la ciencia es el método científico). La fórmula believe in science, which is an oxymoron, sigue el brief T10, pero con lo cual es un oxímoron en vez de que es un oxímoron, para que el oxímoron se refiera a la frase entera y no solo a la ciencia. Si el autor prefiere la forma literal del brief, hay que cambiarla también en la 105. Términos de la serie: falsables, comprobables (D3). Smartphone se traduce por móvil, que es como se dice en España, y así el TTS no lee el anglicismo. Junior high school chemistry experiment se traduce por el experimento de química que hicieron en el instituto. Steeped in the truth se traduce por anclado en la verdad. La frase larga sobre la productividad se parte en dos, igual que la del secuestro de la idea de ciencia, donde se repite el verbo (Otras veces la secuestra gente no tan bienintencionada) para que cada frase se entienda sola. Nombres a escuchar: Brett."
 }

@@ -21,5 +21,10 @@
   },
   "audio_editado_a_mano": false,
   "heredado": null,
+  "escucha": {
+    "escuchado": false,
+    "fecha": null,
+    "feedback": ""
+  },
   "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). Sin notas del editor ni artefactos del copiado. «Now, what are they transforming these raw materials into? Civilization.» se deja como pregunta con su ¿ y respuesta en la misma frase: «Ahora bien, ¿en qué transforman esas materias primas? En civilización.». Así «En civilización» no queda suelta. «Scientifically, philosophically and politically» pasa a «desde la ciencia, la filosofía y la política», para no encadenar tres adverbios en -mente. Revisión: la frase de la idea profunda se parte en dos para el oído. El único aviso del validador es «hablante no habitual Brett», que es informativo. Nombres que hay que escuchar en el TTS: Manhattan. Ningún bloque fuera de rango: ratio 1,03."
 }

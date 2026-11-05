@@ -29,5 +29,10 @@
   },
   "audio_editado_a_mano": false,
   "heredado": null,
+  "escucha": {
+    "escuchado": false,
+    "fecha": null,
+    "feedback": ""
+  },
   "notas": "Master dado por bueno sin escucharlo entero (4-nov, por falta de tiempo). Pendiente escuchar el 4:33: Whisper oyó «Creemos cosas juntos» donde el texto dice «Creamos»."
 }

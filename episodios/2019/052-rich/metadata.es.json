@@ -21,5 +21,10 @@
   },
   "audio_editado_a_mano": false,
   "heredado": null,
+  "escucha": {
+    "escuchado": false,
+    "fecha": null,
+    "feedback": ""
+  },
   "notas": "Recopilación: sus titulos_seccion coinciden con 49 títulos de episodio del catálogo (nº 1-50 salvo el 39), y 34 de esos son heredados. El texto se solapa literalmente con los episodios sueltos (21 de las 53 frases de 035 y 9 de las 49 de 036 son idénticas). Antes de sintetizar, decidir si se produce la recopilación o los sueltos: hacer las dos cosas duplica ~4,5 horas de audio y de limpieza en Audacity. Arreglo de avisos (3-nov), 40 a cero, sin tocar ids, hablantes ni bloques; lista completa de cambios en el commit. Vosotros y os: b12 «cooperar con vosotros / Uno de vosotros» -> «con cualquiera de los dos / Uno de los dos»; b57 «podéis hacer» -> «entre los dos se pueden hacer»; b121 «daros clase a cada uno de vosotros» -> «dar clase a cada oyente» y «ahí estáis todos vosotros escuchando» -> «ahí estás tú escuchando» (se pasa al oyente en singular); b209 «Os dejo» -> «Te dejo»; b243 «tengáis» -> «tengan»; b253 «no podéis comunicaros» -> «no se pueden comunicar», igual que en el 044. Vale: b41, b79 y b107 sin la interjección (b79 «vale» -> «sí», que traduce «yeah»). Chaval: b49 y b70 -> «chico», b273 «chavales» -> «chicos». Frases de una o dos palabras fundidas con la vecina: b08, b14, b28, b30, b43, b48, b49 (dos), b50 (dos), b62, b65, b151, b155, b166 («Es fardar» -> «y presumiendo»), b179, b180 (tres: «Es imposible» -> «Es imposible competir con ellos», «No» -> «No, nadie lo va a hacer» y «No, porque los artistas…»), b193, b195, b202, b207 y b233. Retoques de la revisión (4-nov): b79 «si se lo aprendo a otra persona» -> «si se lo enseño a otra persona». Antes de sintetizar: b101 lleva «Poor Charlie's Almanack» con apóstrofo recto (nombre propio, el normalizador lo deja pasar); escuchar cómo lo lee el TTS."
 }

@@ -21,5 +21,10 @@
   },
   "audio_editado_a_mano": false,
   "heredado": null,
+  "escucha": {
+    "escuchado": false,
+    "fecha": null,
+    "feedback": ""
+  },
   "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). Sin notas del editor. Artefacto del copiado en el inglés: falta el espacio tras la coma en «wrote,“I don’t want…»; no afecta al español. La cita de @illacertus va en estilo indirecto y sin arroba: un usuario de Twitter que se hace llamar ilacertus (una sola ele, para que el TTS no lea «iyacertus»). Se mantiene la repetición «empecé a leerlo, y empecé a leerlo, y empecé a leerlo», que es la gracia (brief T10). «We’re hoping to break it down for you» pasa a tú singular, esperamos poder desmenuzártelo (brief T11). Libros con su título español: El comienzo del infinito, La estructura de la realidad, Gödel, Escher, Bach. «20 years ago» va en letra, hace veinte años. Revisión: se unifica el tiempo verbal de las dos confesiones, se completa «las he leído y he intentado entenderlas», el bucle de lectura queda en una frase con su restricción «al menos en ciencia» bien colocada, y se reescribe la última frase de Naval. El único aviso del validador es «hablante no habitual Brett», que es informativo. El bloque 2, «Y la versión en audio.», es la única frase del bloque y va sola (brief T13). Nombres que hay que escuchar en el TTS: Gödel (si falla, Gódel), Escher, Bach, Hofstadter, ilacertus, Twitter. Ningún bloque fuera de rango: ratio total 1,02."
 }

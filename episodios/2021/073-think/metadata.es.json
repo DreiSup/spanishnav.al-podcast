@@ -21,5 +21,10 @@
   },
   "audio_editado_a_mano": false,
   "heredado": null,
+  "escucha": {
+    "escuchado": false,
+    "fecha": null,
+    "feedback": ""
+  },
   "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). 073 This Book Changed the Way I Think. Un bloque de Naval, 17 frases, ratio 1,07, frase más larga de 34 palabras. Sin notas del editor ni artefactos. Título y subtítulo: Este libro cambió mi forma de pensar (el del brief, apartado 7) y El libro de David Deutsch amplió mi repertorio de razonamiento. Los títulos de libro van sin comillas: El comienzo del infinito (Biblioteca Buridán, 2012). Los incisos con raya del inglés se integran con comas (la epistemología, que es la teoría del conocimiento; salvo quizá algunas obras de Nassim Taleb). Mental models va como modelos mentales, sin comillas. La lista larga de temas de Deutsch se parte en tres frases, cada una con su verbo (Trata, Trata también, Y aborda), para que se entiendan solas. Universal explanations se traduce por explicaciones universales y reach por alcance, como fija el brief. Makes a difference se traduce por te deja huella. Nombres a escuchar: David Deutsch, Nassim Taleb, Karl Popper."
 }

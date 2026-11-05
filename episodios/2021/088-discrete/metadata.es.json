@@ -21,5 +21,10 @@
   },
   "audio_editado_a_mano": false,
   "heredado": null,
+  "escucha": {
+    "escuchado": false,
+    "fecha": null,
+    "feedback": ""
+  },
   "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). 088 ¿El universo es discreto o continuo? Errata del inglés: «Democrates» se traduce Demócrito. La frase «It's particles all the way down, to paraphrase Feynman» (variante del dicho de las tortugas) va como recomienda el brief: Son partículas y más partículas hasta el fondo, por parafrasear a Feynman. «These Planck things» se traduce «estas magnitudes de Planck». «Differentiated» es derivar, en el sentido matemático. «Discreteness» se resuelve con la frase «esta idea de que la realidad es discreta». La pregunta final de Naval, con su «right?», va como «¿no?». «We just don't know.» se une a la frase anterior para que no quede suelta. En la revisión se dio sujeto a la frase de la relatividad general (Esta teoría dice que…) para que se entienda sola, y se cambió «una cosa mínima posible», que sonaba a calco. El validador da un aviso informativo sobre el hablante Brett: es el hablante correcto. Nombres para escuchar: Demócrito, Feynman, Planck (longitud, tiempo y masa de Planck). Ningún bloque fuera de rango (ratio 1,15)."
 }

@@ -109,7 +109,8 @@ Sale del catálogo y del `.txt` pegado. No lo edites a mano: si está mal, se co
 ### `metadata.es.json`
 
 Todo lo que autoramos: `titulo_es`, `estado`, el bloque `youtube` (título, descripción, tags,
-url) y el bloque `drive` con los file IDs. `audio_editado_a_mano: true` marca los episodios
+url), el bloque `drive` con los file IDs y el bloque `escucha` (`escuchado`, `fecha`, `feedback`: si el autor ha
+escuchado el master y qué dijo; por defecto `false`, ver `docs/sop-episodio.md`). `audio_editado_a_mano: true` marca los episodios
 que pasaron por Audacity: a partir de ese punto el audio **ya no es regenerable** desde la
 traducción, y el proyecto `.aup3` pasa a ser un artefacto que hay que conservar en Drive.
 

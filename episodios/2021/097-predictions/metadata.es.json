@@ -21,5 +21,10 @@
   },
   "audio_editado_a_mano": false,
   "heredado": null,
+  "escucha": {
+    "escuchado": false,
+    "fecha": null,
+    "feedback": ""
+  },
   "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). Sin notas del editor ni artefactos. Cifras en letra según el brief (T5): de veinte a treinta grados, otros diez grados, mil grados y unos cien grados. El símbolo de grados Celsius se dice solo grados. Beaker se traduce vaso de precipitados (el inglés empieza con un cazo y luego habla del vaso: se respeta). Precisely. Now, del principio de Brett queda Exacto. Ahora bien, en el mismo elemento que la frase siguiente. El inglés dice That escape velocity, the technical term is latent heat, requires energy, pero en rigor el calor latente es la energía y no la velocidad. Se ha traducido Esa velocidad de escape requiere energía, lo que en términos técnicos se llama calor latente, que es fiel y deja bien la física. We get a plateau se traduce La temperatura se estanca en unos cien grados, porque meseta no se entiende en voz alta. Términos fijos: inductivista, bayesiano, conjeturar, energía cinética, velocidad de escape, calor latente y extrapolar. El validador avisa de hablante no habitual Brett, que es propio de la serie. Ratio 1,06."
 }

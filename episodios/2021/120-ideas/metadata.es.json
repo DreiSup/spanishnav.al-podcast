@@ -21,5 +21,10 @@
   },
   "audio_editado_a_mano": false,
   "heredado": null,
+  "escucha": {
+    "escuchado": false,
+    "fecha": null,
+    "feedback": ""
+  },
   "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). No hay notas del editor ni artefactos del copiado. La anáfora «Call me when…» se traduce siempre «Avísame cuando», las seis veces, como pide el brief. Las dos primeras van en una sola frase, separadas por coma, porque la primera tiene menos de ocho palabras. Las citas de quienes alaban a China («look at their rocket», etc.) van en estilo indirecto: que mires su cohete, o su PIB, o la ciudad que han construido. GDP se traduce «PIB» y GDP per citizen, «renta por habitante» (brief, apartado 4). Kepler planets queda como «planetas de Kepler»: son los planetas que descubrió el telescopio Kepler. «Destroying the means of improvement, error correction and creativity» se traduce «destruyendo los medios para mejorar, para corregir errores y para crear», como fija el brief. Ossified states se traduce «estados anquilosados». Nation-states y city-states van sin guion: «estados nación» y «ciudades estado». En la última frase, «over» se resuelve explicitando la comparación: Avísame cuando ocurra eso y la sociedad autoritaria supere a una sociedad democrática, libre y capitalista. Nombres y siglas que hay que escuchar: PIB (debe leerse como palabra), Silicon Valley, Kepler y Rusia. Ratio global 1,01; frase más larga, 32 palabras."
 }

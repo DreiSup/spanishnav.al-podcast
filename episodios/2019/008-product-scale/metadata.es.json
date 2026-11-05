@@ -29,5 +29,10 @@
   },
   "audio_editado_a_mano": false,
   "heredado": null,
+  "escucha": {
+    "escuchado": false,
+    "fecha": null,
+    "feedback": ""
+  },
   "notas": "En nav.al, Naval atribuye la cita sobre la tecnología a Alan Kay y la transcripción corrige: [correction: Danny Hillis]. El doblaje dice directamente Danny Hillis."
 }
