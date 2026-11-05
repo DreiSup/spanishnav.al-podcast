@@ -128,9 +128,9 @@
 | 16 | [016-love-read](episodios/2019/016-love-read) | Lee lo que te encante hasta que te encante leer | 🔵 generando TTS | — | — | — |
 | 35 | [035-finally-wealthy](episodios/2019/035-finally-wealthy) | Una mente en calma, un cuerpo en forma, una casa llena de amor | 🟠 en revisión | — | — | — |
 | 36 | [036-rich-quick](episodios/2019/036-rich-quick) | No existen los esquemas para hacerse rico rápido | 🟠 en revisión | — | — | — |
-| 37 | [037-productize-yourself](episodios/2019/037-productize-yourself) | Productízate a ti mismo | 🟠 en revisión | — | — | — |
-| 38 | [038-accountability](episodios/2019/038-accountability) | La responsabilidad significa dejar que la gente te critique | 🟠 en revisión | — | — | — |
-| 39 | [039-working-ourselves](episodios/2019/039-working-ourselves) | Todos deberíamos trabajar para nosotros mismos | 🟠 en revisión | — | — | — |
+| 37 | [037-productize-yourself](episodios/2019/037-productize-yourself) | Productízate a ti mismo | 🔵 generando TTS | — | — | — |
+| 38 | [038-accountability](episodios/2019/038-accountability) | La responsabilidad significa dejar que la gente te critique | 🔵 generando TTS | — | — | — |
+| 39 | [039-working-ourselves](episodios/2019/039-working-ourselves) | Todos deberíamos trabajar para nosotros mismos | 🔵 generando TTS | — | — | — |
 | 40 | [040-ethics](episodios/2019/040-ethics) | Ser ético es ser codicioso a largo plazo | 🟠 en revisión | — | — | — |
 | 41 | [041-envy](episodios/2019/041-envy) | La envidia puede ser útil, o puede comerte vivo | 🟠 en revisión | — | — | — |
 | 42 | [042-principal-agent](episodios/2019/042-principal-agent) | El problema del principal y el agente: actúa como un dueño | 🟠 en revisión | — | — | — |
