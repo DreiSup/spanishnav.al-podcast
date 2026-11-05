@@ -1,0 +1,116 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2019/028-work-hard",
+  "numero": 28,
+  "fecha": "2019-05-06",
+  "titulo": "Trabaja todo lo duro que puedas",
+  "subtitulo": "Aunque en qué trabajas y con quién trabajas importan más",
+  "fuente_url": "https://nav.al/work-hard",
+  "titulos_seccion": [
+    "En qué trabajas y con quién trabajas importa más",
+    "Por muy alto que tengas el listón, súbelo",
+    "Nadie trabaja de verdad ochenta horas a la semana",
+    "La inspiración es perecedera",
+    "Impaciencia con las acciones, paciencia con los resultados"
+  ],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Hablemos del trabajo duro, porque hay una batalla que se repite mucho en Twitter.",
+        "¿Hay que trabajar duro o no hay que trabajar duro?",
+        "David Heinemeier Hansson dice que es como tratar a la gente como esclavos.",
+        "Keith Rabois dice que no, que todos los grandes fundadores se dejaron la piel trabajando.",
+        "No se están entendiendo, porque para empezar están hablando de dos cosas distintas.",
+        "David habla de empleados y de un negocio para vivir tranquilo, y si estás en eso, tu prioridad número uno no es hacerte rico.",
+        "Tienes un trabajo, una familia y también tu vida.",
+        "Keith habla de los Juegos Olímpicos de las startups.",
+        "Habla de la persona que va a por la medalla de oro y que intenta construir una empresa cotizada de muchos miles de millones de dólares.",
+        "Esa persona tiene que acertar en todo, tener un gran criterio, elegir la cosa correcta en la que trabajar y reclutar al equipo correcto.",
+        "Tiene que trabajar como una bestia, porque está metida en un esprint competitivo.",
+        "Si hacerte rico es tu objetivo, vas a tener que trabajar todo lo duro que puedas.",
+        "Pero el trabajo duro no sustituye a con quién trabajas y a en qué trabajas, que son las cosas más importantes."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Marc Andreessen ideó el concepto del encaje entre producto y mercado.",
+        "Yo lo ampliaría al encaje entre producto, mercado y fundador, teniendo en cuenta lo bien que un fundador encaja personalmente con el negocio.",
+        "La combinación de las tres cosas debería ser tu objetivo absoluto.",
+        "Puedes ahorrar mucho tiempo eligiendo el área correcta en la que trabajar.",
+        "Elegir a las personas correctas con las que trabajar es la siguiente pieza más importante.",
+        "En tercer lugar viene lo duro que trabajas, y son como las tres patas de un taburete.",
+        "Si escatimas en cualquiera de ellas, el taburete entero se cae, y no puedes elegir fácilmente una por encima de las otras.",
+        "Cuando estás construyendo un negocio, o una carrera, lo primero es averiguar qué deberías estar haciendo y dónde está surgiendo un mercado.",
+        "Y qué producto puedes construir que te haga ilusión y en el que tengas conocimiento específico."
+      ]
+    },
+    {
+      "id": "b03-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Segundo, rodéate de la mejor gente posible, y si hay alguien mejor ahí fuera con quien trabajar, ve a trabajar con esa persona.",
+        "Cuando la gente me pide consejo sobre qué startup elegir para entrar, les digo que elijan la que vaya a darles la mejor red de antiguos compañeros en el futuro.",
+        "Mira a la mafia de PayPal, trabajaron con un puñado de genios, así que se hicieron ricos todos.",
+        "Elige a la gente con la mayor inteligencia, energía e integridad que puedas encontrar.",
+        "Y por muy alto que tengas el listón, súbelo.",
+        "Por último, una vez que has elegido lo correcto en lo que trabajar y a la gente correcta, trabaja todo lo duro que puedas."
+      ]
+    },
+    {
+      "id": "b04-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Aquí es donde la mitología se desmadra un poco.",
+        "La gente que dice que trabaja semanas de ochenta horas, o incluso de ciento veinte horas, muchas veces solo está presumiendo para ganar estatus.",
+        "Nadie trabaja de verdad de ochenta a ciento veinte horas a la semana con alto rendimiento y claridad mental.",
+        "Tu cerebro se rompe y no vas a tener buenas ideas.",
+        "La forma en que la gente tiende a trabajar de manera más eficaz, sobre todo en el trabajo del conocimiento, es esprintar todo lo que puede mientras se siente inspirada.",
+        "Luego descansa y se toma descansos largos, más como un león cazando que como un maratoniano corriendo.",
+        "Esprintas y luego descansas, reevalúas y lo vuelves a intentar, y acabas construyendo un maratón de esprints."
+      ]
+    },
+    {
+      "id": "b05-naval",
+      "speaker": "Naval",
+      "frases": [
+        "La inspiración es perecedera, así que, cuando tengas inspiración, actúa en ese mismo momento.",
+        "Si me siento inspirado para escribir una entrada de blog o publicar un hilo de tuits, debería hacerlo enseguida.",
+        "Si no, no va a salir nunca, porque no voy a volver a ello.",
+        "La inspiración es algo bello y poderoso, y cuando la tengas, agárrala."
+      ]
+    },
+    {
+      "id": "b06-naval",
+      "speaker": "Naval",
+      "frases": [
+        "La gente habla de la impaciencia. ¿Cuándo sabes que hay que ser impaciente?",
+        "¿Cuándo sabes que hay que ser paciente?",
+        "Mi tuit ocurrente sobre esto fue impaciencia con las acciones, paciencia con los resultados.",
+        "Creo que es una buena filosofía para la vida.",
+        "Cualquier cosa que tengas que hacer, hazla ya. ¿Para qué esperar?",
+        "No te estás haciendo más joven, y no quieres pasarte la vida esperando en una cola.",
+        "No quieres pasártela viajando de aquí para allá.",
+        "No quieres pasártela haciendo cosas que no forman parte de tu misión.",
+        "Cuando hagas estas cosas, hazlas lo más rápido que puedas y con toda tu atención, para hacerlas bien.",
+        "Y luego ten paciencia con los resultados, porque estás tratando con sistemas complejos y con mucha gente.",
+        "Los mercados tardan mucho tiempo en adoptar productos.",
+        "La gente tarda tiempo en sentirse cómoda trabajando junta.",
+        "Hace falta tiempo para que surjan grandes productos, a medida que los vas puliendo.",
+        "Impaciencia con las acciones, paciencia con los resultados.",
+        "Si descubro un problema en uno de mis negocios, no duermo hasta que la solución está al menos en marcha.",
+        "Si estoy en el consejo de una empresa, llamo al consejero delegado.",
+        "Si soy yo quien dirige la empresa, llamo a la gente que me reporta.",
+        "Si el responsable soy yo, me pongo con ello ahí mismo y lo resuelvo.",
+        "Si no resuelvo un problema en el momento en que ocurre, o si no me muevo hacia resolverlo, no tengo paz, no tengo descanso.",
+        "No tengo felicidad hasta que el problema está resuelto.",
+        "Así que lo resuelvo lo más rápido posible.",
+        "Literalmente no duermo hasta que está resuelto, y quizá eso sea solo una característica personal mía, pero me ha funcionado bien en los negocios."
+      ]
+    }
+  ]
+}

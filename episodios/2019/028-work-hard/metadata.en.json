@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 28,
+  "anio": 2019,
+  "slug": "work-hard",
+  "titulo": "Work As Hard As You Can",
+  "subtitulo": "Even though what you work on and who you work with are more important",
+  "fecha_publicacion": "2019-05-06",
+  "fuente_url": "https://nav.al/work-hard",
+  "orden_archivo": 32,
+  "en_feed": true,
+  "participantes": [
+    "Naval"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-05"
+}

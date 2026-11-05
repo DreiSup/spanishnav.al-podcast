@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 28,
+  "anio": 2019,
+  "slug": "work-hard",
+  "titulo_es": "Trabaja todo lo duro que puedas",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Trabaja todo lo duro que puedas",
+    "descripcion": "",
+    "tags": [],
+    "url": "",
+    "url_original": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "publicacion": {
+    "fecha": "",
+    "audio_url": "",
+    "audio_bytes": 0,
+    "duracion_s": 0,
+    "feed_guid": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "escucha": {
+    "escuchado": false,
+    "resultado": null,
+    "fecha": null,
+    "feedback": ""
+  },
+  "notas": "Inglés sacado del Google Doc «2019 all podcasts» de Drive; cuadra palabra a palabra con el documento; solo habla Naval. El párrafo suelto «Impatience with actions, patience with results.» de b06 no es una cita destacada: el 052 b168 lo tiene dentro de la intervención de Naval, así que se locuta. Traducción: parte del español del 052 (b163 a b168, mismo inglés letra a letra), revisada frase a frase con los términos confirmados por el autor el 5-nov. Cambios sobre el 052: el 052 b163 decía «es como si estuvierais explotando a la gente», que es vosotros (HAY QUE CORREGIRLO TAMBIÉN EN EL 052 antes de sintetizarlo); lo que dicen David Heinemeier Hansson y Keith Rabois, el consejo sobre qué startup elegir y las preguntas del fundador, en estilo indirecto; fundidas 25 frases cortas (episodio de frases muy cortas en inglés); «están hablando el uno por encima del otro» (talking past each other) pasa a «no se están entendiendo»; «negocio de estilo de vida» a «negocio para vivir tranquilo»; «las olimpiadas de las startups» a «los Juegos Olímpicos de las startups», como en el 069; «la mitología se pone un poco loca» a «se desmadra un poco»; «señalizando estatus» a «presumiendo para ganar estatus»; «tuit ingenioso» a «tuit ocurrente». Escuchar en el TTS: Twitter, David Heinemeier Hansson, Keith Rabois, Marc Andreessen, PayPal, startups, esprintar."
+}

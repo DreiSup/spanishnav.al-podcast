@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**127** episodios · **1** publicados · **10** escuchados por el autor (**1** para revisar) · **0** sin empezar
+**128** episodios · **1** publicados · **10** escuchados por el autor (**1** para revisar) · **0** sin empezar
 
 ## 2023
 
@@ -137,6 +137,7 @@
 | 25 | [025-laborer-tech](episodios/2019/025-laborer-tech) | Ejemplo: del obrero al emprendedor | 🟠 en revisión | — | — | — |
 | 26 | [026-judgment](episodios/2019/026-judgment) | El criterio es la habilidad decisiva | 🟠 en revisión | — | — | — |
 | 27 | [027-hourly-rate](episodios/2019/027-hourly-rate) | Fija una tarifa por hora ambiciosa | 🟠 en revisión | — | — | — |
+| 28 | [028-work-hard](episodios/2019/028-work-hard) | Trabaja todo lo duro que puedas | 🟠 en revisión | — | — | — |
 | 35 | [035-finally-wealthy](episodios/2019/035-finally-wealthy) | Una mente en calma, un cuerpo en forma, una casa llena de amor | 🟠 en revisión | — | — | — |
 | 36 | [036-rich-quick](episodios/2019/036-rich-quick) | No existen los esquemas para hacerse rico rápido | 🟠 en revisión | — | — | — |
 | 37 | [037-productize-yourself](episodios/2019/037-productize-yourself) | Productízate a ti mismo | 🔵 generando TTS | — | — | — |
