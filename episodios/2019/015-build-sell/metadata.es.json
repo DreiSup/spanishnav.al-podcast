@@ -5,7 +5,7 @@
   "anio": 2019,
   "slug": "build-sell",
   "titulo_es": "Aprende a vender, aprende a construir",
-  "estado": "revision",
+  "estado": "montaje",
   "youtube": {
     "titulo": "Aprende a vender, aprende a construir",
     "descripcion": "",
@@ -30,9 +30,9 @@
   "audio_editado_a_mano": false,
   "heredado": null,
   "escucha": {
-    "escuchado": false,
-    "fecha": null,
-    "feedback": ""
+    "escuchado": true,
+    "fecha": "2026-11-05",
+    "feedback": "Escuchado entero por el autor: perfecto, sin arreglos"
   },
   "notas": ""
 }

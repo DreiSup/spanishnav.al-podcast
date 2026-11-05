@@ -5,7 +5,7 @@
   "anio": 2019,
   "slug": "luck-destiny",
   "titulo_es": "Haz de la suerte tu destino",
-  "estado": "revision",
+  "estado": "montaje",
   "youtube": {
     "titulo": "Haz de la suerte tu destino",
     "descripcion": "",
@@ -30,9 +30,9 @@
   "audio_editado_a_mano": false,
   "heredado": null,
   "escucha": {
-    "escuchado": false,
-    "fecha": null,
-    "feedback": ""
+    "escuchado": true,
+    "fecha": "2026-11-05",
+    "feedback": "Escuchado entero por el autor: perfecto, sin arreglos"
   },
   "notas": ""
 }
