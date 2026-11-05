@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 21,
+  "anio": 2019,
+  "slug": "labor-capital",
+  "titulo_es": "El trabajo y el capital son apalancamiento antiguo",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "El trabajo y el capital son apalancamiento antiguo",
+    "descripcion": "",
+    "tags": [],
+    "url": "",
+    "url_original": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "publicacion": {
+    "fecha": "",
+    "audio_url": "",
+    "audio_bytes": 0,
+    "duracion_s": 0,
+    "feed_guid": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "escucha": {
+    "escuchado": false,
+    "resultado": null,
+    "fecha": null,
+    "feedback": ""
+  },
+  "notas": "Inglés sacado del Google Doc «2019 all podcasts» de Drive; cuadra palabra a palabra con el documento. Traducción: parte del español del 052 (b115 a b120, mismo inglés letra a letra), revisada frase a frase con los términos confirmados por el autor el 5-nov. Cambios sobre el 052: la cita de Arquímedes en estilo indirecto (el 052 dice «dadme una palanca», que es vosotros y además va entre dos puntos), con «palanca», que es la única excepción a apalancamiento (GLOSARIO); el tuit de las fortunas en estilo indirecto; «coste marginal de replicación» se mantiene (GLOSARIO); fundidas 13 frases cortas (las de Arquímedes, la de lo quirúrgico y analítico, la de que escala muy bien); partidas las de 37 y 36 palabras; calcos fuera: «crítico» pasa a «crucial», «farragoso» a «complicado», «estamos evolucionados» y «cableado» a «la evolución nos ha preparado» y «grabado», «un tipo tipo Warren Buffett» a «alguien como Warren Buffett», «dominio» a «campo»; la pregunta de la gente ingenua en estilo indirecto. Escuchar en el TTS: Arquímedes, das kapital y das labor (broma en alemán de Naval), Warren Buffett, Twitter."
+}

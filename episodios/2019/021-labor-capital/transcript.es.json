@@ -1,0 +1,103 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2019/021-labor-capital",
+  "numero": 21,
+  "fecha": "2019-04-15",
+  "titulo": "El trabajo y el capital son apalancamiento antiguo",
+  "subtitulo": "Todo el mundo se pelea por el trabajo y el capital",
+  "fuente_url": "https://nav.al/labor-capital",
+  "titulos_seccion": [
+    "La sociedad sobrevalora el apalancamiento del trabajo",
+    "Quieres la mínima cantidad de trabajo que te permita usar las demás formas de apalancamiento",
+    "El capital ha sido la forma dominante de apalancamiento en el último siglo",
+    "Necesitas conocimiento específico y responsabilidad para conseguir capital"
+  ],
+  "contenido": [
+    {
+      "id": "b01-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "¿Por qué no hablamos un poco del apalancamiento?",
+        "El primer tuit del hilo era una cita famosa de Arquímedes, que decía que si le daban una palanca lo bastante larga y un punto de apoyo, movería la Tierra.",
+        "El siguiente tuit decía que las fortunas requieren apalancamiento, y que el apalancamiento empresarial viene del capital, de las personas y de productos sin coste marginal de replicación."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "El apalancamiento es crucial, y la razón por la que metí ahí la cita de Arquímedes es que normalmente no me gusta poner citas de otra gente en mi Twitter.",
+        "Eso no aporta ningún valor, porque puedes ir a buscar tú mismo las citas de esa gente.",
+        "Pero esta cita tenía que ponerla porque es fundamental de verdad.",
+        "La leí cuando era muy, muy joven y me causó una impresión enorme.",
+        "Todos sabemos lo que es el apalancamiento cuando usamos un balancín o una palanca, y entendemos cómo funciona físicamente.",
+        "Pero creo que lo que nuestro cerebro no está hecho para comprender es cuánto apalancamiento es posible en la sociedad moderna y cuáles son las formas más nuevas de apalancamiento."
+      ]
+    },
+    {
+      "id": "b03-naval",
+      "speaker": "Naval",
+      "frases": [
+        "La forma más antigua de apalancamiento es el trabajo, que es gente trabajando para ti.",
+        "En vez de levantar rocas yo, puedo tener a diez personas levantando rocas.",
+        "Y entonces, solo con mi indicación de dónde debe ir la roca, se mueven muchas más rocas de las que podría mover yo solo.",
+        "Todo el mundo entiende esto porque la evolución nos ha preparado para entender el apalancamiento del trabajo, así que lo que pasa es que la sociedad sobrevalora el trabajo como forma de apalancamiento.",
+        "Por eso tus padres se quedan impresionados cuando te ascienden y tienes mucha gente trabajando por debajo de ti.",
+        "Por eso mucha gente ingenua, cuando le hablas de tu empresa, te pregunta cuánta gente trabaja allí, y lo usa para medir tu credibilidad.",
+        "Están intentando medir cuánto apalancamiento e impacto tienes en realidad.",
+        "O cuando alguien arranca un movimiento, dicen cuánta gente tienen o cómo de grande es el ejército.",
+        "Damos por hecho automáticamente que más gente es mejor."
+      ]
+    },
+    {
+      "id": "b04-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Yo diría que esta es la peor forma de apalancamiento que podrías usar.",
+        "Gestionar a otras personas es increíblemente complicado y requiere unas dotes de liderazgo tremendas.",
+        "Estás siempre a un paso de un motín, o de que te devore o te despedace la turba.",
+        "Se compite muchísimo por él, y civilizaciones enteras se han destruido por esta pelea.",
+        "Por ejemplo, el comunismo, el marxismo, gira todo en torno a la batalla entre el capital y el trabajo, das kapital y das labor, y es una especie de trampa.",
+        "Te conviene mantenerte al margen del apalancamiento basado en el trabajo.",
+        "Quieres la cantidad mínima de gente trabajando contigo que te permita usar las otras formas de apalancamiento, que yo diría que son mucho más interesantes."
+      ]
+    },
+    {
+      "id": "b05-naval",
+      "speaker": "Naval",
+      "frases": [
+        "El segundo tipo de apalancamiento es el capital.",
+        "Este lo llevamos un poco menos grabado, porque las grandes cantidades de dinero moviéndose, ahorrándose e invirtiéndose en mercados monetarios son inventos humanos bastante recientes.",
+        "Son de los últimos cientos o pocos miles de años, no han evolucionado con nosotros durante cientos de miles de años.",
+        "Los entendemos un poco peor, probablemente requieren más inteligencia para usarlos bien y las maneras en que los usamos no dejan de cambiar.",
+        "Las habilidades de gestión de hace cien años quizá sigan aplicándose hoy, pero las habilidades para invertir en bolsa de hace cien años probablemente no se aplican igual hoy.",
+        "El capital es una forma de apalancamiento más delicada de usar, y es más moderna.",
+        "Es la que la gente ha usado para hacerse fabulosamente rica en el último siglo.",
+        "Probablemente ha sido la forma dominante de apalancamiento del último siglo.",
+        "Puedes verlo mirando quiénes son los más ricos.",
+        "Son banqueros, políticos de países corruptos que imprimen dinero, en esencia gente que mueve grandes cantidades de dinero de un lado a otro.",
+        "Si miras la cúpula de las empresas muy grandes, fuera de las tecnológicas, en muchísimas empresas grandes y antiguas el puesto de consejero delegado es en realidad un puesto financiero.",
+        "En realidad son gestores de activos financieros, y a veces un gestor de activos le pone una cara amable, y te sale alguien como Warren Buffett.",
+        "Pero en el fondo creo que a todos nos disgusta el capital como forma de apalancamiento, porque parece injusto.",
+        "Es esta cosa invisible que se puede acumular y pasar de generación en generación.",
+        "Y de repente parece que hace que haya gente con cantidades gigantescas de dinero, sin nadie alrededor que necesariamente lo comparta.",
+        "Dicho esto, el capital es una forma de apalancamiento potente, muy quirúrgica y muy analítica, que se puede convertir en trabajo o en otras cosas.",
+        "Si eres un inversor brillante, te dan mil millones de dólares y sacas un treinta por ciento de rentabilidad, mientras que cualquier otro solo saca un veinte, te vas a llevar todo el dinero.",
+        "Y te van a pagar muy bien por ello, porque escala muy, muy bien.",
+        "Si se te da bien gestionar capital, puedes gestionar cada vez más capital mucho más fácilmente de lo que puedes gestionar cada vez más gente."
+      ]
+    },
+    {
+      "id": "b06-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Es una buena forma de apalancamiento, pero la parte difícil con el capital es cómo lo consigues.",
+        "Por eso he hablado antes del conocimiento específico y de la responsabilidad.",
+        "Si tienes conocimiento específico en un campo, asumes la responsabilidad y tienes buen nombre en ese campo, la gente te va a dar capital.",
+        "Y ese capital es una forma de apalancamiento que puedes usar para conseguir más capital.",
+        "El capital también se entiende bastante bien, y creo que muchas de las críticas al capitalismo vienen de la acumulación de capital."
+      ]
+    }
+  ]
+}

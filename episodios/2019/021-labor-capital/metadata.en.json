@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 21,
+  "anio": 2019,
+  "slug": "labor-capital",
+  "titulo": "Labor and Capital Are Old Leverage",
+  "subtitulo": "Everyone is fighting over labor and capital",
+  "fecha_publicacion": "2019-04-15",
+  "fuente_url": "https://nav.al/labor-capital",
+  "orden_archivo": 25,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-05"
+}
