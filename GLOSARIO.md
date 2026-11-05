@@ -32,12 +32,17 @@ la decisión aquí para no volver a dudar en el episodio siguiente.
 
 | Inglés | Español | Nota |
 |---|---|---|
-| leverage | apalancamiento | En sentido financiero. Si es «influencia/palanca», tradúcelo así. |
-| equity | participación / equity | «Equity» cuando se refiere al accionariado de una startup. |
-| compounding | interés compuesto / acumulación | Según si el contexto es financiero o de hábitos. |
+| leverage | apalancamiento | **Decisión del autor (5-nov):** siempre «apalancamiento» para el concepto de Naval (trabajo, capital, código y medios), aunque no sea financiero: él mismo dice que habla de herramientas (052 b37). «Palanca» solo en la cita de Arquímedes. En una negociación, *leverage* = posición de fuerza (045: «poca posición de fuerza», no «mal apalancamiento negociador»). |
+| equity | equity | **Decisión del autor (5-nov):** *equity* en inglés, siempre. Nunca «capital», que en Naval es uno de los tipos de apalancamiento y el oyente los confundiría (052 b33, b104, b143 y 051 b31 lo traducían así). *Equity holders* = los que tienen equity; *common equity* = acciones ordinarias. Escuchar cómo lo lee el TTS. |
+| compounding | interés compuesto | **Decisión del autor (5-nov):** se ancla siempre al interés compuesto, que es la imagen de Naval («Relationships offer a good example of compound interest»). «Componer» no se entiende así en español. *Compounding relationships* = relaciones con interés compuesto; *compounds the effect* = el efecto se multiplica; *the benefits of compounding* = los beneficios del interés compuesto. |
 | specific knowledge | conocimiento específico | Término fijo de Naval, no lo varíes. |
-| accountability | asumir la responsabilidad | «Rendición de cuentas» suena burocrático. |
+| accountability | responsabilidad / asumir la responsabilidad | **Decisión del autor (5-nov):** «responsabilidad» como sustantivo y «asumir la responsabilidad» para *take on accountability*. Si en la misma frase sale *responsibility*, esa va como «cargos de responsabilidad» o «responsabilidades» (052 b104). «Rendición de cuentas» suena burocrático. |
 | judgment | criterio | Mejor que «juicio». |
+| inputs / outputs | inputs / outputs | **Decisión del autor (5-nov):** en inglés. Ni «entradas y salidas» ni «lo que aportas y lo que obtienes». |
+| timely / timeless (specific knowledge, judgment) | del momento / atemporal | **Decisión del autor (5-nov).** «Oportuno» se oye como «conveniente» (052 b278). |
+| skin in the game | jugarse la piel | **Decisión del autor (5-nov).** Es el título español del libro de Taleb (ver Siglas y títulos). *Reputational skin in the game* = jugarse la piel con tu reputación. |
+| a smart and hardworking crook | un sinvergüenza listo y trabajador | **Decisión del autor (5-nov).** La misma frase sale en 011, 052 b60 y 069 b44: igual en los tres. |
+| zero marginal cost of replication / of reproduction | coste marginal de replicación cero | **Decisión del autor (5-nov):** «replicación» siempre, también cuando Naval dice *reproduction*. |
 | startup | startup | Se deja en inglés. |
 | trade-off | compensación / contrapartida | |
 | happiness | felicidad | |
@@ -64,7 +69,9 @@ texto en español y por qué.
 | The Eighth Day of Creation | El octavo día de la creación | Traducción literal (016) |
 | Six Easy Pieces | Seis piezas fáciles | Título publicado en español (016) |
 | The Intelligent Investor | El inversor inteligente | Título publicado en español (014) |
-| tit-for-tat | el toma y daca | Término de teoría de juegos; «ojo por ojo» connota venganza (010) |
+| tit-for-tat | el toma y daca | Término de teoría de juegos; «ojo por ojo» connota venganza (010). El 052 conserva «ojo por ojo» (b52, b101) por decisión del autor (5-nov) |
+| Skin in the Game (Taleb) | Jugarse la piel | Título publicado en España (Paidós, 2019). Decisión del autor (5-nov) |
+| net present value (NPV) | valor actual neto | Forma que se enseña en España. Decisión del autor (5-nov). La sigla no se dice |
 | S-1 (folleto de la SEC para salir a bolsa) | folletos de salida a bolsa | La sigla con guion y cifra la vocaliza el TTS; se resuelve en la frase (060) |
 | Lao Tzu | Lao Tse | Forma asentada en español, como Sócrates o Confucio (065) |
 | IQ test | test de inteligencia | «IQ» y «CI» se deletrean mal; se resuelve en la frase (065) |
@@ -106,28 +113,40 @@ y fuentes en docs/briefs/kapil.md, apartado 8.
 | the English language | el lenguaje en inglés | 068, b32: los que dan prescripciones se han apropiado del lenguaje en inglés. |
 | Siddha Performance / Kapil / Atmamun | sin traducir | Nombres propios; escuchar el acento de Kapil y cómo lee Siddha el TTS antes de sintetizar. |
 
-### Naval y Nivi (046–050, 069, 077)
+### Naval y Nivi (001–052, 069, 077) — revisado con el autor el 5-nov
+
+El autor repasó la tabla el 5-nov. Lo marcado «confirmado» tiene su visto bueno; las decisiones nuevas de ese día
+(leverage, equity, compounding, accountability, inputs y outputs, timely, skin in the game, crook, replicación, valor
+actual neto) están en la tabla general de Términos. Las filas sin marca siguen como las propuso el especialista.
+
+**052 frente a los cortos (decisión del autor, 5-nov):** en la práctica no manda ninguno. Los cortos se producen y
+publican primero; el 052 se produce después con su propia traducción. Si chocan, gana el largo. Las correcciones del
+editor que el 052 locuta («Corrección: …», b43 y b58) se quedan en el 052; en los cortos rigen las reglas del 008 y
+el 010.
 
 | Original | En el texto | Nota |
 |---|---|---|
-| compounding relationships / compounds (efecto) | relaciones que se componen / hace que el efecto se componga | 052 usa la forma pronominal en el cuerpo y «relaciones que componen» en los títulos; unificar con «se componen» |
-| zero marginal cost of replication | coste marginal de replicación cero | 051 b30 y parte del 052 dicen «reproducción»; fijar una sola forma |
+| compounding relationships / compounds (efecto) | relaciones con interés compuesto / el efecto se multiplica | Decisión del autor (5-nov), ver compounding en Términos. Sustituye a «relaciones que (se) componen» |
+| zero marginal cost of replication | coste marginal de replicación cero | Decisión del autor (5-nov): «replicación» siempre |
 | consumer surplus / producer surplus | excedente del consumidor / excedente del productor | 052, 048 |
 | price discrimination | discriminación de precios | 052, 047 |
-| net present value (NPV) | valor presente neto | 052; alternativa española «valor actual neto». La sigla no se dice |
+| net present value (NPV) | valor actual neto | Decisión del autor (5-nov), sustituye a «valor presente neto» (049, 052). La sigla no se dice |
 | externality / mispriced externality | externalidad / externalidad mal valorada | 052, 050 |
-| deal / dealflow / pass on | operación / flujo de operaciones / pasar de | 051, 069 |
+| deal / dealflow / pass on | operación / flujo de operaciones / pasar de | 051, 069. **Dealflow pendiente del autor (5-nov):** preguntó por «flujo de tratos»; opciones planteadas: flujo de operaciones, deal flow en inglés, o flujo de tratos cambiando también deal por trato |
 | non-consensus right | acertar contra el consenso | 051, 069 |
-| VC / venture capital | capital riesgo, fondo o inversor de capital riesgo | La sigla no se escribe |
+| VC / venture capital | capital riesgo, fondo o inversor de capital riesgo | Confirmado (5-nov). La sigla no se escribe |
 | carry | participación en beneficios | 051 |
 | due diligence | diligencia debida | 069 |
 | FOMO | el miedo a quedarse fuera | Sigla resuelta en la frase (069) |
 | pivot | pivotar (verbo), giro (sustantivo) | 069 |
-| first-time founder / repeat founder | fundador primerizo / fundador que repite | 069 |
+| first-time founder / repeat founder | fundador primerizo / fundador que repite | Confirmado (5-nov). 069 |
+| coachable / coachability | que se deja aconsejar / dejarse aconsejar | Confirmado (5-nov). 069 |
+| access (to deals) | acceso | Confirmado (5-nov). 051, 069 |
 | billion / trillion | mil millones / billón | Trampa recurrente |
 | SaaS | software como servicio | Siglas y títulos: resuelta en la frase |
 | Dunning-Kruger | Dunning Kruger | Siglas y títulos: sin guion para el TTS |
-| Glengarry Glen Ross | la película Éxito a cualquier precio | Siglas y títulos: título en España (1992); «la película» delante para que se entienda como título |
+| Glengarry Glen Ross | la película Éxito a cualquier precio | Confirmado (5-nov). Título en España (1992); «la película» delante para que se entienda como título |
+| How to Angel Invest, Part 1 / Part 2 | Cómo invertir como ángel, parte uno / parte dos | Confirmado (5-nov). Títulos del 051 y el 069 |
 | Warren Buffett | Warren Buffett | Corregir la errata «Buffet» de 051 b35 |
 
 ### Brett Hall y David Deutsch (072–134)
