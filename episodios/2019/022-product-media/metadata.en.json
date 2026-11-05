@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 22,
+  "anio": 2019,
+  "slug": "product-media",
+  "titulo": "Product and Media are New Leverage",
+  "subtitulo": "Create software and media that work for you while you sleep",
+  "fecha_publicacion": "2019-04-17",
+  "fuente_url": "https://nav.al/product-media",
+  "orden_archivo": 26,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-05"
+}

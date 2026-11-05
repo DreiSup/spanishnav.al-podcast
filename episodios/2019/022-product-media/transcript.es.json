@@ -1,0 +1,114 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2019/022-product-media",
+  "numero": 22,
+  "fecha": "2019-04-17",
+  "titulo": "El producto y los medios son apalancamiento nuevo",
+  "subtitulo": "Crea software y medios que trabajen para ti mientras duermes",
+  "fuente_url": "https://nav.al/product-media",
+  "titulos_seccion": [
+    "El apalancamiento de producto es donde se hacen las nuevas fortunas",
+    "Combinar las tres formas de apalancamiento es una combinación mágica",
+    "El apalancamiento de producto y de medios no necesita permiso",
+    "El ejército de robots ya está aquí, el código sirve para decirle qué hacer"
+  ],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "La forma de apalancamiento más interesante y más importante es esta idea de productos que no tienen coste marginal de replicación.",
+        "Esta es la nueva forma de apalancamiento, que solo se inventó en los últimos siglos y empezó con la imprenta.",
+        "Se aceleró con los medios de difusión, y ahora ha explotado de verdad con Internet y con la programación.",
+        "Ahora puedes multiplicar tus esfuerzos sin tener que involucrar a otros seres humanos y sin necesitar dinero de otros seres humanos.",
+        "Este podcast es una forma de apalancamiento, porque hace mucho tiempo habría tenido que sentarme en un aula magna y dar clase a cada oyente en persona.",
+        "Habría llegado quizá a unos cientos de personas y ahí se habría acabado la cosa.",
+        "Luego, hace cuarenta años, hace treinta años, habría tenido que tener suerte para salir en televisión, que es el apalancamiento de otro.",
+        "Habrían distorsionado el mensaje, le habrían quitado la parte económica o me habrían cobrado por ello.",
+        "Habrían enturbiado el mensaje, y aun así habría tenido suerte de conseguir esa forma de apalancamiento.",
+        "Hoy, gracias a Internet, puedo comprar un micrófono barato, conectarlo a un portátil o a un iPad, y ahí estás tú escuchando."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Esta forma de apalancamiento, la más nueva de todas, es donde se hacen todas las fortunas nuevas, todos los nuevos multimillonarios.",
+        "En la última generación, las fortunas se hacían con capital, eran los Warren Buffett del mundo.",
+        "Pero las fortunas de la nueva generación se hacen todas a través del código o de los medios.",
+        "Joe Rogan gana entre cincuenta y cien millones de dólares al año con su podcast.",
+        "Tienes a alguien como PewDiePie, que no sé cuánto dinero está ganando, pero es más grande que los informativos, y están también los jugadores de Fortnite.",
+        "Y por supuesto Jeff Bezos, Mark Zuckerberg, Larry Page, Sergey Brin, Bill Gates y Steve Jobs, y todo eso es apalancamiento basado en código."
+      ]
+    },
+    {
+      "id": "b03-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Ahora bien, lo bonito es cuando combinas las tres cosas, y ahí es donde las startups tecnológicas destacan de verdad.",
+        "Coges el mínimo de trabajo posible, pero el de mayor rendimiento que puedes conseguir, que son ingenieros, diseñadores y desarrolladores de producto.",
+        "Luego añades capital, y lo usas para marketing, publicidad y crecimiento.",
+        "Añades mucho código y muchos medios y podcasts y contenido para difundirlo todo.",
+        "Esa es una combinación mágica, y por eso ves startups tecnológicas que explotan de la nada, usan un apalancamiento enorme y consiguen rentabilidades desmesuradas."
+      ]
+    },
+    {
+      "id": "b04-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "¿Quieres hablar un poco de lo que requiere permiso frente a lo que no lo requiere?"
+      ]
+    },
+    {
+      "id": "b05-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Probablemente lo más interesante que hay que tener en cuenta sobre las nuevas formas de apalancamiento es que no requieren permiso.",
+        "No necesitan el permiso de otra persona para que las uses o para que tengas éxito.",
+        "En el apalancamiento de trabajo, alguien tiene que decidir seguirte.",
+        "En el apalancamiento de capital, alguien tiene que darte dinero para invertirlo o para convertirlo en un producto.",
+        "Programar, escribir libros, grabar podcasts, tuitear, hacer vídeos en YouTube, ese tipo de cosas no requieren permiso.",
+        "No necesitas el permiso de nadie para hacerlas, y por eso son muy igualitarias, son grandes igualadores del apalancamiento.",
+        "Por mucho que la gente despotrique contra Facebook y YouTube, no van a dejar de usarlos, porque este apalancamiento sin permiso, donde cualquiera puede ser su propio medio de comunicación, es demasiado bueno.",
+        "Lo mismo pasa con Apple, a la que puedes criticar por tener un ecosistema algo cerrado en el iPhone, pero todo el mundo escribe aplicaciones para él.",
+        "Mientras puedas escribir aplicaciones para él, y con eso puedas hacerte rico o llegar a usuarios, ¿por qué no?"
+      ]
+    },
+    {
+      "id": "b06-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Creo que, de todas las formas de apalancamiento, la mejor en la sociedad moderna es la programación.",
+        "Suena fácil de decir y está un poco manido, pero es la razón por la que le digo a la gente que aprenda a programar.",
+        "Tenemos esta idea de que en el futuro va a haber robots y van a estar haciéndolo todo.",
+        "Puede que sea verdad, pero yo diría que la mayor parte de la revolución de los robots ya ha ocurrido.",
+        "Los robots ya están aquí y hay muchos más robots que humanos, lo que pasa es que los amontonamos en centros de datos por razones de calor y de eficiencia.",
+        "Los metemos en servidores, están dentro de los ordenadores, y todos esos circuitos son mentes de robot que están haciendo todo el trabajo.",
+        "Por ejemplo, todo buen desarrollador de software tiene ahora un ejército de robots trabajando para él por la noche, mientras duerme, después de haber escrito el código, y la cosa sigue funcionando sin parar.",
+        "El ejército de robots ya está aquí, la revolución de los robots ya ha ocurrido y vamos más o menos por la mitad.",
+        "Ahora estamos añadiendo mucho más hardware, a medida que nos sentimos más cómodos con la idea de vehículos autónomos, aviones autónomos, barcos autónomos y quizá camiones autónomos.",
+        "Hay robots de reparto y robots de Boston Dynamics y todo eso.",
+        "Pero los robots que hacen búsquedas en la web por ti, por ejemplo, ya están aquí.",
+        "Los que limpian tu vídeo y tu audio y lo transmiten por todo el mundo ya están aquí.",
+        "Los que responden a muchas consultas de atención al cliente, cosas para las que habrías tenido que llamar a un humano, ya están aquí.",
+        "Un ejército de robots ya está aquí, y está disponible muy barato.",
+        "El cuello de botella es solo dar con cosas inteligentes e interesantes que mandarles hacer.",
+        "En esencia, puedes dar órdenes a este ejército de robots.",
+        "Las órdenes hay que darlas en un lenguaje de ordenador, en un lenguaje que ellos entiendan.",
+        "Estos robots no son muy listos, y hay que decirles con mucha precisión qué hacer y cómo hacerlo.",
+        "Programar es un superpoder tan grande porque ahora puedes hablar el idioma de los ejércitos de robots y puedes decirles qué hacer."
+      ]
+    },
+    {
+      "id": "b07-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Creo que a estas alturas la gente no solo dirige mediante código el ejército de robots que hay dentro de los servidores, sino que además manipula el movimiento de camiones y de otras personas.",
+        "Con solo pedir un paquete en Amazon, estás manipulando el movimiento de mucha gente y de muchos robots para que te entreguen ese paquete.",
+        "La gente está haciendo lo mismo ahora para construir negocios.",
+        "Está el ejército de robots dentro de los servidores y además está un ejército de robots reales y de personas a los que se manipula a través del software."
+      ]
+    }
+  ]
+}

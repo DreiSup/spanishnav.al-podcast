@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 22,
+  "anio": 2019,
+  "slug": "product-media",
+  "titulo_es": "El producto y los medios son apalancamiento nuevo",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "El producto y los medios son apalancamiento nuevo",
+    "descripcion": "",
+    "tags": [],
+    "url": "",
+    "url_original": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "publicacion": {
+    "fecha": "",
+    "audio_url": "",
+    "audio_bytes": 0,
+    "duracion_s": 0,
+    "feed_guid": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "escucha": {
+    "escuchado": false,
+    "resultado": null,
+    "fecha": null,
+    "feedback": ""
+  },
+  "notas": "Inglés sacado del Google Doc «2019 all podcasts» de Drive; cuadra palabra a palabra con el documento. Traducción: parte del español del 052 (b121 a b127, mismo inglés letra a letra), revisada frase a frase con los términos confirmados por el autor el 5-nov. Título nuevo, «El producto y los medios son apalancamiento nuevo», en paralelo con el del 021. Cambios sobre el 052: fundidas 17 frases cortas (la imprenta, la televisión, los ejemplos de PewDiePie y Fortnite, la lista de fundadores, los servidores, la revolución de los robots); partida la de 41 palabras de b06, que ahora dice explícitamente que la mejor forma de apalancamiento es la programación; «donde cualquiera puede ser un emisor» pasa a «puede ser su propio medio de comunicación»; la frase de Apple sin dos puntos; «retornos desmesurados» pasa a «rentabilidades desmesuradas». Coste marginal de replicación según GLOSARIO. Escuchar en el TTS: Joe Rogan, PewDiePie, Fortnite, Jeff Bezos, Mark Zuckerberg, Larry Page, Sergey Brin, Bill Gates, Steve Jobs, iPad, iPhone, Boston Dynamics, hardware, software, marketing, startups."
+}

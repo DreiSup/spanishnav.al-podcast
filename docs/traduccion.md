@@ -144,3 +144,4 @@ abiertas («…talk about sex.» sin «”»). Afecta solo al inglés, que no se
 | 2026-11-05 | 019 Embrace Accountability to Get Leverage | revision | 5 | 52 | 948 | 5,6 | Cero avisos. Parte del 052 (b104–b108); cargos de responsabilidad y equity en b01; 17 frases cortas fundidas y tres largas partidas; calcos fuera |
 | 2026-11-05 | 020 Take Accountability to Earn Equity | revision | 6 | 54 | 965 | 5,7 | Cero avisos. Parte del 052 (b109–b114); equity en inglés; Jugarse la piel; nueve frases cortas fundidas; [bankruptcy] fuera del audio |
 | 2026-11-05 | 021 Labor and Capital Are Old Leverage | revision | 6 | 49 | 951 | 5,6 | Cero avisos. Parte del 052 (b115–b120); Arquímedes en estilo indirecto, sin el dadme del 052; 13 frases cortas fundidas y dos largas partidas |
+| 2026-11-05 | 022 Product and Media are New Leverage | revision | 7 | 54 | 1082 | 6,4 | Cero avisos. Parte del 052 (b121–b127); 17 frases cortas fundidas y una larga partida; título en paralelo con el 021 |
