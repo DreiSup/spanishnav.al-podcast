@@ -51,6 +51,30 @@ Comprobado en el repo:
   (13-ene-2020). No está en el catálogo ni en los Docs.
 - **Pendiente: decisión del autor sobre si se publica el 052.**
 
+### Verificación al 100 % (5-nov): unir 001–050 da el 052
+
+Alineado palabra a palabra el inglés del 052 (`transcript.en.json`) con la unión de los 50 cortos: 001–016 y
+035–050 del repo; 017–034 del Doc «2019 all podcasts».
+
+- **Orden:** los 50 cortos van seguidos dentro del 052, exactamente en orden numérico (001 → 050), sin solaparse
+  entre sí y sin huecos entre uno y otro.
+- **Coincidencia:** el 95,4 % de las palabras del 052 son idénticas y en el mismo orden. El resto:
+  - **Final del 052 sin corto:** 1.832 palabras, unos 10 min, que empiezan por «A common question we get: how do I
+    find the time to start investing in myself…». Parece *Finding Time to Invest in Yourself* (13-ene-2020), que
+    no está en el catálogo. Sin esa pieza, el 052 montado acaba en el 050.
+  - **001:** nav.al publicó el corto con otra edición del texto, con el mismo contenido y otras palabras (71
+    diferencias de 1–3 palabras). No falta ninguna frase.
+  - **Una frase de más en tres cortos**, que el 052 no trae. 042: «Puedo resumir el problema del principal y el
+    agente con una cita…». 046: la intro de Nivi «Antes hablamos del interés compuesto…». 048: la definición de
+    excedente del consumidor.
+  - **039 y 043:** 2–3 palabras.
+  - **017–034:** las citas destacadas del Doc (13–20 palabras en 017, 018, 021, 022, 023, 024 y 027) **no son
+    audio**. Al traer esos episodios al repo no deben entrar como frases. Se comprueba de nuevo cuando lleguen.
+- **Español:** los 32 cortos traducidos tienen los mismos bloques y hablantes que su inglés. Los 9 bloques fuera
+  del rango 0,85–1,45 (preguntas cortas de Nivi) están leídos y completos. Las citas destacadas que se colaron en el
+  inglés de 046 y 048 no se dicen dos veces en español.
+
+
 ## Largos sin cortos (se generan tal cual)
 
 051, 069 (angel investing), 068 (Kapil), 070, 071 (Ridley), 131, 132 (Vitalik), 133, 134 (Deutsch), The Deutsch
