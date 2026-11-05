@@ -1,0 +1,112 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2019/023-egalitarian-leverage",
+  "numero": 23,
+  "fecha": "2019-04-19",
+  "titulo": "El apalancamiento de producto es igualitario",
+  "subtitulo": "Los mejores productos suelen estar al alcance de todo el mundo",
+  "fuente_url": "https://nav.al/egalitarian-leverage",
+  "titulos_seccion": [
+    "Los bienes de estatus están limitados a unos pocos",
+    "Los mejores productos suelen estar dirigidos a la clase media",
+    "Crear riqueza con producto lleva a una riqueza más ética",
+    "Quieres usar el producto que usa más gente",
+    "El capital y el trabajo están dejando de necesitar permiso"
+  ],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "El trabajo y el capital son mucho menos igualitarios, no solo en los inputs, sino también en los outputs.",
+        "Digamos que necesito algo que tienen que dar los humanos, como si quiero un masaje o si necesito que alguien me cocine la comida.",
+        "Cuanto más elemento humano hay en la prestación de ese servicio, menos igualitario es.",
+        "Jeff Bezos probablemente tiene vacaciones mucho mejores que la mayoría de nosotros, porque tiene un montón de humanos corriendo de un lado a otro haciendo lo que él necesite.",
+        "Si miras el output del código y de los medios, Jeff Bezos no ve mejores películas ni mejor televisión que nosotros.",
+        "Jeff Bezos ni siquiera tiene una mejor experiencia informática, y Google no le da una cuenta especial y premium donde sus búsquedas sean mejores.",
+        "Está en la naturaleza de lo que producen el código y los medios que el mismo producto esté al alcance de todo el mundo.",
+        "Se convierte en un juego de suma positiva, porque si Jeff Bezos consume el mismo producto que otras mil personas, ese producto va a ser mejor que la versión que Jeff consumiría él solo."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "En cambio, con otros productos eso no es verdad.",
+        "Fíjate en algo como comprar un Rolex, que ya no va de dar la hora, sino que es un bien de señalización.",
+        "Se trata solo de presumir, de que se vea que tienes un Rolex, y eso es un juego de suma cero.",
+        "Si todo el mundo lleva un Rolex, entonces la gente ya no quiere llevar un Rolex, porque ya no señala nada y se ha anulado el efecto.",
+        "Los ricos sí tienen ventaja a la hora de consumir ese producto, porque simplemente subirán el precio hasta que solo ellos puedan tener un Rolex.",
+        "Entonces los pobres no pueden tener un Rolex y los Rolex recuperan su valor de señalización."
+      ]
+    },
+    {
+      "id": "b03-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Piensa en algo como ver Netflix o usar Google o usar Facebook o YouTube o incluso, francamente, los coches de hoy en día.",
+        "Los ricos no tienen mejores coches, solo tienen coches más raros.",
+        "No puedes conducir un Lamborghini por la calle a ninguna velocidad que tenga sentido para un Lamborghini, así que en la calle es en realidad un coche peor.",
+        "En ese momento se convirtió simplemente en un bien de señalización.",
+        "El punto óptimo, donde quieres estar, es algo como un Tesla Model tres o como un Toyota Corolla, que es un coche increíble.",
+        "Un Toyota Corolla nuevo es un coche muy bueno, pero como es un coche de masas, la tecnología ha amortizado el coste de producción entre el mayor número posible de consumidores.",
+        "Los mejores productos suelen estar en el centro, en el punto óptimo, en la clase media, en vez de estar dirigidos a la clase alta."
+      ]
+    },
+    {
+      "id": "b04-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Creo que hay una cosa que no apreciamos del todo en las sociedades modernas.",
+        "Las formas de apalancamiento han pasado de basarse en humanos y en trabajo y en capital a basarse mucho más en el producto, en el código y en los medios.",
+        "Y por eso la mayoría de los bienes y servicios que consumimos son cada vez más igualitarios en su consumo.",
+        "Incluso la comida está yendo por ese camino.",
+        "La comida se está volviendo barata y abundante, al menos en el primer mundo, demasiado incluso, para nuestro perjuicio.",
+        "Jeff Bezos no come necesariamente mejor comida, simplemente come comida distinta, o comida preparada y servida de forma teatral, así que otra vez es casi más el elemento humano del espectáculo.",
+        "Pero el elemento de trabajo en la producción de comida ha bajado muchísimo, y el de capital también.",
+        "Incluso la propia producción de comida se ha vuelto más tecnológica, y por eso la distancia entre los que tienen y los que no tienen se hace más pequeña.",
+        "Si te importa la ética en la creación de riqueza, es mejor crear tu riqueza usando el código y los medios como apalancamiento, porque entonces esos productos están igual de disponibles para todo el mundo.",
+        "Eso es mejor que intentar crear tu riqueza a través del trabajo o del capital."
+      ]
+    },
+    {
+      "id": "b05-naval",
+      "speaker": "Naval",
+      "frases": [
+        "A lo que me refiero aquí es a las economías de escala.",
+        "Los productos tecnológicos y los productos de medios tienen unas economías de escala tan increíbles que siempre quieres usar el producto que usa más gente.",
+        "El que usa más gente acaba teniendo el presupuesto más grande.",
+        "No hay coste marginal de añadir otro usuario, y por eso, con el presupuesto más grande, consigues la mayor calidad.",
+        "Las mejores series de televisión no van a ser unas series oscuras hechas para unos pocos ricos.",
+        "Van a ser las de gran presupuesto, como Game of Thrones o Breaking Bad o Bird Box, que tienen presupuestos enormes.",
+        "Pueden usar esos presupuestos para llegar a cierto nivel de calidad.",
+        "Entonces los ricos, para ser diferentes, tienen que volar a Sundance y ver un documental.",
+        "Tú y yo no vamos a volar a Sundance, porque eso es algo que hacen los ricos aburridos para presumir.",
+        "Y no vamos a ver ese documental porque la mayoría en realidad ni siquiera son tan buenos.",
+        "De nuevo, si hoy eres rico, en muchas categorías de cosas te gastas el dinero en bienes de señalización para enseñar a los demás que eres rico, y luego intentas convertir eso en estatus.",
+        "Y no lo haces por consumir de verdad esos bienes por lo que son."
+      ]
+    },
+    {
+      "id": "b06-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Si tuviera que resumir tu argumento, diría que las personas y el capital como forma de apalancamiento tienen una externalidad negativa, y el código y el producto, una positiva."
+      ]
+    },
+    {
+      "id": "b07-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Creo que el capital y el trabajo también están empezando a requerir un poco menos de permiso, o al menos el permiso está más repartido, gracias a Internet.",
+        "En vez de trabajo, ahora tenemos comunidad, que es una forma difusa de trabajo.",
+        "Por ejemplo, Mark Zuckerberg tiene a mil millones de personas haciendo trabajo para él por el hecho de usar Facebook.",
+        "En vez de ir a levantar capital de alguien rico, ahora tenemos el micromecenazgo.",
+        "Puedes recaudar millones y millones de dólares para una causa benéfica, para un problema de salud o para un negocio, y todo por Internet.",
+        "El capital y el trabajo también están dejando de requerir permiso.",
+        "Ya no hace falta hacerlo necesariamente a la vieja usanza, yendo por ahí pidiéndole permiso a la gente para usar su dinero o su tiempo."
+      ]
+    }
+  ]
+}

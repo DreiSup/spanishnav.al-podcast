@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 23,
+  "anio": 2019,
+  "slug": "egalitarian-leverage",
+  "titulo_es": "El apalancamiento de producto es igualitario",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "El apalancamiento de producto es igualitario",
+    "descripcion": "",
+    "tags": [],
+    "url": "",
+    "url_original": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "publicacion": {
+    "fecha": "",
+    "audio_url": "",
+    "audio_bytes": 0,
+    "duracion_s": 0,
+    "feed_guid": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "escucha": {
+    "escuchado": false,
+    "resultado": null,
+    "fecha": null,
+    "feedback": ""
+  },
+  "notas": "Inglés sacado del Google Doc «2019 all podcasts» de Drive; cuadra palabra a palabra con el documento. Traducción: parte del español del 052 (b128 a b134), revisada frase a frase con los términos confirmados por el autor el 5-nov. El b02 no casaba letra a letra con el 052 b129 (zero sum frente a zero-sum); se reutiliza su español. Hablantes: el último tramo (desde «Instead of going to raise capital», b07) va sin etiqueta en el documento y el script lo hereda de Nivi; el 052 b134 también se lo da a Nivi, así que se deja como Nivi. Cambios sobre el 052: inputs y outputs en inglés (GLOSARIO, 5-nov: «entradas y salidas» y «la salida del código» pasan a «inputs», «outputs» y «el output del código»); el presumir del Rolex en estilo indirecto; fundidas nueve frases cortas (los coches de los ricos, la comida de Jeff Bezos, el resumen de Nivi en una sola frase, el micromecenazgo por Internet); partida la de 37 palabras de b07; «mayoritario» pasa a «un coche de masas». Escuchar en el TTS: Jeff Bezos, Google, Rolex, Netflix, Lamborghini, Tesla Model tres, Toyota Corolla, Game of Thrones, Breaking Bad, Bird Box, Sundance, Mark Zuckerberg, inputs y outputs."
+}

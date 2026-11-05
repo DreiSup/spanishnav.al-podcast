@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 23,
+  "anio": 2019,
+  "slug": "egalitarian-leverage",
+  "titulo": "Product Leverage is Egalitarian",
+  "subtitulo": "The best products tend to be available to everyone",
+  "fecha_publicacion": "2019-04-19",
+  "fuente_url": "https://nav.al/egalitarian-leverage",
+  "orden_archivo": 27,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-05"
+}
