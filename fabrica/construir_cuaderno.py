@@ -48,7 +48,9 @@ Para cada episodio:
 Si se corta, vuelve a ejecutarlo: los clips que ya están en Drive no se repiten. Para rehacer uno, bórralo
 de `tts/` y vuelve a lanzar.
 
-**GPU: T4** (la más barata; L4 también vale). La celda 3 estima los minutos de audio de cada episodio; la 5 mide al final
+**GPU: T4** (la más barata; L4 también vale). Cada episodio anota su tiempo de GPU y sus unidades estimadas en su
+`informe_tts.md` y en `naval-podcast/coste_fabrica.jsonl`; la celda 6 añade el coste de la sesión entera y rehace el
+resumen de todo lo generado en `naval-podcast/coste_fabrica.md`. La celda 3 estima los minutos de audio de cada episodio; la 5 mide al final
 cuántos segundos de GPU cuesta cada segundo de audio, para calcular el gasto de los demás episodios.
 """),
     code("""
@@ -82,7 +84,8 @@ if os.path.isdir("/content/repo"):
 else:
     subprocess.run(["git", "clone", "-q", "--depth", "1", "-b", RAMA, "{REPO}", "/content/repo"], check=True)
 sys.path[:0] = ["/content/repo/fabrica", "/content/repo/piloto", "/content/repo/criba"]
-import comun, fabrica
+import comun, fabrica, time
+T_INICIO = time.time()   # para el coste de la sesión (celda 6)
 
 comun.montar_drive()
 CFG = fabrica.cargar_config()
@@ -91,6 +94,7 @@ CFG["motor"]["ronda"] = RONDA
 DRIVE = Path(CFG["rutas"]["drive"])
 RAIZ_VOCES = DRIVE / CFG["rutas"]["voces"]
 RAIZ_EPISODIOS = DRIVE / CFG["rutas"]["episodios"]
+LIBRO_COSTE = RAIZ_EPISODIOS.parent / "coste_fabrica.jsonl"   # naval-podcast/coste_fabrica.jsonl
 if REF_ES_NAVAL:
     CFG["voces"]["naval"]["ref"] = fabrica.refs_espanol(RAIZ_VOCES, n=REF_ES_NAVAL)
     print(f"PRUEBA: Naval con la huella de {{REF_ES_NAVAL}} clip(s) en español: {{CFG['voces']['naval']['ref']}}")
@@ -171,14 +175,27 @@ for ep, plan in PLANES.items():
     master = carpeta / "audio" / f"{ep.split('/')[1]}.mp3"
     print(f"=== {ep} → {carpeta.relative_to(DRIVE)}")
     if SOLO_MASTER:
-        fabrica.rehacer_master(plan, carpeta, master, titulo=titulo_es)
+        fabrica.rehacer_master(plan, carpeta, master, titulo=titulo_es, cfg=CFG)
     else:
         fabrica.generar_episodio(plan, MOTOR.sintetizar_lote, ASR, carpeta, CFG, master=master, titulo=titulo_es,
-                                 rehacer=REHACER_FRASES.get(ep))
+                                 rehacer=REHACER_FRASES.get(ep), libro_coste=LIBRO_COSTE, episodio=ep)
     print(f"Informe: {(carpeta / 'informe_tts.md').relative_to(DRIVE)}")
 """),
     code("""
-# 6. Subir a Drive y desconectar
+# 6. Coste. Anota esta sesión (desde la celda 3: carga de modelos y ratos parados incluidos) en
+#    naval-podcast/coste_fabrica.jsonl y rehace el resumen de todo lo generado, naval-podcast/coste_fabrica.md
+import torch
+gpu = CFG["motor"].get("gpu") or (torch.cuda.get_device_name(0) if torch.cuda.is_available() else "CPU")
+seg = time.time() - T_INICIO
+uds = fabrica.unidades(seg, gpu, CFG) if gpu != "CPU" else 0.0
+fabrica.anotar_coste(LIBRO_COSTE, {"tipo": "sesion", "fin": time.strftime("%Y-%m-%dT%H:%M:%S"), "gpu": gpu,
+                                   "segundos": round(seg), "unidades_estimadas": round(uds, 3), "episodios": list(PLANES)})
+print(f"Esta sesión: {seg / 60:.0f} min de {gpu} ≈ {uds:.2f} unidades")
+resumen = fabrica.resumen_coste(RAIZ_EPISODIOS, CFG, RAIZ_EPISODIOS.parent / "coste_fabrica.md")
+print(resumen.split("| Episodio")[0].strip())
+"""),
+    code("""
+# 7. Subir a Drive y desconectar
 comun.desconectar()
 """),
 ]

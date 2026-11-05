@@ -13,6 +13,11 @@
     "_comentario": "Decidido el 30-oct en piloto/cuadernos/06_ritmo: ninguna pausa por encima de 0,12 s. Una voz puede tener su propio pausa_max en su entrada (Brett: 0,30; Deutsch y Nivi: 0,20).",
     "pausa_max": 0.12
   },
+  "coste": {
+    "_comentario": "Unidades de Colab por hora de cada GPU, para estimar el coste de cada episodio y de cada sesión (coste_fabrica.jsonl en naval-podcast/). Son aproximadas: si Colab muestra otra cifra en «Recursos», cámbiala aquí y el resumen se recalcula. GPU desconocida → la de 'por_defecto'.",
+    "unidades_por_hora": {"T4": 1.96, "L4": 4.82, "A100": 11.77},
+    "por_defecto": "T4"
+  },
   "verificacion": {
     "_comentario": "Whisper revisa cada frase al generarla. Si no dice el texto, o deja más de sobra_final_max segundos tras la última palabra (una alucinación que el texto no ve), se repite con otra semilla hasta 'reintentos' veces. Si ninguna sale bien, se queda la mejor y va al informe para Audacity.",
     "activa": true,
