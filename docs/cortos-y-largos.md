@@ -27,6 +27,19 @@ Comprobado en el repo:
 - **Todos empiezan en un bloque de hablante.** Por eso el master de un corto es la unión de los clips de sus bloques
   (los que la fábrica deja en `tts/` al generar el largo): sin GPU y sin recortar audio.
 
+### Verificación al 100 % (5-nov)
+
+Alineado palabra a palabra, el inglés de cada largo frente a la unión de sus cortos:
+
+| Largo | Palabras | Idénticas en orden | Cortos que empiezan a mitad de una intervención |
+|---|---|---|---|
+| 077 | 4.652 | 100 % | 0 |
+| 105 | 11.774 | 100 % | 0 |
+| 130 | 9.965 | 100 % | 0 |
+
+En español, cada corto es un tramo exacto de bloques del largo (mismos hablantes, mismas frases, mismo orden), sin
+frases fuera de algún corto y sin solapes. La lista de grupos para la fábrica está en `cortos.json`.
+
 ## 154 In the Arena y 160 The AI Industrial Revolution (aún sin traducir)
 
 - Sus cortos solo están en los Google Docs de 2025 y 2026 (inglés). Para que el truco funcione, la sesión de
@@ -38,6 +51,26 @@ Comprobado en el repo:
 
   O se genera ese bloque aparte (segundos de GPU) o se acepta la intro del largo.
 - Las notas «See Part I here» y «Part 3 of our four part discussion…» son texto de la web, no audio.
+- Verificado en inglés (5-nov, Docs):
+  - **In the Arena**: el 99,8 % es idéntico y en orden. Tres diferencias:
+    1. *Inspiration* (139) trae 29 palabras más de intro de Nivi.
+    2. El largo tiene una frase que no está en ningún corto, entre el 139 y el 140: «But when it comes to execution,
+       you've got to do it yourself».
+    3. *You Have to Enjoy It a Lot* (145) **empieza a mitad de una intervención de Naval**. El largo dice «For example,
+       if you look at marketing, marketing is an open problem…» y el corto empieza en «Marketing is an open
+       problem…».
+  - **AI Industrial Revolution**: las tres partes están dentro al 99,4 %, en orden, y cada una empieza en un cambio
+    de hablante. Quedan fuera de los cortos las 2.725 palabras finales (la «parte 4»). Al principio del largo hay
+    una nota web («Full episode with 20 minutes of new material…») que no es audio.
+- **Reglas para la sesión de traducción** (para que los cortos salgan del largo):
+  1. Traducir el largo. Cada corto es la copia exacta de su tramo de bloques: mismas frases, mismos hablantes.
+  2. Cortar el bloque del largo donde empieza un corto, aunque siga hablando el mismo. En el 154, partir la
+     intervención de Naval antes de «Marketing is an open problem…»; «For example, if you look at marketing» queda al
+     final del bloque anterior.
+  3. La frase «But when it comes to execution…» va en su propio bloque del largo y no entra en ningún corto.
+  4. La intro larga de Nivi del 139 va como bloque propio del corto: es lo único que la fábrica tendrá que generar
+     para él.
+  5. Las notas de la web no se traducen como frases.
 
 ## 052 How to Get Rich: al revés
 
@@ -86,11 +119,48 @@ Truth.
 - Los 4 diálogos con Kapil Gupta de 2019 (extras): no hay texto en Drive ni en el catálogo.
 - *Live in the Future* (161): el Doc solo trae la descripción.
 
-## Cambio técnico que hace falta (para la sesión técnica)
+## Instrucciones para la sesión técnica (fábrica)
 
-> **Montar el master de un corto con los clips del largo.** Entrada: el episodio largo y, para cada corto, qué
-> bloques del largo le corresponden (se deduce comparando frases, porque el español es idéntico). Salida: en la
-> carpeta del corto en Drive, `audio/<NNN>-<slug>.mp3` (mismo formato, misma pausa de 0,6 s y mismo -16 LUFS que la
-> fábrica), su `informe_tts.md` y su `indice_master.tsv`. Sin GPU, como `SOLO_MASTER`.
->
-> **Y al revés, para el 052:** unir los masters de los cortos en el orden del 052 (el 042 va entre el 011 y el 012).
+> Para pegar tal cual en la sesión técnica.
+
+**Objetivo.** Hay episodios cortos que son un tramo exacto de un episodio largo: los mismos bloques, con el mismo
+hablante y las mismas frases en español. La lista está en `cortos.json` (`grupos`: largo → sus cortos, en orden).
+En esos casos se genera solo el largo con GPU, y cada corto se monta con los clips del largo, sin GPU. El análisis y
+la verificación están en `docs/cortos-y-largos.md`.
+
+**Qué hay que añadir a la fábrica** (`fabrica/fabrica.py` y la celda 2 de `fabrica/construir_cuaderno.py`):
+
+1. **Una opción nueva en la celda 2**, por ejemplo `CORTOS = ["2021/105-infinity"]`: los largos cuyos cortos se
+   quieren montar. Sin GPU, como `SOLO_MASTER`.
+2. **Emparejar bloques.** Para cada corto de `cortos.json[grupos][largo]`:
+   - `plan_episodio` del corto y del largo.
+   - Cada bloque del corto se empareja con un bloque del largo que tenga **la misma voz y exactamente las mismas
+     `frases`**, buscando hacia delante desde el último emparejado (en orden, sin volver atrás).
+   - Si algún bloque no tiene pareja, ese bloque se genera como siempre. Es el caso de la intro propia de un corto,
+     como el 139 de In the Arena.
+3. **Sembrar los clips del corto** con los del largo, renombrados con la numeración del corto:
+   - `tts/037naval.wav` del largo pasa a `tts/001naval.wav` del corto.
+   - `tts/frases/037naval_07.wav` pasa a `tts/frases/001naval_07.wav`.
+   - Se copia la fila de `registro_tts.jsonl` del largo con `fichero` y `bloque` del corto, y un campo `origen`
+     (`{"episodio": largo, "fichero": "037naval.wav"}`). Así `clip_al_dia` la da por buena: mismo texto y misma
+     firma. Un lanzamiento normal del corto no la regenera, y `REHACER_FRASES` y `localizar.py` funcionan con el
+     corto.
+4. **Montar el master del corto** con lo que ya existe: `rehacer_master` (o el flujo normal, si hubo bloques sin
+   pareja que generar). Usa el título en español del corto en las etiquetas. Salen `audio/<NNN>-<slug>.mp3`,
+   `informe_tts.md` e `indice_master.tsv` en la carpeta del corto en Drive, con el mismo formato que cualquier
+   episodio: 0,6 s entre intervenciones, -16 LUFS, MP3 mono 44,1 kHz 128 kbps.
+5. **Comprobaciones que tienen que fallar en voz alta**, no seguir en silencio:
+   - Algún clip del largo no existe todavía: hay que generar antes el largo.
+   - Ya existe un clip del corto generado por su cuenta, sin `origen`: no se pisa salvo que se pida.
+   - Un corto se queda sin ningún bloque emparejado: casi seguro que la lista está mal.
+   - Al terminar, imprimir por corto: bloques sembrados, bloques generados y duración del master.
+6. **Si se arregla una frase del largo** (`REHACER_FRASES`), relanzar `CORTOS` con ese largo: vuelve a sembrar los
+   cortos afectados y rehace sus masters. Sembrar debe poder repetirse sin efectos raros (idempotente).
+7. **Prueba sin GPU antes de entregar**: con un largo pequeño y clips falsos, comprobar que la suma de los masters de
+   los cortos dura lo mismo que el del largo, más o menos los 0,6 s de cada unión. Para el 077, la suma de las
+   frases de 053–067 es exactamente la del 077.
+
+**Orden de uso para el autor:** generar el largo → escucharlo y arreglarlo → lanzar `CORTOS` con ese largo → los
+cortos quedan en estado `tts`, con su master, sin escucharlos uno a uno: el audio es el del largo ya escuchado.
+
+**Primer caso real:** el 077 (27 min de audio, ~2 unidades), con 15 cortos (053–067).
