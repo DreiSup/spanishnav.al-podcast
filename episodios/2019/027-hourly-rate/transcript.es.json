@@ -1,0 +1,101 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2019/027-hourly-rate",
+  "numero": 27,
+  "fecha": "2019-05-01",
+  "titulo": "Fija una tarifa por hora ambiciosa",
+  "subtitulo": "Externaliza las tareas que cuesten menos que tu tarifa por hora",
+  "fuente_url": "https://nav.al/hourly-rate",
+  "titulos_seccion": [
+    "No se llega a la riqueza mirando cada céntimo",
+    "Mi tarifa ambiciosa era de cinco mil dólares la hora",
+    "Si puedes externalizar algo por menos que tu tarifa por hora, hazlo",
+    "Tu tarifa por hora debería parecer absurdamente alta"
+  ],
+  "contenido": [
+    {
+      "id": "b01-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Hemos cubierto las habilidades que necesitas para hacerte rico, que eran el conocimiento específico, la responsabilidad, el apalancamiento, el criterio y el aprendizaje de por vida.",
+        "Hablemos de la importancia de trabajar duro y de valorar tu tiempo."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Nadie te va a valorar más de lo que te valoras tú.",
+        "Ponte una tarifa personal por hora alta, y mantente firme en ella.",
+        "Cuando era joven, decidí que valía mucho más de lo que el mercado creía, y empecé a tratarme así.",
+        "Mete tu tiempo en la ecuación de cada decisión.",
+        "Digamos que valoras tu tiempo en cien dólares la hora.",
+        "Si decides pasar una hora conduciendo hasta la otra punta de la ciudad para conseguir algo, en la práctica estás tirando cien dólares.",
+        "¿Vas a hacer eso?",
+        "Digamos que compras algo en Amazon y se equivocan con el pedido.",
+        "¿Te merece la pena el tiempo de devolverlo?",
+        "¿Merece la pena el fastidio mental?",
+        "Ten en cuenta que vas a tener menos tiempo para trabajar, incluido el trabajo mental de alto rendimiento.",
+        "¿Quieres usar ese tiempo haciendo recados y resolviendo problemillas?",
+        "¿O quieres guardarlo para lo importante?",
+        "Los grandes científicos eran malísimos gestionando su vida doméstica.",
+        "Ninguno tenía la habitación ordenada, ni llegaba puntual a los eventos sociales, ni mandaba sus tarjetas de agradecimiento."
+      ]
+    },
+    {
+      "id": "b03-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Puedes pasar la vida como quieras, pero si quieres hacerte rico, tiene que ser tu máxima prioridad.",
+        "Tiene que ir por delante de cualquier otra cosa, lo que significa que no puedes andar mirando el céntimo.",
+        "Esto es lo que la gente no entiende.",
+        "Mirando el céntimo puedes llegar a la subsistencia básica.",
+        "Puedes mantener los gastos bajos y quizá jubilarte pronto, y eso es perfectamente válido.",
+        "Pero nosotros estamos aquí para hablar de creación de riqueza.",
+        "Si vas a crear riqueza, tiene que ser tu prioridad número uno, absoluta."
+      ]
+    },
+    {
+      "id": "b04-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Adelanta el reloj hasta tu yo rico y elige una tarifa por hora intermedia.",
+        "Antes de tener dinero de verdad, cuando todavía se me podía contratar, me puse una tarifa ambiciosa de cinco mil dólares la hora.",
+        "Por supuesto, seguí haciendo tonterías como discutir con el electricista o devolver el altavoz roto.",
+        "Pero no debería haberlo hecho, y lo hice mucho menos que mis amigos.",
+        "Montaba un espectáculo teatral tirando algo a la basura o dándoselo al Ejército de Salvación, en vez de devolverlo o intentar arreglarlo.",
+        "Les decía a mis novias que eso yo no lo hacía, que ese no era un problema que yo resolviera.",
+        "Todavía se lo digo hoy a mi mujer y a mi madre, cuando me pasan pequeños recados, y les digo que prefiero contratarles un asistente.",
+        "Esto era cierto incluso cuando no tenía dinero."
+      ]
+    },
+    {
+      "id": "b05-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Otra forma de pensar en esto es que, si puedes externalizar algo, o directamente no hacerlo, por menos que tu tarifa por hora, lo externalices o no lo hagas.",
+        "Si puedes contratar a alguien para que lo haga por menos que tu tarifa por hora, contrátalo.",
+        "Eso incluye cosas como cocinar, porque puede que quieras prepararte tus propias comidas caseras y sanas, pero si puedes externalizarlo, hazlo.",
+        "La gente pregunta qué pasa con la alegría de vivir, o con hacer las cosas bien, justo a tu manera.",
+        "Claro que puedes hacerlo, pero no vas a ser rico, porque has puesto otra cosa como prioridad.",
+        "Paul Graham lo dijo muy bien para las startups de Y Combinator.",
+        "Dijo que deberías estar trabajando en tu producto y consiguiendo el encaje entre producto y mercado, y que deberías estar haciendo ejercicio y comiendo sano.",
+        "Y poco más, es todo para lo que tienes tiempo mientras estás en esta misión."
+      ]
+    },
+    {
+      "id": "b06-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Ponte una tarifa por hora ambiciosa muy alta, y mantente firme en ella.",
+        "Debería parecerte absurdamente alta, y si no es así, no es lo bastante alta.",
+        "Elijas la que elijas, mi consejo es que la subas.",
+        "Durante muchísimo tiempo usé cinco mil dólares la hora.",
+        "Si extrapolas eso a un salario anual, son varios millones de dólares al año.",
+        "En realidad creo que la he superado, lo cual es interesante teniendo en cuenta que no soy el que más trabaja.",
+        "Trabajo por ráfagas de energía, cuando estoy motivado para trabajar en algo."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 27,
+  "anio": 2019,
+  "slug": "hourly-rate",
+  "titulo_es": "Fija una tarifa por hora ambiciosa",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Fija una tarifa por hora ambiciosa",
+    "descripcion": "",
+    "tags": [],
+    "url": "",
+    "url_original": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "publicacion": {
+    "fecha": "",
+    "audio_url": "",
+    "audio_bytes": 0,
+    "duracion_s": 0,
+    "feed_guid": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "escucha": {
+    "escuchado": false,
+    "resultado": null,
+    "fecha": null,
+    "feedback": ""
+  },
+  "notas": "Inglés sacado del Google Doc «2019 all podcasts» de Drive; cuadra palabra a palabra con el documento. Traducción: parte del español del 052 (b157 a b162, mismo inglés letra a letra), revisada frase a frase con los términos confirmados por el autor el 5-nov. Cambios sobre el 052: aspirational hourly rate va siempre como «tarifa ambiciosa», igual que en el título (el 052 mezcla «ambiciosa» y «aspiracional»); lo que Naval les dice a sus novias, a su mujer y a su madre, y lo que pregunta la gente sobre la alegría de vivir, en estilo indirecto; fundidas nueve frases cortas; «la lían» pasa a «se equivocan con el pedido»; Salvation Army como Ejército de Salvación; «Debería parecerte y sentirse absurdamente alta» pasa a «Debería parecerte absurdamente alta». «I did a lot less of it my friends» se entiende como «than my friends», como en el 052. Escuchar en el TTS: Amazon, Ejército de Salvación, Paul Graham, Y Combinator, startups."
+}

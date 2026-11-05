@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 27,
+  "anio": 2019,
+  "slug": "hourly-rate",
+  "titulo": "Set an Aspirational Hourly Rate",
+  "subtitulo": "Outsource tasks that cost less than your hourly rate",
+  "fecha_publicacion": "2019-05-01",
+  "fuente_url": "https://nav.al/hourly-rate",
+  "orden_archivo": 31,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-05"
+}
