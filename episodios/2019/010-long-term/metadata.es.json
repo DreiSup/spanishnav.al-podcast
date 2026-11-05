@@ -5,7 +5,7 @@
   "anio": 2019,
   "slug": "long-term",
   "titulo_es": "Juega a juegos a largo plazo con gente a largo plazo",
-  "estado": "montaje",
+  "estado": "tts",
   "youtube": {
     "titulo": "Juega a juegos a largo plazo con gente a largo plazo",
     "descripcion": "",
@@ -30,9 +30,9 @@
   "audio_editado_a_mano": false,
   "heredado": null,
   "escucha": {
-    "escuchado": true,
-    "fecha": "2026-11-05",
-    "feedback": "Escuchado entero por el autor: perfecto, sin arreglos"
+    "escuchado": false,
+    "fecha": null,
+    "feedback": ""
   },
   "notas": "En nav.al, Nivi atribuye el retuit sobre la tracción a Ed Latimore y la transcripción corrige: [correction: the tweet is by @mmay3r]. No se locuta: Nivi dice lo que dijo."
 }

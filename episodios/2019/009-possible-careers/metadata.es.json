@@ -5,7 +5,7 @@
   "anio": 2019,
   "slug": "possible-careers",
   "titulo_es": "Internet ha ampliado enormemente las posibilidades profesionales",
-  "estado": "montaje",
+  "estado": "tts",
   "youtube": {
     "titulo": "Internet ha ampliado enormemente las posibilidades profesionales",
     "descripcion": "",
@@ -30,9 +30,9 @@
   "audio_editado_a_mano": false,
   "heredado": null,
   "escucha": {
-    "escuchado": true,
-    "fecha": "2026-11-05",
-    "feedback": "Escuchado entero por el autor: perfecto, sin arreglos"
+    "escuchado": false,
+    "fecha": null,
+    "feedback": ""
   },
   "notas": ""
 }

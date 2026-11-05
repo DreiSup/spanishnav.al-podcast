@@ -5,7 +5,7 @@
   "anio": 2019,
   "slug": "rational-optimists",
   "titulo_es": "Asóciate con optimistas racionales",
-  "estado": "montaje",
+  "estado": "tts",
   "youtube": {
     "titulo": "Asóciate con optimistas racionales",
     "descripcion": "",
@@ -30,9 +30,9 @@
   "audio_editado_a_mano": false,
   "heredado": null,
   "escucha": {
-    "escuchado": true,
-    "fecha": "2026-11-05",
-    "feedback": "Escuchado entero por el autor: perfecto, sin arreglos"
+    "escuchado": false,
+    "fecha": null,
+    "feedback": ""
   },
   "notas": ""
 }

@@ -5,7 +5,7 @@
   "anio": 2019,
   "slug": "creative-technical",
   "titulo_es": "El conocimiento específico es muy creativo o técnico",
-  "estado": "montaje",
+  "estado": "tts",
   "youtube": {
     "titulo": "El conocimiento específico es muy creativo o técnico",
     "descripcion": "",
@@ -30,9 +30,9 @@
   "audio_editado_a_mano": false,
   "heredado": null,
   "escucha": {
-    "escuchado": true,
-    "fecha": "2026-11-05",
-    "feedback": "Escuchado entero por el autor: perfecto, sin arreglos"
+    "escuchado": false,
+    "fecha": null,
+    "feedback": ""
   },
   "notas": ""
 }

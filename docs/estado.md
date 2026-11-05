@@ -129,9 +129,8 @@ La **fase 1** (elegir motor) está casi cerrada:
   la recopilación de 1–50: recomendación técnica, montarlo uniendo masters (pendiente del autor). Traspaso a la
   sesión global en `docs/contexto-sesion-global.md`.
 
-- **001–016 en producción** (5-nov): generados con la voz final (cero frases sospechosas), escuchados enteros por
-  el autor y dados por buenos sin arreglos. Estado `montaje` y `escucha.escuchado: true` en su metadata. Listos para
-  vídeo y publicación (plataformas: sesión de contenido).
+- **001–016 generados** (5-nov) con la voz final, cero frases sospechosas (estado `tts`). **El 001, escuchado entero
+  por el autor y dado por bueno** (estado `montaje`, listo para publicar); 002–016, pendientes de escucha.
 
 ## Esperando a que termine
 
