@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**116** episodios · **0** publicados · **9** escuchados por el autor (**1** para revisar) · **0** sin empezar
+**116** episodios · **0** publicados · **10** escuchados por el autor (**1** para revisar) · **0** sin empezar
 
 ## 2023
 
@@ -115,7 +115,7 @@
 | 3 | [003-free-markets](episodios/2019/003-free-markets) | Los mercados libres son intrínsecos al ser humano | 🟣 montaje | ✅ 2026-11-05 | — | — |
 | 4 | [004-money-luck](episodios/2019/004-money-luck) | Ganar dinero no depende de la suerte | 🟣 montaje | ✅ 2026-11-05 | — | — |
 | 5 | [005-luck-destiny](episodios/2019/005-luck-destiny) | Haz de la suerte tu destino | 🟣 montaje | ✅ 2026-11-05 | — | — |
-| 6 | [006-renting-time](episodios/2019/006-renting-time) | No te harás rico alquilando tu tiempo | 🔵 generando TTS | — | — | — |
+| 6 | [006-renting-time](episodios/2019/006-renting-time) | No te harás rico alquilando tu tiempo | 🟣 montaje | ✅ 2026-11-05 | — | — |
 | 7 | [007-salary-freedom](episodios/2019/007-salary-freedom) | Vive por debajo de tus posibilidades para ser libre | 🟣 montaje | ✅ 2026-11-05 | — | — |
 | 8 | [008-product-scale](episodios/2019/008-product-scale) | Dale a la sociedad lo que todavía no sabe cómo conseguir | 🟣 montaje | ✅ 2026-11-05 | — | — |
 | 9 | [009-possible-careers](episodios/2019/009-possible-careers) | Internet ha ampliado enormemente las posibilidades profesionales | 🔵 generando TTS | ⚠️ revisar 2026-11-05 | — | — |
