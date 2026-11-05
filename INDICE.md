@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**116** episodios · **0** publicados · **8** escuchados por el autor (**1** para revisar) · **0** sin empezar
+**116** episodios · **0** publicados · **9** escuchados por el autor (**1** para revisar) · **0** sin empezar
 
 ## 2023
 
@@ -119,7 +119,7 @@
 | 7 | [007-salary-freedom](episodios/2019/007-salary-freedom) | Vive por debajo de tus posibilidades para ser libre | 🟣 montaje | ✅ 2026-11-05 | — | — |
 | 8 | [008-product-scale](episodios/2019/008-product-scale) | Dale a la sociedad lo que todavía no sabe cómo conseguir | 🟣 montaje | ✅ 2026-11-05 | — | — |
 | 9 | [009-possible-careers](episodios/2019/009-possible-careers) | Internet ha ampliado enormemente las posibilidades profesionales | 🔵 generando TTS | ⚠️ revisar 2026-11-05 | — | — |
-| 10 | [010-long-term](episodios/2019/010-long-term) | Juega a juegos a largo plazo con gente a largo plazo | 🔵 generando TTS | — | — | — |
+| 10 | [010-long-term](episodios/2019/010-long-term) | Juega a juegos a largo plazo con gente a largo plazo | 🟣 montaje | ✅ 2026-11-05 | — | — |
 | 11 | [011-intelligence-energy-integrity](episodios/2019/011-intelligence-energy-integrity) | Elige socios con inteligencia, energía e integridad | 🔵 generando TTS | — | — | — |
 | 12 | [012-rational-optimists](episodios/2019/012-rational-optimists) | Asóciate con optimistas racionales | 🔵 generando TTS | — | — | — |
 | 13 | [013-specific-knowledge](episodios/2019/013-specific-knowledge) | Ármate de conocimiento específico | 🔵 generando TTS | — | — | — |
