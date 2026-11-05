@@ -189,6 +189,37 @@ revisión puede tardar días; Apple avisa por correo.
 Al terminar, el enlace público de cada plataforma va a `lib/site.ts` → `platforms` en la web (hoy a `null`, sale
 «Próximamente»).
 
+## 5 bis. YouTube a mano, sin RSS (decisión del 5-nov, hasta tener permiso de Naval)
+
+> **Borrador sin validar.** Se valida al subir el 001.
+
+1. **Vídeo**, en el ordenador del autor, junto al master (YouTube recomienda MP4 con H.264 y audio AAC a 48 kHz,
+   [Google](https://support.google.com/youtube/answer/1722171)):
+
+   ```bash
+   curl -O https://spanishnav.al/portada-youtube.jpg
+   ```
+
+   ```bash
+   ffmpeg -loop 1 -framerate 25 -i portada-youtube.jpg -i <NNN>-<slug>.mp3 -vf "scale=1920:1080:force_original_aspect_ratio=decrease,pad=1920:1080:(ow-iw)/2:(oh-ih)/2,format=yuv420p" -c:v libx264 -preset veryfast -tune stillimage -crf 20 -c:a aac -b:a 192k -ar 48000 -shortest -movflags +faststart <NNN>-<slug>.mp4
+   ```
+
+   El `.mp4` no va a git; si se guarda, en la carpeta `video/` del episodio en Drive.
+2. **YouTube Studio → Crear → Subir vídeos:**
+
+   | Campo | Valor |
+   |---|---|
+   | Título | `<título en español> \| Naval Podcast en español #<número>` (propuesta; el autor decide) |
+   | Descripción | La del apartado 3, entera |
+   | Miniatura | `portada-youtube.jpg` (el canal tiene que estar verificado por teléfono) |
+   | Lista | «Naval Podcast en español» |
+   | Público | No es contenido para niños |
+   | Contenido alterado | **Sí**: voz sintética que se parece a una persona real ([Google](https://support.google.com/youtube/answer/14328491)) |
+   | Idioma / categoría | Español / Educación |
+   | Visibilidad | Pública |
+
+3. Apuntar el enlace del vídeo en `metadata.es.json` → `youtube.url`.
+
 ## 6. Publicar cada episodio (después del alta)
 
 1. Master escuchado y bueno: estado `montaje` (`docs/sop-episodio.md`).
