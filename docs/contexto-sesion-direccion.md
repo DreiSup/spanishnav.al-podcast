@@ -116,11 +116,11 @@ masters publicables).
 | YouTube | A mano (SOP 5 bis), canal `@spanishNavalR` | https://www.youtube.com/watch?v=s10rGZckyEo |
 | Spotify | Redirección 301 del programa que el autor ya tenía en Spotify for Creators → nuestro feed | Hecha el 5-nov; tarda hasta 7 días. No borrar el programa ni la cuenta antes del 12-nov |
 | Apple Podcasts | Borrador + Add RSS Feed → Publish | En revisión (id `6831305665`) |
-| Substack | «Distribute to Substack» → «I have a podcast hosted elsewhere» → feed | Configurado; el 001 debería aparecer solo |
+| Substack | «Distribute to Substack» → «I have a podcast hosted elsewhere» → feed | Publicado solo desde el feed: https://spanishnavalravikant.substack.com/ (post del 001: https://substack.com/home/post/p-223678266) |
 | X | — | **Descartado** por el autor (5-nov): sin RSS y sin Premium solo 2:20 de vídeo |
 
-Web (`lib/site.ts` → `platforms`): YouTube y Spotify en `main`. Faltan Apple (cuando lo aprueben) y Substack (URL de la
-publicación).
+Web (`lib/site.ts` → `platforms`): YouTube y Spotify en `main`. Substack, en la rama de la web a la espera
+del OK para `main`. Falta Apple (cuando lo aprueben).
 
 **Cada episodio nuevo, desde ahora:** master → R2 → episodio en la web y push a `main` (con OK del autor) → Spotify,
 Apple y Substack lo cogen del feed solos. YouTube, a mano: la sesión le da al autor solo título y descripción.
