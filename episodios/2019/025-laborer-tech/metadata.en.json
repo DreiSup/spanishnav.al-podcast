@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 25,
+  "anio": 2019,
+  "slug": "laborer-tech",
+  "titulo": "Example: From Laborer to Entrepreneur",
+  "subtitulo": "From low to high specific knowledge, accountability and leverage",
+  "fecha_publicacion": "2019-04-26",
+  "fuente_url": "https://nav.al/laborer-tech",
+  "orden_archivo": 29,
+  "en_feed": true,
+  "participantes": [
+    "Naval"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-05"
+}

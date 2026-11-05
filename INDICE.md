@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**124** episodios · **1** publicados · **10** escuchados por el autor (**1** para revisar) · **0** sin empezar
+**125** episodios · **1** publicados · **10** escuchados por el autor (**1** para revisar) · **0** sin empezar
 
 ## 2023
 
@@ -134,6 +134,7 @@
 | 22 | [022-product-media](episodios/2019/022-product-media) | El producto y los medios son apalancamiento nuevo | 🟠 en revisión | — | — | — |
 | 23 | [023-egalitarian-leverage](episodios/2019/023-egalitarian-leverage) | El apalancamiento de producto es igualitario | 🟠 en revisión | — | — | — |
 | 24 | [024-business-models](episodios/2019/024-business-models) | Elige un modelo de negocio con apalancamiento | 🟠 en revisión | — | — | — |
+| 25 | [025-laborer-tech](episodios/2019/025-laborer-tech) | Ejemplo: del obrero al emprendedor | 🟠 en revisión | — | — | — |
 | 35 | [035-finally-wealthy](episodios/2019/035-finally-wealthy) | Una mente en calma, un cuerpo en forma, una casa llena de amor | 🟠 en revisión | — | — | — |
 | 36 | [036-rich-quick](episodios/2019/036-rich-quick) | No existen los esquemas para hacerse rico rápido | 🟠 en revisión | — | — | — |
 | 37 | [037-productize-yourself](episodios/2019/037-productize-yourself) | Productízate a ti mismo | 🔵 generando TTS | — | — | — |
