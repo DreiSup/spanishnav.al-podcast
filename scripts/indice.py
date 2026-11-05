@@ -49,6 +49,7 @@ def escapar(texto) -> str:
 def construir(episodios: list[dict]) -> str:
     publicados = sum(1 for e in episodios if e.get("estado") == "publicado")
     escuchados = sum(1 for e in episodios if (e.get("escucha") or {}).get("escuchado"))
+    a_revisar = sum(1 for e in episodios if (e.get("escucha") or {}).get("resultado") == "revisar")
     pendientes = sum(1 for e in episodios if e.get("estado") == "pendiente")
     lineas = [
         "# Índice de episodios",
@@ -56,7 +57,7 @@ def construir(episodios: list[dict]) -> str:
         "<!-- Generado por scripts/indice.py. No editar a mano. -->",
         "",
         f"**{len(episodios)}** episodios · **{publicados}** publicados · "
-        f"**{escuchados}** escuchados por el autor · **{pendientes}** sin empezar",
+        f"**{escuchados}** escuchados por el autor (**{a_revisar}** para revisar) · **{pendientes}** sin empezar",
         "",
     ]
 
@@ -81,7 +82,12 @@ def construir(episodios: list[dict]) -> str:
             url = (ep.get("youtube") or {}).get("url")
             yt = f"[▶]({url})" if url else "—"
             esc = ep.get("escucha") or {}
-            escuchado = f"✅ {esc.get('fecha') or ''}".strip() if esc.get("escuchado") else "—"
+            if not esc.get("escuchado"):
+                escuchado = "—"
+            elif esc.get("resultado") == "revisar":
+                escuchado = f"⚠️ revisar {esc.get('fecha') or ''}".strip()
+            else:
+                escuchado = f"✅ {esc.get('fecha') or ''}".strip()
             lineas.append(f"| {numero} | {enlace} | {titulo_es} | {estado} | {escuchado} | {drive} | {yt} |")
         lineas.append("")
 

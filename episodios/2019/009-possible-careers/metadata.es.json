@@ -30,9 +30,10 @@
   "audio_editado_a_mano": false,
   "heredado": null,
   "escucha": {
-    "escuchado": false,
-    "fecha": null,
-    "feedback": ""
+    "escuchado": true,
+    "resultado": "revisar",
+    "fecha": "2026-11-05",
+    "feedback": "Para revisar: hay momentos que no gustan, con demasiado acento inglés. Falta localizar los minutos."
   },
   "notas": ""
 }

@@ -23,6 +23,7 @@
   "heredado": null,
   "escucha": {
     "escuchado": false,
+    "resultado": null,
     "fecha": null,
     "feedback": ""
   },
