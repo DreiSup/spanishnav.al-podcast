@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 33,
+  "anio": 2019,
+  "slug": "eventually",
+  "titulo_es": "Al final tendrás lo que te mereces",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Al final tendrás lo que te mereces",
+    "descripcion": "",
+    "tags": [],
+    "url": "",
+    "url_original": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "publicacion": {
+    "fecha": "",
+    "audio_url": "",
+    "audio_bytes": 0,
+    "duracion_s": 0,
+    "feed_guid": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "escucha": {
+    "escuchado": false,
+    "resultado": null,
+    "fecha": null,
+    "feedback": ""
+  },
+  "notas": "Inglés sacado del Google Doc «2019 all podcasts» de Drive; cuadra palabra a palabra con el documento. Traducción: parte del español del 052 (b188 a b191), revisada frase a frase con los términos confirmados por el autor el 5-nov. El b02 no casa letra a letra con el 052 b189: en el corto, «What are you really good at, that the market values?» es un título de sección y no se dice; en el 052 está al final del bloque y se locuta. Cambios sobre el 052: el tuit de Nivi, lo que dijo Charlie Munger y lo que la gente le reprocha a Naval (el deseo es sufrimiento, toda grandeza viene del sufrimiento) en estilo indirecto; compounding en b03 como «se multiplica con el interés compuesto» (GLOSARIO; el 052 dice «lo compones»); «una forma frívola» (glib) pasa a «una forma ocurrente», como el «tuit ocurrente» del 028; «en una escala de tiempo suficientemente larga» a «en un plazo lo bastante largo», igual que el subtítulo; los tiros a puerta reordenados para que at the slowest y at the fastest se entiendan (cada diez años si vas muy despacio, una vez al año si vas muy rápido); «formar salidas lógicas absolutas» a «sacar resultados lógicos absolutos»; fundidas 18 frases cortas. Escuchar en el TTS: Charlie Munger, startups."
+}

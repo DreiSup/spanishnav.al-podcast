@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 33,
+  "anio": 2019,
+  "slug": "eventually",
+  "titulo": "Eventually You Will Get What You Deserve",
+  "subtitulo": "On a long enough timescale, you will get paid",
+  "fecha_publicacion": "2019-05-19",
+  "fuente_url": "https://nav.al/eventually",
+  "orden_archivo": 37,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-05"
+}

@@ -1,0 +1,82 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2019/033-eventually",
+  "numero": 33,
+  "fecha": "2019-05-19",
+  "titulo": "Al final tendrás lo que te mereces",
+  "subtitulo": "En un plazo lo bastante largo, te acabarán pagando",
+  "fuente_url": "https://nav.al/eventually",
+  "titulos_seccion": [
+    "¿En qué eres realmente bueno que el mercado valore?"
+  ],
+  "contenido": [
+    {
+      "id": "b01-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Estamos hablando de trabajar a largo plazo, y el siguiente tuit sobre ese tema dice que apliques conocimiento específico, con apalancamiento, y que al final conseguirás lo que mereces.",
+        "Yo añadiría que apliques criterio, que apliques responsabilidad y que apliques la habilidad de leer."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Esta es una forma ocurrente de decir que lleva tiempo.",
+        "Una vez que tienes todas las piezas en su sitio, todavía hay una cantidad indeterminada de tiempo que tienes que dedicarle.",
+        "Y si vas contando, se te acabará la paciencia antes de que llegue.",
+        "Tienes que asegurarte de darle tiempo a estas cosas, porque la vida es larga.",
+        "Charlie Munger tenía una frase sobre esto, cuando alguien le preguntó sobre ganar dinero.",
+        "Dijo que lo que el que preguntaba quería saber en realidad era cómo llegar a ser como él, pero más rápido.",
+        "Todo el mundo lo quiere inmediatamente, pero el mundo es un lugar eficiente y lo inmediato no funciona.",
+        "Tienes que dedicarle el tiempo, tienes que dedicarle las horas.",
+        "Tienes que ponerte en esa posición con conocimiento específico, responsabilidad, apalancamiento y un conjunto de habilidades auténtico para ser el mejor del mundo en lo que haces.",
+        "Y luego tienes que disfrutarlo y seguir haciéndolo una y otra y otra vez.",
+        "No lleves la cuenta, no vayas contando, porque si lo haces, se te acabará el tiempo.",
+        "Mirando atrás en mi carrera, la gente que identifiqué como brillante y trabajadora hace dos décadas tiene éxito ahora, casi sin excepción.",
+        "En un plazo lo bastante largo, te acabarán pagando.",
+        "Pero pueden ser perfectamente diez o veinte años, y a veces son cinco.",
+        "Si son cinco, o tres, y es un amigo tuyo el que ha llegado, eso te puede volver loco.",
+        "Pero esas son las excepciones, y por cada ganador hay varios fracasos.",
+        "Hay algo importante en el emprendimiento, y es que solo tienes que acertar una vez, porque tienes muchísimos tiros a puerta.",
+        "Puedes tirar a puerta cada tres o cinco años, quizá cada diez si vas muy despacio, o una vez al año si vas muy rápido, según lo deprisa que iteres con startups.",
+        "Pero solo tienes que acertar una vez."
+      ]
+    },
+    {
+      "id": "b03-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Tu resultado final será igual a algo así como lo distintivo que sea tu conocimiento específico, multiplicado por cuánto apalancamiento puedes aplicar a ese conocimiento.",
+        "Multiplicado por con cuánta frecuencia tu criterio es correcto, por lo singularmente responsable que eres del resultado, y por cuánto valora la sociedad lo que estás haciendo.",
+        "Y luego todo eso se multiplica con el interés compuesto de cuánto tiempo puedas seguir haciéndolo y mejorándolo leyendo y aprendiendo."
+      ]
+    },
+    {
+      "id": "b04-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Es una manera muy buena de resumirlo, y merece la pena intentar esbozar esa ecuación.",
+        "Dicho eso, la gente intenta aplicar las matemáticas a lo que en realidad es filosofía.",
+        "He visto pasar esto, cuando digo una cosa y luego digo otra que parece contradictoria si lo tratas como matemáticas, pero obviamente está en un contexto distinto.",
+        "La gente me dice que yo digo que el deseo es sufrimiento, que es el dicho budista, y que luego digo que toda grandeza viene del sufrimiento.",
+        "Y me preguntan si eso significa que toda grandeza viene del deseo.",
+        "Esto no son matemáticas, no puedes ir arrastrando variables y sacar resultados lógicos absolutos, tienes que saber cuándo aplicar las cosas.",
+        "Uno no puede ponerse demasiado analítico con esto.",
+        "Es lo que un físico llamaría falsa precisión.",
+        "Cuando coges dos estimaciones inventadas y las multiplicas entre sí, obtienes cuatro cifras de precisión.",
+        "Esos decimales en realidad no cuentan, porque no tienes esos datos, no tienes ese conocimiento.",
+        "Cuantas más variables estimadas tienes, mayor es el error del modelo.",
+        "Añadir más complejidad a tu proceso de decisión te da una respuesta peor.",
+        "Es mejor que elijas la cosa más importante, o las dos más importantes.",
+        "Pregúntate en qué eres realmente bueno, según la observación y la gente en la que confías, que el mercado valore.",
+        "Esas dos variables por sí solas probablemente son suficientes.",
+        "Si eres bueno en ello, seguirás haciéndolo y desarrollarás el criterio.",
+        "Si eres bueno en ello y te gusta hacerlo, al final la gente te dará los recursos y no tendrás miedo de asumir la responsabilidad.",
+        "Así que las demás piezas caerán en su sitio.",
+        "El encaje entre producto y mercado es inevitable si estás haciendo algo que te encanta y el mercado lo quiere."
+      ]
+    }
+  ]
+}
