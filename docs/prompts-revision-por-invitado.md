@@ -77,13 +77,27 @@ Need for Indifference) usarán la misma terminología si el autor decide hacerlo
 ### Naval y Nivi
 
 ```
-SERIE: Naval y Nivi. Episodios: 046–050 (microeconomía, 2019), 069 How to Angel Invest Part 2 y 077
-Happiness (recopilación de 053–067). Brief: docs/briefs/naval_nivi.md. Modelos aprobados: 044, 051–067.
-Por confirmar: compounding = componer (relaciones que se componen), net present value = valor presente
-neto, VC = capital riesgo, dealflow = flujo de operaciones, repeat / first-time founder = fundador que
-repite / fundador primerizo, coachable, Glengarry Glen Ross = Éxito a cualquier precio, y el título del 069
-(Cómo invertir como ángel, parte dos).
-Recuerda: 046–050 comparten texto con 052, y 077 con 053–067; un cambio se propaga.
+SERIE: Naval y Nivi. Episodios: 001–016 (traídos de las traducciones antiguas de Drive por la sesión
+técnica; el 001 ya está publicado y en montaje: no lo toques sin hablarlo con el autor), 035–052 (2019),
+053–067 (felicidad, 2020), 069 How to Angel Invest Part 2 y 077 Happiness. Faltan 017–034, que traerá otra
+sesión. Brief: docs/briefs/naval_nivi.md. Modelos ya aprobados por el autor: 044 y 053–067.
+
+LO MÁS IMPORTANTE DE ESTA SERIE: casi todo 2019 está dos veces. El 052 How to Get Rich es la recopilación
+de los episodios 001 a 050 (comprobado el 5-nov: en 001–050 prácticamente todas las frases del inglés están
+también en el 052), y el 077 Happiness es la de 053–067. Hoy las frases del 052 y las de los cortos están
+traducidas por separado y no coinciden. Antes de revisar frase a frase, plantea al autor la decisión:
+  a) producir solo los cortos y dejar el 052 fuera de la fábrica;
+  b) que los cortos manden y el 052 se reconstruya con sus traducciones aprobadas, como ya se hizo con el
+     077 (se casan los párrafos del inglés de la recopilación con los bloques de los cortos y se reutiliza su
+     español; solo se traduce lo que no case, que en el 052 es muy poco);
+  c) al revés, que mande el 052 y los cortos copien de él.
+La recomendación de la sesión de traducción es la b, cuando 017–034 estén en el repo. Mientras no se
+decida, no cambies una frase en un corto sin anotar que el 052 la tiene distinta.
+
+Por confirmar con el autor: compounding = componer (relaciones que se componen), net present value = valor
+presente neto, VC = capital riesgo, dealflow = flujo de operaciones, repeat / first-time founder = fundador
+que repite / fundador primerizo, coachable, Glengarry Glen Ross = Éxito a cualquier precio, y el título del
+069 (Cómo invertir como ángel, parte dos).
 ```
 
 ### Brett Hall y David Deutsch
