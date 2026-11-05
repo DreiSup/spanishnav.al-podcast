@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 31,
+  "anio": 2019,
+  "slug": "competition-authenticity",
+  "titulo_es": "Escapa de la competencia siendo auténtico",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Escapa de la competencia siendo auténtico",
+    "descripcion": "",
+    "tags": [],
+    "url": "",
+    "url_original": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "publicacion": {
+    "fecha": "",
+    "audio_url": "",
+    "audio_bytes": 0,
+    "duracion_s": 0,
+    "feed_guid": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "escucha": {
+    "escuchado": false,
+    "resultado": null,
+    "fecha": null,
+    "feedback": ""
+  },
+  "notas": "Inglés sacado del Google Doc «2019 all podcasts» de Drive; cuadra palabra a palabra con el documento. Artefacto del inglés, no tocado: «memetic creatures» por mimetic; se traduce «miméticas». Traducción: parte del español del 052 (b178 a b184, mismo inglés letra a letra), revisada frase a frase con los términos confirmados por el autor el 5-nov. Cambios sobre el 052: el tuit de Nivi, la cita de Robert Frost y lo que te dice la gente al presentarse (soy banquero, camarero, barbero) en estilo indirecto; las preguntas retóricas de b03 van con su respuesta en la misma frase; fundidas 20 frases cortas; título de sección avocation y vocation como «Combina tu profesión y tu afición», igual que en la frase de Frost (el 052 dice «tu profesión y tu vocación», que en español es casi lo mismo); «la masa» pasa a «las masas» en el título de sección, como en el texto; law clerk pasa de «pasante judicial» a «letrado de un juez»; «de clase mundial» a «de primer nivel mundial». Escuchar en el TTS: Peter Thiel, Joe Rogan, Scott Adams, Dilbert, Bill Watterson, Calvin y Hobbes, Elon Musk, Jack Dorsey, Marte, YouTube, Robert Frost."
+}

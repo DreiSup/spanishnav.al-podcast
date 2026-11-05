@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**130** episodios · **1** publicados · **10** escuchados por el autor (**1** para revisar) · **0** sin empezar
+**131** episodios · **1** publicados · **10** escuchados por el autor (**1** para revisar) · **0** sin empezar
 
 ## 2023
 
@@ -140,6 +140,7 @@
 | 28 | [028-work-hard](episodios/2019/028-work-hard) | Trabaja todo lo duro que puedas | 🟠 en revisión | — | — | — |
 | 29 | [029-meetings](episodios/2019/029-meetings) | Estate demasiado ocupado para quedar a tomar café | 🟠 en revisión | — | — | — |
 | 30 | [030-redefining](episodios/2019/030-redefining) | Redefine sin parar lo que haces | 🟠 en revisión | — | — | — |
+| 31 | [031-competition-authenticity](episodios/2019/031-competition-authenticity) | Escapa de la competencia siendo auténtico | 🟠 en revisión | — | — | — |
 | 35 | [035-finally-wealthy](episodios/2019/035-finally-wealthy) | Una mente en calma, un cuerpo en forma, una casa llena de amor | 🟠 en revisión | — | — | — |
 | 36 | [036-rich-quick](episodios/2019/036-rich-quick) | No existen los esquemas para hacerse rico rápido | 🟠 en revisión | — | — | — |
 | 37 | [037-productize-yourself](episodios/2019/037-productize-yourself) | Productízate a ti mismo | 🔵 generando TTS | — | — | — |

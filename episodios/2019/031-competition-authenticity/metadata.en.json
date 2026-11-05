@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 31,
+  "anio": 2019,
+  "slug": "competition-authenticity",
+  "titulo": "Escape Competition Through Authenticity",
+  "subtitulo": "Nobody can compete with you on being you",
+  "fecha_publicacion": "2019-05-16",
+  "fuente_url": "https://nav.al/competition-authenticity",
+  "orden_archivo": 35,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-05"
+}
