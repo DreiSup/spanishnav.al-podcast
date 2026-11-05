@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**116** episodios · **0** publicados · **1** escuchados por el autor · **0** sin empezar
+**116** episodios · **0** publicados · **2** escuchados por el autor · **0** sin empezar
 
 ## 2023
 
@@ -111,7 +111,7 @@
 | # | Episodio | Título en español | Estado | Escuchado | Drive | YouTube |
 |---|---|---|---|---|---|---|
 | 1 | [001-seek-wealth](episodios/2019/001-seek-wealth) | Busca riqueza, no dinero ni estatus | 🟣 montaje | ✅ 2026-11-05 | [📁](https://drive.google.com/drive/folders/11X4s-IkNs4qssipaPMRLE2wj-EJtuZBd) | — |
-| 2 | [002-ethical-wealth](episodios/2019/002-ethical-wealth) | Crea abundancia para el mundo | 🔵 generando TTS | — | — | — |
+| 2 | [002-ethical-wealth](episodios/2019/002-ethical-wealth) | Crea abundancia para el mundo | 🟣 montaje | ✅ 2026-11-05 | — | — |
 | 3 | [003-free-markets](episodios/2019/003-free-markets) | Los mercados libres son intrínsecos al ser humano | 🔵 generando TTS | — | — | — |
 | 4 | [004-money-luck](episodios/2019/004-money-luck) | Ganar dinero no depende de la suerte | 🔵 generando TTS | — | — | — |
 | 5 | [005-luck-destiny](episodios/2019/005-luck-destiny) | Haz de la suerte tu destino | 🔵 generando TTS | — | — | — |
