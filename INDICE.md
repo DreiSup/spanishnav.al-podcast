@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**116** episodios · **0** publicados · **5** escuchados por el autor · **0** sin empezar
+**116** episodios · **0** publicados · **7** escuchados por el autor · **0** sin empezar
 
 ## 2023
 
@@ -116,8 +116,8 @@
 | 4 | [004-money-luck](episodios/2019/004-money-luck) | Ganar dinero no depende de la suerte | 🟣 montaje | ✅ 2026-11-05 | — | — |
 | 5 | [005-luck-destiny](episodios/2019/005-luck-destiny) | Haz de la suerte tu destino | 🟣 montaje | ✅ 2026-11-05 | — | — |
 | 6 | [006-renting-time](episodios/2019/006-renting-time) | No te harás rico alquilando tu tiempo | 🔵 generando TTS | — | — | — |
-| 7 | [007-salary-freedom](episodios/2019/007-salary-freedom) | Vive por debajo de tus posibilidades para ser libre | 🔵 generando TTS | — | — | — |
-| 8 | [008-product-scale](episodios/2019/008-product-scale) | Dale a la sociedad lo que todavía no sabe cómo conseguir | 🔵 generando TTS | — | — | — |
+| 7 | [007-salary-freedom](episodios/2019/007-salary-freedom) | Vive por debajo de tus posibilidades para ser libre | 🟣 montaje | ✅ 2026-11-05 | — | — |
+| 8 | [008-product-scale](episodios/2019/008-product-scale) | Dale a la sociedad lo que todavía no sabe cómo conseguir | 🟣 montaje | ✅ 2026-11-05 | — | — |
 | 9 | [009-possible-careers](episodios/2019/009-possible-careers) | Internet ha ampliado enormemente las posibilidades profesionales | 🔵 generando TTS | — | — | — |
 | 10 | [010-long-term](episodios/2019/010-long-term) | Juega a juegos a largo plazo con gente a largo plazo | 🔵 generando TTS | — | — | — |
 | 11 | [011-intelligence-energy-integrity](episodios/2019/011-intelligence-energy-integrity) | Elige socios con inteligencia, energía e integridad | 🔵 generando TTS | — | — | — |

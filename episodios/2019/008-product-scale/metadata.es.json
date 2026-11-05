@@ -5,7 +5,7 @@
   "anio": 2019,
   "slug": "product-scale",
   "titulo_es": "Dale a la sociedad lo que todavía no sabe cómo conseguir",
-  "estado": "tts",
+  "estado": "montaje",
   "youtube": {
     "titulo": "Dale a la sociedad lo que todavía no sabe cómo conseguir",
     "descripcion": "",
@@ -30,9 +30,9 @@
   "audio_editado_a_mano": false,
   "heredado": null,
   "escucha": {
-    "escuchado": false,
-    "fecha": null,
-    "feedback": ""
+    "escuchado": true,
+    "fecha": "2026-11-05",
+    "feedback": "Escuchado entero por el autor: bueno, sin arreglos"
   },
   "notas": "En nav.al, Naval atribuye la cita sobre la tecnología a Alan Kay y la transcripción corrige: [correction: Danny Hillis]. El doblaje dice directamente Danny Hillis."
 }

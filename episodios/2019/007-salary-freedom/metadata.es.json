@@ -5,7 +5,7 @@
   "anio": 2019,
   "slug": "salary-freedom",
   "titulo_es": "Vive por debajo de tus posibilidades para ser libre",
-  "estado": "tts",
+  "estado": "montaje",
   "youtube": {
     "titulo": "Vive por debajo de tus posibilidades para ser libre",
     "descripcion": "",
@@ -30,9 +30,9 @@
   "audio_editado_a_mano": false,
   "heredado": null,
   "escucha": {
-    "escuchado": false,
-    "fecha": null,
-    "feedback": ""
+    "escuchado": true,
+    "fecha": "2026-11-05",
+    "feedback": "Escuchado entero por el autor: bueno, sin arreglos"
   },
   "notas": ""
 }
