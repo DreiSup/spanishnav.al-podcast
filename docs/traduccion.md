@@ -156,3 +156,4 @@ abiertas («…talk about sex.» sin «”»). Afecta solo al inglés, que no se
 | 2026-11-05 | 031 Escape Competition Through Authenticity | revision | 7 | 63 | 977 | 5,7 | Cero avisos. Parte del 052 (b178–b184); estilo indirecto; 20 frases cortas fundidas; profesión y afición |
 | 2026-11-05 | 032 Play Stupid Games, Win Stupid Prizes | revision | 3 | 26 | 464 | 2,7 | Cero avisos. Parte del 052 (b185–b187); la máxima del título en una sola frase; diez frases cortas fundidas |
 | 2026-11-05 | 033 Eventually You Will Get What You Deserve | revision | 4 | 43 | 724 | 4,3 | Cero avisos. Parte del 052 (b188–b191); la pregunta final es título de sección y no se dice; interés compuesto; estilo indirecto; 18 frases cortas fundidas |
+| 2026-11-05 | 034 Reject Most Advice | revision | 4 | 29 | 525 | 3,1 | Cero avisos. Parte del 052 (b192–b195); boleto de lotería premiado en todo el episodio; estilo indirecto; diez frases cortas fundidas |

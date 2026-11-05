@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 34,
+  "anio": 2019,
+  "slug": "reject-advice",
+  "titulo_es": "Rechaza la mayoría de los consejos",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Rechaza la mayoría de los consejos",
+    "descripcion": "",
+    "tags": [],
+    "url": "",
+    "url_original": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "publicacion": {
+    "fecha": "",
+    "audio_url": "",
+    "audio_bytes": 0,
+    "duracion_s": 0,
+    "feed_guid": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "escucha": {
+    "escuchado": false,
+    "resultado": null,
+    "fecha": null,
+    "feedback": ""
+  },
+  "notas": "Inglés sacado del Google Doc «2019 all podcasts» de Drive; cuadra palabra a palabra con el documento. Traducción: parte del español del 052 (b192 a b195, mismo inglés letra a letra), revisada frase a frase con los términos confirmados por el autor el 5-nov. Cambios sobre el 052: el tuit de Nivi, la frase de Scott Adams, las preguntas ante un consejo y lo que Naval se dice al recordar su tuit, en estilo indirecto; winning lottery ticket numbers va siempre como «los números de su boleto de lotería premiado» (el 052 mezcla «lotería premiada» y «boleto premiado»), también en el subtítulo; «Es un poco superficial» (glib) pasa a «Es un poco simplista»; fundidas diez frases cortas. b01 de Nivi queda en ratio 1,42 porque el tuit en estilo indirecto necesita más palabras; b03 en 0,88 por compresión. Escuchar en el TTS: Scott Adams."
+}

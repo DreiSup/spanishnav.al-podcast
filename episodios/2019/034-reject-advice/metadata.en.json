@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 34,
+  "anio": 2019,
+  "slug": "reject-advice",
+  "titulo": "Reject Most Advice",
+  "subtitulo": "Most advice is people giving you their winning lottery ticket numbers",
+  "fecha_publicacion": "2019-05-20",
+  "fuente_url": "https://nav.al/reject-advice",
+  "orden_archivo": 38,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-05"
+}
