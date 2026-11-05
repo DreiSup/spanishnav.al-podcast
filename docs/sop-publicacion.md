@@ -267,5 +267,9 @@ Nada más: ni los campos fijos, ni la explicación de cada pantalla.
 
 ## Pendiente
 
+- X: descartado (5-nov). Instagram, Facebook y TikTok: apuntados como opción futura, sin investigar.
+- Substack: «Distribute to Substack» → «I have a podcast hosted elsewhere» → feed (no «Import an existing podcast»,
+  que muda el alojamiento). Configurado el 5-nov; se valida cuando aparezca el 001.
+
 - Validar los apartados 1, 3, 4 y 5 en producción con el 001.
 - Capítulos de YouTube con `indice_master.tsv`.

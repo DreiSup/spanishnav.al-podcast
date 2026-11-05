@@ -106,28 +106,30 @@ masters publicables).
 | 5. Alta en YouTube, Spotify y Apple (una vez) | Pendiente |
 | 6. Publicar cada episodio y mover el estado a `publicado` | Pendiente |
 
-## 8. Estado del 001 y lo siguiente (5-nov)
+## 8. Estado del 001 y lo siguiente (5-nov, tarde)
 
-Hecho:
-- Master del 001 en Drive, dado por bueno sin escucharlo entero (queda escuchar el 4:33: «Creamos»/«Creemos»).
-- En R2 (`200`), en la web y en el feed, con la portada nueva. `metadata.es.json` del 001 en `montaje`, con el bloque
-  `publicacion` y `youtube.url_original`.
-- Master de la fábrica también en Drive: 002–016 y 037–039 (sin escuchar, sin revisar sus informes).
+**El 001 está publicado.** Escuchado entero por el autor: bueno, sin arreglos.
 
-**Lo siguiente (tras el `/compact`): publicar el 001 en todas partes, a mano, y escribir los SOP con lo que salga.**
-1. **YouTube** (sin RSS): el autor hace el `.mp4` con ffmpeg y lo sube en Studio. Título, descripción, miniatura,
-   lista «Naval Podcast en español», «contenido alterado: sí», categoría Educación, pública. Comando y tabla de campos
-   en la conversación del 5-nov; pasarlos a `docs/sop-publicacion.md` cuando se valide.
-2. **Spotify** con el feed (creators.spotify.com → programa existente → «Somewhere else» → código al correo).
-3. **Apple Podcasts** con el feed. El autor **no tiene cuenta de Apple**: crearla en account.apple.com con
-   `podcast@spanishnav.al` y verificación en dos pasos. Sin aparato de Apple, a veces Podcasts Connect exige activar
-   la cuenta en Apple Music/iTunes.
-4. **Substack** y quizá **X**: por investigar (si Substack lee el feed o pide subida, y vídeo largo en X sin Premium).
-5. Con cada enlace: ponerlo en la web (`lib/site.ts` → `platforms`), `youtube.url` del 001, estado `publicado`.
-6. Escribir los SOP de cada plataforma con lo validado.
+| Dónde | Cómo | Estado |
+|---|---|---|
+| Web y feed | `spanishnav.al/seek-wealth`, `podcast.xml` | Publicado |
+| YouTube | A mano (SOP 5 bis), canal `@spanishNavalR` | https://www.youtube.com/watch?v=s10rGZckyEo |
+| Spotify | Redirección 301 del programa que el autor ya tenía en Spotify for Creators → nuestro feed | Hecha el 5-nov; tarda hasta 7 días. No borrar el programa ni la cuenta antes del 12-nov |
+| Apple Podcasts | Borrador + Add RSS Feed → Publish | En revisión (id `6831305665`) |
+| Substack | «Distribute to Substack» → «I have a podcast hosted elsewhere» → feed | Configurado; el 001 debería aparecer solo |
+| X | — | **Descartado** por el autor (5-nov): sin RSS y sin Premium solo 2:20 de vídeo |
+
+Web (`lib/site.ts` → `platforms`): YouTube y Spotify en `main`. Faltan Apple (cuando lo aprueben) y Substack (URL de la
+publicación).
+
+**Cada episodio nuevo, desde ahora:** master → R2 → episodio en la web y push a `main` (con OK del autor) → Spotify,
+Apple y Substack lo cogen del feed solos. YouTube, a mano: la sesión le da al autor solo título y descripción.
+
+**Ideas apuntadas, sin empezar:** subir los episodios (o trozos) a Instagram, Facebook y TikTok. Ninguna lee RSS de
+podcast que se sepa; investigarlo cuando toque.
 
 Pendiente aparte: correo a Naval pidiendo permiso (ofrecido redactarlo); con el sí, pasar YouTube a RSS.
 
-Otros pendientes del autor, sin prisa: Substack, X, contenido corto (Instagram, Facebook, TikTok); limpiar los
+Otros pendientes del autor, sin prisa: contenido en Instagram, Facebook y TikTok; limpiar los
 registros DNS sobrantes de Upflare (`mail`, `ftp`, la parte `ip4`/`mailchannels` del SPF); el 052 (recopilación de
 1–50), decisión pendiente en `docs/contexto-sesion-global.md` §7.
