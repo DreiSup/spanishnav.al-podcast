@@ -55,6 +55,21 @@ Todo se cambia en `voces.json`, sin tocar código:
 
 ## Coste
 
+**Registro automático (desde el 5-nov).** Cada clip guarda en `registro_tts.jsonl` su tiempo de generación y la GPU.
+Con eso:
+
+- el `informe_tts.md` de cada episodio dice cuánto tiempo de GPU y cuántas unidades ha costado, rehechos incluidos;
+- `naval-podcast/coste_fabrica.jsonl` es el libro: una línea por episodio generado y una por sesión de Colab (la
+  sesión incluye cargar modelos y los ratos parados, que también se pagan);
+- la celda 6 rehace `naval-podcast/coste_fabrica.md`: la tabla de todos los episodios y el total. También se puede
+  ejecutar sin GPU (celdas 1–3 y 6), porque solo lee Drive.
+
+Las unidades son una estimación: tiempo × tarifa de la GPU (`voces.json`, «coste»). Si Colab muestra otra tarifa en
+«Recursos», se cambia ahí y el resumen se recalcula. Los clips anteriores al 5-nov no guardan la GPU y se cuentan
+como T4 (el primer 044 se hizo en una L4 y queda algo por debajo).
+
+### Mediciones
+
 Primera prueba (2-nov, 044, L4, frase a frase): **4,58 s de GPU por segundo de audio**, unas 22 unidades por hora
 de audio. Casi todo es Qwen esperando entre pasos pequeños, no Whisper ni los reintentos (ninguno en el 044).
 Desde el 2-nov las frases de cada intervención se generan en lotes (`motor.lote`) y cada frase lleva un tope

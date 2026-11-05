@@ -276,7 +276,8 @@ def _escribir_wav(ruta, audio, sr):
     tmp.rename(ruta)
 
 
-def generar_episodio(plan, sintetizar_lote, asr, carpeta, cfg, avisar=print, master=None, titulo=None, rehacer=None):
+def generar_episodio(plan, sintetizar_lote, asr, carpeta, cfg, avisar=print, master=None, titulo=None, rehacer=None,
+                     libro_coste=None, episodio=None):
     """Genera los clips que falten en <carpeta>/tts/, monta el master (si están todos) y reescribe el informe.
 
     `sintetizar_lote(textos, voz, intento)` → (audios, sr): las frases de cada intervención se generan juntas
@@ -351,7 +352,8 @@ def generar_episodio(plan, sintetizar_lote, asr, carpeta, cfg, avisar=print, mas
         t_total, s_total = t_total + dt, s_total + seg
         fila = {"fichero": p["fichero"], "bloque": p["bloque"], "voz": p["voz"], "segundos": round(seg, 2),
                 "segundos_generacion": round(dt, 1), "sr": sr, "frases": detalle,
-                "adaptador": cfg["voces"][p["voz"]].get("adaptador"), "firma": firma(p["voz"], cfg)}
+                "adaptador": cfg["voces"][p["voz"]].get("adaptador"), "firma": firma(p["voz"], cfg),
+                "gpu": cfg["motor"].get("gpu"), "fecha": time.strftime("%Y-%m-%dT%H:%M:%S")}
         with registro.open("a", encoding="utf-8") as fh:
             fh.write(json.dumps(fila, ensure_ascii=False) + "\n")
         hechos[p["fichero"]] = fila
@@ -366,8 +368,42 @@ def generar_episodio(plan, sintetizar_lote, asr, carpeta, cfg, avisar=print, mas
     if all((tts_dir / p["fichero"]).exists() for p in plan):
         inicios = montar_master(plan, tts_dir, master, titulo=titulo)
         avisar(f"Master: {master.name} ({inicios['_total'] / 60:.1f} min)")
-    escribir_informe(plan, hechos, carpeta, inicios, master)
+    escribir_informe(plan, hechos, carpeta, inicios, master, cfg)
+    if libro_coste and t_total:
+        gpu = cfg["motor"].get("gpu")
+        anotar_coste(libro_coste, {"tipo": "episodio", "episodio": episodio or Path(carpeta).name,
+                                   "fecha": time.strftime("%Y-%m-%dT%H:%M:%S"), "gpu": gpu,
+                                   "segundos_gpu": round(t_total, 1), "minutos_audio_generado": round(s_total / 60, 2),
+                                   "unidades_estimadas": round(unidades(t_total, gpu, cfg), 3),
+                                   "rehacer": bool(rehacer)})
+        avisar(f"Coste: {t_total / 60:.1f} min de {gpu} ≈ {unidades(t_total, gpu, cfg):.2f} unidades")
     return hechos
+
+
+def unidades(segundos, gpu, cfg):
+    """Unidades de Colab estimadas para `segundos` de una GPU, con las tarifas de voces.json («coste»)."""
+    tarifas = cfg.get("coste", {}).get("unidades_por_hora", {})
+    nombre = next((k for k in tarifas if k.lower() in str(gpu or "").lower()), cfg.get("coste", {}).get("por_defecto"))
+    return segundos / 3600 * tarifas.get(nombre, 0)
+
+
+def anotar_coste(libro, fila):
+    """Una línea más en coste_fabrica.jsonl (naval-podcast/): el libro de lo que ha costado la fábrica."""
+    with Path(libro).open("a", encoding="utf-8") as fh:
+        fh.write(json.dumps(fila, ensure_ascii=False) + "\n")
+
+
+def coste_de_carpeta(carpeta, cfg):
+    """Tiempo de GPU y unidades de un episodio, sumando TODAS las líneas de su registro (también lo rehecho). Las
+    líneas anteriores al 5-nov no guardan la GPU: se toma la de 'por_defecto' (T4)."""
+    registro = Path(carpeta) / "registro_tts.jsonl"
+    if not registro.exists():
+        return None
+    filas = [json.loads(l) for l in registro.read_text(encoding="utf-8").splitlines() if l.strip()]
+    seg = sum(f.get("segundos_generacion", 0) for f in filas)
+    uds = sum(unidades(f.get("segundos_generacion", 0), f.get("gpu"), cfg) for f in filas)
+    gpus = sorted({f.get("gpu") or f"{cfg.get('coste', {}).get('por_defecto', '?')} (supuesta)" for f in filas})
+    return {"segundos_gpu": seg, "unidades": uds, "gpus": gpus, "lineas": len(filas)}
 
 
 def leer_registro(carpeta):
@@ -382,7 +418,7 @@ def leer_registro(carpeta):
     return hechos
 
 
-def rehacer_master(plan, carpeta, master, titulo=None, avisar=print):
+def rehacer_master(plan, carpeta, master, titulo=None, avisar=print, cfg=None):
     """Solo el master y el informe, sin GPU: para cuando se ha arreglado a mano un clip de tts/ (Audacity)."""
     tts_dir = Path(carpeta) / "tts"
     faltan = [p["fichero"] for p in plan if not (tts_dir / p["fichero"]).exists()]
@@ -390,7 +426,7 @@ def rehacer_master(plan, carpeta, master, titulo=None, avisar=print):
         avisar(f"  faltan clips, no hay master: {faltan}")
         return None
     inicios = montar_master(plan, tts_dir, master, titulo=titulo)
-    escribir_informe(plan, leer_registro(carpeta), carpeta, inicios, master)
+    escribir_informe(plan, leer_registro(carpeta), carpeta, inicios, master, cfg)
     avisar(f"  master: {Path(master).name} ({inicios['_total'] / 60:.1f} min)")
     return inicios
 
@@ -399,11 +435,14 @@ def _mmss(segundos):
     return f"{int(segundos // 60)}:{segundos % 60:04.1f}"
 
 
-def escribir_informe(plan, hechos, carpeta, inicios=None, master=None):
+def escribir_informe(plan, hechos, carpeta, inicios=None, master=None, cfg=None):
     """informe_tts.md: qué clips hay, cuánto duran, dónde empiezan en el master y qué frases son sospechosas."""
     total = sum(f["segundos"] for f in hechos.values())
+    coste = coste_de_carpeta(carpeta, cfg) if cfg else None
+    linea_coste = (f"Generarlo ha costado {coste['segundos_gpu'] / 60:.1f} min de GPU ({', '.join(coste['gpus'])}), "
+                   f"unas **{coste['unidades']:.2f} unidades** de Colab, rehechos incluidos. " if coste else "")
     lineas = [f"# Clips de TTS — {Path(carpeta).name}", "",
-              f"{len(hechos)} de {len(plan)} clips · {total / 60:.1f} min. "
+              f"{len(hechos)} de {len(plan)} clips · {total / 60:.1f} min. " + linea_coste
               + (f"Master: `audio/{Path(master).name}`. " if inicios else "Sin master: faltan clips. ")
               + "Las frases **sospechosas** no pasaron la revisión de Whisper ni con los reintentos: si al escuchar el "
               "master algo suena raro, empieza por ahí (el minuto es el del master).",
@@ -502,6 +541,7 @@ class MotorQwen:
         import torch
         from qwen_tts import Qwen3TTSModel
         self.torch, self.cfg = torch, cfg
+        cfg["motor"]["gpu"] = torch.cuda.get_device_name(0) if torch.cuda.is_available() else "CPU"
         dtype = torch.bfloat16 if torch.cuda.is_bf16_supported() else torch.float16
         self.tts = Qwen3TTSModel.from_pretrained(cfg["motor"]["modelo"], device_map="cuda:0", dtype=dtype,
                                                  attn_implementation="sdpa")
@@ -584,3 +624,34 @@ class MotorQwen:
                 non_streaming_mode=self.cfg["motor"]["non_streaming_mode"],
                 max_new_tokens=max(tope_pasos(t) for t in textos), **self._muestreo(voz))
         return list(wavs), sr
+
+
+def resumen_coste(raiz_episodios, cfg, destino=None):
+    """Coste de todo lo generado: una fila por episodio (sumando su registro_tts.jsonl) y el total. Lo escribe en
+    `destino` (coste_fabrica.md) si se pasa. No cuenta el tiempo de cargar modelos ni las sesiones paradas: eso está
+    en las líneas «sesion» de coste_fabrica.jsonl."""
+    filas = []
+    for carpeta in sorted(Path(raiz_episodios).glob("*/*")):
+        if not carpeta.is_dir():
+            continue
+        subs = [carpeta] + sorted(d for d in carpeta.iterdir() if d.is_dir() and (d / "registro_tts.jsonl").exists())
+        for sub in subs:
+            c = coste_de_carpeta(sub, cfg)
+            if not c:
+                continue
+            audio = sum(f["segundos"] for f in leer_registro(sub).values()) / 60
+            nombre = f"{carpeta.parent.name}/{carpeta.name}" + (f" ({sub.name})" if sub != carpeta else "")
+            filas.append((nombre, audio, c["segundos_gpu"] / 60, c["unidades"], ", ".join(c["gpus"])))
+    tot_a, tot_g, tot_u = (sum(f[i] for f in filas) for i in (1, 2, 3))
+    lineas = ["# Coste de la fábrica", "", f"Generado por fabrica.resumen_coste el {time.strftime('%Y-%m-%d %H:%M')}. "
+              "Unidades estimadas con las tarifas de voces.json («coste»); solo el tiempo de generación (sin cargar "
+              "modelos ni ratos parados, que están en las líneas «sesion» de coste_fabrica.jsonl).", "",
+              f"**Total: {len(filas)} carpetas · {tot_a:.1f} min de audio · {tot_g:.1f} min de GPU · "
+              f"{tot_u:.2f} unidades**", "", "| Episodio | Audio (min) | GPU (min) | Unidades | GPU |",
+              "|---|---|---|---|---|"]
+    lineas += [f"| {n} | {a:.1f} | {g:.1f} | {u:.2f} | {gp} |" for n, a, g, u, gp in filas]
+    texto = "\n".join(lineas) + "\n"
+    if destino:
+        Path(destino).write_text(texto, encoding="utf-8")
+    return texto
+

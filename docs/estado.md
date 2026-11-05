@@ -132,6 +132,10 @@ La **fase 1** (elegir motor) está casi cerrada:
 - **001–016 generados** (5-nov) con la voz final, cero frases sospechosas (estado `tts`). **El 001, escuchado entero
   por el autor y dado por bueno** (estado `montaje`, listo para publicar); 002–016, pendientes de escucha.
 
+- **Coste por episodio** (5-nov): la fábrica anota tiempo de GPU y unidades estimadas en cada informe, en
+  `naval-podcast/coste_fabrica.jsonl` (episodios y sesiones) y en `naval-podcast/coste_fabrica.md` (resumen de todo,
+  celda 6). Tarifas en `voces.json` («coste»). 068 Kapil generado: 39,7 min de audio.
+
 ## Esperando a que termine
 
 | Qué | Dónde corre | Resultado esperado |
