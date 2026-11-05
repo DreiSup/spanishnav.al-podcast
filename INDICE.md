@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**116** episodios · **0** publicados · **4** escuchados por el autor · **0** sin empezar
+**116** episodios · **0** publicados · **5** escuchados por el autor · **0** sin empezar
 
 ## 2023
 
@@ -114,7 +114,7 @@
 | 2 | [002-ethical-wealth](episodios/2019/002-ethical-wealth) | Crea abundancia para el mundo | 🟣 montaje | ✅ 2026-11-05 | — | — |
 | 3 | [003-free-markets](episodios/2019/003-free-markets) | Los mercados libres son intrínsecos al ser humano | 🟣 montaje | ✅ 2026-11-05 | — | — |
 | 4 | [004-money-luck](episodios/2019/004-money-luck) | Ganar dinero no depende de la suerte | 🟣 montaje | ✅ 2026-11-05 | — | — |
-| 5 | [005-luck-destiny](episodios/2019/005-luck-destiny) | Haz de la suerte tu destino | 🔵 generando TTS | — | — | — |
+| 5 | [005-luck-destiny](episodios/2019/005-luck-destiny) | Haz de la suerte tu destino | 🟣 montaje | ✅ 2026-11-05 | — | — |
 | 6 | [006-renting-time](episodios/2019/006-renting-time) | No te harás rico alquilando tu tiempo | 🔵 generando TTS | — | — | — |
 | 7 | [007-salary-freedom](episodios/2019/007-salary-freedom) | Vive por debajo de tus posibilidades para ser libre | 🔵 generando TTS | — | — | — |
 | 8 | [008-product-scale](episodios/2019/008-product-scale) | Dale a la sociedad lo que todavía no sabe cómo conseguir | 🔵 generando TTS | — | — | — |
