@@ -45,7 +45,8 @@ CÓMO REVISAS CADA EPISODIO:
   por episodio, su línea en docs/traduccion.md y push. No cambies el estado: el paso a «tts» lo da el autor.
 
 DEPENDENCIAS ENTRE EPISODIOS (si cambias una frase, cámbiala en todos donde esté):
-- 046–050 son fragmentos de 052 How to Get Rich y reutilizan su texto.
+- 052 How to Get Rich es la recopilación de 001–050; hoy sus frases y las de los cortos están traducidas por
+  separado (ver el bloque de Naval y Nivi).
 - 077 Happiness es la recopilación de 053–067.
 - 105 y 130 (The Beginning of Infinity, partes 1 y 2) son las recopilaciones de 072–104 y 106–129.
 - Un término que cambia en un episodio cambia en toda la serie y en GLOSARIO.md.
