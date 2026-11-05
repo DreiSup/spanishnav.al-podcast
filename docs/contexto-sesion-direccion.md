@@ -1,7 +1,7 @@
 # Contexto de la sesión de dirección
 
 Memoria de la sesión global (dirección del proyecto) para retomarla tras un `/compact` o en una sesión nueva.
-Última actualización: 2026-11-04. Rama: `claude/quirky-dirac-x18c3n`.
+Última actualización: 2026-11-05. Rama: `claude/quirky-dirac-x18c3n`.
 
 Se lee después de `CLAUDE.md` y `docs/contexto-sesion-global.md` (traspaso de la sesión técnica, con sus
 decisiones). Aquí está lo que **no** está en esos dos: infraestructura de publicación, decisiones tomadas con el
@@ -37,6 +37,10 @@ transcripts: si un SOP necesita un cambio técnico, se describe y el autor se lo
 | 4-nov | Datos fijos del feed y plantilla de descripción: `docs/sop-publicacion.md`, apartados 1 y 3. |
 | 4-nov | Modelos en la descripción con nombre concreto: **Claude Opus 5.5 (esfuerzo alto)** y **Qwen3-TTS**. |
 | 4-nov | Primer episodio que estrena el SOP completo: **001 Seek Wealth** (se publica en orden desde el 1). |
+| 5-nov | **YouTube a mano, sin RSS, hasta tener permiso de Naval.** Las condiciones del servicio de RSS de YouTube obligan a garantizar que tienes los derechos; el autor no las aceptó. Se sube el `.mp4` (imagen fija + audio, con ffmpeg) en YouTube Studio, declarando «contenido alterado: sí». Spotify y Apple sí van por el feed. Riesgo aceptado mientras llega el permiso: también las condiciones generales de YouTube, Spotify y Apple piden derechos. |
+| 5-nov | Dominio principal **`spanishnav.al`** (sin www), sin redirección; `www` también sirve la web. Feed: `https://spanishnav.al/podcast.xml`. |
+| 5-nov | **Portada nueva del feed** (logo «en español» del autor), en `public/portada.jpg` (2000×2000, ampliada de la 1254 que llegó por el chat), ya en `main`. La rectangular de YouTube no cambia. Carpeta `naval-podcast/portadas` en Drive (id `1AZ-AILhxbmgraVm_QxIwnmAOq_xo1i9L`): el autor sube ahí la 4K original y la de 2000. |
+| 5-nov | **Cortos dentro de largos** (`docs/cortos-y-largos.md`, `cortos.json`): 077, 105 y 130 se generan una vez y sus 71 cortos se montan con sus clips. In the Arena y AI Industrial Revolution, igual cuando se traduzcan. El 052 se monta uniendo los cortos 001–050. Instrucciones para la sesión técnica escritas; **el autor las pasará cuando quiera**, no es prioridad. |
 
 ## 4. Infraestructura de publicación (todo montado)
 
@@ -44,9 +48,9 @@ transcripts: si un SOP necesita un cambio técnico, se describe y el autor se lo
 |---|---|---|
 | Dominio | Registrado en **Upflare** | DNS en Cloudflare (`ara`/`jasper.ns.cloudflare.com`), zona activa desde el 31-oct |
 | Web | **Vercel**, repo `DreiSup/spanishnaval-web` | Next.js 16. `main` = producción. Rama de trabajo `claude/cool-heisenberg-5ecig9` |
-| Audio público | **R2**, bucket `spanishnaval` | `https://audio.spanishnav.al/<año>/<NNN>-<slug>.mp3` (aún vacío) |
+| Audio público | **R2**, bucket `spanishnaval` | `https://audio.spanishnav.al/<año>/<NNN>-<slug>.mp3`. Tiene el 001 |
 | Subida a R2 | **rclone**, remoto `r2`, en el ordenador del autor | Account API token, Object Read & Write, solo `spanishnaval`. La clave nunca pasa por un chat |
-| Portadas | Repo de la web, `public/portada.jpg` (2000×2000) y `public/portada-youtube.jpg` (1677×938) | En la rama `claude/cool-heisenberg-5ecig9`, **aún no en `main`** |
+| Portadas | Repo de la web, `public/portada.jpg` (2000×2000) y `public/portada-youtube.jpg` (1677×938) | En `main` (producción) |
 | Correo | **Zoho**, `podcast@spanishnav.al` | DMARC `p=reject`: cuidado con los TXT |
 
 Las sesiones web de Claude **no llegan** a R2, `audio.spanishnav.al`, `spanishnav.al`, YouTube ni nav.al (proxy).
@@ -54,10 +58,11 @@ Vercel sí se consulta por su conector (`get_domain_config`). Drive, por el cone
 
 ### La web hoy
 
-- Episodios escritos a mano en `lib/episodes.ts` (dos de prueba: `seek-wealth` con un audio de XTTS y
-  `ethical-wealth` en inglés). **Siguen públicos.** Hay que sustituirlos por el 001 real.
-- `lib/site.ts`: `AUDIO_BASE = 'https://audio.spanishnav.al'`, plataformas a `null` (se muestran como
-  «Próximamente»), `feed: null`.
+- **En producción el 001 real** (5-nov), sin los episodios de prueba. Su texto sale de
+  `content/episodios/2019/001-seek-wealth.json` (copia del `transcript.es.json`); audio y fechas en `lib/episodes.ts`.
+- Feed **`/podcast.xml`** (`lib/feed.ts`, estático): datos fijos en `lib/site.ts` → `podcast`, descripción de cada
+  episodio con la plantilla del SOP. Fecha de cada episodio = la de publicación de la traducción.
+- `lib/site.ts`: plataformas a `null` («Próximamente») hasta tener los enlaces; `feed: '/podcast.xml'`.
 - Rutas: `/`, `/<slug>`, `/archivo`, `/suscribirse`, `/buscar`, `/categoria/<slug>`, 404. `/riqueza` redirige a
   `/seek-wealth`.
 - El feed RSS **no existe todavía**: se generará en la web (`spanishnav.al/podcast.xml`, a confirmar).
@@ -101,22 +106,27 @@ masters publicables).
 | 5. Alta en YouTube, Spotify y Apple (una vez) | Pendiente |
 | 6. Publicar cada episodio y mover el estado a `publicado` | Pendiente |
 
-## 8. Estado del 001 y pendiente inmediato (4-nov, noche)
+## 8. Estado del 001 y lo siguiente (5-nov)
 
 Hecho:
-- Master del 001 comprobado por datos (4/4 clips, 6:54, sin sospechosas). **No escuchado entero**: el autor lo dio
-  por bueno; queda escuchar el 4:33 («Creamos» / «Creemos»).
-- Subido a R2: `https://audio.spanishnav.al/2019/001-seek-wealth.mp3` respondió `200`.
-- `metadata.es.json`: campos nuevos `youtube.url_original` y bloque `publicacion` (plantilla y 001). 001 en
-  `montaje`, con los IDs de Drive.
-- Web (rama `claude/cool-heisenberg-5ecig9`, commit «Publica el episodio 1 real…»): fuera los episodios de prueba,
-  001 real desde su `transcript.es.json`, feed `/podcast.xml`. **Falta pasarlo a `main`** (el permiso de la sesión
-  bloqueó el push a producción; lo tiene que autorizar o hacer el autor).
+- Master del 001 en Drive, dado por bueno sin escucharlo entero (queda escuchar el 4:33: «Creamos»/«Creemos»).
+- En R2 (`200`), en la web y en el feed, con la portada nueva. `metadata.es.json` del 001 en `montaje`, con el bloque
+  `publicacion` y `youtube.url_original`.
+- Master de la fábrica también en Drive: 002–016 y 037–039 (sin escuchar, sin revisar sus informes).
 
-Pendiente:
-1. `main` de la web → comprobar `https://spanishnav.al/podcast.xml` y `/seek-wealth` en producción.
-2. Altas (`docs/sop-publicacion.md` §5): YouTube, Spotify, Apple. Códigos a `podcast@spanishnav.al`.
-3. Poner los enlaces de las plataformas en `lib/site.ts` → `platforms`; `youtube.url` del 001; estado `publicado`.
+**Lo siguiente (tras el `/compact`): publicar el 001 en todas partes, a mano, y escribir los SOP con lo que salga.**
+1. **YouTube** (sin RSS): el autor hace el `.mp4` con ffmpeg y lo sube en Studio. Título, descripción, miniatura,
+   lista «Naval Podcast en español», «contenido alterado: sí», categoría Educación, pública. Comando y tabla de campos
+   en la conversación del 5-nov; pasarlos a `docs/sop-publicacion.md` cuando se valide.
+2. **Spotify** con el feed (creators.spotify.com → programa existente → «Somewhere else» → código al correo).
+3. **Apple Podcasts** con el feed. El autor **no tiene cuenta de Apple**: crearla en account.apple.com con
+   `podcast@spanishnav.al` y verificación en dos pasos. Sin aparato de Apple, a veces Podcasts Connect exige activar
+   la cuenta en Apple Music/iTunes.
+4. **Substack** y quizá **X**: por investigar (si Substack lee el feed o pide subida, y vídeo largo en X sin Premium).
+5. Con cada enlace: ponerlo en la web (`lib/site.ts` → `platforms`), `youtube.url` del 001, estado `publicado`.
+6. Escribir los SOP de cada plataforma con lo validado.
+
+Pendiente aparte: correo a Naval pidiendo permiso (ofrecido redactarlo); con el sí, pasar YouTube a RSS.
 
 Otros pendientes del autor, sin prisa: Substack, X, contenido corto (Instagram, Facebook, TikTok); limpiar los
 registros DNS sobrantes de Upflare (`mail`, `ftp`, la parte `ip4`/`mailchannels` del SPF); el 052 (recopilación de
