@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 19,
+  "anio": 2019,
+  "slug": "accountability-leverage",
+  "titulo": "Embrace Accountability to Get Leverage",
+  "subtitulo": "Take risks under your own name and society will reward you with leverage",
+  "fecha_publicacion": "2019-04-11",
+  "fuente_url": "https://nav.al/accountability-leverage",
+  "orden_archivo": 23,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-05"
+}

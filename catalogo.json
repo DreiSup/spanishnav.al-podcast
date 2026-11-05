@@ -25,7 +25,7 @@
     {"orden": 20, "titulo": "Read What You Love Until You Love to Read", "fecha": "2019-04-03", "url": "https://nav.al/love-read", "tiene_transcript": true},
     {"orden": 21, "titulo": "The Foundations Are Math and Logic", "fecha": "2019-04-05", "url": "https://nav.al/math-logic", "tiene_transcript": true},
     {"orden": 22, "titulo": "There's No Actual Skill Called \"Business\"", "fecha": "2019-04-08", "url": "https://nav.al/skill-business", "tiene_transcript": true},
-    {"orden": 23, "titulo": "Embrace Accountability to Get Leverage", "fecha": "2019-04-11", "url": "https://nav.al/accountability-leverage", "tiene_transcript": null},
+    {"orden": 23, "titulo": "Embrace Accountability to Get Leverage", "fecha": "2019-04-11", "url": "https://nav.al/accountability-leverage", "tiene_transcript": true},
     {"orden": 24, "titulo": "Take Accountability to Earn Equity", "fecha": "2019-04-13", "url": "https://nav.al/accountability-equity", "tiene_transcript": null},
     {"orden": 25, "titulo": "Labor and Capital Are Old Leverage", "fecha": "2019-04-15", "url": "https://nav.al/labor-capital", "tiene_transcript": null},
     {"orden": 26, "titulo": "Product and Media are New Leverage", "fecha": "2019-04-17", "url": "https://nav.al/product-media", "tiene_transcript": null},

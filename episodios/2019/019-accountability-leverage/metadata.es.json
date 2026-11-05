@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 19,
+  "anio": 2019,
+  "slug": "accountability-leverage",
+  "titulo_es": "Asume la responsabilidad para conseguir apalancamiento",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Asume la responsabilidad para conseguir apalancamiento",
+    "descripcion": "",
+    "tags": [],
+    "url": "",
+    "url_original": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "publicacion": {
+    "fecha": "",
+    "audio_url": "",
+    "audio_bytes": 0,
+    "duracion_s": 0,
+    "feed_guid": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "escucha": {
+    "escuchado": false,
+    "resultado": null,
+    "fecha": null,
+    "feedback": ""
+  },
+  "notas": "Inglés sacado del Google Doc «2019 all podcasts» de Drive; cuadra palabra a palabra con el documento. Traducción: parte del español del 052 (b104 a b108, mismo inglés letra a letra), revisada frase a frase con los términos confirmados por el autor el 5-nov. Cambios sobre el 052: en b01 el tuit va en estilo indirecto y la colisión entre accountability y responsibility se resuelve según GLOSARIO («asumas la responsabilidad», «te recompensará con cargos de responsabilidad, equity y apalancamiento»; el 052 dice «capital», que choca con el capital como apalancamiento); título «Asume la responsabilidad para conseguir apalancamiento» (el 052 dice «Asume responsabilidad»); fundidas 17 frases cortas (las preguntas sobre Trump van con su respuesta en la misma frase; la enumeración de responsables de b04; la lista de riesgos de b05); partidas las de 45, 37 y 36 palabras; calcos fuera: «vuela de las estanterías» pasa a «se agota en las tiendas», «validador instantáneo» a «sello de garantía», «ojo público» a «punto de mira», «poner su nombre ahí fuera» a «exponer su nombre», «cableados» a «programados», «el tío» a «él», «la lía» a «se equivoca»; los mensajes que recibió Naval y el voto a Trump en estilo indirecto; crypto como «el mundo cripto». Escuchar en el TTS: Kanye, Oprah, Trump, Trump Casino, Elon, online, startups."
+}
