@@ -1,0 +1,112 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2019/018-skill-business",
+  "numero": 18,
+  "fecha": "2019-04-08",
+  "titulo": "No existe una habilidad que se llame negocios",
+  "subtitulo": "Evita las escuelas de negocios y las revistas de negocios",
+  "fuente_url": "https://nav.al/skill-business",
+  "titulos_seccion": [
+    "Hacer es más rápido que mirar",
+    "Lo que marca la curva de aprendizaje es el número de iteraciones haciendo",
+    "Si estás dispuesto a sangrar un poco cada día, puedes ganar a lo grande más adelante"
+  ],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "En ese sentido, para mí los negocios están en el último escalón.",
+        "No existe una habilidad de verdad que se llame negocios, es demasiado genérica.",
+        "Es como una habilidad que se llamara relacionarse, relacionarse con humanos.",
+        "Eso no es una habilidad, es demasiado amplia.",
+        "En las escuelas de negocios se enseñan cosas muy inteligentes, no quiero desmerecerlas del todo, pero algunas de las cosas que se enseñan allí no son más que anécdotas.",
+        "Ellos las llaman casos prácticos, pero son solo anécdotas.",
+        "Tratan de ayudarte a reconocer patrones lanzándote un montón de datos, pero la realidad es que nunca vas a entenderlos del todo hasta que estés tú mismo en esa posición.",
+        "E incluso entonces descubrirás que los conceptos básicos de teoría de juegos, psicología, ética, matemáticas, ordenadores y lógica te van a servir muchísimo mejor.",
+        "Yo me centraría en los fundamentos, y me centraría con un enfoque científico.",
+        "Desarrollaría el amor por la lectura, incluso leyendo la llamada comida basura que se supone que no deberías leer.",
+        "No hace falta que leas los clásicos, y esa lectura es la base de tu propia autoeducación."
+      ]
+    },
+    {
+      "id": "b02-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "¿Qué querías decir cuando dijiste que hacer es más rápido que mirar?"
+      ]
+    },
+    {
+      "id": "b03-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Cuando se trata de tu curva de aprendizaje, si quieres optimizarla, hay algo que tener en cuenta.",
+        "Una de las razones por las que no me encantan los podcasts, aunque yo mismo hago podcasts, es que a mí me gusta consumir la información muy rápido.",
+        "Soy buen lector, o más bien un lector rápido, y puedo leer muy deprisa, pero solo puedo escuchar a cierta velocidad.",
+        "Sé que hay gente que escucha al doble o al triple de velocidad, pero entonces todos suenan como ardillas y es difícil volver atrás.",
+        "Es difícil subrayar, es difícil localizar fragmentos y guardarlos en tu cuaderno, y cosas así.",
+        "De forma parecida, mucha gente cree que puede volverse muy buena en algo viendo a otros hacerlo, o incluso leyendo sobre otros que lo hacen.",
+        "Y volviendo a los casos prácticos de la escuela de negocios, ese es el ejemplo clásico.",
+        "Estudian los negocios de otras personas, pero en realidad vas a aprender mucho más sobre llevar un negocio montando tu propio puesto de limonada o algo equivalente.",
+        "O incluso abriendo una pequeña tienda en la calle de al lado.",
+        "Así es como vas a aprender sobre la marcha, porque muchas de las sutilezas no se manifiestan hasta que estás de verdad dentro del negocio.",
+        "Por ejemplo, ahora mismo todo el mundo está con los modelos mentales.",
+        "Vas a Farnam Street, vas a Poor Charlie's Almanack, y puedes aprender todos los modelos mentales distintos.",
+        "¿Pero cuáles importan más?",
+        "¿Cuáles aplicas más a menudo?",
+        "¿Cuáles importan en qué circunstancias?",
+        "Esa es, en realidad, la parte difícil.",
+        "Por ejemplo, lo que yo he aprendido personalmente es que el problema del principal y el agente mueve muchísimas cosas en este mundo, y es un problema de incentivos.",
+        "He aprendido que el dilema del prisionero iterado, con la estrategia del toma y daca, es la pieza de teoría de juegos que más merece la pena conocer.",
+        "Casi puedes cerrar el libro de teoría de juegos después de eso.",
+        "Por cierto, la mejor manera de aprender teoría de juegos es jugar a muchos juegos.",
+        "Yo ni siquiera he leído nunca libros de teoría de juegos, y me considero extremadamente bueno en teoría de juegos.",
+        "Nunca he abierto un libro de teoría de juegos y he encontrado dentro un resultado del que no pensara que, para mí, era de sentido común.",
+        "La razón es que crecí jugando a todo tipo de juegos y me topé con todo tipo de casos límite con todo tipo de amigos, así que para mí es algo natural.",
+        "Siempre puedes aprender mejor haciéndolo sobre la marcha."
+      ]
+    },
+    {
+      "id": "b04-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Pero hacer es algo sutil, y engloba muchas cosas.",
+        "Por ejemplo, digamos que quiero aprender a llevar un negocio.",
+        "Bueno, digamos que monto un negocio al que voy cada día a hacer lo mismo, una tienda en la calle de al lado donde repongo las estanterías con comida y bebida todos los días.",
+        "No voy a aprender mucho, porque estoy repitiendo lo mismo una y otra vez.",
+        "Así que estoy metiendo miles de horas, pero son miles de horas haciendo lo mismo.",
+        "En cambio, si estuviera metiendo miles de iteraciones, eso sería distinto.",
+        "O sea, la curva de aprendizaje va por iteraciones.",
+        "Así que sería distinto si estuviera probando experimentos de marketing nuevos en la tienda todo el rato, cambiando constantemente el inventario, la marca y el mensaje, y cambiando constantemente el cartel.",
+        "Sería distinto si cambiara constantemente los canales online que se usan para atraer gente a la tienda, y si experimentara con abrir a horas diferentes.",
+        "También si pudiera dar una vuelta, hablar con otros dueños de tiendas, ver sus cuentas y averiguar cómo llevan sus negocios.",
+        "Es el número de iteraciones lo que impulsa la curva de aprendizaje.",
+        "Así que cuantas más iteraciones puedas tener, cuantos más tiros a puerta puedas tener, más rápido vas a aprender.",
+        "No va solo de las horas invertidas."
+      ]
+    },
+    {
+      "id": "b05-naval",
+      "speaker": "Naval",
+      "frases": [
+        "En realidad es una combinación de las dos cosas.",
+        "Pero creo que, por cómo estamos hechos y por cómo se nos presenta el mundo, el mundo nos ofrece muy fácilmente la oportunidad de hacer lo mismo una y otra vez.",
+        "Pero de verdad nos iría mucho mejor si saliéramos a buscar formas de hacer cosas nuevas desde cero.",
+        "Y hacer algo nuevo por primera vez es doloroso, porque te estás metiendo en terreno incierto y hay muchas probabilidades de que fracases.",
+        "Así que tienes que acostumbrarte muchísimo a los fracasos pequeños y frecuentes.",
+        "Nassim Taleb también habla de esto, y él hizo su fortuna, su riqueza, siendo un operador de mercado que básicamente se apoyaba en los cisnes negros.",
+        "Nassim Taleb ganaba dinero perdiendo un poquito de dinero cada día y luego, muy de vez en cuando, ganaba muchísimo dinero cuando pasaba lo impensable para los demás.",
+        "En cambio, la mayoría de la gente quiere ganar un poquito de dinero cada día y, a cambio, tolera mucho riesgo de saltar por los aires, tolera acabar completamente en bancarrota.",
+        "La evolución no nos ha preparado para sangrar un poco cada día.",
+        "Si estás en plena naturaleza, te haces un corte y estás literalmente sangrando un poco cada día, al final morirás, así que tienes que cerrar esa herida.",
+        "Estamos hechos para las pequeñas victorias constantes, pero eso acaba saliendo muy caro.",
+        "Ahí es donde está la multitud, ahí es donde está el rebaño.",
+        "Así que, si estás dispuesto a sangrar un poco cada día pero a cambio vas a ganar a lo grande más adelante, te irá mejor.",
+        "Eso, por cierto, es el emprendimiento, porque los emprendedores sangran cada día.",
+        "No están ganando dinero, están perdiendo dinero, están constantemente estresados y toda la responsabilidad recae sobre ellos.",
+        "Pero cuando ganan, ganan a lo grande, y de media acaban ganando más."
+      ]
+    }
+  ]
+}

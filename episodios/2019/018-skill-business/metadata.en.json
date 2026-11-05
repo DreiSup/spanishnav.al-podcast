@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 18,
+  "anio": 2019,
+  "slug": "skill-business",
+  "titulo": "There's No Actual Skill Called \"Business\"",
+  "subtitulo": "Avoid business schools and magazines",
+  "fecha_publicacion": "2019-04-08",
+  "fuente_url": "https://nav.al/skill-business",
+  "orden_archivo": 22,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-05"
+}

@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**117** episodios · **1** publicados · **10** escuchados por el autor (**1** para revisar) · **0** sin empezar
+**118** episodios · **1** publicados · **10** escuchados por el autor (**1** para revisar) · **0** sin empezar
 
 ## 2023
 
@@ -127,6 +127,7 @@
 | 15 | [015-build-sell](episodios/2019/015-build-sell) | Aprende a vender, aprende a construir | 🔵 generando TTS | — | — | — |
 | 16 | [016-love-read](episodios/2019/016-love-read) | Lee lo que te encante hasta que te encante leer | 🔵 generando TTS | — | — | — |
 | 17 | [017-math-logic](episodios/2019/017-math-logic) | Los cimientos son las matemáticas y la lógica | 🟠 en revisión | — | — | — |
+| 18 | [018-skill-business](episodios/2019/018-skill-business) | No existe una habilidad que se llame negocios | 🟠 en revisión | — | — | — |
 | 35 | [035-finally-wealthy](episodios/2019/035-finally-wealthy) | Una mente en calma, un cuerpo en forma, una casa llena de amor | 🟠 en revisión | — | — | — |
 | 36 | [036-rich-quick](episodios/2019/036-rich-quick) | No existen los esquemas para hacerse rico rápido | 🟠 en revisión | — | — | — |
 | 37 | [037-productize-yourself](episodios/2019/037-productize-yourself) | Productízate a ti mismo | 🔵 generando TTS | — | — | — |
