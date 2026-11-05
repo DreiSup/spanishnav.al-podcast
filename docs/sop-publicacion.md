@@ -170,21 +170,42 @@ Los mismos datos se apuntan en `metadata.es.json` → `publicacion` (`fecha`, `a
 
 ## 5. Alta en las plataformas (una sola vez)
 
-> **Pendiente.** Requisito: el feed en producción con al menos un episodio. Las tres mandan un código de
-> verificación a `podcast@spanishnav.al` (el `itunes:email` del feed).
+> Requisito: el feed en producción con al menos un episodio. YouTube por RSS está aparcado (apartado 5 bis).
 
-**YouTube** ([ayuda de Google](https://support.google.com/youtube/answer/13973017)): YouTube Studio del canal →
+**YouTube por RSS (aparcado)** ([ayuda de Google](https://support.google.com/youtube/answer/13973017)): YouTube Studio del canal →
 **Crear** → **Nuevo podcast** → **Enviar feed RSS** → aceptar las condiciones → pegar el feed → código del correo →
 elegir cuántos episodios importar → publicar. Si no sale «Enviar feed RSS», falta verificar el canal o la función no
 está en la región.
 
-**Spotify** ([ayuda de Spotify](https://support.spotify.com/us/creators/article/claiming-your-podcast-on-spotify-for-creators/)):
-creators.spotify.com → menú del perfil → **Add a new show** → programa existente alojado **en otro sitio** → pegar el
-feed → código de 8 cifras del correo → país, idioma (español) y categoría → enviar.
+**Spotify** — hecho el 5-nov; se da por validado cuando el programa muestre el feed. El autor ya tenía el programa en Spotify for Creators, alojado allí con episodios
+antiguos, así que **no se dio de alta de nuevo: se redirigió** ([ayuda de Spotify](https://support.spotify.com/us/creators/article/switching-away-from-spotify-for-creators-with-a-301-redirect/)):
 
-**Apple** (Apple Podcasts Connect, con el Apple ID del autor): **+** → **Nuevo programa** → **Añadir un programa con
-un feed RSS** → pegar el feed → revisar categoría, derechos de contenido y contacto → **Enviar para revisión**. La
-revisión puede tardar días; Apple avisa por correo.
+1. `creators.spotify.com` **desde el ordenador** (la app móvil no deja) → ajustes del programa → **Redirect your
+   podcast** → pegar `https://spanishnav.al/podcast.xml` → **Redirect**.
+2. Tarda hasta 7 días. Mientras tanto, y al menos una semana, **no se borra** el programa ni la cuenta de Spotify for
+   Creators. Si hubiera Suscripciones activas, se desactivan antes en **Monetize**.
+3. Al aplicarse, el programa pasa a mostrar solo lo que hay en el feed (nombre, portada y episodios); los antiguos
+   desaparecen, como decidió el autor el 4-nov. Conserva sus seguidores y su enlace:
+   https://open.spotify.com/show/033up4yw5viytCxxHH6D7f
+4. Si el programa redirigido hubiera estado también en Apple, la redirección le llega a Apple y el alta de Apple sobra
+   (no era el caso).
+
+Para un programa que no exista ya en Spotify: creators.spotify.com → menú del perfil → **Add a new show** → alojado
+**en otro sitio** → pegar el feed → código de 8 cifras del correo → país, idioma (español) y categoría → enviar
+([ayuda de Spotify](https://support.spotify.com/us/creators/article/claiming-your-podcast-on-spotify-for-creators/)).
+Sin validar.
+
+**Apple** — hecho el 5-nov, pendiente de la revisión de Apple:
+
+1. Cuenta de Apple para `podcast@spanishnav.al` con verificación en dos pasos, **método de pago añadido** (si no,
+   Podcasts Connect pide «activar» la cuenta; no cobra nada) y los términos de Apple Media Services aceptados.
+2. Primer acceso a Podcasts Connect: **Account name** = `spanishnav.al`.
+3. **+** → **Nuevo programa**: crea un borrador «alojado en Apple», con campos para rellenar a mano. **No se rellenan.**
+4. **More Actions → Add RSS Feed** → pegar el feed. El programa pasa a «Untitled» y «We're still processing your show
+   details» mientras Apple lee el feed; luego se ve con el nombre, la portada y los episodios del feed.
+5. **Content Rights**: lo elige el autor. → **Publish**. Apple revisa (puede tardar días) y avisa por correo.
+6. Id del programa: `6831305665`. Enlace público, que funciona cuando Apple lo aprueba:
+   https://podcasts.apple.com/es/podcast/id6831305665
 
 Al terminar, el enlace público de cada plataforma va a `lib/site.ts` → `platforms` en la web (hoy a `null`, sale
 «Próximamente»).
