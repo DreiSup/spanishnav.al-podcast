@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 24,
+  "anio": 2019,
+  "slug": "business-models",
+  "titulo": "Pick a Business Model With Leverage",
+  "subtitulo": "An ideal business model has network effects, low marginal costs and scale economies",
+  "fecha_publicacion": "2019-04-22",
+  "fuente_url": "https://nav.al/business-models",
+  "orden_archivo": 28,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-05"
+}

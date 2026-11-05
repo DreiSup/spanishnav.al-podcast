@@ -1,0 +1,123 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2019/024-business-models",
+  "numero": 24,
+  "fecha": "2019-04-22",
+  "titulo": "Elige un modelo de negocio con apalancamiento",
+  "subtitulo": "Un modelo de negocio ideal tiene efectos de red, costes marginales bajos y economías de escala",
+  "fuente_url": "https://nav.al/business-models",
+  "titulos_seccion": [
+    "Coste marginal de replicación cero: producir más es gratis",
+    "Efectos de red: el valor crece con el cuadrado de los clientes",
+    "Los negocios con efectos de red son monopolios naturales",
+    "En un efecto de red, cada usuario nuevo aporta valor a los usuarios que ya están",
+    "Los negocios de coste marginal cero pueden pivotar hacia negocios con efectos de red"
+  ],
+  "contenido": [
+    {
+      "id": "b01-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Una pregunta más sobre el apalancamiento. ¿Crees que la elección de un modelo de negocio o la elección de un producto también pueden aportar una especie de apalancamiento?",
+        "Por ejemplo, dedicarte a un negocio que tiene efectos de red, o a uno que tiene efectos de marca.",
+        "O cualquier otra elección de modelo de negocio que la gente pueda manejar y que simplemente te dé apalancamiento gratis."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Sí, hay algunos conceptos microeconómicos muy buenos que es importante entender.",
+        "Uno de ellos son las economías de escala, que es que cuanto más produces de algo, más barato sale fabricarlo.",
+        "Eso lo tienen muchos negocios, es economía básica de primer curso.",
+        "Deberías intentar meterte en un negocio en el que fabricar la pieza número doce sea más barato que fabricar la número cinco.",
+        "Y en el que fabricar la número diez mil sea mucho más barato que todas las anteriores.",
+        "Esto va construyendo una barrera de entrada automática contra la competencia y contra acabar convertido en un producto indiferenciado, y es un concepto importante."
+      ]
+    },
+    {
+      "id": "b03-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Otro va en la misma línea, y es que los productos tecnológicos sobre todo, y los productos de medios, tienen esta gran cualidad de que tienen coste marginal de replicación cero.",
+        "Crear otra copia de lo que acabas de crear es gratis.",
+        "Cuando alguien escucha este podcast o ve un vídeo en YouTube sobre esto, a mí no me cuesta nada la siguiente persona que aparece.",
+        "Esas cosas de coste marginal cero tardan un tiempo en arrancar, porque ganas muy poco dinero por usuario, pero con el tiempo pueden sumar muchísimo.",
+        "Joe Rogan no está trabajando más duro en su podcast de ahora de lo que trabajaba en el podcast número uno.",
+        "Pero en el podcast número mil cien está ganando un millón de dólares con el podcast, mientras que con el anterior probablemente perdía dinero, igual que con el primero.",
+        "Ese es un ejemplo de coste marginal cero."
+      ]
+    },
+    {
+      "id": "b04-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Luego, el más sutil pero el más importante es esta idea de los efectos de red, que viene de las redes de ordenadores.",
+        "Bob Metcalfe, que creó Ethernet, acuñó la famosa ley de Metcalfe, que dice que el valor de una red es proporcional al cuadrado del número de nodos de la red.",
+        "Si una red de tamaño diez tuviera un valor de cien, una red de tamaño cien tendría un valor de diez mil.",
+        "No es solo diez veces más, es cien veces más, por el cuadrado, la diferencia es el cuadrado.",
+        "Quieres estar en un negocio con efectos de red, siempre que no seas el número dos.",
+        "Si eres el número uno en un negocio con efectos de red, te lo llevas todo.",
+        "Un ejemplo, fíjate en Facebook, el protocolo de red social de tus amigos y tu familia.",
+        "¿Quién es su competidor?",
+        "Nadie, porque se lo llevaron todo gracias a los efectos de red.",
+        "Por eso, cuando la gente dice que puede irse de Facebook sin más, no se da cuenta de que los efectos de red crean monopolios naturales, que son cosas muy, muy potentes."
+      ]
+    },
+    {
+      "id": "b05-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Uno de los secretos inconfesables de Silicon Valley es que muchos de los negocios ganadores son monopolios naturales.",
+        "Incluso los coches compartidos tienden hacia un único sistema en el que el ganador se lo lleva todo.",
+        "Uber siempre va a tener mejores números que Lyft, mientras mueva a más conductores y a más pasajeros.",
+        "En algo como Google, básicamente solo hay un buscador viable.",
+        "A mí me gusta DuckDuckGo, por razones de privacidad, pero siempre van a ir por detrás por los efectos de red.",
+        "Y con Twitter, ¿a qué otro sitio irías para escribir microblogs?",
+        "Incluso YouTube tiene efectos de red débiles, pero aun así son lo bastante potentes como para que no haya de verdad un segundo sitio al que vayas a ver vídeo de forma habitual.",
+        "Resulta que incluso en el comercio electrónico, Amazon Prime y esa comodidad de tener guardadas las tarjetas de crédito y los datos crean un efecto de red potente."
+      ]
+    },
+    {
+      "id": "b06-naval",
+      "speaker": "Naval",
+      "frases": [
+        "¿Qué es un efecto de red? Vamos a definirlo con precisión.",
+        "Un efecto de red es cuando cada usuario adicional añade valor a la base de usuarios que ya existe.",
+        "Tus propios usuarios están creando valor para los usuarios que ya están.",
+        "El ejemplo clásico, que creo que todo el mundo puede entender, es el idioma.",
+        "Digamos que hay cien personas viviendo en una comunidad y que se hablan diez idiomas distintos, y cada persona habla solo uno de esos diez.",
+        "Pues tienes que estar traduciendo todo el rato, y es un engorro tremendo.",
+        "Pero si las cien personas hablaran el mismo idioma, eso aportaría un valor enorme.",
+        "Así es como evolucionará esa comunidad. Al principio, diez personas hablan diez idiomas, y digamos que una persona más aprende inglés.",
+        "Pues ahora, de repente, once personas saben inglés, así que la siguiente persona que llega y va a aprender un idioma nuevo probablemente va a elegir el inglés.",
+        "En algún momento, digamos que el inglés llega a veinte o veinticinco personas, y ya está hecho.",
+        "Se va a quedar con todo el mercado del idioma, y el resto de los idiomas van a quedar fuera por la competencia.",
+        "Por eso, a largo plazo, el mundo entero probablemente va a acabar hablando inglés y chino.",
+        "China está cerrada en Internet, pero Internet en sí mismo es un gran igualador.",
+        "Y la gente que quiere comunicarse en Internet se ve obligada a hablar inglés, porque la comunidad más grande de gente en Internet habla inglés.",
+        "Siempre me dan pena mis colegas que crecieron hablando otros idiomas en otros países, porque no tienen acceso a muchísimos libros.",
+        "Hay muchísimos libros que simplemente no se han traducido a otros idiomas.",
+        "Si solo hablases francés, o solo alemán, o solo hindi, por ejemplo, estarías en clara desventaja a la hora de formarte técnicamente.",
+        "Sin excepción, si vas a formarte técnicamente, tienes que aprender inglés, solo porque tienes que leer esos libros que tienen unos datos que no se han traducido.",
+        "Los idiomas son probablemente el ejemplo más antiguo de efecto de red.",
+        "El dinero es otro ejemplo, y probablemente todos deberíamos estar usando el mismo dinero, salvo por el hecho de que las fronteras geográficas y regulatorias han creado estas islas artificiales de dinero.",
+        "Pero incluso así, el mundo tiende a usar una sola moneda como moneda de reserva casi siempre, y ahora mismo es el dólar estadounidense."
+      ]
+    },
+    {
+      "id": "b07-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Los efectos de red son un concepto muy potente.",
+        "Cuando estás eligiendo un modelo de negocio, es muy buena idea elegir un modelo en el que puedas beneficiarte de efectos de red, de costes marginales bajos y de economías de escala.",
+        "Estas cosas suelen ir juntas, porque cualquier cosa que tenga coste marginal cero de producción obviamente tiene economías de escala.",
+        "Y las cosas que tienen coste marginal de replicación cero muy a menudo tienden a tener efectos de red, porque no te cuesta nada más sacar otra copia de la cosa.",
+        "Así que puedes crear pequeños ganchos para que los usuarios se aporten valor unos a otros.",
+        "Siempre deberías estar pensando en cómo tus usuarios, tus clientes, pueden aportarse valor unos a otros, porque esa es la forma definitiva de apalancamiento.",
+        "Estás en la playa en las Bahamas o estás durmiendo por la noche y tus clientes se están aportando valor unos a otros."
+      ]
+    }
+  ]
+}
