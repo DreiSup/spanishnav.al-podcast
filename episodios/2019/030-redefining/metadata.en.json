@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 30,
+  "anio": 2019,
+  "slug": "redefining",
+  "titulo": "Keep Redefining What You Do",
+  "subtitulo": "Become the best in the world at what you do",
+  "fecha_publicacion": "2019-05-13",
+  "fuente_url": "https://nav.al/redefining",
+  "orden_archivo": 34,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-05"
+}

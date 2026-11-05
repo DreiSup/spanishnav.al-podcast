@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2019/030-redefining",
+  "numero": 30,
+  "fecha": "2019-05-13",
+  "titulo": "Redefine sin parar lo que haces",
+  "subtitulo": "Conviértete en el mejor del mundo en lo que haces",
+  "fuente_url": "https://nav.al/redefining",
+  "titulos_seccion": [
+    "Encuentra el encaje entre fundador, producto y mercado"
+  ],
+  "contenido": [
+    {
+      "id": "b01-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Hemos hablado de la importancia de trabajar duro y de valorar tu tiempo.",
+        "A continuación hay unos cuantos tuits sobre el tema de trabajar a largo plazo.",
+        "El primer tuit dice que te conviertas en el mejor del mundo en lo que haces, y que sigas redefiniendo lo que haces hasta que eso sea verdad."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Si de verdad quieres que te paguen en este mundo, tienes que ser el número uno en lo que hagas.",
+        "Puede ser algo de nicho, y de eso se trata precisamente.",
+        "Literalmente te pueden pagar solo por ser tú.",
+        "Algunas de las personas con más éxito del mundo son así, a Oprah le pagan por ser Oprah y a Joe Rogan le pagan por ser Joe Rogan.",
+        "Están siendo auténticos consigo mismos, y tú quieres ser el número uno.",
+        "Y quieres seguir cambiando lo que haces hasta que seas el número uno.",
+        "No puedes elegir algo arbitrario, como decir que vas a ser el corredor más rápido del mundo, porque entonces tienes que ganar a Usain Bolt, y ese problema es demasiado difícil.",
+        "Sigue cambiando tu objetivo hasta que encaje con tu conocimiento específico, tus habilidades, tu posición, tus capacidades, tu ubicación y tus intereses.",
+        "Tu objetivo y tus habilidades deberían converger para hacerte el número uno.",
+        "Cuando estás buscando qué hacer, tienes que tener en mente dos focos distintos.",
+        "Uno es querer ser el mejor en lo que haces.",
+        "El segundo es que lo que haces es flexible, para que puedas ser el mejor en ello.",
+        "Quieres llegar a un lugar cómodo donde sientas que esto es algo en lo que puedes ser increíble, sin dejar de ser auténtico con quien eres.",
+        "Va a ser un camino largo, pero ahora ya sabes cómo pensar sobre ello."
+      ]
+    },
+    {
+      "id": "b03-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Lo más importante para cualquier empresa es encontrar el encaje entre producto y mercado.",
+        "Pero lo más importante para cualquier emprendedor es encontrar el encaje entre fundador, producto y mercado, donde estás inclinado de forma natural a construir el producto adecuado para un mercado.",
+        "Ese es un problema de tres focos, y tienes que hacer que los tres funcionen a la vez.",
+        "Si quieres tener éxito en la vida, tienes que sentirte cómodo manejando problemas de muchas variables y varias funciones objetivo a la vez.",
+        "Este es uno de esos casos en los que tienes que trazar al menos dos o tres a la vez."
+      ]
+    }
+  ]
+}

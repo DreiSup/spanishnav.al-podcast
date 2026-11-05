@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 30,
+  "anio": 2019,
+  "slug": "redefining",
+  "titulo_es": "Redefine sin parar lo que haces",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Redefine sin parar lo que haces",
+    "descripcion": "",
+    "tags": [],
+    "url": "",
+    "url_original": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "publicacion": {
+    "fecha": "",
+    "audio_url": "",
+    "audio_bytes": 0,
+    "duracion_s": 0,
+    "feed_guid": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "escucha": {
+    "escuchado": false,
+    "resultado": null,
+    "fecha": null,
+    "feedback": ""
+  },
+  "notas": "Inglés sacado del Google Doc «2019 all podcasts» de Drive; cuadra palabra a palabra con el documento. Traducción: parte del español del 052 (b175 a b177, mismo inglés letra a letra), revisada frase a frase con los términos confirmados por el autor el 5-nov. Cambios sobre el 052: el tuit de Nivi y los dos focos (quiero ser el mejor en lo que hago, lo que hago es flexible) en estilo indirecto; fundidas diez frases cortas (Oprah y Joe Rogan, Usain Bolt, el problema de tres focos, el viaje largo); «localización» pasa a «ubicación»; «un viaje largo» a «un camino largo», como journey en el glosario de Kapil. Escuchar en el TTS: Oprah, Joe Rogan, Usain Bolt."
+}
