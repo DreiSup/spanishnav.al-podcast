@@ -226,6 +226,15 @@ Al terminar, el enlace público de cada plataforma va a `lib/site.ts` → `platf
    ```
 
    El `.mp4` no va a git; si se guarda, en la carpeta `video/` del episodio en Drive.
+
+   **Sin ordenador: `video/video.ipynb` en Colab** (entorno de CPU, sin GPU). Se abre con
+   https://colab.research.google.com/github/DreiSup/spanishnav.al-podcast/blob/claude/quirky-dirac-x18c3n/video/video.ipynb ,
+   se pone el episodio en la celda 1 (`EPISODIO = "2019/002-ethical-wealth"`) y se ejecuta todo. Lee el master de
+   Drive, baja la portada de la web, comprueba que vídeo y audio duran lo mismo que el master y deja el `.mp4` en
+   `video/` del episodio. Modo `rapido` por defecto: codifica 60 s de portada una vez y los repite sin recodificar
+   (con `-t` = duración del master; con `-stream_loop -1`, `-shortest` no corta y el fichero crece sin fin).
+   Probado fuera de Colab el 5-nov: 7 min de audio en 20–35 s (el modo `normal`, unas 5 veces más). **Sin validar en
+   Colab**: se valida con el 002.
 2. **YouTube Studio → Crear → Subir vídeos.** Campos fijos, iguales en todos los vídeos (de referencia; el autor ya
    los conoce y no se le repiten):
 
