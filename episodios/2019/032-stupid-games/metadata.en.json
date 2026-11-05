@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 32,
+  "anio": 2019,
+  "slug": "stupid-games",
+  "titulo": "Play Stupid Games, Win Stupid Prizes",
+  "subtitulo": "Competition will blind you to greater games",
+  "fecha_publicacion": "2019-05-17",
+  "fuente_url": "https://nav.al/stupid-games",
+  "orden_archivo": 36,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-05"
+}

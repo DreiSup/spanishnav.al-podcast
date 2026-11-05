@@ -1,0 +1,59 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2019/032-stupid-games",
+  "numero": 32,
+  "fecha": "2019-05-17",
+  "titulo": "Juegos estúpidos, premios estúpidos",
+  "subtitulo": "La competencia te ciega ante juegos mejores",
+  "fuente_url": "https://nav.al/stupid-games",
+  "titulos_seccion": [
+    "Mi primera empresa se quedó atrapada en el juego equivocado"
+  ],
+  "contenido": [
+    {
+      "id": "b01-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Cuando estás siendo auténtico, la competencia no te importa tanto.",
+        "Te saca de quicio y te provoca algo de miedo, de celos y otras emociones.",
+        "Pero en el fondo no te importa, porque estás orientado hacia el objetivo y hacia la misión.",
+        "En el peor de los casos, puede que les saques alguna idea.",
+        "Y a menudo hay formas de trabajar con la competencia de manera positiva que acaban aumentando el tamaño del mercado para ti."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Depende de la naturaleza del negocio, porque los mejores negocios de la industria tecnológica de Silicon Valley suelen ser de los que el ganador se lo lleva todo.",
+        "Cuando ves competencia, te puede dar un ataque de rabia, porque de verdad pone en peligro todo lo que has construido.",
+        "Si abro un restaurante y una versión más interesante del mismo restaurante abre en otro pueblo, eso es fantástico.",
+        "Voy a copiar lo que funciona y a descartar lo que no funciona.",
+        "Así que depende de la naturaleza del negocio.",
+        "A menudo, negocios que parecen estar en competencia directa en realidad no lo están, y acaban siendo adyacentes o algo distintos.",
+        "Estás a un paso de un negocio completamente diferente, y a veces necesitas dar ese paso.",
+        "No lo vas a dar si estás ocupado peleándote por un premio de consolación.",
+        "Estás jugando a un juego estúpido, y vas a ganar un premio estúpido.",
+        "Ahora mismo no es evidente porque la competencia te ciega, pero dentro de tres años será evidente."
+      ]
+    },
+    {
+      "id": "b03-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Una de mis primeras startups fue Epinions, una web de reseñas de productos independiente de Amazon.",
+        "Ese espacio acabó convirtiéndose en TripAdvisor y Yelp, que es adonde deberíamos haber ido nosotros, haciendo más reseñas locales.",
+        "La reseña de algo escaso, como un restaurante del barrio, vale más que la de un artículo como una cámara que tiene mil reseñas en Amazon.",
+        "Antes de que pudiéramos llegar ahí, nos enredamos en el juego de los comparadores de precios.",
+        "Nos fusionamos con DealTime y competimos con un montón de comparadores de precios, como mySimon, PriceGrabber, NexTag y Bizrate, que se convirtió en Shopzilla.",
+        "Estábamos atrapados en una competencia feroz unos con otros.",
+        "Todo ese espacio se fue a cero porque Amazon ganó el comercio electrónico por completo, no hacía falta comparar precios y todo el mundo iba directo a Amazon.",
+        "Nos llevamos el premio de consolación porque estábamos enredados en la competencia con un puñado de empresas como la nuestra.",
+        "Deberíamos haber estado mirando lo que el consumidor quería de verdad y siendo auténticos con nosotros mismos, que eran las reseñas, no la comparación de precios.",
+        "Deberíamos habernos metido más a fondo en los artículos raros, donde los clientes tenían menos datos y querían reseñas con más ganas.",
+        "Si nos hubiéramos mantenido auténticos con nosotros mismos, nos habría ido mejor."
+      ]
+    }
+  ]
+}
