@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 26,
+  "anio": 2019,
+  "slug": "judgment",
+  "titulo_es": "El criterio es la habilidad decisiva",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "El criterio es la habilidad decisiva",
+    "descripcion": "",
+    "tags": [],
+    "url": "",
+    "url_original": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "publicacion": {
+    "fecha": "",
+    "audio_url": "",
+    "audio_bytes": 0,
+    "duracion_s": 0,
+    "feed_guid": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "escucha": {
+    "escuchado": false,
+    "resultado": null,
+    "fecha": null,
+    "feedback": ""
+  },
+  "notas": "Inglés sacado del Google Doc «2019 all podcasts» de Drive; cuadra palabra a palabra con el documento (el «etc.» de b02 es del texto). Traducción: parte del español del 052 (b147 a b156, mismo inglés letra a letra), revisada frase a frase con los términos confirmados por el autor el 5-nov. Cambios sobre el 052: skin in the game como «jugarse la piel» (GLOSARIO; el 052 dice «no se juegan nada»); «los resultados compuestos» pasa a «el interés compuesto» (GLOSARIO); «He's been highly accountable» pasa de «Ha sido tremendamente responsable», que se oye como prudente, a «ha asumido muchísima responsabilidad»; lo que le dicen a Warren Buffett y la pregunta sobre los libros de inversión, en estilo indirecto; reescrita la frase de 39 palabras de b09, que el 052 abría con dos puntos; partida la de 39 de b03; fundidas siete frases cortas; «en el dominio público» pasa a «a la vista de todos»; «para aprovecharlo» a «para sacarle partido»; título de sección nuevo para A lot of the top investors often sound like philosophers. Escuchar en el TTS: Warren Buffett, Google, Apple, Nassim Taleb, Jeremy Grantham, Michael Burry, Twitter."
+}

@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 26,
+  "anio": 2019,
+  "slug": "judgment",
+  "titulo": "Judgment Is the Decisive Skill",
+  "subtitulo": "In an age of nearly infinite leverage, judgment is the most important skill",
+  "fecha_publicacion": "2019-04-29",
+  "fuente_url": "https://nav.al/judgment",
+  "orden_archivo": 30,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-05"
+}
