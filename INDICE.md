@@ -101,7 +101,7 @@
 | 65 | [065-silent](episodios/2020/065-silent) | Cuanto más cerca estás de la verdad, más silencioso te vuelves por dentro | 🟠 en revisión | — | — | — |
 | 66 | [066-consensus](episodios/2020/066-consensus) | Los grupos buscan el consenso, los individuos buscan la verdad | 🟠 en revisión | — | — | — |
 | 67 | [067-truth](episodios/2020/067-truth) | El camino hacia la paz es la verdad | 🟠 en revisión | — | — | — |
-| 68 | [068-kapil](episodios/2020/068-kapil) | Kapil Gupta: Conquistando la mente | 🟠 en revisión | — | — | — |
+| 68 | [068-kapil](episodios/2020/068-kapil) | Kapil Gupta: Conquistando la mente | 🔵 generando TTS | — | — | — |
 | 69 | [069-angel-2](episodios/2020/069-angel-2) | Cómo invertir como ángel, parte dos | 🟠 en revisión | — | — | — |
 | 70 | [070-matt-ridley](episodios/2020/070-matt-ridley) | Matt Ridley: Claves de la innovación, parte 1 | 🟠 en revisión | — | — | — |
 | 71 | [071-matt-ridley-2](episodios/2020/071-matt-ridley-2) | Matt Ridley: Claves de la innovación, parte 2 | 🟠 en revisión | — | — | — |

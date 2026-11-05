@@ -31,6 +31,7 @@ def normaliza(texto):
     texto = unicodedata.normalize("NFD", texto.lower())
     texto = "".join(c for c in texto if unicodedata.category(c) != "Mn")
     texto = re.sub(r"[^\w\s]", " ", texto)
+    texto = re.sub(r"\ba donde\b", "adonde", texto)   # «adónde» y «a dónde» se oyen igual
     return re.sub(r"\s+", " ", texto).strip()
 
 
