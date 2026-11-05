@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 29,
+  "anio": 2019,
+  "slug": "meetings",
+  "titulo": "Be Too Busy to 'Do Coffee'",
+  "subtitulo": "Ruthlessly decline meetings",
+  "fecha_publicacion": "2019-05-08",
+  "fuente_url": "https://nav.al/meetings",
+  "orden_archivo": 33,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-05"
+}

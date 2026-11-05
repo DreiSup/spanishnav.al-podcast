@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 29,
+  "anio": 2019,
+  "slug": "meetings",
+  "titulo_es": "Estate demasiado ocupado para quedar a tomar café",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Estate demasiado ocupado para quedar a tomar café",
+    "descripcion": "",
+    "tags": [],
+    "url": "",
+    "url_original": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "publicacion": {
+    "fecha": "",
+    "audio_url": "",
+    "audio_bytes": 0,
+    "duracion_s": 0,
+    "feed_guid": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "escucha": {
+    "escuchado": false,
+    "resultado": null,
+    "fecha": null,
+    "feedback": ""
+  },
+  "notas": "Inglés sacado del Google Doc «2019 all podcasts» de Drive; cuadra palabra a palabra con el documento. Traducción: parte del español del 052 (b169 a b174, mismo inglés letra a letra), revisada frase a frase con los términos confirmados por el autor el 5-nov. Cambios sobre el 052: el tuit, la respuesta de Steve Jobs, lo que Naval y Nivi dicen a quien pide reuniones y la carta de presentación, en estilo indirecto; fundidas 15 frases cortas; «do coffee» va siempre como «quedar a tomar café», como en el título; «reuniones que no sean transaccionales» pasa a «reuniones que no sean para algo concreto»; «urgente a vida o muerte» a «un asunto de vida o muerte»; «ser concreto y accionable» a «que propongas algo concreto». Escuchar en el TTS: Steve Jobs, Apple, Nivi, startup, cripto."
+}

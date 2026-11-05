@@ -1,0 +1,97 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2019/029-meetings",
+  "numero": 29,
+  "fecha": "2019-05-08",
+  "titulo": "Estate demasiado ocupado para quedar a tomar café",
+  "subtitulo": "Rechaza reuniones sin piedad",
+  "fuente_url": "https://nav.al/meetings",
+  "titulos_seccion": [
+    "Recorta reuniones sin piedad",
+    "La gente quedará contigo cuando tengas trabajo que enseñar",
+    "Libera tu tiempo y tu mente"
+  ],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Otro tuit decía que deberías estar demasiado ocupado para quedar a tomar café, sin dejar de tener un calendario despejado.",
+        "La gente que me conoce sabe que soy famoso por hacer dos cosas a la vez.",
+        "Primero, mantengo un calendario muy limpio, casi sin reuniones.",
+        "Cuando algunos ven mi calendario, casi se echan a llorar.",
+        "Segundo, estoy ocupado todo el tiempo, siempre estoy haciendo algo, y normalmente tiene que ver con el trabajo.",
+        "Es lo que sea de alto impacto que haya que hacer y que más me inspire hacer.",
+        "La única forma de conseguir eso es rechazar reuniones de forma constante y despiadada.",
+        "La gente quiere quedar a tomar café y construir relaciones.",
+        "Eso está bien al principio de tu carrera, cuando todavía estás explorando.",
+        "Pero más adelante, cuando ya estás explotando lo que sabes y te llegan más cosas de las que puedes atender, tienes que eliminar reuniones de tu vida sin ninguna piedad."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Si alguien quiere una reunión, mira a ver si acepta una llamada en su lugar.",
+        "Si quiere llamar, mira a ver si acepta un correo.",
+        "Si quiere un correo, mira a ver si acepta un mensaje de texto.",
+        "Y probablemente deberías ignorar la mayoría de los mensajes de texto, salvo que sean auténticas emergencias.",
+        "Tienes que ser absolutamente despiadado esquivando reuniones.",
+        "Cuando tengas reuniones, hazlas andando, o hazlas de pie.",
+        "Que sean cortas, pequeñas y con acciones concretas.",
+        "No se hace nada en una reunión con ocho personas alrededor de una mesa.",
+        "Literalmente te estás muriendo, una hora cada vez."
+      ]
+    },
+    {
+      "id": "b03-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Lo de tomar café me recuerda a una cita antigua, creo que de Steve Jobs, cuando alguien le preguntó por qué Apple no fue a una convención.",
+        "Su respuesta fue algo así como que, si fueran, no estarían allí trabajando."
+      ]
+    },
+    {
+      "id": "b04-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Antes me costaba mucho decirle que no a la gente para las reuniones.",
+        "Ahora les digo directamente que no hago reuniones que no sean para algo concreto, ni reuniones sin una agenda estricta.",
+        "Y que no hago reuniones a menos que sea absolutamente necesario.",
+        "Nivi hacía esto, y cuando la gente nos pedía reuniones para conocernos, decía que no hacíamos reuniones a menos que fuera un asunto de vida o muerte.",
+        "La otra persona tenía que responder que sí, que era un asunto de vida o muerte, o no había reunión."
+      ]
+    },
+    {
+      "id": "b05-naval",
+      "speaker": "Naval",
+      "frases": [
+        "La gente ocupada aceptará tu reunión cuando tengas algo importante o valioso.",
+        "Pero tienes que llegar con una carta de presentación decente.",
+        "Debería decir lo que has hecho y lo que puedes enseñar, y proponer quedar si a la otra persona le resulta útil, respetando su tiempo.",
+        "Tienes que construir credibilidad y, por ejemplo, cuando un inversor tecnológico mira una startup, lo primero que quiere ver son pruebas de avance en el producto.",
+        "No quiere ver solo una presentación de diapositivas.",
+        "El avance del producto es el currículum del emprendedor, un currículum imposible de falsificar.",
+        "Tienes que hacer el trabajo y, por usar una analogía del mundo cripto, tener prueba de trabajo.",
+        "Si tienes eso y de verdad tienes algo interesante, entonces no deberías dudar en juntarlo todo en un correo y enviarlo.",
+        "E incluso entonces, al pedir una reunión, conviene que propongas algo concreto."
+      ]
+    },
+    {
+      "id": "b06-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Si crees que vas a triunfar haciendo contactos y asistiendo a un montón de reuniones, probablemente estés equivocado.",
+        "Hacer contactos puede ser importante al principio de tu carrera.",
+        "Y en las reuniones puede surgir algo afortunado por casualidad, pero las probabilidades son bastante bajas.",
+        "Cuando conoces gente esperando ese golpe de suerte, dependes de la suerte de tipo uno, que es la suerte ciega, y de la de tipo dos, que es la suerte del que se mueve mucho.",
+        "Pero no consigues la suerte de tipo tres ni la de tipo cuatro, que son las mejores.",
+        "Ahí es donde dedicas tiempo a construir una reputación y a trabajar en algo.",
+        "Desarrollas un punto de vista único y eres capaz de detectar oportunidades que los demás no ven.",
+        "Un calendario ocupado y una mente ocupada destruirán tu capacidad de hacer grandes cosas en este mundo.",
+        "Si quieres hacer grandes cosas, seas músico, emprendedor o inversor, necesitas tiempo libre y una mente libre."
+      ]
+    }
+  ]
+}

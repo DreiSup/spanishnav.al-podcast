@@ -151,3 +151,4 @@ abiertas («…talk about sex.» sin «”»). Afecta solo al inglés, que no se
 | 2026-11-05 | 026 Judgment Is the Decisive Skill | revision | 10 | 63 | 1242 | 7,3 | Cero avisos. Parte del 052 (b147–b156); jugarse la piel; interés compuesto; estilo indirecto; siete frases cortas fundidas y dos largas reescritas |
 | 2026-11-05 | 027 Set an Aspirational Hourly Rate | revision | 6 | 47 | 692 | 4,1 | Cero avisos. Parte del 052 (b157–b162); tarifa ambiciosa siempre; estilo indirecto; nueve frases cortas fundidas |
 | 2026-11-05 | 028 Work As Hard As You Can | revision | 6 | 61 | 949 | 5,6 | Cero avisos. Parte del 052 (b163–b168); corregido un estuvierais (vosotros) que el 052 b163 sigue teniendo; estilo indirecto; 25 frases cortas fundidas |
+| 2026-11-05 | 029 Be Too Busy to 'Do Coffee' | revision | 6 | 44 | 693 | 4,1 | Cero avisos. Parte del 052 (b169–b174); estilo indirecto; 15 frases cortas fundidas; quedar a tomar café en todo el episodio |
