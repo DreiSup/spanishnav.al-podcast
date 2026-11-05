@@ -191,7 +191,7 @@ Al terminar, el enlace público de cada plataforma va a `lib/site.ts` → `platf
 
 ## 5 bis. YouTube a mano, sin RSS (decisión del 5-nov, hasta tener permiso de Naval)
 
-> **Borrador sin validar.** Se valida al subir el 001.
+> **Validado con el 001** (5-nov): https://www.youtube.com/watch?v=s10rGZckyEo
 
 1. **Vídeo**, en el ordenador del autor, junto al master (YouTube recomienda MP4 con H.264 y audio AAC a 48 kHz,
    [Google](https://support.google.com/youtube/answer/1722171)):
