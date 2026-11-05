@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 20,
+  "anio": 2019,
+  "slug": "accountability-equity",
+  "titulo": "Take Accountability to Earn Equity",
+  "subtitulo": "If you have high accountability, you're less replaceable",
+  "fecha_publicacion": "2019-04-13",
+  "fuente_url": "https://nav.al/accountability-equity",
+  "orden_archivo": 24,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-05"
+}
