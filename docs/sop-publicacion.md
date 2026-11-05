@@ -205,11 +205,12 @@ Al terminar, el enlace público de cada plataforma va a `lib/site.ts` → `platf
    ```
 
    El `.mp4` no va a git; si se guarda, en la carpeta `video/` del episodio en Drive.
-2. **YouTube Studio → Crear → Subir vídeos:**
+2. **YouTube Studio → Crear → Subir vídeos.** Campos fijos, iguales en todos los vídeos (de referencia; el autor ya
+   los conoce y no se le repiten):
 
    | Campo | Valor |
    |---|---|
-   | Título | `<título en español> \| Naval Podcast en español #<número>` (propuesta; el autor decide) |
+   | Título | **Solo el título original traducido**: `transcript.es.json` → `titulo`, sin nombre del podcast ni número (decisión del autor, 5-nov). Ej.: «Busca riqueza, no dinero ni estatus» |
    | Descripción | La del apartado 3, entera |
    | Miniatura | `portada-youtube.jpg` (el canal tiene que estar verificado por teléfono) |
    | Lista | «Naval Podcast en español» |
@@ -219,6 +220,17 @@ Al terminar, el enlace público de cada plataforma va a `lib/site.ts` → `platf
    | Visibilidad | Pública |
 
 3. Apuntar el enlace del vídeo en `metadata.es.json` → `youtube.url`.
+
+### Qué le da la sesión al autor en cada subida (regla del autor, 5-nov)
+
+Cuando el autor va a subir un vídeo, la sesión le da **solo dos cosas**, cada una en su bloque para copiar:
+
+1. **Título**: el título traducido, tal cual (`transcript.es.json` → `titulo`).
+2. **Descripción**: la del apartado 3, entera, la misma que lleva el feed (`episodeDescription` de `lib/feed.ts` en
+   la web). Antes de dársela, se comprueban sus enlaces: el vídeo original es el que enlaza la página de nav.al del
+   episodio, `nav.al/<slug>` responde, y `spanishnav.al/<slug>` existe en la web desplegada.
+
+Nada más: ni los campos fijos, ni la explicación de cada pantalla.
 
 ## 6. Publicar cada episodio (después del alta)
 
