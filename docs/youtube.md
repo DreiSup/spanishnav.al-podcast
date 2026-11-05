@@ -94,3 +94,56 @@ Fuera del JSON, dime cuántos vídeos has contado y si crees que falta alguno.
 Sobre el punto 2: los títulos de YouTube y los de nav.al no tienen por qué coincidir, así
 que habrá dudosas y habrá vídeos sin pareja. El canal además tiene material que no es del
 podcast. Eso no es un fallo del cruce, es cómo son los datos.
+
+## Método nav.al (5-nov)
+
+**El 2026-11-05 nav.al respondía desde la sesión web de Claude Code** (`curl -sSL https://nav.al/seek-wealth`
+→ 200), a diferencia de lo que dice la sección «Por qué el listado se pide a Claude web», comprobada el 2026-09-08.
+YouTube no se ha probado: no hacía falta.
+
+Por eso el vídeo original no se ha sacado del canal de YouTube cruzando títulos, sino de **la propia página de
+cada episodio en nav.al**, que lo enlaza en su fila de cabecera «Apple Podcasts · Spotify · YouTube». Es un dato
+de la fuente, sin cruce ni emparejamiento dudoso.
+
+### Cómo se hizo
+
+1. Se descargaron con `curl` las 168 páginas de `catalogo.json`, una a una con 1 s de pausa, a un directorio
+   temporal fuera del repo. Solo se leyeron enlaces; nada del texto de los transcripts entra en el repo.
+2. De cada página se tomó el `<a>` con texto «YouTube» del bloque de cabecera (`div.podcast-links`, el
+   desplegable «Get podcast»), que va justo después del de Spotify. Se aceptan `youtube.com/watch?v=<id>` y
+   `youtu.be/<id>`. Los enlaces de YouTube del cuerpo del texto se ignoran: son citas a otros vídeos (en
+   `nav.al/infinity` el del cuerpo es `SDZ454K_lBY`; el de cabecera, `jEmJIA0pEf0`).
+3. El extractor se probó antes contra seis ids comprobados a mano (seek-wealth, judgment, happiness, infinity,
+   future, angel-1): los seis coincidieron.
+4. Resultado en **`youtube-originales.json`** (raíz), un episodio por línea con orden, carpeta, número, títulos,
+   URL de nav.al, id y URL del vídeo y notas. `youtube_url` va siempre normalizada a
+   `https://www.youtube.com/watch?v=<id>`, sin `?si=`, `&t=` ni otros parámetros.
+5. `youtube.url_original` rellenado en los `metadata.es.json` de los episodios que ya están en el repo.
+
+### Resultados
+
+- **163 de 168 con vídeo**; **5 sin vídeo**.
+- **Duplicados: ninguno.** Ningún id aparece en dos episodios.
+- `metadata.es.json`: 114 rellenados; `001-seek-wealth` ya tenía el mismo valor; ninguno tenía un valor distinto.
+  `084-end` se queda vacío (no hay vídeo en su cabecera).
+
+Episodios sin vídeo (lo resuelve el autor; no se ha buscado por título en otro sitio):
+
+| Orden | Episodio | Carpeta | Motivo |
+|---|---|---|---|
+| 1 | On Meditation | — (extra, sin fecha) | la página no tiene fila de cabecera |
+| 2 | On Humility | — (extra, sin fecha) | la página no tiene fila de cabecera |
+| 3 | A Founder's Anxiety | — (extra, sin fecha) | la página no tiene fila de cabecera |
+| 4 | The Need for Indifference | — (extra, sin fecha) | la página no tiene fila de cabecera |
+| 88 | There Is No End of Science (`nav.al/end`) | `2021/084-end` | el «YouTube» de cabecera apunta al canal (`youtube.com/c/NavalR`), no a un vídeo |
+
+Los cuatro primeros son los diálogos con Kapil Gupta: `catalogo.json` no les da fecha, así que su `carpeta` queda
+vacía en `youtube-originales.json` (docs/extraccion.md los sitúa en enero-febrero de 2019).
+
+Otras observaciones, anotadas en `notas`:
+
+- `054-material` y `068-kapil`: la cabecera solo tiene el enlace de YouTube (sin Apple ni Spotify). Se ha tomado
+  ese enlace.
+- `077-happiness` (`t=735s`), `130-infinity-2` (`t=4s`), `131-vitalik` (`t=1440s`) y `132-vitalik-2` (`t=1332s`):
+  nav.al enlaza el vídeo empezando en un minuto concreto. La URL guardada es la del vídeo sin `t`; conviene
+  mirar si el original es un vídeo más largo del que el episodio es solo una parte.
