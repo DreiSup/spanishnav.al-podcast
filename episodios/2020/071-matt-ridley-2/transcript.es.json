@@ -4,7 +4,7 @@
   "episodio": "2020/071-matt-ridley-2",
   "numero": 71,
   "fecha": "2020-07-15",
-  "titulo": "Matt Ridley, claves de la innovación, parte dos",
+  "titulo": "Matt Ridley: Claves de la innovación, parte 2",
   "subtitulo": "La innovación es madre de la prosperidad",
   "fuente_url": "https://nav.al/matt-ridley-2",
   "titulos_seccion": [
@@ -205,7 +205,8 @@
       "speaker": "Naval",
       "frases": [
         "Eso va a cambiar, y la lectura cínica es que, hasta ahora, los que están perdiendo su empleo son los trabajadores manuales.",
-        "Todavía no les ha tocado a los trabajadores de oficina, que son los que dirigen la sociedad y controlan los medios, el gobierno, las universidades, los laboratorios de ideas y a los que hacen los modelos.",
+        "Todavía no les ha tocado a los trabajadores de oficina, que son los que dirigen la sociedad.",
+        "Son ellos los que controlan los medios, el gobierno, las universidades, los laboratorios de ideas y a los que hacen los modelos.",
         "Pero cuando los trabajadores de oficina empiecen a perder su empleo, la gente dirá, un momento, hay que tener en cuenta la economía.",
         "Como va a demostrar el experimento sueco, hay tres variables distintas que tienes que seguir a la vez en la cabeza, y eso a la mayoría de la gente le cuesta mucho.",
         "Una es, por supuesto, la tasa de letalidad de la infección, es decir, cuánta gente acaba enfermando o muriendo.",
@@ -323,7 +324,7 @@
         "Yo los dividiría en dos categorías, y la primera es que estamos construyendo una infraestructura de finanzas descentralizadas.",
         "Sirve para pedir prestado y para prestar, para los derivados, la compraventa, la custodia y todo eso.",
         "Lo que Wall Street hace por el veinte por ciento del producto interior bruto de Estados Unidos se hará por el uno por ciento en el mundo cripto.",
-        "Está mejorando tanto que no me sorprendería que, dentro de unos años, viéramos a más operadores de Wall Street que quisieran hacer una apuesta concreta, que tuvieran una opinión o que quisieran cubrirse de cierta manera.",
+        "Está mejorando tanto que no me sorprendería que, dentro de unos años, más operadores de Wall Street quisieran hacer una apuesta concreta, tuvieran una opinión o quisieran cubrirse de cierta manera.",
         "Otros querrían comprar un activo concreto que la infraestructura financiera actual no les deja comprar, y todos ellos tendrían que pasarse a Bitcoin o a Ethereum y hacerlo con finanzas descentralizadas.",
         "Es, sencillamente, muy superior tecnológicamente, y esa es una de las cosas que estoy viendo.",
         "La otra cosa que estoy viendo es que las primeras aplicaciones de cripto están saliendo en el almacenamiento de archivos, en la autenticación y en la identidad.",
@@ -353,9 +354,9 @@
         "El gobierno puede restringirte porque tiene el monopolio de la violencia.",
         "La gente intenta secuestrar al gobierno, porque si consigues que el gobierno cumpla tus órdenes, tienes a tipos armados que hacen lo que tú quieras, y lo controlas todo.",
         "Lo que permite la criptografía es la primera ventaja asimétrica del defensor frente al atacante, probablemente desde la muralla del castillo o el foso.",
-        "En la historia de la guerra, el atacante ha ido ganando enormes ventajas y el defensor las ha ido perdiendo desde que se inventaron el cañón y las armas de fuego, y eso favorece al atacante.",
-        "Las armas nucleares, obviamente, favorecen al atacante, y las armas biológicas también favorecen al atacante.",
-        "Los ataques aéreos favorecen al atacante, y los tanques favorecen al atacante."
+        "En la historia de la guerra, desde que se inventaron el cañón y las armas de fuego, el atacante ha ido ganando enormes ventajas y el defensor las ha ido perdiendo.",
+        "Eso favorece al atacante, y las armas nucleares, obviamente, también favorecen al atacante.",
+        "Las armas biológicas favorecen al atacante, los ataques aéreos favorecen al atacante y los tanques favorecen al atacante."
       ]
     },
     {
@@ -532,9 +533,9 @@
         "Para mí es una cita poderosa, porque me dice que la innovación necesita libertad.",
         "Es creativa, y con ella satisfacemos lo que la gente quiere hacer, no lo que le mandan o le obligan a hacer.",
         "Así que gracias, Matt, por ayudarme a entender la evolución.",
-        "Te recomiendo también Genoma, y para entender la base racional de la ética, el origen de la virtud.",
+        "Recomiendo también Genoma, y para entender la base racional de la ética, el origen de la virtud.",
         "Me ayudaste a ser optimista de una forma racional con tu famoso libro El optimista racional.",
-        "Y en Claves de la innovación dejas muy clara la evolución de la innovación y cómo fomentarla. Ha sido un placer."
+        "Y en Claves de la innovación dejas muy clara la evolución de la innovación y cómo fomentarla, y ha sido un placer."
       ]
     },
     {
@@ -543,7 +544,8 @@
       "frases": [
         "Naval, gracias por las ideas increíbles que me has dado hoy, por tus comentarios fantásticos y amables, y por decir que este libro deberían leerlo quienes se dedican a innovar.",
         "Lo digo porque soy un poco impostor, no soy innovador, no he inventado nada, no he montado ningún negocio ni soy emprendedor, soy escritor.",
-        "Así que me honra muchísimo que pienses que el libro tiene utilidad práctica para la gente, además de ser un recorrido interesante por las ideas que hay detrás de este misterioso concepto de la innovación humana."
+        "Así que me honra muchísimo que pienses que el libro tiene utilidad práctica para la gente.",
+        "Y que además sea un recorrido interesante por las ideas que hay detrás de este misterioso concepto de la innovación humana."
       ]
     }
   ]
