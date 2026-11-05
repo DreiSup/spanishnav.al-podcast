@@ -1,0 +1,69 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2019/017-math-logic",
+  "numero": 17,
+  "fecha": "2019-04-05",
+  "titulo": "Los cimientos son las matemáticas y la lógica",
+  "subtitulo": "Las matemáticas y la lógica son la base para entender todo lo demás",
+  "fuente_url": "https://nav.al/math-logic",
+  "titulos_seccion": [
+    "Es mejor leer un gran libro muy despacio que volar por cien libros deprisa",
+    "Aprende persuasión y programación"
+  ],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Las cosas fundamentales son principios, son algoritmos, son una comprensión lógica muy asentada, algo que puedes defender o atacar desde cualquier ángulo.",
+        "Y por eso la microeconomía es importante, porque la macroeconomía es mucha memorización, mucha palabrería macro.",
+        "Como dice Nassim Taleb, es más fácil soltar palabrería en lo macro que en lo micro.",
+        "Porque la macroeconomía es una ciencia vudú y complicada mezclada con política.",
+        "Hoy en día no encuentras a dos macroeconomistas que se pongan de acuerdo en nada, y distintos políticos usan a distintos macroeconomistas para vender sus distintas teorías favoritas.",
+        "Ahora incluso hay macroeconomistas por ahí vendiendo algo llamado Teoría Monetaria Moderna.",
+        "Viene a decir que, salvo por esa cosita molesta llamada inflación, podemos imprimir todo el dinero que queramos.",
+        "Sí, claro, salvo por esa cosita molesta llamada inflación.",
+        "Es como decir que, salvo por la energía limitada, podemos lanzar cohetes al espacio todo el día, y es un sinsentido.",
+        "Pero hay gente con el título de macroeconomista que está vendiendo la Teoría Monetaria Moderna.",
+        "Y eso te dice que la macroeconomía, como supuesta ciencia, se ha corrompido y ya es una rama de la política.",
+        "Así que lo que te conviene es centrarte en los fundamentos.",
+        "El fundamento último son las matemáticas y la lógica.",
+        "Si entiendes la lógica y las matemáticas, entonces tienes la base para entender el método científico.",
+        "Y una vez que entiendes el método científico, puedes entender cómo separar la verdad de la falsedad en otros campos y en otras cosas que leas."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Así que ten mucho cuidado al leer las opiniones de otros, e incluso ten cuidado al leer hechos.",
+        "Porque los llamados hechos a menudo no son más que opiniones bien barnizadas.",
+        "Lo que de verdad estás buscando son algoritmos.",
+        "Lo que de verdad estás buscando es comprensión.",
+        "Es mejor recorrer un libro muy despacio, y pelearte con él, tropezar y volver atrás, que volar por él deprisa y decir que ya te has leído veinte, treinta o cincuenta libros del campo.",
+        "Como decía Bruce Lee, él no temía al hombre que conoce mil patadas y mil puñetazos, sino al que ha practicado un solo puñetazo diez mil veces, o una sola patada diez mil veces.",
+        "Es esa comprensión que llega por la repetición, por el uso, por la lógica y por los fundamentos la que de verdad te convierte en un pensador inteligente."
+      ]
+    },
+    {
+      "id": "b03-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Para poner los cimientos del aprendizaje para el resto de tu vida, creo que necesitas dos cosas, si tuviera que resumirlo.",
+        "Una, persuasión práctica, y dos, profundizar en alguna categoría técnica, ya sean las matemáticas abstractas, los libros de Donald Knuth sobre algoritmos o las lecciones de física de Feynman.",
+        "Si tienes persuasión práctica y una comprensión profunda de algún tema complejo, creo que tendrás una gran base para aprender durante el resto de tu vida."
+      ]
+    },
+    {
+      "id": "b04-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Sí. De hecho, déjame ampliarlo un poco.",
+        "Yo diría que las cinco habilidades más importantes son, por supuesto, leer, escribir y la aritmética, y luego, como tú añades, la persuasión, que es hablar.",
+        "Y por último, añadiría la programación de ordenadores, simplemente porque es una forma aplicada de la aritmética que te da muchísimo apalancamiento gratis en cualquier campo en el que te muevas.",
+        "Si se te dan bien los ordenadores, si se te dan bien las matemáticas básicas, si escribes bien, si hablas bien, y si te gusta leer, tienes la vida resuelta."
+      ]
+    }
+  ]
+}

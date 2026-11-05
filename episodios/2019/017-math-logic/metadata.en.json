@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 17,
+  "anio": 2019,
+  "slug": "math-logic",
+  "titulo": "The Foundations Are Math and Logic",
+  "subtitulo": "Mathematics and logic are the basis for understanding everything else",
+  "fecha_publicacion": "2019-04-05",
+  "fuente_url": "https://nav.al/math-logic",
+  "orden_archivo": 21,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-05"
+}
