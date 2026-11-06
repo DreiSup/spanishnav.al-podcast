@@ -167,3 +167,4 @@ episodio. Episodios con notas a 6-nov: 008, 010, 017, 018, 020 y 052.
 | 2026-11-06 | 046 Compounding Relationships Make Life Easier (términos del 5 y 6-nov) | revision | 5 | 25 | 438 | 2,6 | Cero avisos. Interés compuesto en el texto y en el título; sigue idéntico al 052 b258–b260 |
 | 2026-11-06 | 049 Net Present Value: What Future Income Is Worth Today (términos del 5 y 6-nov) | revision | 3 | 11 | 212 | 1,2 | Cero avisos. Valor actual neto en el texto y en el título |
 | 2026-11-06 | 051 How to Angel Invest, Part 1 (términos del 5 y 6-nov) | revision | 81 | 525 | 8368 | 49,2 | Cero avisos. Equity, acciones ordinarias, replicación, Buffett, interés compuesto, jugarse la piel |
+| 2026-11-06 | 045 Turn Short-Term Games Into Long-Term Games (términos del 5 y 6-nov) | revision | 5 | 28 | 462 | 2,7 | Cero avisos. Fuerza negociadora en b05 y posición de fuerza en el subtítulo |
