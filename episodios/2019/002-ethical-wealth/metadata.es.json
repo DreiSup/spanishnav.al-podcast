@@ -14,11 +14,18 @@
     "url_original": "https://www.youtube.com/watch?v=Lo3IAGpUMm8"
   },
   "drive": {
-    "carpeta_id": "",
-    "tts_id": "",
-    "audio_final_id": "",
-    "video_id": "",
+    "carpeta_id": "1xgLEJoWckgy40eeeBN-dTIbh95qtWzmG",
+    "tts_id": "1bHm1HiCBYp7RAv8GviAPrw5bL1sazLJq",
+    "audio_final_id": "1aYlN_JYlfezXCrspHTCl02HBzyfQXwzM",
+    "video_id": "1sElhHprMV4oPQd2siiS-TRBai68tKxOq",
     "proyecto_id": ""
+  },
+  "publicacion": {
+    "fecha": "2026-11-06",
+    "audio_url": "https://audio.spanishnav.al/2019/002-ethical-wealth.mp3",
+    "audio_bytes": 3390987,
+    "duracion_s": 212,
+    "feed_guid": "spanishnav.al/2019/ethical-wealth"
   },
   "audio_editado_a_mano": false,
   "heredado": null,
