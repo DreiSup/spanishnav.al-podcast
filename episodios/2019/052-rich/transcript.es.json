@@ -42,8 +42,8 @@
     "No puedes ganar de forma no lineal si alquilas tu tiempo",
     "No te harás rico alquilando tu tiempo",
     "Alquilar tu tiempo significa que eres sustituible",
-    "Tienes que tener participación para lograr tu libertad financiera",
-    "Quieres una carrera donde lo que metes no se corresponda con lo que sacas",
+    "Tienes que tener equity para lograr tu libertad financiera",
+    "Quieres una carrera donde tus inputs no se correspondan con tus outputs",
     "Vive por debajo de tus posibilidades para ser libre",
     "Quien anda mejorando su nivel de vida no concibe esta libertad",
     "Quien vive por debajo de sus posibilidades tiene libertad",
@@ -117,11 +117,11 @@
     "Asume riesgos de negocio con tu propio nombre",
     "Un equipo que funciona bien tiene responsabilidad clara en cada puesto",
     "Quien puede fracasar en público tiene mucho poder",
-    "Asume responsabilidad para ganarte una participación",
+    "Asume responsabilidad para ganarte equity",
     "Si tienes mucha responsabilidad, eres menos reemplazable",
-    "La responsabilidad es lo que te va a dar participación",
-    "Asumir responsabilidad es como tener participación en todo tu trabajo",
-    "La responsabilidad es jugarte la reputación",
+    "La responsabilidad es lo que te va a dar equity",
+    "Asumir responsabilidad es como tener equity en todo tu trabajo",
+    "La responsabilidad es jugarte la piel con tu reputación",
     "El trabajo y el capital son apalancamiento antiguo",
     "Todo el mundo se pelea por el trabajo y el capital",
     "Nuestro cerebro no ha evolucionado para entender las nuevas formas de apalancamiento",
@@ -147,7 +147,7 @@
     "Elige un modelo de negocio con apalancamiento",
     "Un modelo de negocio ideal tiene efectos de red, costes marginales bajos y economías de escala",
     "Economías de escala: cuanto más produces, más barato sale",
-    "Coste marginal de reproducción cero: producir más es gratis",
+    "Coste marginal de replicación cero: producir más es gratis",
     "Efectos de red: el valor crece con el cuadrado de los clientes",
     "Los negocios con efectos de red son monopolios naturales",
     "En un efecto de red, cada usuario nuevo aporta valor a los usuarios que ya están",
@@ -155,7 +155,7 @@
     "Ejemplo: del obrero al emprendedor",
     "De poco a mucho conocimiento específico, responsabilidad y apalancamiento",
     "Los obreros cobran por horas y tienen poca responsabilidad",
-    "Los contratistas generales se llevan participación, pero también asumen riesgo",
+    "Los contratistas generales se llevan equity, pero también asumen riesgo",
     "Los promotores inmobiliarios se quedan el beneficio aplicando apalancamiento de capital",
     "Los arquitectos, los grandes promotores y los fondos de inversión inmobiliaria están aún más arriba",
     "Las empresas de tecnología inmobiliaria aplican el máximo apalancamiento",
@@ -244,7 +244,7 @@
     "Ser ético es codicia a largo plazo",
     "Si cierras operaciones justas, acabarás cobrando a la larga",
     "La ética no es algo que se estudia, es algo que se hace",
-    "La confianza lleva a relaciones que componen",
+    "La confianza lleva a relaciones con interés compuesto",
     "Ser ético atrae a otros jugadores de largo plazo",
     "Ser ético es codicia a largo plazo",
     "Si cierras operaciones justas, acabarás cobrando a la larga",
@@ -275,10 +275,10 @@
     "Las soluciones óptimas de Pareto exigen una renuncia para mejorar cualquier criterio",
     "Las negociaciones las gana a quien menos le importa",
     "Convierte juegos de una sola jugada en juegos de muchas jugadas",
-    "Las relaciones que componen te hacen la vida más fácil",
+    "Las relaciones con interés compuesto te hacen la vida más fácil",
     "La vida se vuelve mucho más fácil cuando sabes que alguien te cubre las espaldas",
     "La confianza mutua hace fácil hacer negocios",
-    "Es mejor tener unas pocas relaciones que componen que muchas superficiales",
+    "Es mejor tener unas pocas relaciones con interés compuesto que muchas superficiales",
     "Cuesta el mismo esfuerzo crear un negocio pequeño que uno grande",
     "Discriminación de precios: cobrar más a algunos",
     "Puedes cobrar extras a la gente según su disposición a pagar",
@@ -287,7 +287,7 @@
     "Excedente del consumidor: recibir más de lo que pagaste",
     "La gente está dispuesta a pagar más de lo que cobran las empresas",
     "El excedente del consumidor es el valor extra que obtienes cuando pagas menos de lo que estabas dispuesto",
-    "Valor presente neto: lo que valen hoy los ingresos futuros",
+    "Valor actual neto: lo que valen hoy los ingresos futuros",
     "Descubre lo que valen hoy los ingresos futuros aplicando un descuento a su valor futuro",
     "Averigua lo que valen hoy los ingresos futuros aplicando una tasa de descuento",
     "Externalidades: calcular los costes ocultos de los productos",
@@ -300,7 +300,7 @@
     "Busca la parte del trabajo con la curva de aprendizaje más pronunciada",
     "Desarrolla mentalidad de fundador",
     "La responsabilidad es algo que puedes asumir de inmediato",
-    "El conocimiento específico puede ser oportuno o atemporal",
+    "El conocimiento específico puede ser del momento o atemporal",
     "La tecnología es una frontera intelectual para ganar conocimiento específico",
     "Si no tienes responsabilidad, haz algo distinto",
     "Desarrollarás piel dura si asumes responsabilidad",
@@ -526,7 +526,7 @@
       "id": "b12-naval",
       "speaker": "Naval",
       "frases": [
-        "En conjunto, el capitalismo, es decir, los mercados libres, es intrínseco a la especie humana.",
+        "En conjunto, el capitalismo es intrínseco a la especie humana.",
         "El capitalismo no es algo que inventáramos.",
         "El capitalismo ni siquiera es algo que descubriéramos.",
         "Está dentro de nosotros en cada intercambio que hacemos.",
@@ -561,6 +561,13 @@
         "Ese es el juego que mantiene el iPhone vibrando en tu bolsillo.",
         "Así que es un juego precioso que merece la pena jugar de forma ética, racional, moral y social para la raza humana.",
         "Va a seguir haciéndonos a todos cada vez más ricos, hasta que tengamos una creación de riqueza enorme para cualquiera que la quiera."
+      ],
+      "notas_editor": [
+        {
+          "tras_frase": 1,
+          "texto": "[se refiere a los mercados libres]",
+          "original": "[meaning free markets]"
+        }
       ]
     },
     {
@@ -723,7 +730,7 @@
         "Igual que alguien como Nenad, illacertus, que está construyendo su marca en internet.",
         "Está haciendo vídeos.",
         "No es que un solo vídeo vaya a llenarlo de riquezas de la noche a la mañana.",
-        "Va a ser toda una vida de aprender, de leer y de crear, y eso va a componer.",
+        "Va a ser toda una vida de aprender, de leer y de crear, y eso va a crecer con el interés compuesto.",
         "Estamos hablando de hacerse rico para poder jubilarte, para tener tu libertad.",
         "No jubilarte en el sentido de no hacer nada.",
         "Sino en el sentido de que no tienes que estar en ningún sitio en el que no quieras estar.",
@@ -847,7 +854,7 @@
       "frases": [
         "Después entras en detalles más concretos sobre cómo puedes hacerte rico de verdad y cómo no puedes hacerte rico.",
         "El primer punto iba sobre cómo no te vas a hacer rico: no te vas a hacer rico alquilando tu tiempo.",
-        "Tienes que poseer capital, una parte del negocio, para conseguir tu libertad financiera."
+        "Tienes que tener equity, una parte del negocio, para conseguir tu libertad financiera."
       ]
     },
     {
@@ -858,7 +865,7 @@
         "La gente parece pensar que puedes crear riqueza y ganar dinero trabajando.",
         "Y probablemente eso no va a funcionar.",
         "Hay muchas razones para ello.",
-        "Pero la más básica es simplemente que tus entradas están muy ligadas a tus salidas.",
+        "Pero la más básica es simplemente que tus inputs están muy ligados a tus outputs.",
         "En casi cualquier trabajo asalariado, incluso en uno que pague mucho por hora, como el de abogado o el de médico, sigues metiendo las horas, y por cada hora te pagan.",
         "Así que eso significa que cuando duermes no estás ganando.",
         "Cuando estás jubilado, no estás ganando.",
@@ -890,7 +897,7 @@
         "Y ni siquiera tiene que ser un reemplazo total de la noche a la mañana.",
         "Puede ser un reemplazo poco a poco.",
         "Y eso va comiéndose tu creación de riqueza y, por tanto, tu capacidad de ganar dinero.",
-        "Así que, en el fondo, tus entradas están emparejadas con tus salidas.",
+        "Así que, en el fondo, tus inputs están emparejados con tus outputs.",
         "Eres reemplazable y no estás siendo creativo.",
         "Simplemente no creo que esa sea una forma de ganar dinero de verdad."
       ]
@@ -903,7 +910,7 @@
         "Eso puede ser a través de opciones sobre acciones, o sea que puedes estar trabajando en una empresa tecnológica.",
         "Es una forma perfectamente buena de empezar.",
         "Pero normalmente la riqueza de verdad se crea montando tus propias empresas, o incluso siendo inversor.",
-        "Los inversores están en una firma de inversión y están comprando participaciones.",
+        "Los inversores están en una firma de inversión y están comprando equity.",
         "Estos son mucho más los caminos hacia la riqueza.",
         "No llega a través de las horas."
       ]
@@ -912,7 +919,7 @@
       "id": "b37-naval",
       "speaker": "Naval",
       "frases": [
-        "Lo que quieres de verdad es un trabajo, una carrera o una profesión donde tus entradas no se correspondan con tus salidas.",
+        "Lo que quieres de verdad es un trabajo, una carrera o una profesión donde tus inputs no se correspondan con tus outputs.",
         "Si miras la sociedad moderna, y de esto se habla otra vez más adelante en el hilo de tuits, los negocios con mucha creatividad y mucho apalancamiento suelen ser de un tipo concreto.",
         "Son aquellos en los que puedes hacer una hora de trabajo y tener un efecto enorme.",
         "O puedes hacer mil horas de trabajo y no tener ningún efecto.",
@@ -921,13 +928,13 @@
         "Y un ingeniero que está trabajando en lo que no toca, o que no es tan bueno, o que simplemente no es tan creativo ni tan reflexivo, puede trabajar un año entero.",
         "Y al final ningún trozo del código que entrega acaba usándose.",
         "Los clientes no lo quieren.",
-        "Ese es un ejemplo de profesión en la que las entradas y las salidas están muy desconectadas.",
+        "Ese es un ejemplo de profesión en la que los inputs y los outputs están muy desconectados.",
         "No se basa en el número de horas que metes.",
-        "En el extremo contrario, si eres leñador, incluso el mejor leñador del mundo, suponiendo que no trabajas con herramientas, las entradas y las salidas están claramente conectadas.",
+        "En el extremo contrario, si eres leñador, incluso el mejor leñador del mundo, suponiendo que no trabajas con herramientas, los inputs y los outputs están claramente conectados.",
         "Solo estás usando un hacha o una sierra.",
         "El mejor leñador del mundo quizá sea tres veces mejor que uno de los peores leñadores, ¿verdad?",
         "No va a ser una diferencia gigantesca.",
-        "Así que quieres buscar profesiones y carreras donde las entradas y las salidas estén muy desconectadas.",
+        "Así que quieres buscar profesiones y carreras donde los inputs y los outputs estén muy desconectados.",
         "Esta es otra forma de decir que quieres buscar cosas que tengan apalancamiento.",
         "Y con apalancamiento no me refiero solo al apalancamiento financiero, el que usa Wall Street y que tiene mala fama.",
         "Estoy hablando simplemente de herramientas.",
@@ -935,9 +942,9 @@
         "Un ordenador es una herramienta que usan los ingenieros de software.",
         "Si soy leñador con excavadoras, hachas robóticas automáticas y sierras, estoy usando herramientas.",
         "Y voy a tener más apalancamiento que alguien que solo usa sus manos desnudas e intenta arrancar los árboles de raíz.",
-        "Las herramientas y el apalancamiento son lo que crea esa desconexión entre entradas y salidas.",
-        "Y la creatividad también, porque cuanto mayor es el componente creativo de una profesión, más probable es que tenga las entradas y las salidas desconectadas.",
-        "Así que creo que si te fijas en profesiones donde tus entradas y tus salidas están muy conectadas, va a ser dificilísimo crear riqueza y generar riqueza para ti mismo en ese proceso."
+        "Las herramientas y el apalancamiento son lo que crea esa desconexión entre inputs y outputs.",
+        "Y la creatividad también, porque cuanto mayor es el componente creativo de una profesión, más probable es que tenga los inputs y los outputs desconectados.",
+        "Así que creo que si te fijas en profesiones donde tus inputs y tus outputs están muy conectados, va a ser dificilísimo crear riqueza y generar riqueza para ti mismo en ese proceso."
       ]
     },
     {
@@ -1182,7 +1189,7 @@
         "Ya sea en las relaciones, o ganando dinero, o aprendiendo.",
         "El interés compuesto es una fuerza maravillosa.",
         "Si empiezas con una vez lo que tienes, y luego lo aumentas un veinte por ciento al año durante treinta años, no es que le sumes treinta años por veinte por ciento.",
-        "Se compone, así que va creciendo, y creciendo, y creciendo, hasta que de repente tienes una cantidad enorme de lo que sea.",
+        "Es interés compuesto, así que va creciendo, y creciendo, y creciendo, hasta que de repente tienes una cantidad enorme de lo que sea.",
         "Ya sea buena voluntad, o amor, o relaciones, o dinero.",
         "Creo que el interés compuesto es una fuerza importantísima.",
         "Tienes que ser capaz de jugar a un juego a largo plazo.",
@@ -1333,7 +1340,7 @@
         "Debería estar colgando su arte en internet.",
         "Debería intentar averiguar cómo construir una carrera con eso, en vez de ponerse un collar al cuello e ir a un trabajo deprimente.",
         "Y la integridad alta es lo más importante.",
-        "Porque, si no, teniendo las otras dos, lo que tienes es un ladrón listo y trabajador, que al final te va a engañar.",
+        "Porque, si no, teniendo las otras dos, lo que tienes es un sinvergüenza listo y trabajador, que al final te va a engañar.",
         "Así que tienes que averiguar si la persona tiene mucha integridad.",
         "Y, como ya hemos hablado, la forma de hacerlo es a través de las señales.",
         "Y las señales son lo que hacen, no lo que dicen.",
@@ -1958,12 +1965,19 @@
       "id": "b96-naval",
       "speaker": "Naval",
       "frases": [
-        "Así que ten mucho cuidado al leer las opiniones de otros, e incluso ten cuidado al leer hechos, porque los llamados hechos a menudo no son más que opiniones con una capa de pseudociencia por encima.",
+        "Así que ten mucho cuidado al leer las opiniones de otros, e incluso ten cuidado al leer hechos, porque los llamados hechos a menudo no son más que opiniones bien barnizadas.",
         "Lo que de verdad estás buscando son algoritmos.",
         "Lo que de verdad estás buscando es comprensión.",
         "Es mejor recorrer un libro muy despacio, y pelearte y tropezar y rebobinar, que volar por él deprisa y decir: bueno, ya me he leído veinte libros, treinta libros, cincuenta libros del campo.",
         "Es como decía Bruce Lee: no temo al hombre que conoce mil patadas y mil puñetazos, temo al hombre que ha practicado un puñetazo diez mil veces o una patada diez mil veces.",
         "Es esa comprensión que llega por la repetición, por el uso, por la lógica y por los fundamentos la que de verdad te convierte en un pensador inteligente."
+      ],
+      "notas_editor": [
+        {
+          "tras_frase": 1,
+          "texto": "[de pseudociencia]",
+          "original": "[of pseudoscience]"
+        }
       ]
     },
     {
@@ -2001,7 +2015,14 @@
         "Yo me centraría en los fundamentos, me centraría con una inclinación hacia la ciencia.",
         "Desarrollaría el amor por la lectura, incluso leyendo la llamada comida basura que se supone que no deberías leer.",
         "No hace falta que leas los clásicos.",
-        "Esa lectura es la base de tu propia autoeducación."
+        "Eso es la base de tu propia autoeducación."
+      ],
+      "notas_editor": [
+        {
+          "tras_frase": 12,
+          "texto": "[se refiere a la lectura]",
+          "original": "[reading]"
+        }
       ]
     },
     {
@@ -2061,6 +2082,13 @@
         "Es el número de iteraciones lo que impulsa la curva de aprendizaje.",
         "Así que cuantas más iteraciones puedas tener, cuantos más tiros a puerta puedas tener, más rápido vas a aprender.",
         "No va solo de las horas invertidas."
+      ],
+      "notas_editor": [
+        {
+          "tras_frase": 8,
+          "texto": "[no por iteraciones, tal como aparece en nav.al]",
+          "original": "[not iterations]"
+        }
       ]
     },
     {
@@ -2094,7 +2122,7 @@
       "frases": [
         "¿Por qué no pasamos a la responsabilidad, que me pareció bastante interesante y creo que tú tienes tu propia visión particular sobre ella?",
         "El primer tuit sobre responsabilidad decía: abraza la responsabilidad y asume riesgos empresariales bajo tu propio nombre.",
-        "La sociedad te recompensará con responsabilidad, capital y apalancamiento."
+        "La sociedad te recompensará con cargos de responsabilidad, equity y apalancamiento."
       ]
     },
     {
@@ -2192,40 +2220,47 @@
       "frases": [
         "La responsabilidad es importante porque así es como vas a conseguir apalancamiento.",
         "Así es como vas a conseguir credibilidad.",
-        "También es como vas a conseguir capital.",
+        "También es como vas a conseguir equity.",
         "Vas a conseguir un trozo del negocio.",
         "Cuando estás negociando con otras personas, al final, si es otro quien decide cómo compensarte, esa decisión se va a basar en lo reemplazable que seas.",
         "Si tienes una responsabilidad alta, eso te hace menos reemplazable.",
-        "Entonces tienen que darte participación, que es un trozo de la ganancia."
+        "Entonces tienen que darte equity, que es un trozo de la ganancia."
       ]
     },
     {
       "id": "b110-naval",
       "speaker": "Naval",
       "frases": [
-        "La participación en sí misma es un buen ejemplo, porque la participación es también un instrumento basado en el riesgo.",
-        "Tener participación significa que cobras todo lo que queda después de que se haya pagado a toda la gente que necesita dinero garantizado.",
+        "El equity en sí mismo es un buen ejemplo, porque el equity es también un instrumento basado en el riesgo.",
+        "Tener equity significa que cobras todo lo que queda después de que se haya pagado a toda la gente que necesita dinero garantizado.",
         "Si miras la jerarquía del capital en una empresa, los empleados cobran primero.",
         "Cobran su salario primero.",
-        "En los procedimientos legales de quiebra, los salarios son sagrados.",
+        "En los procedimientos legales, los salarios son sagrados.",
         "Si eres miembro del consejo y la empresa gasta demasiado dinero y tiene salarios atrasados por pagar, el gobierno puede ir a por ti personalmente para que devuelvas esos salarios.",
         "Los empleados tienen la mayor seguridad, pero a cambio de esa seguridad no tienen tanto potencial de ganancia.",
         "Los siguientes en la fila serían los tenedores de deuda, que quizá son los banqueros que prestan dinero a la empresa para sus operaciones.",
         "Necesitan cobrar su cupón fijo cada mes o cada año, pero no consiguen mucho más recorrido más allá de eso.",
         "Puede que estén sacando un cinco, un diez, un quince, un veinte o un veinticinco por ciento al año, pero ahí está limitado su potencial.",
-        "Y por último están los que tienen participación.",
+        "Y por último están los que tienen equity.",
         "Esas personas van a llevarse en realidad la mayor parte de la ganancia.",
         "Una vez pagada la deuda y pagados los salarios, lo que quede va para ellos.",
-        "Pero si no hay dinero suficiente para pagar los salarios y a los tenedores de deuda, o si hay justo lo justo para pagarlos, los que tienen participación no se llevan nada.",
+        "Pero si no hay dinero suficiente para pagar los salarios y a los tenedores de deuda, o si hay justo lo justo para pagarlos, los que tienen equity no se llevan nada.",
         "Y eso es lo que pasa con la mayoría de los negocios, la mayoría de las veces.",
-        "Los que tienen participación asumen un riesgo mayor, pero a cambio obtienen una ganancia potencial casi ilimitada.",
+        "Los que tienen equity asumen un riesgo mayor, pero a cambio obtienen una ganancia potencial casi ilimitada.",
         "Puedes hacer lo mismo con todo tu trabajo.",
-        "En esencia, asumir la responsabilidad de tus actos es lo mismo que tomar una posición de capital en todo tu trabajo.",
+        "En esencia, asumir la responsabilidad de tus actos es lo mismo que tener equity en todo tu trabajo.",
         "Estás asumiendo un riesgo mayor a la baja a cambio de un mayor potencial al alza.",
         "Date cuenta de que en la sociedad moderna el riesgo a la baja no es tan grande.",
         "Incluso la quiebra personal puede borrar las deudas en los ecosistemas buenos.",
         "Yo conozco sobre todo Silicon Valley, pero en general la gente te perdonará los fracasos siempre que hayas sido honesto y hayas hecho un esfuerzo íntegro.",
         "No hay realmente tanto que temer en cuanto al fracaso, y por eso la gente debería estar asumiendo mucha más responsabilidad de la que asume."
+      ],
+      "notas_editor": [
+        {
+          "tras_frase": 5,
+          "texto": "[de quiebra]",
+          "original": "[bankruptcy]"
+        }
       ]
     },
     {
@@ -2274,11 +2309,11 @@
       "id": "b114-naval",
       "speaker": "Naval",
       "frases": [
-        "Sí. El libro de Taleb, Skin In The Game, es lectura obligatoria.",
-        "Si quieres llegar a algún sitio en la vida moderna y entender cómo funcionan los sistemas modernos, Skin In The Game estaría casi en lo más alto de mi lista de lecturas.",
-        "Responsabilidad y jugarse algo, estos conceptos van muy de la mano.",
-        "Yo pienso en la responsabilidad como jugarse algo de tu reputación.",
-        "Es poner tu reputación personal en juego como forma de jugarte algo.",
+        "Sí. El libro de Taleb, Jugarse la piel, es lectura obligatoria.",
+        "Si quieres llegar a algún sitio en la vida moderna y entender cómo funcionan los sistemas modernos, Jugarse la piel estaría casi en lo más alto de mi lista de lecturas.",
+        "La responsabilidad y jugarse la piel son conceptos que van muy de la mano.",
+        "Yo veo la responsabilidad como jugarse la piel con tu reputación.",
+        "Es poner tu reputación personal en juego, jugarte la piel.",
         "La responsabilidad es un concepto sencillo.",
         "La única parte de la responsabilidad que puede resultar un poco contraintuitiva es que ahora mismo estamos socialmente lavados del cerebro para no asumir responsabilidad, no de forma visible.",
         "Creo que hay maneras de asumir responsabilidad en las que cada miembro de un equipo puede asumir la responsabilidad de su parte.",
@@ -2290,7 +2325,7 @@
       "speaker": "Nivi",
       "frases": [
         "¿Por qué no hablamos un poco del apalancamiento?",
-        "El primer tuit del hilo era una cita famosa de Arquímedes, que decía: dadme una palanca lo bastante larga y un punto de apoyo y moveré la Tierra.",
+        "El primer tuit del hilo era una cita famosa de Arquímedes, que decía que si le daban una palanca lo bastante larga y un punto de apoyo, movería la Tierra.",
         "El siguiente tuit decía: las fortunas requieren apalancamiento.",
         "El apalancamiento empresarial viene del capital, de las personas y de productos sin coste marginal de replicación."
       ]
@@ -2361,7 +2396,7 @@
         "Son banqueros, políticos de países corruptos que imprimen dinero, en esencia gente que mueve grandes cantidades de dinero de un lado a otro.",
         "Si miras la cúpula de las empresas muy grandes, fuera de las tecnológicas, en muchísimas empresas grandes y antiguas el puesto de consejero delegado es en realidad un puesto financiero.",
         "En realidad son gestores de activos financieros.",
-        "A veces un gestor de activos le puede poner una cara amable, y así te sale un tipo tipo Warren Buffett.",
+        "A veces un gestor de activos le puede poner una cara amable, y así te sale alguien como Warren Buffett.",
         "Pero en el fondo creo que a todos nos disgusta el capital como forma de apalancamiento, porque parece injusto.",
         "Es esta cosa invisible que se puede acumular y pasar de generación en generación.",
         "Y de repente parece que hace que haya gente con cantidades gigantescas de dinero, sin nadie alrededor que necesariamente lo comparta.",
@@ -2502,11 +2537,11 @@
       "id": "b128-naval",
       "speaker": "Naval",
       "frases": [
-        "El trabajo y el capital son mucho menos igualitarios, no solo en las entradas, sino también en las salidas.",
+        "El trabajo y el capital son mucho menos igualitarios, no solo en los inputs, sino también en los outputs.",
         "Digamos que necesito algo que tienen que dar los humanos, como si quiero un masaje o si necesito que alguien me cocine la comida.",
         "Cuanto más elemento humano hay en la prestación de ese servicio, menos igualitario es.",
         "Jeff Bezos probablemente tiene vacaciones mucho mejores que la mayoría de nosotros, porque tiene un montón de humanos corriendo de un lado a otro haciendo lo que él necesite.",
-        "Si miras la salida del código y de los medios, Jeff Bezos no ve mejores películas ni mejor televisión que nosotros.",
+        "Si miras el output del código y de los medios, Jeff Bezos no ve mejores películas ni mejor televisión que nosotros.",
         "Jeff Bezos ni siquiera tiene una mejor experiencia informática.",
         "Google no le da una cuenta especial y premium donde sus búsquedas sean mejores.",
         "Es la naturaleza de lo que producen el código y los medios: el mismo producto está al alcance de todo el mundo.",
@@ -2627,7 +2662,7 @@
       "id": "b137-naval",
       "speaker": "Naval",
       "frases": [
-        "Otro va en la misma línea, y es que los productos tecnológicos sobre todo, y los productos de medios, tienen esta gran cualidad de que tienen coste marginal cero de reproducción.",
+        "Otro va en la misma línea, y es que los productos tecnológicos sobre todo, y los productos de medios, tienen esta gran cualidad de que tienen coste marginal de replicación cero.",
         "Crear otra copia de lo que acabas de crear es gratis.",
         "Cuando alguien escucha este podcast o ve un vídeo en YouTube sobre esto, a mí no me cuesta nada la siguiente persona que aparece.",
         "Esas cosas de coste marginal cero tardan un tiempo en arrancar, porque ganas muy poco dinero por usuario, pero con el tiempo pueden sumar muchísimo.",
@@ -2679,8 +2714,8 @@
         "El ejemplo clásico, que creo que todo el mundo puede entender, es el idioma.",
         "Digamos que hay cien personas viviendo en una comunidad y que se hablan diez idiomas distintos, y cada persona habla solo uno de esos diez.",
         "Pues estás teniendo que traducir todo el rato, es increíblemente doloroso.",
-        "Pero si los cien hablarais el mismo idioma, aportaría un valor enorme.",
-        "La forma en que va a evolucionar esa comunidad es esta: diez grupos empiezan hablando diez idiomas, y digamos que una persona más aprende inglés.",
+        "Pero si las cien personas hablaran el mismo idioma, eso aportaría un valor enorme.",
+        "La forma en que va a evolucionar esa comunidad es esta: diez personas empiezan hablando diez idiomas, y digamos que una persona más aprende inglés.",
         "Pues ahora, de repente, once personas saben inglés, así que la siguiente persona que llega y va a aprender un idioma nuevo probablemente va a elegir el inglés.",
         "En algún momento, digamos que el inglés llega a veinte o veinticinco personas, y ya está hecho.",
         "Se va a quedar con todo el mercado del idioma, y el resto de los idiomas van a quedar fuera por la competencia.",
@@ -2705,7 +2740,7 @@
         "Cuando estás eligiendo un modelo de negocio, es muy buena idea elegir un modelo en el que puedas beneficiarte de efectos de red, de costes marginales bajos y de economías de escala.",
         "Y estas cosas suelen ir juntas.",
         "Cualquier cosa que tenga coste marginal cero de producción obviamente tiene economías de escala.",
-        "Y las cosas que tienen coste marginal cero de reproducción muy a menudo tienden a tener efectos de red, porque no te cuesta nada más sacar otra copia de la cosa.",
+        "Y las cosas que tienen coste marginal de replicación cero muy a menudo tienden a tener efectos de red, porque no te cuesta nada más sacar otra copia de la cosa.",
         "Así que puedes crear pequeños ganchos para que los usuarios se aporten valor unos a otros.",
         "Siempre deberías estar pensando en cómo tus usuarios, tus clientes, pueden aportarse valor unos a otros, porque esa es la forma definitiva de apalancamiento.",
         "Estás en la playa en las Bahamas o estás durmiendo por la noche y tus clientes se están aportando valor unos a otros."
@@ -2740,13 +2775,13 @@
       "speaker": "Naval",
       "frases": [
         "Un escalón por encima de eso podrías tener a un contratista, un contratista general al que alguien contrata para venir a arreglar y reparar y levantar su casa.",
-        "Ese contratista general está asumiendo responsabilidad, está asumiendo la responsabilidad del trabajo.",
+        "Ese contratista general está asumiendo la responsabilidad, se está haciendo cargo del trabajo.",
         "Ahora digamos que le pagaron doscientos cincuenta mil dólares por el trabajo.",
         "Perdón, estoy usando precios del Bay Area, así que voy a pasarme a precios del resto del mundo, cien mil dólares por el trabajo de arreglar una casa.",
         "Y al contratista general en realidad le cuesta, con todo incluido, setenta mil dólares.",
         "Ese contratista se va a meter en el bolsillo los treinta mil dólares restantes.",
         "Se quedó con la parte de arriba.",
-        "Se quedó con el capital, pero también está asumiendo responsabilidad y riesgo.",
+        "Se quedó con el equity, pero también está asumiendo responsabilidad y riesgo.",
         "Si el proyecto se alarga y hay pérdidas, entonces él se come las pérdidas.",
         "Pero ya ves, solo la responsabilidad le da alguna forma de ingreso potencial adicional.",
         "Además, también tiene apalancamiento de trabajo, porque tiene a un montón de gente trabajando para él.",
@@ -2842,7 +2877,7 @@
         "Pero hay ciertos consejeros delegados que sin duda se ganan lo suyo, porque su criterio es mejor.",
         "Si gobiernas un barco grande, si gobiernas Google o Apple, y tu criterio es un diez o un veinte por ciento mejor que el de la siguiente persona, la sociedad te pagará literalmente cientos de millones de dólares más.",
         "Es porque estás gobernando un barco de cien mil millones de dólares.",
-        "Si aciertas el rumbo un diez o un veinte por ciento de las veces más a menudo que la otra persona, los resultados compuestos sobre esos cientos de miles de millones que gestionas serán enormes.",
+        "Si aciertas el rumbo un diez o un veinte por ciento de las veces más a menudo que la otra persona, el interés compuesto sobre esos cientos de miles de millones que gestionas será enorme.",
         "Tu sueldo como consejero delegado quedará empequeñecido en comparación.",
         "El criterio demostrado, y la credibilidad en torno a ese criterio, es algo crucial.",
         "Warren Buffett gana aquí porque tiene una credibilidad enorme.",
@@ -2880,10 +2915,10 @@
       "frases": [
         "El criterio es muy difícil de construir.",
         "Aquí es donde entran en juego tanto el intelecto como la experiencia.",
-        "Hay muchos problemas con los llamados intelectuales de la torre de marfil, pero una de las razones por las que Nassim Taleb arremete contra ellos es porque no se juegan nada.",
+        "Hay muchos problemas con los llamados intelectuales de la torre de marfil, pero una de las razones por las que Nassim Taleb arremete contra ellos es porque no se juegan la piel.",
         "No tienen experiencia en el mundo real, así que aplican puro intelecto.",
         "El intelecto sin ninguna experiencia suele ser peor que inútil, porque te da la confianza que da el intelecto, y te da algo de credibilidad.",
-        "Pero como no te jugabas nada, y no tenías experiencia real ni responsabilidad real, lo único que haces es lanzar dardos al azar.",
+        "Pero como no te jugabas la piel, y no tenías experiencia real ni responsabilidad real, lo único que haces es lanzar dardos al azar.",
         "El mundo real siempre es muchísimo más complejo de lo que podemos intelectualizar.",
         "Sobre todo en los terrenos y los problemas interesantes, rápidos y de frontera, no llegas ahí sin experiencia.",
         "Si eres listo e iteras rápido, la cuestión no es tanto meter diez mil horas en algo, sino hacer diez mil intentos en algo."
@@ -3037,7 +3072,7 @@
         "Hablemos del trabajo duro.",
         "Hay una batalla que ocurre mucho en Twitter.",
         "¿Hay que trabajar duro o no hay que trabajar duro?",
-        "David Heinemeier Hansson dice: es como si estuvierais explotando a la gente como esclavos.",
+        "David Heinemeier Hansson dice que es como tratar a la gente como esclavos.",
         "Keith Rabois dice: no, todos los grandes fundadores se dejaron la piel trabajando.",
         "Están hablando el uno por encima del otro.",
         "Para empezar, están hablando de dos cosas distintas.",
@@ -3519,7 +3554,7 @@
         "Tu resultado final será igual a algo así como lo distintivo que sea tu conocimiento específico, multiplicado por cuánto apalancamiento puedes aplicar a ese conocimiento.",
         "Multiplicado por con cuánta frecuencia tu criterio es correcto, multiplicado por lo singularmente responsable que eres del resultado.",
         "Multiplicado por cuánto valora la sociedad lo que estás haciendo.",
-        "Luego eso lo compones con cuánto tiempo puedas seguir haciéndolo y cuánto tiempo puedas seguir mejorándolo leyendo y aprendiendo."
+        "Y luego todo eso se multiplica con el interés compuesto de cuánto tiempo puedas seguir haciéndolo y cuánto tiempo puedas seguir mejorándolo leyendo y aprendiendo."
       ]
     },
     {
@@ -3536,7 +3571,7 @@
         "Y luego dices que toda grandeza viene del sufrimiento.",
         "¿Entonces eso significa que toda grandeza viene del deseo?",
         "Esto no son matemáticas.",
-        "No puedes ir arrastrando variables y formar salidas lógicas absolutas.",
+        "No puedes ir arrastrando variables y sacar resultados lógicos absolutos.",
         "Tienes que saber cuándo aplicar las cosas.",
         "Uno no puede ponerse demasiado analítico con esto.",
         "Es lo que un físico llamaría falsa precisión.",
@@ -4110,7 +4145,7 @@
       "speaker": "Naval",
       "frases": [
         "Cuando llevas suficiente tiempo en los negocios, te das cuenta de cuánto depende todo de la confianza.",
-        "Depende de la confianza porque lo que quieres es componer, como el interés compuesto.",
+        "Depende de la confianza porque lo que quieres es beneficiarte del interés compuesto.",
         "Quieres trabajar con gente de fiar durante periodos largos, sin tener que reevaluar cada conversación ni mirar constantemente por encima del hombro.",
         "Con el tiempo acabas gravitando hacia cierto tipo de personas.",
         "Y de la misma manera, esas personas gravitan hacia trabajar con otra gente ética."
@@ -4530,7 +4565,7 @@
         "Ese tipo de confianza hace que sea muy fácil hacer negocios.",
         "Si Nivi y yo montamos otra empresa y las cosas no funcionan, sé que los dos vamos a ser extremadamente razonables al decidir qué hacer, cómo salir o cómo cerrarla.",
         "O si la estamos escalando, cómo meter gente nueva.",
-        "Tenemos confianza mutua, y eso nos permite montar negocios con más facilidad y hace que el efecto se componga.",
+        "Tenemos confianza mutua, y eso nos permite montar negocios con más facilidad y hace que el efecto se multiplique.",
         "La razón menos reconocida por la que fracasan las startups es que los fundadores se rompen entre ellos.",
         "Sacar adelante una startup es tan difícil que quitar posibles puntos de fricción entre fundadores puede marcar la diferencia entre el éxito y el fracaso."
       ]
@@ -4539,12 +4574,12 @@
       "id": "b259-nivi",
       "speaker": "Nivi",
       "frases": [
-        "Hay un par de cosas poco intuitivas sobre componer.",
+        "Hay un par de cosas poco intuitivas sobre el interés compuesto.",
         "La primera es que casi todos los beneficios llegan al final, así que puede que al principio no veas beneficios enormes.",
         "Sam Altman escribió: siempre quiero que sea un proyecto que, si sale bien, haga que el resto de mi carrera parezca una nota a pie de página.",
-        "Insisto, casi todos los beneficios de componer llegan al final.",
-        "Y hay otra cosa poco intuitiva sobre componer.",
-        "Es mejor tener unas pocas relaciones profundas que se componen que muchas relaciones superficiales que no se componen."
+        "Insisto, casi todos los beneficios del interés compuesto llegan al final.",
+        "Y hay otra cosa poco intuitiva sobre el interés compuesto.",
+        "Es mejor tener unas pocas relaciones profundas con interés compuesto que muchas relaciones superficiales sin interés compuesto."
       ]
     },
     {
@@ -4613,14 +4648,14 @@
       "id": "b265-nivi",
       "speaker": "Nivi",
       "frases": [
-        "Hablemos del valor presente neto."
+        "Hablemos del valor actual neto."
       ]
     },
     {
       "id": "b266-naval",
       "speaker": "Naval",
       "frases": [
-        "El valor presente neto responde a una pregunta: ¿ese flujo de pagos que voy a recibir en el futuro, cuánto vale hoy?",
+        "El valor actual neto responde a una pregunta: ¿ese flujo de pagos que voy a recibir en el futuro, cuánto vale hoy?",
         "Aquí va un ejemplo típico.",
         "Entras en una startup y te dan opciones sobre acciones, y el fundador te dice: esta empresa va a valer mil millones de dólares, y te doy una décima parte del uno por ciento, así que te llevas un millón de dólares en acciones.",
         "El fundador está negociando en base a lo que va a valer en el futuro.",
@@ -4629,7 +4664,7 @@
         "Ese es el precio al que un inversor de capital riesgo invertiría en la empresa.",
         "Si el fundador ha levantado hace poco una ronda con una valoración de diez millones de dólares, entonces la empresa solo vale el uno por ciento de lo que el fundador dice que va a valer.",
         "Así que tu paquete de un millón de dólares en realidad vale diez mil dólares.",
-        "Deberías coger mucha soltura haciendo cálculos aproximados de valor presente neto en la cabeza."
+        "Deberías coger mucha soltura haciendo cálculos aproximados de valor actual neto en la cabeza."
       ]
     },
     {
@@ -4781,10 +4816,10 @@
       "id": "b278-naval",
       "speaker": "Naval",
       "frases": [
-        "Hay dos formas de conocimiento específico: el oportuno y el atemporal.",
+        "Hay dos formas de conocimiento específico: el del momento y el atemporal.",
         "Si te conviertes en un experto de primer nivel mundial en aprendizaje automático justo cuando despega, y has llegado ahí por interés intelectual genuino, te va a ir muy bien.",
         "Pero dentro de veinte años el aprendizaje automático puede ser algo ya visto, y el mundo puede haber pasado a otra cosa.",
-        "Ese es el conocimiento oportuno.",
+        "Ese es el conocimiento del momento.",
         "Si se te da bien persuadir a la gente, es probable que sea una habilidad que cogiste pronto en la vida.",
         "Siempre va a servir, porque persuadir a la gente siempre va a ser valioso.",
         "Ese es el conocimiento atemporal.",
@@ -4793,8 +4828,8 @@
         "Puedes combinar la persuasión con la contabilidad y con entender las líneas de producción de semiconductores.",
         "Ahora puedes convertirte en el mejor vendedor de semiconductores y, más adelante, en el mejor consejero delegado de una empresa de semiconductores.",
         "El conocimiento específico atemporal normalmente no se puede enseñar, y se queda contigo para siempre.",
-        "El conocimiento específico oportuno va y viene, pero suele tener una vida útil bastante larga.",
-        "La tecnología es un buen sitio para encontrar esos conjuntos de habilidades oportunas.",
+        "El conocimiento específico del momento va y viene, pero suele tener una vida útil bastante larga.",
+        "La tecnología es un buen sitio para encontrar esos conjuntos de habilidades del momento.",
         "Y si además puedes traer desde fuera un conjunto de conocimiento especializado más genérico, entonces tienes oro."
       ]
     },
