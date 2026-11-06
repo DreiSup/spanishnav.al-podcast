@@ -229,7 +229,7 @@ Al terminar, el enlace público de cada plataforma va a `lib/site.ts` → `platf
 
    **Sin ordenador: `video/video.ipynb` en Colab** (entorno de CPU, sin GPU). Se abre con
    https://colab.research.google.com/github/DreiSup/spanishnav.al-podcast/blob/claude/quirky-dirac-x18c3n/video/video.ipynb ,
-   se pone el episodio en la celda 1 (`EPISODIO = "2019/002-ethical-wealth"`) y se ejecuta todo:
+   se pone el número del episodio en la celda 1 (`EPISODIO = "004"`) y se ejecuta todo:
    - copia el master de Drive a Colab y comprueba que se decodifica sin errores;
    - hace el vídeo con el comando de arriba, con dos cambios: audio **estéreo** (`-ac 2`, lo que recomienda YouTube)
      y la duración fijada con `-t` en vez de `-shortest`;
@@ -239,7 +239,7 @@ Al terminar, el enlace público de cada plataforma va a `lib/site.ts` → `platf
      subido reproduce a calidad baja;
    - copia el `.mp4` a `video/` del episodio y espera a que Drive sincronice (`flush_and_unmount`).
 
-   El 6-nov se retiró el modo «rápido» (repetir un clip sin recodificar): al autor le sonaron mal los dos modos de la
+   El cuaderno busca la carpeta del episodio en todos los años de Drive por su número. El 6-nov se retiró el modo «rápido» (repetir un clip sin recodificar): al autor le sonaron mal los dos modos de la
    primera versión. **Sin validar en Colab**: se valida con el 002.
 2. **YouTube Studio → Crear → Subir vídeos.** Campos fijos, iguales en todos los vídeos (de referencia; el autor ya
    los conoce y no se le repiten):
