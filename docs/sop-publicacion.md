@@ -229,12 +229,18 @@ Al terminar, el enlace público de cada plataforma va a `lib/site.ts` → `platf
 
    **Sin ordenador: `video/video.ipynb` en Colab** (entorno de CPU, sin GPU). Se abre con
    https://colab.research.google.com/github/DreiSup/spanishnav.al-podcast/blob/claude/quirky-dirac-x18c3n/video/video.ipynb ,
-   se pone el episodio en la celda 1 (`EPISODIO = "2019/002-ethical-wealth"`) y se ejecuta todo. Lee el master de
-   Drive, baja la portada de la web, comprueba que vídeo y audio duran lo mismo que el master y deja el `.mp4` en
-   `video/` del episodio. Modo `rapido` por defecto: codifica 60 s de portada una vez y los repite sin recodificar
-   (con `-t` = duración del master; con `-stream_loop -1`, `-shortest` no corta y el fichero crece sin fin).
-   Probado fuera de Colab el 5-nov: 7 min de audio en 20–35 s (el modo `normal`, unas 5 veces más). **Sin validar en
-   Colab**: se valida con el 002.
+   se pone el episodio en la celda 1 (`EPISODIO = "2019/002-ethical-wealth"`) y se ejecuta todo:
+   - copia el master de Drive a Colab y comprueba que se decodifica sin errores;
+   - hace el vídeo con el comando de arriba, con dos cambios: audio **estéreo** (`-ac 2`, lo que recomienda YouTube)
+     y la duración fijada con `-t` en vez de `-shortest`;
+   - comprueba formato, duraciones, que vídeo y audio se decodifican sin errores y que el audio del vídeo es el del
+     master (SNR en 12 tramos: mediana ≥ 20 dB y ninguno < 12);
+   - deja escuchar 30 s en el propio cuaderno: **no se juzga el sonido por la vista previa de Drive**, que recién
+     subido reproduce a calidad baja;
+   - copia el `.mp4` a `video/` del episodio y espera a que Drive sincronice (`flush_and_unmount`).
+
+   El 6-nov se retiró el modo «rápido» (repetir un clip sin recodificar): al autor le sonaron mal los dos modos de la
+   primera versión. **Sin validar en Colab**: se valida con el 002.
 2. **YouTube Studio → Crear → Subir vídeos.** Campos fijos, iguales en todos los vídeos (de referencia; el autor ya
    los conoce y no se le repiten):
 
