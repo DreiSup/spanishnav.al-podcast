@@ -49,6 +49,13 @@
         "Incluso la quiebra personal puede borrar las deudas en los ecosistemas buenos.",
         "Yo conozco sobre todo Silicon Valley, pero en general la gente te perdonará los fracasos siempre que hayas sido honesto y hayas hecho un esfuerzo íntegro.",
         "No hay realmente tanto que temer en cuanto al fracaso, y por eso la gente debería estar asumiendo mucha más responsabilidad de la que asume."
+      ],
+      "notas_editor": [
+        {
+          "tras_frase": 4,
+          "texto": "[de quiebra]",
+          "original": "[bankruptcy]"
+        }
       ]
     },
     {
