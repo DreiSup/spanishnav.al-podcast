@@ -169,3 +169,4 @@ episodio. Episodios con notas a 6-nov: 008, 010, 017, 018, 020 y 052.
 | 2026-11-06 | 051 How to Angel Invest, Part 1 (términos del 5 y 6-nov) | revision | 81 | 525 | 8368 | 49,2 | Cero avisos. Equity, acciones ordinarias, replicación, Buffett, interés compuesto, jugarse la piel |
 | 2026-11-06 | 045 Turn Short-Term Games Into Long-Term Games (términos del 5 y 6-nov) | revision | 5 | 28 | 462 | 2,7 | Cero avisos. Fuerza negociadora en b05 y posición de fuerza en el subtítulo |
 | 2026-11-06 | 069 How to Angel Invest, Part 2 (términos del 5 y 6-nov) | revision | 59 | 368 | 6203 | 36,5 | Cero avisos. Sinvergüenza en b44; flujo de operaciones confirmado |
+| 2026-11-06 | 018 There's No Actual Skill Called "Business" (términos del 5 y 6-nov) | revision | 5 | 65 | 1152 | 6,8 | Cero avisos. [reading] fuera de la voz; dos notas del editor a notas_editor |

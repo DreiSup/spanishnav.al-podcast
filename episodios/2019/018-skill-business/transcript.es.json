@@ -27,7 +27,14 @@
         "E incluso entonces descubrirás que los conceptos básicos de teoría de juegos, psicología, ética, matemáticas, ordenadores y lógica te van a servir muchísimo mejor.",
         "Yo me centraría en los fundamentos, y me centraría con un enfoque científico.",
         "Desarrollaría el amor por la lectura, incluso leyendo la llamada comida basura que se supone que no deberías leer.",
-        "No hace falta que leas los clásicos, y esa lectura es la base de tu propia autoeducación."
+        "No hace falta que leas los clásicos, y eso es la base de tu propia autoeducación."
+      ],
+      "notas_editor": [
+        {
+          "tras_frase": 11,
+          "texto": "[se refiere a la lectura]",
+          "original": "[reading]"
+        }
       ]
     },
     {
@@ -84,6 +91,13 @@
         "Es el número de iteraciones lo que impulsa la curva de aprendizaje.",
         "Así que cuantas más iteraciones puedas tener, cuantos más tiros a puerta puedas tener, más rápido vas a aprender.",
         "No va solo de las horas invertidas."
+      ],
+      "notas_editor": [
+        {
+          "tras_frase": 7,
+          "texto": "[no por repeticiones]",
+          "original": "[not repetitions]"
+        }
       ]
     },
     {
