@@ -125,6 +125,15 @@ del OK para `main`. Falta Apple (cuando lo aprueben).
 **Cada episodio nuevo, desde ahora:** master → R2 → episodio en la web y push a `main` (con OK del autor) → Spotify,
 Apple y Substack lo cogen del feed solos. YouTube, a mano: la sesión le da al autor solo título y descripción.
 
+**Idea del autor (6-nov): dejar listos todos los episodios traducidos y publicar uno al día, programado.** Piezas:
+- R2: subir los masters por adelantado (la dirección no se anuncia hasta que el feed la incluye).
+- Web y feed: cargar todos los episodios con su fecha `published` futura, que la web y el feed solo muestren los de
+  fecha ≤ hoy, y una reconstrucción diaria de Vercel (el feed es estático: sin redeploy no aparece el del día).
+- YouTube: subirlos por la API con `publishAt` (programados). Depende de si la API deja los vídeos en privado
+  (sin aclarar; se prueba con el 003). Tarea del autor para el 7-nov: configurar Google Cloud (proyecto, YouTube Data
+  API v3, consentimiento «In production», cliente OAuth de escritorio en los Secretos de Colab).
+- 002: subido a YouTube a mano el 6-nov; web y feed, pendientes de que el autor confirme el master en R2.
+
 **Ideas apuntadas, sin empezar:** subir los episodios (o trozos) a Instagram, Facebook y TikTok. Ninguna lee RSS de
 podcast que se sepa; investigarlo cuando toque.
 
