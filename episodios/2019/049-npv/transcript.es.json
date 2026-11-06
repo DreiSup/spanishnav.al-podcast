@@ -4,7 +4,7 @@
   "episodio": "2019/049-npv",
   "numero": 49,
   "fecha": "2019-07-29",
-  "titulo": "Valor presente neto: lo que valen hoy los ingresos futuros",
+  "titulo": "Valor actual neto: lo que valen hoy los ingresos futuros",
   "subtitulo": "Descubre lo que valen hoy los ingresos futuros aplicando un descuento a su valor futuro",
   "fuente_url": "https://nav.al/npv",
   "titulos_seccion": [
@@ -15,14 +15,14 @@
       "id": "b01-nivi",
       "speaker": "Nivi",
       "frases": [
-        "Hablemos del valor presente neto."
+        "Hablemos del valor actual neto."
       ]
     },
     {
       "id": "b02-naval",
       "speaker": "Naval",
       "frases": [
-        "El valor presente neto responde a una pregunta: ¿ese flujo de pagos que voy a recibir en el futuro, cuánto vale hoy?",
+        "El valor actual neto responde a una pregunta: ¿ese flujo de pagos que voy a recibir en el futuro, cuánto vale hoy?",
         "Aquí va un ejemplo típico.",
         "Entras en una startup y te dan opciones sobre acciones, y el fundador te dice: esta empresa va a valer mil millones de dólares, y te doy una décima parte del uno por ciento, así que te llevas un millón de dólares en acciones."
       ]
@@ -37,7 +37,7 @@
         "Ese es el precio al que un inversor de capital riesgo invertiría en la empresa.",
         "Si el fundador ha levantado hace poco una ronda con una valoración de diez millones de dólares, entonces la empresa solo vale el uno por ciento de lo que el fundador dice que va a valer.",
         "Así que tu paquete de un millón de dólares en realidad vale diez mil dólares.",
-        "Deberías coger mucha soltura haciendo cálculos aproximados de valor presente neto en la cabeza."
+        "Deberías coger mucha soltura haciendo cálculos aproximados de valor actual neto en la cabeza."
       ]
     }
   ]
