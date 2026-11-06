@@ -95,6 +95,9 @@ DRIVE = Path(CFG["rutas"]["drive"])
 RAIZ_VOCES = DRIVE / CFG["rutas"]["voces"]
 RAIZ_EPISODIOS = DRIVE / CFG["rutas"]["episodios"]
 LIBRO_COSTE = RAIZ_EPISODIOS.parent / "coste_fabrica.jsonl"   # naval-podcast/coste_fabrica.jsonl
+# Si una celda falla (también con «Ejecutar todo»), en 10 min anota el coste y desconecta, salvo que pulses Detener
+comun.desconectar_si_falla(antes=lambda: print(fabrica.anotar_sesion(
+    LIBRO_COSTE, CFG, T_INICIO, globals().get("PLANES", {{}}), t_carga=globals().get("T_CARGA"), error=True)))
 if REF_ES_NAVAL:
     CFG["voces"]["naval"]["ref"] = fabrica.refs_espanol(RAIZ_VOCES, n=REF_ES_NAVAL)
     print(f"PRUEBA: Naval con la huella de {{REF_ES_NAVAL}} clip(s) en español: {{CFG['voces']['naval']['ref']}}")
@@ -148,11 +151,12 @@ if problemas:
     print("RESULTADO: REVISAR")
     for p in problemas:
         print("  -", p)
-    raise SystemExit("Corrige lo de arriba antes de cargar modelos: todavía no se ha gastado nada.")
+    raise RuntimeError("Corrige lo de arriba antes de cargar modelos (o pulsa Detener para no desconectar).")
 print("RESULTADO: OK")
 """),
     code("""
 # 4. Cargar Qwen con los adaptadores de las voces que hacen falta, y Whisper para revisar
+t0 = time.time()
 if SOLO_MASTER:
     print("SOLO_MASTER: no se carga ningún modelo")
 else:
@@ -164,6 +168,8 @@ else:
         import medir
         ASR = medir.Asr()
         print("Whisper large-v3 cargado")
+T_CARGA = time.time() - t0
+print(f"Carga: {T_CARGA / 60:.1f} min")
 """),
     code("""
 # 5. Generar los episodios
@@ -184,13 +190,7 @@ for ep, plan in PLANES.items():
     code("""
 # 6. Coste. Anota esta sesión (desde la celda 3: carga de modelos y ratos parados incluidos) en
 #    naval-podcast/coste_fabrica.jsonl y rehace el resumen de todo lo generado, naval-podcast/coste_fabrica.md
-import torch
-gpu = CFG["motor"].get("gpu") or (torch.cuda.get_device_name(0) if torch.cuda.is_available() else "CPU")
-seg = time.time() - T_INICIO
-uds = fabrica.unidades(seg, gpu, CFG) if gpu != "CPU" else 0.0
-fabrica.anotar_coste(LIBRO_COSTE, {"tipo": "sesion", "fin": time.strftime("%Y-%m-%dT%H:%M:%S"), "gpu": gpu,
-                                   "segundos": round(seg), "unidades_estimadas": round(uds, 3), "episodios": list(PLANES)})
-print(f"Esta sesión: {seg / 60:.0f} min de {gpu} ≈ {uds:.2f} unidades")
+print(fabrica.anotar_sesion(LIBRO_COSTE, CFG, T_INICIO, PLANES, t_carga=globals().get("T_CARGA")))
 resumen = fabrica.resumen_coste(RAIZ_EPISODIOS, CFG, RAIZ_EPISODIOS.parent / "coste_fabrica.md")
 print(resumen.split("| Episodio")[0].strip())
 """),

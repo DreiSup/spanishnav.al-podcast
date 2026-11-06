@@ -15,8 +15,10 @@ real está en `MotorQwen`; las pruebas usan uno falso.
 """
 import json
 import re
+import sys
 import time
 import zlib
+from contextlib import contextmanager
 from pathlib import Path
 
 import numpy as np
@@ -106,6 +108,74 @@ def resumen_plan(plan, cfg, cps=15.0):
     return "\n".join(lineas)
 
 
+# ---------------------------------------------------------------- cronómetro
+
+class Cronometro:
+    """Cuánto tarda cada fase: «qwen» (generar), «whisper» (oír), «revision» (comparar con el texto), «ritmo»
+    (recortar silencios), «escritura» (wav a Drive) y «master» (ffmpeg). También el pico de memoria de la GPU de
+    cada fase y el detalle de cada lote. Solo mide: no cambia nada del audio.
+
+    Antes y después de cada fase espera a que la GPU acabe (synchronize), para que cada una cuente su propio
+    trabajo. `t` y `lotes` son del clip en curso (se vacían con `nuevo_clip`); `sesion` acumula toda la sesión.
+    """
+
+    def __init__(self):
+        self.sesion = {}
+        self.nuevo_clip()
+
+    def nuevo_clip(self):
+        self.t, self.pico, self.lotes = {}, {}, []
+
+    @staticmethod
+    def _cuda():
+        torch = sys.modules.get("torch")   # sin importar torch: las pruebas sin GPU no lo tienen
+        return torch if torch is not None and torch.cuda.is_available() else None
+
+    @contextmanager
+    def fase(self, clave):
+        torch = self._cuda()
+        if torch:
+            torch.cuda.synchronize()
+            torch.cuda.reset_peak_memory_stats()
+        t0 = time.perf_counter()
+        try:
+            yield
+        finally:
+            if torch:
+                torch.cuda.synchronize()
+                gb = torch.cuda.max_memory_allocated() / 2 ** 30
+                self.pico[clave] = max(self.pico.get(clave, 0.0), gb)
+            dt = time.perf_counter() - t0
+            self.t[clave] = self.t.get(clave, 0.0) + dt
+            self.sesion[clave] = self.sesion.get(clave, 0.0) + dt
+
+    def contar(self, clave, n=1):
+        self.t[clave] = self.t.get(clave, 0) + n
+        self.sesion[clave] = self.sesion.get(clave, 0) + n
+
+    def del_clip(self, total):
+        """Lo que se guarda en el registro de un clip que ha tardado `total` segundos."""
+        tiempos = {k: round(v, 2) for k, v in self.t.items() if not k.startswith("oom")}
+        tiempos["otros"] = round(max(0.0, total - sum(tiempos.values())), 2)
+        fila = {"tiempos": tiempos, "lotes": self.lotes}
+        if self.pico:
+            fila["pico_gb"] = {k: round(v, 2) for k, v in self.pico.items()}
+        oom = {k: v for k, v in self.t.items() if k.startswith("oom")}
+        if oom:
+            fila["oom"] = oom
+        return fila
+
+
+CRONO = Cronometro()
+
+
+def reparto(tiempos):
+    """«qwen 85 % · whisper 9 % · …» de un diccionario de segundos por fase."""
+    total = sum(v for k, v in tiempos.items() if not k.startswith("oom")) or 1.0
+    orden = sorted(((k, v) for k, v in tiempos.items() if not k.startswith("oom")), key=lambda x: -x[1])
+    return " · ".join(f"{k} {100 * v / total:.0f} %" for k, v in orden)
+
+
 # ---------------------------------------------------------------- generación
 
 def semilla(texto, intento):
@@ -178,14 +248,33 @@ def generar_bloque(frases, voz, sintetizar_lote, asr, cfg_ver, pausa_max, lote=8
         nuevos = []
         for g in range(0, len(orden), tam):
             idx = orden[g:g + tam]
-            audios, sr = sintetizar_lote([frases[i] for i in idx], voz, intento_base + intento)
-            nuevos += [(i, np.asarray(a, dtype=np.float32).squeeze(), sr) for i, a in zip(idx, audios)]
-        oidos = asr.transcribe_lote([a for _, a, _ in nuevos], nuevos[0][2]) if asr is not None else None
+            t0 = time.perf_counter()
+            with CRONO.fase("qwen"):
+                audios, sr = sintetizar_lote([frases[i] for i in idx], voz, intento_base + intento)
+            hechos = [(i, np.asarray(a, dtype=np.float32).squeeze(), sr) for i, a in zip(idx, audios)]
+            durs = [len(a) / sr for _, a, _ in hechos]
+            CRONO.lotes.append({"fase": "qwen", "intento": intento, "n": len(idx),
+                                "s": round(time.perf_counter() - t0, 2), "audio_max": round(max(durs), 2),
+                                "audio_suma": round(sum(durs), 2),
+                                "tope": max(tope_pasos(frases[i]) for i in idx)})
+            nuevos += hechos
+        oidos = None
+        if asr is not None:
+            t0 = time.perf_counter()
+            with CRONO.fase("whisper"):
+                oidos = asr.transcribe_lote([a for _, a, _ in nuevos], nuevos[0][2])
+            CRONO.lotes.append({"fase": "whisper", "intento": intento, "n": len(nuevos),
+                                "s": round(time.perf_counter() - t0, 2),
+                                "audio_suma": round(sum(len(a) / s for _, a, s in nuevos), 2),
+                                "batch": getattr(asr, "lote_que_cabe", None)})
         siguen = []
+        with CRONO.fase("revision"):
+            revisados = [revisar(frases[i], audio, sr, asr, cfg_ver, oidos[n]) if asr is not None else None
+                         for n, (i, audio, sr) in enumerate(nuevos)]
         for n, (i, audio, sr) in enumerate(nuevos):
             cand = {"audio": audio, "sr": sr, "ok": None, "intentos": intento + 1}
             if asr is not None:
-                ok, errores, palabras, sobra, hyp = revisar(frases[i], audio, sr, asr, cfg_ver, oidos[n])
+                ok, errores, palabras, sobra, hyp = revisados[n]
                 cand.update(ok=ok, errores=errores, palabras=palabras, sobra_final=sobra, transcripcion=hyp)
             m = mejor[i]
             if m is None or cand["ok"] or (cand["errores"], cand["sobra_final"]) < (m["errores"], m["sobra_final"]):
@@ -194,9 +283,10 @@ def generar_bloque(frases, voz, sintetizar_lote, asr, cfg_ver, pausa_max, lote=8
             if cand["ok"] is False:
                 siguen.append(i)
         pendientes = siguen
-    for m in mejor:
-        m["audio"] = ritmo.acortar_pausas(m["audio"], m["sr"], pausa_max=pausa_max,
-                                          inicio=RECORTE_INICIO, final=RECORTE_FINAL)
+    with CRONO.fase("ritmo"):
+        for m in mejor:
+            m["audio"] = ritmo.acortar_pausas(m["audio"], m["sr"], pausa_max=pausa_max,
+                                              inicio=RECORTE_INICIO, final=RECORTE_FINAL)
     return mejor
 
 
@@ -294,6 +384,7 @@ def generar_episodio(plan, sintetizar_lote, asr, carpeta, cfg, avisar=print, mas
     registro = Path(carpeta) / "registro_tts.jsonl"
     hechos = leer_registro(carpeta)
     t_total, s_total = 0.0, 0.0
+    fases = {}   # segundos por fase de todo el episodio
     for p in plan:
         wav = tts_dir / p["fichero"]
         anterior = hechos.get(p["fichero"])
@@ -305,6 +396,7 @@ def generar_episodio(plan, sintetizar_lote, asr, carpeta, cfg, avisar=print, mas
                 continue
             avisar(f"  {p['fichero']}: ha cambiado su texto o su voz desde que se generó; lo rehago")
         t0 = time.time()
+        CRONO.nuevo_clip()
         pausa = pausa_de(p["voz"], cfg)
         hueco = max(0.0, pausa - RECORTE_INICIO - RECORTE_FINAL)
         lote = cfg["motor"].get("lote", 8)
@@ -321,12 +413,14 @@ def generar_episodio(plan, sintetizar_lote, asr, carpeta, cfg, avisar=print, mas
                 if k in pedidas:
                     r = nuevas[pedidas.index(k)]
                     a, sr_k = r["audio"], r["sr"]
-                    _escribir_wav(ruta_frase(tts_dir, p["fichero"], k), a, sr_k)
+                    with CRONO.fase("escritura"):
+                        _escribir_wav(ruta_frase(tts_dir, p["fichero"], k), a, sr_k)
                     detalle[k].update(intentos=r["intentos"], ok=r["ok"], errores=r.get("errores"),
                                       sobra_final=r.get("sobra_final"), transcripcion=r.get("transcripcion"),
                                       rehecha=veces)
                 else:
-                    a, sr_k = sf.read(str(ruta_frase(tts_dir, p["fichero"], k)), dtype="float32")
+                    with CRONO.fase("escritura"):
+                        a, sr_k = sf.read(str(ruta_frase(tts_dir, p["fichero"], k)), dtype="float32")
                 sr = sr or sr_k
                 audios.append(a)
         else:
@@ -339,7 +433,8 @@ def generar_episodio(plan, sintetizar_lote, asr, carpeta, cfg, avisar=print, mas
             sr = hechas[0]["sr"]
             audios, detalle = [], []
             for k, (frase, r) in enumerate(zip(p["frases"], hechas)):
-                _escribir_wav(ruta_frase(tts_dir, p["fichero"], k), r["audio"], r["sr"])
+                with CRONO.fase("escritura"):
+                    _escribir_wav(ruta_frase(tts_dir, p["fichero"], k), r["audio"], r["sr"])
                 audios.append(r["audio"])
                 detalle.append({"k": k, "texto": frase, "intentos": r["intentos"], "ok": r["ok"],
                                 "errores": r.get("errores"), "sobra_final": r.get("sobra_final"),
@@ -347,13 +442,17 @@ def generar_episodio(plan, sintetizar_lote, asr, carpeta, cfg, avisar=print, mas
         audio, inicios = ensamblar(audios, sr, hueco)
         for d, ini in zip(detalle, inicios):
             d["inicio_s"] = ini
-        _escribir_wav(wav, audio, sr)
+        with CRONO.fase("escritura"):
+            _escribir_wav(wav, audio, sr)
         seg, dt = len(audio) / sr, time.time() - t0
         t_total, s_total = t_total + dt, s_total + seg
+        medidas = CRONO.del_clip(dt)
+        for k, v in medidas["tiempos"].items():
+            fases[k] = fases.get(k, 0.0) + v
         fila = {"fichero": p["fichero"], "bloque": p["bloque"], "voz": p["voz"], "segundos": round(seg, 2),
                 "segundos_generacion": round(dt, 1), "sr": sr, "frases": detalle,
                 "adaptador": cfg["voces"][p["voz"]].get("adaptador"), "firma": firma(p["voz"], cfg),
-                "gpu": cfg["motor"].get("gpu"), "fecha": time.strftime("%Y-%m-%dT%H:%M:%S")}
+                "gpu": cfg["motor"].get("gpu"), "fecha": time.strftime("%Y-%m-%dT%H:%M:%S"), **medidas}
         with registro.open("a", encoding="utf-8") as fh:
             fh.write(json.dumps(fila, ensure_ascii=False) + "\n")
         hechos[p["fichero"]] = fila
@@ -363,11 +462,15 @@ def generar_episodio(plan, sintetizar_lote, asr, carpeta, cfg, avisar=print, mas
     if s_total:
         avisar(f"Generado: {s_total / 60:.1f} min de audio en {t_total / 60:.1f} min "
                f"({t_total / s_total:.2f} s de GPU por segundo de audio)")
+        avisar(f"Reparto del tiempo: {reparto(fases)}")
     master = Path(master) if master else Path(carpeta) / "audio" / "master.mp3"
-    inicios = None
+    inicios, t_master = None, 0.0
     if all((tts_dir / p["fichero"]).exists() for p in plan):
-        inicios = montar_master(plan, tts_dir, master, titulo=titulo)
-        avisar(f"Master: {master.name} ({inicios['_total'] / 60:.1f} min)")
+        t0 = time.perf_counter()
+        with CRONO.fase("master"):
+            inicios = montar_master(plan, tts_dir, master, titulo=titulo)
+        t_master = time.perf_counter() - t0
+        avisar(f"Master: {master.name} ({inicios['_total'] / 60:.1f} min, montado en {t_master:.0f} s)")
     escribir_informe(plan, hechos, carpeta, inicios, master, cfg)
     if libro_coste and t_total:
         gpu = cfg["motor"].get("gpu")
@@ -375,7 +478,8 @@ def generar_episodio(plan, sintetizar_lote, asr, carpeta, cfg, avisar=print, mas
                                    "fecha": time.strftime("%Y-%m-%dT%H:%M:%S"), "gpu": gpu,
                                    "segundos_gpu": round(t_total, 1), "minutos_audio_generado": round(s_total / 60, 2),
                                    "unidades_estimadas": round(unidades(t_total, gpu, cfg), 3),
-                                   "rehacer": bool(rehacer)})
+                                   "rehacer": bool(rehacer), "tiempos": {k: round(v, 1) for k, v in fases.items()},
+                                   "segundos_master": round(t_master, 1)})
         avisar(f"Coste: {t_total / 60:.1f} min de {gpu} ≈ {unidades(t_total, gpu, cfg):.2f} unidades")
     return hechos
 
@@ -391,6 +495,39 @@ def anotar_coste(libro, fila):
     """Una línea más en coste_fabrica.jsonl (naval-podcast/): el libro de lo que ha costado la fábrica."""
     with Path(libro).open("a", encoding="utf-8") as fh:
         fh.write(json.dumps(fila, ensure_ascii=False) + "\n")
+
+
+def _gpu_actual():
+    try:
+        import torch
+        return torch.cuda.get_device_name(0) if torch.cuda.is_available() else "CPU"
+    except ImportError:
+        return "CPU"
+
+
+def anotar_sesion(libro, cfg, t_inicio, episodios, t_carga=None, error=False):
+    """Apunta la sesión entera (desde la celda 3) en coste_fabrica.jsonl con su reparto: cargar modelos, cada fase
+    de la generación (CRONO.sesion) y el resto (preparar, esperas, ratos parados). Devuelve el texto para el cuaderno."""
+    gpu = cfg["motor"].get("gpu") or _gpu_actual()
+    seg = time.time() - t_inicio
+    uds = unidades(seg, gpu, cfg) if gpu != "CPU" else 0.0
+    fases = {k: round(v, 1) for k, v in CRONO.sesion.items() if not k.startswith("oom")}
+    carga = round(t_carga, 1) if t_carga else 0.0
+    resto = max(0.0, seg - carga - sum(fases.values()))
+    fila = {"tipo": "sesion", "fin": time.strftime("%Y-%m-%dT%H:%M:%S"), "gpu": gpu, "segundos": round(seg),
+            "unidades_estimadas": round(uds, 3), "episodios": list(episodios), "carga_modelos_s": carga,
+            "tiempos": fases, "resto_s": round(resto)}
+    oom = {k: v for k, v in CRONO.sesion.items() if k.startswith("oom")}
+    if oom:
+        fila["oom"] = oom
+    if error:
+        fila["error"] = True
+    anotar_coste(libro, fila)
+    partes = [f"cargar modelos {carga / 60:.1f}"] + [f"{k} {v / 60:.1f}" for k, v in
+                                                       sorted(fases.items(), key=lambda x: -x[1])]
+    partes.append(f"resto (preparar, esperas, parado) {resto / 60:.1f}")
+    return (f"Esta sesión: {seg / 60:.0f} min de {gpu} ≈ {uds:.2f} unidades\n"
+            f"  En minutos: {' · '.join(partes)}")
 
 
 def coste_de_carpeta(carpeta, cfg):
@@ -441,6 +578,12 @@ def escribir_informe(plan, hechos, carpeta, inicios=None, master=None, cfg=None)
     coste = coste_de_carpeta(carpeta, cfg) if cfg else None
     linea_coste = (f"Generarlo ha costado {coste['segundos_gpu'] / 60:.1f} min de GPU ({', '.join(coste['gpus'])}), "
                    f"unas **{coste['unidades']:.2f} unidades** de Colab, rehechos incluidos. " if coste else "")
+    fases = {}
+    for f in hechos.values():
+        for k, v in f.get("tiempos", {}).items():
+            fases[k] = fases.get(k, 0.0) + v
+    if fases:   # solo los clips generados desde el 6-nov guardan el tiempo de cada fase
+        linea_coste += f"Reparto del tiempo: {reparto(fases)}. "
     lineas = [f"# Clips de TTS — {Path(carpeta).name}", "",
               f"{len(hechos)} de {len(plan)} clips · {total / 60:.1f} min. " + linea_coste
               + (f"Master: `audio/{Path(master).name}`. " if inicios else "Sin master: faltan clips. ")
@@ -597,6 +740,7 @@ class MotorQwen:
             if len(textos) == 1:
                 raise
             fallo = True
+            CRONO.contar("oom_qwen")
         finally:
             gc.collect()
             self.torch.cuda.empty_cache()

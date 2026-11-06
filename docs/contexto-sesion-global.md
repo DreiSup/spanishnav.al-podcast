@@ -97,7 +97,8 @@ Coste medido: unos 2–2,5 s de T4 por segundo de audio → **unas 5 unidades po
    episodios 1–50 (cada uno desde su propio transcript, que es la regla del proyecto) y **montar el 052 uniendo
    sus masters**, sin GPU y sin cortes manuales, con capítulos de YouTube gratis en cada unión. Mismo gasto de GPU;
    cortar exigiría que la traducción del 052 coincidiera palabra por palabra con la de cada episodio, y no coincide.
-   Falta la decisión del autor.
+   **Decidido por el autor (6-nov): el 052 se genera entero desde su propia traducción**, como un episodio más.
+   Los cortos dentro de largos (077, 105, 130), en cambio, se montan con los clips del largo.
 2. **Muestra de las voces nuevas** antes de producir en serie: `MUESTRA = 3` con 068 (Kapil), 070 (Ridley), 132
    (Vitalik y Qureshi) y 134 (Brett y Deutsch). Menos de 1 unidad. Conviene cerrar las voces antes de producir en
    serie: cambiar una voz después rehace todos sus clips.

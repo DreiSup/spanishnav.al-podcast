@@ -68,6 +68,24 @@ Las unidades son una estimación: tiempo × tarifa de la GPU (`voces.json`, «co
 «Recursos», se cambia ahí y el resumen se recalcula. Los clips anteriores al 5-nov no guardan la GPU y se cuentan
 como T4 (el primer 044 se hizo en una L4 y queda algo por debajo).
 
+**Reparto del tiempo (desde el 6-nov).** Cada clip guarda también en `registro_tts.jsonl`:
+
+- `tiempos`: segundos de cada fase. Son «qwen» (generar), «whisper» (oír), «revision» (comparar con el texto),
+  «ritmo» (recortar silencios), «escritura» (wav a Drive) y «otros».
+- `lotes`: cada pasada del modelo, con su número de frases, segundos, audio más largo, audio total y tope de pasos.
+  Para Whisper, el `batch` que cupo; si pone `null`, fueron los 4 por defecto.
+- `pico_gb`: el pico de memoria de la GPU en cada fase.
+
+El informe, la celda 5 («Reparto del tiempo: qwen 85 % · whisper 9 % · …») y el libro de coste lo resumen. La
+celda 6 desglosa la sesión entera: cargar modelos, cada fase, el montaje del master y el resto (preparar, esperas,
+ratos parados). Solo mide: el audio sale igual, comprobado con un motor falso.
+
+**Seguro de desconexión (desde el 6-nov).** Con «Ejecutar todo», Colab se para en la primera celda que falla, y la
+celda 7 ya no llega a desconectar. Por eso la celda 3 activa un seguro: si cualquier celda falla, avisa, espera
+10 min, anota el coste de la sesión, sube Drive y desconecta. Para quedarte con el entorno y relanzar la celda sin
+recargar modelos, pulsa **Detener (■)** durante la cuenta atrás. Detener una celda que está funcionando no
+desconecta nada.
+
 ### Mediciones
 
 Primera prueba (2-nov, 044, L4, frase a frase): **4,58 s de GPU por segundo de audio**, unas 22 unidades por hora

@@ -13,7 +13,7 @@ ya traducidos, también del español frase a frase.
 | **130** The Beginning of Infinity, Part 2 | 106–129 (24) | 100 % | Ídem |
 | **154** In the Arena (2025) | 139–145 y 147–153 (14; el 146 es un anuncio suelto) | 99,7 % | Ídem, tras traducir **solo el largo** |
 | **160** The AI Industrial Revolution (2026) | las 3 partes sin número (Waste Tokens, Vibe Coding Hardware, The Regulatory Frontier) | 74,6 % (el resto es una «parte 4» que no salió como episodio) | Ídem |
-| **052** How to Get Rich (recopilación) | 001–050 (salvo 039) | 95 % | **Al revés**: generar los cortos y montar el 052 uniendo sus masters |
+| **052** How to Get Rich (recopilación) | 001–050 (salvo 039) | 95 % | **Se genera entero desde su propia traducción** (decisión del autor, 6-nov) |
 
 Números según la regla de `docs/extraccion.md` (orden del archivo − 4; los de 2026, − 7).
 
@@ -82,7 +82,8 @@ frases fuera de algún corto y sin solapes. La lista de grupos para la fábrica 
   (`docs/contexto-sesion-global.md`, §7.1). Así, además, cada unión puede ser un capítulo de YouTube.
 - Quedan unas 1.800 palabras del 052 sin corto: el final, que parece *Finding Time to Invest in Yourself*
   (13-ene-2020). No está en el catálogo ni en los Docs.
-- **Pendiente: decisión del autor sobre si se publica el 052.**
+- **Decisión del autor (6-nov): el 052 se genera entero desde su propia traducción**, como un episodio más
+  (~23 unidades). No se monta con los masters de 001–050. Lo de arriba queda como contexto.
 
 ### Verificación al 100 % (5-nov): unir 001–050 da el 052
 

@@ -36,6 +36,13 @@ Punto de partida: quedan ~1.300 min de audio traducido, unas **109 u** al ritmo 
    ≈ 1,2 y L4 ≈ 1,7. El dato real está en Colab → *Ver recursos*.
 8. **Riesgo de pagar GPU parada**: si falla una celda con «Ejecutar todo», la celda 7 (desconectar) no se ejecuta.
 
+## Decisiones del autor (6-nov)
+
+- **Paso 1 (medir y seguro de desconexión): hecho.** Está en la rama, probado sin GPU, y el audio sale idéntico. Se
+  estrena en la próxima ejecución normal.
+- **Cortos desde el largo (paso 2): sí.** Se genera el 077, el 105 y el 130, y los cortos se montan con sus clips.
+- **052 (paso 3): no se monta.** Se genera entero desde su propia traducción, como un episodio más (~23 u).
+
 ## Plan priorizado
 
 | # | Medida | Ahorro estimado | ¿Cambia el audio? | Coste de probarlo |

@@ -208,3 +208,45 @@ def desconectar():
     drive.flush_and_unmount()
     print("Drive al día. Desconectando el entorno para no gastar más unidades...")
     runtime.unassign()
+
+
+def desconectar_si_falla(antes=None, minutos=10):
+    """Si de aquí en adelante falla una celda, avisa y, si nadie lo para en `minutos`, sube Drive y desconecta.
+
+    Con «Ejecutar todo» Colab se para en la primera celda que falla y la de desconectar ya no se ejecuta: la GPU
+    se quedaría asignada, gastando, hasta que alguien la suelte. Para quedarse con el entorno (arreglar y relanzar
+    la celda sin recargar modelos), basta pulsar Detener (■) durante la cuenta atrás.
+
+    `antes()` se llama justo antes de desconectar (p. ej. para anotar el coste de la sesión); si falla, se sigue.
+    Fuera de un cuaderno no hace nada.
+    """
+    try:
+        from IPython import get_ipython
+    except ImportError:
+        return
+    ip = get_ipython()
+    if ip is None:
+        return
+
+    def manejador(shell, etype, evalue, tb, tb_offset=None):
+        tbs = shell.InteractiveTB
+        print(tbs.stb2text(tbs.structured_traceback(etype, evalue, tb, tb_offset=tb_offset)))
+        print(f"\nHA FALLADO UNA CELDA. Para no gastar unidades, en {minutos} min subo Drive y desconecto.\n"
+              "Si quieres seguir con este entorno (arreglar y relanzar la celda), pulsa Detener (■) ahora.")
+        try:
+            for quedan in range(minutos * 60, 0, -60):
+                print(f"  desconecto en {quedan // 60} min…")
+                time.sleep(60)
+        except KeyboardInterrupt:
+            print("Desconexión cancelada: el entorno sigue abierto (y gastando). Cuando acabes, celda 7.")
+            return [f"{etype.__name__}: {evalue}"]
+        if antes is not None:
+            try:
+                antes()
+            except Exception as e:   # noqa: BLE001 — desconectar importa más que el apunte
+                print(f"(no pude anotar antes de desconectar: {e})")
+        desconectar()
+        return [f"{etype.__name__}: {evalue}"]
+
+    ip.set_custom_exc((Exception,), manejador)
+    print(f"Seguro activado: si una celda falla y nadie lo para en {minutos} min, se desconecta sola.")

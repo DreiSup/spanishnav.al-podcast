@@ -35,8 +35,9 @@ REF_ES_NAVAL = 0     # 0 = la referencia de voces.json; 1 = el mejor clip de Nav
 SUBCARPETA = ""      # p. ej. "prueba_ref_es1": la prueba va a <episodio>/<subcarpeta>/ y no toca los clips de verdad
 ```
 
-Celdas: 3 prepara y comprueba (sin GPU; debe acabar en `RESULTADO: OK`), 4 carga Qwen + LoRA + Whisper, 5 genera,
-6 anota el coste de la sesión y rehace el resumen, 7 desconecta. En una sesión ya abierta con las mismas voces basta
+Celdas: 3 prepara y comprueba (sin GPU; debe acabar en `RESULTADO: OK`) y activa el **seguro**: si cualquier celda
+falla, en 10 min anota el coste y desconecta, salvo que se pulse Detener; 4 carga Qwen + LoRA + Whisper, 5 genera,
+6 anota el coste de la sesión (con su reparto) y rehace el resumen, 7 desconecta. En una sesión ya abierta con las mismas voces basta
 2, 3 y 5 (+6, 7). Tras cambiar código en la rama hay que **reiniciar la sesión** (los módulos ya importados no se
 recargan). Si Colab corta, se relanza la misma celda: lo hecho no se repite.
 
@@ -75,11 +76,12 @@ Muestras de Kapil, Vitalik y Ridley aprobadas por el autor; Brett y Deutsch (134
   autor dará minutos).
 - Generados sin escuchar (`tts`): 011–016, 037–039, 068 (Kapil, 39,7 min).
 - En marcha: 017–036 (celda del 6-nov). Pendientes de 2019: 040–045 (041–045 sin clips; 044 con Naval antiguo),
-  046–050, 051. 052 = recopilación de 001–050: **montarlo uniendo masters** (falta la función; decisión del autor
-  pendiente).
+  046–050, 051. 052 = recopilación de 001–050: **se genera entero desde su propia traducción** (decisión del autor,
+  6-nov).
 - Cortos dentro de largos (`docs/cortos-y-largos.md`, `cortos.json`): 053–067 ⊂ **077**, 072–076 y 078–104 ⊂
-  **105**, 106–129 ⊂ **130** (mismo español). Generar solo el largo y montar los cortos con sus clips: **falta
-  implementarlo** (ahorra ~20 unidades en 2020–2021).
+  **105**, 106–129 ⊂ **130** (mismo español, 1.580 de 1.580 frases idénticas). **Decidido (6-nov): se genera solo
+  el largo y los cortos se montan con sus clips**; falta implementarlo (~15 unidades; emparejar por voz + frases,
+  no por `speaker`: «Brett Hall» frente a «Brett»).
 - Registro de escucha: bloque `escucha` de `metadata.es.json` (`escuchado`, `resultado` bueno/revisar, `fecha`,
   `feedback`); `INDICE.md` lo muestra (`python3 scripts/indice.py`). Las altas en plataformas las lleva otra sesión.
 
@@ -104,7 +106,10 @@ Dónde se va el tiempo y qué limita (para la tarea de optimización):
 - Reintentos: hasta 2 con semillas nuevas (pocos en la práctica: 0–7 por episodio).
 - Sesión: carga de modelos (~2–5 min) y ratos parados se pagan igual.
 
-Investigación del 6-nov con plan priorizado: `docs/optimizacion/README.md`.
+Investigación del 6-nov con plan priorizado: `docs/optimizacion/README.md`. **Paso 1 hecho (6-nov):** cada clip
+guarda en `registro_tts.jsonl` `tiempos` por fase (qwen, whisper, revision, ritmo, escritura, otros), `lotes`
+(tamaño, segundos, audio máx./suma, tope) y `pico_gb`; el informe y la celda 5 dicen el reparto, y la celda 6 el
+de la sesión (carga de modelos, fases, resto parado).
 
 Ideas abiertas, sin probar: lotes entre intervenciones de la misma voz; fusionar el LoRA (merge) y quitar PEFT;
 Whisper más ligero (large-v3-turbo, distil) o en CPU, o sin marcas por palabra; torch.compile / CUDA graphs /
