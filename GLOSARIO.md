@@ -24,6 +24,12 @@ la decisión aquí para no volver a dudar en el episodio siguiente.
   dejando que la entonación haga el trabajo, no encomillando. Punto, coma y
   signos de interrogación y exclamación sí: esos los lee como pausas.
   El normalizador avisa si se cuela alguno.
+- **Notas del editor de nav.al** (decisión del autor, 6-nov): los corchetes del transcript ([correction: …], [meaning …],
+  [bankruptcy] y demás) **no se locutan**, ni como frase ni integrados en la frase, pero **sí se muestran en la web**.
+  Van traducidas en el campo `notas_editor` del bloque de `transcript.es.json`, que la fábrica no lee:
+  `"notas_editor": [{"tras_frase": 4, "texto": "[de quiebra]", "original": "[bankruptcy]"}]`, donde `tras_frase` es
+  el número de la frase (desde 1) tras la que va la nota. Excepción: el 052 conserva sus dos correcciones locutadas
+  (b43 y b58), por decisión del autor del 5-nov.
 - **Signos de apertura siempre**: toda pregunta lleva su «¿» y toda exclamación
   su «¡». El TTS decide la entonación al empezar la frase, así que sin el signo
   de apertura la lee como afirmación y solo sube al final, cuando ya es tarde.
@@ -32,7 +38,7 @@ la decisión aquí para no volver a dudar en el episodio siguiente.
 
 | Inglés | Español | Nota |
 |---|---|---|
-| leverage | apalancamiento | **Decisión del autor (5-nov):** siempre «apalancamiento» para el concepto de Naval (trabajo, capital, código y medios), aunque no sea financiero: él mismo dice que habla de herramientas (052 b37). «Palanca» solo en la cita de Arquímedes. En una negociación, *leverage* = posición de fuerza (045: «poca posición de fuerza», no «mal apalancamiento negociador»). |
+| leverage | apalancamiento | **Decisión del autor (5-nov):** siempre «apalancamiento» para el concepto de Naval (trabajo, capital, código y medios), aunque no sea financiero: él mismo dice que habla de herramientas (052 b37). «Palanca» solo en la cita de Arquímedes. En una negociación, *leverage* = fuerza negociadora o posición de fuerza (045: «tienes poca fuerza negociadora», no «mal apalancamiento negociador»). |
 | equity | equity | **Decisión del autor (5-nov):** *equity* en inglés, siempre. Nunca «capital», que en Naval es uno de los tipos de apalancamiento y el oyente los confundiría (052 b33, b104, b143 y 051 b31 lo traducían así). *Equity holders* = los que tienen equity; *common equity* = acciones ordinarias. Escuchar cómo lo lee el TTS. |
 | compounding | interés compuesto | **Decisión del autor (5-nov):** se ancla siempre al interés compuesto, que es la imagen de Naval («Relationships offer a good example of compound interest»). «Componer» no se entiende así en español. *Compounding relationships* = relaciones con interés compuesto; *compounds the effect* = el efecto se multiplica; *the benefits of compounding* = los beneficios del interés compuesto. |
 | specific knowledge | conocimiento específico | Término fijo de Naval, no lo varíes. |
@@ -132,7 +138,7 @@ el 010.
 | price discrimination | discriminación de precios | 052, 047 |
 | net present value (NPV) | valor actual neto | Decisión del autor (5-nov), sustituye a «valor presente neto» (049, 052). La sigla no se dice |
 | externality / mispriced externality | externalidad / externalidad mal valorada | 052, 050 |
-| deal / dealflow / pass on | operación / flujo de operaciones / pasar de | 051, 069. **Dealflow pendiente del autor (5-nov):** preguntó por «flujo de tratos»; opciones planteadas: flujo de operaciones, deal flow en inglés, o flujo de tratos cambiando también deal por trato |
+| deal / dealflow / pass on | operación / flujo de operaciones / pasar de | 051, 069. **Dealflow: «flujo de operaciones», decisión del autor (6-nov)** tras buscar la traducción: es la traducción literal que da la prensa de emprendimiento en España (Emprendedores), que por lo demás usa el anglicismo, y casa con deal = operación, que es lo que dice todo el corpus. «Flujo de tratos» obligaría a cambiar deal por trato, que suena a acuerdo de palabra |
 | non-consensus right | acertar contra el consenso | 051, 069 |
 | VC / venture capital | capital riesgo, fondo o inversor de capital riesgo | Confirmado (5-nov). La sigla no se escribe |
 | carry | participación en beneficios | 051 |

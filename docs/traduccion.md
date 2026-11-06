@@ -27,6 +27,12 @@ with you?» (069).
 cierre que sigue a un punto. En el documento las citas están cerradas; en `transcript.en.json` quedan
 abiertas («…talk about sex.» sin «”»). Afecta solo al inglés, que no se locuta, pero altera el texto.
 
+**Para la sesión técnica y la de contenido** (6-nov): las notas del editor de nav.al ya no se locutan; van en un campo
+nuevo y opcional de cada bloque de `transcript.es.json`, `notas_editor` (lista de `{tras_frase, texto, original}`,
+formato en GLOSARIO.md). La fábrica solo lee `speaker` y `frases`, así que no le afecta. Dos avisos: la web tiene que
+leer ese campo para mostrar las notas, y `scripts/normalizar-extraccion.py` no lo conserva si se vuelve a normalizar un
+episodio. Episodios con notas a 6-nov: 008, 010, 017, 018, 020 y 052.
+
 | Fecha | Episodio | Estado | Bloques | Frases es | Palabras es | Min. | Notas |
 |---|---|---|---|---|---|---|---|
 | 2026-11-03 | 053 Live Long Enough and You'll Become a Philosopher | revision | 5 | 23 | 264 | 1,6 | Cero avisos. b02 en 0,84 por compresión de las preguntas |
