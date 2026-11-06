@@ -35,5 +35,5 @@
     "fecha": "2026-11-05",
     "feedback": "Escuchado entero por el autor: bueno, sin arreglos"
   },
-  "notas": "En nav.al, Nivi atribuye el retuit sobre la tracción a Ed Latimore y la transcripción corrige: [correction: the tweet is by @mmay3r]. No se locuta: Nivi dice lo que dijo."
+  "notas": "En nav.al, Nivi atribuye el retuit sobre la tracción a Ed Latimore y la transcripción corrige: [correction: the tweet is by @mmay3r]. No se locuta: Nivi dice lo que dijo.\n\n6-nov: la corrección del editor de nav.al (el tuit es de @mmay3r) va en notas_editor de b07 para la web. El texto locutado no cambia, así que el audio generado sigue valiendo."
 }
