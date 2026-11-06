@@ -126,26 +126,26 @@
 | 14 | [014-creative-technical](episodios/2019/014-creative-technical) | El conocimiento específico es muy creativo o técnico | 🔵 generando TTS | — | — | — |
 | 15 | [015-build-sell](episodios/2019/015-build-sell) | Aprende a vender, aprende a construir | 🔵 generando TTS | — | — | — |
 | 16 | [016-love-read](episodios/2019/016-love-read) | Lee lo que te encante hasta que te encante leer | 🔵 generando TTS | — | — | — |
-| 17 | [017-math-logic](episodios/2019/017-math-logic) | Los cimientos son las matemáticas y la lógica | 🟠 en revisión | — | — | — |
-| 18 | [018-skill-business](episodios/2019/018-skill-business) | No existe una habilidad que se llame negocios | 🟠 en revisión | — | — | — |
-| 19 | [019-accountability-leverage](episodios/2019/019-accountability-leverage) | Asume la responsabilidad para conseguir apalancamiento | 🟠 en revisión | — | — | — |
-| 20 | [020-accountability-equity](episodios/2019/020-accountability-equity) | Asume la responsabilidad para ganarte equity | 🟠 en revisión | — | — | — |
-| 21 | [021-labor-capital](episodios/2019/021-labor-capital) | El trabajo y el capital son apalancamiento antiguo | 🟠 en revisión | — | — | — |
-| 22 | [022-product-media](episodios/2019/022-product-media) | El producto y los medios son apalancamiento nuevo | 🟠 en revisión | — | — | — |
-| 23 | [023-egalitarian-leverage](episodios/2019/023-egalitarian-leverage) | El apalancamiento de producto es igualitario | 🟠 en revisión | — | — | — |
-| 24 | [024-business-models](episodios/2019/024-business-models) | Elige un modelo de negocio con apalancamiento | 🟠 en revisión | — | — | — |
-| 25 | [025-laborer-tech](episodios/2019/025-laborer-tech) | Ejemplo: del obrero al emprendedor | 🟠 en revisión | — | — | — |
-| 26 | [026-judgment](episodios/2019/026-judgment) | El criterio es la habilidad decisiva | 🟠 en revisión | — | — | — |
-| 27 | [027-hourly-rate](episodios/2019/027-hourly-rate) | Fija una tarifa por hora ambiciosa | 🟠 en revisión | — | — | — |
-| 28 | [028-work-hard](episodios/2019/028-work-hard) | Trabaja todo lo duro que puedas | 🟠 en revisión | — | — | — |
-| 29 | [029-meetings](episodios/2019/029-meetings) | Estate demasiado ocupado para quedar a tomar café | 🟠 en revisión | — | — | — |
-| 30 | [030-redefining](episodios/2019/030-redefining) | Redefine sin parar lo que haces | 🟠 en revisión | — | — | — |
-| 31 | [031-competition-authenticity](episodios/2019/031-competition-authenticity) | Escapa de la competencia siendo auténtico | 🟠 en revisión | — | — | — |
-| 32 | [032-stupid-games](episodios/2019/032-stupid-games) | Juegos estúpidos, premios estúpidos | 🟠 en revisión | — | — | — |
-| 33 | [033-eventually](episodios/2019/033-eventually) | Al final tendrás lo que te mereces | 🟠 en revisión | — | — | — |
-| 34 | [034-reject-advice](episodios/2019/034-reject-advice) | Rechaza la mayoría de los consejos | 🟠 en revisión | — | — | — |
-| 35 | [035-finally-wealthy](episodios/2019/035-finally-wealthy) | Una mente en calma, un cuerpo en forma, una casa llena de amor | 🟠 en revisión | — | — | — |
-| 36 | [036-rich-quick](episodios/2019/036-rich-quick) | No existen los esquemas para hacerse rico rápido | 🟠 en revisión | — | — | — |
+| 17 | [017-math-logic](episodios/2019/017-math-logic) | Los cimientos son las matemáticas y la lógica | 🔵 generando TTS | — | — | — |
+| 18 | [018-skill-business](episodios/2019/018-skill-business) | No existe una habilidad que se llame negocios | 🔵 generando TTS | — | — | — |
+| 19 | [019-accountability-leverage](episodios/2019/019-accountability-leverage) | Asume la responsabilidad para conseguir apalancamiento | 🔵 generando TTS | — | — | — |
+| 20 | [020-accountability-equity](episodios/2019/020-accountability-equity) | Asume la responsabilidad para ganarte equity | 🔵 generando TTS | — | — | — |
+| 21 | [021-labor-capital](episodios/2019/021-labor-capital) | El trabajo y el capital son apalancamiento antiguo | 🔵 generando TTS | — | — | — |
+| 22 | [022-product-media](episodios/2019/022-product-media) | El producto y los medios son apalancamiento nuevo | 🔵 generando TTS | — | — | — |
+| 23 | [023-egalitarian-leverage](episodios/2019/023-egalitarian-leverage) | El apalancamiento de producto es igualitario | 🔵 generando TTS | — | — | — |
+| 24 | [024-business-models](episodios/2019/024-business-models) | Elige un modelo de negocio con apalancamiento | 🔵 generando TTS | — | — | — |
+| 25 | [025-laborer-tech](episodios/2019/025-laborer-tech) | Ejemplo: del obrero al emprendedor | 🔵 generando TTS | — | — | — |
+| 26 | [026-judgment](episodios/2019/026-judgment) | El criterio es la habilidad decisiva | 🔵 generando TTS | — | — | — |
+| 27 | [027-hourly-rate](episodios/2019/027-hourly-rate) | Fija una tarifa por hora ambiciosa | 🔵 generando TTS | — | — | — |
+| 28 | [028-work-hard](episodios/2019/028-work-hard) | Trabaja todo lo duro que puedas | 🔵 generando TTS | — | — | — |
+| 29 | [029-meetings](episodios/2019/029-meetings) | Estate demasiado ocupado para quedar a tomar café | 🔵 generando TTS | — | — | — |
+| 30 | [030-redefining](episodios/2019/030-redefining) | Redefine sin parar lo que haces | 🔵 generando TTS | — | — | — |
+| 31 | [031-competition-authenticity](episodios/2019/031-competition-authenticity) | Escapa de la competencia siendo auténtico | 🔵 generando TTS | — | — | — |
+| 32 | [032-stupid-games](episodios/2019/032-stupid-games) | Juegos estúpidos, premios estúpidos | 🔵 generando TTS | — | — | — |
+| 33 | [033-eventually](episodios/2019/033-eventually) | Al final tendrás lo que te mereces | 🔵 generando TTS | — | — | — |
+| 34 | [034-reject-advice](episodios/2019/034-reject-advice) | Rechaza la mayoría de los consejos | 🔵 generando TTS | — | — | — |
+| 35 | [035-finally-wealthy](episodios/2019/035-finally-wealthy) | Una mente en calma, un cuerpo en forma, una casa llena de amor | 🔵 generando TTS | — | — | — |
+| 36 | [036-rich-quick](episodios/2019/036-rich-quick) | No existen los esquemas para hacerse rico rápido | 🔵 generando TTS | — | — | — |
 | 37 | [037-productize-yourself](episodios/2019/037-productize-yourself) | Productízate a ti mismo | 🔵 generando TTS | — | — | — |
 | 38 | [038-accountability](episodios/2019/038-accountability) | La responsabilidad significa dejar que la gente te critique | 🔵 generando TTS | — | — | — |
 | 39 | [039-working-ourselves](episodios/2019/039-working-ourselves) | Todos deberíamos trabajar para nosotros mismos | 🔵 generando TTS | — | — | — |

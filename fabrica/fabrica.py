@@ -569,7 +569,8 @@ def rehacer_master(plan, carpeta, master, titulo=None, avisar=print, cfg=None):
 
 
 def _mmss(segundos):
-    return f"{int(segundos // 60)}:{segundos % 60:04.1f}"
+    decimas = int(round(segundos * 10))   # redondear antes de partir: 179,98 s es 3:00.0, no 2:60.0
+    return f"{decimas // 600}:{decimas % 600 / 10:04.1f}"
 
 
 def escribir_informe(plan, hechos, carpeta, inicios=None, master=None, cfg=None):
