@@ -132,7 +132,7 @@ Apple y Substack lo cogen del feed solos. YouTube, a mano: la sesión le da al a
 - YouTube: subirlos por la API con `publishAt` (programados). Depende de si la API deja los vídeos en privado
   (sin aclarar; se prueba con el 003). Tarea del autor para el 7-nov: configurar Google Cloud (proyecto, YouTube Data
   API v3, consentimiento «In production», cliente OAuth de escritorio en los Secretos de Colab).
-- 002: subido a YouTube a mano el 6-nov; web y feed, pendientes de que el autor confirme el master en R2.
+- 002: publicado el 6-nov (YouTube a mano, R2, web y feed). Falta apuntar el enlace del vídeo en `youtube.url`.
 
 **Ideas apuntadas, sin empezar:** subir los episodios (o trozos) a Instagram, Facebook y TikTok. Ninguna lee RSS de
 podcast que se sepa; investigarlo cuando toque.

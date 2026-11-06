@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**134** episodios · **1** publicados · **10** escuchados por el autor (**1** para revisar) · **0** sin empezar
+**134** episodios · **2** publicados · **10** escuchados por el autor (**1** para revisar) · **0** sin empezar
 
 ## 2023
 
@@ -111,7 +111,7 @@
 | # | Episodio | Título en español | Estado | Escuchado | Drive | YouTube |
 |---|---|---|---|---|---|---|
 | 1 | [001-seek-wealth](episodios/2019/001-seek-wealth) | Busca riqueza, no dinero ni estatus | 🟢 publicado | ✅ 2026-11-05 | [📁](https://drive.google.com/drive/folders/11X4s-IkNs4qssipaPMRLE2wj-EJtuZBd) | [▶](https://www.youtube.com/watch?v=s10rGZckyEo) |
-| 2 | [002-ethical-wealth](episodios/2019/002-ethical-wealth) | Crea abundancia para el mundo | 🟣 montaje | ✅ 2026-11-05 | [📁](https://drive.google.com/drive/folders/1xgLEJoWckgy40eeeBN-dTIbh95qtWzmG) | — |
+| 2 | [002-ethical-wealth](episodios/2019/002-ethical-wealth) | Crea abundancia para el mundo | 🟢 publicado | ✅ 2026-11-05 | [📁](https://drive.google.com/drive/folders/1xgLEJoWckgy40eeeBN-dTIbh95qtWzmG) | — |
 | 3 | [003-free-markets](episodios/2019/003-free-markets) | Los mercados libres son intrínsecos al ser humano | 🟣 montaje | ✅ 2026-11-05 | — | — |
 | 4 | [004-money-luck](episodios/2019/004-money-luck) | Ganar dinero no depende de la suerte | 🟣 montaje | ✅ 2026-11-05 | — | — |
 | 5 | [005-luck-destiny](episodios/2019/005-luck-destiny) | Haz de la suerte tu destino | 🟣 montaje | ✅ 2026-11-05 | — | — |
