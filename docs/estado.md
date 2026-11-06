@@ -1,5 +1,8 @@
 # Estado y pendientes
 
+> **Al retomar la fábrica, lee primero `docs/contexto-fabrica.md`** (traspaso del 6-nov: cómo generar, voces, estado
+> de producción y base para optimizar).
+
 > Punto de partida de cualquier sesión que retome el trabajo. Última actualización:
 > 2026-10-30. Rama de trabajo: `claude/quirky-dirac-x18c3n`. Presupuesto de Colab: unas
 > 360 unidades el 29-oct, antes de los últimos cuadernos.
