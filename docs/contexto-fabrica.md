@@ -104,6 +104,8 @@ Dónde se va el tiempo y qué limita (para la tarea de optimización):
 - Reintentos: hasta 2 con semillas nuevas (pocos en la práctica: 0–7 por episodio).
 - Sesión: carga de modelos (~2–5 min) y ratos parados se pagan igual.
 
+Investigación del 6-nov con plan priorizado: `docs/optimizacion/README.md`.
+
 Ideas abiertas, sin probar: lotes entre intervenciones de la misma voz; fusionar el LoRA (merge) y quitar PEFT;
 Whisper más ligero (large-v3-turbo, distil) o en CPU, o sin marcas por palabra; torch.compile / CUDA graphs /
 SDPA; motores de inferencia más rápidos para Qwen3-TTS; L4 o A100 si el lote grande compensa la tarifa; generar
