@@ -172,3 +172,4 @@ episodio. Episodios con notas a 6-nov: 008, 010, 017, 018, 020 y 052.
 | 2026-11-06 | 018 There's No Actual Skill Called "Business" (términos del 5 y 6-nov) | revision | 5 | 65 | 1152 | 6,8 | Cero avisos. [reading] fuera de la voz; dos notas del editor a notas_editor |
 | 2026-11-06 | 017 The Foundations Are Math and Logic (términos del 5 y 6-nov) | revision | 4 | 29 | 565 | 3,3 | Nota del editor a notas_editor; texto sin cambios |
 | 2026-11-06 | 020 Take Accountability to Earn Equity (términos del 5 y 6-nov) | revision | 6 | 54 | 965 | 5,7 | Nota del editor a notas_editor; texto sin cambios |
+| 2026-11-06 | 008 Give Society What It Doesn’t Know How to Get (términos del 5 y 6-nov) | montaje | 4 | 40 | 560 | 3,3 | Nota del editor a notas_editor; frases sin cambios, el audio sigue valiendo |

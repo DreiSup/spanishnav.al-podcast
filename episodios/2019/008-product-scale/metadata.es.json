@@ -35,5 +35,5 @@
     "fecha": "2026-11-05",
     "feedback": "Escuchado entero por el autor: bueno, sin arreglos"
   },
-  "notas": "En nav.al, Naval atribuye la cita sobre la tecnología a Alan Kay y la transcripción corrige: [correction: Danny Hillis]. El doblaje dice directamente Danny Hillis."
+  "notas": "En nav.al, Naval atribuye la cita sobre la tecnología a Alan Kay y la transcripción corrige: [correction: Danny Hillis]. El doblaje dice directamente Danny Hillis.\n\n6-nov: la corrección del editor de nav.al (Alan Kay por Danny Hillis) va en notas_editor de b02 para la web. El texto locutado no cambia, así que el audio generado sigue valiendo."
 }
