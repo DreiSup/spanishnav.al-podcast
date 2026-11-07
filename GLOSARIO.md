@@ -198,7 +198,9 @@ tabla general y la de Naval y Nivi de arriba.
 **Corte del 145 dentro del 154 (decisión del autor):** «For example, if you look at marketing,» va al final del bloque
 del largo que corresponde al 144. Ese bloque del largo deja de ser idéntico al del corto 144, que se genera aparte.
 
-**Pendiente del autor (7-nov):** las fechas de 2025 (catálogo frente a la página del episodio).
+**Fechas (decisión del autor, 7-nov):** manda la fecha de la página del episodio (la que aparece bajo el título en nav.al y
+en los Google Docs anuales), no la del índice nav.al/archive. Corregidas en catalogo.json y en el episodio 139, 140, 141,
+144, 147, 148, 149, 150, 151, 153 y 154.
 
 **2026, resto (decisión del autor, 7-nov):** el Nivi repetido del 159 (b20 y b21) se traduce dos veces, fiel al inglés;
 el 158 b09 (Wuhan, vacunas, bioéticos) se traduce fiel, sin suavizar; las frases hechas y la lista de términos sin
