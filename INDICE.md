@@ -85,7 +85,7 @@
 | 102 | [102-extrapolate](episodios/2021/102-extrapolate) | Es fácil extrapolar cómo empeorarán las cosas | 🟠 en revisión | — | — | — |
 | 103 | [103-pessimism](episodios/2021/103-pessimism) | El pesimismo parece una postura intelectualmente seria | 🟠 en revisión | — | — | — |
 | 104 | [104-optimism](episodios/2021/104-optimism) | El optimismo racional es la salida | 🟠 en revisión | — | — | — |
-| 105 | [105-infinity](episodios/2021/105-infinity) | El comienzo del infinito, primera parte | 🟠 en revisión | — | — | — |
+| 105 | [105-infinity](episodios/2021/105-infinity) | El comienzo del infinito, parte 1 | 🟠 en revisión | — | — | — |
 | 106 | [106-theory](episodios/2021/106-theory) | Con una buena teoría del conocimiento, puedes decidir qué más es verdad | 🟠 en revisión | — | — | — |
 | 107 | [107-justified](episodios/2021/107-justified) | Ninguna verdad puede justificarse | 🟠 en revisión | — | — | — |
 | 108 | [108-gravity](episodios/2021/108-gravity) | No puede haber una teoría definitiva de la gravedad | 🟠 en revisión | — | — | — |

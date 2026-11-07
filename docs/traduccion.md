@@ -226,3 +226,4 @@ episodio. Episodios con notas a 6-nov: 008, 010, 017, 018, 020 y 052.
 | 2026-11-07 | 102 It’s Easy to Extrapolate How Things Will Get Worse (revisión con el autor) | revision | 3 | 15 | 321 | 1,9 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
 | 2026-11-07 | 103 Pessimism Seems Like an Intellectually Serious Position (revisión con el autor) | revision | 2 | 19 | 353 | 2,1 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
 | 2026-11-07 | 104 Rational Optimism Is the Way Out (revisión con el autor) | revision | 3 | 21 | 381 | 2,2 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
+| 2026-11-07 | 105 The Beginning of Infinity, Part 1 (revisión con el autor) | revision | 73 | 704 | 12491 | 73,5 | Revisión con el autor (7-nov): título parte 1; cambios de 072, 082, 083, 092, 098 y 100 copiados de los cortos. Cero avisos |

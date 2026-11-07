@@ -4,7 +4,7 @@
   "episodio": "2021/105-infinity",
   "numero": 105,
   "fecha": "2021-07-02",
-  "titulo": "El comienzo del infinito, primera parte",
+  "titulo": "El comienzo del infinito, parte 1",
   "subtitulo": "",
   "fuente_url": "https://nav.al/infinity",
   "titulos_seccion": [
@@ -101,7 +101,7 @@
         "La mayoría de nosotros tenemos una idea vaga de ello.",
         "Hay quien piensa que la ciencia es lo que hacen los científicos, lo cual tiene un problema de definición.",
         "¿Qué es un científico?",
-        "Otros piensan que la ciencia consiste en hacer predicciones falsables o comprobables, y quizá eso se acerque más.",
+        "Otros piensan que la ciencia consiste en hacer predicciones falsables o contrastables, y quizá eso se acerque más.",
         "A veces la gente te dice que la ciencia es el método científico.",
         "¿Y qué es el método científico?",
         "Entonces empiezan a describir el experimento de química que hicieron en el instituto, y a partir de ahí pierden el hilo.",
@@ -376,7 +376,7 @@
         "Al mismo tiempo, van más allá de la ciencia, porque no solo son válidas en la ciencia, sino en toda la vida.",
         "Nos vamos abriendo camino en la vida, y lo hacemos con éxito gracias a que creamos buenas explicaciones.",
         "Si no te quedas con nada más, intenta entender qué es una buena explicación.",
-        "Una buena explicación, en primer lugar, es comprobable o falsable.",
+        "Una buena explicación, en primer lugar, es contrastable o falsable.",
         "Puedes hacer un experimento en el mundo real para ver si es verdad o no.",
         "Y, yendo incluso un paso más atrás, es una explicación creativa.",
         "Se fija en algo que pasa en el mundo real y dice cuál es la razón por la que está pasando.",
@@ -389,7 +389,7 @@
         "Hay una explicación totalmente creativa que parece contradecir lo que se observa a simple vista, que el sol se mueve, pero que también podría encajar con los hechos.",
         "Eso sí, requiere algo de creatividad, y esa explicación es que la Tierra gira.",
         "Las buenas explicaciones no tienen por qué ser evidentes, y no salen simplemente de mirar lo que ha pasado antes.",
-        "En cambio, sí son comprobables, porque hay experimentos que podemos hacer para averiguarlo.",
+        "En cambio, sí son contrastables, porque hay experimentos que podemos hacer para averiguarlo.",
         "Con ellos podemos saber si es el sol el que gira alrededor de la Tierra o si es la Tierra la que gira sobre sí misma."
       ]
     },
@@ -404,10 +404,10 @@
       "id": "b20-brett-hall",
       "speaker": "Brett Hall",
       "frases": [
-        "Sí, son el tipo de buenas explicaciones que se pueden comprobar.",
+        "Sí, son el tipo de buenas explicaciones que se pueden contrastar.",
         "En realidad, teorías falsables hay a montones, y que una teoría sea falsable no te dice nada sobre la calidad de la explicación que te están dando.",
         "El ejemplo que se usa en La estructura de la realidad es el de la hierba como cura del resfriado común.",
-        "Si alguien dice que comer un kilo de hierba te curará el resfriado, entonces tiene una teoría comprobable.",
+        "Si alguien dice que comer un kilo de hierba te curará el resfriado, entonces tiene una teoría contrastable.",
         "El problema es que nadie debería ponerla a prueba.",
         "¿Por qué? Porque no ha explicado el mecanismo que permitiría que la hierba curase el resfriado.",
         "Y si te comes un kilo de hierba y no se te cura el resfriado, siempre puede salir con que a lo mejor con un kilo cien sí funciona."
@@ -424,7 +424,7 @@
       "id": "b22-brett-hall",
       "speaker": "Brett Hall",
       "frases": [
-        "Siempre se puede comprobar, pero no estás avanzando nada."
+        "Siempre es contrastable, pero no estás avanzando nada."
       ]
     },
     {
@@ -435,14 +435,14 @@
         "Tiene que ser muy precisa, y esa precisión tiene que tener una buena razón de ser.",
         "El ejemplo famoso de El comienzo del infinito es la explicación de por qué tenemos estaciones.",
         "Está la antigua explicación griega, según la cual dependen de Perséfone, la diosa de la primavera, y de cuándo puede salir del Hades.",
-        "Era toda una teoría de dioses y diosas, y no solo no era fácil de comprobar, sino que era muy fácil de variar.",
+        "Era toda una teoría de dioses y diosas, y no solo no era fácil de contrastar, sino que era muy fácil de variar.",
         "Perséfone podría haber sido Nike, y Hades podría haber sido Júpiter o Zeus.",
         "Es muy fácil variar esa explicación sin que cambien sus predicciones.",
         "En cambio, fíjate en la teoría de la inclinación del eje.",
         "Dice que la Tierra está inclinada veintitrés grados respecto al Sol, y que por eso el sol debería salir por aquí en invierno y por allí en verano.",
         "Los hechos de esa teoría son muy difíciles de variar, y hace predicciones arriesgadas y concretas.",
         "La teoría de la inclinación del eje puede predecir cuánto duran exactamente el verano y el invierno en cada latitud, y eso se puede comprobar con precisión.",
-        "Además de ser una teoría creativa, comprobable y falsable, debería ser difícil variar sus piezas sin destruir la teoría por completo.",
+        "Además de ser una teoría creativa, contrastable y falsable, debería ser difícil variar sus piezas sin destruir la teoría por completo.",
         "Y lo que desde luego no quieres es variarla a posteriori, como en tu ejemplo de la hierba.",
         "¿Que no bastaba con un kilo? Pues ahora es un kilo cien, y luego un kilo doscientos.",
         "Por último, las predicciones que hace deberían ser concretas y precisas, y deberían ser arriesgadas.",
@@ -782,7 +782,8 @@
         "Ahora llegamos a la teoría cuántica y descubrimos que cosas que creíamos que sin duda eran partículas, como los electrones, interfieren entre sí cuando hacemos con ellas el mismo experimento.",
         "Parece que tenemos partículas que se comportan como ondas y ondas que se comportan como partículas.",
         "La solución a esto no consiste en aceptar disparates.",
-        "En las clases de teoría cuántica de la carrera se suele explicar que hay que aceptar que algo como un fotón nace como partícula, vive como onda y al morir vuelve a ser partícula, lo cual es absurdo.",
+        "En las clases de teoría cuántica de la carrera se suele explicar que algo como un fotón nace como partícula, vive como onda y al morir vuelve a ser partícula.",
+        "Y te dicen que hay que aceptarlo, lo cual es absurdo.",
         "Es absurdo porque el fotón no sabe si está vivo o muerto, ni sabe en qué experimento está participando."
       ]
     },
@@ -966,7 +967,7 @@
       "id": "b53-naval",
       "speaker": "Naval",
       "frases": [
-        "Las buenas explicaciones se basan en la creatividad y, claro, son comprobables y falsables.",
+        "Las buenas explicaciones se basan en la creatividad y, claro, son contrastables y falsables.",
         "Además, son difíciles de variar y hacen predicciones arriesgadas y concretas.",
         "Es una buena guía para cualquiera que intente averiguar cómo incorporar estos conceptos a su vida diaria.",
         "Tus mejores teorías van a ser conjeturas creativas, no simples extrapolaciones."
@@ -1032,8 +1033,7 @@
       "id": "b60-brett-hall",
       "speaker": "Brett Hall",
       "frases": [
-        "Eso se parece al bayesianismo, ¿no?",
-        "En los dos casos dan por hecho que se pueden enumerar todas las teorías posibles.",
+        "Eso se parece al bayesianismo, ¿no? En los dos casos dan por hecho que se pueden enumerar todas las teorías posibles.",
         "Pero en la ciencia es muy raro tener más de una teoría viable.",
         "Estaba la teoría de la gravedad de Newton, y estaba la teoría de la relatividad general.",
         "Es una de las pocas ocasiones en que ha habido dos teorías que competían entre sí.",
