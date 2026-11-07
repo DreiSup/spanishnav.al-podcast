@@ -178,3 +178,4 @@ episodio. Episodios con notas a 6-nov: 008, 010, 017, 018, 020 y 052.
 | 2026-11-07 | 139 Inspiration All the Way Down | revision | 5 | 33 | 581 | 3,4 | Cero avisos. Corto: tramo b02–b05 del 154 más intro propia de Nivi (b01, se genera aparte); fecha del catálogo, la página dice 15-jul |
 | 2026-11-07 | 140 Life is Lived in The Arena | revision | 3 | 29 | 454 | 2,7 | Cero avisos. Corto: tramo b07–b09 del 154; fecha del catálogo, la página dice 17-jul |
 | 2026-11-07 | 141 If You Want to Learn, Do | revision | 1 | 17 | 272 | 1,6 | Cero avisos. Corto: tramo b10 del 154; fecha del catálogo, la página dice 21-jul |
+| 2026-11-07 | 142 In Most Difficult Things in Life, The Solution is Indirect | revision | 1 | 15 | 267 | 1,6 | Cero avisos. Corto: tramo b11 del 154; banquero mafioso |

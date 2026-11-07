@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 142,
+  "anio": 2025,
+  "slug": "indirect",
+  "titulo": "In Most Difficult Things in Life, The Solution is Indirect",
+  "subtitulo": "",
+  "fecha_publicacion": "2025-07-25",
+  "fuente_url": "https://nav.al/indirect",
+  "orden_archivo": 146,
+  "en_feed": true,
+  "participantes": [
+    "Naval"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-07"
+}
