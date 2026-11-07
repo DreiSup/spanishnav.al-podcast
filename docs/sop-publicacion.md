@@ -83,6 +83,14 @@ Desde el ordenador del autor (las sesiones web de Claude no llegan a R2):
 Esa dirección **no cambia nunca**: es el enlace del episodio en el feed. Nunca `rclone sync` ni `delete` sobre el
 bucket.
 
+**Sin ordenador: el cuaderno de Colab `video/video.ipynb`** con `SUBIR_R2 = True` (7-nov). Sube el master de Drive a
+`spanishnaval/<año>/<NNN>-<slug>.mp3` con `Content-Type: audio/mpeg`, **nunca pisa** un audio que ya esté (si está con
+otro tamaño, falla y lo deja) y comprueba que `https://audio.spanishnav.al/…` responde `audio/mpeg` con el tamaño del
+master. Usa un token propio de R2 (`colab-spanishnaval`, Object Read & Write, solo el bucket) guardado por el autor en
+los Secretos de Colab `R2_ACCESS_KEY_ID` y `R2_SECRET_ACCESS_KEY`; nunca pasa por el chat ni por el repo. Al final
+imprime el tamaño y la duración de cada master, que es lo que necesita la web. **Subir a R2 no publica nada.**
+Probado con un R2 simulado; **sin validar con el R2 real** (se valida con el 002, que ya está: lo tiene que saltar).
+
 ## 3. La descripción de cada episodio
 
 > **Decidido** con el autor el 4-nov, sobre la descripción que usaba en los vídeos hechos con XTTS. Pendiente de
