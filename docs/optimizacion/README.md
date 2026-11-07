@@ -36,6 +36,20 @@ Punto de partida: quedan ~1.300 min de audio traducido, unas **109 u** al ritmo 
    ≈ 1,2 y L4 ≈ 1,7. El dato real está en Colab → *Ver recursos*.
 8. **Riesgo de pagar GPU parada**: si falla una celda con «Ejecutar todo», la celda 7 (desconectar) no se ejecuta.
 
+## Primera medida real (6-nov, 041–045, T4)
+
+| Fase | s de GPU por s de audio | Parte del tiempo |
+|---|---|---|
+| Qwen | 1,37–1,73 | ~60 % |
+| **Whisper** | **0,83–1,13** | **~36–42 %** |
+| Revisión, ritmo, escritura, master | ~0 | <1 % |
+
+**Whisper pesa mucho más de lo estimado** (se suponía 5–12 %). El motivo está en el registro: Whisper revisa **de una
+en una** (`batch: 1`), porque en algún momento de la sesión se quedó sin memoria con 4 y con 2, y la fábrica recuerda el
+tamaño que cupo hasta el final. Pico de memoria: Qwen 7–8,5 GB, Whisper 11,8 GB (con Qwen cargado al lado). Esto
+sube al primer puesto **Whisper large-v3-turbo** (decoder de 4 capas en vez de 32, ~1,5 GB menos): podría quitar
+buena parte de ese 40 % **sin cambiar el audio**, y con memoria libre volvería a revisar en lotes.
+
 ## Decisiones del autor (6-nov)
 
 - **Paso 1 (medir y seguro de desconexión): hecho.** Está en la rama, probado sin GPU, y el audio sale idéntico. Se

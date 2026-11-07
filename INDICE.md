@@ -149,12 +149,12 @@
 | 37 | [037-productize-yourself](episodios/2019/037-productize-yourself) | Productízate a ti mismo | 🔵 generando TTS | — | — | — |
 | 38 | [038-accountability](episodios/2019/038-accountability) | La responsabilidad significa dejar que la gente te critique | 🔵 generando TTS | — | — | — |
 | 39 | [039-working-ourselves](episodios/2019/039-working-ourselves) | Todos deberíamos trabajar para nosotros mismos | 🔵 generando TTS | — | — | — |
-| 40 | [040-ethics](episodios/2019/040-ethics) | Ser ético es ser codicioso a largo plazo | 🟠 en revisión | — | — | — |
-| 41 | [041-envy](episodios/2019/041-envy) | La envidia puede ser útil, o puede comerte vivo | 🟠 en revisión | — | — | — |
-| 42 | [042-principal-agent](episodios/2019/042-principal-agent) | El problema del principal y el agente: actúa como un dueño | 🟠 en revisión | — | — | — |
-| 43 | [043-kelly-criterion](episodios/2019/043-kelly-criterion) | El criterio de Kelly: evita la ruina | 🟠 en revisión | — | — | — |
-| 44 | [044-schelling-point](episodios/2019/044-schelling-point) | El punto de Schelling: cooperar sin comunicarse | 🟠 en revisión | — | — | — |
-| 45 | [045-short](episodios/2019/045-short) | Convierte los juegos de corto plazo en juegos de largo plazo | 🟠 en revisión | — | — | — |
+| 40 | [040-ethics](episodios/2019/040-ethics) | Ser ético es ser codicioso a largo plazo | 🔵 generando TTS | — | — | — |
+| 41 | [041-envy](episodios/2019/041-envy) | La envidia puede ser útil, o puede comerte vivo | 🔵 generando TTS | — | — | — |
+| 42 | [042-principal-agent](episodios/2019/042-principal-agent) | El problema del principal y el agente: actúa como un dueño | 🔵 generando TTS | — | — | — |
+| 43 | [043-kelly-criterion](episodios/2019/043-kelly-criterion) | El criterio de Kelly: evita la ruina | 🔵 generando TTS | — | — | — |
+| 44 | [044-schelling-point](episodios/2019/044-schelling-point) | El punto de Schelling: cooperar sin comunicarse | 🔵 generando TTS | — | — | — |
+| 45 | [045-short](episodios/2019/045-short) | Convierte los juegos de corto plazo en juegos de largo plazo | 🔵 generando TTS | — | — | — |
 | 46 | [046-relationships](episodios/2019/046-relationships) | Las relaciones con interés compuesto te hacen la vida más fácil | 🟠 en revisión | — | — | — |
 | 47 | [047-price-discrimination](episodios/2019/047-price-discrimination) | Discriminación de precios: cobrar más a algunos | 🟠 en revisión | — | — | — |
 | 48 | [048-surplus](episodios/2019/048-surplus) | Excedente del consumidor: recibir más de lo que pagaste | 🟠 en revisión | — | — | — |
