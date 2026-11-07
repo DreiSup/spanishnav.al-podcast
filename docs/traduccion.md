@@ -203,3 +203,4 @@ episodio. Episodios con notas a 6-nov: 008, 010, 017, 018, 020 y 052.
 | 2026-11-07 | 079 People Are a Force of Nature (revisión con el autor) | revision | 1 | 22 | 381 | 2,2 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
 | 2026-11-07 | 080 It’s Impossible to Predict the Growth of Knowledge (revisión con el autor) | revision | 2 | 19 | 362 | 2,1 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
 | 2026-11-07 | 081 Humans Are Unique in Our Ability to Understand Things (revisión con el autor) | revision | 1 | 12 | 225 | 1,3 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
+| 2026-11-07 | 082 Good Explanations Are Acts of Creativity (revisión con el autor) | revision | 1 | 20 | 345 | 2,0 | Revisión con el autor (7-nov): testable = contrastable (2 frases). Cero avisos |
