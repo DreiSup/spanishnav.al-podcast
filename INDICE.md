@@ -110,7 +110,7 @@
 | 127 | [127-failure](episodios/2021/127-failure) | Los grupos nunca admiten el fracaso | 🟠 en revisión | — | — | — |
 | 128 | [128-infinite-resources](episodios/2021/128-infinite-resources) | El conocimiento hace infinita la existencia de recursos | 🟠 en revisión | — | — | — |
 | 129 | [129-caveman](episodios/2021/129-caveman) | Para un cavernícola, casi nada es un recurso | 🟠 en revisión | — | — | — |
-| 130 | [130-infinity-2](episodios/2021/130-infinity-2) | El comienzo del infinito, segunda parte | 🟠 en revisión | — | — | — |
+| 130 | [130-infinity-2](episodios/2021/130-infinity-2) | El comienzo del infinito, parte 2 | 🟠 en revisión | — | — | — |
 
 ## 2020
 
