@@ -1,5 +1,7 @@
 # Brief del grupo «Matt Ridley»
 
+> **Aviso (7-nov):** el autor decidió los términos de la serie el 7-nov. Están en GLOSARIO.md, sección Matt Ridley, y donde chocan con este brief manda el GLOSARIO (jefes, sacerdotes y ladrones; Cómo funciona la innovación; inmunidad de rebaño; cuarentena y el covid; obreros y oficinistas; los siglos oscuros; nombres en forma fonética).
+
 Para traductores y revisores de los dos episodios con Matt Ridley, grabados en 2020 a raíz de su libro
 *How Innovation Works*:
 

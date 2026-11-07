@@ -84,6 +84,7 @@ texto en español y por qué.
 | If A, then B | si pasa A, entonces pasa B | Decisión del autor (4-nov). Alternativa si el TTS lee mal la «A» suelta: si pasa uno, entonces pasa dos (065) |
 | A eats B; B eats C… | uno se come a otro, ese otro se come a un tercero, y así sucesivamente | Las letras en cadena el TTS las lee como preposición o las deletrea (063) |
 | Part 1 / Part 2, Files II… (títulos de episodio con partes) | literal: «, parte 1», «, parte 2»; Files II = Documentos II | **Decisión del autor (7-nov):** como en el original, con la cifra o el número romano que traiga. El título no se locuta (solo va a la etiqueta del MP3). Sustituye a «primera parte» y a «parte uno». Aplicado el 7-nov en 051, 069, 070, 071, 105, 130, 131, 132, 133 y 134 |
+| How Innovation Works (Matt Ridley) | Cómo funciona la innovación | **Decisión del autor (7-nov):** traducción literal, aunque la edición española (Antoni Bosch, 2021) se titula Claves de la innovación (070, 071) |
 
 ## Términos por invitado (propuestos el 4-nov, pendientes de visto bueno del autor)
 
@@ -251,27 +252,49 @@ copia exacta de su tramo (docs/cortos-y-largos.md): un cambio va al largo y a su
 | person A, idea X, theory Z | una persona, una idea, la otra, una tercera idea | Letras sueltas resueltas en la frase, como en 063 (124, D10) |
 | ToKCast | Tokcast | Confirmado por el autor (7-nov). Con su explicación la primera vez: podcast de la teoría del conocimiento |
 
-### Matt Ridley (070, 071)
+### Matt Ridley (070, 071) — decisiones del autor del 7-nov
+
+Toda la tabla tiene el visto bueno del autor (7-nov, respuestas 1 a 36 de la ronda de preguntas, tras leer entero el
+inglés de los dos episodios). Las preguntas y el cruce con el español del repo están en la sesión de revisión de la
+serie; el brief (docs/briefs/ridley.md) es anterior y, donde choca, manda esta tabla.
 
 | Original | En el texto | Nota |
 |---|---|---|
-| invention / innovation | invención / innovación | Distinción de Ridley; an invention = un invento. Fijo para el grupo Ridley y para cualquier mención posterior. |
-| How Innovation Works (Matt Ridley) | Claves de la innovación | Título publicado (Antoni Bosch, 2021). Va en la tabla de Siglas y títulos. |
-| The Rational Optimist / Genome / Nature via Nurture (The Agile Gene) | El optimista racional / Genoma / Qué nos hace humanos | Ediciones de Taurus. The Agile Gene es el título estadounidense de Nature via Nurture. |
-| The Beginning of Infinity (Deutsch) | El comienzo del infinito | Biblioteca Buridán, 2012. Afecta también al grupo Brett-Deutsch. |
-| network effect | efecto de red | Ya usado en 052; conviene fijarlo. |
-| venture capital | capital riesgo | Ya usado en 051 y 052; la sigla VC se resuelve como un inversor de capital riesgo. |
-| blockchain / tokens | blockchain / tokens | Decisión del autor (7-nov), en la sección de Vitalik. smart contracts también en inglés. |
-| crypto | cripto (cryptoland = el mundo cripto) | Ya usado en el corpus aprobado. |
-| top-down / bottom-up | de arriba abajo / de abajo arriba | Nunca el anglicismo. |
-| herd immunity / lockdown | inmunidad de grupo / confinamiento | Decisión pendiente; alternativa: inmunidad de rebaño. |
-| great man theory | teoría del gran hombre |  |
-| billion | mil millones | Nunca billón. Para Cifras y unidades. |
-| siglos (1100s, 15th century) | el siglo doce, el siglo quince | En letra y sin números romanos, que el TTS deletrea. |
-| GDP / STEM / AGI / NSA | producto interior bruto / las ciencias, la tecnología, la ingeniería y las matemáticas / inteligencia artificial general / la Agencia de Seguridad Nacional | Siglas resueltas en la frase. |
-| Pets.com / dot-com | Pets punto com / puntocom | El punto lo vocaliza o lo convierte en pausa. |
-| chiefs, priests and thieves (Ridley) | gobernantes, sacerdotes y ladrones | Decisión pendiente; alternativas: jefes, sacerdotes y ladrones o caciques, curas y ladrones. |
-| universal explainers (Deutsch) | explicadores universales | Coordinar con el grupo Brett-Deutsch. |
+| invention / an invention / innovation | invención (el proceso) / invento (el objeto) / innovación | Confirmado (7-nov). Es la tesis del libro (070 b07-b08); no mezclar |
+| chiefs, priests and thieves | **jefes, sacerdotes y ladrones** | **Decisión del autor (7-nov)**, sustituye a «gobernantes, sacerdotes y ladrones» (070 b18 a b21, cinco veces). Fórmula fija: siempre igual, también en el chiste de b19 |
+| innovation is the child of freedom and the parent of prosperity | la innovación es hija de la libertad y madre de la prosperidad | Confirmado (7-nov). 070 b05, 071 b39 y los subtítulos |
+| bushfire / flame | incendio forestal / la llama | Confirmado (7-nov). 070 b14, b18 y b20 |
+| the goose that lays the golden eggs / the oil reservoir that will always be gushing | la gallina de los huevos de oro / el yacimiento de petróleo que nunca deja de manar | Confirmado (7-nov). 070 b15, b16 y b20 |
+| perspirators / inspirators | los del sudor / los de la inspiración | Confirmado (7-nov). 070 b08, con la frase de Edison: uno por ciento de inspiración y noventa y nueve de transpiración |
+| great man (or woman) theory of history | la teoría del gran hombre (o la gran mujer) | Confirmado (7-nov). 070 b12, 071 b35; igual en el 132 |
+| spontaneous order / disorder | orden espontáneo / desorden espontáneo | Confirmado (7-nov). 070 b20 |
+| top-down / bottom-up | de arriba abajo / de abajo arriba | Confirmado (7-nov). El «desde arriba» adverbial de 120 y 130 se queda |
+| command and control | de ordeno y mando | Confirmado (7-nov). 070 b21 |
+| disruption (innovación) / disruptions (empleo) | disrupción / trastornos | Confirmado (7-nov). 070 b10 frente a 071 b28 y b29 |
+| Dark Ages | **los siglos oscuros** | **Decisión del autor (7-nov)**, sustituye a «la Edad Oscura» (070 b11) |
+| if you like / as it were (Ridley) | por así decirlo | Confirmado (7-nov). Nunca «si te gusta» |
+| blockchain / tokens / smart contracts | blockchain / tokens / smart contracts | Decisión del autor (7-nov), ver la tabla de Vitalik; ya aplicado en 070 b17 |
+| crypto / cryptoland | cripto / el mundo cripto | Confirmado (7-nov). *India banned crypto* (070 b21) se queda como «prohibió las criptomonedas»; *crypto* = criptografía en 071 b26 |
+| feedback / feedback loop | la respuesta (de los clientes) / circuito de retroalimentación | Confirmado (7-nov). 070 b21 |
+| universal explainers (Deutsch) | explicadores universales | Confirmado (7-nov), como en la serie de Deutsch |
+| venture capital / VC / early adopters / startup | capital riesgo / un inversor de capital riesgo / los primeros en adoptarlo / startup | Confirmado (7-nov) |
+| herd immunity | **inmunidad de rebaño** | **Decisión del autor (7-nov)**, sustituye a «inmunidad de grupo» (071 b14 y b15, seis veces) |
+| lockdown / COVID | **cuarentena / el covid** | **Decisión del autor (7-nov)**, sustituye a «confinamiento» y «la covid» en 070 y 071 (también el título de sección del 071). Choca con «la covid» de la tabla de Vitalik (132): pendiente de que el autor decida si se cambia el 132. *Covid-19 land* = en plena pandemia |
+| filter bubble / echo chambers | burbuja de filtros / cámaras de eco | Confirmado (7-nov). 071 b16 a b18 |
+| blue collar / white collar | **obreros / oficinistas** | **Decisión del autor (7-nov)**, sustituye a «trabajadores manuales / de oficina» (071 b14) |
+| How Innovation Works | **Cómo funciona la innovación** | **Decisión del autor (7-nov):** traducción literal, como el original, aunque la edición española (Antoni Bosch, 2021) se titula Claves de la innovación. También en los títulos del 070 y el 071. Ver Siglas y títulos |
+| The Red Queen / The Origins of Virtue / The Evolution of Everything / The Agile Gene / Genome / The Rational Optimist | La reina roja / El origen de la virtud / La evolución de todo / Qué nos hace humanos / Genoma / El optimista racional | Confirmado (7-nov). The Agile Gene es el título estadounidense de Nature via Nurture, publicado en español como Qué nos hace humanos (Taurus, 2004) |
+| Oliver and Wilbur Wright (errata del copiado, 070 b11) | Orville y Wilbur Wright | Confirmado (7-nov) |
+| I see the evolutionary process eternally (070 b11) | lo veo desde dentro | Confirmado (7-nov): se lee *internally* |
+| not everybody can have access to everything (071 b31) | **literal**: no todo el mundo puede acceder a todo | **Decisión del autor (7-nov):** se traduce lo que dice, aunque contradiga la frase anterior |
+| Voltaire acuñó «optimismo» (071 b03) | tal cual | Confirmado (7-nov). El intérprete no corrige al hablante |
+| nombres difíciles para el TTS | **forma fonética en el texto**: Cecil Sálmon, Jaím Ofek, Guel Man (Gell-Mann), Verbo (Vrbo), crísper; Swaminathan sin las iniciales M. S. | **Decisión del autor (7-nov).** 070 b12, 071 b01, b32 y b37 |
+| equity (070 b17) | equity | Regla general del 5-nov, sustituye a «participaciones» |
+| hub | polo de innovación | Confirmado (7-nov). 070 b17 y b21 |
+| tinkering / tinkerers | trastear / los que trastean | **Decisión del autor (7-nov):** «los que trastean» sustituye a «manitas» (070 b13), como en 013, 051, 052 y 069 |
+| títulos del 070 y el 071 | Matt Ridley: Cómo funciona la innovación, parte 1 / parte 2 | Dos puntos y cifra (regla general de títulos con partes, 7-nov) |
+| network effect / leveraged / billion | efecto de red / con más apalancamiento / mil millones | Corpus aprobado |
+| siglos y siglas | el siglo doce; producto interior bruto, la Agencia de Seguridad Nacional, inteligencia artificial general | En letra y resueltas en la frase |
 
 ### Vitalik Buterin y Haseeb Qureshi (131, 132) — decisiones del autor del 7-nov
 
