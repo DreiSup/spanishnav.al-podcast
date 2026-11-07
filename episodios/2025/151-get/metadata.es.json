@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 151,
+  "anio": 2025,
+  "slug": "get",
+  "titulo_es": "La mayoría de los libros hay que hojearlos, y unos pocos devorarlos",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "La mayoría de los libros hay que hojearlos, y unos pocos devorarlos",
+    "descripcion": "",
+    "tags": [],
+    "url": "",
+    "url_original": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "publicacion": {
+    "fecha": "",
+    "audio_url": "",
+    "audio_bytes": 0,
+    "duracion_s": 0,
+    "feed_guid": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "escucha": {
+    "escuchado": false,
+    "resultado": null,
+    "fecha": null,
+    "feedback": ""
+  },
+  "notas": "Inglés sacado del Google Doc «2025 all podcasts» de Drive; cuadra palabra a palabra con el documento (de la cabecera a «Related», sin enlaces). Decisiones del autor del 7-nov aplicadas (GLOSARIO, Naval y Nivi 2025 y 2026): capacidad de actuar para agency, la vida se vive en la arena, banquero mafioso, feedback en inglés, la empresa imposible, Impossible Inc. Tuits y citas en estilo indirecto o como máxima sin comillas. Corto sacado del largo 154 En la arena: es su tramo b25–b26, con las mismas frases en español. El comienzo del infinito; Church Turing Deutsch sin guiones; AGI = inteligencia artificial general. Escuchar: Paul Davies, Carlo Rovelli, Popper, Brett Hall. Fecha: se deja la del catálogo (2025-09-23); la página del episodio dice 2025-09-26 (pendiente del autor)."
+}

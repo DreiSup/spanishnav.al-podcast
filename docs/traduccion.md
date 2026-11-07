@@ -186,3 +186,4 @@ episodio. Episodios con notas a 6-nov: 008, 010, 017, 018, 020 y 052.
 | 2026-11-07 | 148 Blame Yourself for Everything, and Preserve Your Agency | revision | 2 | 62 | 1024 | 6,0 | Cero avisos. Corto: tramo b18–b19 del 154; capacidad de actuar en el título; fecha del catálogo, la página dice 25-ago |
 | 2026-11-07 | 149 It Is Impossible to Fool Mother Nature | revision | 3 | 59 | 919 | 5,4 | Cero avisos. Corto: tramo b20–b22 del 154; feedback en inglés; fecha del catálogo, la página dice 22-sep |
 | 2026-11-07 | 150 The Best Authors Respect the Reader's Time | revision | 2 | 34 | 595 | 3,5 | Cero avisos. Corto: tramo b23–b24 del 154; fecha del catálogo, la página dice 24-sep |
+| 2026-11-07 | 151 Most Books Should Be Skimmed, A Few Should Be Devoured | revision | 2 | 45 | 795 | 4,7 | Cero avisos. Corto: tramo b25–b26 del 154; fecha del catálogo, la página dice 26-sep |

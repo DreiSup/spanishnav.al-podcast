@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 151,
+  "anio": 2025,
+  "slug": "get",
+  "titulo": "Most Books Should Be Skimmed, A Few Should Be Devoured",
+  "subtitulo": "",
+  "fecha_publicacion": "2025-09-23",
+  "fuente_url": "https://nav.al/get",
+  "orden_archivo": 155,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-07"
+}

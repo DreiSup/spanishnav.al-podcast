@@ -1,0 +1,70 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2025/151-get",
+  "numero": 151,
+  "fecha": "2025-09-23",
+  "titulo": "La mayoría de los libros hay que hojearlos, y unos pocos devorarlos",
+  "subtitulo": "",
+  "fuente_url": "https://nav.al/get",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Para lo último en filosofía del conocimiento, lo que la gente llama epistemología, básicamente puedes saltarte todo e ir directamente a David Deutsch."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Creo que tienes razón, si solo quieres saber de epistemología, lee a David Deutsch y punto.",
+        "Dicho esto, a algunas personas les ayuda conocer la historia, los contraargumentos, de dónde viene él.",
+        "Las teorías del conocimiento que ya existen, como la teoría de la creencia verdadera justificada o la teoría inductiva del conocimiento, las tenemos muy arraigadas.",
+        "Nos las meten tanto lo que aprendemos en la escuela como la experiencia del día a día.",
+        "Parece que la inducción debería funcionar, ves salir el sol todos los días, así que el sol va a salir mañana.",
+        "Eso parece de puro sentido común.",
+        "Hay tanta gente que cree en eso que, si solo leyeras a Deutsch, lo verías echando abajo esas ideas, pero tú mismo no tendrías esas cosas bien asentadas.",
+        "Así que podrías imaginar que existe algún contraejemplo.",
+        "Cuando leí a Deutsch por primera vez, hace mucho, no lo acabé de entender.",
+        "Lo traté como cualquier otro libro de cualquier otro físico.",
+        "Así que leía a Paul Davies, a Carlo Rovelli y a Deutsch, y les dedicaba la misma reflexión, el mismo tiempo y el mismo respeto.",
+        "Resultó que me equivocaba.",
+        "Resultó que Deutsch estaba operando a un nivel mucho más profundo.",
+        "Tenía muchas teorías distintas que encajaban de forma coherente y que crean una filosofía del mundo en la que todas las piezas se refuerzan entre sí.",
+        "Puede que ayude leer a otros y no saltar directamente a Deutsch, pero yo empezaría sin duda por Deutsch.",
+        "Luego, si no lo tienes claro, leería a algunos de los otros, volvería a Deutsch y lo intentaría otra vez, y entonces verías cómo aborda esas cuestiones.",
+        "El propio Deutsch te remitiría a Popper, y te diría que él solo está repitiendo a Popper.",
+        "No es del todo cierto, a mí Popper me parece mucho menos accesible, mucho más difícil de leer y un escritor mucho menos claro.",
+        "Aunque creo que aquí tanto Deutsch como Brett Hall no estarían de acuerdo conmigo, porque a ellos Popper les parece muy lúcido, y a mí me parece muy difícil de leer.",
+        "Por la razón que sea, a Deutsch lo encuentro más fácil de leer, quizá porque Popper dedicó mucho más tiempo a desarrollar los puntos centrales.",
+        "Popper escribía para filósofos, Deutsch no escribe para filósofos, ni siquiera escribe para científicos.",
+        "Deutsch no escribe para ti, tengo la sensación de que Deutsch escribe para sí mismo.",
+        "Simplemente desarrolla sus propias ideas y cómo encajan todas entre sí.",
+        "Tampoco creo que vayas a sacarle el máximo partido a Deutsch leyendo solo la epistemología, aunque es sin duda por donde todo el mundo debería empezar.",
+        "Son los tres primeros capítulos de El comienzo del infinito.",
+        "Irónicamente, en El comienzo del infinito, los primeros capítulos y los últimos son los más fáciles y los más accesibles.",
+        "La parte del medio se hace pesada, porque entra en la computación cuántica, la física cuántica, la evolución y demás.",
+        "Ahí es donde creo que la gente se atasca, porque sí exige, no necesariamente una formación matemática o científica, pero sí cierta soltura con los conceptos y los principios científicos.",
+        "Y hace una defensa firme del multiverso, en una pelea en la que la mayoría de la gente no tiene nada en juego.",
+        "No han pensado tan lejos, ni están casados con la teoría del colapso por el observador de la mecánica cuántica, porque la mecánica cuántica les da igual.",
+        "No afecta a su vida diaria.",
+        "Lo que saqué de leer todo Deutsch fue ver cómo encaja toda su teoría.",
+        "Cada pieza toca otra pieza y se apoya en ella.",
+        "De hecho, fue él quien ideó la teoría de la computación cuántica y amplió la conjetura de Church Turing hasta la conjetura de Church Turing Deutsch.",
+        "Lo hizo cuando intentaba encontrar una forma de falsar su teoría del multiverso, que era una teoría de la física cuántica.",
+        "Y para eso tuvo que inventar la computación cuántica.",
+        "Porque, para inventar el experimento con el que falsar la teoría del multiverso, tuvo que imaginar en su cabeza una inteligencia artificial general.",
+        "Tuvo que meterse en su cerebro y preguntarse si, cuando esa inteligencia artificial observa algo, se produce el colapso.",
+        "Pero entonces necesitaba estar dentro del cerebro.",
+        "¿Y cómo se mete uno en el cerebro de una inteligencia artificial general cuántica?",
+        "¿Cómo se crea siquiera una inteligencia artificial general cuántica, si no tenemos ordenadores cuánticos?",
+        "Pues entonces hacen falta ordenadores cuánticos.",
+        "Así que ideó la teoría de la computación cuántica, y eso puso en marcha el campo de la computación cuántica.",
+        "Es un ejemplo de cómo la física cuántica y la computación cuántica están unidas de forma inseparable."
+      ]
+    }
+  ]
+}
