@@ -228,3 +228,4 @@ episodio. Episodios con notas a 6-nov: 008, 010, 017, 018, 020 y 052.
 | 2026-11-07 | 104 Rational Optimism Is the Way Out (revisión con el autor) | revision | 3 | 21 | 381 | 2,2 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
 | 2026-11-07 | 105 The Beginning of Infinity, Part 1 (revisión con el autor) | revision | 73 | 704 | 12491 | 73,5 | Revisión con el autor (7-nov): título parte 1; cambios de 072, 082, 083, 092, 098 y 100 copiados de los cortos. Cero avisos |
 | 2026-11-07 | 106 With a Good Theory of Knowledge, You Can Decide What Else Is True (revisión con el autor) | revision | 1 | 17 | 326 | 1,9 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
+| 2026-11-07 | 107 No Truth Can Be Justified (revisión con el autor) | revision | 1 | 20 | 427 | 2,5 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
