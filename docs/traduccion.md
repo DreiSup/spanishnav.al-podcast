@@ -230,3 +230,4 @@ episodio. Episodios con notas a 6-nov: 008, 010, 017, 018, 020 y 052.
 | 2026-11-07 | 106 With a Good Theory of Knowledge, You Can Decide What Else Is True (revisión con el autor) | revision | 1 | 17 | 326 | 1,9 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
 | 2026-11-07 | 107 No Truth Can Be Justified (revisión con el autor) | revision | 1 | 20 | 427 | 2,5 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
 | 2026-11-07 | 108 There Can Be No Final Theory of Gravity (revisión con el autor) | revision | 2 | 38 | 644 | 3,8 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
+| 2026-11-07 | 109 Genetic Evolution Was a Prelude to Memetic Evolution (revisión con el autor) | revision | 1 | 21 | 471 | 2,8 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
