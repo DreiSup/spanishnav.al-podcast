@@ -46,7 +46,7 @@
 | # | Episodio | Título en español | Estado | Escuchado | Drive | YouTube |
 |---|---|---|---|---|---|---|
 | 131 | [131-vitalik](episodios/2022/131-vitalik) | Vitalik: Ethereum, parte 1 | 🟠 en revisión | — | — | — |
-| 132 | [132-vitalik-2](episodios/2022/132-vitalik-2) | Vitalik: Ethereum, segunda parte | 🟠 en revisión | — | — | — |
+| 132 | [132-vitalik-2](episodios/2022/132-vitalik-2) | Vitalik: Ethereum, parte 2 | 🟠 en revisión | — | — | — |
 
 ## 2021
 
