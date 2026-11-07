@@ -27,7 +27,7 @@ Cuaderno `video/video.ipynb` con `SUBIR_R2 = True` (detalles en `docs/sop-public
 `colab-spanishnaval` en los Secretos de Colab. Nunca pisa un audio que ya esté. Al final imprime `bytes` y
 `duracion_s` de cada master: los datos de la entrada de la web.
 
-## 2. Web con fechas — probado en local el 7-nov, pendiente de producción
+## 2. Web con fechas — validado en producción el 7-nov
 
 En el repo de la web (`DreiSup/spanishnaval-web`):
 
@@ -40,6 +40,10 @@ En el repo de la web (`DreiSup/spanishnaval-web`):
   página al llegar su hora.
 - Por tanto, el episodio del día aparece entre las 12:00 y las 13:00 UTC, y las plataformas lo recogen después
   (Spotify y Apple tardan de minutos a horas).
+- **Producción, 7-nov (003, desplegado a las 09:38 UTC con el 003 para hoy y el 004 para mañana):** a las 12:21 la
+  página `/free-markets` y la portada ya lo tenían; `podcast.xml` seguía con 2 episodios porque su copia era de las
+  11:42 y se rehízo a las ~12:46, ya con el 003 (`pubDate` 7-nov 12:00 GMT y su `enclosure` de R2). El 004 seguía en
+  404. **Cada página lleva su propio reloj: cuenta con hasta 1 h de retraso en el feed.**
 
 ### Qué es «actualizarse cada hora»
 
@@ -68,7 +72,6 @@ Cuaderno `video/video.ipynb` con `SUBIR_YOUTUBE = True`:
 
 ## Pendiente
 
-- Validar el punto 2 en producción (Vercel) con el primer lote.
 - Generar las entradas de `lib/episodes.ts` desde el repo del podcast (bloque `publicacion` de `metadata.es.json`),
   sin escribirlas a mano.
 - YouTube programado (API con `publishAt`, o programar en YouTube Studio).
