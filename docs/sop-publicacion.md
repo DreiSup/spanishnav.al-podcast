@@ -229,13 +229,15 @@ Al terminar, el enlace público de cada plataforma va a `lib/site.ts` → `platf
 
    **Sin ordenador: `video/video.ipynb` en Colab** (entorno de CPU, sin GPU). Se abre con
    https://colab.research.google.com/github/DreiSup/spanishnav.al-podcast/blob/claude/quirky-dirac-x18c3n/video/video.ipynb ,
-   se pone el número del episodio en la celda 1 (`EPISODIO = "004"`) y se ejecuta todo:
+   se ponen los episodios en la celda 1 (`EPISODIOS = "004"`, `"006-037"` o `"006, 008, 010-012"`) y se ejecuta
+   todo. Por cada episodio (si uno falla, lo apunta y sigue; los ya hechos y los no escuchados los salta):
    - copia el master de Drive a Colab y comprueba que se decodifica sin errores;
    - hace el vídeo con el comando de arriba, con dos cambios: audio **estéreo** (`-ac 2`, lo que recomienda YouTube)
      y la duración fijada con `-t` en vez de `-shortest`;
    - comprueba formato, duraciones, que vídeo y audio se decodifican sin errores y que el audio del vídeo es el del
      master (SNR en 12 tramos: mediana ≥ 20 dB y ninguno < 12);
-   - deja escuchar 30 s en el propio cuaderno: **no se juzga el sonido por la vista previa de Drive**, que recién
+   - comprueba en el repo que el master está escuchado y dado por bueno (`SOLO_ESCUCHADOS`);
+   - al final, un resumen y 30 s de cada vídeo para escucharlos en el propio cuaderno: **no se juzga el sonido por la vista previa de Drive**, que recién
      subido reproduce a calidad baja;
    - copia el `.mp4` a `video/` del episodio y espera a que Drive sincronice (`flush_and_unmount`).
 
