@@ -126,8 +126,8 @@ del OK para `main`. Falta Apple (cuando lo aprueben).
 Apple y Substack lo cogen del feed solos. YouTube, a mano: la sesión le da al autor solo título y descripción.
 
 **Entorno de las sesiones (7-nov):** «spanishnav.al» (personal), con `spanishnav.al`, `www.spanishnav.al` y
-`audio.spanishnav.al` permitidos además de `nav.al`: la sesión ya puede comprobar web, feed y audios de R2 (antes daban
-403 en el proxy). YouTube, Substack y las páginas de ayuda de Apple siguen fuera.
+`audio.spanishnav.al` y `www.youtube.com` permitidos además de `nav.al`: la sesión ya puede comprobar web, feed y audios de R2 (antes daban
+403 en el proxy) y leer el canal de YouTube (`www.youtube.com/@spanishNavalR/videos`, datos en `ytInitialData`). Substack y las páginas de ayuda de Apple siguen fuera.
 
 **Idea del autor (6-nov): dejar listos todos los episodios traducidos y publicar uno al día, programado.** Piezas:
 - R2: subir los masters por adelantado (la dirección no se anuncia hasta que el feed la incluye).
@@ -136,7 +136,7 @@ Apple y Substack lo cogen del feed solos. YouTube, a mano: la sesión le da al a
 - YouTube: subirlos por la API con `publishAt` (programados). Depende de si la API deja los vídeos en privado
   (sin aclarar; se prueba con el 003). Tarea del autor para el 7-nov: configurar Google Cloud (proyecto, YouTube Data
   API v3, consentimiento «In production», cliente OAuth de escritorio en los Secretos de Colab).
-- 002: publicado el 6-nov (YouTube a mano, R2, web y feed). Falta apuntar el enlace del vídeo en `youtube.url`.
+- 002: publicado el 6-nov (YouTube a mano: https://www.youtube.com/watch?v=o919NzI_N3s , R2, web y feed).
 
 **Ideas apuntadas, sin empezar:** subir los episodios (o trozos) a Instagram, Facebook y TikTok. Ninguna lee RSS de
 podcast que se sepa; investigarlo cuando toque.
