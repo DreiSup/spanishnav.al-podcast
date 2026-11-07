@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**142** episodios · **2** publicados · **10** escuchados por el autor (**1** para revisar) · **0** sin empezar
+**143** episodios · **2** publicados · **10** escuchados por el autor (**1** para revisar) · **0** sin empezar
 
 ## 2025
 
@@ -15,6 +15,7 @@
 | 143 | [143-truly](episodios/2025/143-truly) | Cuando de verdad trabajas para ti mismo | 🟠 en revisión | — | — | — |
 | 144 | [144-find](episodios/2025/144-find) | Encuentra tu conocimiento específico a través de la acción | 🟠 en revisión | — | — | — |
 | 145 | [145-enjoy](episodios/2025/145-enjoy) | Tienes que disfrutarlo mucho | 🟠 en revisión | — | — | — |
+| 147 | [147-reflect](episodios/2025/147-reflect) | Haz una pausa, reflexiona y mira lo bien que ha ido | 🟠 en revisión | — | — | — |
 | 154 | [154-in-the-arena](episodios/2025/154-in-the-arena) | En la arena | 🟠 en revisión | — | — | — |
 
 ## 2023

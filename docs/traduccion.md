@@ -182,3 +182,4 @@ episodio. Episodios con notas a 6-nov: 008, 010, 017, 018, 020 y 052.
 | 2026-11-07 | 143 When You Truly Work for Yourself | revision | 3 | 33 | 561 | 3,3 | Cero avisos. Corto: tramo b12–b14 del 154 |
 | 2026-11-07 | 144 Find Your Specific Knowledge Through Action | revision | 1 | 25 | 427 | 2,5 | Cero avisos. Corto: tramo b15 del 154 sin su última frase (decisión del autor): este bloque se genera aparte; fecha del catálogo, la página dice 29-jul |
 | 2026-11-07 | 145 You Have to Enjoy It a Lot | revision | 1 | 37 | 601 | 3,5 | Cero avisos. Corto: tramo b16 del 154; empieza en Marketing is an open problem |
+| 2026-11-07 | 147 Pause, Reflect, See How Well it Did | revision | 1 | 23 | 354 | 2,1 | Cero avisos. Corto: tramo b17 del 154; fecha del catálogo, la página dice 6-ago |

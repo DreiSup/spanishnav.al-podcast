@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 147,
+  "anio": 2025,
+  "slug": "reflect",
+  "titulo": "Pause, Reflect, See How Well it Did",
+  "subtitulo": "",
+  "fecha_publicacion": "2025-08-07",
+  "fuente_url": "https://nav.al/reflect",
+  "orden_archivo": 151,
+  "en_feed": true,
+  "participantes": [
+    "Naval"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-07"
+}

@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 147,
+  "anio": 2025,
+  "slug": "reflect",
+  "titulo_es": "Haz una pausa, reflexiona y mira lo bien que ha ido",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Haz una pausa, reflexiona y mira lo bien que ha ido",
+    "descripcion": "",
+    "tags": [],
+    "url": "",
+    "url_original": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "publicacion": {
+    "fecha": "",
+    "audio_url": "",
+    "audio_bytes": 0,
+    "duracion_s": 0,
+    "feed_guid": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "escucha": {
+    "escuchado": false,
+    "resultado": null,
+    "fecha": null,
+    "feedback": ""
+  },
+  "notas": "Inglés sacado del Google Doc «2025 all podcasts» de Drive; cuadra palabra a palabra con el documento (de la cabecera a «Related», sin enlaces). Decisiones del autor del 7-nov aplicadas (GLOSARIO, Naval y Nivi 2025 y 2026): capacidad de actuar para agency, la vida se vive en la arena, banquero mafioso, feedback en inglés, la empresa imposible, Impossible Inc. Tuits y citas en estilo indirecto o como máxima sin comillas. Corto sacado del largo 154 En la arena: es su tramo b17, con las mismas frases en español. La máxima de redefinir lo que haces, como en el 030. Escuchar: Akira the Don, David Deutsch. Fecha: se deja la del catálogo (2025-08-07); la página del episodio dice 2025-08-06 (pendiente del autor)."
+}
