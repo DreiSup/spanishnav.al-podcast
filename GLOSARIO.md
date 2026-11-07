@@ -177,13 +177,31 @@ tabla general y la de Naval y Nivi de arriba.
 | libraries / pull request / test harness / context window / cron jobs | bibliotecas / pull request / banco de pruebas / ventana de contexto / tareas programadas | pull request en inglés porque Naval bromea con el nombre |
 | Productos y empresas (Claude, Gemini, ChatGPT, Nvidia, Grok, Codex…) | tal cual | Prueba conjunta en la fábrica antes de sintetizar; fonética solo de reserva (Clod, Yémini, Envidia). Versiones con palabras: GPT cinco punto dos, Claude Opus cuatro punto cinco, C más más |
 | Títulos 156–159 | Una moto para la mente / La vuelta al código / Se acabó lo de que nunca pasa nada / Vende la verdad | Aprobados |
+| tokens / a trillion tokens | tokens / un billón de tokens | Glosado la primera vez en 157 b03: los trozos de texto con los que trabajan. Trillion = billón |
+| one-shot / one-shotting / one-shotted | one-shot | En inglés, también el juego de 157 b05 |
+| jagged intelligence | inteligencia dentada | Karpathy (157 b10, 158 b06) |
+| unaligned AI / unaligned humans with AI | IA desalineada / humanos desalineados con IA | Se mantiene el juego (156 b18) |
+| There is no demand for average | No hay demanda para lo promedio | Decisión del autor (7-nov). Título de sección del 156 y su cuerpo (b10, b13) |
+| evangelical sale / sell | vender como un evangelizador / venta evangelizadora | 159 b13 a b15. «Evangélica» suena a protestante |
+| 10x / 100x / 1000x programmers | programadores que rinden por diez, por cien, por mil | 156 b22. Sin la x |
+| taste / tastemaker | gusto / alguien con buen gusto | Judgment sigue siendo criterio. No «prescriptor», que choca con Kapil |
+| A taste of freedom can make you unemployable / homeschooled… unschoolable | probar la libertad puede hacerte inempleable / un niño que ha estudiado en casa ya no hay quien lo escolarice | 159 b11 |
+| bullshitting / shitty startup / pooping | inventárselo / una startup muy mala / ir al baño | Decisión del autor (7-nov): sin palabrotas (156 b31, 159 b15, 156 b17) |
+| Comillas irónicas (sales, techniques, bioethicists…) | lo que llaman vender, la supuesta técnica, los llamados bioéticos | Reformuladas. «Entre comillas» dicho en voz alta, como mucho una vez por episodio |
+| Influence / Pre-Suasion (Cialdini) | Influencia. La psicología de la persuasión / Pre-suasión | HarperCollins, 2022 / Conecta. CLASSR no se dice: se dicen los seis principios |
+| Wind, Sand and Stars / Airman's Odyssey (Saint-Exupéry) | Tierra de hombres / una recopilación de sus libros de aviación | Airman's Odyssey solo existe en inglés |
+| Liftoff (Berger) / The Macintosh Way (Kawasaki) / The Soul of a New Machine (Kidder) | Liftoff / The Macintosh Way, con descripción / El alma de una nueva máquina | Sin edición española confirmada (159 b12) |
+| The Wolf of Wall Street / sell me this pen | El lobo de Wall Street / véndeme este bolígrafo | 159 b14 |
+| Skynet (Terminator) | la hora que dice Naval | 156 b41: no se corrige (la real es 2:14 del 29 de agosto) |
 
 **Corte del 145 dentro del 154 (decisión del autor):** «For example, if you look at marketing,» va al final del bloque
 del largo que corresponde al 144. Ese bloque del largo deja de ser idéntico al del corto 144, que se genera aparte.
 
-**Pendiente del autor (7-nov):** las fechas de 2025 (catálogo frente a la página del episodio) y las preguntas 17 a 25
-de 2026 (Nivi repetido en el 159, comillas irónicas, contenido delicado y palabrotas, tokens, one-shot, libros,
-jagged intelligence, unaligned, frases propias de Naval).
+**Pendiente del autor (7-nov):** las fechas de 2025 (catálogo frente a la página del episodio).
+
+**2026, resto (decisión del autor, 7-nov):** el Nivi repetido del 159 (b20 y b21) se traduce dos veces, fiel al inglés;
+el 158 b09 (Wuhan, vacunas, bioéticos) se traduce fiel, sin suavizar; las frases hechas y la lista de términos sin
+pregunta del informe de 2026 quedan aprobadas tal cual.
 
 ### Brett Hall y David Deutsch (072–134)
 
