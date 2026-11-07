@@ -179,3 +179,4 @@ episodio. Episodios con notas a 6-nov: 008, 010, 017, 018, 020 y 052.
 | 2026-11-07 | 140 Life is Lived in The Arena | revision | 3 | 29 | 454 | 2,7 | Cero avisos. Corto: tramo b07–b09 del 154; fecha del catálogo, la página dice 17-jul |
 | 2026-11-07 | 141 If You Want to Learn, Do | revision | 1 | 17 | 272 | 1,6 | Cero avisos. Corto: tramo b10 del 154; fecha del catálogo, la página dice 21-jul |
 | 2026-11-07 | 142 In Most Difficult Things in Life, The Solution is Indirect | revision | 1 | 15 | 267 | 1,6 | Cero avisos. Corto: tramo b11 del 154; banquero mafioso |
+| 2026-11-07 | 143 When You Truly Work for Yourself | revision | 3 | 33 | 561 | 3,3 | Cero avisos. Corto: tramo b12–b14 del 154 |
