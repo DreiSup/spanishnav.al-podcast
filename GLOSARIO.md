@@ -155,6 +155,36 @@ el 010.
 | How to Angel Invest, Part 1 / Part 2 | Cómo invertir como ángel, parte uno / parte dos | Confirmado (5-nov). Títulos del 051 y el 069 |
 | Warren Buffett | Warren Buffett | Corregir la errata «Buffet» de 051 b35 |
 
+### Naval y Nivi 2025 y 2026 (139–159) — decisiones del autor del 7-nov
+
+Las preguntas salieron de leer entero el inglés de 2025 (139–155) y 2026 (156–159). Lo que no está aquí sigue la
+tabla general y la de Naval y Nivi de arriba.
+
+| Original | En el texto | Nota |
+|---|---|---|
+| agency / high agency | capacidad de actuar / mucha capacidad de actuar | Para 2025 y 2026. Naval la define como creer que puedes cambiar las cosas. 148: Cúlpate de todo y conserva tu capacidad de actuar. «Agencia» suena a agencia de viajes |
+| In the Arena / Life is lived in the arena / The Man in the Arena (Roosevelt) | En la arena / La vida se vive en la arena / el hombre en la arena | Es como circula el discurso en español. Título del 154: En la arena |
+| Curate people | Elige bien a la gente | Título y máxima final del 155 |
+| the «cult» in culture | Por algo cultura y culto comparten raíz | Se mantiene el juego. Título del 155: Los primeros equipos parecen sectas |
+| bankster | banquero mafioso | 142, 148, 154 |
+| opinionated | con opiniones muy firmes | También para productos (155) |
+| Impossible, Inc. (The Impossible Company) | la empresa se llama, literalmente, la empresa imposible, Impossible Inc. | Se mantiene el chiste (141, 154). Después, Impossible a secas |
+| AI | la inteligencia artificial, y luego la IA / las IA | Mixto: «la inteligencia artificial» al principio de cada bloque y cuando es el concepto; «la IA», «una IA», «las IA» (plural invariable) en el resto. **Hay que escuchar «la IA» en la fábrica antes de sintetizar.** En títulos, IA |
+| vibe coding / vibe coders | vibe coding / la gente que hace vibe coding | En inglés, glosado la primera vez en cada episodio. Escuchar; reserva fonética «vaib coding» |
+| prompt / prompting / prompt engineering | prompt / ingeniería de prompts | En inglés siempre |
+| debug / bug / hack | debug / bug / hack | En inglés |
+| feedback | feedback | En inglés en los episodios de Naval y Nivi de 2025 y 2026. Los de Brett y Deutsch (072–134) y Ridley conservan retroalimentación mientras el autor no diga otra cosa |
+| libraries / pull request / test harness / context window / cron jobs | bibliotecas / pull request / banco de pruebas / ventana de contexto / tareas programadas | pull request en inglés porque Naval bromea con el nombre |
+| Productos y empresas (Claude, Gemini, ChatGPT, Nvidia, Grok, Codex…) | tal cual | Prueba conjunta en la fábrica antes de sintetizar; fonética solo de reserva (Clod, Yémini, Envidia). Versiones con palabras: GPT cinco punto dos, Claude Opus cuatro punto cinco, C más más |
+| Títulos 156–159 | Una moto para la mente / La vuelta al código / Se acabó lo de que nunca pasa nada / Vende la verdad | Aprobados |
+
+**Corte del 145 dentro del 154 (decisión del autor):** «For example, if you look at marketing,» va al final del bloque
+del largo que corresponde al 144. Ese bloque del largo deja de ser idéntico al del corto 144, que se genera aparte.
+
+**Pendiente del autor (7-nov):** las fechas de 2025 (catálogo frente a la página del episodio) y las preguntas 17 a 25
+de 2026 (Nivi repetido en el 159, comillas irónicas, contenido delicado y palabrotas, tokens, one-shot, libros,
+jagged intelligence, unaligned, frases propias de Naval).
+
 ### Brett Hall y David Deutsch (072–134)
 
 | Original | En el texto | Nota |
