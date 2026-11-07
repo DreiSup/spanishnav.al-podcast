@@ -11,40 +11,40 @@
     "La trayectoria de Haseeb",
     "La trayectoria de Vitalik",
     "¿Qué es Ethereum?",
-    "Una cadena de bloques sobre la que puedes construir cualquier aplicación",
+    "Una blockchain sobre la que puedes construir cualquier aplicación",
     "Ventajas e inconvenientes de Ethereum",
     "Ethereum sacrifica eficiencia a cambio de transparencia",
     "Como el texto plano, Ethereum es simple y eficiente",
-    "Solo las transacciones de alto valor pueden permitirse la cadena de bloques",
+    "Solo las transacciones de alto valor pueden permitirse la blockchain",
     "Prescindir de terceros de confianza",
     "Sacrificar rendimiento a cambio de seguridad",
     "Castillos inexpugnables hechos de matemáticas",
     "Los límites de Ethereum son la latencia y la privacidad",
     "Hay formas de recuperar la privacidad",
-    "El futuro de la tecnología de cadenas de bloques",
+    "El futuro de la tecnología blockchain",
     "¿Puede Ethereum ofrecer a la vez mucha descentralización y mucha escalabilidad?",
     "La fragmentación lleva a más centralización",
     "Verificabilidad a costa del escalado",
     "Descentralización",
     "¿Cuánta descentralización es la adecuada?",
-    "¿Qué pasa cuando desaparecen las subvenciones para tener nodos?",
+    "¿Qué pasa cuando desaparecen las subvenciones para ejecutar nodos?",
     "Los clientes sin estado permiten verificar la cadena con muy poco espacio en tu disco duro",
     "La cultura del staking es difícil de cultivar",
-    "Los recién llegados a las cadenas de bloques se conforman con la descentralización mínima viable",
+    "Los recién llegados a las blockchains se conforman con la descentralización mínima viable",
     "La gente no valora la privacidad hasta que alguien va a la cárcel por ella",
     "La filosofía de Ethereum",
     "Ethereum es simple en la base",
-    "Los monederos de recuperación social facilitan ser tu propio banco",
-    "El espacio de bloque se está encareciendo",
+    "Las wallets de recuperación social facilitan ser tu propio banco",
+    "El espacio en los bloques se está encareciendo",
     "Cultura de innovación",
     "En Bitcoin no hay mucha innovación, y es a propósito",
-    "El efecto polizón de las cadenas de bloques",
+    "El efecto polizón de las blockchains",
     "La innovación es más lenta en la capa uno",
     "La capa dos avanza más rápido porque no hay que pedir permiso a nadie",
     "¿Y si congeláramos hoy la capa uno?",
     "Cambiar datos por computación",
-    "La capacidad de procesamiento de las cadenas de bloques",
-    "Comparar cadenas de bloques en igualdad de condiciones",
+    "La capacidad de procesamiento de las blockchains",
+    "Comparar blockchains en igualdad de condiciones",
     "Consagrar la descentralización",
     "La adaptabilidad de Ethereum",
     "Tensiones entre escalar y preservar el valor",
@@ -57,7 +57,7 @@
       "frases": [
         "Bienvenido de nuevo al podcast. Hoy nos acompaña Haseeb Qureshi, socio de Dragonfly, con quien trabajé en la época en que estaba más metido en el mundo cripto.",
         "Y también nos acompaña Vitalik Buterin, que es, cómo no, el genio polifacético, aunque quizá no le guste que lo describa así.",
-        "Él creó Ethereum, que fue la primera cadena de bloques de contratos inteligentes en alcanzar un volumen real y que cambió por completo la computación sobre cadenas de bloques tal como la conocemos.",
+        "Él creó Ethereum, que fue la primera blockchain de smart contracts en alcanzar un volumen real y que cambió por completo la computación sobre blockchains tal como la conocemos.",
         "Haseeb, ¿nos haces un resumen rápido de tu trayectoria, en un solo párrafo?"
       ]
     },
@@ -69,8 +69,8 @@
         "Dirijo Dragonfly Capital, un fondo global que solo invierte en cripto, y llevo algo más de cuatro años dedicándome a esto.",
         "Lo curioso es que, cuando entré en cripto, recuerdo que estaba en una conferencia académica del sector llamada IC tres, y allí te conocí a ti y también a Vitalik por primera vez.",
         "Acababa de dejar mi trabajo de ingeniero de software en Airbnb, y recuerdo que te pregunté cuál creías que era el problema más importante que había que resolver en cripto.",
-        "Tu respuesta tuvo algo que ver con los monederos. Me dijiste que creías que era importante construir más monederos.",
-        "En aquel momento solo entendía vagamente qué significaba eso de construir monederos.",
+        "Tu respuesta tuvo algo que ver con las wallets. Me dijiste que creías que era importante construir más wallets.",
+        "En aquel momento solo entendía vagamente qué significaba eso de construir wallets.",
         "Y eso fue lo que me hizo zambullirme de cabeza en el mundo de Ethereum.",
         "Al principio, cuando empezaba a profundizar de verdad en cripto, después de aquella conferencia, recuerdo que salí convencido de que Bitcoin iba a morir.",
         "Pensaba que la diferencia saltaba a la vista y era enorme, tanto en energía intelectual como en el carácter de lo que se movía en cada mundo.",
@@ -156,23 +156,22 @@
         "Trabajé un poco en una biblioteca de monedas coloreadas llamada BitcoinX y fui metiéndome cada vez más a fondo en este mundo.",
         "Luego, a mediados de dos mil trece, decidí tomarme medio año libre de la universidad para dar la vuelta al mundo.",
         "Quería visitar todas las comunidades de Bitcoin que pudiera, para entenderlas y ver en qué andaba cada uno.",
-        "Al cabo de unos meses, me encontré con gente que intentaba tomar la cadena de bloques y ampliarla para hacer cosas distintas de las criptomonedas.",
+        "Al cabo de unos meses, me encontré con gente que intentaba tomar la blockchain y ampliarla para hacer cosas distintas de las criptomonedas.",
         "Había un proyecto, las monedas coloreadas, que llevaba mucho tiempo en marcha y que intentaba usar la cadena como una capa de base de datos para emitir encima otros tipos de activos.",
-        "Así podías emitir acciones y dólares digitales en la cadena de bloques.",
+        "Así podías emitir acciones y dólares digitales en la blockchain.",
         "Había otro proyecto llamado Mastercoin que intentaba ir aún más lejos y crear un sistema financiero completo, hacer lo que hoy llamamos finanzas descentralizadas.",
         "Era una versión muy temprana de todo aquello.",
         "Después de pasar bastante tiempo en esos círculos, al final tuve mi propia idea para crear una versión de propósito más general de todas esas ideas.",
-        "Se trataba de que, en lugar de una cadena de bloques para una sola aplicación, hubiera una cadena sobre la que se pudiera construir cualquier aplicación. Y de ahí salió Ethereum."
+        "Se trataba de que, en lugar de una blockchain para una sola aplicación, hubiera una cadena sobre la que se pudiera construir cualquier aplicación. Y de ahí salió Ethereum."
       ]
     },
     {
       "id": "b11-naval",
       "speaker": "Naval",
       "frases": [
-        "Ethereum es una cadena de bloques sobre la que puedes construir cualquier aplicación.",
+        "Ethereum es una blockchain sobre la que puedes construir cualquier aplicación.",
         "Bitcoin, claro, se limita a intentar ser un dinero nuevo o una nueva moneda de reserva, o, como dicen hoy algunos, oro digital.",
-        "Así que tú fuiste el creador original, junto con un equipo que se encargó de programarlo, y lo lanzaste.",
-        "¿Cuántos años tenías cuando lo hiciste?"
+        "Así que tú fuiste el creador original, junto con un equipo que se encargó de programarlo, y lo lanzaste. ¿Cuántos años tenías cuando lo hiciste?"
       ]
     },
     {
@@ -186,8 +185,7 @@
       "id": "b13-naval",
       "speaker": "Naval",
       "frases": [
-        "¿Y cuánto tiempo llevabas entonces metido en el mundo de los ordenadores?",
-        "¿Cuándo empezaste a programar?"
+        "¿Y cuánto tiempo llevabas entonces metido en el mundo de los ordenadores? ¿Cuándo empezaste a programar?"
       ]
     },
     {
@@ -293,28 +291,28 @@
       "id": "b26-vitalik",
       "speaker": "Vitalik",
       "frases": [
-        "Yo veo Ethereum como una cadena de bloques de propósito general.",
-        "Es decir, en lugar de ser una cadena de bloques para una sola aplicación, es una cadena sobre la que puedes construir cualquier aplicación.",
+        "Yo veo Ethereum como una blockchain de propósito general.",
+        "Es decir, en lugar de ser una blockchain para una sola aplicación, es una cadena sobre la que puedes construir cualquier aplicación.",
         "En Ethereum, eso se hace escribiendo un fragmento de código y creando una transacción digital que contiene ese código y lo publica.",
         "Cuando publicas esa transacción y entra en un bloque de la cadena, se crea un objeto llamado contrato.",
-        "Es un objeto virtual del que la cadena de bloques lleva el registro.",
+        "Es un objeto virtual del que la blockchain lleva el registro.",
         "Así que un contrato es un objeto que contiene un fragmento de código.",
         "Ahora la cadena tiene ese objeto con su fragmento de código, que funciona como una pequeña aplicación que la cadena de Ethereum mantiene desde entonces.",
         "Después, cualquiera puede enviar otra transacción que diga que quiere hablar con ese objeto.",
         "Así que, primer paso, yo creo una transacción que crea ese objeto, y a ese objeto lo llamaremos equis.",
         "Segundo paso, tú quieres usar mi aplicación, así que envías una transacción.",
-        "En tu transacción dices que quieres hablar con el contrato inteligente equis, y añades un pequeño dato que indica qué quieres hacer con esa aplicación.",
+        "En tu transacción dices que quieres hablar con el smart contract equis, y añades un pequeño dato que indica qué quieres hacer con esa aplicación.",
         "Cuando esa transacción entra en un bloque, se ejecuta el código que yo publiqué al principio.",
         "Ese código toma como entrada los datos de tu transacción y los interpreta como quiera.",
         "Vamos a verlo más claro con un ejemplo concreto.",
-        "Supongamos que tengo una empresa y quiero emitir acciones en la cadena de bloques.",
+        "Supongamos que tengo una empresa y quiero emitir acciones en la blockchain.",
         "Voy a crear una transacción que contiene un programa.",
         "Las reglas de ese programa van a definir qué se puede hacer con las acciones.",
         "Digamos que puedes transferir tus acciones a otra persona y que puedes votar.",
         "El programa interpretará cualquier dato que reciba, o bien como una orden de transferir tus acciones a otra persona, o bien como una orden de votar.",
         "Publico esta transacción, y con eso se pone todo en marcha.",
         "Como parte de esa transacción, puedo indicar que Naval tiene cincuenta acciones, Haseeb tiene cien y yo tengo veinticinco.",
-        "Así que ahora hay algo en la cadena de bloques que tiene un fragmento de código.",
+        "Así que ahora hay algo en la blockchain que tiene un fragmento de código.",
         "Y tiene una pequeña memoria propia, en la que consta que yo tengo veinticinco, Haseeb tiene cien y Naval tiene cincuenta.",
         "Si Naval se siente generoso y quiere darme la mitad de sus acciones, creará una transacción con algunos datos.",
         "Esos datos codificarán la idea de que él, Naval, quiere enviarle veinticinco de sus acciones a Vitalik.",
@@ -330,8 +328,7 @@
       "speaker": "Naval",
       "frases": [
         "¿Por qué hacer todo esto en la nube, de una forma tan enrevesada y tan complicada?",
-        "¿Por qué no usar un ordenador normal?",
-        "¿Por qué no mandar simplemente un correo electrónico?"
+        "¿Por qué no usar un ordenador normal? ¿Por qué no mandar simplemente un correo electrónico?"
       ]
     },
     {
@@ -362,7 +359,7 @@
         "Eso es muy potente. La aplicación es completamente neutral, completamente transparente y visible, y trata a todo el mundo por igual según las reglas.",
         "Ahora bien, ¿qué sacrificas a cambio de esto?",
         "Una cosa importante que sacrificas es la eficiencia.",
-        "Todas estas cadenas de bloques, incluidas Bitcoin y Ethereum, funcionan con una red de decenas de miles de ordenadores, y cada uno ayuda a verificar la transacción.",
+        "Todas estas blockchains, incluidas Bitcoin y Ethereum, funcionan con una red de decenas de miles de ordenadores, y cada uno ayuda a verificar la transacción.",
         "Cuando difundo esta transacción, llega a todos y cada uno de los ordenadores de la red, y todos ellos ejecutan ese fragmento de código.",
         "Todos y cada uno de los ordenadores de la red verifican la transacción. Todos y cada uno la procesan."
       ]
@@ -392,7 +389,7 @@
       "id": "b33-vitalik",
       "speaker": "Vitalik",
       "frases": [
-        "Lo que pasa en la cadena de bloques se parece más al texto, algo como Naval menos veinticinco, Vitalik más veinticinco, que es extremadamente simple y extremadamente eficiente.",
+        "Lo que pasa en la blockchain se parece más al texto, algo como Naval menos veinticinco, Vitalik más veinticinco, que es extremadamente simple y extremadamente eficiente.",
         "Así que es perfectamente viable que un solo ordenador verifique la actividad de muchos miles de usuarios, e incluso de millones, porque la cadena no lo hace todo.",
         "La cadena solo se encarga de la lógica de negocio esencial, y esa lógica de negocio esencial en realidad no es tan compleja."
       ]
@@ -401,8 +398,8 @@
       "id": "b34-haseeb",
       "speaker": "Haseeb",
       "frases": [
-        "Esto se debe a las limitaciones de las cadenas de bloques.",
-        "Es consecuencia de toda la redundancia que te exigen las cadenas de bloques y de las restricciones que eso impone.",
+        "Esto se debe a las limitaciones de las blockchains.",
+        "Es consecuencia de toda la redundancia que te exigen las blockchains y de las restricciones que eso impone.",
         "Solo podemos permitirnos meter en la cadena lo de Naval menos veinticinco, Vitalik más veinticinco.",
         "A largo plazo, el objetivo es conseguir que en la cadena también puedan hacerse cada vez más tipos de operaciones de poco valor.",
         "Pero ahora mismo, por pura necesidad, solo las transacciones de alto valor pueden permitirse pagar ese coste."
@@ -415,7 +412,7 @@
         "Recapitulando un momento, lo que has hecho es construir un ordenador en la nube, un ordenador virtual, cosiendo entre sí miles o decenas de miles de ordenadores reales.",
         "Y ese ordenador es muy ineficiente, muy lento, y va a avanzar a muy poca velocidad.",
         "Así que compararlo en capacidad de procesamiento con el ordenador de tu casa o con un superordenador no tiene sentido, no viene al caso.",
-        "Pero cualquier código que se ejecute en él es muy fiable, y sabes que no ha sufrido ningún ataque.",
+        "Pero cualquier código que se ejecute en él es muy fiable, y sabes que nadie lo ha hackeado.",
         "Y ahora ya no necesitas un gobierno, ni un único intermediario, como Mark Zuckerberg al frente de Facebook.",
         "Ya nadie tiene que decirte qué transacciones, qué contratos y qué programas son válidos y cuáles no."
       ]
@@ -434,18 +431,18 @@
       "id": "b37-naval",
       "speaker": "Naval",
       "frases": [
-        "Este artilugio gigantesco es Ethereum. Por supuesto, después ha llegado gente que ha creado otras cadenas de bloques de contratos inteligentes.",
-        "Aunque la llamemos cadena de bloques de contratos inteligentes, en realidad es un ordenador de confianza en la nube que, en teoría, puede ejecutar cualquier aplicación.",
+        "Este artilugio gigantesco es Ethereum. Por supuesto, después ha llegado gente que ha creado otras blockchains de smart contracts.",
+        "Aunque la llamemos blockchain de smart contracts, en realidad es un ordenador de confianza en la nube que, en teoría, puede ejecutar cualquier aplicación.",
         "Pero sacrifica rendimiento a cambio de seguridad, y esa seguridad se puede medir por su grado de descentralización.",
         "Dicho de otro modo, ninguna entidad puede controlar por sí sola ese ordenador.",
-        "También se puede medir por lo seguro que es el código, es decir, si se puede atacar o no, y cosas así.",
+        "También se puede medir por lo seguro que es el código, es decir, si se puede hackear o no, y cosas así.",
         "De todo esto salen un montón de aspectos sutiles y bonitos que no son nada evidentes.",
         "Estamos acostumbrados a pensar que Facebook tiene unos cuantos ordenadores centrales, manejados por Mark Zuckerberg y los suyos.",
         "Pensamos que el código no es abierto y que, claro, yo no tengo derecho a verlo, porque solo soy un usuario.",
         "Los datos no son míos, son de ellos, y están guardados en esa base de datos.",
         "Yo no tengo acceso a esa base de datos para leer ni para escribir en ella, y tengo que pedirle a Facebook que lo haga por mí.",
-        "Pero ahora has creado un ordenador en el que todo el código es abierto. De hecho, hasta los datos son abiertos, aunque una parte está cifrada y otra no.",
-        "Hay datos que cualquiera puede ver, y hay otros a los que solo puedes acceder si tienes tu clave de cifrado y descifrado.",
+        "Pero ahora has creado un ordenador en el que todo el código es abierto. De hecho, hasta los datos son abiertos, aunque una parte está encriptada y otra no.",
+        "Hay datos que cualquiera puede ver, y hay otros a los que solo puedes acceder si tienes tu clave de encriptación y desencriptación.",
         "Y cualquiera puede leer o escribir en él si tiene los permisos adecuados, lo cual es un concepto alucinante, una auténtica locura.",
         "Es una base de datos compartida de verdad, sin dueño, con permisos muy detallados para cada usuario, y en la que los datos son de los usuarios.",
         "Y, de hecho, los usuarios son los dueños de la red que ahora funciona con esta base de datos.",
@@ -457,8 +454,8 @@
       "speaker": "Naval",
       "frases": [
         "Ese es el logro extraordinario que hay detrás de Ethereum, y cuesta resumirlo en pocas palabras.",
-        "Una vez lo intenté diciendo que los contratos inteligentes son castillos hechos de matemáticas que comercian libremente entre sí, y que esos castillos son inexpugnables.",
-        "El cifrado es muy fuerte y crea una defensa sólida, pero los castillos están hechos de matemáticas, igual que los videojuegos que tú programabas de joven.",
+        "Una vez lo intenté diciendo que los smart contracts son castillos hechos de matemáticas que comercian libremente entre sí, y que esos castillos son inexpugnables.",
+        "La encriptación es muy fuerte y crea una defensa sólida, pero los castillos están hechos de matemáticas, igual que los videojuegos que tú programabas de joven.",
         "Son construcciones que levanta cualquiera, en cualquier parte del mundo, de forma anónima o con seudónimo.",
         "Comercian libremente entre sí, y el dueño de cada castillo decide qué intercambios hace con los demás."
       ]
@@ -469,8 +466,7 @@
       "frases": [
         "Ahora bien, es evidente que todo esto tiene limitaciones importantes.",
         "Ya hemos dicho que esta red de ordenadores va a ir más o menos a la velocidad de un solo ordenador, al menos hasta que veamos algunas formas de escalarla y hacerla crecer.",
-        "¿Qué otras limitaciones tiene esta red?",
-        "¿Puedes darnos algunos ejemplos concretos de aplicaciones para las que sirve y de otras para las que no la usarías?"
+        "¿Qué otras limitaciones tiene esta red? ¿Puedes darnos algunos ejemplos concretos de aplicaciones para las que sirve y de otras para las que no la usarías?"
       ]
     },
     {
@@ -484,7 +480,7 @@
         "Por ejemplo, podrías usarlo para pagos, pero seguramente no quieras usarlo para cosas que necesiten más inmediatez que un pago.",
         "Esa es una limitación, y otra tiene que ver con las propiedades de transparencia.",
         "Aquí probablemente tengamos que meternos un poco en los detalles de la criptografía.",
-        "En el fondo, la cadena de bloques en sí es totalmente transparente, y todo el mundo puede ver todo lo que pasa.",
+        "En el fondo, la blockchain en sí es totalmente transparente, y todo el mundo puede ver todo lo que pasa.",
         "Volvamos al ejemplo y supongamos que emitimos las acciones de esta empresa en la cadena.",
         "Entonces, cuando Naval me envía sus veinticinco acciones, todo el mundo va a poder verlo.",
         "Puede que en algunos casos eso no tenga ningún problema, pero puede que en otros quieras algo de privacidad.",
@@ -492,10 +488,10 @@
         "Para eso hay unas matemáticas criptográficas adicionales en las que no hace falta entrar a fondo.",
         "Pero merece la pena decir su nombre, que es prueba de conocimiento cero.",
         "Yo describo las pruebas de conocimiento cero como una forma de demostrar algo sobre una información sin revelar esa información.",
-        "Supongamos que tenemos esta misma aplicación, las acciones de mi empresa en la cadena de bloques.",
-        "Solo que, en vez de registrar los números veinticinco, cincuenta y cien, la cadena registra una versión cifrada del veinticinco, otra del cincuenta y otra del cien.",
-        "Entonces, cuando Naval me envía sus veinticinco acciones, presenta la versión cifrada del número de acciones que tiene ahora y la del número de acciones que va a tener después.",
-        "Presenta también la versión cifrada del número de acciones que me da a mí, y además una prueba criptográfica mágica que demuestra que los números cuadran.",
+        "Supongamos que tenemos esta misma aplicación, las acciones de mi empresa en la blockchain.",
+        "Solo que, en vez de registrar los números veinticinco, cincuenta y cien, la cadena registra una versión encriptada del veinticinco, otra del cincuenta y otra del cien.",
+        "Entonces, cuando Naval me envía sus veinticinco acciones, presenta la versión encriptada del número de acciones que tiene ahora y la del número de acciones que va a tener después.",
+        "Presenta también la versión encriptada del número de acciones que me da a mí, y además una prueba criptográfica mágica que demuestra que los números cuadran.",
         "Esa prueba dice que equis más i griega es igual a zeta, y que Naval no intenta dar más de lo que tiene.",
         "Así puedes verificar que todo cumple las reglas sin ver qué hace en concreto cada transacción ni con qué parámetros."
       ]
@@ -506,8 +502,8 @@
       "frases": [
         "Hay formas de recuperar la seguridad y la privacidad a la vez, aunque sigue habiendo ciertos límites a la privacidad que puedes conseguir.",
         "Por ejemplo, incluso en este caso, la gente puede ver como mínimo cuándo alguien está usando esta aplicación en concreto.",
-        "Si solo usas una cadena de bloques, pierdes mucha privacidad.",
-        "Si usas una cadena de bloques junto con pruebas de conocimiento cero y otros tipos de criptografía, a menudo puedes recuperar gran parte de esa privacidad.",
+        "Si solo usas una blockchain, pierdes mucha privacidad.",
+        "Si usas una blockchain junto con pruebas de conocimiento cero y otros tipos de criptografía, a menudo puedes recuperar gran parte de esa privacidad.",
         "Incluso es posible conseguir más privacidad que en un sistema centralizado.",
         "En un sistema centralizado tradicional, está Facebook, que lo gestiona todo y lo ve todo.",
         "Pero en este tipo de sistemas no hay nadie en el centro.",
@@ -519,7 +515,7 @@
       "speaker": "Naval",
       "frases": [
         "En teoría podríamos tener efectivo digital, que es anónimo.",
-        "Y yendo un paso más allá, podríamos tener incluso contratos inteligentes anónimos, en los que quizá se pueda saber que tú y yo interactuamos con un contrato inteligente, pero no se ve ningún detalle más."
+        "Y yendo un paso más allá, podríamos tener incluso smart contracts anónimos, en los que quizá se pueda saber que tú y yo interactuamos con un smart contract, pero no se ve ningún detalle más."
       ]
     },
     {
@@ -533,7 +529,7 @@
       "id": "b44-naval",
       "speaker": "Naval",
       "frases": [
-        "Zcash es una cadena de bloques basada en pruebas de conocimiento cero, donde todas las transacciones, destinatarios y remitentes pueden ser anónimos.",
+        "Zcash es una blockchain basada en pruebas de conocimiento cero, donde todas las transacciones, destinatarios y remitentes pueden ser anónimos.",
         "Son auténticas matemáticas de otro planeta, como se suele decir."
       ]
     },
@@ -542,22 +538,21 @@
       "speaker": "Naval",
       "frases": [
         "Vamos a adelantarnos un poco, a dentro de diez o veinte años.",
-        "Sé que eso es muchísimo tiempo en el mundo de las cadenas de bloques, porque Bitcoin no apareció hasta dos mil nueve y Ethereum hasta principios de la década de dos mil diez.",
+        "Sé que eso es muchísimo tiempo en el mundo blockchain, porque Bitcoin no apareció hasta dos mil nueve y Ethereum hasta principios de la década de dos mil diez.",
         "Pero supongamos que dentro de diez o veinte años ya hemos hecho toda la ingeniería difícil que necesitamos y hemos construido toda la tecnología que podamos imaginar.",
-        "¿Cuáles son los límites de la escalabilidad y de la privacidad de las cadenas de bloques?",
-        "¿Dónde acabaremos?",
+        "¿Cuáles son los límites de la escalabilidad y de la privacidad de las blockchains? ¿Dónde acabaremos?",
         "¿Llegaremos a un punto en que todas las transacciones que queramos que sean privadas lo sean, o crees que muchas seguirán siendo públicas?",
-        "¿Crees que usaremos cadenas de bloques para casi toda la computación en la nube, o seguirán limitadas al terreno financiero y de alto valor?"
+        "¿Crees que usaremos blockchains para casi toda la computación en la nube, o seguirán limitadas al terreno financiero y de alto valor?"
       ]
     },
     {
       "id": "b46-vitalik",
       "speaker": "Vitalik",
       "frases": [
-        "Una de las cosas importantes que hay que mencionar es que la escalabilidad de las cadenas de bloques está mejorando bastante rápido.",
-        "Hoy las cadenas de bloques funcionan de forma que envío una transacción, esta entra en la red y todos y cada uno de los ordenadores de la red tienen que verificarla.",
+        "Una de las cosas importantes que hay que mencionar es que la escalabilidad de las blockchains está mejorando bastante rápido.",
+        "Hoy las blockchains funcionan de forma que envío una transacción, esta entra en la red y todos y cada uno de los ordenadores de la red tienen que verificarla.",
         "Existen técnicas de escalado, aunque, una vez más, no hace falta entrar en detalles.",
-        "Pero cosas como los rollups y la fragmentación son tecnologías que permiten usar las cadenas de bloques de una forma más inteligente.",
+        "Pero cosas como los rollups y la fragmentación son tecnologías que permiten usar las blockchains de una forma más inteligente.",
         "Sigue habiendo mucha computación redundante, pero es mucho más eficiente."
       ]
     },
@@ -573,7 +568,7 @@
       "speaker": "Vitalik",
       "frases": [
         "En un sistema centralizado, envías una transacción a Facebook, que tiene un ordenador, y ese único ordenador la verifica.",
-        "En una cadena de bloques tienes cien mil ordenadores. Envías tu transacción y los cien mil ordenadores la verifican."
+        "En una blockchain tienes cien mil ordenadores. Envías tu transacción y los cien mil ordenadores la verifican."
       ]
     },
     {
@@ -592,13 +587,13 @@
         "De media, cada película tendrá unos cientos de usuarios que la comparten, quizá unos pocos miles.",
         "Esa cifra es lo bastante grande como para tener redundancia y para que normalmente consigas el contenido que quieres.",
         "Pero no hay tanta redundancia como para que el sistema se vuelva absurdamente ineficiente.",
-        "La pregunta es si puedes crear una red que funcione como BitTorrent en cuanto a distribución de datos y eficiencia, pero con las mismas propiedades de verificación que las cadenas de bloques.",
+        "La pregunta es si puedes crear una red que funcione como BitTorrent en cuanto a distribución de datos y eficiencia, pero con las mismas propiedades de verificación que las blockchains.",
         "Y eso es exactamente lo que hace la fragmentación.",
         "Uno de los puntos débiles de la fragmentación es que técnicamente es más complicada.",
         "Hay que trabajar de verdad para decidir con qué reglas exactas se reparten estas transacciones entre los nodos, cómo se consigue que todos se comuniquen entre sí y cómo se hace esta verificación distribuida.",
         "El enfoque más sencillo desde el punto de vista del protocolo es limitarse a exigir que cada nodo de la red sea muy potente.",
         "Así, en vez de que un portátil pueda ser un nodo, exigiremos que cada nodo sea casi un superordenador.",
-        "Si haces eso, puedes crear cadenas de bloques que sigan funcionando como funcionan hoy, pero que procesen más transacciones.",
+        "Si haces eso, puedes crear blockchains que sigan funcionando como funcionan hoy, pero que procesen más transacciones.",
         "Quizá, en vez de poder procesar cincuenta por segundo, podrían procesar mil o cinco mil por segundo."
       ]
     },
@@ -628,17 +623,16 @@
         "Es difícil acabar en cripto sin creer que la descentralización importa en alguna medida.",
         "Pero la pregunta es por qué en ese punto concreto.",
         "Llegas y descubres que hay una especie de escala cultural que marca cuánta descentralización es la adecuada.",
-        "Y Ethereum te dice que tienes que poder verificar Ethereum con un portátil.",
-        "¿Y por qué precisamente un portátil?"
+        "Y Ethereum te dice que tienes que poder verificar Ethereum con un portátil. ¿Y por qué precisamente un portátil?"
       ]
     },
     {
       "id": "b52-vitalik",
       "speaker": "Vitalik",
       "frases": [
-        "Cuantos más usuarios verifiquen la cadena por defecto, más segura será nuestra cadena de bloques.",
-        "En el caso extremo, supón que por defecto no verifica nadie salvo diez pools de staking distintos.",
-        "Entonces, para forzar un cambio en las reglas que quizá no guste a los usuarios, basta con que esos diez pools se pongan de acuerdo.",
+        "Cuantos más usuarios verifiquen la cadena por defecto, más segura será nuestra blockchain.",
+        "En el caso extremo, supón que por defecto no verifica nadie salvo diez grupos de staking distintos.",
+        "Entonces, para forzar un cambio en las reglas que quizá no guste a los usuarios, basta con que esos diez grupos se pongan de acuerdo.",
         "Pero supón, en cambio, que tienes diez mil usuarios que por defecto verifican la cadena en su propio ordenador y solo aceptan un bloque si comprueban que es válido.",
         "En ese caso, quien quiera colar un cambio en las reglas tiene que ir de verdad a los usuarios y convencerlos a todos de que lo acepten, y eso pone el listón mucho más alto."
       ]
@@ -647,27 +641,26 @@
       "id": "b53-haseeb",
       "speaker": "Haseeb",
       "frases": [
-        "Solana es una cadena de bloques con una capacidad de procesamiento altísima, y exige equipos mucho más potentes que Ethereum.",
+        "Solana es una blockchain con una capacidad de procesamiento altísima, y exige equipos mucho más potentes que Ethereum.",
         "Si yo defendiera Solana, podría decir que Ethereum tiene unos cinco mil y pico nodos, más o menos, y que Solana tiene, pongamos, quinientos.",
         "No sé la cifra exacta, la digo solo por argumentar.",
         "Y seguiría diciendo que sería muy difícil que a toda la comunidad de Solana se le pasara por alto un fallo de fondo o una violación de la seguridad dentro de la red.",
         "Reconocería que son la décima parte de los nodos de Ethereum.",
         "Pero añadiría que Ethereum tiene una cantidad de nodos y Solana otra, y que en los dos casos son bastante grandes.",
         "Son comunidades lo bastante grandes como para notarlo si algo saliera mal.",
-        "El defensor de Solana diría también que son equipos de consumo, caros, pero de consumo al fin y al cabo, y que cualquiera con suficiente motivación puede ponerse a verificar las transacciones de Solana.",
-        "¿Qué le respondes a eso?"
+        "El defensor de Solana diría también que son equipos de consumo, caros pero de consumo, y que cualquiera con suficiente motivación puede verificar sus transacciones. ¿Qué le respondes a eso?"
       ]
     },
     {
       "id": "b54-vitalik",
       "speaker": "Vitalik",
       "frases": [
-        "Tal como yo lo veo, no se trata solo del nivel de capacidad técnica que hace falta para tener un nodo.",
-        "Se trata de llegar al punto en que tener un nodo sea tan fácil que la gente se sienta cómoda haciéndolo por defecto.",
-        "Si tener un nodo es difícil pero posible, hay una presión constante para ahorrar tiempo y conectarte al nodo de otro.",
-        "Es posible que incluso algunos de los que cobran incentivos por la prueba de participación empiecen a conectarse al mismo nodo.",
+        "Tal como yo lo veo, no se trata solo del nivel de capacidad técnica que hace falta para ejecutar un nodo.",
+        "Se trata de llegar al punto en que ejecutar un nodo sea tan fácil que la gente se sienta cómoda haciéndolo por defecto.",
+        "Si ejecutar un nodo es difícil pero posible, hay una presión constante para ahorrar tiempo y conectarte al nodo de otro.",
+        "Es posible que incluso algunos de los que cobran los incentivos del proof of stake empiecen a conectarse al mismo nodo.",
         "Creo que eso llegó a pasar en EOS hace un par de años.",
-        "¿No es verdad que ahora mismo la Fundación Solana tiene incluso que hacer un gran esfuerzo deliberado para animar a la gente a tener nodos?"
+        "¿No es verdad que ahora mismo la Fundación Solana tiene incluso que hacer un gran esfuerzo deliberado para animar a la gente a ejecutar nodos?"
       ]
     },
     {
@@ -683,8 +676,8 @@
       "frases": [
         "Exacto. Así que la pregunta es si, cuando desaparezcan las subvenciones, la red seguirá funcionando igual.",
         "En realidad, la cuestión tiene dos aspectos, y uno de ellos es la viabilidad técnica.",
-        "¿Es tan fácil tener un nodo como para que la gente siga haciéndolo por afición?",
-        "Incluso en Ethereum podemos hacer mucho para que tener un nodo sea todavía más fácil que hoy.",
+        "¿Es tan fácil ejecutar un nodo como para que la gente siga haciéndolo por afición?",
+        "Incluso en Ethereum podemos hacer mucho para que ejecutar un nodo sea todavía más fácil que hoy.",
         "Muchas de las mejoras de escalado y muchos de los cambios de protocolo que vamos a hacer en los próximos dos años intentan ir en esa dirección."
       ]
     },
@@ -696,7 +689,7 @@
         "El objetivo de los clientes sin estado es que se pueda verificar la cadena sin tener más que una cantidad minúscula de información en el disco duro.",
         "Ahora mismo, un nodo de Ethereum ocupa la mitad de mi disco duro.",
         "Con los clientes sin estado, no va a ocupar nada de mi disco duro.",
-        "Bitcoin ya está muy bien situado, y en cuanto a la facilidad para tener un nodo, está mejor que Ethereum.",
+        "Bitcoin ya está muy bien situado, y en cuanto a la facilidad para ejecutar un nodo, está mejor que Ethereum.",
         "Pero, obviamente, Bitcoin paga un precio, porque su capacidad de procesamiento es bastante más baja que la de Ethereum.",
         "Así que la viabilidad técnica es un aspecto, y otro aspecto importante es la cultura."
       ]
@@ -709,8 +702,8 @@
         "Eso es algo difícil de cultivar, y es de esas cosas que, si las pierdes, cuesta bastante recuperarlas.",
         "Creo que Bitcoin tiene esa cultura, y creo que en Ethereum, con la cultura del staking, ha mejorado de hecho últimamente.",
         "Quiero que siga mejorando, pero es algo que hay que valorar mucho.",
-        "Las dos cosas se retroalimentan. Si tienes una cultura que valora tener nodos, esa cultura también va a valorar los cambios de protocolo que hacen más fácil tener uno.",
-        "Y si tener un nodo es posible, en el plano puramente técnico, es más probable que tengas ese tipo de cultura.",
+        "Las dos cosas se retroalimentan. Si tienes una cultura que valora ejecutar nodos, esa cultura también va a valorar los cambios de protocolo que hacen más fácil ejecutar uno.",
+        "Y si ejecutar un nodo es posible, en el plano puramente técnico, es más probable que tengas ese tipo de cultura.",
         "A veces la gente nos pregunta por qué no multiplicamos los parámetros por cinco, o por qué no exigimos a la gente discos duros de diez terabytes.",
         "Mucha gente en el desarrollo del núcleo de Ethereum se opone activamente a eso.",
         "Creo que solo Ethereum y Bitcoin tienen, más o menos, culturas dispuestas a sacrificarse activamente por la descentralización hasta ese punto."
@@ -720,7 +713,7 @@
       "id": "b59-naval",
       "speaker": "Naval",
       "frases": [
-        "Siempre he pensado que al final ganarán las monedas más descentralizadas, porque toda la razón de ser de las cadenas de bloques es la descentralización. Si no, ni siquiera harían falta.",
+        "Siempre he pensado que al final ganarán las monedas más descentralizadas, porque toda la razón de ser de las blockchains es la descentralización. Si no, ni siquiera harían falta.",
         "Dicho esto, parece que en cada ola de cripto, cuando llegan usuarios nuevos y hay un auge y un mercado alcista, esos usuarios nuevos tienden a conformarse con la descentralización mínima viable.",
         "No les importa la descentralización hasta que aparece el coco y empieza a aplastarlos hasta hacerlos desaparecer.",
         "Incluso en las finanzas descentralizadas, muchos proyectos son descentralizados solo de nombre.",
@@ -764,8 +757,8 @@
       "speaker": "Vitalik",
       "frases": [
         "Siendo realistas, seguirá en una capa separada. En general, la filosofía de Ethereum es intentar ser simple en la base y que muchas de esas funciones adicionales se construyan por encima.",
-        "Hay muchas otras cadenas de bloques que siguen filosofías distintas.",
-        "En EOS, el tipo de monedero que viene por defecto incluye recuperación social, o algo así."
+        "Hay muchas otras blockchains que siguen filosofías distintas.",
+        "En EOS, el tipo de wallet que viene por defecto incluye recuperación social, o algo así."
       ]
     },
     {
@@ -783,25 +776,25 @@
         "Deberíamos hablar de la recuperación social, que es un concepto muy interesante.",
         "Hoy en día, si de verdad quieres ser un fanático de las criptomonedas, tienes que ser tu propio banco. Y eso da miedo.",
         "Algunos tenemos que confiar en custodios externos, pero entonces vuelves a la banca de siempre.",
-        "Así que, si quieres gestionarlo tú mismo, los monederos de recuperación social te permiten compartir tu monedero con tus amigos, tu familia u otras personas de confianza.",
-        "De ese modo, cuando necesites recuperarlo, hacen falta dos claves de tres, o tres de cinco, o las que sean.",
+        "Así que, si quieres gestionarlo tú mismo, las wallets de recuperación social te permiten compartir tu wallet con tus amigos, tu familia u otras personas de confianza.",
+        "De ese modo, cuando necesites recuperarla, hacen falta dos claves de tres, o tres de cinco, o las que sean.",
         "Bitcoin lo admite de forma nativa, y Ethereum tiene ahora productos como Gnosis Safe y otros que lo hacen posible.",
-        "Así que los monederos están mejorando, y la seguridad también."
+        "Así que las wallets están mejorando, y la seguridad también."
       ]
     },
     {
       "id": "b66-naval",
       "speaker": "Naval",
       "frases": [
-        "Una cosa de la que no hemos hablado es que una cadena de bloques gestiona el mercado del espacio de bloque.",
-        "El espacio de bloque es limitado porque la capacidad de cómputo es limitada.",
+        "Una cosa de la que no hemos hablado es que una blockchain gestiona el mercado del espacio en los bloques.",
+        "El espacio en los bloques es limitado porque la capacidad de cómputo es limitada.",
         "Así que siempre estás participando en una subasta, y pagas para que la ejecución de tu aplicación se incluya en la tanda actual de la cadena.",
-        "Para eso compras espacio de bloque, y el espacio de bloque de Ethereum se ha vuelto bastante caro.",
-        "La fragmentación y estas cosas que se llaman rollups y capa dos, de las que aún no hemos hablado, son formas de crear más espacio de bloque y abaratar los bloques.",
+        "Para eso compras espacio en los bloques, y en Ethereum ese espacio se ha vuelto bastante caro.",
+        "La fragmentación y estas cosas que se llaman rollups y capa dos, de las que aún no hemos hablado, son formas de crear más espacio en los bloques y abaratar los bloques.",
         "Pero aunque Ethereum siga siendo muy caro, las aplicaciones de alto valor se quedarán en Ethereum, y esa gente simplemente pagará más.",
         "Si estás construyendo Wall Street, quieres Estado de derecho, quieres igualdad ante la ley y quieres derechos de propiedad. Así que pagas por ello.",
         "En cambio, imagina que solo estás haciendo un juego y comercias con hachas y espadas mágicas que valen un par de dólares cada una.",
-        "En ese caso, quizá te vayas a una cadena de bloques que no valore tanto la descentralización.",
+        "En ese caso, quizá te vayas a una blockchain que no valore tanto la descentralización.",
         "Así que quizá las aplicaciones se repartan de esa manera."
       ]
     },
@@ -814,21 +807,21 @@
         "Va a priorizar la descentralización, y eso, de hecho, lo hace atractivo para aplicaciones de alto valor como las finanzas descentralizadas.",
         "Y es que, si mueves diez mil dólares, pagarás los cincuenta dólares de comisión a cambio de la seguridad.",
         "Una de las cosas de las que no hemos hablado es este ecosistema increíble de toda la gente que construye sobre Ethereum y a su alrededor.",
-        "Mi opinión personal es que Ethereum se salvó. Si miras Bitcoin, no ha habido mucha innovación.",
+        "En mi opinión, ese ecosistema salvó a Ethereum. Si miras Bitcoin, no ha habido mucha innovación.",
         "Es verdad que los desarrolladores del núcleo han hecho algunas cosas buenas.",
         "Pero ahora el meme en Bitcoin es que no se cambia nada, porque lo que intentan es ser la moneda de reserva.",
         "Quieren ser el oro digital, así que no quieren cambiar nada.",
         "Según ellos, todo está fijado, es una inmaculada concepción, y ya estaba casi bien desde el principio, cuando se hicieron unos pocos retoques.",
         "Dicen que ya está listo, que arreglarán alguna cosa pequeña, pero que puedes confiar en él porque no necesita cambiar y ya cumple su función, y la cumple bien.",
-        "No me creo el argumento maximalista de que ese es el objetivo final de todas las cadenas de bloques.",
-        "Hay otras cosas que puedes hacer con cadenas de bloques, y en Ethereum estamos haciendo mucho más que eso.",
+        "No me creo el argumento maximalista de que ese es el objetivo final de todas las blockchains.",
+        "Hay otras cosas que puedes hacer con blockchains, y en Ethereum estamos haciendo mucho más que eso.",
         "Incluso ahí, veo que hay un mecanismo de incentivos en torno a las monedas.",
-        "Cuando creas una cadena de bloques, creas estas monedas para regular el acceso a la red.",
+        "Cuando creas una blockchain, creas estas monedas para regular el acceso a la red.",
         "Ahora bien, en teoría recompensas a quienes hacen el trabajo duro en torno a la cadena.",
         "Recompensas a los mineros que protegen la cadena, o a quienes hacen staking y la protegen.",
         "Ha sido difícil recompensar a los desarrolladores, y sé que Zcash tenía una recompensa de los fundadores que fue polémica.",
-        "Satoshi tiene el cinco por ciento de la cadena de Bitcoin, y la recompensa de los fundadores de Zcash es como el diez por ciento de la cadena.",
-        "En algunas de las cadenas de bloques modernas, el setenta, el ochenta, el noventa o el noventa y nueve por ciento va a los equipos iniciales y a los inversores.",
+        "Satoshi tiene el cinco por ciento de la blockchain de Bitcoin, y la recompensa de los fundadores de Zcash es como el diez por ciento de la cadena.",
+        "En algunas de las blockchains modernas, el setenta, el ochenta, el noventa o el noventa y nueve por ciento va a los equipos iniciales y a los inversores.",
         "Y esas son las cadenas de los fondos de capital riesgo."
       ]
     },
@@ -836,12 +829,12 @@
       "id": "b68-naval",
       "speaker": "Naval",
       "frases": [
-        "Entonces, ¿cómo incentivas a la gente para que construya sobre la cadena de bloques de otro?",
-        "Porque cada vez más el incentivo es pensar que esa cadena de bloques es estupenda y de código abierto, así que mejor bifurcarla, hacer una copia y ponerla en marcha por tu cuenta.",
+        "Entonces, ¿cómo incentivas a la gente para que construya sobre la blockchain de otro?",
+        "Porque cada vez más el incentivo es pensar que esa blockchain es estupenda y de código abierto, así que mejor bifurcarla, hacer una copia y ponerla en marcha por tu cuenta.",
         "También he visto a desarrolladores de videojuegos que dicen que no necesitan una seguridad del nivel de Solana.",
-        "Prefieren bifurcar una cadena de bloques que ya existe, hacerla suya y que sus propios usuarios, los que juegan, mantengan también la cadena.",
-        "Los desarrolladores no tienen incentivos para construir sobre la cadena de bloques de otro.",
-        "Me metí en un lío por decirlo en dos mil diecisiete, pero sigo manteniendo que las cadenas de bloques tienen un efecto polizón.",
+        "Prefieren bifurcar una blockchain que ya existe, hacerla suya y que sus propios usuarios, los que juegan, mantengan también la cadena.",
+        "Los desarrolladores no tienen incentivos para construir sobre la blockchain de otro.",
+        "Me metí en un lío por decirlo en dos mil diecisiete, pero sigo manteniendo que las blockchains tienen un efecto polizón.",
         "Hay un fuerte incentivo para bifurcar una cadena y montar la tuya propia en lugar de construir sobre una que ya existe."
       ]
     },
@@ -867,9 +860,9 @@
       "frases": [
         "La Fundación Ethereum sí tiene bastante ether, y lo usa para pagar a la gente que trabaja en la capa uno.",
         "Hace unos meses anunciamos una recompensa para los desarrolladores de clientes.",
-        "Cada equipo que construye un programa capaz de entender y hablar el protocolo de Ethereum, y con el que se puede tener un nodo, recibe cierta cantidad de ether.",
-        "Ese ether está bloqueado en el sistema de prueba de participación, que todavía no está conectado del todo con el resto de Ethereum.",
-        "Ethereum tiene que haber pasado por completo a la prueba de participación para que puedan retirar ese dinero, así que ese tipo de incentivo sí existe."
+        "Cada equipo que construye un programa capaz de entender y hablar el protocolo de Ethereum, y con el que se puede ejecutar un nodo, recibe cierta cantidad de ether.",
+        "Ese ether está bloqueado en el sistema de proof of stake, que todavía no está conectado del todo con el resto de Ethereum.",
+        "Ethereum tiene que haber pasado por completo a proof of stake para que puedan retirar ese dinero, así que ese tipo de incentivo sí existe."
       ]
     },
     {
@@ -889,22 +882,21 @@
       "frases": [
         "Te planteo una pregunta interesante. Imagina que congeláramos hoy la capa uno.",
         "Podrías hacer cambios pequeños, como hace la gente de Bitcoin, pero no cambios grandes.",
-        "Los de la capa dos siguen innovando sin pedir permiso a nadie y siguen construyendo todos sus monederos y las tecnologías asociadas.",
-        "Pero sigues con la prueba de trabajo, sigues en esa capa uno sin fragmentar.",
-        "¿Podría seguir funcionando Ethereum?",
-        "¿Podría la capa dos tirar de él durante un tiempo?"
+        "Los de la capa dos siguen innovando sin pedir permiso a nadie y siguen construyendo todas sus wallets y las tecnologías asociadas.",
+        "Pero sigues con proof of work, sigues en esa capa uno sin fragmentar.",
+        "¿Podría seguir funcionando Ethereum? ¿Podría la capa dos tirar de él durante un tiempo?"
       ]
     },
     {
       "id": "b73-vitalik",
       "speaker": "Vitalik",
       "frases": [
-        "Podría, aunque no creo que la gente estuviera contenta, porque a la gente de Ethereum le encanta la prueba de participación y quiere pasarse a ella cuanto antes.",
+        "Podría, aunque no creo que la gente estuviera contenta, porque a la gente de Ethereum le encanta el proof of stake y quiere pasarse a él cuanto antes.",
         "Por dar cifras concretas, hoy Ethereum procesa de media unas quince o veinte transacciones por segundo.",
         "Son transacciones complejas, y muchas son bastante más complejas que las que hace Bitcoin.",
         "Si solo hiciera transferencias de dinero, con la configuración actual podría llegar a unas cincuenta transacciones por segundo.",
         "Pero si pasamos a las soluciones de capa dos, podríamos llegar a unas cinco mil transacciones por segundo.",
-        "Mantienes la misma cadena de bloques, pero en lugar de usarla directamente, usas unos protocolos adicionales que empaquetan la información y usan la cadena de otras formas.",
+        "Mantienes la misma blockchain, pero en lugar de usarla directamente, usas unos protocolos adicionales que empaquetan la información y usan la cadena de otras formas.",
         "Sigues haciendo lo mismo y sigues teniendo las mismas garantías de seguridad, pero usas la cadena de forma más eficiente.",
         "Hay más compresión, y una parte mayor de la computación se hace fuera de la cadena mediante otros protocolos.",
         "Con unas soluciones de capa dos bien hechas se pueden conseguir mejoras de cientos de veces, pero eso todavía no ha pasado.",
@@ -920,8 +912,7 @@
       "speaker": "Naval",
       "frases": [
         "Y lo que se ejecuta en la capa dos es código.",
-        "¿Pero qué pasa con los datos?",
-        "¿Todos los datos tienen que seguir estando en la cadena de bloques de la capa uno?"
+        "¿Pero qué pasa con los datos? ¿Todos los datos tienen que seguir estando en la blockchain de la capa uno?"
       ]
     },
     {
@@ -944,7 +935,7 @@
       "id": "b76-naval",
       "speaker": "Naval",
       "frases": [
-        "Haseeb, hace poco hiciste con tu equipo un análisis en el que intentabas medir la capacidad de procesamiento real de las distintas cadenas de contratos inteligentes.",
+        "Haseeb, hace poco hiciste con tu equipo un análisis en el que intentabas medir la capacidad de procesamiento real de las distintas cadenas de smart contracts.",
         "Pero todavía no has entrado en la parte de la descentralización, así que, claro, Ethereum sale el peor parado porque es el más descentralizado.",
         "Hablemos también de cuánto de eso se debe a su historia y cuánto a que Ethereum, sencillamente, eligió ser el más descentralizado."
       ]
@@ -953,13 +944,13 @@
       "id": "b77-haseeb",
       "speaker": "Haseeb",
       "frases": [
-        "Como decía Vitalik, cuando la gente compara el rendimiento de las cadenas de bloques, suele elegir pruebas que dejan bien a su cadena y que dan cifras grandes.",
+        "Como decía Vitalik, cuando la gente compara el rendimiento de las blockchains, suele elegir pruebas que dejan bien a su cadena y que dan cifras grandes.",
         "La forma más obvia de hacerlo es medir solo las transferencias.",
         "Muchas de las cadenas más nuevas, sobre todo, suelen medir transferencias hechas en una red de pruebas o en una red de desarrollo.",
         "Ahí siempre puedes sacar cifras descomunales que no reflejan la realidad.",
-        "Habíamos visto circular tantas afirmaciones ridículas sobre la capacidad de procesamiento de las cadenas de bloques que pensamos en desarrollar una prueba de rendimiento claramente objetiva.",
+        "Habíamos visto circular tantas afirmaciones ridículas sobre la capacidad de procesamiento de las blockchains que pensamos en desarrollar una prueba de rendimiento claramente objetiva.",
         "La idea era verificar de qué son capaces estas cadenas cuando las comparas en igualdad de condiciones, con un tipo de transacción común que hacen todas.",
-        "La más común, que es como se negocia hoy casi todo en las cadenas de bloques, es una operación en un creador de mercado automatizado del estilo de Uniswap.",
+        "La más común, que es como se negocia hoy casi todo en las blockchains, es una operación en un creador de mercado automatizado del estilo de Uniswap.",
         "Un creador de mercado automatizado es una forma matemática muy sencilla de intercambiar dos activos.",
         "La mayoría de estas cadenas se pueden simular simplemente mirando el límite de gas y el tiempo de bloque, sin necesidad de hacer mucho más.",
         "Otras hay que verificarlas empíricamente, porque la forma en que se calcula el gas no basta para saber si la cadena podría alcanzar esa cifra en producción.",
@@ -976,9 +967,9 @@
         "Como decía antes Vitalik, parte de la razón por la que el rendimiento de Ethereum está donde está es que Ethereum ha consagrado cierto nivel de descentralización.",
         "Como institución, es importante asegurarnos de que cualquiera pueda acceder a Ethereum desde un portátil.",
         "La mayoría de estas cadenas más nuevas no han elegido eso, sino otros puntos del espectro que va de la descentralización al rendimiento.",
-        "En mi opinión, es totalmente razonable que haya cadenas de bloques que elijan un punto distinto en esa curva de compensación.",
+        "En mi opinión, es totalmente razonable que haya blockchains que elijan un punto distinto en esa curva de compensación.",
         "Y es muy importante que existan Ethereum y Bitcoin, que llegan hasta el extremo izquierdo.",
-        "Tiene sentido que algunos tengan cadenas de bloques ajustadas para otros equilibrios.",
+        "Tiene sentido que algunos tengan blockchains ajustadas para otros equilibrios.",
         "Pero si optas por otro equilibrio y no vas a ser muy descentralizado, más te vale conseguir un rendimiento muy alto.",
         "Lo que quiero decir es que, si vas a hacer una concesión tan grande, más te vale sacar mucho a cambio."
       ]
@@ -1003,7 +994,7 @@
         "Podemos usar el ether como dinero, y puedes usarlo para hacer transacciones.",
         "Porque, en el fondo, es una criptomoneda, y su valor está en cierto modo respaldado por toda la actividad que hay en la cadena de Ethereum.",
         "Con la propuesta de mejora mil quinientos cincuenta y nueve, una gran parte de la comisión de cada transacción, que se paga en ether, tiene que quemarse.",
-        "Y se prevé que, una vez tengamos la prueba de participación, incluso lleguemos a tener emisión negativa.",
+        "Y se prevé que, una vez tengamos proof of stake, incluso lleguemos a tener emisión negativa.",
         "Así que, en ese sentido, el ether está en una posición bastante singular.",
         "Pero para mí no hay que elegir entre una cosa y otra, porque el ether como activo y el ecosistema de la capa de aplicación de Ethereum se refuerzan mutuamente.",
         "Cuanto más fuerte es el ecosistema de la capa de aplicación, más fuerte es el ether, y cuanto más fuerte es el ether como activo, más fuerte es ese ecosistema."
@@ -1037,11 +1028,11 @@
         "Gracias a sus aspectos de capa dos, a su pluralismo y a que el ecosistema contiene muchos subecosistemas, en muchos casos es capaz de satisfacer las dos cosas.",
         "Si lo único que quieres es tener tu ether y guardarlo, puedes hacerlo.",
         "E incluso hay aplicaciones de Ethereum que valoran la estabilidad casi tanto como el propio Ethereum.",
-        "MakerDAO podría ser un buen ejemplo de eso, y RAI podría ser otro buen ejemplo, igual que algunas de las monedas estables algorítmicas.",
+        "MakerDAO podría ser un buen ejemplo de eso, y RAI podría ser otro buen ejemplo, igual que algunas de las stablecoins algorítmicas.",
         "Pero si quieres hacer auténticas locuras, Ethereum también te deja hacer auténticas locuras.",
         "Y si necesitas más escalabilidad para hacer esas locuras, puedes irte a hacerlas en un rollup.",
         "Así que Ethereum, como ecosistema, se esfuerza por tener sitio para muchos tipos distintos de participantes, y eso sin duda es difícil de conseguir.",
-        "En muchas otras cadenas de bloques que conocemos, o solo eres la roca digital, o eres solo una plataforma sin una roca digital que lo sostenga todo.",
+        "En muchas otras blockchains que conocemos, o solo eres la roca digital, o eres solo una plataforma sin una roca digital que lo sostenga todo.",
         "En Ethereum nos importa resolver el problema de tener a la vez un ecosistema que pueda hacer muchas cosas y una roca digital en el centro que lo mantenga firme.",
         "Si lo conseguimos o no, claro, lo decidirá la próxima década de la historia mundial."
       ]

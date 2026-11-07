@@ -278,12 +278,13 @@ copia exacta de su tramo (docs/cortos-y-largos.md): un cambio va al largo y a su
 Toda la tabla tiene el visto bueno del autor (7-nov, respuestas 1 a 49 de la ronda de preguntas). Estrategia general
 (respuesta 1): **mixta**. Español donde circula y el oyente lo entiende; inglés donde el autor lo ha decidido o no hay
 equivalente vivo. Regla de aplicación: manda la palabra inglesa del original. *Chain* sola sigue siendo «cadena»
-(«en la cadena», «dos cadenas», «la cadena de Ethereum»); solo *blockchain* pasa a blockchain. Todos los anglicismos
+(«en la cadena», «dos cadenas», «la cadena de Ethereum»); *blockchain* pasa a blockchain, salvo las segundas menciones
+que ya decían «la cadena». Todos los anglicismos
 van a la lista de escucha del episodio antes de dar el audio por bueno.
 
 | Original | En el texto | Nota |
 |---|---|---|
-| blockchain / blockchains | **blockchain**, femenino: la blockchain, las blockchains | Decisión del autor (7-nov). Sustituye a «cadena de bloques». En referencias cortas a *the chain*, «la cadena». smart contract blockchain = blockchain de smart contracts. Escuchar |
+| blockchain / blockchains | **blockchain**, femenino: la blockchain, las blockchains | Decisión del autor (7-nov). Sustituye a «cadena de bloques». Las referencias cortas que ya decían «la cadena» se mantienen, para no repetir blockchain en cada frase. smart contract blockchain = blockchain de smart contracts. Escuchar |
 | smart contract(s) | **smart contract**, masculino: el smart contract, los smart contracts | Decisión del autor (7-nov). Sustituye a «contrato inteligente» también en 070, 127 y 130. *Contract* solo (el objeto que define Vitalik) = contrato. Escuchar |
 | proof-of-work / proof-of-stake | **proof of work** / **proof of stake**, sin guiones; masculino si lleva artículo | Decisión del autor (7-nov). Sustituye a «prueba de trabajo» y «prueba de participación» en la serie. El uso figurado del 029 y el 052 («tener prueba de trabajo») está pendiente del autor. Escuchar |
 | staking / stakers / staking pools | staking / quienes hacen staking / **grupos de staking** | Sin «pools». Escuchar staking |

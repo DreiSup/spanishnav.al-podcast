@@ -258,3 +258,4 @@ episodio. Episodios con notas a 6-nov: 008, 010, 017, 018, 020 y 052.
 | 2026-11-07 | 069 How to Angel Invest, Part 2 (título) | revision | 59 | 368 | 6203 | 36,5 | Título con partes literal (decisión del autor, 7-nov); frases sin cambios |
 | 2026-11-07 | 131 Vitalik: Ethereum, Part 1 (título) | revision | 82 | 503 | 9334 | 54,9 | Título con partes literal (decisión del autor, 7-nov); frases sin cambios |
 | 2026-11-07 | 132 Vitalik: Ethereum, Part 2 (título) | revision | 59 | 313 | 5332 | 31,4 | Título con partes literal (decisión del autor, 7-nov); frases sin cambios |
+| 2026-11-07 | 131 Vitalik: Ethereum, parte 1 (revisión con el autor) | revision | 82 | 494 | 9212 | 54,2 | Términos confirmados por el autor (GLOSARIO, Vitalik): blockchain, smart contract, proof of work/stake, wallet, ejecutar un nodo, espacio en los bloques, grupos de staking, stablecoins, hackear, encriptar. b67 ese ecosistema salvó a Ethereum. 8 preguntas cortas fundidas. Cero avisos |
