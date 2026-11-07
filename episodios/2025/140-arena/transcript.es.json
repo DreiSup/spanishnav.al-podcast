@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2025/140-arena",
+  "numero": 140,
+  "fecha": "2025-07-18",
+  "titulo": "La vida se vive en la arena",
+  "subtitulo": "",
+  "fuente_url": "https://nav.al/arena",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "La vida se vive en la arena, y solo aprendes haciendo.",
+        "Y si no estás haciendo, todo lo que aprendes es demasiado general y demasiado abstracto.",
+        "Entonces sí que son aforismos de tarjeta de felicitación, y no sabes qué se aplica dónde ni cuándo.",
+        "Y buena parte de estos principios y consejos generales no son matemáticas.",
+        "A veces usas la palabra rico para decir una cosa, y otras veces la usas para decir otra.",
+        "Lo mismo pasa con la palabra riqueza, y lo mismo con la palabra amor o con la felicidad.",
+        "Son términos con demasiados significados, así que esto no son matemáticas.",
+        "No son definiciones precisas, y no puedes sacar de ellas un manual que puedas seguir sin más, como un ordenador.",
+        "En cambio, tienes que entender en qué contexto aplicarlas.",
+        "Así que la forma correcta de aprender es ir a hacer algo de verdad, y mientras lo haces, descubres algo sobre cómo debería hacerse.",
+        "Después puedes ir a mirar algo que tuiteé yo, algo que leíste en Deutsch o en Schopenhauer, o algo que viste en internet.",
+        "Y te das cuenta de que eso es lo que quería decir ese tipo, de que ese es el principio general del que habla.",
+        "Y sabes que hay que aplicarlo en situaciones como esta.",
+        "No de forma mecánica ni el cien por cien de las veces, sino como una regla práctica útil para cuando vuelvas a encontrarte en esa situación.",
+        "Empiezas razonando y luego vas construyendo tu criterio.",
+        "Y cuando tu criterio está lo bastante pulido, se convierte sin más en gusto, en intuición o en olfato, y eso es lo que te guía.",
+        "Pero tienes que empezar por lo concreto.",
+        "Imagina que empiezas por lo general y te quedas en lo general, leyendo solo libros de principios, de aforismos, almanaques y cosas así.",
+        "Vas a acabar como esa persona que fue a la universidad y tiene demasiada formación, pero está perdida.",
+        "Intenta aplicar las cosas donde no toca.",
+        "Es lo que Nassim Taleb llama los intelectuales pero idiotas."
+      ]
+    },
+    {
+      "id": "b02-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Uno de los tuits que iba a sacar es justo ese, el del tres de junio.",
+        "Adquirir conocimiento es fácil, lo difícil es saber qué aplicar y cuándo.",
+        "Por eso todo aprendizaje de verdad se hace sobre el terreno.",
+        "La vida se vive en la arena."
+      ]
+    },
+    {
+      "id": "b03-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Me gusta ese tuit, aunque en realidad lo único que quería tuitear era que la vida se vive en la arena, y nada más.",
+        "Quería soltarlo así, sin más.",
+        "Pero sentí que tenía que explicarlo un poco, porque el hombre en la arena es una cita famosa, y quería desarrollarlo un poco desde mi punto de vista.",
+        "Pero es algo de lo que me doy cuenta una y otra vez."
+      ]
+    }
+  ]
+}

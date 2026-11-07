@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 140,
+  "anio": 2025,
+  "slug": "arena",
+  "titulo": "Life is Lived in The Arena",
+  "subtitulo": "",
+  "fecha_publicacion": "2025-07-18",
+  "fuente_url": "https://nav.al/arena",
+  "orden_archivo": 144,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-07"
+}
