@@ -83,7 +83,7 @@ texto en español y por qué.
 | IQ test | test de inteligencia | «IQ» y «CI» se deletrean mal; se resuelve en la frase (065) |
 | If A, then B | si pasa A, entonces pasa B | Decisión del autor (4-nov). Alternativa si el TTS lee mal la «A» suelta: si pasa uno, entonces pasa dos (065) |
 | A eats B; B eats C… | uno se come a otro, ese otro se come a un tercero, y así sucesivamente | Las letras en cadena el TTS las lee como preposición o las deletrea (063) |
-| Part 1 / Part 2, Files II… (títulos de episodio con partes) | literal: «, parte 1», «, parte 2»; Files II = Documentos II | **Decisión del autor (7-nov):** como en el original, con la cifra o el número romano que traiga. El título no se locuta (solo va a la etiqueta del MP3). Sustituye a «primera parte» (105, 130, 131, 132, 133, 134) y a «parte uno» (051, 069, 070, 071); cada sesión lo aplica en su serie |
+| Part 1 / Part 2, Files II… (títulos de episodio con partes) | literal: «, parte 1», «, parte 2»; Files II = Documentos II | **Decisión del autor (7-nov):** como en el original, con la cifra o el número romano que traiga. El título no se locuta (solo va a la etiqueta del MP3). Sustituye a «primera parte» y a «parte uno». Aplicado el 7-nov en 051, 069, 070, 071, 105, 130, 131, 132, 133 y 134 |
 
 ## Términos por invitado (propuestos el 4-nov, pendientes de visto bueno del autor)
 
@@ -153,7 +153,7 @@ el 010.
 | SaaS | software como servicio | Siglas y títulos: resuelta en la frase |
 | Dunning-Kruger | Dunning Kruger | Siglas y títulos: sin guion para el TTS |
 | Glengarry Glen Ross | la película Éxito a cualquier precio | Confirmado (5-nov). Título en España (1992); «la película» delante para que se entienda como título |
-| How to Angel Invest, Part 1 / Part 2 | Cómo invertir como ángel, parte uno / parte dos | Confirmado (5-nov). Títulos del 051 y el 069 . **Ojo:** el 7-nov el autor fijó la regla general de títulos con partes (literal: parte 1, parte 2; ver Siglas y títulos), pendiente de aplicar aquí en su sesión |
+| How to Angel Invest, Part 1 / Part 2 | Cómo invertir como ángel, parte 1 / parte 2 | Títulos del 051 y el 069. Confirmado como «parte uno / parte dos» el 5-nov; pasa a «parte 1 / parte 2» por la regla general de títulos con partes del autor (7-nov, ver Siglas y títulos) |
 | Warren Buffett | Warren Buffett | Corregir la errata «Buffet» de 051 b35 |
 
 ### Naval y Nivi 2025 y 2026 (139–159) — decisiones del autor del 7-nov
@@ -209,8 +209,8 @@ pregunta del informe de 2026 quedan aprobadas tal cual.
 ### Brett Hall y David Deutsch (072–134) — decisiones del autor del 7-nov
 
 Las preguntas salieron de leer entero el inglés de la serie (los 56 cortos y las entrevistas 133 y 134) y de contar
-cómo estaba traducido cada término en el repo. Lo marcado «decisión del autor (7-nov)» tiene su visto bueno; las
-filas «propuesta» siguen pendientes de confirmar. Las recopilaciones 105 y 130 son la fuente y cada corto es la
+cómo estaba traducido cada término en el repo. Toda la tabla tiene el visto bueno del autor (7-nov): lo marcado «decisión del autor» lo eligió entre
+opciones, y lo marcado «confirmado» lo aprobó tal cual. Las recopilaciones 105 y 130 son la fuente y cada corto es la
 copia exacta de su tramo (docs/cortos-y-largos.md): un cambio va al largo y a su corto a la vez.
 
 | Original | En el texto | Nota |
@@ -236,20 +236,20 @@ copia exacta de su tramo (docs/cortos-y-largos.md): un cambio va al largo y a su
 | believe in science, which is an oxymoron | creer en la ciencia, lo cual es un oxímoron | **Decisión del autor (7-nov).** 072 b01 y 105 |
 | the human race | la raza humana | **Decisión del autor (7-nov)**, también en los títulos de 133 y 134 y en su título de sección |
 | Corchetes del editor que completan la frase (134: [They think], [showed], [also], [Doctors], [and], [but]) | fuera de la voz, en notas_editor | **Decisión del autor (7-nov):** se aplica la regla general de notas del editor aunque sean palabras que completan la frase. La frase española se escribe para que se sostenga sin ellas |
-| good explanation | buena explicación | Propuesta |
-| falsifiable / falsify | falsable / falsar | Propuesta. Nunca «falsificable» |
-| aliens | extraterrestres | Propuesta. «Alienígenas» solo dentro de caracolienígenas |
-| worldview / taking (theories, children) seriously | visión del mundo / tomarse en serio | Propuesta |
-| universal computer / Bayesian | ordenador universal / bayesiano | Propuesta |
-| prove (matemáticas) / test (ciencia) | demostrar / comprobar, poner a prueba | Propuesta |
-| The Beginning of Infinity | El comienzo del infinito | Propuesta. Biblioteca Buridán, 2012 |
-| The Fabric of Reality | La estructura de la realidad | Propuesta. Anagrama, 1999 |
-| Nullius in verba | Nullius in verba en el título; nulius in verba en el texto | Propuesta. Una sola ele para que el TTS no lea «nuyius» (074) |
-| Deutsch | Deutsch | Propuesta. «Doich» solo si el TTS lo lee mal |
-| GPT-3 | GPT tres | Propuesta. Escuchar; alternativa «ge pe te tres» |
+| good explanation | buena explicación | Confirmado por el autor (7-nov) |
+| falsifiable / falsify | falsable / falsar | Confirmado por el autor (7-nov). Nunca «falsificable» |
+| aliens | extraterrestres | Confirmado por el autor (7-nov). «Alienígenas» solo dentro de caracolienígenas |
+| worldview / taking (theories, children) seriously | visión del mundo / tomarse en serio | Confirmado por el autor (7-nov) |
+| universal computer / Bayesian | ordenador universal / bayesiano | Confirmado por el autor (7-nov) |
+| prove (matemáticas) / test (ciencia) | demostrar / comprobar, poner a prueba | Confirmado por el autor (7-nov) |
+| The Beginning of Infinity | El comienzo del infinito | Confirmado por el autor (7-nov). Biblioteca Buridán, 2012 |
+| The Fabric of Reality | La estructura de la realidad | Confirmado por el autor (7-nov). Anagrama, 1999 |
+| Nullius in verba | Nullius in verba en el título; nulius in verba en el texto | Confirmado por el autor (7-nov). Una sola ele para que el TTS no lea «nuyius» (074) |
+| Deutsch | Deutsch | Confirmado por el autor (7-nov). «Doich» solo si el TTS lo lee mal |
+| GPT-3 | GPT tres | Confirmado por el autor (7-nov). Escuchar; alternativa «ge pe te tres» |
 | Church-Turing | Church Turing | Sin guion |
 | person A, idea X, theory Z | una persona, una idea, la otra, una tercera idea | Letras sueltas resueltas en la frase, como en 063 (124, D10) |
-| ToKCast | Tokcast | Propuesta. Con su explicación la primera vez: podcast de la teoría del conocimiento |
+| ToKCast | Tokcast | Confirmado por el autor (7-nov). Con su explicación la primera vez: podcast de la teoría del conocimiento |
 
 ### Matt Ridley (070, 071)
 
