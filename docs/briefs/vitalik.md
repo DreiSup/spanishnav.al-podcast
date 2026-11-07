@@ -3,7 +3,7 @@
 > **7-nov: el autor ha decidido los términos de la serie.** Están en GLOSARIO.md, sección «Vitalik Buterin y Haseeb
 > Qureshi», y **prevalecen sobre este brief** donde no coinciden: blockchain, smart contract, proof of work y proof of
 > stake, wallet, hackeo y hacker, ejecutar un nodo, espacio en los bloques, altcoin, stablecoins, encriptar, el viejo
-> estadista, mi gira por el mundo de Bitcoin y el juego Naval/navel recuperado.
+> estadista y mi gira por el mundo de Bitcoin. El juego Naval/navel se pierde.
 
 Para traductores y revisores de **131 *Vitalik: Ethereum, Part 1*** (`trabajo/f0/vitalik.json`, 8-abr-2022,
 82 bloques, 41 `titulos_seccion`, unas 9.200 palabras) y **132 *Vitalik: Ethereum, Part 2***
