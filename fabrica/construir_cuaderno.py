@@ -60,7 +60,7 @@ cuántos segundos de GPU cuesta cada segundo de audio, para calcular el gasto de
 """),
     code("""
 # 2. Parámetros
-EPISODIOS = ["2019/037-productize-yourself", "2019/038-accountability", "2019/039-working-ourselves"]   # carpetas de episodios/ del repo
+EPISODIOS = []      # carpetas de episodios/ del repo, p. ej. ["2019/051-angel-1"] (vacío: no hace nada)
 VERIFICAR = True     # revisar cada frase con Whisper y repetir las que fallen (más lento, mucho menos Audacity)
 
 # Arreglos tras escuchar el master (docs/sop-episodio.md). Para producir normal: SOLO_MASTER = False y RONDA = 0
@@ -114,6 +114,8 @@ for ep, pedidas in REHACER_FRASES.items():
     print(f"REHACER: {{ep}} → {{pedidas}}")
 
 PLANES, problemas = {{}}, []
+if not EPISODIOS:
+    problemas.append("EPISODIOS está vacío: pega en la celda 2 los episodios que quieres generar")
 for ep in EPISODIOS:
     base = Path("/content/repo/episodios") / ep
     if not (base / "transcript.es.json").is_file():
