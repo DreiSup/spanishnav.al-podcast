@@ -216,3 +216,4 @@ episodio. Episodios con notas a 6-nov: 008, 010, 017, 018, 020 y 052.
 | 2026-11-07 | 092 Is Light a Particle or a Wave? (revisión con el autor) | revision | 2 | 33 | 640 | 3,8 | Revisión con el autor (7-nov): partida una frase de 38 palabras. Cero avisos |
 | 2026-11-07 | 093 The Multiverse (revisión con el autor) | revision | 1 | 15 | 278 | 1,6 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
 | 2026-11-07 | 094 We Explain the Seen in Terms of the Unseen (revisión con el autor) | revision | 2 | 15 | 276 | 1,6 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
+| 2026-11-07 | 095 Science Expands Our Vision of Reality (revisión con el autor) | revision | 1 | 17 | 292 | 1,7 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
