@@ -83,6 +83,7 @@ texto en español y por qué.
 | IQ test | test de inteligencia | «IQ» y «CI» se deletrean mal; se resuelve en la frase (065) |
 | If A, then B | si pasa A, entonces pasa B | Decisión del autor (4-nov). Alternativa si el TTS lee mal la «A» suelta: si pasa uno, entonces pasa dos (065) |
 | A eats B; B eats C… | uno se come a otro, ese otro se come a un tercero, y así sucesivamente | Las letras en cadena el TTS las lee como preposición o las deletrea (063) |
+| Part 1 / Part 2, Files II… (títulos de episodio con partes) | literal: «, parte 1», «, parte 2»; Files II = Documentos II | **Decisión del autor (7-nov):** como en el original, con la cifra o el número romano que traiga. El título no se locuta (solo va a la etiqueta del MP3). Sustituye a «primera parte» (105, 130, 131, 132, 133, 134) y a «parte uno» (051, 069, 070, 071); cada sesión lo aplica en su serie |
 
 ## Términos por invitado (propuestos el 4-nov, pendientes de visto bueno del autor)
 
@@ -152,7 +153,7 @@ el 010.
 | SaaS | software como servicio | Siglas y títulos: resuelta en la frase |
 | Dunning-Kruger | Dunning Kruger | Siglas y títulos: sin guion para el TTS |
 | Glengarry Glen Ross | la película Éxito a cualquier precio | Confirmado (5-nov). Título en España (1992); «la película» delante para que se entienda como título |
-| How to Angel Invest, Part 1 / Part 2 | Cómo invertir como ángel, parte uno / parte dos | Confirmado (5-nov). Títulos del 051 y el 069 |
+| How to Angel Invest, Part 1 / Part 2 | Cómo invertir como ángel, parte uno / parte dos | Confirmado (5-nov). Títulos del 051 y el 069 . **Ojo:** el 7-nov el autor fijó la regla general de títulos con partes (literal: parte 1, parte 2; ver Siglas y títulos), pendiente de aplicar aquí en su sesión |
 | Warren Buffett | Warren Buffett | Corregir la errata «Buffet» de 051 b35 |
 
 ### Naval y Nivi 2025 y 2026 (139–159) — decisiones del autor del 7-nov
@@ -203,29 +204,50 @@ del largo que corresponde al 144. Ese bloque del largo deja de ser idéntico al 
 el 158 b09 (Wuhan, vacunas, bioéticos) se traduce fiel, sin suavizar; las frases hechas y la lista de términos sin
 pregunta del informe de 2026 quedan aprobadas tal cual.
 
-### Brett Hall y David Deutsch (072–134)
+### Brett Hall y David Deutsch (072–134) — decisiones del autor del 7-nov
+
+Las preguntas salieron de leer entero el inglés de la serie (los 56 cortos y las entrevistas 133 y 134) y de contar
+cómo estaba traducido cada término en el repo. Lo marcado «decisión del autor (7-nov)» tiene su visto bueno; las
+filas «propuesta» siguen pendientes de confirmar. Las recopilaciones 105 y 130 son la fuente y cada corto es la
+copia exacta de su tramo (docs/cortos-y-largos.md): un cambio va al largo y a su corto a la vez.
 
 | Original | En el texto | Nota |
 |---|---|---|
-| good explanation / hard to vary | buena explicación / difícil de variar | Deutsch; fijo en la serie de 2021 y en 133 y 134 |
-| reach | alcance | De una explicación |
-| universal explainer | explicador universal | Término de Deutsch (D2) |
-| conjecture / guess (epistemológico) | conjetura | Popper |
-| falsifiable | falsable | Nunca «falsificable» |
-| testable | comprobable | Más llano que «contrastable» (D3) |
-| error correction | corrección de errores |  |
-| AGI | inteligencia artificial general | Nunca la sigla |
-| feedback | retroalimentación | Primera vez en el repositorio; afecta también al grupo de Matt Ridley |
-| compromise (sustantivo) | término medio / solución de compromiso | «Compromiso» a secas se entiende como commitment (D6) |
-| aliens | extraterrestres |  |
-| prove (matemáticas) / test (ciencia) | demostrar / comprobar |  |
-| The Beginning of Infinity | El comienzo del infinito | Biblioteca Buridán, 2012 (sección Siglas y títulos) |
-| The Fabric of Reality | La estructura de la realidad | Anagrama, 1999 |
-| Nullius in verba | nulius in verba | Una sola ele en el texto del TTS para que no lea «nuyius» (074) |
-| GPT-3 | GPT tres | Escuchar; alternativa «ge pe te tres» |
+| guess (sustantivo, epistemológico) / conjecture | conjetura | **Decisión del autor (7-nov).** Siempre, también con el hijo de Naval (134 b04): la tesis es que toda suposición es una conjetura. El verbo *to guess* según el contexto: conjeturar, suponer, adivinar («Guess what?» = ¿Y sabes qué?). *Assumption* = suposición |
+| testable / testability | contrastable / que se pueda contrastar, contrastabilidad | **Decisión del autor (7-nov)**, en lugar de «comprobable»: es el término de las traducciones de Popper. El verbo *to test* y el sustantivo *test* siguen como comprobar, poner a prueba, prueba |
+| universal explainer(s) | explicador universal, explicadores universales | **Decisión del autor (7-nov).** Familia con ordenador universal (133 b40) y universalidad explicativa (134 b22) |
+| hard to vary / hard to come by | difícil de variar / difícil de conseguir | **Decisión del autor (7-nov).** La cadena de 133 b29 tiene que sonar paralela. El título de sección del 133 (*hard to find*) también va con «conseguir» |
+| reach (de una explicación) | alcance / alcanzar | **Decisión del autor (7-nov).** Mantiene el juego de 133 b38: ni siquiera alcance a tu vecino |
+| narrow and risky predictions | predicciones concretas y arriesgadas | **Decisión del autor (7-nov).** *Narrow and precise* = concretas y precisas (083) |
+| demonstration (frente a experiment y measurement, 134) | demostración práctica la primera vez, luego demostración | **Decisión del autor (7-nov).** Para que no se confunda con la demostración matemática (*proof*), que es demostrar |
+| mathematician's misconception | el error de concepto de los matemáticos | **Decisión del autor (7-nov).** 085 b02, 090 b01 |
+| error correction / the means of error correction | corrección de errores / los medios para corregir errores | **Decisión del autor (7-nov).** |
+| settled (science, mathematics) / final theory | definitiva, la ciencia ya está zanjada / teoría definitiva | **Decisión del autor (7-nov).** |
+| feedback | retroalimentación | **Decisión del autor (7-nov)** para esta serie (14 frases y el título del 125). Los episodios de Naval y Nivi de 2025 y 2026 dicen feedback (ver su tabla) |
+| compromise (sustantivo) | término medio / solución de compromiso | **Decisión del autor (7-nov).** Título del 124: La miseria del término medio, por La miseria del historicismo de Popper. «Compromiso» a secas se entiende como *commitment* |
+| AGI / artificial general intelligence | inteligencia artificial general | **Decisión del autor (7-nov): siempre la forma larga**, sin abreviar a «inteligencia general» ni usar la sigla |
+| strong opinions, loosely held (Andreessen) | opiniones fuertes, sostenidas con poca fuerza | **Decisión del autor (7-nov).** Las combinaciones del 125 en paralelo |
+| One Einstein is worth a legion of PhD drones | Un Einstein vale más que una legión de doctores autómatas | **Decisión del autor (7-nov).** Título del 121; en el texto, autómatas con doctorados en física |
+| It's Mind Blowing That Our Minds Can't Be Blown | Lo alucinante es que nada puede alucinarnos | **Decisión del autor (7-nov).** Título del 113; en el texto, lo alucinante es que nada puede alucinarte |
+| snailiens | caracolienígenas | **Decisión del autor (7-nov).** 133 b12 |
+| Catch-22 | la pescadilla que se muerde la cola | **Decisión del autor (7-nov).** 133 b11 |
+| believe in science, which is an oxymoron | creer en la ciencia, lo cual es un oxímoron | **Decisión del autor (7-nov).** 072 b01 y 105 |
+| the human race | la raza humana | **Decisión del autor (7-nov)**, también en los títulos de 133 y 134 y en su título de sección |
+| Corchetes del editor que completan la frase (134: [They think], [showed], [also], [Doctors], [and], [but]) | fuera de la voz, en notas_editor | **Decisión del autor (7-nov):** se aplica la regla general de notas del editor aunque sean palabras que completan la frase. La frase española se escribe para que se sostenga sin ellas |
+| good explanation | buena explicación | Propuesta |
+| falsifiable / falsify | falsable / falsar | Propuesta. Nunca «falsificable» |
+| aliens | extraterrestres | Propuesta. «Alienígenas» solo dentro de caracolienígenas |
+| worldview / taking (theories, children) seriously | visión del mundo / tomarse en serio | Propuesta |
+| universal computer / Bayesian | ordenador universal / bayesiano | Propuesta |
+| prove (matemáticas) / test (ciencia) | demostrar / comprobar, poner a prueba | Propuesta |
+| The Beginning of Infinity | El comienzo del infinito | Propuesta. Biblioteca Buridán, 2012 |
+| The Fabric of Reality | La estructura de la realidad | Propuesta. Anagrama, 1999 |
+| Nullius in verba | Nullius in verba en el título; nulius in verba en el texto | Propuesta. Una sola ele para que el TTS no lea «nuyius» (074) |
+| Deutsch | Deutsch | Propuesta. «Doich» solo si el TTS lo lee mal |
+| GPT-3 | GPT tres | Propuesta. Escuchar; alternativa «ge pe te tres» |
 | Church-Turing | Church Turing | Sin guion |
 | person A, idea X, theory Z | una persona, una idea, la otra, una tercera idea | Letras sueltas resueltas en la frase, como en 063 (124, D10) |
-| ToKCast | Tokcast | Con su explicación la primera vez: podcast de la teoría del conocimiento |
+| ToKCast | Tokcast | Propuesta. Con su explicación la primera vez: podcast de la teoría del conocimiento |
 
 ### Matt Ridley (070, 071)
 
