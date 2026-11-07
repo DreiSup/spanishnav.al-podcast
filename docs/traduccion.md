@@ -197,3 +197,4 @@ episodio. Episodios con notas a 6-nov: 008, 010, 017, 018, 020 y 052.
 | 2026-11-07 | 072 Science Is the Engine That Pulls Humanity Forward (revisión con el autor) | revision | 1 | 29 | 461 | 2,7 | Revisión con el autor (7-nov): testable = contrastable (1 frase). Cero avisos |
 | 2026-11-07 | 073 This Book Changed the Way I Think (revisión con el autor) | revision | 1 | 17 | 344 | 2,0 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
 | 2026-11-07 | 074 Nullius in Verba (revisión con el autor) | revision | 2 | 22 | 358 | 2,1 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
+| 2026-11-07 | 075 Explanations That Reach the Entire Universe (revisión con el autor) | revision | 3 | 16 | 301 | 1,8 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
