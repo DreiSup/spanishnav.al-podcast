@@ -125,6 +125,10 @@ del OK para `main`. Falta Apple (cuando lo aprueben).
 **Cada episodio nuevo, desde ahora:** master → R2 → episodio en la web y push a `main` (con OK del autor) → Spotify,
 Apple y Substack lo cogen del feed solos. YouTube, a mano: la sesión le da al autor solo título y descripción.
 
+**Entorno de las sesiones (7-nov):** «spanishnav.al» (personal), con `spanishnav.al`, `www.spanishnav.al` y
+`audio.spanishnav.al` permitidos además de `nav.al`: la sesión ya puede comprobar web, feed y audios de R2 (antes daban
+403 en el proxy). YouTube, Substack y las páginas de ayuda de Apple siguen fuera.
+
 **Idea del autor (6-nov): dejar listos todos los episodios traducidos y publicar uno al día, programado.** Piezas:
 - R2: subir los masters por adelantado (la dirección no se anuncia hasta que el feed la incluye).
 - Web y feed: cargar todos los episodios con su fecha `published` futura, que la web y el feed solo muestren los de
