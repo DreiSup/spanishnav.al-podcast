@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 157,
+  "anio": 2026,
+  "slug": "code",
+  "titulo": "A Return to Code",
+  "subtitulo": "Vibe coding, the personal app store, and the end of Apple’s dominance",
+  "fecha_publicacion": "2026-04-28",
+  "fuente_url": "https://nav.al/code",
+  "orden_archivo": 161,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-07"
+}

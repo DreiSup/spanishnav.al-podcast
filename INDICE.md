@@ -2,13 +2,14 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**151** episodios · **2** publicados · **10** escuchados por el autor (**1** para revisar) · **0** sin empezar
+**152** episodios · **2** publicados · **10** escuchados por el autor (**1** para revisar) · **0** sin empezar
 
 ## 2026
 
 | # | Episodio | Título en español | Estado | Escuchado | Drive | YouTube |
 |---|---|---|---|---|---|---|
 | 156 | [156-ai](episodios/2026/156-ai) | Una moto para la mente | 🟠 en revisión | — | — | — |
+| 157 | [157-code](episodios/2026/157-code) | La vuelta al código | 🟠 en revisión | — | — | — |
 
 ## 2025
 

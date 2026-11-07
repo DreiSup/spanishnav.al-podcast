@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 157,
+  "anio": 2026,
+  "slug": "code",
+  "titulo_es": "La vuelta al código",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "La vuelta al código",
+    "descripcion": "",
+    "tags": [],
+    "url": "",
+    "url_original": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "publicacion": {
+    "fecha": "",
+    "audio_url": "",
+    "audio_bytes": 0,
+    "duracion_s": 0,
+    "feed_guid": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "escucha": {
+    "escuchado": false,
+    "resultado": null,
+    "fecha": null,
+    "feedback": ""
+  },
+  "notas": "Inglés sacado del Google Doc «2026 all podcasts» de Drive; cuadra palabra a palabra con el documento (del «Get podcast» a «Related», sin enlaces). Solo hablan Naval y Nivi. Sin notas del editor. Decisiones del autor del 6 y 7-nov aplicadas (GLOSARIO, Naval y Nivi 2025 y 2026): la inteligencia artificial en la primera mención de cada bloque y luego la IA, las IA; vibe coding en inglés, glosado en b03; one-shot en inglés, definido por Naval en b04, también en el juego de b05 (ha dejado en one-shot a un montón de amigos míos); tokens glosados en b03 (los trozos de texto con los que trabajan) y a trillion tokens = un billón de tokens (b11); prompt, feedback, bug, debug, hack y pull request en inglés (Naval bromea con el nombre del pull request en b11); jagged intelligence = inteligencia dentada (b10); taste = gusto, tastemaker = alguien con buen gusto (b12, b14); bibliotecas, banco de pruebas, ventana de contexto, tareas programadas; comillas irónicas reformuladas (trouble = lo que se suele llamar un aprieto, b13). Otras decisiones: uninvestable = en el software puro no se puede invertir (título de sección, b06 a b08); OG = el veterano, el original; least nerfed = el menos capado (b10); soup to nuts = de principio a fin (b03); the genie is out of the bottle = el genio ha salido de la lámpara (b08); doomscrolling en inglés, como lo usa la prensa (b08); backing off in a network = el reintento escalonado en una red (b08); Make no mistakes = y sin errores (b13); CLI = la interfaz de línea de comandos, IDE = entorno de desarrollo; human interface guidelines = directrices de interfaz de Apple; Apple Health = la app Salud de Apple; ScratchJr = Scratch Junior; Claude Opus 4.5 = Claude Opus cuatro punto cinco; macOS es BSD; Twitter en b03 y X en b08 y b10, como lo dice Naval; market cap = capitalización bursátil; citas y tuits en estilo indirecto, sin comillas. Escuchar en el TTS: la IA, las IA, vibe coding, one-shot, tokens, prompt, feedback, bug, bugs, debug, hack, pull request, backend, doomscrolling, Claude, Claude Code, Claude Opus cuatro punto cinco, Codex, Gemini, Grok, Grok Code, ChatGPT, Artifacts, GitHub, Vercel, Firebase, Railway, Stack Overflow, Unix, macOS, BSD, grep, awk, sed, Python, C, Lisp, Rust, Swift Playgrounds, Scratch Junior, Xcode, Tonal, Ladder, App Store, iPhone, Android, Airchat, Minecraft, Notch, Uber, Samsung, Lenovo, Microsoft Windows, Nvidia, Satoshi Nakamoto, Instagram, WhatsApp, X, transformer, API, software, hardware."
+}
