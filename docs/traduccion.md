@@ -224,3 +224,4 @@ episodio. Episodios con notas a 6-nov: 008, 010, 017, 018, 020 y 052.
 | 2026-11-07 | 100 It’s Rare to Have Competing, Viable, Scientific Theories (revisión con el autor) | revision | 6 | 40 | 669 | 3,9 | Revisión con el autor (7-nov): fundida una frase corta. Cero avisos |
 | 2026-11-07 | 101 We’re All Equal in Our Infinite Ignorance (revisión con el autor) | revision | 3 | 17 | 303 | 1,8 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
 | 2026-11-07 | 102 It’s Easy to Extrapolate How Things Will Get Worse (revisión con el autor) | revision | 3 | 15 | 321 | 1,9 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
+| 2026-11-07 | 103 Pessimism Seems Like an Intellectually Serious Position (revisión con el autor) | revision | 2 | 19 | 353 | 2,1 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
