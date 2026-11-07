@@ -4,10 +4,10 @@
   "numero": 51,
   "anio": 2019,
   "slug": "angel-1",
-  "titulo_es": "Cómo invertir como ángel, parte uno",
+  "titulo_es": "Cómo invertir como ángel, parte 1",
   "estado": "revision",
   "youtube": {
-    "titulo": "Cómo invertir como ángel, parte uno",
+    "titulo": "Cómo invertir como ángel, parte 1",
     "descripcion": "",
     "tags": [],
     "url": "",
@@ -28,5 +28,5 @@
     "fecha": null,
     "feedback": ""
   },
-  "notas": "Revisión del 6-nov (GLOSARIO): equity en inglés en b31 (tres frases, antes «capital»); common equity como «acciones ordinarias» en b71 (antes «capital ordinario»); coste marginal de replicación en b30 (antes «reproducción»); Warren Buffett con dos tes en b35 y «lleva mucho tiempo haciendo crecer su capital con el interés compuesto» en lugar de «componiendo capital»; skin in the game como «que se juegue la piel» en b79."
+  "notas": "Revisión del 6-nov (GLOSARIO): equity en inglés en b31 (tres frases, antes «capital»); common equity como «acciones ordinarias» en b71 (antes «capital ordinario»); coste marginal de replicación en b30 (antes «reproducción»); Warren Buffett con dos tes en b35 y «lleva mucho tiempo haciendo crecer su capital con el interés compuesto» en lugar de «componiendo capital»; skin in the game como «que se juegue la piel» en b79.\n\nTÍTULO (7-nov). Regla general del autor para títulos con partes: literal, como en el original (Part 1 = parte 1). Antes decía «parte uno». Solo cambia el título, que no se locuta; las frases no se tocan."
 }
