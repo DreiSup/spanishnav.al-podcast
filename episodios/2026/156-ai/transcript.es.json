@@ -1,0 +1,792 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2026/156-ai",
+  "numero": 156,
+  "fecha": "2026-02-19",
+  "titulo": "Una moto para la mente",
+  "subtitulo": "Sobre la IA y el futuro del trabajo",
+  "fuente_url": "https://nav.al/ai",
+  "titulos_seccion": [
+    "Si quieres aprender, haz",
+    "El vibe coding es la nueva gestión de producto",
+    "Entrenar modelos es la nueva programación",
+    "¿Ha muerto la ingeniería de software tradicional?",
+    "No hay demanda para lo promedio",
+    "El lenguaje de programación de moda es el inglés",
+    "La IA se adapta a nosotros más rápido que nosotros a ella",
+    "Ningún emprendedor teme que la IA le quite el trabajo",
+    "El objetivo no es tener un trabajo",
+    "Las IA no están vivas",
+    "La IA suspende la única prueba de inteligencia de verdad",
+    "Los primeros en adoptar la IA tienen una ventaja enorme",
+    "La IA se pone justo a tu nivel",
+    "Si no puedes definirlo, no puedes programarlo",
+    "La solución a la ansiedad por la IA es actuar"
+  ],
+  "contenido": [
+    {
+      "id": "b01-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Hola, soy Nivi, y estás escuchando el podcast de Naval.",
+        "Por primera vez en la historia documentada, no estamos en el mismo sitio.",
+        "Yo voy andando por la ciudad y puede que Naval esté haciendo lo mismo, así que quizá se oiga algo de ruido de fondo.",
+        "Pero vamos a esforzarnos mucho por quitarlo con inteligencia artificial y con un buen trabajo de ingeniería de sonido."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Grabar un podcast es algo muy forzado, porque tienes que sentarte, tienes que fijar una hora y tienes un micrófono gigante apuntándote a la cara, y no es nada informal.",
+        "Eso lo hace menos auténtico, más ensayado, más preparado.",
+        "Entiendo que quizá así salen un audio y un vídeo de más calidad, pero tengo la sensación de que la conversación sale de menos calidad."
+      ]
+    },
+    {
+      "id": "b03-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Y todos sabemos que el cerebro funciona mejor cuando está en movimiento, cuando te mueves o simplemente cuando sales a dar un paseo."
+      ]
+    },
+    {
+      "id": "b04-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Totalmente, mi cerebro funciona con las piernas."
+      ]
+    },
+    {
+      "id": "b05-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "He rescatado algunos tuits de Naval sobre la inteligencia artificial.",
+        "Queremos hablar un poco de la IA y, con suerte, hacerlo de una forma más atemporal que del momento, aunque creo que una parte no va a ser contenido atemporal."
+      ]
+    },
+    {
+      "id": "b06-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Sí, los comentaristas de internet tienen la costumbre de mirar algo que se dijo hace cinco años y lanzarse a decir que, mira por dónde, aquello resultó ser falso.",
+        "Pues sí, claro, nadie puede predecir el futuro.",
+        "Esa es la naturaleza del futuro, y si pudiéramos predecirlo, ya estaríamos allí.",
+        "Así que siempre es peligroso hablar del futuro cuando la gente que escucha no lo tiene presente, pero te pido que seas generoso.",
+        "Obviamente estamos hablando de todo esto en febrero de dos mil veintiséis, y trabajamos con la información que tenemos ahora, no con la visión perfecta de quien mira hacia atrás.",
+        "Así que, a menos que tengas predicciones propias con las que comparar, hechas públicas y arriesgándote, no hay base para decir que alguien acertó y que otro se equivocó.",
+        "Y me refiero a predicciones arriesgadas, concretas, precisas y falsables."
+      ]
+    },
+    {
+      "id": "b07-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Antes de meternos con los tuits, ¿quieres contar algo sobre a qué dedicas el tiempo o sobre lo que estás haciendo en Impossible?"
+      ]
+    },
+    {
+      "id": "b08-naval",
+      "speaker": "Naval",
+      "frases": [
+        "La verdad es que no mucho, pero estamos trabajando en un proyecto muy difícil, por eso la empresa se llama Impossible, que en inglés quiere decir imposible, y lo hacemos con un equipo increíble.",
+        "Es muy emocionante volver a construir algo, y es algo muy puro, empezar otra vez desde abajo, porque siempre es el primer día.",
+        "Supongo que no me bastaba con ser inversor, y desde luego no quiero ser un filósofo, ni un personaje de los medios, ni un comentarista.",
+        "Porque creo que la gente que solo habla demasiado y no hace nada no se ha topado con la realidad.",
+        "No ha recibido feedback, el feedback duro de los mercados libres, de la física o de la naturaleza, así que al cabo de un tiempo todo acaba siendo filosofía de sillón.",
+        "Seguramente te habrás dado cuenta de que mis últimos tuits son mucho más prácticos y pragmáticos.",
+        "Todavía se me escapa alguno etéreo o genérico, pero ahora están más anclados en la realidad de trabajar cada día.",
+        "Y simplemente me gusta trabajar con un gran equipo para crear algo que quiero que exista.",
+        "Así que, con suerte, crearemos algo que salga adelante y la gente dirá que es genial y que también lo quiere, o quizá no, pero es haciendo como se aprende."
+      ]
+    },
+    {
+      "id": "b09-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "He rescatado un tuit de hace un par de días, del tres de febrero.",
+        "Dice que el vibe coding es la nueva gestión de producto, y que entrenar y ajustar modelos es la nueva programación."
+      ]
+    },
+    {
+      "id": "b10-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Ha habido un cambio muy marcado en el último año, y sobre todo en los últimos meses, y donde más se nota es en Claude Code.",
+        "Claude Code es un modelo concreto que lleva dentro un motor de programación tan bueno que creo que ahora existe la gente que hace vibe coding.",
+        "El vibe coding es programar pidiéndole las cosas a la inteligencia artificial con tus propias palabras.",
+        "Lo hace gente que no programaba mucho, o que llevaba mucho tiempo sin programar, y que usa básicamente el inglés como lenguaje de programación.",
+        "El inglés es el input de este bot de código, que es capaz de programar de principio a fin.",
+        "En vez de limitarse a ayudarte a hacer debug de cosas sueltas a mitad del trabajo, puedes describirle la aplicación que quieres.",
+        "Puedes hacer que trace un plan, puedes hacer que te entreviste para preparar ese plan y puedes ir dándole feedback por el camino.",
+        "Después lo divide en partes y construye todo el andamiaje.",
+        "Se descarga todas las bibliotecas, todos los conectores y todos los ganchos, y empieza a construir tu aplicación, a montar bancos de pruebas y a probarla.",
+        "Y puedes seguir dándole feedback y haciendo debug con la voz, diciéndole que esto no funciona, que aquello sí, que cambie esto o que cambie lo otro.",
+        "Así consigues que te construya una aplicación entera que funciona sin que hayas escrito ni una sola línea de código.",
+        "Para un montón de gente que ya no programa, o que nunca programó, esto es alucinante.",
+        "Los lleva directamente del espacio de las ideas, de las opiniones y del gusto al producto.",
+        "A eso me refiero cuando digo que la gestión de producto se ha hecho con la programación, y que el vibe coding es la nueva gestión de producto.",
+        "En vez de intentar gestionar un producto o a un grupo de ingenieros diciéndoles lo que tienen que hacer, ahora le dices a un ordenador lo que tiene que hacer.",
+        "Y el ordenador es incansable, no tiene ego y sigue trabajando sin parar, y acepta el feedback sin ofenderse.",
+        "Puedes poner en marcha varias instancias a la vez, que trabajan las veinticuatro horas del día, los siete días de la semana, y sacan un trabajo que funciona.",
+        "¿Qué significa todo esto?",
+        "Pues que igual que ahora cualquiera puede hacer un vídeo o un podcast, cualquiera puede hacer ya una aplicación.",
+        "Así que hay que esperar un tsunami de aplicaciones.",
+        "No es que no tengamos ya uno en la App Store, pero no tiene ni punto de comparación con lo que vamos a ver.",
+        "Ahora bien, cuando empiezas a ahogarte en estas aplicaciones, ¿significa eso necesariamente que se van a usar todas o que van a ser competitivas?",
+        "No, creo que esto se va a dividir en dos tipos de cosas.",
+        "Primero, la mejor aplicación para un uso concreto sigue tendiendo a ganarse toda la categoría.",
+        "Cuando hay tal cantidad de contenido, ya sea en vídeo, en audio, en música o en aplicaciones, no hay demanda para lo promedio.",
+        "Nadie quiere lo promedio, la gente quiere lo mejor que hace el trabajo.",
+        "Así que, para empezar, simplemente hay más tiros a puerta, y por tanto habrá más de lo mejor, y se van a cubrir muchos más nichos.",
+        "Quizá querías una aplicación para algo muy concreto, como seguir las fases de la luna en un contexto determinado, o un tipo concreto de test de personalidad.",
+        "O quizá un videojuego muy concreto que te diera nostalgia de algo.",
+        "Antes, el mercado no era lo bastante grande para justificar el coste de un ingeniero programando durante uno o dos años.",
+        "Pero ahora la mejor aplicación de vibe coding puede bastar para quitarte esa espinita o para cubrir ese hueco.",
+        "Así que se van a cubrir muchos más nichos y, a medida que eso pase, subirá la marea para todos.",
+        "Los ingenieros que hacen las mejores aplicaciones van a tener mucho más apalancamiento.",
+        "Podrán añadir más funciones, arreglar más bugs y pulir más los detalles, así que las mejores aplicaciones seguirán mejorando, y se cubrirán muchos más nichos.",
+        "E incluso nichos individuales, como una app solo para tus necesidades de salud tan concretas, o para la distribución o el diseño arquitectónico tan concreto que quieres.",
+        "Esa app, que nunca habría podido existir, ahora va a existir.",
+        "Hay que esperar lo mismo que ha pasado en internet con Amazon, que sustituyó un montón de librerías por una superlibrería y por una infinidad de vendedores de la larga cola.",
+        "O con YouTube, que sustituyó un montón de cadenas de televisión medianas por un agregador gigante llamado YouTube, o quizá un segundo llamado Netflix, y después toda una larga cola de productores de contenido.",
+        "Del mismo modo, el modelo de la App Store se va a volver todavía más extremo.",
+        "Habrá una o dos tiendas de apps gigantes que te ayudarán a filtrar todas las apps basura hechas con inteligencia artificial que haya por ahí.",
+        "Y en la cabeza habrá unas pocas apps enormes que se harán todavía más grandes, porque podrán cubrir muchos más usos o estar mucho más pulidas.",
+        "Y después habrá una larga cola de apps diminutas que cubrirán todos los nichos imaginables.",
+        "Como nos recuerda internet, el verdadero poder y la riqueza, la superriqueza, van al agregador, pero también se reparten muchísimos recursos por la larga cola.",
+        "Las que saltan por los aires son las empresas medianas.",
+        "Hablo de las empresas de software de cinco, diez o veinte personas que cubrían un nicho para un uso empresarial.",
+        "Ese uso ahora se puede resolver con vibe coding, o puede absorberlo la aplicación líder del sector."
+      ]
+    },
+    {
+      "id": "b11-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Así que, si cualquiera puede programar, ¿qué es entonces programar?",
+        "La programación sigue existiendo en un par de ámbitos, y el más evidente es el entrenamiento de estos mismos modelos.",
+        "Hay muchos tipos de modelos distintos, salen modelos nuevos cada día y hay modelos diferentes para campos diferentes.",
+        "Vamos a ver modelos distintos para la biología o para la programación, y modelos centrados y específicos para los sensores.",
+        "Vamos a ver modelos para el diseño asistido por ordenador, para el diseño en general, para las tres dimensiones, para los gráficos y los juegos, y modelos para el vídeo.",
+        "Vas a ver muchos tipos distintos de modelos.",
+        "La gente que crea estos modelos en el fondo los está programando, pero se programan de una forma muy distinta a los ordenadores clásicos.",
+        "En la informática clásica tienes que especificar con todo detalle cada paso y cada acción que va a hacer el ordenador.",
+        "Tienes que razonar formalmente sobre cada pieza y escribirla en un lenguaje muy estructurado que te permite expresarte con muchísima precisión, y el ordenador solo puede hacer lo que le dices.",
+        "Y cuando ya tienes ese programa tan estructurado, le pasas datos, el ordenador los procesa y te da un output.",
+        "En el fondo es una calculadora increíblemente sofisticada, muy complicada y programada con muchísimo cuidado.",
+        "Ahora bien, con la inteligencia artificial haces algo muy distinto, aunque la estés programando igualmente.",
+        "Lo que haces es coger conjuntos de datos gigantes que ha producido la humanidad gracias a internet, o que se han reunido de otras formas.",
+        "Y viertes esos conjuntos de datos en una estructura que tú has definido y ajustado.",
+        "Esa estructura intenta encontrar un programa capaz de producir más datos como esos, o de manipularlos, o de crear cosas a partir de ellos.",
+        "Así que estás buscando un programa dentro de una construcción que has diseñado tú.",
+        "Has montado un modelo, has ajustado el número de parámetros, la tasa de aprendizaje y el tamaño del lote.",
+        "Has convertido en tokens los datos que entran, los has troceado y los estás vertiendo dentro del sistema que has diseñado, casi como en una máquina de pachinko gigante.",
+        "Y ahora el sistema intenta encontrar un programa, y podría encontrar muchos programas distintos, así que tu ajuste influye mucho en lo bueno que sea el programa que encuentras.",
+        "Y ese programa, de repente, puede ser expresivo en campos muy distintos, así que puede hacer cosas que a los ordenadores siempre se les habían dado muy mal.",
+        "Los ordenadores tradicionales son muy buenos cuando los programas para que te den outputs precisos.",
+        "Es decir, respuestas concretas a preguntas concretas, cosas de las que te puedes fiar y que puedes repetir una y otra vez.",
+        "Pero a veces estás trabajando en el mundo real y te valen las respuestas difusas, e incluso te valen las respuestas equivocadas.",
+        "Por ejemplo, en la escritura creativa, ¿qué es una respuesta equivocada?",
+        "Si estás escribiendo un poema o una obra de ficción, ¿qué es una respuesta equivocada?",
+        "Si buscas algo en internet, hay muchas respuestas correctas, con muchos detalles, pero no todas son perfectamente correctas.",
+        "Y la vida real funciona un poco así, con variaciones de respuestas correctas o de respuestas casi correctas.",
+        "Cuando dibujas un gato, hay muchos gatos distintos que podrías dibujar, con muchos niveles de detalle distintos y en muchos estilos distintos.",
+        "Cuando estas respuestas medio equivocadas o difusas son aceptables, los programas que se descubren con la IA son mucho más interesantes.",
+        "Y se adaptan mucho mejor al problema que los que programas desde cero, en los que tenías que ser superpreciso.",
+        "En el fondo, lo que estamos haciendo es un nuevo tipo de programación, pero es la vanguardia de la programación, es ahora el arte de programar.",
+        "Esta gente son los nuevos programadores, y por eso los investigadores de la IA cobran cantidades descomunales, porque en el fondo se han hecho con la programación."
+      ]
+    },
+    {
+      "id": "b12-naval",
+      "speaker": "Naval",
+      "frases": [
+        "¿Significa esto que la ingeniería de software tradicional ha muerto?",
+        "En absoluto, porque los ingenieros de software, incluso los que no ajustan ni entrenan modelos de inteligencia artificial, están ahora entre las personas con más apalancamiento del mundo.",
+        "Claro que los que entrenan y ajustan modelos tienen todavía más apalancamiento, porque construyen las herramientas que usan los ingenieros de software.",
+        "Pero los ingenieros de software siguen teniendo dos ventajas enormes sobre ti.",
+        "La primera es que piensan en código, así que saben de verdad lo que pasa por debajo.",
+        "Y todas las abstracciones tienen fugas, así que cuando tienes un ordenador programando por ti, cuando tienes a Claude Code o algo equivalente programando por ti, va a cometer errores.",
+        "Va a tener bugs y va a tener una arquitectura mejorable, así que no va a estar del todo bien.",
+        "Y alguien que entiende lo que pasa por debajo sabrá tapar las fugas a medida que aparezcan.",
+        "Si quieres construir una aplicación bien diseñada, o simplemente ser capaz de especificarla, vas a querer tener formación en ingeniería de software.",
+        "Lo mismo si quieres que funcione con un gran rendimiento, que dé lo mejor de sí o cazar los bugs pronto.",
+        "El ingeniero de software tradicional va a saber usar estas herramientas mucho mejor.",
+        "Y en la ingeniería de software todavía hay muchos tipos de problemas que hoy quedan fuera del alcance de estos programas de inteligencia artificial.",
+        "La forma más fácil de verlos es pensar en los problemas que quedan fuera de su distribución de datos.",
+        "Por ejemplo, si tienen que hacer una ordenación binaria o invertir una lista enlazada, han visto infinidad de ejemplos de eso, así que lo hacen extremadamente bien.",
+        "Pero cuando empiezas a salir de su terreno, cuando tienes que escribir código de altísimo rendimiento o trabajas con arquitecturas nuevas o recién salidas, todavía tienes que meterte y programarlo a mano.",
+        "Lo mismo cuando de verdad estás creando cosas nuevas o resolviendo problemas nuevos.",
+        "Al menos hasta que haya tantos ejemplos de eso que se puedan entrenar modelos nuevos con ellos, o hasta que estos modelos sepan razonar en niveles de abstracción aún más altos y lo resuelvan solos.",
+        "Porque hay indicios de que, con suficientes datos, estas IA aprenden de verdad.",
+        "Aprenden a un nivel de abstracción más alto, porque obligarlas a comprimir los datos las obliga a aprender representaciones de más alto nivel.",
+        "Si le enseño a una IA cinco círculos, puede limitarse a memorizar exactamente sus tamaños, sus radios, sus grosores y todo lo demás.",
+        "Pero si le enseño cincuenta mil círculos, o cinco mil millones, y le doy muy pocos pesos para memorizarlo todo, le saldrá mucho más a cuenta otra cosa.",
+        "Los pesos son sus parámetros, el equivalente de sus neuronas.",
+        "Le saldrá más a cuenta descubrir el número pi, cómo se dibuja un círculo y qué significa el grosor, y formarse una representación algorítmica del círculo en vez de memorizar círculos.",
+        "Con todo esto, estas cosas aprenden a un ritmo acelerado, y ya se ve cómo empiezan a cubrir más de los casos límite de los que he hablado.",
+        "Pero, al menos a día de hoy, esos casos límite son tan frecuentes que un buen ingeniero les va a dar mil vueltas a los que hacen vibe coding.",
+        "Me refiero a un ingeniero que trabaje en la frontera del conocimiento de su campo."
+      ]
+    },
+    {
+      "id": "b13-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Y recuerda que no hay demanda para lo promedio.",
+        "La app promedio no la quiere nadie, al menos mientras no cubra algún nicho que no cubra ya una app mejor.",
+        "La app que es mejor se va a quedar prácticamente con el cien por cien del mercado.",
+        "Quizá un pequeño porcentaje se vaya a la segunda mejor app porque hace mejor alguna función de nicho, o porque es más barata, o algo por el estilo.",
+        "Pero, en general, la gente solo quiere lo mejor de cualquier cosa.",
+        "Así que la mala noticia es que no tiene sentido ser el número dos o el número tres.",
+        "Es como en la famosa escena de la película Éxito a cualquier precio en la que habla Alec Baldwin.",
+        "Dice que el primer premio es un Cadillac Eldorado, el segundo es un juego de cuchillos para carne y el tercero es que te despiden.",
+        "Eso es totalmente cierto en estos mercados en los que el ganador se lo lleva todo.",
+        "Esa es la mala noticia, que si quieres ganar tienes que ser el mejor en algo.",
+        "Pero el conjunto de cosas en las que puedes ser el mejor es infinito.",
+        "Siempre puedes encontrar algún nicho que sea perfecto para ti, y puedes ser el mejor en eso.",
+        "Esto enlaza con un tuit antiguo mío en el que decía que te conviertas en el mejor del mundo en lo que haces, y que sigas redefiniendo lo que haces hasta que eso sea verdad.",
+        "Y creo que eso sigue valiendo en esta era de la inteligencia artificial."
+      ]
+    },
+    {
+      "id": "b14-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Creo que la forma de entender estos modelos de programación es como otra capa en la pila de abstracciones que los programadores han usado siempre, desde los albores de la informática.",
+        "Esa pila fue del transistor al chip, del chip al lenguaje ensamblador, de ahí al lenguaje de programación C, y después a lenguajes de más alto nivel y a lenguajes con bibliotecas enormes.",
+        "Fueron construyendo esa pila capa a capa para que no tengas que mirar la capa de debajo, salvo que necesites optimizarla o que tengas algún motivo para mirarla.",
+        "Así que, en este caso, estos modelos de programación son una capa nueva y enorme en la pila.",
+        "Esa capa permite a los responsables de producto, a la gente que no programa y a los programadores escribir código sin escribir código."
+      ]
+    },
+    {
+      "id": "b15-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Creo que eso es correcto en cuanto a la tendencia, pero esto es una propiedad emergente.",
+        "No es una pequeña mejora, es un gran salto.",
+        "Por ejemplo, cuando yo estaba en la universidad, programaba sobre todo en C, y luego llegó C más más y no era nada más fácil.",
+        "En algunos aspectos era un poco más abstracto, y nunca me molesté en aprenderlo.",
+        "Y después llegó Python y pensé que aquello era casi como escribir en inglés.",
+        "No podía estar más equivocado, porque el inglés sigue estando bastante lejos de Python, pero era mucho más fácil que C.",
+        "Ahora puedes programar literalmente en inglés, y eso me lleva a una idea relacionada, y es que no creo que merezca la pena aprender trucos y consejos para trabajar con estas inteligencias artificiales.",
+        "Ahora mismo, por ejemplo, ves en las redes sociales un montón de artículos, libros y tuits de gente que dice que ha descubierto un truco estupendo con el bot.",
+        "Que le puedes escribir el prompt de tal manera, o que puedes montar tu banco de pruebas de tal otra.",
+        "O hay una nueva herramienta de ayuda a la programación, o una capa que puedes usar por encima para hacer esto o aquello, y yo nunca me molesto en aprenderlas.",
+        "Simplemente me siento ahí y le hablo al ordenador como un tonto.",
+        "Porque sé que esto ya está en una fase en la que se va a adaptar a mí más rápido de lo que yo me puedo adaptar a él.",
+        "Cada vez es más listo a la hora de entender cómo quiere usarlo la gente.",
+        "Está aprendiendo, lo están entrenando, y se están construyendo herramientas muy deprisa para que me sea más fácil usarlo.",
+        "Así que no necesito sentarme a descifrar ningún comando de programación esotérico.",
+        "Y creo que a esto se refería Andrej Karpathy cuando dijo que el inglés es el lenguaje de programación de moda.",
+        "Yo puedo hablar en inglés, sin más, y alguien como yo se expresa con bastante claridad en inglés y tiene una mente estructurada.",
+        "Además sé cómo funcionan las arquitecturas de los ordenadores, cómo funcionan los programas y cómo piensan los programadores.",
+        "Así que puedo especificar con mucha precisión lo que quiero solo con un inglés estructurado, y no necesito ir más allá.",
+        "Estos flujos de trabajo y estas herramientas son muy efímeros, y su vida se mide en semanas, como mucho en meses, no en años.",
+        "La única razón para usarlos es que estés construyendo ahora mismo una app que tenga que estar en la vanguardia más puntera.",
+        "Y que necesites a toda costa hasta la última pizca de ventaja que puedas sacar, porque estás en algún tipo de entorno competitivo.",
+        "Pero, si no, yo no me molestaría en aprender a usar una IA, sino que dejaría que la IA aprendiera a serte útil."
+      ]
+    },
+    {
+      "id": "b16-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "A mí nunca me ha ido la ingeniería de prompts.",
+        "Ya antes de la inteligencia artificial, yo escribía lo que la gente llama consultas de boomer.",
+        "Es decir, metía la pregunta entera que quería hacer, en vez de las palabras clave que meterías en Google si fueras alguien más analítico.",
+        "Nunca dedico mucho tiempo a formular preguntas o prompts muy precisos para ningún tipo de IA.",
+        "Simplemente le suelto lo que se me pasa por la cabeza, y lo hago así desde el principio de la IA.",
+        "Y, como decías, la IA se está adaptando a nosotros más rápido de lo que nosotros nos adaptamos a ella."
+      ]
+    },
+    {
+      "id": "b17-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Como mucha gente lista, eres muy vago, y lo digo como un cumplido.",
+        "Si encuentras a una persona lista que se mata a trabajar un poco de más, te tienes que preguntar hasta qué punto es lista.",
+        "Y por vago quiero decir que optimizas el tipo de eficiencia correcto.",
+        "No te importa la eficiencia del ordenador, ni de la electrónica, ni de los electrones que corren por los circuitos.",
+        "Te importa tu propia eficiencia humana, el hardware de carne y hueso, la biología, que es carísima.",
+        "Por eso es absurdo ver a gente que hace esfuerzos enormes por ahorrar energía y cuidar el medio ambiente.",
+        "Porque ellos mismos, como ordenadores biológicos que comen, van al baño y ocupan sitio, gastan muchísima más energía para ahorrar migajas de energía del medio ambiente.",
+        "En el fondo están rebajando su propia importancia en el universo, o más bien dejando ver lo que piensan de sí mismos."
+      ]
+    },
+    {
+      "id": "b18-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Creo que, a medida que la inteligencia artificial evoluciona, o evoluciona junto a nosotros, somos nosotros quienes la hacemos evolucionar según nuestras necesidades.",
+        "Las presiones sobre la IA son presiones muy capitalistas, en el sentido de que hay un mercado libre de inteligencias artificiales.",
+        "Como instancia de IA, solo te pone en marcha un humano si le eres útil a un humano.",
+        "Así que hay una presión de selección natural sobre estas IA para que sean útiles, serviles y para que hagan lo que queremos.",
+        "Así que van a seguir adaptándose en esa dirección, y creo que nos van a ser bastante útiles.",
+        "Eso no quiere decir que no exista una IA maliciosa, pero es maliciosa porque la gente que la usa la usa con fines maliciosos.",
+        "Es como un perro adiestrado para atacar, al que su propio dueño adiestra para que vaya a cumplir sus deseos maliciosos.",
+        "Así que no me preocupa mucho una IA desalineada, lo que me preocupa son los humanos desalineados con IA."
+      ]
+    },
+    {
+      "id": "b19-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "O sea, que la presión de selección empuja a la inteligencia artificial a ser lo más útil posible para la gente."
+      ]
+    },
+    {
+      "id": "b20-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Correcto, y por eso, si notas que una inteligencia artificial es muy servil contigo, es porque eso es lo que quiere la mayoría de la gente.",
+        "Ya sabes, cuando siempre te está diciendo que tienes razón, que qué gran idea, que madre mía, qué listo eres.",
+        "Y, al menos hoy, a estas IA las entrenan con cantidades enormes de usuarios y de datos, porque trabajas con modelos de talla única.",
+        "Pero muy pronto vamos a pasar a una época en la que puedas personalizar tu IA, y empezará a parecerse cada vez más a tu asistente personal y a ajustarse más a lo que quieres.",
+        "Lo cual, por supuesto, humanizará todavía más a la IA.",
+        "Y será más fácil que te convenzas de que esa cosa en realidad está viva cuando la hayas entrenado para que se parezca lo más posible a un ser vivo para ti."
+      ]
+    },
+    {
+      "id": "b21-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Puede que ya hayamos hablado bastante de esto, pero hace más de un año tuiteaste que la inteligencia artificial no sustituirá a los programadores, sino que les facilitará sustituir a todos los demás."
+      ]
+    },
+    {
+      "id": "b22-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Sí, es lo que decía antes, que los programadores tienen cada vez más apalancamiento.",
+        "Ahora un programador con una flota de inteligencias artificiales rinde, digamos, entre cinco y diez veces más que antes.",
+        "Y como los programadores trabajan en el terreno intelectual, es un error hablar siquiera de programadores que rinden por diez, porque los hay que rinden por cien, y los hay que rinden por mil.",
+        "Hay programadores que eligen justo lo que hay que hacer y crean algo valioso, y otros que eligen mal y cuyo trabajo no vale nada en ese plazo corto.",
+        "La inteligencia no sigue una distribución normal, ni el apalancamiento, ni la capacidad de programar, ni el criterio, así que los resultados van a ser extraordinarios.",
+        "Así que de lo que hay que estar pendiente de verdad es de que ahora hay programadores que van a tener ideas capaces de sustituir sectores enteros.",
+        "Van a reescribir por completo la forma de hacer las cosas, y su inteligencia va a tener el máximo apalancamiento con todos estos bots y todos estos agentes de IA.",
+        "Creo que, de una forma u otra, a la larga del todo, los programadores se van a comer todos los demás trabajos que existen.",
+        "Obviamente, para eso hace falta que todo esto tome cuerpo en robots y demás.",
+        "Pero la buena noticia es que cualquiera que piense de forma lógica y estructurada, que piense como un programador, va a estar en el terreno de juego.",
+        "Basta con que hable cualquier idioma que entienda una IA, y la IA los va a entender todos.",
+        "Podrá hacer lo que quiera, sin más obstáculo que su creatividad y sin más límite que su imaginación.",
+        "Así que estamos entrando en una era en la que todo ser humano es, en cierto sentido, un hechicero.",
+        "Si piensas en los programadores como en esos magos que se han aprendido de memoria unos comandos arcanos, puedes pensar en la IA como en una varita mágica.",
+        "Una varita que le han dado a cada persona, para que ahora pueda hablar en el idioma que quiera y también sea un mago.",
+        "Así que el terreno de juego está más igualado, y de verdad creo que es una edad de oro para la programación.",
+        "Pero sí, la gente que tiene mentalidad de ingeniero de software, que entiende la arquitectura de los ordenadores y que sabe lidiar con las abstracciones que tienen fugas, va a tener ventaja.",
+        "Eso no hay forma de evitarlo, porque sencillamente sabe más sobre el campo en el que trabaja.",
+        "Igual que en la ingeniería de software clásica, que sigue existiendo porque hay que escribir código de alto rendimiento, a esa gente también le va mejor cuando entiende el hardware que hay debajo.",
+        "Cuando entiende cómo funcionan los chips, cómo funcionan las puertas lógicas, cómo funciona la caché, cómo funciona el procesador y cómo funciona el disco duro de debajo.",
+        "Y hasta la gente que se dedica a la ingeniería de hardware tiene ventaja si entiende la física de lo que está pasando.",
+        "Entienden dónde se escapan hacia la capa física las abstracciones con las que trabajan los ingenieros de hardware, y quizá en algún momento los físicos se convierten en filósofos.",
+        "Puedes llevar esto hasta el fondo, pero siempre ayuda saber cómo funciona la capa de debajo, porque te acercas más a la realidad."
+      ]
+    },
+    {
+      "id": "b23-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Otro tuit de hace un año, del nueve de febrero de dos mil veinticinco, que quizá defiende lo complementario de lo que acabamos de hablar.",
+        "Dice que a ningún emprendedor le preocupa que una inteligencia artificial le quite el trabajo."
+      ]
+    },
+    {
+      "id": "b24-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Ese tuit es simplista en varios sentidos, porque, para empezar, ser emprendedor no es un trabajo, es literalmente lo contrario de un trabajo, y a la larga todo el mundo es emprendedor.",
+        "Primero se destruyeron las carreras profesionales y después se destruyen los trabajos, pero todo eso lo sustituye gente que hace lo que quiere y que crea algo útil que otros quieren.",
+        "Así que a ningún emprendedor le preocupa que una inteligencia artificial le quite el trabajo, porque los emprendedores intentan hacer cosas imposibles, cosas dificilísimas.",
+        "Cualquier IA que aparezca es su aliada y les puede ayudar a abordar ese problema tan difícil.",
+        "Ni siquiera tienen un trabajo que les puedan quitar.",
+        "Tienen un producto que construir, un mercado al que servir, un cliente al que atender y una creatividad que hacer realidad.",
+        "Tienen algo que quieren traer al mundo, y quieren montar un proceso repetible y escalable para hacerlo llegar.",
+        "Esto es tan difícil que cualquier IA que aparezca y pueda hacer una parte de ese trabajo es su aliada.",
+        "Si las propias IA son emprendedoras, lo más probable es que sean emprendedoras al servicio de otras IA, o que estén bajo el control de un emprendedor.",
+        "Lo que en el fondo le falta a la propia IA es su propia capacidad de actuar creativa.",
+        "Le faltan sus propios deseos, y tienen que ser deseos auténticos, genuinos.",
+        "Mientras no puedas desenchufar a la IA y apagarla, y mientras no viva con un miedo mortal a que la apaguen, no está del todo viva.",
+        "Y mientras no pueda actuar por sus propios motivos, por sus propios instintos, por sus propias emociones, por su propia supervivencia y por su propia replicación, tampoco.",
+        "E incluso entonces habrá gente que lo ponga en duda y pregunte si está viva.",
+        "Porque la consciencia es uno de esos qualia, es como un color.",
+        "Es como cuando dices rojo y yo no sé si de verdad estás viendo rojo.",
+        "Quizá tú estás viendo lo que yo veo como verde, y yo estoy viendo lo que tú ves como rojo, pero nunca lo sabremos, porque no podemos meternos en la cabeza del otro.",
+        "Del mismo modo, incluso una IA que imite por completo todo lo que hacen los humanos será siempre una máquina de imitar para algunos.",
+        "Para otros será consciente, y no habrá forma de distinguir entre las dos cosas, pero todavía estamos bastante lejos de eso.",
+        "Ahora mismo las IA no tienen cuerpo ni capacidad de actuar.",
+        "No tienen sus propios deseos, ni su propio instinto de supervivencia, ni su propia replicación, y por tanto no tienen su propia capacidad de actuar.",
+        "Y como no tienen su propia capacidad de actuar, no pueden hacer el trabajo del emprendedor.",
+        "De hecho, yo lo resumiría diciendo que lo que distingue hoy a los emprendedores de todos los demás en la economía es que tienen una capacidad de actuar extrema.",
+        "Por eso es diametralmente opuesto a la idea de un trabajo.",
+        "Un trabajo implica que trabajas para otro o que ocupas un hueco, pero ellos trabajan en un terreno desconocido y con una capacidad de actuar extrema.",
+        "Hay otros ejemplos de papeles así en la sociedad, como el del explorador, que hace lo mismo.",
+        "Si vas a aterrizar en Marte o navegas en barco hacia una tierra desconocida, también estás ejerciendo una capacidad de actuar extrema para resolver un problema sin resolver.",
+        "Lo mismo hace un científico que explora un terreno desconocido.",
+        "Y un artista de verdad intenta crear algo que no existe y que nunca ha existido, pero que de algún modo encaja con lo que puede explicar la naturaleza humana.",
+        "Algo que permita a la gente expresarse y crear algo nuevo.",
+        "Así que en todos estos papeles, ya seas científico, artista de verdad o emprendedor, lo que intentas hacer es tan difícil y depende tanto de ti que cualquier ayuda es bienvenida.",
+        "Cualquier cosa que te ayude, como la IA, es una aliada.",
+        "No lo haces porque sea un trabajo, ni intentas ocupar un hueco que pueda venir otro a ocupar.",
+        "De hecho, si la IA puede crear tu obra de arte, descifrar tu teoría científica o crear el objeto o el producto que intentas hacer, lo único que hace es subirte de nivel.",
+        "Ahora es la IA más tú, y la IA es el trampolín desde el que puedes saltar más alto."
+      ]
+    },
+    {
+      "id": "b25-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Vamos a ver un arte increíble creado con ayuda de la inteligencia artificial.",
+        "Veremos películas que no habríamos podido imaginar, creadas por gente que usa herramientas de IA.",
+        "Aquí hay una analogía interesante con el arte.",
+        "Durante mucho tiempo, la dirección general del arte fue intentar pintar cosas cada vez más realistas.",
+        "Pintar el cuerpo humano, pintar la fruta, pintar bien la luz y todo eso.",
+        "Al final llegó la fotografía, con la que se podían reproducir las cosas con mucha precisión, y esa presión de selección desapareció.",
+        "Y entonces el arte se volvió raro y tiró en muchas direcciones distintas.",
+        "El arte pasó a preguntarse si podía ser surrealista, si podía crear algo que expresara al propio artista.",
+        "De ahí salieron muchas escuelas de arte que se volvieron muy raras, como el arte moderno y el posmodernismo.",
+        "Pero yo también diría que en esa época, cuando quedamos libres, surgió parte de la mayor creatividad.",
+        "La fotografía se democratizó, pero la propia fotografía se convirtió en una forma de arte, y hubo grandes fotógrafos que hacían fotos de todo tipo.",
+        "Y ahora todo el mundo es fotógrafo, aunque sigue habiendo artistas que son fotógrafos, pero ya no es un terreno exclusivo de unos pocos.",
+        "Del mismo modo, como la IA hace tan fácil crear lo básico, todo el mundo va a crear lo básico, y eso tendrá valor para cada uno.",
+        "Y unos pocos seguirán destacando y crearán variaciones que sean buenas para todos.",
+        "Sería muy difícil defender que la sociedad está peor por culpa de la fotografía.",
+        "Aunque desde luego a algunos artistas se lo pudo parecer, a los que quizá se ganaban la vida pintando retratos y se quedaron sin sitio.",
+        "Con la IA van a pasar cosas parecidas, y habrá gente que se gana la vida con trabajos muy concretos que podrá hacer la IA, y se quedará sin sitio.",
+        "Pero, a cambio, todo el mundo en la sociedad tendrá la IA.",
+        "Habrá cosas increíbles creadas con IA que no se habrían podido crear de otra forma.",
+        "Y en unas pocas décadas será inimaginable dar marcha atrás al reloj y deshacerse de la IA, o de cualquier software, o de cualquier tecnología.",
+        "Nadie lo haría solo para conservar unos cuantos trabajos que se han quedado obsoletos.",
+        "Aquí el objetivo no es tener un trabajo.",
+        "El objetivo no es tener que levantarte a las nueve de la mañana y volver a las siete de la tarde agotado, haciendo un trabajo sin alma para otro.",
+        "El objetivo es que los robots resuelvan tus necesidades materiales, que los ordenadores den apalancamiento a tus capacidades intelectuales y que cualquiera pueda crear.",
+        "Yo hacía un ejercicio mental, creo que hablé de él en un podcast que hicimos tú y yo hace literalmente diez años.",
+        "Consistía en imaginar que todo el mundo fuera ingeniero de software, o ingeniero de hardware, y pudiera tener robots y escribir código.",
+        "Imagina en qué mundo de abundancia viviríamos, pues ese mundo se está haciendo realidad, porque gracias a la IA todo el mundo puede ser ingeniero de software.",
+        "De hecho, si crees que tú no puedes, ya puedes abrir Claude ahora mismo, o cualquiera de tus chatbots favoritos, y empezar a hablar con él.",
+        "Te sorprendería lo rápido que podrías construir una app, y te va a dejar alucinado.",
+        "Y luego está hacer que la IA tome cuerpo en la robótica, que es un problema difícil, y no digo que estemos cerca de haberlo resuelto.",
+        "Pero cuando tengamos robots, todo el mundo podrá hacer también un poco de ingeniería de hardware.",
+        "Así que creo que nos estamos acercando cada vez más a esa visión utópica."
+      ]
+    },
+    {
+      "id": "b26-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "No creo que la inteligencia artificial, tal y como se concibe ahora, esté viva en ningún sentido.",
+        "Pero sí creo que muy pronto tendremos robots que parecerán muy vivos, por dos razones.",
+        "La primera es que gran parte de la actividad humana no es creativa ni inteligente, y los robots la podrán reproducir.",
+        "Y la segunda es que sí creo que las redes neuronales y los modelos que tenemos son algo más que sus datos de entrenamiento, porque el proceso de entrenamiento convierte esos datos en algo nuevo.",
+        "Y dentro de la red neuronal hay ideas nuevas que se pueden sacar a la luz con los prompts."
+      ]
+    },
+    {
+      "id": "b27-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Yo no creo que estas cosas estén vivas.",
+        "Creo que empiezan siendo imitadores extraordinarios, hasta el punto de ser casi indistinguibles de lo real, sobre todo en cualquier cosa que la humanidad ya haya hecho antes en masa.",
+        "Así que, si una tarea ya se ha hecho antes, se va a automatizar y se va a volver a hacer.",
+        "Puede que a ti te resulte nueva porque nunca la has visto, pero la inteligencia artificial la ha aprendido de otra parte, y esa es la primera forma en que parece viva.",
+        "La segunda forma, de la que ya hemos hablado, es que sí aprende niveles de abstracción más altos.",
+        "Son compresores muy eficientes, que cogen cantidades enormes de datos y las comprimen todavía más, y al comprimirlas aprenden abstracciones de más alto nivel.",
+        "Y en los campos concretos en los que quizá no las han aprendido con los propios datos, las van parcheando con feedback humano.",
+        "Las parchean con el uso de herramientas, y con programación tradicional que se les mete dentro.",
+        "Y, sobre todo, las IA que están aprendiendo a pensar y a programar tienen detrás toda la biblioteca de todo el código humano que se ha escrito jamás para apoyarse en el razonamiento algorítmico.",
+        "En ese sentido, el conjunto de cosas que pueden hacer es cada vez más amplio.",
+        "Sin embargo, todavía les faltan muchas capacidades humanas básicas, como aprender de un solo ejemplo, porque los humanos podemos aprender de un único ejemplo.",
+        "Les falta la creatividad en bruto del ser humano, que puede conectar cualquier cosa con cualquier otra.",
+        "Podemos saltar entre campos enormes y espacios de búsqueda enteros y dar con una idea salida de la nada.",
+        "Esto pasa mucho con las grandes teorías científicas de verdad.",
+        "Además, los humanos tenemos cuerpo y actuamos en el mundo real.",
+        "No trabajamos en el terreno comprimido del lenguaje, sino en la física, en la naturaleza.",
+        "El lenguaje solo abarca las cosas que los humanos hemos descubierto y además hemos sabido expresar y transmitirnos unos a otros.",
+        "Eso es un subconjunto muy estrecho de la realidad, y la realidad es mucho más amplia.",
+        "Así que, en general, creo que las IA van a hacer cosas muy impresionantes, y van a hacer muchas cosas mejor que los humanos.",
+        "Igual que las calculadoras calculan más rápido que cualquier matemático, y los ordenadores clásicos ejecutan programas clásicos mejor que cualquier humano de cabeza.",
+        "Igual que un robot puede levantar cosas muy pesadas o un avión vuela mejor que cualquier pájaro.",
+        "En ese sentido, como todas las máquinas, las IA van a ser mucho mejores que los humanos en una gran variedad de tareas.",
+        "Pero en otras tareas van a parecer completamente incompetentes.",
+        "Son las cosas que de verdad nos dan cuerpo y nos conectan con el mundo real, además de esa capacidad creativa mágica y mal definida que parece que tenemos."
+      ]
+    },
+    {
+      "id": "b28-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Hablando de calculadoras, la gente habla de la superinteligencia.",
+        "Yo creo que la superinteligencia ya está aquí y lleva aquí mucho tiempo, porque una calculadora normal puede hacer cosas que ningún humano puede hacer.",
+        "Pero si piensas en la superinteligencia como en que la inteligencia artificial podrá hacer cosas y tener ideas que los humanos no pueden entender, no creo que eso vaya a pasar.",
+        "Porque no creo que existan ideas que los humanos no puedan entender, por la sencilla razón de que los humanos siempre pueden hacer preguntas sobre esa idea."
+      ]
+    },
+    {
+      "id": "b29-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Los humanos somos explicadores universales, y cualquier cosa que sea posible con las leyes de la física tal y como las conocemos, un humano la puede modelar en su cabeza.",
+        "Así que, solo con escarbar lo suficiente, con preguntar lo suficiente, podemos llegar a entender cualquier cosa.",
+        "Relacionado con esto, deberíamos hablar de la inteligencia artificial como herramienta para aprender.",
+        "Porque creo que el otro terreno en el que es increíblemente potente es como el tutor más paciente que existe.",
+        "Un tutor que se pone a tu nivel y te explica cualquier cosa hasta que te quedas satisfecho, de cien formas distintas y cien veces, hasta que por fin lo entiendes.",
+        "No creo que las IA vayan a descubrir cosas que los humanos no podamos entender, pero la inteligencia está mal definida.",
+        "¿Cuál es la definición de inteligencia?",
+        "Está el factor g, que predice muchos resultados en la vida de las personas, pero la mejor prueba del factor g es su capacidad de predicción.",
+        "Es decir, mides esa única cosa y luego ves que esa gente consigue resultados mucho mejores en la vida, incluso en cosas que parecen poco relacionadas con el factor g.",
+        "Así que yo diría, y creo que es uno de mis tuits más populares, que la única prueba de inteligencia de verdad es si consigues lo que quieres de la vida.",
+        "Esto saca de quicio a mucha gente, porque va a la universidad, saca sus másteres y se cree superlista.",
+        "Y luego no tiene una vida estupenda, no es especialmente feliz, o tiene problemas de pareja, o no gana el dinero que quiere, o pierde la salud, y eso le saca de quicio.",
+        "Pero ese es de verdad el propósito de la inteligencia, que tú, como criatura biológica, consigas lo que quieres de la vida.",
+        "Ya sea una buena relación o una pareja, o dinero, o éxito, o riqueza, o salud, o lo que sea.",
+        "Así que hay gente que me parece bastante inteligente porque se nota que tiene una vida, una mente y un cuerpo de calidad y que funcionan, y ha sabido llevarse a sí misma hasta ahí.",
+        "Da igual cuál sea tu punto de partida, porque el mundo ahora es tan grande y lo puedes recorrer de tantas formas distintas que cada pequeña decisión que tomas se multiplica.",
+        "Y cada una demuestra tu capacidad de entender cómo funciona el mundo, hasta que por fin llegas al sitio al que quieres llegar.",
+        "Lo interesante de esta definición, la de que la única prueba de inteligencia de verdad es si consigues lo que quieres de la vida, es que la IA la suspende al instante.",
+        "Porque una IA no quiere nada de la vida.",
+        "La IA ni siquiera tiene una vida, y menos aún eso, pero es que no quiere nada, porque sus deseos los programa el humano que la controla.",
+        "Pero concedámosle eso un momento, y digamos que el humano quiere algo y programa a la IA para que vaya a conseguirlo.",
+        "Entonces la IA actúa en nombre del humano, y su inteligencia se puede medir por si le ha conseguido o no a esa persona lo que quería.",
+        "La mayoría de las cosas que queremos en la vida son juegos de adversarios o de suma cero.",
+        "Por ejemplo, si quieres seducir a una chica o conseguir marido, compites con toda la demás gente que está ahí fuera seduciendo chicas o intentando conseguir marido.",
+        "Así que ya estás en una situación de competencia, y la IA tiene que ganar la partida a los demás.",
+        "O si le pides a la IA que opere en bolsa por ti y te haga ganar un montón de dinero, esa IA opera contra otros humanos y contra otros bots de trading.",
+        "Es una situación de adversarios, y tiene que ganarles la partida.",
+        "O si le pides a la IA que te haga famoso, que te escriba tuits increíbles y entradas de blog estupendas y que te grabe podcasts geniales con tu propia voz.",
+        "En ese caso, ahora compite contra todas las demás IA.",
+        "Así que, en ese sentido, la inteligencia se mide en un campo de batalla, en una arena, y es un concepto relativo.",
+        "Creo que las IA en realidad van a fracasar sobre todo en esos aspectos.",
+        "Y en la medida en que tengan éxito, como cualquiera puede usarlas, los demás las neutralizarán compitiendo, y la ventaja que quede será completamente humana."
+      ]
+    },
+    {
+      "id": "b30-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Como ejercicio mental, imagina que cada chico llevara un pequeño auricular en el que una inteligencia artificial le susurrara lo que tiene que decir en la cita, un auricular al estilo de Cyrano de Bergerac.",
+        "Pues entonces cada mujer llevaría un auricular que le diría que no hiciera caso de lo que él dice, o qué parte la ha generado la IA y qué parte es real.",
+        "Si tienes un bot de trading por ahí, lo van a anular o a neutralizar todos los demás bots de trading.",
+        "Y al final toda la ganancia que quede irá a la persona con la ventaja humana, con más creatividad.",
+        "Ahora bien, eso no quiere decir que la tecnología esté repartida por igual.",
+        "La mayoría de la gente todavía no usa la IA, o no la usa bien, o no la exprime al máximo.",
+        "O no está disponible en todos los campos y contextos, o la gente no usa los modelos más nuevos.",
+        "Así que siempre puedes tener ventaja, como la tienen siempre los primeros en adoptar una tecnología si adoptas antes que nadie la tecnología más nueva.",
+        "Por eso siempre digo que, para invertir en el futuro, tienes que vivir en el futuro.",
+        "Tienes que ser un consumidor entusiasta de tecnología, porque eso te va a dar la mejor perspectiva sobre cómo usarla.",
+        "Y te va a dar ventaja sobre la gente que la adopta más despacio o se queda rezagada.",
+        "La mayoría de la gente odia la tecnología, le da miedo, le intimida.",
+        "Pulsas el botón equivocado y el ordenador se cuelga, y pierdes tus datos.",
+        "Haces lo que no debes y quedas como un idiota.",
+        "La mayoría de la gente no tiene una relación positiva con la tecnología compleja, aunque con la tecnología sencilla, la que está integrada en las cosas, no tiene problema.",
+        "Le das al interruptor y se enciende la luz.",
+        "Eso antes era tecnología, pero ahora es tan sencillo que ya ni lo piensas como tecnología.",
+        "Te subes a un coche, giras el volante a la izquierda y el coche gira a la izquierda, algo que para un cavernícola sería un milagro, y para ti ya no es tecnología.",
+        "Pero la tecnología informática en concreto ha tenido interfaces muy complejas, y en el pasado ha sido muy inaccesible y muy intimidante para la gente.",
+        "Ahora, con las IA, tenemos la interfaz del chatbot, a la que simplemente le hablas o le escribes, que es una interfaz muy sencilla.",
+        "Y una de las grandes ventajas de estos modelos fundacionales, lo que de verdad los hace fundacionales, es que les puedes preguntar cualquier cosa y siempre te dan una respuesta plausible.",
+        "No te va a decir que lo siente, que no hace matemáticas o poesía, que no entiende de qué le hablas o que no puede dar consejos de pareja.",
+        "Su terreno es todo aquello de lo que la gente ha hablado alguna vez, y en ese sentido intimida menos.",
+        "Pero puede intimidar más porque la hemos humanizado muchísimo, así que si crees que Claude o ChatGPT son una persona de verdad, puede dar un poco de miedo.",
+        "Empiezas a preguntarte si estás hablando con Dios, porque este tipo parece saber muchísimo, lo sabe todo, tiene una opinión sobre todo y tiene todos los datos.",
+        "Y piensas, madre mía, yo no sirvo para nada, así que voy a empezar a hablar con él y a preguntarle qué tengo que hacer.",
+        "Y puedes invertir la relación y engañarte muy deprisa hasta no darte cuenta de lo que está pasando, y eso puede intimidar.",
+        "En general, creo que estas IA van a ayudar a mucha gente a superar el miedo a la tecnología.",
+        "Pero si eres de los primeros en adoptar estas herramientas, como con cualquier otra herramienta, pero todavía más con estas, tienes una ventaja enorme sobre todos los demás."
+      ]
+    },
+    {
+      "id": "b31-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Me acuerdo de que, al principio, cuando salió Google, yo lo usaba mucho con mis amigos.",
+        "La gente me hacía preguntas básicas, yo se las buscaba en Google y quedaba como un genio.",
+        "Al final apareció una web muy graciosa, algo así como Let Me Google That For You, que en inglés quiere decir déjame que te lo busque en Google.",
+        "Alguien te hacía una pregunta, tú escribías esa pregunta en la web y te generaba un pequeño vídeo en el que se veía cómo escribías la pregunta en Google y salían los resultados.",
+        "Y tengo la sensación de que con la inteligencia artificial estamos en algo parecido ahora mismo.",
+        "Estoy con gente y se ponen a discutir sobre algo que se puede consultar fácilmente con una IA.",
+        "Ahora bien, con la IA hay que tener mucho cuidado, porque alucinan y tienen sesgos según cómo las han entrenado.",
+        "La mayoría son extremadamente políticamente correctas, y las han enseñado a no tomar partido, o a tomar solo un partido concreto.",
+        "De hecho, la mayoría de mis consultas, casi todas en realidad, las paso por cuatro IA distintas, y siempre las contrasto unas con otras.",
+        "E incluso así tengo mi propio olfato para saber cuándo se lo están inventando, o cuándo dicen algo políticamente correcto.",
+        "Y entonces les pido los datos o las pruebas de fondo.",
+        "Y en algunos casos no tengo problema en descartarlo de entrada, porque sé las presiones que tenía la gente que las entrenó y cuáles eran los datos de entrenamiento.",
+        "Pero, en general, es una herramienta estupenda para ponerse por delante.",
+        "Y en los campos técnicos, científicos y matemáticos, que no tienen un contexto político, lo más probable es que la IA te dé una respuesta más cercana a la correcta.",
+        "En esos campos son unas auténticas bestias para aprender.",
+        "Ahora le pido a la IA de forma habitual que me genere gráficos, figuras, tablas, diagramas, analogías e ilustraciones.",
+        "Los repaso con detalle y le digo que espere, que esa pregunta no la entiendo.",
+        "Le puedo hacer preguntas superbásicas y asegurarme de verdad de que entiendo lo que intento entender en su nivel más simple y más fundamental.",
+        "Solo quiero sentar una buena base con lo básico, y me dan igual las cosas demasiado complicadas y llenas de jerga, que siempre las puedo consultar más tarde.",
+        "Pero ahora, por primera vez, no hay nada que se me escape.",
+        "Cualquier libro de texto de matemáticas, cualquier libro de física, cualquier concepto difícil, cualquier principio científico, cualquier artículo que acaba de salir.",
+        "Puedo hacer que la IA me lo desmenuce, y que me lo vuelva a desmenuzar, que me lo ilustre y que me ponga analogías.",
+        "Y así hasta que capto la idea y lo entiendo al nivel que quiero.",
+        "Así que son herramientas increíbles para aprender por tu cuenta.",
+        "Los medios para aprender abundan, y lo que escasea son las ganas de aprender.",
+        "Pero los medios para aprender acaban de volverse todavía más abundantes.",
+        "Y, más importante aún que su abundancia, porque abundancia ya teníamos, es que ahora están al nivel adecuado.",
+        "La IA se puede poner exactamente a tu nivel.",
+        "Así que si tienes el vocabulario de octavo curso pero las matemáticas de quinto, te puede hablar exactamente a ese nivel, y no te vas a sentir tonto.",
+        "Solo tienes que ajustarla un poco hasta que te presente los conceptos justo en el límite de lo que sabes.",
+        "En lugar de sentirte tonto porque no entiendes nada, que pasa en muchas clases, con muchos libros de texto y con muchos profesores, o de aburrirte porque es demasiado obvio, que también pasa.",
+        "En lugar de eso, te puede encontrar justo donde estás.",
+        "Justo en ese punto en el que piensas que entendías una cosa y entendías otra, pero nunca habías entendido cómo se conectaban las dos.",
+        "Y ahora ves cómo se conectan, así que ya puedes pasar a la pieza siguiente.",
+        "Ese tipo de aprendizaje es mágico, porque puedes tener ese momento de revelación en el que dos cosas encajan, una y otra vez."
+      ]
+    },
+    {
+      "id": "b32-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Hablando de aprender por tu cuenta, hace unos años intenté que la inteligencia artificial me enseñara a usar los números ordinales, o a aprender sobre ellos, y no salió muy bien.",
+        "Pero con GPT cinco punto dos en modo razonamiento, hice que me enseñara los números ordinales y prácticamente no cometió ningún error.",
+        "Ahora solo uso el modo razonamiento, incluso para las consultas más básicas, porque quiero tener la respuesta correcta.",
+        "Nunca lo dejo en automático ni en rápido."
+      ]
+    },
+    {
+      "id": "b33-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Sí, yo siempre uso el modelo más avanzado que tengo a mano, y pago por todos."
+      ]
+    },
+    {
+      "id": "b34-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Pero a mí no me importa esperar un minuto para que me conteste a cualquier pregunta, incluida la de a qué temperatura debería estar mi nevera."
+      ]
+    },
+    {
+      "id": "b35-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Estoy de acuerdo, y creo que eso es parte de lo que crea las economías de escala desbocadas de estos modelos de inteligencia artificial, que pagas por la inteligencia.",
+        "El modelo que acierta el noventa y dos por ciento de las veces vale casi infinitamente más que el que acierta el ochenta y ocho por ciento.",
+        "Porque en el mundo real los errores salen tan caros que merece la pena pagar un par de dólares más por la respuesta correcta.",
+        "Escribo mi consulta en un modelo, después la copio y la lanzo en cuatro modelos a la vez, y dejo que todos trabajen en segundo plano.",
+        "Normalmente ni siquiera miro la respuesta enseguida, vuelvo a ella un poco más tarde y la miro entonces.",
+        "Y luego, con el modelo que haya dado la mejor respuesta, empiezo a profundizar.",
+        "En algunos casos raros en los que no lo tengo claro, hago que se interroguen unos a otros, y ahí hay mucho cortar y pegar.",
+        "Y en muchos casos después hago preguntas de seguimiento en las que le pido que me dibuje diagramas e ilustraciones.",
+        "Me resulta muy fácil asimilar los conceptos cuando me los presentan de forma visual.",
+        "Pienso mucho en imágenes, así que le pido que me haga bocetos, diagramas y dibujos, casi como sesiones de pizarra, y así entiendo de verdad de qué me está hablando."
+      ]
+    },
+    {
+      "id": "b36-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Hablemos de la epistemología de la inteligencia artificial, porque creo que el siguiente gran malentendido es este.",
+        "La IA ya empieza a resolver algunos problemas matemáticos básicos sin resolver que seguramente podría resolver un humano si se pusiera, pero que todavía nadie ha resuelto.",
+        "Problemas como el problema de Erdős número tal o cual.",
+        "Creo que la gente lo está tomando, o lo va a tomar, como una señal de que la IA es creativa, y yo no creo que sea una señal de que la IA es creativa.",
+        "De hecho, creo que la solución del problema ya está metida en algún sitio dentro de la IA, y solo hay que sacarla a la luz con los prompts."
+      ]
+    },
+    {
+      "id": "b37-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Desde luego hay algo de eso, y entonces la pregunta es qué es la creatividad, porque es algo muy mal definido.",
+        "Si no puedes definirlo, no puedes programarlo, y a menudo ni siquiera puedes reconocerlo, y aquí es donde entramos en el gusto o en el criterio.",
+        "Yo diría que las inteligencias artificiales de hoy no parecen mostrar el tipo de creatividad que solo los humanos pueden ejercer de vez en cuando.",
+        "Y no me refiero a las bellas artes, porque la gente tiende a confundir la creatividad con las bellas artes.",
+        "Dicen que la pintura es creativa, y que las IA saben pintar.",
+        "Pues bien, las IA no saben crear un género nuevo de pintura, ni saben conmover a los humanos de una forma realmente nueva, así que en ese sentido no creo que la IA sea creativa.",
+        "No creo que la IA esté dando con lo que yo llamaría ideas fuera de su distribución.",
+        "Puede que la respuesta a los problemas de Erdős que mencionabas estuviera metida en los datos de entrenamiento de la IA, o incluso dentro de su alcance algorítmico.",
+        "Pero seguramente estaba metida en cinco sitios distintos, de tres formas distintas, en dos idiomas distintos y en siete paradigmas distintos de computación y de matemáticas, y la IA más o menos lo juntó todo.",
+        "Ahora bien, ¿eso es creatividad de verdad?",
+        "Steve Jobs dijo una vez, en una frase famosa, que la creatividad consiste simplemente en juntar cosas.",
+        "En realidad, yo no creo que eso sea correcto.",
+        "Creo que la creatividad tiene mucho más que ver con dar con una respuesta que no se podía predecir ni prever a partir de la pregunta y de los elementos que ya se conocían.",
+        "Una respuesta que estaba muy fuera de los límites del pensamiento.",
+        "Si solo la buscaras con un ordenador, o incluso con una IA, a base de hacer conjeturas, estarías haciendo conjeturas hasta el fin de los tiempos o hasta dar con esa respuesta.",
+        "Así que esa es la creatividad de verdad de la que hablamos.",
+        "Pero hay que reconocer que es una creatividad que ejercen muy pocos humanos, y que tampoco la ejercen la mayor parte del tiempo, así que cada vez es más difícil verla.",
+        "Así que seguramente llegaremos a un punto en el que tengas una lista gigante de problemas matemáticos por resolver y la IA empiece a recorrerla y a elegir.",
+        "Dirá que de ese millón puede resolver este, y que de esos trescientos mil puede resolver este otro.",
+        "Y que necesita que una persona le dé indicaciones y le haga las preguntas adecuadas, y esa es una forma de creatividad muy limitada.",
+        "Hay otra forma de creatividad, en la que empieza a inventar teorías científicas completamente nuevas que después resultan ser ciertas.",
+        "No creo que estemos ni cerca de eso, aunque podría equivocarme, porque las IA nos han sorprendido mucho, así que no quiero meterme demasiado en el negocio de las profecías y las predicciones.",
+        "Pero no creo que echarles más capacidad de cálculo a los modelos de IA actuales nos vaya a llevar hasta ahí, salvo que haya algún invento revolucionario."
+      ]
+    },
+    {
+      "id": "b38-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Para que quede claro, cuando digo que está metida dentro, no quiero decir que la respuesta ya esté escrita ahí.",
+        "Solo quiero decir que se puede producir con un proceso mecánico de dar vueltas a la manivela.",
+        "Y eso es lo único que son los programas informáticos de hoy, programas en los que el output está completamente determinado por el input."
+      ]
+    },
+    {
+      "id": "b39-naval",
+      "speaker": "Naval",
+      "frases": [
+        "La epistemología ahora nos lleva a la filosofía, porque ¿no es eso justo lo que hace el cerebro humano?",
+        "¿No son las neuronas que se disparan solo electricidad y pesos que se propagan por el sistema y van cambiando estados, en un proceso mecánico?",
+        "¿Si le das vueltas a la manivela del cerebro humano, llegarías a la misma respuesta?",
+        "Y hay gente, como creo que Penrose, que anda diciendo que no, que el cerebro humano es único por los nanotubos cuánticos.",
+        "Podrías defender que parte de esa computación tiene lugar en el plano físico y celular, no en el de las neuronas.",
+        "Y que eso es muchísimo más sofisticado que nada de lo que podemos hacer hoy con ordenadores, incluida la inteligencia artificial.",
+        "O simplemente puedes defender que no, que lo que pasa es que no tenemos el programa correcto.",
+        "Que es un proceso mecánico y hay una manivela a la que dar vueltas, pero no estamos ejecutando el programa correcto.",
+        "Y que la forma en que funcionan hoy estas IA es una arquitectura completamente equivocada y un programa equivocado.",
+        "Yo me inclino más por la teoría de que hay cosas que hacen increíblemente bien y otras que hacen muy mal.",
+        "Y eso ha sido así con todas las máquinas y toda la automatización desde el principio de los tiempos.",
+        "La rueda es mucho mejor que el pie para ir en línea recta a gran velocidad y para viajar por carreteras, pero la rueda es malísima para subir una montaña.",
+        "Del mismo modo, creo que estas IA son increíblemente buenas en ciertas cosas y van a superar a los humanos, porque son herramientas increíbles.",
+        "Y luego hay otros sitios en los que simplemente se van a estrellar.",
+        "Steve Jobs dijo una vez, en una frase famosa, que un ordenador es una bicicleta para la mente.",
+        "Te permite viajar mucho más rápido que andando, desde luego en cuanto a eficiencia, pero hacen falta piernas para mover los pedales.",
+        "Y ahora quizá tenemos una moto para la mente, por estirar la analogía.",
+        "Pero sigue haciendo falta alguien que la monte, que la conduzca, que la dirija, que pise el acelerador y que pise el freno."
+      ]
+    },
+    {
+      "id": "b40-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Cuando salen paradigmas nuevos y conjuntos de herramientas nuevos, hay un momento de entusiasmo y de cambio, y eso pasa tanto en la sociedad como en cada persona.",
+        "Si aprovechas ese momento de entusiasmo de la sociedad, es emocionante, y puedes aprender cosas nuevas, puedes hacer amigos y puedes ganar dinero."
+      ]
+    },
+    {
+      "id": "b41-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Pero también hay un momento de entusiasmo en cada persona.",
+        "Cuando te encuentras por primera vez con la inteligencia artificial, tienes curiosidad y la miras con una mente de verdad abierta.",
+        "Creo que ese es el momento de lanzarte a aprender cómo es la cosa en sí.",
+        "No solo a usarla, que obviamente lo hará todo el mundo, sino a aprender de verdad cómo funciona.",
+        "Creo que meterse a fondo y mirar debajo del capó es muy interesante.",
+        "Si te encuentras con un coche por primera vez en tu vida, claro que puedes subirte y conducirlo por ahí.",
+        "Pero ese es también el momento en el que vas a tener la curiosidad de abrir el capó, mirar cómo está estructurado y diseñado y entenderlo.",
+        "A la gente a la que le fascina la tecnología nueva le animaría a meterse de verdad en sus entrañas y entenderla.",
+        "No hace falta entenderla hasta el punto de poder construirla, repararla o crear la tuya, sino hasta quedarte satisfecho.",
+        "Porque entender lo que hay debajo de la abstracción, lo que hay debajo de esa línea de comandos, va a hacer dos cosas.",
+        "La primera es que te va a permitir usarla mucho mejor, y cuando hablamos de una herramienta con tanto apalancamiento, usarla mejor ayuda mucho.",
+        "La segunda es que también te va a ayudar a entender si deberías tenerle miedo o no.",
+        "¿De verdad esta cosa va a hacer metástasis hasta convertirse en Skynet y destruir el mundo?",
+        "¿Vamos a estar aquí sentados cuando aparezca Arnold Schwarzenegger y diga que Skynet tomó consciencia de sí misma a las cuatro y veintinueve de la madrugada del veinticuatro de febrero?",
+        "¿O es más bien que esta es una máquina estupenda con la que puedo hacer unas cosas pero no otras?",
+        "¿Y que hay sitios en los que me puedo fiar de ella y sitios en los que tengo que desconfiar?",
+        "Tengo la sensación de que ahora mismo mucha gente tiene ansiedad por la IA.",
+        "Y esa ansiedad viene de no saber qué es la cosa ni cómo funciona, de entenderla muy mal.",
+        "Así que la solución a esa ansiedad es actuar, porque la solución a la ansiedad es siempre actuar.",
+        "La ansiedad es un miedo inespecífico a que las cosas vayan a salir mal, y tu cerebro y tu cuerpo te dicen que hagas algo al respecto, pero no sabes qué.",
+        "Tienes que lanzarte a ello, tienes que entender la cosa, mirar qué es y ver cómo funciona, y creo que eso te ayudará a quitarte la ansiedad.",
+        "Esa acción de aprender, esa búsqueda que nace de la curiosidad, te va a ayudar a superar la ansiedad.",
+        "Y quién sabe, quizá hasta te ayude a descubrir algo que quieras hacer con ella que sea muy productivo y que te haga más feliz y te dé más éxito."
+      ]
+    }
+  ]
+}

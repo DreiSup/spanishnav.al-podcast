@@ -2,7 +2,13 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**150** episodios · **2** publicados · **10** escuchados por el autor (**1** para revisar) · **0** sin empezar
+**151** episodios · **2** publicados · **10** escuchados por el autor (**1** para revisar) · **0** sin empezar
+
+## 2026
+
+| # | Episodio | Título en español | Estado | Escuchado | Drive | YouTube |
+|---|---|---|---|---|---|---|
+| 156 | [156-ai](episodios/2026/156-ai) | Una moto para la mente | 🟠 en revisión | — | — | — |
 
 ## 2025
 

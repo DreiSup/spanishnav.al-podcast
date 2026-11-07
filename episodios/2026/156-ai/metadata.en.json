@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 156,
+  "anio": 2026,
+  "slug": "ai",
+  "titulo": "A Motorcycle for the Mind",
+  "subtitulo": "On AI and the future of work",
+  "fecha_publicacion": "2026-02-19",
+  "fuente_url": "https://nav.al/ai",
+  "orden_archivo": 160,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-07"
+}

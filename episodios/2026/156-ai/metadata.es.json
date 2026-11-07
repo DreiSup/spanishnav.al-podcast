@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 156,
+  "anio": 2026,
+  "slug": "ai",
+  "titulo_es": "Una moto para la mente",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Una moto para la mente",
+    "descripcion": "",
+    "tags": [],
+    "url": "",
+    "url_original": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "publicacion": {
+    "fecha": "",
+    "audio_url": "",
+    "audio_bytes": 0,
+    "duracion_s": 0,
+    "feed_guid": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "escucha": {
+    "escuchado": false,
+    "resultado": null,
+    "fecha": null,
+    "feedback": ""
+  },
+  "notas": "Inglés sacado del Google Doc «2026 all podcasts» de Drive; cuadra palabra a palabra con el documento (del «Get podcast» a «Related», sin enlaces). Solo hablan Naval y Nivi. Sin notas del editor. Decisiones del autor del 6 y 7-nov aplicadas (GLOSARIO, Naval y Nivi 2025 y 2026): AI mixta, la inteligencia artificial en la primera mención de cada bloque y luego la IA, una IA, las IA; vibe coding en inglés, glosado en b10, donde Naval lo explica (en b09 lo lee Nivi en el tuit); prompt, ingeniería de prompts, feedback, debug, bug en inglés; agency = capacidad de actuar (b24, siete veces); unaligned = IA desalineada y humanos desalineados con IA (b18); There is no demand for average = no hay demanda para lo promedio (título de sección, b10 y b13); programadores que rinden por diez, por cien y por mil (b22); bullshitting = se lo están inventando (b31); pooping = van al baño (b17); taste = gusto, judgment = criterio (b37); Impossible en inglés con su glosa, que en inglés quiere decir imposible (b08); Glengarry Glen Ross como la película Éxito a cualquier precio con la frase del 069 (b13); el tuit de redefinir lo que haces, como en el corpus. Otras decisiones: wetware = el hardware de carne y hueso (b17); Boomer queries = consultas de boomer (b16); scaffolding = andamiaje, libraries = bibliotecas, test harness y harness = banco de pruebas; edge cases = casos límite; out of distribution = fuera de su distribución; all abstractions are leaky = todas las abstracciones tienen fugas; foundational models = modelos fundacionales (b30, por la explicación de Naval); GPT 5.2 Thinking = GPT cinco punto dos en modo razonamiento, y los modos auto y fast como automático y rápido (b32); C++ = C más más; LMGTFY con su nombre y su explicación (b31); single-shot learning = aprender de un solo ejemplo (b27); compute = capacidad de cálculo (b37); Skynet con la hora que dice Naval (b41); citas y tuits en estilo indirecto, sin comillas. Lapsus de Naval que no se corrigen (el inglés no se toca): binary sort por binary search, traducido como ordenación binaria (b12); la cita de Terminator dice cuatro y veintinueve del veinticuatro de febrero y la real es dos y catorce del veintinueve de agosto (b41); quantum nanotubes por microtúbulos, traducido como nanotubos cuánticos (b39); la frase de Jobs, que Naval cita como putting things together (b37). El párrafo «Related to that, we should discuss AI as a learning tool…» va en el turno de Naval (b29) como en el Doc, aunque suena a Nivi. Grabado andando: hay ruido ambiente en el original (b01). Ratios por bloque entre 0,85 y 1,45. Escuchar en el TTS: la IA, las IA, vibe coding, prompt, prompts, feedback, debug, bug, bot, bots de trading, tokens, Claude, Claude Code, ChatGPT, GPT cinco punto dos, Impossible, App Store, Amazon, YouTube, Netflix, Google, Let Me Google That For You, Andrej Karpathy, Python, C más más, Cadillac Eldorado, Alec Baldwin, Cyrano de Bergerac, Erdős, Penrose, Steve Jobs, Skynet, Arnold Schwarzenegger, pachinko, qualia, factor g, boomer, software, hardware, startup."
+}
