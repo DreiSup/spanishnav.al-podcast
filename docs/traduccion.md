@@ -221,3 +221,4 @@ episodio. Episodios con notas a 6-nov: 008, 010, 017, 018, 020 y 052.
 | 2026-11-07 | 097 Theories Are Explanations, Not Predictions (revisión con el autor) | revision | 3 | 24 | 413 | 2,4 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
 | 2026-11-07 | 098 Make Bold Guesses and Weed Out the Failures (revisión con el autor) | revision | 3 | 24 | 387 | 2,3 | Revisión con el autor (7-nov): testable = contrastable (1 frase). Cero avisos |
 | 2026-11-07 | 099 Science Advances One Funeral at a Time (revisión con el autor) | revision | 3 | 12 | 219 | 1,3 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
+| 2026-11-07 | 100 It’s Rare to Have Competing, Viable, Scientific Theories (revisión con el autor) | revision | 6 | 40 | 669 | 3,9 | Revisión con el autor (7-nov): fundida una frase corta. Cero avisos |
