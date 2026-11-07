@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**155** episodios · **3** publicados · **10** escuchados por el autor (**1** para revisar) · **0** sin empezar
+**156** episodios · **3** publicados · **10** escuchados por el autor (**1** para revisar) · **0** sin empezar
 
 ## 2026
 
@@ -39,6 +39,7 @@
 | # | Episodio | Título en español | Estado | Escuchado | Drive | YouTube |
 |---|---|---|---|---|---|---|
 | 135 | [135-deutsch-files-i](episodios/2024/135-deutsch-files-i) | Documentos Deutsch I | 🟠 en revisión | — | — | — |
+| 136 | [136-deutsch-files-ii](episodios/2024/136-deutsch-files-ii) | Documentos Deutsch II | 🟠 en revisión | — | — | — |
 
 ## 2023
 
