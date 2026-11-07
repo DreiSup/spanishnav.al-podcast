@@ -244,3 +244,4 @@ episodio. Episodios con notas a 6-nov: 008, 010, 017, 018, 020 y 052.
 | 2026-11-07 | 120 Ideas Are the New Oil (revisión con el autor) | revision | 1 | 29 | 553 | 3,3 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
 | 2026-11-07 | 121 One Einstein Is Worth A Legion Of PhD Drones (revisión con el autor) | revision | 2 | 14 | 250 | 1,5 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
 | 2026-11-07 | 122 Don’t Rely on Credibility Stamps (revisión con el autor) | revision | 3 | 22 | 370 | 2,2 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
+| 2026-11-07 | 123 Innovation Requires Decentralization and a Frontier (revisión con el autor) | revision | 1 | 35 | 648 | 3,8 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
