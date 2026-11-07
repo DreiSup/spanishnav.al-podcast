@@ -249,3 +249,4 @@ episodio. Episodios con notas a 6-nov: 008, 010, 017, 018, 020 y 052.
 | 2026-11-07 | 125 Free Markets Provide the Best Feedback (revisión con el autor) | revision | 2 | 30 | 556 | 3,3 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
 | 2026-11-07 | 126 Making Something Social Destroys the Truth of It (revisión con el autor) | revision | 1 | 27 | 490 | 2,9 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
 | 2026-11-07 | 127 Groups Never Admit Failure (revisión con el autor) | revision | 1 | 27 | 442 | 2,6 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
+| 2026-11-07 | 128 Knowledge Makes the Existence of Resources Infinite (revisión con el autor) | revision | 2 | 26 | 535 | 3,1 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
