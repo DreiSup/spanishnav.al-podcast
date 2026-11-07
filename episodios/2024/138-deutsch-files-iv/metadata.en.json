@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 138,
+  "anio": 2024,
+  "slug": "deutsch-files-iv",
+  "titulo": "The Deutsch Files IV",
+  "subtitulo": "",
+  "fecha_publicacion": "2024-10-11",
+  "fuente_url": "https://nav.al/deutsch-files-iv",
+  "orden_archivo": 142,
+  "en_feed": true,
+  "participantes": [
+    "Brett Hall",
+    "David Deutsch",
+    "Naval"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-07"
+}

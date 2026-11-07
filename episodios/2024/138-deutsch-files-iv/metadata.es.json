@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 138,
+  "anio": 2024,
+  "slug": "deutsch-files-iv",
+  "titulo_es": "Documentos Deutsch IV",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Documentos Deutsch IV",
+    "descripcion": "",
+    "tags": [],
+    "url": "",
+    "url_original": "https://www.youtube.com/watch?v=WUEUozkGXes"
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "publicacion": {
+    "fecha": "",
+    "audio_url": "",
+    "audio_bytes": 0,
+    "duracion_s": 0,
+    "feed_guid": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "escucha": {
+    "escuchado": false,
+    "resultado": null,
+    "fecha": null,
+    "feedback": ""
+  },
+  "notas": "Inglés sacado del Google Doc anual de Drive (2024 all podcasts) el 7-nov, por trabajo/manual/deutsch-files-iv.txt y extraer-episodios.py. Hablantes unificados como David Deutsch y Brett Hall. El catálogo lo daba sin transcript; el Doc lo trae completo. En el Doc, una línea sin puntuación final (Life itself being a convergent property of certain initial conditions. In the) parecía un título de sección; es la continuación de Naval en b60, que Deutsch interrumpe. Va en su intervención, sin el In the cortado. NOTA DEL EDITOR DE NAV.AL, no se locuta: Brett Hall y yo entrevistamos a David Deutsch, físico y autor de El comienzo del infinito. Ver también Documentos Deutsch I, II y III. Corchete del editor en b115, [Frederick], a notas_editor; la frase dice solo Douglass. Traducido y revisado frase a frase el 7-nov con los términos de la serie. Cero avisos del normalizador. Ratio 1,01; fuera de rango solo intervenciones cortas (b36, b68, b70, b114, b127, b134), completas. CONTENIDO POLÍTICO traducido fiel, sin suavizar, como el 158 (decisión del autor del 7-nov): lo woke, el islam y la radicalización, Israel y el gran muftí, el muro rojo, la legislación laborista, la inmigración. ERRATAS Y CORTES DEL INGLÉS, por el sentido: b42, or wht = o lo que sea; b72, mimetic evolution = evolución memética; b82, the genes, or the means = los genes, o los memes; b41, el pasaje de Chiara en el b29 (uh, what about, so that can't be right) va en indirecto; b54, Because the alternative perspective is, cortada, se completa con dice otra cosa; b29, construct theory = la teoría de constructores. VOSOTROS RESUELTO: b115, if you meet Steven Spielberg, tell him va en singular; b34, Naval habla a Deutsch y a Chiara, se dice hay en lugar de tenéis. CIFRAS Y CURSOS en letra: trescientos mil años, hace dos mil millones de años, mil novecientos cuarenta y cinco, entre mil ochocientos ochenta y mil novecientos cincuenta, quinto y sexto curso, la página once, siete más cinco, cinco por cinco son veinticinco, el treinta por ciento, unos seis mil judíos, una mayoría de cien y pico. Flops = operaciones por segundo; IQ = se les atribuye poca inteligencia, dicho como poco inteligentes. TÉRMINOS NUEVOS, PROPUESTOS: Middle World (Dawkins) = el Mundo Medio; perpetual motion machine of the first kind = móvil perpetuo de primera especie; universal constructor = constructor universal; mRNA vaccine = vacuna de ARN mensajero; elevator pitch = discurso de ascensor; Wigner's friend = el amigo de Wigner; shibboleths = señas de pertenencia; the blob = el aparato; Red Wall = el muro rojo; grammar schools = escuelas de gramática; madrasas = madrazas; Home Office = Ministerio del Interior; from the river to the sea = desde el río hasta el mar; price gouging = precios abusivos; wokeism = lo woke. Nombres que hay que escuchar: Richard Dawkins, Feynman, Chiara, Clarendon, Wheeler, DeWitt, Julian Barbour, Page, Wootters, Sam, Maria, Hugh Everett, Wigner, Stern, Gerlach, Roger Penrose, Charlie Bennett, Kepler, Matt Ridley, Ayaan Hirsi Ali, Moloch, Stalin, Médici, Elon Musk, Attlee, OTAN, Napoleón, Steven Spielberg, Frederick Douglass, Douglas Murray, Dark Emu, Bruce Pascoe, Osama bin Laden, travelingisrael, el gran muftí, Albania, David Starkey, Boris Johnson."
+}
