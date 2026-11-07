@@ -241,3 +241,4 @@ episodio. Episodios con notas a 6-nov: 008, 010, 017, 018, 020 y 052.
 | 2026-11-07 | 117 If You Can’t Program It, You Haven’t Understood It (revisión con el autor) | revision | 1 | 6 | 123 | 0,7 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
 | 2026-11-07 | 118 Aliens Might Just Be Too Far Away (revisión con el autor) | revision | 2 | 22 | 467 | 2,7 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
 | 2026-11-07 | 119 Aliens Would Visit for Knowledge, Not Resources (revisión con el autor) | revision | 2 | 26 | 475 | 2,8 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
+| 2026-11-07 | 120 Ideas Are the New Oil (revisión con el autor) | revision | 1 | 29 | 553 | 3,3 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
