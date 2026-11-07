@@ -307,15 +307,15 @@ van a la lista de escucha del episodio antes de dar el audio por bueno.
 
 | Original | En el texto | Nota |
 |---|---|---|
-| blockchain / blockchains | **blockchain**, femenino: la blockchain, las blockchains | Decisión del autor (7-nov). Sustituye a «cadena de bloques». Las referencias cortas que ya decían «la cadena» se mantienen, para no repetir blockchain en cada frase. smart contract blockchain = blockchain de smart contracts. Escuchar |
-| smart contract(s) | **smart contract**, masculino: el smart contract, los smart contracts | Decisión del autor (7-nov). Sustituye a «contrato inteligente» también en 070, 127 y 130. *Contract* solo (el objeto que define Vitalik) = contrato. Escuchar |
-| proof-of-work / proof-of-stake | **proof of work** / **proof of stake**, sin guiones; masculino si lleva artículo | Decisión del autor (7-nov). Sustituye a «prueba de trabajo» y «prueba de participación» en la serie. El uso figurado del 029 y el 052 («tener prueba de trabajo») está pendiente del autor. Escuchar |
+| blockchain / blockchains | **blockchain**, femenino (género confirmado por el autor, 7-nov): la blockchain, las blockchains | Decisión del autor (7-nov). Sustituye a «cadena de bloques». Las referencias cortas que ya decían «la cadena» se mantienen, para no repetir blockchain en cada frase. smart contract blockchain = blockchain de smart contracts. Escuchar |
+| smart contract(s) | **smart contract**, masculino (confirmado): el smart contract, los smart contracts | Decisión del autor (7-nov). Sustituye a «contrato inteligente» también en 070, 127 y 130. *Contract* solo (el objeto que define Vitalik) = contrato. Escuchar |
+| proof-of-work / proof-of-stake | **proof of work** / **proof of stake**, sin guiones; masculino si lleva artículo (confirmado) | Decisión del autor (7-nov). Sustituye a «prueba de trabajo» y «prueba de participación» en la serie. Excepción, por decisión del autor (7-nov): en el 029 y el 052 Naval lo usa en sentido figurado («tener prueba de trabajo») y se queda en español. Escuchar |
 | staking / stakers / staking pools | staking / quienes hacen staking / **grupos de staking** | Sin «pools». Escuchar staking |
 | sharding | fragmentación; unsharded = sin fragmentar |  |
 | roll-ups | rollups | Escuchar; fonética de reserva rólaps |
 | Layer 1 / Layer 2 | capa uno / capa dos; Layer 2s = las soluciones de capa dos |  |
 | Eth | Ethereum (la red) / ether (el activo) | Si ether suena a éter: la moneda de Ethereum |
-| wallet(s) | **wallet**, femenino: la wallet, las wallets | Decisión del autor (7-nov). Sustituye a «monedero». multisig wallet = wallet multifirma; social recovery wallet = wallet de recuperación social. Escuchar |
+| wallet(s) | **wallet**, femenino (confirmado): la wallet, las wallets | Decisión del autor (7-nov). Sustituye a «monedero». multisig wallet = wallet multifirma; social recovery wallet = wallet de recuperación social. Escuchar |
 | fork / hard fork / the DAO fork | bifurcar / bifurcación dura / la bifurcación de la DAO |  |
 | hack / hacked / hacker | **hackeo / hackear / hacker**, en todos los sentidos | Decisión del autor (7-nov). Sustituye a ataque y atacante cuando el inglés dice hack. *Attacker* y *attack* siguen siendo atacante y ataque. young hacker = joven hacker |
 | run a node | **ejecutar un nodo** | Decisión del autor (7-nov). Sustituye a «tener un nodo» |
@@ -327,7 +327,7 @@ van a la lista de escucha del episodio antes de dar el audio por bueno.
 | enshrined | consagrar |  |
 | store of value | depósito de valor | No reserva de valor, que choca con moneda de reserva |
 | free-rider effect | efecto polizón |  |
-| altcoin / stable coins | **altcoin**, femenino / **stablecoins** | Decisión del autor (7-nov). Sustituye a «moneda alternativa» y «monedas estables». Escuchar |
+| altcoin / stable coins | **altcoin**, femenino (confirmado) / **stablecoins** | Decisión del autor (7-nov). Sustituye a «moneda alternativa» y «monedas estables». Escuchar |
 | AMM / DeFi / VPN | creador de mercado automatizado / finanzas descentralizadas / redes privadas virtuales | Siglas resueltas en la frase |
 | digital rock | la roca digital | Imagen de Vitalik |
 | encrypt / encryption / encrypted | **encriptar / encriptación / encriptado** | Decisión del autor (7-nov). Sustituye a «cifrar» y «cifrado», también en 071. encryption-decryption key = clave de encriptación y desencriptación |
@@ -344,7 +344,7 @@ van a la lista de escucha del episodio antes de dar el audio por bueno.
 | stake in the ground | fijar una postura |  |
 | slings and arrows / open season / watershed moment | recibir palos por todas partes / barra libre / punto de inflexión |  |
 | white knights | supuestos salvadores autoproclamados |  |
-| navel gazing (juego Naval/navel, 132 b45) | **se recupera** el juego en la frase | Decisión del autor (7-nov): «ni porque nos estemos mirando el ombligo, y eso que mi nombre en inglés suena a ombligo» |
+| navel gazing (juego Naval/navel, 132 b45) | mirarse el ombligo; el juego se pierde | Decisión del autor (7-nov): se descarta recuperar la broma |
 | my Bitcoin trip | **mi gira por el mundo de Bitcoin**, y después mi gira | Decisión del autor (7-nov). Sustituye a «mi viaje de Bitcoin» |
 | single-handedly | por sí sola |  |
 | mean (be mean) | desagradable; meanness = dureza |  |
