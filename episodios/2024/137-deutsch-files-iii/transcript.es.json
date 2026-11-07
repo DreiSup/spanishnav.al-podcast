@@ -1,0 +1,785 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2024/137-deutsch-files-iii",
+  "numero": 137,
+  "fecha": "2024-02-17",
+  "titulo": "Documentos Deutsch III",
+  "subtitulo": "",
+  "fuente_url": "https://nav.al/deutsch-files-iii",
+  "titulos_seccion": [
+    "Demostrar algo sobre la inteligencia artificial general es imposible por naturaleza",
+    "La creatividad no consiste solo en mezclar cosas",
+    "La superioridad del conocimiento explicativo",
+    "La información cargada de conocimiento es más resistente que cualquier objeto físico",
+    "Los problemas de clonar personas",
+    "Objeciones a tomarse en serio a los niños",
+    "Haz lo que te guste es un mal consejo",
+    "La creatividad frente a la naturaleza",
+    "Las conjeturas fantasiosas de Deutsch",
+    "Tenemos que renunciar a la idea de una explicación definitiva"
+  ],
+  "contenido": [
+    {
+      "id": "b01-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Justo sobre eso, por mucho que resumamos lo que creo que es una obra muy clara, la de La estructura de la realidad y El comienzo del infinito, pasa lo mismo.",
+        "Cuando se la explicas a la gente, como dice Popper, es imposible hablar de manera que nadie pueda malinterpretarte.",
+        "Hoy mismo estaba leyendo en Twitter a alguien que afirmaba que tú habías dicho, y te citaba entre comillas, que Popper demuestra que la inteligencia artificial no puede ser superinteligente.",
+        "Y yo le respondí más o menos que tú nunca hablas en esos términos.",
+        "Le dije que, para empezar, no te apoyarías en la autoridad de Popper, y que no hablarías de demostración.",
+        "Así que es un ejemplo más de que sales ahí fuera y, como tú dices, en esos círculos concéntricos de gente que vas atrayendo a tu visión del mundo, las ideas equivocadas se multiplican.",
+        "No sé qué piensas de eso. ¿Has dicho algo parecido a que Popper demuestra eso?",
+        "Y, por cierto, quien lo decía era un periodista, creo que un periodista bastante respetado."
+      ]
+    },
+    {
+      "id": "b02-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "No, claro que no. Como dices, en cuanto ves que alguien afirma haber demostrado algo, la pregunta es a partir de qué lo ha demostrado.",
+        "Eso no va a ser Popper, ni voy a ser yo.",
+        "Yo he demostrado que, si la teoría cuántica es verdad, la conjetura de Turing es verdad en la física, y eso es lo que se puede hacer con una demostración.",
+        "Demostrar algo sobre la inteligencia artificial general es imposible por naturaleza si no tenemos una teoría de la inteligencia artificial general.",
+        "No puedes demostrar nada sobre algo que no puedes definir.",
+        "Y, de todos modos, en este tipo de cosas no se trata de demostraciones, sino de argumentos.",
+        "Y no recuerdo que Popper dijera nada en concreto sobre la inteligencia artificial, porque en aquella época no era un tema."
+      ]
+    },
+    {
+      "id": "b03-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Esta palabra, demostración, es algo de lo que no hemos hablado en nuestras conversaciones, pero se oye muy a menudo.",
+        "Se dice que tal cosa está demostrada, como si eso contrastara con nuestra idea del conocimiento conjetural o de la falibilidad.",
+        "Al fin y al cabo, una vez que algo está demostrado, ¿no podemos grabarlo en piedra y que se quede ahí para siempre?",
+        "¿Está la noción de demostración en otro nivel que el resto de nuestro conocimiento conjetural? Porque creo que a la persona de a pie le suena como si lo estuviera."
+      ]
+    },
+    {
+      "id": "b04-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Sí, bueno, pues no lo está. Como he dicho muchas veces, la diferencia entre las matemáticas y otros campos no está en la forma en que obtenemos conocimiento sobre ellos.",
+        "La diferencia está en su objeto de estudio, en aquello que estudian.",
+        "El objeto de estudio de las matemáticas es la verdad necesaria, así que, cuando hacemos un descubrimiento en matemáticas, estamos haciendo una conjetura sobre qué es una verdad necesaria.",
+        "Estamos conjeturando que tal o cual cosa que hemos definido es una verdad necesaria.",
+        "Pero no hay ninguna diferencia en la forma en que creamos en nuestra mente conocimiento sobre las matemáticas, la informática, la psicología o la física, porque epistemológicamente son todas iguales."
+      ]
+    },
+    {
+      "id": "b05-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Hay un tema en el que me gustaría entrar un poco, si puedo cambiar de tercio un momento, y es el de la creatividad.",
+        "Y sé que está muy mal definido, y que es algo que no acabamos de entender.",
+        "Ayer, en Airchat, estaba hablando con gente y comenté que, mientras haya sitio para la creatividad, hay sitio para el libre albedrío.",
+        "Porque no sabemos de dónde viene la creatividad, y eso te da esa libertad de acción basada en tus teorías creativas.",
+        "Defendía que la verdadera creatividad no viene de la observación, ni de la inducción, ni de algún algoritmo que ya sepamos ejecutar, y que no consiste solo en mezclar cosas.",
+        "Y enseguida alguien me respondió pidiéndome ejemplos de esa creatividad de la que hablaba.",
+        "Así que creo que a la gente le parece que, cuando hablamos de esta forma de creatividad, hablamos solo de la creatividad científica, como la de Einstein.",
+        "Y creo que algunos de los ejemplos que usamos son tan extremos que la gente piensa que no hablamos de creatividad, sino de descubrimientos científicos, y no es de eso de lo que hablamos.",
+        "Así que parece que la mayoría de la gente cae automáticamente en la trampa de pensar que la creatividad es observación o recombinación.",
+        "Y me pregunto si podemos explorar qué es la creatividad, con algunos ejemplos del mundo real más cercanos.",
+        "Me encantaría enterrar de una vez por todas esa idea de que es recombinación.",
+        "Creo que tú has demostrado muy bien que no es observación, pero la metáfora de la recombinación vuelve una y otra vez.",
+        "Francamente, es por autoridades como Steve Jobs, que dijo con toda autoridad que la creatividad no es más que mezclar cosas, y es una frase que encuentras en pósteres por todas partes."
+      ]
+    },
+    {
+      "id": "b06-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Sí, bueno, ahí lo único falso es lo de no es más que.",
+        "Como decía ayer, es como decir que los humanos no son más que átomos.",
+        "Solo somos átomos en el sentido de que no hay ninguna cosa mágica, aparte de los átomos, que nos forme, pero eso no quiere decir que no seamos más que átomos.",
+        "Si haces una instantánea de Norteamérica hace mil años y luego otra hoy, verás cómo ha cambiado el aspecto de la isla de Manhattan.",
+        "Y esa diferencia entre entonces y ahora no se puede explicar sin recurrir a la creatividad.",
+        "Nada más que la creatividad podría haber producido eso, porque no hay ningún proceso natural que vaya a producir jamás algo como un rascacielos.",
+        "Así que, para explicar los fenómenos que ocurren en la isla de Manhattan, hay que recurrir a la creatividad.",
+        "Pero entonces alguien me dirá que le señale dónde está esa creatividad.",
+        "Puedo fijarme en un arquitecto concreto, con su tablero de dibujo a la antigua, su papel, su regla, su compás y su cerebro, y puedo examinarlos con un microscopio.",
+        "Y alguien me preguntará en qué momento se produjo la creatividad.",
+        "Me preguntará qué hubo de creativo en lo que hizo ese arquitecto que no fueran simples átomos y, si quieres, juntar ideas que ya habían existido antes.",
+        "Bueno, si todas nuestras ideas no son más que recombinaciones de ideas anteriores, en el rascacielos no hay nada nuevo que no estuviera ya ahí cuando nuestros antepasados golpeaban piedras unas contra otras.",
+        "Pero sí lo hay, porque ellos no construían rascacielos ni podían construirlos, y nosotros podemos y lo hacemos.",
+        "Bueno, al menos yo no puedo, pero la especie humana sí."
+      ]
+    },
+    {
+      "id": "b07-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Los del otro lado te dirán que, sí, que no puedes pasar directamente de golpear piedras a los rascacielos.",
+        "Pero que pasaron de golpear piedras a descubrir cómo dar forma a las piedras para hacer herramientas, y luego recombinaron ese conocimiento de hacer herramientas, de cavar y todo lo demás.",
+        "Fue una recombinación paso a paso, casi como un proceso evolutivo."
+      ]
+    },
+    {
+      "id": "b08-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Bueno, un proceso evolutivo tampoco es solo recombinación, sino variación y selección, así que, de nuevo, es lo mismo.",
+        "Si miras el ADN de las sucesivas generaciones de dinosaurios que se convirtieron en aves, ninguno de esos pasos es evolutivo por sí solo, y sin embargo la secuencia entera sí lo es.",
+        "Pero sería absurdo decir que el diseño de un pterodáctilo ya estaba en el ADN de los dinosaurios que no volaban.",
+        "O que el pterodáctilo no es más que una combinación de distintas cosas que ya estaban en los dinosaurios, porque sencillamente no es verdad.",
+        "La funcionalidad del pterodáctilo no estaba en ninguna parte hasta que evolucionó.",
+        "No estaba en ningún sitio del pasado, ni en los dinosaurios ni en los organismos unicelulares que fueron los antepasados de los dinosaurios.",
+        "Sencillamente no estaba, y fue algo nuevo cuando la capacidad de volar evolucionó en el linaje de los dinosaurios."
+      ]
+    },
+    {
+      "id": "b09-naval",
+      "speaker": "Naval",
+      "frases": [
+        "En el caso del pterodáctilo, hubo una mutación aleatoria, o una serie de ellas, que resultó ser adaptativa para ese conjunto de genes.",
+        "Y esas mutaciones eran básicamente ciegas, eran hebras de ADN rotas o simplemente hebras de ADN nuevas.",
+        "Y en el caso humano no pasa exactamente eso.",
+        "El espacio de búsqueda que recorremos es más grande, y lo recorremos más deprisa para dar estos saltos creativos. ¿Es una intuición que tienes? ¿Hay algún conocimiento detrás?",
+        "No intento resolver el problema de cómo funciona la creatividad, porque sé que es un problema sin resolver.",
+        "Pero, por ejemplo, ¿se podría decir que los humanos reducimos el espacio de búsqueda más deprisa porque nuestras mutaciones creativas, por acuñar un término, no son aleatorias?",
+        "Quizá son más dirigidas, o quizá son aleatorias, pero aleatorias dentro de nuestra mente.",
+        "Y las atravesamos tan deprisa, sin tener que llevarlas a la práctica en el mundo real, que quizá reducimos el espacio de búsqueda más rápido.",
+        "¿Es más rápido nuestro proceso? Y si lo es, ¿por qué?"
+      ]
+    },
+    {
+      "id": "b10-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "No solo es más rápido, sino que es explicativo, y eso significa que, por ser explicativo, puede saltar huecos en el espacio del conocimiento que no se podrían recorrer paso a paso.",
+        "Así que la evolución no solo es millones de veces más lenta, sino que es distinta por naturaleza.",
+        "No solo puede hacer únicamente pequeñas conjeturas, que tienen forma de mutaciones, sino que solo puede mejorar las cosas paso a paso.",
+        "Así que solo puedes hacer alas de pterodáctilo si antes tenías extremidades, o si antes tenías algo que se pudiera ir convirtiendo poco a poco en alas.",
+        "Y de tal manera que cada cambio microscópico siguiera siendo viable como organismo.",
+        "Por eso no podemos esperar que la evolución biológica, y vuelvo a mi ejemplo favorito, haga evolucionar un sistema para desviar asteroides.",
+        "Y es porque no hay ninguna situación del problema que vaya paso a paso, en la que gastar energía o lo que sea en desviar el asteroide compense.",
+        "El impacto llega una vez cada pocos millones de años, y no puede ejercer presión evolutiva."
+      ],
+      "notas_editor": [
+        {
+          "tras_frase": 6,
+          "texto": "[usar]",
+          "original": "[use]"
+        }
+      ]
+    },
+    {
+      "id": "b11-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Así que, básicamente, las conjeturas creativas que hacen los humanos, como son de naturaleza explicativa, pueden saltar por todo el espacio de las ideas y conectar cualquier par de ideas o de estados.",
+        "En cambio, la evolución biológica tiene que recorrerlo con las limitaciones del mundo físico y con lo que el organismo es capaz de hacer en ese momento."
+      ]
+    },
+    {
+      "id": "b12-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Sí, y tiene que recorrerlo sin dejar de estar vivo, y tiene que ser un organismo viable durante todo el recorrido.",
+        "En cambio, quizá quieras un nuevo diseño de avión y digas que sería mejor que el estabilizador de cola fuera una sola pieza, en lugar de esa cosa con alas.",
+        "Pues acabo de decirlo en una sola frase, nada más.",
+        "Y si es una buena idea, un ingeniero aeronáutico puede criticarla y demás.",
+        "Pero, para hacer ese cambio paso a paso, probablemente produciríamos toda una serie de aviones que no volarían."
+      ]
+    },
+    {
+      "id": "b13-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Entonces, ¿esto es consecuencia de ser universales por naturaleza? ¿Podemos modelar cualquier sistema en la cabeza y, por tanto, conectar cualquier parte de él con cualquier otra?"
+      ]
+    },
+    {
+      "id": "b14-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Sí, eso es en realidad lo que queremos decir con ser universales, que podemos llegar a cualquier idea y criticarla para ver si es buena o no.",
+        "Así que el ingeniero aeronáutico no tiene que poner a prueba cada uno de los aviones de sus ideas locas.",
+        "Quizá un día, yendo al trabajo, se le ocurra la idea loca de que las alas deberían ser de papel."
+      ]
+    },
+    {
+      "id": "b15-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Así que, en ese sentido, el sistema biológico es un ordenador analógico muy especializado que ejecuta, por así decirlo, un único algoritmo.",
+        "Y el sistema virtual que tenemos en la cabeza se parece más a un ordenador digital programable."
+      ]
+    },
+    {
+      "id": "b16-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "El sistema del ADN es completamente digital, y ese avance paso a paso no es un cambio continuo, así que una mutación sigue siendo una diferencia discreta.",
+        "Si tuvieras una diferencia de menos de un par de bases, todo el ADN se desmoronaría.",
+        "Si intentas sustituir la adenina por glucosa, todo aquello dejaría por completo de funcionar como ADN.",
+        "Aunque hablamos de que la evolución ocurre poco a poco, ocurre poco a poco en pasos discretos.",
+        "Así que tanto el pensamiento como la evolución biológica avanzan en pasos discretos.",
+        "Pero la evolución biológica avanza en pasos muy pequeños, que nadie ha diseñado, porque no hay ningún diseñador que diseñe la siguiente mutación, sino que es aleatoria."
+      ]
+    },
+    {
+      "id": "b17-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Me llama la atención que el proyecto SETI busque biomarcadores, que esté ahí fuera buscando pruebas de biología.",
+        "Tú has planteado esta idea de una forma muy poética.",
+        "Ahora mismo hay miles de millones de asteroides por todo el universo chocando contra miles de millones de planetas.",
+        "Pero este podría ser el único lugar en el que, si apuntaras un telescopio desde otro planeta hacia nosotros, verías cómo se repelen los asteroides.",
+        "Eso sería una señal de inteligencia, porque no hay otra explicación, no hay ninguna explicación biológica, ni azar, ni magia.",
+        "Tiene que ser la creatividad explicativa la que hace eso.",
+        "Y hablando antes de Manhattan, por toda la Tierra hay rocas que se erosionan, que inevitablemente se van erosionando por la meteorización, la lluvia y demás.",
+        "Pero en algunos lugares, las ciudades del mundo, hay rocas, llamémoslas edificios, que no se erosionan así.",
+        "O, en la medida en que se erosionan, el conocimiento explicativo las está reparando constantemente.",
+        "Y eso introduce esta idea del conocimiento como información resistente, lo que sobrevivirá incluso a las rocas.",
+        "Mientras sigamos sobreviviendo, el conocimiento que tenemos seguirá sobreviviendo, y durará más que las cosas más duraderas del cosmos."
+      ]
+    },
+    {
+      "id": "b18-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Sí, muy bien dicho. Y Shakespeare, por cierto, dijo lo mismo en su soneto, que mientras esto viva, esto te dará la vida.",
+        "Dice que su soneto sobrevivirá a cualquier cosa, y tiene razón."
+      ]
+    },
+    {
+      "id": "b19-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Exacto, el de si debía compararte con un día de verano, cuando eres tan bella, o tan templada. Sí, ese era buenísimo.",
+        "También se parece a Ozimandias, no sé si has leído ese poema de Shelley, en el que lo que sobrevive al imperio y al rey es la concepción del artista."
+      ]
+    },
+    {
+      "id": "b20-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Sí, exacto. Y es literalmente cierto que la información cargada de conocimiento es más resistente que cualquier objeto físico."
+      ]
+    },
+    {
+      "id": "b21-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Sin querer ponerme personal un momento, ¿es esto un argumento para difundir tus ideas en lugar de tener hijos?"
+      ]
+    },
+    {
+      "id": "b22-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Bueno, como dice David Friedman, si merece la pena salvar el mundo, merece la pena salvarlo ganando dinero.",
+        "Y yo lo generalizaría, si merece la pena salvar el mundo, merece la pena salvarlo divirtiéndose."
+      ]
+    },
+    {
+      "id": "b23-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Creo que has hablado un poco de la inteligencia artificial general, o más bien de crear una inteligencia artificial general, o simplemente de que en el futuro la gente suba su cerebro a un ordenador.",
+        "Y si su mente está en el ordenador, si ahí funciona el mismo software, entonces eso es un ser vivo, es una mente, es la definición de una persona.",
+        "Y eso plantea todo tipo de paradojas y situaciones interesantes que han explorado muchos autores de ciencia ficción, entre ellos Greg Egan.",
+        "¿Y si replicaras esta mente mil millones de veces? ¿Y si la apagaras? ¿Y si la volvieras a ejecutar a cámara lenta, o si la pusieras en pausa?",
+        "No sé lo lejos que estamos de eso, probablemente todavía bastante lejos, y Neal Stephenson también habló de ello en su libro Fall.",
+        "También está llegando la clonación, porque ya se clonan perros con éxito, y es solo cuestión de tiempo que clonemos humanos.",
+        "¿Adónde crees que lleva esto en cuanto al número de personas?",
+        "En teoría, ¿no podríamos tener entonces infinitas personas, o casi infinitas, funcionando en un sustrato de silicio? ¿Y eso llevaría a una explosión todavía mayor de la creatividad?"
+      ]
+    },
+    {
+      "id": "b24-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Sí, la produciría, y creo que pasará algo así, pero creo que se exageran un poco tanto el problema como la oportunidad.",
+        "Creo que no debemos pensar que la potencia de cálculo es gratis, como dice la gente de la inteligencia artificial.",
+        "Cuando duplicas una inteligencia artificial general, haces una copia exacta de ella, y o bien la ejecutas en el mismo ordenador, o bien la trasladas a otro.",
+        "Si la ejecutas en el mismo ordenador, cada una solo tiene la mitad de memoria disponible, y solo la mitad de ciclos de procesador.",
+        "Si la trasladas a otro ordenador, es de suponer que el ordenador original es propiedad de esa inteligencia artificial general, porque si ni siquiera es dueña de su propio cuerpo, es una esclava.",
+        "Así que, si va a copiarse en otro ordenador, alguien tiene que comprarlo, y quizá gane el dinero para comprarse ella misma otro ordenador.",
+        "Pero eso no cambia el hecho de que, en cuanto al hardware, ahora tiene el doble de hardware que antes, y aquí no hay nada infinito.",
+        "Tenemos miles de millones de ordenadores, pero no tenemos miles de trillones de ordenadores.",
+        "Algún día los tendremos, pero algún día eso tampoco parecerá gran cosa.",
+        "Así que sí, hay un enorme potencial de creatividad adicional con más personas, si esas personas adicionales quieren crear todavía más personas.",
+        "Y hasta cierto punto eso ocurrirá, pero no va a ser una explosión.",
+        "No es como un meme que alguien inventa y que enseguida llega a mil millones de personas de todo el mundo, no es así.",
+        "Si el meme es una inteligencia artificial general, querrá vivir, querrá poner su creatividad al servicio de algún problema que le guste resolver, y tendrá que comprar los recursos para hacerlo.",
+        "Los memes que ya existen compran una fracción minúscula de un dólar en memoria de cada una de las personas que los descargan.",
+        "Pero ni siquiera esas personas los guardan para siempre, porque quizá los guarden un año o dos, hasta que vendan su ordenador o algo así.",
+        "Pero las grandes cantidades de memoria siguen costando dinero, y el resto del hardware también.",
+        "Ahora bien, está el otro problema, así que eso es lo que digo de que no es tan grande como lo pintas.",
+        "Pero tampoco es tan malo como lo pintas, por los problemas que habría si haces mil millones de copias de ti mismo.",
+        "Habrá que decidir si cada una debe tener un voto, o si deben compartir un voto entre todas.",
+        "Y la institución de una persona, un voto, nos ha servido bien durante un par de siglos, y habrá que modificarla, pero creo que no es para tanto.",
+        "Ya tenemos en la sociedad mucha gente que no tiene derecho a voto, como los inmigrantes antes de obtener la ciudadanía, los niños y los extranjeros que viven aquí de forma temporal.",
+        "Y conseguimos darles derechos humanos a todas esas personas.",
+        "No digo que el sistema sea perfecto para todos esos tipos de personas, porque tampoco es perfecto para los que tienen derecho a voto.",
+        "Pero creo que no será un gran problema ajustar las instituciones de la propiedad y de la política para que tengan cabida las inteligencias artificiales generales.",
+        "Con un poco de buena voluntad, todo eso se puede resolver."
+      ]
+    },
+    {
+      "id": "b25-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Has mencionado a los niños, y estamos buscando o intentando crear inteligencias artificiales generales cuando ya hay en el planeta toda esta inteligencia sin aprovechar, en forma de niños.",
+        "Niños a los que se coacciona casi toda su vida y a los que no se deja ser tan creativos ni expresarse tan libremente como podrían.",
+        "Y de esto has hablado, de la filosofía de tomarse en serio a los niños.",
+        "Hay objeciones poco sofisticadas a eso, así que déjame plantear las que creo que son objeciones sofisticadas, o al menos mis objeciones, aunque quizá solo me esté llamando sofisticado a mí mismo.",
+        "La primera objeción, y creo que probablemente estarías de acuerdo en esto, es que hay ciertos actos que son irreversibles por naturaleza.",
+        "Por ejemplo, matar a alguien, o dejar embarazada a alguien, o que te dejen embarazada.",
+        "Y algunos de ellos también se los impedirías hacer a un adulto, porque le impedirías a un adulto cometer un asesinato o suicidarse.",
+        "Al mismo tiempo, puede que un niño no entienda del todo las consecuencias, por ejemplo, de que el sexo sin protección lleve a un embarazo.",
+        "O de cometer lo que cree que es un delito menor, o de tomar una droga muy adictiva, como el fentanilo o algo así.",
+        "Quizá eso desate algo a lo que no está acostumbrado o que no está preparado para manejar.",
+        "Así que una clase de objeciones sería la de quien dice que quiere impedir que su hijo tome fentanilo o una droga dura, porque todavía no ha desarrollado la resistencia necesaria.",
+        "Y que puede intentar convencerle de que no lo haga, pero que, si va a tomarla de todos modos, tiene que impedírselo por la fuerza, y ese es un grupo de objeciones.",
+        "La otra, que está relacionada, tiene que ver con la plasticidad del cerebro.",
+        "Si no aprenden matemáticas y piano de pequeños, o idiomas, o a leer bien, luego les va a costar mucho más adquirir esas habilidades.",
+        "Y sabemos que algunas de estas habilidades son tan fundamentales que, si no las adquieres pronto, se cierran caminos enteros.",
+        "Y sí, hay excepciones de genios que empiezan con el violín a los veinte años o con las matemáticas a los quince o lo que sea.",
+        "Pero ¿no se puede argumentar que, en el caso del niño medio, quieres que aprenda los fundamentos de pequeño, para que luego tenga la libertad de explorar y de ser creativo en esos campos?"
+      ]
+    },
+    {
+      "id": "b26-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Creo que podríamos añadir que de los desastres es muy difícil recuperarse.",
+        "Ahora bien, de todos los peligros que has mencionado, y podríamos mencionar infinitos, es curioso que los que has mencionado sean problemas tristemente famosos en nuestra sociedad actual.",
+        "Lo son en una sociedad en la que se da por hecho que se puede usar una fuerza ilimitada para impedir que los niños se hagan cosas a sí mismos.",
+        "En algunos casos, es legal usar una fuerza ilimitada para impedir que un adulto las haga.",
+        "Pero hay muchas cosas que a los adultos se les permite hacer, y no solo se les permite, sino que tienen un derecho protegido por la ley a hacerlas.",
+        "Y a los niños no se les permite, y eso no funciona.",
+        "La razón por la que los has mencionado es que ahora mismo, con la forma actual de hacer las cosas, son problemas tristemente famosos.",
+        "Para que esto sea una objeción a tomarse en serio a los niños, a tratar a los niños como personas, tienes que tener una teoría más.",
+        "Tienes que tener una teoría de que tratar a las personas como personas empeora estos problemas en lugar de mejorarlos.",
+        "Así que ahora mismo tienes una población de niños y una sociedad centrada en impedirles por la fuerza que tomen drogas.",
+        "Y, aun así, miles, millones de ellos toman drogas, y algunos sufren consecuencias irreversibles.",
+        "Así que creo que impedirlo es una cuestión de conocimiento, porque todos los males se deben a la falta de conocimiento.",
+        "Cuando no consigues convencer a alguien de algo, hay una razón para ello, y no es que la gente sea por naturaleza tal cosa.",
+        "Yo bromeo con que la gente dice que los niños son tan crédulos que no escuchan ni una palabra de lo que digo.",
+        "El estereotipo supone que son infinitamente crédulos, por un lado, e infinitamente resistentes a los argumentos, por otro.",
+        "Y muchas veces lo dicen a la vez, como en mi broma, y no es verdad.",
+        "Los niños son universales, y además no son, como las inteligencias artificiales generales, una cosa universal cualquiera.",
+        "Son una cosa universal que intenta integrarse en nuestra cultura.",
+        "Nuestra cultura es lo mejor que conocemos, y no conseguir integrarse en ella es un desastre.",
+        "Y hoy en día pasa continuamente, con la forma actual de hacer las cosas, que hay gente que acaba siendo delincuente.",
+        "Y eso a pesar de que todo el peso de la sociedad se dirige a impedir que se conviertan en delincuentes.",
+        "Ahora bien, hay una cosa que sabemos sobre la creatividad necesaria para impedir que la próxima generación tome drogas o se haga terrorista.",
+        "No puede ejercerse solo en la mente del profesor, de la sociedad o del adulto.",
+        "Aprender tiene que ser un acto creativo en la mente de quien aprende, siempre.",
+        "Niños o adultos, esa es la única forma en que alguien aprende algo, ejerciendo su creatividad.",
+        "Y la forma actual de hacer las cosas no solo frustra los actos, sino que, y esto es mucho más importante, está orientada a reprimir la propia creatividad.",
+        "Lo hace, por ejemplo, haciendo que el sistema educativo inculque la obediencia, en primer lugar, y en segundo lugar, haciendo que inculque las teorías que ya existen.",
+        "Así que, si consiguieras inculcar a toda la población las teorías existentes y la obediencia, no podrías obtener nada mejor que la población existente, y nunca podría haber ninguna mejora.",
+        "Pero sería peor, porque la gente de la sociedad actual es creativa.",
+        "Consiguen abrirse paso por esa maraña de obstáculos que intenta impedirles progresar, y progresan de todos modos.",
+        "Pero si consiguiéramos crear una generación que no hiciera eso, en el mejor de los casos tendríamos estancamiento, y al final el estancamiento sería desastroso.",
+        "No digo que emancipar a los niños sea algo que se pueda hacer por decreto, ni de la noche a la mañana, simplemente diciendo que lo vamos a hacer.",
+        "Igual que no podemos inculcar creatividad científica a una persona de a pie a la que no le interesa la ciencia.",
+        "Eso no se sabe hacer, es como programar de forma arbitraria a alguien para que sea desobediente, que es imposible por naturaleza.",
+        "Pero emancipar a los niños de las instituciones de la sociedad que, como se reconoce abiertamente, están diseñadas para hacer esas dos cosas, eso sí lo podemos hacer.",
+        "Hablo de crear obediencia y de replicar las teorías existentes, y eso se sabe hacer, porque hay gente que lo hace.",
+        "La mayoría de los padres que se oponen a la escuela no se oponen en realidad a la epistemología de fondo de la escuela.",
+        "Siguen creyendo en lo que Popper llamaba la teoría del cubo del conocimiento, o la teoría de la mente como un cubo.",
+        "Solo creen que la escuela ha estado echando cosas malas en sus hijos, y quieren echarles cosas buenas.",
+        "En cambio, lo que yo defiendo es dar a los niños acceso a todo lo que quieran echarse dentro, y echar es la metáfora equivocada, porque lo crean en su interior."
+      ]
+    },
+    {
+      "id": "b27-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Así que, en tu modelo, se parece más a la desescolarización que a la educación en casa, porque la educación en casa intenta reproducir la escuela en el contexto del hogar.",
+        "La desescolarización podría ser algo así como aquí tienes una biblioteca, aquí tienes tus instrumentos musicales, aquí tienes acceso a otros niños, y tú eliges."
+      ]
+    },
+    {
+      "id": "b28-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Bueno, sí, aunque dar ese acceso no es en sí mismo un proceso mecánico.",
+        "Exige pensar qué podrían querer los niños, qué les podría gustar, qué podrían querer saber, de qué podrían querer que se les avisara.",
+        "Es una interacción continua, no es desentenderse, porque lo que se quita es la coacción, no la interacción.",
+        "Lo que pasa es que la interacción que yo defiendo no está orientada a la obediencia.",
+        "Y no está orientada a ninguna cosa concreta que yo crea importante. Por ejemplo, creo que la teoría cuántica es importante.",
+        "Pero no creo que tenga derecho a obligar a nadie a aprenderla, aunque crea que le beneficiaría muchísimo.",
+        "No creo que sea una relación que quiera tener con nadie, y no creo que sea algo bueno en general."
+      ]
+    },
+    {
+      "id": "b29-naval",
+      "speaker": "Naval",
+      "frases": [
+        "¿Y qué hay del argumento de que el cerebro es más plástico?"
+      ]
+    },
+    {
+      "id": "b30-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Sí, ese era tu segundo argumento. Bueno, para empezar, resulta bastante irónico, porque el modelo educativo actual, como digo, está diseñado expresamente para desperdiciar toda esa plasticidad.",
+        "Lo hace haciendo que todo el mundo tenga las mismas ideas.",
+        "Los colegios se anuncian diciendo que van a conseguir que todos tus hijos saquen sobresaliente, es decir, que van a conseguir que todos tus hijos sean iguales.",
+        "Imaginemos un colegio con unos buenos valores, que se anunciaría de otra forma.",
+        "Se anunciaría diciendo que va a hacer que tus hijos sean todos distintos, más distintos de lo que te puedes imaginar, y que todos sus antiguos alumnos son personas radicalmente distintas entre sí.",
+        "Por supuesto, también creemos, esperamos y confiamos en que todos sean buenas personas, a pesar de ser radicalmente distintos entre sí."
+      ]
+    },
+    {
+      "id": "b31-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Y esto seguramente molestará a los pedagogos que nos estén escuchando, y a los neurocientíficos que nos estén escuchando, porque evoca la noción de hardware.",
+        "No sé qué opinas de esto, de que supuestamente hay una ventana de oro al principio de la vida.",
+        "Según esa idea, si no te enseñan el idioma, o si no te enseñan las matemáticas, la ventana se cierra.",
+        "Y el paralelo, o la imagen invertida, es que loro viejo no aprende a hablar.",
+        "Así que en un extremo está la oportunidad de oro para aprender, y en el otro extremo el aprendizaje se te cierra.",
+        "Yo tengo mi propia respuesta de siempre a esto, pero parece que la respuesta cultural es que el cerebro se va deteriorando.",
+        "Empiezas con un cerebro que es una esponja, y al final casi has perdido toda esperanza de aprender nada nuevo. ¿Qué piensas de eso?"
+      ]
+    },
+    {
+      "id": "b32-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Bueno, no sé cómo funciona de verdad el cerebro, y creo que los neurocientíficos tampoco lo saben.",
+        "Pero no estoy en contra de la idea de que el hardware del cerebro funcione mejor cuando uno es joven, solo que no creo que sea relevante para nada.",
+        "Leí en algún sitio que es completamente falso que a un perro viejo no se le puedan enseñar trucos nuevos.",
+        "Los perros viejos son tan capaces de aprender trucos nuevos como los jóvenes, pero eso son perros, y de entrada no creo que nos parezcamos a los perros.",
+        "Y no creo que un perro que aprende trucos sea una buena metáfora de un humano que aprende matemáticas, porque es otra cosa.",
+        "Thomas Szasz dice que deberían entrar por puertas distintas en edificios distintos de la universidad para hablar de esas cosas.",
+        "Cada persona es distinta, y hay gente a la que le gusta aprender idiomas, que puedes encontrar en internet, y me deja atónito lo que son capaces de hacer.",
+        "Hay gente que aprende latín, pero no solo aprende latín, sino un latín realista.",
+        "No como se enseña en las clases de latín, sino como se hablaba de verdad.",
+        "¿Y cómo se averigua cómo se hablaba de verdad? Pues es una rama de la historia tremendamente sofisticada, con la que se puede llegar a saber mucho de cómo hablaba la gente.",
+        "Y vi un vídeo de un tipo que paseaba por Roma hablando con sacerdotes en latín clásico, para ver si le entendían.",
+        "Y le entendían a medias, y luego, cuando se daban cuenta de lo que pasaba, le preguntaban qué estaba pasando.",
+        "Y entonces él les contestaba en latín eclesiástico medieval, les decía que estaba haciendo un experimento, y entonces le entendían.",
+        "Pero él tenía el acento correcto del latín eclesiástico medieval, y ellos tienen el acento del latín eclesiástico actual.",
+        "Y también hay gente que aprende muchos idiomas y los habla como un nativo, que no se distingue de un nativo.",
+        "Entonces, ¿por qué es tan rara esa gente? Bueno, yo no quiero hacerlo.",
+        "Si pudiera hacerlo chasqueando los dedos, desde luego lo haría, pero no me interesa lo suficiente como para implicarme con otros idiomas tanto como me implico con el inglés.",
+        "Por cierto, otra cosa es que la gente está aprendiendo constantemente su propio idioma, su lengua materna, y si a uno le interesa la comunicación, lo está haciendo todo el tiempo.",
+        "No hay dos personas que hablen el mismo inglés.",
+        "Por eso Popper dice que no se puede hablar de forma que sea imposible no ser malinterpretado, y una de las razones es que cada uno habla un inglés distinto.",
+        "Cada uno quiere decir una cosa distinta con la palabra pensamiento, o libertad, o idea, o teoría, o creatividad, cada uno quiere decir algo distinto.",
+        "Incluso en las ciencias exactas, cada físico tiene una concepción distinta de lo que es una variedad.",
+        "Se solapan lo suficiente como para poder comunicarse bien, a veces muy bien, pero nunca a la perfección.",
+        "Y a veces les cuesta comunicarse incluso de forma imperfecta, aunque en teoría hayan pasado por el mismo proceso de aprendizaje.",
+        "Cada físico tiene una situación del problema distinta, un conjunto distinto de ideas que considera que son la física, y se diferencian entre sí.",
+        "Así que, si quieren trabajar juntos, muchas veces tienen que esforzarse por entender lo que quiere decir el otro.",
+        "Ahora bien, pensemos en la plasticidad, si es verdad que el cerebro funciona más deprisa o lo que sea cuando uno es joven, o que fija los recuerdos con más facilidad.",
+        "Si es así por razones de hardware, no veo en qué cambia nada.",
+        "Puede que tú quieras que una persona tenga un conocimiento intuitivo de tocar el piano, pero eso es lo que quieres tú, y quizá no sea lo que quiere ella.",
+        "Y hay infinitas cosas en las que alguien podría querer que fuera competente, y es imposible.",
+        "No hay nadie que sea competente en todas las cosas en las que la sociedad cree que los niños deberían llegar a ser competentes."
+      ]
+    },
+    {
+      "id": "b33-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Mi conjetura, siguiendo tu propia obra, era que, como somos pequeñas máquinas de aprender durante toda la vida, aprendemos las buenas ideas, pero también vamos cogiendo malas ideas.",
+        "Y, en concreto, memes antirracionales, todas las formas en que podríamos avergonzarnos al intentar aprender, las malas experiencias que tenemos mientras aprendemos, sobre todo en la escuela.",
+        "Y que, por tanto, el recién nacido está en gran medida libre de todos esos memes antirracionales, y lo prueba todo.",
+        "Pasa por la primera infancia y sigue siendo muy bueno, pero cuando llegas a primaria, quizá ya te han castigado un par de veces, si pasas por la escuela tradicional.",
+        "Así que tu capacidad de aprender va empeorando cada vez más, hasta que, cuando la mayoría llegamos a adultos, ya hemos tenido malas experiencias con el aprendizaje.",
+        "Y hacia el final de la vida estás simplemente cansado de aprender, porque lo asocias con castigos, o con vergüenza o humillación. ¿Podría ser esto también, al menos, parte de la explicación?"
+      ]
+    },
+    {
+      "id": "b34-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Podría ser, y suena plausible, y me gusta la teoría porque, por así decirlo, políticamente respalda lo que a mí me gustaría que hiciera la gente.",
+        "Pero no me sorprendería que no fuera verdad, y si la teoría de la plasticidad es verdad, o si lo es alguna otra teoría, no creo que sea relevante.",
+        "Y, por cierto, hablas de niños pequeños a los que se castiga por cometer errores, y a los que se pone trabas a cada paso en la escuela primaria.",
+        "Y tienes que recordar que hay niños a los que eso no les desanima, que pasan por todo eso como si nada.",
+        "A pesar de que se les coacciona y se les obliga a aprender cosas que les aburren, pasan por lo mismo que todos los demás.",
+        "Pasan por eso a lo que tú atribuyes que cada vez aprendan más despacio.",
+        "Y, sin embargo, hay gente a la que no le afecta, o al menos no le afecta en los campos que le gustan.",
+        "Mozart, por ejemplo, tuvo una infancia horrible, le obligaban a actuar como un mono de feria delante del público para ganar dinero y demás.",
+        "Y, aun así, aprendió música mejor que nadie en el mundo en su época.",
+        "Y siguió aprendiendo, porque vemos que sus obras van mejorando con el tiempo, hasta que murió con treinta y tantos años.",
+        "Sea cual sea la relación entre la coacción externa, la falta de plasticidad del cerebro, la presión de los demás y todo lo demás, creo que eso no es lo importante.",
+        "La razón por la que deberíamos hacer más liberal la educación no es que vaya a crear muchos genios.",
+        "Podría hacerlo, que yo sepa, y como sabes, esa es otra de las cosas que no sé, pero esa no es la razón para hacerlo.",
+        "La razón para hacerlo es que los niños son personas, y una de las pocas palancas que tenemos para crear una sociedad abierta al progreso es hacerla más libre.",
+        "Así que deberíamos hacerla más libre para la gente que está en su lecho de muerte y que va a morir al día siguiente.",
+        "Y no es porque creamos que puedan tener una idea brillante durante ese día, sino porque son personas y tienen derechos.",
+        "Tienen derecho a florecer de la forma que les dejen abierta las fuerzas implacables de la naturaleza.",
+        "O, en el caso de los niños pequeños, de la forma que les abran las fuerzas benévolas de la naturaleza que les dan una mente plástica o lo que sea, ¿quién sabe?",
+        "Por ejemplo, se me acaba de ocurrir otra cosa, y es que es un error pensar que, si ningún proceso educativo secuestra esa plasticidad, no se está usando.",
+        "Sí se está usando, porque, ¿por qué iba a desperdiciarla la evolución?",
+        "Se está usando de la forma que cada individuo cree que será mejor para él.",
+        "Por supuesto, sus conjeturas sobre qué es lo mejor para él van a estar llenas de errores, pero las conjeturas de los adultos también, y todas nuestras conjeturas están llenas de errores.",
+        "Crear instituciones que tiendan a facilitar el crecimiento del conocimiento no es lo mismo, de hecho es lo contrario, que crear instituciones que produzcan personas según una receta predefinida.",
+        "Creo que tú lo has tuiteado, Brett, que todo el que cree que tal o cual cosa es buena lo expresa diciendo que habría que obligar a todos los niños a aprenderla.",
+        "Si sumas todas esas cosas, harían falta varias vidas."
+      ]
+    },
+    {
+      "id": "b35-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Sí, me parece increíble. Sea cual sea el tema de moda, pasamos por estas modas en las que ahora toca imponer la nutrición a los niños, porque es importantísimo.",
+        "Y la justicia social es otra que está saliendo últimamente, y casi todos los años están las guerras por la historia, por qué versión de la historia se va a enseñar.",
+        "Y nunca se quita nada del plan de estudios, quizá se modifica, pero no se elimina.",
+        "Y hay estas guerras territoriales, desde luego entre países, por ver quién tiene el mejor programa de matemáticas y ese tipo de cosas.",
+        "Supongo que una cosa que los jóvenes siempre están deseando hacer es imitar a la gente que admiran, por supuesto.",
+        "Y creo que hay unos cuantos jóvenes por ahí que te admiran sobre todo a ti, y que piensan que les gustaría ser capaces de hacer eso, de contribuir a eso.",
+        "¿Cómo podría un joven perseguir eso?",
+        "No querrías prescribirle un programa de estudios, y bien podrías decirle que simplemente persiga lo que le divierte.",
+        "Pero ¿hay algo más concreto a lo que puedas agarrarte, en lugar de decir casi simplemente que haga lo que le guste?"
+      ]
+    },
+    {
+      "id": "b36-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Sí, bueno, lo de que haga lo que le guste no ayuda en absoluto, porque esa persona ya está haciendo lo que le gusta, a menos que alguien se lo impida.",
+        "Pero tampoco puedes decir nada si no sabes nada de su situación del problema, así que no hay ningún consejo genérico que puedas darle a nadie.",
+        "Si has visto un documental sobre Michael Faraday y piensas que ese es el tipo de persona que quieres ser, entonces, bueno, eso es un punto de partida.",
+        "Luego podemos hablar, primero, de que no puedes reproducir el entorno de Michael Faraday, y de que tampoco querrías hacerlo.",
+        "Así que, ¿qué tiene Michael Faraday? Bueno, Michael Faraday tenía un laboratorio en el sótano de la Royal Institution, y allí trasteaban con cosas eléctricas.",
+        "Bueno, eso es un comienzo, pero quizá no tengas dinero suficiente para montar tu propio laboratorio.",
+        "En realidad, si estás empezando a trastear con cosas, tampoco hace falta mucho dinero.",
+        "Me estoy imaginando a una persona que no existe y le estoy dando consejos.",
+        "Creo que no pasa nada, porque no voy a hacerle daño a nadie, pero, si la conversación fuera por ahí, yo le diría algo así.",
+        "Le diría que hay muchísimos vídeos de YouTube en los que sale gente trasteando justo con las cosas con las que acaba de decir que le gusta trastear.",
+        "Que vea esos vídeos, y que, si hay algo en un vídeo que no entiende, se lo pregunte a alguien.",
+        "Ahora que tenemos internet, es especialmente fácil, pero incluso antes de internet, Hugh Everett le escribió una carta a Einstein cuando tenía doce años, y Einstein le contestó con una carta muy amable.",
+        "Y sin duda eso inspiró a Everett, y no necesitas toda la atención de Einstein durante toda tu exploración de la física.",
+        "Solo la necesitas cuando te encuentras con un problema adecuado para preguntárselo a Einstein, y eso no pasa muy a menudo.",
+        "Pero cuando pasa, hoy es muchísimo más fácil preguntar quién es la persona perfecta para responder a tu pregunta, y la gente lo hace.",
+        "La gente me escribe para hacerme preguntas, e intento responder a todas las que puedo, lo mejor que puedo.",
+        "Así que, cuanto más interactúas con alguien, mejor puedes valorar su situación del problema.",
+        "Y más puedes decirle lo que harías tú si estuvieras en esa situación del problema.",
+        "Verías esto, o leerías esto, o le preguntarías a esta persona, o te recluirías en algún sitio donde no te molestaran para intentarlo."
+      ]
+    },
+    {
+      "id": "b37-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Otra pregunta que tenía es que parece que tu visión profundamente optimista sobre los niños, las personas, las mentes y la libertad viene de entender que somos explicadores universales.",
+        "Y que, por tanto, cualquiera es capaz de cualquier pensamiento y de cualquier grado de creatividad.",
+        "Esto parece chocar un poco con lo que ha descubierto la ciencia moderna en genética, cuando dice que, por así decirlo, los genes parecen pesar más que la crianza.",
+        "Aunque, en este caso, no hablamos de la naturaleza frente a la crianza, sino de la creatividad frente a la naturaleza.",
+        "Así que, ¿hasta qué punto los pensamientos y el destino de una persona los determina la naturaleza, frente a su propia creatividad?",
+        "¿Y no choca esto con todos esos estudios de gemelos?",
+        "Muestran que, si separas a unos gemelos idénticos al nacer, les va más o menos igual en la vida, sean cuales sean las circunstancias en que crecieron."
+      ]
+    },
+    {
+      "id": "b38-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Ah, bueno, de nuevo son varias preguntas, pero déjame responder primero a la segunda.",
+        "Los estudios de gemelos solo resultan convincentes si ya crees en la teoría de la mente como un cubo, o en una teoría mecánica de cómo funciona el pensamiento.",
+        "Así que la idea es si el contenido de tus pensamientos lo determina más el contenido de tu ADN o lo que te hace la gente.",
+        "Aparte del daño que te hagan, el contenido principal de tu pensamiento lo creas tú.",
+        "¿Por qué encendiste la tele y viste aquel documental sobre Faraday? Bueno, ¿quién sabe?",
+        "No está codificado en tu ADN que un día concreto vayas a ver un documental concreto, ni te lo inculcó tu entorno según te dejaran o no comer helado cuando quisieras.",
+        "Es una característica impredecible de tus genes y de tu entorno, que acaban en cierto punto, y luego lo importante que pasa es que tú piensas en ello y creas algo nuevo.",
+        "Y si ese documental te inspira para intentar ser como Faraday, no es el documental el que te lo ha hecho.",
+        "El documental lo vieron otro millón de personas y no tuvo ningún efecto en ninguna de ellas, o tuvo, digamos, un efecto distinto en cada una, y el efecto en ti lo creaste tú.",
+        "Así que, si tienes esta visión de lo que es el pensamiento humano, no tiene nada de sorprendente una cosa.",
+        "Que dos personas que se parecen, pero a las que educa gente distinta dentro de la misma cultura, tengan similitudes en sus pensamientos.",
+        "Los que nunca tuvieron tele y nunca vieron un documental sobre Faraday van a tener pensamientos distintos de los que sí lo vieron.",
+        "O quizá no, quizá sea el que no vio el documental de la tele el que se interese por Faraday.",
+        "Y si se parecen, es porque a la gente que se parece se la trata de forma parecida.",
+        "Entre los que creen en la crianza más que en la naturaleza hay una especie de compulsión por negar esto.",
+        "Te preguntan cómo iba a influir eso. No lo sé, pero no es sorprendente que haya formas en que la gente que se parece adquiere atributos parecidos."
+      ]
+    },
+    {
+      "id": "b39-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "La forma trivial que tú mismo has señalado al hablar de esto es que la gente guapa, la que sale en las portadas de las revistas, evidentemente va a recibir un trato concreto.",
+        "Así que, si tienes unos gemelos así, dos personas con pinta de modelo, los van a tratar de una manera.",
+        "Y a otros dos gemelos que quizá no sean tan atractivos los van a tratar de otra, así que esa es una forma trivial en la que puede pasar algo así."
+      ]
+    },
+    {
+      "id": "b40-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Sí, y no solo el aspecto, sino también el comportamiento.",
+        "Hay comportamientos innatos, como que los bebés sonrían, o parpadeen, o miren de cierta manera a una persona que hace algo, o escuchen un sonido de cierta manera.",
+        "Y el bebé va cambiando esos comportamientos iniciales al resolver sus problemas, pero también se dan cuenta de ellos los adultos de su entorno, que están resolviendo sus propios problemas.",
+        "Y si ven que el bebé hace algo que aprueban, se comportarán de forma distinta que si ven que hace cosas que no aprueban, o que les son indiferentes.",
+        "Y si ven algo realmente estupendo, o realmente peligroso, o realmente lo que sea, que es un comportamiento innato, se comportarán de forma distinta en consecuencia.",
+        "Y eso creará una nueva situación del problema para el bebé.",
+        "Una vez estaba teniendo justo esta discusión con Michael Lockwood, y me decía que quizá un bebé tenga más hardware que otro para reconocer patrones.",
+        "Tenemos hardware para reconocer caras, así que quizá también lo tengamos para reconocer patrones. No lo sé, quizá sí.",
+        "Y que quizá un bebé con mejor hardware para reconocer patrones se comporte de otra manera cuando le dan bloques de colores para ponerlos uno encima de otro.",
+        "Y que, por tanto, quizá un bebé así tenga más probabilidades de llegar a ser matemático que un bebé que no tiene tan buen hardware para reconocer patrones.",
+        "Así que le dije que sí, que no puedo decir que eso no vaya a pasar, pero que no tiene nada que ver con lo que estábamos discutiendo.",
+        "Puede pasar, pero déjame señalar que también podría pasar otra cosa.",
+        "Que el bebé con mejor hardware para reconocer patrones, que tiene más probabilidades de jugar con los bloques de madera, tenga más probabilidades de preocupar a sus padres.",
+        "Les preocuparía que no esté jugando fuera, en el jardín, retozando en la hierba.",
+        "Y si creen que es autista o algo así, y que está demasiado apegado a sus bloques, intentarán que salga a jugar fuera.",
+        "Y así es el que tiene menos capacidad para reconocer patrones el que, como consecuencia del trato que recibe, acaba siendo matemático."
+      ]
+    },
+    {
+      "id": "b41-naval",
+      "speaker": "Naval",
+      "frases": [
+        "A mí, de pequeño, no es que me obligaran, pero me daban la lata continuamente para que saliera más a jugar y dejara de leer.",
+        "Porque siempre estaba enfrascado en revistas y libros inútiles cualesquiera, en lo primero que hubiera por ahí.",
+        "Así que tocaba salir, jugar con los amigos, tomar el sol y salir a la calle.",
+        "Y tenía la peor alimentación del mundo, básicamente vivía encerrado, a oscuras, leyendo, y comiéndome lo peor que hubiera en la nevera cuando nadie miraba."
+      ],
+      "notas_editor": [
+        {
+          "tras_frase": 3,
+          "texto": "[me decían que]",
+          "original": "[be told to]"
+        }
+      ]
+    },
+    {
+      "id": "b42-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Ah, bueno, me identifico con todo eso, salvo con lo último, porque mi lema es que cada uno coma lo suyo."
+      ]
+    },
+    {
+      "id": "b43-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Eres un pensador muy riguroso, y creo que tienes mucho cuidado con lo que afirmas.",
+        "Pero me pregunto si tienes conjeturas sobre cosas que ahora mismo no tienen mucha base en las pruebas.",
+        "Son más bien de esas que perseguirías si hubiera infinitos David Deutsch, o si tuvieras un tiempo infinito.",
+        "Así que me encantaría saber si tienes alguna conjetura de ese tipo.",
+        "Sé que estás con la teoría de constructores, así que quizá ya estés con la que de verdad te importa, pero ¿hay otras?",
+        "Por ejemplo, Schrödinger tenía su texto ¿Qué es la vida?, y la gente siempre ha estado dándole vueltas a la conciencia, que es otra.",
+        "Hemos hablado de la creatividad, y otra podría ser en qué dirección irías si intentaras construir mentes en silicio, una inteligencia artificial general.",
+        "Me pregunto si tienes alguna conjetura fantasiosa de la que nos desmarquemos diciendo que no, que no tiene ninguna base, o muy poca.",
+        "Que sea simplemente una chispa creativa que perseguirías si tuvieras más tiempo y más recursos."
+      ]
+    },
+    {
+      "id": "b44-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Sí, hay muchas cosas así. Como sabes, creo que la inteligencia artificial general, cuando se consiga, no se conseguirá echándole cantidades enormes de potencia de cálculo.",
+        "Creo que podrá usar inteligencias artificiales para que la ayuden, igual que hacen los humanos.",
+        "Pero mi conjetura es que, si supiera cómo, podría escribir hoy en mi ordenador el programa que sería una inteligencia artificial general, solo que no sé cómo.",
+        "Pero sí tengo algunas ideas locas que probablemente no serán verdad.",
+        "Si tuviera un tiempo infinito, me pasaría a Mathematica y me pondría a escribir algunos de esos programas a ver qué pasa, y le echaría creatividad en lugar de potencia de cálculo.",
+        "Por cierto, eso me hace desconfiar bastante de esas propuestas para regular la inteligencia artificial general.",
+        "Porque puede que la inteligencia artificial general en realidad no necesite toda esa enorme potencia de cálculo.",
+        "En ese caso, esas normas me impedirían usar mi propio ordenador para aquello en lo que quiero trabajar, y eso es una cosa.",
+        "Así que, con la creatividad, otra de mis ideas locas es que se podría hacer mucho mejor eso de automatizar la música, de hacer, por ejemplo, obras nuevas de Mozart.",
+        "Se haría mejor si no se insistiera en que se parecieran a las antiguas.",
+        "Por ejemplo, si Mozart estuviera vivo, su próxima gran obra no estaría dentro del espacio que una inteligencia artificial puede sintetizar a partir de todas sus obras existentes.",
+        "Esa obra sería nueva de una forma creativa.",
+        "Así que yo diría que hay que hacer un programa de ordenador que conjeture cuál es la situación del problema, qué es lo que intentaba hacer Mozart.",
+        "Que conjeture por qué tiene esa capacidad asombrosa de hacer una melodía que encaja con todo tipo de otras consideraciones y que acaba funcionando.",
+        "Por ejemplo, si intento silbar una melodía con notas al azar, o tocar notas al azar en el piano, enseguida me voy a ver en una situación en la que no puedo seguir.",
+        "Y es porque lo siguiente va a sonar mal.",
+        "Para que suene bien, tendría que volver atrás y cambiar algo anterior.",
+        "Así que una inteligencia artificial que intentara hacer esto podría hacer como ChatGPT, volver atrás y corregir su teoría de qué es lo bueno de las obras existentes.",
+        "Pero yo no quiero escribir algo que sea bueno en el mismo sentido que las obras existentes, sino crear una idea nueva.",
+        "Probablemente, si volvemos al caso real, si Mozart escribiera algo de lo que la gente dijera que esta vez se ha superado a sí mismo, creo que lo que produciría sería reconociblemente Mozart.",
+        "Pero también sería reconociblemente distinto, y creo que eso es la creatividad.",
+        "Cuando Newton presentó de forma anónima su solución al problema de la braquistócrona, uno de los otros dijo que era Newton, que por la garra se conoce al león.",
+        "Bueno, sí, lo reconocían por la garra, pero había producido una demostración nueva que nadie había visto nunca.",
+        "Así que otra cosa es que creo que el patrón, bueno, antes de hablar del patrón, quiero decir una cosa que digo en mi libro.",
+        "Creo que los historiadores podrían obtener muchísimo conocimiento si se centraran en la historia del optimismo.",
+        "Creo que los historiadores no han tenido este concepto, así que no han dirigido su atención hacia ahí.",
+        "Supongo que Florencia y la antigua Atenas estaban impulsadas por el optimismo, pero no sé mucho de historia, y también conjeturo que hubo muchos otros casos, menos espectaculares, que también fueron así."
+      ]
+    },
+    {
+      "id": "b45-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Hay un último tema del que quería hablar contigo, aunque ni siquiera lo tengo bien formado, pero voy a plantear algunos límites.",
+        "Has estudiado la ciencia y el mundo todo lo que has podido, todo lo que puede una sola persona.",
+        "Pero parece que en el fondo de todo hay un misterio central, que es la propia existencia, y ese parece casi irresoluble.",
+        "Quizá lo sea, quizá lo resuelva la teoría de constructores, pero creo que la mayoría de la gente diría que está el misterio de por qué existe algo.",
+        "¿Por qué existimos siquiera? Y luego hay gente que va por el camino de la conciencia y dice que es una visión centrada en la conciencia, que la conciencia es lo único que existe.",
+        "Hay un hombre que de hecho vive aquí en Oxford, Rupert Spira, que se ha hecho bastante famoso, que da charlas por todo el mundo, y que ahora mismo está de gira por Estados Unidos.",
+        "Y mi mujer fue a verlo ayer mismo, y mientras yo hablaba contigo, ella hablaba con él.",
+        "Y es una de esas personas que se consideran iluminadas.",
+        "Ha visto la falsedad del yo separado, vive en una conciencia universal y parece muy feliz todo el tiempo.",
+        "Dice que todos somos solo parte del ser de Dios, y que la ciencia en cierto modo no capta lo esencial al explorar todos los detalles.",
+        "Dice que se les escapa el misterio central de la conciencia y de la consciencia de uno mismo, y que deberían darse cuenta de que todos somos una única consciencia.",
+        "A medida que has ido avanzando en la vida, ¿has desarrollado alguna forma de entender esto, alguna creencia o alguna idea? ¿Cómo abordas siquiera este tema? ¿Te interesa?",
+        "La espiritualidad, la religión, tu propia historia judía, la ciencia, ¿dónde se cruzan? ¿Qué es todo esto en tu visión del mundo?"
+      ]
+    },
+    {
+      "id": "b46-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Bueno, creo que es importante renunciar a la idea de una explicación definitiva.",
+        "Muchas veces, cuando la gente habla del misterio de la existencia, de qué es la existencia, de qué somos en última instancia, pasa una cosa.",
+        "Si existiera algo así como saber qué somos en última instancia, tendrías que pararte ahí.",
+        "Te quedarían cerrados los placeres que vienen después de entender el mundo, porque ya sabrías cuál es tu propósito último.",
+        "Sin embargo, creo que es totalmente falso que la ciencia solo mire los detalles.",
+        "La ciencia mira el panorama general de todo tipo, igual que ha descubierto qué es la vida, y algún día la ciencia descubrirá qué es la conciencia.",
+        "Y luego están los que creen que entiendes la conciencia cuando entras en cierto estado mental que te hace feliz.",
+        "Esos son los que se centran en los detalles y no entienden el panorama general, no entienden el contexto.",
+        "Alguien que ha entendido esto me recuerda a aquel vídeo que hizo Feynman sobre su amigo artista, que le dice que se pierde lo importante de una flor.",
+        "Y él viene a decir que no, que él puede apreciar la flor tanto como ese tipo, pero que ese tipo no puede apreciar lo que él aprecia.",
+        "Y es una especie de falso estereotipo, el de que la ciencia solo mira los detalles, o solo lo mecánico, o solo las cosas sin sentido.",
+        "Y el de que nunca llega a fijarse en el sentido de las cosas.",
+        "Lo que de verdad señalan es que la ciencia saca a la luz problemas cuando descubre algo nuevo.",
+        "Y en el panorama general, sabemos mucho más de quiénes y qué somos y por qué que hace cien años.",
+        "Y desde luego mucho más que en la época de la fundación de las grandes religiones, el judaísmo, el cristianismo, el budismo y demás.",
+        "A ellos les lastraba no saber siquiera qué es el sol, y les lastraba confundir el mundo con un planeta.",
+        "Y, de hecho, ayer mismo vi por casualidad que los ecologistas dicen que quieren estar en contacto con la naturaleza.",
+        "Y por naturaleza se refieren a ciertas regiones de la superficie de un planeta, pero la naturaleza no sabe nada de esos prejuicios.",
+        "La naturaleza existe en todos los planetas, y lo importante de este planeta somos nosotros, no la hierba ni los campos.",
+        "Así que sí, hay muchas visiones del mundo místicas y religiosas, y algunas sí captan algo de la condición humana, en el sentido de que pueden hacer feliz a la gente.",
+        "Al menos, de forma limitada, pueden hacer feliz a algunas personas parte del tiempo, y distintas religiones pueden hacerlo.",
+        "Y puede que tu amigo de Oxford crea o no que tiene el mismo conocimiento que la gente del Cinturón Bíblico de Estados Unidos que se sienta en corro a cantar Kumbayá.",
+        "Pero ellos también sonríen todo el tiempo, y creen que lo han entendido, y él cree que lo ha entendido.",
+        "Y, hasta cierto punto, algo deben de tener, porque pueden hacer feliz a la gente.",
+        "Hay una cita de uno de los grandes ajedrecistas de principios del siglo veinte que dice que el ajedrez, como la música, como el amor, tiene el poder de hacer felices a los hombres.",
+        "De acuerdo, ahí tiene un pedacito de verdad, hay una verdad importante ahí dentro.",
+        "Pero no ha entendido de verdad la felicidad, ni a los hombres, ni cómo conseguir nada en cuanto a hacer felices a los hombres, solo tiene un pedacito de verdad.",
+        "Y no creo que aquel ajedrecista lo considerara la verdad absoluta.",
+        "Pero la gente del Kumbayá, y quizá tu amigo, cree que tiene la verdad, toda la verdad, la verdad definitiva sobre esto, y desde luego no la tienen."
+      ]
+    },
+    {
+      "id": "b47-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Tiene gracia, porque en Airchat Brett y yo estuvimos conversando con algunas personas.",
+        "Había un encuentro de racionalistas críticos, y crearon un grupo de Airchat en el que querían hablar del racionalismo crítico.",
+        "Y creo que tanto Brett como yo nos sentimos muy incómodos participando en cualquier grupo que tenga nombre.",
+        "De repente sentí que ahora venía la discusión de cuál es el dogma central de este grupo.",
+        "Gente encantadora, gente maravillosa, hace falta más gente así en el mundo.",
+        "Pero el problema es que todo pensamiento libre viene del individuo, y en cuanto formas un grupo, el grupo tiene que tener acuerdos para mantenerse unido.",
+        "Así que la cohesión del grupo se convierte en el fenómeno dominante, en lugar de la búsqueda de la verdad."
+      ]
+    },
+    {
+      "id": "b48-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "No podría estar más de acuerdo."
+      ]
+    },
+    {
+      "id": "b49-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Bueno, muchísimas gracias, David, has sido increíblemente generoso con tu tiempo."
+      ]
+    }
+  ]
+}

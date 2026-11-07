@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 137,
+  "anio": 2024,
+  "slug": "deutsch-files-iii",
+  "titulo": "The Deutsch Files III",
+  "subtitulo": "",
+  "fecha_publicacion": "2024-02-17",
+  "fuente_url": "https://nav.al/deutsch-files-iii",
+  "orden_archivo": 141,
+  "en_feed": true,
+  "participantes": [
+    "Brett Hall",
+    "David Deutsch",
+    "Naval"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-07"
+}
