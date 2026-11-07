@@ -147,3 +147,18 @@ Otras observaciones, anotadas en `notas`:
 - `077-happiness` (`t=735s`), `130-infinity-2` (`t=4s`), `131-vitalik` (`t=1440s`) y `132-vitalik-2` (`t=1332s`):
   nav.al enlaza el vídeo empezando en un minuto concreto. La URL guardada es la del vídeo sin `t`; conviene
   mirar si el original es un vídeo más largo del que el episodio es solo una parte.
+
+## Nuestro canal: `youtube-canal.json` (7-nov)
+
+`youtube-canal.json`, en la raíz, lista los vídeos del canal en español (`@spanishNavalR`, id
+`UCBOS2csVbPzf66OZKKnWEBw`) con el episodio al que corresponden:
+
+- **`fabrica`**: el doblaje actual. Su enlace va también a `metadata.es.json` → `youtube.url`.
+- **`antigua`**: los 28 vídeos hechos a mano en 2019 (episodios 021–049). Se rehacen con la fábrica (decisión del
+  4-nov) y el autor los ocultó el 7-nov para que no haya dos versiones de un episodio. Se guardan sus enlaces por si
+  hiciera falta recuperarlos.
+
+**Cada vez que el autor publica un vídeo**, la sesión de dirección lee la pestaña Vídeos del canal (el entorno
+«spanishnav.al» permite `www.youtube.com`; los datos van en `ytInitialData`, en bloques `lockupViewModel`), apunta el
+enlace en `youtube.url` del episodio y añade la fila a `youtube-canal.json`. Los vídeos ocultos no salen en esa
+pestaña: por eso se guardaron antes de ocultarlos.
