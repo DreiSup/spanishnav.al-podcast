@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 139,
+  "anio": 2025,
+  "slug": "inspiration",
+  "titulo": "Inspiration All the Way Down",
+  "subtitulo": "",
+  "fecha_publicacion": "2025-07-16",
+  "fuente_url": "https://nav.al/inspiration",
+  "orden_archivo": 143,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-07"
+}

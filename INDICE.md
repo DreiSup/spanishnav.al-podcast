@@ -2,12 +2,13 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**135** episodios · **2** publicados · **10** escuchados por el autor (**1** para revisar) · **0** sin empezar
+**136** episodios · **2** publicados · **10** escuchados por el autor (**1** para revisar) · **0** sin empezar
 
 ## 2025
 
 | # | Episodio | Título en español | Estado | Escuchado | Drive | YouTube |
 |---|---|---|---|---|---|---|
+| 139 | [139-inspiration](episodios/2025/139-inspiration) | Inspiración hasta el fondo | 🟠 en revisión | — | — | — |
 | 154 | [154-in-the-arena](episodios/2025/154-in-the-arena) | En la arena | 🟠 en revisión | — | — | — |
 
 ## 2023

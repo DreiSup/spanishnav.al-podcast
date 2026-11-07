@@ -145,7 +145,7 @@
     {"orden": 140, "titulo": "The Deutsch Files II", "fecha": "2024-01-26", "url": "https://nav.al/deutsch-files-ii", "tiene_transcript": true},
     {"orden": 141, "titulo": "The Deutsch Files III", "fecha": "2024-02-17", "url": "https://nav.al/deutsch-files-iii", "tiene_transcript": null},
     {"orden": 142, "titulo": "The Deutsch Files IV", "fecha": "2024-10-11", "url": "https://nav.al/deutsch-files-iv", "tiene_transcript": null},
-    {"orden": 143, "titulo": "Inspiration All the Way Down", "fecha": "2025-07-16", "url": "https://nav.al/inspiration", "tiene_transcript": null},
+    {"orden": 143, "titulo": "Inspiration All the Way Down", "fecha": "2025-07-16", "url": "https://nav.al/inspiration", "tiene_transcript": true},
     {"orden": 144, "titulo": "Life is Lived in The Arena", "fecha": "2025-07-18", "url": "https://nav.al/arena", "tiene_transcript": null},
     {"orden": 145, "titulo": "If You Want to Learn, Do", "fecha": "2025-07-22", "url": "https://nav.al/do", "tiene_transcript": null},
     {"orden": 146, "titulo": "In Most Difficult Things in Life, The Solution is Indirect", "fecha": "2025-07-25", "url": "https://nav.al/indirect", "tiene_transcript": null},
