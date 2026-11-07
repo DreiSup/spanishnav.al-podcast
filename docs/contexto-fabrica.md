@@ -74,8 +74,8 @@ Muestras de Kapil, Vitalik y Ridley aprobadas por el autor; Brett y Deutsch (134
 - Escuchados y buenos (`montaje`): 001 (ya `publicado`), 002–008, 010. **009 para revisar** (acento inglés en
   nombres: Facebook, YouTube, PewDiePie, Joe Rogan… frases 3, 10, 25, 45, 46, 48, 49, 62 de `002naval.wav`; el
   autor dará minutos).
-- Generados sin escuchar (`tts`): 011–051 (040–051 el 6/7-nov) y (017–036 hechos el 6-nov: 95 min, ~6,4 u; 5 frases sospechosas en 018,
-  027, 028 y 034) y 068 (Kapil, 39,7 min). Pendiente de 2019: el 052 = recopilación de 001–050: **se genera entero desde su propia traducción** (decisión del autor,
+- Generados sin escuchar (`tts`): 011–051 (017–036 el 6-nov: 95 min, ~6,4 u; 5 frases sospechosas en 018,
+  027, 028 y 034; 040–051 el 6 y 7-nov) y 068 (Kapil, 39,7 min). Pendiente de 2019: el 052 = recopilación de 001–050: **se genera entero desde su propia traducción** (decisión del autor,
   6-nov).
 - Cortos dentro de largos (`docs/cortos-y-largos.md`, `cortos.json`): 053–067 ⊂ **077**, 072–076 y 078–104 ⊂
   **105**, 106–129 ⊂ **130** (mismo español, 1.580 de 1.580 frases idénticas). **Decidido (6-nov): se genera solo
