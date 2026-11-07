@@ -9,9 +9,9 @@
   "fuente_url": "https://nav.al/vitalik-2",
   "titulos_seccion": [
     "La política de los protocolos",
-    "El gran estadista veterano de las cadenas de contratos inteligentes",
+    "El viejo estadista de las blockchains de smart contracts",
     "La comunidad de Ethereum",
-    "El ataque a la DAO",
+    "El hackeo de la DAO",
     "Los mejores y los peores momentos de Vitalik en la política de los protocolos",
     "Convertirse en un maestro de los memes en Twitter",
     "La influencia de Vitalik hoy en Ethereum",
@@ -30,7 +30,7 @@
         "Vitalik, quiero preguntarte un poco por cómo ha evolucionado tu papel desde que empezó Ethereum.",
         "Al principio, antes de todo esto, tú eras, claro, el joven emprendedor descarado.",
         "Ya van seis o siete años, y has pasado de ser el emprendedor a ser el principal tecnólogo, y de ahí a ser el político.",
-        "Ahora eres algo así como el gran estadista veterano de las cadenas de bloques de contratos inteligentes.",
+        "Ahora eres algo así como el viejo estadista de las blockchains de smart contracts.",
         "¿Qué has aprendido sobre la política de los protocolos?"
       ]
     },
@@ -44,7 +44,7 @@
         "Tienes distintos grupos de personas con opiniones distintas, y tienen que enfrentarse entre ellos.",
         "A veces se enfrentan dentro de un mismo protocolo, y a veces entre protocolos distintos, cuando compiten entre sí.",
         "Muchas de las dinámicas que aparecen se parecen sorprendentemente al fervor religioso con el que la gente defiende sus opiniones.",
-        "¿Es mejor tener cadenas de bloques con bloques más pequeños, para que sean más fáciles de verificar, o bloques más grandes, para que más gente pueda permitirse usarlas?",
+        "¿Es mejor tener blockchains con bloques más pequeños, para que sean más fáciles de verificar, o bloques más grandes, para que más gente pueda permitirse usarlas?",
         "La gente tiene opiniones muy firmes sobre esto, igual que las tiene sobre la religión, la democracia, la libertad de expresión, el Estado del bienestar o cualquier otro tema de la política convencional."
       ]
     },
@@ -87,7 +87,7 @@
         "En Bitcoin fue la crisis de Bitcoin Cash, la guerra entre los bloques pequeños y los bloques grandes.",
         "La gente sentía que había una lucha de suma cero entre una visión de lo que sería Bitcoin y otra visión de lo que podría ser Bitcoin.",
         "Se tiraron por la borda muchos principios, y la gente se portó fatal de muchas maneras.",
-        "En el caso de Ethereum, había una gran aplicación llamada la DAO, y la DAO sufrió un ataque.",
+        "En el caso de Ethereum, había una gran aplicación llamada la DAO, y la hackearon.",
         "Una gran parte de todo el ether que había estaba atrapada en la DAO.",
         "Si no se hubiera hecho nada, el atacante habría podido sacarlo al cabo de un par de meses.",
         "Y esto pasó cuando Ethereum todavía no tenía ni un año de historia.",
@@ -106,7 +106,7 @@
         "Creo que al final la situación salió bien para la mayoría.",
         "Desde entonces no ha habido en Ethereum otra violación de la inmutabilidad como aquella, y eso es algo que mucha gente no preveía.",
         "Mucha gente pensaba de verdad que, si se violaban los principios una vez, luego sería barra libre para hacerlo muchas veces.",
-        "Pero no, un año después, la gente incluso prefirió no arreglar lo del monedero Parity, para sentar el precedente contrario.",
+        "Pero no, un año después, la gente incluso prefirió no arreglar lo de la wallet Parity, para sentar el precedente contrario.",
         "De verdad que nos tomamos esto muy en serio."
       ]
     },
@@ -114,8 +114,8 @@
       "id": "b07-naval",
       "speaker": "Naval",
       "frases": [
-        "Hubo un fallo en un monedero multifirma llamado el monedero Parity, que provocó una pérdida enorme de fondos.",
-        "Pero, para que quede claro, ¿no es verdad que el ataque a la DAO fue de una magnitud mucho mayor que todo lo que vino después?"
+        "Hubo un fallo en una wallet multifirma llamada la wallet Parity, que provocó una pérdida enorme de fondos.",
+        "Pero, para que quede claro, ¿no es verdad que el hackeo de la DAO fue de una magnitud mucho mayor que todo lo que vino después?"
       ]
     },
     {
@@ -123,7 +123,7 @@
       "speaker": "Vitalik",
       "frases": [
         "Sí, fue mucho mayor, y fue algo único, porque hasta se podía arreglar con una bifurcación.",
-        "Normalmente, cuando hay un ataque, el atacante se lleva el dinero al instante y no hay forma de arreglarlo, aunque quieras.",
+        "Normalmente, cuando hay un hackeo, el hacker se lleva el dinero al instante y no hay forma de arreglarlo, aunque quieras.",
         "Así que la DAO fue realmente especial y única en ese sentido."
       ]
     },
@@ -131,19 +131,18 @@
       "id": "b09-haseeb",
       "speaker": "Haseeb",
       "frases": [
-        "¿Cuál dirías que ha sido, como político de protocolos, tu mejor momento y tu peor momento en el arte de gobernar cadenas de bloques?"
+        "¿Cuál dirías que ha sido, como político de protocolos, tu mejor momento y tu peor momento en el arte de gobernar blockchains?"
       ]
     },
     {
       "id": "b10-vitalik",
       "speaker": "Vitalik",
       "frases": [
-        "¿El momento del que menos orgulloso estoy?",
-        "Sin duda, cómo se gestionó la situación de la bifurcación de la DAO.",
+        "¿El momento del que menos orgulloso estoy? Sin duda, cómo se gestionó la situación de la bifurcación de la DAO.",
         "Mucha gente se sintió traicionada por la bifurcación de la DAO.",
         "Mucha gente sintió que se habían incumplido sus expectativas.",
         "Y mucha gente sintió que no se respetaba su opinión, sobre todo quienes se oponían a la bifurcación.",
-        "Muchos de ellos sentían que había un ambiente social en el que, si te oponías a la bifurcación, eras malvado, porque estabas a favor de que unos piratas informáticos robaran millones de dólares.",
+        "Muchos de ellos sentían que había un ambiente social en el que, si te oponías a la bifurcación, eras malvado, porque estabas a favor de que unos hackers robaran millones de dólares.",
         "Ese ambiente acabó alejando a mucha gente, y podríamos haber hecho mucho más para no crearlo y para que la gente se sintiera bienvenida a pesar del desacuerdo."
       ]
     },
@@ -174,7 +173,7 @@
         "Antes sentían curiosidad por Ethereum, y de repente se dieron cuenta, asombrados, de que aquello era una cadena centralizada y malvada.",
         "Es una pena que no podamos contentar a todo el mundo.",
         "Pero, por otro lado, contentar a todo el mundo sale caro, y contentar a todo el mundo es dificilísimo.",
-        "A veces incluso me pregunto si, de haber contentado a todos con la bifurcación de la DAO, la política para sacar adelante la prueba de participación no habría sido mucho más difícil. No lo sé."
+        "A veces incluso me pregunto si, de haber contentado a todos con la bifurcación de la DAO, la política para sacar adelante el proof of stake no habría sido mucho más difícil. No lo sé."
       ]
     },
     {
@@ -184,8 +183,7 @@
         "Veo que en Twitter recibes palos por todas partes y que te lo tomas con muy buen humor, algo que Zooko también parece hacer.",
         "Los líderes visibles de los protocolos, o sus creadores, porque ya ni siquiera sé si alguien lidera de verdad Ethereum, suelen saber moverse en público con cierta indiferencia o con cierta combatividad.",
         "Y no creo que una persona normal pudiera aguantar eso.",
-        "¿Cómo surgió eso en tu caso?",
-        "¿Te gustaría haber seguido siendo anónimo?",
+        "¿Cómo surgió eso en tu caso? ¿Te gustaría haber seguido siendo anónimo?",
         "¿Tuviste que pasar por una curva de aprendizaje para saber lidiar con todos los trols, con todos los que te odian y con todos los maximalistas de Bitcoin que te atacan?",
         "¿Te gustaría poder pulsar un botón y desaparecer de Ethereum, y que Ethereum quedara en manos de la fundación?"
       ]
@@ -270,7 +268,7 @@
       "id": "b23-haseeb",
       "speaker": "Haseeb",
       "frases": [
-        "Me da la impresión de que la evolución de tu papel dentro de Ethereum muestra hasta qué punto las cadenas de bloques se parecen a las religiones.",
+        "Me da la impresión de que la evolución de tu papel dentro de Ethereum muestra hasta qué punto las blockchains se parecen a las religiones.",
         "Imagina que Ethereum empezó como una secta que fundaste tú como líder carismático.",
         "Y tú anunciabas que la secta se separaba de la religión de Bitcoin, o de la religión de Mastercoin, y que creías en unos principios nuevos, los de la completitud de Turing.",
         "Hubo un tiempo en que eras el líder de la secta, y a medida que la secta se convierte en iglesia, aparece más burocracia y más vetocracia.",
@@ -314,8 +312,7 @@
       "speaker": "Vitalik",
       "frases": [
         "En cierto modo, aliviado, porque si Ethereum es más vetocrático, tengo más libertad para jubilarme.",
-        "Bueno, jubilarse es una palabra complicada, porque creo que seguiré haciendo cosas siempre.",
-        "¿Pero qué tipo de cosas?",
+        "Bueno, jubilarse es una palabra complicada, porque creo que seguiré haciendo cosas siempre. ¿Pero qué tipo de cosas?",
         "Como has dicho, mi papel está cambiando de formas complicadas que son difíciles de describir."
       ]
     },
@@ -333,8 +330,8 @@
         "Buena pregunta. Tendría mi larga lista de cosas que creo que tienen que suceder.",
         "Y haría una combinación de escribir sobre ellas, explicarlas y, probablemente, poner parte de mi propio dinero para hacerlas realidad.",
         "Intentaría formar equipos y conseguir que salieran adelante.",
-        "Serían cosas como la seguridad de las cuentas, lo que hablamos de los monederos de recuperación social, o ideas sobre privacidad.",
-        "También estaría la votación segura basada en cadenas de bloques, que es algo que he estado impulsando.",
+        "Serían cosas como la seguridad de las cuentas, lo que hablamos de las wallets de recuperación social, o ideas sobre privacidad.",
+        "También estaría la votación segura basada en blockchains, que es algo que he estado impulsando.",
         "En definitiva, sería toda la hoja de ruta de lo que tenemos que hacer para que funcione esta sociedad descentralizada ideal, que no depende de confiar en nadie."
       ]
     },
@@ -345,20 +342,18 @@
         "Eso ya lo has hecho con los creadores de mercado automatizados que usa Haseeb, de los que ya hemos hablado.",
         "La idea salió de una de las entradas de tu blog y luego se implementó como Uniswap.",
         "¿Hay alguna otra cosa por ahí que sea fácil de conseguir?",
-        "Lo de los monederos de recuperación social ya te lo he oído.",
-        "¿Y la votación con cadenas de bloques?",
-        "Imagina que eres un joven programador que escucha este podcast.",
-        "Pongamos que no haces propaganda de Ethereum, pero piensas que el mundo necesita algo y que alguien debería construirlo.",
-        "¿Qué deberías construir?"
+        "Lo de las wallets de recuperación social ya te lo he oído. ¿Y la votación con blockchains?",
+        "Imagina que eres un joven hacker que escucha este podcast.",
+        "Pongamos que no haces propaganda de Ethereum, pero piensas que el mundo necesita algo y que alguien debería construirlo. ¿Qué deberías construir?"
       ]
     },
     {
       "id": "b30-vitalik",
       "speaker": "Vitalik",
       "frases": [
-        "Ahora mismo, algo importante son los clientes web descentralizados, es decir, formas de acceder a la cadena de bloques de Ethereum que salen más baratas que tener un nodo completo.",
+        "Ahora mismo, algo importante son los clientes web descentralizados, es decir, formas de acceder a la blockchain de Ethereum que salen más baratas que ejecutar un nodo completo.",
         "Aun así, esos clientes siguen siendo descentralizados y no dependen de ningún servidor.",
-        "Es algo que va a ser mucho más factible con el paso a la prueba de participación.",
+        "Es algo que va a ser mucho más factible con el paso a proof of stake.",
         "Hay gente trabajando en ello, pero nos vendría bien que hubiera más.",
         "En la capa de aplicación también hay cosas que podrían ser útiles.",
         "He visto a gente trabajando en redes privadas virtuales descentralizadas, y me parecen muy interesantes."
@@ -368,16 +363,15 @@
       "id": "b31-naval",
       "speaker": "Naval",
       "frases": [
-        "¿Crees que hay aplicaciones de las cadenas de bloques que todavía no han despegado por la escalabilidad, o porque aún no están en todas partes y no todo el mundo tiene un monedero?",
-        "¿Cuál sería el caso extremo?",
-        "¿Qué podría estar haciendo la gente con las cadenas de bloques dentro de diez años que hoy parezca ciencia ficción?"
+        "¿Crees que hay aplicaciones de las blockchains que todavía no han despegado por la escalabilidad, o porque aún no están en todas partes y no todo el mundo tiene una wallet?",
+        "¿Cuál sería el caso extremo? ¿Qué podría estar haciendo la gente con las blockchains dentro de diez años que hoy parezca ciencia ficción?"
       ]
     },
     {
       "id": "b32-vitalik",
       "speaker": "Vitalik",
       "frases": [
-        "Sería interesante algún tipo de red social descentralizada basada en cadenas de bloques.",
+        "Sería interesante algún tipo de red social descentralizada basada en blockchains.",
         "Lo valioso que se podría hacer con las redes sociales es separar en capas el contenido y la interfaz de usuario.",
         "Todo el contenido debería estar en una misma capa compartida, y la gente debería competir ofreciendo interfaces distintas.",
         "En Twitter y en Reddit, al final, todo consiste en que los usuarios escriben comentarios y los usuarios votan.",
@@ -395,23 +389,21 @@
       "id": "b33-naval",
       "speaker": "Naval",
       "frases": [
-        "La gente lo ha intentado un poco, pero nada ha despegado.",
-        "¿Por qué pasa eso?"
+        "La gente lo ha intentado un poco, pero nada ha despegado. ¿Por qué pasa eso?"
       ]
     },
     {
       "id": "b34-vitalik",
       "speaker": "Vitalik",
       "frases": [
-        "Si tenemos una cadena de bloques superescalable en la que podamos permitirnos meter este tipo de acciones por defecto, entonces podría pasar."
+        "Si tenemos una blockchain superescalable en la que podamos permitirnos meter este tipo de acciones por defecto, entonces podría pasar."
       ]
     },
     {
       "id": "b35-haseeb",
       "speaker": "Haseeb",
       "frases": [
-        "¿A quién admiras?",
-        "¿Quiénes son tus héroes?"
+        "¿A quién admiras? ¿Quiénes son tus héroes?"
       ]
     },
     {
@@ -448,9 +440,9 @@
       "speaker": "Naval",
       "frases": [
         "Creo de verdad que Zooko marcó la pauta de cómo se construye una comunidad con una sonrisa.",
-        "Por ejemplo, ahora Zooko habla de pasar Zcash a la prueba de participación, y le siguen atacando por cosas como la recompensa de los fundadores.",
-        "La gente le pregunta por qué tuvo que crear una moneda alternativa y por qué no lo hizo como parte de Bitcoin.",
-        "Y recuerdo que al principio él quería hacerlo como parte de Bitcoin, pero le dijeron que no, que primero lo implementara como moneda alternativa y que, si les gustaba, ya lo adoptarían."
+        "Por ejemplo, ahora Zooko habla de pasar Zcash a proof of stake, y le siguen atacando por cosas como la recompensa de los fundadores.",
+        "La gente le pregunta por qué tuvo que crear una altcoin y por qué no lo hizo como parte de Bitcoin.",
+        "Y recuerdo que al principio él quería hacerlo como parte de Bitcoin, pero le dijeron que no, que primero lo implementara como altcoin y que, si les gustaba, ya lo adoptarían."
       ]
     },
     {
@@ -467,15 +459,14 @@
         "Exacto. Mira, Bitcoin intenta ser algo muy concreto.",
         "Creo de verdad que Bitcoin tiene un valor enorme, y es el original.",
         "Pero se queda corto en dos aspectos, ya que ni es programable ni es privado.",
-        "¿Se puede arreglar eso?",
-        "No se puede sin renunciar seriamente a lo que es Bitcoin.",
+        "¿Se puede arreglar eso? No se puede sin renunciar seriamente a lo que es Bitcoin.",
         "Así que ocupa un lugar muy importante en el ecosistema, probablemente el más importante, pero eso no significa que lo sea todo, porque hay mucho más.",
         "Puede que Bitcoin haya clavado el caso de uso básico, el de proteger tu dinero al estilo de la escuela austriaca de economía, pero hay muchos más casos de uso.",
-        "Las mil flores que han brotado desde entonces en Ethereum y en otras cadenas de bloques de contratos inteligentes son algo increíble.",
-        "Y, como decía Haseeb, vamos a ver proliferar las cadenas de bloques.",
+        "Las mil flores que han brotado desde entonces en Ethereum y en otras blockchains de smart contracts son algo increíble.",
+        "Y, como decía Haseeb, vamos a ver proliferar las blockchains.",
         "Primero, porque los incentivos son demasiado fuertes, y segundo, porque cada una busca un equilibrio distinto entre descentralización, seguridad y programabilidad.",
         "Están surgiendo proyectos que dicen que ellos son más programables.",
-        "Agoric dice que con su cadena puedes escribir contratos inteligentes basados en JavaScript.",
+        "Agoric dice que con su cadena puedes escribir smart contracts basados en JavaScript.",
         "Otros dicen que son más rápidos y más sencillos desde el primer momento.",
         "Dicen que no tienes que pelearte con las soluciones de capa dos, ni con los rollups, ni con la fragmentación, ni con nada de eso.",
         "Según ellos, simplemente escribes tu código y es fácil de ejecutar.",
@@ -483,7 +474,7 @@
         "Su nivel de descentralización es tan bajo que hasta le han puesto su propio nombre.",
         "Pero, evidentemente, es para la gente a la que le importa mucho menos la descentralización y mucho más el coste, el rendimiento y cosas así.",
         "Así que va a ser un ecosistema muy rico.",
-        "Las cadenas de bloques suponen un cambio de fondo hacia una nueva forma de computación.",
+        "Las blockchains suponen un cambio de fondo hacia una nueva forma de computación.",
         "Y creo que hay que tomárselo con buen carácter, porque recibe un montón de ataques de mala fe.",
         "Por ejemplo, un profesor de Berkeley escribió un texto larguísimo diciendo que su Raspberry Pi tenía más capacidad de procesamiento y que, por tanto, Ethereum o Bitcoin iban a fracasar.",
         "Era una comparación absurda, era comparar peras con manzanas.",
@@ -535,7 +526,8 @@
       "speaker": "Naval",
       "frases": [
         "Me gustaría hablar un poco de los aspectos poco comunes de tu vida.",
-        "No porque vayamos detrás de los famosos ni porque nos estemos mirando el ombligo, sino porque muestra las distintas formas en que puedes vivir tu vida.",
+        "No porque vayamos detrás de los famosos ni porque nos estemos mirando el ombligo, y eso que mi nombre en inglés suena a ombligo.",
+        "Es porque muestra las distintas formas en que puedes vivir tu vida.",
         "Algo poco común de tu vida es que no parece que tengas grandes colecciones de casas y coches, es decir, no haces lo típico de los ricos.",
         "Otra cosa es que sigues trabajando como líder de esta organización descentralizada.",
         "Y además hablas un número enorme de idiomas.",
@@ -549,8 +541,8 @@
       "frases": [
         "En los últimos seis meses he estado en San Francisco, Toronto, Argentina, Costa Rica, México y Singapur, una lista larguísima de sitios.",
         "Ya llevo unos ocho años viviendo como nómada.",
-        "Empecé a hacerlo durante mi viaje de Bitcoin, en dos mil trece.",
-        "Luego empezó Ethereum, y es como si mi viaje de Bitcoin no se hubiera acabado nunca.",
+        "Empecé a hacerlo durante mi gira por el mundo de Bitcoin, en dos mil trece.",
+        "Luego empezó Ethereum, y es como si mi gira no se hubiera acabado nunca.",
         "Simplemente seguí yendo a sitios distintos, porque era la persona que estaba dispuesta a viajar a cualquier evento para hablar con la gente.",
         "Y la gente no paraba de añadirme más sitios que visitar.",
         "Al final, esa parte de mi estilo de vida se volvió permanente."
@@ -562,8 +554,7 @@
       "frases": [
         "Además, has donado unas cantidades de dinero disparatadas.",
         "Si no recuerdo mal, Ethereum tuvo siete fundadores, y probablemente tú has sido uno de los más generosos.",
-        "¿Piensas donarlo todo, o la mayor parte?",
-        "¿Es que el dinero no te importa?"
+        "¿Piensas donarlo todo, o la mayor parte? ¿Es que el dinero no te importa?"
       ]
     },
     {
@@ -591,9 +582,7 @@
       "id": "b51-naval",
       "speaker": "Naval",
       "frases": [
-        "¿Y con bastante soltura?",
-        "Una vez te vi en un avión hablando chino con fluidez, y me pilló un poco por sorpresa.",
-        "¿Lo aprendiste hace poco?"
+        "¿Y con bastante soltura? Una vez te vi en un avión hablando chino con fluidez, y me pilló un poco por sorpresa. ¿Lo aprendiste hace poco?"
       ]
     },
     {
@@ -609,8 +598,7 @@
       "id": "b53-haseeb",
       "speaker": "Haseeb",
       "frases": [
-        "Te iba a preguntar una cosa, porque has dicho que sigues en tu viaje de Bitcoin.",
-        "¿Cuándo se va a terminar tu viaje de Bitcoin?"
+        "Te iba a preguntar una cosa, porque has dicho que sigues en tu gira por el mundo de Bitcoin. ¿Cuándo se va a terminar tu gira?"
       ]
     },
     {
@@ -675,7 +663,7 @@
       "frases": [
         "Yo me sumo a eso, y añado que lo más extraordinario es lo joven que eres.",
         "Y ya eres una persona de varios actos, porque contribuiste mucho a dar a conocer Bitcoin y contribuiste creando Ethereum.",
-        "Luego también has contribuido con la creación de Uniswap y de los creadores de mercado automatizados, y ahora impulsando los monederos de recuperación social, la privacidad y demás.",
+        "Luego también has contribuido con la creación de Uniswap y de los creadores de mercado automatizados, y ahora impulsando las wallets de recuperación social, la privacidad y demás.",
         "Tienes por delante una carrera de varios actos, y tengo ganas de ver los actos que vendrán.",
         "Cuando hablabas de mejorar cada semana, eso es interés compuesto.",
         "Y el interés compuesto depende del número de iteraciones, no del tiempo.",
