@@ -23,7 +23,9 @@
     "activa": true,
     "reintentos": 2,
     "errores_por_cada_10_palabras": 1,
-    "sobra_final_max": 0.8
+    "sobra_final_max": 0.8,
+    "modelo_asr": "openai/whisper-large-v3",
+    "_modelo_asr": "Qué Whisper revisa. openai/whisper-large-v3-turbo es mucho más rápido; antes de cambiarlo, fabrica/comparar_whisper.ipynb comprueba que decide igual. No cambia la firma de las voces: cambiarlo no rehace ningún clip."
   },
   "rutas": {
     "drive": "/content/drive/MyDrive",

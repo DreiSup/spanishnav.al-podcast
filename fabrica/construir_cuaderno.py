@@ -168,8 +168,8 @@ else:
     ASR = None
     if VERIFICAR:
         import medir
-        ASR = medir.Asr()
-        print("Whisper large-v3 cargado")
+        ASR = medir.Asr(CFG["verificacion"].get("modelo_asr", "openai/whisper-large-v3"))
+        print(f"Whisper cargado: {ASR.modelo}")
 T_CARGA = time.time() - t0
 print(f"Carga: {T_CARGA / 60:.1f} min")
 """),
@@ -203,6 +203,94 @@ comun.desconectar()
 ]
 
 
+CELDAS_WHISPER = [
+    md("""
+# ¿Whisper turbo en vez de large-v3?
+
+La revisión de la fábrica no toca el audio: solo decide qué frases se repiten. Este cuaderno comprueba, con frases ya
+generadas, que **whisper-large-v3-turbo** decide igual que **large-v3** y caza igual de bien las averías que la
+revisión existe para cazar (una cola de más al final, una frase cortada). Lógica en `fabrica/comparar_whisper.py`.
+
+**GPU: T4.** Unos 15 min (~0,5 unidades). No genera audio ni toca nada de los episodios: deja el resultado en
+`naval-podcast/pruebas/whisper_turbo.md` y desconecta. Ejecuta las celdas 1 a 6 seguidas («Ejecutar todo»).
+"""),
+    code("""
+# 1. Instalación (no hace falta reiniciar)
+!pip install -q jiwer num2words
+"""),
+    code("""
+# 2. Parámetros: de qué episodios ya generados se toman las frases
+EPISODIOS = ["2019/018-skill-business", "2019/027-hourly-rate", "2019/034-reject-advice", "2019/041-envy",
+             "2019/051-angel-1", "2020/068-kapil"]
+N_FRASES = 200    # frases reales (todas las sospechosas entran siempre)
+N_AVERIAS = 60    # averías fabricadas: la mitad con cola de más, la mitad cortadas
+"""),
+    code(f"""
+# 3. Preparar: código, Drive y las frases con su audio (sin GPU)
+import os, sys, subprocess, json, time
+from pathlib import Path
+RAMA = "{RAMA}"
+if os.path.isdir("/content/repo"):
+    subprocess.run(["git", "-C", "/content/repo", "pull", "-q"], check=True)
+else:
+    subprocess.run(["git", "clone", "-q", "--depth", "1", "-b", RAMA, "{REPO}", "/content/repo"], check=True)
+sys.path[:0] = ["/content/repo/fabrica", "/content/repo/piloto", "/content/repo/criba"]
+import comun, fabrica, medir, comparar_whisper as cw
+comun.montar_drive()
+comun.desconectar_si_falla()
+CFG = fabrica.cargar_config()
+RAIZ_EPISODIOS = Path(CFG["rutas"]["drive"]) / CFG["rutas"]["episodios"]
+carpetas = []
+for ep in EPISODIOS:
+    base = Path("/content/repo/episodios") / ep
+    titulo_en = json.loads((base / "metadata.en.json").read_text(encoding="utf-8"))["titulo"]
+    c = fabrica.carpeta_episodio(RAIZ_EPISODIOS, ep, titulo_en, crear=False)
+    if (c / "registro_tts.jsonl").exists():
+        carpetas.append(c)
+    else:
+        print("sin registro, lo salto:", ep)
+ITEMS = cw.frases_de(carpetas, N_FRASES)
+for i in ITEMS:
+    i["audio"] = medir.audio_16k(i["ruta"])
+ITEMS = cw.con_averias(ITEMS, N_AVERIAS)
+reales = sum(i["tipo"] == "real" for i in ITEMS)
+print(f"{{reales}} frases reales ({{sum(i['ok_registro'] is False for i in ITEMS if i['tipo'] == 'real')}} sospechosas) "
+      f"y {{len(ITEMS) - reales}} averías; {{sum(len(i['audio']) for i in ITEMS) / 16000 / 60:.1f}} min de audio")
+"""),
+    code("""
+# 4. Que las oigan los dos modelos, uno detrás de otro (con la misma regla de la fábrica)
+import gc, torch
+from transformers.utils import logging as hf_logging
+hf_logging.set_verbosity_error()
+MODELOS = ["openai/whisper-large-v3", "openai/whisper-large-v3-turbo"]
+RES, TIEMPO = {}, {}
+for modelo in MODELOS:
+    asr = medir.Asr(modelo)
+    asr.transcribe_lote([ITEMS[0]["audio"]], 16000)   # calentar, para no medir la primera llamada
+    torch.cuda.synchronize(); t0 = time.time()
+    oidos = asr.transcribe_lote([i["audio"] for i in ITEMS], 16000, batch_size=8)
+    torch.cuda.synchronize(); TIEMPO[modelo] = time.time() - t0
+    RES[modelo] = cw.decidir(ITEMS, oidos, CFG["verificacion"])
+    print(f"{modelo}: {TIEMPO[modelo]:.0f} s, pico {torch.cuda.max_memory_allocated() / 2**30:.1f} GB")
+    del asr; gc.collect(); torch.cuda.empty_cache(); torch.cuda.reset_peak_memory_stats()
+"""),
+    code("""
+# 5. Comparar y dejar el resultado en naval-podcast/pruebas/whisper_turbo.md
+a, b = MODELOS
+texto, VALE = cw.informe(ITEMS, RES[a], RES[b], TIEMPO[a], TIEMPO[b], "large-v3", "turbo")
+destino = RAIZ_EPISODIOS.parent / "pruebas" / "whisper_turbo.md"
+destino.parent.mkdir(parents=True, exist_ok=True)
+destino.write_text(texto, encoding="utf-8")
+print(texto)
+print("RESULTADO:", "turbo VALE" if VALE else "turbo NO VALE", "→", destino)
+"""),
+    code("""
+# 6. Subir a Drive y desconectar
+comun.desconectar()
+"""),
+]
+
+
 def main():
     nb = {"nbformat": 4, "nbformat_minor": 0,
           "metadata": {"accelerator": "GPU", "colab": {"provenance": [], "gpuType": "T4"},
@@ -211,6 +299,10 @@ def main():
           "cells": CELDAS}
     destino = RAIZ / "fabrica.ipynb"
     destino.write_text(json.dumps(nb, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    print("escrito", destino)
+    otro = dict(nb, cells=CELDAS_WHISPER)
+    destino = RAIZ / "comparar_whisper.ipynb"
+    destino.write_text(json.dumps(otro, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print("escrito", destino)
 
 
