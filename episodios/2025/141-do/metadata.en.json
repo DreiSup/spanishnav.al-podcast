@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 141,
+  "anio": 2025,
+  "slug": "do",
+  "titulo": "If You Want to Learn, Do",
+  "subtitulo": "",
+  "fecha_publicacion": "2025-07-22",
+  "fuente_url": "https://nav.al/do",
+  "orden_archivo": 145,
+  "en_feed": true,
+  "participantes": [
+    "Naval"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-07"
+}
