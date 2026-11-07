@@ -2,7 +2,13 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**134** episodios · **2** publicados · **10** escuchados por el autor (**1** para revisar) · **0** sin empezar
+**135** episodios · **2** publicados · **10** escuchados por el autor (**1** para revisar) · **0** sin empezar
+
+## 2025
+
+| # | Episodio | Título en español | Estado | Escuchado | Drive | YouTube |
+|---|---|---|---|---|---|---|
+| 154 | [154-in-the-arena](episodios/2025/154-in-the-arena) | En la arena | 🟠 en revisión | — | — | — |
 
 ## 2023
 
