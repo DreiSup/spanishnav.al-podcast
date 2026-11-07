@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 152,
+  "anio": 2025,
+  "slug": "good-products",
+  "titulo": "Good Products Are Hard to Vary",
+  "subtitulo": "",
+  "fecha_publicacion": "2025-09-29",
+  "fuente_url": "https://nav.al/good-products",
+  "orden_archivo": 156,
+  "en_feed": true,
+  "participantes": [
+    "Naval"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-07"
+}

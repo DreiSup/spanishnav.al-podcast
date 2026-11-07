@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**147** episodios · **2** publicados · **10** escuchados por el autor (**1** para revisar) · **0** sin empezar
+**148** episodios · **2** publicados · **10** escuchados por el autor (**1** para revisar) · **0** sin empezar
 
 ## 2025
 
@@ -20,6 +20,7 @@
 | 149 | [149-fool](episodios/2025/149-fool) | Es imposible engañar a la madre naturaleza | 🟠 en revisión | — | — | — |
 | 150 | [150-density](episodios/2025/150-density) | Los mejores autores respetan el tiempo del lector | 🟠 en revisión | — | — | — |
 | 151 | [151-get](episodios/2025/151-get) | La mayoría de los libros hay que hojearlos, y unos pocos devorarlos | 🟠 en revisión | — | — | — |
+| 152 | [152-good-products](episodios/2025/152-good-products) | Los buenos productos son difíciles de variar | 🟠 en revisión | — | — | — |
 | 154 | [154-in-the-arena](episodios/2025/154-in-the-arena) | En la arena | 🟠 en revisión | — | — | — |
 
 ## 2023
