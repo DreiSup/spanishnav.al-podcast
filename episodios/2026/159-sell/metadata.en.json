@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 159,
+  "anio": 2026,
+  "slug": "sell",
+  "titulo": "Sell the Truth",
+  "subtitulo": "On persuasion, charisma, dealmaking, and walking away",
+  "fecha_publicacion": "2026-05-11",
+  "fuente_url": "https://nav.al/sell",
+  "orden_archivo": 163,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-07"
+}

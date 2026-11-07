@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 159,
+  "anio": 2026,
+  "slug": "sell",
+  "titulo_es": "Vende la verdad",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Vende la verdad",
+    "descripcion": "",
+    "tags": [],
+    "url": "",
+    "url_original": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "publicacion": {
+    "fecha": "",
+    "audio_url": "",
+    "audio_bytes": 0,
+    "duracion_s": 0,
+    "feed_guid": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "escucha": {
+    "escuchado": false,
+    "resultado": null,
+    "fecha": null,
+    "feedback": ""
+  },
+  "notas": "Inglés sacado del Google Doc «2026 all podcasts» de Drive; cuadra palabra a palabra con el documento (del «Get podcast» a «Related», sin enlaces). Solo hablan Naval y Nivi. Sin notas del editor. Decisiones del autor del 6 y 7-nov aplicadas (GLOSARIO, Naval y Nivi 2025 y 2026): la intervención de Nivi que el inglés trae dos veces, antes y después del título de sección The Age of Nonlinear Returns, se traduce las dos veces, fiel al inglés (b20 y b21); comillas irónicas reformuladas, sin entre comillas (lo que llaman vender, eso que llaman la venta, las supuestas técnicas, eso que llamo mi venta); shitty startup = una startup muy mala, en la cita de Jeff Fagnan, que va en estilo indirecto (b15); evangelical sale = vender como un evangelizador (b13 a b15); Influencia, la psicología de la persuasión (HarperCollins, 2022), con coma en vez de punto para el TTS; Pre-suasión no se nombra porque Naval no lo nombra; CLASSR no se dice: se dicen los seis principios (b03); Wind, Sand and Stars = Tierra de hombres y Airman's Odyssey = una recopilación de sus libros de aviación (b11); Liftoff y The Macintosh Way con título en inglés y descripción, The Soul of a New Machine = El alma de una nueva máquina (b12); El lobo de Wall Street y véndeme este bolígrafo en estilo indirecto (b14); a taste of freedom can make you unemployable = probar la libertad puede hacerte inempleable, y homeschooled, unschoolable = un niño que ha estudiado en casa ya no hay quien lo escolarice (b11); high-agency = con mucha capacidad de actuar (b11); vibe coding glosado en b14; Impossible en inglés; grand slam como en el 069 (b22). Otras decisiones: deal = acuerdo, dealmaking = negociar acuerdos, título de sección Buen trato o ningún trato; reality distortion field = campo de distorsión de la realidad (b02); yes, and = sí, y además; rational empathy = empatía racional; selfish honesty = honestidad egoísta; charisma = seguridad y amor; Hunt Together = Salir de caza en grupo, sin el vosotros de cazad; Feed Your (Good) Obsessions = Alimenta tus obsesiones, las buenas; stag hunt = la caza del ciervo, Prisoner's Dilemma = el dilema del prisionero (b12, b19); power law = ley de potencias; upside = lo que se puede ganar; optionality = opcionalidad; X, Y, Z y A, B, C = esto, aquello y lo otro, otras tres cosas (b19); two through N = del segundo al último (b22); once in a blue moon = muy de vez en cuando; ex post facto = a posteriori; kindling (Schopenhauer) = la yesca; hunky dory = de color de rosa; business is war by other means = los negocios son la guerra por otros medios; splitting hairs = discutir por minucias; preferred stock, veto rights, board = acciones preferentes, derechos de veto, consejo de administración; Saint Exupéry sin guion; la frase del barco en la versión de Naval, en estilo indirecto. Lapsus y anomalías del inglés que no se corrigen: el séptimo principio de Cialdini no es el anclaje sino la unidad (b03); your whole life ran you by, por passed you by, traducido por el sentido (b22); doble espacio tras Nivi en b21. Escuchar en el TTS: Robert Cialdini, Influencia, Glengarry no (va como Éxito a cualquier precio), Antoine de Saint Exupéry, Tierra de hombres, Liftoff, Musk, SpaceX, The Macintosh Way, Jobs, Macintosh, El alma de una nueva máquina, Jeff Fagnan, Accomplice, El lobo de Wall Street, Schopenhauer, Impossible, vibe coding, grand slam, startup, startups, software, app."
+}
