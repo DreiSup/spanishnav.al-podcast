@@ -4,7 +4,7 @@
   "episodio": "2020/070-matt-ridley",
   "numero": 70,
   "fecha": "2020-07-09",
-  "titulo": "Matt Ridley: Claves de la innovación, parte 1",
+  "titulo": "Matt Ridley: Cómo funciona la innovación, parte 1",
   "subtitulo": "La innovación es hija de la libertad",
   "fuente_url": "https://nav.al/matt-ridley",
   "titulos_seccion": [
@@ -36,7 +36,7 @@
         "Su libro La evolución de todo continuó con ese tema, la idea de que todo evoluciona.",
         "Siento decir que se me han escapado uno o dos de tus libros, Matt.",
         "Uno de ellos es el titulado Qué nos hace humanos, y tengo que volver a por él para leerlo.",
-        "Y hace muy poco, Matt ha escrito un libro estupendo titulado Claves de la innovación, que ya habrá salido cuando se publique este podcast.",
+        "Y hace muy poco, Matt ha escrito un libro estupendo titulado Cómo funciona la innovación, que ya habrá salido cuando se publique este podcast.",
         "He tenido el placer de leer un ejemplar anticipado durante la última semana.",
         "Bienvenido, Matt, para mí es un honor tenerte aquí.",
         "¿Quieres contarnos un poco de tu trayectoria y de cómo empezaste a escribir sobre ciencia?"
@@ -187,7 +187,7 @@
         "Además quería ganar dinero, así que cambié de rumbo hacia el negocio de la tecnología, que creía que consistía en comercializar la ciencia y llevarla a las masas.",
         "Llegué a Silicon Valley pensando que la invención era eso que había leído en los libros, un inventor genial que da con un invento nuevo y cambia el mundo.",
         "Orville y Wilbur Wright crearon el avión, Samuel Morse creó el telégrafo y Alexander Graham Bell creó el teléfono.",
-        "Newton y Leibniz descubrieron el cálculo, y sin ellos nos habríamos quedado atascados en la Edad Oscura quién sabe cuánto tiempo.",
+        "Newton y Leibniz descubrieron el cálculo, y sin ellos nos habríamos quedado atascados en los siglos oscuros quién sabe cuánto tiempo.",
         "Así es como yo creía que funcionaba el mundo.",
         "Cuando llegué a Silicon Valley, miré a mi alrededor y no vi que pasara eso.",
         "No vi a un solo inventor genial creando una sola cosa que de repente cambiara el mundo.",
@@ -218,8 +218,8 @@
         "¿Y de dónde sacó la idea de estas variedades enanas de trigo, que aguantaban más fertilizante y por tanto daban más rendimiento?",
         "La sacó en un bar de Buenos Aires, durante un congreso, de Burton Bayles, un agrónomo bastante desconocido que coincidió allí con él.",
         "Bayles había visto a Orville Vogel cultivar estas variedades en Oregón y cruzar unas con otras.",
-        "Orville Vogel había conseguido estas variedades de Cecil Salmon, que había formado parte del estado mayor de Douglas MacArthur en Tokio al final de la guerra.",
-        "Salmon había visitado estaciones agrícolas en Japón y había encontrado allí estas variedades enanas.",
+        "Orville Vogel había conseguido estas variedades de Cecil Sálmon, que había formado parte del estado mayor de Douglas MacArthur en Tokio al final de la guerra.",
+        "Sálmon había visitado estaciones agrícolas en Japón y había encontrado allí estas variedades enanas.",
         "Las había desarrollado, cruzado, hibridado y mejorado Gonjiro Inazuka, que a su vez las había sacado de algún lugar de la península de Corea, y ahí se pierde el rastro.",
         "Y si vuelves a Borlaug, ves que tampoco convenció a la India él solo.",
         "Habló con el genetista indio Swaminathan, que recogió el testigo e hizo muchísimo trabajo para convencer a sus compatriotas de que adoptaran esta tecnología.",
@@ -233,7 +233,7 @@
       "frases": [
         "Esto también ayuda a explicar por qué la innovación suele estar concentrada geográficamente.",
         "Si fuera cosa de grandes avances de individuos solitarios, cabría esperar que la innovación estuviera muy dispersa geográficamente.",
-        "Pero suele estar muy concentrada, allí donde estás rodeado de otros inventores, manitas y pensadores, porque siempre estás construyendo sobre pequeñas piezas sueltas.",
+        "Pero suele estar muy concentrada, allí donde estás rodeado de otros inventores, de pensadores y de los que trastean, porque siempre estás construyendo sobre pequeñas piezas sueltas.",
         "Lo vemos en Silicon Valley, con una densidad y una concentración geográficas que casi parecen injustas para el resto del mundo.",
         "La idea de alguien en un cóctel pasa a otra persona en una cafetería y acaba convertida en un prototipo.",
         "Ese prototipo llega a un inversor de capital riesgo, que lo comenta con una empresa de su cartera, que a su vez se lo menciona a otro emprendedor, y así sucesivamente."
@@ -283,7 +283,7 @@
         "En aquella época era un imperio sorprendentemente descentralizado, y la gente podía desplazarse y escapar de un gobierno local que no le ofrecía nada prometedor.",
         "Estados Unidos es la excepción que parece confirmar esta regla.",
         "Aunque desde fuera parece un imperio, un país enorme y unificado, cuando entras ves que California tiene un régimen bastante distinto al de otras partes.",
-        "Esta misma semana, Elon Musk hablaba de irse de California y mudarse a Texas, porque está muy molesto con cómo están gestionando el fin del confinamiento.",
+        "Esta misma semana, Elon Musk hablaba de irse de California y mudarse a Texas, porque está muy molesto con cómo están gestionando el fin de la cuarentena.",
         "Es como un innovador europeo del siglo quince que amenaza con irse de una parte de Alemania a otra parte de Alemania."
       ]
     },
@@ -312,7 +312,7 @@
         "Podrían tener colaboradores anónimos, financiación anónima, dinero anónimo y desarrolladores anónimos.",
         "Hay incluso un santo grial en cripto que se llama organización autónoma.",
         "Son empresas que existen como smart contracts dentro de la blockchain, completamente fuera de cualquier soberanía, al margen del Estado.",
-        "Pueden aplicar el derecho contractual, hacer cumplir los contratos y gestionar pagos, dividendos, inversiones, participaciones, deuda, repartos y reputaciones.",
+        "Pueden aplicar el derecho contractual, hacer cumplir los contratos y gestionar pagos, dividendos, inversiones, equity, deuda, repartos y reputaciones.",
         "Así reconstruyen la empresa, pero la modernizan, y pasan de los tiempos de la Carta Magna a un sistema moderno basado en código.",
         "Ese sistema vive en una blockchain matemática, anónima y basada en la reputación.",
         "No me sorprendería que dentro de diez años el resto de la industria tecnológica estuviera tan distribuido como lo está hoy la industria cripto.",
@@ -336,15 +336,15 @@
       "speaker": "Matt",
       "frases": [
         "Muchas gracias por eso, porque de una sola vez has llenado una laguna que tenía en mi forma de entenderlo.",
-        "Siempre me ha interesado que estos incendios forestales de la innovación acaben apagándose por alguna combinación de gobernantes, sacerdotes y ladrones, por así decirlo."
+        "Siempre me ha interesado que estos incendios forestales de la innovación acaben apagándose por alguna combinación de jefes, sacerdotes y ladrones, por así decirlo."
       ]
     },
     {
       "id": "b19-naval",
       "speaker": "Naval",
       "frases": [
-        "Me gusta eso de gobernantes, sacerdotes y ladrones.",
-        "O, como diría un bromista, gobernantes, sacerdotes y ladrones, ¿qué diferencia hay?"
+        "Me gusta eso de jefes, sacerdotes y ladrones.",
+        "O, como diría un bromista, jefes, sacerdotes y ladrones, ¿qué diferencia hay?"
       ]
     },
     {
@@ -370,7 +370,7 @@
         "Está intentando centralizar todas sus decisiones a través de la Unión Europea.",
         "Pero la India ya lo ha hecho antes, y probablemente fue el primer lugar donde arrancó todo esto.",
         "Era un lugar de pensamiento libre y de mucho orden espontáneo, y también de mucho desorden espontáneo.",
-        "Quizá sea ese el lugar, pero tú me has dado otra posibilidad, que es escapar de los gobernantes, los sacerdotes y los ladrones hacia la nube.",
+        "Quizá sea ese el lugar, pero tú me has dado otra posibilidad, que es escapar de los jefes, los sacerdotes y los ladrones hacia la nube.",
         "Allí la innovación puede quedar fuera de su alcance, al menos el tiempo suficiente hasta que averigüen cómo llegar a ella."
       ]
     },
@@ -443,7 +443,7 @@
         "¿En tu pequeño apartamento de Nueva York o en un pisito de Londres?",
         "¿O prefieres estar sentado en un jardín precioso, al sol?",
         "Los seres humanos quieren por naturaleza un entorno limpio y bonito.",
-        "Pero ese movimiento lo secuestran mecanismos de arriba abajo, de ordeno y mando, en manos de gobernantes, sacerdotes y ladrones.",
+        "Pero ese movimiento lo secuestran mecanismos de arriba abajo, de ordeno y mando, en manos de jefes, sacerdotes y ladrones.",
         "Así pueden despilfarrar los recursos que ya tenemos y además aplastar la innovación, y eso nos impide avanzar."
       ]
     }
