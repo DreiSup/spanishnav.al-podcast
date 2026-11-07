@@ -89,7 +89,7 @@ otro tamaño, falla y lo deja) y comprueba que `https://audio.spanishnav.al/…`
 master. Usa un token propio de R2 (`colab-spanishnaval`, Object Read & Write, solo el bucket) guardado por el autor en
 los Secretos de Colab `R2_ACCESS_KEY_ID` y `R2_SECRET_ACCESS_KEY`; nunca pasa por el chat ni por el repo. Al final
 imprime el tamaño y la duración de cada master, que es lo que necesita la web. **Subir a R2 no publica nada.**
-Probado con un R2 simulado; **sin validar con el R2 real** (se valida con el 002, que ya está: lo tiene que saltar).
+**Validado el 7-nov** con el R2 real: el 002 lo saltó (ya estaba) y subió 003, 004 y 005 (200, `audio/mpeg`, tamaño del master).
 
 ## 3. La descripción de cada episodio
 
