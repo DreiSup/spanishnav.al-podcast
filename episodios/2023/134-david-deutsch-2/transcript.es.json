@@ -4,7 +4,7 @@
   "episodio": "2023/134-david-deutsch-2",
   "numero": 134,
   "fecha": "2023-08-11",
-  "titulo": "David Deutsch: la creación de conocimiento y la especie humana, segunda parte",
+  "titulo": "David Deutsch: la creación de conocimiento y la raza humana, parte 2",
   "subtitulo": "",
   "fuente_url": "https://nav.al/david-deutsch-2",
   "titulos_seccion": [
@@ -23,8 +23,7 @@
       "speaker": "Brett Hall",
       "frases": [
         "Hay otra cosa que va contra la intuición, y es uno de los errores de concepto que veo surgir en el mundo académico, en los círculos intelectuales y en la educación.",
-        "La gente cree que existe una teoría definitiva.",
-        "Creen que lo que intentamos conseguir es un cubo lleno de teorías que serán la verdad al final de algún periodo de descubrimientos.",
+        "La gente cree que existe una teoría definitiva, y que lo que intentamos conseguir es un cubo lleno de teorías que serán la verdad al final de algún periodo de descubrimientos.",
         "Y que podremos ir por ahí con ese cubo, diciendo que aquí están todas las verdades y que ya no nos queda trabajo por hacer.",
         "Al parecer, vamos a sentarnos a no hacer nada, salvo dejar que la inteligencia artificial se encargue de todos los trabajos más pesados.",
         "Estaremos tumbados en hamacas tomando cócteles, o algo por el estilo.",
@@ -33,6 +32,13 @@
         "No es solo que esté un poco equivocada, es que está infinitamente equivocada.",
         "Porque nunca llegará el momento en que estemos tumbados en hamacas tomando cócteles, intelectualmente hablando.",
         "¿Puedes contarnos un poco más sobre esto, ya que es una idea que viene de Popper?"
+      ],
+      "notas_editor": [
+        {
+          "tras_frase": 2,
+          "texto": "[creen]",
+          "original": "[They think]"
+        }
       ]
     },
     {
@@ -76,8 +82,8 @@
         "Y ahora entiende de forma intuitiva que sí, que todo es una conjetura.",
         "Así que, cada vez que llegamos a algo y me pregunta por qué, le digo que empecemos a hacer unas cuantas conjeturas.",
         "Cuando asimilas esta visión del mundo, la ves con claridad por todas partes.",
-        "Por ejemplo, en mi campo, el de la tecnología y la innovación, la gente piensa que está siendo creativa, y lo que hace es conjeturar.",
-        "Los artistas creen que están siendo creativos, y lo que hacen es conjeturar."
+        "Por ejemplo, en mi campo, el de la tecnología y la innovación, la gente piensa que está siendo creativa, que está conjeturando.",
+        "Los artistas creen que están siendo creativos, y que están conjeturando."
       ]
     },
     {
@@ -90,14 +96,14 @@
         "Creo que Popper no se centró lo suficiente en el concepto de explicación, en que el propósito de la ciencia es la explicación.",
         "Así que una de las notas al pie que he añadido a la epistemología popperiana es que no es solo que las buenas explicaciones sean buenas como heurística y nos ayuden a descubrir cosas.",
         "Es más bien que todo esto trata justamente de descubrirlas.",
-        "Cuando hablas, por ejemplo, de que algo sea comprobable, eso solo importa porque en un campo concreto, que es la física, es la forma de poner a prueba las explicaciones."
+        "Cuando hablas, por ejemplo, de que algo sea contrastable, eso solo importa porque en un campo concreto, que es la física, es la forma de poner a prueba las explicaciones."
       ]
     },
     {
       "id": "b06-david-deutsch",
       "speaker": "David Deutsch",
       "frases": [
-        "Me gustaría hacer una distinción entre experimentos, demostraciones y mediciones.",
+        "Me gustaría hacer una distinción entre experimentos, demostraciones prácticas y mediciones.",
         "Cuando haces este experimento con el ácido y la base, como no hay ninguna teoría rival, lo que estás haciendo es una demostración.",
         "Si se lo enseñas a unos escolares, puedes decirles que no se van a creer lo que pasa al echar esto en aquello, y que no lo adivinarían ni en un millón de años.",
         "Entonces lo echas, cambia de color, y ellos te dicen que ya han visto cosas así antes.",
@@ -112,7 +118,7 @@
         "Y por eso, cuando estimaban la masa del Sol y demás, siempre era como un múltiplo de la masa de la Tierra.",
         "Luego llegó Cavendish con un experimento práctico, en el que había una fuerza gravitatoria entre dos objetos cuya masa se podía medir directamente.",
         "Esa masa se medía pesándolos por comparación con un kilogramo patrón, o con lo que tuvieran en aquella época.",
-        "Y así demostró que se puede medir la constante.",
+        "Y con eso se podía medir la constante.",
         "Ahora bien, eso no es un experimento, aunque se le llame el experimento de Cavendish.",
         "En la terminología que intento establecer, no es un experimento, porque solo hay una explicación en juego.",
         "Antes, durante y después de sus experimentos, Cavendish nunca dudó de la teoría de la gravedad de Newton.",
@@ -123,6 +129,13 @@
         "Así que, por la situación del problema en aquel momento, lo que faltaba era una medición.",
         "Hoy, muchos experimentos a los que llamamos experimentos son en realidad mediciones, y muchos otros son en realidad demostraciones.",
         "Lo cual no quiere decir que las mediciones y las demostraciones no sean estupendas."
+      ],
+      "notas_editor": [
+        {
+          "tras_frase": 16,
+          "texto": "[demostró]",
+          "original": "[showed]"
+        }
       ]
     },
     {
@@ -260,9 +273,16 @@
         "Si no era un círculo, había que explicar por qué no lo era.",
         "Kepler se limitaba a decir que bastaba con mirar, que era una elipse.",
         "Eso a Galileo no le bastaba, así que tuvo que retorcer la teoría para que predijera círculos.",
-        "Pero entonces llegó Newton y dijo que era la ley de la inversa del cuadrado, y que esa ley puede producir círculos, pero también elipses.",
+        "Pero entonces llegó Newton y dijo que era la ley de la inversa del cuadrado, y que esa ley puede producir círculos o elipses.",
         "Y ese es un nivel de explicación más profundo incluso que decir que los círculos son formas perfectas.",
         "Así que están relacionadas por las suposiciones que comparten y por los problemas que tienen o que resuelven."
+      ],
+      "notas_editor": [
+        {
+          "tras_frase": 21,
+          "texto": "[también]",
+          "original": "[also]"
+        }
       ]
     },
     {
@@ -291,7 +311,7 @@
         "A veces el más terco es el que de verdad tiene razón, como Lister y Semmelweis.",
         "Se mantuvieron en sus trece y los rechazaron, pero incluso entonces no fue una cuestión generacional.",
         "Lo que había en marcha era un proceso mucho más complejo.",
-        "Los médicos no solo rechazaron una teoría, rechazaron tener que cambiar su forma de trabajar, porque eso rebajaba la dignidad que la gente veía en ellos.",
+        "Quienes los rechazaron no solo rechazaron una teoría, rechazaron tener que cambiar su forma de trabajar, porque eso rebajaba la dignidad que la gente veía en ellos.",
         "Pero esa dignidad que la gente ve en los médicos cumple una función.",
         "Sobre todo cuando no se sabía mucho de medicina, si le decías a alguien que había que quitarle las amígdalas, necesitabas un poco de autoridad, por irracional que sea.",
         "Y es que era una operación muy desagradable, difícil y dolorosa.",
@@ -303,6 +323,13 @@
         "Aunque sea falsa, hay una razón por la que la adopta.",
         "Si no le resulta satisfactoria, no la adopta.",
         "Y a veces la gente es irracional, así son las cosas, pero esa no es la imagen de la ciencia."
+      ],
+      "notas_editor": [
+        {
+          "tras_frase": 10,
+          "texto": "[los médicos]",
+          "original": "[Doctors]"
+        }
       ]
     },
     {
@@ -430,8 +457,7 @@
         "Se trataba más bien de decir, mira, aquí hay un problema.",
         "Algunas personas tienen privilegios, pero Dios nos dice que todas las personas son iguales.",
         "¿Qué podemos hacer para resolver este problema?",
-        "También hubo un cambio social y un cambio económico bastante rápidos.",
-        "Pero todo ello consistió en extender a cada vez más clases de personas unos privilegios que antes solo tenía la clase dirigente.",
+        "También hubo un cambio socioeconómico bastante rápido, pero todo ello consistió en extender a cada vez más clases de personas unos privilegios que antes solo tenía la clase dirigente.",
         "Estaba el Parlamento, al que solo tenía acceso un grupo determinado de personas.",
         "Luego se abrió a más y más personas, y así sucesivamente.",
         "Había una expresión que decía que la casa de un inglés es su castillo.",
@@ -455,6 +481,13 @@
         "La forma de hacerlo es que las teorías rivales se enfrenten entre sí.",
         "Tienes que poder decir cuál crees que es el problema, y los demás dicen cuál creen ellos que es el problema, y así sucesivamente.",
         "En ningún momento se da por hecho que alguien tenga la respuesta definitiva."
+      ],
+      "notas_editor": [
+        {
+          "tras_frase": 8,
+          "texto": "[y]",
+          "original": "[and]"
+        }
       ]
     },
     {
@@ -481,11 +514,18 @@
         "En cambio, el conocimiento que es útil será común a todo el multiverso.",
         "Hablo de los genes que llevan a una mayor adaptación, de las ideas que llevan a una mayor supervivencia y de los inventos que estamos creando y que de verdad funcionan.",
         "Y hablo de las filosofías que tenemos y que hacen que los seres humanos prosperemos y nos repliquemos.",
-        "Así que sería casi como si hubiera un cristal de conocimiento.",
-        "No creo que esto sea factible, pero si de algún modo pudieras asomarte al multiverso como si fuera un único objeto, la verdad sería emergente.",
+        "Así que sería casi como si hubiera un cristal de conocimiento, y no creo que esto sea factible.",
+        "Si de algún modo pudieras asomarte al multiverso como si fuera un único objeto, la verdad sería emergente.",
         "O estaríamos más cerca de la verdad al ver lo que es común en todo el multiverso, y lo que varía de un universo a otro no sería verdad.",
         "Hasta donde yo sé, esta idea es única y tremendamente interesante.",
         "¿Pero se podrá sacar de ella algo práctico algún día?"
+      ],
+      "notas_editor": [
+        {
+          "tras_frase": 21,
+          "texto": "[pero]",
+          "original": "[but]"
+        }
       ]
     },
     {
