@@ -200,3 +200,4 @@ episodio. Episodios con notas a 6-nov: 008, 010, 017, 018, 020 y 052.
 | 2026-11-07 | 075 Explanations That Reach the Entire Universe (revisión con el autor) | revision | 3 | 16 | 301 | 1,8 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
 | 2026-11-07 | 076 Read the Best 100 Books Over and Over Again (revisión con el autor) | revision | 3 | 29 | 470 | 2,8 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
 | 2026-11-07 | 078 We’re at the Beginning of an Infinity of Knowledge (revisión con el autor) | revision | 3 | 24 | 358 | 2,1 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
+| 2026-11-07 | 079 People Are a Force of Nature (revisión con el autor) | revision | 1 | 22 | 381 | 2,2 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
