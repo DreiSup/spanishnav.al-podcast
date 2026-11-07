@@ -41,6 +41,31 @@ En el repo de la web (`DreiSup/spanishnaval-web`):
 - Por tanto, el episodio del día aparece entre las 12:00 y las 13:00 UTC, y las plataformas lo recogen después
   (Spotify y Apple tardan de minutos a horas).
 
+### Qué es «actualizarse cada hora»
+
+No es un push a `main` ni un despliegue de Vercel. Es la **regeneración incremental** (ISR) de Next.js: Vercel guarda
+cada página y el feed ya hechos; cuando alguien los pide y la copia tiene más de una hora, Vercel le sirve la copia y,
+por detrás, rehace esa página con el código ya desplegado (sin build, sin push, sin coste apreciable). Como
+`publishedEpisodes()` mira la hora en ese momento, la copia nueva ya incluye el episodio del día. Con «cada día»
+(`revalidate = 86400`) el episodio podría salir hasta 24 h tarde, porque el reloj de cada página empieza cuando se
+regeneró la última vez, no a las 12:00.
+
+## 3. YouTube — preparado el 7-nov, sin probar con la API real
+
+Cuaderno `video/video.ipynb` con `SUBIR_YOUTUBE = True`:
+
+- Título y descripción de `metadata.es.json` → `youtube`, que deja la sesión de dirección con
+  `python3 scripts/descripcion.py <año>/<NNN>-<slug> --guardar` (la misma plantilla que el feed; `--comprobar` la
+  compara con el feed publicado).
+- Programado para las 12:00 UTC de `publicacion.fecha` (`status.publishAt`); si esa hora ya pasó, público al momento.
+  `YOUTUBE_MODO = "privado"` lo sube sin programar.
+- Categoría Educación (27), idioma `es`, «no es para niños», `containsSyntheticMedia: true`, miniatura y lista
+  «Naval Podcast en español». Si la miniatura o la lista fallan, lo avisa y sigue.
+- No sube dos veces: lo salta si el repo ya tiene `youtube.url` o si el canal ya tiene un vídeo con ese título.
+- Credenciales: cliente OAuth de escritorio en los Secretos `YT_CLIENT_ID` y `YT_CLIENT_SECRET`; la autorización se
+  guarda en Drive, `naval-podcast/_privado/youtube_token.json` (nunca en el repo ni en el chat).
+- Prueba: 003 (7-nov, hoy) y 004 (8-nov) — ¿YouTube respeta `publishAt` o los deja en privado?
+
 ## Pendiente
 
 - Validar el punto 2 en producción (Vercel) con el primer lote.
