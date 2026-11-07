@@ -1,0 +1,110 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2025/153-simplest",
+  "numero": 153,
+  "fecha": "2025-10-02",
+  "titulo": "Busca lo más sencillo que funcione",
+  "subtitulo": "",
+  "fuente_url": "https://nav.al/simplest",
+  "titulos_seccion": [],
+  "contenido": [
+    {
+      "id": "b01-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Todos hemos visto las fotos del motor Raptor de los cohetes de SpaceX.",
+        "Y si te fijas en las distintas versiones, pasan de ser fáciles de variar a ser difíciles de variar.",
+        "Porque la versión más reciente no tiene tantas piezas con las que puedas trastear.",
+        "Las versiones anteriores tienen un millón de piezas distintas en las que podrías cambiar el grosor, la anchura, el material y demás.",
+        "La versión actual apenas tiene piezas con las que puedas hacer nada."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Hay una idea en la teoría de la complejidad según la cual, siempre que encuentras un sistema complejo que funciona en la naturaleza, hay algo sencillo detrás.",
+        "Suele ser el resultado de un sistema muy sencillo, o de algo muy sencillo, que se ha iterado una y otra vez.",
+        "Lo estamos viendo últimamente en la investigación en inteligencia artificial.",
+        "Se cogen algoritmos muy sencillos y se les echan cada vez más datos, y cada vez son más listos.",
+        "Lo que no funciona tan bien es lo contrario.",
+        "Cuando diseñas un sistema muy complejo y luego intentas construir con él un sistema grande que funcione, se viene abajo, porque tiene demasiada complejidad.",
+        "Así que buena parte del diseño de productos es iterar sobre tus propios diseños hasta dar con lo sencillo que funciona.",
+        "Y a menudo le has añadido alrededor cosas que no necesitas, y luego tienes que volver atrás y extraer otra vez la sencillez de entre el ruido.",
+        "Se ve en la informática personal, donde macOS sigue siendo bastante más difícil de usar que iOS.",
+        "iOS está más cerca del ideal platónico de un sistema operativo, aunque un sistema operativo basado en modelos de lenguaje podría estar todavía más cerca, hablándole en lenguaje natural.",
+        "Al final, tienes que quitar cosas para que escalen, y el motor Raptor es un ejemplo de eso.",
+        "A medida que descubres lo que funciona, te das cuenta de lo que sobra y puedes quitar piezas.",
+        "Y este es uno de los grandes principios de Musk, que básicamente dice que optimizar un sistema es de las últimas cosas que haces.",
+        "Antes de empezar a ver cómo hacer algo más eficiente, lo primero que haces es cuestionar los requisitos.",
+        "Te preguntas por qué existe siquiera ese requisito.",
+        "Uno de los métodos de Elon que salen en el nuevo libro de Jorgenson es que primero vas y rastreas el requisito.",
+        "Y no qué departamento se inventó el requisito, porque el requisito tiene que venir de una persona concreta.",
+        "¿Quién es la persona que dijo que esto es lo que quería?",
+        "Vuelves a ella y le preguntas si de verdad lo necesita.",
+        "Y eliminas el requisito, y una vez que has eliminado los requisitos innecesarios, te queda un número menor de requisitos.",
+        "Ahora tienes piezas, e intentas deshacerte de tantas piezas como puedas para cumplir los requisitos que son absolutamente necesarios.",
+        "Y después de eso, quizá entonces empiezas a pensar en optimizar, y ahora intentas ver cómo fabricar esta pieza y encajarla en su sitio de la forma más eficiente.",
+        "Y por último, puede que entres en la eficiencia de costes, las economías de escala y ese tipo de cosas.",
+        "La persona más importante para llevar un gran producto de cero a uno es esa única persona, normalmente el fundador, que puede tener todo el problema en la cabeza.",
+        "Es la que sabe hacer las contrapartidas y entender por qué cada componente está donde está.",
+        "Y no tiene por qué ser quien diseñe cada componente, ni quien lo fabrique, ni conocer todos los entresijos.",
+        "Pero sí tiene que ser capaz de entender por qué está aquí esta pieza.",
+        "Y si se quita una pieza, ¿qué pasa con todas las demás piezas, con sus requisitos y con lo que hay que tener en cuenta?",
+        "Es esa visión de conjunto del producto entero.",
+        "Lo verás en el diseño del motor Raptor.",
+        "El ejemplo que pone Elon, que me pareció bueno, es que intentaba que se produjeran de forma más eficiente unas láminas de fibra de vidrio que van encima de las baterías de Tesla.",
+        "Así que fue a la línea que iba demasiado lenta, puso su saco de dormir en el suelo y se quedó allí.",
+        "E intentaron optimizar el robot que pegaba las láminas de fibra de vidrio a las baterías.",
+        "Intentaban colocarlas de forma más eficiente o acelerar esa línea, y lo lograron, consiguieron mejorarla un poco, pero seguía siendo desesperantemente lenta.",
+        "Y al final preguntó por qué existía ese requisito, por qué estaban poniendo láminas de fibra de vidrio encima de las baterías.",
+        "El de las baterías le dijo que en realidad era por la reducción de ruido, y que tenía que hablar con el equipo de ruido y vibraciones.",
+        "Así que va al equipo de ruido y vibraciones.",
+        "Y les pregunta por qué tienen ahí esas láminas, cuál es el problema de ruido y vibraciones.",
+        "Y le dicen que no, que no hay ningún problema de ruido y vibraciones, que están ahí por el calor, por si la batería se incendia.",
+        "Y entonces vuelve al equipo de baterías y les pregunta si las necesitan.",
+        "Y le dicen que no, que aquí no hay ningún problema de incendios ni de protección contra el calor, que eso está obsoleto, que es un tema de ruido y vibraciones.",
+        "Cada uno había estado haciendo las cosas como le habían enseñado, como se habían hecho siempre.",
+        "Lo probaron para la seguridad, y lo probaron poniendo micrófonos y midiendo el ruido, decidieron que no lo necesitaban y eliminaron la pieza.",
+        "Esto pasa mucho con los sistemas y los diseños muy complejos.",
+        "Tiene gracia, todo el mundo dice que es generalista, que es su forma de escaquearse de ser especialista.",
+        "Pero en realidad lo que quieres ser es un polímata, un generalista que puede aprender cualquier especialidad.",
+        "Al menos lo bastante para dominar el ochenta por ciento con el veinte por ciento del esfuerzo, y así poder hacer contrapartidas inteligentes."
+      ]
+    },
+    {
+      "id": "b03-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "La forma que yo le sugiero a la gente para conseguir esa capacidad de polímata, la de ser un generalista que puede aprender cualquier especialidad, es esta.",
+        "Si vas a estudiar algo, si vas a ir a la universidad, estudia las teorías que tienen más alcance."
+      ]
+    },
+    {
+      "id": "b04-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Yo lo resumiría todavía más y diría simplemente que estudies física.",
+        "Cuando estudias física, estás estudiando cómo funciona la realidad.",
+        "Y si tienes una buena base de física, puedes aprender ingeniería eléctrica, informática, ciencia de materiales, estadística y probabilidad.",
+        "Puedes aprender matemáticas, porque forman parte de ella, son matemáticas aplicadas.",
+        "La mejor gente que he conocido en casi cualquier campo tiene formación en física.",
+        "Si no tienes formación en física, no te agobies, yo tengo una formación fallida en física.",
+        "Puedes llegar por otros caminos, pero la física te entrena para interactuar con la realidad, y es tan implacable que te quita a golpes todas las falsedades bonitas.",
+        "En cambio, si estás en alguna ciencia social, puedes tener todo tipo de creencias chifladas.",
+        "Aunque aprendas algunas de las matemáticas abstrusas que usan en las ciencias sociales, puede que tengas un diez por ciento de conocimiento real y un noventa por ciento de conocimiento falso.",
+        "La buena noticia de la física es que puedes aprender física bastante básica.",
+        "No tienes que llegar hasta el fondo de los quarks, la física cuántica y demás.",
+        "Puedes quedarte en lo básico, bolas rodando por una pendiente, y ya es una buena base.",
+        "Pero creo que merece la pena estudiar cualquiera de las disciplinas de ciencias, tecnología, ingeniería y matemáticas.",
+        "Ahora bien, si no puedes elegir qué estudiar y eso ya te queda atrás, simplemente únete a otras personas.",
+        "De hecho, la mejor gente ni siquiera estudia solo física, son gente que trastea, que construye, que está construyendo cosas.",
+        "Los que trastean siempre están en el límite del conocimiento, porque siempre usan las herramientas más nuevas y las piezas más nuevas para construir cosas geniales.",
+        "Así que es el tipo que construye drones de carreras antes de que los drones sean algo militar, o el que construye robots de combate antes de que los robots sean algo militar.",
+        "O la persona que se monta su propio ordenador personal porque quiere tenerlo en casa y no le basta con ir a la universidad a usar el ordenador de allí.",
+        "Esas son las personas que mejor entienden las cosas, y las que más rápido hacen avanzar el conocimiento."
+      ]
+    }
+  ]
+}
