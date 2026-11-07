@@ -261,7 +261,7 @@ copia exacta de su tramo (docs/cortos-y-largos.md): un cambio va al largo y a su
 | The Beginning of Infinity (Deutsch) | El comienzo del infinito | Biblioteca Buridán, 2012. Afecta también al grupo Brett-Deutsch. |
 | network effect | efecto de red | Ya usado en 052; conviene fijarlo. |
 | venture capital | capital riesgo | Ya usado en 051 y 052; la sigla VC se resuelve como un inversor de capital riesgo. |
-| blockchain / tokens | cadena de bloques / tokens | Decisión pendiente del autor; marcará también el grupo Vitalik. Alternativa: blockchain. |
+| blockchain / tokens | blockchain / tokens | Decisión del autor (7-nov), en la sección de Vitalik. smart contracts también en inglés. |
 | crypto | cripto (cryptoland = el mundo cripto) | Ya usado en el corpus aprobado. |
 | top-down / bottom-up | de arriba abajo / de abajo arriba | Nunca el anglicismo. |
 | herd immunity / lockdown | inmunidad de grupo / confinamiento | Decisión pendiente; alternativa: inmunidad de rebaño. |
@@ -273,30 +273,68 @@ copia exacta de su tramo (docs/cortos-y-largos.md): un cambio va al largo y a su
 | chiefs, priests and thieves (Ridley) | gobernantes, sacerdotes y ladrones | Decisión pendiente; alternativas: jefes, sacerdotes y ladrones o caciques, curas y ladrones. |
 | universal explainers (Deutsch) | explicadores universales | Coordinar con el grupo Brett-Deutsch. |
 
-### Vitalik Buterin y Haseeb Qureshi (131, 132)
+### Vitalik Buterin y Haseeb Qureshi (131, 132) — decisiones del autor del 7-nov
+
+Toda la tabla tiene el visto bueno del autor (7-nov, respuestas 1 a 49 de la ronda de preguntas). Estrategia general
+(respuesta 1): **mixta**. Español donde circula y el oyente lo entiende; inglés donde el autor lo ha decidido o no hay
+equivalente vivo. Regla de aplicación: manda la palabra inglesa del original. *Chain* sola sigue siendo «cadena»
+(«en la cadena», «dos cadenas», «la cadena de Ethereum»); solo *blockchain* pasa a blockchain. Todos los anglicismos
+van a la lista de escucha del episodio antes de dar el audio por bueno.
 
 | Original | En el texto | Nota |
 |---|---|---|
-| blockchain | cadena de bloques / la cadena | El TTS lee mal blockchain (131, 132) |
-| smart contract | contrato inteligente |  |
-| proof-of-work / proof-of-stake | prueba de trabajo / prueba de participación | 052 ya usa prueba de trabajo |
-| node / run a node | nodo / tener un nodo | Ni correr ni ejecutar un nodo |
-| wallet | monedero | Cartera es portfolio (051) |
-| Layer 1 / Layer 2 | capa uno / capa dos |  |
-| sharding | fragmentación |  |
+| blockchain / blockchains | **blockchain**, femenino: la blockchain, las blockchains | Decisión del autor (7-nov). Sustituye a «cadena de bloques». En referencias cortas a *the chain*, «la cadena». smart contract blockchain = blockchain de smart contracts. Escuchar |
+| smart contract(s) | **smart contract**, masculino: el smart contract, los smart contracts | Decisión del autor (7-nov). Sustituye a «contrato inteligente» también en 070, 127 y 130. *Contract* solo (el objeto que define Vitalik) = contrato. Escuchar |
+| proof-of-work / proof-of-stake | **proof of work** / **proof of stake**, sin guiones; masculino si lleva artículo | Decisión del autor (7-nov). Sustituye a «prueba de trabajo» y «prueba de participación» en la serie. El uso figurado del 029 y el 052 («tener prueba de trabajo») está pendiente del autor. Escuchar |
+| staking / stakers / staking pools | staking / quienes hacen staking / **grupos de staking** | Sin «pools». Escuchar staking |
+| sharding | fragmentación; unsharded = sin fragmentar |  |
 | roll-ups | rollups | Escuchar; fonética de reserva rólaps |
-| hard fork | bifurcación dura |  |
-| store of value | depósito de valor | No reserva de valor, para no chocar con moneda de reserva |
-| free rider | polizón (efecto polizón) |  |
-| encrypt / encryption | cifrar / cifrado | No encriptar |
-| Eth | Ethereum (la red) / ether (el activo) |  |
-| Bitcoin / bitcoins | Bitcoin (la red) / bitcoins (las unidades) | Unifica 036 (Bitcoin) y 052 (bitcoin) |
-| hack / hacker | ataque, atacar / atacante, pirata informático | Hacker en sentido positivo = programador |
+| Layer 1 / Layer 2 | capa uno / capa dos; Layer 2s = las soluciones de capa dos |  |
+| Eth | Ethereum (la red) / ether (el activo) | Si ether suena a éter: la moneda de Ethereum |
+| wallet(s) | **wallet**, femenino: la wallet, las wallets | Decisión del autor (7-nov). Sustituye a «monedero». multisig wallet = wallet multifirma; social recovery wallet = wallet de recuperación social. Escuchar |
+| fork / hard fork / the DAO fork | bifurcar / bifurcación dura / la bifurcación de la DAO |  |
+| hack / hacked / hacker | **hackeo / hackear / hacker**, en todos los sentidos | Decisión del autor (7-nov). Sustituye a ataque y atacante cuando el inglés dice hack. *Attacker* y *attack* siguen siendo atacante y ataque. young hacker = joven hacker |
+| run a node | **ejecutar un nodo** | Decisión del autor (7-nov). Sustituye a «tener un nodo» |
+| on-chain / off-chain | en la cadena / fuera de la cadena |  |
+| block space | **espacio en los bloques** | Decisión del autor (7-nov). Sustituye a «espacio de bloque» |
+| throughput | capacidad de procesamiento; transacciones por segundo si hay cifra | Performance = rendimiento |
+| permissionless / permissioned | sin pedir permiso a nadie / lo que más permisos exige |  |
+| trade-off | según la frase: sacrificar algo a cambio de algo, cambiar datos por computación, curva de compensación, equilibrio | No se unifica |
+| enshrined | consagrar |  |
+| store of value | depósito de valor | No reserva de valor, que choca con moneda de reserva |
+| free-rider effect | efecto polizón |  |
+| altcoin / stable coins | **altcoin**, femenino / **stablecoins** | Decisión del autor (7-nov). Sustituye a «moneda alternativa» y «monedas estables». Escuchar |
+| AMM / DeFi / VPN | creador de mercado automatizado / finanzas descentralizadas / redes privadas virtuales | Siglas resueltas en la frase |
+| digital rock | la roca digital | Imagen de Vitalik |
+| encrypt / encryption / encrypted | **encriptar / encriptación / encriptado** | Decisión del autor (7-nov). Sustituye a «cifrar» y «cifrado», también en 071. encryption-decryption key = clave de encriptación y desencriptación |
+| moon math | matemáticas de otro planeta |  |
+| crypto / crypto-land / crypto-head | cripto / el mundo cripto / un fanático de las criptomonedas |  |
+| OG / OGs | uno de los pioneros, el original (Bitcoin) / los veteranos |  |
+| maxis / maximalist | los maximalistas / maximalista |  |
+| memelord | maestro de los memes |  |
+| hustle / alpha / edges | filón / margen que sacar / ventajas | Haseeb |
+| bang for the buck | más te vale sacar mucho a cambio |  |
+| shilling | hacer propaganda |  |
+| uppity young entrepreneur | el joven emprendedor descarado |  |
+| elder statesman | **el viejo estadista** | Decisión del autor (7-nov). Sustituye a «el gran estadista veterano» |
+| stake in the ground | fijar una postura |  |
+| slings and arrows / open season / watershed moment | recibir palos por todas partes / barra libre / punto de inflexión |  |
+| white knights | supuestos salvadores autoproclamados |  |
+| navel gazing (juego Naval/navel, 132 b45) | **se recupera** el juego en la frase | Decisión del autor (7-nov): «ni porque nos estemos mirando el ombligo, y eso que mi nombre en inglés suena a ombligo» |
+| my Bitcoin trip | **mi gira por el mundo de Bitcoin**, y después mi gira | Decisión del autor (7-nov). Sustituye a «mi viaje de Bitcoin» |
+| single-handedly | por sí sola |  |
+| mean (be mean) | desagradable; meanness = dureza |  |
+| compound interest | interés compuesto | Como en todo el corpus |
+| Bitcoin / bitcoins | Bitcoin (la red, con mayúscula) / bitcoins (las unidades) | Decisión del autor (7-nov). Mayúscula también en 006 b02 y 052 b37 (no cambia el audio) |
+| The DAO | la DAO |  |
+| EIP-1559, EIP-4488 / EIP | la propuesta de mejora mil quinientos cincuenta y nueve / cuatro mil cuatrocientos ochenta y ocho / propuesta de mejora de Ethereum | Sin sigla |
+| Vitalik | Vitalik | Escuchar primero; fonética de reserva Vitálik |
+| Sharding leads to more centralization (131, título 16) | La fragmentación lleva a más centralización | Fiel, aunque contradice el texto; anotado en notas |
+| Vitalik: Ethereum, Part 1 / Part 2 | Vitalik: Ethereum, parte 1 / parte 2 | Ver Siglas y títulos |
+| Eth got saved (131 b67) | en mi opinión, ese ecosistema salvó a Ethereum | Interpretación por el contexto; anotada |
 | vetocracy | vetocracia | Fukuyama, Deusto 2016 |
 | Covid | la covid | FundéuRAE |
 | tweet / retweet | tuit / retuitear | FundéuRAE |
-| EIP-1559, EIP-4488 | la propuesta de mejora mil quinientos cincuenta y nueve / cuatro mil cuatrocientos ochenta y ocho | Siglas y títulos: sin sigla |
-| AMM / VPN / DeFi | creador de mercado automatizado / redes privadas virtuales / finanzas descentralizadas | Siglas resueltas en la frase |
 | NFT | NFT, plural invariable |  |
 | IYI (Taleb) | intelectuales pero idiotas | Jugarse la piel, Paidós 2019 |
 | Vladimir Putin | Vladímir Putin | FundéuRAE; fija el acento |
