@@ -212,3 +212,4 @@ episodio. Episodios con notas a 6-nov: 008, 010, 017, 018, 020 y 052.
 | 2026-11-07 | 088 Is the Universe Discrete or Continuous? (revisión con el autor) | revision | 2 | 25 | 407 | 2,4 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
 | 2026-11-07 | 089 Every Theory Is Held Inside a Physical Substrate (revisión con el autor) | revision | 3 | 23 | 385 | 2,3 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
 | 2026-11-07 | 090 We Can’t Prove Most Theorems with Known Physics (revisión con el autor) | revision | 1 | 16 | 291 | 1,7 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
+| 2026-11-07 | 091 Probability Is Subjective (revisión con el autor) | revision | 4 | 20 | 390 | 2,3 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
