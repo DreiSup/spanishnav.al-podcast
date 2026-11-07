@@ -214,3 +214,4 @@ episodio. Episodios con notas a 6-nov: 008, 010, 017, 018, 020 y 052.
 | 2026-11-07 | 090 We Can’t Prove Most Theorems with Known Physics (revisión con el autor) | revision | 1 | 16 | 291 | 1,7 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
 | 2026-11-07 | 091 Probability Is Subjective (revisión con el autor) | revision | 4 | 20 | 390 | 2,3 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
 | 2026-11-07 | 092 Is Light a Particle or a Wave? (revisión con el autor) | revision | 2 | 33 | 640 | 3,8 | Revisión con el autor (7-nov): partida una frase de 38 palabras. Cero avisos |
+| 2026-11-07 | 093 The Multiverse (revisión con el autor) | revision | 1 | 15 | 278 | 1,6 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
