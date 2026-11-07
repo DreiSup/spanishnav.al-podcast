@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 148,
+  "anio": 2025,
+  "slug": "agency",
+  "titulo": "Blame Yourself for Everything, and Preserve Your Agency",
+  "subtitulo": "",
+  "fecha_publicacion": "2025-08-26",
+  "fuente_url": "https://nav.al/agency",
+  "orden_archivo": 152,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-07"
+}

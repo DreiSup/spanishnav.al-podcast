@@ -183,3 +183,4 @@ episodio. Episodios con notas a 6-nov: 008, 010, 017, 018, 020 y 052.
 | 2026-11-07 | 144 Find Your Specific Knowledge Through Action | revision | 1 | 25 | 427 | 2,5 | Cero avisos. Corto: tramo b15 del 154 sin su última frase (decisión del autor): este bloque se genera aparte; fecha del catálogo, la página dice 29-jul |
 | 2026-11-07 | 145 You Have to Enjoy It a Lot | revision | 1 | 37 | 601 | 3,5 | Cero avisos. Corto: tramo b16 del 154; empieza en Marketing is an open problem |
 | 2026-11-07 | 147 Pause, Reflect, See How Well it Did | revision | 1 | 23 | 354 | 2,1 | Cero avisos. Corto: tramo b17 del 154; fecha del catálogo, la página dice 6-ago |
+| 2026-11-07 | 148 Blame Yourself for Everything, and Preserve Your Agency | revision | 2 | 62 | 1024 | 6,0 | Cero avisos. Corto: tramo b18–b19 del 154; capacidad de actuar en el título; fecha del catálogo, la página dice 25-ago |
