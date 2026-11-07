@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**154** episodios · **2** publicados · **10** escuchados por el autor (**1** para revisar) · **0** sin empezar
+**155** episodios · **2** publicados · **10** escuchados por el autor (**1** para revisar) · **0** sin empezar
 
 ## 2026
 
@@ -33,6 +33,12 @@
 | 153 | [153-simplest](episodios/2025/153-simplest) | Busca lo más sencillo que funcione | 🟠 en revisión | — | — | — |
 | 154 | [154-in-the-arena](episodios/2025/154-in-the-arena) | En la arena | 🟠 en revisión | — | — | — |
 | 155 | [155-curate-people](episodios/2025/155-curate-people) | Elige bien a la gente | 🟠 en revisión | — | — | — |
+
+## 2024
+
+| # | Episodio | Título en español | Estado | Escuchado | Drive | YouTube |
+|---|---|---|---|---|---|---|
+| 135 | [135-deutsch-files-i](episodios/2024/135-deutsch-files-i) | Documentos Deutsch I | 🟠 en revisión | — | — | — |
 
 ## 2023
 

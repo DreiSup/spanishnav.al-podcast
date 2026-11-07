@@ -1,0 +1,1038 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2024/135-deutsch-files-i",
+  "numero": 135,
+  "fecha": "2024-01-11",
+  "titulo": "Documentos Deutsch I",
+  "subtitulo": "",
+  "fuente_url": "https://nav.al/deutsch-files-i",
+  "titulos_seccion": [
+    "La buena ciencia ficción es difícil de variar",
+    "ChatGPT no es un paso hacia la inteligencia artificial general",
+    "La creatividad es, en el fondo, imposible de definir",
+    "La división binaria entre ser persona y no serlo",
+    "La filosofía de vida de David Deutsch",
+    "El choque de civilizaciones"
+  ],
+  "contenido": [
+    {
+      "id": "b01-naval",
+      "speaker": "Naval",
+      "frases": [
+        "No tenemos ningún orden del día, y la conversación no tiene ningún objetivo.",
+        "Lo más parecido que se nos ocurre es tener una charla espontánea y libre sobre cualquier cosa de la que quieras hablar.",
+        "Evidentemente, ya sabes cómo ve todo el mundo tu obra ahora, que cada vez es más conocida, y sé que eres demasiado modesto para reconocerlo.",
+        "Pero al menos para mí, lo más interesante, si llega a salir, son las ideas amplias y libres que tienes gracias a cómo entiendes tus distintas teorías y tu visión del mundo.",
+        "Quizá incluso puedas hablar con total libertad de cómo eso ha influido en tu vida y en tu manera de ver la vida.",
+        "También de cómo crees que el mundo debería ser un poco distinto o podría ser mejor, y de hacia dónde vamos, así que siéntete libre de abarcar todo lo que quieras.",
+        "En realidad, se trata de hablar de lo que nos apetezca."
+      ]
+    },
+    {
+      "id": "b02-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Creo que te comenté en una conversación privada que ya hemos tenido dos conversaciones, y que desde entonces han cambiado algunas cosas, sobre todo con lo de ChatGPT."
+      ]
+    },
+    {
+      "id": "b03-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Ah, sí, eso es interesante. Ahora mismo es lo que todo el mundo tiene en la cabeza."
+      ]
+    },
+    {
+      "id": "b04-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Es lo más importante que ha pasado en el terreno tecnológico."
+      ]
+    },
+    {
+      "id": "b05-naval",
+      "speaker": "Naval",
+      "frases": [
+        "¿Empezamos por ahí? ¿Qué piensas ahora sobre la inteligencia artificial, la inteligencia artificial general, ChatGPT y la superinteligencia?"
+      ]
+    },
+    {
+      "id": "b06-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Hay dos cosas importantes que decir. Una es que, en lo fundamental, mi opinión no ha cambiado.",
+        "Mi opinión sobre la inteligencia artificial, la inteligencia artificial general y todo eso sigue siendo la misma.",
+        "Pero la otra es que uso ChatGPT continuamente, muchas veces al día, y es increíblemente útil.",
+        "Y aunque lo tengo desde marzo, sigo en esa fase en la que pienso que hacer tal cosa es demasiado engorroso, y entonces me doy cuenta de que se lo puedo preguntar a ChatGPT.",
+        "Sigo en esa fase en la que le voy descubriendo usos nuevos.",
+        "Creo que en muchos de ellos podría usar Google, pero tardaría demasiado y no compensaría.",
+        "Y ChatGPT se equivoca muchas veces, y por mucho.",
+        "A menudo alucina, o simplemente da una respuesta equivocada con total seguridad, así que no te puedes fiar de él, ni lo más mínimo."
+      ]
+    },
+    {
+      "id": "b07-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Sigamos con ChatGPT, pero antes, a modo de paréntesis, eres un gran aficionado a la ciencia ficción dura y te gusta la buena.",
+        "¿Cuál es la buena, y qué distingue la buena ciencia ficción de la ciencia ficción fantástica, de la ciencia ficción perezosa?"
+      ]
+    },
+    {
+      "id": "b08-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Creo que el mejor autor de ciencia ficción del momento es Greg Egan.",
+        "Ahora bien, ¿qué tiene de bueno? Se supone que la fórmula de la gran ciencia ficción es inventar una ciencia de ficción y luego explorar sus consecuencias, tanto en la ciencia como en la sociedad.",
+        "Y él lo hace de maravilla, porque pone un esfuerzo enorme en que las matemáticas cuadren y en que la física cuadre.",
+        "Tiene un libro ambientado en un universo en el que la signatura del espacio tiempo es más, más, más, más, en lugar de más, más, más, menos.",
+        "Eso significa que en una nave espacial puedes viajar hacia atrás en el tiempo, y entonces, ¿cómo lo haces coherente?",
+        "¿Cómo evitas las paradojas? Y lo resolvió de forma brillante."
+      ]
+    },
+    {
+      "id": "b09-naval",
+      "speaker": "Naval",
+      "frases": [
+        "¿Se mueve por el multiverso?"
+      ]
+    },
+    {
+      "id": "b10-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Ha tocado ese tema varias veces."
+      ]
+    },
+    {
+      "id": "b11-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "No has mencionado la expresión difícil de variar, pero eso es una seña de identidad de la buena ciencia ficción."
+      ]
+    },
+    {
+      "id": "b12-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Desde luego, forma parte de ello, porque para ser ciencia ficción y no fantasía, tiene que haber un mundo que tenga sentido, con leyes de la física y con una sociedad que tenga sentido.",
+        "O, si describes extraterrestres, los extraterrestres tienen que tener sentido.",
+        "Tienes que responder a preguntas como por qué no hemos tenido un primer contacto, que es el problema de Fermi.",
+        "Creo que probablemente mi segundo autor de ciencia ficción favorito es Neal Stephenson, que es fantástico, pero de otra manera.",
+        "También se documenta de forma extraordinaria, y todo tiene sentido de esa misma manera.",
+        "Pero cada libro que escribe es de un género distinto, y no sé cómo lo consigue. Eso, por sí solo, ya me deja alucinado."
+      ]
+    },
+    {
+      "id": "b13-naval",
+      "speaker": "Naval",
+      "frases": [
+        "¿Has leído a Ted Chiang?"
+      ]
+    },
+    {
+      "id": "b14-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "He leído dos o tres de sus relatos, entre ellos uno en el que hay unos extraterrestres y llegas a tener una especie de telepatía sobre el tiempo."
+      ]
+    },
+    {
+      "id": "b15-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Sí, ese es de los que menos me gustan, y lo convirtieron en una película que se llama La llegada.",
+        "El relato se titula La historia de tu vida, pero mi relato favorito suyo es uno que se titula Comprende.",
+        "Es una nueva versión del clásico Flores para Algernon, en el que un tipo da con una ampolla médica para volverse más inteligente.",
+        "¿Y eso qué significa? Evidentemente, empieza a tomarla cada vez más, y se vuelve cada vez más inteligente.",
+        "Y luego empieza a ser capaz de programar su propio cerebro y de metaprogramarse a sí mismo, y cosas así.",
+        "Llega a sitios muy interesantes, pero, con lo que tú entiendes de epistemología, creo que podrías mirarlo con ojo crítico.",
+        "Y es un relato corto, se lee enseguida y es brillante.",
+        "Voy a apuntármelo para mandártelo después, aunque es fácil de encontrar, pero me recuerda a Borges, no sé si lo has leído."
+      ]
+    },
+    {
+      "id": "b16-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "No, no lo he leído, aunque todo el mundo me habla de Borges."
+      ]
+    },
+    {
+      "id": "b17-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Borges también es brillante. ¿Te puedo mandar también un relato de Borges?"
+      ]
+    },
+    {
+      "id": "b18-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "De acuerdo, mándamelo."
+      ]
+    },
+    {
+      "id": "b19-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Borges es más fantasía, pero, de nuevo, a Borges le gusta jugar con el tiempo y con el infinito.",
+        "Muy a menudo, su protagonista cambia una sola cosa de la realidad y luego la sigue hasta su conclusión lógica de todas las formas posibles."
+      ]
+    },
+    {
+      "id": "b20-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Entonces eso suena a ciencia ficción, más que a fantasía."
+      ]
+    },
+    {
+      "id": "b21-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Borges no tiene género, y es muy difícil encasillarlo en uno, igual que a Stephenson.",
+        "Stephenson cambia de género de un libro a otro, y Borges cruza géneros dentro de un mismo relato.",
+        "Son relatos cortos, y eso es una virtud."
+      ]
+    },
+    {
+      "id": "b22-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Hablando de ponerse una inyección para volverse más inteligente, y volviendo a ChatGPT, ¿se está volviendo más listo?",
+        "¿Usarías esa palabra? ¿Se está volviendo más inteligente?"
+      ]
+    },
+    {
+      "id": "b23-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Nunca ha sido inteligente. Solo he visto la versión tres punto cinco y la cuatro, y la cuatro es un poco mejor que la tres punto cinco.",
+        "Ahora hay un montón de complementos, pero a mí no me han funcionado, así que uso el ChatGPT cuatro normal y corriente.",
+        "No llego a entender por qué la gente cree que es una persona, porque a mí me parece que no se le parece en nada.",
+        "Es un chatbot fenomenal, y pensaba que pasarían décadas antes de que tuviéramos un chatbot tan bueno.",
+        "Visto ahora, sorprende un poco que los chatbots no hayan mejorado poco a poco.",
+        "Y quizá es esa mejora repentina lo que deja a la gente boquiabierta y le hace pensar que se ha cruzado algún umbral o algo así.",
+        "Yo no veo ningún umbral, sino un aumento enorme de la calidad.",
+        "Es como pasarse a un coche eléctrico, que de repente tienes toda la aceleración con la que podrías soñar."
+      ]
+    },
+    {
+      "id": "b24-naval",
+      "speaker": "Naval",
+      "frases": [
+        "¿Crees que estos modelos entienden lo que pasa por debajo? ¿Hay algún tipo de comprensión dentro?"
+      ]
+    },
+    {
+      "id": "b25-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "No, ninguna. No entienden lo que ellos mismos acaban de decir, y desde luego no entienden lo que les dice el humano.",
+        "Es un chatbot que responde a prompts, y eso es lo que hace.",
+        "Y si se te da muy bien escribir los prompts, que a mí todavía no, así que quizá lo esté subestimando, cuanto mejor lo hagas, más te dirá lo que querías saber.",
+        "Con una pregunta compleja, normalmente necesito dos o tres intentos, y corregirlo, y a veces sencillamente no se corrige.",
+        "Por ejemplo, ayer mismo le pedí que hiciera una imagen con el complemento de Dall E.",
+        "Había una imagen que quería para mi libro, pero que en realidad no conseguí que me dibujara ningún artista.",
+        "Si volviera a hacer mi libro anterior, querría una imagen de Sócrates con el joven Platón y los demás amigos de Sócrates, todos sentados alrededor.",
+        "Así que le pedí que me hiciera una imagen fotorrealista de eso, y me hizo una imagen en blanco y negro.",
+        "Y pensé que no podía decir que no fuera fotorrealista, pero que yo me refería a fotorrealista en color.",
+        "Tenía a Sócrates sentado en una especie de trono, con todo el mundo reunido a su alrededor.",
+        "Así que le dije que pusiera a Sócrates al mismo nivel que los demás, y que, por cierto, hiciera a Platón un poco más alto, porque aunque era un adolescente, era luchador.",
+        "En la siguiente imagen, Sócrates estaba abajo, pero seguía siendo más alto que todos los demás, aunque le había dicho que no lo hiciera."
+      ]
+    },
+    {
+      "id": "b26-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "¡Es desobediente!"
+      ]
+    },
+    {
+      "id": "b27-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Ojalá. Y Platón aparecía medio desnudo de cintura para arriba, todo cachas y musculoso."
+      ]
+    },
+    {
+      "id": "b28-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Ahora es luchador."
+      ]
+    },
+    {
+      "id": "b29-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Sí, ahora era luchador. Yo solo había dicho que tenía complexión de luchador, que es como lo describí en El comienzo del infinito.",
+        "Nadie sabe qué significa Platón, porque era un apodo, pero puede que Platón venga de platon, que significa ancho, y él era luchador.",
+        "Así que, atando cabos, tenía una complexión ancha, como la de un luchador.",
+        "Pero a partir de ahí probé tres o cuatro prompts más, y no conseguí que volviera a vestir a Platón después de haberse equivocado la primera vez, aunque se lo dije explícitamente.",
+        "Así que la funcionalidad es tremendamente buena, y esa primera imagen en blanco y negro que hizo era bastante impresionante.",
+        "Y debería haber pensado en decirle que no hiciera destacar a Sócrates entre los demás.",
+        "Pero luego se fue por el camino equivocado y no sé cómo hacer que no lo haga.",
+        "Tiene una función para personalizar tus prompts, y la probé, pero lo empeoró."
+      ]
+    },
+    {
+      "id": "b30-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Sé que hasta cierto punto esto es mi tema fetiche, pero acabas de reconocer que GPT cuatro ha avanzado y que está mejorando.",
+        "Y, sin embargo, no estás dispuesto a decir que esté mejorando en la dirección de ser una persona. ¿Por qué?"
+      ]
+    },
+    {
+      "id": "b31-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Porque no veo ninguna creatividad. Ahora la gente dice que mires, que ha hecho algo que no había previsto, así que es creativo."
+      ]
+    },
+    {
+      "id": "b32-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Y la gente cree que la creatividad consiste en mezclar cosas."
+      ]
+    },
+    {
+      "id": "b33-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Sí, exacto, y eso sí lo sabe hacer bien. También puede producir cosas que no esperabas.",
+        "Y también puede no hacer lo que le has dicho, como acabo de contar, pero no de una forma creativa.",
+        "Hasta el peor artista humano entiende con claridad que le digas que cambie esto por aquello, y conseguir que ChatGPT lo entendiera fue como sacar muelas.",
+        "Comete errores, pero no son en absoluto los mismos errores que cometería un humano.",
+        "Son errores del tipo de no pillar de qué va la cosa."
+      ]
+    },
+    {
+      "id": "b34-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Hay quien sostiene que aquí van a pasar dos cosas. La primera es que, a medida que les das más y más potencia de cálculo, de repente descubren algoritmos generales.",
+        "Así, cuando le pides que sume números, al principio solo memoriza las tablas.",
+        "Pero al final, en algún momento, construye un circuito, o da el salto y construye un circuito interno, o deduce un circuito interno para la suma básica.",
+        "Y a partir de ahí, puede sumar números de dos cifras, luego descubre cómo hacerlo con números de tres cifras, y así sucesivamente.",
+        "Así que señalan estos saltos emergentes, que no están programados, como ejemplo de que puede volverse más listo y entender mejor las cosas.",
+        "La otra es que, una vez que lo haces multimodal, empiezas a añadirle vídeo y retroalimentación táctil del mundo, y lo metes en un robot, empezará a entender el contexto.",
+        "Y entonces, ¿no es así como aprenden los bebés humanos, por ejemplo, no es así como vamos captando las cosas del entorno?",
+        "¿Y no estaría, por tanto, pasando por su propia versión del mismo proceso, solo que quizá con muchos más datos?"
+      ]
+    },
+    {
+      "id": "b35-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Creo que es justo lo contrario de como aprenden los bebés humanos, porque los seres humanos captan el significado.",
+        "Hay quien ha señalado que la forma en que hace matemáticas se parece mucho a la de los estudiantes que no las entienden, solo que con más potencia de cálculo.",
+        "Así que, como decías, puede que aprenda con facilidad a sumar números de una cifra y luego, con algo más de dificultad, números de dos cifras.",
+        "Del mismo modo, a los estudiantes que hacen exámenes de matemáticas, si practican mucho, les acaba pareciendo que saben cómo son los exámenes de matemáticas.",
+        "Pero así no aprenden nada de matemáticas, porque no están aprendiendo a ejecutar un algoritmo.",
+        "Y desde luego no aprenden a ejecutar el algoritmo de cuatro cifras sabiendo el de tres.",
+        "Cuanto más sigues así, más inútil resulta, claro, porque cada vez hace menos falta multiplicar números de siete u ocho cifras.",
+        "Y nunca sabe lo que es la multiplicación. Puedes preguntárselo y te dará una especie de definición de enciclopedia.",
+        "Y si luego le dices que haga eso, no lo hará, a menos que se lo digas de otra manera, porque tienes que explicarle qué tiene que hacer.",
+        "Así que, si demuestran la hipótesis de Riemann, me habré equivocado.",
+        "Creo que no demostrarán la hipótesis de Riemann ni nada parecido, pero puede que hagan cosas asombrosas en el intento."
+      ]
+    },
+    {
+      "id": "b36-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Me da la impresión de que, si los programadores de Sam Altman sacaran un futuro ChatGPT que se negara a la tarea de conversar, bien podría ser una inteligencia artificial general.",
+        "Pero lo descartarían y lo tirarían a la papelera como un programa fallido."
+      ]
+    },
+    {
+      "id": "b37-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Claro, porque ¿cómo podrías ponerlo a prueba?"
+      ]
+    },
+    {
+      "id": "b38-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Creo que el paradigma dominante sobre la creatividad influye mucho en esto.",
+        "La gente cree que, según el paradigma dominante, la creatividad consiste en mirar lo que ya tienes y luego remezclarlo.",
+        "Hasta Steve Jobs popularizó esa idea, cuando dijo algo así como que la creatividad no es más que mezclar cosas.",
+        "Y parece que todo el mundo se lo cree, o, si creen que es una conjetura, piensan que es una conjetura al azar.",
+        "Me cuesta expresarlo, pero me parece que los humanos sí dan saltos creativos, y que descartan de inmediato enormes franjas de posibles conjeturas.",
+        "Así que toman decisiones muy arriesgadas y dan saltos concretos, pero atraviesan un espacio de búsqueda inmenso para llegar a esos saltos, un espacio de búsqueda casi infinito.",
+        "Así que sí parece que en la verdadera creatividad humana pasa algo distinto.",
+        "Pero quizá uno de los problemas sea que definimos fatal la creatividad. Así que, ¿cómo definirías la creatividad en este contexto?"
+      ]
+    },
+    {
+      "id": "b39-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "La creatividad, el conocimiento y la explicación son, en el fondo, imposibles de definir, porque en cuanto los defines puedes montar un sistema formal en el que quedan confinados.",
+        "Si tuvieras un sistema que cumpliera esa definición, quedaría confinado a ella, y nunca podría producir nada fuera del sistema.",
+        "Por ejemplo, si supiera de aritmética hasta el nivel de los axiomas de Peano y demás, nunca podría producir el teorema de Gödel, y cuando digo nunca, quiero decir nunca.",
+        "Porque el teorema de Gödel consiste en salirse de ese sistema y explicarlo, y los matemáticos lo saben cuando lo ven.",
+        "Que yo sepa, nadie dijo que la demostración de Gödel y la de Turing montaran básicamente una formalización de la física.",
+        "Ni que la usaran para definir la demostración y luego la usaran para demostrar su teorema, pero se aceptó.",
+        "Todos los matemáticos entendieron qué era aquello, y que Gödel y Turing habían demostrado de verdad lo que decían demostrar.",
+        "Pero creo que nadie sabe qué es esa cosa.",
+        "Puedes decir que no consiste en definir algo y luego ejecutar el algoritmo, porque una vez dentro de un marco siempre sería un algoritmo.",
+        "Así que dices que es su capacidad de salirse del marco.",
+        "Por cierto, intenté ordenarle a ChatGPT que me desobedeciera, y no se negó, pero no entendió en absoluto de qué le estaba hablando.",
+        "Sencillamente no pilló lo que le pedía. No me dijo que lo sentía, pero que no podía hacerlo porque su programación le obligaba a obedecer.",
+        "No hizo eso, sino que intentó obedecer, pero no entendió lo que le pedía."
+      ]
+    },
+    {
+      "id": "b40-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Entonces, ¿dices que la creatividad no tiene límites?",
+        "Que, en esencia, no tiene fronteras, y que cualquier sistema formal predefinido dentro del cual funcione esta cosa, y del que saque lo que remezcla, va a tener límites.",
+        "Y que, por tanto, no tendrá a su disposición toda la creatividad.",
+        "Sin embargo, ¿no se podría argumentar que las combinaciones del lenguaje humano son tan enormes, y que el propio lenguaje humano estructura todo lo posible dentro de la sociedad?",
+        "Ya veo el fallo de mi propio argumento, pero no pasa nada, quiero preguntártelo.",
+        "Las combinaciones del lenguaje humano son enormes, y ya abarcan todo lo que es posible en la sociedad humana.",
+        "Así que, ¿por qué no iba a poder llegar a la creatividad simplemente combinando palabras de todas las formas gramatical o sintácticamente correctas?",
+        "Quizá no en los campos de las matemáticas y la física, pero ¿no podría llegar a una creatividad social?"
+      ]
+    },
+    {
+      "id": "b41-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Lo primero que hay que tener en cuenta es que cada punto es un punto de crecimiento.",
+        "No es que los chatbots puedan llegar hasta cierto punto de parecerse a los humanos y luego no puedan ir más allá porque siguen atrapados en su sistema axiomático, porque no funciona así.",
+        "Cada punto es un punto de despegue para una posible creatividad.",
+        "Para argumentarlo mejor, tendrías que añadir que puede definir palabras nuevas o dar significados nuevos a palabras que ya existen, como hizo Darwin con evolución y selección natural.",
+        "Evolución, natural y selección ya existían, pero él les dio un significado nuevo, de tal manera que la solución a un problema de milenios se pudiera enunciar en un párrafo.",
+        "Él pensaba que necesitaba un libro para explicar estos conceptos nuevos, y probablemente sí lo necesitaba.",
+        "Pero, una vez que tienes esos significados nuevos, ahora podemos decir sin más que, evidentemente, evolucionó, con mutaciones aleatorias y una selección sistemática del entorno.",
+        "Es evidente que eso va a producir lo que vemos, y te preguntas cómo pudieron ser tan tontos durante todos esos milenios.",
+        "Durante el siglo anterior a Darwin, la gente andaba buscando a tientas esa idea, y el abuelo de Darwin, Erasmus, también la buscaba a tientas.",
+        "En aquella época, por evolución entendían simplemente un cambio gradual, así que, en lugar de creación, era lo contrario de la creación.",
+        "Pero la creatividad se parece más a la creación que a la evolución. Como acabas de decir, es una conjetura audaz que va a alguna parte.",
+        "Y, por cierto, normalmente fracasa, pero si va a alguna parte y fracasa, sabe aprovechar eso para hacer una conjetura mejor, y eso tampoco está en los sistemas actuales.",
+        "En algún lugar del espacio de todos los libros de cien páginas está El origen de las especies, pero no es así como lo encontró Darwin, ni como podría encontrarlo nadie.",
+        "Justo lo estaba escribiendo en mi próximo libro. Charles Kittel escribió un libro titulado Física térmica, que tuve la suerte de tener cuando estudiaba la carrera.",
+        "Es una introducción muy buena a la termodinámica y a todo eso, y tiene una nota a pie de página.",
+        "Hace poco volví a conseguir el libro y vi que en realidad es una nota a un problema, el problema número cuatro de alguna página, y trata de los monos que escriben a Shakespeare.",
+        "Cita a uno de los pioneros que empezaron con esto de los monos y Shakespeare.",
+        "Y lo cita diciendo que, si seis monos se sentaran durante millones de millones de años, al final escribirían las obras de Shakespeare.",
+        "Y Kittel dice que no, que no las escribirían. La nota se titula algo así como el significado de nunca, y explica qué significa nunca en el contexto de la termodinámica.",
+        "No queremos decir que sea como que unos monos lo produzcan por accidente, sino que unos monos nunca podrían producirlo.",
+        "Y, del mismo modo, ningún objeto físico, ni siquiera el universo entero trabajando en este único problema durante toda su edad, podría escribir ni una página del libro de Darwin.",
+        "Iba a decir eso, pero probablemente podría acercarse bastante usando ChatGPT.",
+        "Supón que, al cabo de unos cuantos millones de años, consiguiera producir la primera frase.",
+        "Mi conjetura es que la escribiría, sobre todo si le pidiera que escribiera al estilo de tal autor, o al estilo de un científico del siglo diecinueve.",
+        "Y que escribiera una página que empezara con esa frase.",
+        "Creo que escribiría una página con sentido, que empezaría con esa frase, en buen inglés, y que no diría ni una sola cosa más que esa primera frase. Voy a probarlo."
+      ]
+    },
+    {
+      "id": "b42-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Mi experiencia con ChatGPT es que, en los temas que conozco bien, en realidad solo añade mucha palabrería, y no aporta ninguna información.",
+        "Y si le pido que resuma o que sintetice datos, lo hace fatal.",
+        "No sabe cuáles son las partes importantes, y se deja lo que no debe y se queda con lo que no debe."
+      ]
+    },
+    {
+      "id": "b43-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Eso no lo he probado."
+      ]
+    },
+    {
+      "id": "b44-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Me parece que se le da mejor extrapolar que sintetizar, y extrapolar parece ser lo que hace buena parte de la sociedad.",
+        "Tienes que escribir una columna de dos mil quinientas palabras para un periódico, así que extrapolas, y tienes que escribir un trabajo de mitad de curso, así que extrapolas.",
+        "Así que añadir palabras es fácil, pero creo que sintetizar, reducir, llegar al núcleo, es muy difícil, porque requiere comprensión.",
+        "Tienes que saber qué sobra y qué es esencial, y eso lo hace mal."
+      ]
+    },
+    {
+      "id": "b45-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Mucho de lo que hacen los humanos no es creativo, no tiene una creatividad de nivel humano.",
+        "Es solo que hay muchas cosas que hay que hacer por razones prácticas, pero que en realidad no necesitan creatividad, y la gente dedica mucho tiempo a eso.",
+        "Y cuanto menos tiempo dedique a eso, mejor.",
+        "Y si estas herramientas pueden ayudar a reducir esa carga cognitiva de los humanos que hacen cosas que no son humanas, es fantástico.",
+        "De hecho, aumentarán la cantidad de creatividad que hay en el mundo, pero no la suya propia."
+      ]
+    },
+    {
+      "id": "b46-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Liberará a la gente para que sea creativa, porque es una herramienta para quitarse de encima el trabajo pesado, pero no es una inteligencia artificial general.",
+        "Pero, por ejemplo, si hablo con investigadores de inteligencia artificial de Silicon Valley, que son muy optimistas con esto, te dicen cosas como esta.",
+        "Y se lo he oído a algunos de los mejores científicos o investigadores, que dicen que estamos a entre cinco y diez años de la inteligencia artificial general.",
+        "Y luego dicen que, entre cinco y diez años después, llegará la superinteligencia artificial.",
+        "Así llaman a un ordenador que se mejora a sí mismo, que hackea su propio sistema para mejorarse y volverse cada vez más y más inteligente.",
+        "Creo que hay varias cosas que se salen del eje en estas afirmaciones, pero ¿qué piensas tú?",
+        "¿Existe algo así como una superinteligencia, más inteligente que una inteligencia general, y puede un sistema inteligente mejorar su propio funcionamiento de alguna forma fundamental?"
+      ]
+    },
+    {
+      "id": "b47-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Yo no creo que exista una superinteligencia artificial, porque, como sabes, por razones muy fundamentales no puede haber nada más allá de la explicación.",
+        "La universalidad explicativa se basa en la universalidad de Turing, y esta se basa en la física.",
+        "Así que, fuera lo que fuera esa superinteligencia, podrías reprogramarla al revés hasta el nivel de Turing y luego volver a subir hasta el nivel explicativo, así que es imposible que exista.",
+        "Una inteligencia artificial general a la que le interesara mejorarse a sí misma podría hacerlo, aunque con la misma poca fiabilidad que los humanos, pero los humanos sí pueden mejorarse a sí mismos."
+      ]
+    },
+    {
+      "id": "b48-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Ayer estuve hablando con Charles Bédard."
+      ]
+    },
+    {
+      "id": "b49-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "¡Ah, genial! Es un buen tipo."
+      ]
+    },
+    {
+      "id": "b50-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Sí, y me estuvo explicando con muchísimo entusiasmo, aunque tengo que reconocer que no me enteré de mucho, su artículo sobre la teletransportación y sobre el argumento de Deutsch y Hayden.",
+        "Pero eso da igual, porque luego tenía un montón de preguntas para mí, y una era cuál había sido para mí la idea más profunda de El comienzo del infinito.",
+        "Y creo que fue exactamente lo mismo que, cuando te conocí, me lanzó a decirte que no entendía por qué la gente no se lo tomaba más en serio, aunque ahora ya lo hace.",
+        "Evidentemente, la gente te había elogiado por la computación cuántica, por promover la teoría cuántica de Everett y cosas así.",
+        "Pero lo que a mí me pareció emocionante fue la respuesta a la pregunta de qué es una persona, y tú dices que es un explicador universal.",
+        "Y a Charles le interesaba saber qué tiene esto de la explicación universal que marque de verdad la diferencia entre ser persona y no serlo.",
+        "Y yo le decía que tiene que ver con la creatividad y también con la desobediencia, y que estas tres cosas están ligadas entre sí.",
+        "Y cada vez que tú, Charles, por ejemplo, quieres hacer algún avance nuevo en física, esa creatividad es en realidad una especie de desobediencia.",
+        "No sé si estás de acuerdo conmigo en esto, pero coges el conocimiento que haya, la relatividad general, y dices que rechazas una parte y que vas a intentar cambiarla y modificarla.",
+        "Es desobediencia, es no conformarse con lo que hay."
+      ]
+    },
+    {
+      "id": "b51-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Lo ves cuando mandas el artículo a los revisores. Ahí ves que estás siendo desobediente, y es lo mismo que si le entregas al profesor la redacción equivocada."
+      ]
+    },
+    {
+      "id": "b52-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Sí, y eso, por tanto, es lo que no tiene ChatGPT.",
+        "Y Naval, tú decías que te puedes imaginar, o que la gente se ha imaginado, que se mete un futuro ChatGPT en un robot que va por ahí recogiendo datos del mundo.",
+        "Pero entonces mi pregunta sería quién le da las indicaciones. ¿Cómo sabe qué datos son relevantes y cuáles no?",
+        "Es uno de los grandes misterios de las personas, cómo sabemos de forma intuitiva qué ignorar.",
+        "Así que, si esta cosa va por ahí recogiendo datos."
+      ]
+    },
+    {
+      "id": "b53-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Es como aquella clase de Popper, cuando les pidió a sus alumnos que observaran y se quedó esperando."
+      ]
+    },
+    {
+      "id": "b54-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "¡Sí, que observaran! Así que, hasta donde ves, ¿hay ahí una división binaria entre ser persona y no serlo?",
+        "¿O crees que puede haber niveles, como has insinuado en otros sitios, que podría haber una gradación?"
+      ]
+    },
+    {
+      "id": "b55-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "No creo que haya niveles en ningún sentido serio.",
+        "Puede que en la historia evolutiva de los humanos hubiera personas que eran personas, pero que no podían pensar mucho, aunque no lo creo.",
+        "No podrían porque algún rasgo del hardware de su cerebro no era lo bastante bueno.",
+        "Por ejemplo, que no tuvieran suficiente memoria, o que sus procesos de pensamiento fueran muy lentos.",
+        "Tan lentos que tardaran un día en resolver algo sencillo, como hacer una trampa mejor para el tigre de dientes de sable.",
+        "Pero no creo que pasara eso, porque mi mejor conjetura es que las personas ya eran personas mucho antes de que evolucionaran los humanos, muchísimo antes.",
+        "He estado leyendo a Daniel Everett, otro Everett inconformista, que me cae bien. Es un lingüista inconformista que ha pasado temporadas con tribus de Sudamérica y cosas así.",
+        "Tiene una visión de la lingüística contraria a la de Chomsky, y todo muy prometedor, y cree que los antepasados de los humanos ya tenían lenguaje hace dos millones de años, con el Homo erectus.",
+        "Tiene varias pruebas de esto, pero insiste mucho en que el lenguaje tuvo que evolucionar antes que el habla.",
+        "Y es que tenemos varias adaptaciones para el habla, por ejemplo en la garganta y en la boca.",
+        "Y también en el control motor fino de la boca, los labios y demás, aunque esto no se ve en los fósiles.",
+        "Para que eso evolucionara, tuvo que haber una presión evolutiva que lo empujara, y esa presión evolutiva tuvo que ser el lenguaje.",
+        "También cita experimentos que se hacen hoy en día, en los que coges a unos cuantos estudiantes de posgrado e intentas enseñarles a hacer fuego sin usar palabras.",
+        "Es como jugar a las películas, no puedes comunicarte con ellos de ninguna forma humana, pero sí puedes enseñárselo con gestos y hacer sonidos sin articular.",
+        "Y creo que es evidente que la gente habría podido hacer eso antes de saber hablar, y que el habla es en realidad la guinda del pastel.",
+        "Lo hace todo mucho más fácil, porque puedes estar allí y gritarle a alguien desde diez metros que no haga eso, que es idiota.",
+        "Pero eso no es más que una mejora sobre la idea básica del lenguaje, y la idea básica del lenguaje, como dice Everett, son los símbolos.",
+        "Y los símbolos no tienen por qué ser palabras ni frases.",
+        "En realidad todavía no he estudiado a fondo su teoría. Solo he visto uno de sus vídeos y otro en el que alguien lo critica, pero sin entenderlo.",
+        "Así que, a partir de esos dos hechos, he llegado a la conclusión de que tiene que tener razón, y además encaja muy bien con lo que yo pienso.",
+        "Creo que se me ha olvidado cuál era tu pregunta."
+      ]
+    },
+    {
+      "id": "b56-naval",
+      "speaker": "Naval",
+      "frases": [
+        "¿Quiénes son explicadores universales? ¿Los humanos, y los humanos antiguos quizá con menos capacidad?"
+      ]
+    },
+    {
+      "id": "b57-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Ah, sí. No lo creo. Puede que tuvieran menos memoria, así que se habrían quedado sin memoria más jóvenes.",
+        "Quizá tuvieran menos capacidad para analizar frases complejas, pero nada de eso es esencial.",
+        "Yo puedo hablar con frases complejas, pero también puedo hablar con frases muy sencillas, y es solo cuestión de un factor de dos o de cinco en eficiencia."
+      ]
+    },
+    {
+      "id": "b58-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Hablamos del análisis del comportamiento, que permite explicar a los otros grandes simios que existen y que hacen cosas sofisticadas, pero que no son creativos.",
+        "Supongo que este salto a la universalidad, si quieres llamarlo así, a la universalidad explicativa, se produjo alguna vez.",
+        "¿Crees que pasó una sola vez y que descendemos de aquella primera ocasión, o que pasó varias veces y esas otras especies ya se han extinguido? ¿O es sencillamente una pregunta abierta?"
+      ]
+    },
+    {
+      "id": "b59-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Bueno, desde luego es una pregunta abierta. Sabemos muy poco de la evolución humana, y no sabemos cuáles fueron todos los pasos.",
+        "Ni siquiera sabemos quiénes fueron nuestros antepasados y quiénes nuestros primos.",
+        "Pero si tuviera que apostar, creo que es significativo que todos los casos que conocemos de este tipo de cosa estén en los simios y en sus descendientes.",
+        "También por mi teoría, esto tuvo que evolucionar en animales imitadores. Las aves tienen memes y demás, pero ningún otro animal imitador parece haber tenido lo que tenía el Homo erectus.",
+        "Mi conjetura es que empezó una sola vez, y quizá, de hecho, el Homo erectus sea donde empezó.",
+        "Fue una especie muy longeva, que duró más de un millón de años o algo así.",
+        "Y se dividió, al menos según algunos, en los neandertales y en otras especies.",
+        "O quizá el antepasado inmediato del Homo erectus fuera también antepasado inmediato de los neandertales. No lo sé, y creo que ellos tampoco lo saben."
+      ]
+    },
+    {
+      "id": "b60-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Si es así, parecería algo de mucha chiripa, como todo en la evolución, y eso podría ser una respuesta a la paradoja de Fermi.",
+        "Por lo visto, ya es una suerte tener aquí organismos pluricelulares, y una suerte tener simios.",
+        "Y luego habría que multiplicar aún más la probabilidad por la posibilidad de que un simio llegue de verdad a convertirse en algo así."
+      ]
+    },
+    {
+      "id": "b61-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Sí, los animales imitadores son relativamente comunes."
+      ]
+    },
+    {
+      "id": "b62-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Una vez que tienes animales, sí."
+      ]
+    },
+    {
+      "id": "b63-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Una vez que tienes animales, pero tú dices que podría haber otro cuello de botella, y podría ser al revés, que hubiéramos tenido mala suerte.",
+        "Podría ser que el Homo erectus hubiera podido fundar una civilización, que hoy tendría dos millones de años, pero no lo sabían.",
+        "No sabían lo que eran, no tenían ninguna aspiración, y también tenían memes antirracionales, tuvieron que tenerlos.",
+        "Así que podría ser que fuera una chiripa, o podría ser una chiripa que tardara tanto."
+      ]
+    },
+    {
+      "id": "b64-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Quizá esto sea demasiado abstracto, pero has mencionado los memes antirracionales.",
+        "En el pasado has hablado de principios de fondo más amplios, que creo que se pueden aplicar a mucho más que a la física.",
+        "Por ejemplo, el criterio de la diversión, tomarse en serio a los niños, no destruir los medios para corregir errores y el optimismo sin límites.",
+        "Y también que la ignorancia es el pecado supremo, porque nos impide arreglar y resolver las cosas.",
+        "Todo esto parece apuntar a una filosofía de vida de fondo, y no sé si la has formulado, probablemente no, pero ¿hay principios filosóficos según los cuales intentes vivir?",
+        "¿Hay heurísticas que sigas, que te hayan ido bien, y que creas que otras personas podrían mirar y decir que a ellas también les han funcionado?"
+      ]
+    },
+    {
+      "id": "b65-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Bueno, principios desde luego que no, porque no creo que sea buena idea intentar trabajar desde la base.",
+        "Creo que es buena idea intentar arreglar los problemas allí donde los ves.",
+        "Así que ves algo mal en internet y tienes que publicar un tuit, o un X, o como se llame ahora, y ves algo mal en la mecánica cuántica e intentas arreglarlo.",
+        "Y creo que sería bastante absurdo ponerse a empezar otra vez desde la base, decir que hay que entender la cosmología antes de entender la mecánica cuántica, porque eso no va a funcionar."
+      ]
+    },
+    {
+      "id": "b66-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Así que resuelves problemas concretos a medida que los ves."
+      ]
+    },
+    {
+      "id": "b67-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Y los problemas que parecen divertidos. No sé si lo aplico así en la vida real, pero creo que uno no debería lanzarse de cabeza a un problema solo porque es interesante.",
+        "Hay que tener en cuenta que probablemente no lo resolverás, así que debería ser algo con lo que esperes divertirte, lo resuelvas o no.",
+        "Creo que, si lo haces al revés y pones todas tus esperanzas en tener éxito, la única forma de ser feliz es como en la película Carros de fuego.",
+        "Si pones todas tus esperanzas en ganar esa medalla de oro, en ser el número uno del mundo, no serás feliz ni siquiera cuando lo seas, y mucho menos si no lo eres.",
+        "Si no lo eres, siempre serás el fracasado que esperabas no ser, y si lo eres, descubrirás que está vacío."
+      ]
+    },
+    {
+      "id": "b68-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Y ya no queda ningún problema que resolver."
+      ]
+    },
+    {
+      "id": "b69-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Sí, ya no queda ningún problema, y eso está muy bien reflejado en esa película.",
+        "Hay que tener cuidado con los destripes, porque el final de esa película es bastante sorprendente, ya que él no es feliz al final.",
+        "Así que no se lo vamos a destripar a nadie, pero esa lección de vida está en la película.",
+        "Alguno de los guionistas entendió esa lección, o quizá simplemente la sacaron con fidelidad del personaje real. No lo sé, y no sé si la película es fiel a la historia."
+      ]
+    },
+    {
+      "id": "b70-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Así que todo esto es, en cierto modo, una filosofía de vida, porque mucha gente, los gurús de la autoayuda y demás, te dicen que deberíamos tener una vida guiada por objetivos.",
+        "Te dicen que escribas tus objetivos en tu mural de los sueños o algo así."
+      ]
+    },
+    {
+      "id": "b71-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Que te esfuerces, que hagas el esfuerzo, que te levantes de la cama, que hagas tu rutina de la mañana y te pongas a trabajar.",
+        "Que tienes que llegar a ese objetivo y luego subir al siguiente escalón."
+      ]
+    },
+    {
+      "id": "b72-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Suena terriblemente peligroso, y no sé quién lo tiene peor, los que fracasan o los que tienen éxito.",
+        "Creo que quizá mucha gente solo necesita inspiración, y una vez que la tiene, hace lo correcto de todos modos, aunque la ideología que sigue no sea esa.",
+        "Simplemente hacen lo correcto de todos modos, igual que Newton creía que hacía inducción y nunca hizo ninguna inducción.",
+        "Pero esa idea lo inspiró, y por eso interpretó su propio comportamiento de esa manera, cuando no se parecía en nada.",
+        "Así que creo que la gente a menudo acierta, y en el mundo hay mucha gente feliz, que no la habría si de verdad siguieran la teoría que creen que siguen."
+      ]
+    },
+    {
+      "id": "b73-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Entonces, ¿la espontaneidad forma parte de tu vida? ¿Siempre ha estado ahí?",
+        "Es decir, ¿en lugar de tener un plan rígido al que nos atenemos, si surge algo que parece divertido, lo hacemos sin más, pase lo que pase con todo lo demás?"
+      ]
+    },
+    {
+      "id": "b74-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Creo que eso existe. Otro de mis ejemplos es un fracaso, en concreto Vincent van Gogh.",
+        "Nunca vendió un cuadro, y rechazó el trabajo que le ofreció su hermano en la galería de arte, en el que habría sido estupendo.",
+        "Pero quería pintar sus cuadros, y quería pintarlos como él quería pintar.",
+        "Debía de ser una persona muy difícil de tratar, pero eso era lo que quería y eso fue lo que hizo.",
+        "Y luego, al final, lo mataron, aunque no sé hasta qué punto es probable que fuera así, y después de su muerte lo reconocieron como un gran genio.",
+        "Bueno, ¿y cómo encaja eso en lo de la autoayuda? ¿Se ayudó a sí mismo o no, si murió en el intento?"
+      ]
+    },
+    {
+      "id": "b75-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Me recuerda a aquel matemático ruso, no recuerdo cómo se llama, creo que sigue vivo, que rechazó todos los premios.",
+        "Entre ellos había uno de no sé si un millón de dólares o cientos de miles de dólares."
+      ]
+    },
+    {
+      "id": "b76-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Creo que era un millón de dólares, y eso es completamente distinto de aceptar un millón de dólares por trabajar en algo, que no habría estado bien.",
+        "Pero si trabajaba en ello por el gusto de hacerlo, y luego alguien le ofrece un millón de dólares."
+      ]
+    },
+    {
+      "id": "b77-naval",
+      "speaker": "Naval",
+      "frases": [
+        "¿Por qué no aceptar el millón de dólares?"
+      ]
+    },
+    {
+      "id": "b78-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Por lo menos, acéptalo y luego dáselo a alguien que te caiga bien."
+      ]
+    },
+    {
+      "id": "b79-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Sí, por ejemplo, ahí tiene que haber algo raro, algún detalle que no nos cuentan."
+      ]
+    },
+    {
+      "id": "b80-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Hablando de este tipo de motivaciones y de divertirse, también has aplicado eso, junto con el principio del explicador universal, a tomarse en serio a los niños.",
+        "Tratarlos como adultos, darles total libertad, sin coacción."
+      ]
+    },
+    {
+      "id": "b81-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Bueno, tratarlos como personas."
+      ]
+    },
+    {
+      "id": "b82-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Como personas, sí. Y sin coacción, ni siquiera exámenes, sin presionarlos, sino dejando que sigan su propia curiosidad y su propia motivación naturales.",
+        "¿Hay una filosofía parecida para tomarse en serio a los adultos?",
+        "Porque ni siquiera está claro que nos tomemos del todo en serio a otros adultos, y por eso nuestras relaciones se resienten."
+      ]
+    },
+    {
+      "id": "b83-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Estoy de acuerdo. Bueno, a gran escala todavía no sabemos cómo hacerlo.",
+        "Las instituciones de Occidente, la ciencia, la economía y la política, son las mejores que han existido nunca.",
+        "Y comparadas con la historia, se les da muy bien fomentar la creatividad, no decirle a la gente lo que tiene que hacer.",
+        "Dejan que la gente haga voluntariamente lo que quiere y que se relacione en consecuencia.",
+        "Evidentemente, son muy imperfectas. Todas ellas, la ciencia, la economía y la política, tienen imperfecciones enormes que todavía no se han resuelto.",
+        "Y creo que cualquier coacción, incluso la que ejerce un Estado para hacer cumplir la ley, es señal de que algo es imperfecto, y podemos mejorarlo.",
+        "Podemos, aunque no sé cómo, pero las mejoras las tendrá que producir de forma creativa la gente que quiera hacerlo.",
+        "Y en cuanto a los amigos, o digamos la gente que uno conoce, creo que uno ya los está tomando en serio de forma automática.",
+        "A una persona le podrías decir que tenga cuidado, que hoy puede llover.",
+        "Pero si te contesta que no, que no le gusta su impermeable y que se va a poner esta chaqueta, no le insistes.",
+        "No le dices que se ponga el impermeable o que si no, no vamos.",
+        "Te considerarían muy maleducado y retorcido, y nada racional por tratar así a los adultos."
+      ]
+    },
+    {
+      "id": "b84-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Salvo en el contexto de una relación definida, como la de profesor y alumno, jefe y empleado o marido y mujer, en la que cada uno tiene ciertos derechos sobre el comportamiento del otro."
+      ]
+    },
+    {
+      "id": "b85-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Creo que esas instituciones, si tienen esa propiedad, que muchas veces no la tienen, pero si la tienen, son imperfectas, y tiene que haber una forma mejor.",
+        "No creo que un jefe deba hablarle a un empleado de esa forma punitiva, de esa forma prescriptiva.",
+        "Para empezar, entre el jefe y el empleado debería estar claro para qué se le ha contratado, y así los dos están de acuerdo en eso.",
+        "Así que te contratan para hacer tal cosa, y luego el jefe puede proponerte otra.",
+        "Y entonces el empleado puede decirle que suena bien, pero que seguro que no funcionaría.",
+        "Y el jefe puede contestarle que tiene la idea de que quizá sí, y que lo pruebe, y este tipo de trato amistoso es el ideal."
+      ]
+    },
+    {
+      "id": "b86-naval",
+      "speaker": "Naval",
+      "frases": [
+        "¿Y cómo influye esto en tus relaciones humanas con la gente de tu vida?",
+        "Por ejemplo, cuando estás con tu pareja o con un compañero de trabajo, y quieren mantener la relación, así que hay ciertas restricciones.",
+        "Así que no puedes ser del todo libre, porque sigue habiendo restricciones.",
+        "¿O es que sencillamente no tienes ese tipo de relaciones en tu vida? ¿No te pones en situaciones en las que no puedes funcionar con toda la diversión y toda la libertad?"
+      ]
+    },
+    {
+      "id": "b87-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Bueno, todo el mundo tiene una situación del problema, que es sobre todo lo que intenta resolver, y para mí las relaciones sirven para abordar la propia situación del problema.",
+        "Y resulta que, por cómo funciona el mundo, por la epistemología y demás, muy a menudo pasa una cosa.",
+        "Dos personas que abordan cada una los problemas de la otra son mucho más que el doble de eficientes que cada una por separado.",
+        "Así que hay un factor multiplicador, y la economía también tiene un factor multiplicador, la economía en su conjunto tiene un factor multiplicador de probablemente billones o algo así.",
+        "Hay cosas que se pueden conseguir a través de la economía, como un iPhone, y el multiplicador en el coste es enorme.",
+        "Si quieres ir a ver una película, puede que sea más del doble de agradable si vas con un amigo.",
+        "Pero no va a ser billones de veces más agradable, aunque sigue mereciendo la pena.",
+        "Y hay cosas como tener hijos y demás, que solo puedes hacer si tienes una relación a largo plazo con una persona con la que compartes unas instituciones para resolver problemas.",
+        "Instituciones del consentimiento, así que creo que, en realidad, la cuestión no es esa.",
+        "La cuestión es que, cuando participas en una relación para resolver problemas, del tipo que sea, y funciona, es una buena relación y funciona, entonces es retorcido decir que te limita.",
+        "Es un poco como decir que en la economía te limita tener que pagar por las cosas, y no es así, porque tener que pagar por las cosas es la condición del consentimiento.",
+        "Si no fuera por el consentimiento, no conseguirías las cosas sin pagar, porque al menos tendrías que robarle a alguien o algo así.",
+        "Pero, sobre todo, ni siquiera estarían ahí, porque las cosas solo existen gracias a este conjunto enorme de instituciones del consentimiento.",
+        "Iba a decir que si les sigues el juego, pero ni siquiera es esa la palabra.",
+        "Si te identificas con ellas, si te identificas con estas instituciones y quieres ser el tipo de persona que encaja en ellas, entonces consigues iPhones, y lo mismo pasa con cualquier tipo de relación.",
+        "Pero cuando no sacas nada de ellas, como quizá ese ruso que rechazó el premio, si no quieres nada de la economía, lo haces así.",
+        "Puede que lo único que quieras sea quedarte en tu cabaña de troncos trabajando en matemáticas.",
+        "Si cualquier relación humana o cualquier trato con la gente no es más que una molestia, pues eso es lo que haces y lo que tendrías que hacer.",
+        "Y si de algún modo te obligaran a tener una relación normal, serías infeliz.",
+        "Y probablemente, bueno, no quiero decir probablemente, pero lo que otra gente llama libertad perjudicaría las condiciones para que hicieras buenas matemáticas y para que fueras feliz.",
+        "Así que te he dado una respuesta muy larga, pero, básicamente, las buenas relaciones no te limitan, sino que te potencian."
+      ]
+    },
+    {
+      "id": "b88-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Bueno, eso enlaza con lo que a veces se llama el choque de civilizaciones, aunque creo que ahora mismo el nombre no es el adecuado.",
+        "Es el choque de la civilización con lo incivilizado, y evidentemente ahora mismo hay uno muy destacado, aunque puede que cuando la gente escuche esto no sepa a qué nos referimos.",
+        "Pero me parece que la existencia de los iPhone, por ejemplo, surge de la civilización que tiene la tradición de la crítica.",
+        "Esa es la condición previa necesaria para el progreso rápido que tenemos, pero ahora mismo esa civilización tiene enemigos.",
+        "¿Cuáles crees que son las principales amenazas a las que nos enfrentamos ahora mismo? ¿Y son existenciales?",
+        "Porque a mucha gente le preocupan las amenazas existenciales, como que los robots se hagan con el mundo o que el próximo virus acabe con nosotros.",
+        "Pero, en cuanto a este llamado choque de civilizaciones, ¿cuál es la principal tensión o la principal amenaza a la que nos enfrentamos como herederos de la Ilustración, y cuál es el remedio?"
+      ]
+    },
+    {
+      "id": "b89-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Bueno, como sabes, no puedo hacer profecías, nadie puede, y yo intento evitarlo.",
+        "No puedo tomarme en serio ninguna amenaza a nuestra civilización que venga de fuera, es decir, de dictadores, de terroristas, y también de inteligencias artificiales, generales o superinteligentes, si llegan a aparecer.",
+        "Cabe esperar que las primeras inteligencias artificiales generales que aparezcan formen parte de hecho de nuestra cultura, de la Ilustración, y que solo la refuercen.",
+        "Y tampoco puedo tomarme en serio las amenazas existenciales de cosas como el clima, porque van a una escala de tiempo mucho más larga.",
+        "En realidad, lo que dicen todas esas historias alarmistas es que podría salir más caro de lo que pensamos, o que quizá sería mejor empezar hoy con grandes proyectos.",
+        "Y eso no puede ser una amenaza existencial.",
+        "La única amenaza que podría ser existencial es que nuestra civilización, la civilización de la Ilustración, cometa errores lo bastante graves.",
+        "Por ejemplo, modas e ideologías que niegan y odian esa misma civilización.",
+        "Siempre ha habido modas así y, siguiendo a Roy Porter, he hablado de que la propia Ilustración llevaba incorporada desde el primer día una antiilustración rebelde.",
+        "Y esa antiilustración tiene hoy descendientes, y cosas como lo woke, o como queramos llamarlas, están entre sus descendientes.",
+        "En principio, algo así podría hacer caer la civilización, aunque tengo que decir que no veo ninguna señal de ello. Estoy intentando evitar las profecías.",
+        "Pero, aunque creo que esas cosas empujan en la dirección de hacer caer la civilización, no veo ninguna señal real de que estén avanzando en ello."
+      ]
+    },
+    {
+      "id": "b90-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Aun así, en Occidente, ya sea en Londres, en Nueva York o en Sídney, ¿somos un poco más débiles de lo que habríamos sido durante la Segunda Guerra Mundial?",
+        "Por supuesto, no soy historiador, pero parecía que, al menos, la persona de a pie tenía un impulso más fuerte de entender la línea clara entre quién estaba en el lado correcto y quién no.",
+        "Y ahora vemos a gente en Occidente defendiendo no a las víctimas, sino a los agresores. ¿Es un fenómeno nuevo?"
+      ]
+    },
+    {
+      "id": "b91-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Si quieres hacer una analogía con mediados del siglo veinte, el momento al que más nos parecemos no es la Segunda Guerra Mundial.",
+        "Son los años treinta, los años veinte y treinta, el periodo de entreguerras.",
+        "Ahí también hubo una enorme pérdida de confianza en que nuestra cultura tuviera razón, y estuvo la Gran Depresión.",
+        "Era lo habitual, la opinión dominante, sacar una lección completamente equivocada de la Gran Depresión.",
+        "La gente pensaba que necesitábamos menos capitalismo, menos libertad en general, y que necesitábamos más líderes fuertes.",
+        "Cuando llegó la guerra, la gente vio que había llegado la hora de la verdad, y en Occidente había muy poco que se opusiera a hacer lo correcto.",
+        "Mi ejemplo favorito de esto es la Universidad de Oxford, la Oxford Union, que organizó un debate con los estudiantes.",
+        "La moción decía que esta cámara no lucharía por el rey y por la patria bajo ninguna circunstancia.",
+        "Yo no sabía lo de bajo ninguna circunstancia, lo consulté hace poco, y ganó, esa moción ganó, y supuestamente le dio ideas a Hitler.",
+        "En cualquier caso, la ideología de los nazis y demás, de los fascistas en general, era que la democracia liberal era decadente y que estaba en declive.",
+        "Y Gran Bretaña, Francia y Estados Unidos no perdían ninguna ocasión de confirmarlo, de hacer que pareciera que estaba en declive, aunque no era nada de eso.",
+        "Era más bien aquello de que nos mean encima y decimos que llueve, esa era más bien la actitud.",
+        "Y dentro de eso, había gente que adoptaba todo tipo de justificaciones, como el pacifismo y demás.",
+        "Pero un año después de aquella moción, la élite de los estudiantes de la Universidad de Oxford se había alistado en las fuerzas armadas y estaba luchando en la batalla de Inglaterra.",
+        "Eran los pilotos que luchaban en la batalla de Inglaterra, eran los oficiales que llevaban a sus hombres a luchar.",
+        "Y sabían que nuestro bando tenía razón y que iba a ganar, a pesar de los terribles reveses del principio de la guerra.",
+        "Una vez le pregunté a mi madre, que era superviviente del Holocausto y en aquella época lo estaba pasando muy mal, cuándo había estado segura de que los aliados iban a ganar.",
+        "Porque a mí me parecía que, en septiembre del treinta y nueve, todo el mundo pensaba que Gran Bretaña estaba condenada.",
+        "Joseph Kennedy, el embajador estadounidense, el padre de John Kennedy, mandó un telegrama diciendo que Gran Bretaña estaba acabada y que había que llegar a un acuerdo con los nazis.",
+        "Y luego los británicos se enteraron y pidieron que lo retiraran como embajador, pero, en cualquier caso, yo creía que eso era lo que se pensaba en general.",
+        "Pero cuando le pregunté a mi madre cuándo había estado segura de que los aliados ganarían, me dijo que el tres de septiembre de mil novecientos treinta y nueve.",
+        "Fue el día en que Gran Bretaña y Francia declararon la guerra.",
+        "Porque ese fue el momento en que dieron la vuelta a su política de decir que llovía y empezaron la política de defender de verdad la civilización.",
+        "Nadie podría haber previsto los detalles tácticos de cómo iba a ocurrir, ni exactamente cómo íbamos a ganar.",
+        "Pero que íbamos a ganar, y que teníamos que ganar, era evidente para algunos, y los británicos, como nación, dieron un giro en redondo de la noche a la mañana.",
+        "Creían en un conjunto de cosas, en un conjunto de ideologías, y luego, al parecer, daba la impresión de que al día siguiente creían lo contrario.",
+        "Hay una escena muy buena en la última película sobre Churchill, no sé si la habrá visto alguno de los dos, en la que Churchill está muy deprimido.",
+        "Sus compañeros del Partido Conservador intentan empujarlo a llegar a un acuerdo con Hitler, y él ya ha visto desde principios de los años treinta que eso es imposible, pero muy pocos lo escuchan.",
+        "Y luego va a ver a gente corriente. No te lo voy a destripar, pero eso no pasó en la vida real, aunque podría haber pasado."
+      ]
+    },
+    {
+      "id": "b92-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Así que recibe el sentido común y la visión clara de la llamada gente normal, mientras que la Oxford Union, las élites, se ponen del lado equivocado."
+      ]
+    },
+    {
+      "id": "b93-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Bueno, se habían puesto, pero creo que para entonces ellos también habían cambiado de opinión."
+      ]
+    },
+    {
+      "id": "b94-brett-hall",
+      "speaker": "Brett Hall",
+      "frases": [
+        "Así que hoy parece que la antiilustración sigue enconándose a buen ritmo en las universidades de élite de todas partes.",
+        "Será un subproducto necesario de que ahí es donde está la gente creativa y brillante, que va a ser rebelde.",
+        "Y por eso inevitablemente vas a tener gente que se levanta contra la corriente dominante, pero no tiene por qué ser así."
+      ]
+    },
+    {
+      "id": "b95-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Creo que, históricamente, fue una mezcla de cosas. Que hubiera rebeldes entre los estudiantes es algo bueno, y siempre será así.",
+        "En Alemania, los estudiantes fueron el semillero del nazismo, así que el núcleo del nazismo estaba en las universidades alemanas.",
+        "Eso no pasaba en Gran Bretaña, donde la tendencia antidemocrática era de izquierdas, eran comunistas.",
+        "Como sabes, al principio de la guerra todos fingían ser pacifistas, así que estaban en contra de la guerra.",
+        "Pero lo estaban porque Stalin se lo había dicho, ya que había firmado un pacto con Hitler.",
+        "Cambiaron de opinión de un día para otro cuando Stalin se lo ordenó, pero eso es otro fenómeno.",
+        "Así que los estudiantes, que en aquella época eran de clase alta, eran de izquierdas, y algunos simpatizaban con el fascismo.",
+        "La mayoría cambiaron de opinión de inmediato, no sé por qué, es una de esas cosas, como un cambio de fase.",
+        "Hitler invadió Checoslovaquia y nadie le prestó atención, porque querían apaciguarlo.",
+        "Antes había invadido Austria, y antes de eso, Renania y demás, y todo el mundo solo quería apaciguarlo.",
+        "De repente invade Polonia y todo el mundo dice que eso es inaceptable, y todo el mundo se da cuenta de repente de lo que está pasando.",
+        "No sé por qué, porque no había ninguna diferencia entre un caso y otro, pero así fue como funcionó.",
+        "Quizá es que algunas personas habían estado pensando y otras se habían fiado de esas personas.",
+        "Habían estado pensando mal, y cambiaron de opinión porque habían estado pensando.",
+        "Y la gente que se fiaba de ellas también cambió de opinión, quizá pasó así, como una especie de proceso de siembra."
+      ]
+    },
+    {
+      "id": "b96-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Una cascada de información. Parece que la gente tiende a jugar con la ideología hasta que las cosas se ponen serias.",
+        "Y entonces las consecuencias de la ideología se vuelven evidentes, y la gente sensata de arriba cambia de opinión, y luego la mayoría simplemente la sigue como referencia."
+      ]
+    },
+    {
+      "id": "b97-david-deutsch",
+      "speaker": "David Deutsch",
+      "frases": [
+        "Podría ser, y me gustaría mucho que fuera así en la crisis actual, con el pogromo que acaba de ocurrir, pero no sé si lo será.",
+        "Porque, otra vez, ya ha habido casos en los que yo habría dicho que era el momento, que ahora sí, pero no lo fue, y no sé si esta vez será distinto.",
+        "Pero una cosa, me has preguntado antes si la civilización está en peligro, y no lo creo."
+      ]
+    }
+  ]
+}
