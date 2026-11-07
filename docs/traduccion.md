@@ -233,3 +233,4 @@ episodio. Episodios con notas a 6-nov: 008, 010, 017, 018, 020 y 052.
 | 2026-11-07 | 109 Genetic Evolution Was a Prelude to Memetic Evolution (revisión con el autor) | revision | 1 | 21 | 471 | 2,8 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
 | 2026-11-07 | 110 Humans Are Exceptional (revisión con el autor) | revision | 1 | 24 | 429 | 2,5 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
 | 2026-11-07 | 111 We Are Qualitatively Different From Other Species (revisión con el autor) | revision | 1 | 17 | 302 | 1,8 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
+| 2026-11-07 | 112 More Compute Power Doesn’t Produce AGI (revisión con el autor) | revision | 1 | 15 | 319 | 1,9 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
