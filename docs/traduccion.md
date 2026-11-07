@@ -189,3 +189,4 @@ episodio. Episodios con notas a 6-nov: 008, 010, 017, 018, 020 y 052.
 | 2026-11-07 | 151 Most Books Should Be Skimmed, A Few Should Be Devoured | revision | 2 | 45 | 795 | 4,7 | Cero avisos. Corto: tramo b25–b26 del 154; fecha del catálogo, la página dice 26-sep |
 | 2026-11-07 | 152 Good Products Are Hard to Vary | revision | 1 | 41 | 719 | 4,2 | Cero avisos. Corto: tramo b27 del 154 |
 | 2026-11-07 | 153 Find the Simplest Thing That Works | revision | 4 | 73 | 1394 | 8,2 | Cero avisos. Corto: tramo b28–b31 del 154; fecha del catálogo, la página dice 1-oct |
+| 2026-11-07 | 155 Curate People | revision | 38 | 578 | 10342 | 60,8 | Cero avisos. Episodio aparte. Decisiones del autor del 7-nov: Elige bien a la gente, cultura y culto comparten raíz, opiniones muy firmes, feedback, capacidad de actuar; reclutar, levantar capital, gusto |

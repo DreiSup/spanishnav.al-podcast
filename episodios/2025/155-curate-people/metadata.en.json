@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 155,
+  "anio": 2025,
+  "slug": "curate-people",
+  "titulo": "Curate People",
+  "subtitulo": "On recruiting and culture",
+  "fecha_publicacion": "2025-11-07",
+  "fuente_url": "https://nav.al/curate-people",
+  "orden_archivo": 159,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-07"
+}

@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 155,
+  "anio": 2025,
+  "slug": "curate-people",
+  "titulo_es": "Elige bien a la gente",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Elige bien a la gente",
+    "descripcion": "",
+    "tags": [],
+    "url": "",
+    "url_original": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "publicacion": {
+    "fecha": "",
+    "audio_url": "",
+    "audio_bytes": 0,
+    "duracion_s": 0,
+    "feed_guid": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "escucha": {
+    "escuchado": false,
+    "resultado": null,
+    "fecha": null,
+    "feedback": ""
+  },
+  "notas": "Inglés sacado del Google Doc «2025 all podcasts» de Drive; cuadra palabra a palabra con el documento (de la cabecera a «Related», sin enlaces). Decisiones del autor del 7-nov aplicadas (GLOSARIO, Naval y Nivi 2025 y 2026): capacidad de actuar para agency, la vida se vive en la arena, banquero mafioso, feedback en inglés, la empresa imposible, Impossible Inc. Tuits y citas en estilo indirecto o como máxima sin comillas. Episodio aparte, sin cortos. En el .txt, el párrafo «Strategy: You have to set…» se unió al anterior de Naval (mismo turno, sin cambiar palabras) porque el script lo tomaba por un hablante llamado Strategy. Curate people = Elige bien a la gente (decisión del autor, 7-nov): título y máxima final, «I would summarize it in two words» queda como «Yo lo resumiría en una sola frase»; el «curate» del bloque de Slack, como elegir mucho mejor a tu gente. Cult in culture = Por algo cultura y culto comparten raíz; título Los primeros equipos parecen sectas. Opinionated = con opiniones muy firmes, también para los productos. Feedback en inglés. Subtítulo: Sobre el reclutamiento y la cultura. Otras decisiones: recruiting = reclutar (como el 028); fundraising = levantar capital (como el 026); taste = gusto (como el 051); builders = los que construyen (como el 015); tinkerers = gente que trastea; sourcing = buscar candidatos; HR = recursos humanos; VC = capital riesgo; cap table = tabla de capitalización; fly by wire = pilotaje por cable; maker's schedule = horario de creador; two pizza teams = equipos de dos pizzas; slop = basura; incel se queda, nerd = friki; non consensus and right = acertar contra el consenso; principal agent = el problema del principal y el agente; idea maze = el laberinto de ideas; zone of genius = zona de genialidad; founder mode = modo fundador; Geniuses only = solo genios; Smart and Get Things Done (Spolsky) sin edición española, dicho con palabras; pregunta de Thiel como en De cero a uno; G3 curves = curvas G tres; Sora 2 = Sora dos; Apple II = Apple dos; AI = inteligencia artificial y luego IA según el GLOSARIO; cifras en letra. Escuchar en el TTS: Vinod Khosla, Warren Buffett, Steve Jobs, Elon Musk, Slack, Macintosh, Apple dos, Jeff Bezos, TikTok, Nassim Taleb, Altman, Sora dos, NASA, Boeing, Lockheed, GitHub, AngelList, Founders Cafe, incel, AirPods, curvas G tres, Android, Quora, ChatGPT, Google, Jack Dorsey, Joel Spolsky, YouTube, X, Substack, Peter Thiel, Mike Maples, Malcolm Gladwell, Balaji Srinivasan, David Deutsch, primus inter pares, la IA, feedback, startup, marketing."
+}
