@@ -78,10 +78,28 @@
       "2021/127-failure",
       "2021/128-infinite-resources",
       "2021/129-caveman"
+    ],
+    "2025/154-in-the-arena": [
+      "2025/139-inspiration",
+      "2025/140-arena",
+      "2025/141-do",
+      "2025/142-indirect",
+      "2025/143-truly",
+      "2025/144-find",
+      "2025/145-enjoy",
+      "2025/147-reflect",
+      "2025/148-agency",
+      "2025/149-fool",
+      "2025/150-density",
+      "2025/151-get",
+      "2025/152-good-products",
+      "2025/153-simplest"
     ]
   },
   "pendientes_de_traducir": {
-    "In the Arena (2025, número 154, slug in-the-arena)": "14 cortos: 139–145 y 147–153",
     "The AI Industrial Revolution (2026, número 160, slug industrial)": "3 extras sin número: Waste Tokens, Vibe Coding Hardware, The Regulatory Frontier"
+  },
+  "_excepciones": {
+    "2025/154-in-the-arena": "Dos bloques de cortos sin pareja en el largo, que la fábrica genera aparte: 139 b01 (intro propia de Nivi) y 144 b01 (el largo b15 lleva además «Por ejemplo, fíjate en el marketing.», decisión del autor del 7-nov). Bloques solo del largo: b01, b06 y ese final de b15. Verificado el 7-nov en el repo."
   }
 }
