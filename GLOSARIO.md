@@ -252,6 +252,34 @@ copia exacta de su tramo (docs/cortos-y-largos.md): un cambio va al largo y a su
 | person A, idea X, theory Z | una persona, una idea, la otra, una tercera idea | Letras sueltas resueltas en la frase, como en 063 (124, D10) |
 | ToKCast | Tokcast | Confirmado por el autor (7-nov). Con su explicación la primera vez: podcast de la teoría del conocimiento |
 
+#### Documentos Deutsch I–IV (135–138, 2024) — propuestos el 7-nov, pendientes del autor
+
+Traducidos el 7-nov con la tabla de arriba. Estos términos salieron nuevos en los cuatro episodios de 2024 y siguen
+pendientes de visto bueno; el detalle de cada episodio está en sus notas.
+
+| Original | En el texto | Nota |
+|---|---|---|
+| The Deutsch Files I, II, III, IV | Documentos Deutsch I, II, III, IV | Regla de títulos del autor (Files = Documentos). Alternativa: Los documentos de Deutsch |
+| ChatGPT / GPT-4 / 3.5 | ChatGPT / GPT cuatro / la versión tres punto cinco | Escuchar cómo lee ChatGPT el TTS; reserva fonética chat ge pe te |
+| ASI / super-intelligence | superinteligencia artificial / superinteligencia | Sigla resuelta (135 b46, b47) |
+| chatbot / prompts / plugins | chatbot / prompts / complementos | Prompts en inglés, como en 2025-26 |
+| hallucinate | alucinar | 135 b6 |
+| fun criterion | el criterio de la diversión | Término de Deutsch (135 b64, 136 b39). Following the fun = seguir la diversión |
+| personhood / the binary of personhood | ser persona / la división binaria entre ser persona y no serlo | 135 |
+| institutions of consent / enhancement factor | instituciones del consentimiento / factor multiplicador | 135 b87 |
+| Theory of Everything | la teoría del todo | 136; la teoría de todo lo que se conoce para *the theory of everything known* |
+| free will / counterfactuals / emergence | libre albedrío / contrafácticos / emergencia | 136, 138 |
+| category error / folk psychology | error de categoría / psicología popular | 136 b44, b45 |
+| Shut up and calculate | calla y calcula | 136 b26 |
+| bucket theory of the mind / of knowledge | la teoría de la mente como un cubo / la teoría del cubo del conocimiento | Popper (137, 138) |
+| unschooling / homeschooling | desescolarización / educación en casa | 137 b27 |
+| you can't teach an old dog new tricks | loro viejo no aprende a hablar | 137 b31; en la respuesta de Deutsch, literal, los perros viejos |
+| You piss on us, we say it's raining | nos mean encima y decimos que llueve | 135 b91. El dicho español es vulgar; alternativa sin vulgaridad: nos escupen encima y decimos que llueve |
+| Charles Cattell (Thermal Physics) | Charles Kittel, Física térmica | 135 b41: errata del copiado, el autor del libro es Kittel |
+| Middle World (Dawkins) | el Mundo Medio | 138 b16 |
+| shibboleths / the blob / Red Wall / grammar schools | señas de pertenencia / el aparato / el muro rojo / escuelas de gramática | 138 |
+| woke / wokeism / anti-Enlightenment | lo woke / la antiilustración | 135, 138 |
+
 ### Matt Ridley (070, 071) — decisiones del autor del 7-nov
 
 Toda la tabla tiene el visto bueno del autor (7-nov, respuestas 1 a 36 de la ronda de preguntas, tras leer entero el
