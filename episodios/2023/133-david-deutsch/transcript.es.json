@@ -4,12 +4,12 @@
   "episodio": "2023/133-david-deutsch",
   "numero": 133,
   "fecha": "2023-02-11",
-  "titulo": "David Deutsch: la creación de conocimiento y la especie humana, primera parte",
+  "titulo": "David Deutsch: la creación de conocimiento y la raza humana, parte 1",
   "subtitulo": "",
   "fuente_url": "https://nav.al/david-deutsch",
   "titulos_seccion": [
     "Contexto",
-    "La especie humana",
+    "La raza humana",
     "Es intuitivamente obvio que los humanos son únicos",
     "Las cosas que crean conocimiento tienen una influencia única en el universo",
     "La creatividad explicativa hace únicos a los humanos",
@@ -22,7 +22,7 @@
     "La filosofía de tomarse en serio a los niños",
     "Las buenas explicaciones",
     "¿Qué es una buena explicación?",
-    "Las buenas explicaciones son difíciles de encontrar, difíciles de variar y falsables",
+    "Las buenas explicaciones son difíciles de conseguir, difíciles de variar y falsables",
     "Una seña de identidad de una buena explicación son las predicciones concretas y arriesgadas",
     "Ordenadores cuánticos",
     "Los humanos son ordenadores universales",
@@ -298,7 +298,7 @@
         "En todo caso, está mejorando en la dirección opuesta.",
         "Un programa de ajedrez mejor es uno que examina menos posibilidades por jugada.",
         "En cambio, una inteligencia artificial general no solo examina un árbol de posibilidades más amplio, sino que examina posibilidades que nadie ha previsto.",
-        "Esa es la propiedad que la define, y si no puede hacer eso, no puede hacer lo básico que debería hacer una inteligencia general.",
+        "Esa es la propiedad que la define, y si no puede hacer eso, no puede hacer lo básico que debería hacer una inteligencia artificial general.",
         "Y en cuanto pueda hacer lo básico, podrá hacerlo todo.",
         "No vas a poder programar algo cuya funcionalidad no seas capaz de especificar.",
         "Ahora mismo, en lo que me gusta centrarme es en la desobediencia, porque también tiene implicaciones para los humanos.",
@@ -352,7 +352,7 @@
         "Hubo una gran polémica en Twitter por uno de los que trabajaban en inteligencia artificial general, al que despidieron de Google.",
         "Dijo que sí, que de verdad habían creado una inteligencia artificial general y que él podía dar fe de ello.",
         "La gente aceptaba, basándose en su autoridad, que existía una inteligencia artificial general.",
-        "Insisto, eso es confirmación social, y te dice más de quien afirma que hay una inteligencia general y de quienes se lo creen que de que la haya de verdad.",
+        "Insisto, eso es confirmación social, y te dice más de quien afirma que hay una inteligencia artificial general y de quienes se lo creen que de que la haya de verdad.",
         "Si existiera de verdad una inteligencia artificial general, sus efectos sobre la realidad serían inconfundibles e imposibles de ocultar, porque nuestro paisaje físico y nuestro paisaje social real se transformarían de una forma increíble."
       ]
     },
@@ -383,8 +383,7 @@
         "La amenaza implícita de violencia, aunque sea solo de palabra, ya es una forma de violencia y de control.",
         "Si hoy tuvieras hijos pequeños que criar, ¿cómo los criarías?",
         "¿Cómo los educarías?",
-        "El niño no quiere hacer matemáticas. El niño no quiere ir al colegio.",
-        "El niño no quiere estudiar. El niño solo quiere comer comida basura.",
+        "El niño no quiere hacer matemáticas, no quiere ir al colegio, no quiere estudiar y solo quiere comer comida basura.",
         "¿Qué haces en ese caso?"
       ]
     },
@@ -511,20 +510,20 @@
         "Chiara y yo, junto con algunas personas más, estamos intentando construir esa teoría.",
         "Es algo muy difícil de conseguir, y las partes que ya tenemos son muy difíciles de cambiar.",
         "Eso está bien, pero todavía estamos muy lejos de poder ponerla a prueba con experimentos.",
-        "En eso estamos trabajando, y lo que queremos es una teoría que se pueda comprobar experimentalmente.",
-        "Lo que será comprobable son precisamente las cosas que aún no hemos descubierto de ella.",
-        "Y no podemos arreglar esa carencia simplemente añadiéndole algo comprobable.",
+        "En eso estamos trabajando, y lo que queremos es una teoría que se pueda contrastar experimentalmente.",
+        "Lo que será contrastable son precisamente las cosas que aún no hemos descubierto de ella.",
+        "Y no podemos arreglar esa carencia simplemente añadiéndole algo contrastable.",
         "No podemos decir que tomamos la teoría de constructores tal como está ahora y le añadimos la predicción de que la bolsa va a subir muchísimo el año que viene.",
-        "Esa es una predicción comprobable, pero el conjunto no constituye una explicación en absoluto, y mucho menos una buena."
+        "Esa es una predicción contrastable, pero el conjunto no constituye una explicación en absoluto, y mucho menos una buena."
       ]
     },
     {
       "id": "b32-naval",
       "speaker": "Naval",
       "frases": [
-        "Así que la manera de comprobarla no puede ser arbitraria.",
+        "Así que la forma de contrastarla no puede ser arbitraria.",
         "Tiene que darse dentro del contexto de la explicación, y tiene que surgir de la propia explicación.",
-        "Y mientras estás elaborando la explicación, no sabes si vas a poder comprobarla en un plazo de tiempo razonable.",
+        "Y mientras estás elaborando la explicación, no sabes si vas a poder contrastarla en un plazo de tiempo razonable.",
         "Esperas que al final sea posible, y que podamos usar este oráculo asombroso al que llamamos realidad para poner a prueba el resultado.",
         "Pero no es algo que esté dado desde el principio, y depende mucho del contexto."
       ]
@@ -534,7 +533,8 @@
       "speaker": "David Deutsch",
       "frases": [
         "Y todo eso se refiere a lo que pasa dentro de la ciencia.",
-        "En cuanto sales de la ciencia, por ejemplo a las matemáticas o a la filosofía, ya no se puede comprobar de verdad, al menos no en el sentido en que se hacen comprobaciones en la ciencia.",
+        "En cuanto sales de la ciencia, por ejemplo a las matemáticas o a la filosofía, ya no se puede contrastar de verdad.",
+        "Al menos, no en el sentido en que se hacen pruebas en la ciencia.",
         "Así que hay muchos otros métodos de crítica, y muchas otras formas de que algo se pueda criticar.",
         "Podrías decir que hay teorías, incluso teorías filosóficas, que se blindan contra la crítica.",
         "Un ejemplo es la teoría de que no merece la pena escuchar a nadie que me lleve la contraria.",
@@ -549,7 +549,7 @@
         "O decir que el gran programador creó la simulación, y que nos resulta incomprensible porque las leyes de la física con las que se generó están fuera de nuestra simulación.",
         "Esa es otra teoría que se blinda contra la crítica.",
         "Aquí hemos llegado a una idea nueva, que nadie había planteado de forma explícita hasta ahora.",
-        "Lo importante es que se pueda criticar, y no necesariamente que se pueda comprobar.",
+        "Lo importante es que se pueda criticar, y no necesariamente que se pueda contrastar.",
         "Aunque, cuanto más te acercas a la ciencia clásica, más buscas experimentos que la puedan poner a prueba."
       ]
     },
@@ -579,14 +579,14 @@
       "speaker": "Naval",
       "frases": [
         "¿No sería arriesgada lo mismo que inesperada, y concreta lo mismo que acotada dentro del abanico de posibilidades?",
-        "Cuanto más precisa e inesperada sea esa predicción, más comprobable la estoy haciendo, y mejor adaptada está mi explicación."
+        "Cuanto más precisa e inesperada sea esa predicción, más contrastable la estoy haciendo, y mejor adaptada está mi explicación."
       ]
     },
     {
       "id": "b38-david-deutsch",
       "speaker": "David Deutsch",
       "frases": [
-        "Esos son criterios que surgen cuando intentas pensar con más precisión qué significa comprobable.",
+        "Esos son criterios que surgen cuando intentas pensar con más precisión qué significa contrastable.",
         "Creo que lo importante es que estás poniendo a prueba una explicación, no solo una predicción.",
         "También es verdad que difícil de variar significa que te arriesgas cuando intentas variarla, y que ha costado mucho conseguir las pocas variantes que sobreviven.",
         "Así que es totalmente cierto que la concreción y el hecho de mojarse son, en efecto, componentes de una buena explicación, y no solo dentro de la ciencia.",
@@ -722,7 +722,8 @@
         "Pero la función de onda de dos electrones es una única función en un espacio de más dimensiones.",
         "Un electrón está en tres dimensiones más el tiempo.",
         "En el caso de dos electrones, su función de onda está en seis dimensiones más el tiempo.",
-        "Con la supuesta controversia entre la teoría de las partículas y la de las ondas, la gente siempre se imagina una onda que se acerca a las dos rendijas en el experimento de la doble rendija.",
+        "Sobre la supuesta controversia entre la teoría de las partículas y la de las ondas, la gente siempre piensa lo mismo.",
+        "Se imagina una onda que se acerca a las dos rendijas en el experimento de la doble rendija.",
         "O se imagina que hay una partícula y que tiene que pasar por una de las dos.",
         "Pero si son dos electrones o dos fotones los que se acercan a las rendijas, puedes imaginártelos como dos fotones en el mismo espacio.",
         "En cambio, vistos como ondas, son dos ondas en un espacio mucho más grande, y nadie dice que ese espacio sea real.",

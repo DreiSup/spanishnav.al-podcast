@@ -252,3 +252,4 @@ episodio. Episodios con notas a 6-nov: 008, 010, 017, 018, 020 y 052.
 | 2026-11-07 | 128 Knowledge Makes the Existence of Resources Infinite (revisión con el autor) | revision | 2 | 26 | 535 | 3,1 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
 | 2026-11-07 | 129 To a Caveman Very Few Things Are Resources (revisión con el autor) | revision | 2 | 35 | 611 | 3,6 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
 | 2026-11-07 | 130 The Beginning of Infinity, Part 2 (revisión con el autor) | revision | 35 | 567 | 10553 | 62,1 | Revisión con el autor (7-nov): título parte 2; frases sin cambios. Cero avisos |
+| 2026-11-07 | 133 David Deutsch: Knowledge Creation and The Human Race, Part 1 (revisión con el autor) | revision | 49 | 415 | 7736 | 45,5 | Revisión con el autor (7-nov): raza humana y parte 1 en el título; contrastable (10 frases); AGI en forma larga (2); 2 frases partidas. Cero avisos |
