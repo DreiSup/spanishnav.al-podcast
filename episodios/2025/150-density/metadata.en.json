@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 150,
+  "anio": 2025,
+  "slug": "density",
+  "titulo": "The Best Authors Respect the Reader's Time",
+  "subtitulo": "",
+  "fecha_publicacion": "2025-09-22",
+  "fuente_url": "https://nav.al/density",
+  "orden_archivo": 154,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-07"
+}

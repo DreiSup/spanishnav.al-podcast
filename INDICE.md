@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**145** episodios · **2** publicados · **10** escuchados por el autor (**1** para revisar) · **0** sin empezar
+**146** episodios · **2** publicados · **10** escuchados por el autor (**1** para revisar) · **0** sin empezar
 
 ## 2025
 
@@ -18,6 +18,7 @@
 | 147 | [147-reflect](episodios/2025/147-reflect) | Haz una pausa, reflexiona y mira lo bien que ha ido | 🟠 en revisión | — | — | — |
 | 148 | [148-agency](episodios/2025/148-agency) | Cúlpate de todo y conserva tu capacidad de actuar | 🟠 en revisión | — | — | — |
 | 149 | [149-fool](episodios/2025/149-fool) | Es imposible engañar a la madre naturaleza | 🟠 en revisión | — | — | — |
+| 150 | [150-density](episodios/2025/150-density) | Los mejores autores respetan el tiempo del lector | 🟠 en revisión | — | — | — |
 | 154 | [154-in-the-arena](episodios/2025/154-in-the-arena) | En la arena | 🟠 en revisión | — | — | — |
 
 ## 2023
