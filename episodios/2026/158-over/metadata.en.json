@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 158,
+  "anio": 2026,
+  "slug": "over",
+  "titulo": "'Nothing Ever Happens' Is Over",
+  "subtitulo": "Startup design, drone warfare, and the hardware renaissance",
+  "fecha_publicacion": "2026-05-04",
+  "fuente_url": "https://nav.al/over",
+  "orden_archivo": 162,
+  "en_feed": true,
+  "participantes": [
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-07"
+}
