@@ -452,7 +452,8 @@ def generar_episodio(plan, sintetizar_lote, asr, carpeta, cfg, avisar=print, mas
         fila = {"fichero": p["fichero"], "bloque": p["bloque"], "voz": p["voz"], "segundos": round(seg, 2),
                 "segundos_generacion": round(dt, 1), "sr": sr, "frases": detalle,
                 "adaptador": cfg["voces"][p["voz"]].get("adaptador"), "firma": firma(p["voz"], cfg),
-                "gpu": cfg["motor"].get("gpu"), "fecha": time.strftime("%Y-%m-%dT%H:%M:%S"), **medidas}
+                "gpu": cfg["motor"].get("gpu"), "asr": getattr(asr, "modelo", None),
+                "fecha": time.strftime("%Y-%m-%dT%H:%M:%S"), **medidas}
         with registro.open("a", encoding="utf-8") as fh:
             fh.write(json.dumps(fila, ensure_ascii=False) + "\n")
         hechos[p["fichero"]] = fila

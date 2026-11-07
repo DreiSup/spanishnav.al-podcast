@@ -279,7 +279,7 @@ serie; el brief (docs/briefs/ridley.md) es anterior y, donde choca, manda esta t
 | universal explainers (Deutsch) | explicadores universales | Confirmado (7-nov), como en la serie de Deutsch |
 | venture capital / VC / early adopters / startup | capital riesgo / un inversor de capital riesgo / los primeros en adoptarlo / startup | Confirmado (7-nov) |
 | herd immunity | **inmunidad de rebaño** | **Decisión del autor (7-nov)**, sustituye a «inmunidad de grupo» (071 b14 y b15, seis veces) |
-| lockdown / COVID | **cuarentena / el covid** | **Decisión del autor (7-nov)**, sustituye a «confinamiento» y «la covid» en 070 y 071 (también el título de sección del 071). Choca con «la covid» de la tabla de Vitalik (132): pendiente de que el autor decida si se cambia el 132. *Covid-19 land* = en plena pandemia |
+| lockdown / COVID | **cuarentena / el covid** | **Decisión del autor (7-nov)**, para todo el podcast: sustituye a «confinamiento» y «la covid» en 070 y 071 (también el título de sección del 071), en 132 (tres frases) y en 158 (cinco frases). *Covid-19 land* = en plena pandemia |
 | filter bubble / echo chambers | burbuja de filtros / cámaras de eco | Confirmado (7-nov). 071 b16 a b18 |
 | blue collar / white collar | **obreros / oficinistas** | **Decisión del autor (7-nov)**, sustituye a «trabajadores manuales / de oficina» (071 b14) |
 | How Innovation Works | **Cómo funciona la innovación** | **Decisión del autor (7-nov):** traducción literal, como el original, aunque la edición española (Antoni Bosch, 2021) se titula Claves de la innovación. También en los títulos del 070 y el 071. Ver Siglas y títulos |
@@ -357,7 +357,7 @@ van a la lista de escucha del episodio antes de dar el audio por bueno.
 | Vitalik: Ethereum, Part 1 / Part 2 | Vitalik: Ethereum, parte 1 / parte 2 | Ver Siglas y títulos |
 | Eth got saved (131 b67) | en mi opinión, ese ecosistema salvó a Ethereum | Interpretación por el contexto; anotada |
 | vetocracy | vetocracia | Fukuyama, Deusto 2016 |
-| Covid | la covid | FundéuRAE |
+| Covid / lockdowns | **el covid / las cuarentenas** | **Decisión del autor (7-nov)**, la misma que en la serie Ridley; sustituye a «la covid» de FundéuRAE y a «confinamientos». Aplicado en 132 (b05 y b54) |
 | tweet / retweet | tuit / retuitear | FundéuRAE |
 | NFT | NFT, plural invariable |  |
 | IYI (Taleb) | intelectuales pero idiotas | Jugarse la piel, Paidós 2019 |

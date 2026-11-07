@@ -48,10 +48,13 @@ def audio_16k(ruta):
 
 
 class Asr:
-    def __init__(self):
+    def __init__(self, modelo="openai/whisper-large-v3"):
+        """`modelo`: el de siempre, large-v3, o "openai/whisper-large-v3-turbo" (el mismo codificador con 4 capas de
+        decodificador en vez de 32: mucho más rápido y ~1,5 GB menos)."""
         import torch
         from transformers import pipeline
-        self.p = pipeline("automatic-speech-recognition", model="openai/whisper-large-v3",
+        self.modelo = modelo
+        self.p = pipeline("automatic-speech-recognition", model=modelo,
                           torch_dtype=torch.float16, device="cuda:0", chunk_length_s=30)
 
     def transcribe(self, ruta):

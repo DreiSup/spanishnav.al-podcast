@@ -4,12 +4,12 @@
   "episodio": "2020/071-matt-ridley-2",
   "numero": 71,
   "fecha": "2020-07-15",
-  "titulo": "Matt Ridley: Claves de la innovación, parte 2",
+  "titulo": "Matt Ridley: Cómo funciona la innovación, parte 2",
   "subtitulo": "La innovación es madre de la prosperidad",
   "fuente_url": "https://nav.al/matt-ridley-2",
   "titulos_seccion": [
     "Hambruna de innovación",
-    "La covid",
+    "El covid",
     "Burbujas de filtros",
     "Más sobre cripto",
     "Automatización",
@@ -36,7 +36,7 @@
         "Y podremos hacer más prósperas a las personas, lo que las lleva a reducir su natalidad y también a plantar más árboles.",
         "La humanidad tiene la posibilidad de un aterrizaje suave más adelante en este siglo, si innovamos muchísimo más.",
         "Podríamos acabar siendo ocho o nueve mil millones de personas con unas vidas mucho más respetuosas con el medio natural, y que permitan a la mayoría tener vegetación a su alrededor.",
-        "La pandemia de la covid nos ha mostrado con bastante crudeza que no hemos innovado lo suficiente.",
+        "La pandemia del covid nos ha mostrado con bastante crudeza que no hemos innovado lo suficiente.",
         "No hemos desarrollado suficientes vacunas, no hemos encontrado formas de desarrollar vacunas más deprisa y no hemos desarrollado suficientes aparatos de diagnóstico.",
         "Cuando buscas la razón, descubres que hay un retraso de entre diecisiete y veinte meses para conseguir la licencia que permite vender un aparato de diagnóstico nuevo.",
         "Eso basta para disuadir a la mayoría de los emprendedores de siquiera intentar entrar en ese campo.",
@@ -158,7 +158,7 @@
         "Estamos atrapados en una mala situación en la que no estamos dispuestos a ponerle un valor a una sola vida humana.",
         "Se ha puesto al mando a unos responsables de salud pública que no se formaron para dirigir el mundo entero ni se apuntaron a eso.",
         "Y a esos responsables les aterra que los culpen del exceso de muertes si aflojan demasiado pronto.",
-        "Las consecuencias económicas son muy difíciles de calcular, así que nos van a tener confinados bastante tiempo.",
+        "Las consecuencias económicas son muy difíciles de calcular, así que nos van a tener en cuarentena bastante tiempo.",
         "Me intriga el modelo sueco, y no porque sea necesariamente el mejor.",
         "El mejor habría sido aislarnos y aplastar la curva como hicieron Hong Kong y Taiwán.",
         "Pero la mayoría de los países occidentales son grandes democracias y no tienen la capacidad ni la voluntad de hacer eso.",
@@ -169,8 +169,8 @@
       "id": "b11-matt",
       "speaker": "Matt",
       "frases": [
-        "Menos mal que Suecia no se confinó, porque si no, el mundo occidental habría podido decir, bueno, es que no hay alternativa.",
-        "Sabemos que hay una alternativa, porque aunque en Suecia hubo muchísimo distanciamiento social voluntario, el país no impuso confinamientos obligatorios.",
+        "Menos mal que Suecia no se puso en cuarentena, porque si no, el mundo occidental habría podido decir, bueno, es que no hay alternativa.",
+        "Sabemos que hay una alternativa, porque aunque en Suecia hubo muchísimo distanciamiento social voluntario, el país no impuso cuarentenas obligatorias.",
         "Y su economía ha sufrido muchísimo menos daño que la de países como el Reino Unido o Estados Unidos.",
         "Suecia ha demostrado que las medidas más importantes para controlar esta pandemia son, casi con toda seguridad, las voluntarias.",
         "Son cosas como no darse la mano, no celebrar grandes reuniones y mantener la distancia de seguridad, en vez de encerrar a todo el mundo en su casa."
@@ -193,7 +193,7 @@
       "speaker": "Matt",
       "frases": [
         "El Gobierno británico está descubriendo ahora mismo que es bastante fácil asustar a la gente y no tan fácil quitarle el miedo.",
-        "La implantación draconiana del confinamiento fue muy eficaz, y resultó que la gente estaba dispuesta a acatarlo e incluso a denunciar a sus vecinos.",
+        "La implantación draconiana de la cuarentena fue muy eficaz, y resultó que la gente estaba dispuesta a acatarla e incluso a denunciar a sus vecinos.",
         "Se volvieron sorprendentemente autoritarios en un tiempo sorprendentemente corto, porque les estaban contando una historia que daba muchísimo miedo.",
         "La gente se asusta con facilidad, pero cuando llegas y dices, muy bien, se acabó el susto, ya se puede volver al trabajo, la mitad del país te contesta que no.",
         "Te dicen, yo creía que habías dicho que daba miedo, así que todavía no vamos a salir.",
@@ -204,18 +204,18 @@
       "id": "b14-naval",
       "speaker": "Naval",
       "frases": [
-        "Eso va a cambiar, y la lectura cínica es que, hasta ahora, los que están perdiendo su empleo son los trabajadores manuales.",
-        "Todavía no les ha tocado a los trabajadores de oficina, que son los que dirigen la sociedad.",
+        "Eso va a cambiar, y la lectura cínica es que, hasta ahora, los que están perdiendo su empleo son los obreros.",
+        "Todavía no les ha tocado a los oficinistas, que son los que dirigen la sociedad.",
         "Son ellos los que controlan los medios, el gobierno, las universidades, los laboratorios de ideas y a los que hacen los modelos.",
-        "Pero cuando los trabajadores de oficina empiecen a perder su empleo, la gente dirá, un momento, hay que tener en cuenta la economía.",
+        "Pero cuando los oficinistas empiecen a perder su empleo, la gente dirá, un momento, hay que tener en cuenta la economía.",
         "Como va a demostrar el experimento sueco, hay tres variables distintas que tienes que seguir a la vez en la cabeza, y eso a la mayoría de la gente le cuesta mucho.",
         "Una es, por supuesto, la tasa de letalidad de la infección, es decir, cuánta gente acaba enfermando o muriendo.",
         "La segunda es el impacto económico, y para eso necesitas una forma estándar de medirlo y de compararlo.",
-        "Y la tercera es qué porcentaje de la población ha desarrollado inmunidad de grupo.",
-        "Y hay que recordar que la inmunidad de grupo por contagio natural es muy distinta de la inmunidad de grupo por vacuna.",
+        "Y la tercera es qué porcentaje de la población ha desarrollado inmunidad de rebaño.",
+        "Y hay que recordar que la inmunidad de rebaño por contagio natural es muy distinta de la inmunidad de rebaño por vacuna.",
         "La vacuna se aplica de forma indiscriminada, mientras que cuando un virus se propaga de forma natural, infecta primero a los supercontagiadores, que se mueven más, y también a los más vulnerables.",
         "Así que los primeros en caer fueron los que tenían más probabilidades de propagarlo o los que tenían más probabilidades de morir.",
-        "Por eso el umbral de la inmunidad de grupo natural es más bajo que el de la inmunidad de grupo por vacuna."
+        "Por eso el umbral de la inmunidad de rebaño natural es más bajo que el de la inmunidad de rebaño por vacuna."
       ]
     },
     {
@@ -228,7 +228,7 @@
         "En consecuencia, hay una población muy vulnerable que no solo tenía una tasa de mortalidad alta, sino también una tasa de transmisión alta, porque tenía más carga viral.",
         "En esa población, la tasa de reproducción del virus ha sido muy alta, pero eso no significa que lo sea en el resto de la comunidad.",
         "Los ejemplos de Suecia y de otros países demuestran que, para quienes no están en ese grupo, debería ser posible frenar este virus con medidas voluntarias.",
-        "Y así se llegaría a la inmunidad de grupo con niveles de contagio bastante bajos."
+        "Y así se llegaría a la inmunidad de rebaño con niveles de contagio bastante bajos."
       ]
     },
     {
@@ -439,7 +439,7 @@
         "Como señalas al hablar de la innovación, buena parte de la automatización que se produce es muy democratizadora, porque da lugar a un consumo democrático.",
         "También haces una observación muy buena, que lo propio de la civilización moderna es concentrar la producción mediante la especialización.",
         "Así, la persona que mejor hace algo en todo el mundo puede hacerlo para todos los demás.",
-        "Pero, por otro lado, democratizas el consumo, y ahora todo el mundo puede acceder a todo."
+        "Pero, por otro lado, democratizas el consumo, en el que no todo el mundo puede acceder a todo."
       ]
     },
     {
@@ -447,7 +447,7 @@
       "speaker": "Matt",
       "frases": [
         "Lo que solemos hacer como especie, a medida que progresamos, es especializarnos cada vez más en lo que producimos y diversificarnos cada vez más en lo que consumimos.",
-        "Esa frase la saqué hace años de un libro maravilloso titulado Segunda naturaleza, de un hombre llamado Haim Ofek.",
+        "Esa frase la saqué hace años de un libro maravilloso titulado Segunda naturaleza, de un hombre llamado Jaím Ofek.",
         "Le escribí y le dije, es una reflexión interesante, ¿has escrito algo más sobre ella?",
         "Y me contestó, bueno, creo que esa idea la saqué de uno de tus libros."
       ]
@@ -498,8 +498,8 @@
       "id": "b37-naval",
       "speaker": "Naval",
       "frases": [
-        "Con tu libro tuve un caso leve de amnesia de Gell-Mann, si recuerdas esa idea.",
-        "La amnesia de Gell-Mann dice que te crees todo lo que lees en los periódicos, y cuando llegan a un tema que conoces a fondo, te das cuenta de que es un disparate.",
+        "Con tu libro tuve un caso leve de amnesia de Guel Man, si recuerdas esa idea.",
+        "La amnesia de Guel Man dice que te crees todo lo que lees en los periódicos, y cuando llegan a un tema que conoces a fondo, te das cuenta de que es un disparate.",
         "O ves que no termina de cuadrar, y aun así sigues creyéndote todo lo demás que escriben.",
         "No te culpo, has hecho un trabajo estupendo, pero hubo una disonancia.",
         "Demostrabas tu argumento mostrando que tendemos a mitificar demasiado a unos pocos inventores y a recordarlos como los creadores, cuando es mucho más un proceso de equipo, repartido entre muchos.",
@@ -507,7 +507,7 @@
         "Luego, más adelante en el libro, hablas de Facebook y de Airbnb como innovadores, y mencionas a sus fundadores, Brian Chesky y Mark Zuckerberg.",
         "Pero cualquiera que lleve un tiempo en Silicon Valley sabe que antes de Facebook estaba Myspace, y antes de Myspace estaba Friendster.",
         "El pobre Jonathan Abrams, que creó Friendster, se queda como el castor que mira la presa y dice, ¿de quién es esta presa?",
-        "Con Airbnb pasa lo mismo, antes estaban Vrbo, HomeAway y un montón de webs de alquiler vacacional, aunque Airbnb sí fue pionera en alquilar habitaciones sueltas.",
+        "Con Airbnb pasa lo mismo, antes estaban Verbo, HomeAway y un montón de webs de alquiler vacacional, aunque Airbnb sí fue pionera en alquilar habitaciones sueltas.",
         "Pero también estaban Couchsurfing, Craigslist y otras muchas.",
         "Por desgracia, la historia la escriben los vencedores, y en este caso los vencedores ni siquiera tienen que escribirla, la escriben todos los que los rodean.",
         "Hay un sesgo de disponibilidad, la gente ve al vencedor, así que al vencedor, el botín y el mérito."
@@ -524,7 +524,7 @@
       "id": "b39-naval",
       "speaker": "Naval",
       "frases": [
-        "Matt, acabas de publicar un libro nuevo, Claves de la innovación.",
+        "Matt, acabas de publicar un libro nuevo, Cómo funciona la innovación.",
         "Es de lectura obligada para emprendedores y para cargos públicos que quieran ser innovadores o fomentar la innovación en su región o en su sociedad.",
         "Sinceramente, si te consideras emprendedor, inventor o innovador, probablemente sea la formación más barata y rápida que puedes conseguir sobre la historia y el futuro de la innovación.",
         "Lo recomiendo muchísimo, y me voy a despedir con una cita suya que me gusta, que resume qué es la innovación y dónde se fomenta.",
@@ -535,7 +535,7 @@
         "Así que gracias, Matt, por ayudarme a entender la evolución.",
         "Recomiendo también Genoma, y para entender la base racional de la ética, el origen de la virtud.",
         "Me ayudaste a ser optimista de una forma racional con tu famoso libro El optimista racional.",
-        "Y en Claves de la innovación dejas muy clara la evolución de la innovación y cómo fomentarla, y ha sido un placer."
+        "Y en Cómo funciona la innovación dejas muy clara la evolución de la innovación y cómo fomentarla, y ha sido un placer."
       ]
     },
     {

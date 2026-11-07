@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**155** episodios · **2** publicados · **10** escuchados por el autor (**1** para revisar) · **0** sin empezar
+**155** episodios · **3** publicados · **10** escuchados por el autor (**1** para revisar) · **0** sin empezar
 
 ## 2026
 
@@ -140,7 +140,7 @@
 | 68 | [068-kapil](episodios/2020/068-kapil) | Kapil Gupta: Conquistando la mente | 🔵 generando TTS | — | — | — |
 | 69 | [069-angel-2](episodios/2020/069-angel-2) | Cómo invertir como ángel, parte 2 | 🟠 en revisión | — | — | — |
 | 70 | [070-matt-ridley](episodios/2020/070-matt-ridley) | Matt Ridley: Cómo funciona la innovación, parte 1 | 🟠 en revisión | — | — | — |
-| 71 | [071-matt-ridley-2](episodios/2020/071-matt-ridley-2) | Matt Ridley: Claves de la innovación, parte 2 | 🟠 en revisión | — | — | — |
+| 71 | [071-matt-ridley-2](episodios/2020/071-matt-ridley-2) | Matt Ridley: Cómo funciona la innovación, parte 2 | 🟠 en revisión | — | — | — |
 
 ## 2019
 
@@ -148,7 +148,7 @@
 |---|---|---|---|---|---|---|
 | 1 | [001-seek-wealth](episodios/2019/001-seek-wealth) | Busca riqueza, no dinero ni estatus | 🟢 publicado | ✅ 2026-11-05 | [📁](https://drive.google.com/drive/folders/11X4s-IkNs4qssipaPMRLE2wj-EJtuZBd) | [▶](https://www.youtube.com/watch?v=s10rGZckyEo) |
 | 2 | [002-ethical-wealth](episodios/2019/002-ethical-wealth) | Crea abundancia para el mundo | 🟢 publicado | ✅ 2026-11-05 | [📁](https://drive.google.com/drive/folders/1xgLEJoWckgy40eeeBN-dTIbh95qtWzmG) | [▶](https://www.youtube.com/watch?v=o919NzI_N3s) |
-| 3 | [003-free-markets](episodios/2019/003-free-markets) | Los mercados libres son intrínsecos al ser humano | 🟣 montaje | ✅ 2026-11-05 | — | — |
+| 3 | [003-free-markets](episodios/2019/003-free-markets) | Los mercados libres son intrínsecos al ser humano | 🟢 publicado | ✅ 2026-11-05 | — | [▶](https://www.youtube.com/watch?v=Xfr5NXVCqP8) |
 | 4 | [004-money-luck](episodios/2019/004-money-luck) | Ganar dinero no depende de la suerte | 🟣 montaje | ✅ 2026-11-05 | — | — |
 | 5 | [005-luck-destiny](episodios/2019/005-luck-destiny) | Haz de la suerte tu destino | 🟣 montaje | ✅ 2026-11-05 | — | — |
 | 6 | [006-renting-time](episodios/2019/006-renting-time) | No te harás rico alquilando tu tiempo | 🟣 montaje | ✅ 2026-11-05 | — | — |
