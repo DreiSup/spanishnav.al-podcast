@@ -208,3 +208,4 @@ episodio. Episodios con notas a 6-nov: 008, 010, 017, 018, 020 y 052.
 | 2026-11-07 | 084 There Is No End of Science (revisión con el autor) | revision | 1 | 22 | 415 | 2,4 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
 | 2026-11-07 | 085 There Is No Settled Mathematics (revisión con el autor) | revision | 2 | 28 | 555 | 3,3 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
 | 2026-11-07 | 086 The Methods of Mathematics Are Fallible (revisión con el autor) | revision | 2 | 27 | 509 | 3,0 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
+| 2026-11-07 | 087 All Knowledge Is Conjectural (revisión con el autor) | revision | 1 | 34 | 531 | 3,1 | Revisión con el autor (7-nov): sin cambios. Cero avisos |
