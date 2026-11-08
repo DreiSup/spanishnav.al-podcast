@@ -83,7 +83,7 @@ texto en español y por qué.
 | IQ test | test de inteligencia | «IQ» y «CI» se deletrean mal; se resuelve en la frase (065) |
 | If A, then B | si pasa A, entonces pasa B | Decisión del autor (4-nov). Alternativa si el TTS lee mal la «A» suelta: si pasa uno, entonces pasa dos (065) |
 | A eats B; B eats C… | uno se come a otro, ese otro se come a un tercero, y así sucesivamente | Las letras en cadena el TTS las lee como preposición o las deletrea (063) |
-| Part 1 / Part 2, Files II… (títulos de episodio con partes) | literal: «, parte 1», «, parte 2»; Files II = Documentos II | **Decisión del autor (7-nov):** como en el original, con la cifra o el número romano que traiga. El título no se locuta (solo va a la etiqueta del MP3). Sustituye a «primera parte» y a «parte uno». Aplicado el 7-nov en 051, 069, 070, 071, 105, 130, 131, 132, 133 y 134 |
+| Part 1 / Part 2, Files II… (títulos de episodio con partes) | literal: «, parte 1», «, parte 2»; The Deutsch Files II = Los documentos de Deutsch II | **Decisión del autor (7-nov):** como en el original, con la cifra o el número romano que traiga. El título no se locuta (solo va a la etiqueta del MP3). Sustituye a «primera parte» y a «parte uno». Aplicado el 7-nov en 051, 069, 070, 071, 105, 130, 131, 132, 133 y 134 |
 | How Innovation Works (Matt Ridley) | Cómo funciona la innovación | **Decisión del autor (7-nov):** traducción literal, aunque la edición española (Antoni Bosch, 2021) se titula Claves de la innovación (070, 071) |
 
 ## Términos por invitado (propuestos el 4-nov, pendientes de visto bueno del autor)
@@ -285,7 +285,7 @@ pendientes de visto bueno; el detalle de cada episodio está en sus notas.
 
 | Original | En el texto | Nota |
 |---|---|---|
-| The Deutsch Files I, II, III, IV | Documentos Deutsch I, II, III, IV | Regla de títulos del autor (Files = Documentos). Alternativa: Los documentos de Deutsch |
+| The Deutsch Files I, II, III, IV | Los documentos de Deutsch I, II, III, IV | **Decisión del autor (8-nov)**, en lugar de Documentos Deutsch |
 | ChatGPT / GPT-4 / 3.5 | ChatGPT / GPT cuatro / la versión tres punto cinco | Escuchar cómo lee ChatGPT el TTS; reserva fonética chat ge pe te |
 | ASI / super-intelligence | superinteligencia artificial / superinteligencia | Sigla resuelta (135 b46, b47) |
 | chatbot / prompts / plugins | chatbot / prompts / complementos | Prompts en inglés, como en 2025-26 |
@@ -300,7 +300,7 @@ pendientes de visto bueno; el detalle de cada episodio está en sus notas.
 | bucket theory of the mind / of knowledge | la teoría de la mente como un cubo / la teoría del cubo del conocimiento | Popper (137, 138) |
 | unschooling / homeschooling | desescolarización / educación en casa | 137 b27 |
 | you can't teach an old dog new tricks | loro viejo no aprende a hablar | 137 b31; en la respuesta de Deutsch, literal, los perros viejos |
-| You piss on us, we say it's raining | nos mean encima y decimos que llueve | 135 b91. El dicho español es vulgar; alternativa sin vulgaridad: nos escupen encima y decimos que llueve |
+| You piss on us, we say it's raining | nos meaban encima y decíamos que llovía | **Decisión del autor (8-nov).** 135 b91: el dicho español, en pasado porque Deutsch habla de los años treinta |
 | Charles Cattell (Thermal Physics) | Charles Kittel, Física térmica | 135 b41: errata del copiado, el autor del libro es Kittel |
 | Middle World (Dawkins) | el Mundo Medio | 138 b16 |
 | shibboleths / the blob / Red Wall / grammar schools | señas de pertenencia / el aparato / el muro rojo / escuelas de gramática | 138 |
