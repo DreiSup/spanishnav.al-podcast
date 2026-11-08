@@ -2,7 +2,7 @@
 """Genera tablero.json: el estado de cada episodio del catálogo, para el tablero visual.
 
 Lee catalogo.json y los metadata.es.json del repo. Opcionalmente:
-  --web <ruta>   repo de la web: marca qué episodios están cargados en lib/episodes.ts
+  --web <ruta>   repo de la web: marca qué episodios están cargados en lib/episodes.ts de main
   --r2           comprueba con HEAD que el audio de cada episodio con fecha está en R2
 
 Uso:  python3 scripts/tablero.py [--web ../spanishnaval-web] [--r2]
@@ -66,7 +66,11 @@ def main():
 
     web = set()
     if a.web:
-        texto = open(os.path.join(a.web, "lib", "episodes.ts"), encoding="utf-8").read()
+        # Lo que cuenta es lo que está en producción: la rama main de la web, no la copia local.
+        import subprocess
+        subprocess.run(["git", "-C", a.web, "fetch", "-q", "origin", "main"], check=False)
+        texto = subprocess.run(["git", "-C", a.web, "show", "origin/main:lib/episodes.ts"],
+                               capture_output=True, text=True, check=True).stdout
         web = set(re.findall(r"slug:\s*'([^']+)'", texto))
 
     filas = []
