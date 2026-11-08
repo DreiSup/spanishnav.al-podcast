@@ -100,7 +100,7 @@ Dónde se va el tiempo y qué limita (para la tarea de optimización):
   large-v3 fp16 con marcas por palabra (atención eager). Whisper no cabe a 4 y baja solo a 2; Qwen parte el lote si
   no cabe. Se libera memoria (gc + empty_cache) tras cada lote.
 - Whisper revisa todas las frases: hasta el 8-nov large-v3 con marcas por palabra (~37 % del tiempo); desde el 8-nov **turbo con marcas por segmento** (~15 veces más rápido, `docs/optimizacion/README.md`).
-- Lote = frases de una misma intervención (máx. 8); intervenciones cortas → lotes pequeños (poco aprovechamiento).
+- Lote: hasta el 8-nov, frases de una misma intervención (máx. 8); desde el 8-nov, **lotes por voz**: frases de varias intervenciones seguidas de la misma voz (hasta 48) en lotes de 16. Con turbo, 042: **0,62 s de T4 por s de audio** (antes 2,20), ~1,3 u por hora de audio.
 - Tope de pasos por frase: `tope_pasos` = 12,5 × (caracteres/7 + 3).
 - Reintentos: hasta 2 con semillas nuevas (pocos en la práctica: 0–7 por episodio).
 - Sesión: carga de modelos (~2–5 min) y ratos parados se pagan igual.

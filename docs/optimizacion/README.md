@@ -50,7 +50,7 @@ tamaño que cupo hasta el final. Pico de memoria: Qwen 7–8,5 GB, Whisper 11,8 
 sube al primer puesto **Whisper large-v3-turbo** (decoder de 4 capas en vez de 32, ~1,5 GB menos): podría quitar
 buena parte de ese 40 % **sin cambiar el audio**, y con memoria libre volvería a revisar en lotes.
 
-## Lotes por voz (8-nov): medido en GPU, pendiente de escuchar
+## Lotes por voz (8-nov): activado por defecto
 
 Prueba con el 042 (6,5 min) en `042 …/lotes_voz/`, T4, con lotes por voz y Whisper turbo · segmento:
 
@@ -59,7 +59,7 @@ Prueba con el 042 (6,5 min) en `042 …/lotes_voz/`, T4, con lotes por voz y Whi
 | 042 original (6-nov: por intervención, large-v3 · palabra) | 528 s | 320 s | 849 s | 2,20 | 0,46 |
 | 042 lotes por voz + turbo (8-nov) | **212 s** (−60 %) | **27 s** (−92 %) | **241 s** | **0,62** | **0,13** |
 
-Cero reintentos y cero sospechosas. **3,5 veces más barato por minuto de audio.** Falta la escucha del autor.
+Cero reintentos y cero sospechosas. **3,5 veces más barato por minuto de audio.** El autor lo escuchó (8-nov): «suena perfecto». Activado en `voces.json` (`motor.agrupar = voz`).
 
 
 `voces.json` → `motor.agrupar`: `intervencion` (por defecto, lo de siempre) o `voz`. Con `voz`, la fábrica junta las
