@@ -278,10 +278,11 @@ copia exacta de su tramo (docs/cortos-y-largos.md): un cambio va al largo y a su
 | person A, idea X, theory Z | una persona, una idea, la otra, una tercera idea | Letras sueltas resueltas en la frase, como en 063 (124, D10) |
 | ToKCast | Tokcast | Confirmado por el autor (7-nov). Con su explicación la primera vez: podcast de la teoría del conocimiento |
 
-#### Documentos Deutsch I–IV (135–138, 2024) — propuestos el 7-nov, pendientes del autor
+#### Los documentos de Deutsch I–IV (135–138, 2024) — confirmados por el autor el 8-nov
 
-Traducidos el 7-nov con la tabla de arriba. Estos términos salieron nuevos en los cuatro episodios de 2024 y siguen
-pendientes de visto bueno; el detalle de cada episodio está en sus notas.
+Traducidos el 7-nov con la tabla de arriba. Estos términos salieron nuevos en los cuatro episodios de 2024; el autor
+confirmó la tabla entera el 8-nov, también Kittel por Cattell y la lista de nombres que hay que escuchar en la fábrica
+(ChatGPT, con reserva fonética chat ge pe te). El detalle de cada episodio está en sus notas.
 
 | Original | En el texto | Nota |
 |---|---|---|
