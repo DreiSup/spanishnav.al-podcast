@@ -1,0 +1,1231 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2026/160-industrial",
+  "numero": 160,
+  "fecha": "2026-06-01",
+  "titulo": "La revolución industrial de la IA",
+  "subtitulo": "Construye tu propia fábrica",
+  "fuente_url": "https://nav.al/industrial",
+  "titulos_seccion": [
+    "Parte 1: Derrocha tokens, ahorra tiempo",
+    "Fábricas de software con IA",
+    "Derrocha tokens, ahorra tiempo",
+    "Modelos que dan instrucciones a los humanos",
+    "¿Ha muerto el software puro?",
+    "Ya no te atascas",
+    "Parte 2: Vibe coding para hardware",
+    "Un álabe de turbina con vibe coding",
+    "El código abierto multiplica la ventaja de China",
+    "Siempre quieres el modelo más listo",
+    "El software sigue necesitando manos",
+    "Los humanos se están convirtiendo en verificadores",
+    "Parte 3: La frontera regulatoria",
+    "La carrera de la Reina Roja de la regulación",
+    "Por qué no hay innovación en la sanidad",
+    "Hace falta un verdadero experimento con los cincuenta estados",
+    "La FDA china ya supera a la estadounidense",
+    "La sanidad es una sociedad comunista dentro del capitalismo",
+    "La historia de Sid: medicina N de uno",
+    "Parte 4: La empresa autónoma",
+    "Infraestructura autónoma",
+    "Tu trabajo es entrenar al agente",
+    "El próximo Señor de los Anillos",
+    "¿Cuál es tu definición de arte?",
+    "¿Puede la IA tener ideas nuevas?",
+    "Muchísimos equipos pequeños"
+  ],
+  "contenido": [
+    {
+      "id": "b01-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Te damos la bienvenida. Estás escuchando el podcast de Naval, tu fuente de referencia para el conocimiento nuevo.",
+        "Hoy vamos a probar algo nuevo, porque tengo conmigo a tres fundadores que trabajan en la frontera.",
+        "Son tres chicos muy guapos, la verdad, y un cuarto chico guapo, que es Naval.",
+        "Deja que los presente a todos. Primero, el Gi Rauch, que está convirtiendo Vercel en una nube de inteligencia artificial para el mundo de los agentes y de lo que venga después.",
+        "Blake Scholl, que está construyendo Boom Supersonic, aviones supersónicos, en su propia fábrica, y también motores a reacción.",
+        "Y Max Hodak, de su empresa, Science, que está construyendo una interfaz cerebral biohíbrida que cultiva neuronas vivas sobre silicio para devolver funciones sensoriales como la vista.",
+        "Pero con el tiempo, la idea es explorar también nuevas partes del cerebro y nuevos sentidos.",
+        "Ninguno de los tres monta sus productos con piezas de catálogo, sino que están construyendo sus propias fábricas.",
+        "Y no nos interesa tanto qué construyen exactamente como lo que están aprendiendo sobre cómo lo construyen.",
+        "¿Qué conocimiento nuevo están generando? ¿Cuál es su ventaja?",
+        "¿Qué principios están descubriendo de los que puedan aprender otros fundadores? ¿Qué intentan averiguar ahora mismo?",
+        "Naval, ¿alguna reacción antes de lanzarme con Guillermo?"
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Sí, simplemente vamos a pasarlo bien."
+      ]
+    },
+    {
+      "id": "b03-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Que cada uno entre cuando quiera."
+      ]
+    },
+    {
+      "id": "b04-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "No me acuerdo de la frase exacta, pero estoy obsesionado con esta idea de las fábricas de software.",
+        "Antes, el trabajo del ingeniero consistía en presentarte a trabajar y sacar el resultado directamente, y todo dentro de la empresa giraba en torno a lo bien que una persona sacaba un resultado concreto.",
+        "Y lo que está pasando ahora es que, para juzgarte como ingeniero, me pregunto si estás produciendo la fábrica que va a producir toda una serie de resultados multiplicados.",
+        "Es un cambio bastante importante, porque antes creíamos, y era algo bastante polémico, que existían ingenieros que rendían por diez.",
+        "Ahora está claro que hay ingenieros que rinden por cien o por mil, y el mundo todavía no se ha adaptado del todo a eso."
+      ]
+    },
+    {
+      "id": "b05-naval",
+      "speaker": "Naval",
+      "frases": [
+        "A mí me ponían a caldo en Twitter por decir que había ingenieros que rendían por diez, porque eso choca de frente con toda esa filosofía igualitaria de que todos somos iguales.",
+        "Pero la realidad es que, cuando trabajas en el terreno de las ideas, en terrenos intelectuales y digitales, ni siquiera es por diez, es por cien o por mil, y siempre ha sido así.",
+        "Satoshi, Notch, el que inventó JavaScript, los Brendan Eich del mundo, John Carmack. Son programadores que rinden por mil.",
+        "Y eso sin mencionar que, si eliges bien en qué trabajar, frente a elegir mal, la diferencia es infinita.",
+        "Y puede que ni siquiera sea un programador mejor, sino uno que tuvo mejor criterio para elegir en qué trabajar desde el principio.",
+        "Y ahora, claro, es menos polémico gracias al apalancamiento de la inteligencia artificial."
+      ]
+    },
+    {
+      "id": "b06-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "Lo polémico son las clasificaciones de tokens, que son los trozos de texto con los que trabajan los modelos.",
+        "La gente todavía se lía y dice que tiene un montón de ingenieros que rinden por cien, porque mira cuántos tokens está pagando.",
+        "Me pregunto si alguien ha visto lo mismo. ¿Cómo se mide el retorno de la inversión?"
+      ]
+    },
+    {
+      "id": "b07-blake-scholl",
+      "speaker": "Blake Scholl",
+      "frases": [
+        "Es como cuando antes se medían las líneas de código. El consumo de tokens y las líneas de código me parecen medidas igual de indirectas."
+      ]
+    },
+    {
+      "id": "b08-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "Lo que he observado es que Claude o ChatGPT son, básicamente, tan buenos como tú en un campo.",
+        "Si eres un programador muy capaz, estas herramientas son muy potentes, y si eres un programador júnior, te parecerán más bien un programador júnior.",
+        "El feedback que les das de vez en cuando parece importantísimo, porque esos pequeños ajustes parecen determinar por completo el rendimiento que les sacas."
+      ]
+    },
+    {
+      "id": "b09-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "Ahora doy un tipo de soporte nuevo. Vienes a mí porque el modelo no te ha dado un buen resultado, y yo te digo qué prompt tienes que darle.",
+        "La calidad con la que le vuelves a escribir el prompt es importantísima."
+      ]
+    },
+    {
+      "id": "b10-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "Para que quede claro, creo que esto irá perdiendo importancia con el tiempo.",
+        "A medida que los modelos se vuelvan mucho más listos, podrás meter menos y sacar más.",
+        "Pero, de momento, lo que hacen de verdad es devolverte el criterio que aporta el usuario."
+      ]
+    },
+    {
+      "id": "b11-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Me he resistido un poco a aprender todos los trucos y consejos.",
+        "Que si usa Ralph Wiggum, que si usa OpenClaw, que si usa Hermes, este motor de prompts, este andamiaje, conecta esta pieza, usa siempre el modo de planificación.",
+        "Yo he pasado de todo eso, porque daba por hecho que el modelo iba a mejorar más deprisa de lo que yo iba a tardar en aprender a usarlo.",
+        "Él aprendería a usarme a mí antes de que yo aprendiera a usarlo a él, así que los he usado a lo bruto, sin ninguna finura.",
+        "Me frustro con ellos, y me he dado cuenta de que cada vez les escribo menos información y hago menos trabajo, porque doy por hecho que puedo sacarlo adelante a fuerza bruta.",
+        "Le lanzo a Codex, a Claude y a Gemini el mismo problema una y otra vez, y derrocho tokens para ahorrar tiempo.",
+        "Por caros que parezcan estos modelos, siguen siendo muchísimo más baratos que una persona.",
+        "Así que yo lo resumiría así. Derrocha tokens, ahorra tiempo.",
+        "No mires los tokens ni como inputs ni como outputs. Mira solo tu tiempo, y mira el resultado final.",
+        "Aunque escriban código de poca calidad, y sé que en muchos casos es así, cuando llega el momento de llevarlo a producción les echo más tokens.",
+        "Les pido que lo repasen todo, que lo miren y que lo reescriban.",
+        "Y van a ir mejorando con cada generación, y no veo dónde tiene que pararse esto necesariamente.",
+        "Mientras tengamos dominios verificables y problemas resueltos, van a resolver esos problemas.",
+        "Ahora bien, en el terreno de los problemas sin resolver, si eres, por ejemplo, Terence Tao, en la vanguardia de la creatividad, tienes que trabajar codo con codo con el modelo y con mucho cuidado.",
+        "Pero yo no estoy a ese nivel en ingeniería de software."
+      ]
+    },
+    {
+      "id": "b12-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Guillermo, seguramente eres el ingeniero de software más extremo del equipo. ¿Qué tal te van estos modelos en el límite de lo que son capaces de hacer?"
+      ]
+    },
+    {
+      "id": "b13-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "Hay algo que ha pasado hace poco que encaja mucho con lo que dices.",
+        "Antes le dabas un prompt al modelo y hacía lo clásico de predecir el siguiente token y salía corriendo con tu idea.",
+        "Ahora los modelos hacen una especie de planificación intuitiva, sin que tengas que pedírsela.",
+        "Vuelven a ti y te dicen que, para lo que les pides, hay tres caminos posibles, y que estas son las contrapartidas de cada uno.",
+        "Ese es el momento en que la gente de X se pone a decir que ya tenemos un modelo que es un ingeniero de nivel de doctorado.",
+        "En algún momento, los modelos se graduaron. Antes eran ingenieros júnior, y ahora son ingenieros principales, porque vuelven a ti con sus contrapartidas.",
+        "Y, claro, a veces se lo inventan, lo cual es divertidísimo, porque te dicen que esto va a llevar tres semanas y tantos tokens, y sus predicciones son malísimas.",
+        "Pero respeto mucho más a los modelos, como a un igual con el que discuto de tú a tú.",
+        "Todavía hay muchas lagunas, y si eres un ingeniero o un arquitecto muy competente, le sigues sacando más jugo.",
+        "Así que la pregunta que planteaba Max era si, cuando eres júnior, te devuelve un trabajo de júnior.",
+        "Está claro que no, porque un júnior obtiene un código más avanzado del que habría sabido escribir por su cuenta.",
+        "Pero ¿no saca un arquitecto con experiencia diez veces más, mientras que un ingeniero júnior saca el doble? Eso es lo que intento averiguar."
+      ]
+    },
+    {
+      "id": "b14-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "Están las decisiones de arquitectura. Lo estoy viendo ahora con algunos de los ingenieros de software júnior del equipo, y es cuál es el siguiente paso en su carrera.",
+        "Es pasar de implementar una funcionalidad a elegir tecnologías, como elegir entre Postgres y otra base de datos, o entre ZeroMQ y otro sistema de colas.",
+        "Los modelos te las pueden sugerir, pero ahí está la cosa, porque lo ves y dices que no, que quieres usar otra.",
+        "Ese es el tipo de pequeño feedback que de verdad importa, y del que depende el resultado que parece que sacas a estas alturas."
+      ]
+    },
+    {
+      "id": "b15-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Es gusto y criterio, ¿no? Dicho esto, puedes preguntarles a los modelos cuál deberías usar y por qué, y lo saben todo.",
+        "Te van a dar un cuadro muy bueno de pros y contras con sus contrapartidas."
+      ]
+    },
+    {
+      "id": "b16-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "Ese es el cambio que ha habido hace poco. Le decías que metiera en Postgres unos datos de telemetría con muchísimos valores distintos.",
+        "Y te contestaba que no, no, amigo, que ese tipo de datos no se mete en Postgres, y que deberías plantearte ClickHouse, Athena o lo que sea.",
+        "Eso me ha pasado mucho, y es realmente impresionante.",
+        "Lo que todavía me cuesta es que está claro que el humano sigue completando al modelo. ¿En qué momento será al revés?",
+        "Será el humano el que empiece a recibir las instrucciones, como que vaya a buscar tal clave de API porque es algo que solo puede hacer él.",
+        "O que le consiga tanto capital para su próxima tanda de inversiones. Ya verás. Está claro que todavía no hemos llegado."
+      ]
+    },
+    {
+      "id": "b17-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Eso es una anomalía pasajera. Muy pronto, toda buena empresa de software como servicio o de alojamiento tendrá una interfaz de línea de comandos y una API que los modelos podrán usar directamente.",
+        "Ni siquiera les hace falta una API, porque mientras sea algo basado en texto, en Unix, el agente puede hackear su propia API.",
+        "Y en cuanto al dinero, metes tokens cripto, metes bitcoins, metes lo que sea, y el modelo va y paga lo que necesite. Hay gente trabajando en esto."
+      ]
+    },
+    {
+      "id": "b18-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Lo que estoy pensando ahora es si ha muerto el software puro, si la ingeniería de software pura es algo obsoleto.",
+        "Es como lo de hablar inglés, porque antes tuvimos que aprender a programar para comunicarnos con las máquinas.",
+        "Ahora los modelos hablan inglés, un inglés vago y descuidado, como el de una persona, y entienden las cosas.",
+        "Entonces, ¿qué protege a un fundador de la competencia? ¿El hardware?",
+        "Para el hardware es una bendición. Tenías que construir el hardware, y era difícil montar a la vez una empresa de software.",
+        "Patrick Collison dice que el software es arte, y que es difícil contratar a artistas.",
+        "Ahora, si fundas una empresa de hardware, genial, porque puedes tener un software muy bueno desarrollado bastante deprisa.",
+        "Si creas modelos, quizá esa sea la nueva ingeniería de software, entrenar, retocar, el postentrenamiento, el ajuste fino.",
+        "Pero ¿ha muerto la ingeniería de software clásica? ¿Se puede invertir en software puro?",
+        "¿Es el software puro algo en torno a lo que puedas organizar una empresa y un equipo, e intentar conseguir algo de apalancamiento?"
+      ]
+    },
+    {
+      "id": "b19-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "¿Alguien ha visto un artículo de Mitchell Hashimoto en X sobre lo que él llama la economía de las piezas de construcción?",
+        "Lo que defiende es que lo más útil que pueden tener ahora los agentes son piezas de construcción reutilizables y muy potentes.",
+        "Siguiendo con el ejemplo de Max, no esperarías que tu cacharro reinventara un sistema de colas cada vez que tiene que mandar un correo.",
+        "Tiene que traer la pieza adecuada, del tamaño justo para la tarea, y decir que para esto toca BullMQ.",
+        "No me convence la idea de querer que el agente reinvente el universo entero desde los primeros principios, de una forma incompatible con el resto de la sociedad y de la civilización.",
+        "Sería casi como reinventar las autopistas, las leyes y las políticas solo para ti.",
+        "Aunque se pudiera optimizar algo más, sigue teniendo valor, para cooperar a gran escala, poder decir que los dos dependemos de Postgres trece punto dos.",
+        "La categoría del software de infraestructura y de las piezas de construcción que van a usar estos agentes tiene un valor enorme, y está claro que no soy imparcial, porque es lo que construimos nosotros.",
+        "No veo al agente reinventando todo eso a corto plazo.",
+        "Otra metáfora que uso es que todo lo que ya está creado y los modelos pueden reutilizar es como una caché de tokens.",
+        "No quieres gastar un billón de tokens para reproducir lo que ya existe, porque siempre hay un punto de partida desde el que el modelo puede bifurcarse.",
+        "Eso va a cambiar las cosas muy a fondo."
+      ]
+    },
+    {
+      "id": "b20-naval",
+      "speaker": "Naval",
+      "frases": [
+        "O sea, que son como bibliotecas y dependencias, pero para los modelos."
+      ]
+    },
+    {
+      "id": "b21-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "Sí, específicamente para agentes."
+      ]
+    },
+    {
+      "id": "b22-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "Volviendo a la pregunta de Naval, yo aprendí a programar cuando era muy pequeño.",
+        "Toda la adolescencia y los veintitantos me enganchaba y me pasaba como veinte horas programando. Era divertidísimo, y sabía un montón de cosas de distintos lenguajes de programación.",
+        "Hace bastante que no escribo ni una sola línea de código. En parte es porque mi trabajo es distinto.",
+        "Pero también porque, desde diciembre, he construido una cantidad enorme de software que ahora uso todos los días.",
+        "Todos esos proyectos con los que llevaba años fantaseando, y que ahora uso, los he construido de verdad, y no he escrito nada de ese código.",
+        "Y no me imagino volviendo a escribir código a mano. Me cuesta verlo como parte del futuro."
+      ]
+    },
+    {
+      "id": "b23-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "Lo bueno de verdad es que entiendes cómo encajan las piezas.",
+        "Cualquiera que entienda qué es una API, cómo fluyen los datos, los inputs y los outputs y el rendimiento, porque tienes que orientar al modelo y decirle qué nivel de exigencia tienes para esa operación.",
+        "Eso siempre ha sido infinitamente más útil que escribir código.",
+        "Un líder de ingeniería muy competente lleva tiempo haciendo, entre comillas, vibe coding a través de la gente, por Slack o en reuniones individuales.",
+        "El vibe coding es programar pidiéndole las cosas a la inteligencia artificial con tus propias palabras.",
+        "Ese líder hace lo mismo con la gente, porque transmite su voluntad, su intención y su experiencia, y deja que los demás se encarguen.",
+        "Ahora hacemos lo mismo, pero con agentes. Por eso te ha ido bien, y no sé si a todo el mundo le va igual de bien."
+      ]
+    },
+    {
+      "id": "b24-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Yo he pasado de no escribir código en veinte años a programar todo el rato, a través de agentes, y a construir muchísimo software.",
+        "Resulta que entender solo los principios básicos de la ingeniería de software y de los algoritmos te lleva muy lejos.",
+        "Dejé de programar porque no tenía tiempo de aprenderme el último lenguaje, la última arquitectura y las piezas de infraestructura que había que conectar.",
+        "Vercel lo facilita mucho, pero aun así, solo empezar era un suplicio, y conectar piezas y montar la infraestructura era un fastidio enorme."
+      ]
+    },
+    {
+      "id": "b25-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "Lo que de verdad ha cambiado es que antes podías construir mucho, y mucho salía sin problemas.",
+        "Pero luego te topabas con cualquier cosa rara y te podías pasar un tiempo indefinido haciendo debug de algo muy concreto.",
+        "Ahora, con los agentes, ya no te atascas, y eso es bastante increíble.",
+        "Encuentran la forma correcta de hacer las cosas relativamente rápido.",
+        "Recuerdo que, cuando otros amigos intentaban aprender a programar, la respuesta era que no, que es frustrante por naturaleza.",
+        "Iba incluido en el lote y así es como se aprendía, y eso ya ha dejado de ser verdad."
+      ]
+    },
+    {
+      "id": "b26-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Oye, Blake, ¿cómo estás aplicando todo esto en Boom Supersonic?"
+      ]
+    },
+    {
+      "id": "b27-blake-scholl",
+      "speaker": "Blake Scholl",
+      "frases": [
+        "Cambia por completo el papel de los que desarrollan software y hardware.",
+        "Desde el primer día intentamos coger muchos flujos de trabajo de la ingeniería tradicional, de la ingeniería de hardware, y convertirlos en software.",
+        "Si no conoces la ingeniería de hardware, deja que intente explicártelo.",
+        "Mucha ingeniería de hardware se hace en hojas de cálculo de Excel, en los portátiles de los ingenieros, cada uno en su compartimento estanco.",
+        "Son hojas de cálculo muy complejas, a veces con código en VBScript. Todo eso es software en realidad, pero se trata como si no lo fuera.",
+        "No hay control de versiones ni pruebas automatizadas.",
+        "Si quieres pasarle algo de un especialista en aerodinámica a un ingeniero de estructuras, se hace a mano, con una hoja de cálculo por correo electrónico. Es como en los años noventa, y es terrible.",
+        "Así que empezamos a construir marcos de software para automatizar los flujos de la ingeniería de hardware y hacerlos repetibles, con la idea de reducir el coste de cada iteración.",
+        "Pero iba lento, porque nunca nos podíamos permitir suficientes ingenieros de software.",
+        "Lo que hemos empezado a hacer ahora es un modelo alucinantemente distinto, en el que los ingenieros de software crean las arquitecturas, porque entienden de sistemas, de algoritmos y de separación de responsabilidades.",
+        "Luego los ingenieros de hardware pueden hacer sus piezas con vibe coding, que es programar pidiéndole las cosas a la inteligencia artificial con tus propias palabras, porque saben de ingeniería de hardware.",
+        "El resultado es una productividad alucinantemente distinta para los equipos pequeños.",
+        "Un ejemplo. Si estás diseñando un álabe de turbina, el álabe arranca en frío, pero cuando funciona se calienta y, por tanto, se hace más grande.",
+        "Tienes que diseñar tanto la aerodinámica como la estructura para que funcionen con su forma en frío y con su forma en caliente.",
+        "Tienes que pasar del frío al calor, y de las estructuras a la aerodinámica.",
+        "A un ingeniero le lleva un día por cada álabe y por cada parte del análisis, y un motor a reacción tiene unos mil álabes, así que no puedes hacer gran cosa.",
+        "Ahora, con gente de software y de hardware creando juntos la solución, puedes cambiar la geometría del álabe y ver en tiempo real los resultados de estructuras y de aerodinámica.",
+        "Dos ingenieros pueden diseñar un motor a reacción entero. Es radicalmente distinto."
+      ]
+    },
+    {
+      "id": "b28-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "Una de las cosas que has dicho es que los ingenieros de software están creando las herramientas y las arquitecturas para el resto de los ingenieros.",
+        "Para mí, ese es el mayor cataclismo del software empresarial, porque ya no hay ninguna startup de herramientas de colaboración para hardware que te pueda vender nada.",
+        "Internamente, programas lo que necesites en cada momento, y hasta las hojas de cálculo están un poco acabadas.",
+        "Si las hojas de cálculo triunfaron, fue porque nadie podía construir software a medida, y lo que más se parece al software a medida es una hoja de cálculo con un montón de funciones en VBScript."
+      ]
+    },
+    {
+      "id": "b29-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Claro, son programación ligera."
+      ]
+    },
+    {
+      "id": "b30-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "Yo, personalmente, he pasado casi por completo de Excel a modelos en Python, con los que consigo simulaciones creíbles de las cosas.",
+        "Hay algo que la inteligencia artificial todavía no ha alcanzado, aunque creo que lo hará en el próximo año, seguramente en dos mil veintiséis, y será muy emocionante.",
+        "Ahora puede generar software, pero pronto generará archivos STEP de diseño mecánico y diseños de placas de circuito impreso.",
+        "Cuando llegue a la ingeniería mecánica y eléctrica, será algo completamente distinto que todavía no hemos visto, y será fantástico."
+      ]
+    },
+    {
+      "id": "b31-naval",
+      "speaker": "Naval",
+      "frases": [
+        "En el lado del hardware, esto es una bendición para todas esas pequeñas empresas de cachivaches y de piezas que escriben un software malísimo porque no saben hacer un gran software.",
+        "Ahora van a poder hacer un software lo bastante bueno.",
+        "O puede que ni siquiera sea un software con una interfaz para personas, sino que lo maneje del todo un agente, y tú le hables con la voz para controlar el hardware.",
+        "Esta es una de las razones por las que China apuesta tanto por los modelos de código abierto.",
+        "Lo apuestan todo a eso porque tienen superioridad en hardware, con cadenas de suministro y de componentes muy complejas.",
+        "Básicamente, se están diciendo que, si pueden generar software a demanda, ya no tienen esa desventaja frente a Silicon Valley.",
+        "No es la única razón por la que hacen código abierto. También van por detrás, están destilando modelos, se están poniendo al día y están compartiendo recursos.",
+        "Pero el Gobierno chino tiene un historial de financiar iniciativas que ayudan a todo su ecosistema, sobre todo en negocios con efecto de red.",
+        "Quieren juntar todos sus recursos, ponerse al día en inteligencia artificial y usarla para darle una ventaja a su hardware.",
+        "Lo irónico es que hacen todo eso del código abierto porque OpenAI, pese a su nombre, no es abierta.",
+        "Grok publica modelos, pero van uno o dos modelos por detrás, y Google tiene algunos modelos locales, pero nada realmente competitivo.",
+        "Y de Anthropic, que yo sepa, ni siquiera conozco ningún modelo de código abierto.",
+        "Así que todo el peso del código abierto viene de China. Ayuda a nuestros fundadores de hardware, pero ayuda todavía más a sus fundadores de hardware y a sus fábricas.",
+        "Todo ese software de pacotilla que viene con los chismes y cachivaches que compras en Amazon para trastear una tarde tranquila de sábado está mejorando muchísimo y muy deprisa."
+      ]
+    },
+    {
+      "id": "b32-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "Todo el mundo se ha dado cuenta de golpe de que, sin buenos modelos de programación de frontera, no hay automejora.",
+        "Imagina que China, en conjunto, no tuviera capacidad para producir todo lo de frontera.",
+        "No se trata solo de producir software, porque en cualquier parte de esta cadena del hardware, como decía Blake, necesitas generar software.",
+        "Si te quedas atrás en tu capacidad de generar software, te quedas atrás en tu capacidad de generarlo todo."
+      ]
+    },
+    {
+      "id": "b33-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "Hay algo que me da curiosidad, porque a todo el mundo le encanta hablar de los modelos chinos.",
+        "¿Alguien de aquí usa modelos chinos, o conoce a alguien que los use?"
+      ]
+    },
+    {
+      "id": "b34-naval",
+      "speaker": "Naval",
+      "frases": [
+        "No. Precisamente tuve esta discusión ayer en una cena.",
+        "Una persona de la mesa sostenía que usarás DeepSeek para el noventa y siete por ciento de las cosas, porque es muy barato.",
+        "Y que, si necesitas más inteligencia, lo pondrás una y otra vez con el mismo problema, y solo usarás OpenAI, Anthropic y compañía para las tareas más avanzadas.",
+        "Y yo le dije que no sé. Creo que la inteligencia es un bien sin matices, y que siempre quieres más.",
+        "Cuando estos modelos se equivocan, no te enteras, y además siempre son más baratos que una persona de verdad, y en tiempo real.",
+        "Así que simplemente usarás el modelo más inteligente que haya, y no es una gran noticia, porque significa que acabarás creando un monopolio o un oligopolio en la inteligencia artificial.",
+        "Pero yo siempre quiero el programador más inteligente, siempre quiero la respuesta más correcta y siempre quiero el mejor criterio.",
+        "Con todo el apalancamiento que voy a meter en esto, a través del capital, del código, de las personas y del marketing, quiero tomar la decisión correcta cada vez.",
+        "Cuando tengo dos modelos, y sé que uno es un poco más listo que el otro, y los dos me dan respuestas, muchas veces no sé cuál es la correcta.",
+        "Así que, si sé que un modelo es un poco más listo, me quedo con su respuesta, y al final dejo de preguntarle al que creo menos inteligente.",
+        "¿Alguien le ha encontrado alguna utilidad a estos modelos supuestamente menos inteligentes?"
+      ]
+    },
+    {
+      "id": "b35-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "Nosotros sí les vemos usos. Tenemos los datos de AI Gateway, por donde pasa básicamente cada agente de cada aplicación.",
+        "Desde luego, hay uso de modelos abiertos, pero en lo más alto domina con mucho la inteligencia de frontera.",
+        "Hay un matiz, y es que la inteligencia de frontera a un coste y un rendimiento razonables es una pasada a gran escala.",
+        "Con Gemini, la gente no se entusiasma mucho, pero sacan modelos superlistos con la combinación justa de rendimiento y coste.",
+        "Curiosamente, para muchas tareas que no son de programación, son los mejores modelos de producción industrial.",
+        "Los puedes poner con tareas de soporte o de automatización del navegador, y ahí yo siempre pondría un modelo de Gemini, y para ese tipo de cosas miraría los modelos chinos.",
+        "Pero, siempre que trabajo para empujar la frontera, necesitas el mejor modelo de programación posible, que son básicamente dos o tres, y desde luego los chinos no están entre ellos."
+      ]
+    },
+    {
+      "id": "b36-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Max, tú estás apostando muy fuerte por la integración vertical y por una urgencia extrema. ¿Quieres hablar de eso?"
+      ]
+    },
+    {
+      "id": "b37-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "Muchas cosas no se pueden comprar, así que tienes que fabricarlas como sea.",
+        "Evidentemente, no lo hacemos con cosas como los modelos de frontera, y yo tengo una suscripción a Anthropic.",
+        "Aunque, como decía Naval, sí usamos algunos modelos chinos, algunos modelos de Qwen y de DeepSeek.",
+        "Tenemos un gran ajuste fino interno del tres punto dos que uso para un montón de cosas, y pronto vamos a estudiar pasarlo al cuatro.",
+        "Pero eso es en lo personal, no en la empresa.",
+        "Lo que preferimos siempre es comprar, si hay un proveedor que ofrece un servicio a un gran precio, como las placas de circuito impreso.",
+        "Nosotros no fabricamos placas de circuito impreso, porque son prácticamente gratis y las puedes comprar en Asia en cantidades ilimitadas.",
+        "Pero cuanto más se acerquen nuestros productos a ser un único bloque de materia unida por enlaces covalentes, mejores serán.",
+        "Consumirán menos, serán más pequeños, rendirán más y durarán más, pero los componentes no existen.",
+        "Para lograr ese tipo de integración, para innovar de verdad más allá de juntar piezas de catálogo, que es algo muy limitante, tienes que aprender a hacerlo tú mismo.",
+        "Eso es lo que se ve como integración vertical.",
+        "Así que tenemos una fundición propia de microsistemas electromecánicos, lo que se llama MEMS, en la Costa Este, porque no había otra forma de hacer el tipo de encapsulado y de ensamblaje que queríamos.",
+        "Todo esto se va a ver muy afectado por la inteligencia artificial en los próximos años, aunque todavía no ha llegado del todo.",
+        "Lo irónico es que uno de los mayores impactos de la IA que hemos visto dentro de la empresa ha sido en el trato con los reguladores.",
+        "Por ejemplo, para generar documentación, o para preguntar qué normas tenemos que cumplir si queremos que este producto evolucione y hay miles de normas ISO que podrían aplicarse, y que lo rastree todo.",
+        "Antes eso exigía un equipo entero de regulación y calidad durante varios meses, y ahora la IA, más o menos, lo sabe.",
+        "Cuando pienso en cosas como el programa quirúrgico o la fábrica de MEMS, al final el software sigue necesitando manos.",
+        "Va a ser más listo que nosotros, pero, si no puede fabricar cosas, ahí hay límites reales.",
+        "Hemos instrumentado nuestra fundición y muchas otras partes de la empresa de forma que, a medida que mejoren estos modelos, eso se note casi de inmediato.",
+        "Por ejemplo, en la ingeniería celular que hacemos y en la ciencia de materiales que estamos desarrollando.",
+        "Nuestro grupo de ingeniería de proteínas usa muchísimo el aprendizaje profundo, y creo que probablemente estamos a la última ahí.",
+        "Pero depende mucho de cada aplicación, significa cosas distintas en distintas partes de la empresa, y no hay una única respuesta."
+      ]
+    },
+    {
+      "id": "b38-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Lo que contaba Max de la regulación me hace darme cuenta de que hace tiempo que no le encargo a un abogado un documento legal básico.",
+        "He dejado de pedirles a los abogados acuerdos de confidencialidad, contratos para esto, firmas para aquello, investigaciones sobre lo otro.",
+        "Todas las tareas legales básicas también han desaparecido.",
+        "Está ese viejo chiste de que el derecho es como el código espagueti, un código muy complicado que intentan escribir en inglés.",
+        "Contradice este código de aquí, tiene que encajar con ese otro código de allá, y no tiene API de verdad.",
+        "En la ingeniería júnior, a los ingenieros júnior básicamente los han ascendido a ingenieros sénior, y del trabajo júnior se han encargado los agentes.",
+        "Del mismo modo, en el derecho puedes decir que han despedido a los asistentes jurídicos, o puedes decir que los han ascendido a abogados sénior, y que ahora pueden dedicar su tiempo a pensar en el derecho."
+      ]
+    },
+    {
+      "id": "b39-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "La verdad es que es interesante pensar en los paralelismos entre cómo está evolucionando la ingeniería de software y los abogados.",
+        "Nunca sabes exactamente qué meten los abogados en esos documentos, simplemente te fías.",
+        "Le pides al abogado que mire este documento, que te diga si está bien o que marque las líneas rojas.",
+        "Lo que valoras en tu relación con un abogado es que es una autoridad de confianza, que fue a la facultad de derecho y que se juega su reputación.",
+        "Hay un paralelismo con la ingeniería de software, y es que el mayor problema hoy es esa montaña de basura que acaba convertida en un pull request.",
+        "En Twitter circulan muchos memes que dicen que, en los viejos tiempos, leíamos cada línea de código de un pull request.",
+        "Pues en mi mundo, el de la infraestructura, quiero que los ingenieros puedan decir que entienden cada línea de ese pull request.",
+        "Eso no significa necesariamente que hayas leído cada línea, sino que puedes decir que entiendes las consecuencias de ese pull request y que firmas que las entiendes.",
+        "O que has escrito el banco de pruebas, las simulaciones, las demostraciones y los comprobadores de tipos, y que, incluso sin leerlo, estás seguro de que puedes dar el visto bueno a que será seguro en producción.",
+        "Hay un mundo en el que aceptamos que todo va a ser código espagueti que no entendemos del todo, pero escribimos los evaluadores que nos dan confianza.",
+        "Y confiamos en la gente, en los ingenieros de producción de infraestructura, para que digan que les parece bien mandar esto a producción.",
+        "Si se caen tus sistemas, a alguien le va a saltar la alarma de guardia.",
+        "Otra cosa que la gente subestima es que crear software es facilísimo, pasar de cero a uno.",
+        "Pero piensa en dentro de mil días. ¿Cómo será tu software? ¿Será seguro? ¿Tendrá pruebas? ¿Estará listo para producción? ¿Rendirá bien?",
+        "¿Y seguirás con ganas de invertir todos esos tokens, los trozos de texto con los que trabajan los modelos, en mantenerlo en producción?"
+      ]
+    },
+    {
+      "id": "b40-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Los humanos se están convirtiendo en verificadores. Así es como entrenamos estos modelos, con buenos datos de verificación, y ahora necesitamos verificadores humanos.",
+        "Gran parte de la antigua función de la gente, de los abogados, de los ingenieros o de los de operaciones, pasa a ser verificar todo el sistema.",
+        "Y decir que esto está más o menos bien, que más o menos lo respaldan y que te apoyarán si sale mal."
+      ]
+    },
+    {
+      "id": "b41-blake-scholl",
+      "speaker": "Blake Scholl",
+      "frases": [
+        "Una de las cosas que hemos visto en lo regulatorio es que reduce muchísimo el miedo al cambio y mejora la iteración.",
+        "Un ejemplo. Pongamos que vas a certificar un avión, y una de las mil cosas que tienes que hacer es demostrar que aguanta el impacto de un rayo.",
+        "La documentación regulatoria del plan de pruebas se extiende, digamos, a lo largo de doscientas páginas.",
+        "Lo clásico sería contratar a un ingeniero, seamos sinceros, no especialmente brillante, que esté dispuesto a pasarse ahí, como un mono delante del teclado, escribiendo doscientas páginas de documentación de cumplimiento normativo.",
+        "Eso lleva un par de meses. Y, por cierto, si cambias el avión, te entran ganas de llorar, porque son otros dos meses rehaciendo esa documentación mecánica.",
+        "Lo que hemos descubierto es que podemos montar un sistema que genera el texto consultando nuestra propia documentación, y que nos permite sacar todo ese trabajo a base de prompts en, digamos, minutos.",
+        "El efecto de primer orden es que ahorras mucho tiempo. El de segundo orden es que, si cambias las especificaciones del avión, ahora tardas minutos, no meses.",
+        "Así que de verdad puedes estar dispuesto a cambiar.",
+        "Y el efecto de tercer orden es que puedes prescindir de los ingenieros no muy buenos y tener unos pocos muy creativos que iteren deprisa, porque el coste del cambio baja.",
+        "En cierto sentido, toda la carga regulatoria, que de verdad perjudica la capacidad de iterar, desaparece."
+      ]
+    },
+    {
+      "id": "b42-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "Esta es una historia de la inteligencia artificial que ahora mismo se cuenta muy poco.",
+        "El consenso en Silicon Valley es que la regulación es un desastre, que queremos ir más deprisa y hacer realidad este futuro increíble.",
+        "Queremos abundancia y prosperidad, y hay que evitar todo lo que frene ese futuro.",
+        "Desde luego, hemos regulado de más y hemos hecho imposible construir cosas.",
+        "Es una auténtica locura todo lo que hace falta en muchos sitios para construir cualquier cosa física.",
+        "Pero muchas de las normas en sí no son el problema. Si de verdad te has leído muchas de ellas, ves que tener ciudades que no estén asfixiadas por el esmog es estupendo.",
+        "Poder bañarte en muchos ríos es estupendo, y muchas de esas cosas fueron un progreso.",
+        "El problema es que a las personas les cuesta muchísimo entender y cumplir todo esto, y cada vez que tienes que intercambiar una carta con el gobierno, esperas meses.",
+        "Si pudieras coger muchas de las cosas que hemos aprendido y quitarles por completo la fricción, estaría muy bien. Creo que es una historia que se cuenta poco."
+      ]
+    },
+    {
+      "id": "b43-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Hasta que el regulador empiece a escupirnos tokens, los trozos de texto con los que trabajan los modelos.",
+        "Entonces empezarás a recibir de los reguladores montañas de documentos que tienes que cumplir, y serán guerras de agentes contra agentes. Pero al menos será una pelea justa."
+      ]
+    },
+    {
+      "id": "b44-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "Eso es básicamente lo que tenemos ahora."
+      ]
+    },
+    {
+      "id": "b45-blake-scholl",
+      "speaker": "Blake Scholl",
+      "frases": [
+        "Yo, de hecho, diría que eso sería una mejora respecto a donde estamos ahora.",
+        "Una de las cosas terribles ahora mismo es que, si vas a construir algo físico, necesitas una licencia de obras, y eres culpable hasta que se demuestre lo contrario.",
+        "Lo peor con lo que nos hemos topado son los bomberos, porque tienen el aval moral de ser la gente que saca a la gente de los edificios en llamas.",
+        "Y, sin embargo, lo que hacen en realidad es enredar con tu diseño de los edificios durante meses.",
+        "Si pudiéramos sustituir al inspector de bomberos por un agente que criticara deprisa tu plan de obra, aunque su feedback fuera excesivo, sería muchísimo mejor que los retrasos que hay hoy."
+      ]
+    },
+    {
+      "id": "b46-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "Cuando Max decía que tener toda esta regulación podía ser algo bueno, me vino a la cabeza lo que hace que los agentes funcionen.",
+        "Y es que los humanos u otros agentes les pongan las barreras de prueba adecuadas.",
+        "La gente está muy entusiasmada con el comando goal, o con los bucles Ralph, en los que le dices al modelo que vaya a hacer algo y cuál es su criterio de salida.",
+        "Yo le digo a Blake que vaya y nos haga supersónicos a todos, y que su criterio de salida es haber cumplido todas estas normas.",
+        "Hay un mundo, desde luego, en el que decimos que las normas son estupendas, porque son como nuestro conjunto de pruebas.",
+        "Mientras cumplirlas no lleve a contradicciones, y las normas sean de verdad razonables, son una barrera de seguridad fantástica.",
+        "Si no, estaríamos lanzando basura directamente al aire."
+      ]
+    },
+    {
+      "id": "b47-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Esto se va a convertir en una carrera de la Reina Roja. Ellos van a tener agentes y nosotros vamos a tener agentes.",
+        "Creo que quizá tengamos mejores agentes, y eso es bueno, frente a humanos contra humanos, pero sus ciclos y sus tiempos de respuesta pueden alargarse.",
+        "La App Store se está ahogando en spam ahora mismo, y seguro que la oficina de patentes también.",
+        "Estos organismos van a tardar en adoptar la inteligencia artificial, y los emprendedores listos los van a saturar de documentos, como en un ataque de denegación de servicio.",
+        "Es posible que los plazos de aprobación de todo esto se alarguen cuando, de repente, les llegue una avalancha."
+      ]
+    },
+    {
+      "id": "b48-blake-scholl",
+      "speaker": "Blake Scholl",
+      "frases": [
+        "Eso crea la oportunidad de cambiar de verdad el modelo regulatorio.",
+        "Imagina que circuláramos por una ciudad igual que construimos hoy las cosas.",
+        "Antes de poder ir a ningún sitio, tendrías que redactar un plan, mandárselo a algún regulador y esperar.",
+        "Tu plan tendría que especificar que vas a coger tal ruta, respetar tal límite de velocidad, poner el intermitente, pararte en cada stop y no saltarte nunca un semáforo en rojo, y bla, bla, bla.",
+        "Tres meses después te devuelven una crítica diciendo que creen que deberías ir por esta otra calle.",
+        "Al final te dan la aprobación y te vas a algún sitio. Es una locura, porque nunca puedes ir a ninguna parte.",
+        "Y, sin embargo, así es exactamente como construimos la infraestructura física en este país.",
+        "Deberíamos hacer que muchas más de estas cosas se basaran en vigilar el cumplimiento, y no en la aprobación previa."
+      ]
+    },
+    {
+      "id": "b49-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "No quiero estar demasiado expuesto, porque, si saco un dispositivo médico para mucha gente, tiene que haber, bueno, hay incógnitas.",
+        "Fuimos responsables, hicimos ensayos clínicos y comunicamos todos los datos, pero aun así."
+      ]
+    },
+    {
+      "id": "b50-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Max, por eso hay tan poca innovación en medicina ahora mismo. El proceso de aprobación de la FDA, la agencia del medicamento de Estados Unidos, es una pesadilla.",
+        "De hecho, los dos mayores avances tecnológicos de Silicon Valley en la última década son la inteligencia artificial y, antes de eso, lo cripto.",
+        "Y los dos están en el terreno de las matemáticas, porque es el último terreno que queda sin regular.",
+        "Cuando empiecen a regular los modelos de frontera y los procesadores gráficos, eso también se parará.",
+        "Peter Thiel se lamenta de que no haya innovación en el mundo físico. Pues es que la han frenado unas barreras regulatorias enormes.",
+        "Siempre puedes encontrar un caso que dé miedo, una vacuna o un desastre médico famoso.",
+        "Pero la regulación se extiende por todas partes, tiene tentáculos en todas partes, y hay un montón de organismos reguladores que se contradicen entre sí.",
+        "A SpaceX la demandaron por no tener suficientes, no me acuerdo de qué, inmigrantes o refugiados o lo que fuera, pero es que una norma del gobierno, por otro lado, no le permite contratarlos porque no son ciudadanos.",
+        "Esto no es como un código lógico que tiene que compilar en un solo sitio, sino un montón de normas inventadas y arbitrarias por todas partes.",
+        "Puede que cumplas en un estado e incumplas en otro, o que incumplas la ley federal, o que molestes a alguien.",
+        "Y luego aquel otro decide procesar a uno de cada cincuenta, según quién sea su amigo. Es arbitrario y caprichoso."
+      ]
+    },
+    {
+      "id": "b51-blake-scholl",
+      "speaker": "Blake Scholl",
+      "frases": [
+        "Y la idea de que esto hace que las cosas sean más seguras es un mito absoluto. Fíjate en Boeing.",
+        "Certificaron el siete tres siete MAX, que tenía un único sensor con control total sobre el cabeceo del avión, morro arriba o morro abajo.",
+        "Ningún becario es tan tonto como para pensar que eso es buena idea, y aun así pasó todo el sistema de certificación.",
+        "Todo esto no nos hace más seguros, solo nos hace más lentos."
+      ]
+    },
+    {
+      "id": "b52-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "Bueno, desde luego aquí hay disfunción, pero creo que parte de esto nos hace más seguros, en el sentido en que nos hace más seguros la Comisión Reguladora Nuclear.",
+        "Su trabajo era asegurarse de que la energía nuclear fuera segura, y lo consiguieron autorizando cero centrales desde los años setenta hasta hace, creo, un año. Será perfectamente segura si nunca construimos ninguna.",
+        "Quiero dejarlo muy claro, en mucho de esto estoy del lado de la desregulación, y coincido con Blake en que mucho de esto se puede hacer de forma más eficiente.",
+        "Pero también creo que es un poco simplista decir que esto es cosa de la FDA y de los organismos, porque el problema es más profundo.",
+        "Si la FDA aprueba diez medicamentos importantísimos, no se lo agradece nadie. Muere un paciente, y los llevan a rastras ante el Congreso y les gritan.",
+        "Tienen unos incentivos muy sesgados hacia lo negativo, y la realidad es que esto refleja lo que creen los estadounidenses.",
+        "Hay que buscar un equilibrio entre la percepción del riesgo en la investigación con personas y el ritmo al que conseguimos medicamentos nuevos."
+      ]
+    },
+    {
+      "id": "b53-blake-scholl",
+      "speaker": "Blake Scholl",
+      "frases": [
+        "Es totalmente asimétrico. Si apruebas algo malo, se acaba tu carrera, y si bloqueas algo bueno, nadie se da cuenta.",
+        "Eso crea una ralentización asimétrica, y creo que es el problema más importante que hay que resolver en el Estado regulador."
+      ]
+    },
+    {
+      "id": "b54-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "Es un problema muy profundo, porque es donde están los votantes.",
+        "Hacemos encuestas sobre algunas de las cosas en las que trabajaremos en el futuro, para entender qué piensan los estadounidenses.",
+        "Si presionas demasiado, puedes sortearlo, irte a Próspera, hay mil formas de intentar ir más deprisa.",
+        "Pero, si te ven como alguien que actúa de mala fe, la sociedad en la que vivimos te rechaza.",
+        "Esa es la cosa para la que necesitas una respuesta, y es más profundo que decir simplemente que hace falta una reforma regulatoria."
+      ]
+    },
+    {
+      "id": "b55-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Ahí tienes un argumento profundo, Max, porque es donde están los votantes, los ciudadanos.",
+        "Nos gusta echarles la culpa a los políticos, y en X lo ves todo el rato, con la gente culpando a este político, a aquel o al otro.",
+        "Pero los eligen por mayoría. Ahí es literalmente donde está la gente, ese es el paquete que ha elegido.",
+        "Puede que no te guste esta versión concreta, pero, si la quitaras, ocuparía su lugar algo muy parecido, porque los votantes los volverían a elegir.",
+        "Culturalmente, a la mayoría de la gente le cuesta mucho entender lo que hemos perdido, lo que nos hemos perdido.",
+        "En Francia, hay un emprendedor francés en X que se lamenta de que el Estado se trague el cincuenta y siete por ciento del producto interior bruto, así que no puedes crear empresas.",
+        "Pero para el ciudadano francés medio eso no se ve. No se da cuenta de lo que se pierde, y solo sabe que es un poco más pobre que Estados Unidos.",
+        "The Economist acaba de publicar un articulito sobre cómo Estados Unidos está dejando atrás a todo el mundo, creciendo más deprisa y haciéndose más grande.",
+        "Por fin los economistas vuelven a ser capitalistas, después de treinta años.",
+        "Pero enseguida se dan la vuelta y dicen que es por los océanos, por los recursos naturales, por cualquier cosa menos el capitalismo.",
+        "No quieren decir la palabra maldita, capitalismo, porque por alguna razón todas estas revistas se volvieron marxistas en algún momento.",
+        "No se pueden imaginar lo que podría haber sido si hubiéramos sido un poco más liberales, un poco más abiertos.",
+        "Me encantaría ver un verdadero experimento entre los cincuenta estados, con normas distintas y estructuras fiscales distintas.",
+        "Ahora mismo, la estructura fiscal federal y las normas federales lo dominan todo.",
+        "Pero imagina que, si tuvieras cáncer, pudieras irte a algún estado pequeño y probar cualquier fármaco que estuviera preparando cualquiera.",
+        "Bajo tu propia responsabilidad, eso sí, porque tienes que investigar por tu cuenta. Es lo que se conoce como la zona experimental.",
+        "Lo mismo con los drones, y lo mismo con los aviones, aunque ahí es un poco más difícil, porque tienes que cruzar muchas zonas, pero sí."
+      ]
+    },
+    {
+      "id": "b56-blake-scholl",
+      "speaker": "Blake Scholl",
+      "frases": [
+        "Ahí hay algo mágico, que es la idea de las zonas de innovación.",
+        "Tenemos un problema enorme de NIMBY, pero, si creas zonas YIMBY voluntarias, crean ese marco de experimentación.",
+        "Por definición, ocurre donde la gente da su consentimiento.",
+        "Puedes probar normas distintas, o ninguna norma, o formas distintas de vigilar el cumplimiento, como que seas inocente hasta que se demuestre lo contrario, y ver qué pasa de verdad.",
+        "¿Qué consecuencias tiene para la innovación? ¿Y para la seguridad? Después, lo que funcione se puede extender."
+      ]
+    },
+    {
+      "id": "b57-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "Siguiendo con lo de Naval, una zona de innovación no resolvería el problema en el descubrimiento de fármacos.",
+        "Hace poco se aprobó la ley del derecho a probar tratamientos experimentales, y desde mucho antes tenemos una vía de uso compasivo para un solo paciente.",
+        "Si tu médico llama a la FDA y dice que quiere darle a su paciente un fármaco no aprobado, aprueban más del noventa y nueve por ciento de esas peticiones, e incluso pueden concederlas por teléfono.",
+        "El problema es que, para administrarle una dosis a un paciente, sigues necesitando el fármaco con calidad clínica.",
+        "Y normalmente el único que lo tiene es el dueño de la patente, que está en pleno ensayo clínico e invirtiendo cientos de millones de dólares en fabricarlo.",
+        "Si le pasa algo malo a tu paciente, que seguramente ya estaba muy enfermo, la FDA sacará conclusiones negativas.",
+        "Y eso se verá como una propiedad del fármaco, que es global y no tiene nada que ver con tu zona de innovación.",
+        "Así que hay dos problemas. El primero es que necesitas que el dueño de la patente te dé parte de su fármaco, y no lo va a hacer.",
+        "El segundo es que necesitas impedir que el regulador global ponga en duda lo que podría pasar con su ensayo clínico si te da un poco."
+      ]
+    },
+    {
+      "id": "b58-blake-scholl",
+      "speaker": "Blake Scholl",
+      "frases": [
+        "¿Y cómo lo resolverías en medicina?"
+      ]
+    },
+    {
+      "id": "b59-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "Esto ya es para iniciados. Habría que prohibirle a la FDA sacar conclusiones negativas entre los distintos usuarios de una cápside, por ejemplo.",
+        "Hay formas concretas de acelerar mucho la innovación con una regulación relativamente ligera, simplemente impidiendo que esta paranoia dirija nuestras decisiones."
+      ]
+    },
+    {
+      "id": "b60-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "¿Hay algo mejor que la FDA por ahí? ¿Con qué estamos comparando a estos reguladores?"
+      ]
+    },
+    {
+      "id": "b61-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Todos siguen a la FDA, todos la copian."
+      ]
+    },
+    {
+      "id": "b62-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "Dos puntos. Primero, Europa, que no es realmente mejor que la FDA, pero tiene un sistema distinto.",
+        "Tienen los organismos notificados, que son básicamente empresas privadas a las que sus gobiernos dan su bendición para certificar cosas, como trenes, aviones o dispositivos médicos.",
+        "El sistema de los organismos notificados crea unos incentivos algo mejores en la capa de revisión, porque pueden contratar gente, pueden crecer y hay competencia.",
+        "Ellos mismos tienen que cumplir las condiciones que les ponen sus gobiernos, pero eso significa que puede haber muchos miles de revisores más que en Estados Unidos.",
+        "Segundo, hoy existe de hecho una interfaz cerebro máquina implantable aprobada y por la que ya se cobra, y está en China.",
+        "La agencia del medicamento china piensa por su cuenta, y tienen un sistema que creo que nos lo va a poner muy difícil si no tenemos cuidado.",
+        "Lo que cuesta llevar un fármaco o un dispositivo al mercado es muchísimo menos, y puedes probar cosas en personas y probarlas en el mercado.",
+        "Esto es en lo que llevo mucho tiempo pensando. Hace veinte años comprábamos muchos menos portátiles y teléfonos, y cada uno era mucho más caro.",
+        "Ahora son más baratos, hay muchísimos más, compramos más y el gasto total ha subido. Esto es estupendo.",
+        "Las acciones de Qualcomm, de Samsung y de Apple se han disparado, y todo el mundo está contento.",
+        "La riqueza extra que generan los teléfonos y los portátiles se usa para comprar más teléfonos y más portátiles.",
+        "Esto no pasa en la sanidad. Por el sistema de reembolsos, porque hay una venta institucional por medio, la bolsa de dinero con la que pagamos la sanidad es básicamente fija.",
+        "No aumenta a medida que hay más cosas que dan mejores resultados de salud, como vemos en los sectores de crecimiento tecnológico.",
+        "El gasto en sanidad crece más o menos al mismo ritmo que la recaudación fiscal.",
+        "Si la inteligencia artificial está en pleno auge, hay grandes avances y dentro de dos años gastamos diez veces más en IA, puede ser estupendo.",
+        "Pero si dentro de dos años gastáramos diez veces más en sanidad, sería una catástrofe, y eso choca de raíz con ser un sector de crecimiento tecnológico.",
+        "En la sanidad hay un problema que lo abarca todo, y todo viene de lo mismo, de que llevar estas cosas al mercado es demasiado caro.",
+        "A eso es a lo que apunta China. La salida no es un sistema de pagador único ni retocar el seguro médico.",
+        "Es bajar los costes para que alguien pueda comprarlo con tarjeta de crédito, o financiarlo, como mucho como un coche, y que se le cobre en la transacción.",
+        "Para eso tenemos que abaratar llevar estas cosas al mercado, y China lo está haciendo.",
+        "Eso les va a permitir venderlas por diez mil dólares en vez de por cien mil, y eso es desregulación."
+      ]
+    },
+    {
+      "id": "b63-naval",
+      "speaker": "Naval",
+      "frases": [
+        "En el fondo, en la sanidad no hay un mercado privado.",
+        "La analogía que se hace a veces es que imagines que, en vez de ir a los restaurantes y pagar, fueras a todos los restaurantes.",
+        "Y que a final de mes le mandaras todos los tiques y las facturas a tu aseguradora o al gobierno, y te lo reembolsaran.",
+        "Habría cola en la puerta de cada buen restaurante, y todos los malos restaurantes estarían libres.",
+        "Las esperas serían terribles y el producto no mejoraría.",
+        "Básicamente, estás haciendo funcionar una pequeña sociedad comunista dentro de una sociedad capitalista más grande, y eso es lo que hacemos con la sanidad."
+      ]
+    },
+    {
+      "id": "b64-blake-scholl",
+      "speaker": "Blake Scholl",
+      "frases": [
+        "Es también lo que hacemos con las carreteras, y por eso hay atascos.",
+        "No hay precios variables para entrar en la autopista, y por eso siempre está colapsada."
+      ]
+    },
+    {
+      "id": "b65-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Si quieres meterte por un momento en el tema más intocable de la sanidad, piensa en este plan y dime qué tiene de malo.",
+        "Imagina que el primer veinte por ciento de tus ingresos anuales fuera tu franquicia sanitaria.",
+        "Si estás arruinado y sin hogar, es cero, y si eres rico, son millones de dólares.",
+        "Sean cuales sean tus ingresos anuales, el primer veinte por ciento es tu franquicia sanitaria, y el resto lo pagan el gobierno y el sistema de seguros, hasta los topes habituales de hoy.",
+        "Crearías un mercado privado bastante deprisa, porque en la odontología, en la cirugía plástica y en muchos procedimientos médicos opcionales se daría una situación de competencia.",
+        "Y hay mejora. Fíjate en la optometría con el LASIK, en la odontología con las carillas, la ortodoncia y la cirugía dental, o en la cirugía plástica.",
+        "Esos campos sí parecen avanzar, porque los que pagan son particulares, gente que vota con su dinero.",
+        "Necesitamos hacer algo equivalente en el sistema sanitario normal, pero la gente pierde la cabeza y ni siquiera quiere pensar un paso más allá.",
+        "Te dicen que no, no, no, que qué pasa con el que está arruinado. Pues el que está arruinado no tiene ingresos.",
+        "Te dicen que el veinte por ciento es demasiado para algunos. De acuerdo, puedes poner otra franquicia.",
+        "Pero, en general, si no tienes un mercado privado en el que la gente pague de su bolsillo los procedimientos médicos, no vas a tener este ciclo de feedback.",
+        "No vas a tener esta capacidad de meter más dinero en el sistema.",
+        "Ahora mismo, la gente muy rica puede gastar voluntariamente en el sistema, pero los precios no están en ningún sitio.",
+        "Las tarifas no están en ningún sitio, y el sistema no está diseñado para eso.",
+        "Si vas a buscar atención médica y quieres pagar de tu bolsillo, a veces te dan un precio diez veces mayor que el que le cobran a la aseguradora."
+      ]
+    },
+    {
+      "id": "b66-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "¿Alguien conoce la historia de Sid, el de GitLab? Tuvo una salida a bolsa con un éxito enorme, y luego le diagnosticaron un cáncer raro.",
+        "Ha vivido mucho más de lo que decía el pronóstico, porque de verdad se lo tomó por su cuenta.",
+        "Hizo la quimioterapia de primera línea, luego había una alternativa, la agotó, y los médicos le dijeron que ya no tenían nada para él.",
+        "Desde entonces han salido de ahí seis o siete empresas, y ahora hay veinte o treinta fármacos en su escalera de tratamientos. Sigue vivo."
+      ]
+    },
+    {
+      "id": "b67-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "Está estupendamente, lo vi el otro día. Básicamente, se creó su propia medicina personalizada y su propio plan de tratamiento."
+      ]
+    },
+    {
+      "id": "b68-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "Ya he oído un puñado de anécdotas como esta.",
+        "Para mí está clarísimo que, en la gama alta, si no dependes del seguro, tienes los recursos y quieres toda la caja de herramientas de la ciencia moderna, son posibles resultados de locos.",
+        "Si vas a tu médico y le preguntas qué pasará si haces tal cosa, se pondrá a gritar y a tirar cosas, pero en la gama alta son posibles cosas de locos.",
+        "Este tipo de medicina N de uno, la que se hace a la medida de un solo paciente, va a acabar siendo una fuente riquísima de investigación para entender cómo construir cosas más trasladables."
+      ]
+    },
+    {
+      "id": "b69-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "Exige muchísima agencia por parte del paciente justo en el momento en que está más débil, lo cual es bastante irónico.",
+        "Un amigo mío murió de cáncer, y lo último que quería hacer era investigar sobre medicina N de uno, porque se estaba muriendo semana a semana.",
+        "Aquí es donde la inteligencia artificial debería brillar de verdad, y democratizar lo que puedes hacer cuando te encuentras en esa situación.",
+        "Es una locura la poca gente que tiene acceso a esto, solo por una cuestión de conocimiento, no solo de dinero."
+      ]
+    },
+    {
+      "id": "b70-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "¿Cuánto software autónomo tiene cada uno en su organización, funcionando por su cuenta, o casi autónomo y mejorando solo?"
+      ]
+    },
+    {
+      "id": "b71-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "Gran parte de nuestra infraestructura ya es autónoma. Tenemos una capacidad que se dispara al encontrar anomalías, y recomiendo que todo el mundo cree su propia versión, o Vercel ofrece una.",
+        "Hoy, la mayoría de las organizaciones de ingeniería responden a las anomalías poniendo alarmas o umbrales de monitorización a mano, lo cual es bastante demencial, pero así funciona todo el sector.",
+        "Hemos automatizado gran parte del trabajo de ingeniería de fiabilidad.",
+        "Cualquier métrica que se ralentice, se acelere o cambie de rendimiento dispara una alerta de anomalía, un agente investiga y el agente puede decidir abrir una incidencia.",
+        "Si se abre una incidencia, se avisa a la gente y el agente empieza a arreglarlo.",
+        "Lo hacemos todo menos darle al agente las herramientas para cambiar producción, así que les servimos las soluciones a los ingenieros en bandeja de plata.",
+        "La otra cosa que funciona muy bien es la optimización autónoma y la investigación de seguridad autónoma.",
+        "Hemos liberado como código abierto una herramienta que se llama deepsec. Es increíble, como Mythos, pero la tienes ya.",
+        "La pasamos por todo nuestro monorepo con diez mil agentes simultáneos en la nube.",
+        "En un par de días encontró el avance de varios trimestres de investigación de seguridad, por catorce mil dólares en tokens, lo que serían meses de ataques simulados de equipos rojos, equipos enteros de personas.",
+        "La ciberseguridad se está convirtiendo en una pesadilla, con demasiadas vulnerabilidades, demasiado trabajo y adversarios demasiado poderosos, así que tienes que invertir de forma proactiva.",
+        "Seguramente has visto en Twitter a gente traduciendo bases de código de un lenguaje a otro.",
+        "Una vez que has hecho el trabajo de tener un programa que funciona, optimizarlo o reescribirlo en un lenguaje nativo ya es bastante factible con los modelos de frontera."
+      ]
+    },
+    {
+      "id": "b72-naval",
+      "speaker": "Naval",
+      "frases": [
+        "En mi propia app, la que he hecho con vibe coding, he montado una cola de reporte de bugs para los usuarios de TestFlight.",
+        "Reportan los bugs desde dentro de la app, y se suben los registros y una captura de pantalla. Claro, también la usan para pedir funciones.",
+        "Un sencillo proceso en segundo plano recopila todos los reportes, los analiza y los arregla de forma proactiva, y luego me manda una versión de prueba de TestFlight para que la pruebe antes de mandársela a los probadores.",
+        "Me imagino una app del futuro construida literalmente por sus usuarios. No digo que sea buena idea, puede ser un desastre."
+      ]
+    },
+    {
+      "id": "b73-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "Pues deberíamos sacarlo, aunque solo sea para ver qué pasa."
+      ]
+    },
+    {
+      "id": "b74-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Como experimento social. Acabarías con el coche que diseñó Homer Simpson, con paraguas, linterna, bocina de payaso y todas las funciones.",
+        "Pero para arreglar bugs, desde luego que se podría hacer."
+      ]
+    },
+    {
+      "id": "b75-blake-scholl",
+      "speaker": "Blake Scholl",
+      "frases": [
+        "Nosotros hicimos una versión de ese experimento. Paré todo el trabajo de proyectos de la empresa entera durante una semana.",
+        "Les dije a todos, desde el recepcionista hasta los ingenieros, que construyeran lo que les pareciera más importante.",
+        "Sus únicos requisitos eran que tenían que usar la inteligencia artificial y que tenían que hacer una demostración para toda la empresa al terminar.",
+        "Esperaba muchos proyectos tontos y unos pocos que marcaran la diferencia, y salió al revés, muchísimos que marcaban la diferencia y muy pocos tontos.",
+        "Dos o tres cambiaban la trayectoria, porque cambiarían por completo el rumbo de la empresa.",
+        "Lo que más me sorprendió fue el recepcionista, en realidad el encargado de recepción y envío de paquetes.",
+        "Su trabajo era bajar los paquetes del camión y mandar un correo a la gente cuando sus cosas entraban en el inventario, y construyó una automatización para eso que de verdad estamos usando.",
+        "Mi conclusión fue que todo el mundo tiene alguna idea de algo que podría existir y haría el mundo mejor, pero sus ideas de primer orden suelen ser tontas, y no son capaces de proyectarlas y verlas.",
+        "Pero, si pueden pasar de la idea a algo real, pueden reaccionar e iterar. Dales una semana, y al final han construido algo que tiene sentido."
+      ]
+    },
+    {
+      "id": "b76-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "Imagina que todo el trabajo fuera así. ¿Cómo se organiza una plantilla que no hace el trabajo directamente, sino que solo entrena al agente que lo hace por ella?",
+        "Hay que recordárselo a la gente y organizar hackatones.",
+        "Está habiendo un cambio cultural, y mucha gente que entra ahora sabe por intuición que su trabajo no es trabajar en la cosa, sino entrenar al agente que trabaja en ella."
+      ]
+    },
+    {
+      "id": "b77-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Podría ponerse mucho más loco. Quizá enciendes todas las cámaras y el agente ve todo lo que pasa.",
+        "Se da cuenta de que el proceso de recepción y envío es ineficiente, y escribe la app y te la presenta."
+      ]
+    },
+    {
+      "id": "b78-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "Seguramente vamos a sacar una función en AI Gateway que permita a la gente elegir que se guarden sus inputs y sus outputs.",
+        "Entonces podrás pedirle que, de todos tus inputs y outputs, extraiga las habilidades, que aprenda de tu trabajo y lo vuelque en habilidades que puedas descargarte.",
+        "Te puedes imaginar a la gente de las empresas queriendo compartir todo esto y ponerlo en común."
+      ]
+    },
+    {
+      "id": "b79-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Tiene gracia, porque para mí eso es inimaginable, ya que mi trabajo no es repetitivo.",
+        "Busco cosas que automatizar, y en mi trabajo ya no queda casi nada que automatizar.",
+        "Espero que todo el mundo acabe ahí, trabajando todo el tiempo en su zona máxima de creatividad y de interés.",
+        "Si queda algo que automatizar, automatízalo, sácalo de tu vida, y eso te dejará libre para ser creativo, que es donde generas todo el valor.",
+        "Eso cuesta verlo con la mentalidad del empleo y la carrera profesional, porque contratas a gente para que haga lo mismo una y otra vez, y eso se está acabando.",
+        "Da miedo, y la gente se pregunta qué va a hacer. Vas a hacer cosas creativas.",
+        "No tienes que inventarte algo nuevo cada día, porque eso es imposible, pero de vez en cuando se te ocurre algo nuevo que crea un punto de apalancamiento."
+      ]
+    },
+    {
+      "id": "b80-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "Históricamente, los rendimientos eran quizá setenta por ciento inteligencia y treinta por ciento agencia.",
+        "Ahora será setenta por ciento agencia y treinta inteligencia, y aún más a medida que mejoren los modelos."
+      ]
+    },
+    {
+      "id": "b81-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Te llevo la contraria, Max. Creo que es noventa y nueve por ciento inteligencia y uno por ciento agencia, porque la agencia la pondrán los agentes.",
+        "Literalmente le dirás al agente que tú tomas las decisiones inteligentes y piensas a lo grande, y que él se encargue de implementarlo.",
+        "A veces quiero añadir una función a una app que estoy haciendo con vibe coding, y le pregunto al agente qué función debería construir ahora, y le digo que mire los registros."
+      ]
+    },
+    {
+      "id": "b82-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "Para que quede claro, hablo del rendimiento para los humanos.",
+        "Los humanos mejor preparados para el futuro son los que tienen más agencia, los que pueden abrir Claude y pensar qué deberían construir, en vez de ponerse a ver YouTube."
+      ]
+    },
+    {
+      "id": "b83-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Aquí va un experimento divertido. Todos conocemos ahora a mucha gente que programa y que antes no lo hacía, incluidos, en muchos casos, nosotros mismos.",
+        "El porcentaje de gente que programa seguramente se ha multiplicado por diez."
+      ]
+    },
+    {
+      "id": "b84-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "Por eso nuestras cifras de registros están por las nubes, con toda una clase nueva de gente que no son ingenieros."
+      ]
+    },
+    {
+      "id": "b85-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Pero la mayoría de la gente sigue sin crear código. Yo le digo a la gente que el vibe coding es divertidísimo.",
+        "Tenía un grupo con el que jugaba a juegos de disparos en primera persona para desfogarme, y lo dejé por completo, porque ese tiempo se lo dedico ahora al vibe coding.",
+        "Es más entretenido, sacas algo real, y el ciclo de feedback es igual de rápido o más.",
+        "Les digo a mis amigos que deberían hacer vibe coding en vez de eso, y se me quedan mirando sin entender.",
+        "Para ellos siempre fue una caja negra, y creen que solo le estás hablando al ordenador. No se dan cuenta de que ahora es mucho más fácil.",
+        "Así que quizá hayamos pasado de que escribiera código el cero coma cero uno por ciento de la población a quizá el uno por ciento, cien veces más.",
+        "Pero el noventa y nueve por ciento sigue sin hacerlo y nunca lo hará."
+      ]
+    },
+    {
+      "id": "b86-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "Es una locura. Es como un videojuego, un videojuego buenísimo, pero del que salen cosas reales."
+      ]
+    },
+    {
+      "id": "b87-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Los normies se han metido un poco más, pero a través de los modelos de medios, los modelos de vídeo.",
+        "Hay más gente que ha trasteado haciendo vídeos e imágenes que escribiendo código y apps.",
+        "Pero el vídeo tiene sus propios problemas. Algún día le pedirás que te haga una gran película sobre lo que sea y te soltará un buen documental, pero ahora mismo no tienen ni el gusto ni el criterio."
+      ]
+    },
+    {
+      "id": "b88-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "Tengo una apuesta con Andrej Karpathy sobre en qué año podrás meter un libro y que te salga una película.",
+        "Creo que está cerca, y él ha acortado bastante sus plazos.",
+        "Para dos mil treinta vamos a tener decenas de Señores de los Anillos, con algún fan diciendo que el director lo hizo mal y que él va a hacer su propia versión.",
+        "Una de mis pruebas de referencia es The Expanse, de la que soy muy fan.",
+        "Hay una serie de televisión y nueve libros, y adaptaron los seis primeros, pero no los tres últimos, y hay diferencias importantes.",
+        "Tengo muchas ganas de meterle los tres últimos libros, partiendo de la serie, y pedirle que genere las tres últimas temporadas."
+      ]
+    },
+    {
+      "id": "b89-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "Sería una función estupenda. Cuando has dicho lo de conseguir el próximo Señor de los Anillos, me he emocionado.",
+        "Porque no hemos tenido un gran salto en imaginación, en cultura, como Harry Potter y El Señor de los Anillos."
+      ]
+    },
+    {
+      "id": "b90-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Entonces, ¿qué pueden hacer solo los humanos? Esto va al fondo del asunto.",
+        "Max, tú eres un maximalista de la inteligencia artificial general, así que para ti es nada, porque los agentes lo harán todo."
+      ]
+    },
+    {
+      "id": "b91-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "No estoy en contra de los humanos, pero, si tu identidad se basa en lo listo y lo creativo que eres, lo vas a pasar mal."
+      ]
+    },
+    {
+      "id": "b92-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Yo sigo estando en el otro lado. La creatividad es lo que te sorprende, cuando sales del sistema y haces algo que ni siquiera era imaginable dentro de él.",
+        "Está fuera de los datos de entrenamiento, fuera de la distribución con la que se alimentó al sistema. Para eso siempre habrá sitio."
+      ]
+    },
+    {
+      "id": "b93-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "¿Alguien se ha fijado en que todas las webs hechas con Claude son iguales?",
+        "La gente ya identifica cómo es una web de Claude, con letra con serifa, marrón y crema, y una monoespaciada con cierto espaciado.",
+        "Al cabo de un tiempo ves la distribución y piensas que eso no es creativo, que es basura que ha salido de Claude."
+      ]
+    },
+    {
+      "id": "b94-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "Para que quede claro, no creo que sea humano contra ordenador, sino humano con ordenador contra solo ordenador.",
+        "Pero el ordenador va a producir unos superestímulos de locos, y va a ser el que haga el entretenimiento. Una forma débil de esto ya la vemos en TikTok.",
+        "Mi definición personal del arte es un comportamiento significativo fuera de la distribución, algo sorprendente, como si te movieras en el eje zeta.",
+        "Y significativo quiere decir que cambia tu trayectoria futura por el universo, que tu vida es de algún modo distinta por haberlo pensado y haber reflexionado sobre ello."
+      ]
+    },
+    {
+      "id": "b95-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "Mi definición es amplia. Hay maniobras militares a las que llamarías arte, y vamos a ver jugadas como la treinta y siete de AlphaGo por todas partes.",
+        "¿Cuál es tu definición de arte?"
+      ]
+    },
+    {
+      "id": "b96-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Tengo varias definiciones. Para mí, el arte es transmitir una emoción, algo que sentiste y que le transmites a otra persona, creando un objeto que captura una emoción que sentiste por dentro.",
+        "Con esa definición, un ordenador es casi incapaz de hacerlo, porque la misma obra de arte exacta sin una intención detrás no significa nada.",
+        "Puedes defender que la naturaleza es arte, una puesta de sol, pero eso es pura inteligencia funcionando sin motivo, así que no entra en juego ningún ego, y tu cerebro reconoce el sistema complejo.",
+        "El arte en el sentido humano es que alguien sintió algo y quiso que tú lo sintieras, así que importa quién lo creó."
+      ]
+    },
+    {
+      "id": "b97-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "O sea, que con una foto bonita, si la hace una persona o si la inteligencia artificial genera exactamente la misma foto hasta el último píxel, la que hizo la persona significa más para ti."
+      ]
+    },
+    {
+      "id": "b98-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "¿Alguien se acuerda de ControlNet, hace uno o dos años? Había una escena de un pueblo medieval con una espiral escondida, generada con inteligencia artificial.",
+        "Fue una de las primeras veces que miré algo así y pensé que era una maravilla."
+      ]
+    },
+    {
+      "id": "b99-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Pero ¿eso no rompe tu premisa? A un humano se le ocurrió el entrenamiento y el prompt para llegar a ese acertijo.",
+        "Es posible que en el futuro la inteligencia artificial lo haga por sí misma, pero el mérito se lo doy a quien tuviera esa idea de la ilusión óptica con ControlNet.",
+        "El listón va a subir muchísimo, y cada vez hará falta más para sorprenderte.",
+        "Como con Studio Ghibli, que OpenAI se lo ha cargado para todo el mundo. Nadie quiere volver a ver otra obra de Studio Ghibli, porque eso ya está hecho."
+      ]
+    },
+    {
+      "id": "b100-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Claro, pero el arte tiene que estar fuera de la distribución.",
+        "Cuando ya has visto Studio Ghibli por todas partes, está dentro de la distribución, ya no sorprende y el valor artístico desaparece.",
+        "Los humanos son los que generan sorpresa completamente fuera de la distribución de los datos, y lo hacen con intención, y la intención importa para el significado.",
+        "Coge una inteligencia artificial entrenada para ser perfecta en matemáticas, dentro del sistema formal.",
+        "Y entonces llega Kurt Gödel con algo completamente fuera del sistema, el teorema de incompletitud, saliéndose de él para romperlo.",
+        "No creo que una IA pueda llegar a algo así. El significado viene de que lo hizo un humano con un propósito y transmitió algo."
+      ]
+    },
+    {
+      "id": "b101-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "La pregunta de verdad profunda es si un modelo de lenguaje o un transformer puede salirse de la distribución y tener una idea nueva que no estuviera en los datos de entrenamiento."
+      ]
+    },
+    {
+      "id": "b102-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Los datos de entrenamiento son tan grandes que cuesta imaginar ideas que no estén ahí en alguna parte.",
+        "Pero, si existen, seguramente están en el terreno de la naturaleza, la física, la interacción, los sentimientos, las emociones o la evolución, cosas a las que no llega el lenguaje.",
+        "Todavía hay cosas fuera del lenguaje, aunque el lenguaje comprime de maravilla gran parte de ellas."
+      ]
+    },
+    {
+      "id": "b103-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "Creo que la pregunta es cómo se sale de la distribución sin aleatoriedad.",
+        "En el aprendizaje por refuerzo puedes muestrear una acción de una distribución y conseguir una aleatoriedad que te lleve a territorio nuevo.",
+        "¿Pueden los humanos salirse de la distribución? ¿De dónde sale cualquier idea nueva? ¿También dependemos nosotros de la aleatoriedad?"
+      ]
+    },
+    {
+      "id": "b104-naval",
+      "speaker": "Naval",
+      "frases": [
+        "No dependemos de la aleatoriedad pura. La selección natural funciona con aleatoriedad pura, mutas un gen y ves qué pasa.",
+        "Pero los humanos parecen capaces de abrirse paso por un espacio infinito y descartar franjas enormes, así que nuestra creatividad tiene sentido dentro del esquema general.",
+        "Esa es una de nuestras capacidades únicas. Quizá la inteligencia artificial esté empezando a hacerlo en los márgenes, como vemos con algunos problemas de matemáticas.",
+        "Pero las matemáticas son un terreno muy acotado, y de momento salirse de verdad y sorprender a la gente sigue siendo cosa de los humanos.",
+        "Hacia ahí va todo, hacia el humano más la IA. El humano sin IA, olvídate, y la IA pura todavía no ha llegado.",
+        "Pero en el humano más la IA, ya estamos en esa era, y apuesto a que vamos a seguir en ella más tiempo de lo que cree la gente."
+      ]
+    },
+    {
+      "id": "b105-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Los humanos van a tener muchísimo valor, más valor que nunca. Todos los que estamos aquí hemos visto nuestra productividad por las nubes.",
+        "La economía básica dice que, cuando la productividad es mayor, eres más rico y contratas a más gente, no a menos.",
+        "Si alguien es muy bueno con la inteligencia artificial y es muy listo y creativo, quiero contratarlo más que nunca, por el apalancamiento."
+      ]
+    },
+    {
+      "id": "b106-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "Ese es un requisito nuevo. Estamos contratando a júniores y a gente supersénior, siempre que sean muy buenos con los agentes y se adapten deprisa.",
+        "Mi hipótesis es que acabaremos con más equipos y más pequeños, porque el número de personas que hacen falta para cualquier tarea baja mucho.",
+        "La gente que solo ve los efectos de primer orden dice que van a desaparecer todos los empleos.",
+        "Según ellos, puedes hacer un motor a reacción con dos personas en vez de con mil, y se pierden novecientos noventa y ocho empleos.",
+        "Pero lo que significa de verdad es que puedes crear muchos motores a reacción distintos.",
+        "Vamos a ver una explosión del emprendimiento, una explosión de fundadores y muchísimos equipos muy pequeños."
+      ]
+    },
+    {
+      "id": "b107-naval",
+      "speaker": "Naval",
+      "frases": [
+        "La inteligencia artificial aportó la inteligencia de base y el conocimiento de cada campo, y se abrió paso a través de la jerga, y ahora los agentes aportan mucha agencia.",
+        "Así que lo que queda es la creatividad y el gusto. Y sí, necesitas la agencia suficiente para empezar y para no rendirte, pero no tienes que pasarte veinte años aprendiendo una cosa antes de poder contribuir.",
+        "Que caiga esa barrera significa que los generalistas se están poniendo las botas.",
+        "Al final, todos somos generalistas, nos gusta pensar en todo. Aquí está Max hablando de la consciencia, de la FDA, de la ciencia del cerebro y de la creatividad.",
+        "La gente de Twitter a la que le encanta hablar de expertos, credenciales y fuentes es la que está saliendo perjudicada, porque la especialización importa menos ahora.",
+        "Te pasas cinco o diez años haciendo un doctorado, y ojalá te haya desarrollado la creatividad, el instinto, el gusto y el criterio.",
+        "Porque, si lo único que ha hecho es ayudarte a memorizar jerga y andamiaje, la IA se abre paso a través de todo eso.",
+        "Es una bicicleta para la mente, pero con motor. Así que es la gente con IA frente a la gente sin IA.",
+        "Y lo mejor que puedes hacer por ti mismo es volverte muy bueno con estas herramientas.",
+        "Y saber siempre dónde están los límites de lo que pueden y no pueden hacer, que no paran de moverse."
+      ]
+    }
+  ]
+}

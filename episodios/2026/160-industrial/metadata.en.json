@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": 160,
+  "anio": 2026,
+  "slug": "industrial",
+  "titulo": "The AI Industrial Revolution",
+  "subtitulo": "Build your own factory",
+  "fecha_publicacion": "2026-06-01",
+  "fuente_url": "https://nav.al/industrial",
+  "orden_archivo": 167,
+  "en_feed": true,
+  "participantes": [
+    "Blake Scholl",
+    "Guillermo Rauch",
+    "Max Hodak",
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-08"
+}
