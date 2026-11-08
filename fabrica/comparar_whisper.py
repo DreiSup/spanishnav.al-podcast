@@ -1,26 +1,35 @@
-"""¿Puede Whisper large-v3-turbo sustituir a large-v3 en la revisión de la fábrica?
+"""¿Puede un Whisper más rápido sustituir al de siempre en la revisión de la fábrica?
 
-La revisión no cambia el audio: solo decide qué frases se repiten. Así que basta con comprobar que el modelo nuevo toma
-las mismas decisiones que el de siempre sobre frases ya generadas, y que caza igual de bien los fallos que la revisión
-existe para cazar. El cuaderno `fabrica/comparar_whisper.ipynb` lo hace en una T4 (unos 15 min, ~0,5 unidades):
+La revisión no cambia el audio: solo decide qué frases se repiten. Así que basta con comprobar que la configuración
+nueva toma las mismas decisiones que la de siempre (large-v3 con marcas por palabra) sobre frases ya generadas, y que
+caza los fallos que la revisión existe para cazar. El cuaderno `fabrica/comparar_whisper.ipynb` lo hace en una T4:
 
-1. Toma frases reales de episodios ya generados (`tts/frases/*.wav` y su texto del registro), con todas las que
-   quedaron sospechosas.
+1. Toma frases reales de episodios ya generados (`tts/frases/*.wav`, su texto y **la decisión que tomó large-v3 al
+   generarlas**, del registro), con todas las que quedaron sospechosas. Así no hace falta volver a pasar large-v3.
 2. Les añade **averías fabricadas**, que deberían marcarse como malas:
    - «cola»: tras la frase, 1,5 s de otra frase (lo que deja una alucinación al final);
    - «corte»: solo el primer 55 % de la frase (el TTS se calla antes de tiempo).
-3. Las oyen los dos modelos, con la misma regla de la fábrica (`fabrica.revisar` y `voces.json` → verificacion), y
-   compara decisiones, errores, el silencio final y la velocidad.
+3. Cada configuración las oye **en un proceso aparte** (`python comparar_whisper.py oir …`): al acabar, la GPU queda
+   limpia del todo para la siguiente (el 8-nov, cargar turbo detrás de large-v3 en el mismo proceso agotó la memoria).
+4. Aplica la regla de la fábrica (`fabrica.revisar` y `voces.json` → verificacion) y compara.
 
-Veredicto: turbo vale si coincide en al menos el 97 % de las frases reales y no caza menos averías que large-v3.
+Una configuración vale si coincide con la decisión de large-v3 en al menos el 97 % de las frases reales y caza al
+menos el 95 % de las averías.
 """
+import json
+import pickle
 import random
+import sys
+import time
+from pathlib import Path
 
 import numpy as np
 
-import fabrica
+sys.path[:0] = [str(Path(__file__).resolve().parent), str(Path(__file__).resolve().parent.parent / "piloto")]
+import fabrica  # noqa: E402
 
 SR = 16000
+ACUERDO_MIN, CAZA_MIN = 0.97, 0.95
 
 
 def frases_de(carpetas, n, semilla=0):
@@ -31,9 +40,9 @@ def frases_de(carpetas, n, semilla=0):
         for fichero, fila in fabrica.leer_registro(carpeta).items():
             for d in fila.get("frases", []):
                 ruta = fabrica.ruta_frase(tts, fichero, d["k"])
-                if ruta.exists():
+                if ruta.exists() and d.get("ok") is not None:
                     todas.append({"episodio": carpeta.name, "clip": fichero, "k": d["k"] + 1, "texto": d["texto"],
-                                  "ruta": ruta, "ok_registro": d.get("ok"), "tipo": "real"})
+                                  "ruta": str(ruta), "ok_registro": d.get("ok"), "tipo": "real"})
     malas = [f for f in todas if f["ok_registro"] is False]
     resto = [f for f in todas if f["ok_registro"] is not False]
     random.Random(semilla).shuffle(resto)
@@ -64,43 +73,69 @@ def decidir(items, oidos, cfg_ver):
     """La decisión de la fábrica (fabrica.revisar) para cada item, con lo que oyó un modelo."""
     salida = []
     for item, oido in zip(items, oidos):
-        ok, errores, palabras, sobra, hyp = fabrica.revisar(item["texto"], item["audio"], SR, None, cfg_ver, oido)
+        ok, errores, palabras, sobra, hyp = fabrica.revisar(item["texto"], item["audio"], SR, None, cfg_ver,
+                                                            tuple(oido))
         salida.append({"ok": ok, "errores": errores, "sobra": sobra, "hyp": hyp})
     return salida
 
 
-def informe(items, a, b, tiempo_a, tiempo_b, nombre_a, nombre_b):
-    """(texto markdown, turbo_vale) comparando las decisiones `a` (modelo de siempre) y `b` (candidato)."""
+def oir(modelo, marcas, items_pkl, salida_json, lote):
+    """Lo que corre en el proceso aparte: carga una configuración, oye todos los items y guarda lo oído y el tiempo."""
+    import torch
+    import medir
+    from transformers.utils import logging as hf_logging
+    hf_logging.set_verbosity_error()
+    items = pickle.loads(Path(items_pkl).read_bytes())
+    asr = medir.Asr(modelo, marcas)
+    asr.transcribe_lote([items[0]["audio"]], SR)   # calentar: la primera llamada no cuenta
+    torch.cuda.synchronize()
+    torch.cuda.reset_peak_memory_stats()
+    t0 = time.time()
+    oidos = asr.transcribe_lote([i["audio"] for i in items], SR, batch_size=lote)
+    torch.cuda.synchronize()
+    res = {"modelo": modelo, "marcas": marcas, "segundos": time.time() - t0, "oidos": oidos,
+           "pico_gb": torch.cuda.max_memory_allocated() / 2 ** 30, "lote": getattr(asr, "lote_que_cabe", lote)}
+    Path(salida_json).write_text(json.dumps(res, ensure_ascii=False), encoding="utf-8")
+    print(f"{modelo} ({marcas}): {res['segundos']:.0f} s, pico {res['pico_gb']:.1f} GB, lote {res['lote']}")
+
+
+def informe(items, resultados, cfg_ver):
+    """(texto markdown, {nombre: vale}). `resultados` = {nombre: lo que guardó `oir`}; la referencia de las frases
+    reales es la decisión de large-v3 del registro, y la de las averías, que son malas."""
     reales = [n for n, i in enumerate(items) if i["tipo"] == "real"]
     averias = [n for n, i in enumerate(items) if i["tipo"] != "real"]
-    iguales = sum(a[n]["ok"] == b[n]["ok"] for n in reales)
-    acuerdo = iguales / max(1, len(reales))
-    caza_a = sum(a[n]["ok"] is False for n in averias)
-    caza_b = sum(b[n]["ok"] is False for n in averias)
-    dif_sobra = [abs(a[n]["sobra"] - b[n]["sobra"]) for n in reales]
     audio_s = sum(len(i["audio"]) for i in items) / SR
-    vale = acuerdo >= 0.97 and caza_b >= caza_a
-    lineas = [
-        f"# {nombre_b} frente a {nombre_a}", "",
-        f"**Veredicto: {'VALE' if vale else 'NO VALE'}** (pide ≥ 97 % de decisiones iguales en frases reales y cazar "
-        "al menos las mismas averías).", "",
-        "| | " + nombre_a + " | " + nombre_b + " |", "|---|---|---|",
-        f"| Frases reales que da por buenas | {sum(a[n]['ok'] for n in reales)} de {len(reales)} | "
-        f"{sum(b[n]['ok'] for n in reales)} de {len(reales)} |",
-        f"| Averías cazadas | {caza_a} de {len(averias)} | {caza_b} de {len(averias)} |",
-        f"| Tiempo de GPU | {tiempo_a:.0f} s ({tiempo_a / audio_s:.2f} s por s de audio) | "
-        f"{tiempo_b:.0f} s ({tiempo_b / audio_s:.2f} s por s de audio) |", "",
-        f"Decisiones iguales en frases reales: **{iguales} de {len(reales)} ({100 * acuerdo:.1f} %)**. "
-        f"Diferencia media del silencio final: {np.mean(dif_sobra) if dif_sobra else 0:.2f} s. "
-        f"Audio oído: {audio_s / 60:.1f} min por modelo.", "",
-    ]
-    distintas = [n for n in range(len(items)) if a[n]["ok"] != b[n]["ok"]]
-    if distintas:
-        lineas += ["## Donde no coinciden", ""]
-        for n in distintas:
-            i = items[n]
-            lineas += [f"- **{i['tipo']}** · {i['episodio']} · {i['clip']} frase {i['k']}: {nombre_a} "
-                       f"{'bien' if a[n]['ok'] else 'mal'} ({a[n]['errores']} err., {a[n]['sobra']} s), {nombre_b} "
-                       f"{'bien' if b[n]['ok'] else 'mal'} ({b[n]['errores']} err., {b[n]['sobra']} s)",
-                       f"  - Texto: {i['texto']}", f"  - {nombre_a}: {a[n]['hyp']}", f"  - {nombre_b}: {b[n]['hyp']}"]
-    return "\n".join(lineas) + "\n", vale
+    lineas = ["# Whisper para la revisión: configuraciones frente a large-v3 (marcas por palabra)", "",
+              f"{len(reales)} frases reales ({sum(items[n]['ok_registro'] is False for n in reales)} que large-v3 "
+              f"marcó sospechosas al generarlas) y {len(averias)} averías fabricadas; {audio_s / 60:.1f} min de "
+              f"audio. Vale si coincide con large-v3 en ≥ {ACUERDO_MIN:.0%} de las reales y caza ≥ {CAZA_MIN:.0%} de "
+              "las averías.", "",
+              "| Configuración | Decisiones iguales (reales) | Averías cazadas | Tiempo | s por s de audio | "
+              "Pico GPU | Lote | Veredicto |", "|---|---|---|---|---|---|---|---|"]
+    veredictos, detalle = {}, []
+    for nombre, r in resultados.items():
+        dec = decidir(items, r["oidos"], cfg_ver)
+        iguales = sum(dec[n]["ok"] == items[n]["ok_registro"] for n in reales)
+        caza = sum(dec[n]["ok"] is False for n in averias)
+        acuerdo, cazado = iguales / max(1, len(reales)), caza / max(1, len(averias))
+        vale = acuerdo >= ACUERDO_MIN and cazado >= CAZA_MIN
+        veredictos[nombre] = vale
+        lineas.append(f"| {nombre} | {iguales} de {len(reales)} ({100 * acuerdo:.1f} %) | {caza} de {len(averias)} | "
+                      f"{r['segundos']:.0f} s | {r['segundos'] / audio_s:.2f} | {r['pico_gb']:.1f} GB | {r['lote']} | "
+                      f"**{'VALE' if vale else 'NO VALE'}** |")
+        malas = [n for n in reales if dec[n]["ok"] != items[n]["ok_registro"]] + \
+                [n for n in averias if dec[n]["ok"] is not False]
+        if malas:
+            detalle += ["", f"## {nombre}: donde no coincide", ""]
+            for n in malas[:40]:
+                i, d = items[n], dec[n]
+                esperado = ("mal" if i["ok_registro"] is False else "bien") if i["tipo"] == "real" else "mal"
+                detalle += [f"- **{i['tipo']}** · {i['episodio']} · {i['clip']} frase {i['k']}: debía salir "
+                            f"{esperado}, sale {'bien' if d['ok'] else 'mal'} ({d['errores']} err., "
+                            f"{d['sobra']} s tras la última marca)",
+                            f"  - Texto: {i['texto']}", f"  - Oyó: {d['hyp']}"]
+    return "\n".join(lineas + detalle) + "\n", veredictos
+
+
+if __name__ == "__main__" and len(sys.argv) >= 6 and sys.argv[1] == "oir":
+    oir(sys.argv[2], sys.argv[3], sys.argv[4], sys.argv[5], int(sys.argv[6]) if len(sys.argv) > 6 else 8)

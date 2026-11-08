@@ -48,14 +48,21 @@ def audio_16k(ruta):
 
 
 class Asr:
-    def __init__(self, modelo="openai/whisper-large-v3"):
+    def __init__(self, modelo="openai/whisper-large-v3", marcas="palabra"):
         """`modelo`: el de siempre, large-v3, o "openai/whisper-large-v3-turbo" (el mismo codificador con 4 capas de
-        decodificador en vez de 32: mucho más rápido y ~1,5 GB menos)."""
+        decodificador en vez de 32).
+
+        `marcas`: "palabra" (lo de siempre) da dónde acaba la última palabra, pero para calcularlo Whisper guarda la
+        atención de todas sus capas por frase (~3 GB cada una en una T4: por eso revisaba de una en una). "segmento"
+        da dónde acaba el último trozo que transcribe: sin guardar atenciones, con atención rápida (sdpa) y en lotes
+        grandes. Lo único que usa la fábrica es ese final, para ver si sobra algo detrás."""
         import torch
         from transformers import pipeline
-        self.modelo = modelo
+        self.modelo, self.marcas = modelo, marcas
+        extra = {"model_kwargs": {"attn_implementation": "sdpa"}} if marcas == "segmento" else {}
         self.p = pipeline("automatic-speech-recognition", model=modelo,
-                          torch_dtype=torch.float16, device="cuda:0", chunk_length_s=30)
+                          torch_dtype=torch.float16, device="cuda:0", chunk_length_s=30, **extra)
+        self._ts = "word" if marcas == "palabra" else True
 
     def transcribe(self, ruta):
         """Devuelve (texto, inicio, fin): cuándo empieza la primera palabra y acaba la última.
@@ -70,7 +77,7 @@ class Asr:
         a = np.asarray(audio, dtype=np.float32)
         if sr != 16000:
             a = librosa.resample(a, orig_sr=sr, target_sr=16000)
-        salida = self.p({"raw": a, "sampling_rate": 16000}, return_timestamps="word",
+        salida = self.p({"raw": a, "sampling_rate": 16000}, return_timestamps=self._ts,
                         generate_kwargs={"language": "spanish", "task": "transcribe"})
         marcas = [c["timestamp"] for c in salida.get("chunks", []) if c.get("timestamp")]
         inicio = next((t[0] for t in marcas if t[0] is not None), None)
@@ -95,7 +102,7 @@ class Asr:
             try:
                 # Diccionarios nuevos en cada intento: el pipeline les quita "raw" y "sampling_rate" al leerlos
                 entradas = [{"raw": a, "sampling_rate": 16000} for a in audios]
-                salidas = self.p(entradas, batch_size=batch_size, return_timestamps="word",
+                salidas = self.p(entradas, batch_size=batch_size, return_timestamps=self._ts,
                                  generate_kwargs={"language": "spanish", "task": "transcribe"})
                 salidas = list(salidas)
                 break

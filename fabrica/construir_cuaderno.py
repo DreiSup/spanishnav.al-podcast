@@ -168,8 +168,9 @@ else:
     ASR = None
     if VERIFICAR:
         import medir
-        ASR = medir.Asr(CFG["verificacion"].get("modelo_asr", "openai/whisper-large-v3"))
-        print(f"Whisper cargado: {ASR.modelo}")
+        ASR = medir.Asr(CFG["verificacion"].get("modelo_asr", "openai/whisper-large-v3"),
+                        CFG["verificacion"].get("marcas_asr", "palabra"))
+        print(f"Whisper cargado: {ASR.modelo} (marcas por {ASR.marcas})")
 T_CARGA = time.time() - t0
 print(f"Carga: {T_CARGA / 60:.1f} min")
 """),
@@ -205,13 +206,17 @@ comun.desconectar()
 
 CELDAS_WHISPER = [
     md("""
-# ¿Whisper turbo en vez de large-v3?
+# ¿Un Whisper más rápido para la revisión?
 
 La revisión de la fábrica no toca el audio: solo decide qué frases se repiten. Este cuaderno comprueba, con frases ya
-generadas, que **whisper-large-v3-turbo** decide igual que **large-v3** y caza igual de bien las averías que la
-revisión existe para cazar (una cola de más al final, una frase cortada). Lógica en `fabrica/comparar_whisper.py`.
+generadas, que una configuración más rápida de Whisper decide igual que la de siempre (**large-v3 con marcas por
+palabra**, cuya decisión está en el registro de cada episodio) y caza las averías que la revisión existe para cazar
+(una cola de más al final, una frase cortada). Lógica en `fabrica/comparar_whisper.py`.
 
-**GPU: T4.** Unos 15 min (~0,5 unidades). No genera audio ni toca nada de los episodios: deja el resultado en
+Prueba tres configuraciones, cada una en su propio proceso (la GPU queda limpia entre una y otra):
+**turbo con marcas por segmento**, **large-v3 con marcas por segmento** y **turbo con marcas por palabra**.
+
+**GPU: T4.** Unos 15–20 min (~0,6 unidades). No genera audio ni toca los episodios: deja el resultado en
 `naval-podcast/pruebas/whisper_turbo.md` y desconecta. Ejecuta las celdas 1 a 6 seguidas («Ejecutar todo»).
 """),
     code("""
@@ -219,15 +224,20 @@ revisión existe para cazar (una cola de más al final, una frase cortada). Lóg
 !pip install -q jiwer num2words
 """),
     code("""
-# 2. Parámetros: de qué episodios ya generados se toman las frases
+# 2. Parámetros: de qué episodios ya generados se toman las frases, y qué configuraciones se prueban
 EPISODIOS = ["2019/018-skill-business", "2019/027-hourly-rate", "2019/034-reject-advice", "2019/041-envy",
              "2019/051-angel-1", "2020/068-kapil"]
 N_FRASES = 200    # frases reales (todas las sospechosas entran siempre)
 N_AVERIAS = 60    # averías fabricadas: la mitad con cola de más, la mitad cortadas
+CONFIGURACIONES = [   # (nombre, modelo, marcas, frases a la vez)
+    ("turbo · segmento", "openai/whisper-large-v3-turbo", "segmento", 16),
+    ("large-v3 · segmento", "openai/whisper-large-v3", "segmento", 16),
+    ("turbo · palabra", "openai/whisper-large-v3-turbo", "palabra", 2),
+]
 """),
     code(f"""
 # 3. Preparar: código, Drive y las frases con su audio (sin GPU)
-import os, sys, subprocess, json, time
+import os, sys, subprocess, json, time, pickle
 from pathlib import Path
 RAMA = "{RAMA}"
 if os.path.isdir("/content/repo"):
@@ -253,36 +263,35 @@ ITEMS = cw.frases_de(carpetas, N_FRASES)
 for i in ITEMS:
     i["audio"] = medir.audio_16k(i["ruta"])
 ITEMS = cw.con_averias(ITEMS, N_AVERIAS)
+Path("/content/items_whisper.pkl").write_bytes(pickle.dumps(ITEMS))
 reales = sum(i["tipo"] == "real" for i in ITEMS)
 print(f"{{reales}} frases reales ({{sum(i['ok_registro'] is False for i in ITEMS if i['tipo'] == 'real')}} sospechosas) "
       f"y {{len(ITEMS) - reales}} averías; {{sum(len(i['audio']) for i in ITEMS) / 16000 / 60:.1f}} min de audio")
 """),
     code("""
-# 4. Que las oigan los dos modelos, uno detrás de otro (con la misma regla de la fábrica)
-import gc, torch
-from transformers.utils import logging as hf_logging
-hf_logging.set_verbosity_error()
-MODELOS = ["openai/whisper-large-v3", "openai/whisper-large-v3-turbo"]
-RES, TIEMPO = {}, {}
-for modelo in MODELOS:
-    asr = medir.Asr(modelo)
-    asr.transcribe_lote([ITEMS[0]["audio"]], 16000)   # calentar, para no medir la primera llamada
-    torch.cuda.synchronize(); t0 = time.time()
-    oidos = asr.transcribe_lote([i["audio"] for i in ITEMS], 16000, batch_size=8)
-    torch.cuda.synchronize(); TIEMPO[modelo] = time.time() - t0
-    RES[modelo] = cw.decidir(ITEMS, oidos, CFG["verificacion"])
-    print(f"{modelo}: {TIEMPO[modelo]:.0f} s, pico {torch.cuda.max_memory_allocated() / 2**30:.1f} GB")
-    del asr; gc.collect(); torch.cuda.empty_cache(); torch.cuda.reset_peak_memory_stats()
+# 4. Cada configuración las oye en su propio proceso. Si una falla (p. ej. sin memoria), se apunta y se sigue
+RES = {}
+for n, (nombre, modelo, marcas, lote) in enumerate(CONFIGURACIONES):
+    salida = f"/content/whisper_{n}.json"
+    print(f"→ {nombre}…", flush=True)
+    r = subprocess.run([sys.executable, "/content/repo/fabrica/comparar_whisper.py", "oir", modelo, marcas,
+                        "/content/items_whisper.pkl", salida, str(lote)], capture_output=True, text=True)
+    lineas = [l for l in (r.stdout + r.stderr).splitlines() if l.strip() and "Warning" not in l]
+    if r.returncode == 0 and Path(salida).exists():
+        RES[nombre] = json.loads(Path(salida).read_text(encoding="utf-8"))
+        print("  ", lineas[-1] if lineas else "hecho")
+    else:
+        print(f"   FALLÓ ({r.returncode}). Últimas líneas:")
+        print("\\n".join("     " + l for l in lineas[-8:]))
 """),
     code("""
 # 5. Comparar y dejar el resultado en naval-podcast/pruebas/whisper_turbo.md
-a, b = MODELOS
-texto, VALE = cw.informe(ITEMS, RES[a], RES[b], TIEMPO[a], TIEMPO[b], "large-v3", "turbo")
+texto, VEREDICTOS = cw.informe(ITEMS, RES, CFG["verificacion"])
 destino = RAIZ_EPISODIOS.parent / "pruebas" / "whisper_turbo.md"
 destino.parent.mkdir(parents=True, exist_ok=True)
 destino.write_text(texto, encoding="utf-8")
-print(texto)
-print("RESULTADO:", "turbo VALE" if VALE else "turbo NO VALE", "→", destino)
+print(texto.split("\\n## ")[0])
+print("RESULTADO:", " · ".join(f"{k}: {'VALE' if v else 'no vale'}" for k, v in VEREDICTOS.items()), "→", destino)
 """),
     code("""
 # 6. Subir a Drive y desconectar
