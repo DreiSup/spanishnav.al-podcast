@@ -23,8 +23,8 @@
   "publicacion": {
     "fecha": "2026-11-10",
     "audio_url": "https://audio.spanishnav.al/2019/006-renting-time.mp3",
-    "audio_bytes": 0,
-    "duracion_s": 0,
+    "audio_bytes": 5259692,
+    "duracion_s": 329,
     "feed_guid": "spanishnav.al/2019/renting-time"
   },
   "audio_editado_a_mano": false,
