@@ -125,6 +125,39 @@ del OK para `main`. Falta Apple (cuando lo aprueben).
 **Cada episodio nuevo, desde ahora:** master → R2 → episodio en la web y push a `main` (con OK del autor) → Spotify,
 Apple y Substack lo cogen del feed solos. YouTube, a mano: la sesión le da al autor solo título y descripción.
 
+## 9. Automatización de la publicación (7–8-nov) — dónde estamos
+
+Proceso completo y lo validado: **`docs/automatizacion.md`**. Resumen:
+
+- **Cuaderno único** `video/video.ipynb` (abrir siempre con
+  https://colab.research.google.com/github/DreiSup/spanishnav.al-podcast/blob/claude/quirky-dirac-x18c3n/video/video.ipynb ,
+  nunca una copia en Drive). Por episodio: vídeo (`HACER_VIDEO`), master a R2 (`SUBIR_R2`, validado) y subida a
+  YouTube programada para las 12:00 UTC de `publicacion.fecha` (`SUBIR_YOUTUBE`, funcionó con el 003). Rangos:
+  `EPISODIOS = "005-009"`. Salta los no escuchados. Secretos de Colab: `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`,
+  `YT_CLIENT_ID`, `YT_CLIENT_SECRET`; autorización de YouTube en Drive `naval-podcast/_privado/youtube_token.json`.
+- **Google Cloud**: proyecto con YouTube Data API v3; la «app» `spanishnav.al` está **en modo de prueba** (usuario
+  de prueba: la cuenta del canal) → **la autorización caduca a los 7 días** (≈14-nov): decidir si pasarla a
+  producción o reautorizar cada semana.
+- **Web con fechas** (validado en producción con el 003): solo se ven los episodios cuya fecha ha llegado, a las
+  12:00 UTC; ISR cada hora (decisión del autor: cada hora, no cada día). El feed puede tardar hasta 1 h.
+- **Por la sesión**: título y descripción de YouTube con `python3 scripts/descripcion.py <año>/<NNN>-<slug> --guardar`
+  (misma plantilla que el feed; `--comprobar`); fechas en `publicacion.fecha`.
+
+Estado de los episodios:
+
+| Ep | Fecha | Web | YouTube |
+|---|---|---|---|
+| 001–002 | 4 y 6-nov | publicados | a mano |
+| 003 | 7-nov | publicado solo (página 12:21, feed ~12:46 UTC) | API: Xfr5NXVCqP8, público a su hora |
+| 004 | 8-nov | cargado en la web | subido por la API, no sale en público: **confirmar el 8-nov** que se publicó a las 12:00 |
+| 005–008 | 9–12-nov | **falta añadirlos a la web** (bytes y duración del bloque «Datos para la web» del cuaderno) y push a `main` con OK, **antes del 9-nov 12:00 UTC** | el autor los está subiendo con el cuaderno |
+| 009 | — | escucha en «revisar»: no se programa | — |
+
+Pendiente después: generar `lib/episodes.ts` desde el repo del podcast (bloque `publicacion`); la sesión programada
+diaria (comprueba el episodio del día, apunta el enlace de YouTube, marca `publicado`, avisa si algo falla o quedan
+menos de 7 programados) y su prompt de contexto desde `docs/automatizacion.md`; los 28 vídeos antiguos del canal,
+ocultados por el autor (`youtube-canal.json`).
+
 **Entorno de las sesiones (7-nov):** «spanishnav.al» (personal), con `spanishnav.al`, `www.spanishnav.al` y
 `audio.spanishnav.al` y `www.youtube.com` permitidos además de `nav.al`: la sesión ya puede comprobar web, feed y audios de R2 (antes daban
 403 en el proxy) y leer el canal de YouTube (`www.youtube.com/@spanishNavalR/videos`, datos en `ytInitialData`). Substack y las páginas de ayuda de Apple siguen fuera.
