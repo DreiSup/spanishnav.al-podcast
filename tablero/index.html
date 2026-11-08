@@ -164,7 +164,7 @@
       if (!r.ok) throw new Error('GitHub respondió ' + r.status);
       estado.datos = await r.json();
       pintar();
-      if (primera && location.hash === '#kanban') $('vista-episodios').scrollIntoView({ block: 'start' });
+      if (primera && estado.vista === 'kanban') $('vista-episodios').scrollIntoView({ block: 'start' });
       primera = false;
     } catch (e) {
       $('generado').textContent = 'No se pudieron cargar los datos (' + e.message + '). Prueba a recargar.';
@@ -194,7 +194,7 @@
       b.append(el('span', null, r.nombre), el('span', 'n', r.episodios + ' · ' + num(r.horas) + ' h'), track);
       b.addEventListener('click', () => {
         estado.etapa = estado.etapa === r.etapa ? null : r.etapa; pintar();
-        if (estado.vista === 'kanban' && estado.etapa) document.getElementById('col-' + r.etapa)?.scrollIntoView({ behavior: SUAVE, block: 'nearest', inline: 'start' });
+        if (estado.vista === 'kanban' && estado.etapa) { $('vista-episodios').scrollIntoView({ behavior: SUAVE, block: 'start' }); irAColumna(r.etapa); }
       });
       return b;
     }));
@@ -207,6 +207,11 @@
     return !q || String(e.numero ?? '').padStart(3, '0').includes(q) || e.titulo.toLowerCase().includes(q) || e.slug.includes(q);
   };
 
+  // Mueve el Kanban de lado hasta la columna, sin tocar el scroll vertical de la página.
+  const irAColumna = (etapa) => {
+    const k = $('kanban'), col = document.getElementById('col-' + etapa);
+    if (col) k.scrollTo({ left: col.offsetLeft - k.offsetLeft - 4, behavior: SUAVE });
+  };
   const plural = (n) => n + (n === 1 ? ' episodio' : ' episodios');
 
   // Muestra una vista y oculta la otra; no necesita los datos, así el botón es correcto desde el principio.
@@ -278,7 +283,7 @@
     history.replaceState(null, '', estado.vista === 'kanban' ? '#kanban' : location.pathname);
     if (estado.datos) lista(); else aplicarVista();
     $('vista-episodios').scrollIntoView({ behavior: SUAVE, block: 'start' });
-    if (estado.vista === 'kanban' && estado.etapa) document.getElementById('col-' + estado.etapa)?.scrollIntoView({ behavior: SUAVE, block: 'nearest', inline: 'start' });
+    if (estado.vista === 'kanban' && estado.etapa) irAColumna(estado.etapa);
   }));
   $('buscar').addEventListener('input', (ev) => { estado.texto = ev.target.value; if (estado.datos) lista(); });
   $('limpiar').addEventListener('click', () => { estado.etapa = null; pintar(); });
