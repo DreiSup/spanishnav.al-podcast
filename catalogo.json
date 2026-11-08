@@ -168,7 +168,7 @@
     {"orden": 163, "titulo": "Sell the Truth", "fecha": "2026-05-11", "url": "https://nav.al/sell", "tiene_transcript": true},
     {"orden": 164, "titulo": "Waste Tokens, Save Time", "fecha": "2026-05-27", "url": "https://nav.al/tokens", "tiene_transcript": true},
     {"orden": 165, "titulo": "Vibe Coding Hardware", "fecha": "2026-05-28", "url": "https://nav.al/hardware", "tiene_transcript": true},
-    {"orden": 166, "titulo": "The Regulatory Frontier", "fecha": "2026-05-29", "url": "https://nav.al/regulatory", "tiene_transcript": null},
+    {"orden": 166, "titulo": "The Regulatory Frontier", "fecha": "2026-05-29", "url": "https://nav.al/regulatory", "tiene_transcript": true},
     {"orden": 167, "titulo": "The AI Industrial Revolution", "fecha": "2026-06-01", "url": "https://nav.al/industrial", "tiene_transcript": true},
     {"orden": 168, "titulo": "Live in the Future", "fecha": "2026-07-02", "url": "https://nav.al/future", "tiene_transcript": null}
   ]

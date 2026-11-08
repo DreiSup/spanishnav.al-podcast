@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": null,
+  "anio": 2026,
+  "slug": "regulatory",
+  "titulo": "The Regulatory Frontier",
+  "subtitulo": "Battling red tape at scale",
+  "fecha_publicacion": "2026-05-29",
+  "fuente_url": "https://nav.al/regulatory",
+  "orden_archivo": 166,
+  "en_feed": false,
+  "participantes": [
+    "Blake Scholl",
+    "Guillermo Rauch",
+    "Max Hodak",
+    "Naval"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-08"
+}

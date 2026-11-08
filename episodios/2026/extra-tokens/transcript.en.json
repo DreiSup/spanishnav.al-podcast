@@ -1,0 +1,357 @@
+{
+  "schema": 1,
+  "idioma": "en",
+  "episodio": "2026/extra-tokens",
+  "numero": null,
+  "fecha": "2026-05-27",
+  "titulo": "Waste Tokens, Save Time",
+  "subtitulo": "Software factories and tokenmaxxing with three frontier founders",
+  "fuente_url": "https://nav.al/tokens",
+  "titulos_seccion": [
+    "AI Software Factories",
+    "Waste Tokens, Save Time",
+    "Models Instructing Humans",
+    "Is Pure Software Dead?",
+    "You Don’t Get Stuck Anymore"
+  ],
+  "contenido": [
+    {
+      "id": "b01-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Welcome.",
+        "You’re listening to the Naval Podcast, your authoritative source for new knowledge.",
+        "We’re trying something new today.",
+        "I have three frontier founders with us—three good-looking guys, actually, and a fourth good-looking guy, Naval.",
+        "Let me just introduce everybody.",
+        "Guillermo “the G” Rauch.",
+        "He’s building Vercel into an AI cloud for the world of agents and whatever comes after that.",
+        "Blake Scholl.",
+        "He’s building Boom Supersonic—supersonic aircraft, in his own factory, and jet engines as well.",
+        "And Max Hodak from Science.",
+        "He’s building a biohybrid brain interface that grows living neurons on silicon to restore sensory functions like sight—but eventually to explore new parts of the brain and new senses.",
+        "All three of these guys are not composing their products with off-the-shelf parts.",
+        "They’re building their own factories.",
+        "And we don’t care as much about what they’re building exactly as we do about what they’re learning about how they’re building.",
+        "What’s the new knowledge they’re generating?",
+        "What’s their alpha?",
+        "What principles are they discovering that other founders can learn from?",
+        "What are they trying to figure out right now?",
+        "Naval, any reactions before I jump in to Guillermo?"
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Yeah, let’s just have fun."
+      ]
+    },
+    {
+      "id": "b03-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "You guys should just jump in."
+      ]
+    },
+    {
+      "id": "b04-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "I can’t remember my exact quote, but I’ve been really pilled with this idea of software factories.",
+        "The job of the engineer being something where you just show up to work, you ship the output directly, and everything inside the company was—”how good is person A at shipping output B?",
+        "And now what’s happening is, the way I’m judging you as an engineer is, “are you producing the factory that will produce multiplicative outputs B through Z?",
+        "That’s a pretty significant change.",
+        "We used to believe—and it used to be somewhat controversial—that there are 10x engineers.",
+        "Now clearly there’s 100x or 1,000x engineers, and the world hasn’t fully adjusted to this."
+      ]
+    },
+    {
+      "id": "b05-naval",
+      "speaker": "Naval",
+      "frases": [
+        "I used to get flamed on Twitter for saying there are 10x engineers, because it flies in the face of so much equality philosophy that everyone’s equal.",
+        "But the reality is, when you’re operating in idea domains, in intellectual and virtual digital domains, it’s not even 10x—it’s 100x or 1,000x, and it always has been.",
+        "Satoshi.",
+        "Notch.",
+        "The guy who invented JavaScript, the Brendan Eichs of the world.",
+        "John Carmack.",
+        "These are 1,000x programmers.",
+        "Not to even mention—if you choose the right thing to work on versus the wrong thing to work on, that’s an infinity difference.",
+        "And it could just be not necessarily a better programmer, just one who had better judgment on what to work on in the first place.",
+        "And now obviously it’s less controversial because of AI leverage."
+      ]
+    },
+    {
+      "id": "b06-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "What’s controversial is the token leaderboards.",
+        "People are still getting a little confused—”Well, I have a bunch of 100x engineers.",
+        "Look at all these tokens that I’m paying for.",
+        "I’m curious if you guys have seen the same—how do you measure ROI?"
+      ]
+    },
+    {
+      "id": "b07-blake-scholl",
+      "speaker": "Blake Scholl",
+      "frases": [
+        "It’s like the old measuring of lines of code.",
+        "Token consumption and lines of code feel like similarly not direct paradigms."
+      ]
+    },
+    {
+      "id": "b08-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "My observation has been that Claude or ChatGPT is basically as good as you are in a domain.",
+        "If you’re a really capable developer, these things are really powerful.",
+        "If you’re a junior developer, you’ll find it to be more of a junior developer.",
+        "The feedback you give them sporadically seems to be incredibly important—these little updates seem to totally determine the types of performance you get out of them."
+      ]
+    },
+    {
+      "id": "b09-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "There’s a new kind of support I give now—you come to me, you didn’t get good output out of the model, and I tell you what to prompt the model with.",
+        "The quality of the reprompting is extremely important."
+      ]
+    },
+    {
+      "id": "b10-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "To be clear, I think this will become less important over time.",
+        "As the models get much smarter, you’ll be able to put in less and get more out.",
+        "But at this stage, it really seems to reflect back the judgment that the user brings in."
+      ]
+    },
+    {
+      "id": "b11-naval",
+      "speaker": "Naval",
+      "frases": [
+        "I’ve kind of resisted learning all the tricks and tips.",
+        "“Use Ralph Wiggum.",
+        "Use OpenClaw.",
+        "Use Hermes.",
+        "Use this prompt engine.",
+        "Use this scaffolding.",
+        "Plug in this piece.",
+        "Always use plan mode.",
+        "I just ignored all of that.",
+        "I assumed the model is going to get better faster than I would figure out how to use it.",
+        "It would figure out how to use me faster than I would figure out how to use it.",
+        "So I’ve just been completely ham-fisted with them.",
+        "I get frustrated at them and have found myself typing less and less information, doing less and less work as time goes on, because I just assume I can brute-force my way through it.",
+        "I’ll throw Codex, Claude, and Gemini at the same problem over and over and just waste tokens to save time.",
+        "No matter how expensive these models might seem, they’re still way cheaper than a human.",
+        "So I would say—just waste tokens, save time.",
+        "Don’t look at the tokens either as inputs or outputs.",
+        "Just look at your time, and look at the final output.",
+        "Even if they’re writing low-quality code—which I know in many cases they are—when the time comes and I want to ship to production, I’ll just throw more tokens at it.",
+        "“Go through, look at it, rewrite it.",
+        "They’re just going to get better every generation.",
+        "I don’t see where this necessarily stops.",
+        "As long as we have verifiable domains and solved problems, they’re going to resolve those problems.",
+        "Now in the unsolved problems domain—maybe you’re Terence Tao, at the cutting edge of creativity—you need to be working very collaboratively and carefully and closely with the model.",
+        "But I’m not at that level in software engineering."
+      ]
+    },
+    {
+      "id": "b12-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Guillermo, you’re probably the most extreme software engineer on the team.",
+        "How are you finding these models at the edge of their capability?"
+      ]
+    },
+    {
+      "id": "b13-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "There’s one thing that’s happened recently that resonates strongly with what you’re saying.",
+        "It used to be that you’d give a prompt to the model and it kind of does a classic next-token prediction thing and runs away with your idea.",
+        "Models now have been doing this intuitive planning mode—without you even having to ask them to plan—where it comes back to you and says, “Look, what you’re asking me for, there are these three routes we can take.",
+        "Here’s the set of trade-offs.",
+        "That’s the moment where people on X do the whole thing—”Now we have a PhD-level engineer model.",
+        "The models at some point graduated.",
+        "They used to be junior engineers.",
+        "Now they’re principal engineers, because they come back to you with a set of trade-offs.",
+        "And obviously, sometimes they bullshit, which is hilarious—it tells you “this is going to take three weeks” and “this many tokens.",
+        "It makes really bad predictions.",
+        "But I respect the models a lot more as a peer that I’m going back and forth intellectually with.",
+        "There are still a lot of gaps.",
+        "If you’re a really proficient engineer or architect, you’re still extracting more juice.",
+        "So the question Max was positing—”if you’re junior, do you get junior back?",
+        "Clearly not, because a junior gets more advanced knowledge in code than they would have been able to write by themselves.",
+        "But doesn’t an experienced architect get 10x where a junior engineer gets 2x?",
+        "That’s what I’m trying to figure out."
+      ]
+    },
+    {
+      "id": "b14-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "There are architectural decisions.",
+        "I’m seeing this now with some of our junior software engineers on the team—what’s the next step in their career progression?",
+        "It’s going from writing implementation for a feature to picking technologies.",
+        "Choosing between Postgres versus some other database.",
+        "Picking between ZeroMQ versus some other queuing system.",
+        "The models can suggest them, but that’s the thing—you’ll see it and you’ll go, “No, no, I want to use this other thing.",
+        "That’s the type of little feedback that really matters and the types of output you seem to get at this point."
+      ]
+    },
+    {
+      "id": "b15-naval",
+      "speaker": "Naval",
+      "frases": [
+        "It’s taste and judgment, right?",
+        "That said—you can ask the models “which one should I use and why,” and they know everything.",
+        "They’ll give you a really good trade-offs matrix."
+      ]
+    },
+    {
+      "id": "b16-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "That’s the change that’s happened recently.",
+        "You’d say, “Hey, go put this super-high-cardinality telemetry data into Postgres.",
+        "And it goes, “No, no, bro.",
+        "We don’t put that kind of data into Postgres.",
+        "You should consider ClickHouse or Athena or whatever.",
+        "That’s happened to me a lot.",
+        "Really impressive.",
+        "The thing I’m still struggling with is—clearly the human is still completing the model.",
+        "At what point is it the other way around?",
+        "The human is the one starting to get the instructions back: “Go get me this API key, because it’s something only you can do.",
+        "Or “Get me this amount of capital for my next set of investments.",
+        "You just watch.",
+        "Clearly we’re still not there yet."
+      ]
+    },
+    {
+      "id": "b17-naval",
+      "speaker": "Naval",
+      "frases": [
+        "That’s a temporary aberration.",
+        "Pretty soon every good SaaS company or hosting provider will have a CLI and API interface the models can use directly.",
+        "They don’t even necessarily need an API.",
+        "As long as it’s text-based, Unix-based—the agent can hack its own API.",
+        "And the money part—you insert crypto tokens, put in Bitcoin, put in whatever, and the model goes and pays for whatever it needs.",
+        "People are working on this."
+      ]
+    },
+    {
+      "id": "b18-naval",
+      "speaker": "Naval",
+      "frases": [
+        "The thing I’m now thinking through is—is pure software dead?",
+        "Is pure software engineering an obsolete thing?",
+        "It’s like saying speaking English.",
+        "The models now speak English.",
+        "We had to learn code to communicate with them.",
+        "Now the models speak English—fuzzy, sloppy English, like a human—and they understand things.",
+        "So where’s the moat for a founder?",
+        "Hardware?",
+        "It’s a boon.",
+        "You had to build hardware, and it was hard to build a software company alongside.",
+        "Patrick Collison says, “Software is art, and it’s hard to hire artists.",
+        "Now, as a hardware founder—great, you can have really good software developed fairly quickly.",
+        "If you’re creating models, maybe that’s the new software engineering—training, tweaking, post-training, fine-tuning.",
+        "But classic software engineering—is that dead?",
+        "Is pure software investable?",
+        "Is pure software something you can organize a company and a team around, and try to get some leverage?"
+      ]
+    },
+    {
+      "id": "b19-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "Did you guys see—there was an article on X by Mitchell Hashimoto called “The Building Block Economy”?",
+        "His argument is that the most useful thing for agents to have now is really powerful reusable building blocks.",
+        "To Max’s example, you wouldn’t expect your clanker to reinvent a queue infrastructure system every time it needs to send an email.",
+        "It needs to bring in the right building block, right-sized for the task—”Okay, for this one it’s BullMQ.",
+        "I challenge the notion that I’d want the agent to reinvent the entire universe from first principles in a way that’s incompatible with the rest of society and civilization.",
+        "It’s almost like reinventing highways, laws, policies—just for you.",
+        "Even if there’s potential for extra optimization, there’s still cooperation-at-large-scale value of saying “we’re both depending on Postgres 13.2.",
+        "The category of infrastructure software and building blocks these agents are going to use is—obviously in bias, this is what we’re building—extremely valuable.",
+        "I don’t see the agent reinventing all of that any time soon.",
+        "Another metaphor I’ve been using: anything that’s already been created that the models can reuse is like a token cache.",
+        "You don’t want to churn through a trillion tokens to reproduce what’s already existing.",
+        "There’s always a starting point the model can fork off from.",
+        "It’s going to change things quite profoundly."
+      ]
+    },
+    {
+      "id": "b20-naval",
+      "speaker": "Naval",
+      "frases": [
+        "So these are like libraries and dependencies, but for models."
+      ]
+    },
+    {
+      "id": "b21-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "Yes—for agents specifically."
+      ]
+    },
+    {
+      "id": "b22-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "To Naval’s question, though—I learned to program when I was really little.",
+        "Through all of being a teenager and in my twenties, I’d get sucked into it and code for like twenty hours.",
+        "It was super fun.",
+        "I knew all this stuff about different programming languages.",
+        "I haven’t written a single line of code in quite a while now.",
+        "Partly that’s because my job is different.",
+        "But also—since December, I’ve built a huge amount of software that I now use every day.",
+        "All these projects I’d kind of fantasized about for years that I’m now using—that I’ve actually built.",
+        "I didn’t write any of that.",
+        "And I just can’t imagine going back to actually writing code by hand.",
+        "I have a hard time seeing that as part of the future."
+      ]
+    },
+    {
+      "id": "b23-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "What’s really cool is that you understand how the pieces click together.",
+        "Anyone who understands what an API is, how data flows, inputs and outputs, performance—because you have to orient the model around “this is the level of expectation I have out of this operation.",
+        "That has always been infinitely more useful than writing code.",
+        "A really proficient engineering leader has been quote-unquote vibe coding through people on Slack or one-on-ones—you’re transmitting your will, your intent, your experience, and letting others run with it.",
+        "Now we do the same, but with agents.",
+        "That’s why you’ve been successful with it.",
+        "I don’t know that everyone sees the same level of success."
+      ]
+    },
+    {
+      "id": "b24-naval",
+      "speaker": "Naval",
+      "frases": [
+        "I went from not having written code in twenty years to coding all the time now—through agents.",
+        "Building tons of software.",
+        "It turns out that just understanding the basic principles of software engineering and algorithms gets you a long way.",
+        "The reason I stopped coding was that I didn’t have time to figure out the latest language, the latest architecture, the infrastructure pieces to plug into.",
+        "And Vercel makes it a lot easier, but even then—just getting started was a bear.",
+        "Plugging pieces together, assembling infrastructure was just so annoying."
+      ]
+    },
+    {
+      "id": "b25-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "The thing that really changed is—it used to be you could build a lot, a lot would go straightforward, but then you’d hit some random thing and you could spend an indefinite period of time debugging some narrow thing.",
+        "Now, with agents, you just don’t get stuck anymore.",
+        "Which is pretty amazing.",
+        "Relatively quickly they can find the right way to do things.",
+        "It used to be that—I remember when other friends would try to learn to program, it was like—”Nope, it’s intrinsically frustrating.",
+        "That’s part of the deal.",
+        "That’s how you learn.",
+        "And that just isn’t true anymore."
+      ]
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**158** episodios · **3** publicados · **10** escuchados por el autor (**1** para revisar) · **0** sin empezar
+**162** episodios · **3** publicados · **10** escuchados por el autor (**1** para revisar) · **0** sin empezar
 
 ## 2026
 
@@ -12,6 +12,10 @@
 | 157 | [157-code](episodios/2026/157-code) | La vuelta al código | 🟠 en revisión | — | — | — |
 | 158 | [158-over](episodios/2026/158-over) | Se acabó lo de que nunca pasa nada | 🟠 en revisión | — | — | — |
 | 159 | [159-sell](episodios/2026/159-sell) | Vende la verdad | 🟠 en revisión | — | — | — |
+| 160 | [160-industrial](episodios/2026/160-industrial) | La revolución industrial de la IA | 🟠 en revisión | — | — | — |
+| — | [extra-hardware](episodios/2026/extra-hardware) | Vibe coding para hardware | 🟠 en revisión | — | — | — |
+| — | [extra-regulatory](episodios/2026/extra-regulatory) | La frontera regulatoria | 🟠 en revisión | — | — | — |
+| — | [extra-tokens](episodios/2026/extra-tokens) | Derrocha tokens, ahorra tiempo | 🟠 en revisión | — | — | — |
 
 ## 2025
 

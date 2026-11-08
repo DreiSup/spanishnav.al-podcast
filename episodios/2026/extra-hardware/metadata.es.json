@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": null,
+  "anio": 2026,
+  "slug": "hardware",
+  "titulo_es": "Vibe coding para hardware",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Vibe coding para hardware",
+    "descripcion": "",
+    "tags": [],
+    "url": "",
+    "url_original": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "publicacion": {
+    "fecha": "",
+    "audio_url": "",
+    "audio_bytes": 0,
+    "duracion_s": 0,
+    "feed_guid": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "escucha": {
+    "escuchado": false,
+    "resultado": null,
+    "fecha": null,
+    "feedback": ""
+  },
+  "notas": "Extra sin número (orden 165 del archivo de nav.al), parte 2 de The AI Industrial Revolution (160). Inglés sacado del Google Doc «2026 all podcasts» de Drive; cuadra palabra a palabra con el documento (del «Get podcast» a «Related», sin enlaces). El español es la copia exacta de los bloques b26–b40 del 160-industrial (mismos hablantes y mismas frases), por la regla de docs/cortos-y-largos.md: el audio se monta con los clips del largo. Solo cambian el título y el subtítulo. Las decisiones de traducción, las glosas y los nombres que hay que escuchar en el TTS están en las notas del 160-industrial y en el GLOSARIO (160, decisiones del autor del 8-nov). Fuera del inglés: la nota web See Part I here. Diferencia del inglés con el largo: en b35 el extra trae un falso arranque de Rauch (they're the best models. The best industrial production models) que el largo limpia; el español sigue al largo, sin él (decisión del autor, 8-nov). La glosa de vibe coding va en b27 y la de tokens en b39."
+}

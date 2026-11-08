@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 160,
+  "anio": 2026,
+  "slug": "industrial",
+  "titulo_es": "La revolución industrial de la IA",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "La revolución industrial de la IA",
+    "descripcion": "",
+    "tags": [],
+    "url": "",
+    "url_original": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "publicacion": {
+    "fecha": "",
+    "audio_url": "",
+    "audio_bytes": 0,
+    "duracion_s": 0,
+    "feed_guid": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "escucha": {
+    "escuchado": false,
+    "resultado": null,
+    "fecha": null,
+    "feedback": ""
+  },
+  "notas": "Inglés sacado del Google Doc «2026 all podcasts» de Drive; cuadra palabra a palabra con el documento (del «Get podcast» a «Related», sin enlaces). Fuera del inglés: la nota web «Full episode with 20 minutes of new material at the end…» y una línea de guiones antes de la parte 3. Sin notas del editor ni citas destacadas. Etiquetas de hablante unificadas al nombre completo (el Doc mezcla Guillermo y Guillermo Rauch, Max y Max Hodak, Blake y Blake Scholl). Contiene las tres partes publicadas sueltas como extras sin número, cada una copia exacta de su tramo de bloques: Derrocha tokens, ahorra tiempo (b01–b25), Vibe coding para hardware (b26–b40) y La frontera regulatoria (b41–b69); la parte 4, La empresa autónoma (b70–b107), solo existe en el largo, sin extra propio (decisión del autor, 8-nov). Decisiones del autor del 8-nov aplicadas (GLOSARIO, 160): agency = agencia solo en este episodio, para conservar el juego con los agentes (b69, b80, b81, b82, b107); agentic de b31 = que lo maneje del todo un agente; frontier mixto (fundadores que trabajan en la frontera, modelos e inteligencia de frontera, empujar la frontera); you guys en impersonal o con alguien (b03, b06, b19, b33, b34, b66, b93, b98, b70); la FDA glosada en b50, CFDA = la agencia del medicamento china, NRC = la Comisión Reguladora Nuclear; dispositivo médico, uso compasivo para un solo paciente, medicina N de uno glosada en b68, franquicia; álabe, motor a reacción, siete tres siete MAX; interfaz cerebro máquina, fundición de MEMS glosada en b37, placas de circuito impreso, archivos STEP; ingeniería de fiabilidad, equipos rojos, RAG descrito en la frase (b41), habilidades (b78), le salta la alarma de guardia (b39); jerga de Rauch en coloquial neutro (estoy obsesionado, tu cacharro, es una pasada, están acabadas, no, no, amigo, de pacotilla); el Gi Rauch (b01); NIMBY y YIMBY en inglés (b56); la palabra maldita, capitalismo (b55); OpenAI, pese a su nombre, no es abierta (b31); la carrera de la Reina Roja (b47); una bicicleta para la mente, pero con motor (b107); marcar las líneas rojas (b39); monorepo (b71); normies (b87). Glosas dentro de cada tramo para que las lleven los extras: tokens en b06, b39 y b43; vibe coding en b23 y b27. Otras decisiones: la máxima de b11 sale como Derrocha tokens, ahorra tiempo; letras A, B y Z de b04 resueltas en la frase; eje zeta (b94); jugadas como la treinta y siete de AlphaGo (b95); Postgres trece punto dos (b19); el Homer Simpson car = el coche que diseñó Homer Simpson (b74); caveat emptor = bajo tu propia responsabilidad y laissez faire = más liberales (b55); third rail = el tema más intocable de la sanidad (b65); inside baseball = esto ya es para iniciados (b59); agencies = organismos (b47, b52), para no chocar con agencia; deductible = franquicia sanitaria (b65); citas y diálogos en estilo indirecto, sin comillas; quote-unquote = entre comillas, dicho una vez (b23). Anomalías del inglés que se dejan como en el Doc: b94 y b95 son dos bloques seguidos de Max (etiqueta repetida); b99 y b100 son dos bloques seguidos de Naval, y el párrafo de Studio Ghibli de b99 va sin etiqueta y por la respuesta parece de otro hablante; b49, Max se queda a medias porque le corta Naval (traducido como pero aun así). Lapsus y errores de hecho que no se corrigen: Rauch, obviously in bias por I'm biased (b19, traducido como no soy imparcial); Max llama CFDA a la agencia china, hoy NMPA (b62); Max, cero centrales autorizadas desde los setenta hasta hace un año (b52); Naval, la demanda a SpaceX (b50); Guillermo atribuye a Max la frase del próximo Señor de los Anillos (b89); Max no dice de qué modelo es el ajuste fino del tres punto dos (b37). Escuchar en el TTS antes de sintetizar (prueba conjunta de nombres): la IA, agencia, el Gi Rauch, Vercel, Boom Supersonic, Science, Nivi, Satoshi, Notch, JavaScript, Brendan Eich, John Carmack, Claude, ChatGPT, Codex, Gemini, Grok, OpenAI, Anthropic, DeepSeek, Qwen, Ralph Wiggum, OpenClaw, Hermes, Terence Tao, X, Twitter, Postgres, ZeroMQ, ClickHouse, Athena, BullMQ, API, Unix, Patrick Collison, Mitchell Hashimoto, Slack, Excel, VBScript, Python, STEP, MEMS, ISO, AI Gateway, Silicon Valley, Amazon, Boeing, siete tres siete MAX, FDA, Peter Thiel, SpaceX, Próspera, The Economist, NIMBY, YIMBY, Qualcomm, Samsung, Apple, GitLab, LASIK, deepsec, Mythos, monorepo, TestFlight, Homer Simpson, Andrej Karpathy, The Expanse, Harry Potter, TikTok, YouTube, AlphaGo, ControlNet, Studio Ghibli, OpenAI, Kurt Gödel, transformer, normies, vibe coding, tokens, prompt, feedback, debug, bug, pull request."
+}

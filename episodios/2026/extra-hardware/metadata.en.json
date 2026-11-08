@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": null,
+  "anio": 2026,
+  "slug": "hardware",
+  "titulo": "Vibe Coding Hardware",
+  "subtitulo": "The new vertical integration",
+  "fecha_publicacion": "2026-05-28",
+  "fuente_url": "https://nav.al/hardware",
+  "orden_archivo": 165,
+  "en_feed": false,
+  "participantes": [
+    "Blake Scholl",
+    "Guillermo Rauch",
+    "Max Hodak",
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-08"
+}

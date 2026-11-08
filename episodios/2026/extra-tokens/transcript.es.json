@@ -1,0 +1,296 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2026/extra-tokens",
+  "numero": null,
+  "fecha": "2026-05-27",
+  "titulo": "Derrocha tokens, ahorra tiempo",
+  "subtitulo": "Fábricas de software y tokenmaxxing con tres fundadores que trabajan en la frontera",
+  "fuente_url": "https://nav.al/tokens",
+  "titulos_seccion": [
+    "Fábricas de software con IA",
+    "Derrocha tokens, ahorra tiempo",
+    "Modelos que dan instrucciones a los humanos",
+    "¿Ha muerto el software puro?",
+    "Ya no te atascas"
+  ],
+  "contenido": [
+    {
+      "id": "b01-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Te damos la bienvenida. Estás escuchando el podcast de Naval, tu fuente de referencia para el conocimiento nuevo.",
+        "Hoy vamos a probar algo nuevo, porque tengo conmigo a tres fundadores que trabajan en la frontera.",
+        "Son tres chicos muy guapos, la verdad, y un cuarto chico guapo, que es Naval.",
+        "Deja que los presente a todos. Primero, el Gi Rauch, que está convirtiendo Vercel en una nube de inteligencia artificial para el mundo de los agentes y de lo que venga después.",
+        "Blake Scholl, que está construyendo Boom Supersonic, aviones supersónicos, en su propia fábrica, y también motores a reacción.",
+        "Y Max Hodak, de su empresa, Science, que está construyendo una interfaz cerebral biohíbrida que cultiva neuronas vivas sobre silicio para devolver funciones sensoriales como la vista.",
+        "Pero con el tiempo, la idea es explorar también nuevas partes del cerebro y nuevos sentidos.",
+        "Ninguno de los tres monta sus productos con piezas de catálogo, sino que están construyendo sus propias fábricas.",
+        "Y no nos interesa tanto qué construyen exactamente como lo que están aprendiendo sobre cómo lo construyen.",
+        "¿Qué conocimiento nuevo están generando? ¿Cuál es su ventaja?",
+        "¿Qué principios están descubriendo de los que puedan aprender otros fundadores? ¿Qué intentan averiguar ahora mismo?",
+        "Naval, ¿alguna reacción antes de lanzarme con Guillermo?"
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Sí, simplemente vamos a pasarlo bien."
+      ]
+    },
+    {
+      "id": "b03-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Que cada uno entre cuando quiera."
+      ]
+    },
+    {
+      "id": "b04-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "No me acuerdo de la frase exacta, pero estoy obsesionado con esta idea de las fábricas de software.",
+        "Antes, el trabajo del ingeniero consistía en presentarte a trabajar y sacar el resultado directamente, y todo dentro de la empresa giraba en torno a lo bien que una persona sacaba un resultado concreto.",
+        "Y lo que está pasando ahora es que, para juzgarte como ingeniero, me pregunto si estás produciendo la fábrica que va a producir toda una serie de resultados multiplicados.",
+        "Es un cambio bastante importante, porque antes creíamos, y era algo bastante polémico, que existían ingenieros que rendían por diez.",
+        "Ahora está claro que hay ingenieros que rinden por cien o por mil, y el mundo todavía no se ha adaptado del todo a eso."
+      ]
+    },
+    {
+      "id": "b05-naval",
+      "speaker": "Naval",
+      "frases": [
+        "A mí me ponían a caldo en Twitter por decir que había ingenieros que rendían por diez, porque eso choca de frente con toda esa filosofía igualitaria de que todos somos iguales.",
+        "Pero la realidad es que, cuando trabajas en el terreno de las ideas, en terrenos intelectuales y digitales, ni siquiera es por diez, es por cien o por mil, y siempre ha sido así.",
+        "Satoshi, Notch, el que inventó JavaScript, los Brendan Eich del mundo, John Carmack. Son programadores que rinden por mil.",
+        "Y eso sin mencionar que, si eliges bien en qué trabajar, frente a elegir mal, la diferencia es infinita.",
+        "Y puede que ni siquiera sea un programador mejor, sino uno que tuvo mejor criterio para elegir en qué trabajar desde el principio.",
+        "Y ahora, claro, es menos polémico gracias al apalancamiento de la inteligencia artificial."
+      ]
+    },
+    {
+      "id": "b06-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "Lo polémico son las clasificaciones de tokens, que son los trozos de texto con los que trabajan los modelos.",
+        "La gente todavía se lía y dice que tiene un montón de ingenieros que rinden por cien, porque mira cuántos tokens está pagando.",
+        "Me pregunto si alguien ha visto lo mismo. ¿Cómo se mide el retorno de la inversión?"
+      ]
+    },
+    {
+      "id": "b07-blake-scholl",
+      "speaker": "Blake Scholl",
+      "frases": [
+        "Es como cuando antes se medían las líneas de código. El consumo de tokens y las líneas de código me parecen medidas igual de indirectas."
+      ]
+    },
+    {
+      "id": "b08-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "Lo que he observado es que Claude o ChatGPT son, básicamente, tan buenos como tú en un campo.",
+        "Si eres un programador muy capaz, estas herramientas son muy potentes, y si eres un programador júnior, te parecerán más bien un programador júnior.",
+        "El feedback que les das de vez en cuando parece importantísimo, porque esos pequeños ajustes parecen determinar por completo el rendimiento que les sacas."
+      ]
+    },
+    {
+      "id": "b09-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "Ahora doy un tipo de soporte nuevo. Vienes a mí porque el modelo no te ha dado un buen resultado, y yo te digo qué prompt tienes que darle.",
+        "La calidad con la que le vuelves a escribir el prompt es importantísima."
+      ]
+    },
+    {
+      "id": "b10-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "Para que quede claro, creo que esto irá perdiendo importancia con el tiempo.",
+        "A medida que los modelos se vuelvan mucho más listos, podrás meter menos y sacar más.",
+        "Pero, de momento, lo que hacen de verdad es devolverte el criterio que aporta el usuario."
+      ]
+    },
+    {
+      "id": "b11-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Me he resistido un poco a aprender todos los trucos y consejos.",
+        "Que si usa Ralph Wiggum, que si usa OpenClaw, que si usa Hermes, este motor de prompts, este andamiaje, conecta esta pieza, usa siempre el modo de planificación.",
+        "Yo he pasado de todo eso, porque daba por hecho que el modelo iba a mejorar más deprisa de lo que yo iba a tardar en aprender a usarlo.",
+        "Él aprendería a usarme a mí antes de que yo aprendiera a usarlo a él, así que los he usado a lo bruto, sin ninguna finura.",
+        "Me frustro con ellos, y me he dado cuenta de que cada vez les escribo menos información y hago menos trabajo, porque doy por hecho que puedo sacarlo adelante a fuerza bruta.",
+        "Le lanzo a Codex, a Claude y a Gemini el mismo problema una y otra vez, y derrocho tokens para ahorrar tiempo.",
+        "Por caros que parezcan estos modelos, siguen siendo muchísimo más baratos que una persona.",
+        "Así que yo lo resumiría así. Derrocha tokens, ahorra tiempo.",
+        "No mires los tokens ni como inputs ni como outputs. Mira solo tu tiempo, y mira el resultado final.",
+        "Aunque escriban código de poca calidad, y sé que en muchos casos es así, cuando llega el momento de llevarlo a producción les echo más tokens.",
+        "Les pido que lo repasen todo, que lo miren y que lo reescriban.",
+        "Y van a ir mejorando con cada generación, y no veo dónde tiene que pararse esto necesariamente.",
+        "Mientras tengamos dominios verificables y problemas resueltos, van a resolver esos problemas.",
+        "Ahora bien, en el terreno de los problemas sin resolver, si eres, por ejemplo, Terence Tao, en la vanguardia de la creatividad, tienes que trabajar codo con codo con el modelo y con mucho cuidado.",
+        "Pero yo no estoy a ese nivel en ingeniería de software."
+      ]
+    },
+    {
+      "id": "b12-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Guillermo, seguramente eres el ingeniero de software más extremo del equipo. ¿Qué tal te van estos modelos en el límite de lo que son capaces de hacer?"
+      ]
+    },
+    {
+      "id": "b13-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "Hay algo que ha pasado hace poco que encaja mucho con lo que dices.",
+        "Antes le dabas un prompt al modelo y hacía lo clásico de predecir el siguiente token y salía corriendo con tu idea.",
+        "Ahora los modelos hacen una especie de planificación intuitiva, sin que tengas que pedírsela.",
+        "Vuelven a ti y te dicen que, para lo que les pides, hay tres caminos posibles, y que estas son las contrapartidas de cada uno.",
+        "Ese es el momento en que la gente de X se pone a decir que ya tenemos un modelo que es un ingeniero de nivel de doctorado.",
+        "En algún momento, los modelos se graduaron. Antes eran ingenieros júnior, y ahora son ingenieros principales, porque vuelven a ti con sus contrapartidas.",
+        "Y, claro, a veces se lo inventan, lo cual es divertidísimo, porque te dicen que esto va a llevar tres semanas y tantos tokens, y sus predicciones son malísimas.",
+        "Pero respeto mucho más a los modelos, como a un igual con el que discuto de tú a tú.",
+        "Todavía hay muchas lagunas, y si eres un ingeniero o un arquitecto muy competente, le sigues sacando más jugo.",
+        "Así que la pregunta que planteaba Max era si, cuando eres júnior, te devuelve un trabajo de júnior.",
+        "Está claro que no, porque un júnior obtiene un código más avanzado del que habría sabido escribir por su cuenta.",
+        "Pero ¿no saca un arquitecto con experiencia diez veces más, mientras que un ingeniero júnior saca el doble? Eso es lo que intento averiguar."
+      ]
+    },
+    {
+      "id": "b14-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "Están las decisiones de arquitectura. Lo estoy viendo ahora con algunos de los ingenieros de software júnior del equipo, y es cuál es el siguiente paso en su carrera.",
+        "Es pasar de implementar una funcionalidad a elegir tecnologías, como elegir entre Postgres y otra base de datos, o entre ZeroMQ y otro sistema de colas.",
+        "Los modelos te las pueden sugerir, pero ahí está la cosa, porque lo ves y dices que no, que quieres usar otra.",
+        "Ese es el tipo de pequeño feedback que de verdad importa, y del que depende el resultado que parece que sacas a estas alturas."
+      ]
+    },
+    {
+      "id": "b15-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Es gusto y criterio, ¿no? Dicho esto, puedes preguntarles a los modelos cuál deberías usar y por qué, y lo saben todo.",
+        "Te van a dar un cuadro muy bueno de pros y contras con sus contrapartidas."
+      ]
+    },
+    {
+      "id": "b16-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "Ese es el cambio que ha habido hace poco. Le decías que metiera en Postgres unos datos de telemetría con muchísimos valores distintos.",
+        "Y te contestaba que no, no, amigo, que ese tipo de datos no se mete en Postgres, y que deberías plantearte ClickHouse, Athena o lo que sea.",
+        "Eso me ha pasado mucho, y es realmente impresionante.",
+        "Lo que todavía me cuesta es que está claro que el humano sigue completando al modelo. ¿En qué momento será al revés?",
+        "Será el humano el que empiece a recibir las instrucciones, como que vaya a buscar tal clave de API porque es algo que solo puede hacer él.",
+        "O que le consiga tanto capital para su próxima tanda de inversiones. Ya verás. Está claro que todavía no hemos llegado."
+      ]
+    },
+    {
+      "id": "b17-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Eso es una anomalía pasajera. Muy pronto, toda buena empresa de software como servicio o de alojamiento tendrá una interfaz de línea de comandos y una API que los modelos podrán usar directamente.",
+        "Ni siquiera les hace falta una API, porque mientras sea algo basado en texto, en Unix, el agente puede hackear su propia API.",
+        "Y en cuanto al dinero, metes tokens cripto, metes bitcoins, metes lo que sea, y el modelo va y paga lo que necesite. Hay gente trabajando en esto."
+      ]
+    },
+    {
+      "id": "b18-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Lo que estoy pensando ahora es si ha muerto el software puro, si la ingeniería de software pura es algo obsoleto.",
+        "Es como lo de hablar inglés, porque antes tuvimos que aprender a programar para comunicarnos con las máquinas.",
+        "Ahora los modelos hablan inglés, un inglés vago y descuidado, como el de una persona, y entienden las cosas.",
+        "Entonces, ¿qué protege a un fundador de la competencia? ¿El hardware?",
+        "Para el hardware es una bendición. Tenías que construir el hardware, y era difícil montar a la vez una empresa de software.",
+        "Patrick Collison dice que el software es arte, y que es difícil contratar a artistas.",
+        "Ahora, si fundas una empresa de hardware, genial, porque puedes tener un software muy bueno desarrollado bastante deprisa.",
+        "Si creas modelos, quizá esa sea la nueva ingeniería de software, entrenar, retocar, el postentrenamiento, el ajuste fino.",
+        "Pero ¿ha muerto la ingeniería de software clásica? ¿Se puede invertir en software puro?",
+        "¿Es el software puro algo en torno a lo que puedas organizar una empresa y un equipo, e intentar conseguir algo de apalancamiento?"
+      ]
+    },
+    {
+      "id": "b19-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "¿Alguien ha visto un artículo de Mitchell Hashimoto en X sobre lo que él llama la economía de las piezas de construcción?",
+        "Lo que defiende es que lo más útil que pueden tener ahora los agentes son piezas de construcción reutilizables y muy potentes.",
+        "Siguiendo con el ejemplo de Max, no esperarías que tu cacharro reinventara un sistema de colas cada vez que tiene que mandar un correo.",
+        "Tiene que traer la pieza adecuada, del tamaño justo para la tarea, y decir que para esto toca BullMQ.",
+        "No me convence la idea de querer que el agente reinvente el universo entero desde los primeros principios, de una forma incompatible con el resto de la sociedad y de la civilización.",
+        "Sería casi como reinventar las autopistas, las leyes y las políticas solo para ti.",
+        "Aunque se pudiera optimizar algo más, sigue teniendo valor, para cooperar a gran escala, poder decir que los dos dependemos de Postgres trece punto dos.",
+        "La categoría del software de infraestructura y de las piezas de construcción que van a usar estos agentes tiene un valor enorme, y está claro que no soy imparcial, porque es lo que construimos nosotros.",
+        "No veo al agente reinventando todo eso a corto plazo.",
+        "Otra metáfora que uso es que todo lo que ya está creado y los modelos pueden reutilizar es como una caché de tokens.",
+        "No quieres gastar un billón de tokens para reproducir lo que ya existe, porque siempre hay un punto de partida desde el que el modelo puede bifurcarse.",
+        "Eso va a cambiar las cosas muy a fondo."
+      ]
+    },
+    {
+      "id": "b20-naval",
+      "speaker": "Naval",
+      "frases": [
+        "O sea, que son como bibliotecas y dependencias, pero para los modelos."
+      ]
+    },
+    {
+      "id": "b21-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "Sí, específicamente para agentes."
+      ]
+    },
+    {
+      "id": "b22-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "Volviendo a la pregunta de Naval, yo aprendí a programar cuando era muy pequeño.",
+        "Toda la adolescencia y los veintitantos me enganchaba y me pasaba como veinte horas programando. Era divertidísimo, y sabía un montón de cosas de distintos lenguajes de programación.",
+        "Hace bastante que no escribo ni una sola línea de código. En parte es porque mi trabajo es distinto.",
+        "Pero también porque, desde diciembre, he construido una cantidad enorme de software que ahora uso todos los días.",
+        "Todos esos proyectos con los que llevaba años fantaseando, y que ahora uso, los he construido de verdad, y no he escrito nada de ese código.",
+        "Y no me imagino volviendo a escribir código a mano. Me cuesta verlo como parte del futuro."
+      ]
+    },
+    {
+      "id": "b23-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "Lo bueno de verdad es que entiendes cómo encajan las piezas.",
+        "Cualquiera que entienda qué es una API, cómo fluyen los datos, los inputs y los outputs y el rendimiento, porque tienes que orientar al modelo y decirle qué nivel de exigencia tienes para esa operación.",
+        "Eso siempre ha sido infinitamente más útil que escribir código.",
+        "Un líder de ingeniería muy competente lleva tiempo haciendo, entre comillas, vibe coding a través de la gente, por Slack o en reuniones individuales.",
+        "El vibe coding es programar pidiéndole las cosas a la inteligencia artificial con tus propias palabras.",
+        "Ese líder hace lo mismo con la gente, porque transmite su voluntad, su intención y su experiencia, y deja que los demás se encarguen.",
+        "Ahora hacemos lo mismo, pero con agentes. Por eso te ha ido bien, y no sé si a todo el mundo le va igual de bien."
+      ]
+    },
+    {
+      "id": "b24-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Yo he pasado de no escribir código en veinte años a programar todo el rato, a través de agentes, y a construir muchísimo software.",
+        "Resulta que entender solo los principios básicos de la ingeniería de software y de los algoritmos te lleva muy lejos.",
+        "Dejé de programar porque no tenía tiempo de aprenderme el último lenguaje, la última arquitectura y las piezas de infraestructura que había que conectar.",
+        "Vercel lo facilita mucho, pero aun así, solo empezar era un suplicio, y conectar piezas y montar la infraestructura era un fastidio enorme."
+      ]
+    },
+    {
+      "id": "b25-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "Lo que de verdad ha cambiado es que antes podías construir mucho, y mucho salía sin problemas.",
+        "Pero luego te topabas con cualquier cosa rara y te podías pasar un tiempo indefinido haciendo debug de algo muy concreto.",
+        "Ahora, con los agentes, ya no te atascas, y eso es bastante increíble.",
+        "Encuentran la forma correcta de hacer las cosas relativamente rápido.",
+        "Recuerdo que, cuando otros amigos intentaban aprender a programar, la respuesta era que no, que es frustrante por naturaleza.",
+        "Iba incluido en el lote y así es como se aprendía, y eso ya ha dejado de ser verdad."
+      ]
+    }
+  ]
+}

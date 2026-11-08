@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": null,
+  "anio": 2026,
+  "slug": "regulatory",
+  "titulo_es": "La frontera regulatoria",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "La frontera regulatoria",
+    "descripcion": "",
+    "tags": [],
+    "url": "",
+    "url_original": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "publicacion": {
+    "fecha": "",
+    "audio_url": "",
+    "audio_bytes": 0,
+    "duracion_s": 0,
+    "feed_guid": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "escucha": {
+    "escuchado": false,
+    "resultado": null,
+    "fecha": null,
+    "feedback": ""
+  },
+  "notas": "Extra sin número (orden 166 del archivo de nav.al), parte 3 de The AI Industrial Revolution (160). Inglés sacado del Google Doc «2026 all podcasts» de Drive; cuadra palabra a palabra con el documento (del «Get podcast» a «Related», sin enlaces). El español es la copia exacta de los bloques b41–b69 del 160-industrial (mismos hablantes y mismas frases), por la regla de docs/cortos-y-largos.md: el audio se monta con los clips del largo. Solo cambian el título y el subtítulo. Las decisiones de traducción, las glosas y los nombres que hay que escuchar en el TTS están en las notas del 160-industrial y en el GLOSARIO (160, decisiones del autor del 8-nov). Fuera del inglés: las dos notas web del principio (Part 3 of our four-part discussion… y Also see Part 1… Part 4: The Autonomous Company, coming soon). Diferencia del inglés con el largo: aquí las rayas van con espacios; el texto es idéntico. La glosa de tokens va en b43, la de la FDA en b50 y la de medicina N de uno en b68. La parte 4 anunciada no salió como pieza suelta: solo está en el largo."
+}

@@ -94,12 +94,16 @@
       "2025/151-get",
       "2025/152-good-products",
       "2025/153-simplest"
+    ],
+    "2026/160-industrial": [
+      "2026/extra-tokens",
+      "2026/extra-hardware",
+      "2026/extra-regulatory"
     ]
   },
-  "pendientes_de_traducir": {
-    "The AI Industrial Revolution (2026, número 160, slug industrial)": "3 extras sin número: Waste Tokens, Vibe Coding Hardware, The Regulatory Frontier"
-  },
+  "pendientes_de_traducir": {},
   "_excepciones": {
+    "2026/160-industrial": "Los tres extras sin número (partes 1 a 3) son b01–b25, b26–b40 y b41–b69 del largo, con el español idéntico bloque a bloque. Los bloques b70–b107 (la parte 4, La empresa autónoma) solo están en el largo. Verificado el 8-nov en el repo.",
     "2025/154-in-the-arena": "Dos bloques de cortos sin pareja en el largo, que la fábrica genera aparte: 139 b01 (intro propia de Nivi) y 144 b01 (el largo b15 lleva además «Por ejemplo, fíjate en el marketing.», decisión del autor del 7-nov). Bloques solo del largo: b01, b06 y ese final de b15. Verificado el 7-nov en el repo."
   }
 }

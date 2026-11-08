@@ -1,0 +1,365 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2026/extra-regulatory",
+  "numero": null,
+  "fecha": "2026-05-29",
+  "titulo": "La frontera regulatoria",
+  "subtitulo": "La lucha contra la burocracia a gran escala",
+  "fuente_url": "https://nav.al/regulatory",
+  "titulos_seccion": [
+    "La carrera de la Reina Roja de la regulación",
+    "Por qué no hay innovación en la sanidad",
+    "Hace falta un verdadero experimento con los cincuenta estados",
+    "La FDA china ya supera a la estadounidense",
+    "La sanidad es una sociedad comunista dentro del capitalismo",
+    "La historia de Sid: medicina N de uno"
+  ],
+  "contenido": [
+    {
+      "id": "b01-blake-scholl",
+      "speaker": "Blake Scholl",
+      "frases": [
+        "Una de las cosas que hemos visto en lo regulatorio es que reduce muchísimo el miedo al cambio y mejora la iteración.",
+        "Un ejemplo. Pongamos que vas a certificar un avión, y una de las mil cosas que tienes que hacer es demostrar que aguanta el impacto de un rayo.",
+        "La documentación regulatoria del plan de pruebas se extiende, digamos, a lo largo de doscientas páginas.",
+        "Lo clásico sería contratar a un ingeniero, seamos sinceros, no especialmente brillante, que esté dispuesto a pasarse ahí, como un mono delante del teclado, escribiendo doscientas páginas de documentación de cumplimiento normativo.",
+        "Eso lleva un par de meses. Y, por cierto, si cambias el avión, te entran ganas de llorar, porque son otros dos meses rehaciendo esa documentación mecánica.",
+        "Lo que hemos descubierto es que podemos montar un sistema que genera el texto consultando nuestra propia documentación, y que nos permite sacar todo ese trabajo a base de prompts en, digamos, minutos.",
+        "El efecto de primer orden es que ahorras mucho tiempo. El de segundo orden es que, si cambias las especificaciones del avión, ahora tardas minutos, no meses.",
+        "Así que de verdad puedes estar dispuesto a cambiar.",
+        "Y el efecto de tercer orden es que puedes prescindir de los ingenieros no muy buenos y tener unos pocos muy creativos que iteren deprisa, porque el coste del cambio baja.",
+        "En cierto sentido, toda la carga regulatoria, que de verdad perjudica la capacidad de iterar, desaparece."
+      ]
+    },
+    {
+      "id": "b02-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "Esta es una historia de la inteligencia artificial que ahora mismo se cuenta muy poco.",
+        "El consenso en Silicon Valley es que la regulación es un desastre, que queremos ir más deprisa y hacer realidad este futuro increíble.",
+        "Queremos abundancia y prosperidad, y hay que evitar todo lo que frene ese futuro.",
+        "Desde luego, hemos regulado de más y hemos hecho imposible construir cosas.",
+        "Es una auténtica locura todo lo que hace falta en muchos sitios para construir cualquier cosa física.",
+        "Pero muchas de las normas en sí no son el problema. Si de verdad te has leído muchas de ellas, ves que tener ciudades que no estén asfixiadas por el esmog es estupendo.",
+        "Poder bañarte en muchos ríos es estupendo, y muchas de esas cosas fueron un progreso.",
+        "El problema es que a las personas les cuesta muchísimo entender y cumplir todo esto, y cada vez que tienes que intercambiar una carta con el gobierno, esperas meses.",
+        "Si pudieras coger muchas de las cosas que hemos aprendido y quitarles por completo la fricción, estaría muy bien. Creo que es una historia que se cuenta poco."
+      ]
+    },
+    {
+      "id": "b03-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Hasta que el regulador empiece a escupirnos tokens, los trozos de texto con los que trabajan los modelos.",
+        "Entonces empezarás a recibir de los reguladores montañas de documentos que tienes que cumplir, y serán guerras de agentes contra agentes. Pero al menos será una pelea justa."
+      ]
+    },
+    {
+      "id": "b04-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "Eso es básicamente lo que tenemos ahora."
+      ]
+    },
+    {
+      "id": "b05-blake-scholl",
+      "speaker": "Blake Scholl",
+      "frases": [
+        "Yo, de hecho, diría que eso sería una mejora respecto a donde estamos ahora.",
+        "Una de las cosas terribles ahora mismo es que, si vas a construir algo físico, necesitas una licencia de obras, y eres culpable hasta que se demuestre lo contrario.",
+        "Lo peor con lo que nos hemos topado son los bomberos, porque tienen el aval moral de ser la gente que saca a la gente de los edificios en llamas.",
+        "Y, sin embargo, lo que hacen en realidad es enredar con tu diseño de los edificios durante meses.",
+        "Si pudiéramos sustituir al inspector de bomberos por un agente que criticara deprisa tu plan de obra, aunque su feedback fuera excesivo, sería muchísimo mejor que los retrasos que hay hoy."
+      ]
+    },
+    {
+      "id": "b06-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "Cuando Max decía que tener toda esta regulación podía ser algo bueno, me vino a la cabeza lo que hace que los agentes funcionen.",
+        "Y es que los humanos u otros agentes les pongan las barreras de prueba adecuadas.",
+        "La gente está muy entusiasmada con el comando goal, o con los bucles Ralph, en los que le dices al modelo que vaya a hacer algo y cuál es su criterio de salida.",
+        "Yo le digo a Blake que vaya y nos haga supersónicos a todos, y que su criterio de salida es haber cumplido todas estas normas.",
+        "Hay un mundo, desde luego, en el que decimos que las normas son estupendas, porque son como nuestro conjunto de pruebas.",
+        "Mientras cumplirlas no lleve a contradicciones, y las normas sean de verdad razonables, son una barrera de seguridad fantástica.",
+        "Si no, estaríamos lanzando basura directamente al aire."
+      ]
+    },
+    {
+      "id": "b07-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Esto se va a convertir en una carrera de la Reina Roja. Ellos van a tener agentes y nosotros vamos a tener agentes.",
+        "Creo que quizá tengamos mejores agentes, y eso es bueno, frente a humanos contra humanos, pero sus ciclos y sus tiempos de respuesta pueden alargarse.",
+        "La App Store se está ahogando en spam ahora mismo, y seguro que la oficina de patentes también.",
+        "Estos organismos van a tardar en adoptar la inteligencia artificial, y los emprendedores listos los van a saturar de documentos, como en un ataque de denegación de servicio.",
+        "Es posible que los plazos de aprobación de todo esto se alarguen cuando, de repente, les llegue una avalancha."
+      ]
+    },
+    {
+      "id": "b08-blake-scholl",
+      "speaker": "Blake Scholl",
+      "frases": [
+        "Eso crea la oportunidad de cambiar de verdad el modelo regulatorio.",
+        "Imagina que circuláramos por una ciudad igual que construimos hoy las cosas.",
+        "Antes de poder ir a ningún sitio, tendrías que redactar un plan, mandárselo a algún regulador y esperar.",
+        "Tu plan tendría que especificar que vas a coger tal ruta, respetar tal límite de velocidad, poner el intermitente, pararte en cada stop y no saltarte nunca un semáforo en rojo, y bla, bla, bla.",
+        "Tres meses después te devuelven una crítica diciendo que creen que deberías ir por esta otra calle.",
+        "Al final te dan la aprobación y te vas a algún sitio. Es una locura, porque nunca puedes ir a ninguna parte.",
+        "Y, sin embargo, así es exactamente como construimos la infraestructura física en este país.",
+        "Deberíamos hacer que muchas más de estas cosas se basaran en vigilar el cumplimiento, y no en la aprobación previa."
+      ]
+    },
+    {
+      "id": "b09-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "No quiero estar demasiado expuesto, porque, si saco un dispositivo médico para mucha gente, tiene que haber, bueno, hay incógnitas.",
+        "Fuimos responsables, hicimos ensayos clínicos y comunicamos todos los datos, pero aun así."
+      ]
+    },
+    {
+      "id": "b10-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Max, por eso hay tan poca innovación en medicina ahora mismo. El proceso de aprobación de la FDA, la agencia del medicamento de Estados Unidos, es una pesadilla.",
+        "De hecho, los dos mayores avances tecnológicos de Silicon Valley en la última década son la inteligencia artificial y, antes de eso, lo cripto.",
+        "Y los dos están en el terreno de las matemáticas, porque es el último terreno que queda sin regular.",
+        "Cuando empiecen a regular los modelos de frontera y los procesadores gráficos, eso también se parará.",
+        "Peter Thiel se lamenta de que no haya innovación en el mundo físico. Pues es que la han frenado unas barreras regulatorias enormes.",
+        "Siempre puedes encontrar un caso que dé miedo, una vacuna o un desastre médico famoso.",
+        "Pero la regulación se extiende por todas partes, tiene tentáculos en todas partes, y hay un montón de organismos reguladores que se contradicen entre sí.",
+        "A SpaceX la demandaron por no tener suficientes, no me acuerdo de qué, inmigrantes o refugiados o lo que fuera, pero es que una norma del gobierno, por otro lado, no le permite contratarlos porque no son ciudadanos.",
+        "Esto no es como un código lógico que tiene que compilar en un solo sitio, sino un montón de normas inventadas y arbitrarias por todas partes.",
+        "Puede que cumplas en un estado e incumplas en otro, o que incumplas la ley federal, o que molestes a alguien.",
+        "Y luego aquel otro decide procesar a uno de cada cincuenta, según quién sea su amigo. Es arbitrario y caprichoso."
+      ]
+    },
+    {
+      "id": "b11-blake-scholl",
+      "speaker": "Blake Scholl",
+      "frases": [
+        "Y la idea de que esto hace que las cosas sean más seguras es un mito absoluto. Fíjate en Boeing.",
+        "Certificaron el siete tres siete MAX, que tenía un único sensor con control total sobre el cabeceo del avión, morro arriba o morro abajo.",
+        "Ningún becario es tan tonto como para pensar que eso es buena idea, y aun así pasó todo el sistema de certificación.",
+        "Todo esto no nos hace más seguros, solo nos hace más lentos."
+      ]
+    },
+    {
+      "id": "b12-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "Bueno, desde luego aquí hay disfunción, pero creo que parte de esto nos hace más seguros, en el sentido en que nos hace más seguros la Comisión Reguladora Nuclear.",
+        "Su trabajo era asegurarse de que la energía nuclear fuera segura, y lo consiguieron autorizando cero centrales desde los años setenta hasta hace, creo, un año. Será perfectamente segura si nunca construimos ninguna.",
+        "Quiero dejarlo muy claro, en mucho de esto estoy del lado de la desregulación, y coincido con Blake en que mucho de esto se puede hacer de forma más eficiente.",
+        "Pero también creo que es un poco simplista decir que esto es cosa de la FDA y de los organismos, porque el problema es más profundo.",
+        "Si la FDA aprueba diez medicamentos importantísimos, no se lo agradece nadie. Muere un paciente, y los llevan a rastras ante el Congreso y les gritan.",
+        "Tienen unos incentivos muy sesgados hacia lo negativo, y la realidad es que esto refleja lo que creen los estadounidenses.",
+        "Hay que buscar un equilibrio entre la percepción del riesgo en la investigación con personas y el ritmo al que conseguimos medicamentos nuevos."
+      ]
+    },
+    {
+      "id": "b13-blake-scholl",
+      "speaker": "Blake Scholl",
+      "frases": [
+        "Es totalmente asimétrico. Si apruebas algo malo, se acaba tu carrera, y si bloqueas algo bueno, nadie se da cuenta.",
+        "Eso crea una ralentización asimétrica, y creo que es el problema más importante que hay que resolver en el Estado regulador."
+      ]
+    },
+    {
+      "id": "b14-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "Es un problema muy profundo, porque es donde están los votantes.",
+        "Hacemos encuestas sobre algunas de las cosas en las que trabajaremos en el futuro, para entender qué piensan los estadounidenses.",
+        "Si presionas demasiado, puedes sortearlo, irte a Próspera, hay mil formas de intentar ir más deprisa.",
+        "Pero, si te ven como alguien que actúa de mala fe, la sociedad en la que vivimos te rechaza.",
+        "Esa es la cosa para la que necesitas una respuesta, y es más profundo que decir simplemente que hace falta una reforma regulatoria."
+      ]
+    },
+    {
+      "id": "b15-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Ahí tienes un argumento profundo, Max, porque es donde están los votantes, los ciudadanos.",
+        "Nos gusta echarles la culpa a los políticos, y en X lo ves todo el rato, con la gente culpando a este político, a aquel o al otro.",
+        "Pero los eligen por mayoría. Ahí es literalmente donde está la gente, ese es el paquete que ha elegido.",
+        "Puede que no te guste esta versión concreta, pero, si la quitaras, ocuparía su lugar algo muy parecido, porque los votantes los volverían a elegir.",
+        "Culturalmente, a la mayoría de la gente le cuesta mucho entender lo que hemos perdido, lo que nos hemos perdido.",
+        "En Francia, hay un emprendedor francés en X que se lamenta de que el Estado se trague el cincuenta y siete por ciento del producto interior bruto, así que no puedes crear empresas.",
+        "Pero para el ciudadano francés medio eso no se ve. No se da cuenta de lo que se pierde, y solo sabe que es un poco más pobre que Estados Unidos.",
+        "The Economist acaba de publicar un articulito sobre cómo Estados Unidos está dejando atrás a todo el mundo, creciendo más deprisa y haciéndose más grande.",
+        "Por fin los economistas vuelven a ser capitalistas, después de treinta años.",
+        "Pero enseguida se dan la vuelta y dicen que es por los océanos, por los recursos naturales, por cualquier cosa menos el capitalismo.",
+        "No quieren decir la palabra maldita, capitalismo, porque por alguna razón todas estas revistas se volvieron marxistas en algún momento.",
+        "No se pueden imaginar lo que podría haber sido si hubiéramos sido un poco más liberales, un poco más abiertos.",
+        "Me encantaría ver un verdadero experimento entre los cincuenta estados, con normas distintas y estructuras fiscales distintas.",
+        "Ahora mismo, la estructura fiscal federal y las normas federales lo dominan todo.",
+        "Pero imagina que, si tuvieras cáncer, pudieras irte a algún estado pequeño y probar cualquier fármaco que estuviera preparando cualquiera.",
+        "Bajo tu propia responsabilidad, eso sí, porque tienes que investigar por tu cuenta. Es lo que se conoce como la zona experimental.",
+        "Lo mismo con los drones, y lo mismo con los aviones, aunque ahí es un poco más difícil, porque tienes que cruzar muchas zonas, pero sí."
+      ]
+    },
+    {
+      "id": "b16-blake-scholl",
+      "speaker": "Blake Scholl",
+      "frases": [
+        "Ahí hay algo mágico, que es la idea de las zonas de innovación.",
+        "Tenemos un problema enorme de NIMBY, pero, si creas zonas YIMBY voluntarias, crean ese marco de experimentación.",
+        "Por definición, ocurre donde la gente da su consentimiento.",
+        "Puedes probar normas distintas, o ninguna norma, o formas distintas de vigilar el cumplimiento, como que seas inocente hasta que se demuestre lo contrario, y ver qué pasa de verdad.",
+        "¿Qué consecuencias tiene para la innovación? ¿Y para la seguridad? Después, lo que funcione se puede extender."
+      ]
+    },
+    {
+      "id": "b17-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "Siguiendo con lo de Naval, una zona de innovación no resolvería el problema en el descubrimiento de fármacos.",
+        "Hace poco se aprobó la ley del derecho a probar tratamientos experimentales, y desde mucho antes tenemos una vía de uso compasivo para un solo paciente.",
+        "Si tu médico llama a la FDA y dice que quiere darle a su paciente un fármaco no aprobado, aprueban más del noventa y nueve por ciento de esas peticiones, e incluso pueden concederlas por teléfono.",
+        "El problema es que, para administrarle una dosis a un paciente, sigues necesitando el fármaco con calidad clínica.",
+        "Y normalmente el único que lo tiene es el dueño de la patente, que está en pleno ensayo clínico e invirtiendo cientos de millones de dólares en fabricarlo.",
+        "Si le pasa algo malo a tu paciente, que seguramente ya estaba muy enfermo, la FDA sacará conclusiones negativas.",
+        "Y eso se verá como una propiedad del fármaco, que es global y no tiene nada que ver con tu zona de innovación.",
+        "Así que hay dos problemas. El primero es que necesitas que el dueño de la patente te dé parte de su fármaco, y no lo va a hacer.",
+        "El segundo es que necesitas impedir que el regulador global ponga en duda lo que podría pasar con su ensayo clínico si te da un poco."
+      ]
+    },
+    {
+      "id": "b18-blake-scholl",
+      "speaker": "Blake Scholl",
+      "frases": [
+        "¿Y cómo lo resolverías en medicina?"
+      ]
+    },
+    {
+      "id": "b19-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "Esto ya es para iniciados. Habría que prohibirle a la FDA sacar conclusiones negativas entre los distintos usuarios de una cápside, por ejemplo.",
+        "Hay formas concretas de acelerar mucho la innovación con una regulación relativamente ligera, simplemente impidiendo que esta paranoia dirija nuestras decisiones."
+      ]
+    },
+    {
+      "id": "b20-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "¿Hay algo mejor que la FDA por ahí? ¿Con qué estamos comparando a estos reguladores?"
+      ]
+    },
+    {
+      "id": "b21-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Todos siguen a la FDA, todos la copian."
+      ]
+    },
+    {
+      "id": "b22-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "Dos puntos. Primero, Europa, que no es realmente mejor que la FDA, pero tiene un sistema distinto.",
+        "Tienen los organismos notificados, que son básicamente empresas privadas a las que sus gobiernos dan su bendición para certificar cosas, como trenes, aviones o dispositivos médicos.",
+        "El sistema de los organismos notificados crea unos incentivos algo mejores en la capa de revisión, porque pueden contratar gente, pueden crecer y hay competencia.",
+        "Ellos mismos tienen que cumplir las condiciones que les ponen sus gobiernos, pero eso significa que puede haber muchos miles de revisores más que en Estados Unidos.",
+        "Segundo, hoy existe de hecho una interfaz cerebro máquina implantable aprobada y por la que ya se cobra, y está en China.",
+        "La agencia del medicamento china piensa por su cuenta, y tienen un sistema que creo que nos lo va a poner muy difícil si no tenemos cuidado.",
+        "Lo que cuesta llevar un fármaco o un dispositivo al mercado es muchísimo menos, y puedes probar cosas en personas y probarlas en el mercado.",
+        "Esto es en lo que llevo mucho tiempo pensando. Hace veinte años comprábamos muchos menos portátiles y teléfonos, y cada uno era mucho más caro.",
+        "Ahora son más baratos, hay muchísimos más, compramos más y el gasto total ha subido. Esto es estupendo.",
+        "Las acciones de Qualcomm, de Samsung y de Apple se han disparado, y todo el mundo está contento.",
+        "La riqueza extra que generan los teléfonos y los portátiles se usa para comprar más teléfonos y más portátiles.",
+        "Esto no pasa en la sanidad. Por el sistema de reembolsos, porque hay una venta institucional por medio, la bolsa de dinero con la que pagamos la sanidad es básicamente fija.",
+        "No aumenta a medida que hay más cosas que dan mejores resultados de salud, como vemos en los sectores de crecimiento tecnológico.",
+        "El gasto en sanidad crece más o menos al mismo ritmo que la recaudación fiscal.",
+        "Si la inteligencia artificial está en pleno auge, hay grandes avances y dentro de dos años gastamos diez veces más en IA, puede ser estupendo.",
+        "Pero si dentro de dos años gastáramos diez veces más en sanidad, sería una catástrofe, y eso choca de raíz con ser un sector de crecimiento tecnológico.",
+        "En la sanidad hay un problema que lo abarca todo, y todo viene de lo mismo, de que llevar estas cosas al mercado es demasiado caro.",
+        "A eso es a lo que apunta China. La salida no es un sistema de pagador único ni retocar el seguro médico.",
+        "Es bajar los costes para que alguien pueda comprarlo con tarjeta de crédito, o financiarlo, como mucho como un coche, y que se le cobre en la transacción.",
+        "Para eso tenemos que abaratar llevar estas cosas al mercado, y China lo está haciendo.",
+        "Eso les va a permitir venderlas por diez mil dólares en vez de por cien mil, y eso es desregulación."
+      ]
+    },
+    {
+      "id": "b23-naval",
+      "speaker": "Naval",
+      "frases": [
+        "En el fondo, en la sanidad no hay un mercado privado.",
+        "La analogía que se hace a veces es que imagines que, en vez de ir a los restaurantes y pagar, fueras a todos los restaurantes.",
+        "Y que a final de mes le mandaras todos los tiques y las facturas a tu aseguradora o al gobierno, y te lo reembolsaran.",
+        "Habría cola en la puerta de cada buen restaurante, y todos los malos restaurantes estarían libres.",
+        "Las esperas serían terribles y el producto no mejoraría.",
+        "Básicamente, estás haciendo funcionar una pequeña sociedad comunista dentro de una sociedad capitalista más grande, y eso es lo que hacemos con la sanidad."
+      ]
+    },
+    {
+      "id": "b24-blake-scholl",
+      "speaker": "Blake Scholl",
+      "frases": [
+        "Es también lo que hacemos con las carreteras, y por eso hay atascos.",
+        "No hay precios variables para entrar en la autopista, y por eso siempre está colapsada."
+      ]
+    },
+    {
+      "id": "b25-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Si quieres meterte por un momento en el tema más intocable de la sanidad, piensa en este plan y dime qué tiene de malo.",
+        "Imagina que el primer veinte por ciento de tus ingresos anuales fuera tu franquicia sanitaria.",
+        "Si estás arruinado y sin hogar, es cero, y si eres rico, son millones de dólares.",
+        "Sean cuales sean tus ingresos anuales, el primer veinte por ciento es tu franquicia sanitaria, y el resto lo pagan el gobierno y el sistema de seguros, hasta los topes habituales de hoy.",
+        "Crearías un mercado privado bastante deprisa, porque en la odontología, en la cirugía plástica y en muchos procedimientos médicos opcionales se daría una situación de competencia.",
+        "Y hay mejora. Fíjate en la optometría con el LASIK, en la odontología con las carillas, la ortodoncia y la cirugía dental, o en la cirugía plástica.",
+        "Esos campos sí parecen avanzar, porque los que pagan son particulares, gente que vota con su dinero.",
+        "Necesitamos hacer algo equivalente en el sistema sanitario normal, pero la gente pierde la cabeza y ni siquiera quiere pensar un paso más allá.",
+        "Te dicen que no, no, no, que qué pasa con el que está arruinado. Pues el que está arruinado no tiene ingresos.",
+        "Te dicen que el veinte por ciento es demasiado para algunos. De acuerdo, puedes poner otra franquicia.",
+        "Pero, en general, si no tienes un mercado privado en el que la gente pague de su bolsillo los procedimientos médicos, no vas a tener este ciclo de feedback.",
+        "No vas a tener esta capacidad de meter más dinero en el sistema.",
+        "Ahora mismo, la gente muy rica puede gastar voluntariamente en el sistema, pero los precios no están en ningún sitio.",
+        "Las tarifas no están en ningún sitio, y el sistema no está diseñado para eso.",
+        "Si vas a buscar atención médica y quieres pagar de tu bolsillo, a veces te dan un precio diez veces mayor que el que le cobran a la aseguradora."
+      ]
+    },
+    {
+      "id": "b26-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "¿Alguien conoce la historia de Sid, el de GitLab? Tuvo una salida a bolsa con un éxito enorme, y luego le diagnosticaron un cáncer raro.",
+        "Ha vivido mucho más de lo que decía el pronóstico, porque de verdad se lo tomó por su cuenta.",
+        "Hizo la quimioterapia de primera línea, luego había una alternativa, la agotó, y los médicos le dijeron que ya no tenían nada para él.",
+        "Desde entonces han salido de ahí seis o siete empresas, y ahora hay veinte o treinta fármacos en su escalera de tratamientos. Sigue vivo."
+      ]
+    },
+    {
+      "id": "b27-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "Está estupendamente, lo vi el otro día. Básicamente, se creó su propia medicina personalizada y su propio plan de tratamiento."
+      ]
+    },
+    {
+      "id": "b28-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "Ya he oído un puñado de anécdotas como esta.",
+        "Para mí está clarísimo que, en la gama alta, si no dependes del seguro, tienes los recursos y quieres toda la caja de herramientas de la ciencia moderna, son posibles resultados de locos.",
+        "Si vas a tu médico y le preguntas qué pasará si haces tal cosa, se pondrá a gritar y a tirar cosas, pero en la gama alta son posibles cosas de locos.",
+        "Este tipo de medicina N de uno, la que se hace a la medida de un solo paciente, va a acabar siendo una fuente riquísima de investigación para entender cómo construir cosas más trasladables."
+      ]
+    },
+    {
+      "id": "b29-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "Exige muchísima agencia por parte del paciente justo en el momento en que está más débil, lo cual es bastante irónico.",
+        "Un amigo mío murió de cáncer, y lo último que quería hacer era investigar sobre medicina N de uno, porque se estaba muriendo semana a semana.",
+        "Aquí es donde la inteligencia artificial debería brillar de verdad, y democratizar lo que puedes hacer cuando te encuentras en esa situación.",
+        "Es una locura la poca gente que tiene acceso a esto, solo por una cuestión de conocimiento, no solo de dinero."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "_comentario": "Datos del episodio según la fuente. Sale del catálogo; no editar a mano.",
+  "numero": null,
+  "anio": 2026,
+  "slug": "tokens",
+  "titulo": "Waste Tokens, Save Time",
+  "subtitulo": "Software factories and tokenmaxxing with three frontier founders",
+  "fecha_publicacion": "2026-05-27",
+  "fuente_url": "https://nav.al/tokens",
+  "orden_archivo": 164,
+  "en_feed": false,
+  "participantes": [
+    "Blake Scholl",
+    "Guillermo Rauch",
+    "Max Hodak",
+    "Naval",
+    "Nivi"
+  ],
+  "tiene_transcript": true,
+  "normalizado_el": "2026-11-08"
+}
