@@ -5,7 +5,7 @@
   "anio": 2019,
   "slug": "possible-careers",
   "titulo_es": "Internet ha ampliado enormemente las posibilidades profesionales",
-  "estado": "tts",
+  "estado": "montaje",
   "youtube": {
     "titulo": "Internet ha ampliado enormemente las posibilidades profesionales",
     "descripcion": "",
@@ -16,7 +16,7 @@
   "drive": {
     "carpeta_id": "",
     "tts_id": "",
-    "audio_final_id": "",
+    "audio_final_id": "1QyA6v4JIYvRbnwkLgHHdk4xzlPpfseJe",
     "video_id": "",
     "proyecto_id": ""
   },
@@ -31,9 +31,9 @@
   "heredado": null,
   "escucha": {
     "escuchado": true,
-    "resultado": "revisar",
-    "fecha": "2026-11-05",
-    "feedback": "Para revisar (5-nov): momentos con demasiado acento inglés en nombres. 8-nov: rehecho con otras semillas (RONDA 1) en Drive 009 …/ronda1/audio/009-possible-careers.mp3, sin sospechosas. PENDIENTE: el autor escucha la ronda 1 y decide si sustituye a la actual (009 …/audio/)."
+    "resultado": "bueno",
+    "fecha": "2026-11-08",
+    "feedback": "Para revisar (5-nov): momentos con demasiado acento inglés en nombres. 8-nov: rehecho con otras semillas (RONDA 1) en Drive 009 …/ronda1/audio/009-possible-careers.mp3, sin sospechosas. PENDIENTE: el autor escucha la ronda 1 y decide si sustituye a la actual (009 …/audio/). | 2026-11-08: bueno. Escuchada la RONDA 1 (Drive 009 …/ronda1/audio/): buena para subir; sustituye al master de audio/ | master de audio/ = la ronda 1 (8-nov); la anterior quedó en ronda1/audio/ como …ronda0-descartada.mp3"
   },
   "notas": ""
 }
