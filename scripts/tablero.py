@@ -159,6 +159,11 @@ def main():
             "episodios": len(fs), "horas": round(sum(f["minutos"] for f in fs) / 60, 1),
         })
 
+    # Solo lo que muestra el tablero, para que el fichero sea pequeño.
+    campos = ("orden", "numero", "slug", "titulo", "etapa", "etapa_nombre", "fecha", "minutos",
+              "en_web", "en_r2", "en_youtube", "youtube", "nota")
+    filas = [{k: f[k] for k in campos} for f in filas]
+
     salida = {
         "generado": hoy.strftime("%Y-%m-%dT%H:%M:%SZ"),
         "comprobado_web": bool(a.web),
