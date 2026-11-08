@@ -113,6 +113,12 @@ def main():
                 fila["etapa"] = "traducido"
             if a.r2 and fila["fecha"] and pu.get("audio_url"):
                 fila["r2"] = en_r2(pu["audio_url"])
+        # Campos de texto listos para mostrar en el tablero.
+        fila["titulo"] = fila["titulo_es"] or fila["titulo_en"]
+        fila["etapa_nombre"] = dict(ETAPAS)[fila["etapa"]]
+        fila["en_web"] = "sí" if fila["web"] else "no"
+        fila["en_r2"] = {True: "sí", False: "no", None: ""}[fila["r2"]]
+        fila["en_youtube"] = "sí" if fila["youtube"] else ""
         filas.append(fila)
 
     # Avisos: lo que rompe la publicación diaria si nadie lo mira.
@@ -162,7 +168,7 @@ def main():
         "episodios": filas,
     }
     with open(os.path.join(RAIZ, "tablero.json"), "w", encoding="utf-8") as f:
-        json.dump(salida, f, ensure_ascii=False, indent=1)
+        json.dump(salida, f, ensure_ascii=False, separators=(",", ":"))
         f.write("\n")
     for r in resumen:
         print(f"{r['nombre']:<34} {r['episodios']:>4}  {r['horas']:>5} h")
