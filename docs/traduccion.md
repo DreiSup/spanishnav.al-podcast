@@ -272,3 +272,4 @@ episodio. Episodios con notas a 6-nov: 008, 010, 017, 018, 020 y 052.
 | 2026-11-08 | 161 Live in the Future | fuera | — | — | — | — | El Doc «2026 all podcasts» solo trae la cabecera (título, subtítulo y duración), sin transcript. Decisión del autor (8-nov): se deja fuera |
 | 2026-11-08 | 135 The Deutsch Files (título) | revision | | | | | Decisión del autor (8-nov): título Los documentos de Deutsch; b91 nos meaban encima y decíamos que llovía |
 | 2026-11-08 | 136 The Deutsch Files (título) | revision | | | | | Decisión del autor (8-nov): título Los documentos de Deutsch |
+| 2026-11-08 | 137 The Deutsch Files (título) | revision | | | | | Decisión del autor (8-nov): título Los documentos de Deutsch |
