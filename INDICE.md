@@ -204,4 +204,4 @@
 | 49 | [049-npv](episodios/2019/049-npv) | Valor actual neto: lo que valen hoy los ingresos futuros | 🔵 generando TTS | — | — | — |
 | 50 | [050-externalities](episodios/2019/050-externalities) | Externalidades: calcular los costes ocultos de los productos | 🔵 generando TTS | — | — | — |
 | 51 | [051-angel-1](episodios/2019/051-angel-1) | Cómo invertir como ángel, parte 1 | 🔵 generando TTS | — | — | — |
-| 52 | [052-rich](episodios/2019/052-rich) | Cómo hacerse rico | 🟠 en revisión | — | — | — |
+| 52 | [052-rich](episodios/2019/052-rich) | Cómo hacerse rico | 🔵 generando TTS | — | — | — |
