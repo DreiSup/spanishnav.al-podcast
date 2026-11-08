@@ -2,6 +2,10 @@
   "schema": 1,
   "_comentario": "Registro de voces de la fábrica. Qué modelo, qué referencia y qué adaptador LoRA usa cada hablante. Las rutas de 'ref' y 'adaptador' son relativas a rutas.voces; adaptador null = Qwen base sin LoRA. Cambiar de checkpoint o de referencia es cambiar este fichero, no el código.",
   "motor": {
+    "agrupar": "intervencion",
+    "lote_voz": 16,
+    "tanda_voz": 48,
+    "_agrupar": "intervencion (lo de siempre): cada lote, frases de una sola intervención (hasta «lote»). voz: frases de varias intervenciones seguidas de la misma voz (hasta «tanda_voz»), en lotes de hasta «lote_voz»; los lotes van llenos aunque las intervenciones sean cortas. Cambia las semillas y el audio de lo que se genere a partir de ahí (no rehace nada): probarlo escuchando antes. Se puede pedir en la celda 2 con AGRUPAR = \"voz\".",
     "modelo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
     "modo": "x_vector",
     "idioma": "Spanish",
