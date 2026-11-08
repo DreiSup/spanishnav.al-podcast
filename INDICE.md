@@ -38,10 +38,10 @@
 
 | # | Episodio | Título en español | Estado | Escuchado | Drive | YouTube |
 |---|---|---|---|---|---|---|
-| 135 | [135-deutsch-files-i](episodios/2024/135-deutsch-files-i) | Documentos Deutsch I | 🟠 en revisión | — | — | — |
-| 136 | [136-deutsch-files-ii](episodios/2024/136-deutsch-files-ii) | Documentos Deutsch II | 🟠 en revisión | — | — | — |
-| 137 | [137-deutsch-files-iii](episodios/2024/137-deutsch-files-iii) | Documentos Deutsch III | 🟠 en revisión | — | — | — |
-| 138 | [138-deutsch-files-iv](episodios/2024/138-deutsch-files-iv) | Documentos Deutsch IV | 🟠 en revisión | — | — | — |
+| 135 | [135-deutsch-files-i](episodios/2024/135-deutsch-files-i) | Los documentos de Deutsch I | 🟠 en revisión | — | — | — |
+| 136 | [136-deutsch-files-ii](episodios/2024/136-deutsch-files-ii) | Los documentos de Deutsch II | 🟠 en revisión | — | — | — |
+| 137 | [137-deutsch-files-iii](episodios/2024/137-deutsch-files-iii) | Los documentos de Deutsch III | 🟠 en revisión | — | — | — |
+| 138 | [138-deutsch-files-iv](episodios/2024/138-deutsch-files-iv) | Los documentos de Deutsch IV | 🟠 en revisión | — | — | — |
 
 ## 2023
 
