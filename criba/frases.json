@@ -1,0 +1,743 @@
+{
+  "schema": 1,
+  "_comentario": "Frases de prueba de la criba de motores TTS (fase 1a, docs/fabrica-de-voz.md). Cada item es un audio: sus frases se sintetizan una a una y se unen con 250 ms de silencio. 'ref' es la carpeta de speaker_refs/ que se usa como referencia de voz.",
+  "creado": "2026-10-27",
+  "silencio_entre_frases_ms": 250,
+  "items": [
+    {
+      "id": "n01",
+      "voz": "naval",
+      "ref": "naval",
+      "frases": [
+        "Todo forma parte del plan."
+      ],
+      "origen": "2019/041-envy#b06-naval/10",
+      "etiquetas": [
+        "corta"
+      ]
+    },
+    {
+      "id": "n02",
+      "voz": "naval",
+      "ref": "naval",
+      "frases": [
+        "Si no, no va a salir nunca."
+      ],
+      "origen": "2019/052-rich#b167-naval/3",
+      "etiquetas": [
+        "corta"
+      ]
+    },
+    {
+      "id": "n03",
+      "voz": "naval",
+      "ref": "naval",
+      "frases": [
+        "Estamos en el filo de la curva."
+      ],
+      "origen": "2019/051-angel-1#b53-naval/13",
+      "etiquetas": [
+        "corta"
+      ]
+    },
+    {
+      "id": "n04",
+      "voz": "naval",
+      "ref": "naval",
+      "frases": [
+        "Eso es la fortuna, eso es el destino."
+      ],
+      "origen": "2019/052-rich#b16-naval/2",
+      "etiquetas": [
+        "corta"
+      ]
+    },
+    {
+      "id": "n05",
+      "voz": "naval",
+      "ref": "naval",
+      "frases": [
+        "¿Cuándo sabes que hay que ser impaciente?"
+      ],
+      "origen": "2019/052-rich#b168-naval/1",
+      "etiquetas": [
+        "corta",
+        "pregunta"
+      ]
+    },
+    {
+      "id": "n06",
+      "voz": "naval",
+      "ref": "naval",
+      "frases": [
+        "Hay un curso que se llama Future Investor."
+      ],
+      "origen": "2019/051-angel-1#b03-naval/5",
+      "etiquetas": [
+        "corta",
+        "nombre_o_anglicismo"
+      ]
+    },
+    {
+      "id": "n07",
+      "voz": "naval",
+      "ref": "naval",
+      "frases": [
+        "Digamos que te están pagando mil dólares la hora."
+      ],
+      "origen": "2019/052-rich#b40-naval/0",
+      "etiquetas": [
+        "corta",
+        "cifra"
+      ]
+    },
+    {
+      "id": "n08",
+      "voz": "naval",
+      "ref": "naval",
+      "frases": [
+        "Lo bonito de esto es que somos siete mil millones de seres humanos en el planeta."
+      ],
+      "origen": "2019/052-rich#b49-naval/8",
+      "etiquetas": [
+        "media",
+        "cifra"
+      ]
+    },
+    {
+      "id": "n09",
+      "voz": "naval",
+      "ref": "naval",
+      "frases": [
+        "¿Cómo consigues que se coordinen personas que no pueden comunicarse entre ellas?"
+      ],
+      "origen": "2019/052-rich#b252-naval/3",
+      "etiquetas": [
+        "media",
+        "pregunta"
+      ]
+    },
+    {
+      "id": "n10",
+      "voz": "naval",
+      "ref": "naval",
+      "frases": [
+        "Y por supuesto Jeff Bezos y Mark Zuckerberg y Larry Page y Sergey Brin y Bill Gates y Steve Jobs."
+      ],
+      "origen": "2019/052-rich#b122-naval/8",
+      "etiquetas": [
+        "media",
+        "nombre_o_anglicismo"
+      ]
+    },
+    {
+      "id": "n11",
+      "voz": "naval",
+      "ref": "naval",
+      "frases": [
+        "Lo que Facebook le hace a la sociedad es otra conversación, pero que es un negocio de éxito es innegable."
+      ],
+      "origen": "2019/051-angel-1#b76-naval/9",
+      "etiquetas": [
+        "media",
+        "nombre_o_anglicismo"
+      ]
+    },
+    {
+      "id": "n12",
+      "voz": "naval",
+      "ref": "naval",
+      "frases": [
+        "Hay una vieja broma que dice: cómo te haces millonario, empieza siendo multimillonario y ponte a invertir."
+      ],
+      "origen": "2019/051-angel-1#b05-naval/2",
+      "etiquetas": [
+        "media"
+      ]
+    },
+    {
+      "id": "n13",
+      "voz": "naval",
+      "ref": "naval",
+      "frases": [
+        "Al salir de la universidad, Warren Buffett quería trabajar para Benjamin Graham para aprender a ser inversor de valor."
+      ],
+      "origen": "2019/052-rich#b273-naval/10",
+      "etiquetas": [
+        "media",
+        "nombre_o_anglicismo"
+      ]
+    },
+    {
+      "id": "n14",
+      "voz": "naval",
+      "ref": "naval",
+      "frases": [
+        "Digamos que seis personas juegan a la ruleta rusa una vez cada una, y cada ganador se lleva mil millones de dólares."
+      ],
+      "origen": "2019/043-kelly-criterion#b03-naval/1",
+      "etiquetas": [
+        "media",
+        "cifra"
+      ]
+    },
+    {
+      "id": "n15",
+      "voz": "naval",
+      "ref": "naval",
+      "frases": [
+        "La gente que dice que trabaja semanas de ochenta horas, o incluso de ciento veinte horas, muchas veces solo está señalizando estatus."
+      ],
+      "origen": "2019/052-rich#b166-naval/1",
+      "etiquetas": [
+        "media",
+        "cifra"
+      ]
+    },
+    {
+      "id": "n16",
+      "voz": "naval",
+      "ref": "naval",
+      "frases": [
+        "Hoy, gracias a Internet, puedo comprar un micrófono barato, conectarlo a un portátil o a un iPad, y ahí estáis todos vosotros escuchando."
+      ],
+      "origen": "2019/052-rich#b121-naval/13",
+      "etiquetas": [
+        "media",
+        "nombre_o_anglicismo"
+      ]
+    },
+    {
+      "id": "n17",
+      "voz": "naval",
+      "ref": "naval",
+      "frases": [
+        "Quizá al final resulte ser una tontería, pero si miras a un Kanye o a una Oprah o a un Trump o a un Elon o a cualquiera así, esa gente puede hacerse rica solo con su nombre, porque su nombre es una marca poderosísima."
+      ],
+      "origen": "2019/052-rich#b106-naval/2",
+      "etiquetas": [
+        "larga",
+        "nombre_o_anglicismo"
+      ]
+    },
+    {
+      "id": "n18",
+      "voz": "naval",
+      "ref": "naval",
+      "frases": [
+        "La responsabilidad es muy importante porque cuando algo triunfa o fracasa, si fracasa todo el mundo se señala con el dedo, y si triunfa todo el mundo da un paso al frente para llevarse el mérito."
+      ],
+      "origen": "2019/052-rich#b107-naval/12",
+      "etiquetas": [
+        "larga"
+      ]
+    },
+    {
+      "id": "n19",
+      "voz": "naval",
+      "ref": "naval",
+      "frases": [
+        "En microeconomía intentan caracterizarlo así: los incentivos del principal son distintos de los incentivos del agente, así que el dueño del negocio quiere lo que es mejor para el negocio y lo que dará más dinero."
+      ],
+      "origen": "2019/042-principal-agent#b04-naval/1",
+      "etiquetas": [
+        "larga"
+      ]
+    },
+    {
+      "id": "n20",
+      "voz": "naval",
+      "ref": "naval",
+      "frases": [
+        "También hay ventajas fiscales para inversores ángel, que van desde la exención de acciones de pequeñas empresas cualificadas en Estados Unidos hasta ventajas fiscales muy favorables en Inglaterra y otros países."
+      ],
+      "origen": "2019/051-angel-1#b21-naval/2",
+      "etiquetas": [
+        "larga",
+        "nombre_o_anglicismo"
+      ]
+    },
+    {
+      "id": "n21",
+      "voz": "naval",
+      "ref": "naval",
+      "frases": [
+        "Todo el mundo entiende esto porque estamos evolucionados para entender el apalancamiento basado en el trabajo, así que lo que pasa es que la sociedad sobrevalora el trabajo como forma de apalancamiento."
+      ],
+      "origen": "2019/052-rich#b117-naval/3",
+      "etiquetas": [
+        "larga"
+      ]
+    },
+    {
+      "id": "n22",
+      "voz": "naval",
+      "ref": "naval",
+      "frases": [
+        "Pero yo diría que tu carácter y tu reputación son cosas que puedes construir y que luego te van a permitir aprovechar oportunidades que otros describirán como suerte, aunque tú sabes que no fue suerte."
+      ],
+      "origen": "2019/052-rich#b25-naval/8",
+      "etiquetas": [
+        "larga"
+      ]
+    },
+    {
+      "id": "n23",
+      "voz": "naval",
+      "ref": "naval",
+      "frases": [
+        "Pero entonces, claro, aparece el Estado y básicamente dice: oye, ¿sabes qué?, has ganado mucho dinero este año."
+      ],
+      "origen": "2019/052-rich#b41-naval/5",
+      "etiquetas": [
+        "media",
+        "pregunta"
+      ]
+    },
+    {
+      "id": "n24",
+      "voz": "naval",
+      "ref": "naval",
+      "frases": [
+        "Sí. El libro de Taleb, Skin In The Game, es lectura obligatoria."
+      ],
+      "origen": "2019/052-rich#b114-naval/0",
+      "etiquetas": [
+        "media",
+        "nombre_o_anglicismo"
+      ]
+    },
+    {
+      "id": "n25",
+      "voz": "naval",
+      "ref": "naval",
+      "frases": [
+        "Ese es un tema que da para varias horas por sí solo.",
+        "Antes de nada, me pareció una forma muy ingeniosa de cerrar todo el asunto.",
+        "Desarma a toda esa gente que pregunta para qué sirve hacerse rico.",
+        "Hay mucha gente a la que le gusta presumir de virtud en contra de la idea de crear riqueza o ganar dinero.",
+        "Y además es cierto.",
+        "Sí, el dinero resolverá todos tus problemas de dinero.",
+        "Pero no te lleva a todas partes.",
+        "Lo primero que descubres cuando has ganado un montón de dinero es que sigues siendo la misma persona.",
+        "Si eres feliz, eres feliz."
+      ],
+      "origen": "2019/035-finally-wealthy#b02-naval/0-8",
+      "etiquetas": [
+        "bloque"
+      ]
+    },
+    {
+      "id": "v01",
+      "voz": "nivi",
+      "ref": "nivi",
+      "frases": [
+        "El último tuit sobre el tema de trabajar a largo plazo dice lo siguiente."
+      ],
+      "origen": "2019/035-finally-wealthy#b01-nivi/0",
+      "etiquetas": [
+        "media",
+        "nombre_o_anglicismo"
+      ]
+    },
+    {
+      "id": "v02",
+      "voz": "nivi",
+      "ref": "nivi",
+      "frases": [
+        "Cuando por fin seas rico, te darás cuenta de que no era lo que buscabas en realidad."
+      ],
+      "origen": "2019/035-finally-wealthy#b01-nivi/1",
+      "etiquetas": [
+        "media"
+      ]
+    },
+    {
+      "id": "v03",
+      "voz": "nivi",
+      "ref": "nivi",
+      "frases": [
+        "Pero eso es para otro día."
+      ],
+      "origen": "2019/035-finally-wealthy#b01-nivi/2",
+      "etiquetas": [
+        "corta"
+      ]
+    },
+    {
+      "id": "v04",
+      "voz": "nivi",
+      "ref": "nivi",
+      "frases": [
+        "Hablemos de los puntos de Schelling."
+      ],
+      "origen": "2019/044-schelling-point#b01-nivi/0",
+      "etiquetas": [
+        "corta",
+        "nombre_o_anglicismo"
+      ]
+    },
+    {
+      "id": "v05",
+      "voz": "nivi",
+      "ref": "nivi",
+      "frases": [
+        "¿Cuál es el mejor indicador de que un hub de startups está funcionando?"
+      ],
+      "origen": "2019/051-angel-1#b18-nivi/0",
+      "etiquetas": [
+        "media",
+        "pregunta",
+        "nombre_o_anglicismo"
+      ]
+    },
+    {
+      "id": "v06",
+      "voz": "nivi",
+      "ref": "nivi",
+      "frases": [
+        "Dice así: las empresas no saben medir los resultados, así que miden lo que entra."
+      ],
+      "origen": "2019/052-rich#b281-nivi/1",
+      "etiquetas": [
+        "media"
+      ]
+    },
+    {
+      "id": "v07",
+      "voz": "nivi",
+      "ref": "nivi",
+      "frases": [
+        "¿Quieres contarnos qué trabajos tuviste de joven y cuál fue el que disparó tu obsesión fanática por crear riqueza?"
+      ],
+      "origen": "2019/041-envy#b01-nivi/0",
+      "etiquetas": [
+        "media",
+        "pregunta"
+      ]
+    },
+    {
+      "id": "v08",
+      "voz": "nivi",
+      "ref": "nivi",
+      "frases": [
+        "Al último grupo de financieros que estaba en el sitio correcto en el momento correcto lo llamamos Wall Street."
+      ],
+      "origen": "2019/051-angel-1#b27-nivi/0",
+      "etiquetas": [
+        "media",
+        "nombre_o_anglicismo"
+      ]
+    },
+    {
+      "id": "v09",
+      "voz": "nivi",
+      "ref": "nivi",
+      "frases": [
+        "Antes hablamos de elegir un modelo de negocio que tenga apalancamiento por economías de escala, efectos de red y coste marginal de replicación cero."
+      ],
+      "origen": "2019/042-principal-agent#b01-nivi/0",
+      "etiquetas": [
+        "media"
+      ]
+    },
+    {
+      "id": "v10",
+      "voz": "nivi",
+      "ref": "nivi",
+      "frases": [
+        "¿La responsabilidad es de verdad frágil, o lo que quieres decir es que estamos cableados para no fracasar en público, y por eso simplemente da la sensación de que es algo frágil?"
+      ],
+      "origen": "2019/052-rich#b111-nivi/0",
+      "etiquetas": [
+        "larga",
+        "pregunta"
+      ]
+    },
+    {
+      "id": "b01",
+      "voz": "brett",
+      "ref": "brett",
+      "frases": [
+        "Si no, no va a salir nunca."
+      ],
+      "origen": "2019/052-rich#b167-naval/3",
+      "etiquetas": [
+        "corta"
+      ],
+      "mismo_texto_que": "n02"
+    },
+    {
+      "id": "b02",
+      "voz": "brett",
+      "ref": "brett",
+      "frases": [
+        "¿Cuándo sabes que hay que ser impaciente?"
+      ],
+      "origen": "2019/052-rich#b168-naval/1",
+      "etiquetas": [
+        "corta",
+        "pregunta"
+      ],
+      "mismo_texto_que": "n05"
+    },
+    {
+      "id": "b03",
+      "voz": "brett",
+      "ref": "brett",
+      "frases": [
+        "Lo bonito de esto es que somos siete mil millones de seres humanos en el planeta."
+      ],
+      "origen": "2019/052-rich#b49-naval/8",
+      "etiquetas": [
+        "media",
+        "cifra"
+      ],
+      "mismo_texto_que": "n08"
+    },
+    {
+      "id": "b04",
+      "voz": "brett",
+      "ref": "brett",
+      "frases": [
+        "Y por supuesto Jeff Bezos y Mark Zuckerberg y Larry Page y Sergey Brin y Bill Gates y Steve Jobs."
+      ],
+      "origen": "2019/052-rich#b122-naval/8",
+      "etiquetas": [
+        "media",
+        "nombre_o_anglicismo"
+      ],
+      "mismo_texto_que": "n10"
+    },
+    {
+      "id": "b05",
+      "voz": "brett",
+      "ref": "brett",
+      "frases": [
+        "Hay una vieja broma que dice: cómo te haces millonario, empieza siendo multimillonario y ponte a invertir."
+      ],
+      "origen": "2019/051-angel-1#b05-naval/2",
+      "etiquetas": [
+        "media"
+      ],
+      "mismo_texto_que": "n12"
+    },
+    {
+      "id": "b06",
+      "voz": "brett",
+      "ref": "brett",
+      "frases": [
+        "Digamos que seis personas juegan a la ruleta rusa una vez cada una, y cada ganador se lleva mil millones de dólares."
+      ],
+      "origen": "2019/043-kelly-criterion#b03-naval/1",
+      "etiquetas": [
+        "media",
+        "cifra"
+      ],
+      "mismo_texto_que": "n14"
+    },
+    {
+      "id": "b07",
+      "voz": "brett",
+      "ref": "brett",
+      "frases": [
+        "Hoy, gracias a Internet, puedo comprar un micrófono barato, conectarlo a un portátil o a un iPad, y ahí estáis todos vosotros escuchando."
+      ],
+      "origen": "2019/052-rich#b121-naval/13",
+      "etiquetas": [
+        "media",
+        "nombre_o_anglicismo"
+      ],
+      "mismo_texto_que": "n16"
+    },
+    {
+      "id": "b08",
+      "voz": "brett",
+      "ref": "brett",
+      "frases": [
+        "En microeconomía intentan caracterizarlo así: los incentivos del principal son distintos de los incentivos del agente, así que el dueño del negocio quiere lo que es mejor para el negocio y lo que dará más dinero."
+      ],
+      "origen": "2019/042-principal-agent#b04-naval/1",
+      "etiquetas": [
+        "larga"
+      ],
+      "mismo_texto_que": "n19"
+    },
+    {
+      "id": "b09",
+      "voz": "brett",
+      "ref": "brett",
+      "frases": [
+        "Todo el mundo entiende esto porque estamos evolucionados para entender el apalancamiento basado en el trabajo, así que lo que pasa es que la sociedad sobrevalora el trabajo como forma de apalancamiento."
+      ],
+      "origen": "2019/052-rich#b117-naval/3",
+      "etiquetas": [
+        "larga"
+      ],
+      "mismo_texto_que": "n21"
+    },
+    {
+      "id": "b10",
+      "voz": "brett",
+      "ref": "brett",
+      "frases": [
+        "Ese es un tema que da para varias horas por sí solo.",
+        "Antes de nada, me pareció una forma muy ingeniosa de cerrar todo el asunto.",
+        "Desarma a toda esa gente que pregunta para qué sirve hacerse rico.",
+        "Hay mucha gente a la que le gusta presumir de virtud en contra de la idea de crear riqueza o ganar dinero.",
+        "Y además es cierto.",
+        "Sí, el dinero resolverá todos tus problemas de dinero.",
+        "Pero no te lleva a todas partes.",
+        "Lo primero que descubres cuando has ganado un montón de dinero es que sigues siendo la misma persona.",
+        "Si eres feliz, eres feliz."
+      ],
+      "origen": "2019/035-finally-wealthy#b02-naval/0-8",
+      "etiquetas": [
+        "bloque"
+      ],
+      "mismo_texto_que": "n25"
+    },
+    {
+      "id": "k01",
+      "voz": "naval",
+      "ref": "naval_kapil",
+      "frases": [
+        "Todo forma parte del plan."
+      ],
+      "origen": "2019/041-envy#b06-naval/10",
+      "etiquetas": [
+        "corta"
+      ],
+      "mismo_texto_que": "n01"
+    },
+    {
+      "id": "k02",
+      "voz": "naval",
+      "ref": "naval_kapil",
+      "frases": [
+        "Eso es la fortuna, eso es el destino."
+      ],
+      "origen": "2019/052-rich#b16-naval/2",
+      "etiquetas": [
+        "corta"
+      ],
+      "mismo_texto_que": "n04"
+    },
+    {
+      "id": "k03",
+      "voz": "naval",
+      "ref": "naval_kapil",
+      "frases": [
+        "¿Cuándo sabes que hay que ser impaciente?"
+      ],
+      "origen": "2019/052-rich#b168-naval/1",
+      "etiquetas": [
+        "corta",
+        "pregunta"
+      ],
+      "mismo_texto_que": "n05"
+    },
+    {
+      "id": "k04",
+      "voz": "naval",
+      "ref": "naval_kapil",
+      "frases": [
+        "¿Cómo consigues que se coordinen personas que no pueden comunicarse entre ellas?"
+      ],
+      "origen": "2019/052-rich#b252-naval/3",
+      "etiquetas": [
+        "media",
+        "pregunta"
+      ],
+      "mismo_texto_que": "n09"
+    },
+    {
+      "id": "k05",
+      "voz": "naval",
+      "ref": "naval_kapil",
+      "frases": [
+        "Hay una vieja broma que dice: cómo te haces millonario, empieza siendo multimillonario y ponte a invertir."
+      ],
+      "origen": "2019/051-angel-1#b05-naval/2",
+      "etiquetas": [
+        "media"
+      ],
+      "mismo_texto_que": "n12"
+    },
+    {
+      "id": "k06",
+      "voz": "naval",
+      "ref": "naval_kapil",
+      "frases": [
+        "La gente que dice que trabaja semanas de ochenta horas, o incluso de ciento veinte horas, muchas veces solo está señalizando estatus."
+      ],
+      "origen": "2019/052-rich#b166-naval/1",
+      "etiquetas": [
+        "media",
+        "cifra"
+      ],
+      "mismo_texto_que": "n15"
+    },
+    {
+      "id": "k07",
+      "voz": "naval",
+      "ref": "naval_kapil",
+      "frases": [
+        "La responsabilidad es muy importante porque cuando algo triunfa o fracasa, si fracasa todo el mundo se señala con el dedo, y si triunfa todo el mundo da un paso al frente para llevarse el mérito."
+      ],
+      "origen": "2019/052-rich#b107-naval/12",
+      "etiquetas": [
+        "larga"
+      ],
+      "mismo_texto_que": "n18"
+    },
+    {
+      "id": "k08",
+      "voz": "naval",
+      "ref": "naval_kapil",
+      "frases": [
+        "Pero yo diría que tu carácter y tu reputación son cosas que puedes construir y que luego te van a permitir aprovechar oportunidades que otros describirán como suerte, aunque tú sabes que no fue suerte."
+      ],
+      "origen": "2019/052-rich#b25-naval/8",
+      "etiquetas": [
+        "larga"
+      ],
+      "mismo_texto_que": "n22"
+    },
+    {
+      "id": "k09",
+      "voz": "naval",
+      "ref": "naval_kapil",
+      "frases": [
+        "Pero entonces, claro, aparece el Estado y básicamente dice: oye, ¿sabes qué?, has ganado mucho dinero este año."
+      ],
+      "origen": "2019/052-rich#b41-naval/5",
+      "etiquetas": [
+        "media",
+        "pregunta"
+      ],
+      "mismo_texto_que": "n23"
+    },
+    {
+      "id": "k10",
+      "voz": "naval",
+      "ref": "naval_kapil",
+      "frases": [
+        "Ese es un tema que da para varias horas por sí solo.",
+        "Antes de nada, me pareció una forma muy ingeniosa de cerrar todo el asunto.",
+        "Desarma a toda esa gente que pregunta para qué sirve hacerse rico.",
+        "Hay mucha gente a la que le gusta presumir de virtud en contra de la idea de crear riqueza o ganar dinero.",
+        "Y además es cierto.",
+        "Sí, el dinero resolverá todos tus problemas de dinero.",
+        "Pero no te lleva a todas partes.",
+        "Lo primero que descubres cuando has ganado un montón de dinero es que sigues siendo la misma persona.",
+        "Si eres feliz, eres feliz."
+      ],
+      "origen": "2019/035-finally-wealthy#b02-naval/0-8",
+      "etiquetas": [
+        "bloque"
+      ],
+      "mismo_texto_que": "n25"
+    }
+  ]
+}

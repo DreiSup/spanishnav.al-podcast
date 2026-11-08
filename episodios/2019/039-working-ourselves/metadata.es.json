@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": 39,
+  "anio": 2019,
+  "slug": "working-ourselves",
+  "titulo_es": "Todos deberíamos trabajar para nosotros mismos",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Todos deberíamos trabajar para nosotros mismos",
+    "descripcion": "",
+    "tags": [],
+    "url": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "notas": "Sin cambios sobre el f5 recibido: no hubo errores objetivos que corregir ni decisiones de traducción pendientes. Es el episodio más limpio de los revisados hasta ahora: 55 frases en los dos idiomas, todos los bloques entre 0,97 y 1,12, y el glosario respetado en las cuatro entradas que aparecen (leverage seis de seis como apalancamiento, accountability tres de tres como responsabilidad, judgment como criterio, wealth como riqueza). La fecha no estaba en el catálogo; entra con --fecha 2019-06-24, tomada de la cabecera del f0, y encaja entre el 38 del 21 de junio y el 40 del 26. Solapamiento con 052-rich: 18 de las 55 frases y 3 de los 4 titulos_seccion son idénticos. Misma decisión pendiente que 035 a 038 y 044 a 045: producir la recopilación o los sueltos, no ambos. Antes de sintetizar, escuchar: «ceteris paribus» va en latín y sin comillas, glosado dentro de la propia frase, así que el TTS tiene que leerlo seguido sin tropezar. Comprobar también Lyft, YouTube y Silicon Valley. La última frase del episodio hace concordancia ad sensum, «la gente joven se está dando cuenta de que si van a trabajar»: es natural en lengua hablada y el texto va a TTS, así que se deja, pero queda apuntado. Artefacto del f0 inglés, no tocado: espaciado irregular en b05 alrededor de un guion largo y de un apóstrofo; el troceo del script colapsa los espacios."
+}

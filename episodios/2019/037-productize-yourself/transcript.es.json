@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2019/037-productize-yourself",
+  "numero": 37,
+  "fecha": "2019-05-24",
+  "titulo": "Productízate a ti mismo",
+  "subtitulo": "Averigua en qué eres excepcionalmente bueno y aplica todo el apalancamiento posible",
+  "fuente_url": "https://nav.al/productize-yourself",
+  "titulos_seccion": [
+    "Encuentra aficiones que te hagan rico, en forma y creativo"
+  ],
+  "contenido": [
+    {
+      "id": "b01-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Resumiste este hilo de tuits entero en dos palabras: productízate a ti mismo."
+      ]
+    },
+    {
+      "id": "b02-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Productizar contiene conocimiento específico y apalancamiento.",
+        "A ti mismo contiene singularidad y responsabilidad.",
+        "A ti mismo también contiene conocimiento específico.",
+        "Así que puedes combinar todas estas piezas en esas dos palabras.",
+        "Si miras al largo plazo, deberías preguntarte si esto es auténtico en ti y si es a ti mismo a quien estás proyectando.",
+        "Y después, si lo estás convirtiendo en producto, si lo estás escalando, y si escalas con trabajo o con capital o con código o con medios.",
+        "Es una regla mnemotécnica muy práctica y muy sencilla.",
+        "¿Qué es este podcast?",
+        "Es un podcast que se llama Naval.",
+        "Literalmente me estoy convirtiendo a mí mismo en producto con un podcast."
+      ]
+    },
+    {
+      "id": "b03-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Quieres averiguar en qué eres bueno de forma única, o qué es lo que eres de forma única, y aplicar todo el apalancamiento posible.",
+        "Así que ganar dinero ni siquiera es algo que haces.",
+        "No es una habilidad.",
+        "Es quien eres, estampado un millón de veces."
+      ]
+    },
+    {
+      "id": "b04-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Ganar dinero debería ser una función de tu identidad y de lo que te gusta hacer.",
+        "Otro tuit que me gustó mucho decía: encuentra tres aficiones, una que te haga ganar dinero, una que te mantenga en forma y una que te haga creativo.",
+        "Yo lo cambiaría un poco.",
+        "Yo diría: una que te haga ganar dinero, una que te ponga en forma y una que te haga más inteligente.",
+        "En mi caso, mis aficiones serían leer y ganar dinero, porque me encanta trabajar con startups, invertir en ellas, pensarlas y fundarlas.",
+        "Me encanta la fase de ideación y de creación inicial alrededor de las startups.",
+        "En cuanto a la afición que te mantiene en forma, la verdad es que no tengo ninguna.",
+        "Lo más parecido que tengo es el yoga, pero ahí es donde me desmoroné.",
+        "Creo que la gente que descubre pronto en la vida algo como el surf o la natación o el tenis o algún deporte que sigue practicando durante casi toda su vida tiene mucha suerte, porque ha encontrado una afición que la mantendrá en forma."
+      ]
+    }
+  ]
+}

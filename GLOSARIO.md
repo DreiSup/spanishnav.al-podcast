@@ -7,8 +7,10 @@ la decisión aquí para no volver a dudar en el episodio siguiente.
 
 - **Registro**: tuteo, cercano pero no coloquial. Naval habla en frases cortas
   y afirmativas; conserva esa cadencia en vez de alargar con subordinadas.
-- **Español neutro**: evita localismos de España o de un país concreto
-  («vale», «chévere», «coger» en según qué acepción).
+- **Vocabulario de España** (decisión del autor, 2-nov): «coche», «ordenador» y el resto del vocabulario
+  castellano se mantienen, aunque la voz salga a veces con acento latino. Tuteo en singular. Se siguen
+  evitando vosotros y sus verbos, «os», «vale» como interjección y coloquialismos como «chaval», «guay» o
+  «mola» (el normalizador los marca), y los localismos de otros países («chévere»).
 - **No traduzcas de más**: los términos técnicos ya asentados en inglés se
   dejan en inglés si es como se dicen en español (ver tabla).
 - **Pensado para leerse en voz alta**: si una frase se traba al leerla, está
@@ -46,3 +48,12 @@ la decisión aquí para no volver a dudar en el episodio siguiente.
 
 No se traducen. Comprueba en `NOTAS.md` del episodio cómo los pronuncia el TTS
 y, si hace falta, escríbelos fonéticamente solo en el texto que va al TTS.
+
+## Siglas y títulos
+
+Cómo se escriben para que el TTS los lea bien. Una línea por decisión: la sigla o el título, cómo queda en el
+texto en español y por qué.
+
+| Original | En el texto | Nota |
+|---|---|---|
+| ADN | ADN | Se lee bien como sigla |
