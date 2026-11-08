@@ -10,6 +10,8 @@ mantiene la sesión técnica. Rama: `claude/quirky-dirac-x18c3n` (pull --no-reba
 - El autor ejecuta Colab; la sesión técnica prepara y prueba los cuadernos **sin GPU** (motores falsos) antes de
   subirlos.
 - Git guarda texto; Drive guarda bytes. Nunca audio en git.
+- **Esta sesión es solo la parte técnica de generar** (fábrica, cuadernos, Colab, optimización). Las tareas del
+  autor (Google Tasks), las escuchas y sus decisiones las lleva otra sesión: aquí no se preguntan ni se gestionan.
 
 ## Cómo se genera un episodio
 
