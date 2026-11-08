@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>Tablero spanishnav.al</title>
+<style>
+  /* Tablero de producción: una columna en el móvil; resumen arriba, lista de episodios abajo. */
+  :root {
+    --bg: #f6f7f9; --panel: #ffffff; --fg: #15181d; --muted: #5d6673; --line: #dfe3e8;
+    --bar: #b9c2cd; --ok: #1f7a45; --warn: #a15c00; --bad: #b42318; --accent: #2b5fd9;
+    --r: 10px; --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #111418; --panel: #1a1e24; --fg: #e8ebef; --muted: #9aa4b1; --line: #2c323a;
+      --bar: #46505c; --ok: #5cc98a; --warn: #f0b350; --bad: #f2796c; --accent: #7fa4ff; color-scheme: dark; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.45 var(--sans); }
+  main { max-width: 56rem; margin-inline: auto; display: flex; flex-direction: column; gap: 16px;
+    padding-block: max(16px, env(safe-area-inset-top)) max(32px, env(safe-area-inset-bottom));
+    padding-left: max(16px, env(safe-area-inset-left)); padding-right: max(16px, env(safe-area-inset-right)); }
+  h1 { font-size: 22px; margin: 0; }
+  h2 { font-size: 16px; margin: 0; }
+  .muted { color: var(--muted); font-size: 13px; margin: 0; }
+  .head { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
+  .head > div { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+  button { font: inherit; color: inherit; }
+  .btn { border: 1px solid var(--line); background: var(--panel); border-radius: var(--r); padding: 8px 12px; min-height: 40px; cursor: pointer; }
+  .btn:focus-visible, .step:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--r); padding: 16px; display: flex; flex-direction: column; gap: 12px; min-width: 0; }
+  .take { font-size: 17px; margin: 0; }
+  .take b { color: var(--warn); }
+  .avisos { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+  .avisos li { display: flex; gap: 10px; align-items: baseline; }
+  .dot { flex: none; width: 9px; height: 9px; border-radius: 50%; transform: translateY(-1px); }
+  .dot.ok { background: var(--ok); } .dot.warn { background: var(--warn); } .dot.bad { background: var(--bad); }
+  .steps { display: flex; flex-direction: column; gap: 8px; }
+  .step { display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; border: 1px solid transparent; background: none; border-radius: var(--r); padding: 6px 8px; text-align: left; cursor: pointer; }
+  .step[aria-pressed="true"] { border-color: var(--accent); }
+  .step .n { font-variant-numeric: tabular-nums; color: var(--muted); font-size: 13px; }
+  .step .track { grid-column: 1 / -1; height: 10px; background: var(--line); border-radius: 5px; overflow: hidden; }
+  .step .track, .step .fill { display: block; }
+  .step .fill { height: 100%; background: var(--bar); border-radius: 5px; }
+  .step.cuello .fill { background: var(--warn); }
+  .step.revisar .fill { background: var(--bad); }
+  .step.publicado .fill { background: var(--ok); }
+  .tools { display: flex; gap: 8px; flex-wrap: wrap; }
+  .tools input { flex: 1 1 12rem; min-width: 0; font: inherit; padding: 8px 12px; min-height: 40px; border: 1px solid var(--line); border-radius: var(--r); background: var(--bg); color: var(--fg); }
+  .eps { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
+  .ep { display: grid; grid-template-columns: 3rem 1fr; gap: 2px 10px; padding-block: 10px; border-top: 1px solid var(--line); }
+  .ep:first-child { border-top: 0; }
+  .ep .num { font-variant-numeric: tabular-nums; color: var(--muted); font-size: 13px; padding-top: 2px; }
+  .ep .t { font-weight: 500; overflow-wrap: anywhere; }
+  .ep .meta { grid-column: 2; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 12px; color: var(--muted); }
+  .pill { border: 1px solid var(--line); border-radius: 999px; padding: 1px 8px; white-space: nowrap; }
+  .pill.publicado { color: var(--ok); border-color: currentColor; }
+  .pill.revisar { color: var(--bad); border-color: currentColor; }
+  .pill.programado { color: var(--accent); border-color: currentColor; }
+  .no { color: var(--bad); }
+  .ep .nota { grid-column: 2; font-size: 12px; color: var(--bad); }
+  a { color: var(--accent); }
+  .error { color: var(--bad); }
+  details summary { cursor: pointer; font-weight: 500; }
+  dl { margin: 0; display: grid; gap: 6px; font-size: 13px; color: var(--muted); }
+  dt { color: var(--fg); font-weight: 500; } dd { margin: 0 0 6px; }
+</style>
+</head>
+<body>
+<main>
+  <header class="head">
+    <div>
+      <h1>Tablero spanishnav.al</h1>
+      <p class="muted" id="generado">Cargando…</p>
+    </div>
+    <button class="btn" id="recargar" type="button">Recargar</button>
+  </header>
+
+  <section class="card" id="resumen">
+    <p class="take" id="cuello">—</p>
+    <ul class="avisos" id="avisos"></ul>
+  </section>
+
+  <section class="card">
+    <h2>Dónde está cada episodio</h2>
+    <p class="muted">Pulsa una etapa para ver sus episodios abajo.</p>
+    <div class="steps" id="etapas"></div>
+  </section>
+
+  <section class="card">
+    <div class="tools">
+      <input id="buscar" type="search" placeholder="Buscar por número o título" aria-label="Buscar episodio">
+      <button class="btn" id="limpiar" type="button" hidden>Ver todas las etapas</button>
+    </div>
+    <p class="muted" id="cuenta"></p>
+    <ul class="eps" id="episodios"></ul>
+  </section>
+
+  <details class="card">
+    <summary>Qué significa cada etapa</summary>
+    <dl>
+      <dt>Sin traducir</dt><dd>En el archivo de nav.al pero aún sin traducción en el repo.</dd>
+      <dt>Traducido, falta el audio</dt><dd>La traducción está; falta pasarla por la fábrica de voz (Colab).</dd>
+      <dt>Audio hecho, falta escucharlo</dt><dd>El master está en Drive y nadie lo ha escuchado.</dd>
+      <dt>Escuchado: hay que arreglarlo</dt><dd>La escucha encontró algo que corregir.</dd>
+      <dt>Listo, sin fecha</dt><dd>Escuchado y bueno; falta darle fecha y pasarlo por el cuaderno de vídeo.</dd>
+      <dt>Programado</dt><dd>Tiene fecha. «Web» dice si está cargado en la web en producción y «R2» si el audio está subido.</dd>
+      <dt>Publicado</dt><dd>Su fecha llegó y se comprobó.</dd>
+      <dt>Horas</dt><dd>Duración real si ya hay audio; si no, estimada a 15 caracteres por segundo.</dd>
+    </dl>
+  </details>
+</main>
+
+<script>
+  // Los datos los genera scripts/tablero.py en el repo del podcast; aquí solo se leen.
+  const FUENTE = 'https://raw.githubusercontent.com/DreiSup/spanishnav.al-podcast/claude/quirky-dirac-x18c3n/tablero.json';
+  const ESPERAN_AL_AUTOR = ['traducido', 'sin_escuchar', 'revisar', 'listo'];
+  const estado = { datos: null, etapa: null, texto: '' };
+  const $ = (id) => document.getElementById(id);
+  const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
+  const num = (n) => new Intl.NumberFormat('es-ES', { maximumFractionDigits: 1 }).format(n);
+  const fecha = (iso) => new Date(iso).toLocaleString('es-ES', { dateStyle: 'medium', timeStyle: 'short' });
+
+  async function cargar() {
+    $('generado').textContent = 'Cargando…';
+    try {
+      const r = await fetch(FUENTE + '?t=' + Date.now(), { cache: 'no-store' });
+      if (!r.ok) throw new Error('GitHub respondió ' + r.status);
+      estado.datos = await r.json();
+      pintar();
+    } catch (e) {
+      $('generado').textContent = 'No se pudieron cargar los datos (' + e.message + '). Prueba a recargar.';
+      $('generado').className = 'muted error';
+    }
+  }
+
+  function pintar() {
+    const d = estado.datos;
+    const horas = (Date.now() - Date.parse(d.generado)) / 36e5;
+    $('generado').className = 'muted' + (horas > 36 ? ' error' : '');
+    $('generado').textContent = 'Datos del ' + fecha(d.generado) + (horas > 36 ? ' — llevan más de un día sin actualizarse' : '');
+
+    const pend = d.resumen.filter((r) => ESPERAN_AL_AUTOR.includes(r.etapa));
+    const cuello = pend.reduce((a, b) => (b.episodios > a.episodios ? b : a));
+    const take = $('cuello'); take.replaceChildren('El cuello de botella: ', el('b', null, cuello.nombre.toLowerCase()),
+      ', con ' + cuello.episodios + ' episodios (unas ' + num(cuello.horas) + ' h de audio).');
+
+    $('avisos').replaceChildren(...d.avisos.map((a) => { const li = el('li'); li.append(el('span', 'dot ' + a.nivel), el('span', null, a.texto)); return li; }));
+
+    const max = Math.max(...d.resumen.map((r) => r.episodios), 1);
+    $('etapas').replaceChildren(...d.resumen.map((r) => {
+      const b = el('button', 'step ' + r.etapa + (r.etapa === cuello.etapa ? ' cuello' : ''));
+      b.type = 'button'; b.setAttribute('aria-pressed', String(estado.etapa === r.etapa));
+      const track = el('span', 'track'); const fill = el('span', 'fill'); fill.style.width = (r.episodios / max * 100) + '%'; track.append(fill);
+      b.append(el('span', null, r.nombre), el('span', 'n', r.episodios + ' · ' + num(r.horas) + ' h'), track);
+      b.addEventListener('click', () => { estado.etapa = estado.etapa === r.etapa ? null : r.etapa; pintar(); });
+      return b;
+    }));
+    $('limpiar').hidden = !estado.etapa;
+    lista();
+  }
+
+  function lista() {
+    const q = estado.texto.trim().toLowerCase();
+    const fs = estado.datos.episodios.filter((e) => (!estado.etapa || e.etapa === estado.etapa) &&
+      (!q || String(e.numero ?? '').padStart(3, '0').includes(q) || e.titulo.toLowerCase().includes(q) || e.slug.includes(q)));
+    $('cuenta').textContent = fs.length + ' episodios';
+    $('episodios').replaceChildren(...fs.map((e) => {
+      const li = el('li', 'ep');
+      li.append(el('span', 'num', e.numero ? String(e.numero).padStart(3, '0') : '—'), el('span', 't', e.titulo));
+      const m = el('span', 'meta'); m.append(el('span', 'pill ' + e.etapa, e.etapa_nombre));
+      if (e.fecha) m.append(el('span', null, e.fecha));
+      if (e.minutos) m.append(el('span', null, num(e.minutos) + ' min'));
+      if (e.etapa === 'programado' || e.etapa === 'publicado') {
+        m.append(el('span', e.en_web === 'sí' ? null : 'no', 'Web: ' + e.en_web));
+        if (e.en_r2) m.append(el('span', e.en_r2 === 'sí' ? null : 'no', 'R2: ' + e.en_r2));
+      }
+      if (e.youtube) { const a = el('a', null, 'YouTube'); a.href = e.youtube; a.target = '_blank'; a.rel = 'noopener'; m.append(a); }
+      li.append(m);
+      if (e.nota) li.append(el('span', 'nota', e.nota));
+      return li;
+    }));
+  }
+
+  $('buscar').addEventListener('input', (ev) => { estado.texto = ev.target.value; if (estado.datos) lista(); });
+  $('limpiar').addEventListener('click', () => { estado.etapa = null; pintar(); });
+  $('recargar').addEventListener('click', cargar);
+  cargar();
+</script>
+</body>
+</html>
