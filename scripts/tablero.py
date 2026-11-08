@@ -24,7 +24,7 @@ ETAPAS = [
     ("traducido", "Traducido, falta el audio"),
     ("sin_escuchar", "Audio hecho, falta escucharlo"),
     ("revisar", "Escuchado: hay que arreglarlo"),
-    ("listo", "Listo, sin fecha"),
+    ("listo", "Listo para el cuaderno"),
     ("programado", "Programado"),
     ("publicado", "Publicado"),
 ]
@@ -117,6 +117,9 @@ def main():
                 fila["etapa"] = "traducido"
             if a.r2 and fila["fecha"] and pu.get("audio_url"):
                 fila["r2"] = en_r2(pu["audio_url"])
+            # Con fecha pero sin pasar por el cuaderno (el audio aún no está en R2): sigue en la cola del cuaderno.
+            if fila["etapa"] == "programado" and (fila["r2"] is False or not pu.get("audio_bytes")):
+                fila["etapa"] = "listo"
         # Campos de texto listos para mostrar en el tablero.
         fila["titulo"] = fila["titulo_es"] or fila["titulo_en"]
         fila["etapa_nombre"] = dict(ETAPAS)[fila["etapa"]]
@@ -148,9 +151,11 @@ def main():
                 "texto": f"{len(sin_web)} programados no están cargados en la web; el primero sale el {primero}.",
             })
     if a.r2:
-        sin_r2 = [f for f in filas if f["fecha"] and f["r2"] is False]
+        # Solo es urgente si sale hoy o mañana: entre «programar» y el cuaderno es normal que aún no esté.
+        manana = (hoy.date() + dt.timedelta(days=1)).isoformat()
+        sin_r2 = [f for f in filas if f["fecha"] and f["r2"] is False and f["fecha"] <= manana]
         if sin_r2:
-            avisos.append({"nivel": "bad", "texto": f"{len(sin_r2)} episodios con fecha no tienen el audio en R2."})
+            avisos.append({"nivel": "bad", "texto": f"{len(sin_r2)} episodios que salen hoy o mañana no tienen el audio en R2."})
     pub_sin_yt = [f for f in filas if f["etapa"] == "publicado" and not f["youtube"]]
     if pub_sin_yt:
         avisos.append({"nivel": "warn", "texto": f"{len(pub_sin_yt)} publicados sin el enlace de YouTube apuntado."})

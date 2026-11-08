@@ -82,3 +82,21 @@ Después del arreglo, vuelve al paso 3 solo con ese minuto.
   nav.al, tags y miniatura.
 - Web y RSS (con la sesión de contenido).
 - Si el master lleva intro o cierre (sintonía, aviso de doblaje con IA) y dónde.
+
+## 5. La cola de publicación: del visto bueno al cuaderno de vídeo (8-nov)
+
+El autor escucha cuando puede y se lo dice a la sesión de dirección («el 009 está bien», «el 011 hay que revisarlo en
+el 2:15»). La sesión lo apunta en el repo, que es lo que hay detrás del tablero (https://spanishnav-tablero.vercel.app/):
+
+1. **Escucha**: `python3 scripts/lote.py escucha <NNN> bueno|revisar "<lo que dijo el autor>"`. `bueno` → estado
+   `montaje` (columna «Listo para el cuaderno»); `revisar` → sigue en `tts` con la nota.
+2. **Cola**: `python3 scripts/lote.py cola` lista los listos sin fecha y los que tienen fecha.
+3. **Lote**: cuando el autor aprueba el lote, `python3 scripts/lote.py programar` da fecha (uno al día, a partir del
+   último programado), escribe `publicacion` y el título y la descripción de YouTube, e imprime el `EPISODIOS` para el
+   cuaderno de vídeo. Siguen en «Listo para el cuaderno» hasta que el audio está en R2.
+4. El autor pasa el lote por `video/video.ipynb` (vídeo, R2, YouTube programado) y pasa a la sesión los bloques
+   «Datos para la web» y «Vídeos subidos a YouTube». La sesión carga los episodios en la web y apunta los enlaces.
+5. Tras cada cambio: `python3 scripts/indice.py` y `python3 scripts/tablero.py --web ../spanishnaval-web --r2`, commit y push.
+
+Si el visto bueno es de una ronda nueva (p. ej. `ronda1/` del 009), su master tiene que estar en `audio/` antes del
+cuaderno de vídeo, que solo lee `audio/<NNN>-<slug>.mp3`.
