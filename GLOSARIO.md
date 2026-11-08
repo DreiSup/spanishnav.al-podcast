@@ -207,6 +207,32 @@ en los Google Docs anuales), no la del índice nav.al/archive. Corregidas en cat
 el 158 b09 (Wuhan, vacunas, bioéticos) se traduce fiel, sin suavizar; las frases hechas y la lista de términos sin
 pregunta del informe de 2026 quedan aprobadas tal cual.
 
+#### 160 The AI Industrial Revolution y sus tres partes — decisiones del autor del 8-nov
+
+Las preguntas salieron de leer entero el inglés del largo (con la parte 4) y de las tres partes sueltas (extras sin
+número: tokens, hardware, regulatory). Cada parte es la copia exacta de su tramo de bloques del largo
+(docs/cortos-y-largos.md). Lo que no está aquí sigue la tabla de Naval y Nivi 2025 y 2026.
+
+| Original | En el texto | Nota |
+|---|---|---|
+| agency / agentic | agencia / con más agencia | **Excepción solo para el 160**: conserva el juego con los agentes (setenta por ciento de agencia; la agencia la pondrán los agentes). En el resto del corpus sigue capacidad de actuar |
+| frontier | modelos de frontera, inteligencia de frontera, fundadores que trabajan en la frontera, empujar la frontera | Mixto |
+| Títulos | La revolución industrial de la IA (subtítulo Construye tu propia fábrica) / Derrocha tokens, ahorra tiempo / Vibe coding para hardware / La frontera regulatoria / parte 4: La empresa autónoma | En el largo, secciones Parte uno: …, Parte dos: …. Waste tokens, save time es también la máxima de Naval (b06) |
+| Subtítulos de las partes | Fábricas de software y tokenmaxxing con tres fundadores que trabajan en la frontera / La nueva integración vertical / La lucha contra la burocracia a gran escala | |
+| you guys (al grupo) | impersonal o alguien (¿Alguien ha visto…?) | Sin vosotros ni ustedes, como en el 158 |
+| FDA / CFDA / NRC | la FDA, glosada la primera vez en cada pieza (la agencia del medicamento de Estados Unidos) / la agencia del medicamento china / la Comisión Reguladora Nuclear | Título de sección: La FDA china ya supera a la estadounidense. CFDA es el nombre antiguo de la NMPA; no se corrige |
+| medical device / Single Patient IND / N-of-1 medicine / deductible | dispositivo médico / uso compasivo para un solo paciente / medicina N de uno, glosada la primera vez / franquicia | |
+| turbine blade / jet engine / 737 MAX | álabe / motor a reacción / siete tres siete MAX | Escuchar MAX en el TTS (suena como Max Hodak) |
+| BCI / MEMS foundry / PCB / STEP files | interfaz cerebro máquina, sin sigla / fundición de MEMS, glosada (microsistemas electromecánicos) / placas de circuito impreso / archivos STEP | |
+| ship / SRE / red-teaming / RAG / skills / get paged | sacar, lanzar / la ingeniería de fiabilidad / equipos rojos / descrito en la frase / habilidades / le salta la alarma de guardia | |
+| Jerga de Rauch (pilled, clanker, slaps, cooked, bro, sucks, crappy) | estoy obsesionado, tu cacharro, es una pasada, están acabadas, no, no, amigo, es un desastre, de pacotilla | Coloquial neutro, sin palabrotas |
+| Guillermo “the G” Rauch | el Gi Rauch | Decisión del autor, escrito así para el TTS |
+| NIMBY / YIMBY | NIMBY / YIMBY | En inglés. Escuchar en el TTS |
+| the dirty C-word / OpenAI is not open / Red Queen’s race | la palabra maldita, capitalismo / OpenAI, pese a su nombre, no es abierta / la carrera de la Reina Roja | Título de sección: La carrera de la Reina Roja de la regulación |
+| a bicycle for the mind, accelerated | una bicicleta para la mente, pero con motor | Enlaza con el 156 |
+| red lines / monorepo / normies | marcar las líneas rojas / monorepo / normies | Decisión del autor (8-nov) |
+| vibe coding, tokens | glosados la primera vez dentro de cada parte | Para que la copia de cada parte los lleve |
+
 ### Brett Hall y David Deutsch (072–134) — decisiones del autor del 7-nov
 
 Las preguntas salieron de leer entero el inglés de la serie (los 56 cortos y las entrevistas 133 y 134) y de contar
