@@ -91,6 +91,9 @@ comun.montar_drive()
 CFG = fabrica.cargar_config()
 CFG["verificacion"]["activa"] = VERIFICAR
 CFG["motor"]["ronda"] = RONDA
+CFG["motor"]["agrupar"] = globals().get("AGRUPAR", CFG["motor"].get("agrupar", "intervencion"))
+if CFG["motor"]["agrupar"] == "voz":
+    print(f"LOTES POR VOZ: hasta {{CFG['motor']['tanda_voz']}} frases de una voz a la vez, en lotes de {{CFG['motor']['lote_voz']}}")
 DRIVE = Path(CFG["rutas"]["drive"])
 RAIZ_VOCES = DRIVE / CFG["rutas"]["voces"]
 RAIZ_EPISODIOS = DRIVE / CFG["rutas"]["episodios"]

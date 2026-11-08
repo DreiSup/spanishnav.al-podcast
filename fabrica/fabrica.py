@@ -385,7 +385,51 @@ def generar_episodio(plan, sintetizar_lote, asr, carpeta, cfg, avisar=print, mas
     hechos = leer_registro(carpeta)
     t_total, s_total = 0.0, 0.0
     fases = {}   # segundos por fase de todo el episodio
-    for p in plan:
+    agrupar = cfg["motor"].get("agrupar", "intervencion")
+    previas = {}   # agrupar «voz»: fichero → (frases ya generadas en una tanda, su parte del tiempo y las medidas)
+
+    def entero_pendiente(q):
+        """¿Hay que generar este clip entero (no frases sueltas)? Lo mismo que decide el bucle de abajo."""
+        if rehacer.get(q["fichero"]):
+            return False
+        w, ant = tts_dir / q["fichero"], hechos.get(q["fichero"])
+        return not w.exists() or not (ant is None or clip_al_dia(ant, q, cfg))
+
+    def tanda_de_voz(i):
+        """Genera de una vez las frases de varias intervenciones seguidas de la misma voz (la de plan[i] y las
+        siguientes de esa voz que estén pendientes, hasta `motor.tanda_voz` frases), en lotes de `motor.lote_voz`
+        agrupados por longitud. Así los lotes van llenos aunque las intervenciones sean cortas. Deja el resultado en
+        `previas` y cada clip se escribe después en su turno, como siempre. Si se corta a mitad de una tanda, al
+        relanzar se repite esa tanda (lo ya escrito no)."""
+        voz, grupo = plan[i]["voz"], [plan[i]]
+        n = len(plan[i]["frases"])
+        for q in plan[i + 1:]:
+            if n >= cfg["motor"].get("tanda_voz", 48):
+                break
+            if q["voz"] == voz and q["fichero"] not in previas and entero_pendiente(q):
+                grupo.append(q)
+                n += len(q["frases"])
+        frases = [f for q in grupo for f in q["frases"]]
+        CRONO.nuevo_clip()
+        t0 = time.time()
+        hechas = generar_bloque(frases, voz, sintetizar_lote, asr, cfg_ver, pausa_de(voz, cfg),
+                                lote=cfg["motor"].get("lote_voz", 16))
+        tw = time.time() - t0
+        med = CRONO.del_clip(tw)
+        dur = [len(h["audio"]) / h["sr"] for h in hechas]
+        total, pos = sum(dur) or 1.0, 0
+        for j, q in enumerate(grupo):
+            parte = sum(dur[pos:pos + len(q["frases"])]) / total
+            previas[q["fichero"]] = (hechas[pos:pos + len(q["frases"])], {
+                "segundos": tw * parte, "tiempos": {k: v * parte for k, v in med["tiempos"].items()},
+                "lotes": med["lotes"] if j == 0 else [], "pico_gb": med.get("pico_gb"),
+                "tanda": [x["fichero"] for x in grupo]})
+            pos += len(q["frases"])
+        if len(grupo) > 1:
+            avisar(f"  tanda de {voz}: {len(grupo)} intervenciones ({grupo[0]['fichero']}…{grupo[-1]['fichero']}), "
+                   f"{len(frases)} frases a la vez, {tw:.0f} s")
+
+    for i, p in enumerate(plan):
         wav = tts_dir / p["fichero"]
         anterior = hechos.get(p["fichero"])
         pedidas = sorted({int(k) - 1 for k in rehacer.get(p["fichero"], [])})
@@ -395,8 +439,11 @@ def generar_episodio(plan, sintetizar_lote, asr, carpeta, cfg, avisar=print, mas
             if anterior is None or clip_al_dia(anterior, p, cfg):
                 continue
             avisar(f"  {p['fichero']}: ha cambiado su texto o su voz desde que se generó; lo rehago")
+        if agrupar == "voz" and not pedidas and p["fichero"] not in previas:
+            tanda_de_voz(i)
         t0 = time.time()
         CRONO.nuevo_clip()
+        extra = None
         pausa = pausa_de(p["voz"], cfg)
         hueco = max(0.0, pausa - RECORTE_INICIO - RECORTE_FINAL)
         lote = cfg["motor"].get("lote", 8)
@@ -428,8 +475,11 @@ def generar_episodio(plan, sintetizar_lote, asr, carpeta, cfg, avisar=print, mas
                 avisar(f"  {p['fichero']}: sin sus frases guardadas aparte; lo rehago entero con semillas nuevas")
             veces = 1 + max((d.get("rehecha", 0) for d in (anterior or {}).get("frases", [])), default=0) \
                 if pedidas else 0
-            hechas = generar_bloque(p["frases"], p["voz"], sintetizar_lote, asr, cfg_ver, pausa, lote=lote,
-                                    intento_base=100 * veces)
+            if p["fichero"] in previas:
+                hechas, extra = previas.pop(p["fichero"])
+            else:
+                hechas = generar_bloque(p["frases"], p["voz"], sintetizar_lote, asr, cfg_ver, pausa, lote=lote,
+                                        intento_base=100 * veces)
             sr = hechas[0]["sr"]
             audios, detalle = [], []
             for k, (frase, r) in enumerate(zip(p["frases"], hechas)):
@@ -445,8 +495,16 @@ def generar_episodio(plan, sintetizar_lote, asr, carpeta, cfg, avisar=print, mas
         with CRONO.fase("escritura"):
             _escribir_wav(wav, audio, sr)
         seg, dt = len(audio) / sr, time.time() - t0
-        t_total, s_total = t_total + dt, s_total + seg
         medidas = CRONO.del_clip(dt)
+        if extra:   # su parte de la tanda de voz en la que se generó
+            dt += extra["segundos"]
+            for k, v in extra["tiempos"].items():
+                medidas["tiempos"][k] = round(medidas["tiempos"].get(k, 0.0) + v, 2)
+            medidas["lotes"] = extra["lotes"]
+            medidas["tanda"] = extra["tanda"]
+            if extra.get("pico_gb"):
+                medidas["pico_gb"] = extra["pico_gb"]
+        t_total, s_total = t_total + dt, s_total + seg
         for k, v in medidas["tiempos"].items():
             fases[k] = fases.get(k, 0.0) + v
         fila = {"fichero": p["fichero"], "bloque": p["bloque"], "voz": p["voz"], "segundos": round(seg, 2),
@@ -735,6 +793,13 @@ class MotorQwen:
         pasada libera la memoria del modelo para que Whisper tenga sitio.
         """
         import gc
+        cabe = getattr(self, "lote_que_cabe", None)
+        if cabe and len(textos) > cabe:   # ya se sabe que no cabe: a trozos, sin volver a probar
+            audios, sr = [], None
+            for g in range(0, len(textos), cabe):
+                a, sr = self.sintetizar_lote(textos[g:g + cabe], voz, intento, semilla_lote)
+                audios += a
+            return audios, sr
         fallo = False
         try:
             return self._sintetizar_lote(textos, voz, intento, semilla_lote)
@@ -748,6 +813,7 @@ class MotorQwen:
             self.torch.cuda.empty_cache()
         if fallo:   # fuera del except, para que la excepción no retenga la memoria del intento fallido
             mitad = len(textos) // 2
+            self.lote_que_cabe = max(1, mitad)   # y se recuerda para los lotes siguientes
             print(f"  (sin memoria con {len(textos)} frases a la vez; las parto en {mitad} y {len(textos) - mitad})")
             a1, sr = self.sintetizar_lote(textos[:mitad], voz, intento, semilla_lote)
             a2, _ = self.sintetizar_lote(textos[mitad:], voz, intento, semilla_lote)

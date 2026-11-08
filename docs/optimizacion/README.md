@@ -50,6 +50,17 @@ tamaño que cupo hasta el final. Pico de memoria: Qwen 7–8,5 GB, Whisper 11,8 
 sube al primer puesto **Whisper large-v3-turbo** (decoder de 4 capas en vez de 32, ~1,5 GB menos): podría quitar
 buena parte de ese 40 % **sin cambiar el audio**, y con memoria libre volvería a revisar en lotes.
 
+## Lotes por voz (8-nov): preparado, pendiente de escuchar
+
+`voces.json` → `motor.agrupar`: `intervencion` (por defecto, lo de siempre) o `voz`. Con `voz`, la fábrica junta las
+frases de varias intervenciones seguidas de la misma voz (hasta `tanda_voz`, 48) y las genera en lotes de hasta
+`lote_voz` (16), ordenadas por longitud; cada clip se escribe después en su turno, como siempre. Si Qwen se queda sin
+memoria, parte el lote y recuerda el tamaño que cabe. Si se corta a mitad de una tanda, al relanzar se repite esa tanda.
+Probado sin GPU (motor falso): con `intervencion` el audio sale idéntico byte a byte; con `voz` el 042 se genera en 5
+pasadas (16+16+16+14 de Naval y 2 de Nivi) en vez de 14, y reanuda bien tras un corte. **Cambia el audio de lo que se
+genere** (otras semillas y otra agrupación): primero, prueba de escucha con el 042 en una subcarpeta
+(`AGRUPAR = "voz"` en la celda 2).
+
 ## Whisper turbo con marcas por segmento (8-nov): activado
 
 `fabrica/comparar_whisper.ipynb`, con 200 frases reales de 018, 027, 034, 041, 051 y 068 y 60 averías fabricadas,
