@@ -24,9 +24,9 @@
     "reintentos": 2,
     "errores_por_cada_10_palabras": 1,
     "sobra_final_max": 0.8,
-    "modelo_asr": "openai/whisper-large-v3",
-    "marcas_asr": "palabra",
-    "_modelo_asr": "Qué Whisper revisa. openai/whisper-large-v3-turbo es mucho más rápido; antes de cambiarlo, fabrica/comparar_whisper.ipynb comprueba que decide igual. No cambia la firma de las voces: cambiarlo no rehace ningún clip."
+    "modelo_asr": "openai/whisper-large-v3-turbo",
+    "marcas_asr": "segmento",
+    "_modelo_asr": "Qué Whisper revisa. Desde el 8-nov, turbo con marcas por segmento: en fabrica/comparar_whisper.ipynb coincidió con large-v3 (palabra) en el 97 % de 200 frases y cazó 58 de 60 averías, ~15 veces más rápido (naval-podcast/pruebas/whisper_turbo.md). Lo de antes: openai/whisper-large-v3 con marcas_asr palabra. No cambia la firma de las voces: cambiarlo no rehace ningún clip."
   },
   "rutas": {
     "drive": "/content/drive/MyDrive",
