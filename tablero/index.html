@@ -18,6 +18,7 @@
       --bar: #46505c; --ok: #5cc98a; --warn: #f0b350; --bad: #f2796c; --accent: #7fa4ff; color-scheme: dark; }
   }
   * { box-sizing: border-box; }
+  [hidden] { display: none !important; }  /* que «hidden» oculte aunque la clase ponga display */
   body { margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.45 var(--sans); }
   main { max-width: 56rem; margin-inline: auto; display: flex; flex-direction: column; gap: 16px;
     padding-block: max(16px, env(safe-area-inset-top)) max(32px, env(safe-area-inset-bottom));
@@ -263,6 +264,7 @@
     try { localStorage.setItem('vista', estado.vista); } catch (e) { /* sin almacenamiento */ }
     history.replaceState(null, '', estado.vista === 'kanban' ? '#kanban' : location.pathname);
     if (estado.datos) lista();
+    $('vista-episodios').scrollIntoView({ behavior: 'smooth', block: 'start' });
   }));
   $('buscar').addEventListener('input', (ev) => { estado.texto = ev.target.value; if (estado.datos) lista(); });
   $('limpiar').addEventListener('click', () => { estado.etapa = null; pintar(); });
