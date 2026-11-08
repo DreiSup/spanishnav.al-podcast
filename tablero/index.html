@@ -66,6 +66,31 @@
   details summary { cursor: pointer; font-weight: 500; }
   dl { margin: 0; display: grid; gap: 6px; font-size: 13px; color: var(--muted); }
   dt { color: var(--fg); font-weight: 500; } dd { margin: 0 0 6px; }
+  /* Vista Kanban: una columna por etapa, en fila con scroll horizontal; cada columna con su propio scroll. */
+  main.ancho { max-width: 100rem; }
+  .vistas { display: inline-flex; align-self: flex-start; border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; }
+  .vista { border: 0; background: var(--panel); padding: 8px 16px; min-height: 40px; cursor: pointer; }
+  .vista + .vista { border-left: 1px solid var(--line); }
+  .vista[aria-pressed="true"] { background: var(--accent); color: var(--panel); }
+  .vista:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+  .kanban { display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 8px; margin-inline: -4px; padding-inline: 4px; }
+  .col { flex: 0 0 min(17rem, 82vw); scroll-snap-align: start; background: var(--bg); border: 1px solid var(--line); border-radius: var(--r); display: flex; flex-direction: column; max-height: 75vh; min-width: 0; }
+  .col.marcada { border-color: var(--accent); }
+  .col-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; padding: 10px 12px; border-bottom: 1px solid var(--line); border-top: 4px solid var(--bar); border-radius: var(--r) var(--r) 0 0; }
+  .col.cuello .col-head { border-top-color: var(--warn); }
+  .col.revisar .col-head { border-top-color: var(--bad); }
+  .col.programado .col-head { border-top-color: var(--accent); }
+  .col.publicado .col-head { border-top-color: var(--ok); }
+  .col-head h3 { font-size: 14px; margin: 0; }
+  .col-head span { font-variant-numeric: tabular-nums; font-size: 12px; color: var(--muted); white-space: nowrap; }
+  .cards { list-style: none; margin: 0; padding: 8px; display: flex; flex-direction: column; gap: 8px; overflow-y: auto; }
+  .kcard { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; display: flex; flex-direction: column; gap: 4px; }
+  .kcard .top { display: flex; gap: 8px; align-items: baseline; }
+  .kcard .num { font-variant-numeric: tabular-nums; color: var(--muted); font-size: 12px; flex: none; }
+  .kcard .t { font-size: 14px; font-weight: 500; overflow-wrap: anywhere; }
+  .kcard .meta { display: flex; flex-wrap: wrap; gap: 6px; font-size: 12px; color: var(--muted); }
+  .kcard .nota { font-size: 12px; color: var(--bad); }
+  .vacia { color: var(--muted); font-size: 12px; padding: 4px; }
 </style>
 </head>
 <body>
@@ -89,13 +114,18 @@
     <div class="steps" id="etapas"></div>
   </section>
 
-  <section class="card">
+  <section class="card" id="vista-episodios">
+    <div class="vistas" role="group" aria-label="Vista">
+      <button class="vista" type="button" data-vista="lista" aria-pressed="true">Lista</button>
+      <button class="vista" type="button" data-vista="kanban" aria-pressed="false">Kanban</button>
+    </div>
     <div class="tools">
       <input id="buscar" type="search" placeholder="Buscar por número o título" aria-label="Buscar episodio">
       <button class="btn" id="limpiar" type="button" hidden>Ver todas las etapas</button>
     </div>
     <p class="muted" id="cuenta"></p>
     <ul class="eps" id="episodios"></ul>
+    <div class="kanban" id="kanban" hidden></div>
   </section>
 
   <details class="card">
@@ -117,7 +147,8 @@
   // Los datos los genera scripts/tablero.py en el repo del podcast; aquí solo se leen.
   const FUENTE = 'https://raw.githubusercontent.com/DreiSup/spanishnav.al-podcast/claude/quirky-dirac-x18c3n/tablero.json';
   const ESPERAN_AL_AUTOR = ['traducido', 'sin_escuchar', 'revisar', 'listo'];
-  const estado = { datos: null, etapa: null, texto: '' };
+  const estado = { datos: null, etapa: null, texto: '', vista: 'lista', cuello: null };
+  try { if (location.hash === '#kanban' || localStorage.getItem('vista') === 'kanban') estado.vista = 'kanban'; } catch (e) { /* sin almacenamiento */ }
   const $ = (id) => document.getElementById(id);
   const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
   const num = (n) => new Intl.NumberFormat('es-ES', { maximumFractionDigits: 1 }).format(n);
@@ -144,6 +175,7 @@
 
     const pend = d.resumen.filter((r) => ESPERAN_AL_AUTOR.includes(r.etapa));
     const cuello = pend.reduce((a, b) => (b.episodios > a.episodios ? b : a));
+    estado.cuello = cuello.etapa;
     const take = $('cuello'); take.replaceChildren('El cuello de botella: ', el('b', null, cuello.nombre.toLowerCase()),
       ', con ' + cuello.episodios + ' episodios (unas ' + num(cuello.horas) + ' h de audio).');
 
@@ -155,17 +187,28 @@
       b.type = 'button'; b.setAttribute('aria-pressed', String(estado.etapa === r.etapa));
       const track = el('span', 'track'); const fill = el('span', 'fill'); fill.style.width = (r.episodios / max * 100) + '%'; track.append(fill);
       b.append(el('span', null, r.nombre), el('span', 'n', r.episodios + ' · ' + num(r.horas) + ' h'), track);
-      b.addEventListener('click', () => { estado.etapa = estado.etapa === r.etapa ? null : r.etapa; pintar(); });
+      b.addEventListener('click', () => {
+        estado.etapa = estado.etapa === r.etapa ? null : r.etapa; pintar();
+        if (estado.vista === 'kanban' && estado.etapa) document.getElementById('col-' + r.etapa)?.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' });
+      });
       return b;
     }));
     $('limpiar').hidden = !estado.etapa;
     lista();
   }
 
-  function lista() {
+  const busca = (e) => {
     const q = estado.texto.trim().toLowerCase();
-    const fs = estado.datos.episodios.filter((e) => (!estado.etapa || e.etapa === estado.etapa) &&
-      (!q || String(e.numero ?? '').padStart(3, '0').includes(q) || e.titulo.toLowerCase().includes(q) || e.slug.includes(q)));
+    return !q || String(e.numero ?? '').padStart(3, '0').includes(q) || e.titulo.toLowerCase().includes(q) || e.slug.includes(q);
+  };
+
+  function lista() {
+    const kanban = estado.vista === 'kanban';
+    document.querySelector('main').classList.toggle('ancho', kanban);
+    document.querySelectorAll('.vista').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.vista === estado.vista)));
+    $('episodios').hidden = kanban; $('kanban').hidden = !kanban;
+    if (kanban) return tablero();
+    const fs = estado.datos.episodios.filter((e) => (!estado.etapa || e.etapa === estado.etapa) && busca(e));
     $('cuenta').textContent = fs.length + ' episodios';
     $('episodios').replaceChildren(...fs.map((e) => {
       const li = el('li', 'ep');
@@ -184,6 +227,43 @@
     }));
   }
 
+  // Kanban: todas las etapas como columnas; el filtro de etapa solo marca su columna.
+  function tablero() {
+    const fs = estado.datos.episodios.filter(busca);
+    $('cuenta').textContent = fs.length + ' episodios · desliza para ver todas las etapas';
+    $('kanban').replaceChildren(...estado.datos.resumen.map((r) => {
+      const eps = fs.filter((e) => e.etapa === r.etapa);
+      const col = el('section', 'col ' + r.etapa + (r.etapa === estado.cuello ? ' cuello' : '') + (r.etapa === estado.etapa ? ' marcada' : ''));
+      col.id = 'col-' + r.etapa;
+      const head = el('header', 'col-head'); head.append(el('h3', null, r.nombre), el('span', null, eps.length + ' · ' + num(r.horas) + ' h'));
+      const ul = el('ul', 'cards');
+      if (!eps.length) ul.append(el('li', 'vacia', 'Ninguno'));
+      for (const e of eps) {
+        const li = el('li', 'kcard');
+        const top = el('div', 'top'); top.append(el('span', 'num', e.numero ? String(e.numero).padStart(3, '0') : '—'), el('span', 't', e.titulo));
+        const m = el('div', 'meta');
+        if (e.fecha) m.append(el('span', null, e.fecha));
+        if (e.minutos) m.append(el('span', null, num(e.minutos) + ' min'));
+        if (e.etapa === 'programado' || e.etapa === 'publicado') {
+          m.append(el('span', e.en_web === 'sí' ? null : 'no', 'Web: ' + e.en_web));
+          if (e.en_r2) m.append(el('span', e.en_r2 === 'sí' ? null : 'no', 'R2: ' + e.en_r2));
+        }
+        if (e.youtube) { const a = el('a', null, 'YouTube'); a.href = e.youtube; a.target = '_blank'; a.rel = 'noopener'; m.append(a); }
+        li.append(top); if (m.childNodes.length) li.append(m);
+        if (e.nota) li.append(el('span', 'nota', e.nota));
+        ul.append(li);
+      }
+      col.append(head, ul);
+      return col;
+    }));
+  }
+
+  document.querySelectorAll('.vista').forEach((b) => b.addEventListener('click', () => {
+    estado.vista = b.dataset.vista;
+    try { localStorage.setItem('vista', estado.vista); } catch (e) { /* sin almacenamiento */ }
+    history.replaceState(null, '', estado.vista === 'kanban' ? '#kanban' : location.pathname);
+    if (estado.datos) lista();
+  }));
   $('buscar').addEventListener('input', (ev) => { estado.texto = ev.target.value; if (estado.datos) lista(); });
   $('limpiar').addEventListener('click', () => { estado.etapa = null; pintar(); });
   $('recargar').addEventListener('click', cargar);
