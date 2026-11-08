@@ -122,3 +122,10 @@ como enlace permanente: si cambia, el episodio deja de sonar en todas las apps.
 Cuando la parte 2 esté validada, un script (`scripts/subir-audio.sh`) hará en un solo paso:
 convertir a MP3, nombrar desde la carpeta del repo, subir a R2 y a la carpeta `audio/` de
 Drive, comprobar la dirección y apuntar duración y tamaño en `metadata.es.json`.
+
+## Bloqueos del fútbol en España (8-nov)
+
+Durante los partidos de LaLiga los operadores españoles bloquean IPs de Cloudflare: `audio.spanishnav.al` (R2) deja
+de cargar desde esas conexiones, mientras la web (Vercel) sigue funcionando. Comprobado por el autor el 8-nov en
+hayahora.futbol. **Decisión del autor (8-nov): se deja así**, sin plan B en el reproductor ni mover los audios. Si un
+oyente dice que «no se oye» en fin de semana, es esto: se resuelve solo al acabar el partido.
