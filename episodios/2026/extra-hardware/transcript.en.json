@@ -1,0 +1,270 @@
+{
+  "schema": 1,
+  "idioma": "en",
+  "episodio": "2026/extra-hardware",
+  "numero": null,
+  "fecha": "2026-05-28",
+  "titulo": "Vibe Coding Hardware",
+  "subtitulo": "The new vertical integration",
+  "fuente_url": "https://nav.al/hardware",
+  "titulos_seccion": [
+    "Vibe Coding a Turbine Blade",
+    "Open Source Compounds China’s Advantage",
+    "You Always Want the Smartest Model",
+    "Software Still Needs Hands",
+    "Humans Are Becoming Verifiers"
+  ],
+  "contenido": [
+    {
+      "id": "b01-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Hey Blake, how are you applying all this at Boom Supersonic?"
+      ]
+    },
+    {
+      "id": "b02-blake-scholl",
+      "speaker": "Blake Scholl",
+      "frases": [
+        "It completely changes the role of software and hardware developers.",
+        "From day one we tried to take a lot of traditional engineering workflows—hardware engineering workflows—and turn them into software.",
+        "If you haven’t been around hardware engineering, let me try to make this clear.",
+        "A lot of hardware engineering happens in Excel spreadsheets on engineers’ laptops in a silo.",
+        "Very complex spreadsheets, sometimes with VBScript code.",
+        "All of this is actually software, but it’s treated as if it’s not.",
+        "There’s no source control, no automated testing.",
+        "If you want to hand something off from an aerodynamicist to a structures engineer, that’s done manually with a spreadsheet over email.",
+        "It’s the nineteen-nineties.",
+        "It’s terrible.",
+        "So we started building software frameworks to automate and make repeatable hardware engineering flows, with the idea that we could reduce the cost of iteration.",
+        "But it was slow going—we could never afford enough software engineers.",
+        "What we’ve gotten into now is a mind-blowingly different model: the software engineers create the architectures, because they understand systems, algorithms, and division of concerns.",
+        "Then the hardware engineers can vibe-code their pieces because they know hardware engineering.",
+        "The result is mind-blowingly different productivity for small teams.",
+        "Example.",
+        "If you’re designing a turbine blade—classically, a turbine blade starts cold, but when it runs it gets hot, so it gets bigger.",
+        "You have to design both the aerodynamics and the structural design to work in its cold shape and its hot shape.",
+        "You have to convert between cold and hot, between structures and aerodynamics.",
+        "This takes one engineer one day for one blade for one piece of the analysis.",
+        "There are about a thousand blades in a jet engine.",
+        "You can’t do much.",
+        "Now, with a combination of software and hardware people creating the solution, you can change blade geometry and see in real time the structures and aerodynamics results.",
+        "Two engineers can design an entire jet engine.",
+        "Wildly different."
+      ]
+    },
+    {
+      "id": "b03-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "One of the things you mentioned is that software engineers are creating the tools and architectures for the rest of the engineers.",
+        "To me, that’s the biggest cataclysm of enterprise software—there’s no startup that builds hardware collaboration tools that can sell you anything anymore.",
+        "Internally, you’re just coding the right thing you need at any given time.",
+        "Even spreadsheets are kind of cooked.",
+        "The reason spreadsheets were successful is that no one could build custom software.",
+        "The thing that approximates custom software the most is a spreadsheet with a bunch of VBScript functions."
+      ]
+    },
+    {
+      "id": "b04-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Right—they’re lightweight programming."
+      ]
+    },
+    {
+      "id": "b05-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "I’ve personally moved almost entirely from Excel to Python models, where I can get believable simulations of things.",
+        "The thing AI hasn’t come to yet, but I think it will within the next year—probably within 2026—and that will be very exciting: right now it can generate software, but soon it will generate STEP files and PCB layouts.",
+        "When it comes for mechanical and electrical engineering, that’s a whole other thing we haven’t seen yet.",
+        "Very cool."
+      ]
+    },
+    {
+      "id": "b06-naval",
+      "speaker": "Naval",
+      "frases": [
+        "On the hardware side, this is a boon for all these little gadget companies and part companies that write really bad software because they can’t make great software.",
+        "Now they’re going to be able to make good-enough software.",
+        "Or it may not even be software with a human front end—it might just be completely agentic, an agent accessing it, and you talk to it through voice to control hardware.",
+        "This is one of the reasons China is big into open-source models.",
+        "They’re going all in on it because they have hardware superiority.",
+        "They have these very complex supply chains and component chains.",
+        "They’re basically saying—“hey, if I can just generate software on demand, then I don’t have this disadvantage anymore against Silicon Valley.",
+        "That’s not the only reason they’re doing open source.",
+        "They’re also behind, they’re distilling models, they’re catching up, they’re collaborating on resources.",
+        "But the Chinese government has a history of funding efforts that help their entire ecosystem along, especially in network-effect businesses.",
+        "They want to pool all their resources, catch up on AI, and use it to give their hardware stuff an advantage.",
+        "Ironically, they’re doing all the open-source stuff because OpenAI is not open.",
+        "Grok publishes models, but they’re a model or two behind.",
+        "Google has some local models, nothing really competitive.",
+        "Anthropic, to my knowledge—I don’t even know of any open-source models from them.",
+        "So all the open-source heft is coming from China.",
+        "It helps our hardware founders, but it helps their hardware founders and factories that much more.",
+        "All the crappy little software that goes with all the random knickknacks and thingamajigs you buy off Amazon to tinker with on a lazy Saturday afternoon—that software’s getting a lot better very quickly."
+      ]
+    },
+    {
+      "id": "b07-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "Everyone’s had the wake-up call that without great frontier coding models, you don’t have self-improvement.",
+        "Imagine China as a whole not having the ability to produce frontier everything.",
+        "It’s not just about producing software—in any piece of this hardware pipeline, like Blake was saying, you need to generate software.",
+        "If you fall behind in your ability to generate software, you fall behind in your ability to generate everything."
+      ]
+    },
+    {
+      "id": "b08-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "One thing I’m curious about: everyone loves to talk about Chinese models.",
+        "Do you guys use Chinese models?",
+        "Do you know anybody who uses Chinese models?"
+      ]
+    },
+    {
+      "id": "b09-naval",
+      "speaker": "Naval",
+      "frases": [
+        "No.",
+        "This is an argument I had yesterday at dinner.",
+        "One person at the table was claiming you’ll just use DeepSeek for 97% of things because it’s so cheap, and if you need more intelligence you’ll just run it over and over again—the same problem.",
+        "You’ll only use OpenAI, Anthropic, etc. for the most advanced tasks.",
+        "I was kind of like, “I don’t know.",
+        "I think intelligence is an unalloyed good.",
+        "You always want more intelligence.",
+        "When these models make a mistake, you don’t know it.",
+        "And it’s always cheaper than a real person, and real-time.",
+        "So you’ll just use the most intelligent model available.",
+        "Which isn’t great news, because it means you’ll end up creating a monopoly or oligopoly situation in AI.",
+        "But I always want the most intelligent programmer.",
+        "I always want the most correct answer.",
+        "I always want the best judgment.",
+        "Given the amount of leverage I’m going to pour into it—through capital and code and people and marketing—I want to make the right decision every time.",
+        "When I have two models, one I know is a little smarter than the next, and they both give me answers, often I don’t actually know which is the correct answer.",
+        "So if I know one model is a little smarter, I’m going to go with that answer, and eventually I’m going to stop asking the model I think is less intelligent.",
+        "Have you guys found a use for these so-called less intelligent models?"
+      ]
+    },
+    {
+      "id": "b10-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "We see uses.",
+        "We have AI Gateway data—basically every application agent goes through it.",
+        "There’s definitely usage of open models, but the top is heavily dominated by frontier intelligence.",
+        "There’s a caveat: frontier intelligence at reasonable cost and performance slaps at scale.",
+        "Gemini—people don’t get really excited about Gemini, but they put out models that are super smart at the right performance-cost combination.",
+        "For a lot of tasks other than coding, interestingly enough, they’re the best models.",
+        "The best industrial production models.",
+        "You can throw them at support tasks or browser automation.",
+        "I’d always put a Gemini model there, and I’d look to Chinese models for those kinds of things.",
+        "But any time I’m working to push the frontier, you need the best possible coding model.",
+        "That’s basically two or three models.",
+        "The Chinese are certainly not in it."
+      ]
+    },
+    {
+      "id": "b11-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Max, you’re pushing pretty hard into vertical integration and extreme urgency.",
+        "Want to talk about that?"
+      ]
+    },
+    {
+      "id": "b12-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "For many things, you can’t buy it, so you have to make it somehow.",
+        "We obviously don’t do this on things like frontier models—I have an Anthropic subscription.",
+        "We actually do use some of the Chinese models, to Naval’s point.",
+        "We use some Qwen models and DeepSeek models.",
+        "We have a big internal fine-tune of 3.2 that I use for a bunch of things—we’re going to look into porting to 4 soon.",
+        "But that’s on the personal side, not on the company side.",
+        "Our preference would always be to buy something.",
+        "If there’s a vendor that offers a service at a great price—for example, PCBs.",
+        "We don’t make PCBs.",
+        "Those are basically free.",
+        "You can buy them in unlimited quantity from Asia.",
+        "But the closer our products get to being a single block of covalently bonded matter, the better they’ll be.",
+        "Lower power, smaller, higher performance, longer lasting.",
+        "The components aren’t available.",
+        "In order to do that type of integration—to actually innovate beyond just piecing together things you can buy off the shelf, which is really very limiting—you have to learn to do it yourself.",
+        "That shows up as vertical integration.",
+        "So we own a captive MEMS foundry on the East Coast.",
+        "There was no other way to do the type of packaging and assembly we wanted to do.",
+        "All of this is going to be affected heavily by AI over the next few years.",
+        "It’s not quite there yet.",
+        "Ironically, one of the biggest impacts we’ve seen of AI inside the company is in regulatory interactions.",
+        "If we can generate documentation, or if we can ask—“we want to evolve this product, there are thousands of ISO standards that might apply, which ones do we have to comply with, trace this through”—that used to require a whole regulatory and quality team for several months.",
+        "Now the AI just kind of knows.",
+        "When I think about stuff like the surgical program or the MEMS fab—ultimately the software still needs hands.",
+        "It’s going to be smarter than us, but if it can’t make things, those are real boundaries.",
+        "We’ve instrumented our foundry as well as many other parts of the company in ways where, as these models get better, that should show up pretty immediately in things like the cell engineering we’re doing and the material science we’re developing.",
+        "Our protein engineering group really uses deep learning a lot—I think we’re probably state of the art there.",
+        "But it’s very application-specific.",
+        "It means different things in different parts of the company.",
+        "There’s not one answer."
+      ]
+    },
+    {
+      "id": "b13-naval",
+      "speaker": "Naval",
+      "frases": [
+        "What Max was talking about with regulatory stuff makes me realize—it’s been a while since I generated a basic legal document using a lawyer.",
+        "I stopped asking lawyers for NDAs, agreements for this, sign that, research this.",
+        "All the basic legal tasks are gone too.",
+        "There’s the old joke that law is like spaghetti code—very complicated code they try to put in English.",
+        "It contradicts this code over here, has to fit into that code over here.",
+        "There are no real APIs for it.",
+        "For junior engineers and junior engineering—junior engineers basically got a promotion to senior engineer, and junior engineering got taken over by agents.",
+        "The same way, in law, you can say “paralegals just got fired,” or you can say “paralegals just got promoted to senior lawyers, and now they can spend their time thinking about the law.”"
+      ]
+    },
+    {
+      "id": "b14-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "It’s actually interesting to think about the parallels between how software engineering is evolving and lawyers.",
+        "You never know exactly what lawyers put into these documents—you just trust them.",
+        "“Hey, lawyer, can you look at this document?",
+        "Can you tell me if it’s legit?",
+        "Can you do red lines?",
+        "What you’re valuing in the relationship with a lawyer is that they’re a trusted authority.",
+        "They went to law school.",
+        "They’re putting their reputation on the line.",
+        "There’s a parallel with software engineering.",
+        "The biggest problem today is this mountain of slop that ends up as a PR.",
+        "There are all these memes on Twitter—“way back in the day we used to read every line of code of a PR.",
+        "Well, in my world—infrastructure—I want engineers to be able to say “I understand” every line of that PR.",
+        "That doesn’t necessarily mean you’ve read every line.",
+        "It means you can say “I understand the consequences of this PR.",
+        "I’m signing off on understanding the consequences.",
+        "Or, “I wrote the test harness, the simulations, the proofs, the type-checkers—even without reading this, I have confidence I can sign off that it’ll be safe in production.",
+        "There’s a world in which we embrace that everything is going to be spaghetti code we don’t fully understand, but we write the evaluators that give us confidence, and we rely on people—the infrastructure production engineers—to say, “Okay, I’m fine sending this into prod.",
+        "Someone is going to get paged if your systems go down.",
+        "Another thing people are underestimating: creating software is really easy, zero to one.",
+        "But think about a thousand days from now.",
+        "What does your software look like?",
+        "Is it secure?",
+        "Is it tested?",
+        "Is it production-grade?",
+        "Is it performant?",
+        "And are you still motivated to invest all those tokens in maintaining it in prod?"
+      ]
+    },
+    {
+      "id": "b15-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Humans are becoming verifiers.",
+        "That’s how we train these models—with good verification data—and now we need human verifiers.",
+        "A lot of the old function of people, lawyers, engineers, operations people, moves to verifying the stack and saying, “Yeah, this is roughly correct, I’ll roughly stand behind it, I’ll support you if it goes wrong.”"
+      ]
+    }
+  ]
+}

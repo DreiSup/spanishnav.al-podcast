@@ -1,0 +1,223 @@
+{
+  "schema": 1,
+  "idioma": "es",
+  "episodio": "2026/extra-hardware",
+  "numero": null,
+  "fecha": "2026-05-28",
+  "titulo": "Vibe coding para hardware",
+  "subtitulo": "La nueva integración vertical",
+  "fuente_url": "https://nav.al/hardware",
+  "titulos_seccion": [
+    "Un álabe de turbina con vibe coding",
+    "El código abierto multiplica la ventaja de China",
+    "Siempre quieres el modelo más listo",
+    "El software sigue necesitando manos",
+    "Los humanos se están convirtiendo en verificadores"
+  ],
+  "contenido": [
+    {
+      "id": "b01-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Oye, Blake, ¿cómo estás aplicando todo esto en Boom Supersonic?"
+      ]
+    },
+    {
+      "id": "b02-blake-scholl",
+      "speaker": "Blake Scholl",
+      "frases": [
+        "Cambia por completo el papel de los que desarrollan software y hardware.",
+        "Desde el primer día intentamos coger muchos flujos de trabajo de la ingeniería tradicional, de la ingeniería de hardware, y convertirlos en software.",
+        "Si no conoces la ingeniería de hardware, deja que intente explicártelo.",
+        "Mucha ingeniería de hardware se hace en hojas de cálculo de Excel, en los portátiles de los ingenieros, cada uno en su compartimento estanco.",
+        "Son hojas de cálculo muy complejas, a veces con código en VBScript. Todo eso es software en realidad, pero se trata como si no lo fuera.",
+        "No hay control de versiones ni pruebas automatizadas.",
+        "Si quieres pasarle algo de un especialista en aerodinámica a un ingeniero de estructuras, se hace a mano, con una hoja de cálculo por correo electrónico. Es como en los años noventa, y es terrible.",
+        "Así que empezamos a construir marcos de software para automatizar los flujos de la ingeniería de hardware y hacerlos repetibles, con la idea de reducir el coste de cada iteración.",
+        "Pero iba lento, porque nunca nos podíamos permitir suficientes ingenieros de software.",
+        "Lo que hemos empezado a hacer ahora es un modelo alucinantemente distinto, en el que los ingenieros de software crean las arquitecturas, porque entienden de sistemas, de algoritmos y de separación de responsabilidades.",
+        "Luego los ingenieros de hardware pueden hacer sus piezas con vibe coding, que es programar pidiéndole las cosas a la inteligencia artificial con tus propias palabras, porque saben de ingeniería de hardware.",
+        "El resultado es una productividad alucinantemente distinta para los equipos pequeños.",
+        "Un ejemplo. Si estás diseñando un álabe de turbina, el álabe arranca en frío, pero cuando funciona se calienta y, por tanto, se hace más grande.",
+        "Tienes que diseñar tanto la aerodinámica como la estructura para que funcionen con su forma en frío y con su forma en caliente.",
+        "Tienes que pasar del frío al calor, y de las estructuras a la aerodinámica.",
+        "A un ingeniero le lleva un día por cada álabe y por cada parte del análisis, y un motor a reacción tiene unos mil álabes, así que no puedes hacer gran cosa.",
+        "Ahora, con gente de software y de hardware creando juntos la solución, puedes cambiar la geometría del álabe y ver en tiempo real los resultados de estructuras y de aerodinámica.",
+        "Dos ingenieros pueden diseñar un motor a reacción entero. Es radicalmente distinto."
+      ]
+    },
+    {
+      "id": "b03-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "Una de las cosas que has dicho es que los ingenieros de software están creando las herramientas y las arquitecturas para el resto de los ingenieros.",
+        "Para mí, ese es el mayor cataclismo del software empresarial, porque ya no hay ninguna startup de herramientas de colaboración para hardware que te pueda vender nada.",
+        "Internamente, programas lo que necesites en cada momento, y hasta las hojas de cálculo están un poco acabadas.",
+        "Si las hojas de cálculo triunfaron, fue porque nadie podía construir software a medida, y lo que más se parece al software a medida es una hoja de cálculo con un montón de funciones en VBScript."
+      ]
+    },
+    {
+      "id": "b04-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Claro, son programación ligera."
+      ]
+    },
+    {
+      "id": "b05-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "Yo, personalmente, he pasado casi por completo de Excel a modelos en Python, con los que consigo simulaciones creíbles de las cosas.",
+        "Hay algo que la inteligencia artificial todavía no ha alcanzado, aunque creo que lo hará en el próximo año, seguramente en dos mil veintiséis, y será muy emocionante.",
+        "Ahora puede generar software, pero pronto generará archivos STEP de diseño mecánico y diseños de placas de circuito impreso.",
+        "Cuando llegue a la ingeniería mecánica y eléctrica, será algo completamente distinto que todavía no hemos visto, y será fantástico."
+      ]
+    },
+    {
+      "id": "b06-naval",
+      "speaker": "Naval",
+      "frases": [
+        "En el lado del hardware, esto es una bendición para todas esas pequeñas empresas de cachivaches y de piezas que escriben un software malísimo porque no saben hacer un gran software.",
+        "Ahora van a poder hacer un software lo bastante bueno.",
+        "O puede que ni siquiera sea un software con una interfaz para personas, sino que lo maneje del todo un agente, y tú le hables con la voz para controlar el hardware.",
+        "Esta es una de las razones por las que China apuesta tanto por los modelos de código abierto.",
+        "Lo apuestan todo a eso porque tienen superioridad en hardware, con cadenas de suministro y de componentes muy complejas.",
+        "Básicamente, se están diciendo que, si pueden generar software a demanda, ya no tienen esa desventaja frente a Silicon Valley.",
+        "No es la única razón por la que hacen código abierto. También van por detrás, están destilando modelos, se están poniendo al día y están compartiendo recursos.",
+        "Pero el Gobierno chino tiene un historial de financiar iniciativas que ayudan a todo su ecosistema, sobre todo en negocios con efecto de red.",
+        "Quieren juntar todos sus recursos, ponerse al día en inteligencia artificial y usarla para darle una ventaja a su hardware.",
+        "Lo irónico es que hacen todo eso del código abierto porque OpenAI, pese a su nombre, no es abierta.",
+        "Grok publica modelos, pero van uno o dos modelos por detrás, y Google tiene algunos modelos locales, pero nada realmente competitivo.",
+        "Y de Anthropic, que yo sepa, ni siquiera conozco ningún modelo de código abierto.",
+        "Así que todo el peso del código abierto viene de China. Ayuda a nuestros fundadores de hardware, pero ayuda todavía más a sus fundadores de hardware y a sus fábricas.",
+        "Todo ese software de pacotilla que viene con los chismes y cachivaches que compras en Amazon para trastear una tarde tranquila de sábado está mejorando muchísimo y muy deprisa."
+      ]
+    },
+    {
+      "id": "b07-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "Todo el mundo se ha dado cuenta de golpe de que, sin buenos modelos de programación de frontera, no hay automejora.",
+        "Imagina que China, en conjunto, no tuviera capacidad para producir todo lo de frontera.",
+        "No se trata solo de producir software, porque en cualquier parte de esta cadena del hardware, como decía Blake, necesitas generar software.",
+        "Si te quedas atrás en tu capacidad de generar software, te quedas atrás en tu capacidad de generarlo todo."
+      ]
+    },
+    {
+      "id": "b08-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "Hay algo que me da curiosidad, porque a todo el mundo le encanta hablar de los modelos chinos.",
+        "¿Alguien de aquí usa modelos chinos, o conoce a alguien que los use?"
+      ]
+    },
+    {
+      "id": "b09-naval",
+      "speaker": "Naval",
+      "frases": [
+        "No. Precisamente tuve esta discusión ayer en una cena.",
+        "Una persona de la mesa sostenía que usarás DeepSeek para el noventa y siete por ciento de las cosas, porque es muy barato.",
+        "Y que, si necesitas más inteligencia, lo pondrás una y otra vez con el mismo problema, y solo usarás OpenAI, Anthropic y compañía para las tareas más avanzadas.",
+        "Y yo le dije que no sé. Creo que la inteligencia es un bien sin matices, y que siempre quieres más.",
+        "Cuando estos modelos se equivocan, no te enteras, y además siempre son más baratos que una persona de verdad, y en tiempo real.",
+        "Así que simplemente usarás el modelo más inteligente que haya, y no es una gran noticia, porque significa que acabarás creando un monopolio o un oligopolio en la inteligencia artificial.",
+        "Pero yo siempre quiero el programador más inteligente, siempre quiero la respuesta más correcta y siempre quiero el mejor criterio.",
+        "Con todo el apalancamiento que voy a meter en esto, a través del capital, del código, de las personas y del marketing, quiero tomar la decisión correcta cada vez.",
+        "Cuando tengo dos modelos, y sé que uno es un poco más listo que el otro, y los dos me dan respuestas, muchas veces no sé cuál es la correcta.",
+        "Así que, si sé que un modelo es un poco más listo, me quedo con su respuesta, y al final dejo de preguntarle al que creo menos inteligente.",
+        "¿Alguien le ha encontrado alguna utilidad a estos modelos supuestamente menos inteligentes?"
+      ]
+    },
+    {
+      "id": "b10-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "Nosotros sí les vemos usos. Tenemos los datos de AI Gateway, por donde pasa básicamente cada agente de cada aplicación.",
+        "Desde luego, hay uso de modelos abiertos, pero en lo más alto domina con mucho la inteligencia de frontera.",
+        "Hay un matiz, y es que la inteligencia de frontera a un coste y un rendimiento razonables es una pasada a gran escala.",
+        "Con Gemini, la gente no se entusiasma mucho, pero sacan modelos superlistos con la combinación justa de rendimiento y coste.",
+        "Curiosamente, para muchas tareas que no son de programación, son los mejores modelos de producción industrial.",
+        "Los puedes poner con tareas de soporte o de automatización del navegador, y ahí yo siempre pondría un modelo de Gemini, y para ese tipo de cosas miraría los modelos chinos.",
+        "Pero, siempre que trabajo para empujar la frontera, necesitas el mejor modelo de programación posible, que son básicamente dos o tres, y desde luego los chinos no están entre ellos."
+      ]
+    },
+    {
+      "id": "b11-nivi",
+      "speaker": "Nivi",
+      "frases": [
+        "Max, tú estás apostando muy fuerte por la integración vertical y por una urgencia extrema. ¿Quieres hablar de eso?"
+      ]
+    },
+    {
+      "id": "b12-max-hodak",
+      "speaker": "Max Hodak",
+      "frases": [
+        "Muchas cosas no se pueden comprar, así que tienes que fabricarlas como sea.",
+        "Evidentemente, no lo hacemos con cosas como los modelos de frontera, y yo tengo una suscripción a Anthropic.",
+        "Aunque, como decía Naval, sí usamos algunos modelos chinos, algunos modelos de Qwen y de DeepSeek.",
+        "Tenemos un gran ajuste fino interno del tres punto dos que uso para un montón de cosas, y pronto vamos a estudiar pasarlo al cuatro.",
+        "Pero eso es en lo personal, no en la empresa.",
+        "Lo que preferimos siempre es comprar, si hay un proveedor que ofrece un servicio a un gran precio, como las placas de circuito impreso.",
+        "Nosotros no fabricamos placas de circuito impreso, porque son prácticamente gratis y las puedes comprar en Asia en cantidades ilimitadas.",
+        "Pero cuanto más se acerquen nuestros productos a ser un único bloque de materia unida por enlaces covalentes, mejores serán.",
+        "Consumirán menos, serán más pequeños, rendirán más y durarán más, pero los componentes no existen.",
+        "Para lograr ese tipo de integración, para innovar de verdad más allá de juntar piezas de catálogo, que es algo muy limitante, tienes que aprender a hacerlo tú mismo.",
+        "Eso es lo que se ve como integración vertical.",
+        "Así que tenemos una fundición propia de microsistemas electromecánicos, lo que se llama MEMS, en la Costa Este, porque no había otra forma de hacer el tipo de encapsulado y de ensamblaje que queríamos.",
+        "Todo esto se va a ver muy afectado por la inteligencia artificial en los próximos años, aunque todavía no ha llegado del todo.",
+        "Lo irónico es que uno de los mayores impactos de la IA que hemos visto dentro de la empresa ha sido en el trato con los reguladores.",
+        "Por ejemplo, para generar documentación, o para preguntar qué normas tenemos que cumplir si queremos que este producto evolucione y hay miles de normas ISO que podrían aplicarse, y que lo rastree todo.",
+        "Antes eso exigía un equipo entero de regulación y calidad durante varios meses, y ahora la IA, más o menos, lo sabe.",
+        "Cuando pienso en cosas como el programa quirúrgico o la fábrica de MEMS, al final el software sigue necesitando manos.",
+        "Va a ser más listo que nosotros, pero, si no puede fabricar cosas, ahí hay límites reales.",
+        "Hemos instrumentado nuestra fundición y muchas otras partes de la empresa de forma que, a medida que mejoren estos modelos, eso se note casi de inmediato.",
+        "Por ejemplo, en la ingeniería celular que hacemos y en la ciencia de materiales que estamos desarrollando.",
+        "Nuestro grupo de ingeniería de proteínas usa muchísimo el aprendizaje profundo, y creo que probablemente estamos a la última ahí.",
+        "Pero depende mucho de cada aplicación, significa cosas distintas en distintas partes de la empresa, y no hay una única respuesta."
+      ]
+    },
+    {
+      "id": "b13-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Lo que contaba Max de la regulación me hace darme cuenta de que hace tiempo que no le encargo a un abogado un documento legal básico.",
+        "He dejado de pedirles a los abogados acuerdos de confidencialidad, contratos para esto, firmas para aquello, investigaciones sobre lo otro.",
+        "Todas las tareas legales básicas también han desaparecido.",
+        "Está ese viejo chiste de que el derecho es como el código espagueti, un código muy complicado que intentan escribir en inglés.",
+        "Contradice este código de aquí, tiene que encajar con ese otro código de allá, y no tiene API de verdad.",
+        "En la ingeniería júnior, a los ingenieros júnior básicamente los han ascendido a ingenieros sénior, y del trabajo júnior se han encargado los agentes.",
+        "Del mismo modo, en el derecho puedes decir que han despedido a los asistentes jurídicos, o puedes decir que los han ascendido a abogados sénior, y que ahora pueden dedicar su tiempo a pensar en el derecho."
+      ]
+    },
+    {
+      "id": "b14-guillermo-rauch",
+      "speaker": "Guillermo Rauch",
+      "frases": [
+        "La verdad es que es interesante pensar en los paralelismos entre cómo está evolucionando la ingeniería de software y los abogados.",
+        "Nunca sabes exactamente qué meten los abogados en esos documentos, simplemente te fías.",
+        "Le pides al abogado que mire este documento, que te diga si está bien o que marque las líneas rojas.",
+        "Lo que valoras en tu relación con un abogado es que es una autoridad de confianza, que fue a la facultad de derecho y que se juega su reputación.",
+        "Hay un paralelismo con la ingeniería de software, y es que el mayor problema hoy es esa montaña de basura que acaba convertida en un pull request.",
+        "En Twitter circulan muchos memes que dicen que, en los viejos tiempos, leíamos cada línea de código de un pull request.",
+        "Pues en mi mundo, el de la infraestructura, quiero que los ingenieros puedan decir que entienden cada línea de ese pull request.",
+        "Eso no significa necesariamente que hayas leído cada línea, sino que puedes decir que entiendes las consecuencias de ese pull request y que firmas que las entiendes.",
+        "O que has escrito el banco de pruebas, las simulaciones, las demostraciones y los comprobadores de tipos, y que, incluso sin leerlo, estás seguro de que puedes dar el visto bueno a que será seguro en producción.",
+        "Hay un mundo en el que aceptamos que todo va a ser código espagueti que no entendemos del todo, pero escribimos los evaluadores que nos dan confianza.",
+        "Y confiamos en la gente, en los ingenieros de producción de infraestructura, para que digan que les parece bien mandar esto a producción.",
+        "Si se caen tus sistemas, a alguien le va a saltar la alarma de guardia.",
+        "Otra cosa que la gente subestima es que crear software es facilísimo, pasar de cero a uno.",
+        "Pero piensa en dentro de mil días. ¿Cómo será tu software? ¿Será seguro? ¿Tendrá pruebas? ¿Estará listo para producción? ¿Rendirá bien?",
+        "¿Y seguirás con ganas de invertir todos esos tokens, los trozos de texto con los que trabajan los modelos, en mantenerlo en producción?"
+      ]
+    },
+    {
+      "id": "b15-naval",
+      "speaker": "Naval",
+      "frases": [
+        "Los humanos se están convirtiendo en verificadores. Así es como entrenamos estos modelos, con buenos datos de verificación, y ahora necesitamos verificadores humanos.",
+        "Gran parte de la antigua función de la gente, de los abogados, de los ingenieros o de los de operaciones, pasa a ser verificar todo el sistema.",
+        "Y decir que esto está más o menos bien, que más o menos lo respaldan y que te apoyarán si sale mal."
+      ]
+    }
+  ]
+}
