@@ -32,6 +32,21 @@ SR = 16000
 ACUERDO_MIN, CAZA_MIN = 0.97, 0.95
 
 
+def audio_16k(ruta):
+    """El wav de una frase, mono a 16 kHz, sin librosa: en Colab, librosa tira de numba y numba puede romperse tras un
+    pip sin reiniciar («module 'numba' has no attribute 'core'», 8-nov). scipy remuestrea igual de bien para esto."""
+    from math import gcd
+    import soundfile as sf
+    from scipy.signal import resample_poly
+    a, sr = sf.read(str(ruta), dtype="float32")
+    if a.ndim > 1:
+        a = a.mean(axis=1)
+    if sr != SR:
+        g = gcd(SR, sr)
+        a = resample_poly(a, SR // g, sr // g).astype(np.float32)
+    return a
+
+
 def frases_de(carpetas, n, semilla=0):
     """Hasta `n` frases reales de esas carpetas de episodio: todas las sospechosas y el resto al azar (fijo)."""
     todas = []

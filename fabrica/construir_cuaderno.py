@@ -261,7 +261,7 @@ for ep in EPISODIOS:
         print("sin registro, lo salto:", ep)
 ITEMS = cw.frases_de(carpetas, N_FRASES)
 for i in ITEMS:
-    i["audio"] = medir.audio_16k(i["ruta"])
+    i["audio"] = cw.audio_16k(i["ruta"])
 ITEMS = cw.con_averias(ITEMS, N_AVERIAS)
 Path("/content/items_whisper.pkl").write_bytes(pickle.dumps(ITEMS))
 reales = sum(i["tipo"] == "real" for i in ITEMS)
