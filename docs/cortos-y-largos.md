@@ -165,3 +165,13 @@ la verificación están en `docs/cortos-y-largos.md`.
 cortos quedan en estado `tts`, con su master, sin escucharlos uno a uno: el audio es el del largo ya escuchado.
 
 **Primer caso real:** el 077 (27 min de audio, ~2 unidades), con 15 cortos (053–067).
+
+## Montaje (8-nov): `fabrica/cortos.ipynb`
+
+Hecho. Con el largo ya generado, `fabrica/cortos.ipynb` (Colab **sin GPU**) llama a `fabrica.montar_cortos`: empareja
+cada intervención del corto con la del largo por **voz y frases idénticas** (no por `speaker`), copia su clip y sus
+frases sueltas con el nombre del corto, apunta `de_largo` en el registro del corto (0 s de GPU), monta el master y
+escribe el informe. Lo hecho no se repite. Comprobado en el repo: 077, 105, 130 y 160 emparejan al 100 %; en el 154
+quedan sin pareja `139 001nivi.wav` y `144 001naval.wav` (las dos excepciones conocidas): se generan después con la
+fábrica normal sobre esos dos cortos, que hará solo esas intervenciones.
+
