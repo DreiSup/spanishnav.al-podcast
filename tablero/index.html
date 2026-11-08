@@ -29,7 +29,7 @@
   .head { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
   .head > div { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
   button { font: inherit; color: inherit; }
-  .btn { border: 1px solid var(--line); background: var(--panel); border-radius: var(--r); padding: 8px 12px; min-height: 40px; cursor: pointer; }
+  .btn { border: 1px solid var(--line); background: var(--panel); border-radius: var(--r); padding: 8px 12px; min-height: 44px; cursor: pointer; }
   .btn:focus-visible, .step:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   .card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--r); padding: 16px; display: flex; flex-direction: column; gap: 12px; min-width: 0; }
   .take { font-size: 17px; margin: 0; }
@@ -49,7 +49,7 @@
   .step.revisar .fill { background: var(--bad); }
   .step.publicado .fill { background: var(--ok); }
   .tools { display: flex; gap: 8px; flex-wrap: wrap; }
-  .tools input { flex: 1 1 12rem; min-width: 0; font: inherit; padding: 8px 12px; min-height: 40px; border: 1px solid var(--line); border-radius: var(--r); background: var(--bg); color: var(--fg); }
+  .tools input { flex: 1 1 12rem; min-width: 0; font: inherit; padding: 8px 12px; min-height: 44px; border: 1px solid var(--line); border-radius: var(--r); background: var(--bg); color: var(--fg); }
   .eps { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
   .ep { display: grid; grid-template-columns: 3rem 1fr; gap: 2px 10px; padding-block: 10px; border-top: 1px solid var(--line); }
   .ep:first-child { border-top: 0; }
@@ -70,12 +70,12 @@
   /* Vista Kanban: una columna por etapa, en fila con scroll horizontal; cada columna con su propio scroll. */
   main.ancho { max-width: 100rem; }
   .vistas { display: inline-flex; align-self: flex-start; border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; }
-  .vista { border: 0; background: var(--panel); padding: 8px 16px; min-height: 40px; cursor: pointer; }
+  .vista { border: 0; background: var(--panel); padding: 8px 16px; min-height: 44px; cursor: pointer; }
   .vista + .vista { border-left: 1px solid var(--line); }
   .vista[aria-pressed="true"] { background: var(--accent); color: var(--panel); }
   .vista:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
   .kanban { display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 8px; margin-inline: -4px; padding-inline: 4px; }
-  .col { flex: 0 0 min(17rem, 82vw); scroll-snap-align: start; background: var(--bg); border: 1px solid var(--line); border-radius: var(--r); display: flex; flex-direction: column; max-height: 75vh; min-width: 0; }
+  .col { flex: 0 0 min(17rem, 82vw); scroll-snap-align: start; background: var(--bg); border: 1px solid var(--line); border-radius: var(--r); display: flex; flex-direction: column; max-height: 75vh; max-height: min(75svh, calc(100svh - 220px)); min-width: 0; }
   .col.marcada { border-color: var(--accent); }
   .col-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; padding: 10px 12px; border-bottom: 1px solid var(--line); border-top: 4px solid var(--bar); border-radius: var(--r) var(--r) 0 0; }
   .col.cuello .col-head { border-top-color: var(--warn); }
@@ -111,7 +111,7 @@
 
   <section class="card">
     <h2>Dónde está cada episodio</h2>
-    <p class="muted">Pulsa una etapa para ver sus episodios abajo.</p>
+    <p class="muted">Pulsa una etapa para ver sus episodios abajo (en Kanban, te lleva a su columna).</p>
     <div class="steps" id="etapas"></div>
   </section>
 
@@ -148,6 +148,7 @@
   // Los datos los genera scripts/tablero.py en el repo del podcast; aquí solo se leen.
   const FUENTE = 'https://raw.githubusercontent.com/DreiSup/spanishnav.al-podcast/claude/quirky-dirac-x18c3n/tablero.json';
   const ESPERAN_AL_AUTOR = ['traducido', 'sin_escuchar', 'revisar', 'listo'];
+  const SUAVE = matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth';
   const estado = { datos: null, etapa: null, texto: '', vista: 'lista', cuello: null };
   try { if (location.hash === '#kanban' || localStorage.getItem('vista') === 'kanban') estado.vista = 'kanban'; } catch (e) { /* sin almacenamiento */ }
   const $ = (id) => document.getElementById(id);
@@ -155,6 +156,7 @@
   const num = (n) => new Intl.NumberFormat('es-ES', { maximumFractionDigits: 1 }).format(n);
   const fecha = (iso) => new Date(iso).toLocaleString('es-ES', { dateStyle: 'medium', timeStyle: 'short' });
 
+  let primera = true;
   async function cargar() {
     $('generado').textContent = 'Cargando…';
     try {
@@ -162,6 +164,8 @@
       if (!r.ok) throw new Error('GitHub respondió ' + r.status);
       estado.datos = await r.json();
       pintar();
+      if (primera && location.hash === '#kanban') $('vista-episodios').scrollIntoView({ block: 'start' });
+      primera = false;
     } catch (e) {
       $('generado').textContent = 'No se pudieron cargar los datos (' + e.message + '). Prueba a recargar.';
       $('generado').className = 'muted error';
@@ -190,7 +194,7 @@
       b.append(el('span', null, r.nombre), el('span', 'n', r.episodios + ' · ' + num(r.horas) + ' h'), track);
       b.addEventListener('click', () => {
         estado.etapa = estado.etapa === r.etapa ? null : r.etapa; pintar();
-        if (estado.vista === 'kanban' && estado.etapa) document.getElementById('col-' + r.etapa)?.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' });
+        if (estado.vista === 'kanban' && estado.etapa) document.getElementById('col-' + r.etapa)?.scrollIntoView({ behavior: SUAVE, block: 'nearest', inline: 'start' });
       });
       return b;
     }));
@@ -203,14 +207,21 @@
     return !q || String(e.numero ?? '').padStart(3, '0').includes(q) || e.titulo.toLowerCase().includes(q) || e.slug.includes(q);
   };
 
-  function lista() {
+  const plural = (n) => n + (n === 1 ? ' episodio' : ' episodios');
+
+  // Muestra una vista y oculta la otra; no necesita los datos, así el botón es correcto desde el principio.
+  function aplicarVista() {
     const kanban = estado.vista === 'kanban';
     document.querySelector('main').classList.toggle('ancho', kanban);
     document.querySelectorAll('.vista').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.vista === estado.vista)));
     $('episodios').hidden = kanban; $('kanban').hidden = !kanban;
-    if (kanban) return tablero();
+  }
+
+  function lista() {
+    aplicarVista();
+    if (estado.vista === 'kanban') return tablero();
     const fs = estado.datos.episodios.filter((e) => (!estado.etapa || e.etapa === estado.etapa) && busca(e));
-    $('cuenta').textContent = fs.length + ' episodios';
+    $('cuenta').textContent = plural(fs.length);
     $('episodios').replaceChildren(...fs.map((e) => {
       const li = el('li', 'ep');
       li.append(el('span', 'num', e.numero ? String(e.numero).padStart(3, '0') : '—'), el('span', 't', e.titulo));
@@ -231,12 +242,12 @@
   // Kanban: todas las etapas como columnas; el filtro de etapa solo marca su columna.
   function tablero() {
     const fs = estado.datos.episodios.filter(busca);
-    $('cuenta').textContent = fs.length + ' episodios · desliza para ver todas las etapas';
+    $('cuenta').textContent = plural(fs.length);
     $('kanban').replaceChildren(...estado.datos.resumen.map((r) => {
       const eps = fs.filter((e) => e.etapa === r.etapa);
       const col = el('section', 'col ' + r.etapa + (r.etapa === estado.cuello ? ' cuello' : '') + (r.etapa === estado.etapa ? ' marcada' : ''));
       col.id = 'col-' + r.etapa;
-      const head = el('header', 'col-head'); head.append(el('h3', null, r.nombre), el('span', null, eps.length + ' · ' + num(r.horas) + ' h'));
+      const head = el('header', 'col-head'); head.append(el('h3', null, r.nombre), el('span', null, eps.length + ' · ' + num(eps.reduce((t, e) => t + e.minutos, 0) / 60) + ' h'));
       const ul = el('ul', 'cards');
       if (!eps.length) ul.append(el('li', 'vacia', 'Ninguno'));
       for (const e of eps) {
@@ -257,18 +268,22 @@
       col.append(head, ul);
       return col;
     }));
+    const k = $('kanban');
+    if (fs.length && k.scrollWidth > k.clientWidth + 1) $('cuenta').textContent += ' · desliza para ver todas las etapas';
   }
 
   document.querySelectorAll('.vista').forEach((b) => b.addEventListener('click', () => {
     estado.vista = b.dataset.vista;
     try { localStorage.setItem('vista', estado.vista); } catch (e) { /* sin almacenamiento */ }
     history.replaceState(null, '', estado.vista === 'kanban' ? '#kanban' : location.pathname);
-    if (estado.datos) lista();
-    $('vista-episodios').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    if (estado.datos) lista(); else aplicarVista();
+    $('vista-episodios').scrollIntoView({ behavior: SUAVE, block: 'start' });
+    if (estado.vista === 'kanban' && estado.etapa) document.getElementById('col-' + estado.etapa)?.scrollIntoView({ behavior: SUAVE, block: 'nearest', inline: 'start' });
   }));
   $('buscar').addEventListener('input', (ev) => { estado.texto = ev.target.value; if (estado.datos) lista(); });
   $('limpiar').addEventListener('click', () => { estado.etapa = null; pintar(); });
   $('recargar').addEventListener('click', cargar);
+  aplicarVista();
   cargar();
 </script>
 </body>
