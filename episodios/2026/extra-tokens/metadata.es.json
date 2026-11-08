@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "_comentario": "Todo lo que autoramos nosotros: traducción, publicación en YouTube y punteros a Drive.",
+  "numero": null,
+  "anio": 2026,
+  "slug": "tokens",
+  "titulo_es": "Derrocha tokens, ahorra tiempo",
+  "estado": "revision",
+  "youtube": {
+    "titulo": "Derrocha tokens, ahorra tiempo",
+    "descripcion": "",
+    "tags": [],
+    "url": "",
+    "url_original": ""
+  },
+  "drive": {
+    "carpeta_id": "",
+    "tts_id": "",
+    "audio_final_id": "",
+    "video_id": "",
+    "proyecto_id": ""
+  },
+  "publicacion": {
+    "fecha": "",
+    "audio_url": "",
+    "audio_bytes": 0,
+    "duracion_s": 0,
+    "feed_guid": ""
+  },
+  "audio_editado_a_mano": false,
+  "heredado": null,
+  "escucha": {
+    "escuchado": false,
+    "resultado": null,
+    "fecha": null,
+    "feedback": ""
+  },
+  "notas": "Extra sin número (orden 164 del archivo de nav.al), parte 1 de The AI Industrial Revolution (160). Inglés sacado del Google Doc «2026 all podcasts» de Drive; cuadra palabra a palabra con el documento (del «Get podcast» a «Related», sin enlaces). El español es la copia exacta de los bloques b01–b25 del 160-industrial (mismos hablantes y mismas frases), por la regla de docs/cortos-y-largos.md: el audio se monta con los clips del largo. Solo cambian el título y el subtítulo. Las decisiones de traducción, las glosas y los nombres que hay que escuchar en el TTS están en las notas del 160-industrial y en el GLOSARIO (160, decisiones del autor del 8-nov). Diferencias del inglés con el largo que no cambian el español: el extra dice the Naval Podcast donde el largo dice Naval Podcast (b01), y cinco comillas tipográficas distintas (b04, b06, b13, b19, b25). La glosa de tokens va en b06 y la de vibe coding en b23."
+}

@@ -217,7 +217,7 @@ número: tokens, hardware, regulatory). Cada parte es la copia exacta de su tram
 |---|---|---|
 | agency / agentic | agencia / con más agencia | **Excepción solo para el 160**: conserva el juego con los agentes (setenta por ciento de agencia; la agencia la pondrán los agentes). En el resto del corpus sigue capacidad de actuar |
 | frontier | modelos de frontera, inteligencia de frontera, fundadores que trabajan en la frontera, empujar la frontera | Mixto |
-| Títulos | La revolución industrial de la IA (subtítulo Construye tu propia fábrica) / Derrocha tokens, ahorra tiempo / Vibe coding para hardware / La frontera regulatoria / parte 4: La empresa autónoma | En el largo, secciones Parte uno: …, Parte dos: …. Waste tokens, save time es también la máxima de Naval (b06) |
+| Títulos | La revolución industrial de la IA (subtítulo Construye tu propia fábrica) / Derrocha tokens, ahorra tiempo / Vibe coding para hardware / La frontera regulatoria / parte 4: La empresa autónoma | En el largo, secciones Parte 1: …, Parte 2: … (regla de títulos con partes del 7-nov). Waste tokens, save time es también la máxima de Naval (b11) |
 | Subtítulos de las partes | Fábricas de software y tokenmaxxing con tres fundadores que trabajan en la frontera / La nueva integración vertical / La lucha contra la burocracia a gran escala | |
 | you guys (al grupo) | impersonal o alguien (¿Alguien ha visto…?) | Sin vosotros ni ustedes, como en el 158 |
 | FDA / CFDA / NRC | la FDA, glosada la primera vez en cada pieza (la agencia del medicamento de Estados Unidos) / la agencia del medicamento china / la Comisión Reguladora Nuclear | Título de sección: La FDA china ya supera a la estadounidense. CFDA es el nombre antiguo de la NMPA; no se corrige |

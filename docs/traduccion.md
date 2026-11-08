@@ -275,3 +275,4 @@ episodio. Episodios con notas a 6-nov: 008, 010, 017, 018, 020 y 052.
 | 2026-11-08 | 137 The Deutsch Files (título) | revision | | | | | Decisión del autor (8-nov): título Los documentos de Deutsch |
 | 2026-11-08 | 138 The Deutsch Files (título) | revision | | | | | Decisión del autor (8-nov): título Los documentos de Deutsch |
 | 2026-11-08 | 160 The AI Industrial Revolution | revision | 107 | 549 | 11817 | 69,5 | Inglés del Doc 2026 all podcasts, con la parte 4 dentro. Decisiones del autor del 8-nov (GLOSARIO, 160): agencia solo en el 160, frontera mixta, la FDA glosada, el Gi Rauch, NIMBY en inglés. Glosas de tokens y vibe coding en cada tramo para los extras. Bloques dobles b94-b95 y b99-b100 como en el Doc. Cero avisos |
+| 2026-11-08 | extra Waste Tokens, Save Time (parte 1 del 160) | revision | 25 | 127 | 2578 | 15,2 | Copia exacta de b01–b25 del 160-industrial; título Derrocha tokens, ahorra tiempo. GLOSARIO: títulos con partes, Parte 1. Cero avisos |
