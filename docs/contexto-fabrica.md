@@ -79,7 +79,7 @@ Muestras de Kapil, Vitalik y Ridley aprobadas por el autor; Brett y Deutsch (134
   6-nov).
 - Cortos dentro de largos (`docs/cortos-y-largos.md`, `cortos.json`): 053–067 ⊂ **077**, 072–076 y 078–104 ⊂
   **105**, 106–129 ⊂ **130** (mismo español, 1.580 de 1.580 frases idénticas). **Decidido (6-nov): se genera solo
-  el largo y los cortos se montan con sus clips**; falta implementarlo (~15 unidades; emparejar por voz + frases,
+  el largo y los cortos se montan con sus clips**; hecho el 8-nov: `fabrica/cortos.ipynb` (sin GPU) (~15 unidades; emparejar por voz + frases,
   no por `speaker`: «Brett Hall» frente a «Brett»).
 - Registro de escucha: bloque `escucha` de `metadata.es.json` (`escuchado`, `resultado` bueno/revisar, `fecha`,
   `feedback`); `INDICE.md` lo muestra (`python3 scripts/indice.py`). Las altas en plataformas las lleva otra sesión.

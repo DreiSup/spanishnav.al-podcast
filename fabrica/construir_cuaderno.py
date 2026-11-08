@@ -303,6 +303,70 @@ comun.desconectar()
 ]
 
 
+CELDAS_CORTOS = [
+    md("""
+# Cortos desde su largo (sin GPU)
+
+Hay episodios cortos que son un tramo exacto de un largo (`cortos.json`, `docs/cortos-y-largos.md`): 053–067 dentro del
+**077**, 072–076 y 078–104 dentro del **105**, 106–129 dentro del **130**, 139–153 dentro del **154**. La fábrica genera
+solo el largo; este cuaderno monta cada corto con los clips del largo (misma voz y mismas frases), su master y su
+informe. **No usa GPU**: elige un entorno sin acelerador (*Entorno de ejecución → Cambiar tipo → CPU*).
+
+Antes: el largo tiene que estar generado entero con la fábrica. Lo que ya está hecho no se repite. Si alguna
+intervención de un corto no tiene pareja en el largo, la lista al final: se genera después con la fábrica normal sobre
+ese corto (hará solo esas). Ejecuta las celdas 1 a 3 seguidas.
+"""),
+    code("""
+# 1. Parámetros: los largos cuyos cortos se montan
+LARGOS = ["2021/077-happiness"]
+"""),
+    code(f"""
+# 2. Montar los cortos
+import os, sys, subprocess, json
+from pathlib import Path
+RAMA = "{RAMA}"
+if os.path.isdir("/content/repo"):
+    subprocess.run(["git", "-C", "/content/repo", "pull", "-q"], check=True)
+else:
+    subprocess.run(["git", "clone", "-q", "--depth", "1", "-b", RAMA, "{REPO}", "/content/repo"], check=True)
+sys.path[:0] = ["/content/repo/fabrica", "/content/repo/piloto", "/content/repo/criba"]
+import comun, fabrica
+comun.montar_drive()
+comun.desconectar_si_falla()
+CFG = fabrica.cargar_config()
+RAIZ_EPISODIOS = Path(CFG["rutas"]["drive"]) / CFG["rutas"]["episodios"]
+GRUPOS = json.loads(Path("/content/repo/cortos.json").read_text(encoding="utf-8"))["grupos"]
+
+def cargar(ep, crear=True):
+    base = Path("/content/repo/episodios") / ep
+    tr = json.loads((base / "transcript.es.json").read_text(encoding="utf-8"))
+    titulo_en = json.loads((base / "metadata.en.json").read_text(encoding="utf-8"))["titulo"]
+    return fabrica.plan_episodio(tr, CFG), fabrica.carpeta_episodio(RAIZ_EPISODIOS, ep, titulo_en, crear=crear), tr["titulo"]
+
+PENDIENTES = {{}}
+for largo in LARGOS:
+    plan_l, carpeta_l, _ = cargar(largo, crear=False)
+    faltan = [p["fichero"] for p in plan_l if not (carpeta_l / "tts" / p["fichero"]).exists()]
+    if faltan:
+        print(f"{{largo}}: el largo aún no está entero ({{len(faltan)}} clips sin hacer); lo salto")
+        continue
+    print(f"=== {{largo}} → {{len(GRUPOS[largo])}} cortos")
+    cortos = []
+    for ep in GRUPOS[largo]:
+        plan, carpeta, titulo = cargar(ep)
+        cortos.append((ep, plan, carpeta, titulo))
+    for ep, hechos, total, sin in fabrica.montar_cortos(largo, plan_l, carpeta_l, cortos, CFG):
+        if sin:
+            PENDIENTES[ep] = sin
+print("RESULTADO:", "OK, todos montados" if not PENDIENTES else f"faltan intervenciones sin pareja: {{PENDIENTES}}")
+"""),
+    code("""
+# 3. Subir a Drive y desconectar
+comun.desconectar()
+"""),
+]
+
+
 def main():
     nb = {"nbformat": 4, "nbformat_minor": 0,
           "metadata": {"accelerator": "GPU", "colab": {"provenance": [], "gpuType": "T4"},
@@ -315,6 +379,11 @@ def main():
     otro = dict(nb, cells=CELDAS_WHISPER)
     destino = RAIZ / "comparar_whisper.ipynb"
     destino.write_text(json.dumps(otro, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    print("escrito", destino)
+    cpu = {**nb["metadata"], "accelerator": "None", "colab": {"provenance": []}}
+    destino = RAIZ / "cortos.ipynb"
+    destino.write_text(json.dumps(dict(nb, metadata=cpu, cells=CELDAS_CORTOS), ensure_ascii=False, indent=1) + "\n",
+                       encoding="utf-8")
     print("escrito", destino)
 
 

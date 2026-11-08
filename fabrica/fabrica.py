@@ -543,6 +543,65 @@ def generar_episodio(plan, sintetizar_lote, asr, carpeta, cfg, avisar=print, mas
     return hechos
 
 
+def montar_cortos(largo, plan_largo, carpeta_largo, cortos, cfg, avisar=print):
+    """Los cortos que son un tramo exacto de un largo (cortos.json), montados con los clips del largo, sin GPU.
+
+    `cortos` = [(episodio, plan, carpeta, titulo_es), …]. Cada intervención del corto se empareja con la del largo que
+    tiene **la misma voz y exactamente las mismas frases** (no por `speaker`: el largo y el corto pueden escribirlo
+    distinto, «Brett Hall» y «Brett»). Copia su clip y sus frases sueltas con el nombre del corto, apunta en el registro
+    del corto de qué clip del largo sale (`de_largo`, 0 s de GPU), monta el master y escribe el informe. Lo que ya
+    está al día no se repite. Las intervenciones sin pareja (o cuyo clip del largo aún no existe) se quedan sin hacer y
+    se listan: se generan después con la fábrica normal sobre ese corto, que hará solo esas.
+    Devuelve [(episodio, clips hechos, clips totales, [ficheros sin pareja])].
+    """
+    import shutil
+    tts_l = Path(carpeta_largo) / "tts"
+    hechos_l = leer_registro(carpeta_largo)
+    indice = {}
+    for p in plan_largo:
+        fila = hechos_l.get(p["fichero"])
+        if (fila and (tts_l / p["fichero"]).exists() and clip_al_dia(fila, p, cfg)
+                and all(ruta_frase(tts_l, p["fichero"], k).exists() for k in range(len(p["frases"])))):
+            indice.setdefault((p["voz"], tuple(p["frases"])), (p, fila))
+    resumen = []
+    for episodio, plan, carpeta, titulo in cortos:
+        carpeta = Path(carpeta)
+        tts = carpeta / "tts"
+        (tts / "frases").mkdir(parents=True, exist_ok=True)
+        registro = carpeta / "registro_tts.jsonl"
+        hechos = leer_registro(carpeta)
+        sin_pareja = []
+        for p in plan:
+            previa = hechos.get(p["fichero"])
+            if (tts / p["fichero"]).exists() and previa and clip_al_dia(previa, p, cfg):
+                continue
+            par = indice.get((p["voz"], tuple(p["frases"])))
+            if par is None:
+                sin_pareja.append(p["fichero"])
+                continue
+            pl, fila = par
+            shutil.copyfile(tts_l / pl["fichero"], tts / p["fichero"])
+            for k in range(len(p["frases"])):
+                shutil.copyfile(ruta_frase(tts_l, pl["fichero"], k), ruta_frase(tts, p["fichero"], k))
+            nueva = {k: v for k, v in fila.items() if k not in ("tiempos", "lotes", "tanda", "pico_gb", "oom")}
+            nueva.update(fichero=p["fichero"], bloque=p["bloque"], segundos_generacion=0.0,
+                         de_largo=f"{largo}/{pl['fichero']}", fecha=time.strftime("%Y-%m-%dT%H:%M:%S"))
+            with registro.open("a", encoding="utf-8") as fh:
+                fh.write(json.dumps(nueva, ensure_ascii=False) + "\n")
+            hechos[p["fichero"]] = nueva
+        master = carpeta / "audio" / f"{episodio.split('/')[1]}.mp3"
+        inicios = None
+        if not sin_pareja:
+            inicios = montar_master(plan, tts, master, titulo=titulo)
+        escribir_informe(plan, hechos, carpeta, inicios, master, cfg)
+        hechos_ok = len(plan) - len(sin_pareja)
+        avisar(f"  {episodio}: {hechos_ok} de {len(plan)} clips del largo"
+               + (f" · master {inicios['_total'] / 60:.1f} min" if inicios else "")
+               + (f" · SIN PAREJA: {sin_pareja}" if sin_pareja else ""))
+        resumen.append((episodio, hechos_ok, len(plan), sin_pareja))
+    return resumen
+
+
 def unidades(segundos, gpu, cfg):
     """Unidades de Colab estimadas para `segundos` de una GPU, con las tarifas de voces.json («coste»)."""
     tarifas = cfg.get("coste", {}).get("unidades_por_hora", {})
