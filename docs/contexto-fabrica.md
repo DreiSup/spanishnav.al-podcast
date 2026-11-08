@@ -99,7 +99,7 @@ Dónde se va el tiempo y qué limita (para la tarea de optimización):
 - **Memoria de la T4 (15 GB) justa**: Qwen 1.7B fp16 (T4 no tiene bf16) + LoRA PEFT sin fusionar + Whisper
   large-v3 fp16 con marcas por palabra (atención eager). Whisper no cabe a 4 y baja solo a 2; Qwen parte el lote si
   no cabe. Se libera memoria (gc + empty_cache) tras cada lote.
-- Whisper large-v3 revisa todas las frases (con marcas de tiempo por palabra para detectar cola alucinada).
+- Whisper revisa todas las frases: hasta el 8-nov large-v3 con marcas por palabra (~37 % del tiempo); desde el 8-nov **turbo con marcas por segmento** (~15 veces más rápido, `docs/optimizacion/README.md`).
 - Lote = frases de una misma intervención (máx. 8); intervenciones cortas → lotes pequeños (poco aprovechamiento).
 - Tope de pasos por frase: `tope_pasos` = 12,5 × (caracteres/7 + 3).
 - Reintentos: hasta 2 con semillas nuevas (pocos en la práctica: 0–7 por episodio).

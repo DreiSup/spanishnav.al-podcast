@@ -50,6 +50,23 @@ tamaño que cupo hasta el final. Pico de memoria: Qwen 7–8,5 GB, Whisper 11,8 
 sube al primer puesto **Whisper large-v3-turbo** (decoder de 4 capas en vez de 32, ~1,5 GB menos): podría quitar
 buena parte de ese 40 % **sin cambiar el audio**, y con memoria libre volvería a revisar en lotes.
 
+## Whisper turbo con marcas por segmento (8-nov): activado
+
+`fabrica/comparar_whisper.ipynb`, con 200 frases reales de 018, 027, 034, 041, 051 y 068 y 60 averías fabricadas,
+comparado con la decisión que tomó large-v3 (marcas por palabra) al generarlas:
+
+| Configuración | Iguales | Averías | s/s de audio | Pico | |
+|---|---|---|---|---|---|
+| turbo · segmento | 97,0 % | 58/60 | 0,06 | 4,7 GB | **elegida** |
+| large-v3 · segmento | 97,0 % | 56/60 | 0,32 | 13,8 GB | no vale |
+| turbo · palabra | 97,5 % | 59/60 | 0,52 | 7,7 GB | vale, pero junto a Qwen iría de una en una |
+
+En producción large-v3 con marcas por palabra iba a ~0,9 s/s (de una en una: las marcas por palabra guardan la atención
+de todas las capas, ~3 GB por frase). Las «no coincide» en frases reales son casi todas a favor de los nuevos (reglas
+de normalización posteriores: adonde, cifras). Se escapan 2 de 30 colas fabricadas, cuando Whisper no escribe lo que
+sobra y el segmento llega al final del audio; lo cubre la escucha del master. Activado en `voces.json` el 8-nov
+(`modelo_asr`, `marcas_asr`); no rehace clips. Ahorro esperado: ~1/3 del tiempo de cada episodio.
+
 ## Decisiones del autor (6-nov)
 
 - **Paso 1 (medir y seguro de desconexión): hecho.** Está en la rama, probado sin GPU, y el audio sale idéntico. Se
