@@ -161,11 +161,11 @@
 | 6 | [006-renting-time](episodios/2019/006-renting-time) | No te harás rico alquilando tu tiempo | 🟣 montaje | ✅ 2026-11-05 | — | [▶](https://www.youtube.com/watch?v=cSBkzFw_qNQ) |
 | 7 | [007-salary-freedom](episodios/2019/007-salary-freedom) | Vive por debajo de tus posibilidades para ser libre | 🟣 montaje | ✅ 2026-11-05 | — | [▶](https://www.youtube.com/watch?v=YDUmwD3zA70) |
 | 8 | [008-product-scale](episodios/2019/008-product-scale) | Dale a la sociedad lo que todavía no sabe cómo conseguir | 🟣 montaje | ✅ 2026-11-05 | — | [▶](https://www.youtube.com/watch?v=VjiNDC4Dv3k) |
-| 9 | [009-possible-careers](episodios/2019/009-possible-careers) | Internet ha ampliado enormemente las posibilidades profesionales | 🟣 montaje | ✅ 2026-11-08 | — | — |
-| 10 | [010-long-term](episodios/2019/010-long-term) | Juega a juegos a largo plazo con gente a largo plazo | 🟣 montaje | ✅ 2026-11-05 | — | — |
-| 11 | [011-intelligence-energy-integrity](episodios/2019/011-intelligence-energy-integrity) | Elige socios con inteligencia, energía e integridad | 🟣 montaje | ✅ 2026-11-09 | — | — |
-| 12 | [012-rational-optimists](episodios/2019/012-rational-optimists) | Asóciate con optimistas racionales | 🟣 montaje | ✅ 2026-11-09 | — | — |
-| 13 | [013-specific-knowledge](episodios/2019/013-specific-knowledge) | Ármate de conocimiento específico | 🟣 montaje | ✅ 2026-11-09 | — | — |
+| 9 | [009-possible-careers](episodios/2019/009-possible-careers) | Internet ha ampliado enormemente las posibilidades profesionales | 🟣 montaje | ✅ 2026-11-08 | — | [▶](https://www.youtube.com/watch?v=6qUGSeNI8iM) |
+| 10 | [010-long-term](episodios/2019/010-long-term) | Juega a juegos a largo plazo con gente a largo plazo | 🟣 montaje | ✅ 2026-11-05 | — | [▶](https://www.youtube.com/watch?v=mVd7DKYZw9w) |
+| 11 | [011-intelligence-energy-integrity](episodios/2019/011-intelligence-energy-integrity) | Elige socios con inteligencia, energía e integridad | 🟣 montaje | ✅ 2026-11-09 | — | [▶](https://www.youtube.com/watch?v=f5q1N2ZU2PU) |
+| 12 | [012-rational-optimists](episodios/2019/012-rational-optimists) | Asóciate con optimistas racionales | 🟣 montaje | ✅ 2026-11-09 | — | [▶](https://www.youtube.com/watch?v=BCUU5-cEJsY) |
+| 13 | [013-specific-knowledge](episodios/2019/013-specific-knowledge) | Ármate de conocimiento específico | 🟣 montaje | ✅ 2026-11-09 | — | [▶](https://www.youtube.com/watch?v=ugDup0V_Z34) |
 | 14 | [014-creative-technical](episodios/2019/014-creative-technical) | El conocimiento específico es muy creativo o técnico | 🟣 montaje | ✅ 2026-11-09 | — | — |
 | 15 | [015-build-sell](episodios/2019/015-build-sell) | Aprende a vender, aprende a construir | 🟣 montaje | ✅ 2026-11-09 | — | — |
 | 16 | [016-love-read](episodios/2019/016-love-read) | Lee lo que te encante hasta que te encante leer | 🟣 montaje | ✅ 2026-11-09 | — | — |
