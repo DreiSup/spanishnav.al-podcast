@@ -70,7 +70,7 @@
 | 74 | [074-nullius](episodios/2021/074-nullius) | Nullius in verba | 🟠 en revisión | — | — | — |
 | 75 | [075-reach](episodios/2021/075-reach) | Explicaciones que alcanzan a todo el universo | 🟠 en revisión | — | — | — |
 | 76 | [076-read](episodios/2021/076-read) | Lee los cien mejores libros una y otra vez | 🟠 en revisión | — | — | — |
-| 77 | [077-happiness](episodios/2021/077-happiness) | La felicidad | 🟠 en revisión | — | — | — |
+| 77 | [077-happiness](episodios/2021/077-happiness) | La felicidad | 🔵 generando TTS | — | — | — |
 | 78 | [078-knowledge](episodios/2021/078-knowledge) | Estamos al comienzo de un infinito de conocimiento | 🟠 en revisión | — | — | — |
 | 79 | [079-people](episodios/2021/079-people) | Las personas son una fuerza de la naturaleza | 🟠 en revisión | — | — | — |
 | 80 | [080-predict](episodios/2021/080-predict) | Es imposible predecir el crecimiento del conocimiento | 🟠 en revisión | — | — | — |
@@ -145,9 +145,9 @@
 | 66 | [066-consensus](episodios/2020/066-consensus) | Los grupos buscan el consenso, los individuos buscan la verdad | 🟠 en revisión | — | — | — |
 | 67 | [067-truth](episodios/2020/067-truth) | El camino hacia la paz es la verdad | 🟠 en revisión | — | — | — |
 | 68 | [068-kapil](episodios/2020/068-kapil) | Kapil Gupta: Conquistando la mente | 🔵 generando TTS | — | — | — |
-| 69 | [069-angel-2](episodios/2020/069-angel-2) | Cómo invertir como ángel, parte 2 | 🟠 en revisión | — | — | — |
-| 70 | [070-matt-ridley](episodios/2020/070-matt-ridley) | Matt Ridley: Cómo funciona la innovación, parte 1 | 🟠 en revisión | — | — | — |
-| 71 | [071-matt-ridley-2](episodios/2020/071-matt-ridley-2) | Matt Ridley: Cómo funciona la innovación, parte 2 | 🟠 en revisión | — | — | — |
+| 69 | [069-angel-2](episodios/2020/069-angel-2) | Cómo invertir como ángel, parte 2 | 🔵 generando TTS | — | — | — |
+| 70 | [070-matt-ridley](episodios/2020/070-matt-ridley) | Matt Ridley: Cómo funciona la innovación, parte 1 | 🔵 generando TTS | — | — | — |
+| 71 | [071-matt-ridley-2](episodios/2020/071-matt-ridley-2) | Matt Ridley: Cómo funciona la innovación, parte 2 | 🔵 generando TTS | — | — | — |
 
 ## 2019
 
