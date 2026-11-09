@@ -58,8 +58,8 @@
 
 | # | Episodio | Título en español | Estado | Escuchado | Drive | YouTube |
 |---|---|---|---|---|---|---|
-| 131 | [131-vitalik](episodios/2022/131-vitalik) | Vitalik: Ethereum, parte 1 | 🟠 en revisión | — | — | — |
-| 132 | [132-vitalik-2](episodios/2022/132-vitalik-2) | Vitalik: Ethereum, parte 2 | 🟠 en revisión | — | — | — |
+| 131 | [131-vitalik](episodios/2022/131-vitalik) | Vitalik: Ethereum, parte 1 | 🔵 generando TTS | — | — | — |
+| 132 | [132-vitalik-2](episodios/2022/132-vitalik-2) | Vitalik: Ethereum, parte 2 | 🔵 generando TTS | — | — | — |
 
 ## 2021
 
@@ -98,7 +98,7 @@
 | 102 | [102-extrapolate](episodios/2021/102-extrapolate) | Es fácil extrapolar cómo empeorarán las cosas | 🟠 en revisión | — | — | — |
 | 103 | [103-pessimism](episodios/2021/103-pessimism) | El pesimismo parece una postura intelectualmente seria | 🟠 en revisión | — | — | — |
 | 104 | [104-optimism](episodios/2021/104-optimism) | El optimismo racional es la salida | 🟠 en revisión | — | — | — |
-| 105 | [105-infinity](episodios/2021/105-infinity) | El comienzo del infinito, parte 1 | 🟠 en revisión | — | — | — |
+| 105 | [105-infinity](episodios/2021/105-infinity) | El comienzo del infinito, parte 1 | 🔵 generando TTS | — | — | — |
 | 106 | [106-theory](episodios/2021/106-theory) | Con una buena teoría del conocimiento, puedes decidir qué más es verdad | 🟠 en revisión | — | — | — |
 | 107 | [107-justified](episodios/2021/107-justified) | Ninguna verdad puede justificarse | 🟠 en revisión | — | — | — |
 | 108 | [108-gravity](episodios/2021/108-gravity) | No puede haber una teoría definitiva de la gravedad | 🟠 en revisión | — | — | — |
@@ -123,7 +123,7 @@
 | 127 | [127-failure](episodios/2021/127-failure) | Los grupos nunca admiten el fracaso | 🟠 en revisión | — | — | — |
 | 128 | [128-infinite-resources](episodios/2021/128-infinite-resources) | El conocimiento hace infinita la existencia de recursos | 🟠 en revisión | — | — | — |
 | 129 | [129-caveman](episodios/2021/129-caveman) | Para un cavernícola, casi nada es un recurso | 🟠 en revisión | — | — | — |
-| 130 | [130-infinity-2](episodios/2021/130-infinity-2) | El comienzo del infinito, parte 2 | 🟠 en revisión | — | — | — |
+| 130 | [130-infinity-2](episodios/2021/130-infinity-2) | El comienzo del infinito, parte 2 | 🔵 generando TTS | — | — | — |
 
 ## 2020
 
