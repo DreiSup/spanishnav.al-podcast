@@ -5,7 +5,7 @@
   "anio": 2019,
   "slug": "intelligence-energy-integrity",
   "titulo_es": "Elige socios con inteligencia, energía e integridad",
-  "estado": "tts",
+  "estado": "montaje",
   "youtube": {
     "titulo": "Elige socios con inteligencia, energía e integridad",
     "descripcion": "",
@@ -30,10 +30,10 @@
   "audio_editado_a_mano": false,
   "heredado": null,
   "escucha": {
-    "escuchado": false,
-    "resultado": null,
-    "fecha": null,
-    "feedback": ""
+    "escuchado": true,
+    "resultado": "bueno",
+    "fecha": "2026-11-09",
+    "feedback": "2026-11-09: bueno. Escuchado por el autor: bueno para subir"
   },
   "notas": ""
 }

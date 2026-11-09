@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**162** episodios · **3** publicados · **11** escuchados por el autor (**0** para revisar) · **0** sin empezar
+**162** episodios · **3** publicados · **12** escuchados por el autor (**0** para revisar) · **0** sin empezar
 
 ## 2026
 
@@ -163,7 +163,7 @@
 | 8 | [008-product-scale](episodios/2019/008-product-scale) | Dale a la sociedad lo que todavía no sabe cómo conseguir | 🟣 montaje | ✅ 2026-11-05 | — | [▶](https://www.youtube.com/watch?v=VjiNDC4Dv3k) |
 | 9 | [009-possible-careers](episodios/2019/009-possible-careers) | Internet ha ampliado enormemente las posibilidades profesionales | 🟣 montaje | ✅ 2026-11-08 | — | — |
 | 10 | [010-long-term](episodios/2019/010-long-term) | Juega a juegos a largo plazo con gente a largo plazo | 🟣 montaje | ✅ 2026-11-05 | — | — |
-| 11 | [011-intelligence-energy-integrity](episodios/2019/011-intelligence-energy-integrity) | Elige socios con inteligencia, energía e integridad | 🔵 generando TTS | — | — | — |
+| 11 | [011-intelligence-energy-integrity](episodios/2019/011-intelligence-energy-integrity) | Elige socios con inteligencia, energía e integridad | 🟣 montaje | ✅ 2026-11-09 | — | — |
 | 12 | [012-rational-optimists](episodios/2019/012-rational-optimists) | Asóciate con optimistas racionales | 🔵 generando TTS | — | — | — |
 | 13 | [013-specific-knowledge](episodios/2019/013-specific-knowledge) | Ármate de conocimiento específico | 🔵 generando TTS | — | — | — |
 | 14 | [014-creative-technical](episodios/2019/014-creative-technical) | El conocimiento específico es muy creativo o técnico | 🔵 generando TTS | — | — | — |
