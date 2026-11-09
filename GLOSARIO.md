@@ -316,7 +316,7 @@ serie; el brief (docs/briefs/ridley.md) es anterior y, donde choca, manda esta t
 | Original | En el texto | Nota |
 |---|---|---|
 | invention / an invention / innovation | invención (el proceso) / invento (el objeto) / innovación | Confirmado (7-nov). Es la tesis del libro (070 b07-b08); no mezclar |
-| chiefs, priests and thieves | **jefes, sacerdotes y ladrones** | **Decisión del autor (7-nov)**, sustituye a «gobernantes, sacerdotes y ladrones» (070 b18 a b21, cinco veces). Fórmula fija: siempre igual, también en el chiste de b19 |
+| chiefs, priests and thieves | **gobernantes, sacerdotes y ladrones** | **Decisión del autor (9-nov)**, tras escuchar el 070: «jefes» sonaba a jefe del trabajo. Ridley glosa *chiefs* como el gobierno que confisca a voluntad (entrevista de Reason, 2009). Sustituye a «jefes» (7-nov). 070 b18, b19 dos veces, b20 y b21. Fórmula fija, también en el chiste de b19 |
 | innovation is the child of freedom and the parent of prosperity | la innovación es hija de la libertad y madre de la prosperidad | Confirmado (7-nov). 070 b05, 071 b39 y los subtítulos |
 | bushfire / flame | incendio forestal / la llama | Confirmado (7-nov). 070 b14, b18 y b20 |
 | the goose that lays the golden eggs / the oil reservoir that will always be gushing | la gallina de los huevos de oro / el yacimiento de petróleo que nunca deja de manar | Confirmado (7-nov). 070 b15, b16 y b20 |
