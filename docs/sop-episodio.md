@@ -92,7 +92,8 @@ el 2:15»). La sesión lo apunta en el repo, que es lo que hay detrás del table
    `montaje` (columna «Listo para el cuaderno»); `revisar` → sigue en `tts` con la nota.
 2. **Cola**: `python3 scripts/lote.py cola` lista los listos sin fecha y los que tienen fecha.
 3. **Lote**: cuando el autor aprueba el lote, `python3 scripts/lote.py programar` da fecha (uno al día, a partir del
-   último programado), escribe `publicacion` y el título y la descripción de YouTube, e imprime el `EPISODIOS` para el
+   último programado), **en orden numérico estricto** (decisión del autor, 9-nov: se para en el primer episodio
+   que aún no esté listo; los listos de detrás, como el 042, esperan su turno), escribe `publicacion` y el título y la descripción de YouTube, e imprime el `EPISODIOS` para el
    cuaderno de vídeo. Siguen en «Listo para el cuaderno» hasta que el audio está en R2.
 4. El autor pasa el lote por `video/video.ipynb` (vídeo, R2, YouTube programado) y pasa a la sesión los bloques
    «Datos para la web» y «Vídeos subidos a YouTube». La sesión carga los episodios en la web y apunta los enlaces.

@@ -7,7 +7,7 @@
     python3 scripts/lote.py programar                               # da fecha (uno al día) a los listos sin fecha
 
 `programar` pone a cada episodio listo sin fecha el día siguiente al último programado (o mañana, si ese ya pasó),
-en orden de número, y deja escritos `publicacion` (fecha, audio_url, feed_guid) y el título y la descripción de
+en orden de número estricto: se para en el primer episodio que aún no esté listo, y deja escritos `publicacion` (fecha, audio_url, feed_guid) y el título y la descripción de
 YouTube (la misma plantilla que el feed, scripts/descripcion.py). Al final imprime el valor de EPISODIOS para el
 cuaderno de vídeo. No sube nada: eso lo hacen el cuaderno (R2 y YouTube) y la web (lib/episodes.ts).
 
@@ -89,12 +89,21 @@ def programar():
     siguiente = max([hoy] + fechas) + dt.timedelta(days=1)
     originales = {re.sub(r"/+$", "", x["nav_al"]).split("/")[-1]: x.get("youtube_url", "")
                   for x in json.loads((RAIZ / "youtube-originales.json").read_text(encoding="utf-8"))["episodios"]}
-    hechos = []
-    for n in sorted(eps):
+    hechos, espera = [], []
+    # Orden numérico estricto (decisión del autor, 9-nov): se programa en orden de número y se para en el primer
+    # episodio sin fecha que aún no esté listo (o que falte); los listos que vienen detrás esperan a que llegue su turno.
+    tope = None
+    for n in range(1, max(eps) + 1):
+        if n not in eps:
+            tope = n
+            break
         ep, p, m = eps[n]
         pu = m.get("publicacion") or {}
-        if not listo(m) or pu.get("fecha"):
+        if pu.get("fecha") or m.get("estado") == "publicado":
             continue
+        if not listo(m):
+            tope = n
+            break
         anio, nombre = ep.split("/")
         pu.update(fecha=siguiente.isoformat(), audio_url=f"{AUDIO}/{anio}/{nombre}.mp3",
                   feed_guid=f"spanishnav.al/{anio}/{m['slug']}")
@@ -108,8 +117,13 @@ def programar():
         guardar(p, m)
         hechos.append((n, ep, siguiente))
         siguiente += dt.timedelta(days=1)
+    if tope is not None:
+        espera = [eps[k][0] for k in sorted(eps) if k > tope and listo(eps[k][2])
+                  and not (eps[k][2].get("publicacion") or {}).get("fecha")]
+    if espera:
+        print(f"Esperan su turno (antes falta el {tope:03d}): {', '.join(espera)}")
     if not hechos:
-        print("No hay episodios listos sin fecha.")
+        print("No hay episodios listos sin fecha en orden.")
         return
     for n, ep, f in hechos:
         print(f"  {f}  {ep}")
