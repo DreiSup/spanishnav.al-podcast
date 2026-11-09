@@ -8,7 +8,7 @@
   "estado": "montaje",
   "youtube": {
     "titulo": "Internet ha ampliado enormemente las posibilidades profesionales",
-    "descripcion": "",
+    "descripcion": "Episodio 9 de la traducción al español del podcast de Naval Ravikant.\nInternet ha ampliado enormemente las posibilidades profesionales: Internet te permite escalar cualquier obsesión de nicho.\n\n▶ Episodio original en YouTube: https://www.youtube.com/watch?v=cue09b4G_68\n▶ Transcripción original en inglés: https://nav.al/possible-careers\n▶ Este episodio en español, con su transcripción: https://spanishnav.al/possible-careers\n▶ Canal original de Naval: https://www.youtube.com/@NavalR\n\nTraducción no oficial. Contenido original de Naval Ravikant, publicado en nav.al.\n\nEste podcast se ha traducido al español con inteligencia artificial. Puede haber errores o inconsistencias tanto en la traducción como en la dicción.\nLa transcripción se ha traducido del inglés al español con Claude Opus 5.5 (esfuerzo alto), de Anthropic. La voz en español se ha generado con Qwen3-TTS, un modelo de voz de código abierto fine-tuned con las voces de Naval y de otros participantes.\n\n¿Algún problema o queja? Escríbeme a podcast@spanishnav.al\n\n—\n\nUnofficial Spanish translation of Naval Ravikant's podcast. Original content by Naval Ravikant at nav.al.\nThis podcast has been translated into Spanish using artificial intelligence. There may be errors or inconsistencies in both the translation and the diction.\nThe transcript was translated from English to Spanish with Anthropic's Claude Opus 5.5 (high effort). The Spanish audio was generated with Qwen3-TTS, an open-source voice model fine-tuned on the voices of Naval and other participants.\nIf you run into any problems or have a complaint, reach me at podcast@spanishnav.al",
     "tags": [],
     "url": "",
     "url_original": "https://www.youtube.com/watch?v=cue09b4G_68"
@@ -21,11 +21,11 @@
     "proyecto_id": ""
   },
   "publicacion": {
-    "fecha": "",
-    "audio_url": "",
+    "fecha": "2026-11-13",
+    "audio_url": "https://audio.spanishnav.al/2019/009-possible-careers.mp3",
     "audio_bytes": 0,
     "duracion_s": 0,
-    "feed_guid": ""
+    "feed_guid": "spanishnav.al/2019/possible-careers"
   },
   "audio_editado_a_mano": false,
   "heredado": null,

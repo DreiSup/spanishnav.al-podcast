@@ -5,13 +5,13 @@
   "anio": 2019,
   "slug": "accountability-equity",
   "titulo_es": "Asume la responsabilidad para ganarte equity",
-  "estado": "tts",
+  "estado": "montaje",
   "youtube": {
     "titulo": "Asume la responsabilidad para ganarte equity",
-    "descripcion": "",
+    "descripcion": "Episodio 20 de la traducción al español del podcast de Naval Ravikant.\nAsume la responsabilidad para ganarte equity: Si tienes mucha responsabilidad, eres menos reemplazable.\n\n▶ Episodio original en YouTube: https://www.youtube.com/watch?v=vy3jE0NE0NI\n▶ Transcripción original en inglés: https://nav.al/accountability-equity\n▶ Este episodio en español, con su transcripción: https://spanishnav.al/accountability-equity\n▶ Canal original de Naval: https://www.youtube.com/@NavalR\n\nTraducción no oficial. Contenido original de Naval Ravikant, publicado en nav.al.\n\nEste podcast se ha traducido al español con inteligencia artificial. Puede haber errores o inconsistencias tanto en la traducción como en la dicción.\nLa transcripción se ha traducido del inglés al español con Claude Opus 5.5 (esfuerzo alto), de Anthropic. La voz en español se ha generado con Qwen3-TTS, un modelo de voz de código abierto fine-tuned con las voces de Naval y de otros participantes.\n\n¿Algún problema o queja? Escríbeme a podcast@spanishnav.al\n\n—\n\nUnofficial Spanish translation of Naval Ravikant's podcast. Original content by Naval Ravikant at nav.al.\nThis podcast has been translated into Spanish using artificial intelligence. There may be errors or inconsistencies in both the translation and the diction.\nThe transcript was translated from English to Spanish with Anthropic's Claude Opus 5.5 (high effort). The Spanish audio was generated with Qwen3-TTS, an open-source voice model fine-tuned on the voices of Naval and other participants.\nIf you run into any problems or have a complaint, reach me at podcast@spanishnav.al",
     "tags": [],
     "url": "",
-    "url_original": ""
+    "url_original": "https://www.youtube.com/watch?v=vy3jE0NE0NI"
   },
   "drive": {
     "carpeta_id": "",
@@ -21,19 +21,19 @@
     "proyecto_id": ""
   },
   "publicacion": {
-    "fecha": "",
-    "audio_url": "",
+    "fecha": "2026-11-24",
+    "audio_url": "https://audio.spanishnav.al/2019/020-accountability-equity.mp3",
     "audio_bytes": 0,
     "duracion_s": 0,
-    "feed_guid": ""
+    "feed_guid": "spanishnav.al/2019/accountability-equity"
   },
   "audio_editado_a_mano": false,
   "heredado": null,
   "escucha": {
-    "escuchado": false,
-    "resultado": null,
-    "fecha": null,
-    "feedback": ""
+    "escuchado": true,
+    "resultado": "bueno",
+    "fecha": "2026-11-09",
+    "feedback": "2026-11-09: bueno. Escuchado por el autor (9-nov): bueno para subir"
   },
   "notas": "Inglés sacado del Google Doc «2019 all podcasts» de Drive; cuadra palabra a palabra con el documento. Traducción: parte del español del 052 (b109 a b114, mismo inglés letra a letra), revisada frase a frase con los términos confirmados por el autor el 5-nov. Cambios sobre el 052: equity va en inglés en todo el episodio (GLOSARIO, 5-nov), en lugar de «participación» y de «capital»; título «Asume la responsabilidad para ganarte equity»; Skin in the Game es Jugarse la piel (título publicado, Paidós 2019) y el concepto, jugarse la piel, en lugar de «jugarse algo»; los títulos de sección siguen esos términos; «tenedores de deuda» pasa a «acreedores» y «banqueros» a «bancos»; «cableados» a «programados»; «la lías» a «te equivocas»; fundidas nueve frases cortas (las del piloto de avión, la de Madoff, la del concepto sencillo); «el riesgo de responsabilidad ligado a un nombre» pasa a «el riesgo de poner tu nombre». Nota del editor no locutada: [bankruptcy] en b02 («In legal [bankruptcy] proceedings») queda como «En los procedimientos legales»; el 052 la locuta como «procedimientos legales de quiebra». great-great-great-grandson va como tataranieto. Escuchar en el TTS: equity (cómo lo pronuncia), Bernie Madoff, Madoff Investments, Taleb, Silicon Valley.\n\nRevisión del 6-nov: el corchete [bankruptcy] de b02 va en notas_editor para la web."
 }

@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**162** episodios · **3** publicados · **12** escuchados por el autor (**0** para revisar) · **0** sin empezar
+**162** episodios · **3** publicados · **23** escuchados por el autor (**0** para revisar) · **0** sin empezar
 
 ## 2026
 
@@ -164,17 +164,17 @@
 | 9 | [009-possible-careers](episodios/2019/009-possible-careers) | Internet ha ampliado enormemente las posibilidades profesionales | 🟣 montaje | ✅ 2026-11-08 | — | — |
 | 10 | [010-long-term](episodios/2019/010-long-term) | Juega a juegos a largo plazo con gente a largo plazo | 🟣 montaje | ✅ 2026-11-05 | — | — |
 | 11 | [011-intelligence-energy-integrity](episodios/2019/011-intelligence-energy-integrity) | Elige socios con inteligencia, energía e integridad | 🟣 montaje | ✅ 2026-11-09 | — | — |
-| 12 | [012-rational-optimists](episodios/2019/012-rational-optimists) | Asóciate con optimistas racionales | 🔵 generando TTS | — | — | — |
-| 13 | [013-specific-knowledge](episodios/2019/013-specific-knowledge) | Ármate de conocimiento específico | 🔵 generando TTS | — | — | — |
-| 14 | [014-creative-technical](episodios/2019/014-creative-technical) | El conocimiento específico es muy creativo o técnico | 🔵 generando TTS | — | — | — |
-| 15 | [015-build-sell](episodios/2019/015-build-sell) | Aprende a vender, aprende a construir | 🔵 generando TTS | — | — | — |
-| 16 | [016-love-read](episodios/2019/016-love-read) | Lee lo que te encante hasta que te encante leer | 🔵 generando TTS | — | — | — |
-| 17 | [017-math-logic](episodios/2019/017-math-logic) | Los cimientos son las matemáticas y la lógica | 🔵 generando TTS | — | — | — |
-| 18 | [018-skill-business](episodios/2019/018-skill-business) | No existe una habilidad que se llame negocios | 🔵 generando TTS | — | — | — |
-| 19 | [019-accountability-leverage](episodios/2019/019-accountability-leverage) | Asume la responsabilidad para conseguir apalancamiento | 🔵 generando TTS | — | — | — |
-| 20 | [020-accountability-equity](episodios/2019/020-accountability-equity) | Asume la responsabilidad para ganarte equity | 🔵 generando TTS | — | — | — |
-| 21 | [021-labor-capital](episodios/2019/021-labor-capital) | El trabajo y el capital son apalancamiento antiguo | 🔵 generando TTS | — | — | — |
-| 22 | [022-product-media](episodios/2019/022-product-media) | El producto y los medios son apalancamiento nuevo | 🔵 generando TTS | — | — | — |
+| 12 | [012-rational-optimists](episodios/2019/012-rational-optimists) | Asóciate con optimistas racionales | 🟣 montaje | ✅ 2026-11-09 | — | — |
+| 13 | [013-specific-knowledge](episodios/2019/013-specific-knowledge) | Ármate de conocimiento específico | 🟣 montaje | ✅ 2026-11-09 | — | — |
+| 14 | [014-creative-technical](episodios/2019/014-creative-technical) | El conocimiento específico es muy creativo o técnico | 🟣 montaje | ✅ 2026-11-09 | — | — |
+| 15 | [015-build-sell](episodios/2019/015-build-sell) | Aprende a vender, aprende a construir | 🟣 montaje | ✅ 2026-11-09 | — | — |
+| 16 | [016-love-read](episodios/2019/016-love-read) | Lee lo que te encante hasta que te encante leer | 🟣 montaje | ✅ 2026-11-09 | — | — |
+| 17 | [017-math-logic](episodios/2019/017-math-logic) | Los cimientos son las matemáticas y la lógica | 🟣 montaje | ✅ 2026-11-09 | — | — |
+| 18 | [018-skill-business](episodios/2019/018-skill-business) | No existe una habilidad que se llame negocios | 🟣 montaje | ✅ 2026-11-09 | — | — |
+| 19 | [019-accountability-leverage](episodios/2019/019-accountability-leverage) | Asume la responsabilidad para conseguir apalancamiento | 🟣 montaje | ✅ 2026-11-09 | — | — |
+| 20 | [020-accountability-equity](episodios/2019/020-accountability-equity) | Asume la responsabilidad para ganarte equity | 🟣 montaje | ✅ 2026-11-09 | — | — |
+| 21 | [021-labor-capital](episodios/2019/021-labor-capital) | El trabajo y el capital son apalancamiento antiguo | 🟣 montaje | ✅ 2026-11-09 | — | — |
+| 22 | [022-product-media](episodios/2019/022-product-media) | El producto y los medios son apalancamiento nuevo | 🟣 montaje | ✅ 2026-11-09 | — | — |
 | 23 | [023-egalitarian-leverage](episodios/2019/023-egalitarian-leverage) | El apalancamiento de producto es igualitario | 🔵 generando TTS | — | — | — |
 | 24 | [024-business-models](episodios/2019/024-business-models) | Elige un modelo de negocio con apalancamiento | 🔵 generando TTS | — | — | — |
 | 25 | [025-laborer-tech](episodios/2019/025-laborer-tech) | Ejemplo: del obrero al emprendedor | 🔵 generando TTS | — | — | — |

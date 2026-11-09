@@ -5,13 +5,13 @@
   "anio": 2019,
   "slug": "accountability-leverage",
   "titulo_es": "Asume la responsabilidad para conseguir apalancamiento",
-  "estado": "tts",
+  "estado": "montaje",
   "youtube": {
     "titulo": "Asume la responsabilidad para conseguir apalancamiento",
-    "descripcion": "",
+    "descripcion": "Episodio 19 de la traducción al español del podcast de Naval Ravikant.\nAsume la responsabilidad para conseguir apalancamiento: Asume riesgos con tu propio nombre y la sociedad te recompensará con apalancamiento.\n\n▶ Episodio original en YouTube: https://www.youtube.com/watch?v=3J0CKZLsF-s\n▶ Transcripción original en inglés: https://nav.al/accountability-leverage\n▶ Este episodio en español, con su transcripción: https://spanishnav.al/accountability-leverage\n▶ Canal original de Naval: https://www.youtube.com/@NavalR\n\nTraducción no oficial. Contenido original de Naval Ravikant, publicado en nav.al.\n\nEste podcast se ha traducido al español con inteligencia artificial. Puede haber errores o inconsistencias tanto en la traducción como en la dicción.\nLa transcripción se ha traducido del inglés al español con Claude Opus 5.5 (esfuerzo alto), de Anthropic. La voz en español se ha generado con Qwen3-TTS, un modelo de voz de código abierto fine-tuned con las voces de Naval y de otros participantes.\n\n¿Algún problema o queja? Escríbeme a podcast@spanishnav.al\n\n—\n\nUnofficial Spanish translation of Naval Ravikant's podcast. Original content by Naval Ravikant at nav.al.\nThis podcast has been translated into Spanish using artificial intelligence. There may be errors or inconsistencies in both the translation and the diction.\nThe transcript was translated from English to Spanish with Anthropic's Claude Opus 5.5 (high effort). The Spanish audio was generated with Qwen3-TTS, an open-source voice model fine-tuned on the voices of Naval and other participants.\nIf you run into any problems or have a complaint, reach me at podcast@spanishnav.al",
     "tags": [],
     "url": "",
-    "url_original": ""
+    "url_original": "https://www.youtube.com/watch?v=3J0CKZLsF-s"
   },
   "drive": {
     "carpeta_id": "",
@@ -21,19 +21,19 @@
     "proyecto_id": ""
   },
   "publicacion": {
-    "fecha": "",
-    "audio_url": "",
+    "fecha": "2026-11-23",
+    "audio_url": "https://audio.spanishnav.al/2019/019-accountability-leverage.mp3",
     "audio_bytes": 0,
     "duracion_s": 0,
-    "feed_guid": ""
+    "feed_guid": "spanishnav.al/2019/accountability-leverage"
   },
   "audio_editado_a_mano": false,
   "heredado": null,
   "escucha": {
-    "escuchado": false,
-    "resultado": null,
-    "fecha": null,
-    "feedback": ""
+    "escuchado": true,
+    "resultado": "bueno",
+    "fecha": "2026-11-09",
+    "feedback": "2026-11-09: bueno. Escuchado por el autor (9-nov): bueno para subir"
   },
   "notas": "Inglés sacado del Google Doc «2019 all podcasts» de Drive; cuadra palabra a palabra con el documento. Traducción: parte del español del 052 (b104 a b108, mismo inglés letra a letra), revisada frase a frase con los términos confirmados por el autor el 5-nov. Cambios sobre el 052: en b01 el tuit va en estilo indirecto y la colisión entre accountability y responsibility se resuelve según GLOSARIO («asumas la responsabilidad», «te recompensará con cargos de responsabilidad, equity y apalancamiento»; el 052 dice «capital», que choca con el capital como apalancamiento); título «Asume la responsabilidad para conseguir apalancamiento» (el 052 dice «Asume responsabilidad»); fundidas 17 frases cortas (las preguntas sobre Trump van con su respuesta en la misma frase; la enumeración de responsables de b04; la lista de riesgos de b05); partidas las de 45, 37 y 36 palabras; calcos fuera: «vuela de las estanterías» pasa a «se agota en las tiendas», «validador instantáneo» a «sello de garantía», «ojo público» a «punto de mira», «poner su nombre ahí fuera» a «exponer su nombre», «cableados» a «programados», «el tío» a «él», «la lía» a «se equivoca»; los mensajes que recibió Naval y el voto a Trump en estilo indirecto; crypto como «el mundo cripto». Escuchar en el TTS: Kanye, Oprah, Trump, Trump Casino, Elon, online, startups."
 }

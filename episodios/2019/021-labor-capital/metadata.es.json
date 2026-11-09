@@ -5,13 +5,13 @@
   "anio": 2019,
   "slug": "labor-capital",
   "titulo_es": "El trabajo y el capital son apalancamiento antiguo",
-  "estado": "tts",
+  "estado": "montaje",
   "youtube": {
     "titulo": "El trabajo y el capital son apalancamiento antiguo",
-    "descripcion": "",
+    "descripcion": "Episodio 21 de la traducción al español del podcast de Naval Ravikant.\nEl trabajo y el capital son apalancamiento antiguo: Todo el mundo se pelea por el trabajo y el capital.\n\n▶ Episodio original en YouTube: https://www.youtube.com/watch?v=Q9kcQsCUCP8\n▶ Transcripción original en inglés: https://nav.al/labor-capital\n▶ Este episodio en español, con su transcripción: https://spanishnav.al/labor-capital\n▶ Canal original de Naval: https://www.youtube.com/@NavalR\n\nTraducción no oficial. Contenido original de Naval Ravikant, publicado en nav.al.\n\nEste podcast se ha traducido al español con inteligencia artificial. Puede haber errores o inconsistencias tanto en la traducción como en la dicción.\nLa transcripción se ha traducido del inglés al español con Claude Opus 5.5 (esfuerzo alto), de Anthropic. La voz en español se ha generado con Qwen3-TTS, un modelo de voz de código abierto fine-tuned con las voces de Naval y de otros participantes.\n\n¿Algún problema o queja? Escríbeme a podcast@spanishnav.al\n\n—\n\nUnofficial Spanish translation of Naval Ravikant's podcast. Original content by Naval Ravikant at nav.al.\nThis podcast has been translated into Spanish using artificial intelligence. There may be errors or inconsistencies in both the translation and the diction.\nThe transcript was translated from English to Spanish with Anthropic's Claude Opus 5.5 (high effort). The Spanish audio was generated with Qwen3-TTS, an open-source voice model fine-tuned on the voices of Naval and other participants.\nIf you run into any problems or have a complaint, reach me at podcast@spanishnav.al",
     "tags": [],
     "url": "",
-    "url_original": ""
+    "url_original": "https://www.youtube.com/watch?v=Q9kcQsCUCP8"
   },
   "drive": {
     "carpeta_id": "",
@@ -21,19 +21,19 @@
     "proyecto_id": ""
   },
   "publicacion": {
-    "fecha": "",
-    "audio_url": "",
+    "fecha": "2026-11-25",
+    "audio_url": "https://audio.spanishnav.al/2019/021-labor-capital.mp3",
     "audio_bytes": 0,
     "duracion_s": 0,
-    "feed_guid": ""
+    "feed_guid": "spanishnav.al/2019/labor-capital"
   },
   "audio_editado_a_mano": false,
   "heredado": null,
   "escucha": {
-    "escuchado": false,
-    "resultado": null,
-    "fecha": null,
-    "feedback": ""
+    "escuchado": true,
+    "resultado": "bueno",
+    "fecha": "2026-11-09",
+    "feedback": "2026-11-09: bueno. Escuchado por el autor (9-nov): bueno para subir"
   },
   "notas": "Inglés sacado del Google Doc «2019 all podcasts» de Drive; cuadra palabra a palabra con el documento. Traducción: parte del español del 052 (b115 a b120, mismo inglés letra a letra), revisada frase a frase con los términos confirmados por el autor el 5-nov. Cambios sobre el 052: la cita de Arquímedes en estilo indirecto (el 052 dice «dadme una palanca», que es vosotros y además va entre dos puntos), con «palanca», que es la única excepción a apalancamiento (GLOSARIO); el tuit de las fortunas en estilo indirecto; «coste marginal de replicación» se mantiene (GLOSARIO); fundidas 13 frases cortas (las de Arquímedes, la de lo quirúrgico y analítico, la de que escala muy bien); partidas las de 37 y 36 palabras; calcos fuera: «crítico» pasa a «crucial», «farragoso» a «complicado», «estamos evolucionados» y «cableado» a «la evolución nos ha preparado» y «grabado», «un tipo tipo Warren Buffett» a «alguien como Warren Buffett», «dominio» a «campo»; la pregunta de la gente ingenua en estilo indirecto. Escuchar en el TTS: Arquímedes, das kapital y das labor (broma en alemán de Naval), Warren Buffett, Twitter."
 }

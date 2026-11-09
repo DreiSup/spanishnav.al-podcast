@@ -5,13 +5,13 @@
   "anio": 2019,
   "slug": "math-logic",
   "titulo_es": "Los cimientos son las matemáticas y la lógica",
-  "estado": "tts",
+  "estado": "montaje",
   "youtube": {
     "titulo": "Los cimientos son las matemáticas y la lógica",
-    "descripcion": "",
+    "descripcion": "Episodio 17 de la traducción al español del podcast de Naval Ravikant.\nLos cimientos son las matemáticas y la lógica: Las matemáticas y la lógica son la base para entender todo lo demás.\n\n▶ Episodio original en YouTube: https://www.youtube.com/watch?v=q31pGz-gPGg\n▶ Transcripción original en inglés: https://nav.al/math-logic\n▶ Este episodio en español, con su transcripción: https://spanishnav.al/math-logic\n▶ Canal original de Naval: https://www.youtube.com/@NavalR\n\nTraducción no oficial. Contenido original de Naval Ravikant, publicado en nav.al.\n\nEste podcast se ha traducido al español con inteligencia artificial. Puede haber errores o inconsistencias tanto en la traducción como en la dicción.\nLa transcripción se ha traducido del inglés al español con Claude Opus 5.5 (esfuerzo alto), de Anthropic. La voz en español se ha generado con Qwen3-TTS, un modelo de voz de código abierto fine-tuned con las voces de Naval y de otros participantes.\n\n¿Algún problema o queja? Escríbeme a podcast@spanishnav.al\n\n—\n\nUnofficial Spanish translation of Naval Ravikant's podcast. Original content by Naval Ravikant at nav.al.\nThis podcast has been translated into Spanish using artificial intelligence. There may be errors or inconsistencies in both the translation and the diction.\nThe transcript was translated from English to Spanish with Anthropic's Claude Opus 5.5 (high effort). The Spanish audio was generated with Qwen3-TTS, an open-source voice model fine-tuned on the voices of Naval and other participants.\nIf you run into any problems or have a complaint, reach me at podcast@spanishnav.al",
     "tags": [],
     "url": "",
-    "url_original": ""
+    "url_original": "https://www.youtube.com/watch?v=q31pGz-gPGg"
   },
   "drive": {
     "carpeta_id": "",
@@ -21,19 +21,19 @@
     "proyecto_id": ""
   },
   "publicacion": {
-    "fecha": "",
-    "audio_url": "",
+    "fecha": "2026-11-21",
+    "audio_url": "https://audio.spanishnav.al/2019/017-math-logic.mp3",
     "audio_bytes": 0,
     "duracion_s": 0,
-    "feed_guid": ""
+    "feed_guid": "spanishnav.al/2019/math-logic"
   },
   "audio_editado_a_mano": false,
   "heredado": null,
   "escucha": {
-    "escuchado": false,
-    "resultado": null,
-    "fecha": null,
-    "feedback": ""
+    "escuchado": true,
+    "resultado": "bueno",
+    "fecha": "2026-11-09",
+    "feedback": "2026-11-09: bueno. Escuchado por el autor (9-nov): bueno para subir"
   },
   "notas": "Inglés sacado del Google Doc «2019 all podcasts» de Drive; cuadra palabra a palabra con el documento. Traducción: parte del español del 052 (b95 a b98, mismo inglés letra a letra), revisada frase a frase con los términos confirmados por el autor el 5-nov. Cambios sobre el 052: citas de Taleb, Bruce Lee y la Teoría Monetaria Moderna en estilo indirecto, sin dos puntos; «Es simplemente un sinsentido» y «Ahora es una rama de la política» fundidas con sus vecinas; partida la frase de 36 palabras de b02; «cosas fundacionales» pasa a «cosas fundamentales»; «entendimiento profundo» pasa a «comprensión profunda»; en b04, «como tú añades» traduce el «as you're adding in» dirigido a Nivi. Nota del editor no locutada: el corchete [of pseudoscience] de b02 (opiniones con un barniz de pseudociencia) se resuelve como «opiniones bien barnizadas». b03 de Nivi queda en ratio 0,82 por compresión de la enumeración (leer los libros de Knuth, las lecciones de Feynman), sin contenido perdido. Escuchar en el TTS: Nassim Taleb, Teoría Monetaria Moderna, Bruce Lee, Donald Knuth, Feynman.\n\nRevisión del 6-nov: el corchete [of pseudoscience] de b02 va en notas_editor para la web."
 }
