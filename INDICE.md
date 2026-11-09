@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**162** episodios · **3** publicados · **23** escuchados por el autor (**0** para revisar) · **0** sin empezar
+**162** episodios · **3** publicados · **25** escuchados por el autor (**0** para revisar) · **0** sin empezar
 
 ## 2026
 
@@ -175,8 +175,8 @@
 | 20 | [020-accountability-equity](episodios/2019/020-accountability-equity) | Asume la responsabilidad para ganarte equity | 🟣 montaje | ✅ 2026-11-09 | — | — |
 | 21 | [021-labor-capital](episodios/2019/021-labor-capital) | El trabajo y el capital son apalancamiento antiguo | 🟣 montaje | ✅ 2026-11-09 | — | — |
 | 22 | [022-product-media](episodios/2019/022-product-media) | El producto y los medios son apalancamiento nuevo | 🟣 montaje | ✅ 2026-11-09 | — | — |
-| 23 | [023-egalitarian-leverage](episodios/2019/023-egalitarian-leverage) | El apalancamiento de producto es igualitario | 🔵 generando TTS | — | — | — |
-| 24 | [024-business-models](episodios/2019/024-business-models) | Elige un modelo de negocio con apalancamiento | 🔵 generando TTS | — | — | — |
+| 23 | [023-egalitarian-leverage](episodios/2019/023-egalitarian-leverage) | El apalancamiento de producto es igualitario | 🟣 montaje | ✅ 2026-11-09 | — | — |
+| 24 | [024-business-models](episodios/2019/024-business-models) | Elige un modelo de negocio con apalancamiento | 🟣 montaje | ✅ 2026-11-09 | — | — |
 | 25 | [025-laborer-tech](episodios/2019/025-laborer-tech) | Ejemplo: del obrero al emprendedor | 🔵 generando TTS | — | — | — |
 | 26 | [026-judgment](episodios/2019/026-judgment) | El criterio es la habilidad decisiva | 🔵 generando TTS | — | — | — |
 | 27 | [027-hourly-rate](episodios/2019/027-hourly-rate) | Fija una tarifa por hora ambiciosa | 🔵 generando TTS | — | — | — |

@@ -5,7 +5,7 @@
   "anio": 2019,
   "slug": "business-models",
   "titulo_es": "Elige un modelo de negocio con apalancamiento",
-  "estado": "tts",
+  "estado": "montaje",
   "youtube": {
     "titulo": "Elige un modelo de negocio con apalancamiento",
     "descripcion": "",
@@ -30,10 +30,10 @@
   "audio_editado_a_mano": false,
   "heredado": null,
   "escucha": {
-    "escuchado": false,
-    "resultado": null,
-    "fecha": null,
-    "feedback": ""
+    "escuchado": true,
+    "resultado": "bueno",
+    "fecha": "2026-11-09",
+    "feedback": "2026-11-09: bueno. Escuchado por el autor (9-nov): bueno para subir"
   },
   "notas": "Inglés sacado del Google Doc «2019 all podcasts» de Drive; cuadra palabra a palabra con el documento. Artefacto del copiado en el inglés, no tocado: «the `Internet speaks English» (b06) lleva un acento grave suelto. Traducción: parte del español del 052 (b135 a b141), revisada frase a frase con los términos confirmados por el autor el 5-nov. El b06 no casaba letra a letra con el 052 b140 por ese artefacto; se reutiliza su español. Título nuevo, «Elige un modelo de negocio con apalancamiento». Cambios sobre el 052: «coste marginal cero de reproducción» pasa a «coste marginal de replicación cero», también en el título de sección (GLOSARIO, 5-nov); en b06 el 052 decía «si los cien hablarais el mismo idioma», que es vosotros, y ahora dice «si las cien personas hablaran»; el 052 también decía «diez grupos empiezan hablando diez idiomas» y el inglés dice diez personas; HAY QUE CORREGIRLO TAMBIÉN EN EL 052 b140 antes de sintetizarlo; fundidas cinco frases cortas; partida la de 38 palabras de b02; «secretos sucios» pasa a «secretos inconfesables»; «increíblemente doloroso» a «un engorro tremendo»; «desventaja seria en una formación técnica» a «clara desventaja a la hora de formarte técnicamente». Escuchar en el TTS: Joe Rogan, Bob Metcalfe, Ethernet, Uber, Lyft, Google, DuckDuckGo, Twitter, YouTube, Amazon Prime, Bahamas."
 }
