@@ -166,11 +166,11 @@
 | 11 | [011-intelligence-energy-integrity](episodios/2019/011-intelligence-energy-integrity) | Elige socios con inteligencia, energía e integridad | 🟣 montaje | ✅ 2026-11-09 | — | [▶](https://www.youtube.com/watch?v=f5q1N2ZU2PU) |
 | 12 | [012-rational-optimists](episodios/2019/012-rational-optimists) | Asóciate con optimistas racionales | 🟣 montaje | ✅ 2026-11-09 | — | [▶](https://www.youtube.com/watch?v=BCUU5-cEJsY) |
 | 13 | [013-specific-knowledge](episodios/2019/013-specific-knowledge) | Ármate de conocimiento específico | 🟣 montaje | ✅ 2026-11-09 | — | [▶](https://www.youtube.com/watch?v=ugDup0V_Z34) |
-| 14 | [014-creative-technical](episodios/2019/014-creative-technical) | El conocimiento específico es muy creativo o técnico | 🟣 montaje | ✅ 2026-11-09 | — | — |
-| 15 | [015-build-sell](episodios/2019/015-build-sell) | Aprende a vender, aprende a construir | 🟣 montaje | ✅ 2026-11-09 | — | — |
-| 16 | [016-love-read](episodios/2019/016-love-read) | Lee lo que te encante hasta que te encante leer | 🟣 montaje | ✅ 2026-11-09 | — | — |
-| 17 | [017-math-logic](episodios/2019/017-math-logic) | Los cimientos son las matemáticas y la lógica | 🟣 montaje | ✅ 2026-11-09 | — | — |
-| 18 | [018-skill-business](episodios/2019/018-skill-business) | No existe una habilidad que se llame negocios | 🟣 montaje | ✅ 2026-11-09 | — | — |
+| 14 | [014-creative-technical](episodios/2019/014-creative-technical) | El conocimiento específico es muy creativo o técnico | 🟣 montaje | ✅ 2026-11-09 | — | [▶](https://www.youtube.com/watch?v=t6eUWkKRik4) |
+| 15 | [015-build-sell](episodios/2019/015-build-sell) | Aprende a vender, aprende a construir | 🟣 montaje | ✅ 2026-11-09 | — | [▶](https://www.youtube.com/watch?v=EBBPRoEMV6I) |
+| 16 | [016-love-read](episodios/2019/016-love-read) | Lee lo que te encante hasta que te encante leer | 🟣 montaje | ✅ 2026-11-09 | — | [▶](https://www.youtube.com/watch?v=SmCz8N7xv8I) |
+| 17 | [017-math-logic](episodios/2019/017-math-logic) | Los cimientos son las matemáticas y la lógica | 🟣 montaje | ✅ 2026-11-09 | — | [▶](https://www.youtube.com/watch?v=65GS4IeQ9U8) |
+| 18 | [018-skill-business](episodios/2019/018-skill-business) | No existe una habilidad que se llame negocios | 🟣 montaje | ✅ 2026-11-09 | — | [▶](https://www.youtube.com/watch?v=D3O0hSwgx2s) |
 | 19 | [019-accountability-leverage](episodios/2019/019-accountability-leverage) | Asume la responsabilidad para conseguir apalancamiento | 🟣 montaje | ✅ 2026-11-09 | — | — |
 | 20 | [020-accountability-equity](episodios/2019/020-accountability-equity) | Asume la responsabilidad para ganarte equity | 🟣 montaje | ✅ 2026-11-09 | — | — |
 | 21 | [021-labor-capital](episodios/2019/021-labor-capital) | El trabajo y el capital son apalancamiento antiguo | 🟣 montaje | ✅ 2026-11-09 | — | — |
