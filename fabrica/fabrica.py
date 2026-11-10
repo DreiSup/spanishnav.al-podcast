@@ -602,6 +602,40 @@ def montar_cortos(largo, plan_largo, carpeta_largo, cortos, cfg, avisar=print):
     return resumen
 
 
+def verificar_cortos(largo, cortos, cfg, wer_max=0.15):
+    """Revisa, frase a frase, cortos ya montados con montar_cortos. Para cada corto: que cada intervención del plan
+    tiene clip y fila en el registro, que la fila sale de `largo` (de_largo), que sus frases son las del transcript,
+    y por frase que pasó la revisión (ok), que lo que oyó Whisper se parece al texto (WER ≤ wer_max) y que no sobra
+    nada al final (sobra_final ≤ verificacion.sobra_final_max). Devuelve [(episodio, frases, [problemas])]."""
+    import medir
+    sobra_max = cfg["verificacion"]["sobra_final_max"]
+    salida = []
+    for episodio, plan, carpeta, _ in cortos:
+        carpeta = Path(carpeta)
+        hechos = leer_registro(carpeta)
+        problemas, n = [], 0
+        for p in plan:
+            fila = hechos.get(p["fichero"])
+            if fila is None or not (carpeta / "tts" / p["fichero"]).exists():
+                problemas.append(f"{p['fichero']}: falta el clip o su fila del registro")
+                continue
+            if not str(fila.get("de_largo", "")).startswith(largo + "/"):
+                problemas.append(f"{p['fichero']}: no sale de {largo} (de_largo = {fila.get('de_largo')})")
+            textos = [d.get("texto") for d in fila.get("frases", [])]
+            if textos != p["frases"]:
+                problemas.append(f"{p['fichero']}: sus frases no son las del transcript")
+            for d in fila.get("frases", []):
+                n += 1
+                hyp = d.get("transcripcion") or ""
+                w = medir.wer(d.get("texto", ""), hyp)
+                sobra = d.get("sobra_final")
+                if d.get("ok") is False or w > wer_max or (sobra is not None and sobra > sobra_max):
+                    problemas.append(f"{p['fichero']} frase {d['k'] + 1}: ok={d.get('ok')} WER={w:.2f} "
+                                     f"sobra={sobra} · texto: {d.get('texto')} · oído: {hyp}")
+        salida.append((episodio, n, problemas))
+    return salida
+
+
 def unidades(segundos, gpu, cfg):
     """Unidades de Colab estimadas para `segundos` de una GPU, con las tarifas de voces.json («coste»)."""
     tarifas = cfg.get("coste", {}).get("unidades_por_hora", {})
