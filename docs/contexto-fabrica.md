@@ -85,6 +85,15 @@ Muestras de Kapil, Vitalik y Ridley aprobadas por el autor; Brett y Deutsch (134
 - Registro de escucha: bloque `escucha` de `metadata.es.json` (`escuchado`, `resultado` bueno/revisar, `fecha`,
   `feedback`); `INDICE.md` lo muestra (`python3 scripts/indice.py`). Las altas en plataformas las lleva otra sesión.
 
+## Pendiente: cortos del 154 que pasan por la fábrica
+
+Al montar los cortos del **154** con `cortos.ipynb`, dos intervenciones no tienen pareja en el largo y se quedan sin
+hacer (el cuaderno las lista): **`2025/139-inspiration` → `001nivi.wav`** (intro propia de Nivi) y
+**`2025/144-find` → `001naval.wav`** (el largo b15 lleva además «Por ejemplo, fíjate en el marketing.»). Después de
+montar, lanzar la fábrica normal sobre esos dos episodios: genera solo esas dos intervenciones (las demás ya están
+al día) y monta sus masters. Celda 2: `EPISODIOS = ["2025/139-inspiration", "2025/144-find"]`, el resto como
+siempre. Segundos de GPU. Los cortos de 077, 105, 130 y 160 emparejan al 100 %: no necesitan este paso.
+
 ## Coste y rendimiento medidos (base para optimizar)
 
 - Frase a frase en L4 (2-nov, 044): **4,58 s de GPU por s de audio**.
