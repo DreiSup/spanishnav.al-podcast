@@ -129,21 +129,21 @@
 
 | # | Episodio | Título en español | Estado | Escuchado | Drive | YouTube |
 |---|---|---|---|---|---|---|
-| 53 | [053-philosopher](episodios/2020/053-philosopher) | Vive lo suficiente y te convertirás en filósofo | 🟠 en revisión | — | — | — |
-| 54 | [054-material](episodios/2020/054-material) | La felicidad sin comodidad material es jugar en modo difícil | 🟠 en revisión | — | — | — |
-| 55 | [055-math](episodios/2020/055-math) | La felicidad no es ciencia ni matemáticas | 🟠 en revisión | — | — | — |
-| 56 | [056-skill](episodios/2020/056-skill) | La felicidad es una habilidad que puedes desarrollar | 🟠 en revisión | — | — | — |
-| 57 | [057-desire](episodios/2020/057-desire) | El deseo es un contrato que firmas para ser infeliz | 🟠 en revisión | — | — | — |
-| 58 | [058-smart](episodios/2020/058-smart) | Si eres tan listo, ¿por qué no eres feliz? | 🟠 en revisión | — | — | — |
-| 59 | [059-inefficient](episodios/2020/059-inefficient) | Ser infeliz es tremendamente ineficiente | 🟠 en revisión | — | — | — |
-| 60 | [060-least](episodios/2020/060-least) | Trabaja lo menos posible para conseguirlo | 🟠 en revisión | — | — | — |
-| 61 | [061-addiction](episodios/2020/061-addiction) | La lucha moderna es plantar cara a las adicciones convertidas en armas | 🟠 en revisión | — | — | — |
-| 62 | [062-unacceptable](episodios/2020/062-unacceptable) | Romper con una adicción está mal visto socialmente | 🟠 en revisión | — | — | — |
-| 63 | [063-peace](episodios/2020/063-peace) | Encontrar la paz frente a la mente | 🟠 en revisión | — | — | — |
-| 64 | [064-peace-motion](episodios/2020/064-peace-motion) | La felicidad es paz en movimiento | 🟠 en revisión | — | — | — |
-| 65 | [065-silent](episodios/2020/065-silent) | Cuanto más cerca estás de la verdad, más silencioso te vuelves por dentro | 🟠 en revisión | — | — | — |
-| 66 | [066-consensus](episodios/2020/066-consensus) | Los grupos buscan el consenso, los individuos buscan la verdad | 🟠 en revisión | — | — | — |
-| 67 | [067-truth](episodios/2020/067-truth) | El camino hacia la paz es la verdad | 🟠 en revisión | — | — | — |
+| 53 | [053-philosopher](episodios/2020/053-philosopher) | Vive lo suficiente y te convertirás en filósofo | 🔵 generando TTS | — | — | — |
+| 54 | [054-material](episodios/2020/054-material) | La felicidad sin comodidad material es jugar en modo difícil | 🔵 generando TTS | — | — | — |
+| 55 | [055-math](episodios/2020/055-math) | La felicidad no es ciencia ni matemáticas | 🔵 generando TTS | — | — | — |
+| 56 | [056-skill](episodios/2020/056-skill) | La felicidad es una habilidad que puedes desarrollar | 🔵 generando TTS | — | — | — |
+| 57 | [057-desire](episodios/2020/057-desire) | El deseo es un contrato que firmas para ser infeliz | 🔵 generando TTS | — | — | — |
+| 58 | [058-smart](episodios/2020/058-smart) | Si eres tan listo, ¿por qué no eres feliz? | 🔵 generando TTS | — | — | — |
+| 59 | [059-inefficient](episodios/2020/059-inefficient) | Ser infeliz es tremendamente ineficiente | 🔵 generando TTS | — | — | — |
+| 60 | [060-least](episodios/2020/060-least) | Trabaja lo menos posible para conseguirlo | 🔵 generando TTS | — | — | — |
+| 61 | [061-addiction](episodios/2020/061-addiction) | La lucha moderna es plantar cara a las adicciones convertidas en armas | 🔵 generando TTS | — | — | — |
+| 62 | [062-unacceptable](episodios/2020/062-unacceptable) | Romper con una adicción está mal visto socialmente | 🔵 generando TTS | — | — | — |
+| 63 | [063-peace](episodios/2020/063-peace) | Encontrar la paz frente a la mente | 🔵 generando TTS | — | — | — |
+| 64 | [064-peace-motion](episodios/2020/064-peace-motion) | La felicidad es paz en movimiento | 🔵 generando TTS | — | — | — |
+| 65 | [065-silent](episodios/2020/065-silent) | Cuanto más cerca estás de la verdad, más silencioso te vuelves por dentro | 🔵 generando TTS | — | — | — |
+| 66 | [066-consensus](episodios/2020/066-consensus) | Los grupos buscan el consenso, los individuos buscan la verdad | 🔵 generando TTS | — | — | — |
+| 67 | [067-truth](episodios/2020/067-truth) | El camino hacia la paz es la verdad | 🔵 generando TTS | — | — | — |
 | 68 | [068-kapil](episodios/2020/068-kapil) | Kapil Gupta: Conquistando la mente | 🔵 generando TTS | — | — | — |
 | 69 | [069-angel-2](episodios/2020/069-angel-2) | Cómo invertir como ángel, parte 2 | 🔵 generando TTS | — | — | — |
 | 70 | [070-matt-ridley](episodios/2020/070-matt-ridley) | Matt Ridley: Cómo funciona la innovación, parte 1 | 🔵 generando TTS | — | — | — |
