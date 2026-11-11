@@ -94,6 +94,18 @@ montar, lanzar la fábrica normal sobre esos dos episodios: genera solo esas dos
 al día) y monta sus masters. Celda 2: `EPISODIOS = ["2025/139-inspiration", "2025/144-find"]`, el resto como
 siempre. Segundos de GPU. Los cortos de 077, 105, 130 y 160 emparejan al 100 %: no necesitan este paso.
 
+## Pendiente: LoRA de los seis invitados (11-nov)
+
+La sesión local construye los datasets de **ridley, vitalik, qureshi, hodak, rauch y scholl** (en serie, Ridley
+primero; train 30-45 min, eval 3-4 min, receta de Brett; mitad o más del train sale de podcasts externos, otro micro
+y otra sala). Cada uno llega a `gdrive:fine_tunned_naval/datasets/<voz>/` solo tras la escucha y el OK del autor, con
+los minutos finales. **Hasta entonces no se lanza nada que dependa de ellos.**
+
+Preparado sin GPU: los cuadernos 01, 03 y 04 del piloto aceptan las seis voces (`rutas.VOCES_LORA`). Frases de la
+escucha a ciegas del 04: tres por voz sacadas de su propia traducción (`piloto/frases_prueba_voces.json`, ids
+`ri`, `vi`, `qu`, `ho`, `ra`, `sc` 01-03; regla fija en `piloto/elegir_prueba_voces.py`). Por voz: 01 (T4, ~60 min)
+→ 03 (T4, ~15 min) → 04 (L4) → escucha → `voces.json` → regenerar sus clips (070, 071; 131, 132; 160 y extras).
+
 ## Coste y rendimiento medidos (base para optimizar)
 
 - Frase a frase en L4 (2-nov, 044): **4,58 s de GPU por s de audio**.

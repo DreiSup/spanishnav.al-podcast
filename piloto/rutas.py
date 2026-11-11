@@ -5,15 +5,26 @@ demás voces van en una subcarpeta con su nombre. Si se reorganiza Drive, se cam
 """
 from pathlib import Path
 
-# Frases de prueba de cada voz para la escucha a ciegas tras entrenar: (fichero de frases, ids).
-# Las de Naval y Kapil van en criba/frases.json; las de Deutsch y la voz de Kapil, en frases_xvector.json.
+# Voces con dataset propio para LoRA (además de naval). Las seis últimas, en preparación en la sesión local (11-nov).
+VOCES_LORA = ["nivi", "brett", "deutsch", "ridley", "vitalik", "qureshi", "hodak", "rauch", "scholl"]
+
+# Frases de prueba de cada voz para la escucha a ciegas tras entrenar: (fichero de frases, relativo al repo, ids).
+# Las de Naval, Kapil, Nivi y Brett van en criba/frases.json; las de Deutsch y la voz de Kapil, en
+# criba/frases_xvector.json; las de las voces nuevas (11-nov), en piloto/frases_prueba_voces.json, que sale de
+# piloto/elegir_prueba_voces.py con frases de su propia traducción.
 PRUEBA = {
-    "naval": ("frases.json", ["n12", "n18", "n25"]),
-    "naval_kapil": ("frases.json", ["k05", "k07", "k10"]),
-    "nivi": ("frases.json", ["v07", "v09", "v10"]),
-    "brett": ("frases.json", ["b05", "b08", "b10"]),
-    "deutsch": ("frases_xvector.json", ["d01", "d02", "d03"]),
-    "kapil": ("frases_xvector.json", ["g01", "g02", "g03"]),
+    "naval": ("criba/frases.json", ["n12", "n18", "n25"]),
+    "naval_kapil": ("criba/frases.json", ["k05", "k07", "k10"]),
+    "nivi": ("criba/frases.json", ["v07", "v09", "v10"]),
+    "brett": ("criba/frases.json", ["b05", "b08", "b10"]),
+    "deutsch": ("criba/frases_xvector.json", ["d01", "d02", "d03"]),
+    "kapil": ("criba/frases_xvector.json", ["g01", "g02", "g03"]),
+    "ridley": ("piloto/frases_prueba_voces.json", ["ri01", "ri02", "ri03"]),
+    "vitalik": ("piloto/frases_prueba_voces.json", ["vi01", "vi02", "vi03"]),
+    "qureshi": ("piloto/frases_prueba_voces.json", ["qu01", "qu02", "qu03"]),
+    "hodak": ("piloto/frases_prueba_voces.json", ["ho01", "ho02", "ho03"]),
+    "rauch": ("piloto/frases_prueba_voces.json", ["ra01", "ra02", "ra03"]),
+    "scholl": ("piloto/frases_prueba_voces.json", ["sc01", "sc02", "sc03"]),
 }
 
 

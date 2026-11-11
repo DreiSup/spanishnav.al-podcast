@@ -1,0 +1,241 @@
+{
+  "schema": 1,
+  "_comentario": "Frases de prueba de las voces con LoRA nuevo (ridley, vitalik, qureshi, hodak, rauch y scholl) para la escucha a ciegas del cuaderno 04 del piloto. Tres por voz, de su propia traducción: una media (01), una larga (02) y un bloque de 4 frases (03). Generado por piloto/elegir_prueba_voces.py.",
+  "silencio_entre_frases_ms": 250,
+  "items": [
+    {
+      "id": "ri01",
+      "voz": "ridley",
+      "ref": "ridley",
+      "frases": [
+        "Mi buen amigo Mark Lynas fue uno de los activistas más destacados contra esta tecnología en los años noventa, y protestó mucho y escribió mucho sobre ella."
+      ],
+      "origen": "2020/071-matt-ridley-2#b01-matt/6",
+      "etiquetas": [
+        "media"
+      ]
+    },
+    {
+      "id": "ri02",
+      "voz": "ridley",
+      "ref": "ridley",
+      "frases": [
+        "Con ella pueden dejarse a un lado muchas de las preocupaciones de los ecologistas, porque no es una tecnología que meta en las plantas material genético ajeno, de otras criaturas, signifique eso lo que signifique."
+      ],
+      "origen": "2020/071-matt-ridley-2#b01-matt/10",
+      "etiquetas": [
+        "larga"
+      ]
+    },
+    {
+      "id": "ri03",
+      "voz": "ridley",
+      "ref": "ridley",
+      "frases": [
+        "Así que es posible que ahí demos un salto directo a tecnologías más limpias.",
+        "La meta tiene que ser que, cuanto más innovemos, menos recursos y menos tierra necesitaremos, y más tierra podremos devolver a la naturaleza.",
+        "Y podremos hacer más prósperas a las personas, lo que las lleva a reducir su natalidad y también a plantar más árboles.",
+        "La humanidad tiene la posibilidad de un aterrizaje suave más adelante en este siglo, si innovamos muchísimo más."
+      ],
+      "origen": "2020/071-matt-ridley-2#b01-matt/11",
+      "etiquetas": [
+        "bloque"
+      ]
+    },
+    {
+      "id": "vi01",
+      "voz": "vitalik",
+      "ref": "vitalik",
+      "frases": [
+        "Tienes que conseguir que mucha gente se ponga de acuerdo, que toda una comunidad acepte un cambio de protocolo en esa capa."
+      ],
+      "origen": "2022/131-vitalik#b71-vitalik/5",
+      "etiquetas": [
+        "media"
+      ]
+    },
+    {
+      "id": "vi02",
+      "voz": "vitalik",
+      "ref": "vitalik",
+      "frases": [
+        "Hay que trabajar de verdad para decidir con qué reglas exactas se reparten estas transacciones entre los nodos, cómo se consigue que todos se comuniquen entre sí y cómo se hace esta verificación distribuida."
+      ],
+      "origen": "2022/131-vitalik#b49-vitalik/16",
+      "etiquetas": [
+        "larga"
+      ]
+    },
+    {
+      "id": "vi03",
+      "voz": "vitalik",
+      "ref": "vitalik",
+      "frases": [
+        "Disminuye el número de personas que pueden verificar de verdad lo que está pasando.",
+        "Y se reduce mucho el número de personas que tendrían que confabularse para sacar adelante un cambio en el protocolo que quizá los usuarios no quieran.",
+        "Ese sistema sigue siendo mucho más descentralizado que Facebook, pero mucho menos de lo que podría ser.",
+        "Quizá en algunos casos ese sea el enfoque correcto."
+      ],
+      "origen": "2022/131-vitalik#b50-vitalik/2",
+      "etiquetas": [
+        "bloque"
+      ]
+    },
+    {
+      "id": "qu01",
+      "voz": "qureshi",
+      "ref": "qureshi",
+      "frases": [
+        "Pero añadiría que Ethereum tiene una cantidad de nodos y Solana otra, y que en los dos casos son bastante grandes."
+      ],
+      "origen": "2022/131-vitalik#b53-haseeb/6",
+      "etiquetas": [
+        "media"
+      ]
+    },
+    {
+      "id": "qu02",
+      "voz": "qureshi",
+      "ref": "qureshi",
+      "frases": [
+        "El defensor de Solana diría también que son equipos de consumo, caros pero de consumo, y que cualquiera con suficiente motivación puede verificar sus transacciones. ¿Qué le respondes a eso?"
+      ],
+      "origen": "2022/131-vitalik#b53-haseeb/8",
+      "etiquetas": [
+        "larga"
+      ]
+    },
+    {
+      "id": "qu03",
+      "voz": "qureshi",
+      "ref": "qureshi",
+      "frases": [
+        "La forma más obvia de hacerlo es medir solo las transferencias.",
+        "Muchas de las cadenas más nuevas, sobre todo, suelen medir transferencias hechas en una red de pruebas o en una red de desarrollo.",
+        "Ahí siempre puedes sacar cifras descomunales que no reflejan la realidad.",
+        "Habíamos visto circular tantas afirmaciones ridículas sobre la capacidad de procesamiento de las blockchains que pensamos en desarrollar una prueba de rendimiento claramente objetiva."
+      ],
+      "origen": "2022/131-vitalik#b77-haseeb/2",
+      "etiquetas": [
+        "bloque"
+      ]
+    },
+    {
+      "id": "ho01",
+      "voz": "hodak",
+      "ref": "hodak",
+      "frases": [
+        "Hacemos encuestas sobre algunas de las cosas en las que trabajaremos en el futuro, para entender qué piensan los estadounidenses."
+      ],
+      "origen": "2026/160-industrial#b54-max-hodak/2",
+      "etiquetas": [
+        "media"
+      ]
+    },
+    {
+      "id": "ho02",
+      "voz": "hodak",
+      "ref": "hodak",
+      "frases": [
+        "Su trabajo era asegurarse de que la energía nuclear fuera segura, y lo consiguieron autorizando cero centrales desde los años setenta hasta hace, creo, un año. Será perfectamente segura si nunca construimos ninguna."
+      ],
+      "origen": "2026/160-industrial#b52-max-hodak/2",
+      "etiquetas": [
+        "larga"
+      ]
+    },
+    {
+      "id": "ho03",
+      "voz": "hodak",
+      "ref": "hodak",
+      "frases": [
+        "El problema es que, para administrarle una dosis a un paciente, sigues necesitando el fármaco con calidad clínica.",
+        "Y normalmente el único que lo tiene es el dueño de la patente, que está en pleno ensayo clínico e invirtiendo cientos de millones de dólares en fabricarlo.",
+        "Si le pasa algo malo a tu paciente, que seguramente ya estaba muy enfermo, la FDA sacará conclusiones negativas.",
+        "Y eso se verá como una propiedad del fármaco, que es global y no tiene nada que ver con tu zona de innovación."
+      ],
+      "origen": "2026/160-industrial#b57-max-hodak/4",
+      "etiquetas": [
+        "bloque"
+      ]
+    },
+    {
+      "id": "ra01",
+      "voz": "rauch",
+      "ref": "rauch",
+      "frases": [
+        "Con Gemini, la gente no se entusiasma mucho, pero sacan modelos superlistos con la combinación justa de rendimiento y coste."
+      ],
+      "origen": "2026/160-industrial#b35-guillermo-rauch/4",
+      "etiquetas": [
+        "media"
+      ]
+    },
+    {
+      "id": "ra02",
+      "voz": "rauch",
+      "ref": "rauch",
+      "frases": [
+        "O que has escrito el banco de pruebas, las simulaciones, las demostraciones y los comprobadores de tipos, y que, incluso sin leerlo, estás seguro de que puedes dar el visto bueno a que será seguro en producción."
+      ],
+      "origen": "2026/160-industrial#b39-guillermo-rauch/9",
+      "etiquetas": [
+        "larga"
+      ]
+    },
+    {
+      "id": "ra03",
+      "voz": "rauch",
+      "ref": "rauch",
+      "frases": [
+        "Nunca sabes exactamente qué meten los abogados en esos documentos, simplemente te fías.",
+        "Le pides al abogado que mire este documento, que te diga si está bien o que marque las líneas rojas.",
+        "Lo que valoras en tu relación con un abogado es que es una autoridad de confianza, que fue a la facultad de derecho y que se juega su reputación.",
+        "Hay un paralelismo con la ingeniería de software, y es que el mayor problema hoy es esa montaña de basura que acaba convertida en un pull request."
+      ],
+      "origen": "2026/160-industrial#b39-guillermo-rauch/2",
+      "etiquetas": [
+        "bloque"
+      ]
+    },
+    {
+      "id": "sc01",
+      "voz": "scholl",
+      "ref": "scholl",
+      "frases": [
+        "Una de las cosas terribles ahora mismo es que, si vas a construir algo físico, necesitas una licencia de obras, y eres culpable hasta que se demuestre lo contrario."
+      ],
+      "origen": "2026/160-industrial#b45-blake-scholl/2",
+      "etiquetas": [
+        "media"
+      ]
+    },
+    {
+      "id": "sc02",
+      "voz": "scholl",
+      "ref": "scholl",
+      "frases": [
+        "Lo clásico sería contratar a un ingeniero, seamos sinceros, no especialmente brillante, que esté dispuesto a pasarse ahí, como un mono delante del teclado, escribiendo doscientas páginas de documentación de cumplimiento normativo."
+      ],
+      "origen": "2026/160-industrial#b41-blake-scholl/4",
+      "etiquetas": [
+        "larga"
+      ]
+    },
+    {
+      "id": "sc03",
+      "voz": "scholl",
+      "ref": "scholl",
+      "frases": [
+        "Imagina que circuláramos por una ciudad igual que construimos hoy las cosas.",
+        "Antes de poder ir a ningún sitio, tendrías que redactar un plan, mandárselo a algún regulador y esperar.",
+        "Tu plan tendría que especificar que vas a coger tal ruta, respetar tal límite de velocidad, poner el intermitente, pararte en cada stop y no saltarte nunca un semáforo en rojo, y bla, bla, bla.",
+        "Tres meses después te devuelven una crítica diciendo que creen que deberías ir por esta otra calle."
+      ],
+      "origen": "2026/160-industrial#b48-blake-scholl/2",
+      "etiquetas": [
+        "bloque"
+      ]
+    }
+  ]
+}
