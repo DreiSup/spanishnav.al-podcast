@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**162** episodios · **3** publicados · **26** escuchados por el autor (**0** para revisar) · **0** sin empezar
+**162** episodios · **7** publicados · **26** escuchados por el autor (**0** para revisar) · **0** sin empezar
 
 ## 2026
 
@@ -156,10 +156,10 @@
 | 1 | [001-seek-wealth](episodios/2019/001-seek-wealth) | Busca riqueza, no dinero ni estatus | 🟢 publicado | ✅ 2026-11-05 | [📁](https://drive.google.com/drive/folders/11X4s-IkNs4qssipaPMRLE2wj-EJtuZBd) | [▶](https://www.youtube.com/watch?v=s10rGZckyEo) |
 | 2 | [002-ethical-wealth](episodios/2019/002-ethical-wealth) | Crea abundancia para el mundo | 🟢 publicado | ✅ 2026-11-05 | [📁](https://drive.google.com/drive/folders/1xgLEJoWckgy40eeeBN-dTIbh95qtWzmG) | [▶](https://www.youtube.com/watch?v=o919NzI_N3s) |
 | 3 | [003-free-markets](episodios/2019/003-free-markets) | Los mercados libres son intrínsecos al ser humano | 🟢 publicado | ✅ 2026-11-05 | — | [▶](https://www.youtube.com/watch?v=Xfr5NXVCqP8) |
-| 4 | [004-money-luck](episodios/2019/004-money-luck) | Ganar dinero no depende de la suerte | 🟣 montaje | ✅ 2026-11-05 | — | — |
-| 5 | [005-luck-destiny](episodios/2019/005-luck-destiny) | Haz de la suerte tu destino | 🟣 montaje | ✅ 2026-11-05 | — | [▶](https://www.youtube.com/watch?v=7VA_ALae_1o) |
-| 6 | [006-renting-time](episodios/2019/006-renting-time) | No te harás rico alquilando tu tiempo | 🟣 montaje | ✅ 2026-11-05 | — | [▶](https://www.youtube.com/watch?v=cSBkzFw_qNQ) |
-| 7 | [007-salary-freedom](episodios/2019/007-salary-freedom) | Vive por debajo de tus posibilidades para ser libre | 🟣 montaje | ✅ 2026-11-05 | — | [▶](https://www.youtube.com/watch?v=YDUmwD3zA70) |
+| 4 | [004-money-luck](episodios/2019/004-money-luck) | Ganar dinero no depende de la suerte | 🟢 publicado | ✅ 2026-11-05 | — | [▶](https://www.youtube.com/watch?v=tVWPiOVPHEI) |
+| 5 | [005-luck-destiny](episodios/2019/005-luck-destiny) | Haz de la suerte tu destino | 🟢 publicado | ✅ 2026-11-05 | — | [▶](https://www.youtube.com/watch?v=7VA_ALae_1o) |
+| 6 | [006-renting-time](episodios/2019/006-renting-time) | No te harás rico alquilando tu tiempo | 🟢 publicado | ✅ 2026-11-05 | — | [▶](https://www.youtube.com/watch?v=cSBkzFw_qNQ) |
+| 7 | [007-salary-freedom](episodios/2019/007-salary-freedom) | Vive por debajo de tus posibilidades para ser libre | 🟢 publicado | ✅ 2026-11-05 | — | [▶](https://www.youtube.com/watch?v=YDUmwD3zA70) |
 | 8 | [008-product-scale](episodios/2019/008-product-scale) | Dale a la sociedad lo que todavía no sabe cómo conseguir | 🟣 montaje | ✅ 2026-11-05 | — | [▶](https://www.youtube.com/watch?v=VjiNDC4Dv3k) |
 | 9 | [009-possible-careers](episodios/2019/009-possible-careers) | Internet ha ampliado enormemente las posibilidades profesionales | 🟣 montaje | ✅ 2026-11-08 | — | [▶](https://www.youtube.com/watch?v=6qUGSeNI8iM) |
 | 10 | [010-long-term](episodios/2019/010-long-term) | Juega a juegos a largo plazo con gente a largo plazo | 🟣 montaje | ✅ 2026-11-05 | — | [▶](https://www.youtube.com/watch?v=mVd7DKYZw9w) |
