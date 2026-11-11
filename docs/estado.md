@@ -165,6 +165,21 @@ Opcionales: el LoRA de la voz de Kapil y `05_lora_omnivoice`. Al final: reorgani
 
 ## Pendiente de Claude
 
+0. **LoRA de los seis invitados (desde el 11-nov; lo lleva Claude, el autor no tiene que acordarse).** La sesión
+   local hace los datasets de ridley → vitalik → qureshi → hodak → rauch → scholl y avisa con los minutos de
+   train/eval de cada uno al subirlo a `fine_tunned_naval/datasets/<voz>/`. **En cada sesión técnica, comprobar
+   en Drive si ha aparecido alguno** (`datasets/<voz>/metadata.jsonl`) y, si está, proponerle al autor sin que lo
+   pida las celdas de ese paso. Por voz:
+   1. 01 en T4, ~60 min. Hecho: ☐ ridley ☐ vitalik ☐ qureshi ☐ hodak ☐ rauch ☐ scholl
+   2. 03 en T4, ~15 min. Hecho: ☐ ridley ☐ vitalik ☐ qureshi ☐ hodak ☐ rauch ☐ scholl
+   3. 04 en L4. Hecho: ☐ ridley ☐ vitalik ☐ qureshi ☐ hodak ☐ rauch ☐ scholl
+   4. Escucha a ciegas del autor. Hecha: ☐ ridley ☐ vitalik ☐ qureshi ☐ hodak ☐ rauch ☐ scholl
+   5. Paso elegido en `fabrica/voces.json`. Hecho: ☐ ridley ☐ vitalik ☐ qureshi ☐ hodak ☐ rauch ☐ scholl
+   6. Regenerar sus clips en la fábrica: ☐ 070, 071 (ridley; **el 070 tiene un arreglo sintético: preguntar al
+      autor qué clip/minuto antes de regenerar**) ☐ 131, 132 (vitalik, qureshi) ☐ 160 y extras (hodak, rauch,
+      scholl). Si los cortos del 160 ya están montados, volver a montarlos después.
+
+   Detalle en `docs/contexto-fabrica.md` («Pendiente: LoRA de los seis invitados»). Marcar aquí cada paso.
 1. **Tras cada escucha**, apuntar el checkpoint elegido en `fabrica/voces.json`.
 2. **Cuaderno de evaluación** amplio (las 55 frases de la criba, WER y similitud), si hace falta
    comparar más a fondo que con las páginas de 3 frases.
