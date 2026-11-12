@@ -406,6 +406,8 @@ if VARIANTE == "kapil":
 else:
     EPOCAS = 2
     GUARDAR_CADA = 40    # pasos de optimizador entre checkpoints
+if VARIANTE == "qureshi":
+    GUARDAR_CADA = 20    # solo 16 min de inglés (12-nov): menos pasos y más riesgo de memorizar, más puntos donde elegir
 """),
     code(f"""
 # 3. Preparar: código del repo, Drive y los ejemplos
