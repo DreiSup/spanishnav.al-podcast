@@ -5,7 +5,7 @@
   "anio": 2024,
   "slug": "deutsch-files-ii",
   "titulo_es": "Los documentos de Deutsch II",
-  "estado": "revision",
+  "estado": "tts",
   "youtube": {
     "titulo": "Los documentos de Deutsch II",
     "descripcion": "",
@@ -16,7 +16,7 @@
   "drive": {
     "carpeta_id": "",
     "tts_id": "",
-    "audio_final_id": "",
+    "audio_final_id": "1lZR7VCovcBJ0ALbWVg2BbUbZ63AVeTCh",
     "video_id": "",
     "proyecto_id": ""
   },
