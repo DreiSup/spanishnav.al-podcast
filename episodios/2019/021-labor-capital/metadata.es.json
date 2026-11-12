@@ -23,8 +23,8 @@
   "publicacion": {
     "fecha": "2026-11-25",
     "audio_url": "https://audio.spanishnav.al/2019/021-labor-capital.mp3",
-    "audio_bytes": 0,
-    "duracion_s": 0,
+    "audio_bytes": 5062009,
+    "duracion_s": 316,
     "feed_guid": "spanishnav.al/2019/labor-capital"
   },
   "audio_editado_a_mano": false,

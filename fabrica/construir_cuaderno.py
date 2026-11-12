@@ -314,7 +314,11 @@ informe. **No usa GPU**: elige un entorno sin acelerador (*Entorno de ejecución
 
 Antes: el largo tiene que estar generado entero con la fábrica. Lo que ya está hecho no se repite. Si alguna
 intervención de un corto no tiene pareja en el largo, la lista al final: se genera después con la fábrica normal sobre
-ese corto (hará solo esas). Ejecuta las celdas 1 a 3 seguidas.
+ese corto (hará solo esas). La celda 3 revisa frase a frase lo montado. Ejecuta todo seguido.
+"""),
+    code("""
+# 0. Instalación (para la verificación de la celda 3)
+!pip install -q jiwer num2words
 """),
     code("""
 # 1. Parámetros: los largos cuyos cortos se montan
@@ -361,7 +365,21 @@ for largo in LARGOS:
 print("RESULTADO:", "OK, todos montados" if not PENDIENTES else f"faltan intervenciones sin pareja: {{PENDIENTES}}")
 """),
     code("""
-# 3. Subir a Drive y desconectar
+# 3. Verificar, frase a frase, los cortos montados: clip de origen, frases = transcript, y lo que oyó Whisper al
+#    generarlas frente al texto (WER ≤ 0,15) y sin cola sobrante. No usa GPU. Se puede relanzar sola.
+DUDOSOS = {}
+for largo in LARGOS:
+    cortos = [(ep, *cargar(ep, crear=False)) for ep in GRUPOS[largo]]
+    for ep, n, problemas in fabrica.verificar_cortos(largo, cortos, CFG):
+        print(f"  {ep}: {n} frases · " + ("bien" if not problemas else f"{len(problemas)} a revisar"))
+        for pr in problemas:
+            print("      -", pr)
+        if problemas:
+            DUDOSOS[ep] = problemas
+print("VERIFICACIÓN:", "todo bien" if not DUDOSOS else f"{len(DUDOSOS)} cortos con algo que revisar: {list(DUDOSOS)}")
+"""),
+    code("""
+# 4. Subir a Drive y desconectar
 comun.desconectar()
 """),
 ]

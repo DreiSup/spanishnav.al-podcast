@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**162** episodios · **3** publicados · **26** escuchados por el autor (**0** para revisar) · **0** sin empezar
+**162** episodios · **7** publicados · **26** escuchados por el autor (**0** para revisar) · **0** sin empezar
 
 ## 2026
 
@@ -65,85 +65,85 @@
 
 | # | Episodio | Título en español | Estado | Escuchado | Drive | YouTube |
 |---|---|---|---|---|---|---|
-| 72 | [072-science-2](episodios/2021/072-science-2) | La ciencia es el motor que hace avanzar a la humanidad | 🟠 en revisión | — | — | — |
-| 73 | [073-think](episodios/2021/073-think) | Este libro cambió mi forma de pensar | 🟠 en revisión | — | — | — |
-| 74 | [074-nullius](episodios/2021/074-nullius) | Nullius in verba | 🟠 en revisión | — | — | — |
-| 75 | [075-reach](episodios/2021/075-reach) | Explicaciones que alcanzan a todo el universo | 🟠 en revisión | — | — | — |
-| 76 | [076-read](episodios/2021/076-read) | Lee los cien mejores libros una y otra vez | 🟠 en revisión | — | — | — |
+| 72 | [072-science-2](episodios/2021/072-science-2) | La ciencia es el motor que hace avanzar a la humanidad | 🔵 generando TTS | — | — | — |
+| 73 | [073-think](episodios/2021/073-think) | Este libro cambió mi forma de pensar | 🔵 generando TTS | — | — | — |
+| 74 | [074-nullius](episodios/2021/074-nullius) | Nullius in verba | 🔵 generando TTS | — | — | — |
+| 75 | [075-reach](episodios/2021/075-reach) | Explicaciones que alcanzan a todo el universo | 🔵 generando TTS | — | — | — |
+| 76 | [076-read](episodios/2021/076-read) | Lee los cien mejores libros una y otra vez | 🔵 generando TTS | — | — | — |
 | 77 | [077-happiness](episodios/2021/077-happiness) | La felicidad | 🔵 generando TTS | — | — | — |
-| 78 | [078-knowledge](episodios/2021/078-knowledge) | Estamos al comienzo de un infinito de conocimiento | 🟠 en revisión | — | — | — |
-| 79 | [079-people](episodios/2021/079-people) | Las personas son una fuerza de la naturaleza | 🟠 en revisión | — | — | — |
-| 80 | [080-predict](episodios/2021/080-predict) | Es imposible predecir el crecimiento del conocimiento | 🟠 en revisión | — | — | — |
-| 81 | [081-understand](episodios/2021/081-understand) | Los humanos somos únicos en nuestra capacidad de entender | 🟠 en revisión | — | — | — |
-| 82 | [082-explanations](episodios/2021/082-explanations) | Las buenas explicaciones son actos de creatividad | 🟠 en revisión | — | — | — |
-| 83 | [083-vary](episodios/2021/083-vary) | Las buenas explicaciones son difíciles de variar | 🟠 en revisión | — | — | — |
-| 84 | [084-end](episodios/2021/084-end) | La ciencia no tiene fin | 🟠 en revisión | — | — | — |
-| 85 | [085-settled](episodios/2021/085-settled) | No existen unas matemáticas definitivas | 🟠 en revisión | — | — | — |
-| 86 | [086-methods](episodios/2021/086-methods) | Los métodos de las matemáticas son falibles | 🟠 en revisión | — | — | — |
-| 87 | [087-conjectural](episodios/2021/087-conjectural) | Todo conocimiento es conjetural | 🟠 en revisión | — | — | — |
-| 88 | [088-discrete](episodios/2021/088-discrete) | ¿El universo es discreto o continuo? | 🟠 en revisión | — | — | — |
-| 89 | [089-substrate](episodios/2021/089-substrate) | Toda teoría reside en un sustrato físico | 🟠 en revisión | — | — | — |
-| 90 | [090-prove](episodios/2021/090-prove) | Con la física que conocemos no podemos demostrar la mayoría de los teoremas | 🟠 en revisión | — | — | — |
-| 91 | [091-probability](episodios/2021/091-probability) | La probabilidad es subjetiva | 🟠 en revisión | — | — | — |
-| 92 | [092-light](episodios/2021/092-light) | ¿La luz es una partícula o una onda? | 🟠 en revisión | — | — | — |
-| 93 | [093-multiverse](episodios/2021/093-multiverse) | El multiverso | 🟠 en revisión | — | — | — |
-| 94 | [094-unseen](episodios/2021/094-unseen) | Explicamos lo visible a partir de lo invisible | 🟠 en revisión | — | — | — |
-| 95 | [095-expand](episodios/2021/095-expand) | La ciencia amplía nuestra visión de la realidad | 🟠 en revisión | — | — | — |
-| 96 | [096-error](episodios/2021/096-error) | La ciencia es un mecanismo de corrección de errores | 🟠 en revisión | — | — | — |
-| 97 | [097-predictions](episodios/2021/097-predictions) | Las teorías son explicaciones, no predicciones | 🟠 en revisión | — | — | — |
-| 98 | [098-bold](episodios/2021/098-bold) | Haz conjeturas audaces y descarta las que fallen | 🟠 en revisión | — | — | — |
-| 99 | [099-advances](episodios/2021/099-advances) | La ciencia avanza de funeral en funeral | 🟠 en revisión | — | — | — |
-| 100 | [100-theories](episodios/2021/100-theories) | Es raro tener teorías científicas viables que compitan entre sí | 🟠 en revisión | — | — | — |
-| 101 | [101-ignorance](episodios/2021/101-ignorance) | En nuestra infinita ignorancia, todos somos iguales | 🟠 en revisión | — | — | — |
-| 102 | [102-extrapolate](episodios/2021/102-extrapolate) | Es fácil extrapolar cómo empeorarán las cosas | 🟠 en revisión | — | — | — |
-| 103 | [103-pessimism](episodios/2021/103-pessimism) | El pesimismo parece una postura intelectualmente seria | 🟠 en revisión | — | — | — |
-| 104 | [104-optimism](episodios/2021/104-optimism) | El optimismo racional es la salida | 🟠 en revisión | — | — | — |
+| 78 | [078-knowledge](episodios/2021/078-knowledge) | Estamos al comienzo de un infinito de conocimiento | 🔵 generando TTS | — | — | — |
+| 79 | [079-people](episodios/2021/079-people) | Las personas son una fuerza de la naturaleza | 🔵 generando TTS | — | — | — |
+| 80 | [080-predict](episodios/2021/080-predict) | Es imposible predecir el crecimiento del conocimiento | 🔵 generando TTS | — | — | — |
+| 81 | [081-understand](episodios/2021/081-understand) | Los humanos somos únicos en nuestra capacidad de entender | 🔵 generando TTS | — | — | — |
+| 82 | [082-explanations](episodios/2021/082-explanations) | Las buenas explicaciones son actos de creatividad | 🔵 generando TTS | — | — | — |
+| 83 | [083-vary](episodios/2021/083-vary) | Las buenas explicaciones son difíciles de variar | 🔵 generando TTS | — | — | — |
+| 84 | [084-end](episodios/2021/084-end) | La ciencia no tiene fin | 🔵 generando TTS | — | — | — |
+| 85 | [085-settled](episodios/2021/085-settled) | No existen unas matemáticas definitivas | 🔵 generando TTS | — | — | — |
+| 86 | [086-methods](episodios/2021/086-methods) | Los métodos de las matemáticas son falibles | 🔵 generando TTS | — | — | — |
+| 87 | [087-conjectural](episodios/2021/087-conjectural) | Todo conocimiento es conjetural | 🔵 generando TTS | — | — | — |
+| 88 | [088-discrete](episodios/2021/088-discrete) | ¿El universo es discreto o continuo? | 🔵 generando TTS | — | — | — |
+| 89 | [089-substrate](episodios/2021/089-substrate) | Toda teoría reside en un sustrato físico | 🔵 generando TTS | — | — | — |
+| 90 | [090-prove](episodios/2021/090-prove) | Con la física que conocemos no podemos demostrar la mayoría de los teoremas | 🔵 generando TTS | — | — | — |
+| 91 | [091-probability](episodios/2021/091-probability) | La probabilidad es subjetiva | 🔵 generando TTS | — | — | — |
+| 92 | [092-light](episodios/2021/092-light) | ¿La luz es una partícula o una onda? | 🔵 generando TTS | — | — | — |
+| 93 | [093-multiverse](episodios/2021/093-multiverse) | El multiverso | 🔵 generando TTS | — | — | — |
+| 94 | [094-unseen](episodios/2021/094-unseen) | Explicamos lo visible a partir de lo invisible | 🔵 generando TTS | — | — | — |
+| 95 | [095-expand](episodios/2021/095-expand) | La ciencia amplía nuestra visión de la realidad | 🔵 generando TTS | — | — | — |
+| 96 | [096-error](episodios/2021/096-error) | La ciencia es un mecanismo de corrección de errores | 🔵 generando TTS | — | — | — |
+| 97 | [097-predictions](episodios/2021/097-predictions) | Las teorías son explicaciones, no predicciones | 🔵 generando TTS | — | — | — |
+| 98 | [098-bold](episodios/2021/098-bold) | Haz conjeturas audaces y descarta las que fallen | 🔵 generando TTS | — | — | — |
+| 99 | [099-advances](episodios/2021/099-advances) | La ciencia avanza de funeral en funeral | 🔵 generando TTS | — | — | — |
+| 100 | [100-theories](episodios/2021/100-theories) | Es raro tener teorías científicas viables que compitan entre sí | 🔵 generando TTS | — | — | — |
+| 101 | [101-ignorance](episodios/2021/101-ignorance) | En nuestra infinita ignorancia, todos somos iguales | 🔵 generando TTS | — | — | — |
+| 102 | [102-extrapolate](episodios/2021/102-extrapolate) | Es fácil extrapolar cómo empeorarán las cosas | 🔵 generando TTS | — | — | — |
+| 103 | [103-pessimism](episodios/2021/103-pessimism) | El pesimismo parece una postura intelectualmente seria | 🔵 generando TTS | — | — | — |
+| 104 | [104-optimism](episodios/2021/104-optimism) | El optimismo racional es la salida | 🔵 generando TTS | — | — | — |
 | 105 | [105-infinity](episodios/2021/105-infinity) | El comienzo del infinito, parte 1 | 🔵 generando TTS | — | — | — |
-| 106 | [106-theory](episodios/2021/106-theory) | Con una buena teoría del conocimiento, puedes decidir qué más es verdad | 🟠 en revisión | — | — | — |
-| 107 | [107-justified](episodios/2021/107-justified) | Ninguna verdad puede justificarse | 🟠 en revisión | — | — | — |
-| 108 | [108-gravity](episodios/2021/108-gravity) | No puede haber una teoría definitiva de la gravedad | 🟠 en revisión | — | — | — |
-| 109 | [109-evolution](episodios/2021/109-evolution) | La evolución genética fue el preludio de la evolución memética | 🟠 en revisión | — | — | — |
-| 110 | [110-exceptional](episodios/2021/110-exceptional) | Los humanos somos excepcionales | 🟠 en revisión | — | — | — |
-| 111 | [111-species](episodios/2021/111-species) | Somos cualitativamente distintos de las demás especies | 🟠 en revisión | — | — | — |
-| 112 | [112-agi](episodios/2021/112-agi) | Más potencia de cálculo no produce una inteligencia artificial general | 🟠 en revisión | — | — | — |
-| 113 | [113-mind-blowing](episodios/2021/113-mind-blowing) | Lo alucinante es que nada puede alucinarnos | 🟠 en revisión | — | — | — |
-| 114 | [114-aliens](episodios/2021/114-aliens) | ¿Dónde están los extraterrestres? | 🟠 en revisión | — | — | — |
-| 115 | [115-intelligent](episodios/2021/115-intelligent) | Las especies inteligentes solo han surgido una vez en la Tierra | 🟠 en revisión | — | — | — |
-| 116 | [116-existence](episodios/2021/116-existence) | La probabilidad de que existamos es infinitesimal | 🟠 en revisión | — | — | — |
-| 117 | [117-program](episodios/2021/117-program) | Si no puedes programarlo, no lo has entendido | 🟠 en revisión | — | — | — |
-| 118 | [118-far-away](episodios/2021/118-far-away) | Quizá los extraterrestres simplemente estén demasiado lejos | 🟠 en revisión | — | — | — |
-| 119 | [119-resources](episodios/2021/119-resources) | Los extraterrestres vendrían por el conocimiento, no por los recursos | 🟠 en revisión | — | — | — |
-| 120 | [120-ideas](episodios/2021/120-ideas) | Las ideas son el nuevo petróleo | 🟠 en revisión | — | — | — |
-| 121 | [121-einstein](episodios/2021/121-einstein) | Un Einstein vale más que una legión de doctores autómatas | 🟠 en revisión | — | — | — |
-| 122 | [122-credibility](episodios/2021/122-credibility) | No te fíes de los sellos de credibilidad | 🟠 en revisión | — | — | — |
-| 123 | [123-decentralization](episodios/2021/123-decentralization) | La innovación necesita descentralización y una frontera | 🟠 en revisión | — | — | — |
-| 124 | [124-compromise](episodios/2021/124-compromise) | La miseria del término medio | 🟠 en revisión | — | — | — |
-| 125 | [125-feedback](episodios/2021/125-feedback) | Los mercados libres dan la mejor retroalimentación | 🟠 en revisión | — | — | — |
-| 126 | [126-social](episodios/2021/126-social) | Hacer algo social destruye su verdad | 🟠 en revisión | — | — | — |
-| 127 | [127-failure](episodios/2021/127-failure) | Los grupos nunca admiten el fracaso | 🟠 en revisión | — | — | — |
-| 128 | [128-infinite-resources](episodios/2021/128-infinite-resources) | El conocimiento hace infinita la existencia de recursos | 🟠 en revisión | — | — | — |
-| 129 | [129-caveman](episodios/2021/129-caveman) | Para un cavernícola, casi nada es un recurso | 🟠 en revisión | — | — | — |
+| 106 | [106-theory](episodios/2021/106-theory) | Con una buena teoría del conocimiento, puedes decidir qué más es verdad | 🔵 generando TTS | — | — | — |
+| 107 | [107-justified](episodios/2021/107-justified) | Ninguna verdad puede justificarse | 🔵 generando TTS | — | — | — |
+| 108 | [108-gravity](episodios/2021/108-gravity) | No puede haber una teoría definitiva de la gravedad | 🔵 generando TTS | — | — | — |
+| 109 | [109-evolution](episodios/2021/109-evolution) | La evolución genética fue el preludio de la evolución memética | 🔵 generando TTS | — | — | — |
+| 110 | [110-exceptional](episodios/2021/110-exceptional) | Los humanos somos excepcionales | 🔵 generando TTS | — | — | — |
+| 111 | [111-species](episodios/2021/111-species) | Somos cualitativamente distintos de las demás especies | 🔵 generando TTS | — | — | — |
+| 112 | [112-agi](episodios/2021/112-agi) | Más potencia de cálculo no produce una inteligencia artificial general | 🔵 generando TTS | — | — | — |
+| 113 | [113-mind-blowing](episodios/2021/113-mind-blowing) | Lo alucinante es que nada puede alucinarnos | 🔵 generando TTS | — | — | — |
+| 114 | [114-aliens](episodios/2021/114-aliens) | ¿Dónde están los extraterrestres? | 🔵 generando TTS | — | — | — |
+| 115 | [115-intelligent](episodios/2021/115-intelligent) | Las especies inteligentes solo han surgido una vez en la Tierra | 🔵 generando TTS | — | — | — |
+| 116 | [116-existence](episodios/2021/116-existence) | La probabilidad de que existamos es infinitesimal | 🔵 generando TTS | — | — | — |
+| 117 | [117-program](episodios/2021/117-program) | Si no puedes programarlo, no lo has entendido | 🔵 generando TTS | — | — | — |
+| 118 | [118-far-away](episodios/2021/118-far-away) | Quizá los extraterrestres simplemente estén demasiado lejos | 🔵 generando TTS | — | — | — |
+| 119 | [119-resources](episodios/2021/119-resources) | Los extraterrestres vendrían por el conocimiento, no por los recursos | 🔵 generando TTS | — | — | — |
+| 120 | [120-ideas](episodios/2021/120-ideas) | Las ideas son el nuevo petróleo | 🔵 generando TTS | — | — | — |
+| 121 | [121-einstein](episodios/2021/121-einstein) | Un Einstein vale más que una legión de doctores autómatas | 🔵 generando TTS | — | — | — |
+| 122 | [122-credibility](episodios/2021/122-credibility) | No te fíes de los sellos de credibilidad | 🔵 generando TTS | — | — | — |
+| 123 | [123-decentralization](episodios/2021/123-decentralization) | La innovación necesita descentralización y una frontera | 🔵 generando TTS | — | — | — |
+| 124 | [124-compromise](episodios/2021/124-compromise) | La miseria del término medio | 🔵 generando TTS | — | — | — |
+| 125 | [125-feedback](episodios/2021/125-feedback) | Los mercados libres dan la mejor retroalimentación | 🔵 generando TTS | — | — | — |
+| 126 | [126-social](episodios/2021/126-social) | Hacer algo social destruye su verdad | 🔵 generando TTS | — | — | — |
+| 127 | [127-failure](episodios/2021/127-failure) | Los grupos nunca admiten el fracaso | 🔵 generando TTS | — | — | — |
+| 128 | [128-infinite-resources](episodios/2021/128-infinite-resources) | El conocimiento hace infinita la existencia de recursos | 🔵 generando TTS | — | — | — |
+| 129 | [129-caveman](episodios/2021/129-caveman) | Para un cavernícola, casi nada es un recurso | 🔵 generando TTS | — | — | — |
 | 130 | [130-infinity-2](episodios/2021/130-infinity-2) | El comienzo del infinito, parte 2 | 🔵 generando TTS | — | — | — |
 
 ## 2020
 
 | # | Episodio | Título en español | Estado | Escuchado | Drive | YouTube |
 |---|---|---|---|---|---|---|
-| 53 | [053-philosopher](episodios/2020/053-philosopher) | Vive lo suficiente y te convertirás en filósofo | 🟠 en revisión | — | — | — |
-| 54 | [054-material](episodios/2020/054-material) | La felicidad sin comodidad material es jugar en modo difícil | 🟠 en revisión | — | — | — |
-| 55 | [055-math](episodios/2020/055-math) | La felicidad no es ciencia ni matemáticas | 🟠 en revisión | — | — | — |
-| 56 | [056-skill](episodios/2020/056-skill) | La felicidad es una habilidad que puedes desarrollar | 🟠 en revisión | — | — | — |
-| 57 | [057-desire](episodios/2020/057-desire) | El deseo es un contrato que firmas para ser infeliz | 🟠 en revisión | — | — | — |
-| 58 | [058-smart](episodios/2020/058-smart) | Si eres tan listo, ¿por qué no eres feliz? | 🟠 en revisión | — | — | — |
-| 59 | [059-inefficient](episodios/2020/059-inefficient) | Ser infeliz es tremendamente ineficiente | 🟠 en revisión | — | — | — |
-| 60 | [060-least](episodios/2020/060-least) | Trabaja lo menos posible para conseguirlo | 🟠 en revisión | — | — | — |
-| 61 | [061-addiction](episodios/2020/061-addiction) | La lucha moderna es plantar cara a las adicciones convertidas en armas | 🟠 en revisión | — | — | — |
-| 62 | [062-unacceptable](episodios/2020/062-unacceptable) | Romper con una adicción está mal visto socialmente | 🟠 en revisión | — | — | — |
-| 63 | [063-peace](episodios/2020/063-peace) | Encontrar la paz frente a la mente | 🟠 en revisión | — | — | — |
-| 64 | [064-peace-motion](episodios/2020/064-peace-motion) | La felicidad es paz en movimiento | 🟠 en revisión | — | — | — |
-| 65 | [065-silent](episodios/2020/065-silent) | Cuanto más cerca estás de la verdad, más silencioso te vuelves por dentro | 🟠 en revisión | — | — | — |
-| 66 | [066-consensus](episodios/2020/066-consensus) | Los grupos buscan el consenso, los individuos buscan la verdad | 🟠 en revisión | — | — | — |
-| 67 | [067-truth](episodios/2020/067-truth) | El camino hacia la paz es la verdad | 🟠 en revisión | — | — | — |
+| 53 | [053-philosopher](episodios/2020/053-philosopher) | Vive lo suficiente y te convertirás en filósofo | 🔵 generando TTS | — | — | — |
+| 54 | [054-material](episodios/2020/054-material) | La felicidad sin comodidad material es jugar en modo difícil | 🔵 generando TTS | — | — | — |
+| 55 | [055-math](episodios/2020/055-math) | La felicidad no es ciencia ni matemáticas | 🔵 generando TTS | — | — | — |
+| 56 | [056-skill](episodios/2020/056-skill) | La felicidad es una habilidad que puedes desarrollar | 🔵 generando TTS | — | — | — |
+| 57 | [057-desire](episodios/2020/057-desire) | El deseo es un contrato que firmas para ser infeliz | 🔵 generando TTS | — | — | — |
+| 58 | [058-smart](episodios/2020/058-smart) | Si eres tan listo, ¿por qué no eres feliz? | 🔵 generando TTS | — | — | — |
+| 59 | [059-inefficient](episodios/2020/059-inefficient) | Ser infeliz es tremendamente ineficiente | 🔵 generando TTS | — | — | — |
+| 60 | [060-least](episodios/2020/060-least) | Trabaja lo menos posible para conseguirlo | 🔵 generando TTS | — | — | — |
+| 61 | [061-addiction](episodios/2020/061-addiction) | La lucha moderna es plantar cara a las adicciones convertidas en armas | 🔵 generando TTS | — | — | — |
+| 62 | [062-unacceptable](episodios/2020/062-unacceptable) | Romper con una adicción está mal visto socialmente | 🔵 generando TTS | — | — | — |
+| 63 | [063-peace](episodios/2020/063-peace) | Encontrar la paz frente a la mente | 🔵 generando TTS | — | — | — |
+| 64 | [064-peace-motion](episodios/2020/064-peace-motion) | La felicidad es paz en movimiento | 🔵 generando TTS | — | — | — |
+| 65 | [065-silent](episodios/2020/065-silent) | Cuanto más cerca estás de la verdad, más silencioso te vuelves por dentro | 🔵 generando TTS | — | — | — |
+| 66 | [066-consensus](episodios/2020/066-consensus) | Los grupos buscan el consenso, los individuos buscan la verdad | 🔵 generando TTS | — | — | — |
+| 67 | [067-truth](episodios/2020/067-truth) | El camino hacia la paz es la verdad | 🔵 generando TTS | — | — | — |
 | 68 | [068-kapil](episodios/2020/068-kapil) | Kapil Gupta: Conquistando la mente | 🔵 generando TTS | — | — | — |
 | 69 | [069-angel-2](episodios/2020/069-angel-2) | Cómo invertir como ángel, parte 2 | 🔵 generando TTS | — | — | — |
 | 70 | [070-matt-ridley](episodios/2020/070-matt-ridley) | Matt Ridley: Cómo funciona la innovación, parte 1 | 🔵 generando TTS | — | — | — |
@@ -156,10 +156,10 @@
 | 1 | [001-seek-wealth](episodios/2019/001-seek-wealth) | Busca riqueza, no dinero ni estatus | 🟢 publicado | ✅ 2026-11-05 | [📁](https://drive.google.com/drive/folders/11X4s-IkNs4qssipaPMRLE2wj-EJtuZBd) | [▶](https://www.youtube.com/watch?v=s10rGZckyEo) |
 | 2 | [002-ethical-wealth](episodios/2019/002-ethical-wealth) | Crea abundancia para el mundo | 🟢 publicado | ✅ 2026-11-05 | [📁](https://drive.google.com/drive/folders/1xgLEJoWckgy40eeeBN-dTIbh95qtWzmG) | [▶](https://www.youtube.com/watch?v=o919NzI_N3s) |
 | 3 | [003-free-markets](episodios/2019/003-free-markets) | Los mercados libres son intrínsecos al ser humano | 🟢 publicado | ✅ 2026-11-05 | — | [▶](https://www.youtube.com/watch?v=Xfr5NXVCqP8) |
-| 4 | [004-money-luck](episodios/2019/004-money-luck) | Ganar dinero no depende de la suerte | 🟣 montaje | ✅ 2026-11-05 | — | — |
-| 5 | [005-luck-destiny](episodios/2019/005-luck-destiny) | Haz de la suerte tu destino | 🟣 montaje | ✅ 2026-11-05 | — | [▶](https://www.youtube.com/watch?v=7VA_ALae_1o) |
-| 6 | [006-renting-time](episodios/2019/006-renting-time) | No te harás rico alquilando tu tiempo | 🟣 montaje | ✅ 2026-11-05 | — | [▶](https://www.youtube.com/watch?v=cSBkzFw_qNQ) |
-| 7 | [007-salary-freedom](episodios/2019/007-salary-freedom) | Vive por debajo de tus posibilidades para ser libre | 🟣 montaje | ✅ 2026-11-05 | — | [▶](https://www.youtube.com/watch?v=YDUmwD3zA70) |
+| 4 | [004-money-luck](episodios/2019/004-money-luck) | Ganar dinero no depende de la suerte | 🟢 publicado | ✅ 2026-11-05 | — | [▶](https://www.youtube.com/watch?v=tVWPiOVPHEI) |
+| 5 | [005-luck-destiny](episodios/2019/005-luck-destiny) | Haz de la suerte tu destino | 🟢 publicado | ✅ 2026-11-05 | — | [▶](https://www.youtube.com/watch?v=7VA_ALae_1o) |
+| 6 | [006-renting-time](episodios/2019/006-renting-time) | No te harás rico alquilando tu tiempo | 🟢 publicado | ✅ 2026-11-05 | — | [▶](https://www.youtube.com/watch?v=cSBkzFw_qNQ) |
+| 7 | [007-salary-freedom](episodios/2019/007-salary-freedom) | Vive por debajo de tus posibilidades para ser libre | 🟢 publicado | ✅ 2026-11-05 | — | [▶](https://www.youtube.com/watch?v=YDUmwD3zA70) |
 | 8 | [008-product-scale](episodios/2019/008-product-scale) | Dale a la sociedad lo que todavía no sabe cómo conseguir | 🟣 montaje | ✅ 2026-11-05 | — | [▶](https://www.youtube.com/watch?v=VjiNDC4Dv3k) |
 | 9 | [009-possible-careers](episodios/2019/009-possible-careers) | Internet ha ampliado enormemente las posibilidades profesionales | 🟣 montaje | ✅ 2026-11-08 | — | [▶](https://www.youtube.com/watch?v=6qUGSeNI8iM) |
 | 10 | [010-long-term](episodios/2019/010-long-term) | Juega a juegos a largo plazo con gente a largo plazo | 🟣 montaje | ✅ 2026-11-05 | — | [▶](https://www.youtube.com/watch?v=mVd7DKYZw9w) |

@@ -114,7 +114,8 @@ lo que ya esté en Drive no se genera otra vez. La última celda sube todo a Dri
 """),
     code("""
 # 2. Parámetros
-VOCES = ["nivi", "brett", "deutsch"]   # Naval ya está hecho
+VOCES = ["ridley"]   # una o varias de rutas.VOCES_LORA: nivi, brett y deutsch ya están; ridley, vitalik, qureshi,
+                     # hodak, rauch y scholl, cuando su dataset esté en Drive. Naval ya está hecho
 PARAMS = dict(exaggeration=0.5, cfg_weight=0.5, temperature=0.8)
 """),
     code(f"""
@@ -232,7 +233,7 @@ Lo ya medido no se vuelve a medir. Para otra voz, cambia `VOZ` y ejecuta de la c
 """),
     code(f"""
 # 2. Preparar
-VOZ = "nivi"          # nivi, brett o deutsch (naval ya está hecho)
+VOZ = "ridley"        # la voz del cuaderno 01: ridley, vitalik, qureshi, hodak, rauch, scholl (o nivi, brett, deutsch)
 
 import os, sys, subprocess, json
 from pathlib import Path
@@ -357,7 +358,7 @@ en español sin perder el timbre. No se usa el SFT oficial de Qwen porque rompe 
 | **B** (por defecto) | `naval` | Todo el español sintético de Chatterbox V2 (unos 36 min) + inglés real de Naval (`datasets/naval`) hasta que el español sea el **40 %** de los minutos. El inglés se sortea en cada época: en dos épocas se ve casi entero |
 | **A** | `naval` | Solo el español sintético. Para comparar, si quieres |
 | **kapil** | `naval_kapil` | Parte del checkpoint de Naval que elijas (`PARTIR_DE`) y hace un repaso corto con la sesión con Kapil (`datasets/naval_kapil`, 15,6 min) + español sintético sorteado hasta el 40 %, para no recuperar acento |
-| **nivi**, **brett**, **deutsch** | su voz | Como B, con su dataset (`datasets/<voz>`) y su español sintético (`piloto/sintetico/<voz>/`, cuadernos 01 y 03) |
+| **nivi**, **brett**, **deutsch**, **ridley**, **vitalik**, **qureshi**, **hodak**, **rauch**, **scholl** | su voz | Como B, con su dataset (`datasets/<voz>`) y su español sintético (`piloto/sintetico/<voz>/`, cuadernos 01 y 03) |
 
 Cada clip lleva su **etiqueta de idioma** y, como referencia, el timbre de **otro clip de la misma voz**.
 Los 19 clips de XTTS quedan fuera, como decidiste.
@@ -372,7 +373,7 @@ Los 19 clips de XTTS quedan fuera, como decidiste.
 | `prueba/` | Tres frases de la criba con cada versión del modelo |
 | `prueba/escucha/lora_qwen_<variante>.html` | La página de escucha a ciegas de esas frases |
 
-En **nivi**, **brett** y **deutsch**, la prueba usa tres frases suyas de la criba con su referencia
+En las voces de invitado, la prueba usa tres frases suyas (de la criba o, en las seis nuevas, de su propia traducción) con su referencia
 (`piloto/rutas.py`, `PRUEBA`). En **kapil**, la prueba usa las frases k05, k07 y k10 con la referencia de la sesión con Kapil, y compara el
 modelo sin LoRA, el LoRA de Naval de partida y cada checkpoint nuevo. La página trae además, en cada versión,
 la misma frase con la referencia normal de Naval, para puntuar si se nota el cambio de tono.
@@ -390,7 +391,8 @@ entrenados y los audios ya generados no se repiten.
     code("""
 # 2. Parámetros
 VARIANTE = "B"       # Naval: "B" (60 % inglés + 40 % español) o "A" (solo español) · "kapil": naval_kapil
-                     # · "nivi", "brett" o "deutsch": la voz de ese hablante
+                     # · "nivi", "brett", "deutsch", "ridley", "vitalik", "qureshi", "hodak", "rauch" o
+                     #   "scholl": la voz de ese hablante (su dataset y su español sintético, 01 y 03)
 PARTIR_DE = "B/paso_0158"   # solo para "kapil": el checkpoint de Naval que elegiste al escuchar
 
 LR = 2e-6            # el de Alexandria para unos cientos de ejemplos; más alto farfulla
@@ -538,7 +540,7 @@ if VARIANTE == "kapil":
 
 comun.SALIDA = SALIDA / "prueba"
 fichero, FRASES_PRUEBA = rutas.PRUEBA[VOZ]
-comun.FRASES = Path("/content/repo/criba") / fichero
+comun.FRASES = Path("/content/repo") / fichero
 items, silencio_ms = comun.cargar_items()
 por_id = {it["id"]: it for it in items}
 # En kapil se generan también las frases gemelas con la ref normal, para puntuar el cambio de tono
@@ -799,7 +801,7 @@ Ejecuta las celdas en orden; la última desconecta el entorno.
 CARPETA = "piloto/lora_qwen/B/prueba"     # dentro de fine_tunned_naval; para otra voz, p. ej. ".../brett/prueba"
                                           # o los bloques del cuaderno 07: "piloto/prueba_voz/<voz>"
 VERSIONES = ["paso_0158"]                 # añade "base" para comparar con el modelo sin LoRA
-FRASES = ["n12", "n18", "n25"]            # nivi: v07 v09 v10 · brett: b05 b08 b10 · deutsch: d01 d02 d03
+FRASES = ["n12", "n18", "n25"]            # nivi: v07 v09 v10 · brett: b05 b08 b10 · deutsch: d01 d02 d03 · ridley: ri01 ri02 ri03… (rutas.PRUEBA)
 PAUSAS_MAX = [0.25, 0.18, 0.12]           # segundos; 0,12 es el valor fijado para la fábrica
 GUARDAR = False                           # True: deja las versiones en <CARPETA>/pausas/ en Drive
 """),
@@ -818,8 +820,8 @@ import comun, ritmo
 comun.montar_drive()
 BASE = comun.DRIVE / CARPETA
 TEXTO = {{}}
-for fichero in ("frases.json", "frases_xvector.json"):   # las de Deutsch están en el segundo
-    comun.FRASES = Path("/content/repo/criba") / fichero
+for fichero in ("criba/frases.json", "criba/frases_xvector.json", "piloto/frases_prueba_voces.json"):   # rutas.PRUEBA
+    comun.FRASES = Path("/content/repo") / fichero
     TEXTO.update({{it["id"]: " ".join(it["frases"]) for it in comun.cargar_items()[0]}})
 if (BASE / "textos.json").is_file():   # los bloques que genera el cuaderno 07_prueba_voz
     import json
