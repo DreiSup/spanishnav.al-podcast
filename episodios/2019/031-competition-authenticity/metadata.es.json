@@ -23,8 +23,8 @@
   "publicacion": {
     "fecha": "2026-12-05",
     "audio_url": "https://audio.spanishnav.al/2019/031-competition-authenticity.mp3",
-    "audio_bytes": 0,
-    "duracion_s": 0,
+    "audio_bytes": 5251337,
+    "duracion_s": 328,
     "feed_guid": "spanishnav.al/2019/competition-authenticity"
   },
   "audio_editado_a_mano": false,

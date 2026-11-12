@@ -23,8 +23,8 @@
   "publicacion": {
     "fecha": "2026-12-01",
     "audio_url": "https://audio.spanishnav.al/2019/027-hourly-rate.mp3",
-    "audio_bytes": 0,
-    "duracion_s": 0,
+    "audio_bytes": 3620870,
+    "duracion_s": 226,
     "feed_guid": "spanishnav.al/2019/hourly-rate"
   },
   "audio_editado_a_mano": false,

@@ -23,8 +23,8 @@
   "publicacion": {
     "fecha": "2026-12-04",
     "audio_url": "https://audio.spanishnav.al/2019/030-redefining.mp3",
-    "audio_bytes": 0,
-    "duracion_s": 0,
+    "audio_bytes": 2012142,
+    "duracion_s": 126,
     "feed_guid": "spanishnav.al/2019/redefining"
   },
   "audio_editado_a_mano": false,

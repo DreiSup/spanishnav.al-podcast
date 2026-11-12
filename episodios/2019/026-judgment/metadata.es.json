@@ -23,8 +23,8 @@
   "publicacion": {
     "fecha": "2026-11-30",
     "audio_url": "https://audio.spanishnav.al/2019/026-judgment.mp3",
-    "audio_bytes": 0,
-    "duracion_s": 0,
+    "audio_bytes": 6886387,
+    "duracion_s": 430,
     "feed_guid": "spanishnav.al/2019/judgment"
   },
   "audio_editado_a_mano": false,
