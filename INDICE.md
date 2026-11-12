@@ -42,17 +42,17 @@
 
 | # | Episodio | Título en español | Estado | Escuchado | Drive | YouTube |
 |---|---|---|---|---|---|---|
-| 135 | [135-deutsch-files-i](episodios/2024/135-deutsch-files-i) | Los documentos de Deutsch I | 🟠 en revisión | — | — | — |
-| 136 | [136-deutsch-files-ii](episodios/2024/136-deutsch-files-ii) | Los documentos de Deutsch II | 🟠 en revisión | — | — | — |
-| 137 | [137-deutsch-files-iii](episodios/2024/137-deutsch-files-iii) | Los documentos de Deutsch III | 🟠 en revisión | — | — | — |
+| 135 | [135-deutsch-files-i](episodios/2024/135-deutsch-files-i) | Los documentos de Deutsch I | 🔵 generando TTS | — | — | — |
+| 136 | [136-deutsch-files-ii](episodios/2024/136-deutsch-files-ii) | Los documentos de Deutsch II | 🔵 generando TTS | — | — | — |
+| 137 | [137-deutsch-files-iii](episodios/2024/137-deutsch-files-iii) | Los documentos de Deutsch III | 🔵 generando TTS | — | — | — |
 | 138 | [138-deutsch-files-iv](episodios/2024/138-deutsch-files-iv) | Los documentos de Deutsch IV | 🟠 en revisión | — | — | — |
 
 ## 2023
 
 | # | Episodio | Título en español | Estado | Escuchado | Drive | YouTube |
 |---|---|---|---|---|---|---|
-| 133 | [133-david-deutsch](episodios/2023/133-david-deutsch) | David Deutsch: la creación de conocimiento y la raza humana, parte 1 | 🟠 en revisión | — | — | — |
-| 134 | [134-david-deutsch-2](episodios/2023/134-david-deutsch-2) | David Deutsch: la creación de conocimiento y la raza humana, parte 2 | 🟠 en revisión | — | — | — |
+| 133 | [133-david-deutsch](episodios/2023/133-david-deutsch) | David Deutsch: la creación de conocimiento y la raza humana, parte 1 | 🔵 generando TTS | — | — | — |
+| 134 | [134-david-deutsch-2](episodios/2023/134-david-deutsch-2) | David Deutsch: la creación de conocimiento y la raza humana, parte 2 | 🔵 generando TTS | — | — | — |
 
 ## 2022
 
