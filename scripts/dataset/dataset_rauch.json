@@ -1,0 +1,44 @@
+{
+  "nota": "rauch (Parte 2e). Fuentes aprobadas por escucha el 2026-11-11. train = nav167 (podcast de Naval) + acq001 (ACQ2), sin transcript: etiquetas por embeddings. eval = evr047 (Every AI & I).",
+  "hablante": "rauch",
+  "train_min": [
+    30,
+    45
+  ],
+  "eval_min": [
+    3,
+    4
+  ],
+  "fuentes": [
+    {
+      "id": "nav167",
+      "split": "train",
+      "registro": "conversación (podcast de Naval)",
+      "grupo": "conversacion"
+    },
+    {
+      "id": "acq001",
+      "split": "train",
+      "registro": "conversación (ACQ2)",
+      "grupo": "conversacion"
+    },
+    {
+      "id": "evr047",
+      "split": "eval",
+      "registro": "conversación (Every AI & I)",
+      "grupo": "conversacion"
+    }
+  ],
+  "umbrales": {
+    "sim_min": 0.6,
+    "asr_media_min": 0.85,
+    "asr_min_min": 0.3,
+    "dnsmos_ovrl_min": 3.0,
+    "wer_largo_max": 0.15,
+    "cps": [
+      8,
+      25
+    ],
+    "pico_max_dbfs": -0.1
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "nota": "Matt Ridley (Parte 2d). Fuentes aprobadas el 2026-11-11 por escucha. train = nav074 (podcast de Naval) + mwi923 (Modern Wisdom 2025) + sfy001 (See For Yourself 2025), sin transcript las externas: etiquetas por embeddings. eval = Ridley en nav075. eco001 (EconTalk 2016) descartado por mala calidad (DNSMOS ~2,3).",
+  "hablante": "ridley",
+  "train_min": [
+    30,
+    45
+  ],
+  "eval_min": [
+    3,
+    4
+  ],
+  "fuentes": [
+    {
+      "id": "nav074",
+      "split": "train",
+      "registro": "conversación (podcast de Naval)",
+      "grupo": "conversacion"
+    },
+    {
+      "id": "mwi923",
+      "split": "train",
+      "registro": "conversación (Modern Wisdom)",
+      "grupo": "conversacion"
+    },
+    {
+      "id": "sfy001",
+      "split": "train",
+      "registro": "conversación (See For Yourself)",
+      "grupo": "conversacion"
+    },
+    {
+      "id": "nav075",
+      "split": "eval",
+      "registro": "conversación (podcast de Naval)",
+      "grupo": "conversacion"
+    }
+  ],
+  "umbrales": {
+    "sim_min": 0.6,
+    "asr_media_min": 0.85,
+    "asr_min_min": 0.3,
+    "dnsmos_ovrl_min": 3.0,
+    "wer_largo_max": 0.15,
+    "cps": [
+      8,
+      25
+    ],
+    "pico_max_dbfs": -0.1
+  }
+}
