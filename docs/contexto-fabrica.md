@@ -106,6 +106,9 @@ escucha a ciegas del 04: tres por voz sacadas de su propia traducción (`piloto/
 `ri`, `vi`, `qu`, `ho`, `ra`, `sc` 01-03; regla fija en `piloto/elegir_prueba_voces.py`). Por voz: 01 (T4, ~60 min)
 → 03 (T4, ~15 min) → 04 (L4) → escucha → `voces.json` → regenerar sus clips (070, 071; 131, 132; 160 y extras).
 
+Qureshi (12-nov): 16 min de train; va el último, con checkpoints cada 20 pasos, y si no gana a `base` en la escucha
+se queda zero-shot (solo ~10 min de doblaje en 131 y 132).
+
 ## Coste y rendimiento medidos (base para optimizar)
 
 - Frase a frase en L4 (2-nov, 044): **4,58 s de GPU por s de audio**.

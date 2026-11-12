@@ -180,6 +180,12 @@ Opcionales: el LoRA de la voz de Kapil y `05_lora_omnivoice`. Al final: reorgani
       scholl). Si los cortos del 160 ya están montados, volver a montarlos después.
 
    Detalle en `docs/contexto-fabrica.md` («Pendiente: LoRA de los seis invitados»). Marcar aquí cada paso.
+
+   **Orden decidido (12-nov):** ridley, vitalik, hodak, rauch, scholl y **qureshi el último**. Qureshi solo tiene
+   16 min de train (la receta pide 30) y habla ~10 min en todo el doblaje (131 y 132): se entrena con lo que hay
+   (el 04 guarda cada 20 pasos para él) y, si en la escucha a ciegas no gana a `base`, se queda sin LoRA y se cierra.
+   No se busca más audio (The Chopping Block) salvo que el autor lo pida.
+   **El autor avisa cuando la sesión local termine de subir los datasets: entonces, celdas de Ridley.**
 1. **Tras cada escucha**, apuntar el checkpoint elegido en `fabrica/voces.json`.
 2. **Cuaderno de evaluación** amplio (las 55 frases de la criba, WER y similitud), si hace falta
    comparar más a fondo que con las páginas de 3 frases.
