@@ -5,10 +5,10 @@
   "anio": 2019,
   "slug": "angel-1",
   "titulo_es": "Cómo invertir como ángel, parte 1",
-  "estado": "tts",
+  "estado": "montaje",
   "youtube": {
     "titulo": "Cómo invertir como ángel, parte 1",
-    "descripcion": "",
+    "descripcion": "Episodio 51 de la traducción al español del podcast de Naval Ravikant.\nCómo invertir como ángel, parte 1: Un adelanto de nuestro otro podcast.\n\n▶ Episodio original en YouTube: https://www.youtube.com/watch?v=YLFHVye3Q7w\n▶ Transcripción original en inglés: https://nav.al/angel-1\n▶ Este episodio en español, con su transcripción: https://spanishnav.al/angel-1\n▶ Canal original de Naval: https://www.youtube.com/@NavalR\n\nTraducción no oficial. Contenido original de Naval Ravikant, publicado en nav.al.\n\nEste podcast se ha traducido al español con inteligencia artificial. Puede haber errores o inconsistencias tanto en la traducción como en la dicción.\nLa transcripción se ha traducido del inglés al español con Claude Opus 5.5 (esfuerzo alto), de Anthropic. La voz en español se ha generado con Qwen3-TTS, un modelo de voz de código abierto fine-tuned con las voces de Naval y de otros participantes.\n\n¿Algún problema o queja? Escríbeme a podcast@spanishnav.al\n\n—\n\nUnofficial Spanish translation of Naval Ravikant's podcast. Original content by Naval Ravikant at nav.al.\nThis podcast has been translated into Spanish using artificial intelligence. There may be errors or inconsistencies in both the translation and the diction.\nThe transcript was translated from English to Spanish with Anthropic's Claude Opus 5.5 (high effort). The Spanish audio was generated with Qwen3-TTS, an open-source voice model fine-tuned on the voices of Naval and other participants.\nIf you run into any problems or have a complaint, reach me at podcast@spanishnav.al",
     "tags": [],
     "url": "",
     "url_original": "https://www.youtube.com/watch?v=YLFHVye3Q7w"
@@ -23,10 +23,17 @@
   "audio_editado_a_mano": false,
   "heredado": null,
   "escucha": {
-    "escuchado": false,
-    "resultado": null,
-    "fecha": null,
-    "feedback": ""
+    "escuchado": true,
+    "resultado": "bueno",
+    "fecha": "2026-11-12",
+    "feedback": "2026-11-12: bueno. Escuchado por el autor (12-nov): bueno para subir, sin problemas"
   },
-  "notas": "Revisión del 6-nov (GLOSARIO): equity en inglés en b31 (tres frases, antes «capital»); common equity como «acciones ordinarias» en b71 (antes «capital ordinario»); coste marginal de replicación en b30 (antes «reproducción»); Warren Buffett con dos tes en b35 y «lleva mucho tiempo haciendo crecer su capital con el interés compuesto» en lugar de «componiendo capital»; skin in the game como «que se juegue la piel» en b79.\n\nTÍTULO (7-nov). Regla general del autor para títulos con partes: literal, como en el original (Part 1 = parte 1). Antes decía «parte uno». Solo cambia el título, que no se locuta; las frases no se tocan."
+  "notas": "Revisión del 6-nov (GLOSARIO): equity en inglés en b31 (tres frases, antes «capital»); common equity como «acciones ordinarias» en b71 (antes «capital ordinario»); coste marginal de replicación en b30 (antes «reproducción»); Warren Buffett con dos tes en b35 y «lleva mucho tiempo haciendo crecer su capital con el interés compuesto» en lugar de «componiendo capital»; skin in the game como «que se juegue la piel» en b79.\n\nTÍTULO (7-nov). Regla general del autor para títulos con partes: literal, como en el original (Part 1 = parte 1). Antes decía «parte uno». Solo cambia el título, que no se locuta; las frases no se tocan.",
+  "publicacion": {
+    "fecha": "2026-12-25",
+    "audio_url": "https://audio.spanishnav.al/2019/051-angel-1.mp3",
+    "feed_guid": "spanishnav.al/2019/angel-1",
+    "audio_bytes": 0,
+    "duracion_s": 0
+  }
 }

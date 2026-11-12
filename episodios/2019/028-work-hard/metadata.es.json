@@ -5,13 +5,13 @@
   "anio": 2019,
   "slug": "work-hard",
   "titulo_es": "Trabaja todo lo duro que puedas",
-  "estado": "tts",
+  "estado": "montaje",
   "youtube": {
     "titulo": "Trabaja todo lo duro que puedas",
-    "descripcion": "",
+    "descripcion": "Episodio 28 de la traducción al español del podcast de Naval Ravikant.\nTrabaja todo lo duro que puedas: Aunque en qué trabajas y con quién trabajas importan más.\n\n▶ Episodio original en YouTube: https://www.youtube.com/watch?v=OwHeBvU6oEg\n▶ Transcripción original en inglés: https://nav.al/work-hard\n▶ Este episodio en español, con su transcripción: https://spanishnav.al/work-hard\n▶ Canal original de Naval: https://www.youtube.com/@NavalR\n\nTraducción no oficial. Contenido original de Naval Ravikant, publicado en nav.al.\n\nEste podcast se ha traducido al español con inteligencia artificial. Puede haber errores o inconsistencias tanto en la traducción como en la dicción.\nLa transcripción se ha traducido del inglés al español con Claude Opus 5.5 (esfuerzo alto), de Anthropic. La voz en español se ha generado con Qwen3-TTS, un modelo de voz de código abierto fine-tuned con las voces de Naval y de otros participantes.\n\n¿Algún problema o queja? Escríbeme a podcast@spanishnav.al\n\n—\n\nUnofficial Spanish translation of Naval Ravikant's podcast. Original content by Naval Ravikant at nav.al.\nThis podcast has been translated into Spanish using artificial intelligence. There may be errors or inconsistencies in both the translation and the diction.\nThe transcript was translated from English to Spanish with Anthropic's Claude Opus 5.5 (high effort). The Spanish audio was generated with Qwen3-TTS, an open-source voice model fine-tuned on the voices of Naval and other participants.\nIf you run into any problems or have a complaint, reach me at podcast@spanishnav.al",
     "tags": [],
     "url": "",
-    "url_original": ""
+    "url_original": "https://www.youtube.com/watch?v=OwHeBvU6oEg"
   },
   "drive": {
     "carpeta_id": "",
@@ -21,19 +21,19 @@
     "proyecto_id": ""
   },
   "publicacion": {
-    "fecha": "",
-    "audio_url": "",
+    "fecha": "2026-12-02",
+    "audio_url": "https://audio.spanishnav.al/2019/028-work-hard.mp3",
     "audio_bytes": 0,
     "duracion_s": 0,
-    "feed_guid": ""
+    "feed_guid": "spanishnav.al/2019/work-hard"
   },
   "audio_editado_a_mano": false,
   "heredado": null,
   "escucha": {
-    "escuchado": false,
-    "resultado": null,
-    "fecha": null,
-    "feedback": ""
+    "escuchado": true,
+    "resultado": "bueno",
+    "fecha": "2026-11-12",
+    "feedback": "2026-11-12: bueno. Escuchado por el autor (12-nov): bueno para subir, sin problemas"
   },
   "notas": "Inglés sacado del Google Doc «2019 all podcasts» de Drive; cuadra palabra a palabra con el documento; solo habla Naval. El párrafo suelto «Impatience with actions, patience with results.» de b06 no es una cita destacada: el 052 b168 lo tiene dentro de la intervención de Naval, así que se locuta. Traducción: parte del español del 052 (b163 a b168, mismo inglés letra a letra), revisada frase a frase con los términos confirmados por el autor el 5-nov. Cambios sobre el 052: el 052 b163 decía «es como si estuvierais explotando a la gente», que es vosotros (HAY QUE CORREGIRLO TAMBIÉN EN EL 052 antes de sintetizarlo); lo que dicen David Heinemeier Hansson y Keith Rabois, el consejo sobre qué startup elegir y las preguntas del fundador, en estilo indirecto; fundidas 25 frases cortas (episodio de frases muy cortas en inglés); «están hablando el uno por encima del otro» (talking past each other) pasa a «no se están entendiendo»; «negocio de estilo de vida» a «negocio para vivir tranquilo»; «las olimpiadas de las startups» a «los Juegos Olímpicos de las startups», como en el 069; «la mitología se pone un poco loca» a «se desmadra un poco»; «señalizando estatus» a «presumiendo para ganar estatus»; «tuit ingenioso» a «tuit ocurrente». Escuchar en el TTS: Twitter, David Heinemeier Hansson, Keith Rabois, Marc Andreessen, PayPal, startups, esprintar."
 }

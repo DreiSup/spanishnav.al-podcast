@@ -5,10 +5,10 @@
   "anio": 2019,
   "slug": "npv",
   "titulo_es": "Valor actual neto: lo que valen hoy los ingresos futuros",
-  "estado": "tts",
+  "estado": "montaje",
   "youtube": {
     "titulo": "Valor actual neto: lo que valen hoy los ingresos futuros",
-    "descripcion": "",
+    "descripcion": "Episodio 49 de la traducción al español del podcast de Naval Ravikant.\nValor actual neto: lo que valen hoy los ingresos futuros: Descubre lo que valen hoy los ingresos futuros aplicando un descuento a su valor futuro.\n\n▶ Episodio original en YouTube: https://www.youtube.com/watch?v=AvNzQFrhSsc\n▶ Transcripción original en inglés: https://nav.al/npv\n▶ Este episodio en español, con su transcripción: https://spanishnav.al/npv\n▶ Canal original de Naval: https://www.youtube.com/@NavalR\n\nTraducción no oficial. Contenido original de Naval Ravikant, publicado en nav.al.\n\nEste podcast se ha traducido al español con inteligencia artificial. Puede haber errores o inconsistencias tanto en la traducción como en la dicción.\nLa transcripción se ha traducido del inglés al español con Claude Opus 5.5 (esfuerzo alto), de Anthropic. La voz en español se ha generado con Qwen3-TTS, un modelo de voz de código abierto fine-tuned con las voces de Naval y de otros participantes.\n\n¿Algún problema o queja? Escríbeme a podcast@spanishnav.al\n\n—\n\nUnofficial Spanish translation of Naval Ravikant's podcast. Original content by Naval Ravikant at nav.al.\nThis podcast has been translated into Spanish using artificial intelligence. There may be errors or inconsistencies in both the translation and the diction.\nThe transcript was translated from English to Spanish with Anthropic's Claude Opus 5.5 (high effort). The Spanish audio was generated with Qwen3-TTS, an open-source voice model fine-tuned on the voices of Naval and other participants.\nIf you run into any problems or have a complaint, reach me at podcast@spanishnav.al",
     "tags": [],
     "url": "",
     "url_original": "https://www.youtube.com/watch?v=AvNzQFrhSsc"
@@ -23,10 +23,17 @@
   "audio_editado_a_mano": false,
   "heredado": null,
   "escucha": {
-    "escuchado": false,
-    "resultado": null,
-    "fecha": null,
-    "feedback": ""
+    "escuchado": true,
+    "resultado": "bueno",
+    "fecha": "2026-11-12",
+    "feedback": "2026-11-12: bueno. Escuchado por el autor (12-nov): bueno para subir, sin problemas"
   },
-  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). Recorte del 052-rich. Bloque 1: el b265. Bloque 2: frases 1 a 3 del b266. Bloque 3: frases 4 a 10 del b266. Todo palabra por palabra del 052 aprobado, comprobado por script por el revisor. La sigla NPV entre paréntesis del inglés no se dice, como en el 052. Las citas en estilo directo, la pregunta del valor presente neto y lo que dice el fundador, van con verbo introductorio y dos puntos, sin comillas, como en el aprobado. En el inglés del 052 esas comillas no se cerraban; en este f0 sí. Títulos: titulo, titulo_seccion y titulos_seccion son los aprobados del 052. Cifras en letra heredadas: mil millones de dólares, una décima parte del uno por ciento, un millón de dólares, diez millones, el uno por ciento, diez mil dólares. Frase más larga: la tercera del bloque 2, con 44 palabras, por debajo de 45. No hay nombres propios problemáticos. Fuera de rango: el bloque 1, de Nivi, tiene una cobertura de 0,71 porque el inglés cuenta la sigla NPV, que no se locuta. Es compresión natural y no se fuerza. Reutilización de clips: el bloque 1 coincide con el b265 del 052. Los bloques 2 y 3 parten el b266 y necesitan clips propios. Revisión: no se ha cambiado ningún texto.\n\nRevisión del 6-nov (GLOSARIO): valor actual neto en lugar de valor presente neto en b01, b02, b03 y en el título, que pasa a «Valor actual neto: lo que valen hoy los ingresos futuros» (también en titulo_es y en youtube.titulo). Sigue idéntico al 052 b265 y b266, cambiados igual."
+  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). Recorte del 052-rich. Bloque 1: el b265. Bloque 2: frases 1 a 3 del b266. Bloque 3: frases 4 a 10 del b266. Todo palabra por palabra del 052 aprobado, comprobado por script por el revisor. La sigla NPV entre paréntesis del inglés no se dice, como en el 052. Las citas en estilo directo, la pregunta del valor presente neto y lo que dice el fundador, van con verbo introductorio y dos puntos, sin comillas, como en el aprobado. En el inglés del 052 esas comillas no se cerraban; en este f0 sí. Títulos: titulo, titulo_seccion y titulos_seccion son los aprobados del 052. Cifras en letra heredadas: mil millones de dólares, una décima parte del uno por ciento, un millón de dólares, diez millones, el uno por ciento, diez mil dólares. Frase más larga: la tercera del bloque 2, con 44 palabras, por debajo de 45. No hay nombres propios problemáticos. Fuera de rango: el bloque 1, de Nivi, tiene una cobertura de 0,71 porque el inglés cuenta la sigla NPV, que no se locuta. Es compresión natural y no se fuerza. Reutilización de clips: el bloque 1 coincide con el b265 del 052. Los bloques 2 y 3 parten el b266 y necesitan clips propios. Revisión: no se ha cambiado ningún texto.\n\nRevisión del 6-nov (GLOSARIO): valor actual neto en lugar de valor presente neto en b01, b02, b03 y en el título, que pasa a «Valor actual neto: lo que valen hoy los ingresos futuros» (también en titulo_es y en youtube.titulo). Sigue idéntico al 052 b265 y b266, cambiados igual.",
+  "publicacion": {
+    "fecha": "2026-12-23",
+    "audio_url": "https://audio.spanishnav.al/2019/049-npv.mp3",
+    "feed_guid": "spanishnav.al/2019/npv",
+    "audio_bytes": 0,
+    "duracion_s": 0
+  }
 }

@@ -5,10 +5,10 @@
   "anio": 2019,
   "slug": "kelly-criterion",
   "titulo_es": "El criterio de Kelly: evita la ruina",
-  "estado": "tts",
+  "estado": "montaje",
   "youtube": {
     "titulo": "El criterio de Kelly: evita la ruina",
-    "descripcion": "",
+    "descripcion": "Episodio 43 de la traducción al español del podcast de Naval Ravikant.\nEl criterio de Kelly: evita la ruina: No arruines tu reputación ni te quedes barrido a cero.\n\n▶ Episodio original en YouTube: https://www.youtube.com/watch?v=_LZ5T9vOhK4\n▶ Transcripción original en inglés: https://nav.al/kelly-criterion\n▶ Este episodio en español, con su transcripción: https://spanishnav.al/kelly-criterion\n▶ Canal original de Naval: https://www.youtube.com/@NavalR\n\nTraducción no oficial. Contenido original de Naval Ravikant, publicado en nav.al.\n\nEste podcast se ha traducido al español con inteligencia artificial. Puede haber errores o inconsistencias tanto en la traducción como en la dicción.\nLa transcripción se ha traducido del inglés al español con Claude Opus 5.5 (esfuerzo alto), de Anthropic. La voz en español se ha generado con Qwen3-TTS, un modelo de voz de código abierto fine-tuned con las voces de Naval y de otros participantes.\n\n¿Algún problema o queja? Escríbeme a podcast@spanishnav.al\n\n—\n\nUnofficial Spanish translation of Naval Ravikant's podcast. Original content by Naval Ravikant at nav.al.\nThis podcast has been translated into Spanish using artificial intelligence. There may be errors or inconsistencies in both the translation and the diction.\nThe transcript was translated from English to Spanish with Anthropic's Claude Opus 5.5 (high effort). The Spanish audio was generated with Qwen3-TTS, an open-source voice model fine-tuned on the voices of Naval and other participants.\nIf you run into any problems or have a complaint, reach me at podcast@spanishnav.al",
     "tags": [],
     "url": "",
     "url_original": "https://www.youtube.com/watch?v=_LZ5T9vOhK4"
@@ -23,10 +23,17 @@
   "audio_editado_a_mano": false,
   "heredado": null,
   "escucha": {
-    "escuchado": false,
-    "resultado": null,
-    "fecha": null,
-    "feedback": ""
+    "escuchado": true,
+    "resultado": "bueno",
+    "fecha": "2026-11-12",
+    "feedback": "2026-11-12: bueno. Escuchado por el autor (12-nov): bueno para subir, sin problemas"
   },
-  "notas": "Antes de sintetizar: comprobar cómo pronuncia el modelo «ergodicidad», «Nassim Taleb» y «Kelly». b03 «un mono naranja»: «mono» tiene dos sentidos y aquí es la prenda; el «en la cárcel» que sigue lo resuelve, pero conviene escucharlo. «quedar barrido a cero» aparece en el título de sección, en el subtítulo y en b03: si alguna vez se cambia esa expresión, hay que cambiarla en los tres sitios a la vez. b01 tiene ratio es/en 0,83, por debajo del umbral, pero es solo el saludo de Nivi: cinco palabras frente a seis, no falta nada. Artefacto del inglés de la fuente, señalado y no tocado: en b03 la frase que empieza por «So risk-taking» está mal construida en el original y el español la resuelve."
+  "notas": "Antes de sintetizar: comprobar cómo pronuncia el modelo «ergodicidad», «Nassim Taleb» y «Kelly». b03 «un mono naranja»: «mono» tiene dos sentidos y aquí es la prenda; el «en la cárcel» que sigue lo resuelve, pero conviene escucharlo. «quedar barrido a cero» aparece en el título de sección, en el subtítulo y en b03: si alguna vez se cambia esa expresión, hay que cambiarla en los tres sitios a la vez. b01 tiene ratio es/en 0,83, por debajo del umbral, pero es solo el saludo de Nivi: cinco palabras frente a seis, no falta nada. Artefacto del inglés de la fuente, señalado y no tocado: en b03 la frase que empieza por «So risk-taking» está mal construida en el original y el español la resuelve.",
+  "publicacion": {
+    "fecha": "2026-12-17",
+    "audio_url": "https://audio.spanishnav.al/2019/043-kelly-criterion.mp3",
+    "feed_guid": "spanishnav.al/2019/kelly-criterion",
+    "audio_bytes": 0,
+    "duracion_s": 0
+  }
 }
