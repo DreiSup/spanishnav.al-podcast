@@ -5,10 +5,10 @@
   "anio": 2019,
   "slug": "working-ourselves",
   "titulo_es": "Todos deberíamos trabajar para nosotros mismos",
-  "estado": "tts",
+  "estado": "montaje",
   "youtube": {
     "titulo": "Todos deberíamos trabajar para nosotros mismos",
-    "descripcion": "",
+    "descripcion": "Episodio 39 de la traducción al español del podcast de Naval Ravikant.\nTodos deberíamos trabajar para nosotros mismos: Pero tendremos que hacer sacrificios y asumir más riesgo.\n\n▶ Episodio original en YouTube: https://www.youtube.com/watch?v=181lbi5ar5I\n▶ Transcripción original en inglés: https://nav.al/working-ourselves\n▶ Este episodio en español, con su transcripción: https://spanishnav.al/working-ourselves\n▶ Canal original de Naval: https://www.youtube.com/@NavalR\n\nTraducción no oficial. Contenido original de Naval Ravikant, publicado en nav.al.\n\nEste podcast se ha traducido al español con inteligencia artificial. Puede haber errores o inconsistencias tanto en la traducción como en la dicción.\nLa transcripción se ha traducido del inglés al español con Claude Opus 5.5 (esfuerzo alto), de Anthropic. La voz en español se ha generado con Qwen3-TTS, un modelo de voz de código abierto fine-tuned con las voces de Naval y de otros participantes.\n\n¿Algún problema o queja? Escríbeme a podcast@spanishnav.al\n\n—\n\nUnofficial Spanish translation of Naval Ravikant's podcast. Original content by Naval Ravikant at nav.al.\nThis podcast has been translated into Spanish using artificial intelligence. There may be errors or inconsistencies in both the translation and the diction.\nThe transcript was translated from English to Spanish with Anthropic's Claude Opus 5.5 (high effort). The Spanish audio was generated with Qwen3-TTS, an open-source voice model fine-tuned on the voices of Naval and other participants.\nIf you run into any problems or have a complaint, reach me at podcast@spanishnav.al",
     "tags": [],
     "url": "",
     "url_original": "https://www.youtube.com/watch?v=181lbi5ar5I"
@@ -23,10 +23,17 @@
   "audio_editado_a_mano": false,
   "heredado": null,
   "escucha": {
-    "escuchado": false,
-    "resultado": null,
-    "fecha": null,
-    "feedback": ""
+    "escuchado": true,
+    "resultado": "bueno",
+    "fecha": "2026-11-12",
+    "feedback": "2026-11-12: bueno. Escuchado por el autor (12-nov): bueno para subir, sin problemas"
   },
-  "notas": "Sin cambios sobre el f5 recibido: no hubo errores objetivos que corregir ni decisiones de traducción pendientes. Es el episodio más limpio de los revisados hasta ahora: 55 frases en los dos idiomas, todos los bloques entre 0,97 y 1,12, y el glosario respetado en las cuatro entradas que aparecen (leverage seis de seis como apalancamiento, accountability tres de tres como responsabilidad, judgment como criterio, wealth como riqueza). La fecha no estaba en el catálogo; entra con --fecha 2019-06-24, tomada de la cabecera del f0, y encaja entre el 38 del 21 de junio y el 40 del 26. Solapamiento con 052-rich: 18 de las 55 frases y 3 de los 4 titulos_seccion son idénticos. Misma decisión pendiente que 035 a 038 y 044 a 045: producir la recopilación o los sueltos, no ambos. Antes de sintetizar, escuchar: «ceteris paribus» va en latín y sin comillas, glosado dentro de la propia frase, así que el TTS tiene que leerlo seguido sin tropezar. Comprobar también Lyft, YouTube y Silicon Valley. La última frase del episodio hace concordancia ad sensum, «la gente joven se está dando cuenta de que si van a trabajar»: es natural en lengua hablada y el texto va a TTS, así que se deja, pero queda apuntado. Artefacto del f0 inglés, no tocado: espaciado irregular en b05 alrededor de un guion largo y de un apóstrofo; el troceo del script colapsa los espacios."
+  "notas": "Sin cambios sobre el f5 recibido: no hubo errores objetivos que corregir ni decisiones de traducción pendientes. Es el episodio más limpio de los revisados hasta ahora: 55 frases en los dos idiomas, todos los bloques entre 0,97 y 1,12, y el glosario respetado en las cuatro entradas que aparecen (leverage seis de seis como apalancamiento, accountability tres de tres como responsabilidad, judgment como criterio, wealth como riqueza). La fecha no estaba en el catálogo; entra con --fecha 2019-06-24, tomada de la cabecera del f0, y encaja entre el 38 del 21 de junio y el 40 del 26. Solapamiento con 052-rich: 18 de las 55 frases y 3 de los 4 titulos_seccion son idénticos. Misma decisión pendiente que 035 a 038 y 044 a 045: producir la recopilación o los sueltos, no ambos. Antes de sintetizar, escuchar: «ceteris paribus» va en latín y sin comillas, glosado dentro de la propia frase, así que el TTS tiene que leerlo seguido sin tropezar. Comprobar también Lyft, YouTube y Silicon Valley. La última frase del episodio hace concordancia ad sensum, «la gente joven se está dando cuenta de que si van a trabajar»: es natural en lengua hablada y el texto va a TTS, así que se deja, pero queda apuntado. Artefacto del f0 inglés, no tocado: espaciado irregular en b05 alrededor de un guion largo y de un apóstrofo; el troceo del script colapsa los espacios.",
+  "publicacion": {
+    "fecha": "2026-12-13",
+    "audio_url": "https://audio.spanishnav.al/2019/039-working-ourselves.mp3",
+    "feed_guid": "spanishnav.al/2019/working-ourselves",
+    "audio_bytes": 0,
+    "duracion_s": 0
+  }
 }

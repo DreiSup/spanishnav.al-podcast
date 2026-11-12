@@ -5,13 +5,13 @@
   "anio": 2019,
   "slug": "hourly-rate",
   "titulo_es": "Fija una tarifa por hora ambiciosa",
-  "estado": "tts",
+  "estado": "montaje",
   "youtube": {
     "titulo": "Fija una tarifa por hora ambiciosa",
-    "descripcion": "",
+    "descripcion": "Episodio 27 de la traducción al español del podcast de Naval Ravikant.\nFija una tarifa por hora ambiciosa: Externaliza las tareas que cuesten menos que tu tarifa por hora.\n\n▶ Episodio original en YouTube: https://www.youtube.com/watch?v=D9B6qGCuImU\n▶ Transcripción original en inglés: https://nav.al/hourly-rate\n▶ Este episodio en español, con su transcripción: https://spanishnav.al/hourly-rate\n▶ Canal original de Naval: https://www.youtube.com/@NavalR\n\nTraducción no oficial. Contenido original de Naval Ravikant, publicado en nav.al.\n\nEste podcast se ha traducido al español con inteligencia artificial. Puede haber errores o inconsistencias tanto en la traducción como en la dicción.\nLa transcripción se ha traducido del inglés al español con Claude Opus 5.5 (esfuerzo alto), de Anthropic. La voz en español se ha generado con Qwen3-TTS, un modelo de voz de código abierto fine-tuned con las voces de Naval y de otros participantes.\n\n¿Algún problema o queja? Escríbeme a podcast@spanishnav.al\n\n—\n\nUnofficial Spanish translation of Naval Ravikant's podcast. Original content by Naval Ravikant at nav.al.\nThis podcast has been translated into Spanish using artificial intelligence. There may be errors or inconsistencies in both the translation and the diction.\nThe transcript was translated from English to Spanish with Anthropic's Claude Opus 5.5 (high effort). The Spanish audio was generated with Qwen3-TTS, an open-source voice model fine-tuned on the voices of Naval and other participants.\nIf you run into any problems or have a complaint, reach me at podcast@spanishnav.al",
     "tags": [],
     "url": "",
-    "url_original": ""
+    "url_original": "https://www.youtube.com/watch?v=D9B6qGCuImU"
   },
   "drive": {
     "carpeta_id": "",
@@ -21,19 +21,19 @@
     "proyecto_id": ""
   },
   "publicacion": {
-    "fecha": "",
-    "audio_url": "",
+    "fecha": "2026-12-01",
+    "audio_url": "https://audio.spanishnav.al/2019/027-hourly-rate.mp3",
     "audio_bytes": 0,
     "duracion_s": 0,
-    "feed_guid": ""
+    "feed_guid": "spanishnav.al/2019/hourly-rate"
   },
   "audio_editado_a_mano": false,
   "heredado": null,
   "escucha": {
-    "escuchado": false,
-    "resultado": null,
-    "fecha": null,
-    "feedback": ""
+    "escuchado": true,
+    "resultado": "bueno",
+    "fecha": "2026-11-12",
+    "feedback": "2026-11-12: bueno. Escuchado por el autor (12-nov): bueno para subir, sin problemas"
   },
   "notas": "Inglés sacado del Google Doc «2019 all podcasts» de Drive; cuadra palabra a palabra con el documento. Traducción: parte del español del 052 (b157 a b162, mismo inglés letra a letra), revisada frase a frase con los términos confirmados por el autor el 5-nov. Cambios sobre el 052: aspirational hourly rate va siempre como «tarifa ambiciosa», igual que en el título (el 052 mezcla «ambiciosa» y «aspiracional»); lo que Naval les dice a sus novias, a su mujer y a su madre, y lo que pregunta la gente sobre la alegría de vivir, en estilo indirecto; fundidas nueve frases cortas; «la lían» pasa a «se equivocan con el pedido»; Salvation Army como Ejército de Salvación; «Debería parecerte y sentirse absurdamente alta» pasa a «Debería parecerte absurdamente alta». «I did a lot less of it my friends» se entiende como «than my friends», como en el 052. Escuchar en el TTS: Amazon, Ejército de Salvación, Paul Graham, Y Combinator, startups."
 }

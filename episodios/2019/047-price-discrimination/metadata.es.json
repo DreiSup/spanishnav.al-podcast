@@ -5,10 +5,10 @@
   "anio": 2019,
   "slug": "price-discrimination",
   "titulo_es": "Discriminación de precios: cobrar más a algunos",
-  "estado": "tts",
+  "estado": "montaje",
   "youtube": {
     "titulo": "Discriminación de precios: cobrar más a algunos",
-    "descripcion": "",
+    "descripcion": "Episodio 47 de la traducción al español del podcast de Naval Ravikant.\nDiscriminación de precios: cobrar más a algunos: Puedes cobrar extras a la gente según su disposición a pagar.\n\n▶ Episodio original en YouTube: https://www.youtube.com/watch?v=RO95jANEUuM\n▶ Transcripción original en inglés: https://nav.al/price-discrimination\n▶ Este episodio en español, con su transcripción: https://spanishnav.al/price-discrimination\n▶ Canal original de Naval: https://www.youtube.com/@NavalR\n\nTraducción no oficial. Contenido original de Naval Ravikant, publicado en nav.al.\n\nEste podcast se ha traducido al español con inteligencia artificial. Puede haber errores o inconsistencias tanto en la traducción como en la dicción.\nLa transcripción se ha traducido del inglés al español con Claude Opus 5.5 (esfuerzo alto), de Anthropic. La voz en español se ha generado con Qwen3-TTS, un modelo de voz de código abierto fine-tuned con las voces de Naval y de otros participantes.\n\n¿Algún problema o queja? Escríbeme a podcast@spanishnav.al\n\n—\n\nUnofficial Spanish translation of Naval Ravikant's podcast. Original content by Naval Ravikant at nav.al.\nThis podcast has been translated into Spanish using artificial intelligence. There may be errors or inconsistencies in both the translation and the diction.\nThe transcript was translated from English to Spanish with Anthropic's Claude Opus 5.5 (high effort). The Spanish audio was generated with Qwen3-TTS, an open-source voice model fine-tuned on the voices of Naval and other participants.\nIf you run into any problems or have a complaint, reach me at podcast@spanishnav.al",
     "tags": [],
     "url": "",
     "url_original": "https://www.youtube.com/watch?v=RO95jANEUuM"
@@ -23,10 +23,17 @@
   "audio_editado_a_mano": false,
   "heredado": null,
   "escucha": {
-    "escuchado": false,
-    "resultado": null,
-    "fecha": null,
-    "feedback": ""
+    "escuchado": true,
+    "resultado": "bueno",
+    "fecha": "2026-11-12",
+    "feedback": "2026-11-12: bueno. Escuchado por el autor (12-nov): bueno para subir, sin problemas"
   },
-  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). Recorte del 052-rich. Los tres bloques reutilizan palabra por palabra los b261, b262 y b263 aprobados del 052, en el mismo orden. El revisor lo ha comprobado por script. Títulos: titulo, titulo_seccion y titulos_seccion son los aprobados del 052. El título «La discriminación de precios es una técnica para cobrar más a ciertas personas» del 052 no figura en este f0 y no se usa. Cifras en letra heredadas: cinco o diez veces, dos o tres veces, diez o cien veces. «IT person» va resuelto como «el informático». Nombres y anglicismos que hay que escuchar en el TTS: clase business, freemium. Frase más larga: la quinta del bloque 3, con 38 palabras, por debajo de 45. Reutilización de clips: los tres bloques coinciden letra a letra con el 052, así que sus clips se pueden reutilizar. Revisión: no se ha cambiado ningún texto, por la regla de identidad con el 052. Los posibles retoques del aprobado van en decisiones."
+  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). Recorte del 052-rich. Los tres bloques reutilizan palabra por palabra los b261, b262 y b263 aprobados del 052, en el mismo orden. El revisor lo ha comprobado por script. Títulos: titulo, titulo_seccion y titulos_seccion son los aprobados del 052. El título «La discriminación de precios es una técnica para cobrar más a ciertas personas» del 052 no figura en este f0 y no se usa. Cifras en letra heredadas: cinco o diez veces, dos o tres veces, diez o cien veces. «IT person» va resuelto como «el informático». Nombres y anglicismos que hay que escuchar en el TTS: clase business, freemium. Frase más larga: la quinta del bloque 3, con 38 palabras, por debajo de 45. Reutilización de clips: los tres bloques coinciden letra a letra con el 052, así que sus clips se pueden reutilizar. Revisión: no se ha cambiado ningún texto, por la regla de identidad con el 052. Los posibles retoques del aprobado van en decisiones.",
+  "publicacion": {
+    "fecha": "2026-12-21",
+    "audio_url": "https://audio.spanishnav.al/2019/047-price-discrimination.mp3",
+    "feed_guid": "spanishnav.al/2019/price-discrimination",
+    "audio_bytes": 0,
+    "duracion_s": 0
+  }
 }

@@ -5,10 +5,10 @@
   "anio": 2019,
   "slug": "externalities",
   "titulo_es": "Externalidades: calcular los costes ocultos de los productos",
-  "estado": "tts",
+  "estado": "montaje",
   "youtube": {
     "titulo": "Externalidades: calcular los costes ocultos de los productos",
-    "descripcion": "",
+    "descripcion": "Episodio 50 de la traducción al español del podcast de Naval Ravikant.\nExternalidades: calcular los costes ocultos de los productos: Las externalidades permiten contar el coste real de los productos incluyendo los costes ocultos.\n\n▶ Episodio original en YouTube: https://www.youtube.com/watch?v=-sN9ZSehvX8\n▶ Transcripción original en inglés: https://nav.al/externalities\n▶ Este episodio en español, con su transcripción: https://spanishnav.al/externalities\n▶ Canal original de Naval: https://www.youtube.com/@NavalR\n\nTraducción no oficial. Contenido original de Naval Ravikant, publicado en nav.al.\n\nEste podcast se ha traducido al español con inteligencia artificial. Puede haber errores o inconsistencias tanto en la traducción como en la dicción.\nLa transcripción se ha traducido del inglés al español con Claude Opus 5.5 (esfuerzo alto), de Anthropic. La voz en español se ha generado con Qwen3-TTS, un modelo de voz de código abierto fine-tuned con las voces de Naval y de otros participantes.\n\n¿Algún problema o queja? Escríbeme a podcast@spanishnav.al\n\n—\n\nUnofficial Spanish translation of Naval Ravikant's podcast. Original content by Naval Ravikant at nav.al.\nThis podcast has been translated into Spanish using artificial intelligence. There may be errors or inconsistencies in both the translation and the diction.\nThe transcript was translated from English to Spanish with Anthropic's Claude Opus 5.5 (high effort). The Spanish audio was generated with Qwen3-TTS, an open-source voice model fine-tuned on the voices of Naval and other participants.\nIf you run into any problems or have a complaint, reach me at podcast@spanishnav.al",
     "tags": [],
     "url": "",
     "url_original": "https://www.youtube.com/watch?v=-sN9ZSehvX8"
@@ -23,10 +23,17 @@
   "audio_editado_a_mano": false,
   "heredado": null,
   "escucha": {
-    "escuchado": false,
-    "resultado": null,
-    "fecha": null,
-    "feedback": ""
+    "escuchado": true,
+    "resultado": "bueno",
+    "fecha": "2026-11-12",
+    "feedback": "2026-11-12: bueno. Escuchado por el autor (12-nov): bueno para subir, sin problemas"
   },
-  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). Recorte del 052-rich. Los cuatro bloques reutilizan palabra por palabra los b267 a b270 aprobados del 052, en el mismo orden, comprobado por script por el revisor. Títulos: titulo, titulo_seccion y titulos_seccion son los aprobados del 052. Los guiones largos del inglés («guess what», «who consume a lot of water») ya están resueltos en el aprobado con dos puntos y comas. «Very, very, very high» va como «altísimo», por compresión natural. Nombres que hay que escuchar en el TTS: California. Reutilización de clips: los cuatro bloques coinciden letra a letra con el 052. Revisión: no se ha cambiado ningún texto. Los posibles retoques del aprobado son «agua potable», el título de las medidas de buena conciencia y las frases cortas, y van en decisiones."
+  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). Recorte del 052-rich. Los cuatro bloques reutilizan palabra por palabra los b267 a b270 aprobados del 052, en el mismo orden, comprobado por script por el revisor. Títulos: titulo, titulo_seccion y titulos_seccion son los aprobados del 052. Los guiones largos del inglés («guess what», «who consume a lot of water») ya están resueltos en el aprobado con dos puntos y comas. «Very, very, very high» va como «altísimo», por compresión natural. Nombres que hay que escuchar en el TTS: California. Reutilización de clips: los cuatro bloques coinciden letra a letra con el 052. Revisión: no se ha cambiado ningún texto. Los posibles retoques del aprobado son «agua potable», el título de las medidas de buena conciencia y las frases cortas, y van en decisiones.",
+  "publicacion": {
+    "fecha": "2026-12-24",
+    "audio_url": "https://audio.spanishnav.al/2019/050-externalities.mp3",
+    "feed_guid": "spanishnav.al/2019/externalities",
+    "audio_bytes": 0,
+    "duracion_s": 0
+  }
 }

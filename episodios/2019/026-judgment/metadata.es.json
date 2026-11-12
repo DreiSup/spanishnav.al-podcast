@@ -5,13 +5,13 @@
   "anio": 2019,
   "slug": "judgment",
   "titulo_es": "El criterio es la habilidad decisiva",
-  "estado": "tts",
+  "estado": "montaje",
   "youtube": {
     "titulo": "El criterio es la habilidad decisiva",
-    "descripcion": "",
+    "descripcion": "Episodio 26 de la traducción al español del podcast de Naval Ravikant.\nEl criterio es la habilidad decisiva: En una era de apalancamiento casi infinito, el criterio es la habilidad más importante.\n\n▶ Episodio original en YouTube: https://www.youtube.com/watch?v=eoLAIDGM4zI\n▶ Transcripción original en inglés: https://nav.al/judgment\n▶ Este episodio en español, con su transcripción: https://spanishnav.al/judgment\n▶ Canal original de Naval: https://www.youtube.com/@NavalR\n\nTraducción no oficial. Contenido original de Naval Ravikant, publicado en nav.al.\n\nEste podcast se ha traducido al español con inteligencia artificial. Puede haber errores o inconsistencias tanto en la traducción como en la dicción.\nLa transcripción se ha traducido del inglés al español con Claude Opus 5.5 (esfuerzo alto), de Anthropic. La voz en español se ha generado con Qwen3-TTS, un modelo de voz de código abierto fine-tuned con las voces de Naval y de otros participantes.\n\n¿Algún problema o queja? Escríbeme a podcast@spanishnav.al\n\n—\n\nUnofficial Spanish translation of Naval Ravikant's podcast. Original content by Naval Ravikant at nav.al.\nThis podcast has been translated into Spanish using artificial intelligence. There may be errors or inconsistencies in both the translation and the diction.\nThe transcript was translated from English to Spanish with Anthropic's Claude Opus 5.5 (high effort). The Spanish audio was generated with Qwen3-TTS, an open-source voice model fine-tuned on the voices of Naval and other participants.\nIf you run into any problems or have a complaint, reach me at podcast@spanishnav.al",
     "tags": [],
     "url": "",
-    "url_original": ""
+    "url_original": "https://www.youtube.com/watch?v=eoLAIDGM4zI"
   },
   "drive": {
     "carpeta_id": "",
@@ -21,19 +21,19 @@
     "proyecto_id": ""
   },
   "publicacion": {
-    "fecha": "",
-    "audio_url": "",
+    "fecha": "2026-11-30",
+    "audio_url": "https://audio.spanishnav.al/2019/026-judgment.mp3",
     "audio_bytes": 0,
     "duracion_s": 0,
-    "feed_guid": ""
+    "feed_guid": "spanishnav.al/2019/judgment"
   },
   "audio_editado_a_mano": false,
   "heredado": null,
   "escucha": {
-    "escuchado": false,
-    "resultado": null,
-    "fecha": null,
-    "feedback": ""
+    "escuchado": true,
+    "resultado": "bueno",
+    "fecha": "2026-11-12",
+    "feedback": "2026-11-12: bueno. Escuchado por el autor (12-nov): bueno para subir, sin problemas"
   },
   "notas": "Inglés sacado del Google Doc «2019 all podcasts» de Drive; cuadra palabra a palabra con el documento (el «etc.» de b02 es del texto). Traducción: parte del español del 052 (b147 a b156, mismo inglés letra a letra), revisada frase a frase con los términos confirmados por el autor el 5-nov. Cambios sobre el 052: skin in the game como «jugarse la piel» (GLOSARIO; el 052 dice «no se juegan nada»); «los resultados compuestos» pasa a «el interés compuesto» (GLOSARIO); «He's been highly accountable» pasa de «Ha sido tremendamente responsable», que se oye como prudente, a «ha asumido muchísima responsabilidad»; lo que le dicen a Warren Buffett y la pregunta sobre los libros de inversión, en estilo indirecto; reescrita la frase de 39 palabras de b09, que el 052 abría con dos puntos; partida la de 39 de b03; fundidas siete frases cortas; «en el dominio público» pasa a «a la vista de todos»; «para aprovecharlo» a «para sacarle partido»; título de sección nuevo para A lot of the top investors often sound like philosophers. Escuchar en el TTS: Warren Buffett, Google, Apple, Nassim Taleb, Jeremy Grantham, Michael Burry, Twitter."
 }

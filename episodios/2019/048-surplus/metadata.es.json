@@ -5,10 +5,10 @@
   "anio": 2019,
   "slug": "surplus",
   "titulo_es": "Excedente del consumidor: recibir más de lo que pagaste",
-  "estado": "tts",
+  "estado": "montaje",
   "youtube": {
     "titulo": "Excedente del consumidor: recibir más de lo que pagaste",
-    "descripcion": "",
+    "descripcion": "Episodio 48 de la traducción al español del podcast de Naval Ravikant.\nExcedente del consumidor: recibir más de lo que pagaste: La gente está dispuesta a pagar más de lo que cobran las empresas.\n\n▶ Episodio original en YouTube: https://www.youtube.com/watch?v=RKeRl7EkP_Q\n▶ Transcripción original en inglés: https://nav.al/surplus\n▶ Este episodio en español, con su transcripción: https://spanishnav.al/surplus\n▶ Canal original de Naval: https://www.youtube.com/@NavalR\n\nTraducción no oficial. Contenido original de Naval Ravikant, publicado en nav.al.\n\nEste podcast se ha traducido al español con inteligencia artificial. Puede haber errores o inconsistencias tanto en la traducción como en la dicción.\nLa transcripción se ha traducido del inglés al español con Claude Opus 5.5 (esfuerzo alto), de Anthropic. La voz en español se ha generado con Qwen3-TTS, un modelo de voz de código abierto fine-tuned con las voces de Naval y de otros participantes.\n\n¿Algún problema o queja? Escríbeme a podcast@spanishnav.al\n\n—\n\nUnofficial Spanish translation of Naval Ravikant's podcast. Original content by Naval Ravikant at nav.al.\nThis podcast has been translated into Spanish using artificial intelligence. There may be errors or inconsistencies in both the translation and the diction.\nThe transcript was translated from English to Spanish with Anthropic's Claude Opus 5.5 (high effort). The Spanish audio was generated with Qwen3-TTS, an open-source voice model fine-tuned on the voices of Naval and other participants.\nIf you run into any problems or have a complaint, reach me at podcast@spanishnav.al",
     "tags": [],
     "url": "",
     "url_original": "https://www.youtube.com/watch?v=RKeRl7EkP_Q"
@@ -23,10 +23,17 @@
   "audio_editado_a_mano": false,
   "heredado": null,
   "escucha": {
-    "escuchado": false,
-    "resultado": null,
-    "fecha": null,
-    "feedback": ""
+    "escuchado": true,
+    "resultado": "bueno",
+    "fecha": "2026-11-12",
+    "feedback": "2026-11-12: bueno. Escuchado por el autor (12-nov): bueno para subir, sin problemas"
   },
-  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). Recorte del 052-rich. El único bloque reutiliza palabra por palabra el b264 aprobado del 052, y el revisor lo ha comprobado por script. Solo habla Naval. Artefacto del copiado en inglés: entre el tercer y el cuarto párrafo aparece suelta, sin punto, la línea «Consumer surplus is the extra value you get when you pay less than you were willing». Es la cita destacada de la página; en el 052 es el título «El excedente del consumidor es el valor extra que obtienes cuando pagas menos de lo que estabas dispuesto». No se locuta. titulos_seccion queda vacío porque el inglés no trae ninguno, y titulo y titulo_seccion son los aprobados del 052. Trampa de billion y trillion resuelta como en el aprobado: «a trillion-dollar company» es una empresa que vale un billón de dólares, y «trillions of dollars» son billones de dólares. Veinte dólares va en letra. Nombres que hay que escuchar en el TTS: Starbucks, Amazon. Reutilización de clips: el bloque coincide letra a letra con el b264 del 052. Revisión: no se ha cambiado ningún texto."
+  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). Recorte del 052-rich. El único bloque reutiliza palabra por palabra el b264 aprobado del 052, y el revisor lo ha comprobado por script. Solo habla Naval. Artefacto del copiado en inglés: entre el tercer y el cuarto párrafo aparece suelta, sin punto, la línea «Consumer surplus is the extra value you get when you pay less than you were willing». Es la cita destacada de la página; en el 052 es el título «El excedente del consumidor es el valor extra que obtienes cuando pagas menos de lo que estabas dispuesto». No se locuta. titulos_seccion queda vacío porque el inglés no trae ninguno, y titulo y titulo_seccion son los aprobados del 052. Trampa de billion y trillion resuelta como en el aprobado: «a trillion-dollar company» es una empresa que vale un billón de dólares, y «trillions of dollars» son billones de dólares. Veinte dólares va en letra. Nombres que hay que escuchar en el TTS: Starbucks, Amazon. Reutilización de clips: el bloque coincide letra a letra con el b264 del 052. Revisión: no se ha cambiado ningún texto.",
+  "publicacion": {
+    "fecha": "2026-12-22",
+    "audio_url": "https://audio.spanishnav.al/2019/048-surplus.mp3",
+    "feed_guid": "spanishnav.al/2019/surplus",
+    "audio_bytes": 0,
+    "duracion_s": 0
+  }
 }

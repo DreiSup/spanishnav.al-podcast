@@ -175,3 +175,29 @@ cosenos de 0,74 a 0,93 contra el centroide del hablante) y se miden con `orquest
 
 Los tres están aprobados por escucha y subidos a `gdrive:fine_tunned_naval/datasets/<h>/` con
 `rclone copy`; `rclone check` sin diferencias.
+
+## Parte 2d: dataset de ridley (2026-11-11)
+
+Fuentes: nav074 (train) y nav075 (eval) del podcast de Naval; externas mwi923 (Modern Wisdom #923)
+y sfy001 (See For Yourself), procesadas con `orquesta_ridley.sh` y etiquetadas por embeddings
+(cosenos 0,91 y 0,87). eco001 (EconTalk 2016) se descartó por mala calidad de audio (DNSMOS ~2,3).
+
+| Dataset | train | eval | Notas |
+|---|---|---|---|
+| ridley | 45,0 min (nav074 10,5 + mwi923 17,2 + sfy001 17,2) | 3,6 min (nav075) | 622/700 clips aprobados; DNSMOS mediano 3,40 |
+
+## Parte 2e: datasets de vitalik, qureshi, hodak, rauch y scholl (2026-11-12)
+
+Procesado 01-06 con `orquesta_invitados.sh`; asignación de etiquetas externas (aprobada por el
+autor tras ver cosenos 0,67-0,90), medición y montaje con `orquesta_invitados_clips.sh`.
+En lex080 y wsh104 la diarización partió al invitado en varias etiquetas (misma voz, cos 0,97-0,99).
+
+| Dataset | train | eval | Notas |
+|---|---|---|---|
+| vitalik | 45,0 min (nav135 21,6 + lex080 23,4) | 2,7 min (nav136) | eval por debajo de 3 min |
+| qureshi | 16,3 min (nav135 4,8 + wsh104 11,6) | 1,5 min (nav136) | corto: wsh104 solo dio 17,5 min útiles de 67 en 06 |
+| hodak | 43,6 min (nav167 11,8 + cmm009 31,8) | 2,5 min (npr001) | eval por debajo de 3 min |
+| rauch | 44,8 min (nav167 12,8 + acq001 32,0) | 3,3 min (evr047) | |
+| scholl | 31,3 min (nav167 5,8 + hii153 25,5) | 3,1 min (cwt277) | |
+
+Pendientes de escucha del autor antes de subir a Drive.

@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**162** episodios · **7** publicados · **26** escuchados por el autor (**0** para revisar) · **0** sin empezar
+**162** episodios · **7** publicados · **51** escuchados por el autor (**0** para revisar) · **0** sin empezar
 
 ## 2026
 
@@ -178,30 +178,30 @@
 | 23 | [023-egalitarian-leverage](episodios/2019/023-egalitarian-leverage) | El apalancamiento de producto es igualitario | 🟣 montaje | ✅ 2026-11-09 | — | — |
 | 24 | [024-business-models](episodios/2019/024-business-models) | Elige un modelo de negocio con apalancamiento | 🟣 montaje | ✅ 2026-11-09 | — | — |
 | 25 | [025-laborer-tech](episodios/2019/025-laborer-tech) | Ejemplo: del obrero al emprendedor | 🟣 montaje | ✅ 2026-11-09 | — | — |
-| 26 | [026-judgment](episodios/2019/026-judgment) | El criterio es la habilidad decisiva | 🔵 generando TTS | — | — | — |
-| 27 | [027-hourly-rate](episodios/2019/027-hourly-rate) | Fija una tarifa por hora ambiciosa | 🔵 generando TTS | — | — | — |
-| 28 | [028-work-hard](episodios/2019/028-work-hard) | Trabaja todo lo duro que puedas | 🔵 generando TTS | — | — | — |
-| 29 | [029-meetings](episodios/2019/029-meetings) | Estate demasiado ocupado para quedar a tomar café | 🔵 generando TTS | — | — | — |
-| 30 | [030-redefining](episodios/2019/030-redefining) | Redefine sin parar lo que haces | 🔵 generando TTS | — | — | — |
-| 31 | [031-competition-authenticity](episodios/2019/031-competition-authenticity) | Escapa de la competencia siendo auténtico | 🔵 generando TTS | — | — | — |
-| 32 | [032-stupid-games](episodios/2019/032-stupid-games) | Juegos estúpidos, premios estúpidos | 🔵 generando TTS | — | — | — |
-| 33 | [033-eventually](episodios/2019/033-eventually) | Al final tendrás lo que te mereces | 🔵 generando TTS | — | — | — |
-| 34 | [034-reject-advice](episodios/2019/034-reject-advice) | Rechaza la mayoría de los consejos | 🔵 generando TTS | — | — | — |
-| 35 | [035-finally-wealthy](episodios/2019/035-finally-wealthy) | Una mente en calma, un cuerpo en forma, una casa llena de amor | 🔵 generando TTS | — | — | — |
-| 36 | [036-rich-quick](episodios/2019/036-rich-quick) | No existen los esquemas para hacerse rico rápido | 🔵 generando TTS | — | — | — |
-| 37 | [037-productize-yourself](episodios/2019/037-productize-yourself) | Productízate a ti mismo | 🔵 generando TTS | — | — | — |
-| 38 | [038-accountability](episodios/2019/038-accountability) | La responsabilidad significa dejar que la gente te critique | 🔵 generando TTS | — | — | — |
-| 39 | [039-working-ourselves](episodios/2019/039-working-ourselves) | Todos deberíamos trabajar para nosotros mismos | 🔵 generando TTS | — | — | — |
-| 40 | [040-ethics](episodios/2019/040-ethics) | Ser ético es ser codicioso a largo plazo | 🔵 generando TTS | — | — | — |
-| 41 | [041-envy](episodios/2019/041-envy) | La envidia puede ser útil, o puede comerte vivo | 🔵 generando TTS | — | — | — |
+| 26 | [026-judgment](episodios/2019/026-judgment) | El criterio es la habilidad decisiva | 🟣 montaje | ✅ 2026-11-12 | — | — |
+| 27 | [027-hourly-rate](episodios/2019/027-hourly-rate) | Fija una tarifa por hora ambiciosa | 🟣 montaje | ✅ 2026-11-12 | — | — |
+| 28 | [028-work-hard](episodios/2019/028-work-hard) | Trabaja todo lo duro que puedas | 🟣 montaje | ✅ 2026-11-12 | — | — |
+| 29 | [029-meetings](episodios/2019/029-meetings) | Estate demasiado ocupado para quedar a tomar café | 🟣 montaje | ✅ 2026-11-12 | — | — |
+| 30 | [030-redefining](episodios/2019/030-redefining) | Redefine sin parar lo que haces | 🟣 montaje | ✅ 2026-11-12 | — | — |
+| 31 | [031-competition-authenticity](episodios/2019/031-competition-authenticity) | Escapa de la competencia siendo auténtico | 🟣 montaje | ✅ 2026-11-12 | — | — |
+| 32 | [032-stupid-games](episodios/2019/032-stupid-games) | Juegos estúpidos, premios estúpidos | 🟣 montaje | ✅ 2026-11-12 | — | — |
+| 33 | [033-eventually](episodios/2019/033-eventually) | Al final tendrás lo que te mereces | 🟣 montaje | ✅ 2026-11-12 | — | — |
+| 34 | [034-reject-advice](episodios/2019/034-reject-advice) | Rechaza la mayoría de los consejos | 🟣 montaje | ✅ 2026-11-12 | — | — |
+| 35 | [035-finally-wealthy](episodios/2019/035-finally-wealthy) | Una mente en calma, un cuerpo en forma, una casa llena de amor | 🟣 montaje | ✅ 2026-11-12 | — | — |
+| 36 | [036-rich-quick](episodios/2019/036-rich-quick) | No existen los esquemas para hacerse rico rápido | 🟣 montaje | ✅ 2026-11-12 | — | — |
+| 37 | [037-productize-yourself](episodios/2019/037-productize-yourself) | Productízate a ti mismo | 🟣 montaje | ✅ 2026-11-12 | — | — |
+| 38 | [038-accountability](episodios/2019/038-accountability) | La responsabilidad significa dejar que la gente te critique | 🟣 montaje | ✅ 2026-11-12 | — | — |
+| 39 | [039-working-ourselves](episodios/2019/039-working-ourselves) | Todos deberíamos trabajar para nosotros mismos | 🟣 montaje | ✅ 2026-11-12 | — | — |
+| 40 | [040-ethics](episodios/2019/040-ethics) | Ser ético es ser codicioso a largo plazo | 🟣 montaje | ✅ 2026-11-12 | — | — |
+| 41 | [041-envy](episodios/2019/041-envy) | La envidia puede ser útil, o puede comerte vivo | 🟣 montaje | ✅ 2026-11-12 | — | — |
 | 42 | [042-principal-agent](episodios/2019/042-principal-agent) | El problema del principal y el agente: actúa como un dueño | 🟣 montaje | ✅ 2026-11-08 | — | — |
-| 43 | [043-kelly-criterion](episodios/2019/043-kelly-criterion) | El criterio de Kelly: evita la ruina | 🔵 generando TTS | — | — | — |
-| 44 | [044-schelling-point](episodios/2019/044-schelling-point) | El punto de Schelling: cooperar sin comunicarse | 🔵 generando TTS | — | — | — |
-| 45 | [045-short](episodios/2019/045-short) | Convierte los juegos de corto plazo en juegos de largo plazo | 🔵 generando TTS | — | — | — |
-| 46 | [046-relationships](episodios/2019/046-relationships) | Las relaciones con interés compuesto te hacen la vida más fácil | 🔵 generando TTS | — | — | — |
-| 47 | [047-price-discrimination](episodios/2019/047-price-discrimination) | Discriminación de precios: cobrar más a algunos | 🔵 generando TTS | — | — | — |
-| 48 | [048-surplus](episodios/2019/048-surplus) | Excedente del consumidor: recibir más de lo que pagaste | 🔵 generando TTS | — | — | — |
-| 49 | [049-npv](episodios/2019/049-npv) | Valor actual neto: lo que valen hoy los ingresos futuros | 🔵 generando TTS | — | — | — |
-| 50 | [050-externalities](episodios/2019/050-externalities) | Externalidades: calcular los costes ocultos de los productos | 🔵 generando TTS | — | — | — |
-| 51 | [051-angel-1](episodios/2019/051-angel-1) | Cómo invertir como ángel, parte 1 | 🔵 generando TTS | — | — | — |
+| 43 | [043-kelly-criterion](episodios/2019/043-kelly-criterion) | El criterio de Kelly: evita la ruina | 🟣 montaje | ✅ 2026-11-12 | — | — |
+| 44 | [044-schelling-point](episodios/2019/044-schelling-point) | El punto de Schelling: cooperar sin comunicarse | 🟣 montaje | ✅ 2026-11-12 | — | — |
+| 45 | [045-short](episodios/2019/045-short) | Convierte los juegos de corto plazo en juegos de largo plazo | 🟣 montaje | ✅ 2026-11-12 | — | — |
+| 46 | [046-relationships](episodios/2019/046-relationships) | Las relaciones con interés compuesto te hacen la vida más fácil | 🟣 montaje | ✅ 2026-11-12 | — | — |
+| 47 | [047-price-discrimination](episodios/2019/047-price-discrimination) | Discriminación de precios: cobrar más a algunos | 🟣 montaje | ✅ 2026-11-12 | — | — |
+| 48 | [048-surplus](episodios/2019/048-surplus) | Excedente del consumidor: recibir más de lo que pagaste | 🟣 montaje | ✅ 2026-11-12 | — | — |
+| 49 | [049-npv](episodios/2019/049-npv) | Valor actual neto: lo que valen hoy los ingresos futuros | 🟣 montaje | ✅ 2026-11-12 | — | — |
+| 50 | [050-externalities](episodios/2019/050-externalities) | Externalidades: calcular los costes ocultos de los productos | 🟣 montaje | ✅ 2026-11-12 | — | — |
+| 51 | [051-angel-1](episodios/2019/051-angel-1) | Cómo invertir como ángel, parte 1 | 🟣 montaje | ✅ 2026-11-12 | — | — |
 | 52 | [052-rich](episodios/2019/052-rich) | Cómo hacerse rico | 🔵 generando TTS | — | — | — |
