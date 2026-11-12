@@ -171,7 +171,7 @@ Opcionales: el LoRA de la voz de Kapil y `05_lora_omnivoice`. Al final: reorgani
    en Drive si ha aparecido alguno** (`datasets/<voz>/metadata.jsonl`) y, si está, proponerle al autor sin que lo
    pida las celdas de ese paso. Por voz:
    1. 01 en T4, ~60 min. Hecho: ☑ ridley (12-nov: 400/400, 47 min de audio, 49 min de GPU) ☐ vitalik ☐ qureshi ☐ hodak ☐ rauch ☐ scholl
-   2. 03 en T4, ~40 min (medido: 36–38 min de medida por voz). Hecho: ☐ ridley ☐ vitalik ☐ qureshi ☐ hodak ☐ rauch ☐ scholl
+   2. 03 en T4, ~40 min (medido: 36–38 min de medida por voz). Hecho: ☑ ridley (12-nov: 368/400 pasan, 258 elegidos = 30,1 min, ~37 min) ☐ vitalik ☐ qureshi ☐ hodak ☐ rauch ☐ scholl
    3. 04 en L4. Hecho: ☐ ridley ☐ vitalik ☐ qureshi ☐ hodak ☐ rauch ☐ scholl
    4. Escucha a ciegas del autor. Hecha: ☐ ridley ☐ vitalik ☐ qureshi ☐ hodak ☐ rauch ☐ scholl
    5. Paso elegido en `fabrica/voces.json`. Hecho: ☐ ridley ☐ vitalik ☐ qureshi ☐ hodak ☐ rauch ☐ scholl
