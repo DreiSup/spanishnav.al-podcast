@@ -386,7 +386,7 @@ entrenados y los audios ya generados no se repiten.
     code("""
 # 1. Instalación (después: Entorno de ejecución → Reiniciar sesión)
 # El aviso rojo "pip's dependency resolver..." es normal.
-!pip install -q qwen-tts==0.1.1 peft==0.17.1
+!pip install -q qwen-tts==0.1.1 peft==0.17.1 pyloudnorm==0.2.0
 """),
     code("""
 # 2. Parámetros
@@ -408,6 +408,10 @@ else:
     GUARDAR_CADA = 40    # pasos de optimizador entre checkpoints
 if VARIANTE == "qureshi":
     GUARDAR_CADA = 20    # solo 16 min de inglés (12-nov): menos pasos y más riesgo de memorizar, más puntos donde elegir
+# Sonoridad a la que se nivela el español sintético antes de entrenar, la del inglés del dataset. Chatterbox copia el
+# volumen de la referencia: hodak y scholl salieron ~10 dB por debajo de vitalik (13-nov). None = sin nivelar, como se
+# entrenaron naval, nivi, brett, deutsch y ridley.
+NIVEL_ES = -20.0 if VARIANTE in ("vitalik", "qureshi", "hodak", "rauch", "scholl") else None
 """),
     code(f"""
 # 3. Preparar: código del repo, Drive y los ejemplos
@@ -440,7 +444,7 @@ def ingles(split):
             for f in lora_qwen.leer_jsonl(DATOS / "metadata.jsonl") if f["split"] == split]
 
 espanol = [{{"audio": str(D / s["audio"]), "texto": s["texto"], "idioma": "es", "segundos": s["segundos"],
-            "grupo_ref": "es"}}
+            "grupo_ref": "es", "lufs": NIVEL_ES}}
            for s in lora_qwen.leer_jsonl(rutas.sintetico(D, VOZ_ES) / "seleccion.jsonl")
            if s["variante"] == "chatterbox_v2"]
 random.Random(SEMILLA).shuffle(espanol)
@@ -504,7 +508,7 @@ comun.guardar_entorno(VARIANTE, ["qwen-tts", "peft", "torch", "transformers", "a
     "variante": VARIANTE, "dataset": DATASET, "partir_de": PARTIR_DE if VARIANTE == "kapil" else None,
     "epocas": EPOCAS, "lr": LR, "lora_r": LORA_R, "lora_alpha": LORA_ALPHA,
     "acumulacion": ACUMULACION, "guardar_cada": GUARDAR_CADA, "semilla": SEMILLA,
-    "modelo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base", "peso_sub": lora_qwen.PESO_SUB,
+    "modelo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base", "peso_sub": lora_qwen.PESO_SUB, "nivel_es": NIVEL_ES,
     "ejemplos": [{k: e[k] for k in ("audio", "idioma", "ref", "segundos")} for e in TODOS]},
     ensure_ascii=False, indent=1), encoding="utf-8")
 

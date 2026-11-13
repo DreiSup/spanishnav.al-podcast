@@ -81,28 +81,55 @@ def mezcla_por_epoca(ingles, espanol, frac_es, epocas, semilla):
     return orden
 
 
-def audio_24k(ruta):
+def nivelar(a, sr, lufs):
+    """Ganancia lineal hasta `lufs` de sonoridad integrada (ITU-R BS.1770, pyloudnorm), con el pico limitado a 0,99.
+    Devuelve (audio, lufs medidos antes). El español sintético sale de Chatterbox al volumen de la referencia
+    (hodak y scholl ~10 dB por debajo de vitalik, 13-nov) y el inglés del dataset está a -20 LUFS: sin igualar,
+    el LoRA aprendería que esa voz habla más bajo en español."""
+    import pyloudnorm as pyln
+    medido = float(pyln.Meter(sr).integrated_loudness(a.astype(np.float64)))
+    if not np.isfinite(medido):
+        return a, medido
+    a = a * np.float32(10 ** ((lufs - medido) / 20))
+    pico = float(np.abs(a).max())
+    if pico > 0.99:
+        a = a * np.float32(0.99 / pico)
+    return a.astype(np.float32), medido
+
+
+def clave(ruta, lufs):
+    """Clave de caché: el mismo clip nivelado y sin nivelar da códigos distintos."""
+    return ruta if lufs is None else f"{ruta}@{lufs:g}LUFS"
+
+
+def audio_24k(ruta, lufs=None):
     a, _ = librosa.load(str(ruta), sr=24000, mono=True)
+    if lufs is not None:
+        a, _ = nivelar(a, 24000, lufs)
     return a.astype(np.float32)
 
 
-def xvector(hf, ruta):
+def xvector(hf, ruta, lufs=None):
     """El x-vector que usaría generate_voice_clone con esa referencia (24 kHz, mismos mels)."""
     from qwen_tts.core.models.modeling_qwen3_tts import mel_spectrogram
-    mels = mel_spectrogram(torch.from_numpy(audio_24k(ruta)).unsqueeze(0), n_fft=1024, num_mels=128,
+    mels = mel_spectrogram(torch.from_numpy(audio_24k(ruta, lufs)).unsqueeze(0), n_fft=1024, num_mels=128,
                            sampling_rate=24000, hop_size=256, win_size=1024, fmin=0, fmax=12000).transpose(1, 2)
     with torch.no_grad():
         e = hf.speaker_encoder(mels.to(hf.device).to(hf.dtype))[0]
     return e.float().cpu().clone()
 
 
-def codificar(hf, ruta):
-    """Códigos 12 Hz × 16 grupos del clip, a su frecuencia original (el tokenizador remuestrea)."""
+def codificar(hf, ruta, lufs=None):
+    """Códigos 12 Hz × 16 grupos del clip, a su frecuencia original (el tokenizador remuestrea).
+    Con `lufs`, el clip se nivela antes (ver nivelar). Devuelve (códigos, lufs medidos o None)."""
     a, sr = sf.read(str(ruta), dtype="float32")
     if a.ndim > 1:
         a = a.mean(axis=1)
+    medido = None
+    if lufs is not None:
+        a, medido = nivelar(a, sr, lufs)
     with torch.no_grad():
-        return hf.speech_tokenizer.encode(a, sr=sr).audio_codes[0].cpu().long()
+        return hf.speech_tokenizer.encode(a, sr=sr).audio_codes[0].cpu().long(), medido
 
 
 def tokenizar(processor, texto):
@@ -112,24 +139,38 @@ def tokenizar(processor, texto):
 
 def preparar(hf, processor, ejemplos, cache, avisar=print):
     """Calcula códigos, x-vectors y tokens de texto una sola vez y los guarda en `cache` (un .pt en Drive).
-    Si se corta, lo ya calculado no se repite."""
+    Si se corta, lo ya calculado no se repite.
+
+    Un ejemplo con "lufs" (número) se nivela a esa sonoridad antes de codificarlo, y su clip, cuando hace de
+    referencia de otro ejemplo, también antes de sacar el x-vector. Sin "lufs", como siempre."""
     hecho = torch.load(cache, weights_only=False) if cache.exists() else {"codigos": {}, "xvec": {}}
-    pendientes = [e for e in ejemplos if e["audio"] not in hecho["codigos"]]
+    hecho.setdefault("lufs", {})
+    lufs_de = {e["audio"]: e.get("lufs") for e in ejemplos}
+    pendientes = [e for e in ejemplos if clave(e["audio"], e.get("lufs")) not in hecho["codigos"]]
     for n, e in enumerate(pendientes, 1):
-        hecho["codigos"][e["audio"]] = codificar(hf, e["audio"])
+        k = clave(e["audio"], e.get("lufs"))
+        hecho["codigos"][k], medido = codificar(hf, e["audio"], e.get("lufs"))
+        if medido is not None:
+            hecho["lufs"][e["audio"]] = medido
         if n % 50 == 0 or n == len(pendientes):
             torch.save(hecho, cache)
             avisar(f"  códigos: {n}/{len(pendientes)}")
-    refs = sorted({e["ref"] for e in ejemplos} - set(hecho["xvec"]))
-    for r in refs:
-        hecho["xvec"][r] = xvector(hf, r)
+    refs = sorted({clave(e["ref"], lufs_de.get(e["ref"])) for e in ejemplos} - set(hecho["xvec"]))
+    for k in refs:
+        r = k.rsplit("@", 1)[0] if k.endswith("LUFS") else k
+        hecho["xvec"][k] = xvector(hf, r, lufs_de.get(r))
     if refs:
         torch.save(hecho, cache)
         avisar(f"  x-vectors: {len(refs)}")
     for e in ejemplos:
-        e["codigos"] = hecho["codigos"][e["audio"]]
-        e["spk"] = hecho["xvec"][e["ref"]]
+        e["codigos"] = hecho["codigos"][clave(e["audio"], e.get("lufs"))]
+        e["spk"] = hecho["xvec"][clave(e["ref"], lufs_de.get(e["ref"]))]
         e["text_ids"] = tokenizar(processor, e["texto"])
+    medidos = [hecho["lufs"][e["audio"]] for e in ejemplos if e.get("lufs") is not None and e["audio"] in hecho["lufs"]]
+    if medidos:
+        objetivo = next(e["lufs"] for e in ejemplos if e.get("lufs") is not None)
+        avisar(f"  nivelados a {objetivo:g} LUFS: {len(medidos)} clips; antes, mediana {np.median(medidos):.1f} LUFS "
+               f"(de {min(medidos):.1f} a {max(medidos):.1f})")
     return ejemplos
 
 
