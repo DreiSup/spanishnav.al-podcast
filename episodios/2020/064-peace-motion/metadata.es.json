@@ -5,7 +5,7 @@
   "anio": 2020,
   "slug": "peace-motion",
   "titulo_es": "La felicidad es paz en movimiento",
-  "estado": "tts",
+  "estado": "montaje",
   "youtube": {
     "titulo": "La felicidad es paz en movimiento",
     "descripcion": "",
@@ -23,10 +23,10 @@
   "audio_editado_a_mano": false,
   "heredado": null,
   "escucha": {
-    "escuchado": false,
-    "resultado": null,
-    "fecha": null,
-    "feedback": ""
+    "escuchado": true,
+    "resultado": "bueno",
+    "fecha": "2026-11-14",
+    "feedback": "2026-11-14: bueno. Escuchado por el autor (14-nov): bueno para subir"
   },
   "notas": "Inglés sacado del Google Doc «2020 all podcasts»; cuadra palabra a palabra. «peace from mind» se traduce como «paz frente a la mente» (opción C, decisión del autor el 4-nov; b02). La frase «Peace is happiness at rest; happiness is peace in motion» y el dicho sij «The name of God is truth» van en estilo indirecto o sin comillas. «So the question becomes: How do you get to peace?» va como pregunta indirecta. Antes de sintetizar: comprobar cómo lee el TTS «sij»."
 }

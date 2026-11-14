@@ -5,7 +5,7 @@
   "anio": 2020,
   "slug": "least",
   "titulo_es": "Trabaja lo menos posible para conseguirlo",
-  "estado": "tts",
+  "estado": "montaje",
   "youtube": {
     "titulo": "Trabaja lo menos posible para conseguirlo",
     "descripcion": "",
@@ -23,10 +23,10 @@
   "audio_editado_a_mano": false,
   "heredado": null,
   "escucha": {
-    "escuchado": false,
-    "resultado": null,
-    "fecha": null,
-    "feedback": ""
+    "escuchado": true,
+    "resultado": "bueno",
+    "fecha": "2026-11-14",
+    "feedback": "2026-11-14: bueno. Escuchado por el autor (14-nov): bueno para subir"
   },
   "notas": "Inglés sacado del Google Doc «2020 all podcasts»; cuadra palabra a palabra. «S-1s» se traduce como «folletos de salida a bolsa»: la sigla con guion y cifra la vocalizaría mal el TTS. La pregunta «Would you rather be the best in the world…?» va como pregunta indirecta, tras «Pregúntate si…». Antes de sintetizar: comprobar cómo lee el TTS «Warren Buffett»."
 }

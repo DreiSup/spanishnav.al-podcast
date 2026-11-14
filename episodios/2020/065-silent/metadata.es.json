@@ -5,7 +5,7 @@
   "anio": 2020,
   "slug": "silent",
   "titulo_es": "Cuanto más cerca estás de la verdad, más silencioso te vuelves por dentro",
-  "estado": "tts",
+  "estado": "montaje",
   "youtube": {
     "titulo": "Cuanto más cerca estás de la verdad, más silencioso te vuelves por dentro",
     "descripcion": "",
@@ -23,10 +23,10 @@
   "audio_editado_a_mano": false,
   "heredado": null,
   "escucha": {
-    "escuchado": false,
-    "resultado": null,
-    "fecha": null,
-    "feedback": ""
+    "escuchado": true,
+    "resultado": "bueno",
+    "fecha": "2026-11-14",
+    "feedback": "2026-11-14: bueno. Escuchado por el autor (14-nov): bueno para subir"
   },
   "notas": "Inglés sacado del Google Doc «2020 all podcasts»; cuadra palabra a palabra. El tuit de Naval, la cita de Kapil Gupta y las réplicas de b02 van en estilo indirecto. Lao Tzu va como «Lao Tse», la forma asentada en español; «IQ test» como «test de inteligencia»; «If A, then B. That doesn’t mean, If B, then A» como «si pasa A, entonces pasa B, y eso no significa que si pasa B, entonces pasa A» (decisión del autor, 4-nov). Antes de sintetizar: comprobar que el TTS lee bien la «A» suelta y que Whisper la reconoce; si no, la alternativa del autor es «si pasa uno, entonces pasa dos». Antes de sintetizar: comprobar cómo lee el TTS «Robin Williams» y «Bill Gates»."
 }

@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**162** episodios · **7** publicados · **51** escuchados por el autor (**0** para revisar) · **0** sin empezar
+**162** episodios · **7** publicados · **65** escuchados por el autor (**0** para revisar) · **0** sin empezar
 
 ## 2026
 
@@ -129,20 +129,20 @@
 
 | # | Episodio | Título en español | Estado | Escuchado | Drive | YouTube |
 |---|---|---|---|---|---|---|
-| 53 | [053-philosopher](episodios/2020/053-philosopher) | Vive lo suficiente y te convertirás en filósofo | 🔵 generando TTS | — | — | — |
-| 54 | [054-material](episodios/2020/054-material) | La felicidad sin comodidad material es jugar en modo difícil | 🔵 generando TTS | — | — | — |
-| 55 | [055-math](episodios/2020/055-math) | La felicidad no es ciencia ni matemáticas | 🔵 generando TTS | — | — | — |
-| 56 | [056-skill](episodios/2020/056-skill) | La felicidad es una habilidad que puedes desarrollar | 🔵 generando TTS | — | — | — |
-| 57 | [057-desire](episodios/2020/057-desire) | El deseo es un contrato que firmas para ser infeliz | 🔵 generando TTS | — | — | — |
-| 58 | [058-smart](episodios/2020/058-smart) | Si eres tan listo, ¿por qué no eres feliz? | 🔵 generando TTS | — | — | — |
-| 59 | [059-inefficient](episodios/2020/059-inefficient) | Ser infeliz es tremendamente ineficiente | 🔵 generando TTS | — | — | — |
-| 60 | [060-least](episodios/2020/060-least) | Trabaja lo menos posible para conseguirlo | 🔵 generando TTS | — | — | — |
-| 61 | [061-addiction](episodios/2020/061-addiction) | La lucha moderna es plantar cara a las adicciones convertidas en armas | 🔵 generando TTS | — | — | — |
-| 62 | [062-unacceptable](episodios/2020/062-unacceptable) | Romper con una adicción está mal visto socialmente | 🔵 generando TTS | — | — | — |
-| 63 | [063-peace](episodios/2020/063-peace) | Encontrar la paz frente a la mente | 🔵 generando TTS | — | — | — |
-| 64 | [064-peace-motion](episodios/2020/064-peace-motion) | La felicidad es paz en movimiento | 🔵 generando TTS | — | — | — |
-| 65 | [065-silent](episodios/2020/065-silent) | Cuanto más cerca estás de la verdad, más silencioso te vuelves por dentro | 🔵 generando TTS | — | — | — |
-| 66 | [066-consensus](episodios/2020/066-consensus) | Los grupos buscan el consenso, los individuos buscan la verdad | 🔵 generando TTS | — | — | — |
+| 53 | [053-philosopher](episodios/2020/053-philosopher) | Vive lo suficiente y te convertirás en filósofo | 🟣 montaje | ✅ 2026-11-14 | — | — |
+| 54 | [054-material](episodios/2020/054-material) | La felicidad sin comodidad material es jugar en modo difícil | 🟣 montaje | ✅ 2026-11-14 | — | — |
+| 55 | [055-math](episodios/2020/055-math) | La felicidad no es ciencia ni matemáticas | 🟣 montaje | ✅ 2026-11-14 | — | — |
+| 56 | [056-skill](episodios/2020/056-skill) | La felicidad es una habilidad que puedes desarrollar | 🟣 montaje | ✅ 2026-11-14 | — | — |
+| 57 | [057-desire](episodios/2020/057-desire) | El deseo es un contrato que firmas para ser infeliz | 🟣 montaje | ✅ 2026-11-14 | — | — |
+| 58 | [058-smart](episodios/2020/058-smart) | Si eres tan listo, ¿por qué no eres feliz? | 🟣 montaje | ✅ 2026-11-14 | — | — |
+| 59 | [059-inefficient](episodios/2020/059-inefficient) | Ser infeliz es tremendamente ineficiente | 🟣 montaje | ✅ 2026-11-14 | — | — |
+| 60 | [060-least](episodios/2020/060-least) | Trabaja lo menos posible para conseguirlo | 🟣 montaje | ✅ 2026-11-14 | — | — |
+| 61 | [061-addiction](episodios/2020/061-addiction) | La lucha moderna es plantar cara a las adicciones convertidas en armas | 🟣 montaje | ✅ 2026-11-14 | — | — |
+| 62 | [062-unacceptable](episodios/2020/062-unacceptable) | Romper con una adicción está mal visto socialmente | 🟣 montaje | ✅ 2026-11-14 | — | — |
+| 63 | [063-peace](episodios/2020/063-peace) | Encontrar la paz frente a la mente | 🟣 montaje | ✅ 2026-11-14 | — | — |
+| 64 | [064-peace-motion](episodios/2020/064-peace-motion) | La felicidad es paz en movimiento | 🟣 montaje | ✅ 2026-11-14 | — | — |
+| 65 | [065-silent](episodios/2020/065-silent) | Cuanto más cerca estás de la verdad, más silencioso te vuelves por dentro | 🟣 montaje | ✅ 2026-11-14 | — | — |
+| 66 | [066-consensus](episodios/2020/066-consensus) | Los grupos buscan el consenso, los individuos buscan la verdad | 🟣 montaje | ✅ 2026-11-14 | — | — |
 | 67 | [067-truth](episodios/2020/067-truth) | El camino hacia la paz es la verdad | 🔵 generando TTS | — | — | — |
 | 68 | [068-kapil](episodios/2020/068-kapil) | Kapil Gupta: Conquistando la mente | 🔵 generando TTS | — | — | — |
 | 69 | [069-angel-2](episodios/2020/069-angel-2) | Cómo invertir como ángel, parte 2 | 🔵 generando TTS | — | — | — |

@@ -5,7 +5,7 @@
   "anio": 2020,
   "slug": "unacceptable",
   "titulo_es": "Romper con una adicción está mal visto socialmente",
-  "estado": "tts",
+  "estado": "montaje",
   "youtube": {
     "titulo": "Romper con una adicción está mal visto socialmente",
     "descripcion": "",
@@ -23,10 +23,10 @@
   "audio_editado_a_mano": false,
   "heredado": null,
   "escucha": {
-    "escuchado": false,
-    "resultado": null,
-    "fecha": null,
-    "feedback": ""
+    "escuchado": true,
+    "resultado": "bueno",
+    "fecha": "2026-11-14",
+    "feedback": "2026-11-14: bueno. Escuchado por el autor (14-nov): bueno para subir"
   },
   "notas": "Inglés sacado del Google Doc «2020 all podcasts»; cuadra palabra a palabra."
 }

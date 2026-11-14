@@ -5,7 +5,7 @@
   "anio": 2020,
   "slug": "consensus",
   "titulo_es": "Los grupos buscan el consenso, los individuos buscan la verdad",
-  "estado": "tts",
+  "estado": "montaje",
   "youtube": {
     "titulo": "Los grupos buscan el consenso, los individuos buscan la verdad",
     "descripcion": "",
@@ -23,10 +23,10 @@
   "audio_editado_a_mano": false,
   "heredado": null,
   "escucha": {
-    "escuchado": false,
-    "resultado": null,
-    "fecha": null,
-    "feedback": ""
+    "escuchado": true,
+    "resultado": "bueno",
+    "fecha": "2026-11-14",
+    "feedback": "2026-11-14: bueno. Escuchado por el autor (14-nov): bueno para subir"
   },
   "notas": "Inglés sacado del Google Doc «2020 all podcasts»; cuadra palabra a palabra. La cita «Money won’t make you happy» va como «que el dinero no da la felicidad», sin comillas. «unschooling» se traduce como «desescolarización»."
 }

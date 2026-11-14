@@ -5,7 +5,7 @@
   "anio": 2020,
   "slug": "philosopher",
   "titulo_es": "Vive lo suficiente y te convertirás en filósofo",
-  "estado": "tts",
+  "estado": "montaje",
   "youtube": {
     "titulo": "Vive lo suficiente y te convertirás en filósofo",
     "descripcion": "",
@@ -23,10 +23,10 @@
   "audio_editado_a_mano": false,
   "heredado": null,
   "escucha": {
-    "escuchado": false,
-    "resultado": null,
-    "fecha": null,
-    "feedback": ""
+    "escuchado": true,
+    "resultado": "bueno",
+    "fecha": "2026-11-14",
+    "feedback": "2026-11-14: bueno. Escuchado por el autor (14-nov): bueno para subir"
   },
   "notas": "Inglés sacado del Google Doc «2020 all podcasts» de Drive; cuadra palabra a palabra con el documento. Nivi interviene una sola vez (b04): es así en el original. b02 queda con ratio es/en 0,84 porque las cuatro preguntas «How do I…?» se comprimen en «¿Cómo…?»; no falta contenido."
 }
