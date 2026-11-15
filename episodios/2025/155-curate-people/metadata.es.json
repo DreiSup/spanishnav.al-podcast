@@ -5,7 +5,7 @@
   "anio": 2025,
   "slug": "curate-people",
   "titulo_es": "Elige bien a la gente",
-  "estado": "revision",
+  "estado": "tts",
   "youtube": {
     "titulo": "Elige bien a la gente",
     "descripcion": "",
@@ -16,7 +16,7 @@
   "drive": {
     "carpeta_id": "",
     "tts_id": "",
-    "audio_final_id": "",
+    "audio_final_id": "1kMhQakRxM5WqLZ4Mo135WNJ3nVe5mRq3",
     "video_id": "",
     "proyecto_id": ""
   },

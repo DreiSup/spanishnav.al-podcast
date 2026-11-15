@@ -5,7 +5,7 @@
   "anio": 2025,
   "slug": "in-the-arena",
   "titulo_es": "En la arena",
-  "estado": "revision",
+  "estado": "tts",
   "youtube": {
     "titulo": "En la arena",
     "descripcion": "",
@@ -16,7 +16,7 @@
   "drive": {
     "carpeta_id": "",
     "tts_id": "",
-    "audio_final_id": "",
+    "audio_final_id": "1U31PkPzjgLeMXZgV9DZMK5b7_fmmwKv1",
     "video_id": "",
     "proyecto_id": ""
   },

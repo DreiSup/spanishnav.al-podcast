@@ -8,10 +8,10 @@
 
 | # | Episodio | Título en español | Estado | Escuchado | Drive | YouTube |
 |---|---|---|---|---|---|---|
-| 156 | [156-ai](episodios/2026/156-ai) | Una moto para la mente | 🟠 en revisión | — | — | — |
-| 157 | [157-code](episodios/2026/157-code) | La vuelta al código | 🟠 en revisión | — | — | — |
-| 158 | [158-over](episodios/2026/158-over) | Se acabó lo de que nunca pasa nada | 🟠 en revisión | — | — | — |
-| 159 | [159-sell](episodios/2026/159-sell) | Vende la verdad | 🟠 en revisión | — | — | — |
+| 156 | [156-ai](episodios/2026/156-ai) | Una moto para la mente | 🔵 generando TTS | — | — | — |
+| 157 | [157-code](episodios/2026/157-code) | La vuelta al código | 🔵 generando TTS | — | — | — |
+| 158 | [158-over](episodios/2026/158-over) | Se acabó lo de que nunca pasa nada | 🔵 generando TTS | — | — | — |
+| 159 | [159-sell](episodios/2026/159-sell) | Vende la verdad | 🔵 generando TTS | — | — | — |
 | 160 | [160-industrial](episodios/2026/160-industrial) | La revolución industrial de la IA | 🟠 en revisión | — | — | — |
 | — | [extra-hardware](episodios/2026/extra-hardware) | Vibe coding para hardware | 🟠 en revisión | — | — | — |
 | — | [extra-regulatory](episodios/2026/extra-regulatory) | La frontera regulatoria | 🟠 en revisión | — | — | — |
@@ -35,8 +35,8 @@
 | 151 | [151-get](episodios/2025/151-get) | La mayoría de los libros hay que hojearlos, y unos pocos devorarlos | 🟠 en revisión | — | — | — |
 | 152 | [152-good-products](episodios/2025/152-good-products) | Los buenos productos son difíciles de variar | 🟠 en revisión | — | — | — |
 | 153 | [153-simplest](episodios/2025/153-simplest) | Busca lo más sencillo que funcione | 🟠 en revisión | — | — | — |
-| 154 | [154-in-the-arena](episodios/2025/154-in-the-arena) | En la arena | 🟠 en revisión | — | — | — |
-| 155 | [155-curate-people](episodios/2025/155-curate-people) | Elige bien a la gente | 🟠 en revisión | — | — | — |
+| 154 | [154-in-the-arena](episodios/2025/154-in-the-arena) | En la arena | 🔵 generando TTS | — | — | — |
+| 155 | [155-curate-people](episodios/2025/155-curate-people) | Elige bien a la gente | 🔵 generando TTS | — | — | — |
 
 ## 2024
 
