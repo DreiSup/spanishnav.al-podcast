@@ -394,6 +394,9 @@ VARIANTE = "B"       # Naval: "B" (60 % inglés + 40 % español) o "A" (solo esp
                      # · "nivi", "brett", "deutsch", "ridley", "vitalik", "qureshi", "hodak", "rauch" o
                      #   "scholl": la voz de ese hablante (su dataset y su español sintético, 01 y 03)
 PARTIR_DE = "B/paso_0158"   # solo para "kapil": el checkpoint de Naval que elegiste al escuchar
+FRAC_ES = 0.4        # parte del español sintético en los minutos de cada época. Menos español = conserva más acento
+                     # inglés del hablante (15-nov: Ridley al 40 % sonaba demasiado castellano). 0 = solo su inglés.
+SUFIJO = ""          # para no pisar un entrenamiento anterior de la misma voz, p. ej. "_es20": va a lora_qwen/ridley_es20/
 
 LR = 2e-6            # el de Alexandria para unos cientos de ejemplos; más alto farfulla
 LORA_R, LORA_ALPHA = 64, 128   # en "kapil" tienen que ser los mismos que en el LoRA de partida
@@ -432,7 +435,7 @@ VOZ = {{"B": "naval", "A": "naval", "kapil": "naval_kapil"}}.get(VARIANTE, VARIA
 DATASET = VOZ
 VOZ_ES = "naval" if VOZ in ("naval", "naval_kapil") else VOZ
 DATOS = rutas.dataset(D, DATASET)
-SALIDA = rutas.lora(D, VARIANTE)
+SALIDA = rutas.lora(D, VARIANTE + SUFIJO)
 for necesario, falta in [(DATOS / "metadata.jsonl", "el dataset de la sesión local"),
                          (rutas.sintetico(D, VOZ_ES) / "seleccion.jsonl", "los cuadernos 01 y 03 con esta voz")]:
     if not necesario.is_file():
@@ -464,7 +467,7 @@ if VARIANTE == "kapil":
 if faltan:
     raise SystemExit(f"Faltan {{len(faltan)}} ficheros en Drive, por ejemplo {{faltan[0]}}. No sigas.")
 lora_qwen.asignar_referencias(TODOS, SEMILLA)
-ORDEN = lora_qwen.mezcla_por_epoca(en_train, es_train, 0.4 if VARIANTE != "A" else 1.0, EPOCAS, SEMILLA)
+ORDEN = lora_qwen.mezcla_por_epoca(en_train, es_train, FRAC_ES if VARIANTE != "A" else 1.0, EPOCAS, SEMILLA)
 EVAL = en_eval + es_eval
 
 m = lambda xs: sum(e["segundos"] for e in xs) / 60
@@ -503,12 +506,13 @@ print(f"Listo: {len(TODOS)} clips; el más largo tiene {largo} frames ({largo / 
 from peft import LoraConfig, get_peft_model, set_peft_model_state_dict
 from safetensors.torch import load_file
 comun.SALIDA = D / "piloto" / "lora_qwen"
-comun.guardar_entorno(VARIANTE, ["qwen-tts", "peft", "torch", "transformers", "accelerate"])
+comun.guardar_entorno(VARIANTE + SUFIJO, ["qwen-tts", "peft", "torch", "transformers", "accelerate"])
 (SALIDA / "parametros.json").write_text(json.dumps({
     "variante": VARIANTE, "dataset": DATASET, "partir_de": PARTIR_DE if VARIANTE == "kapil" else None,
     "epocas": EPOCAS, "lr": LR, "lora_r": LORA_R, "lora_alpha": LORA_ALPHA,
     "acumulacion": ACUMULACION, "guardar_cada": GUARDAR_CADA, "semilla": SEMILLA,
     "modelo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base", "peso_sub": lora_qwen.PESO_SUB, "nivel_es": NIVEL_ES,
+    "frac_es": FRAC_ES if VARIANTE != "A" else 1.0, "sufijo": SUFIJO,
     "ejemplos": [{k: e[k] for k in ("audio", "idioma", "ref", "segundos")} for e in TODOS]},
     ensure_ascii=False, indent=1), encoding="utf-8")
 
@@ -571,7 +575,7 @@ for v in VERSIONES:
         comun.generar(v, sintetizar, ITEMS, REFS, silencio_ms, params={**PARAMS, "adaptador": v})
 
 import escucha
-escucha.construir_pagina(FRASES_PRUEBA, VERSIONES, nombre=f"lora_qwen_{VARIANTE}")
+escucha.construir_pagina(FRASES_PRUEBA, VERSIONES, nombre=f"lora_qwen_{VARIANTE}{SUFIJO}")
 """),
     code("""
 # 7. Subir a Drive y desconectar

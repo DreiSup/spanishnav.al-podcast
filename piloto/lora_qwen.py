@@ -72,6 +72,8 @@ def mezcla_por_epoca(ingles, espanol, frac_es, epocas, semilla):
     for _ in range(epocas):
         if frac_es >= 1 or not ingles:
             epoca = espanol[:]
+        elif frac_es <= 0 or not espanol:
+            epoca = ingles[:]
         elif seg_es * (1 - frac_es) / frac_es <= seg_en:
             epoca = _sortear(ingles, seg_es * (1 - frac_es) / frac_es, rng) + espanol
         else:
