@@ -175,8 +175,8 @@ Opcionales: el LoRA de la voz de Kapil y `05_lora_omnivoice`. Al final: reorgani
    3. 04 en L4. Hecho: ☑ ridley (12-nov: 123 pasos en 8 min, prueba 15 min; eval es 2,676 → 2,459, en 2,908 → 2,711) ☑ vitalik (15-nov: 138 pasos; eval es 3,181 → 2,855, en 3,050 → 2,841) ☐ qureshi ☑ hodak (15-nov: 141 pasos, español nivelado a -20 LUFS; eval es 3,122 → 2,874, en 3,006 → 2,881) ☐ rauch ☐ scholl
    4. Escucha a ciegas del autor. Hecha: ☑ ridley (15-nov: paso 120; algo castellano, aceptado) ☑ vitalik (15-nov: paso 120) ☐ qureshi ☑ hodak (15-nov: paso 120) ☐ rauch ☐ scholl
    5. Paso elegido en `fabrica/voces.json`. Hecho: ☑ ridley (paso_0120) ☑ vitalik (paso_0120) ☐ qureshi ☑ hodak (paso_0120) ☐ rauch ☐ scholl
-   6. Regenerar sus clips en la fábrica: ☑ 070, 071 (ridley, regenerados el 15-nov con paso_0120; **el 070 tiene un arreglo sintético: preguntar al
-      autor qué clip/minuto antes de regenerar**) ☐ 131, 132 (vitalik, qureshi) ☐ 160 y extras (hodak, rauch,
+   6. Regenerar sus clips en la fábrica: ☑ 070, 071 (ridley, regenerados el 15-nov con paso_0120; el «arreglo» del 070 era el cambio de texto
+      jefes → gobernantes del 9-nov, rehecho solo por la fábrica) ☐ 131, 132 (vitalik, qureshi) ☐ 160 y extras (hodak, rauch,
       scholl). Si los cortos del 160 ya están montados, volver a montarlos después.
 
    Detalle en `docs/contexto-fabrica.md` («Pendiente: LoRA de los seis invitados»). Marcar aquí cada paso.
