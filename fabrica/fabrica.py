@@ -67,6 +67,8 @@ def plan_episodio(transcript, cfg):
         frases = [f.strip() for f in b["frases"] if f.strip()]
         plan.append({"n": n, "bloque": b["id"], "speaker": b["speaker"], "voz": voz,
                      "fichero": f"{n:03d}{nombre}.wav", "frases": frases})
+        if cfg["voces"][voz].get("nivelar"):
+            plan[-1]["nivelar"] = True   # en el master, esta voz se iguala en volumen a las demás (montar_master)
     return plan
 
 
@@ -786,6 +788,51 @@ def escribir_indice(plan, hechos, inicios, destino):
     Path(destino).write_text("\n".join(lineas) + "\n", encoding="utf-8")
 
 
+def _lufs(audio, sr):
+    """Sonoridad integrada (LUFS) con el loudnorm de ffmpeg; None si el audio es silencio."""
+    import subprocess
+    import tempfile
+    with tempfile.TemporaryDirectory() as tmp:
+        wav = Path(tmp) / "voz.wav"
+        sf.write(str(wav), audio, sr, subtype="PCM_16")
+        err = subprocess.run(["ffmpeg", "-hide_banner", "-nostats", "-i", str(wav), "-af",
+                              "loudnorm=print_format=json", "-f", "null", "-"],
+                             capture_output=True, text=True, check=True).stderr
+    valor = float(json.loads(err[err.rindex("{"):err.rindex("}") + 1])["input_i"])
+    return valor if valor > -70 else None
+
+
+def nivelar_voces(plan, clips, sr, tope_db=15.0):
+    """Iguala el volumen de las voces marcadas con "nivelar" (voces.json) al del resto del episodio.
+
+    Qwen saca algunas voces bastante más bajas que Naval, porque su referencia era baja (Scholl y Hodak, 15-nov: pico
+    ~0,3 frente a ~0,9). El master aplica una sola ganancia a todo el episodio, así que sin esto esas voces se oirían
+    más bajas que su interlocutor. Una ganancia lineal por voz (la misma para todos sus clips, sin comprimir), de como
+    mucho ±`tope_db`; el pico final lo controla el loudnorm del master (que se monta en coma flotante para no recortar).
+    Si el episodio no tiene ninguna voz sin marcar, no hace nada.
+    Devuelve {voz: dB aplicados}."""
+    marcadas = sorted({p["voz"] for p in plan if p.get("nivelar")})
+    resto = [clips[p["fichero"]] for p in plan if not p.get("nivelar")]
+    if not marcadas or not resto:
+        return {}
+    ref = _lufs(np.concatenate(resto), sr)
+    if ref is None:
+        return {}
+    aplicado = {}
+    for v in marcadas:
+        suyos = [p["fichero"] for p in plan if p["voz"] == v]
+        audio = np.concatenate([clips[f] for f in suyos])
+        medido = _lufs(audio, sr)
+        if medido is None:
+            continue
+        db = max(-tope_db, min(tope_db, ref - medido))
+        g = np.float32(10 ** (db / 20))
+        for f in suyos:
+            clips[f] = clips[f] * g
+        aplicado[v] = round(float(db), 1)
+    return aplicado
+
+
 def montar_master(plan, tts_dir, destino, titulo=None, silencio=SILENCIO_ENTRE, ajustes=MASTER):
     """El audio final del episodio: los clips en el orden del transcript (que es el de montaje), con `silencio`
     segundos entre intervenciones, a -16 LUFS y en MP3 mono. Devuelve {fichero: segundo en que empieza en el master}
@@ -796,12 +843,16 @@ def montar_master(plan, tts_dir, destino, titulo=None, silencio=SILENCIO_ENTRE, 
     """
     import subprocess
     import tempfile
-    trozos, inicios, cursor, sr = [], {}, 0.0, None
-    for n, p in enumerate(plan):
+    trozos, inicios, cursor, sr, clips = [], {}, 0.0, None, {}
+    for p in plan:
         audio, sr_clip = sf.read(str(Path(tts_dir) / p["fichero"]), dtype="float32")
-        if audio.ndim > 1:
-            audio = audio.mean(axis=1)
+        clips[p["fichero"]] = audio.mean(axis=1) if audio.ndim > 1 else audio
         sr = sr or sr_clip
+    nivel = nivelar_voces(plan, clips, sr)
+    if nivel:
+        print("  volumen igualado al resto del episodio: " + ", ".join(f"{v} {d:+.1f} dB" for v, d in nivel.items()))
+    for n, p in enumerate(plan):
+        audio = clips[p["fichero"]]
         if n:
             trozos.append(np.zeros(int(sr * silencio), dtype=np.float32))
             cursor += silencio
@@ -814,7 +865,7 @@ def montar_master(plan, tts_dir, destino, titulo=None, silencio=SILENCIO_ENTRE, 
     norma = f"I={ajustes['lufs']}:TP={ajustes['pico_db']}:LRA=11"
     with tempfile.TemporaryDirectory() as tmp:
         wav = Path(tmp) / "master.wav"
-        sf.write(str(wav), np.concatenate(trozos), sr, subtype="PCM_16")
+        sf.write(str(wav), np.concatenate(trozos), sr, subtype="FLOAT")   # flotante: una voz subida no se recorta aquí
         medida = subprocess.run(["ffmpeg", "-hide_banner", "-nostats", "-i", str(wav), "-af",
                                  f"loudnorm={norma}:print_format=json", "-f", "null", "-"],
                                 capture_output=True, text=True, check=True).stderr
