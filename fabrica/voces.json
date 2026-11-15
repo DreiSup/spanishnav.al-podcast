@@ -84,7 +84,7 @@
     "vitalik": {"ref": "speaker_refs/vitalik/vitalik_ref02.wav", "adaptador": "piloto/lora_qwen/vitalik/paso_0120", "nota": "LoRA paso 120 (40 % de español sintético, nivelado a -20 LUFS), elegido por el autor el 15-nov"},
     "ridley": {"ref": "speaker_refs/ridley/ridley_ref02.wav", "adaptador": "piloto/lora_qwen/ridley/paso_0120", "nota": "LoRA paso 120 (40 % de español sintético), elegido por el autor el 15-nov. Le suena algo castellano; se acepta para no perder tiempo (alternativa preparada: FRAC_ES = 0.2 en el 04)"},
     "hodak": {"ref": "speaker_refs/hodak/hodak_ref02.wav", "adaptador": "piloto/lora_qwen/hodak/paso_0120", "nota": "LoRA paso 120 (40 % de español sintético, nivelado a -20 LUFS), elegido por el autor el 15-nov"},
-    "rauch": {"ref": "speaker_refs/rauch/rauch_ref02.wav", "adaptador": null, "nota": "Invitado menor: sin LoRA"},
+    "rauch": {"ref": "speaker_refs/rauch/rauch_ref02.wav", "adaptador": "piloto/lora_qwen/rauch/paso_0080", "nota": "LoRA paso 80 (40 % de español sintético, nivelado a -20 LUFS), elegido por el autor el 15-nov"},
     "scholl": {"ref": "speaker_refs/scholl/scholl_ref02.wav", "adaptador": null, "nota": "Invitado menor: sin LoRA"},
     "qureshi": {"ref": "speaker_refs/qureshi/qureshi_ref02.wav", "adaptador": null, "nota": "Invitado menor: sin LoRA"}
   }
