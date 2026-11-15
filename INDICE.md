@@ -21,12 +21,12 @@
 
 | # | Episodio | Título en español | Estado | Escuchado | Drive | YouTube |
 |---|---|---|---|---|---|---|
-| 139 | [139-inspiration](episodios/2025/139-inspiration) | Inspiración hasta el fondo | 🟠 en revisión | — | — | — |
+| 139 | [139-inspiration](episodios/2025/139-inspiration) | Inspiración hasta el fondo | 🔵 generando TTS | — | — | — |
 | 140 | [140-arena](episodios/2025/140-arena) | La vida se vive en la arena | 🔵 generando TTS | — | — | — |
 | 141 | [141-do](episodios/2025/141-do) | Si quieres aprender, haz | 🔵 generando TTS | — | — | — |
 | 142 | [142-indirect](episodios/2025/142-indirect) | En la mayoría de las cosas difíciles de la vida, la solución es indirecta | 🔵 generando TTS | — | — | — |
 | 143 | [143-truly](episodios/2025/143-truly) | Cuando de verdad trabajas para ti mismo | 🔵 generando TTS | — | — | — |
-| 144 | [144-find](episodios/2025/144-find) | Encuentra tu conocimiento específico a través de la acción | 🟠 en revisión | — | — | — |
+| 144 | [144-find](episodios/2025/144-find) | Encuentra tu conocimiento específico a través de la acción | 🔵 generando TTS | — | — | — |
 | 145 | [145-enjoy](episodios/2025/145-enjoy) | Tienes que disfrutarlo mucho | 🔵 generando TTS | — | — | — |
 | 147 | [147-reflect](episodios/2025/147-reflect) | Haz una pausa, reflexiona y mira lo bien que ha ido | 🔵 generando TTS | — | — | — |
 | 148 | [148-agency](episodios/2025/148-agency) | Cúlpate de todo y conserva tu capacidad de actuar | 🔵 generando TTS | — | — | — |
