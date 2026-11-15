@@ -86,6 +86,6 @@
     "hodak": {"ref": "speaker_refs/hodak/hodak_ref02.wav", "nivelar": true, "adaptador": "piloto/lora_qwen/hodak/paso_0120", "nota": "LoRA paso 120 (40 % de español sintético, nivelado a -20 LUFS), elegido por el autor el 15-nov"},
     "rauch": {"ref": "speaker_refs/rauch/rauch_ref02.wav", "nivelar": true, "adaptador": "piloto/lora_qwen/rauch/paso_0080", "nota": "LoRA paso 80 (40 % de español sintético, nivelado a -20 LUFS), elegido por el autor el 15-nov"},
     "scholl": {"ref": "speaker_refs/scholl/scholl_ref02.wav", "nivelar": true, "adaptador": null, "nota": "Sin LoRA: en la escucha a ciegas del 15-nov ganó la base (hay LoRA en piloto/lora_qwen/scholl, sin usar; el paso 80 se desbocaba). Sale ~8-10 dB bajo: nivelar en el master"},
-    "qureshi": {"ref": "speaker_refs/qureshi/qureshi_ref02.wav", "nivelar": true, "adaptador": null, "nota": "Invitado menor: sin LoRA"}
+    "qureshi": {"ref": "speaker_refs/qureshi/qureshi_ref02.wav", "nivelar": true, "adaptador": "piloto/lora_qwen/qureshi/paso_0020", "nota": "LoRA paso 20 (solo 16 min de inglés; checkpoints cada 20 pasos), elegido por el autor el 15-nov"}
   }
 }
