@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**162** episodios · **7** publicados · **65** escuchados por el autor (**0** para revisar) · **0** sin empezar
+**162** episodios · **10** publicados · **65** escuchados por el autor (**0** para revisar) · **0** sin empezar
 
 ## 2026
 
@@ -160,9 +160,9 @@
 | 5 | [005-luck-destiny](episodios/2019/005-luck-destiny) | Haz de la suerte tu destino | 🟢 publicado | ✅ 2026-11-05 | — | [▶](https://www.youtube.com/watch?v=7VA_ALae_1o) |
 | 6 | [006-renting-time](episodios/2019/006-renting-time) | No te harás rico alquilando tu tiempo | 🟢 publicado | ✅ 2026-11-05 | — | [▶](https://www.youtube.com/watch?v=cSBkzFw_qNQ) |
 | 7 | [007-salary-freedom](episodios/2019/007-salary-freedom) | Vive por debajo de tus posibilidades para ser libre | 🟢 publicado | ✅ 2026-11-05 | — | [▶](https://www.youtube.com/watch?v=YDUmwD3zA70) |
-| 8 | [008-product-scale](episodios/2019/008-product-scale) | Dale a la sociedad lo que todavía no sabe cómo conseguir | 🟣 montaje | ✅ 2026-11-05 | — | [▶](https://www.youtube.com/watch?v=VjiNDC4Dv3k) |
-| 9 | [009-possible-careers](episodios/2019/009-possible-careers) | Internet ha ampliado enormemente las posibilidades profesionales | 🟣 montaje | ✅ 2026-11-08 | — | [▶](https://www.youtube.com/watch?v=6qUGSeNI8iM) |
-| 10 | [010-long-term](episodios/2019/010-long-term) | Juega a juegos a largo plazo con gente a largo plazo | 🟣 montaje | ✅ 2026-11-05 | — | [▶](https://www.youtube.com/watch?v=mVd7DKYZw9w) |
+| 8 | [008-product-scale](episodios/2019/008-product-scale) | Dale a la sociedad lo que todavía no sabe cómo conseguir | 🟢 publicado | ✅ 2026-11-05 | — | [▶](https://www.youtube.com/watch?v=VjiNDC4Dv3k) |
+| 9 | [009-possible-careers](episodios/2019/009-possible-careers) | Internet ha ampliado enormemente las posibilidades profesionales | 🟢 publicado | ✅ 2026-11-08 | — | [▶](https://www.youtube.com/watch?v=6qUGSeNI8iM) |
+| 10 | [010-long-term](episodios/2019/010-long-term) | Juega a juegos a largo plazo con gente a largo plazo | 🟢 publicado | ✅ 2026-11-05 | — | [▶](https://www.youtube.com/watch?v=mVd7DKYZw9w) |
 | 11 | [011-intelligence-energy-integrity](episodios/2019/011-intelligence-energy-integrity) | Elige socios con inteligencia, energía e integridad | 🟣 montaje | ✅ 2026-11-09 | — | [▶](https://www.youtube.com/watch?v=f5q1N2ZU2PU) |
 | 12 | [012-rational-optimists](episodios/2019/012-rational-optimists) | Asóciate con optimistas racionales | 🟣 montaje | ✅ 2026-11-09 | — | [▶](https://www.youtube.com/watch?v=BCUU5-cEJsY) |
 | 13 | [013-specific-knowledge](episodios/2019/013-specific-knowledge) | Ármate de conocimiento específico | 🟣 montaje | ✅ 2026-11-09 | — | [▶](https://www.youtube.com/watch?v=ugDup0V_Z34) |
