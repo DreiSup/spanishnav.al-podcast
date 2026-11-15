@@ -82,7 +82,7 @@
     "deutsch": {"ref": "speaker_refs/deutsch/deutsch_ref02.wav", "adaptador": "piloto/lora_qwen/deutsch/paso_0120", "pausa_max": 0.20, "nota": "LoRA paso 120, escucha del 2-nov (4,67). El autor quiere que conserve algo de su acento británico. Pausas de 0,20 s (2-nov)"},
     "kapil": {"ref": "speaker_refs/kapil/kapil_ref02.wav", "adaptador": null, "nota": "LoRA opcional: su dataset está en local, sin subir"},
     "vitalik": {"ref": "speaker_refs/vitalik/vitalik_ref02.wav", "adaptador": null, "nota": "Invitado menor: sin LoRA"},
-    "ridley": {"ref": "speaker_refs/ridley/ridley_ref02.wav", "adaptador": null, "nota": "Invitado menor: sin LoRA"},
+    "ridley": {"ref": "speaker_refs/ridley/ridley_ref02.wav", "adaptador": "piloto/lora_qwen/ridley/paso_0120", "nota": "LoRA paso 120 (40 % de español sintético), elegido por el autor el 15-nov. Le suena algo castellano; se acepta para no perder tiempo (alternativa preparada: FRAC_ES = 0.2 en el 04)"},
     "hodak": {"ref": "speaker_refs/hodak/hodak_ref02.wav", "adaptador": null, "nota": "Invitado menor: sin LoRA"},
     "rauch": {"ref": "speaker_refs/rauch/rauch_ref02.wav", "adaptador": null, "nota": "Invitado menor: sin LoRA"},
     "scholl": {"ref": "speaker_refs/scholl/scholl_ref02.wav", "adaptador": null, "nota": "Invitado menor: sin LoRA"},
