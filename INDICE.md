@@ -184,12 +184,12 @@
 | 29 | [029-meetings](episodios/2019/029-meetings) | Estate demasiado ocupado para quedar a tomar café | 🟣 montaje | ✅ 2026-11-12 | — | — |
 | 30 | [030-redefining](episodios/2019/030-redefining) | Redefine sin parar lo que haces | 🟣 montaje | ✅ 2026-11-12 | — | — |
 | 31 | [031-competition-authenticity](episodios/2019/031-competition-authenticity) | Escapa de la competencia siendo auténtico | 🟣 montaje | ✅ 2026-11-12 | — | — |
-| 32 | [032-stupid-games](episodios/2019/032-stupid-games) | Juegos estúpidos, premios estúpidos | 🟣 montaje | ✅ 2026-11-12 | — | — |
-| 33 | [033-eventually](episodios/2019/033-eventually) | Al final tendrás lo que te mereces | 🟣 montaje | ✅ 2026-11-12 | — | — |
-| 34 | [034-reject-advice](episodios/2019/034-reject-advice) | Rechaza la mayoría de los consejos | 🟣 montaje | ✅ 2026-11-12 | — | — |
-| 35 | [035-finally-wealthy](episodios/2019/035-finally-wealthy) | Una mente en calma, un cuerpo en forma, una casa llena de amor | 🟣 montaje | ✅ 2026-11-12 | — | — |
-| 36 | [036-rich-quick](episodios/2019/036-rich-quick) | No existen los esquemas para hacerse rico rápido | 🟣 montaje | ✅ 2026-11-12 | — | — |
-| 37 | [037-productize-yourself](episodios/2019/037-productize-yourself) | Productízate a ti mismo | 🟣 montaje | ✅ 2026-11-12 | — | — |
+| 32 | [032-stupid-games](episodios/2019/032-stupid-games) | Juegos estúpidos, premios estúpidos | 🟣 montaje | ✅ 2026-11-12 | — | [▶](https://www.youtube.com/watch?v=TgXWhLci1FI) |
+| 33 | [033-eventually](episodios/2019/033-eventually) | Al final tendrás lo que te mereces | 🟣 montaje | ✅ 2026-11-12 | — | [▶](https://www.youtube.com/watch?v=R3H-KT_MFF4) |
+| 34 | [034-reject-advice](episodios/2019/034-reject-advice) | Rechaza la mayoría de los consejos | 🟣 montaje | ✅ 2026-11-12 | — | [▶](https://www.youtube.com/watch?v=gCUqeujEmNo) |
+| 35 | [035-finally-wealthy](episodios/2019/035-finally-wealthy) | Una mente en calma, un cuerpo en forma, una casa llena de amor | 🟣 montaje | ✅ 2026-11-12 | — | [▶](https://www.youtube.com/watch?v=Dy-xXaLvd-k) |
+| 36 | [036-rich-quick](episodios/2019/036-rich-quick) | No existen los esquemas para hacerse rico rápido | 🟣 montaje | ✅ 2026-11-12 | — | [▶](https://www.youtube.com/watch?v=Gb6zSUHwPjw) |
+| 37 | [037-productize-yourself](episodios/2019/037-productize-yourself) | Productízate a ti mismo | 🟣 montaje | ✅ 2026-11-12 | — | [▶](https://www.youtube.com/watch?v=N0sSG4dEa8w) |
 | 38 | [038-accountability](episodios/2019/038-accountability) | La responsabilidad significa dejar que la gente te critique | 🟣 montaje | ✅ 2026-11-12 | — | — |
 | 39 | [039-working-ourselves](episodios/2019/039-working-ourselves) | Todos deberíamos trabajar para nosotros mismos | 🟣 montaje | ✅ 2026-11-12 | — | — |
 | 40 | [040-ethics](episodios/2019/040-ethics) | Ser ético es ser codicioso a largo plazo | 🟣 montaje | ✅ 2026-11-12 | — | — |
