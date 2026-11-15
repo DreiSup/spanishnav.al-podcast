@@ -45,7 +45,7 @@
 | 135 | [135-deutsch-files-i](episodios/2024/135-deutsch-files-i) | Los documentos de Deutsch I | 🔵 generando TTS | — | — | — |
 | 136 | [136-deutsch-files-ii](episodios/2024/136-deutsch-files-ii) | Los documentos de Deutsch II | 🔵 generando TTS | — | — | — |
 | 137 | [137-deutsch-files-iii](episodios/2024/137-deutsch-files-iii) | Los documentos de Deutsch III | 🔵 generando TTS | — | — | — |
-| 138 | [138-deutsch-files-iv](episodios/2024/138-deutsch-files-iv) | Los documentos de Deutsch IV | 🟠 en revisión | — | — | — |
+| 138 | [138-deutsch-files-iv](episodios/2024/138-deutsch-files-iv) | Los documentos de Deutsch IV | 🔵 generando TTS | — | — | — |
 
 ## 2023
 
