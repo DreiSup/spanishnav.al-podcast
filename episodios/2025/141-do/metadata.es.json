@@ -5,7 +5,7 @@
   "anio": 2025,
   "slug": "do",
   "titulo_es": "Si quieres aprender, haz",
-  "estado": "revision",
+  "estado": "tts",
   "youtube": {
     "titulo": "Si quieres aprender, haz",
     "descripcion": "",
@@ -16,7 +16,7 @@
   "drive": {
     "carpeta_id": "",
     "tts_id": "",
-    "audio_final_id": "",
+    "audio_final_id": "1esUimBHKyv9dvEzNC4RqgeQLgfmDusex",
     "video_id": "",
     "proyecto_id": ""
   },

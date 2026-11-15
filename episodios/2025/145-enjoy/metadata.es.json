@@ -5,7 +5,7 @@
   "anio": 2025,
   "slug": "enjoy",
   "titulo_es": "Tienes que disfrutarlo mucho",
-  "estado": "revision",
+  "estado": "tts",
   "youtube": {
     "titulo": "Tienes que disfrutarlo mucho",
     "descripcion": "",
@@ -16,7 +16,7 @@
   "drive": {
     "carpeta_id": "",
     "tts_id": "",
-    "audio_final_id": "",
+    "audio_final_id": "18PGgJd9dqHoZA-srqmSntWak9ex6gSpc",
     "video_id": "",
     "proyecto_id": ""
   },

@@ -5,7 +5,7 @@
   "anio": 2025,
   "slug": "arena",
   "titulo_es": "La vida se vive en la arena",
-  "estado": "revision",
+  "estado": "tts",
   "youtube": {
     "titulo": "La vida se vive en la arena",
     "descripcion": "",
@@ -16,7 +16,7 @@
   "drive": {
     "carpeta_id": "",
     "tts_id": "",
-    "audio_final_id": "",
+    "audio_final_id": "1KXde9u-nZ6mMBIyxbdEME0XqwO5kxuB_",
     "video_id": "",
     "proyecto_id": ""
   },

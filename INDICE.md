@@ -22,19 +22,19 @@
 | # | Episodio | Título en español | Estado | Escuchado | Drive | YouTube |
 |---|---|---|---|---|---|---|
 | 139 | [139-inspiration](episodios/2025/139-inspiration) | Inspiración hasta el fondo | 🟠 en revisión | — | — | — |
-| 140 | [140-arena](episodios/2025/140-arena) | La vida se vive en la arena | 🟠 en revisión | — | — | — |
-| 141 | [141-do](episodios/2025/141-do) | Si quieres aprender, haz | 🟠 en revisión | — | — | — |
-| 142 | [142-indirect](episodios/2025/142-indirect) | En la mayoría de las cosas difíciles de la vida, la solución es indirecta | 🟠 en revisión | — | — | — |
-| 143 | [143-truly](episodios/2025/143-truly) | Cuando de verdad trabajas para ti mismo | 🟠 en revisión | — | — | — |
+| 140 | [140-arena](episodios/2025/140-arena) | La vida se vive en la arena | 🔵 generando TTS | — | — | — |
+| 141 | [141-do](episodios/2025/141-do) | Si quieres aprender, haz | 🔵 generando TTS | — | — | — |
+| 142 | [142-indirect](episodios/2025/142-indirect) | En la mayoría de las cosas difíciles de la vida, la solución es indirecta | 🔵 generando TTS | — | — | — |
+| 143 | [143-truly](episodios/2025/143-truly) | Cuando de verdad trabajas para ti mismo | 🔵 generando TTS | — | — | — |
 | 144 | [144-find](episodios/2025/144-find) | Encuentra tu conocimiento específico a través de la acción | 🟠 en revisión | — | — | — |
-| 145 | [145-enjoy](episodios/2025/145-enjoy) | Tienes que disfrutarlo mucho | 🟠 en revisión | — | — | — |
-| 147 | [147-reflect](episodios/2025/147-reflect) | Haz una pausa, reflexiona y mira lo bien que ha ido | 🟠 en revisión | — | — | — |
-| 148 | [148-agency](episodios/2025/148-agency) | Cúlpate de todo y conserva tu capacidad de actuar | 🟠 en revisión | — | — | — |
-| 149 | [149-fool](episodios/2025/149-fool) | Es imposible engañar a la madre naturaleza | 🟠 en revisión | — | — | — |
-| 150 | [150-density](episodios/2025/150-density) | Los mejores autores respetan el tiempo del lector | 🟠 en revisión | — | — | — |
-| 151 | [151-get](episodios/2025/151-get) | La mayoría de los libros hay que hojearlos, y unos pocos devorarlos | 🟠 en revisión | — | — | — |
-| 152 | [152-good-products](episodios/2025/152-good-products) | Los buenos productos son difíciles de variar | 🟠 en revisión | — | — | — |
-| 153 | [153-simplest](episodios/2025/153-simplest) | Busca lo más sencillo que funcione | 🟠 en revisión | — | — | — |
+| 145 | [145-enjoy](episodios/2025/145-enjoy) | Tienes que disfrutarlo mucho | 🔵 generando TTS | — | — | — |
+| 147 | [147-reflect](episodios/2025/147-reflect) | Haz una pausa, reflexiona y mira lo bien que ha ido | 🔵 generando TTS | — | — | — |
+| 148 | [148-agency](episodios/2025/148-agency) | Cúlpate de todo y conserva tu capacidad de actuar | 🔵 generando TTS | — | — | — |
+| 149 | [149-fool](episodios/2025/149-fool) | Es imposible engañar a la madre naturaleza | 🔵 generando TTS | — | — | — |
+| 150 | [150-density](episodios/2025/150-density) | Los mejores autores respetan el tiempo del lector | 🔵 generando TTS | — | — | — |
+| 151 | [151-get](episodios/2025/151-get) | La mayoría de los libros hay que hojearlos, y unos pocos devorarlos | 🔵 generando TTS | — | — | — |
+| 152 | [152-good-products](episodios/2025/152-good-products) | Los buenos productos son difíciles de variar | 🔵 generando TTS | — | — | — |
+| 153 | [153-simplest](episodios/2025/153-simplest) | Busca lo más sencillo que funcione | 🔵 generando TTS | — | — | — |
 | 154 | [154-in-the-arena](episodios/2025/154-in-the-arena) | En la arena | 🔵 generando TTS | — | — | — |
 | 155 | [155-curate-people](episodios/2025/155-curate-people) | Elige bien a la gente | 🔵 generando TTS | — | — | — |
 

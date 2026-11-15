@@ -5,7 +5,7 @@
   "anio": 2025,
   "slug": "reflect",
   "titulo_es": "Haz una pausa, reflexiona y mira lo bien que ha ido",
-  "estado": "revision",
+  "estado": "tts",
   "youtube": {
     "titulo": "Haz una pausa, reflexiona y mira lo bien que ha ido",
     "descripcion": "",
@@ -16,7 +16,7 @@
   "drive": {
     "carpeta_id": "",
     "tts_id": "",
-    "audio_final_id": "",
+    "audio_final_id": "18VFcRtK2d7-pBLj56aCn7o87ohle97TS",
     "video_id": "",
     "proyecto_id": ""
   },

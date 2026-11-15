@@ -5,7 +5,7 @@
   "anio": 2025,
   "slug": "simplest",
   "titulo_es": "Busca lo más sencillo que funcione",
-  "estado": "revision",
+  "estado": "tts",
   "youtube": {
     "titulo": "Busca lo más sencillo que funcione",
     "descripcion": "",
@@ -16,7 +16,7 @@
   "drive": {
     "carpeta_id": "",
     "tts_id": "",
-    "audio_final_id": "",
+    "audio_final_id": "1PcLd_7K1vJVb4oy8Ez-HpCNhKMNSMrD2",
     "video_id": "",
     "proyecto_id": ""
   },

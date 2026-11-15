@@ -5,7 +5,7 @@
   "anio": 2025,
   "slug": "fool",
   "titulo_es": "Es imposible engañar a la madre naturaleza",
-  "estado": "revision",
+  "estado": "tts",
   "youtube": {
     "titulo": "Es imposible engañar a la madre naturaleza",
     "descripcion": "",
@@ -16,7 +16,7 @@
   "drive": {
     "carpeta_id": "",
     "tts_id": "",
-    "audio_final_id": "",
+    "audio_final_id": "1cqCEtuhF84aG90XMJPISdAhvQ7Zx4Q7p",
     "video_id": "",
     "proyecto_id": ""
   },
