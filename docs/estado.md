@@ -173,8 +173,8 @@ Opcionales: el LoRA de la voz de Kapil y `05_lora_omnivoice`. Al final: reorgani
    1. 01 en T4, ~60 min. Hecho: ☑ ridley (12-nov: 400/400, 47 min de audio, 49 min de GPU) ☑ vitalik ☑ qureshi ☑ hodak ☑ rauch ☑ scholl (12-nov, una sesión: 400/400 cada una, 37–41 min de audio y 43–48 min de GPU por voz)
    2. 03 en T4, ~40 min (medido: 36–38 min de medida por voz). Hecho: ☑ ridley (12-nov: 368/400 pasan, 258 elegidos = 30,1 min, ~37 min) ☑ vitalik (13-nov: 353/400 pasan, 300 elegidos = 30,1 min) ☐ qureshi ☑ hodak (15-nov: 341/400 pasan, 303 elegidos = 29,1 min) ☐ rauch ☐ scholl
    3. 04 en L4. Hecho: ☑ ridley (12-nov: 123 pasos en 8 min, prueba 15 min; eval es 2,676 → 2,459, en 2,908 → 2,711) ☑ vitalik (15-nov: 138 pasos; eval es 3,181 → 2,855, en 3,050 → 2,841) ☐ qureshi ☐ hodak ☐ rauch ☐ scholl
-   4. Escucha a ciegas del autor. Hecha: ☑ ridley (15-nov: paso 120; algo castellano, aceptado) ☐ vitalik ☐ qureshi ☐ hodak ☐ rauch ☐ scholl
-   5. Paso elegido en `fabrica/voces.json`. Hecho: ☑ ridley (paso_0120) ☐ vitalik ☐ qureshi ☐ hodak ☐ rauch ☐ scholl
+   4. Escucha a ciegas del autor. Hecha: ☑ ridley (15-nov: paso 120; algo castellano, aceptado) ☑ vitalik (15-nov: paso 120) ☐ qureshi ☐ hodak ☐ rauch ☐ scholl
+   5. Paso elegido en `fabrica/voces.json`. Hecho: ☑ ridley (paso_0120) ☑ vitalik (paso_0120) ☐ qureshi ☐ hodak ☐ rauch ☐ scholl
    6. Regenerar sus clips en la fábrica: ☐ 070, 071 (ridley; **el 070 tiene un arreglo sintético: preguntar al
       autor qué clip/minuto antes de regenerar**) ☐ 131, 132 (vitalik, qureshi) ☐ 160 y extras (hodak, rauch,
       scholl). Si los cortos del 160 ya están montados, volver a montarlos después.
