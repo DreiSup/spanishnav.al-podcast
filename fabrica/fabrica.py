@@ -702,7 +702,11 @@ def leer_registro(carpeta):
     if registro.exists():
         for l in registro.read_text(encoding="utf-8").splitlines():
             if l.strip():
-                f = json.loads(l)
+                try:
+                    f = json.loads(l)
+                except json.JSONDecodeError:   # línea cortada por una desconexión: ese clip se rehace
+                    print(f"  aviso: se ignora una línea incompleta de {registro}")
+                    continue
                 hechos[f["fichero"]] = f
     return hechos
 

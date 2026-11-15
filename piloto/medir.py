@@ -150,8 +150,17 @@ def cargar(ruta):
     """Lee un .jsonl de medidas como {(variante, id): fila}."""
     if not ruta.exists():
         return {}
-    filas = (json.loads(l) for l in ruta.read_text(encoding="utf-8").splitlines() if l.strip())
-    return {(f["variante"], f["id"]): f for f in filas}
+    filas = {}
+    for l in ruta.read_text(encoding="utf-8").splitlines():
+        if not l.strip():
+            continue
+        try:
+            f = json.loads(l)
+        except json.JSONDecodeError:   # línea cortada por una desconexión: ese clip se vuelve a medir
+            print(f"  aviso: se ignora una línea incompleta de {ruta.name}")
+            continue
+        filas[(f["variante"], f["id"])] = f
+    return filas
 
 
 def anadir(ruta, fila):
