@@ -165,7 +165,7 @@ Opcionales: el LoRA de la voz de Kapil y `05_lora_omnivoice`. Al final: reorgani
 
 ## Pendiente de Claude
 
-0. **LoRA de los seis invitados (desde el 11-nov; lo lleva Claude, el autor no tiene que acordarse).** La sesión
+0. **LoRA de los seis invitados — TERMINADO el 15-nov** (ridley 120, vitalik 120, hodak 120, rauch 80, scholl base, qureshi 20; episodios regenerados). Historial: La sesión
    local hace los datasets de ridley → vitalik → qureshi → hodak → rauch → scholl y avisa con los minutos de
    train/eval de cada uno al subirlo a `fine_tunned_naval/datasets/<voz>/`. **En cada sesión técnica, comprobar
    en Drive si ha aparecido alguno** (`datasets/<voz>/metadata.jsonl`) y, si está, proponerle al autor sin que lo
@@ -176,7 +176,7 @@ Opcionales: el LoRA de la voz de Kapil y `05_lora_omnivoice`. Al final: reorgani
    4. Escucha a ciegas del autor. Hecha: ☑ ridley (15-nov: paso 120; algo castellano, aceptado) ☑ vitalik (15-nov: paso 120) ☑ qureshi (15-nov: paso 20) ☑ hodak (15-nov: paso 120) ☑ rauch (15-nov: paso 80) ☑ scholl (15-nov: gana la base)
    5. Paso elegido en `fabrica/voces.json`. Hecho: ☑ ridley (paso_0120) ☑ vitalik (paso_0120) ☑ qureshi (paso_0020) ☑ hodak (paso_0120) ☑ rauch (paso_0080) ☑ scholl (sin LoRA)
    6. Regenerar sus clips en la fábrica: ☑ 070, 071 (ridley, regenerados el 15-nov con paso_0120; el «arreglo» del 070 era el cambio de texto
-      jefes → gobernantes del 9-nov, rehecho solo por la fábrica) ☐ 131, 132 (vitalik, qureshi) ☑ 160 (15-nov, con hodak paso 120, rauch paso 80 y scholl base; volumen de los invitados igualado en el master) ☐ extras del 160 (hodak, rauch,
+      jefes → gobernantes del 9-nov, rehecho solo por la fábrica) ☑ 131, 132 (vitalik paso 120 y qureshi paso 20, 15-nov) ☑ 160 (15-nov, con hodak paso 120, rauch paso 80 y scholl base; volumen de los invitados igualado en el master) ☑ extras del 160 (15-nov, montados con cortos.ipynb; hodak, rauch,
       scholl). Si los cortos del 160 ya están montados, volver a montarlos después.
 
    Detalle en `docs/contexto-fabrica.md` («Pendiente: LoRA de los seis invitados»). Marcar aquí cada paso.

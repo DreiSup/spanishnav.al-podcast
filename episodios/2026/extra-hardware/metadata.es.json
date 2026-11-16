@@ -5,7 +5,7 @@
   "anio": 2026,
   "slug": "hardware",
   "titulo_es": "Vibe coding para hardware",
-  "estado": "revision",
+  "estado": "tts",
   "youtube": {
     "titulo": "Vibe coding para hardware",
     "descripcion": "",
@@ -16,7 +16,7 @@
   "drive": {
     "carpeta_id": "",
     "tts_id": "",
-    "audio_final_id": "",
+    "audio_final_id": "1zd376eJNmdKxyFazwMzek_y85cJN_nRy",
     "video_id": "",
     "proyecto_id": ""
   },
