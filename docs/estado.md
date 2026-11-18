@@ -147,7 +147,7 @@ La **fase 1** (elegir motor) está casi cerrada:
 
 ## Pendiente del autor
 
-- **Fin de semana 21–22 nov: investigar animaciones de Claude Design** para el vídeo del podcast (cómo integrarlas:
+- **Fin de semana 21–22 nov: investigar animaciones de Claude Design** (encargo listo en `docs/prompt-claude-design-video.md`; cómo integrarlas:
   ASS actual o Remotion, midiendo con el 053). Apuntado también en Google Tasks y Google Calendar. Detalle en
   `docs/video-dinamico.md`, apartado «Animaciones».
 **Plan del autor (2-nov) hasta la versión alfa de la fábrica:**
