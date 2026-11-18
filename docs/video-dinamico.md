@@ -85,7 +85,21 @@ a nuestro feed. La subida de vídeo se hace igualmente desde Spotify for Creator
 - Hecho: `scripts/video_lectura.py` (ASS + ffmpeg, fondo liso, barra de progreso, también escribe el `.srt`) y el
   cuaderno `scripts/video_lectura.ipynb`. Probado en local con los tiempos reales del 053 y audio mudo: 1,5 min de
   vídeo en 13 s (7× tiempo real, 4 núcleos). Colab CPU tiene 2: esperar ~3×.
-- Pendiente: primera prueba del autor en Colab con el 053 y sus comentarios de diseño.
+- **Prueba del autor en Colab con el 053: funciona** (18-nov). Siguiente: el estilo (fuente, animación del texto).
+
+## Animaciones (18-nov): cómo integrar un diseño de Claude Design
+
+El autor quiere que Claude Design diseñe las animaciones. Claude Design entrega HTML/CSS/React; hay dos formas de
+llevarlo al vídeo:
+
+1. **Traducirlo al ASS actual** (lo que hace libass: fundidos, desplazamientos `\move`, escala y color animados con
+   `\t`, desenfoque, revelado con `\clip`, resaltado palabra a palabra). Render rápido (~7× tiempo real en local).
+   Límites: curvas de aceleración pobres, sin muelles, sin sombras ni degradados animados.
+2. **Renderizar el diseño tal cual con Remotion** (React → vídeo, fotograma a fotograma en Chromium). Fiel al diseño,
+   pero mucho más lento: un fotograma de navegador por cada 1/25 s. Licencia gratuita para particulares.
+
+Decisión: pedir a Claude Design un prototipo **gobernado por el tiempo** (ver el encargo en la respuesta del 18-nov) y,
+con el diseño delante, elegir: ASS si cabe en su vocabulario, Remotion si no, midiendo antes con el 053.
 
 ## Primer paso cuando se active (versión original)
 
