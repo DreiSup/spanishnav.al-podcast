@@ -41,6 +41,7 @@ transcripts: si un SOP necesita un cambio técnico, se describe y el autor se lo
 | 5-nov | Dominio principal **`spanishnav.al`** (sin www), sin redirección; `www` también sirve la web. Feed: `https://spanishnav.al/podcast.xml`. |
 | 5-nov | **Portada nueva del feed** (logo «en español» del autor), en `public/portada.jpg` (2000×2000, ampliada de la 1254 que llegó por el chat), ya en `main`. La rectangular de YouTube no cambia. Carpeta `naval-podcast/portadas` en Drive (id `1AZ-AILhxbmgraVm_QxIwnmAOq_xo1i9L`): el autor sube ahí la 4K original y la de 2000. |
 | 5-nov | **Cortos dentro de largos** (`docs/cortos-y-largos.md`, `cortos.json`): 077, 105 y 130 se generan una vez y sus 71 cortos se montan con sus clips. In the Arena y AI Industrial Revolution, igual cuando se traduzcan. El 052 se monta uniendo los cortos 001–050. Instrucciones para la sesión técnica escritas; **el autor las pasará cuando quiera**, no es prioridad. |
+| 18-nov | **Vídeo dinámico desde el 052** (transcript sincronizado en pantalla) para YouTube y Spotify (subida de vídeo en Spotify for Creators sobre el feed propio). Del 001 al 051, imagen fija. **No se monetiza.** Aparcado hasta que el autor lo active. Plan: `docs/video-dinamico.md`. |
 
 ## 4. Infraestructura de publicación (todo montado)
 

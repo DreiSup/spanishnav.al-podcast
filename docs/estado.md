@@ -198,6 +198,8 @@ Hecho el 30-oct: cuadernos LoRA de Qwen (B, kapil y cualquier voz) y de OmniVoic
 
 ## Otros frentes
 
+- **Vídeo dinámico desde el 052** (transcript en pantalla, YouTube + Spotify, sin monetizar). Plan del autor del
+  18-nov, **aparcado** hasta que acabe lo urgente. Todo en `docs/video-dinamico.md`.
 - **Fábrica de contenido** (web, RSS, YouTube y plataformas). La lleva otra sesión, con el
   prompt de `docs/prompt-sesion-contenido.md`. Contexto en `docs/fabrica-de-contenido.md`
   y `docs/rss.md`.
