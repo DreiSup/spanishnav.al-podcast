@@ -78,7 +78,16 @@ a nuestro feed. La subida de vídeo se hace igualmente desde Spotify for Creator
 - **Política de YouTube sobre contenido «no auténtico»/reutilizado**: afecta sobre todo a la monetización. Sin
   monetizar, el riesgo práctico es bajo; mantener la declaración de contenido alterado.
 
-## Primer paso cuando se active
+## Estado (18-nov)
+
+- Decidido por el autor: estilo **lectura**, se empieza con pruebas pequeñas y se refuerza; render **en Colab**
+  (CPU); pruebas con el **053 en adelante** (el 052 dura horas).
+- Hecho: `scripts/video_lectura.py` (ASS + ffmpeg, fondo liso, barra de progreso, también escribe el `.srt`) y el
+  cuaderno `scripts/video_lectura.ipynb`. Probado en local con los tiempos reales del 053 y audio mudo: 1,5 min de
+  vídeo en 13 s (7× tiempo real, 4 núcleos). Colab CPU tiene 2: esperar ~3×.
+- Pendiente: primera prueba del autor en Colab con el 053 y sus comentarios de diseño.
+
+## Primer paso cuando se active (versión original)
 
 Prototipo de **2 minutos del 052** (fondo, frase centrada, hablante, barra) para que el autor elija el estilo antes de
 renderizar nada largo. Decisiones que quedan para entonces: **estilo** (lectura centrada, recomendado, o subtítulos
