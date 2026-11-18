@@ -145,3 +145,18 @@ de extractos del buscador, a comprobar. Conclusiones que adopta este plan:
 Segundo encargo a Claude Design (piezas verticales, portada, miniatura, pantalla final):
 `docs/prompt-claude-design-formatos.md`.
 
+## Ideas del autor para más adelante (18-nov)
+
+El primer diseño de Claude Design tiene potencial pero aún no convence. Ideas apuntadas (también en Google Tasks, sin
+fecha), para cuando haya tiempo:
+
+1. **Marca visual de Naval**: reunir todas sus referencias visuales y dárselas a Claude Design para rediseñar sobre
+   ellas.
+2. **Monigote por hablante**: un dibujo animado de cada hablante de fondo que cambia según quién habla (Naval, Nivi,
+   invitados), moviéndose un poco.
+3. **Efectos**: investigar el efecto papel/periódico y algo en la línea del lanzamiento de Fable con las mariposas.
+
+Ojo, según `docs/investigacion-formatos-redes.md` §4.1: usar la marca o la cara de Naval (y de Nivi y los invitados)
+sin permiso choca con las políticas de suplantación de las plataformas, igual que la voz clonada. Es otro motivo para
+pedir el permiso escrito, y conviene que lo cubra (marca, imagen e ilustraciones de los participantes).
+
