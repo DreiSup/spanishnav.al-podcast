@@ -114,3 +114,14 @@ abajo) y **dónde renderizar** (local o Colab).
   [publicar vídeos](https://support.spotify.com/us/podcasters/article/uploading-video-files/).
 - Apple: [vídeo en Apple Podcasts (feb-2026)](https://www.apple.com/newsroom/2026/02/apple-introduces-a-new-video-podcast-experience-on-apple-podcasts/),
   [alojamientos con HLS (Transistor)](https://transistor.fm/apple-podcasts-video/).
+
+## Estilo «tambor» (18-nov, indicado por el autor)
+
+Como los números de un candado: la frase que suena, grande y resaltada en el centro; la anterior encima y la
+siguiente debajo, pequeñas, sombreadas y algo aplastadas (curvatura del tambor). En cada cambio toda la columna gira
+hacia arriba con una curva suave (easeInOutCubic, 0,6 s, empieza 0,35 s antes de la frase). Se calcula fotograma a
+fotograma en el ASS (solo durante las transiciones) a **50 fps**, que cae exacto en los centisegundos del ASS.
+El nombre del hablante queda fijo arriba y solo cambia, con fundido, cuando cambia quien habla.
+Coste: 3,2× tiempo real en local (4 núcleos) frente a 7× del estilo fijo; en Colab CPU, esperar ~1,5×.
+Ajustes al principio de `scripts/video_lectura.py` (TRANSICION, ADELANTO, ESCALA_VECINA, HUECO, colores, fuente).
+
