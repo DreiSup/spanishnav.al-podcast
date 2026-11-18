@@ -147,6 +147,9 @@ La **fase 1** (elegir motor) está casi cerrada:
 
 ## Pendiente del autor
 
+- **Fin de semana 21–22 nov: investigar animaciones de Claude Design** para el vídeo del podcast (cómo integrarlas:
+  ASS actual o Remotion, midiendo con el 053). Apuntado también en Google Tasks y Google Calendar. Detalle en
+  `docs/video-dinamico.md`, apartado «Animaciones».
 **Plan del autor (2-nov) hasta la versión alfa de la fábrica:**
 
 1. ~~Pausa de Nivi~~: 0,20 s (2-nov). Pausas en la fábrica: Naval 0,12, Brett 0,30, Deutsch y Nivi 0,20.

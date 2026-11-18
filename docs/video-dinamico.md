@@ -98,6 +98,8 @@ llevarlo al vídeo:
 2. **Renderizar el diseño tal cual con Remotion** (React → vídeo, fotograma a fotograma en Chromium). Fiel al diseño,
    pero mucho más lento: un fotograma de navegador por cada 1/25 s. Licencia gratuita para particulares.
 
+**Pendiente del autor para el fin de semana del 21–22 nov** (en Google Tasks y Calendar).
+
 Decisión: pedir a Claude Design un prototipo **gobernado por el tiempo** (ver el encargo en la respuesta del 18-nov) y,
 con el diseño delante, elegir: ASS si cabe en su vocabulario, Remotion si no, midiendo antes con el 053.
 
