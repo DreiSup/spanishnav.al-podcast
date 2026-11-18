@@ -127,3 +127,21 @@ El nombre del hablante queda fijo arriba y solo cambia, con fundido, cuando camb
 Coste: 3,2× tiempo real en local (4 núcleos) frente a 7× del estilo fijo; en Colab CPU, esperar ~1,5×.
 Ajustes al principio de `scripts/video_lectura.py` (TRANSICION, ADELANTO, ESCALA_VECINA, HUECO, colores, fuente).
 
+## Formatos por plataforma y vertical (18-nov)
+
+Investigación con un workflow de 8 agentes: `docs/investigacion-formatos-redes.md` (síntesis; informes completos en
+`docs/investigacion-formatos-redes-informes.md`). Las páginas oficiales estaban bloqueadas desde la sesión: cifras
+de extractos del buscador, a comprobar. Conclusiones que adopta este plan:
+
+- Dos másters: **16:9 1920×1080 a 50 fps** (episodio) y **9:16 1080×1920 a 30 fps** (clips de 45–90 s, máx. 180 s);
+  un solo vertical para todas las apps. Más portada vertical, miniatura 1280×720 y `.srt` por pieza.
+- Zona segura vertical común: x 120–888, y 288–1248; en 16:9, nada de texto por debajo de y 900.
+- Episodio largo ≤ 9,5 GB (Spotify recomienda < 10 GB; Facebook exige < 10 GB y < 240 min).
+- Etiqueta de IA en todas las plataformas y aviso «traducción no oficial · voz sintética».
+- **Riesgo señalado**: las voces son clones de las personas reales; la política de suplantación de Spotify y el
+  etiquetado de YouTube/TikTok/Meta lo tratan expresamente. Refuerza pedir el permiso de Naval antes de publicar
+  clips en volumen.
+
+Segundo encargo a Claude Design (piezas verticales, portada, miniatura, pantalla final):
+`docs/prompt-claude-design-formatos.md`.
+
