@@ -98,7 +98,8 @@
   .tarea-cab { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
   .tarea-cab .t { font-weight: 600; }
   .tarea-det { margin: 0; font-size: 14px; color: var(--muted); overflow-wrap: anywhere; }
-  .tarea a { font-size: 14px; align-self: flex-start; min-height: 24px; }
+  .tarea a { font-size: 14px; align-self: flex-start; display: inline-flex; align-items: center; min-height: 44px; }
+  @media (max-width: 480px) { .tarea-cab { flex-direction: column; gap: 2px; } }
 </style>
 </head>
 <body>
