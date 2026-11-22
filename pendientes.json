@@ -1,0 +1,26 @@
+{
+  "_comentario": "Tareas pendientes del autor que muestra el tablero (sección «Pendientes»). Las mantiene la sesión de dirección: se añaden cuando el autor las deja para más adelante y se quitan cuando están hechas.",
+  "pendientes": [
+    {
+      "titulo": "Avatares animados para el vídeo",
+      "detalle": "Dar a ChatGPT las imágenes de referencia de Drive (naval-podcast/diseno-video) y generar, por hablante, una ficha del personaje y de 8 a 12 fotogramas PNG en bucle (720×1080). Pasos y formato: docs/video-avatares.md.",
+      "enlace": "https://drive.google.com/drive/folders/1O09eZ570K33KfNLLwPl6akdYFTKsyNbS",
+      "desde": "2026-11-22"
+    },
+    {
+      "titulo": "Escuchar el 052 y decidir si se publica",
+      "detalle": "Recopilación del 1 al 50 (4,4 h). Sin él no se programa nada después del 25-dic; del 053 al 066 ya están aprobados y esperan.",
+      "desde": "2026-11-12"
+    },
+    {
+      "titulo": "Pasar la app de YouTube a producción",
+      "detalle": "En modo de prueba la autorización caduca cada 7 días. Google Cloud → Google Auth Platform → Público → Publicar app (puede pedir verificación).",
+      "desde": "2026-11-15"
+    },
+    {
+      "titulo": "Pedir permiso a Naval",
+      "detalle": "Para la traducción, la voz clonada y, ahora también, la imagen de los participantes en los avatares.",
+      "desde": "2026-11-05"
+    }
+  ]
+}

@@ -92,6 +92,13 @@
   .kcard .meta { display: flex; flex-wrap: wrap; gap: 6px; font-size: 12px; color: var(--muted); }
   .kcard .nota { font-size: 12px; color: var(--bad); }
   .vacia { color: var(--muted); font-size: 12px; padding: 4px; }
+  .tareas { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 12px; }
+  .tarea { display: flex; flex-direction: column; gap: 4px; padding-top: 12px; border-top: 1px solid var(--line); }
+  .tarea:first-child { padding-top: 0; border-top: 0; }
+  .tarea-cab { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+  .tarea-cab .t { font-weight: 600; }
+  .tarea-det { margin: 0; font-size: 14px; color: var(--muted); overflow-wrap: anywhere; }
+  .tarea a { font-size: 14px; align-self: flex-start; min-height: 24px; }
 </style>
 </head>
 <body>
@@ -107,6 +114,12 @@
   <section class="card" id="resumen">
     <p class="take" id="cuello">—</p>
     <ul class="avisos" id="avisos"></ul>
+  </section>
+
+  <section class="card" id="pendientes" hidden>
+    <h2>Pendientes</h2>
+    <p class="muted">Tareas tuyas que dejaste para más adelante.</p>
+    <ul class="tareas" id="tareas"></ul>
   </section>
 
   <section class="card">
@@ -184,6 +197,17 @@
     const take = $('cuello'); take.replaceChildren('El cuello de botella: ', el('b', null, cuello.nombre.toLowerCase()),
       ', con ' + cuello.episodios + ' episodios (unas ' + num(cuello.horas) + ' h de audio).');
 
+    const tareas = d.pendientes || [];
+    $('pendientes').hidden = !tareas.length;
+    $('tareas').replaceChildren(...tareas.map((t) => {
+      const li = el('li', 'tarea');
+      const cab = el('div', 'tarea-cab'); cab.append(el('span', 't', t.titulo));
+      if (t.desde) cab.append(el('span', 'muted', 'desde el ' + new Date(t.desde + 'T12:00:00Z').toLocaleDateString('es-ES', { day: 'numeric', month: 'short' })));
+      li.append(cab);
+      if (t.detalle) li.append(el('p', 'tarea-det', t.detalle));
+      if (t.enlace) { const a = el('a', null, 'Abrir'); a.href = t.enlace; a.target = '_blank'; a.rel = 'noopener'; li.append(a); }
+      return li;
+    }));
     $('avisos').replaceChildren(...d.avisos.map((a) => { const li = el('li'); li.append(el('span', 'dot ' + a.nivel), el('span', null, a.texto)); return li; }));
 
     const max = Math.max(...d.resumen.map((r) => r.episodios), 1);

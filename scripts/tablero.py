@@ -173,12 +173,19 @@ def main():
               "en_web", "en_r2", "en_youtube", "youtube", "nota")
     filas = [{k: f[k] for k in campos} for f in filas]
 
+    # Tareas del autor que se dejan para más adelante (pendientes.json, las mantiene la sesión de dirección)
+    try:
+        pendientes = json.load(open(os.path.join(RAIZ, "pendientes.json"), encoding="utf-8")).get("pendientes", [])
+    except FileNotFoundError:
+        pendientes = []
+
     salida = {
         "generado": hoy.strftime("%Y-%m-%dT%H:%M:%SZ"),
         "comprobado_web": bool(a.web),
         "comprobado_r2": a.r2,
         "resumen": resumen,
         "avisos": avisos,
+        "pendientes": pendientes,
         "episodios": filas,
     }
     with open(os.path.join(RAIZ, "tablero.json"), "w", encoding="utf-8") as f:
