@@ -153,7 +153,7 @@ fecha), para cuando haya tiempo:
 1. **Marca visual de Naval**: reunir todas sus referencias visuales y dárselas a Claude Design para rediseñar sobre
    ellas.
 2. **Monigote por hablante**: un dibujo animado de cada hablante de fondo que cambia según quién habla (Naval, Nivi,
-   invitados), moviéndose un poco.
+   invitados), moviéndose un poco. **En marcha (22-nov)**: `docs/video-avatares.md` (carpeta de Drive y formato de los fotogramas).
 3. **Efectos**: investigar el efecto papel/periódico y algo en la línea del lanzamiento de Fable con las mariposas.
 
 Ojo, según `docs/investigacion-formatos-redes.md` §4.1: usar la marca o la cara de Naval (y de Nivi y los invitados)
