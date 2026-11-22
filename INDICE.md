@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**162** episodios · **10** publicados · **65** escuchados por el autor (**0** para revisar) · **0** sin empezar
+**162** episodios · **18** publicados · **65** escuchados por el autor (**0** para revisar) · **0** sin empezar
 
 ## 2026
 
@@ -163,14 +163,14 @@
 | 8 | [008-product-scale](episodios/2019/008-product-scale) | Dale a la sociedad lo que todavía no sabe cómo conseguir | 🟢 publicado | ✅ 2026-11-05 | — | [▶](https://www.youtube.com/watch?v=VjiNDC4Dv3k) |
 | 9 | [009-possible-careers](episodios/2019/009-possible-careers) | Internet ha ampliado enormemente las posibilidades profesionales | 🟢 publicado | ✅ 2026-11-08 | — | [▶](https://www.youtube.com/watch?v=6qUGSeNI8iM) |
 | 10 | [010-long-term](episodios/2019/010-long-term) | Juega a juegos a largo plazo con gente a largo plazo | 🟢 publicado | ✅ 2026-11-05 | — | [▶](https://www.youtube.com/watch?v=mVd7DKYZw9w) |
-| 11 | [011-intelligence-energy-integrity](episodios/2019/011-intelligence-energy-integrity) | Elige socios con inteligencia, energía e integridad | 🟣 montaje | ✅ 2026-11-09 | — | [▶](https://www.youtube.com/watch?v=f5q1N2ZU2PU) |
-| 12 | [012-rational-optimists](episodios/2019/012-rational-optimists) | Asóciate con optimistas racionales | 🟣 montaje | ✅ 2026-11-09 | — | [▶](https://www.youtube.com/watch?v=BCUU5-cEJsY) |
-| 13 | [013-specific-knowledge](episodios/2019/013-specific-knowledge) | Ármate de conocimiento específico | 🟣 montaje | ✅ 2026-11-09 | — | [▶](https://www.youtube.com/watch?v=ugDup0V_Z34) |
-| 14 | [014-creative-technical](episodios/2019/014-creative-technical) | El conocimiento específico es muy creativo o técnico | 🟣 montaje | ✅ 2026-11-09 | — | [▶](https://www.youtube.com/watch?v=t6eUWkKRik4) |
-| 15 | [015-build-sell](episodios/2019/015-build-sell) | Aprende a vender, aprende a construir | 🟣 montaje | ✅ 2026-11-09 | — | [▶](https://www.youtube.com/watch?v=EBBPRoEMV6I) |
-| 16 | [016-love-read](episodios/2019/016-love-read) | Lee lo que te encante hasta que te encante leer | 🟣 montaje | ✅ 2026-11-09 | — | [▶](https://www.youtube.com/watch?v=SmCz8N7xv8I) |
-| 17 | [017-math-logic](episodios/2019/017-math-logic) | Los cimientos son las matemáticas y la lógica | 🟣 montaje | ✅ 2026-11-09 | — | [▶](https://www.youtube.com/watch?v=65GS4IeQ9U8) |
-| 18 | [018-skill-business](episodios/2019/018-skill-business) | No existe una habilidad que se llame negocios | 🟣 montaje | ✅ 2026-11-09 | — | [▶](https://www.youtube.com/watch?v=D3O0hSwgx2s) |
+| 11 | [011-intelligence-energy-integrity](episodios/2019/011-intelligence-energy-integrity) | Elige socios con inteligencia, energía e integridad | 🟢 publicado | ✅ 2026-11-09 | — | [▶](https://www.youtube.com/watch?v=f5q1N2ZU2PU) |
+| 12 | [012-rational-optimists](episodios/2019/012-rational-optimists) | Asóciate con optimistas racionales | 🟢 publicado | ✅ 2026-11-09 | — | [▶](https://www.youtube.com/watch?v=BCUU5-cEJsY) |
+| 13 | [013-specific-knowledge](episodios/2019/013-specific-knowledge) | Ármate de conocimiento específico | 🟢 publicado | ✅ 2026-11-09 | — | [▶](https://www.youtube.com/watch?v=ugDup0V_Z34) |
+| 14 | [014-creative-technical](episodios/2019/014-creative-technical) | El conocimiento específico es muy creativo o técnico | 🟢 publicado | ✅ 2026-11-09 | — | [▶](https://www.youtube.com/watch?v=t6eUWkKRik4) |
+| 15 | [015-build-sell](episodios/2019/015-build-sell) | Aprende a vender, aprende a construir | 🟢 publicado | ✅ 2026-11-09 | — | [▶](https://www.youtube.com/watch?v=EBBPRoEMV6I) |
+| 16 | [016-love-read](episodios/2019/016-love-read) | Lee lo que te encante hasta que te encante leer | 🟢 publicado | ✅ 2026-11-09 | — | [▶](https://www.youtube.com/watch?v=SmCz8N7xv8I) |
+| 17 | [017-math-logic](episodios/2019/017-math-logic) | Los cimientos son las matemáticas y la lógica | 🟢 publicado | ✅ 2026-11-09 | — | [▶](https://www.youtube.com/watch?v=65GS4IeQ9U8) |
+| 18 | [018-skill-business](episodios/2019/018-skill-business) | No existe una habilidad que se llame negocios | 🟢 publicado | ✅ 2026-11-09 | — | [▶](https://www.youtube.com/watch?v=D3O0hSwgx2s) |
 | 19 | [019-accountability-leverage](episodios/2019/019-accountability-leverage) | Asume la responsabilidad para conseguir apalancamiento | 🟣 montaje | ✅ 2026-11-09 | — | — |
 | 20 | [020-accountability-equity](episodios/2019/020-accountability-equity) | Asume la responsabilidad para ganarte equity | 🟣 montaje | ✅ 2026-11-09 | — | — |
 | 21 | [021-labor-capital](episodios/2019/021-labor-capital) | El trabajo y el capital son apalancamiento antiguo | 🟣 montaje | ✅ 2026-11-09 | — | — |
