@@ -8,11 +8,6 @@
       "desde": "2026-11-22"
     },
     {
-      "titulo": "Escuchar el 052 y decidir si se publica",
-      "detalle": "Recopilación del 1 al 50 (4,4 h). Sin él no se programa nada después del 25-dic; del 053 al 066 ya están aprobados y esperan.",
-      "desde": "2026-11-12"
-    },
-    {
       "titulo": "Pasar la app de YouTube a producción",
       "detalle": "En modo de prueba la autorización caduca cada 7 días. Google Cloud → Google Auth Platform → Público → Publicar app (puede pedir verificación).",
       "desde": "2026-11-15"

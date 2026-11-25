@@ -8,7 +8,7 @@
   "estado": "montaje",
   "youtube": {
     "titulo": "Vive lo suficiente y te convertirás en filósofo",
-    "descripcion": "",
+    "descripcion": "Episodio 53 de la traducción al español del podcast de Naval Ravikant.\nVive lo suficiente y te convertirás en filósofo: Este podcast es una filosofía práctica de la salud, la riqueza y la felicidad.\n\n▶ Episodio original en YouTube: https://www.youtube.com/watch?v=Ck7ENn_3KUI\n▶ Transcripción original en inglés: https://nav.al/philosopher\n▶ Este episodio en español, con su transcripción: https://spanishnav.al/philosopher\n▶ Canal original de Naval: https://www.youtube.com/@NavalR\n\nTraducción no oficial. Contenido original de Naval Ravikant, publicado en nav.al.\n\nEste podcast se ha traducido al español con inteligencia artificial. Puede haber errores o inconsistencias tanto en la traducción como en la dicción.\nLa transcripción se ha traducido del inglés al español con Claude Opus 5.5 (esfuerzo alto), de Anthropic. La voz en español se ha generado con Qwen3-TTS, un modelo de voz de código abierto fine-tuned con las voces de Naval y de otros participantes.\n\n¿Algún problema o queja? Escríbeme a podcast@spanishnav.al\n\n—\n\nUnofficial Spanish translation of Naval Ravikant's podcast. Original content by Naval Ravikant at nav.al.\nThis podcast has been translated into Spanish using artificial intelligence. There may be errors or inconsistencies in both the translation and the diction.\nThe transcript was translated from English to Spanish with Anthropic's Claude Opus 5.5 (high effort). The Spanish audio was generated with Qwen3-TTS, an open-source voice model fine-tuned on the voices of Naval and other participants.\nIf you run into any problems or have a complaint, reach me at podcast@spanishnav.al",
     "tags": [],
     "url": "",
     "url_original": "https://www.youtube.com/watch?v=Ck7ENn_3KUI"
@@ -28,5 +28,12 @@
     "fecha": "2026-11-14",
     "feedback": "2026-11-14: bueno. Escuchado por el autor (14-nov): bueno para subir"
   },
-  "notas": "Inglés sacado del Google Doc «2020 all podcasts» de Drive; cuadra palabra a palabra con el documento. Nivi interviene una sola vez (b04): es así en el original. b02 queda con ratio es/en 0,84 porque las cuatro preguntas «How do I…?» se comprimen en «¿Cómo…?»; no falta contenido."
+  "notas": "Inglés sacado del Google Doc «2020 all podcasts» de Drive; cuadra palabra a palabra con el documento. Nivi interviene una sola vez (b04): es así en el original. b02 queda con ratio es/en 0,84 porque las cuatro preguntas «How do I…?» se comprimen en «¿Cómo…?»; no falta contenido.",
+  "publicacion": {
+    "fecha": "2026-12-27",
+    "audio_url": "https://audio.spanishnav.al/2020/053-philosopher.mp3",
+    "feed_guid": "spanishnav.al/2020/philosopher",
+    "audio_bytes": 0,
+    "duracion_s": 0
+  }
 }

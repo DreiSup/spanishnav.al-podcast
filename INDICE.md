@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**162** episodios · **18** publicados · **65** escuchados por el autor (**0** para revisar) · **0** sin empezar
+**162** episodios · **18** publicados · **66** escuchados por el autor (**0** para revisar) · **0** sin empezar
 
 ## 2026
 
@@ -204,4 +204,4 @@
 | 49 | [049-npv](episodios/2019/049-npv) | Valor actual neto: lo que valen hoy los ingresos futuros | 🟣 montaje | ✅ 2026-11-12 | — | — |
 | 50 | [050-externalities](episodios/2019/050-externalities) | Externalidades: calcular los costes ocultos de los productos | 🟣 montaje | ✅ 2026-11-12 | — | — |
 | 51 | [051-angel-1](episodios/2019/051-angel-1) | Cómo invertir como ángel, parte 1 | 🟣 montaje | ✅ 2026-11-12 | — | — |
-| 52 | [052-rich](episodios/2019/052-rich) | Cómo hacerse rico | 🔵 generando TTS | — | — | — |
+| 52 | [052-rich](episodios/2019/052-rich) | Cómo hacerse rico | 🟣 montaje | ✅ 2026-11-25 | — | — |

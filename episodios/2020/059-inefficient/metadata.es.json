@@ -8,7 +8,7 @@
   "estado": "montaje",
   "youtube": {
     "titulo": "Ser infeliz es tremendamente ineficiente",
-    "descripcion": "",
+    "descripcion": "Episodio 59 de la traducción al español del podcast de Naval Ravikant.\nSer infeliz es tremendamente ineficiente: Una mente en paz toma mejores decisiones.\n\n▶ Episodio original en YouTube: https://www.youtube.com/watch?v=10hO3VCINF4\n▶ Transcripción original en inglés: https://nav.al/inefficient\n▶ Este episodio en español, con su transcripción: https://spanishnav.al/inefficient\n▶ Canal original de Naval: https://www.youtube.com/@NavalR\n\nTraducción no oficial. Contenido original de Naval Ravikant, publicado en nav.al.\n\nEste podcast se ha traducido al español con inteligencia artificial. Puede haber errores o inconsistencias tanto en la traducción como en la dicción.\nLa transcripción se ha traducido del inglés al español con Claude Opus 5.5 (esfuerzo alto), de Anthropic. La voz en español se ha generado con Qwen3-TTS, un modelo de voz de código abierto fine-tuned con las voces de Naval y de otros participantes.\n\n¿Algún problema o queja? Escríbeme a podcast@spanishnav.al\n\n—\n\nUnofficial Spanish translation of Naval Ravikant's podcast. Original content by Naval Ravikant at nav.al.\nThis podcast has been translated into Spanish using artificial intelligence. There may be errors or inconsistencies in both the translation and the diction.\nThe transcript was translated from English to Spanish with Anthropic's Claude Opus 5.5 (high effort). The Spanish audio was generated with Qwen3-TTS, an open-source voice model fine-tuned on the voices of Naval and other participants.\nIf you run into any problems or have a complaint, reach me at podcast@spanishnav.al",
     "tags": [],
     "url": "",
     "url_original": "https://www.youtube.com/watch?v=10hO3VCINF4"
@@ -28,5 +28,12 @@
     "fecha": "2026-11-14",
     "feedback": "2026-11-14: bueno. Escuchado por el autor (14-nov): bueno para subir"
   },
-  "notas": "Inglés sacado del Google Doc «2020 all podcasts»; cuadra palabra a palabra. Las citas de b01 («I’m too smart for it», «I don’t want it to lower my productivity…») van en estilo indirecto. «Fact check on that is: True» se traduce como «Y es verdad». «judgments» se traduce como «criterio», según el GLOSARIO. Artefacto del copiado en el inglés, no tocado: «long-term outcomes.I cut» va sin espacio tras el punto. Antes de sintetizar: comprobar cómo lee el TTS «Elon Musk»."
+  "notas": "Inglés sacado del Google Doc «2020 all podcasts»; cuadra palabra a palabra. Las citas de b01 («I’m too smart for it», «I don’t want it to lower my productivity…») van en estilo indirecto. «Fact check on that is: True» se traduce como «Y es verdad». «judgments» se traduce como «criterio», según el GLOSARIO. Artefacto del copiado en el inglés, no tocado: «long-term outcomes.I cut» va sin espacio tras el punto. Antes de sintetizar: comprobar cómo lee el TTS «Elon Musk».",
+  "publicacion": {
+    "fecha": "2027-01-02",
+    "audio_url": "https://audio.spanishnav.al/2020/059-inefficient.mp3",
+    "feed_guid": "spanishnav.al/2020/inefficient",
+    "audio_bytes": 0,
+    "duracion_s": 0
+  }
 }

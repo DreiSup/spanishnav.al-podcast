@@ -8,7 +8,7 @@
   "estado": "montaje",
   "youtube": {
     "titulo": "Encontrar la paz frente a la mente",
-    "descripcion": "",
+    "descripcion": "Episodio 63 de la traducción al español del podcast de Naval Ravikant.\nEncontrar la paz frente a la mente: La mente debería ser un sirviente, no un amo.\n\n▶ Episodio original en YouTube: https://www.youtube.com/watch?v=kARIWOOy8VM\n▶ Transcripción original en inglés: https://nav.al/peace\n▶ Este episodio en español, con su transcripción: https://spanishnav.al/peace\n▶ Canal original de Naval: https://www.youtube.com/@NavalR\n\nTraducción no oficial. Contenido original de Naval Ravikant, publicado en nav.al.\n\nEste podcast se ha traducido al español con inteligencia artificial. Puede haber errores o inconsistencias tanto en la traducción como en la dicción.\nLa transcripción se ha traducido del inglés al español con Claude Opus 5.5 (esfuerzo alto), de Anthropic. La voz en español se ha generado con Qwen3-TTS, un modelo de voz de código abierto fine-tuned con las voces de Naval y de otros participantes.\n\n¿Algún problema o queja? Escríbeme a podcast@spanishnav.al\n\n—\n\nUnofficial Spanish translation of Naval Ravikant's podcast. Original content by Naval Ravikant at nav.al.\nThis podcast has been translated into Spanish using artificial intelligence. There may be errors or inconsistencies in both the translation and the diction.\nThe transcript was translated from English to Spanish with Anthropic's Claude Opus 5.5 (high effort). The Spanish audio was generated with Qwen3-TTS, an open-source voice model fine-tuned on the voices of Naval and other participants.\nIf you run into any problems or have a complaint, reach me at podcast@spanishnav.al",
     "tags": [],
     "url": "",
     "url_original": "https://www.youtube.com/watch?v=kARIWOOy8VM"
@@ -28,5 +28,12 @@
     "fecha": "2026-11-14",
     "feedback": "2026-11-14: bueno. Escuchado por el autor (14-nov): bueno para subir"
   },
-  "notas": "Inglés sacado del Google Doc «2020 all podcasts»; cuadra palabra a palabra. «peace of mind / peace from mind» se traduce como «paz mental / paz frente a la mente» (opción C, decisión del autor el 4-nov; en el título y en b01 y b02). «A eats B; B eats C; C eats D; D eats E» se traduce como «uno se come a otro, ese otro se come a un tercero, y así sucesivamente», porque el TTS leería mal las letras sueltas. «Nature is red in tooth and claw» se traduce como «La naturaleza tiene los dientes y las garras manchados de sangre». Las cifras van en letra (mil años, nueve de cada diez)."
+  "notas": "Inglés sacado del Google Doc «2020 all podcasts»; cuadra palabra a palabra. «peace of mind / peace from mind» se traduce como «paz mental / paz frente a la mente» (opción C, decisión del autor el 4-nov; en el título y en b01 y b02). «A eats B; B eats C; C eats D; D eats E» se traduce como «uno se come a otro, ese otro se come a un tercero, y así sucesivamente», porque el TTS leería mal las letras sueltas. «Nature is red in tooth and claw» se traduce como «La naturaleza tiene los dientes y las garras manchados de sangre». Las cifras van en letra (mil años, nueve de cada diez).",
+  "publicacion": {
+    "fecha": "2027-01-06",
+    "audio_url": "https://audio.spanishnav.al/2020/063-peace.mp3",
+    "feed_guid": "spanishnav.al/2020/peace",
+    "audio_bytes": 0,
+    "duracion_s": 0
+  }
 }
