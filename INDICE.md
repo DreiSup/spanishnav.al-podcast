@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**162** episodios · **18** publicados · **68** escuchados por el autor (**0** para revisar) · **0** sin empezar
+**162** episodios · **18** publicados · **70** escuchados por el autor (**0** para revisar) · **0** sin empezar
 
 ## 2026
 
@@ -145,8 +145,8 @@
 | 66 | [066-consensus](episodios/2020/066-consensus) | Los grupos buscan el consenso, los individuos buscan la verdad | 🟣 montaje | ✅ 2026-11-14 | — | — |
 | 67 | [067-truth](episodios/2020/067-truth) | El camino hacia la paz es la verdad | 🟣 montaje | ✅ 2026-11-25 | — | — |
 | 68 | [068-kapil](episodios/2020/068-kapil) | Kapil Gupta: Conquistando la mente | 🟣 montaje | ✅ 2026-11-25 | — | — |
-| 69 | [069-angel-2](episodios/2020/069-angel-2) | Cómo invertir como ángel, parte 2 | 🔵 generando TTS | — | — | — |
-| 70 | [070-matt-ridley](episodios/2020/070-matt-ridley) | Matt Ridley: Cómo funciona la innovación, parte 1 | 🔵 generando TTS | — | — | — |
+| 69 | [069-angel-2](episodios/2020/069-angel-2) | Cómo invertir como ángel, parte 2 | 🟣 montaje | ✅ 2026-11-26 | — | — |
+| 70 | [070-matt-ridley](episodios/2020/070-matt-ridley) | Matt Ridley: Cómo funciona la innovación, parte 1 | 🟣 montaje | ✅ 2026-11-26 | — | — |
 | 71 | [071-matt-ridley-2](episodios/2020/071-matt-ridley-2) | Matt Ridley: Cómo funciona la innovación, parte 2 | 🔵 generando TTS | — | — | — |
 
 ## 2019
