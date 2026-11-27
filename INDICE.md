@@ -2,7 +2,7 @@
 
 <!-- Generado por scripts/indice.py. No editar a mano. -->
 
-**162** episodios · **18** publicados · **70** escuchados por el autor (**0** para revisar) · **0** sin empezar
+**162** episodios · **18** publicados · **105** escuchados por el autor (**0** para revisar) · **0** sin empezar
 
 ## 2026
 
@@ -65,40 +65,40 @@
 
 | # | Episodio | Título en español | Estado | Escuchado | Drive | YouTube |
 |---|---|---|---|---|---|---|
-| 72 | [072-science-2](episodios/2021/072-science-2) | La ciencia es el motor que hace avanzar a la humanidad | 🔵 generando TTS | — | — | — |
-| 73 | [073-think](episodios/2021/073-think) | Este libro cambió mi forma de pensar | 🔵 generando TTS | — | — | — |
-| 74 | [074-nullius](episodios/2021/074-nullius) | Nullius in verba | 🔵 generando TTS | — | — | — |
-| 75 | [075-reach](episodios/2021/075-reach) | Explicaciones que alcanzan a todo el universo | 🔵 generando TTS | — | — | — |
-| 76 | [076-read](episodios/2021/076-read) | Lee los cien mejores libros una y otra vez | 🔵 generando TTS | — | — | — |
-| 77 | [077-happiness](episodios/2021/077-happiness) | La felicidad | 🔵 generando TTS | — | — | — |
-| 78 | [078-knowledge](episodios/2021/078-knowledge) | Estamos al comienzo de un infinito de conocimiento | 🔵 generando TTS | — | — | — |
-| 79 | [079-people](episodios/2021/079-people) | Las personas son una fuerza de la naturaleza | 🔵 generando TTS | — | — | — |
-| 80 | [080-predict](episodios/2021/080-predict) | Es imposible predecir el crecimiento del conocimiento | 🔵 generando TTS | — | — | — |
-| 81 | [081-understand](episodios/2021/081-understand) | Los humanos somos únicos en nuestra capacidad de entender | 🔵 generando TTS | — | — | — |
-| 82 | [082-explanations](episodios/2021/082-explanations) | Las buenas explicaciones son actos de creatividad | 🔵 generando TTS | — | — | — |
-| 83 | [083-vary](episodios/2021/083-vary) | Las buenas explicaciones son difíciles de variar | 🔵 generando TTS | — | — | — |
-| 84 | [084-end](episodios/2021/084-end) | La ciencia no tiene fin | 🔵 generando TTS | — | — | — |
-| 85 | [085-settled](episodios/2021/085-settled) | No existen unas matemáticas definitivas | 🔵 generando TTS | — | — | — |
-| 86 | [086-methods](episodios/2021/086-methods) | Los métodos de las matemáticas son falibles | 🔵 generando TTS | — | — | — |
-| 87 | [087-conjectural](episodios/2021/087-conjectural) | Todo conocimiento es conjetural | 🔵 generando TTS | — | — | — |
-| 88 | [088-discrete](episodios/2021/088-discrete) | ¿El universo es discreto o continuo? | 🔵 generando TTS | — | — | — |
-| 89 | [089-substrate](episodios/2021/089-substrate) | Toda teoría reside en un sustrato físico | 🔵 generando TTS | — | — | — |
-| 90 | [090-prove](episodios/2021/090-prove) | Con la física que conocemos no podemos demostrar la mayoría de los teoremas | 🔵 generando TTS | — | — | — |
-| 91 | [091-probability](episodios/2021/091-probability) | La probabilidad es subjetiva | 🔵 generando TTS | — | — | — |
-| 92 | [092-light](episodios/2021/092-light) | ¿La luz es una partícula o una onda? | 🔵 generando TTS | — | — | — |
-| 93 | [093-multiverse](episodios/2021/093-multiverse) | El multiverso | 🔵 generando TTS | — | — | — |
-| 94 | [094-unseen](episodios/2021/094-unseen) | Explicamos lo visible a partir de lo invisible | 🔵 generando TTS | — | — | — |
-| 95 | [095-expand](episodios/2021/095-expand) | La ciencia amplía nuestra visión de la realidad | 🔵 generando TTS | — | — | — |
-| 96 | [096-error](episodios/2021/096-error) | La ciencia es un mecanismo de corrección de errores | 🔵 generando TTS | — | — | — |
-| 97 | [097-predictions](episodios/2021/097-predictions) | Las teorías son explicaciones, no predicciones | 🔵 generando TTS | — | — | — |
-| 98 | [098-bold](episodios/2021/098-bold) | Haz conjeturas audaces y descarta las que fallen | 🔵 generando TTS | — | — | — |
-| 99 | [099-advances](episodios/2021/099-advances) | La ciencia avanza de funeral en funeral | 🔵 generando TTS | — | — | — |
-| 100 | [100-theories](episodios/2021/100-theories) | Es raro tener teorías científicas viables que compitan entre sí | 🔵 generando TTS | — | — | — |
-| 101 | [101-ignorance](episodios/2021/101-ignorance) | En nuestra infinita ignorancia, todos somos iguales | 🔵 generando TTS | — | — | — |
-| 102 | [102-extrapolate](episodios/2021/102-extrapolate) | Es fácil extrapolar cómo empeorarán las cosas | 🔵 generando TTS | — | — | — |
-| 103 | [103-pessimism](episodios/2021/103-pessimism) | El pesimismo parece una postura intelectualmente seria | 🔵 generando TTS | — | — | — |
-| 104 | [104-optimism](episodios/2021/104-optimism) | El optimismo racional es la salida | 🔵 generando TTS | — | — | — |
-| 105 | [105-infinity](episodios/2021/105-infinity) | El comienzo del infinito, parte 1 | 🔵 generando TTS | — | — | — |
+| 72 | [072-science-2](episodios/2021/072-science-2) | La ciencia es el motor que hace avanzar a la humanidad | 🟣 montaje | ✅ 2026-11-27 | — | — |
+| 73 | [073-think](episodios/2021/073-think) | Este libro cambió mi forma de pensar | 🟣 montaje | ✅ 2026-11-27 | — | — |
+| 74 | [074-nullius](episodios/2021/074-nullius) | Nullius in verba | 🟣 montaje | ✅ 2026-11-27 | — | — |
+| 75 | [075-reach](episodios/2021/075-reach) | Explicaciones que alcanzan a todo el universo | 🟣 montaje | ✅ 2026-11-27 | — | — |
+| 76 | [076-read](episodios/2021/076-read) | Lee los cien mejores libros una y otra vez | 🟣 montaje | ✅ 2026-11-27 | — | — |
+| 77 | [077-happiness](episodios/2021/077-happiness) | La felicidad | 🟣 montaje | ✅ 2026-11-27 | — | — |
+| 78 | [078-knowledge](episodios/2021/078-knowledge) | Estamos al comienzo de un infinito de conocimiento | 🟣 montaje | ✅ 2026-11-27 | — | — |
+| 79 | [079-people](episodios/2021/079-people) | Las personas son una fuerza de la naturaleza | 🟣 montaje | ✅ 2026-11-27 | — | — |
+| 80 | [080-predict](episodios/2021/080-predict) | Es imposible predecir el crecimiento del conocimiento | 🟣 montaje | ✅ 2026-11-27 | — | — |
+| 81 | [081-understand](episodios/2021/081-understand) | Los humanos somos únicos en nuestra capacidad de entender | 🟣 montaje | ✅ 2026-11-27 | — | — |
+| 82 | [082-explanations](episodios/2021/082-explanations) | Las buenas explicaciones son actos de creatividad | 🟣 montaje | ✅ 2026-11-27 | — | — |
+| 83 | [083-vary](episodios/2021/083-vary) | Las buenas explicaciones son difíciles de variar | 🟣 montaje | ✅ 2026-11-27 | — | — |
+| 84 | [084-end](episodios/2021/084-end) | La ciencia no tiene fin | 🟣 montaje | ✅ 2026-11-27 | — | — |
+| 85 | [085-settled](episodios/2021/085-settled) | No existen unas matemáticas definitivas | 🟣 montaje | ✅ 2026-11-27 | — | — |
+| 86 | [086-methods](episodios/2021/086-methods) | Los métodos de las matemáticas son falibles | 🟣 montaje | ✅ 2026-11-27 | — | — |
+| 87 | [087-conjectural](episodios/2021/087-conjectural) | Todo conocimiento es conjetural | 🟣 montaje | ✅ 2026-11-27 | — | — |
+| 88 | [088-discrete](episodios/2021/088-discrete) | ¿El universo es discreto o continuo? | 🟣 montaje | ✅ 2026-11-27 | — | — |
+| 89 | [089-substrate](episodios/2021/089-substrate) | Toda teoría reside en un sustrato físico | 🟣 montaje | ✅ 2026-11-27 | — | — |
+| 90 | [090-prove](episodios/2021/090-prove) | Con la física que conocemos no podemos demostrar la mayoría de los teoremas | 🟣 montaje | ✅ 2026-11-27 | — | — |
+| 91 | [091-probability](episodios/2021/091-probability) | La probabilidad es subjetiva | 🟣 montaje | ✅ 2026-11-27 | — | — |
+| 92 | [092-light](episodios/2021/092-light) | ¿La luz es una partícula o una onda? | 🟣 montaje | ✅ 2026-11-27 | — | — |
+| 93 | [093-multiverse](episodios/2021/093-multiverse) | El multiverso | 🟣 montaje | ✅ 2026-11-27 | — | — |
+| 94 | [094-unseen](episodios/2021/094-unseen) | Explicamos lo visible a partir de lo invisible | 🟣 montaje | ✅ 2026-11-27 | — | — |
+| 95 | [095-expand](episodios/2021/095-expand) | La ciencia amplía nuestra visión de la realidad | 🟣 montaje | ✅ 2026-11-27 | — | — |
+| 96 | [096-error](episodios/2021/096-error) | La ciencia es un mecanismo de corrección de errores | 🟣 montaje | ✅ 2026-11-27 | — | — |
+| 97 | [097-predictions](episodios/2021/097-predictions) | Las teorías son explicaciones, no predicciones | 🟣 montaje | ✅ 2026-11-27 | — | — |
+| 98 | [098-bold](episodios/2021/098-bold) | Haz conjeturas audaces y descarta las que fallen | 🟣 montaje | ✅ 2026-11-27 | — | — |
+| 99 | [099-advances](episodios/2021/099-advances) | La ciencia avanza de funeral en funeral | 🟣 montaje | ✅ 2026-11-27 | — | — |
+| 100 | [100-theories](episodios/2021/100-theories) | Es raro tener teorías científicas viables que compitan entre sí | 🟣 montaje | ✅ 2026-11-27 | — | — |
+| 101 | [101-ignorance](episodios/2021/101-ignorance) | En nuestra infinita ignorancia, todos somos iguales | 🟣 montaje | ✅ 2026-11-27 | — | — |
+| 102 | [102-extrapolate](episodios/2021/102-extrapolate) | Es fácil extrapolar cómo empeorarán las cosas | 🟣 montaje | ✅ 2026-11-27 | — | — |
+| 103 | [103-pessimism](episodios/2021/103-pessimism) | El pesimismo parece una postura intelectualmente seria | 🟣 montaje | ✅ 2026-11-27 | — | — |
+| 104 | [104-optimism](episodios/2021/104-optimism) | El optimismo racional es la salida | 🟣 montaje | ✅ 2026-11-27 | — | — |
+| 105 | [105-infinity](episodios/2021/105-infinity) | El comienzo del infinito, parte 1 | 🟣 montaje | ✅ 2026-11-27 | — | — |
 | 106 | [106-theory](episodios/2021/106-theory) | Con una buena teoría del conocimiento, puedes decidir qué más es verdad | 🔵 generando TTS | — | — | — |
 | 107 | [107-justified](episodios/2021/107-justified) | Ninguna verdad puede justificarse | 🔵 generando TTS | — | — | — |
 | 108 | [108-gravity](episodios/2021/108-gravity) | No puede haber una teoría definitiva de la gravedad | 🔵 generando TTS | — | — | — |
@@ -147,7 +147,7 @@
 | 68 | [068-kapil](episodios/2020/068-kapil) | Kapil Gupta: Conquistando la mente | 🟣 montaje | ✅ 2026-11-25 | — | — |
 | 69 | [069-angel-2](episodios/2020/069-angel-2) | Cómo invertir como ángel, parte 2 | 🟣 montaje | ✅ 2026-11-26 | — | — |
 | 70 | [070-matt-ridley](episodios/2020/070-matt-ridley) | Matt Ridley: Cómo funciona la innovación, parte 1 | 🟣 montaje | ✅ 2026-11-26 | — | — |
-| 71 | [071-matt-ridley-2](episodios/2020/071-matt-ridley-2) | Matt Ridley: Cómo funciona la innovación, parte 2 | 🔵 generando TTS | — | — | — |
+| 71 | [071-matt-ridley-2](episodios/2020/071-matt-ridley-2) | Matt Ridley: Cómo funciona la innovación, parte 2 | 🟣 montaje | ✅ 2026-11-27 | — | — |
 
 ## 2019
 

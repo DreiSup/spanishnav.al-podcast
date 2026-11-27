@@ -5,10 +5,10 @@
   "anio": 2021,
   "slug": "explanations",
   "titulo_es": "Las buenas explicaciones son actos de creatividad",
-  "estado": "tts",
+  "estado": "montaje",
   "youtube": {
     "titulo": "Las buenas explicaciones son actos de creatividad",
-    "descripcion": "",
+    "descripcion": "Episodio 82 de la traducción al español del podcast de Naval Ravikant.\nLas buenas explicaciones son actos de creatividad: No se deducen de mirar al pasado.\n\n▶ Episodio original en YouTube: https://www.youtube.com/watch?v=qOnZib2M0wM\n▶ Transcripción original en inglés: https://nav.al/explanations\n▶ Este episodio en español, con su transcripción: https://spanishnav.al/explanations\n▶ Canal original de Naval: https://www.youtube.com/@NavalR\n\nTraducción no oficial. Contenido original de Naval Ravikant, publicado en nav.al.\n\nEste podcast se ha traducido al español con inteligencia artificial. Puede haber errores o inconsistencias tanto en la traducción como en la dicción.\nLa transcripción se ha traducido del inglés al español con Claude Opus 5.5 (esfuerzo alto), de Anthropic. La voz en español se ha generado con Qwen3-TTS, un modelo de voz de código abierto fine-tuned con las voces de Naval y de otros participantes.\n\n¿Algún problema o queja? Escríbeme a podcast@spanishnav.al\n\n—\n\nUnofficial Spanish translation of Naval Ravikant's podcast. Original content by Naval Ravikant at nav.al.\nThis podcast has been translated into Spanish using artificial intelligence. There may be errors or inconsistencies in both the translation and the diction.\nThe transcript was translated from English to Spanish with Anthropic's Claude Opus 5.5 (high effort). The Spanish audio was generated with Qwen3-TTS, an open-source voice model fine-tuned on the voices of Naval and other participants.\nIf you run into any problems or have a complaint, reach me at podcast@spanishnav.al",
     "tags": [],
     "url": "",
     "url_original": "https://www.youtube.com/watch?v=qOnZib2M0wM"
@@ -23,10 +23,17 @@
   "audio_editado_a_mano": false,
   "heredado": null,
   "escucha": {
-    "escuchado": false,
-    "resultado": null,
-    "fecha": null,
-    "feedback": ""
+    "escuchado": true,
+    "resultado": "bueno",
+    "fecha": "2026-11-27",
+    "feedback": "2026-11-27: bueno. Aprobado con el 105, del que es un tramo con los mismos clips (el autor escuchó el 105 entero, 27-nov)"
   },
-  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). 082 Las buenas explicaciones son actos de creatividad. No hay notas del editor ni artefactos del copiado. En la primera mención va el nombre completo, David Deutsch. Términos del brief: buena explicación, comprobable, falsable. First and foremost se traduce como en primer lugar. Even stepping back from that se traduce como yendo incluso un paso más atrás. La pregunta a los hijos se pasa a estilo indirecto (les pregunto si el sol se va a alguna parte) y las dos preguntas siguientes van en estilo directo sin comillas, con su signo de apertura. Las citas de la explicación creativa (This is why it's happening) van en estilo indirecto con dice cuál es. El subtítulo They're not derived from looking at the past queda como No se deducen de mirar al pasado y se copiará igual en la recopilación 105. Nombres que hay que escuchar: Brett, David Deutsch. Ratio 1,15, ningún bloque fuera de rango.\n\nREVISIÓN CON EL AUTOR (7-nov). Leído entero el inglés de la serie y revisado frase a frase con los términos que decidió el autor el 7-nov (GLOSARIO.md, Brett Hall y David Deutsch). Cero avisos del normalizador. Cambios: testable = contrastable (decisión del autor), b01 frases 6 y 19. Mismo cambio en la 105."
+  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). 082 Las buenas explicaciones son actos de creatividad. No hay notas del editor ni artefactos del copiado. En la primera mención va el nombre completo, David Deutsch. Términos del brief: buena explicación, comprobable, falsable. First and foremost se traduce como en primer lugar. Even stepping back from that se traduce como yendo incluso un paso más atrás. La pregunta a los hijos se pasa a estilo indirecto (les pregunto si el sol se va a alguna parte) y las dos preguntas siguientes van en estilo directo sin comillas, con su signo de apertura. Las citas de la explicación creativa (This is why it's happening) van en estilo indirecto con dice cuál es. El subtítulo They're not derived from looking at the past queda como No se deducen de mirar al pasado y se copiará igual en la recopilación 105. Nombres que hay que escuchar: Brett, David Deutsch. Ratio 1,15, ningún bloque fuera de rango.\n\nREVISIÓN CON EL AUTOR (7-nov). Leído entero el inglés de la serie y revisado frase a frase con los términos que decidió el autor el 7-nov (GLOSARIO.md, Brett Hall y David Deutsch). Cero avisos del normalizador. Cambios: testable = contrastable (decisión del autor), b01 frases 6 y 19. Mismo cambio en la 105.",
+  "publicacion": {
+    "fecha": "2027-01-25",
+    "audio_url": "https://audio.spanishnav.al/2021/082-explanations.mp3",
+    "feed_guid": "spanishnav.al/2021/explanations",
+    "audio_bytes": 0,
+    "duracion_s": 0
+  }
 }

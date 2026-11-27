@@ -5,10 +5,10 @@
   "anio": 2021,
   "slug": "bold",
   "titulo_es": "Haz conjeturas audaces y descarta las que fallen",
-  "estado": "tts",
+  "estado": "montaje",
   "youtube": {
     "titulo": "Haz conjeturas audaces y descarta las que fallen",
-    "descripcion": "",
+    "descripcion": "Episodio 98 de la traducción al español del podcast de Naval Ravikant.\nHaz conjeturas audaces y descarta las que fallen: Las mejores teorías salen de tu imaginación, no de extrapolar.\n\n▶ Episodio original en YouTube: https://www.youtube.com/watch?v=0xIKoVGS3HA\n▶ Transcripción original en inglés: https://nav.al/bold\n▶ Este episodio en español, con su transcripción: https://spanishnav.al/bold\n▶ Canal original de Naval: https://www.youtube.com/@NavalR\n\nTraducción no oficial. Contenido original de Naval Ravikant, publicado en nav.al.\n\nEste podcast se ha traducido al español con inteligencia artificial. Puede haber errores o inconsistencias tanto en la traducción como en la dicción.\nLa transcripción se ha traducido del inglés al español con Claude Opus 5.5 (esfuerzo alto), de Anthropic. La voz en español se ha generado con Qwen3-TTS, un modelo de voz de código abierto fine-tuned con las voces de Naval y de otros participantes.\n\n¿Algún problema o queja? Escríbeme a podcast@spanishnav.al\n\n—\n\nUnofficial Spanish translation of Naval Ravikant's podcast. Original content by Naval Ravikant at nav.al.\nThis podcast has been translated into Spanish using artificial intelligence. There may be errors or inconsistencies in both the translation and the diction.\nThe transcript was translated from English to Spanish with Anthropic's Claude Opus 5.5 (high effort). The Spanish audio was generated with Qwen3-TTS, an open-source voice model fine-tuned on the voices of Naval and other participants.\nIf you run into any problems or have a complaint, reach me at podcast@spanishnav.al",
     "tags": [],
     "url": "",
     "url_original": "https://www.youtube.com/watch?v=0xIKoVGS3HA"
@@ -23,10 +23,17 @@
   "audio_editado_a_mano": false,
   "heredado": null,
   "escucha": {
-    "escuchado": false,
-    "resultado": null,
-    "fecha": null,
-    "feedback": ""
+    "escuchado": true,
+    "resultado": "bueno",
+    "fecha": "2026-11-27",
+    "feedback": "2026-11-27: bueno. Aprobado con el 105, del que es un tramo con los mismos clips (el autor escuchó el 105 entero, 27-nov)"
   },
-  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). Sin notas del editor. El final del inglés está mal construido: they're also hard to vary and to make risky and narrow predictions. Se ha traducido por el sentido: son difíciles de variar y hacen predicciones arriesgadas y concretas. El pavo de Acción de Gracias va como dice el brief (T10): hasta que llega el día de Acción de Gracias y se lleva un buen susto. Términos fijos: conjeturas audaces y conjeturas creativas para guesses, falsables, comprobables, difíciles de variar, predicciones arriesgadas y concretas y creación de conocimiento. Weed out se traduce descartar, igual que en el título. Trial and error se traduce ensayo y error. Precisely. Now, the theories have to be guessed es una frase corta y va fundida con la siguiente. Nombres que hay que escuchar: Thomas Edison, Nikola Tesla y Einstein. El validador avisa de hablante no habitual Brett, que es propio de la serie. Ratio 1,04.\n\nREVISIÓN CON EL AUTOR (7-nov). Leído entero el inglés de la serie y revisado frase a frase con los términos que decidió el autor el 7-nov (GLOSARIO.md, Brett Hall y David Deutsch). Cero avisos del normalizador. Cambio: testable = contrastable (decisión del autor), b03 frase 1: son contrastables y falsables. Mismo cambio en la 105."
+  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). Sin notas del editor. El final del inglés está mal construido: they're also hard to vary and to make risky and narrow predictions. Se ha traducido por el sentido: son difíciles de variar y hacen predicciones arriesgadas y concretas. El pavo de Acción de Gracias va como dice el brief (T10): hasta que llega el día de Acción de Gracias y se lleva un buen susto. Términos fijos: conjeturas audaces y conjeturas creativas para guesses, falsables, comprobables, difíciles de variar, predicciones arriesgadas y concretas y creación de conocimiento. Weed out se traduce descartar, igual que en el título. Trial and error se traduce ensayo y error. Precisely. Now, the theories have to be guessed es una frase corta y va fundida con la siguiente. Nombres que hay que escuchar: Thomas Edison, Nikola Tesla y Einstein. El validador avisa de hablante no habitual Brett, que es propio de la serie. Ratio 1,04.\n\nREVISIÓN CON EL AUTOR (7-nov). Leído entero el inglés de la serie y revisado frase a frase con los términos que decidió el autor el 7-nov (GLOSARIO.md, Brett Hall y David Deutsch). Cero avisos del normalizador. Cambio: testable = contrastable (decisión del autor), b03 frase 1: son contrastables y falsables. Mismo cambio en la 105.",
+  "publicacion": {
+    "fecha": "2027-02-10",
+    "audio_url": "https://audio.spanishnav.al/2021/098-bold.mp3",
+    "feed_guid": "spanishnav.al/2021/bold",
+    "audio_bytes": 0,
+    "duracion_s": 0
+  }
 }

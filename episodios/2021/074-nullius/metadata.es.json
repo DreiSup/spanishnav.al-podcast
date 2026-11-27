@@ -5,10 +5,10 @@
   "anio": 2021,
   "slug": "nullius",
   "titulo_es": "Nullius in verba",
-  "estado": "tts",
+  "estado": "montaje",
   "youtube": {
     "titulo": "Nullius in verba",
-    "descripcion": "",
+    "descripcion": "Episodio 74 de la traducción al español del podcast de Naval Ravikant.\nNullius in verba: No te fíes de la palabra de nadie.\n\n▶ Episodio original en YouTube: https://www.youtube.com/watch?v=XnW5-y61Jmg\n▶ Transcripción original en inglés: https://nav.al/nullius\n▶ Este episodio en español, con su transcripción: https://spanishnav.al/nullius\n▶ Canal original de Naval: https://www.youtube.com/@NavalR\n\nTraducción no oficial. Contenido original de Naval Ravikant, publicado en nav.al.\n\nEste podcast se ha traducido al español con inteligencia artificial. Puede haber errores o inconsistencias tanto en la traducción como en la dicción.\nLa transcripción se ha traducido del inglés al español con Claude Opus 5.5 (esfuerzo alto), de Anthropic. La voz en español se ha generado con Qwen3-TTS, un modelo de voz de código abierto fine-tuned con las voces de Naval y de otros participantes.\n\n¿Algún problema o queja? Escríbeme a podcast@spanishnav.al\n\n—\n\nUnofficial Spanish translation of Naval Ravikant's podcast. Original content by Naval Ravikant at nav.al.\nThis podcast has been translated into Spanish using artificial intelligence. There may be errors or inconsistencies in both the translation and the diction.\nThe transcript was translated from English to Spanish with Anthropic's Claude Opus 5.5 (high effort). The Spanish audio was generated with Qwen3-TTS, an open-source voice model fine-tuned on the voices of Naval and other participants.\nIf you run into any problems or have a complaint, reach me at podcast@spanishnav.al",
     "tags": [],
     "url": "",
     "url_original": "https://www.youtube.com/watch?v=XnW5-y61Jmg"
@@ -23,10 +23,17 @@
   "audio_editado_a_mano": false,
   "heredado": null,
   "escucha": {
-    "escuchado": false,
-    "resultado": null,
-    "fecha": null,
-    "feedback": ""
+    "escuchado": true,
+    "resultado": "bueno",
+    "fecha": "2026-11-27",
+    "feedback": "2026-11-27: bueno. Aprobado con el 105, del que es un tramo con los mismos clips (el autor escuchó el 105 entero, 27-nov)"
   },
-  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). 074 Nullius in Verba. Dos bloques (Naval y Brett Hall). El speaker del segundo es Brett Hall, tal cual viene en el inglés. El validador da un aviso informativo de hablante no habitual, sin error. 22 frases, ratio 1,02, frase más larga de 27 palabras. Sin notas del editor ni artefactos. El título se escribe bien, Nullius in verba. En el texto del TTS va nulius in verba, con una sola ele, para que el TTS español no lea nuyius (brief T6). El lema y su traducción van sin comillas: el viejo lema de la Royal Society, nulius in verba, que significa no te fíes de la palabra de nadie. ToKCast se escribe Tokcast y se explica así: su podcast, Tokcast, que viene de podcast de la teoría del conocimiento (brief, apartado 4). Lo que pensaba Brett, en estilo directo en el inglés (Well, I want to be an astronomer, so I'll go...), pasa a estilo indirecto en dos frases (pensaba que quería ser astrónomo... Pensaba que iría a la universidad...). El saludo corto de Brett (Hola, Naval, es un placer estar aquí.) va en el mismo elemento que la frase siguiente para que no quede suelto. La única frase de menos de ocho palabras es la pregunta final (¿Cómo ibas a poder saberlo todo?). La estructura de la realidad es el título de la edición de Anagrama. Nombres a escuchar: Royal Society, nulius in verba, Tokcast, Brett Hall, David Deutsch.\n\nREVISIÓN CON EL AUTOR (7-nov). Leído entero el inglés de la serie y revisado frase a frase con los términos que decidió el autor el 7-nov (GLOSARIO.md, Brett Hall y David Deutsch). Cero avisos del normalizador. Sin cambios: la traducción es fiel, sin calcos y cumple las reglas del TTS."
+  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). 074 Nullius in Verba. Dos bloques (Naval y Brett Hall). El speaker del segundo es Brett Hall, tal cual viene en el inglés. El validador da un aviso informativo de hablante no habitual, sin error. 22 frases, ratio 1,02, frase más larga de 27 palabras. Sin notas del editor ni artefactos. El título se escribe bien, Nullius in verba. En el texto del TTS va nulius in verba, con una sola ele, para que el TTS español no lea nuyius (brief T6). El lema y su traducción van sin comillas: el viejo lema de la Royal Society, nulius in verba, que significa no te fíes de la palabra de nadie. ToKCast se escribe Tokcast y se explica así: su podcast, Tokcast, que viene de podcast de la teoría del conocimiento (brief, apartado 4). Lo que pensaba Brett, en estilo directo en el inglés (Well, I want to be an astronomer, so I'll go...), pasa a estilo indirecto en dos frases (pensaba que quería ser astrónomo... Pensaba que iría a la universidad...). El saludo corto de Brett (Hola, Naval, es un placer estar aquí.) va en el mismo elemento que la frase siguiente para que no quede suelto. La única frase de menos de ocho palabras es la pregunta final (¿Cómo ibas a poder saberlo todo?). La estructura de la realidad es el título de la edición de Anagrama. Nombres a escuchar: Royal Society, nulius in verba, Tokcast, Brett Hall, David Deutsch.\n\nREVISIÓN CON EL AUTOR (7-nov). Leído entero el inglés de la serie y revisado frase a frase con los términos que decidió el autor el 7-nov (GLOSARIO.md, Brett Hall y David Deutsch). Cero avisos del normalizador. Sin cambios: la traducción es fiel, sin calcos y cumple las reglas del TTS.",
+  "publicacion": {
+    "fecha": "2027-01-17",
+    "audio_url": "https://audio.spanishnav.al/2021/074-nullius.mp3",
+    "feed_guid": "spanishnav.al/2021/nullius",
+    "audio_bytes": 0,
+    "duracion_s": 0
+  }
 }

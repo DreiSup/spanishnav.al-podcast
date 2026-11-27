@@ -5,10 +5,10 @@
   "anio": 2021,
   "slug": "understand",
   "titulo_es": "Los humanos somos únicos en nuestra capacidad de entender",
-  "estado": "tts",
+  "estado": "montaje",
   "youtube": {
     "titulo": "Los humanos somos únicos en nuestra capacidad de entender",
-    "descripcion": "",
+    "descripcion": "Episodio 81 de la traducción al español del podcast de Naval Ravikant.\nLos humanos somos únicos en nuestra capacidad de entender: El conocimiento está en el observador, no en lo observado.\n\n▶ Episodio original en YouTube: https://www.youtube.com/watch?v=0gMGEuLt-Es\n▶ Transcripción original en inglés: https://nav.al/understand\n▶ Este episodio en español, con su transcripción: https://spanishnav.al/understand\n▶ Canal original de Naval: https://www.youtube.com/@NavalR\n\nTraducción no oficial. Contenido original de Naval Ravikant, publicado en nav.al.\n\nEste podcast se ha traducido al español con inteligencia artificial. Puede haber errores o inconsistencias tanto en la traducción como en la dicción.\nLa transcripción se ha traducido del inglés al español con Claude Opus 5.5 (esfuerzo alto), de Anthropic. La voz en español se ha generado con Qwen3-TTS, un modelo de voz de código abierto fine-tuned con las voces de Naval y de otros participantes.\n\n¿Algún problema o queja? Escríbeme a podcast@spanishnav.al\n\n—\n\nUnofficial Spanish translation of Naval Ravikant's podcast. Original content by Naval Ravikant at nav.al.\nThis podcast has been translated into Spanish using artificial intelligence. There may be errors or inconsistencies in both the translation and the diction.\nThe transcript was translated from English to Spanish with Anthropic's Claude Opus 5.5 (high effort). The Spanish audio was generated with Qwen3-TTS, an open-source voice model fine-tuned on the voices of Naval and other participants.\nIf you run into any problems or have a complaint, reach me at podcast@spanishnav.al",
     "tags": [],
     "url": "",
     "url_original": "https://www.youtube.com/watch?v=0gMGEuLt-Es"
@@ -23,10 +23,17 @@
   "audio_editado_a_mano": false,
   "heredado": null,
   "escucha": {
-    "escuchado": false,
-    "resultado": null,
-    "fecha": null,
-    "feedback": ""
+    "escuchado": true,
+    "resultado": "bueno",
+    "fecha": "2026-11-27",
+    "feedback": "2026-11-27: bueno. Aprobado con el 105, del que es un tramo con los mismos clips (el autor escuchó el 105 entero, 27-nov)"
   },
-  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). Sin notas del editor ni artefactos del copiado. Se mantiene la distinción entre información y conocimiento (brief T12). «Knowledge-bearing entity» se traduce «una entidad concreta que porta conocimiento», según el término fijo del brief. «At a micro-level / at a macro-level» queda en «a pequeña escala / a gran escala», más natural para el oído que «a nivel micro». El inciso entre rayas, «a lot of the information—a lot of the value», queda con comas y sin rayas. «Use it for combustion» se traduce aprovechar su combustión. Revisión: la frase corta «No está dentro de la cosa en sí.» se funde con la anterior, y la señal emitiendo pasa a una relativa. Sin avisos del validador. No hay nombres que haya que escuchar. Ningún bloque fuera de rango: ratio 1,11.\n\nREVISIÓN CON EL AUTOR (7-nov). Leído entero el inglés de la serie y revisado frase a frase con los términos que decidió el autor el 7-nov (GLOSARIO.md, Brett Hall y David Deutsch). Cero avisos del normalizador. Sin cambios: la traducción es fiel, sin calcos y cumple las reglas del TTS."
+  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). Sin notas del editor ni artefactos del copiado. Se mantiene la distinción entre información y conocimiento (brief T12). «Knowledge-bearing entity» se traduce «una entidad concreta que porta conocimiento», según el término fijo del brief. «At a micro-level / at a macro-level» queda en «a pequeña escala / a gran escala», más natural para el oído que «a nivel micro». El inciso entre rayas, «a lot of the information—a lot of the value», queda con comas y sin rayas. «Use it for combustion» se traduce aprovechar su combustión. Revisión: la frase corta «No está dentro de la cosa en sí.» se funde con la anterior, y la señal emitiendo pasa a una relativa. Sin avisos del validador. No hay nombres que haya que escuchar. Ningún bloque fuera de rango: ratio 1,11.\n\nREVISIÓN CON EL AUTOR (7-nov). Leído entero el inglés de la serie y revisado frase a frase con los términos que decidió el autor el 7-nov (GLOSARIO.md, Brett Hall y David Deutsch). Cero avisos del normalizador. Sin cambios: la traducción es fiel, sin calcos y cumple las reglas del TTS.",
+  "publicacion": {
+    "fecha": "2027-01-24",
+    "audio_url": "https://audio.spanishnav.al/2021/081-understand.mp3",
+    "feed_guid": "spanishnav.al/2021/understand",
+    "audio_bytes": 0,
+    "duracion_s": 0
+  }
 }

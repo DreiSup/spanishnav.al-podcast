@@ -5,10 +5,10 @@
   "anio": 2021,
   "slug": "conjectural",
   "titulo_es": "Todo conocimiento es conjetural",
-  "estado": "tts",
+  "estado": "montaje",
   "youtube": {
     "titulo": "Todo conocimiento es conjetural",
-    "descripcion": "",
+    "descripcion": "Episodio 87 de la traducción al español del podcast de Naval Ravikant.\nTodo conocimiento es conjetural: Desconfía de la certeza absoluta.\n\n▶ Episodio original en YouTube: https://www.youtube.com/watch?v=auyg7kfxHdU\n▶ Transcripción original en inglés: https://nav.al/conjectural\n▶ Este episodio en español, con su transcripción: https://spanishnav.al/conjectural\n▶ Canal original de Naval: https://www.youtube.com/@NavalR\n\nTraducción no oficial. Contenido original de Naval Ravikant, publicado en nav.al.\n\nEste podcast se ha traducido al español con inteligencia artificial. Puede haber errores o inconsistencias tanto en la traducción como en la dicción.\nLa transcripción se ha traducido del inglés al español con Claude Opus 5.5 (esfuerzo alto), de Anthropic. La voz en español se ha generado con Qwen3-TTS, un modelo de voz de código abierto fine-tuned con las voces de Naval y de otros participantes.\n\n¿Algún problema o queja? Escríbeme a podcast@spanishnav.al\n\n—\n\nUnofficial Spanish translation of Naval Ravikant's podcast. Original content by Naval Ravikant at nav.al.\nThis podcast has been translated into Spanish using artificial intelligence. There may be errors or inconsistencies in both the translation and the diction.\nThe transcript was translated from English to Spanish with Anthropic's Claude Opus 5.5 (high effort). The Spanish audio was generated with Qwen3-TTS, an open-source voice model fine-tuned on the voices of Naval and other participants.\nIf you run into any problems or have a complaint, reach me at podcast@spanishnav.al",
     "tags": [],
     "url": "",
     "url_original": "https://www.youtube.com/watch?v=auyg7kfxHdU"
@@ -23,10 +23,17 @@
   "audio_editado_a_mano": false,
   "heredado": null,
   "escucha": {
-    "escuchado": false,
-    "resultado": null,
-    "fecha": null,
-    "feedback": ""
+    "escuchado": true,
+    "resultado": "bueno",
+    "fecha": "2026-11-27",
+    "feedback": "2026-11-27: bueno. Aprobado con el 105, del que es un tramo con los mismos clips (el autor escuchó el 105 entero, 27-nov)"
   },
-  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). 087 Todo conocimiento es conjetural. Brett da instrucciones al oyente («Anyone might want to try this experiment for themselves: Take a piece of paper…»), que pasan a imperativo de tú: Si quieres, puedes hacer tú mismo este experimento. Coge una hoja de papel… La cita de Popper («It is impossible to speak in such a way that you cannot be misunderstood», de Búsqueda sin término) va en estilo indirecto y sin comillas: es imposible hablar de manera que nadie pueda malinterpretarte. Las citas imaginadas («Because it's clearly and obviously the case», «That's unfair, that's cheating») también van en estilo indirecto. La fórmula «x plus zero must equal x» va como «equis más cero tiene que ser igual a equis». Euclid's Elements se traduce como los Elementos de Euclides. Posible lapsus del inglés, que no se ha tocado: Brett pregunta «How do we know that an axiom is incorrect?» y contesta con la justificación tradicional de que un axioma es correcto («Because it's clearly and obviously the case»; a continuación: «You just have to accept that it's true»). El revisor lo traduce por el sentido, ¿Cómo sabemos que un axioma es correcto?, como las demás erratas evidentes de la serie; ver decisiones. La frase larga sobre la geometría euclidiana, con una raya en medio, se parte en tres frases completas. «Now,», que aquí introduce el paso siguiente del experimento, se traduce «Y ahora», no «Ahora bien». El validador da un aviso informativo sobre el hablante Brett: es el hablante correcto. Nombres para escuchar: Karl Popper, Euclides, Einstein. Ningún bloque fuera de rango (ratio 1,04).\n\nREVISIÓN CON EL AUTOR (7-nov). Leído entero el inglés de la serie y revisado frase a frase con los términos que decidió el autor el 7-nov (GLOSARIO.md, Brett Hall y David Deutsch). Cero avisos del normalizador. Sin cambios: la traducción es fiel, sin calcos y cumple las reglas del TTS."
+  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). 087 Todo conocimiento es conjetural. Brett da instrucciones al oyente («Anyone might want to try this experiment for themselves: Take a piece of paper…»), que pasan a imperativo de tú: Si quieres, puedes hacer tú mismo este experimento. Coge una hoja de papel… La cita de Popper («It is impossible to speak in such a way that you cannot be misunderstood», de Búsqueda sin término) va en estilo indirecto y sin comillas: es imposible hablar de manera que nadie pueda malinterpretarte. Las citas imaginadas («Because it's clearly and obviously the case», «That's unfair, that's cheating») también van en estilo indirecto. La fórmula «x plus zero must equal x» va como «equis más cero tiene que ser igual a equis». Euclid's Elements se traduce como los Elementos de Euclides. Posible lapsus del inglés, que no se ha tocado: Brett pregunta «How do we know that an axiom is incorrect?» y contesta con la justificación tradicional de que un axioma es correcto («Because it's clearly and obviously the case»; a continuación: «You just have to accept that it's true»). El revisor lo traduce por el sentido, ¿Cómo sabemos que un axioma es correcto?, como las demás erratas evidentes de la serie; ver decisiones. La frase larga sobre la geometría euclidiana, con una raya en medio, se parte en tres frases completas. «Now,», que aquí introduce el paso siguiente del experimento, se traduce «Y ahora», no «Ahora bien». El validador da un aviso informativo sobre el hablante Brett: es el hablante correcto. Nombres para escuchar: Karl Popper, Euclides, Einstein. Ningún bloque fuera de rango (ratio 1,04).\n\nREVISIÓN CON EL AUTOR (7-nov). Leído entero el inglés de la serie y revisado frase a frase con los términos que decidió el autor el 7-nov (GLOSARIO.md, Brett Hall y David Deutsch). Cero avisos del normalizador. Sin cambios: la traducción es fiel, sin calcos y cumple las reglas del TTS.",
+  "publicacion": {
+    "fecha": "2027-01-30",
+    "audio_url": "https://audio.spanishnav.al/2021/087-conjectural.mp3",
+    "feed_guid": "spanishnav.al/2021/conjectural",
+    "audio_bytes": 0,
+    "duracion_s": 0
+  }
 }

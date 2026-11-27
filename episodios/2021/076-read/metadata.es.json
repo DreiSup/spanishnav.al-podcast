@@ -5,10 +5,10 @@
   "anio": 2021,
   "slug": "read",
   "titulo_es": "Lee los cien mejores libros una y otra vez",
-  "estado": "tts",
+  "estado": "montaje",
   "youtube": {
     "titulo": "Lee los cien mejores libros una y otra vez",
-    "descripcion": "",
+    "descripcion": "Episodio 76 de la traducción al español del podcast de Naval Ravikant.\nLee los cien mejores libros una y otra vez: Muchos dicen que lo han leído, pero muy pocos lo entienden.\n\n▶ Episodio original en YouTube: https://www.youtube.com/watch?v=Hiul8rQols4\n▶ Transcripción original en inglés: https://nav.al/read\n▶ Este episodio en español, con su transcripción: https://spanishnav.al/read\n▶ Canal original de Naval: https://www.youtube.com/@NavalR\n\nTraducción no oficial. Contenido original de Naval Ravikant, publicado en nav.al.\n\nEste podcast se ha traducido al español con inteligencia artificial. Puede haber errores o inconsistencias tanto en la traducción como en la dicción.\nLa transcripción se ha traducido del inglés al español con Claude Opus 5.5 (esfuerzo alto), de Anthropic. La voz en español se ha generado con Qwen3-TTS, un modelo de voz de código abierto fine-tuned con las voces de Naval y de otros participantes.\n\n¿Algún problema o queja? Escríbeme a podcast@spanishnav.al\n\n—\n\nUnofficial Spanish translation of Naval Ravikant's podcast. Original content by Naval Ravikant at nav.al.\nThis podcast has been translated into Spanish using artificial intelligence. There may be errors or inconsistencies in both the translation and the diction.\nThe transcript was translated from English to Spanish with Anthropic's Claude Opus 5.5 (high effort). The Spanish audio was generated with Qwen3-TTS, an open-source voice model fine-tuned on the voices of Naval and other participants.\nIf you run into any problems or have a complaint, reach me at podcast@spanishnav.al",
     "tags": [],
     "url": "",
     "url_original": "https://www.youtube.com/watch?v=Hiul8rQols4"
@@ -23,10 +23,17 @@
   "audio_editado_a_mano": false,
   "heredado": null,
   "escucha": {
-    "escuchado": false,
-    "resultado": null,
-    "fecha": null,
-    "feedback": ""
+    "escuchado": true,
+    "resultado": "bueno",
+    "fecha": "2026-11-27",
+    "feedback": "2026-11-27: bueno. Aprobado con el 105, del que es un tramo con los mismos clips (el autor escuchó el 105 entero, 27-nov)"
   },
-  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). Sin notas del editor. Artefacto del copiado en el inglés: falta el espacio tras la coma en «wrote,“I don’t want…»; no afecta al español. La cita de @illacertus va en estilo indirecto y sin arroba: un usuario de Twitter que se hace llamar ilacertus (una sola ele, para que el TTS no lea «iyacertus»). Se mantiene la repetición «empecé a leerlo, y empecé a leerlo, y empecé a leerlo», que es la gracia (brief T10). «We’re hoping to break it down for you» pasa a tú singular, esperamos poder desmenuzártelo (brief T11). Libros con su título español: El comienzo del infinito, La estructura de la realidad, Gödel, Escher, Bach. «20 years ago» va en letra, hace veinte años. Revisión: se unifica el tiempo verbal de las dos confesiones, se completa «las he leído y he intentado entenderlas», el bucle de lectura queda en una frase con su restricción «al menos en ciencia» bien colocada, y se reescribe la última frase de Naval. El único aviso del validador es «hablante no habitual Brett», que es informativo. El bloque 2, «Y la versión en audio.», es la única frase del bloque y va sola (brief T13). Nombres que hay que escuchar en el TTS: Gödel (si falla, Gódel), Escher, Bach, Hofstadter, ilacertus, Twitter. Ningún bloque fuera de rango: ratio total 1,02.\n\nREVISIÓN CON EL AUTOR (7-nov). Leído entero el inglés de la serie y revisado frase a frase con los términos que decidió el autor el 7-nov (GLOSARIO.md, Brett Hall y David Deutsch). Cero avisos del normalizador. Sin cambios: la traducción es fiel, sin calcos y cumple las reglas del TTS."
+  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). Sin notas del editor. Artefacto del copiado en el inglés: falta el espacio tras la coma en «wrote,“I don’t want…»; no afecta al español. La cita de @illacertus va en estilo indirecto y sin arroba: un usuario de Twitter que se hace llamar ilacertus (una sola ele, para que el TTS no lea «iyacertus»). Se mantiene la repetición «empecé a leerlo, y empecé a leerlo, y empecé a leerlo», que es la gracia (brief T10). «We’re hoping to break it down for you» pasa a tú singular, esperamos poder desmenuzártelo (brief T11). Libros con su título español: El comienzo del infinito, La estructura de la realidad, Gödel, Escher, Bach. «20 years ago» va en letra, hace veinte años. Revisión: se unifica el tiempo verbal de las dos confesiones, se completa «las he leído y he intentado entenderlas», el bucle de lectura queda en una frase con su restricción «al menos en ciencia» bien colocada, y se reescribe la última frase de Naval. El único aviso del validador es «hablante no habitual Brett», que es informativo. El bloque 2, «Y la versión en audio.», es la única frase del bloque y va sola (brief T13). Nombres que hay que escuchar en el TTS: Gödel (si falla, Gódel), Escher, Bach, Hofstadter, ilacertus, Twitter. Ningún bloque fuera de rango: ratio total 1,02.\n\nREVISIÓN CON EL AUTOR (7-nov). Leído entero el inglés de la serie y revisado frase a frase con los términos que decidió el autor el 7-nov (GLOSARIO.md, Brett Hall y David Deutsch). Cero avisos del normalizador. Sin cambios: la traducción es fiel, sin calcos y cumple las reglas del TTS.",
+  "publicacion": {
+    "fecha": "2027-01-19",
+    "audio_url": "https://audio.spanishnav.al/2021/076-read.mp3",
+    "feed_guid": "spanishnav.al/2021/read",
+    "audio_bytes": 0,
+    "duracion_s": 0
+  }
 }

@@ -5,10 +5,10 @@
   "anio": 2021,
   "slug": "happiness",
   "titulo_es": "La felicidad",
-  "estado": "tts",
+  "estado": "montaje",
   "youtube": {
     "titulo": "La felicidad",
-    "descripcion": "",
+    "descripcion": "Episodio 77 de la traducción al español del podcast de Naval Ravikant.\nLa felicidad: .\n\n▶ Episodio original en YouTube: https://www.youtube.com/watch?v=3amLsamhtCg\n▶ Transcripción original en inglés: https://nav.al/happiness\n▶ Este episodio en español, con su transcripción: https://spanishnav.al/happiness\n▶ Canal original de Naval: https://www.youtube.com/@NavalR\n\nTraducción no oficial. Contenido original de Naval Ravikant, publicado en nav.al.\n\nEste podcast se ha traducido al español con inteligencia artificial. Puede haber errores o inconsistencias tanto en la traducción como en la dicción.\nLa transcripción se ha traducido del inglés al español con Claude Opus 5.5 (esfuerzo alto), de Anthropic. La voz en español se ha generado con Qwen3-TTS, un modelo de voz de código abierto fine-tuned con las voces de Naval y de otros participantes.\n\n¿Algún problema o queja? Escríbeme a podcast@spanishnav.al\n\n—\n\nUnofficial Spanish translation of Naval Ravikant's podcast. Original content by Naval Ravikant at nav.al.\nThis podcast has been translated into Spanish using artificial intelligence. There may be errors or inconsistencies in both the translation and the diction.\nThe transcript was translated from English to Spanish with Anthropic's Claude Opus 5.5 (high effort). The Spanish audio was generated with Qwen3-TTS, an open-source voice model fine-tuned on the voices of Naval and other participants.\nIf you run into any problems or have a complaint, reach me at podcast@spanishnav.al",
     "tags": [],
     "url": "",
     "url_original": "https://www.youtube.com/watch?v=3amLsamhtCg"
@@ -23,10 +23,17 @@
   "audio_editado_a_mano": false,
   "heredado": null,
   "escucha": {
-    "escuchado": false,
-    "resultado": null,
-    "fecha": null,
-    "feedback": ""
+    "escuchado": true,
+    "resultado": "bueno",
+    "fecha": "2026-11-27",
+    "feedback": "2026-11-27: bueno. Aprobado por sus cortos 053–067, todos escuchados y buenos (mismos clips); confirmar con el autor"
   },
-  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). Recopilación. El 077 Happiness no tiene texto propio: sus 49 bloques son, uno a uno y en el mismo orden, los bloques de los episodios 053 a 067 (053 philosopher, 054 material, 055 math, 056 skill, 057 desire, 058 smart, 059 inefficient, 060 least, 061 addiction, 062 unacceptable, 063 peace, 064 peace-motion, 065 silent, 066 consensus y 067 truth). El español se monta con sus traducciones aprobadas, sin cambiar una palabra: casan los 49 bloques y los 62 títulos de sección, así que las mismas frases suenan igual y hasta se podrán reutilizar los clips de TTS. Lo único traducido aquí es el título: La felicidad. titulo_seccion viene vacío en inglés y se deja vacío. Nota del editor de nav.al, quitada del texto y no locutada: «Una recopilación de todos mis episodios sobre la felicidad». El inglés no trae artefactos del copiado: ni corchetes ni insertos del editor. Hablantes: Naval en todos los bloques menos b04, que es de Nivi, como en el 053. Bloque fuera de rango: b02, con ratio 0,84, heredado del 053 b02. Las cuatro preguntas «How do I…?» se comprimen en «¿Cómo…?» y no falta contenido; la justificación es la misma que en las notas del 053. El validador de la skill marca un error en Formato 5 por titulo_seccion vacío. Es intencionado, porque el inglés lo trae vacío y la instrucción es dejarlo así. El normalizador con --simular da cero avisos. Ya se aplican las decisiones del autor heredadas (no se reabren): paz mental y paz frente a la mente, Lao Tse, test de inteligencia, «si pasa A, entonces pasa B» y «uno se come a otro». Antes de sintetizar hay que escuchar estos nombres: Osho, Kapil Gupta, Miyamoto Musashi, Lao Tse, Confucio, Sócrates, Buda, Robin Williams, Elon Musk, Warren Buffett, Bill Gates y el dicho sij (la palabra sij)."
+  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). Recopilación. El 077 Happiness no tiene texto propio: sus 49 bloques son, uno a uno y en el mismo orden, los bloques de los episodios 053 a 067 (053 philosopher, 054 material, 055 math, 056 skill, 057 desire, 058 smart, 059 inefficient, 060 least, 061 addiction, 062 unacceptable, 063 peace, 064 peace-motion, 065 silent, 066 consensus y 067 truth). El español se monta con sus traducciones aprobadas, sin cambiar una palabra: casan los 49 bloques y los 62 títulos de sección, así que las mismas frases suenan igual y hasta se podrán reutilizar los clips de TTS. Lo único traducido aquí es el título: La felicidad. titulo_seccion viene vacío en inglés y se deja vacío. Nota del editor de nav.al, quitada del texto y no locutada: «Una recopilación de todos mis episodios sobre la felicidad». El inglés no trae artefactos del copiado: ni corchetes ni insertos del editor. Hablantes: Naval en todos los bloques menos b04, que es de Nivi, como en el 053. Bloque fuera de rango: b02, con ratio 0,84, heredado del 053 b02. Las cuatro preguntas «How do I…?» se comprimen en «¿Cómo…?» y no falta contenido; la justificación es la misma que en las notas del 053. El validador de la skill marca un error en Formato 5 por titulo_seccion vacío. Es intencionado, porque el inglés lo trae vacío y la instrucción es dejarlo así. El normalizador con --simular da cero avisos. Ya se aplican las decisiones del autor heredadas (no se reabren): paz mental y paz frente a la mente, Lao Tse, test de inteligencia, «si pasa A, entonces pasa B» y «uno se come a otro». Antes de sintetizar hay que escuchar estos nombres: Osho, Kapil Gupta, Miyamoto Musashi, Lao Tse, Confucio, Sócrates, Buda, Robin Williams, Elon Musk, Warren Buffett, Bill Gates y el dicho sij (la palabra sij).",
+  "publicacion": {
+    "fecha": "2027-01-20",
+    "audio_url": "https://audio.spanishnav.al/2021/077-happiness.mp3",
+    "feed_guid": "spanishnav.al/2021/happiness",
+    "audio_bytes": 0,
+    "duracion_s": 0
+  }
 }

@@ -5,10 +5,10 @@
   "anio": 2021,
   "slug": "predictions",
   "titulo_es": "Las teorías son explicaciones, no predicciones",
-  "estado": "tts",
+  "estado": "montaje",
   "youtube": {
     "titulo": "Las teorías son explicaciones, no predicciones",
-    "descripcion": "",
+    "descripcion": "Episodio 97 de la traducción al español del podcast de Naval Ravikant.\nLas teorías son explicaciones, no predicciones: La predicción llega después de la explicación.\n\n▶ Episodio original en YouTube: https://www.youtube.com/watch?v=dt9b_ZWIr5Q\n▶ Transcripción original en inglés: https://nav.al/predictions\n▶ Este episodio en español, con su transcripción: https://spanishnav.al/predictions\n▶ Canal original de Naval: https://www.youtube.com/@NavalR\n\nTraducción no oficial. Contenido original de Naval Ravikant, publicado en nav.al.\n\nEste podcast se ha traducido al español con inteligencia artificial. Puede haber errores o inconsistencias tanto en la traducción como en la dicción.\nLa transcripción se ha traducido del inglés al español con Claude Opus 5.5 (esfuerzo alto), de Anthropic. La voz en español se ha generado con Qwen3-TTS, un modelo de voz de código abierto fine-tuned con las voces de Naval y de otros participantes.\n\n¿Algún problema o queja? Escríbeme a podcast@spanishnav.al\n\n—\n\nUnofficial Spanish translation of Naval Ravikant's podcast. Original content by Naval Ravikant at nav.al.\nThis podcast has been translated into Spanish using artificial intelligence. There may be errors or inconsistencies in both the translation and the diction.\nThe transcript was translated from English to Spanish with Anthropic's Claude Opus 5.5 (high effort). The Spanish audio was generated with Qwen3-TTS, an open-source voice model fine-tuned on the voices of Naval and other participants.\nIf you run into any problems or have a complaint, reach me at podcast@spanishnav.al",
     "tags": [],
     "url": "",
     "url_original": "https://www.youtube.com/watch?v=dt9b_ZWIr5Q"
@@ -23,10 +23,17 @@
   "audio_editado_a_mano": false,
   "heredado": null,
   "escucha": {
-    "escuchado": false,
-    "resultado": null,
-    "fecha": null,
-    "feedback": ""
+    "escuchado": true,
+    "resultado": "bueno",
+    "fecha": "2026-11-27",
+    "feedback": "2026-11-27: bueno. Aprobado con el 105, del que es un tramo con los mismos clips (el autor escuchó el 105 entero, 27-nov)"
   },
-  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). Sin notas del editor ni artefactos. Cifras en letra según el brief (T5): de veinte a treinta grados, otros diez grados, mil grados y unos cien grados. El símbolo de grados Celsius se dice solo grados. Beaker se traduce vaso de precipitados (el inglés empieza con un cazo y luego habla del vaso: se respeta). Precisely. Now, del principio de Brett queda Exacto. Ahora bien, en el mismo elemento que la frase siguiente. El inglés dice That escape velocity, the technical term is latent heat, requires energy, pero en rigor el calor latente es la energía y no la velocidad. Se ha traducido Esa velocidad de escape requiere energía, lo que en términos técnicos se llama calor latente, que es fiel y deja bien la física. We get a plateau se traduce La temperatura se estanca en unos cien grados, porque meseta no se entiende en voz alta. Términos fijos: inductivista, bayesiano, conjeturar, energía cinética, velocidad de escape, calor latente y extrapolar. El validador avisa de hablante no habitual Brett, que es propio de la serie. Ratio 1,06.\n\nREVISIÓN CON EL AUTOR (7-nov). Leído entero el inglés de la serie y revisado frase a frase con los términos que decidió el autor el 7-nov (GLOSARIO.md, Brett Hall y David Deutsch). Cero avisos del normalizador. Sin cambios: la traducción es fiel, sin calcos y cumple las reglas del TTS."
+  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). Sin notas del editor ni artefactos. Cifras en letra según el brief (T5): de veinte a treinta grados, otros diez grados, mil grados y unos cien grados. El símbolo de grados Celsius se dice solo grados. Beaker se traduce vaso de precipitados (el inglés empieza con un cazo y luego habla del vaso: se respeta). Precisely. Now, del principio de Brett queda Exacto. Ahora bien, en el mismo elemento que la frase siguiente. El inglés dice That escape velocity, the technical term is latent heat, requires energy, pero en rigor el calor latente es la energía y no la velocidad. Se ha traducido Esa velocidad de escape requiere energía, lo que en términos técnicos se llama calor latente, que es fiel y deja bien la física. We get a plateau se traduce La temperatura se estanca en unos cien grados, porque meseta no se entiende en voz alta. Términos fijos: inductivista, bayesiano, conjeturar, energía cinética, velocidad de escape, calor latente y extrapolar. El validador avisa de hablante no habitual Brett, que es propio de la serie. Ratio 1,06.\n\nREVISIÓN CON EL AUTOR (7-nov). Leído entero el inglés de la serie y revisado frase a frase con los términos que decidió el autor el 7-nov (GLOSARIO.md, Brett Hall y David Deutsch). Cero avisos del normalizador. Sin cambios: la traducción es fiel, sin calcos y cumple las reglas del TTS.",
+  "publicacion": {
+    "fecha": "2027-02-09",
+    "audio_url": "https://audio.spanishnav.al/2021/097-predictions.mp3",
+    "feed_guid": "spanishnav.al/2021/predictions",
+    "audio_bytes": 0,
+    "duracion_s": 0
+  }
 }

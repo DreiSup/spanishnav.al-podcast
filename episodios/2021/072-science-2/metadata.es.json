@@ -5,10 +5,10 @@
   "anio": 2021,
   "slug": "science-2",
   "titulo_es": "La ciencia es el motor que hace avanzar a la humanidad",
-  "estado": "tts",
+  "estado": "montaje",
   "youtube": {
     "titulo": "La ciencia es el motor que hace avanzar a la humanidad",
-    "descripcion": "",
+    "descripcion": "Episodio 72 de la traducción al español del podcast de Naval Ravikant.\nLa ciencia es el motor que hace avanzar a la humanidad: Creer en la ciencia es un oxímoron.\n\n▶ Episodio original en YouTube: https://www.youtube.com/watch?v=PMZkf_Z4Q58\n▶ Transcripción original en inglés: https://nav.al/science-2\n▶ Este episodio en español, con su transcripción: https://spanishnav.al/science-2\n▶ Canal original de Naval: https://www.youtube.com/@NavalR\n\nTraducción no oficial. Contenido original de Naval Ravikant, publicado en nav.al.\n\nEste podcast se ha traducido al español con inteligencia artificial. Puede haber errores o inconsistencias tanto en la traducción como en la dicción.\nLa transcripción se ha traducido del inglés al español con Claude Opus 5.5 (esfuerzo alto), de Anthropic. La voz en español se ha generado con Qwen3-TTS, un modelo de voz de código abierto fine-tuned con las voces de Naval y de otros participantes.\n\n¿Algún problema o queja? Escríbeme a podcast@spanishnav.al\n\n—\n\nUnofficial Spanish translation of Naval Ravikant's podcast. Original content by Naval Ravikant at nav.al.\nThis podcast has been translated into Spanish using artificial intelligence. There may be errors or inconsistencies in both the translation and the diction.\nThe transcript was translated from English to Spanish with Anthropic's Claude Opus 5.5 (high effort). The Spanish audio was generated with Qwen3-TTS, an open-source voice model fine-tuned on the voices of Naval and other participants.\nIf you run into any problems or have a complaint, reach me at podcast@spanishnav.al",
     "tags": [],
     "url": "",
     "url_original": "https://www.youtube.com/watch?v=PMZkf_Z4Q58"
@@ -23,10 +23,17 @@
   "audio_editado_a_mano": false,
   "heredado": null,
   "escucha": {
-    "escuchado": false,
-    "resultado": null,
-    "fecha": null,
-    "feedback": ""
+    "escuchado": true,
+    "resultado": "bueno",
+    "fecha": "2026-11-27",
+    "feedback": "2026-11-27: bueno. Aprobado con el 105, del que es un tramo con los mismos clips (el autor escuchó el 105 entero, 27-nov)"
   },
-  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). 072 Science Is the Engine That Pulls Humanity Forward (La ciencia es el motor que hace avanzar a la humanidad). Un bloque de Naval, 29 frases, ratio es/en 1,12, frase más larga de 34 palabras. Sin notas del editor ni artefactos del copiado. Las frases de menos de ocho palabras son todas preguntas (¿Qué sabemos que es verdad?, ¿Cómo sabemos que algo es verdad?, ¿Qué es un científico?, ¿Y qué es el método científico?). Citas sin comillas: It's the scientific method pasa a estilo indirecto (A veces la gente te dice que la ciencia es el método científico). La fórmula believe in science, which is an oxymoron, sigue el brief T10, pero con lo cual es un oxímoron en vez de que es un oxímoron, para que el oxímoron se refiera a la frase entera y no solo a la ciencia. Si el autor prefiere la forma literal del brief, hay que cambiarla también en la 105. Términos de la serie: falsables, comprobables (D3). Smartphone se traduce por móvil, que es como se dice en España, y así el TTS no lee el anglicismo. Junior high school chemistry experiment se traduce por el experimento de química que hicieron en el instituto. Steeped in the truth se traduce por anclado en la verdad. La frase larga sobre la productividad se parte en dos, igual que la del secuestro de la idea de ciencia, donde se repite el verbo (Otras veces la secuestra gente no tan bienintencionada) para que cada frase se entienda sola. Nombres a escuchar: Brett.\n\nREVISIÓN CON EL AUTOR (7-nov). Leído entero el inglés de la serie y revisado frase a frase con los términos que decidió el autor el 7-nov (GLOSARIO.md, Brett Hall y David Deutsch). Cero avisos del normalizador. Cambio: testable = contrastable (decisión del autor), b01 frase 23: predicciones falsables o contrastables. Mismo cambio en la 105."
+  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). 072 Science Is the Engine That Pulls Humanity Forward (La ciencia es el motor que hace avanzar a la humanidad). Un bloque de Naval, 29 frases, ratio es/en 1,12, frase más larga de 34 palabras. Sin notas del editor ni artefactos del copiado. Las frases de menos de ocho palabras son todas preguntas (¿Qué sabemos que es verdad?, ¿Cómo sabemos que algo es verdad?, ¿Qué es un científico?, ¿Y qué es el método científico?). Citas sin comillas: It's the scientific method pasa a estilo indirecto (A veces la gente te dice que la ciencia es el método científico). La fórmula believe in science, which is an oxymoron, sigue el brief T10, pero con lo cual es un oxímoron en vez de que es un oxímoron, para que el oxímoron se refiera a la frase entera y no solo a la ciencia. Si el autor prefiere la forma literal del brief, hay que cambiarla también en la 105. Términos de la serie: falsables, comprobables (D3). Smartphone se traduce por móvil, que es como se dice en España, y así el TTS no lee el anglicismo. Junior high school chemistry experiment se traduce por el experimento de química que hicieron en el instituto. Steeped in the truth se traduce por anclado en la verdad. La frase larga sobre la productividad se parte en dos, igual que la del secuestro de la idea de ciencia, donde se repite el verbo (Otras veces la secuestra gente no tan bienintencionada) para que cada frase se entienda sola. Nombres a escuchar: Brett.\n\nREVISIÓN CON EL AUTOR (7-nov). Leído entero el inglés de la serie y revisado frase a frase con los términos que decidió el autor el 7-nov (GLOSARIO.md, Brett Hall y David Deutsch). Cero avisos del normalizador. Cambio: testable = contrastable (decisión del autor), b01 frase 23: predicciones falsables o contrastables. Mismo cambio en la 105.",
+  "publicacion": {
+    "fecha": "2027-01-15",
+    "audio_url": "https://audio.spanishnav.al/2021/072-science-2.mp3",
+    "feed_guid": "spanishnav.al/2021/science-2",
+    "audio_bytes": 0,
+    "duracion_s": 0
+  }
 }

@@ -5,10 +5,10 @@
   "anio": 2021,
   "slug": "methods",
   "titulo_es": "Los métodos de las matemáticas son falibles",
-  "estado": "tts",
+  "estado": "montaje",
   "youtube": {
     "titulo": "Los métodos de las matemáticas son falibles",
-    "descripcion": "",
+    "descripcion": "Episodio 86 de la traducción al español del podcast de Naval Ravikant.\nLos métodos de las matemáticas son falibles: Aunque su objeto de estudio no lo sea.\n\n▶ Episodio original en YouTube: https://www.youtube.com/watch?v=CP_78xFrHxo\n▶ Transcripción original en inglés: https://nav.al/methods\n▶ Este episodio en español, con su transcripción: https://spanishnav.al/methods\n▶ Canal original de Naval: https://www.youtube.com/@NavalR\n\nTraducción no oficial. Contenido original de Naval Ravikant, publicado en nav.al.\n\nEste podcast se ha traducido al español con inteligencia artificial. Puede haber errores o inconsistencias tanto en la traducción como en la dicción.\nLa transcripción se ha traducido del inglés al español con Claude Opus 5.5 (esfuerzo alto), de Anthropic. La voz en español se ha generado con Qwen3-TTS, un modelo de voz de código abierto fine-tuned con las voces de Naval y de otros participantes.\n\n¿Algún problema o queja? Escríbeme a podcast@spanishnav.al\n\n—\n\nUnofficial Spanish translation of Naval Ravikant's podcast. Original content by Naval Ravikant at nav.al.\nThis podcast has been translated into Spanish using artificial intelligence. There may be errors or inconsistencies in both the translation and the diction.\nThe transcript was translated from English to Spanish with Anthropic's Claude Opus 5.5 (high effort). The Spanish audio was generated with Qwen3-TTS, an open-source voice model fine-tuned on the voices of Naval and other participants.\nIf you run into any problems or have a complaint, reach me at podcast@spanishnav.al",
     "tags": [],
     "url": "",
     "url_original": "https://www.youtube.com/watch?v=CP_78xFrHxo"
@@ -23,10 +23,17 @@
   "audio_editado_a_mano": false,
   "heredado": null,
   "escucha": {
-    "escuchado": false,
-    "resultado": null,
-    "fecha": null,
-    "feedback": ""
+    "escuchado": true,
+    "resultado": "bueno",
+    "fecha": "2026-11-27",
+    "feedback": "2026-11-27: bueno. Aprobado con el 105, del que es un tramo con los mismos clips (el autor escuchó el 105 entero, 27-nov)"
   },
-  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). 086 Los métodos de las matemáticas son falibles. Terminología del brief brett_deutsch: verdad necesaria, objeto de estudio, demostrar (no probar), modelo estándar, teoría de cuerdas, bosones gauge, falible. El titulo_seccion del inglés es media frase (Even if the subject matter is not) y se completa como propone el brief: Aunque su objeto de estudio no lo sea. Erratas del inglés, que no se ha tocado, traducidas por el sentido: en el bloque 1, «quarks are fundamental and electrons and fundamental» se traduce como «los quarks son fundamentales, y los electrones también»; «So, too in mathematics.», que no tiene verbo, queda como «Lo mismo pasa en las matemáticas.». Las rayas del inglés (a brain, which is a physical object…) se resuelven con subordinadas y una frase aparte. «Resolve», en el sentido de la resolución de un acelerador, se traduce «distinguir». En la revisión se dio sujeto a las frases que no se entendían solas (Este modelo describe…, un matemático puede tener los despistes…), y «mathematics is capable of error» pasó a «las matemáticas pueden contener errores» (las matemáticas no se equivocan; quien se equivoca es el matemático). El validador da un aviso informativo sobre el hablante Brett: es el hablante correcto en esta serie y no se puede quitar sin cambiar el speaker. Nombres para escuchar antes de sintetizar: Deutsch, quarks, bosones gauge. Ningún bloque fuera de 0,85 a 1,45 (ratio total 1,14).\n\nREVISIÓN CON EL AUTOR (7-nov). Leído entero el inglés de la serie y revisado frase a frase con los términos que decidió el autor el 7-nov (GLOSARIO.md, Brett Hall y David Deutsch). Cero avisos del normalizador. Sin cambios: la traducción es fiel, sin calcos y cumple las reglas del TTS."
+  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). 086 Los métodos de las matemáticas son falibles. Terminología del brief brett_deutsch: verdad necesaria, objeto de estudio, demostrar (no probar), modelo estándar, teoría de cuerdas, bosones gauge, falible. El titulo_seccion del inglés es media frase (Even if the subject matter is not) y se completa como propone el brief: Aunque su objeto de estudio no lo sea. Erratas del inglés, que no se ha tocado, traducidas por el sentido: en el bloque 1, «quarks are fundamental and electrons and fundamental» se traduce como «los quarks son fundamentales, y los electrones también»; «So, too in mathematics.», que no tiene verbo, queda como «Lo mismo pasa en las matemáticas.». Las rayas del inglés (a brain, which is a physical object…) se resuelven con subordinadas y una frase aparte. «Resolve», en el sentido de la resolución de un acelerador, se traduce «distinguir». En la revisión se dio sujeto a las frases que no se entendían solas (Este modelo describe…, un matemático puede tener los despistes…), y «mathematics is capable of error» pasó a «las matemáticas pueden contener errores» (las matemáticas no se equivocan; quien se equivoca es el matemático). El validador da un aviso informativo sobre el hablante Brett: es el hablante correcto en esta serie y no se puede quitar sin cambiar el speaker. Nombres para escuchar antes de sintetizar: Deutsch, quarks, bosones gauge. Ningún bloque fuera de 0,85 a 1,45 (ratio total 1,14).\n\nREVISIÓN CON EL AUTOR (7-nov). Leído entero el inglés de la serie y revisado frase a frase con los términos que decidió el autor el 7-nov (GLOSARIO.md, Brett Hall y David Deutsch). Cero avisos del normalizador. Sin cambios: la traducción es fiel, sin calcos y cumple las reglas del TTS.",
+  "publicacion": {
+    "fecha": "2027-01-29",
+    "audio_url": "https://audio.spanishnav.al/2021/086-methods.mp3",
+    "feed_guid": "spanishnav.al/2021/methods",
+    "audio_bytes": 0,
+    "duracion_s": 0
+  }
 }

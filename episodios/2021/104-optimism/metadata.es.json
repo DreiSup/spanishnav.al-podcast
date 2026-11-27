@@ -5,10 +5,10 @@
   "anio": 2021,
   "slug": "optimism",
   "titulo_es": "El optimismo racional es la salida",
-  "estado": "tts",
+  "estado": "montaje",
   "youtube": {
     "titulo": "El optimismo racional es la salida",
-    "descripcion": "",
+    "descripcion": "Episodio 104 de la traducción al español del podcast de Naval Ravikant.\nEl optimismo racional es la salida: El pesimismo se cumple a sí mismo.\n\n▶ Episodio original en YouTube: https://www.youtube.com/watch?v=Txyhd_qV25g\n▶ Transcripción original en inglés: https://nav.al/optimism\n▶ Este episodio en español, con su transcripción: https://spanishnav.al/optimism\n▶ Canal original de Naval: https://www.youtube.com/@NavalR\n\nTraducción no oficial. Contenido original de Naval Ravikant, publicado en nav.al.\n\nEste podcast se ha traducido al español con inteligencia artificial. Puede haber errores o inconsistencias tanto en la traducción como en la dicción.\nLa transcripción se ha traducido del inglés al español con Claude Opus 5.5 (esfuerzo alto), de Anthropic. La voz en español se ha generado con Qwen3-TTS, un modelo de voz de código abierto fine-tuned con las voces de Naval y de otros participantes.\n\n¿Algún problema o queja? Escríbeme a podcast@spanishnav.al\n\n—\n\nUnofficial Spanish translation of Naval Ravikant's podcast. Original content by Naval Ravikant at nav.al.\nThis podcast has been translated into Spanish using artificial intelligence. There may be errors or inconsistencies in both the translation and the diction.\nThe transcript was translated from English to Spanish with Anthropic's Claude Opus 5.5 (high effort). The Spanish audio was generated with Qwen3-TTS, an open-source voice model fine-tuned on the voices of Naval and other participants.\nIf you run into any problems or have a complaint, reach me at podcast@spanishnav.al",
     "tags": [],
     "url": "",
     "url_original": "https://www.youtube.com/watch?v=Txyhd_qV25g"
@@ -23,10 +23,17 @@
   "audio_editado_a_mano": false,
   "heredado": null,
   "escucha": {
-    "escuchado": false,
-    "resultado": null,
-    "fecha": null,
-    "feedback": ""
+    "escuchado": true,
+    "resultado": "bueno",
+    "fecha": "2026-11-27",
+    "feedback": "2026-11-27: bueno. Aprobado con el 105, del que es un tramo con los mismos clips (el autor escuchó el 105 entero, 27-nov)"
   },
-  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). 104 El optimismo racional es la salida. Sin notas del editor. Hablantes: Naval, Brett, Naval (tres bloques). Ratio global 1,09; ningún bloque fuera de rango; frase más larga de 29 palabras. El validador da un aviso informativo por el hablante Brett, que es el correcto según el brief (en los cortos va Brett, no Brett Hall); ese aviso no se puede quitar sin cambiar el hablante. Términos de la serie: feedback se traduce retroalimentación, como fija el brief; free market es mercado libre; rational optimism es optimismo racional; pessimism is self-fulfilling es el pesimismo se cumple a sí mismo, que va también en el subtítulo. Foodies se traduce gastrónomos. Wreck and ruin se traduce irse a pique. La enumeración de la sociedad, la familia y los amigos, que en inglés va entre rayas, se pasa a una frase propia con verbo. Those are much better predictors se funde con la frase anterior y se traduce esas son señales mucho más fiables. So stay optimistic tiene menos de ocho palabras y se funde con la frase anterior: así que mantente optimista. Revisión: se ha quitado el calco operar, se ha reformulado la frase de ser optimista respecto a que y se ha fundido una frase de siete palabras sobre las redes sociales. Nada que escuchar con atención especial en el TTS.\n\nREVISIÓN CON EL AUTOR (7-nov). Leído entero el inglés de la serie y revisado frase a frase con los términos que decidió el autor el 7-nov (GLOSARIO.md, Brett Hall y David Deutsch). Cero avisos del normalizador. Sin cambios: la traducción es fiel, sin calcos y cumple las reglas del TTS."
+  "notas": "Inglés sacado del Google Doc anual de Drive; cuadra palabra a palabra con el documento. Traducido por el especialista de su grupo y revisado por un revisor independiente (workflow del 4-nov). 104 El optimismo racional es la salida. Sin notas del editor. Hablantes: Naval, Brett, Naval (tres bloques). Ratio global 1,09; ningún bloque fuera de rango; frase más larga de 29 palabras. El validador da un aviso informativo por el hablante Brett, que es el correcto según el brief (en los cortos va Brett, no Brett Hall); ese aviso no se puede quitar sin cambiar el hablante. Términos de la serie: feedback se traduce retroalimentación, como fija el brief; free market es mercado libre; rational optimism es optimismo racional; pessimism is self-fulfilling es el pesimismo se cumple a sí mismo, que va también en el subtítulo. Foodies se traduce gastrónomos. Wreck and ruin se traduce irse a pique. La enumeración de la sociedad, la familia y los amigos, que en inglés va entre rayas, se pasa a una frase propia con verbo. Those are much better predictors se funde con la frase anterior y se traduce esas son señales mucho más fiables. So stay optimistic tiene menos de ocho palabras y se funde con la frase anterior: así que mantente optimista. Revisión: se ha quitado el calco operar, se ha reformulado la frase de ser optimista respecto a que y se ha fundido una frase de siete palabras sobre las redes sociales. Nada que escuchar con atención especial en el TTS.\n\nREVISIÓN CON EL AUTOR (7-nov). Leído entero el inglés de la serie y revisado frase a frase con los términos que decidió el autor el 7-nov (GLOSARIO.md, Brett Hall y David Deutsch). Cero avisos del normalizador. Sin cambios: la traducción es fiel, sin calcos y cumple las reglas del TTS.",
+  "publicacion": {
+    "fecha": "2027-02-16",
+    "audio_url": "https://audio.spanishnav.al/2021/104-optimism.mp3",
+    "feed_guid": "spanishnav.al/2021/optimism",
+    "audio_bytes": 0,
+    "duracion_s": 0
+  }
 }
